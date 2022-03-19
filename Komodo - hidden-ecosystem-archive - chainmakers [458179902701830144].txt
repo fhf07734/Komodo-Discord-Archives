@@ -1,0 +1,5154 @@
+==============================================================
+Guild: Komodo
+Channel: hidden-ecosystem-archive / chainmakers
+Topic: We help you get set up with all that the Komodo Platform offers: 
+- Komodo blockchain, 
+insight explorer, 
+electrum Simple Payment Verifier, 
+doing a dICO, 
+get listed on several exchanges, 
+getting dPoW protection from Komodo Notary Nodes
+==============================================================
+
+[18-Jun-18 02:53 AM] Mylo#8306
+what's your website?  so i can put on link in https://www.reddit.com/r/komodoplatform/comments/8rv5od/how_many_dapps_are_on_or_plan_on_using_komodo/?st=jik2sgvd&sh=1c6f2d66
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/8rv5od/how_many_dapps_are_on_or_plan_on_using_komodo/?st=jik2sgvd&sh=1c6f2d66
+r/komodoplatform - How many dapps are on or plan on using Komodo? ...
+10 votes and 3 so far on reddit
+
+
+[18-Jun-18 06:20 AM] jorian#4555
+@Mylo https://chainmakers.co
+
+
+[18-Jun-18 06:20 AM] jorian#4555
+but it's not done yet
+
+
+[18-Jun-18 06:24 AM] Mylo#8306
+ok thanks - all the best for launch
+
+
+[18-Jun-18 07:16 AM] Audo#5667
+I moved this channel to 'ecosystem' category.
+
+
+[20-Jun-18 11:48 PM] Audo#5667
+Did you guys want to bridge this channel to another discord channel? Let me know and we will get it done. I need an inivation link to your discord.
+
+
+[02-Jul-18 06:07 AM] Karl#2283
+hello who's the admin here, my company is interested to use your blockchain for assets.
+
+
+[02-Jul-18 06:08 AM] Karl#2283
+Pls pm me, have questions.
+
+{Reactions}
+👍 (5) 
+
+[02-Jul-18 06:05 PM] glx#4214
+@jorian Hey man how are you?  Where is Siu?  How do we set up a direct chat here?
+
+
+[07-Jul-18 01:24 AM] jl777c#5810
+do you want CHAIN listed on a small central exchange?
+
+
+[07-Jul-18 01:41 AM] jorian#4555
+@jl777c yes, would be nice!
+
+
+[07-Jul-18 06:05 AM] siu#3920
+yes!
+
+
+[08-Jul-18 07:20 AM] siu#3920
+hi guys, here is a tease of our new logo, let us know what you think about it
+
+{Reactions}
+👍 (2) 
+
+[08-Jul-18 07:20 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/465522540853460993/hd-logo.png
+
+
+[08-Jul-18 08:45 AM] jorian#4555
+i have discord in white, i don't see the logo 😄
+
+
+[08-Jul-18 09:10 AM] siu#3920
+🤦
+
+
+[08-Jul-18 09:28 AM] ComputerGenie#2331
+`i have discord in white` Because you don't like your retinas? 🌞
+
+{Reactions}
+😂 (2) trollface 
+
+[09-Jul-18 01:59 AM] Cryptoon#3362
+Same
+
+
+[09-Jul-18 01:59 AM] Cryptoon#3362
+I like the white one more as it resembles the old slack
+
+
+[09-Jul-18 01:59 AM] Cryptoon#3362
+Like the logo tho
+
+
+[09-Jul-18 05:44 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/465860785164255254/ft-logo.png
+
+
+[09-Jul-18 05:44 AM] siu#3920
+this one is better for different themes
+
+
+[09-Jul-18 08:41 AM] Mylo#8306
+chainmakers have a twitter?
+
+
+[09-Jul-18 08:46 AM] PTYX#6840
+they have a bct and i think twitter is on the way
+
+
+[11-Jul-18 01:28 AM] Mylo#8306
+thanks mate
+
+
+[11-Jul-18 02:10 AM] jorian#4555
+there is a twitter
+
+
+[11-Jul-18 02:10 AM] jorian#4555
+@siu knows
+
+
+[11-Jul-18 02:11 AM] jorian#4555
+but not used yet
+
+
+[11-Jul-18 11:55 PM] k50#7856
+Hi @jorian, it's me Kean here. Finally I've found you guys from the support room! Is it possible to setup a test dICO first (by creating a test AssetChain that has no value) so we know all the things we need to prepare in advance?
+
+
+[13-Jul-18 03:22 AM] jorian#4555
+@k50 I dm'ed you
+
+
+[13-Jul-18 07:52 AM] FishyGuts#5085
+Hey guys, is GLX going off this weekend?
+
+
+[13-Jul-18 07:52 AM] FishyGuts#5085
+GLX
+An Emerging Technology Platform for Global Financial Markets 
+by chainmakers
+
+ Website https://glx.com
+ Whitepaper
+ Token Sale 1 BTC = 650,000 GLXT USD $0.01
+ Launching 15. July 2018
+
+{Embed}
+https://glx.com
+GLX - Emerging Technology for Global Financial Markets
+GLX is a blockchain-powered digital reality platform for global financial markets. We are building an open, decentralized, and connected suite of products and services that will enable new business models to emerge.
+https://images-ext-2.discordapp.net/external/vOCSETwwqQy787epiI-zkTLhnGLDMboqdJlYLVGAz1I/https/glx.co/wp-content/uploads/sites/13/2017/01/glx-blog-feature-image-1600x1200-opt.jpg
+
+
+[13-Jul-18 07:53 AM] FishyGuts#5085
+I'll throw together a quick KMD giveaway for it.   I completely spaced on this coming up.
+
+
+[13-Jul-18 02:29 PM] siu#3920
+Yes. We are doing the final arrangements to get glxt dico running
+
+{Reactions}
+🚀 (2) 🐙 
+
+[13-Jul-18 04:51 PM] FishyGuts#5085
+Awesome job @siu ,  will it begin on Sunday?
+
+
+[13-Jul-18 04:53 PM] FishyGuts#5085
+I can run a flash 48 hour KMD giveaway to buy into the dICO.    
+Between the last three I've done, i've been able to garner about 200K views and thousands of interactions and over 100 entrants.
+Glad to do it from my own KMD pile, just a few to get someone to buy in.   Maybe 25 of my own and 15 from @Alright (he donated 15 "kmd" to the last raffle right after it ended so I pushed it to this one).
+
+
+[13-Jul-18 04:54 PM] FishyGuts#5085
+If so I will spam it on twitter and people here can spam it for exposure.   Typically the entry requires a RT with three tags.   If you have any thoughts or ideas, I am all ears 😃
+
+
+[13-Jul-18 04:54 PM] siu#3920
+Let me consult wnd come back to you tomorrow.
+
+
+[14-Jul-18 04:15 AM] jorian#4555
+https://discord.gg/9JnWGn4
+
+
+[19-Jul-18 12:15 PM] DG#6934
+Hi guys any update when the GLXT dicoapp will be available?
+
+
+[19-Jul-18 12:23 PM] jorian#4555
+soon, we're still working on it
+
+
+[26-Jul-18 07:59 AM] carl#3101
+test
+
+
+[26-Jul-18 08:01 AM] carl#3101
+test2
+
+
+[26-Jul-18 08:02 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> @jorian am I seeing this orderbook wrong
+
+
+[26-Jul-18 08:04 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian> what is it
+
+
+[26-Jul-18 08:04 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Or is the price people are offering higher than the price people are asking?
+
+
+[26-Jul-18 08:04 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian> buy is 0.00000001
+
+
+[26-Jul-18 08:04 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian> sell is 0.00012538
+
+
+[26-Jul-18 08:05 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Ah wait no
+
+
+[26-Jul-18 08:05 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> you are right
+
+
+[26-Jul-18 08:05 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Was looking at sum as the price in btc
+
+
+[26-Jul-18 08:05 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian> ah 😛
+
+
+[26-Jul-18 08:06 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Thought the buy price was 20k sats instead of 1 😄
+
+
+[26-Jul-18 08:09 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian> heheh, that would be an arbitrage opportunity
+
+
+[31-Jul-18 05:53 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> s
+
+
+[07-Aug-18 10:02 PM] FishyGuts#5085
+Hey folks.  Any news on the dICO?
+
+
+[07-Aug-18 10:03 PM] FishyGuts#5085
+Really want to run a raffle for KMD/GLX
+
+
+[08-Aug-18 02:19 AM] Cryptoon#3362
+I already bought glx? 😄
+
+
+[09-Aug-18 04:55 AM] siu#3920
+GLX is developing its own iteration of some tools so they might take some time to go public.
+
+
+[09-Aug-18 04:55 AM] siu#3920
+They have not backed down or anything.
+
+
+[09-Aug-18 04:56 AM] siu#3920
+On the contrary, they have been working hard to get KMD tech to a better UX.
+
+
+[09-Aug-18 12:30 PM] Cryptoon#3362
+I chatted with some of the glx guys on their platform
+
+
+[09-Aug-18 12:31 PM] Cryptoon#3362
+Seem to know what they are doing
+
+
+[09-Aug-18 12:31 PM] Cryptoon#3362
+Platform needs some tweaking though
+
+
+[09-Aug-18 12:31 PM] Cryptoon#3362
+But if it takes off should be good
+
+
+[10-Aug-18 01:18 PM] Ara#8697
+Hi! Just wonder how mutch will be the yearly cost for using KOMODO main chain notarization for asset chain? In whitepaper it says 333KMD yearly. Is it still true, or price was changed?
+
+
+[10-Aug-18 01:26 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> Hello! The price we charge for annual notarization is 300KMD and 800 of the coin being notarized
+
+
+[10-Aug-18 01:43 PM] Ara#8697
+Also can we use JUMBLR in asset chain?
+
+
+[10-Aug-18 01:47 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> Yes... JUMBLR is integrated in every komodo blockchain
+
+
+[10-Aug-18 01:59 PM] xRobeSx#5136
+is it really siu? I thought JUMBLR was just for KMD
+
+
+[10-Aug-18 02:00 PM] jl777c#5810
+yes, KMD only
+
+
+[10-Aug-18 02:01 PM] jl777c#5810
+the more jumblr in one chain the better
+
+
+[10-Aug-18 02:05 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> That is weird since i see the jumblr rpc calls undrr the assetchains
+
+
+[10-Aug-18 02:25 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> Im sorry. I verified. Even though the rpc calls are there for all assetchains. Its not reliable to jumblr funds on chains with low tx volume so its not activated on assetchains
+
+
+[11-Aug-18 10:08 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Hi guys... we want to announce that our website is live!
+
+
+[11-Aug-18 10:08 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> https://chainmakers.co/
+
+
+[11-Aug-18 10:10 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Hope you guys like it!
+
+
+[11-Aug-18 10:10 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> @here
+
+
+[12-Aug-18 05:43 PM] PTYX#6840
+👏
+
+
+[13-Aug-18 07:56 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Cool website!
+
+
+[13-Aug-18 07:56 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> thanks! 😃
+
+
+[13-Aug-18 07:57 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> After you go to the profile of one of the teammembers (yours for example)
+
+
+[13-Aug-18 07:57 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> None of the links work besides chainmakers in the left upper corner
+
+
+[13-Aug-18 07:57 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> 
+https://cdn.discordapp.com/attachments/467648908361990146/478577944470618171/Schermafbeelding_2018-08-13_om_16.57.40.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/467648908361990146/478577944470618171/Schermafbeelding_2018-08-13_om_16.57.40.png
+https://media.discordapp.net/attachments/467648908361990146/478577944470618171/Schermafbeelding_2018-08-13_om_16.57.40.png
+
+
+[13-Aug-18 07:58 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> so from this page if you click on komodo blockchains etc it doenst do anything
+
+
+[13-Aug-18 07:58 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> (safari on mac osx
+
+
+[13-Aug-18 07:58 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> hmm checking
+
+
+[13-Aug-18 07:58 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> thanks for noticing
+
+
+[13-Aug-18 07:58 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> might be safari related, not sure
+
+
+[13-Aug-18 07:59 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> 
+https://cdn.discordapp.com/attachments/467648908361990146/478578330468089866/Schermafbeelding_2018-08-13_om_16.59.15.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/467648908361990146/478578330468089866/Schermafbeelding_2018-08-13_om_16.59.15.png
+https://media.discordapp.net/attachments/467648908361990146/478578330468089866/Schermafbeelding_2018-08-13_om_16.59.15.png
+
+
+[13-Aug-18 07:59 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> also an image that doesnt load
+
+
+[13-Aug-18 08:02 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> fixed
+
+
+[13-Aug-18 08:02 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> which one?
+
+
+[13-Aug-18 08:02 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> image or link?
+
+
+[13-Aug-18 08:02 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> the footer logo
+
+
+[13-Aug-18 08:03 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Not working here, might need to delete cookies first
+
+
+[13-Aug-18 08:07 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> try again now
+
+
+[13-Aug-18 08:55 AM] Gateway#3763
+[dscrd-chnmkrs] <barbierir> not working for me too, I use firefox
+
+
+[13-Aug-18 09:04 AM] Gateway#3763
+[dscrd-chnmkrs] <barbierir> I also spotted these spelling errors in the main page "dependency of the main platform’s currency and centralisation. Komodo Blokcchains " I think it should be  "dependency oN the main platform’s currency and centralisation. Komodo BlokcKhains"
+
+
+[13-Aug-18 09:36 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> thanks! fixed
+
+
+[13-Aug-18 09:36 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> does the footer logo still doesnt show?
+
+
+[13-Aug-18 09:46 AM] Gateway#3763
+[dscrd-chnmkrs] <barbierir> I can't see a logo in the footer, the links in the footer work normally from the main page, only if I enter a team member profile all links are dead except to the main page
+
+
+[13-Aug-18 09:46 AM] Gateway#3763
+[dscrd-chnmkrs] <barbierir> tested on Chrome too
+
+
+[13-Aug-18 09:49 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> 
+https://cdn.discordapp.com/attachments/467648908361990146/478606058357522435/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/467648908361990146/478606058357522435/unknown.png
+https://media.discordapp.net/attachments/467648908361990146/478606058357522435/unknown.png
+
+
+[13-Aug-18 09:49 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> should show a logo below the test in the contact form
+
+
+[13-Aug-18 09:50 AM] Gateway#3763
+[dscrd-chnmkrs] <barbierir> ah yes that logo is there
+
+
+[13-Aug-18 09:50 AM] Gateway#3763
+[dscrd-chnmkrs] <barbierir> it's not clickable
+
+
+[13-Aug-18 10:03 AM] siu#3920
+No. Doesnt need to be clickable
+
+
+[13-Aug-18 12:53 PM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> footer logo works
+
+
+[13-Aug-18 12:54 PM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> from the teammember page links still not clickable though, I think it's because they refer to something that is not on that page
+
+
+[13-Aug-18 01:46 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> The menu looks right though
+
+
+[13-Aug-18 01:46 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> Will see if i can fix it
+
+
+[25-Aug-18 05:25 AM] Deleted User#0000
+Anyone from the team have a few minutes for me in private chat?
+
+
+[25-Aug-18 05:26 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Hello. Please DM me .
+
+
+[03-Sep-18 07:42 AM] Deleted User#0000
+FYI - blockchain has a typo (“Blokcchains”) in the middle of the small paragraph under “Why A Komodo Blockchain” (on mobile version)
+
+
+[04-Sep-18 03:07 AM] siu#3920
+Ooppsss, thanks! Will fix
+
+
+[05-Sep-18 11:18 AM] Alright#0419
+@siu @MagnaDev is looking to have a new chain notarized
+
+
+[05-Sep-18 01:07 PM] siu#3920
+Thanks! @jorian is already in contact.
+
+
+[28-Sep-18 07:01 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> chain spv server seems down or agama isnt connecting with it fyi
+
+
+[28-Sep-18 07:01 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Hmm, thanks
+
+
+[28-Sep-18 07:02 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> glx not either, but I think that might be deliberate?
+
+
+[28-Sep-18 07:02 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Yes, they took down the servers
+
+
+[28-Sep-18 07:03 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> ah k, because ronald is asking for txid's for when I bought some glx on hyperdex, but cant look them up anymore on atomicexplorer
+
+
+[28-Sep-18 07:03 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> But at some point I had to remove appdata for hyperdex because of some issues and so cant look it up like that anymore
+
+
+[28-Sep-18 07:04 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> You can look for it at http://glxt.explorer.dexstats.info/
+
+{Embed}
+http://glxt.explorer.dexstats.info/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[28-Sep-18 07:05 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Wait...
+
+
+[28-Sep-18 07:06 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> isnt that one the same as the one atomicexplorer is using?
+
+
+[28-Sep-18 07:07 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> No, atomic explorer was pointing to their server
+
+
+[28-Sep-18 07:07 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> http://glxt.explorer.dexstats.info/blocks
+
+
+[28-Sep-18 07:07 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> found a working one
+
+
+[28-Sep-18 07:07 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Yeah i fixed the link now
+
+
+[28-Sep-18 07:08 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Ok, now to find out how much kmd I paid
+
+
+[28-Sep-18 07:10 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Using the same address in kmd explorer and looking up the transaction around the same date should work
+
+
+[28-Sep-18 07:10 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> yeah found it
+
+
+[28-Sep-18 07:10 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Sent to Ronald over glx, thanks for the help with the explorers 😃
+
+
+[28-Sep-18 07:11 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Cool. Good that you got your refund
+
+
+[28-Sep-18 07:12 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> Well didnt get it yet, but they did ask for tx ids etc... Only 30ish kmd worth or so (back when was worth 1,75$ though)
+
+
+[10-Oct-18 09:50 AM] FishyGuts#5085
+Hey guys, I just want to let you know I have had a KMD tipbot made for KMD discord.  
+If you have your own discord, it will work there for KMD and you are free to use it.   
+
+DM me for the link and I will get you setup with the creator.
+
+
+[17-Oct-18 01:52 PM] siu#3920
+@everyone Chainmakers has just created a coin named KMDICE
+
+{Reactions}
+😃 (9) 👌 (8) 🎲 (8) 🥃 (3) 🍺 (3) rum (6) pirate (7) Komodo (11) 
+
+[17-Oct-18 01:53 PM] jorian#4555
+free to mine
+
+
+[17-Oct-18 01:53 PM] jorian#4555 (pinned)
+```./komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=144.76.217.232```
+
+
+[17-Oct-18 01:54 PM] Cryptoon#3362
+Whats will it be used for? :p
+
+
+[17-Oct-18 01:54 PM] DG#6934
+where I can read more?
+
+
+[17-Oct-18 01:54 PM] Xuan#2488
+More info anywhere?
+
+
+[17-Oct-18 01:54 PM] manugarc#3097
+Betting?
+
+
+[17-Oct-18 01:54 PM] jorian#4555
+Betting indeed
+
+{Reactions}
+🎲 (5) 
+
+[17-Oct-18 01:54 PM] jorian#4555
+info coming
+
+
+[17-Oct-18 01:55 PM] jorian#4555
+but before we get 'unfair mining' accusations, we want to announce right now
+
+
+[17-Oct-18 01:55 PM] jorian#4555
+it is being notarized as we speak, but until actual notarizations happen, it's not safe to play
+
+
+[17-Oct-18 01:55 PM] jorian#4555
+WTB KMDICE
+
+
+[17-Oct-18 01:56 PM] manugarc#3097
+it’s ok to mine?
+
+
+[17-Oct-18 01:56 PM] Cryptoon#3362
+Cpu mineable from agama or whats the best method?
+
+
+[17-Oct-18 01:56 PM] jorian#4555
+it's almost not cpu minable anymore...
+
+
+[17-Oct-18 01:56 PM] jorian#4555
+that era has passed
+
+
+[17-Oct-18 01:56 PM] Cryptoon#3362
+😭😭
+
+
+[17-Oct-18 01:56 PM] jorian#4555
+KMDICE has a coin supply of 21 million, of which 10.5 million has been premined
+
+
+[17-Oct-18 01:57 PM] jorian#4555
+this premine has gone into a fund
+
+
+[17-Oct-18 01:57 PM] Cryptoon#3362
+Some for CHAIN hodlers?
+
+
+[17-Oct-18 01:57 PM] jorian#4555
+we can think about that
+
+
+[17-Oct-18 01:57 PM] Cryptoon#3362
+Who owns/manages the fund?
+
+
+[17-Oct-18 01:58 PM] Cryptoon#3362
+Chainmakers/supernet/jl/?
+
+
+[17-Oct-18 01:58 PM] spuddyMiner#2499
+50% premine?? What is this? Lol
+
+
+[17-Oct-18 01:58 PM] jorian#4555
+let me finish
+
+{Reactions}
+👌 parrot 
+
+[17-Oct-18 01:58 PM] jorian#4555
+this fund is a dicefund, based on the CryptoConditions that have been tested and developed in the last weeks.
+
+
+[17-Oct-18 02:00 PM] Raydeon#2053
+Is there a website.
+
+
+[17-Oct-18 02:00 PM] jorian#4555
+what this basically means is that when you own KMDICE, you can use that to do some gambling. 
+```minimum bet: 0.001
+maximum bet: 1000
+maximum odds: 1500
+```
+so, for example, you can bet 10 KMDICE at 5:1. if you win, you get 50 back
+
+
+[17-Oct-18 02:00 PM] jorian#4555
+website is being worked on as we speak
+
+
+[17-Oct-18 02:01 PM] CheeseBaby#1954
+Bet on what?
+
+
+[17-Oct-18 02:02 PM] Cryptoon#3362
+Betting, that I can do
+
+
+[17-Oct-18 02:02 PM] crumb | $ARRR Financial Privacy#2550
+what makes it different from CHIPS? future functionality wise that is
+
+
+[17-Oct-18 02:02 PM] jorian#4555
+DICE, so if you bet 5:1, you have 1/5 chance you win. 6:1: 1/6. 60:1, 1/60
+
+
+[17-Oct-18 02:02 PM] Cryptoon#3362
+If only I betted Dries Mertens to pwn holland yesterday 🤔
+
+
+[17-Oct-18 02:02 PM] dolladollaiv#3294
+So the premine is essentially the "house"?
+
+
+[17-Oct-18 02:02 PM] jorian#4555
+yes
+
+{Reactions}
+🔥 (3) 🐲 (2) 👍 
+
+[17-Oct-18 02:03 PM] jorian#4555
+you can verify this yourself
+
+
+[17-Oct-18 02:03 PM] Cryptoon#3362
+Sweet
+
+
+[17-Oct-18 02:03 PM] CryptoNinjaa#5350
+This is fire
+
+
+[17-Oct-18 02:03 PM] Cryptoon#3362
+The degen inside will like this
+
+
+[17-Oct-18 02:03 PM] crumb | $ARRR Financial Privacy#2550
+why use KMDICE instead of CHIPS as a gaming/betting token
+
+
+[17-Oct-18 02:03 PM] jorian#4555
+CHIPS is far from done
+
+
+[17-Oct-18 02:04 PM] jorian#4555
+and uses a completely different approach
+
+
+[17-Oct-18 02:04 PM] jorian#4555
+essentially, you will be able to do the same with CHIPS
+
+
+[17-Oct-18 02:04 PM] jorian#4555
+but CHIPS is not done yet. KMDICE is.
+
+
+[17-Oct-18 02:04 PM] CryptoNinjaa#5350
+Kmdice has a ring to it also
+
+
+[17-Oct-18 02:04 PM] crumb | $ARRR Financial Privacy#2550
+just trying to place the pieces into bigger puzzle picture
+
+
+[17-Oct-18 02:04 PM] siu#3920
+We dont have any house hedge btw. So the coins in the fund are out of our control.
+
+{Reactions}
+💯 
+
+[17-Oct-18 02:05 PM] CryptoNinjaa#5350
+Oh thtl be fun
+
+
+[17-Oct-18 02:05 PM] crumb | $ARRR Financial Privacy#2550
+so CHIPS and KMDICE are competitors
+
+
+[17-Oct-18 02:05 PM] jorian#4555
+CHIPS is useful, because it uses lightning channels
+
+
+[17-Oct-18 02:05 PM] ComputerGenie#7004
+_throws 13 GPUs at it and becomes `dice god`_
+
+{Reactions}
+😇 (3) 
+
+[17-Oct-18 02:05 PM] CheeseBaby#1954
+Are the bets event driven?
+
+
+[17-Oct-18 02:05 PM] siu#3920
+We think that with this coin we can move ahead development on top of Crypto Conditions.
+
+
+[17-Oct-18 02:06 PM] jorian#4555
+which means there are no on-chain transactions of whatever many transactions happen inside these channels
+
+
+[17-Oct-18 02:06 PM] jorian#4555
+this is useful for playing poker
+
+
+[17-Oct-18 02:06 PM] jorian#4555
+ahh, @ComputerGenie has arrived
+
+
+[17-Oct-18 02:06 PM] CryptoNinjaa#5350
+Lol @ComputerGenie  thats slow for u. Expected WTS 100k Kmdice 😂
+
+
+[17-Oct-18 02:06 PM] jorian#4555
+let the hashrate climb
+
+
+[17-Oct-18 02:06 PM] WayneDingo#1455
+Sounds like a lot of losses for tarded gamblers
+
+
+[17-Oct-18 02:07 PM] CheeseBaby#1954
+Event driven as in a confirmed event happened, is recorded, and the CC pays out
+
+
+[17-Oct-18 02:07 PM] CryptoNinjaa#5350
+Im not a gambler but ill speculate the crap out of a gambling coin 😂
+
+
+[17-Oct-18 02:07 PM] ComputerGenie#7004
+tbt, I'm having network issues and mining nothing, but figured I'd toss my :trollface: into the convo 😛
+
+
+[17-Oct-18 02:07 PM] crumb | $ARRR Financial Privacy#2550
+so using KMDICE for poker is not as good/convenient/possible as CHIPS?
+
+
+[17-Oct-18 02:08 PM] Cryptoon#3362
+If there is no house edge then in theory the losses are only tx fees? @WayneDingo
+
+
+[17-Oct-18 02:08 PM] CryptoNinjaa#5350
+Need a brown sheet
+
+
+[17-Oct-18 02:08 PM] Cryptoon#3362
+@crumb | $ARRR Financial Privacy for kmdice I assume every move is a tx, which is not the case when using lightning
+
+
+[17-Oct-18 02:09 PM] siu#3920
+The bet is just a other type of tx for KMDICE
+
+
+[17-Oct-18 02:09 PM] Cryptoon#3362
+Playing poker become expensive if every move from every player at the table is a tx
+
+
+[17-Oct-18 02:09 PM] siu#3920
+Only that in a CC address
+
+
+[17-Oct-18 02:09 PM] WayneDingo#1455
+Is this one of those provably fair random number generator deals where you bet a token and 3 numbers spin to the high or low?
+
+
+[17-Oct-18 02:09 PM] jorian#4555
+you can't play poker with KMDICE
+
+
+[17-Oct-18 02:10 PM] jorian#4555
+it is very simple: bet an amount at some odds; the higher the odds, the higher the payout if you win
+
+
+[17-Oct-18 02:10 PM] crumb | $ARRR Financial Privacy#2550
+makes sense @Cryptoon, thanks for info
+
+
+[17-Oct-18 02:10 PM] siu#3920
+This is betting against odds, that is basically it.
+
+
+[17-Oct-18 02:10 PM] crumb | $ARRR Financial Privacy#2550
+thanks @jorian
+
+
+[17-Oct-18 02:11 PM] WayneDingo#1455
+Sounds like the coinpot multiplier lol
+
+
+[17-Oct-18 02:12 PM] Cryptoon#3362
+WTB 100k KMDICE for 100kmd 🤓
+
+
+[17-Oct-18 02:12 PM] jorian#4555
+http://kmdice.explorer.dexstats.info
+
+{Embed}
+http://kmdice.explorer.dexstats.info/.
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[17-Oct-18 02:12 PM] Cryptoon#3362
+If someone is selling then I will play the fund for full amount at 100:1
+
+
+[17-Oct-18 02:12 PM] CryptoNinjaa#5350
+😂
+
+
+[17-Oct-18 02:13 PM] Cryptoon#3362
+If I win I will be the new house
+
+
+[17-Oct-18 02:13 PM] Cryptoon#3362
+😎😎
+
+
+[17-Oct-18 02:13 PM] siu#3920
+Highest bet is 1000 at 1500:1
+
+
+[17-Oct-18 02:13 PM] Cryptoon#3362
+Brooooooo
+
+
+[17-Oct-18 02:14 PM] siu#3920
+That would be a 1.5million prize
+
+
+[17-Oct-18 02:14 PM] Cryptoon#3362
+@Deleted User I know the degen inside of you will love this
+
+
+[17-Oct-18 02:14 PM] WayneDingo#1455
+This is sounding like the site for suckas
+
+
+[17-Oct-18 02:14 PM] Cryptoon#3362
+Damn there goes the plan of becoming a casino boss
+
+
+[17-Oct-18 02:14 PM] Cryptoon#3362
+@siu
+
+
+[17-Oct-18 02:15 PM] Cryptoon#3362
+Its a start @WayneDingo
+
+
+[17-Oct-18 02:15 PM] Cryptoon#3362
+And as there is no edge for the house who cares
+
+
+[17-Oct-18 02:15 PM] Cryptoon#3362
+Its to have some fun
+
+
+[17-Oct-18 02:16 PM] siu#3920
+Its just for fun, there is no actual profit for us from the game
+
+
+[17-Oct-18 02:19 PM] siu#3920
+Even i could not get much coins lol
+
+
+[17-Oct-18 02:19 PM] siu#3920
+And i created it 😂 😂
+
+
+[17-Oct-18 02:21 PM] Oszy#5734
+Mining when blockchain might not be in sync longest.507 vs 319 i got stuck here all the time, deleted the folder, same.
+
+
+[17-Oct-18 02:22 PM] siu#3920
+Start it without mining first?
+
+
+[17-Oct-18 02:23 PM] jorian#4555
+"difficulty": 4375.413390599563,
+
+
+[17-Oct-18 02:23 PM] Oszy#5734
+finished loading blocks KMDICE
+
+
+[17-Oct-18 02:23 PM] Oszy#5734
+fsize.6184 datalen.19890 n.1546 lastfpos.0
+took 0 seconds to process
+
+
+[17-Oct-18 02:23 PM] Oszy#5734
+wait here?
+
+
+[17-Oct-18 02:24 PM] siu#3920
+It should start loading downloading
+
+
+[17-Oct-18 02:24 PM] Oszy#5734
+well the blocks folder is 18MB but not changing that's what was downloaded when first ran.
+
+
+[17-Oct-18 02:26 PM] Oszy#5734
+debug log says 2018-10-17 21:25:38 UpdateTip: new best=0000c93b6ec0f25fb7a5a7685bad918b4187802a9e24211af7e9933366bbf565  height=519 so it should be synced isn't it?
+
+
+[17-Oct-18 02:26 PM] siu#3920
+Getinfo and see where it is
+
+
+[17-Oct-18 02:29 PM] Oszy#5734
+"blocks": 527,
+  "longestchain": 527,
+
+
+[17-Oct-18 02:29 PM] jorian#4555
+you're synced
+
+
+[17-Oct-18 02:32 PM] jorian#4555
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/502232396398067713/unknown.png
+
+
+[17-Oct-18 02:35 PM] Oszy#5734
+okay, one more question, since cpu is probably already not worth how do i GPU mine this with cli?
+
+
+[17-Oct-18 02:37 PM] Cryptoon#3362
+-Setgenerate true n? Or that is cpu?
+
+
+[17-Oct-18 02:38 PM] Oszy#5734
+that's cpu AFAIK
+
+
+[17-Oct-18 02:38 PM] Oszy#5734
+like -gen
+
+
+[17-Oct-18 02:41 PM] siu#3920
+@ComputerGenie can help you on that
+
+
+[17-Oct-18 02:42 PM] ComputerGenie#7004
+I can do what? 😐
+
+
+[17-Oct-18 02:42 PM] siu#3920
+Let @Oszy know how to mine with gpu
+
+
+[17-Oct-18 02:43 PM] ComputerGenie#7004
+run a stratum
+
+
+[17-Oct-18 02:43 PM] ComputerGenie#7004
+just like any other coin
+
+
+[17-Oct-18 02:43 PM] Oszy#5734
+oh so i'll need a nomp
+
+
+[17-Oct-18 02:43 PM] ComputerGenie#7004
+ya
+
+
+[17-Oct-18 02:43 PM] Oszy#5734
+k
+
+
+[17-Oct-18 02:45 PM] siu#3920
+Were can i see this diff chart?
+
+
+[17-Oct-18 02:46 PM] ComputerGenie#7004
+on the explorer pages
+
+
+[17-Oct-18 02:46 PM] ComputerGenie#7004
+http://kmdice.explorer.dexstats.info/charts/difficulty
+
+
+[17-Oct-18 02:48 PM] Oszy#5734
+jeez someone already has 7k taking all the blocks 😄
+
+
+[17-Oct-18 02:49 PM] ComputerGenie#7004
+7k? that's it? :trollface:
+
+
+[17-Oct-18 02:49 PM] Oszy#5734
+lulz. dunno the rest just checked last few blocks
+
+
+[17-Oct-18 02:51 PM] TonyL#3577
+:trollface:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/502237286444826624/unknown.png
+
+
+[17-Oct-18 02:51 PM] siu#3920
+Lol
+
+
+[17-Oct-18 02:51 PM] siu#3920
+"difficulty": 12453.07521907923
+
+
+[17-Oct-18 02:52 PM] siu#3920
+Wtf
+
+
+[17-Oct-18 02:52 PM] Oszy#5734
+rip
+
+
+[17-Oct-18 02:52 PM] siu#3920
+Not more than 5hours in existance
+
+
+[17-Oct-18 02:53 PM] ComputerGenie#7004
+_syncs and throws a 24M sols rental at it_
+
+
+[17-Oct-18 02:53 PM] Oszy#5734
+savage
+
+
+[17-Oct-18 02:53 PM] grewalsatinder#9653
+KMD new assetchains are breaking record on hash increase on new assetchains. 😄
+
+
+[17-Oct-18 02:54 PM] ComputerGenie#7004
+heh, I wish I could
+but net is still wonky here 😭
+
+
+[17-Oct-18 02:54 PM] grewalsatinder#9653
+I'm nowhere near my computer to access my server, else I would have started mining too
+
+
+[17-Oct-18 02:54 PM] Oszy#5734
+yay found a block with cpu 😄
+
+{Reactions}
+👍🏼 
+
+[17-Oct-18 02:54 PM] grewalsatinder#9653
+ooh... the CPU mining fun!
+
+
+[17-Oct-18 02:54 PM] grewalsatinder#9653
+enjoy mate
+
+
+[17-Oct-18 02:57 PM] Deleted User#0000
+Kmdkce?
+
+
+[17-Oct-18 02:57 PM] Deleted User#0000
+This is dangerous
+
+
+[17-Oct-18 02:57 PM] Deleted User#0000
+😂
+
+
+[17-Oct-18 02:59 PM] siu#3920
+Lol, yes it is
+
+
+[17-Oct-18 03:16 PM] J-Dog#9487
+Noice
+
+
+[17-Oct-18 03:19 PM] dukeleto#7326
+link to the ANN and/or docs on how to connect?
+
+
+[17-Oct-18 03:23 PM] siu#3920
+We will start working on that tomorrow.
+
+
+[17-Oct-18 03:23 PM] siu#3920
+We had the idea and executed it, and how it seems it got out of our hands
+
+
+[17-Oct-18 03:23 PM] siu#3920
+We are getting some rest ans continue tomorrow
+
+
+[17-Oct-18 03:24 PM] grewalsatinder#9653
+who's selling KMDICE :trollface:
+
+
+[17-Oct-18 03:26 PM] siu#3920
+There should be people with enough already 😂
+
+
+[17-Oct-18 03:26 PM] grewalsatinder#9653
+really.... 🤔
+
+
+[17-Oct-18 03:27 PM] grewalsatinder#9653
+I'm feeling left behind. by the time I'll be back home diff will already be past mars
+
+
+[17-Oct-18 03:30 PM] SHossain#0007
+@grewalsatinder 1000 KMDICE for 1000 KMD
+
+
+[17-Oct-18 03:34 PM] dukeleto#7326
+can I get the command to connect, lol ?
+
+
+[17-Oct-18 03:34 PM] dukeleto#7326
+or is there a waiting list
+
+
+[17-Oct-18 03:35 PM] dukeleto#7326
+it's cool, git is my buddy: https://github.com/jl777/SuperNET/commit/52028f4c6ac574e9e099e79790ba883aff2f5e3f
+
+{Embed}
+https://github.com/jl777/SuperNET/commit/52028f4c6ac574e9e099e79790ba883aff2f5e3f
+Merge pull request #995 from chainmakers/dev · jl777/SuperNET@52028f4
+add KMDICE
+https://images-ext-1.discordapp.net/external/auDSZ7eLIqbPui1Im3X2Jr_UCM3F6Kpn3qdIKcJWxBA/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/5962559
+
+
+[17-Oct-18 03:36 PM] SHossain#0007
+@dukeleto `./komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=144.76.217.232`
+
+
+[17-Oct-18 03:37 PM] dukeleto#7326
+@SHossain much thanks fine sir
+
+{Reactions}
+👍🏽 
+
+[17-Oct-18 03:39 PM] dukeleto#7326
+i assume this is "normal" ? `Unknown ASN type: 32ea22c80200095ece5eee67e1f313e7ba2d156c7617106cd52b75c93ed3fb110ff3fba6e998103120c008203000401cc non-standard scriptPubKey`
+
+
+[17-Oct-18 03:40 PM] dukeleto#7326
+exciting to be test-driving some dice CC's, I wrote some code in their! 😹
+
+
+[17-Oct-18 03:41 PM] dukeleto#7326
+`2018-10-17 22:43:22 InvalidChainFound:  current best=06fe11919440f5071097deadfd3645b161059b0ae5a1e36faa66f48405a7a2bd  height=41  log2_work=9.6952283  date=2018-10-17 18:52:10`
+
+
+[17-Oct-18 03:41 PM] dukeleto#7326
+that seems more bad, and my sync is stuck there
+
+
+[17-Oct-18 03:41 PM] dukeleto#7326
+sure is a lot of blood on the bleeding edge
+
+
+[17-Oct-18 03:47 PM] Tylor zkFS#8280
+Update komodod @dukeleto duke??
+
+
+[17-Oct-18 03:48 PM] Tylor zkFS#8280
+Not sure if its needed
+
+
+[17-Oct-18 03:50 PM] SHossain#0007
+@dukeleto maybe you are on fork
+
+
+[17-Oct-18 03:50 PM] SHossain#0007
+http://kmdice.explorer.dexstats.info/
+
+{Embed}
+http://kmdice.explorer.dexstats.info/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[17-Oct-18 03:50 PM] SHossain#0007
+check this explorer
+
+
+[17-Oct-18 03:52 PM] grewalsatinder#9653
+1000 KMDICE for 100 KMD 😉
+
+
+[17-Oct-18 03:52 PM] grewalsatinder#9653
+@SHossain
+
+
+[17-Oct-18 03:52 PM] SHossain#0007
+500
+
+
+[17-Oct-18 03:53 PM] grewalsatinder#9653
+1000 for 1 KMD
+
+{Reactions}
+trollface 
+
+[17-Oct-18 03:53 PM] grewalsatinder#9653
+😄
+
+
+[17-Oct-18 03:54 PM] grewalsatinder#9653
+how much you got ?
+
+
+[17-Oct-18 03:54 PM] SHossain#0007
+2000
+
+
+[17-Oct-18 03:54 PM] grewalsatinder#9653
+okay 4 KMD best offer
+
+
+[17-Oct-18 03:54 PM] grewalsatinder#9653
+for all
+
+
+[17-Oct-18 03:54 PM] SHossain#0007
+😄
+
+
+[17-Oct-18 03:54 PM] grewalsatinder#9653
+😄
+
+
+[17-Oct-18 03:54 PM] SHossain#0007
+actually as this will be the first sale, i can do for 100 KMD 1000 KMDICE
+
+
+[17-Oct-18 03:55 PM] grewalsatinder#9653
+no joke 😁
+
+
+[17-Oct-18 03:55 PM] SHossain#0007
+you offered that
+
+
+[17-Oct-18 03:55 PM] SHossain#0007
+😃
+
+
+[17-Oct-18 03:55 PM] grewalsatinder#9653
+that was mistake
+
+
+[17-Oct-18 03:55 PM] grewalsatinder#9653
+I did not calculate
+
+
+[17-Oct-18 03:55 PM] grewalsatinder#9653
+😄
+
+
+[17-Oct-18 03:55 PM] SHossain#0007
+lol
+
+
+[17-Oct-18 03:55 PM] SHossain#0007
+then, i'm not selling now
+
+
+[17-Oct-18 03:55 PM] SHossain#0007
+hodl
+
+
+[17-Oct-18 03:55 PM] grewalsatinder#9653
+okay, then 50 for 2000
+
+
+[17-Oct-18 03:56 PM] SHossain#0007
+sorry
+
+
+[17-Oct-18 03:56 PM] grewalsatinder#9653
+okay keep hodling
+
+
+[17-Oct-18 03:56 PM] grewalsatinder#9653
+best thing
+
+{Reactions}
+shexy 
+
+[17-Oct-18 03:58 PM] SHossain#0007
+@grewalsatinder we already did our first notarization of KMDICE
+
+
+[17-Oct-18 03:59 PM] grewalsatinder#9653
+excellent!
+
+
+[17-Oct-18 03:59 PM] SHossain#0007
+protected by dPoW...more price
+
+
+[17-Oct-18 03:59 PM] grewalsatinder#9653
+none price
+
+
+[17-Oct-18 03:59 PM] grewalsatinder#9653
+I'm the only buyer so far I see
+
+
+[17-Oct-18 03:59 PM] grewalsatinder#9653
+unless someone cuts me and gives you better price
+
+
+[17-Oct-18 04:00 PM] grewalsatinder#9653
+I haven't even calculated how much it might be costing to mine
+
+
+[17-Oct-18 04:00 PM] grewalsatinder#9653
+I'm away from computer to access server to even start mine
+
+
+[17-Oct-18 04:00 PM] grewalsatinder#9653
+just speculating and offering you something
+
+
+[17-Oct-18 04:00 PM] grewalsatinder#9653
+😄
+
+
+[17-Oct-18 04:00 PM] SHossain#0007
+@ComputerGenie already started his GPU rigs
+
+
+[17-Oct-18 04:00 PM] SHossain#0007
+more miners will join
+
+
+[17-Oct-18 04:00 PM] grewalsatinder#9653
+the price I offered is is obvious overly overly priced
+
+
+[17-Oct-18 04:04 PM] ComputerGenie#7004
+@SHossain you must have missed the line where I said I was joking
+I'm just now done eating supper and haven't sorted out network issues, but I will throw a few at it eventually
+
+{Reactions}
+rum 
+
+[17-Oct-18 04:09 PM] siu#3920
+Pinned a message.
+
+
+[17-Oct-18 04:10 PM] dukeleto#7326
+oh yeah, i must have used an older komodod, blarg
+
+
+[17-Oct-18 04:14 PM] Tylor zkFS#8280
+this is one of the reasons I need to buy miners @dukeleto - I dont want to miss the fun!
+
+
+[17-Oct-18 04:16 PM] siu#3920
+so  we now have a coin which 50% of the supply is locked in a dice game contract and the only way to get that 50% is by betting the other 50% of the supply against it
+
+
+[17-Oct-18 04:17 PM] ComputerGenie#7004
+or if I mine and play, using the remaining 25% to get 75% out of the contract 😛
+
+
+[17-Oct-18 04:18 PM] siu#3920
+would like to see that 😂
+
+
+[17-Oct-18 04:18 PM] grewalsatinder#9653
+okay, let's see how my tiny poor linux laptop does with mining kmdice
+
+
+[17-Oct-18 04:18 PM] ComputerGenie#7004
+I lost 80% of the time last dice I tried LOL
+
+
+[17-Oct-18 04:18 PM] grewalsatinder#9653
+probably just gonna burn itself and get nothin
+
+
+[17-Oct-18 04:18 PM] grewalsatinder#9653
+😄
+
+
+[17-Oct-18 04:20 PM] siu#3920
+first notarization for KMDICE just passed through my iguana tv
+
+
+[17-Oct-18 04:21 PM] SHossain#0007
+we already started and had couple of them
+
+
+[17-Oct-18 04:22 PM] siu#3920
+yeah, first one from my server
+
+
+[17-Oct-18 04:22 PM] grewalsatinder#9653
+"difficulty": 31937.77228668821,
+
+
+[17-Oct-18 04:23 PM] siu#3920
+holy crap! 😂
+
+
+[17-Oct-18 04:24 PM] Tylor zkFS#8280
+expensive coin to mine?
+
+
+[17-Oct-18 04:24 PM] grewalsatinder#9653
+it's gonna be
+
+
+[17-Oct-18 04:25 PM] grewalsatinder#9653
+it's already shooting to mars in hashrate in such short span of time
+
+
+[17-Oct-18 04:25 PM] Tylor zkFS#8280
+1 kmd to 1 KMDICE sound feasable?
+
+{Reactions}
+shexy 
+
+[17-Oct-18 04:25 PM] grewalsatinder#9653
+and it's clearnet coin
+
+
+[17-Oct-18 04:25 PM] grewalsatinder#9653
+so can be on exchange pretty quick
+
+
+[17-Oct-18 04:26 PM] grewalsatinder#9653
+I won't pay 1 KMD for 1 DICE
+
+
+[17-Oct-18 04:26 PM] Tylor zkFS#8280
+joke - but in all seriousness the difficulty makes it worth more right?
+
+
+[17-Oct-18 04:26 PM] grewalsatinder#9653
+but consider me big buyer if someone wants to negotiate
+
+
+[17-Oct-18 04:27 PM] grewalsatinder#9653
+I'll just try to mine it instead of buying
+
+
+[17-Oct-18 04:27 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/502261485490143242/Screenshot_from_2018-10-18_00-27-29.png
+
+
+[17-Oct-18 04:27 PM] ComputerGenie#7004
+what are you offering to pay?
+
+
+[17-Oct-18 04:28 PM] siu#3920
+it got stuck 😂
+
+
+[17-Oct-18 04:28 PM] polycryptoblog#1173
+What sorcery is this?
+
+
+[17-Oct-18 04:28 PM] grewalsatinder#9653
+@ComputerGenie 1 KMD for 1000 DICE
+
+
+[17-Oct-18 04:28 PM] siu#3920
+hehehe gambling and stuff
+
+
+[17-Oct-18 04:29 PM] polycryptoblog#1173
+So how does it work ,  meaning how does mining vs locked coins work
+
+
+[17-Oct-18 04:30 PM] SHossain#0007
+50% premine which is locked to dice game contract. mine the otrher 50% and play to win the first 50%
+
+
+[17-Oct-18 04:31 PM] siu#3920
+who will win? 🤔
+
+
+[17-Oct-18 04:31 PM] ComputerGenie#7004
+@SHossain I don't have it running yet, how many and what types of odds did you set up?
+
+
+[17-Oct-18 04:31 PM] siu#3920
+minimum bet is 0.001
+
+
+[17-Oct-18 04:31 PM] SHossain#0007
+i didn't do anythig with the coin or game
+
+
+[17-Oct-18 04:32 PM] SHossain#0007
+it was @siu @jorian
+
+
+[17-Oct-18 04:32 PM] Tylor zkFS#8280
+I can imagine with the difficulty it would be like 10 kmd for 100 DICE -- but I have no idea how long it takes to mine either - 10 KMD for 1000 DICE?? I guess the miners win this game
+
+
+[17-Oct-18 04:32 PM] siu#3920
+```  "result": "success",
+  "fundingtxid": "5be49570c56d036abb08b6d084da93a8a86f58fc48db4a1086be95540d752d6f",
+  "name": "KMDICE",
+  "sbits": 76155294338379,
+  "minbet": "0.00100000",
+  "maxbet": "1000.00000000",
+  "maxodds": 1500,
+  "timeoutblocks": 600,
+  "funding": "10500000.00000000"
+}
+```
+
+{Reactions}
+👍🏼 (2) 
+
+[17-Oct-18 04:32 PM] polycryptoblog#1173
+Same address scheme as kmd?
+
+
+[17-Oct-18 04:32 PM] siu#3920
+yes
+
+
+[17-Oct-18 04:33 PM] ComputerGenie#7004
+_waits to see how much is lost to degenerates trying at 1500 odds_ :trollface:
+
+
+[17-Oct-18 04:34 PM] polycryptoblog#1173
+Ok the most important question? Winduhs GUI ? :trollface:
+
+
+[17-Oct-18 04:34 PM] ComputerGenie#7004
+GUI 🤦🏼
+
+
+[17-Oct-18 04:35 PM] polycryptoblog#1173
+Hehehe
+
+
+[17-Oct-18 04:35 PM] n64#1985
+sir when airdrop :trollface:
+
+
+[17-Oct-18 04:35 PM] ComputerGenie#7004
+@n64 airdrop is when you win/mine a ton and send it to us
+
+
+[17-Oct-18 04:35 PM] n64#1985
+sent! _waits for airdrop_
+
+
+[17-Oct-18 04:36 PM] n64#1985
+🚎
+
+
+[17-Oct-18 04:36 PM] siu#3920
+hahahaha
+
+
+[17-Oct-18 04:37 PM] siu#3920
+just mined... no airdrops since we made it and it went viral too fast
+
+
+[17-Oct-18 04:37 PM] siu#3920
+i could not even mine much for myself 😂
+
+
+[17-Oct-18 04:38 PM] siu#3920
+maybe the people putting huge rigs to mine this might want to do a faucet or something :p
+
+
+[17-Oct-18 04:40 PM] siu#3920
+GUI? when the community gets pumped and builds one
+
+
+[17-Oct-18 04:40 PM] siu#3920
+im sure one will be out in no time.
+
+
+[17-Oct-18 04:40 PM] Tylor zkFS#8280
+wish I had my rigs - Traded them on BarterDEX for PIZZA and BEER
+
+
+[17-Oct-18 04:41 PM] ComputerGenie#7004
+one would think at $0.00129, someone would be willing to faucet 😛
+
+
+[17-Oct-18 04:46 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1052705654538813441
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1052705654538813441
+Just got another surprise from @KomodoPlatform community. There is a "Dice CC [Crypto Conditions]" smart contract made by jl777 in initial smart contracts. It's a Betting game. I just found a project has started around this smart contract. About 725+ minutes ago. @kmdchain...
+https://images-ext-1.discordapp.net/external/5Jzn6zAyOzWhPXbr1KqlqYJD5RMa1vs5ayPegiuBGPA/https/pbs.twimg.com/media/Dpv2A80U8AA4n-I.jpg%3Alarge
+Twitter
+
+
+[17-Oct-18 04:46 PM] grewalsatinder#9653
+wait for more difficulty increase now
+
+
+[17-Oct-18 04:47 PM] grewalsatinder#9653
+😈
+
+
+[17-Oct-18 04:47 PM] grewalsatinder#9653
+😅
+
+
+[17-Oct-18 04:49 PM] siu#3920
+Pinned a message.
+
+
+[17-Oct-18 04:49 PM] Tylor zkFS#8280
+set up a pool
+
+
+[17-Oct-18 04:49 PM] siu#3920
+./komodod -ac_name=KMDICE -ac_supply=10500000 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=144.76.217.232
+
+
+[17-Oct-18 04:49 PM] siu#3920
+post the command to run it
+
+
+[17-Oct-18 04:50 PM] siu#3920
+@ComputerGenie maybe can help with a pool? 🤔
+
+
+[17-Oct-18 04:51 PM] ComputerGenie#7004
+Maybe, I have been working on a C++ pool (although it's a ways off from completion), but I might be putting up a nomp fork assetchain pool on friday
+
+
+[17-Oct-18 04:54 PM] Tylor zkFS#8280
+@smkhound  can make a pool for assets very quickly
+
+
+[17-Oct-18 04:56 PM] grewalsatinder#9653
+@siu @jorian any money raised for this project ?
+
+
+[17-Oct-18 04:56 PM] grewalsatinder#9653
+or funds put aside for it ?
+
+
+[17-Oct-18 04:57 PM] ComputerGenie#7004
+@Tylor zkFS making one and making it secure for your users aren't always things that can be done at the same speed 😉
+
+
+[17-Oct-18 04:57 PM] siu#3920
+no, not at all. We thought about it, did it and got out of our hands
+
+
+[17-Oct-18 04:58 PM] grewalsatinder#9653
+😅
+
+
+[17-Oct-18 04:58 PM] grewalsatinder#9653
+very good
+
+
+[17-Oct-18 04:58 PM] grewalsatinder#9653
+let me know if I could be of any help
+
+
+[17-Oct-18 04:58 PM] siu#3920
+but our guess is that miners themselves would like to fund any projects since adoption gets them more value
+
+
+[17-Oct-18 04:58 PM] grewalsatinder#9653
+anyway i can make a gui in jquery if you like
+
+
+[17-Oct-18 04:58 PM] siu#3920
+we are looking on ways to do a GUI
+
+
+[17-Oct-18 04:58 PM] grewalsatinder#9653
+but I guess users don't ilke jquery 😄
+
+
+[17-Oct-18 04:58 PM] siu#3920
+any GUI or TUI is welcome
+
+
+[17-Oct-18 04:59 PM] siu#3920
+we are leaving this to the community.
+
+
+[17-Oct-18 05:00 PM] siu#3920
+im sure a app should be able to look like this: https://dice.eosbet.io/
+
+
+[17-Oct-18 05:01 PM] polycryptoblog#1173
+Chain parameters ?
+
+
+[17-Oct-18 05:01 PM] ComputerGenie#7004
+scroll up
+or read 📌
+
+
+[17-Oct-18 05:01 PM] Tylor zkFS#8280
+Then make a pool for ALL KMD assets @ComputerGenie - they are needed accross the board - and an easy way to add a new asset via - posting or emailing you
+
+
+[17-Oct-18 05:01 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1052710602525761536
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1052710602525761536
+Another amazing example of starting a project by just community members. Cost to build the core technology: $0.
+Cost to build the overlaying beautiful graphical interface on top if it: Let's see. I have no idea. 😅
+Money raised to build the project: 0 ANY Cryptocurrency!...
+Twitter
+
+
+[17-Oct-18 05:01 PM] grewalsatinder#9653
+made this thread informative
+
+
+[17-Oct-18 05:02 PM] grewalsatinder#9653
+I made it on twitter as soon as possible I could
+
+
+[17-Oct-18 05:02 PM] grewalsatinder#9653
+the quickest public info as soon as received
+
+
+[17-Oct-18 05:02 PM] grewalsatinder#9653
+the fair launch coin
+
+
+[17-Oct-18 05:03 PM] ComputerGenie#7004
+@Tylor zkFS I have 3 "easy" ways to add them (one written by STAKED clan), but I've debated on *all* because of the lack of value of most of the 0.0001 chains
+
+
+[17-Oct-18 05:03 PM] Tylor zkFS#8280
+right
+
+
+[17-Oct-18 05:03 PM] Tylor zkFS#8280
+STAKED is smk762
+
+
+[17-Oct-18 05:04 PM] Tylor zkFS#8280
+understand
+
+
+[17-Oct-18 05:04 PM] ComputerGenie#7004
+`STAKED is smk762`
+huh?
+
+
+[17-Oct-18 05:04 PM] Tylor zkFS#8280
+I thought he wrote the pool scripts
+
+
+[17-Oct-18 05:04 PM] polycryptoblog#1173
+Any pools yet
+
+
+[17-Oct-18 05:04 PM] Tylor zkFS#8280
+maybe I am mistaken as always
+
+
+[17-Oct-18 05:05 PM] ComputerGenie#7004
+@Tylor zkFS I'm almost certain that joker wrote the multi-add scripts that is in the knomp fork
+
+
+[17-Oct-18 05:06 PM] ComputerGenie#7004
+tbh, I forget, that was 6 months ago
+
+
+[17-Oct-18 05:06 PM] Tylor zkFS#8280
+then smk set up the server or something - anyway -- I know he can add value here
+
+
+[17-Oct-18 05:07 PM] ComputerGenie#7004
+he may have, I've been quite absent for the last month or so, and yes he likely would be
+
+
+[17-Oct-18 05:09 PM] siu#3920
+@smkhound let us know if you can help 😃
+
+
+[17-Oct-18 05:09 PM] DG#6934
+so it's GPU mining
+
+
+[17-Oct-18 05:10 PM] ComputerGenie#7004
+if it's not today, it will be tomorrow :trollface:
+
+
+[17-Oct-18 05:11 PM] ComputerGenie#7004
+@DG
+
+{Reactions}
+😂 
+
+[17-Oct-18 05:11 PM] siu#3920
+i dont know what it is... but diff is rising like rivers rised when hurricane maria passed here
+
+
+[17-Oct-18 05:11 PM] grewalsatinder#9653
+where did I see that dice CC TUI ?
+
+
+[17-Oct-18 05:11 PM] grewalsatinder#9653
+@TonyL
+
+
+[17-Oct-18 05:11 PM] grewalsatinder#9653
+couldn't find it's screen shot
+
+
+[17-Oct-18 05:11 PM] grewalsatinder#9653
+I saw that few min ago
+
+
+[17-Oct-18 05:12 PM] siu#3920
+https://cdn.discordapp.com/attachments/458179902701830144/502237286444826624/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/458179902701830144/502237286444826624/unknown.png
+https://media.discordapp.net/attachments/458179902701830144/502237286444826624/unknown.png
+
+
+[17-Oct-18 05:12 PM] ComputerGenie#7004
+As long as @grewalsatinder or anyone else is willing to pay $1.30 per 1k, I'ma be a GPU pumpin' fool
+
+
+[17-Oct-18 05:12 PM] ComputerGenie#7004
+:trollface:
+
+
+[17-Oct-18 05:13 PM] grewalsatinder#9653
+got it
+thanks 🙂
+
+
+[17-Oct-18 05:13 PM] ComputerGenie#7004
+Gotta make me that $1.50 per day 😛
+
+
+[17-Oct-18 05:15 PM] SHossain#0007
+@webworker01 @0x03 maybe you guys can setup couple of pools for KMDICE ?
+
+
+[17-Oct-18 05:15 PM] grewalsatinder#9653
+:abusedsmily:
+
+
+[17-Oct-18 05:15 PM] grewalsatinder#9653
+keep mining
+
+
+[17-Oct-18 05:16 PM] grewalsatinder#9653
+updated twitter thread. comment, like, share, and spread the word.
+
+
+[17-Oct-18 05:17 PM] siu#3920
+got link for twitter?
+
+
+[17-Oct-18 05:18 PM] siu#3920
+im dont tweet
+
+
+[17-Oct-18 05:18 PM] DG#6934
+pool please
+
+
+[17-Oct-18 05:18 PM] DG#6934
+🙂
+
+
+[17-Oct-18 05:18 PM] ComputerGenie#7004
+twatter still will not let me upload a profile pic 😦
+
+
+[17-Oct-18 05:20 PM] siu#3920
+i think this is the first utxo decentralized dice game coin
+
+
+[17-Oct-18 05:20 PM] siu#3920
+there where dice game tokens, but not decentralized dice game blockchain
+
+
+[17-Oct-18 05:33 PM] Tylor zkFS#8280
+I used nheqminer in @smkhound STAKED(something) pool last week - all the configs are ready to plug in as far as I know
+
+
+[17-Oct-18 05:35 PM] grewalsatinder#9653
+@siu check #community-news
+
+
+[17-Oct-18 05:36 PM] Tylor zkFS#8280
+then there you go
+
+
+[17-Oct-18 05:36 PM] Tylor zkFS#8280
+webworker01
+
+
+[17-Oct-18 05:40 PM] ComputerGenie#7004
+@webworker01 I couldn't remember if it was you or joker, but since most of my scraps came from his piddling around I just assumed him
+
+
+[17-Oct-18 05:42 PM] Tylor zkFS#8280
+what was the web address to the pool I was on last week? - I dont have that info anymore
+
+
+[17-Oct-18 05:42 PM] Tylor zkFS#8280
+had to rebuild my system
+
+
+[17-Oct-18 05:43 PM] ComputerGenie#7004
+how in the hell would we know what *you* did *last week*?
+
+
+[17-Oct-18 05:46 PM] Tylor zkFS#8280
+I was asking @webworker01  ---sorry bro -- I was just looking for the staked pool I was on -- just attempting to clarify
+
+
+[17-Oct-18 05:48 PM] Tylor zkFS#8280
+https://github.com/smk762/Knomp
+
+{Embed}
+https://github.com/smk762/Knomp
+smk762/Knomp
+A NOMP based stratum for the Komodo platform. Contribute to smk762/Knomp development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6xcX3Z50JaMIMuZ9mAXOpQv_L8FfDr-TLGFP0GMRbbU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/35845239
+
+
+[17-Oct-18 05:48 PM] Tylor zkFS#8280
+forked from fork
+
+
+[17-Oct-18 05:48 PM] Tylor zkFS#8280
+i now understand
+
+
+[17-Oct-18 05:49 PM] ComputerGenie#7004
+actually, forked from fork that was forked from fork that was forked from fork that was forked from fork
+but who's counting? :trollface:
+
+
+[17-Oct-18 05:52 PM] Tylor zkFS#8280
+well -- there you go --  I wasnt forking wrong - just had the wrong forking fork
+
+
+[17-Oct-18 05:52 PM] ComputerGenie#7004
+😛
+
+
+[17-Oct-18 05:55 PM] smkhound#7640
+That repo is due for update, changes to Staked need to be catered for.
+
+
+[17-Oct-18 05:58 PM] Tylor zkFS#8280
+I was trying to remember whos pool I was on a week or two ago
+
+
+[17-Oct-18 05:59 PM] Tylor zkFS#8280
+thought it was yours
+
+
+[17-Oct-18 06:04 PM] smkhound#7640
+Yep. Currently down, been a busy week and im halfway through fixing things. I'll let you know when its ready to go again. At work for next 8hrs or so tho so wont be for a while yet.
+
+
+[17-Oct-18 06:14 PM] Deleted User#0000
+So I had this idea first and James told me dice couldn't be used in production :(
+
+
+[17-Oct-18 06:14 PM] Deleted User#0000
+Awesom
+
+
+[17-Oct-18 06:14 PM] Deleted User#0000
+What changed?
+
+
+[17-Oct-18 06:15 PM] Tylor zkFS#8280
+@siu
+
+
+[17-Oct-18 06:17 PM] Deleted User#0000
+We spent like what a week on dice on staked for Smk to make a GUI... We found there was no way to withdraw coins James told us to leave it as it had an attack vector and couldn't be used in production... BTW if lots of ppl play your going to need more than one chain, it doesn't like being tx flooded with bets.
+
+
+[17-Oct-18 06:18 PM] Deleted User#0000
+:trollface:
+
+
+[17-Oct-18 07:09 PM] c2k#4915
+how to mine this one @Deleted User ?
+
+
+[17-Oct-18 07:10 PM] Deleted User#0000
+why its usless
+
+
+[17-Oct-18 07:10 PM] Deleted User#0000
+we launch DICE on 4 staked chains, and made a way to play them all at the same time
+
+
+[17-Oct-18 07:10 PM] Deleted User#0000
+for free
+
+
+[17-Oct-18 07:10 PM] Deleted User#0000
+🤷
+
+
+[17-Oct-18 07:10 PM] Deleted User#0000
+and were told not to
+
+
+[17-Oct-18 07:10 PM] Deleted User#0000
+becasue ti was broken
+
+
+[17-Oct-18 07:11 PM] c2k#4915
+hmmm🤔
+
+
+[17-Oct-18 07:11 PM] Deleted User#0000
+zim horribly confused as to why this chain exists
+
+
+[17-Oct-18 07:11 PM] c2k#4915
+lololol
+
+
+[17-Oct-18 07:12 PM] Deleted User#0000
+I will trolld the crap out it
+
+
+[17-Oct-18 07:12 PM] Deleted User#0000
+every day
+
+
+[17-Oct-18 07:12 PM] Deleted User#0000
+stole my idea
+
+
+[17-Oct-18 07:12 PM] c2k#4915
+if a pirate be stealin your idea i be understandin...:rum:
+
+
+[17-Oct-18 07:13 PM] Deleted User#0000
+meh made bank on pirate ... but this chain makes no sense.
+
+
+[17-Oct-18 07:13 PM] Deleted User#0000
+you can rund DICE on any AC ...
+
+
+[17-Oct-18 07:13 PM] Deleted User#0000
+it doesnt need its own chain... and the dealer can never withdraw
+
+
+[17-Oct-18 07:13 PM] Deleted User#0000
+so after time, all the coins will end up in the dealer CC address
+
+
+[17-Oct-18 07:14 PM] Deleted User#0000
+pointless
+
+
+[17-Oct-18 07:14 PM] Deleted User#0000
+dice is a PoC
+
+
+[17-Oct-18 07:14 PM] c2k#4915
+for sure. i will go back to my texas holdm app
+
+
+[17-Oct-18 07:14 PM] c2k#4915
+lol
+
+
+[17-Oct-18 07:14 PM] Deleted User#0000
+you cant actually use it
+
+
+[17-Oct-18 07:15 PM] c2k#4915
+i was hoping it was the next arrr and i could get in on the ground floor. missed the pirate boat until just recently
+
+
+[17-Oct-18 07:15 PM] Deleted User#0000
+lol.... STAKED
+
+
+[17-Oct-18 07:15 PM] Deleted User#0000
+I am just being held back on launching it ... because someone is on holidays 😦
+
+
+[17-Oct-18 07:18 PM] c2k#4915
+yes im watching in there too
+
+
+[17-Oct-18 07:18 PM] c2k#4915
+i see youre ready to pull the trigger
+
+
+[17-Oct-18 07:18 PM] c2k#4915
+unless i teach myself how to code, most of this is way over my head
+
+
+[17-Oct-18 07:18 PM] c2k#4915
+so im watching and learning what i can
+
+
+[17-Oct-18 07:20 PM] c2k#4915
+off to sleep soon. have a good one :Komodo:
+
+
+[17-Oct-18 07:29 PM] jspook16#3059
+Will any of the previous Stake coins carry forward or is it starting off fresh? @Deleted User
+
+
+[17-Oct-18 07:31 PM] Deleted User#0000
+the STAKED4 coins will be kept .
+
+
+[17-Oct-18 07:31 PM] Deleted User#0000
+but we will probably time lock them, so they cannot be staked for a certain amount of time to ahve a fair launch
+
+
+[17-Oct-18 07:31 PM] Deleted User#0000
+the supply is tiny at the point anyway less than 1 million
+
+
+[17-Oct-18 07:32 PM] Deleted User#0000
+the surrent chains are just a test net .. all will be discarded
+
+
+[17-Oct-18 07:35 PM] jspook16#3059
+Copy that. Good luck. I think you've made progress on the video streaming from what I've seen on your channel right?
+
+
+[17-Oct-18 07:36 PM] Deleted User#0000
+Yes... I have a chain that only the creator can mine, by a consenus rule, so that nobody else cna submit data to it, and I have a way of sequentially feeding in 8kb chunks of data into the opreturn in a way that allows them to be taken back out and reassembeled.
+
+
+[17-Oct-18 07:36 PM] Deleted User#0000
+Its very much a steep learning curve this stuff, no idea what Im doing, but jl gave me some good pointers.
+
+
+[17-Oct-18 07:40 PM] jspook16#3059
+I think that's going to be crucial. Props man
+
+
+[17-Oct-18 07:41 PM] Deleted User#0000
+thanks 😃
+
+
+[17-Oct-18 08:37 PM] jspook16#3059
+can someone pin how to play kmdice?
+
+
+[17-Oct-18 08:46 PM] ComputerGenie#7004
+https://pastebin.com/eWQpn9PH <- autoplay script (might need some changes but should give you a clue of the basics)
+
+{Embed}
+https://pastebin.com/eWQpn9PH
+[Bash] KMDICE autoplay - Pastebin.com
+https://images-ext-1.discordapp.net/external/lZwHlcJYEP_-CeL744a7RSWVnhrIifPJgiIcmKkDuJY/https/pastebin.com/i/facebook.png
+
+
+[17-Oct-18 09:06 PM] Deleted User#0000
+https://github.com/smk762/kmd_pulp/tree/master/Staked/dice
+
+{Embed}
+https://github.com/smk762/kmd_pulp/tree/master/Staked/dice
+smk762/kmd_pulp
+random assortment of small scripts for use in the Komodo ecosystem - smk762/kmd_pulp
+https://images-ext-1.discordapp.net/external/6xcX3Z50JaMIMuZ9mAXOpQv_L8FfDr-TLGFP0GMRbbU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/35845239
+
+
+[17-Oct-18 09:07 PM] Deleted User#0000
+What about that one ... how much work went into that ?
+
+
+[17-Oct-18 09:07 PM] Deleted User#0000
+WTF does this chain exist for
+
+
+[17-Oct-18 09:07 PM] Deleted User#0000
+😡
+
+
+[17-Oct-18 09:07 PM] Deleted User#0000
+really really pissed over this
+
+
+[17-Oct-18 09:08 PM] Deleted User#0000
+You do know I can break your single table in about 5 mins making this chain dead ?
+
+
+[17-Oct-18 09:08 PM] Deleted User#0000
+please delate it
+
+
+[17-Oct-18 09:08 PM] Deleted User#0000
+you can play dice on any AC
+
+
+[17-Oct-18 09:15 PM] ComputerGenie#7004
+ffs some folks need to get out of their feelz
+
+
+[17-Oct-18 09:17 PM] ComputerGenie#7004
+`You do know I can break your single table in about 5 mins making this chain dead ?`
+You do know I can break STAKED in about 5 mins making that chain dead ?
+@Deleted User 
+Don't be a dick and let folks enjoy and learn.
+
+
+[17-Oct-18 09:17 PM] Deleted User#0000
+NO
+
+
+[17-Oct-18 09:17 PM] Deleted User#0000
+this is bullshit
+
+
+[17-Oct-18 09:17 PM] Deleted User#0000
+we sepnt countless hours on this exact idea
+
+
+[17-Oct-18 09:17 PM] Deleted User#0000
+and were told to stop wokring on it
+
+
+[17-Oct-18 09:17 PM] Deleted User#0000
+then this chan just apears
+
+
+[17-Oct-18 09:17 PM] Deleted User#0000
+get ducked
+
+
+[17-Oct-18 09:18 PM] Deleted User#0000
+dice cannot work wit just 1 table on 1 chains... these guys didnt even test anything befor emaking this
+
+
+[17-Oct-18 09:18 PM] Deleted User#0000
+pushing broken products is a dick move
+
+
+[17-Oct-18 09:20 PM] Deleted User#0000
+ok I will just aod up the dice queue ... with million of bets and leave it there ... then they will see
+
+
+[17-Oct-18 09:21 PM] smkhound#7640
+Kmd pulp / dice runs on existing chains, any issues there?
+
+
+[17-Oct-18 09:21 PM] Deleted User#0000
+nope
+
+
+[17-Oct-18 09:21 PM] Deleted User#0000
+thats what im saying
+
+
+[17-Oct-18 09:21 PM] ComputerGenie#7004
+OK, let's talk about bullshit
+bullshit is me investing a month into STAKED and then you guys saying "meh, let's put it all on hold and go in a different direction"
+Do **not** be a dick about this! I'm not in the fekn mood
+
+
+[17-Oct-18 09:21 PM] Deleted User#0000
+it works on any AC there is no reason to make a new chain
+
+
+[17-Oct-18 09:21 PM] Deleted User#0000
+staked got put on hold because of something out of my control
+
+
+[17-Oct-18 09:22 PM] Deleted User#0000
+@libscott  disapeared
+
+
+[17-Oct-18 09:22 PM] ComputerGenie#7004
+because we can is feken reason enough for any of us to make a chain for anything
+
+
+[17-Oct-18 09:22 PM] smkhound#7640
+For being on hold, we've sure done a fair bit anyways...
+
+{Reactions}
+💯 
+
+[17-Oct-18 09:23 PM] ComputerGenie#7004
+`staked got put on hold because of something out of my control
+@libscott disapeared`
+No, that was **after** you decided the whole ecosystem inside an ecosystem thing
+Originally STAKED was to be what the damn name implied
+
+
+[17-Oct-18 09:24 PM] Deleted User#0000
+That wsa alrighs idea not mine ... andits a fucking cool idea
+
+
+[17-Oct-18 09:24 PM] Deleted User#0000
+youwant a PoS chain there is already MGNX
+
+
+[17-Oct-18 09:24 PM] smkhound#7640
+I saw the dice chain last night. Wondering how they covered withdrawl?
+
+
+[17-Oct-18 09:24 PM] Deleted User#0000
+they didnt
+
+
+[17-Oct-18 09:24 PM] ComputerGenie#7004
+It's a feken game, get over yourself
+
+
+[17-Oct-18 09:24 PM] Deleted User#0000
+and in a few hours I will lock the entir supply of coins in that single contract
+
+
+[17-Oct-18 09:24 PM] Deleted User#0000
+really need to think things thorugh before making a chain on a whim
+
+
+[17-Oct-18 09:25 PM] ComputerGenie#7004
+`and in a few hours I will lock the entir supply of coins in that single contract`
+I'm telling you that's a bad feken idea
+do not feken test me on this
+
+
+[17-Oct-18 09:25 PM] Deleted User#0000
+whats it got to do with you ?
+
+
+[17-Oct-18 09:25 PM] Deleted User#0000
+its a public blockchiand with a flaw I can do what I want
+
+
+[17-Oct-18 09:26 PM] Deleted User#0000
+dont want someone to break it ... dont make somethign broken
+
+
+[17-Oct-18 09:26 PM] Deleted User#0000
+🤷
+
+
+[17-Oct-18 09:26 PM] Deleted User#0000
+better me than some outsider
+
+
+[17-Oct-18 09:26 PM] ComputerGenie#7004
+What it's got to do with me is I'm one of the people that can fek around too and we're all supposed to be here for each other
+Do not expect to do some dumb shit on my watch and walk away like you're just all that and a bag of chips
+
+
+[17-Oct-18 09:28 PM] ComputerGenie#7004
+`dont want someone to break it ... dont make somethign broken`
+That goes both ways 😉
+
+
+[17-Oct-18 09:28 PM] Deleted User#0000
+staked is a test net do what you want it
+
+
+[17-Oct-18 09:28 PM] Deleted User#0000
+I know its broken
+
+
+[17-Oct-18 09:28 PM] Deleted User#0000
+hence its a testnnet
+
+
+[17-Oct-18 09:29 PM] ComputerGenie#7004
+Fine, ignore me, do some dumb shit, and months from now when you think it's live and you've forgotten all about this, I'll be there to remind you
+
+
+[17-Oct-18 09:37 PM] Deleted User#0000
+Im pissed because we did all the testing and work to launch something like this, and weere told to stop working on it because it had some flaw, and the funds in the contract could not be withdrawn. They have gone ahead and launched a chain, that doesnt respect ANY of the limitations we found in testing, and clearly didnt test it.
+
+
+[17-Oct-18 09:37 PM] Tylor zkFS#8280
+I guess making a private untested chain within the komodo notary network is a bad idea? I think we can learn from this
+
+
+[17-Oct-18 09:38 PM] Deleted User#0000
+And to cap it all off it was added to main net notary nodes
+
+
+[17-Oct-18 09:38 PM] Deleted User#0000
+for no fucking reason ... without being tested at all. WTF!?
+
+
+[17-Oct-18 09:39 PM] Tylor zkFS#8280
+I'm 47 and I can still learn @Deleted User
+
+
+[17-Oct-18 09:39 PM] Tylor zkFS#8280
+Sometimes
+
+
+[17-Oct-18 09:39 PM] Deleted User#0000
+haha
+
+
+[17-Oct-18 09:39 PM] Tylor zkFS#8280
+When I dont smoke pot
+
+{Reactions}
+😂 
+
+[17-Oct-18 09:40 PM] Tylor zkFS#8280
+And drink too much
+
+
+[17-Oct-18 09:40 PM] Deleted User#0000
+I think I need soem of that right now 😄
+
+
+[17-Oct-18 09:40 PM] Tylor zkFS#8280
+I think you do too
+
+
+[17-Oct-18 09:40 PM] ComputerGenie#7004
+`Im pissed because we did all the testing`
+Because I wasn't there, right? 🤦🏼
+
+
+[17-Oct-18 09:41 PM] Tylor zkFS#8280
+Sorry your kids woke you up and you are missing sleep
+
+
+[17-Oct-18 09:41 PM] Tylor zkFS#8280
+No more forking fights! - go back to your corners
+
+
+[17-Oct-18 09:41 PM] Deleted User#0000
+you should be pissed too
+
+
+[17-Oct-18 09:43 PM] ComputerGenie#7004
+Why dafuq "should" anyone be pissed? Did you really think james made the feken contract, put it on the public git, and it was *solely* for STAKED and no one would ever use it? Really?
+
+
+[17-Oct-18 09:44 PM] Deleted User#0000
+he told us that we couldnt use it
+
+
+[17-Oct-18 09:44 PM] Deleted User#0000
+😕
+
+
+[17-Oct-18 09:44 PM] Deleted User#0000
+it needed to changes to be be ready for production ... its fine if this chain wasnt added to notary nodes... just a test chain... no problem
+
+
+[17-Oct-18 09:45 PM] Deleted User#0000
+you can use dice on any AC it doesnt need a new chain... Im confused as hell.
+
+
+[17-Oct-18 09:45 PM] ComputerGenie#7004
+ffs if I give you the 14 cents it takes to notarize it, will you stfu about nns?
+
+
+[17-Oct-18 09:47 PM] ComputerGenie#7004
+You're really confused as to why #chainmakers made a chain? 🙄
+
+
+[17-Oct-18 09:54 PM] jl777c#5810
+the dice CC should not be used for any big money bets, there is a known 51% vuln
+
+
+[17-Oct-18 09:54 PM] jl777c#5810
+it is a cool demo and if KMDICE leads to an improved dice2 CC and GUI that is a good thing
+
+
+[17-Oct-18 09:54 PM] jl777c#5810
+but do not imagine the dice CC in its current state is ready for production usage
+
+
+[17-Oct-18 09:56 PM] jl777c#5810
+an assetchain kind of has an automatic path to being dPoW and a chain without dPoW just feels like not even a testchain, but having dPoW doesnt mean the chain itself is ready for casino level usage.
+
+
+[17-Oct-18 09:57 PM] grewalsatinder#9653
+cool... I should post this part on twitter thread too.
+
+{Reactions}
+💯 
+
+[17-Oct-18 10:03 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1052786300598673408
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1052786300598673408
+IMPORTANT: Here's a fair warning my jl777 about this new KMDICE assetchain
+https://images-ext-2.discordapp.net/external/oYgufmICNcdmO2XlLKfDDQEP0pn4v1TEeffNHD3BZ8Y/https/pbs.twimg.com/media/Dpw_hzuV4AArcLJ.jpg%3Alarge
+Twitter
+
+
+[17-Oct-18 10:03 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1052787031737155585
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1052787031737155585
+Following this warning, I will not take this new assetchain seriously yet. So, at least I'll be just watching it from sideline. It's cool thing, but I'll stay away from mining/buying it yet. Let's see how things turns out. 🤔
+Twitter
+
+
+[17-Oct-18 10:06 PM] Deleted User#0000
+Keep it CPU mineable so people can all play nice and easily and we will make progress.... if everyone starts thinking the coins have value people will start hoarding them and not testing anything ... thats the oppsite of what this chain was made for.
+
+{Reactions}
+💯 (2) 
+
+[17-Oct-18 10:08 PM] ComputerGenie#7004
+How's hoarding them any different than someone suffering from PMS and locking up the contract with txes? 🤔
+
+
+[17-Oct-18 10:11 PM] Tylor zkFS#8280
+I was going to suggest KMDICETEST -
+
+
+[17-Oct-18 10:12 PM] Tylor zkFS#8280
+Because mining them or buying them was out of the question
+
+
+[17-Oct-18 10:13 PM] Tylor zkFS#8280
+But then again - I now have an advance order for miners - and was considering buying some just because of the fever
+
+
+[17-Oct-18 10:15 PM] smkhound#7640
+Creating a dice GUI was something i had on my list, but given my limited out of work hours and the inherent issues with 51% and withdrawl, I left it alone after knocking up the TUI. Far down my list now, if at all. Much more interested in implementing LBS via oracles now.
+
+
+[17-Oct-18 10:19 PM] Deleted User#0000 (pinned)
+```From my testing on DICEv1 anyone looking to improve it needs to start with the following:
+1) Show if the contract has entropy TX in diceinfo 
+2) Have a table end parameter on table creation, where the dice contract expires and the funds can be withdrawn by the creator
+3) Figure some solution to scale, a single table can only take so many parallell bets before it just stops working. 
+4) Make a GUI to make it easier for people to play```
+
+
+[17-Oct-18 10:19 PM] Deleted User#0000
+In that order
+
+
+[17-Oct-18 10:20 PM] Deleted User#0000
+the 51% problem is low chances with close enough dPoW freq... we were gfong to try and notarise the chain with just 2 blocks, this could also be solved, by having a single miner, like I have done with STREAMER chain, and have all coins mined out of the faucet.
+
+
+[17-Oct-18 10:21 PM] Deleted User#0000
+Or if you want to bet wirh real money, use a sister chain, where coins are mined/ bought and MoMoM migrate them to the DICE chain to play dice.
+
+
+[17-Oct-18 10:24 PM] jl777c#5810
+so there is a good roadmap here! I think this is bounty worthy to have blackjok3r as adviser/chainkiller
+
+
+[17-Oct-18 10:26 PM] Tylor zkFS#8280
+And may deserve it's own channel?
+
+
+[17-Oct-18 10:26 PM] Deleted User#0000
+I already have a lot of work
+
+
+[17-Oct-18 10:26 PM] Deleted User#0000
+lol
+
+
+[17-Oct-18 10:27 PM] ComputerGenie#7004
+If it's killed to provide actual help and assistance, that's cool
+if, on the other hand, it's killed because someone has sand in their lady bits, that's a different ballgame
+
+
+[17-Oct-18 10:27 PM] Deleted User#0000
+shut up genie :trollface:  The issue has been solved its in the past...
+
+
+[17-Oct-18 10:28 PM] Tylor zkFS#8280
+I think it needs a new channel purely for that project - not chain making or staking
+
+
+[17-Oct-18 10:28 PM] ComputerGenie#7004
+#JustSayin'
+
+
+[17-Oct-18 10:29 PM] Tylor zkFS#8280
+Unless a 3rd party wants to fly alone - this thread should now be ded
+
+
+[17-Oct-18 10:38 PM] Tylor zkFS#8280
+dPOW DICE should become a "product" of SuperNET
+
+
+[17-Oct-18 10:38 PM] Tylor zkFS#8280
+Looks like everyone wants it
+
+
+[17-Oct-18 10:41 PM] Deleted User#0000
+Dice is for now the coolest CC that people can use ... its addicting but it needs work. It seems a great community project, here you all have a mineable test chain. Get to work ! :trollface:
+
+{Reactions}
+👍 
+
+[18-Oct-18 01:15 AM] siu#3920
+Ok... this seems to be out of hand
+
+
+[18-Oct-18 01:16 AM] siu#3920
+We did this to have a public chain people can use to try dice and get some people from the community pumped to make a gui
+
+
+[18-Oct-18 01:17 AM] siu#3920
+We have no interest in withdrawing the funds locked, that is why we put 50% of the supply in the contract. Just to see what happens
+
+
+[18-Oct-18 01:18 AM] siu#3920
+If more coins end up locked or if all the coins are withdrawn we dont know and that is kind of the purpose.
+
+
+[18-Oct-18 01:18 AM] siu#3920
+We didnt get any funding for this or separated any coins for funding... it was just an idea that grew in itself too fast.
+
+
+[18-Oct-18 01:19 AM] jl777c#5810
+kind of like PIRATE
+
+
+[18-Oct-18 01:19 AM] jl777c#5810
+what happens is unknown, but kudos for doing it
+
+
+[18-Oct-18 01:19 AM] siu#3920
+Regarding this being your idea and that someone stopped you, i dont know, i have not been following staked much.
+
+
+[18-Oct-18 01:21 AM] siu#3920
+I do agree with you that this should not be given much value and it should be more about usage. Get people to try dice and play it.
+
+
+[18-Oct-18 01:23 AM] siu#3920
+It was added to the NN to be able to make it public... i dont see what the issue is here
+
+
+[18-Oct-18 01:24 AM] jorian#4555
+Pinned a message.
+
+
+[18-Oct-18 01:24 AM] siu#3920
+As you say, anyone can do a dice contract in any assetchain so you can do your own. The purpose of this one is to exclusively use it for dice game only and locking most of the coins for this sole purpose.
+
+
+[18-Oct-18 01:29 AM] siu#3920
+Also if it was james who said it was not production ready wjat made you stop, the difference here is that we didnt ask james.
+
+
+[18-Oct-18 02:00 AM] grewalsatinder#9653
+@siu since there is now a task list to fix the dice cc, figure out the bounty
+
+
+[18-Oct-18 02:00 AM] grewalsatinder#9653
+and may be ask forkwitch if interested to work on that
+
+
+[18-Oct-18 02:00 AM] grewalsatinder#9653
+as per the conversation seen witch must be able to do this task
+
+
+[18-Oct-18 02:01 AM] siu#3920
+ok... we can work this out
+
+
+[18-Oct-18 02:01 AM] siu#3920
+i guess this is the purpose of the chain, to get these fixes going.
+
+
+[18-Oct-18 02:02 AM] grewalsatinder#9653
+yep 🙂
+
+
+[18-Oct-18 02:02 AM] grewalsatinder#9653
+right now I value it 0. but once it's fixed or improved, who knows where we'll end up
+
+{Reactions}
+💯 
+
+[18-Oct-18 02:04 AM] jl777c#5810
+I would value it at the (probility of all being fixed)  * (value of it assuming it is all fixed) discounted to present value
+
+
+[18-Oct-18 02:04 AM] jl777c#5810
+WTB KMDICE @ 0.001 in unlimited qty
+
+
+[18-Oct-18 02:05 AM] siu#3920
+^
+
+
+[18-Oct-18 02:05 AM] siu#3920
+@ComputerGenie wake up :p
+
+
+[18-Oct-18 02:06 AM] jorian#4555
+luckily the reward is 1/10th of that of PIRATE
+
+
+[18-Oct-18 02:06 AM] Deleted User#0000
+why ? you havent even fixed anything yet :trollface:
+
+
+[18-Oct-18 02:07 AM] Deleted User#0000
+I will pay a bounty of 1000 KMD to the person who can get amount of entropy TX showing in dice info
+
+
+[18-Oct-18 02:07 AM] jl777c#5810
+just do CCutxo and count
+
+
+[18-Oct-18 02:08 AM] Deleted User#0000
+currently it shows in CC EVAL ... the point of that bounty is to get that info to come back as return JSON
+
+
+[18-Oct-18 02:08 AM] Deleted User#0000
+rather than STD out
+
+
+[18-Oct-18 02:08 AM] Deleted User#0000
+this helps EVERY CC
+
+
+[18-Oct-18 02:08 AM] Deleted User#0000
+A LOT!
+
+
+[18-Oct-18 02:10 AM] Deleted User#0000
+1000 kmd is a lot for me... but not much to others... maybe someone can increase it 😉
+
+
+[18-Oct-18 02:13 AM] Deleted User#0000
+if you want a GUI you NEED a return json with error messages that are not abiguous... there is no point making a GUI that cannot report errors.
+
+
+[18-Oct-18 02:13 AM] Deleted User#0000
+everyone will hate it
+
+
+[18-Oct-18 02:15 AM] jl777c#5810
+the bounty should then be for a fixing/adding of proper error reporting to CC rpc, that would be something for @dukeleto
+
+
+[18-Oct-18 02:17 AM] siu#3920
+@dukeleto surely is sleeping
+
+
+[18-Oct-18 02:18 AM] siu#3920
+He will be available in about 6 more hours
+
+
+[18-Oct-18 02:18 AM] Deleted User#0000
+That is the first step to be able to use CC for anything useful ...
+
+
+[18-Oct-18 02:18 AM] Deleted User#0000
+you need CC_EVAL to retunr data to NOT STDOUT ...
+
+
+[18-Oct-18 02:18 AM] Deleted User#0000
+somwhere it can be accessed by RPC calls
+
+
+[18-Oct-18 02:19 AM] Deleted User#0000
+duke added JSON errors, but they dont differentiate as to what the problem was .. just that it didnt work... the data was not avalible to him to to that.
+
+
+[18-Oct-18 02:20 AM] Alright#0419
+Can I have a tl;dr of what's going on here? Trying to skim through the ~500 messages is no fun
+
+
+[18-Oct-18 02:20 AM] Alright#0419
+just a new chain focused on dice?
+
+
+[18-Oct-18 02:20 AM] siu#3920
+yes
+
+
+[18-Oct-18 02:21 AM] Deleted User#0000
+they made a mineable chain and put half the supply into a single dice CC with 7 entropy TX 😂
+
+
+[18-Oct-18 02:21 AM] Deleted User#0000
+that will turn out well
+
+
+[18-Oct-18 02:21 AM] Alright#0419
+joker, I can't understand why you're upset to be frank
+
+
+[18-Oct-18 02:21 AM] Alright#0419
+what difference does that make to you
+
+
+[18-Oct-18 02:21 AM] siu#3920
+jorian and i came to the idea that putting a chain solely to the purpose of dice game with 50% of supply on the dice contract might attract people
+
+
+[18-Oct-18 02:21 AM] Alright#0419
+what happened to other half?
+
+
+[18-Oct-18 02:21 AM] jorian#4555
+"difficulty": 111782.5341947259,
+
+
+[18-Oct-18 02:21 AM] Deleted User#0000
+this was my idea first and I was tild to stop working on it ... now someone else is doing it and not even testing anything before making a tweet storm to the public about it
+
+
+[18-Oct-18 02:21 AM] Deleted User#0000
+?
+
+
+[18-Oct-18 02:21 AM] jorian#4555
+says it all
+
+
+[18-Oct-18 02:22 AM] Deleted User#0000
+meh anyway ... you can do what you want ..
+
+
+[18-Oct-18 02:22 AM] Deleted User#0000
+its your chain
+
+
+[18-Oct-18 02:22 AM] jorian#4555
+if we had known this information we would have never done it
+
+
+[18-Oct-18 02:22 AM] siu#3920
+we didnt do a tweet storm
+
+
+[18-Oct-18 02:22 AM] siu#3920
+we have just announced it here because of "fair mining"
+
+
+[18-Oct-18 02:23 AM] Deleted User#0000
+satinder did then retreacted it ... its ok
+
+
+[18-Oct-18 02:23 AM] Alright#0419
+there's a lot of work to do for dice, more people interested in it is good
+
+
+[18-Oct-18 02:23 AM] siu#3920
+if we told the NN and didnt tell the public then people wold bash us for giving privilege to some people over other
+
+
+[18-Oct-18 02:23 AM] siu#3920
+yes, that is what i figured. If we have a chain for the sole purpose of it, we could get some progress
+
+
+[18-Oct-18 02:24 AM] Deleted User#0000
+its not really my concern... just things like this can look ad on all of KMD everythings alrady been cleared up, get interest and try to fix it, then maybe it goes somewhere.
+
+
+[18-Oct-18 02:24 AM] Alright#0419
+what happened to other half of premine?
+
+
+[18-Oct-18 02:24 AM] jorian#4555
+100% of premine is in fund
+
+
+[18-Oct-18 02:24 AM] jorian#4555
+other half of supply is free to mine
+
+
+[18-Oct-18 02:24 AM] Deleted User#0000
+1 dice table right 😂
+
+
+[18-Oct-18 02:24 AM] Deleted User#0000
+consider it gone
+
+
+[18-Oct-18 02:24 AM] siu#3920
+its being mined... with btc halving schedule
+
+
+[18-Oct-18 02:24 AM] jorian#4555
+hence the 115k difficulty
+
+
+[18-Oct-18 02:25 AM] Alright#0419
+Ah
+
+
+[18-Oct-18 02:25 AM] Alright#0419
+by "supply" I thought you meant ac_supply
+
+
+[18-Oct-18 02:25 AM] siu#3920
+yeah... we did 10.5m ac_supply
+
+
+[18-Oct-18 02:25 AM] siu#3920
+then the rest mined up to 21m
+
+
+[18-Oct-18 02:26 AM] Deleted User#0000
+you do realise that the entire supply will just end up in the DICE table ?
+
+
+[18-Oct-18 02:26 AM] siu#3920
+@Deleted User why consider it gone? afaik it might not be useful for many bets at the same time now, but the game is playable
+
+
+[18-Oct-18 02:26 AM] Deleted User#0000
+you cant get it out
+
+
+[18-Oct-18 02:26 AM] siu#3920
+wouldnt that make it not probably fair?
+
+
+[18-Oct-18 02:26 AM] Deleted User#0000
+and the odds mean, that the table gets all coins ... we tested this A LOT!
+
+
+[18-Oct-18 02:26 AM] Deleted User#0000
+thousands of bets for days
+
+
+[18-Oct-18 02:26 AM] Alright#0419
+yea you're going to hit a problem
+
+
+[18-Oct-18 02:27 AM] Alright#0419
+entire supply will end up locked in dice fund eventually
+
+{Reactions}
+👌 (2) 🚀 🌕 
+
+[18-Oct-18 02:27 AM] siu#3920
+well, that is the end of the game then
+
+
+[18-Oct-18 02:27 AM] Deleted User#0000
+less supply more value for remaing coins :trollface:
+
+
+[18-Oct-18 02:28 AM] Deleted User#0000
+Its not too late to fix it with a new chain with the right info ?
+
+
+[18-Oct-18 02:28 AM] Alright#0419
+We need to figure out how to cheat entropy
+
+
+[18-Oct-18 02:28 AM] siu#3920
+hmm... dont know
+
+
+[18-Oct-18 02:28 AM] siu#3920
+with that kind of diff...
+
+
+[18-Oct-18 02:28 AM] Alright#0419
+so dice fund owner can cheat their own entropy and withdraw coins
+
+
+[18-Oct-18 02:28 AM] Deleted User#0000
+Unless we engineer a new DICE fund and hardfork with a withdraw
+
+
+[18-Oct-18 02:29 AM] Deleted User#0000
+but that requires the above posted issues to be fixed first
+
+
+[18-Oct-18 02:29 AM] Deleted User#0000
+better use of premine would have been bounties for fixes of known issues
+
+
+[18-Oct-18 02:29 AM] siu#3920
+but do we want to withdraw?, the initial idea is that we dont want to.
+
+
+[18-Oct-18 02:29 AM] jorian#4555
+but then funds lock up
+
+
+[18-Oct-18 02:29 AM] jorian#4555
+eventually
+
+
+[18-Oct-18 02:29 AM] jorian#4555
+unless someone is lucky enough to win
+
+
+[18-Oct-18 02:29 AM] Deleted User#0000
+the entire supply willjust end up in the dice fund
+
+
+[18-Oct-18 02:29 AM] jorian#4555
+but it seems this was tested a lot
+
+
+[18-Oct-18 02:30 AM] siu#3920
+it will take years for all funds to get locked up imo
+
+
+[18-Oct-18 02:30 AM] siu#3920
+the entire supply will take about 10 years to be mined
+
+
+[18-Oct-18 02:30 AM] Deleted User#0000
+unless someone get VERY lucky and never bets those coins ever again, or sells them to anyone
+
+
+[18-Oct-18 02:30 AM] jorian#4555
+house should have a faucet
+
+{Reactions}
+🤔 
+
+[18-Oct-18 02:30 AM] Deleted User#0000
+thats not a bad idea... wonder if you can do that
+
+
+[18-Oct-18 02:31 AM] jorian#4555
+but with 21,000,000 coins, a 0.1 faucet is kind of small
+
+
+[18-Oct-18 02:31 AM] jorian#4555
+it's giving kids in africa 10 cents
+
+
+[18-Oct-18 02:31 AM] Deleted User#0000
+make the faucet mine super high difficulty ... so they cant just withdraw when ever
+
+
+[18-Oct-18 02:31 AM] siu#3920
+10.5m to be exact...
+
+
+[18-Oct-18 02:31 AM] SHossain#0007
+explorer deaded
+
+
+[18-Oct-18 02:32 AM] Deleted User#0000
+it wasnt me ... I decided ot be constructive about this rather than destrictive
+
+
+[18-Oct-18 02:32 AM] siu#3920
+@CHMEX
+
+
+[18-Oct-18 02:32 AM] Deleted User#0000
+which was my first thaught for some reason... maybe I have been missing too much sleep lately
+
+
+[18-Oct-18 02:32 AM] jorian#4555
+it's fine, i totally understand it
+
+
+[18-Oct-18 02:33 AM] Alright#0419
+*should have made plans on MGNX*
+
+{Reactions}
+😂 
+
+[18-Oct-18 02:34 AM] Alright#0419
+lol jl had suggested I did that, but I couldn't be bothered to fix my wallet
+
+
+[18-Oct-18 02:34 AM] grewalsatinder#9653
+@Deleted User u blame me for a tweet storm???
+
+
+[18-Oct-18 02:34 AM] grewalsatinder#9653
+Are you fine bro??
+
+
+[18-Oct-18 02:34 AM] grewalsatinder#9653
+Health OK??
+
+
+[18-Oct-18 02:35 AM] Alright#0419
+he's not fine :P, let him cool off and talk tomorrow
+
+
+[18-Oct-18 02:35 AM] grewalsatinder#9653
+😂🤣
+
+
+[18-Oct-18 02:35 AM] Alright#0419
+😐
+
+
+[18-Oct-18 02:35 AM] grewalsatinder#9653
+he’s like a sparta kicking me into well
+
+
+[18-Oct-18 02:35 AM] grewalsatinder#9653
+The messenger
+
+
+[18-Oct-18 02:36 AM] siu#3920
+I dont think we made a tweet storm
+
+
+[18-Oct-18 02:36 AM] Alright#0419
+wasn't joking man, stop dragging it out
+
+
+[18-Oct-18 02:36 AM] grewalsatinder#9653
+I made that tweet storm
+
+
+[18-Oct-18 02:36 AM] siu#3920
+We just announced the mining was available so that people didnt complain later
+
+
+[18-Oct-18 02:36 AM] siu#3920
+And we know that took off too soon
+
+
+[18-Oct-18 02:36 AM] grewalsatinder#9653
+I did not do anything wrong.
+
+
+[18-Oct-18 02:36 AM] grewalsatinder#9653
+Get over with that.
+
+
+[18-Oct-18 02:37 AM] siu#3920
+We should not be fighting over this. Please
+
+{Reactions}
+💯 
+
+[18-Oct-18 02:37 AM] jorian#4555
+ok, now that everyone has said what he needed to say, let's focus on the future
+
+{Reactions}
+💯 
+
+[18-Oct-18 02:37 AM] Deleted User#0000
+whats done is done... focus on making it work now ... there are problems to solve
+
+
+[18-Oct-18 02:38 AM] jl777c#5810
+no chain launch is perfect
+
+
+[18-Oct-18 02:38 AM] CHMEX#0686
+Yes the explorers died for the moment
+
+
+[18-Oct-18 02:38 AM] jl777c#5810
+what is important is not the moment of launch
+
+
+[18-Oct-18 02:38 AM] CHMEX#0686
+Need a more powerfull machine
+
+
+[18-Oct-18 02:38 AM] jl777c#5810
+but what happens during the life of the coin
+
+
+[18-Oct-18 02:38 AM] CHMEX#0686
+2 hours or so
+
+
+[18-Oct-18 02:38 AM] siu#3920
+Ok, thank @CHMEX
+
+
+[18-Oct-18 02:39 AM] jorian#4555
+we have too many chains
+
+{Reactions}
+💯 (2) ☝ 👍 
+
+[18-Oct-18 02:39 AM] jl777c#5810
+KMDICE miners should put up bounties for the fixes
+
+
+[18-Oct-18 02:39 AM] jl777c#5810
+the world will have millions of chains in the future
+
+
+[18-Oct-18 02:39 AM] Alright#0419
+can put an additional explorer up if you guys want
+
+
+[18-Oct-18 02:39 AM] jorian#4555
+@siu we should change our name to chainbreakers and do something abou it
+
+{Reactions}
+😂 (2) 💪 
+
+[18-Oct-18 02:39 AM] siu#3920
+Lol, its been an option since day one
+
+
+[18-Oct-18 02:39 AM] jl777c#5810
+managing this coming proliferation of chains will be important
+
+
+[18-Oct-18 02:39 AM] Deleted User#0000
+I can be your avdiser to break as many chains as you like
+
+
+[18-Oct-18 02:40 AM] jorian#4555
+we have forkwitch too
+
+
+[18-Oct-18 02:40 AM] jorian#4555
+you should team up
+
+
+[18-Oct-18 02:40 AM] Alright#0419
+he messaged me O.o
+
+
+[18-Oct-18 02:40 AM] siu#3920
+My train of thought was that while people dont have anything at stake, motivation just doesnt manifest
+
+
+[18-Oct-18 02:40 AM] Deleted User#0000
+he seems very smart
+
+
+[18-Oct-18 02:40 AM] jl777c#5810
+yes, just a bit of language issues on nuances
+
+
+[18-Oct-18 02:41 AM] siu#3920
+If we did a minable chain then some people will start to have something at stake and will have motivation to get the ball rolling
+
+
+[18-Oct-18 02:41 AM] Deleted User#0000
+thats a good thaught @siu  we need people involved .. .staked was meant to accomplish just that ... but we hav been delayed for far too long
+
+
+[18-Oct-18 02:41 AM] Deleted User#0000
+the advantage of staked, is you can just kill a chain if an issue like this happens...
+
+
+[18-Oct-18 02:41 AM] Alright#0419
+staked has strayed from it's original stated purpose *a lot*
+
+{Reactions}
+pirate 
+
+[18-Oct-18 02:41 AM] siu#3920
+Understood. But i think that STAKED was also for overall testing
+
+
+[18-Oct-18 02:41 AM] Deleted User#0000
+no coins lost
+
+
+[18-Oct-18 02:42 AM] siu#3920
+This chain is for a specific purpose.
+
+
+[18-Oct-18 02:42 AM] Alright#0419
+staked is the only chain that can have opt-in contracts rather than compulsory consensus rules
+
+
+[18-Oct-18 02:42 AM] siu#3920
+If the issues get fixed it might have a valuable future
+
+
+[18-Oct-18 02:42 AM] siu#3920
+@Alright dont get me wrong, what you guys are doing is magnificent.
+
+
+[18-Oct-18 02:42 AM] Deleted User#0000
+you can always dowhat we did on early stakeds... is the issues get fixed snapshot and airdrop the chain to a new one
+
+
+[18-Oct-18 02:43 AM] Alright#0419
+but yes, this would have been the perfect usecase for staked 😛
+
+{Reactions}
+🚀 (2) 
+
+[18-Oct-18 02:43 AM] Deleted User#0000
+nothing is lost ... PIRATE thatcouldnt happen duse to Z address
+
+
+[18-Oct-18 02:43 AM] Alright#0419
+as if there was a problem, just kill the chain, change the contract, snapshot/airdrop
+
+
+[18-Oct-18 02:43 AM] Alright#0419
+and we're back at it
+
+
+[18-Oct-18 02:43 AM] Deleted User#0000
+I dont see whay they cant do that here ?
+
+
+[18-Oct-18 02:43 AM] Deleted User#0000
+but ther is no reason to kill it yet
+
+
+[18-Oct-18 02:43 AM] Alright#0419
+Oh yep
+
+
+[18-Oct-18 02:44 AM] Deleted User#0000
+that can be sorted later
+
+
+[18-Oct-18 02:44 AM] Deleted User#0000
+get ppl playing dice ... start with SMKs work here  : https://github.com/smk762/kmd_pulp/tree/master/Staked/dice
+
+{Embed}
+https://github.com/smk762/kmd_pulp/tree/master/Staked/dice
+smk762/kmd_pulp
+random assortment of small scripts for use in the Komodo ecosystem - smk762/kmd_pulp
+https://images-ext-1.discordapp.net/external/6xcX3Z50JaMIMuZ9mAXOpQv_L8FfDr-TLGFP0GMRbbU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/35845239
+
+
+[18-Oct-18 02:44 AM] Deleted User#0000
+they can mine all they like... and cant lose anything if the chain gets broken.
+
+
+[18-Oct-18 02:45 AM] Deleted User#0000
+if you snapshot and airdrop you an get the funds out of the contract too,
+
+
+[18-Oct-18 02:45 AM] Deleted User#0000
+and do it better way second time.
+
+
+[18-Oct-18 02:45 AM] jorian#4555
+@smkhound did wonderful work there
+
+{Reactions}
+👍 
+
+[18-Oct-18 02:45 AM] jorian#4555
+we didn't see that yesterday
+
+
+[18-Oct-18 02:45 AM] Deleted User#0000
+It was never finished ...
+
+
+[18-Oct-18 02:45 AM] Deleted User#0000
+but I think for a single dice contract its solid
+
+
+[18-Oct-18 02:45 AM] siu#3920
+We think that eventually house edge and all the goodies should be added the dice contracts
+
+
+[18-Oct-18 02:46 AM] Alright#0419
+like withdraw? :trollface:
+
+
+[18-Oct-18 02:46 AM] Alright#0419
+🤣
+
+
+[18-Oct-18 02:46 AM] Deleted User#0000
+the only way your going to be able to change ther contract is with snapshot and airdrop
+
+
+[18-Oct-18 02:46 AM] Deleted User#0000
+but at least that option is there
+
+
+[18-Oct-18 02:46 AM] Deleted User#0000
+and you dont screw everyone who mined already
+
+
+[18-Oct-18 02:46 AM] Alright#0419
+might not need to kill the chain
+
+
+[18-Oct-18 02:46 AM] siu#3920
+Lol, maybe something similar to withdraw, but a bit different
+
+
+[18-Oct-18 02:46 AM] Alright#0419
+can't add block height triggers to change the rules at a given time?
+
+
+[18-Oct-18 02:47 AM] Alright#0419
+if not, that's pretty bad
+
+
+[18-Oct-18 02:47 AM] jl777c#5810
+yes, dice CC purpose is to find all the features dice2 needs
+
+
+[18-Oct-18 02:47 AM] jl777c#5810
+stop bets, followed by withdraw, house margin, etc
+
+
+[18-Oct-18 02:48 AM] jl777c#5810
+it is easier to solve a specific problem than to make a generalized enviroment
+
+
+[18-Oct-18 02:48 AM] jl777c#5810
+both have their places in the spectrum
+
+
+[18-Oct-18 02:52 AM] jorian#4555
+now can we make #kmdice ?
+
+{Reactions}
+💯 
+
+[18-Oct-18 02:53 AM] jorian#4555
+maybe it's even time for a contracts subsection
+
+
+[18-Oct-18 03:10 AM] jl777c#5810
+#kmdice
+
+
+[26-Oct-18 04:27 PM] Bryan_Beus#6442
+What is the best link for your website, @siu? I will include it in the documentation I'm writing right now about asset chains.
+
+
+[26-Oct-18 04:34 PM] siu#3920
+Chainmakers.co or chainmake.rs
+
+
+[26-Oct-18 04:35 PM] siu#3920
+Email siu@chainmake.rs
+
+
+[31-Oct-18 08:53 AM] Hypocalese#3688
+Is this the appropriate channel to discuss getting an assetchain added to Agama Wallet?
+
+
+[31-Oct-18 09:03 AM] siu#3920
+yes, please, DM me @Hypocalese
+
+
+[31-Oct-18 02:58 PM] Gateway#3763
+[dscrd-chnmkrs] <haja97> Hey everyone! Just wanted to let you all know that Divistock submission video has been posted on our instagram page! 
+
+https://instagram.com/p/BpnNNT5hJyo/
+
+{Embed}
+https://instagram.com/p/BpnNNT5hJyo
+BizStart.Live on Instagram: “Divistock aims to develop the ultim...
+13 Likes, 0 Comments - BizStart.Live (@bizstart.live) on Instagram: “Divistock aims to develop the ultimate platform for the tokenization of assets using legally…”
+https://images-ext-1.discordapp.net/external/Iy3AjYNMqoLKQ_SjVsRpVSEw0FGIdEBeVhtYkCq0tEs/https/scontent-mia3-1.cdninstagram.com/vp/e249ff0b52af01346a4c9e5f16160f54/5BDC7BE2/t51.2885-15/e15/44626710_139893330308207_3498940205794692245_n.jpg
+
+
+[13-Nov-18 02:08 PM] Audo#5667
+Hey Komodo Projects,
+
+Komodo team is looking to know better the projects which are building with Komodo. We ask you to fill out this form so that we get information about each project and the rapidly growing ecosystem.
+
+https://airtable.com/shrKBzMwUddQ4ggET
+
+{Embed}
+https://airtable.com/shrKBzMwUddQ4ggET
+Submit New Project - Airtable
+Fill out the "Submit New Project" form quickly and securely on Airtable.
+https://images-ext-2.discordapp.net/external/wOO2B2WaFrXKHRFn-C_52mTmmd6WpFp5YNlHI3X6hPA/https/static.airtable.com/images/oembed/airtable.png
+
+
+[10-Dec-18 01:03 PM] siu#3920
+Hello @everyone, we will be doing an airdrop of 75% of Chainmakers funds this december. This means that CHAIN notary nodes voters will get a holiday's present from Chainmakers! 🎉  The snapshot for the airdrop will be done on Friday, December 14, 2018. So users can have some time to put their CHAIN in a accessible wallet. The actual airdrop we hope to be able to do it during the weekend. We will let you know when all is ready. HAPPY HOLIDAYS!
+
+{Reactions}
+👏 (2) rum (6) 
+
+[10-Dec-18 01:07 PM] Sri#6686
+🎊
+
+
+[10-Dec-18 01:09 PM] Acura#2748
+Wow! NICEEE !
+
+
+[10-Dec-18 01:10 PM] PTYX#6840
+Woot
+
+
+[10-Dec-18 01:14 PM] siu#3920
+https://www.kmdexplorer.io/address/bagZ4Zu9mEcV3cwEtzUxdCfjvp8xAZbQBf
+
+
+[10-Dec-18 01:15 PM] siu#3920
+so taking into account that total funds is 35,265 KMD, the total airdrop will be of 26,448.75KMD
+
+
+[10-Dec-18 01:15 PM] siu#3920
+to 900,000 CHAIN
+
+
+[10-Dec-18 01:16 PM] siu#3920
+since we wont include the Chainmakers development funds addresses.
+
+
+[10-Dec-18 01:16 PM] siu#3920
+so about 0.03KMD per CHAIN
+
+
+[10-Dec-18 01:27 PM] Gleb#9356
+So i can withdraw my coin from exchange to wallet???
+
+
+[10-Dec-18 01:28 PM] siu#3920
+Yes, you need to in order to get the airdrop.
+
+
+[10-Dec-18 01:45 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+😄
+
+
+[10-Dec-18 01:45 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+amazing
+
+
+[10-Dec-18 01:45 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+so just hold kmd and you will get a airdrop of CHAIN?
+
+
+[10-Dec-18 01:45 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+in the latest agama wallet?
+
+
+[10-Dec-18 01:46 PM] siu#3920
+no, the contrary. if you hold CHAIN, you will get KMD
+
+
+[10-Dec-18 01:46 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+ahhh cool
+
+
+[10-Dec-18 01:46 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+still
+
+
+[10-Dec-18 01:46 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+free kmd 😃
+
+
+[10-Dec-18 03:31 PM] Shaf#5912
+what is CHAIN?
+
+
+[10-Dec-18 03:32 PM] SHossain#0007
+https://2.imimg.com/data2/IG/UK/MY-2922664/link-chain-250x250.jpg
+
+{Embed}
+https://2.imimg.com/data2/IG/UK/MY-2922664/link-chain-250x250.jpg
+https://images-ext-1.discordapp.net/external/_m8Q3PKieQvR2-xI2thPZdzJa5ey5ScC79GEjuHvm-U/https/2.imimg.com/data2/IG/UK/MY-2922664/link-chain-250x250.jpg
+
+
+[10-Dec-18 03:33 PM] Shaf#5912
+what is CHAIN relative to KMD?
+
+
+[10-Dec-18 03:35 PM] SHossain#0007
+@siu ^^
+
+
+[10-Dec-18 03:36 PM] SHossain#0007
+@Shaf https://chainmakers.co/
+
+
+[10-Dec-18 03:36 PM] SHossain#0007
+this is their website
+
+
+[10-Dec-18 03:36 PM] SHossain#0007
+CHIAN is their coin
+
+
+[10-Dec-18 03:38 PM] Shaf#5912
+thanks
+
+
+[11-Dec-18 12:35 AM] Lumbi#8378
+🍀 👍🏻
+
+
+[11-Dec-18 12:53 AM] Oszy#5734
+Which exchange on CHAIN is trading if I'd like to get some?
+
+
+[11-Dec-18 01:17 AM] jorian#4555 (pinned)
+https://digitalprice.io/order?url=chain-kmd
+
+
+[11-Dec-18 01:18 AM] jorian#4555
+Pinned a message.
+
+
+[11-Dec-18 01:19 AM] jorian#4555
+but it seems most people who got airdropped CHAIN still have them https://dexstats.info/richlist.php?asset=CHAIN
+
+{Embed}
+https://dexstats.info/richlist.php?asset=CHAIN
+Dexstats Dashboard - Richlist for CHAIN Assetchain
+Richlist for KMD and CHAIN Assetchains
+
+
+[11-Dec-18 01:22 AM] Vincent68#0704
+Nobody is selling Chain on that dex
+
+
+[11-Dec-18 02:17 AM] stock999#4818
+Hello
+
+
+[11-Dec-18 02:21 AM] stock999#4818
+@siu  Have you a step by step instruction how to get the airdrop?  I'm a newbie here, so i need  more details.
+
+
+[11-Dec-18 02:26 AM] siu#3920
+You just need to hold CHAIN in a address you hold, preferably in agama.
+
+
+[11-Dec-18 02:40 AM] stock999#4818
+@siu  I have agama.   It should be  1 CHAIN = 0.03KMD, as i see above, right?
+
+
+[11-Dec-18 02:41 AM] jorian#4555
+1 CHAIN will get approx 0.03 KMD yes
+
+
+[11-Dec-18 03:08 AM] Oszy#5734
+@jorian Get started page is 404 on the website. `https://chainmakers.co/chainmakers.co/#contact`
+
+
+[11-Dec-18 03:12 AM] jorian#4555
+oh
+
+
+[11-Dec-18 03:12 AM] jorian#4555
+thanks
+
+
+[11-Dec-18 03:14 AM] jorian#4555
+@Oszy should be fixed
+
+
+[11-Dec-18 03:23 AM] stock999#4818
+I never have used digitalprice exchange . Do they require KYC as mandatory?
+
+
+[11-Dec-18 03:24 AM] Oszy#5734
+No.
+
+
+[11-Dec-18 03:24 AM] siu#3920
+Nope
+
+
+[11-Dec-18 03:24 AM] Oszy#5734
+Limit is 5K a day
+
+
+[11-Dec-18 03:26 AM] stock999#4818
+It's  nice to hear.  Because  i hate any form of KYC in crypto
+
+
+[11-Dec-18 03:28 AM] stock999#4818
+But  the order book on Digitalprice breaks any hope.
+
+
+[11-Dec-18 03:30 AM] siu#3920
+Chain supply is only 999,999
+
+
+[11-Dec-18 03:31 AM] siu#3920
+So its very scarce
+
+
+[11-Dec-18 03:32 AM] stock999#4818
+the ask price is 0.5 KMD, but the best bid is 0,001 KMD only, i.e x500, and there is no history yet, i.e no trades
+
+
+[11-Dec-18 03:34 AM] stock999#4818
+Is there any another exchange?
+
+
+[11-Dec-18 03:36 AM] siu#3920
+Nope
+
+
+[11-Dec-18 03:40 AM] siu#3920
+Like i said. Most CHAIN is held by our notary node voters and they dont seem to be interested im selling them
+
+
+[11-Dec-18 03:41 AM] stock999#4818
+Ok, clear.
+
+
+[11-Dec-18 05:13 AM] Cryptoon#3362
+Nah, keeping my chain for life
+
+
+[11-Dec-18 05:13 AM] Cryptoon#3362
+that sweet sweet dividend lifestyle
+
+
+[11-Dec-18 06:10 AM] siu#3920
+its a gift. 😉
+
+
+[12-Dec-18 02:51 AM] El Dakak#0258
+RMZPkRFsao3oRdTAadkHBnFwrtCgehWFg3
+
+
+[12-Dec-18 02:52 AM] El Dakak#0258
+How can I get the airdrop
+
+
+[12-Dec-18 03:57 AM] jorian#4555
+buy CHAIN
+
+
+[12-Dec-18 03:57 AM] jorian#4555
+or go back in time and vote for chainmakers
+
+
+[12-Dec-18 04:53 AM] Cryptoon#3362
+#wlc
+
+
+[12-Dec-18 06:36 AM] ComputerGenie#7004
+I'm rich
+
+
+[12-Dec-18 06:36 AM] ComputerGenie#7004
+```computergenie@debian:~/komodo/src$ ./komodo-cli -ac_name=CHAIN getbalance
+0.14260200
+computergenie@debian:~/komodo/src$ ./komodo-cli -ac_name=CHAIN listunspent | jq '.|length'
+1161
+```
+
+
+[12-Dec-18 07:07 AM] jorian#4555
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/522429300105019392/giphy.png
+
+
+[12-Dec-18 07:07 AM] jorian#4555
+meh, the gif is better
+
+
+[13-Dec-18 03:53 AM] siu#3920
+😂 😂
+
+
+[14-Dec-18 02:27 AM] jorian#4555
+snapshot will be done in 30 minutes!
+
+
+[14-Dec-18 03:06 AM] jorian#4555
+snapshot was taken at blockheight 114460
+
+
+[14-Dec-18 03:06 AM] jorian#4555
+details will be published later today
+
+
+[14-Dec-18 03:20 AM] Alright#0419
+@jorian snapshot for what?
+
+
+[14-Dec-18 03:59 AM] Acura#2748
+For the Airdrop i think
+
+
+[14-Dec-18 04:07 AM] jorian#4555
+yes, the airdrop. this file contains all addresses that are included in the airdrop. The threshold is 0.01 CHAIN
+
+
+[14-Dec-18 04:07 AM] jorian#4555
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/523108762299531264/snapshot0.01.json
+
+
+[14-Dec-18 04:08 AM] jorian#4555
+from the above json a couple of development addresses will be excluded
+
+
+[14-Dec-18 04:14 AM] ComputerGenie#7004
+So, who did you have to be or what did you have to have to be in the airdrop?
+
+
+[14-Dec-18 04:24 AM] Alright#0419
+airdrop of what to who
+
+
+[14-Dec-18 04:29 AM] ComputerGenie#7004
+of something to not-me ☹
+
+
+[14-Dec-18 04:30 AM] jorian#4555
+not you? 😮
+
+
+[14-Dec-18 04:30 AM] jorian#4555
+you didn't mine enough 😛
+
+
+[14-Dec-18 04:30 AM] jorian#4555
+@Alright chainmakers block rewards from 2 notary nodes + other income to CHAIN holders
+
+
+[14-Dec-18 04:31 AM] jorian#4555
+https://github.com/chainmakers/dec18_presents/blob/master/snapshot0.01.json final list of addresses
+
+{Embed}
+https://github.com/chainmakers/dec18_presents/blob/master/snapshot0.01.json
+chainmakers/dec18_presents
+Repo to show how presents were given. Contribute to chainmakers/dec18_presents development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/0Ge3wNvy3GdgH7O50WD_rhZGuESIZPoIE-nCVAftxJc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/35841643
+
+
+[14-Dec-18 04:33 AM] ComputerGenie#7004
+`to CHAIN holders`
+ahhh
+I did get some then 😃
+
+
+[14-Dec-18 04:33 AM] ComputerGenie#7004
+```JSON
+  {
+    "addr": "RQSLTaMNcUGsfR7HQJKvcJg76ZM9Fo5RSC",
+    "amount": 0.09399638
+  }```
+
+
+[14-Dec-18 04:34 AM] ComputerGenie#7004
+almost to 0.5 CHAIN now 🐋
+
+
+[14-Dec-18 04:47 AM] jorian#4555
+901079.31539100 CHAIN is the amount of CHAIN where 75% of 35397.0237075 KMD will be airdropped to
+
+
+[14-Dec-18 05:13 AM] siu#3920
+https://www.linkedin.com/company/chainmakers/about/
+
+
+[14-Dec-18 05:13 AM] siu#3920
+Please everyone, follow chainmakers in linkedin.
+
+{Reactions}
+🎊 
+
+[14-Dec-18 05:20 AM] Alright#0419
+you guys considering moving CHAIN to assets contract once KMD has cc activated?
+
+
+[14-Dec-18 05:20 AM] Alright#0419
+just throwing the idea out there, we'll need someone to showcase it eventually
+
+
+[14-Dec-18 06:17 AM] jorian#4555
+@Alright care to explain that a bit?
+
+
+[14-Dec-18 06:17 AM] jorian#4555
+assets contract?
+
+
+[14-Dec-18 06:23 AM] siu#3920
+he means a token in komodo
+
+
+[14-Dec-18 06:23 AM] siu#3920
+using tokens contract
+
+
+[14-Dec-18 06:24 AM] jorian#4555
+to do what exactly?
+
+
+[14-Dec-18 06:36 AM] Alright#0419
+not sure what CHAIN is exactly, but if it's solely for paying out KMD, seems a perfect fit for an on chain asset
+
+
+[14-Dec-18 06:41 AM] jorian#4555
+why?
+
+
+[14-Dec-18 06:42 AM] Alright#0419
+Why not? :trollface:
+
+
+[14-Dec-18 06:43 AM] Alright#0419
+but seriously, does it have any reason to be it's on chain if it could instead just be on KMD itself as a token
+
+
+[14-Dec-18 06:43 AM] Alright#0419
+this is all based on the assumption that it's only for payouts, not sure what else it does
+
+
+[14-Dec-18 06:43 AM] jorian#4555
+oh you mean as a token on KMD.. i thought on CHAIN
+
+
+[14-Dec-18 06:43 AM] jorian#4555
+ok, maybe that's a good idea
+
+
+[14-Dec-18 06:44 AM] jorian#4555
+unless james doesnt want us to contaminate the KMD
+
+
+[14-Dec-18 06:44 AM] jorian#4555
+maybe we make chainkitties
+
+{Reactions}
+🤦🏽 
+
+[14-Dec-18 06:45 AM] jorian#4555
+and to add to that, we call ourselves chainmakers but don't have our own chain.. :trollface:
+
+
+[14-Dec-18 06:45 AM] jl777c#5810
+tokenmakers
+
+
+[14-Dec-18 07:17 AM] siu#3920
+😂
+
+
+[14-Dec-18 07:34 AM] jorian#4555
+https://docs.google.com/spreadsheets/d/1iJf0GC6kUOhZlXZtOtrjSQqkRo8OBQ6OM6wRSl-bMoY/edit#gid=0
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1iJf0GC6kUOhZlXZtOtrjSQqkRo8OBQ6OM6wRSl-bMoY/edit
+presents
+Sheet1
+
+ Address, CHAIN, Present
+ RHfbV2D4B7eR5oh7D2N2f5AecXn8pGtqbm, 400000. 00000000, 11784. 87501696, Denominator:, 901079. 31539100
+ RAxJZhfTnyC62wV8cYZAcS4b1vTpZf1DoY, 400000. 00000000, 11784. 87501696, bagZ:, 35397. 02370750
+ RLj9h7zfnx4X9hvquR3sEwzHvcvF61W2Rc, 2745. 71...
+https://images-ext-2.discordapp.net/external/_Dh20UIFVj9abAeidDgn-53DeQSbILKkgcGxUMNXTFs/https/lh6.googleusercontent.com/HZAtozr-aLDy1MgyarKFOMVc0tTah59J39ycCxh0d40DIem9S7Vy51czwbK8ka81r3VOng%3Dw1200-h630-p
+
+
+[14-Dec-18 01:26 PM] Captain_Jack#0015
+Hi...would like to get dPoW setup for an asset chain
+
+
+[14-Dec-18 04:25 PM] SHossain#0007
+```
+CHAIN transition at 115237 (115236, 1544831911) -> (115237, 1544832005)
+SET SAPLING ACTIVATION height.115297
+CHAIN sapling activation at 115297
+```
+
+
+[14-Dec-18 11:42 PM] Cryptoon#3362
+@siu @Captain_Jack
+
+
+[15-Dec-18 04:58 PM] cryptobankz#2642
+Possible to mine Chain with Z9 ASIC?
+
+
+[15-Dec-18 06:16 PM] siu#3920
+Yes, but only 0.0001 block rewards
+
+
+[15-Dec-18 06:16 PM] siu#3920
+@Captain_Jack please DM me.
+
+
+[16-Dec-18 02:14 AM] ComputerGenie#7004
+@cryptobankz  1 CPU core is plenty to mine CHAIN; 1 ASIC is just pissing away $
+
+
+[17-Dec-18 11:26 AM] siu#3920
+@here We are glad to announce that the Chainmakers end-of-year gift has been airdropped... Enjoy! 
+https://kmdexplorer.ru/tx/dc2c06b1ac73bd195c9fd2c78747657d06496d0cff85bb7ff4abb2b7c2fc8a76
+
+{Reactions}
+🎄 (5) 🎊 (3) 🏆 (3) 👍 
+
+[17-Dec-18 04:37 PM] Deleted User#0000
+Is this like a perma ping? I've goe as far as restarting my phone and its still a red notification, and I doubt I got air dropped anything 😆
+
+
+[17-Dec-18 05:08 PM] ComputerGenie#7004
+get a real PC and you can shift+esc and make it go away :trollface:  🎵 Doong ding-dong-ding 🎵
+
+
+[17-Dec-18 05:32 PM] kolo#0539
+Why chainmakers are sending me KMD? 😃
+
+
+[17-Dec-18 05:32 PM] kolo#0539
+Is that Santa?
+
+
+[18-Dec-18 12:32 AM] jorian#4555
+ho ho hooo
+
+
+[18-Dec-18 12:59 AM] Epsilon 2.0#8987
+Hello, what is chainmaker?
+
+
+[18-Dec-18 12:59 AM] Epsilon 2.0#8987
+are those addresses in the txid random from all addresses?
+
+
+[18-Dec-18 03:39 AM] jorian#4555
+why random
+
+
+[18-Dec-18 03:39 AM] jorian#4555
+they are CHAIN holders
+
+
+[18-Dec-18 03:39 AM] jorian#4555
+read the channel topic and see https://chainmakers.co
+
+
+[18-Dec-18 03:40 AM] ComputerGenie#7004
+`why random
+they are CHAIN holders`
+Which means both are true :trollface:
+
+
+[18-Dec-18 03:41 AM] ComputerGenie#7004
+The airdrop went to those random people that decided to own some CHAIN
+
+
+[18-Dec-18 05:30 AM] Cryptoon#3362
+that decided to support chain in their campaign for notary nodes 😃
+
+
+[23-Dec-18 07:24 PM] lukechilds#2707
+@siu is `bagZ4Zu9mEcV3cwEtzUxdCfjvp8xAZbQBf` a vanity address or did you just get lucky? 😆
+
+
+[24-Dec-18 12:39 AM] jorian#4555
+We got lucky 😁
+
+
+[10-Jan-19 10:12 AM] siu#3920
+Hello @here, we just made our own support portal. We encourage that all of our clients (old or new) sign up so that we can expand our relations at the same that we get more organized :)
+
+https://chainmake.freshdesk.com/support/home
+
+{Reactions}
+💪🏼 (7) 
+
+[10-Jan-19 10:14 AM] siu#3920
+Also we want to announce that Chainmakers is now Chainmakers, LLC a domestic corporation in PR
+
+{Reactions}
+👍 (9) 💯 (8) 👏🏽 (7) 👌 (2) 
+
+[10-Jan-19 10:16 AM] siu#3920
+We now offer legal consultations too based on USA law thanks to our partner @bermudeztejero
+
+{Reactions}
+🚔 (4) 💪 (4) 👌 👍 
+
+[14-Jan-19 02:39 PM] Deleted User#0000
+Angel is a super nice guy!
+
+{Reactions}
+👍 
+
+[14-Jan-19 02:40 PM] Deleted User#0000
+just wish he'd hit me back. lol
+
+
+[15-Jan-19 01:42 AM] nikita#5134
+Good time of the day!
+I would love to share an idea for the dapp and hopefully find people who resonate with it and would help to manifest it
+
+
+[15-Jan-19 04:39 AM] siu#3920
+@nikita welcome! Please DM when you are available and we can talk about your idea.
+
+
+[21-Jan-19 02:13 AM] BenAlexander#2659
+Hello Chainmakers... Is anyone available to chat about the blockchain security service for an existing project?
+
+
+[21-Jan-19 02:13 AM] jorian#4555
+hey, yes @BenAlexander
+
+
+[21-Jan-19 02:14 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Sure, please DM me.
+
+
+[04-Feb-19 11:36 AM] siu#3920
+Hello everyone, from now on, we will be doing a monthly airdrop for whatever we have available in our wallet.
+
+
+[04-Feb-19 11:36 AM] siu#3920
+This week we will do one, so please, be sure to have your CHAIN in a wallet you own.
+
+
+[04-Feb-19 01:17 PM] Cryptoon#3362
+Vamooooo
+
+
+[05-Feb-19 03:13 AM] jorian#4555
+snapshot at block 161616
+
+{Reactions}
+👌🏼 
+
+[05-Feb-19 12:20 PM] jorian#4555
+airdrop done: http://kmd.explorer.dexstats.info/tx/7378068d3bdb48fb14dc976b1ad3058b105ccdf8e3e8eec46bb1b4c0dded5b5d
+
+{Reactions}
+shexy (4) 
+
+[06-Feb-19 11:44 AM] Gateway#3763
+[dscrd-chnmkrs] <CHMEX> Thanks a lot! Very nice to see regular payouts!
+
+{Reactions}
+🎉 
+
+[06-Feb-19 01:48 PM] Cryptoon#3362
+Yes, very nice, thanks a bunch lads!
+
+
+[10-Feb-19 11:14 AM] RNI#2666
+Excellent! I already asked myself where those 25kmd come from 🤔 😃 👍
+
+
+[10-Feb-19 11:16 AM] jorian#4555
+we're full of presents 😄 expect them to come in monthly from now on
+
+{Reactions}
+😃 
+
+[10-Feb-19 11:16 AM] jorian#4555
+maybe not as much, but still
+
+
+[12-Feb-19 01:45 PM] fredrik#2289
+Hi. How do I get started ? Need a special one for my games. 😃
+
+
+[12-Feb-19 01:47 PM] fredrik#2289
+Looking for a starter kit.
+
+
+[12-Feb-19 01:48 PM] fredrik#2289
+Can I deicide in how many blocks per day I want in my chain as an example!? I m thinking about using it as a full backend for my game time.
+
+
+[12-Feb-19 01:50 PM] jl777c#5810
+latest versions has -ac_blocktime where you can set the number of seconds per block
+
+
+[12-Feb-19 01:54 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> We need to start by evaluating the games you want to integrate
+
+
+[12-Feb-19 02:05 PM] fredrik#2289
+Sweet that sounds great. how do you mean Gateway? Its a work in progress, I am not free to setup and start testing and poking around on my own? Hmm.
+
+
+[12-Feb-19 02:06 PM] jl777c#5810
+why do you say that?
+
+
+[12-Feb-19 02:06 PM] fredrik#2289
+Maybe, hmm I need to think and read some more first.
+
+
+[12-Feb-19 02:06 PM] jl777c#5810
+https://docs.komodoplatform.com/
+
+
+[12-Feb-19 02:06 PM] fredrik#2289
+It’s not finished and decisions haven’t been made. Sure I need to think more.
+
+
+[12-Feb-19 02:07 PM] jl777c#5810
+https://docs.komodoplatform.com/komodo/create-Komodo-Assetchain.html
+
+
+[12-Feb-19 02:10 PM] siu#3920
+Ok, if its just about lookinf for chain parameters then, what jl777 just linked is correct
+
+
+[12-Feb-19 02:13 PM] fredrik#2289
+Interesting. It’s quite complex. Maybe I get away with just following the Komodo chain itself through api calls. I need to sit down and have some brain food.
+
+
+[12-Feb-19 02:14 PM] siu#3920
+We can always do a managed service for you.
+
+
+[13-Feb-19 02:47 AM] fredrik#2289
+Sick! that would be quite something.
+
+{Reactions}
+👍 
+
+[13-Feb-19 04:44 AM] siu#3920
+Please contact us in DM to start a conversation.
+
+
+[15-Feb-19 12:36 PM] Cappo#1226
+Hi chaps, I am looking at creating a new Asset chain on KMD.  Loving the work you have been doing. Where would you wish me to start so you are involved in the project plan?
+
+
+[15-Feb-19 02:05 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> Hello! Please dm me so that we can talk about your opportunities
+
+
+[02-Mar-19 08:56 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> 
+https://cdn.discordapp.com/attachments/467648908361990146/551447821430161408/IMG-20190302-WA0009.jpg
+https://cdn.discordapp.com/attachments/467648908361990146/551447821430161409/IMG-20190302-WA0008.jpg
+
+{Embed}
+https://cdn.discordapp.com/attachments/467648908361990146/551447821430161408/IMG-20190302-WA0009.jpg
+https://media.discordapp.net/attachments/467648908361990146/551447821430161408/IMG-20190302-WA0009.jpg
+
+{Embed}
+https://cdn.discordapp.com/attachments/467648908361990146/551447821430161409/IMG-20190302-WA0008.jpg
+https://media.discordapp.net/attachments/467648908361990146/551447821430161409/IMG-20190302-WA0008.jpg
+
+{Reactions}
+👏 
+
+[02-Mar-19 08:57 AM] ComputerGenie#7004
+:shexy:
+
+
+[02-Mar-19 08:58 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> We have some presence in Coin Agenda., PR.
+
+
+[02-Mar-19 09:29 AM] actionslacks#4072
+damn... nice
+
+
+[03-Mar-19 07:51 AM] Cryptoon#3362
+looks good!
+
+
+[05-Mar-19 03:08 PM] PTYX#6840
+no more brown sheet productions for komodo projects
+
+
+[06-Mar-19 04:51 AM] Cryptoon#3362
+Never forget 😄
+
+
+[07-Mar-19 03:26 AM] smoking_dog#8169
+Service still available and what is the price for it?
+
+
+[07-Mar-19 05:17 AM] siu#3920
+thanks for the conversation.
+
+
+[30-Mar-19 05:52 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Hi guys, we want to officialize our candidacy for re-election of our North America Region node. Remember that we depend a lot on these nodes to have continuity of our business and dont receive any further investment other than the revenue from our services and these notary nodes. We leave our proposal attached to this message so that you can take a look and share it with your peers. We count with your vote!
+https://cdn.discordapp.com/attachments/467648908361990146/561533222106955856/Chainmakers_Notary_Node_Proposal_2019.pdf
+
+
+[30-Mar-19 05:52 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> @everyone  ^
+
+
+[30-Mar-19 05:54 AM] siu#3920
+@here ^
+
+
+[30-Mar-19 11:48 AM] Cryptoon#3362
+Didnt you have 2 nodes? Or is one auto reelected?
+
+
+[30-Mar-19 11:49 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> One is auto reelected
+
+
+[30-Mar-19 11:49 AM] Gateway#3763
+[dscrd-chnmkrs] <siu> Second one will need to go to re-election
+
+
+[30-Mar-19 01:00 PM] Cryptoon#3362
+Alright good stuff
+
+
+[30-Mar-19 01:01 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> Vote for us! 😎
+
+
+[30-Mar-19 01:02 PM] Gateway#3763
+[dscrd-chnmkrs] <siu> We have been true to our first year promises and have been very active in making this community bigger and more attractive.
+
+
+[30-Mar-19 01:10 PM] Cryptoon#3362
+I know
+
+
+[30-Mar-19 01:10 PM] Cryptoon#3362
+there is a reason why I hold CHAIN
+
+
+[07-Apr-19 03:29 PM] TwilightPunkster K64#7533
+https://twitter.com/komodoregames/status/1115018384796786688
+
+{Embed}
+komodoregames (@komodoregames)
+https://twitter.com/komodoregames/status/1115018384796786688
+We're officially partnered with @kmdchainmakers who will provide technical and legal support #games made with @KomodoPlatform for #Komodore64. Another strong move towards a bright future and how we as ecosystem developers collaborate!
+https://images-ext-1.discordapp.net/external/K98BND1IkrygkUhSTxYRz_iQDt34DnOjwhFjHxcD3A4/https/pbs.twimg.com/media/D3lWzZvWAAALwTN.png%3Alarge
+Twitter
+
+
+[07-Apr-19 11:26 PM] Cryptoon#3362
+Cool
+
+
+[13-Apr-19 09:48 AM] Gateway#3763
+[dscrd-chnmkrs] <Cryptoon> What will be the usecase of the chain tokens now that nn revshares wont be handed out anymore?
+
+
+[13-Apr-19 10:09 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> We are right now working on sketching out a plan moving forward with our blockchain.
+
+
+[17-Apr-19 10:48 AM] mercutio#1111
+Voting for y’all
+
+
+[17-Apr-19 10:49 AM] jorian#4555
+much appreciated 👍
+
+
+[17-Apr-19 11:19 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> awesome! thanks a lot! you will see some amazing things from us soon! 😃
+
+
+[24-Apr-19 04:24 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> Aye
+
+
+[24-Apr-19 04:25 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> sup
+
+
+[24-Apr-19 04:25 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> Here for the gangbang
+
+
+[24-Apr-19 04:25 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> We have some goodies we want you guys to test
+
+
+[24-Apr-19 04:25 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> you came to the riiight place
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> Bukake more so
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> I didn’t sign up for that
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> 😂
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> too late now
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> meepmeep
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> get in position @Hollowman9000
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> 😬
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> 😮
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> there are no brakes
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> on the bukake train
+
+
+[24-Apr-19 04:26 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> On this train
+
+
+[24-Apr-19 04:27 AM] ComputerGenie#7004
+way tmfi this early in the am
+
+
+[24-Apr-19 04:27 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> You can join too
+
+
+[24-Apr-19 04:28 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> I saw the screenshot you sent to @Cryptoon
+
+
+[24-Apr-19 04:28 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> very eager to test
+
+
+[24-Apr-19 04:28 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> looks great
+
+
+[24-Apr-19 04:28 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> 😉
+
+
+[24-Apr-19 04:28 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> What’s changed with mm2
+
+
+[24-Apr-19 04:29 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> Too much to tell actually
+
+
+[24-Apr-19 04:29 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> No more utxo guessing?
+
+
+[24-Apr-19 04:29 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> Or fishing rather
+
+
+[24-Apr-19 04:29 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> As a senior tester i could say. .. "back in my day we needed to split utxos for swaps, you pussies"
+
+
+[24-Apr-19 04:32 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian - Chainmakers> No more utxo guessing
+
+
+[24-Apr-19 04:32 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian - Chainmakers> you will be amazed at how the DEX does not require any utxo knowledge anymore
+
+
+[24-Apr-19 04:32 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian - Chainmakers> simply deposit and trade
+
+
+[24-Apr-19 04:33 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> deposit?
+
+
+[24-Apr-19 04:35 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> On bnb
+
+
+[24-Apr-19 04:35 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> As in, put coins in a wallet and trade
+
+
+[24-Apr-19 04:35 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> :troll:
+
+
+[24-Apr-19 04:36 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> nice
+
+
+[24-Apr-19 04:36 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> https://tenor.com/view/noice-nice-click-gif-8843762
+
+{Embed}
+https://tenor.com/view/noice-nice-click-gif-8843762
+https://images-ext-1.discordapp.net/external/8LDWoaMCW6QeWOJqKhvDOxl2n5fumhEPYTZ4DuOWzBE/https/media.tenor.co/images/4608c214a7455786ff0bb35696ca52bd/tenor.png
+
+
+[24-Apr-19 04:38 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> Also no native wallets needed either from buyer or seller
+
+
+[24-Apr-19 04:43 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian - Chainmakers> meaning: no agama necessary, no syncing necessary
+
+
+[24-Apr-19 04:44 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> How long does a trade take?
+
+
+[24-Apr-19 04:44 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> Confirmations etc
+
+
+[24-Apr-19 04:45 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> And if this really does work well
+
+
+[24-Apr-19 04:45 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> It needs to be screamed from the mountain tops
+
+
+[24-Apr-19 04:46 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> That is what you would do 😁
+
+
+[24-Apr-19 04:46 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> My twitter isn’t popular, keeps getting banned
+
+
+[24-Apr-19 04:46 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> Right wing terrorist or something
+
+
+[24-Apr-19 04:46 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> Anyway
+
+
+[24-Apr-19 04:47 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> Any liquidity providers onboard?
+
+
+[24-Apr-19 04:51 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> Yes. A bit. Need moar
+
+
+[24-Apr-19 04:51 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> we're gonna trade pizza for beer again?
+
+
+[24-Apr-19 04:51 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> I have 20k beer if anyone needs some
+
+
+[24-Apr-19 04:52 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> there is a faucet still
+
+
+[24-Apr-19 04:52 AM] Gateway#3763
+[dscrd-chnmkrs] <Malti> no?
+
+
+[24-Apr-19 04:52 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> If that’s the plan anyway
+
+
+[24-Apr-19 04:53 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> Yes. Beer will be one of the testing coins
+
+
+[29-Apr-19 03:01 PM] NNoperator#3835
+Thank you for the recent Revshare.  You are far too generous!
+
+
+[29-Apr-19 10:21 PM] jorian#4555
+😁
+
+
+[30-Apr-19 12:18 AM] Cryptoon#3362
+Thanks!
+
+
+[30-Apr-19 01:07 AM] Gateway#3763
+[dscrd-chnmkrs] <klein> Hi, id like to help out wth beta testing
+
+
+[30-Apr-19 01:18 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian - Chainmakers> awesome
+
+
+[30-Apr-19 01:20 AM] jansako#3330
+Hi folks, I would be happy to help with the beta testing as well if you will have me. My day job is a QA Engineer/tech support.
+
+
+[30-Apr-19 01:23 AM] jorian#4555 (pinned)
+https://discord.gg/9JnWGn4 make sure to join us
+
+
+[30-Apr-19 01:23 AM] jorian#4555
+Pinned a message.
+
+
+[30-Apr-19 01:36 AM] Gateway#3763
+[dscrd-chnmkrs] <jansako> @jorian - Chainmakers here I am. U guys still have open spaces for Beta testers?
+
+
+[30-Apr-19 01:43 AM] jorian#4555
+anyone who wants to test, please join!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/572704664143921152/unknown.png
+
+
+[30-Apr-19 11:35 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian - Chainmakers> DM me to get access
+
+
+[30-Apr-19 11:39 AM] Gateway#3763
+[dscrd-chnmkrs] <CoinKing88> I wanna help testing - tech noob, so i am your chance if the average Joe Can use it
+
+
+[18-May-19 08:12 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> Hi @everyone, we just did the last airdrop for the 2018-2019 notary season. 😃
+
+
+[18-May-19 08:13 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> Hope you guys enjoy it. Thanks for the support given this year!
+
+
+[18-May-19 08:14 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> What was airdropped
+
+
+[18-May-19 08:14 AM] Gateway#3763
+[dscrd-chnmkrs] <siu - Chainmakers> KMD
+
+
+[18-May-19 08:15 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> kewl
+
+
+[18-May-19 08:15 AM] Gateway#3763
+[dscrd-chnmkrs] <jorian - Chainmakers> https://kmd.explorer.dexstats.info/tx/917cb5bc00d35ce0e135521da9697e6699905ba5536261f80b7a05307be716b8
+
+
+[18-May-19 08:15 AM] Gateway#3763
+[dscrd-chnmkrs] <Hollowman9000> 👌👍
+
+
+[18-May-19 10:10 AM] Gateway#3763
+[dscrd-chnmkrs] <RNI> Thanks! 😃
+
+
+[18-May-19 11:56 PM] Gateway#3763
+[dscrd-chnmkrs] <DeMarco> 🤑
+
+
+[25-May-19 11:32 PM] Deleted User#0000
+Hi here :).
+Barterlly is now open on BETA mode, and will provide tools for users and CoinOwners to perform OTC trades in a safe way.
+Any KMD assetchain dPowed will be listed, and supported, for free.
+Other coins not already listed can submit a listing application at : https://barterlly.typeform.com/to/iqpS1H
+During the BETA, Barterlly won't charge any fee other than the transaction ones. after the release we will charge 1% on top of every transaction.
+Our goal is to provide premium tools for coins listed on the platform. (Discord swapbot, twitter integration, public orders, wallet integration, API, custom templating, and many more).
+Feel free to join us on our Discord.
+https://discord.gg/RHc95zw
+The app link is located at : https://app.barterlly.io
+We are open to suggestions, and partnerships.
+
+See you soon !
+
+Barterlly's team
+
+{Embed}
+https://barterlly.typeform.com/to/iqpS1H
+Barterlly-Listing
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-1.discordapp.net/external/j4WRBwI9aqFsv-lpkCn64Fr0EvicWgWYGmO4DedtKOM/https/images.typeform.com/images/FYUps4mFKPYK
+
+{Reactions}
+👍 (2) 💯 (2) 💪 (2) Komodo (2) shexy (2) 
+
+[29-Jun-19 03:39 PM] Deleted User#0000
+i think 1% is too much fee huh? should be 0.1% and after 1year or so 1% cuz i think there will be more people out there who will join if there is lower fee
+
+
+[30-Jun-19 03:32 AM] Oszy#5734
+considering the $ amount it took to develop barterlly without any public community funding i say it's fair for now. there were huge costs to make it legal as well.
+
+
+[07-Jul-19 10:49 AM] Tylor zkFS#8280
+Where do you enter the seed in chameleon pay?
+
+
+[13-Jul-19 05:33 AM] BitcoinTony123#2784
+Hello, I was wondering how much it costs to set up an average Smart Chain? Also, do I pay for it to be set up in KMD? Thanks
+
+
+[13-Jul-19 05:44 AM] gcharang#6833
+@BitcoinTony123 
+to setup the smartchains by yourself, there is no cost: https://developers.komodoplatform.com/basic-docs/installations/creating-asset-chains.html
+
+to have the process in the above doc done  automatically, along with various services, we have a blockchain builder coming soon (web portal and aws managed vps used to create the chains), will also have spv servers, explorers etc., - yet to launch, prices to be announced
+^^^ all the above can be done as DIY by a capable developer
+
+To add dPoW, there are additional costs
+
+atleast 365 KMD + 365 coin to be notarized + integration costs
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/installations/creating-asset-chains.html
+Creating Komodo Asset Chains | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[13-Jul-19 05:47 AM] BitcoinTony123#2784
+Great thanks! is this atleast 365 KMD + 365 coin to be notarized a 1 time payment?
+
+
+[13-Jul-19 05:47 AM] BitcoinTony123#2784
+and do you have any estimates on how much integration costs are?
+
+
+[13-Jul-19 05:47 AM] gcharang#6833
+365 KMD + 365 coin - per year
+
+
+[13-Jul-19 05:49 AM] BitcoinTony123#2784
+Great
+
+
+[13-Jul-19 05:50 AM] BitcoinTony123#2784
+Do you have any estimates on how much integration costs are?
+
+
+[13-Jul-19 05:50 AM] BitcoinTony123#2784
+Sorry for my persistance, I just want to get it right
+
+
+[13-Jul-19 05:50 AM] gcharang#6833
+will let you know in a moment, just asked in internal chat
+
+
+[13-Jul-19 05:53 AM] BitcoinTony123#2784
+ok thanks!
+
+
+[13-Jul-19 06:11 AM] gcharang#6833
+@BitcoinTony123 
+the prices are not public currently
+but  its currently several thousand dollars for a smart chain (i.e., a chain created using Komodo)
+
+for an external chain that is  a BTC fork, there are additional costs of adding the dPoW code to their coin and a security audit
+prices will be made public with the auto blockchain builder coming soon
+
+
+[13-Jul-19 06:19 AM] BitcoinTony123#2784
+Great, final question, Is this only payable in KMD?
+
+
+[13-Jul-19 06:32 AM] gcharang#6833
+365 KMD + 365 coin in their respective coins
+integration costs: I think BTC and KMD will be accepted, other forms of payment not sure
+
+
+[13-Jul-19 10:26 AM] BitcoinTony123#2784
+Ok thanks for the help
+
+
+[24-Jul-19 06:26 AM] siu#3920
+https://twitter.com/kmdchainmakers/status/1154018397476282372
+
+{Embed}
+Chainmakers (@kmdchainmakers)
+https://twitter.com/kmdchainmakers/status/1154018397476282372
+We are proud to finally be able to release Chainswap!!! Our frontend dapp based on @KomodoPlatform #atomicdex! #chainswap #atomicswaps #DEX #cryptotrading https://t.co/jZNok9Tfsn
+Twitter
+
+{Reactions}
+🙌 (2) 
+
+[03-Oct-19 03:44 PM] jspook16#3059
+How many coins are supported?
+
+
+[03-Oct-19 08:29 PM] jspook16#3059
+@siu does chainswap use the same liquidity that atomicdex uses? There seems to be less on chainswap
+
+
+[04-Oct-19 01:18 AM] jorian#4555
+same liquidity as on atomicdex mobile
+
+
+[04-Oct-19 01:18 AM] jorian#4555
+you just see less on chainswap, because you can't see all the orders
+
+
+[04-Oct-19 01:19 AM] jorian#4555
+right now supported
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458179902701830144/629593341264396288/unknown.png
+
+
+[04-Oct-19 01:19 AM] jorian#4555
+will add more soon
+
+
+[22-Oct-19 03:26 AM] gcharang#6833
+@jorian can the chainswap desktop app unlock funds stuck when using the hyperDEX app?
+
+
+[22-Oct-19 03:27 AM] Oszy#5734
+@gcharang are you trying to get that guy's DEX back?
+
+
+[22-Oct-19 03:27 AM] gcharang#6833
+yup
+
+
+[22-Oct-19 03:28 AM] Oszy#5734
+if you could get him to have curl and sha256 his seed (userpass) it can be done in 1 command whilst running hyperdex
+
+
+[22-Oct-19 03:28 AM] Oszy#5734
+It's how i done it with chainswap before
+
+
+[22-Oct-19 03:29 AM] gcharang#6833
+do you know if the latest hyperDEX release has mm2 with `recover_funds_of_swap` ?
+
+
+[22-Oct-19 03:30 AM] Oszy#5734
+now that's what i am afraid of that it might not
+
+
+[22-Oct-19 03:30 AM] gcharang#6833
+I'll check
+
+
+[22-Oct-19 03:31 AM] Oszy#5734
+but there is no unlock funds button in the chainswap gui  to answer you question i only seen it in atomicdex so far
+
+
+[22-Oct-19 03:32 AM] gcharang#6833
+thanks for that, I guess building mm2 is the way to go for him
+
+
+[22-Oct-19 03:33 AM] Oszy#5734
+IF he's willing to sure.
+
+
+[22-Oct-19 03:35 AM] gcharang#6833
+do the both apps use the same data directory?
+
+even if they don't ,if chainswap app has the mm2 with the `recover_funds_of_swap` api, the curl method might work
+I will try with chainswap first
+
+
+[22-Oct-19 03:36 AM] Oszy#5734
+not sure i didn't use hyperdex on the same machine, they're both in appdata/local/programs on win
+
+
+[22-Oct-19 03:37 AM] Oszy#5734
+both has the mm2.exe in the folder
+
+
+[22-Oct-19 03:38 AM] Oszy#5734
+maybe he could overwrite HD binary with Chainswap binary and launch HD with updated mm
+
+
+[22-Oct-19 03:40 AM] gcharang#6833
+ok, will try all the options
+
+so the mm2 instance started by chainswap uses sha256 of seed words as userpass?
+
+
+[22-Oct-19 03:41 AM] Oszy#5734
+Yes
+`function userpass(passphrase) {
+  const pp = new Buffer(passphrase, 'utf8');
+  return crypto.createHash('sha256').update(pp).digest('hex');
+}`
+
+{Reactions}
+👍 
+
+[09-Mar-20 12:01 PM] uak#6718
+How can I make sure that the package there is legit?
+http://195.201.0.6/mm2/
+
+
+[09-Mar-20 12:05 PM] uak#6718
+https://github.com/chainmakers/chainmakers-ui-mono-repository/blob/master/packages/atomicdex-app/docs/run-atomicdex-app-in-your-local.md
+@siu this guide doesn't seem to be up to date . also any reason for making the repo read only?
+
+{Embed}
+https://github.com/chainmakers/chainmakers-ui-mono-repository/blob/master/packages/atomicdex-app/docs/run-atomicdex-app-in-your-local.md
+chainmakers/chainmakers-ui-mono-repository
+Repository for Chainmaker's user interfaces. Contribute to chainmakers/chainmakers-ui-mono-repository development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/0Ge3wNvy3GdgH7O50WD_rhZGuESIZPoIE-nCVAftxJc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/35841643
+
+
+[09-Mar-20 12:08 PM] jorian#4555
+the app is outdated and is not supported anymore
+
+
+[09-Mar-20 12:08 PM] jorian#4555
+<http://195.201.0.6/mm2/> is outdated as well, you should use <https://github.com/KomodoPlatform/atomicDEX-API/releases> for the lastest release @uak
+
+{Reactions}
+👍 
+
+[10-Mar-20 11:45 AM] uak#6718
+what is the best alternative for desktop? it was really nice and easy to use application
+
+
+[10-Mar-20 11:51 AM] uak#6718
+I can't find "bin" directory packages/atomicdex-app/app/bin/marketmaker/linux in the path as in this article https://github.com/chainmakers/chainmakers-ui-mono-repository/blob/master/packages/atomicdex-app/docs/run-atomicdex-app-in-your-local.md
+
+{Embed}
+https://github.com/chainmakers/chainmakers-ui-mono-repository/blob/master/packages/atomicdex-app/docs/run-atomicdex-app-in-your-local.md
+chainmakers/chainmakers-ui-mono-repository
+Repository for Chainmaker's user interfaces. Contribute to chainmakers/chainmakers-ui-mono-repository development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/0Ge3wNvy3GdgH7O50WD_rhZGuESIZPoIE-nCVAftxJc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/35841643
+
+
+[10-Mar-20 01:08 PM] uak#6718
+and yarn install doesn't work in the directory as install file isn't there
+
+
+[10-Mar-20 01:09 PM] uak#6718
+@siu any help on making this work?
+
+
+[10-Mar-20 01:10 PM] siu#3920
+you can do the yarn install in the home directory now.
+
+
+[10-Mar-20 01:13 PM] siu#3920
+no need to do it for each package
+
+
+[27-Jul-20 10:31 PM] passcombo.com 🏴☠🍋#0622
+hey makers how much monthly does it cost to run a new chain ?
+
+
+[27-Jul-20 10:35 PM] passcombo.com 🏴☠🍋#0622
+is it possible to have a chain with forced minimum fee (always > 0 )
+
+
+[27-Jul-20 11:26 PM] jorian#4555
+1. depends, 2. yes, although it depends on the miners
+
+
+[27-Jul-20 11:27 PM] jorian#4555
+we can't dictate what miners mine
+
+
+==============================================================
+Exported 1,176 message(s)
+==============================================================

@@ -1,0 +1,1953 @@
+==============================================================
+Guild: Komodo
+Channel: hidden-ecosystem-archive / rogue
+Topic: Start: https://github.com/KomodoPlatform/komodo/wiki/Get-Started-with-Rogue-Game
+Player's Handbook: https://github.com/jl777/komodo/blob/jl777/src/cc/rogue/rogue.doc
+==============================================================
+
+[19-Feb-19 02:09 AM] CrisF#3405
+Hi 👋
+
+
+[19-Feb-19 02:11 AM] CrisF#3405
+```there are so many cases so more testers/testing needed```
+Might be good to get some of the original players involved as testers?  They might be interested in promoting the revival of their game with modern tech. And possibly provided a base for the community?
+
+
+[19-Feb-19 02:11 AM] CrisF#3405
+re:```jl777cToday at 6:18 PM
+I got it from: https://github.com/Davidslv/rogue, but it is basically the same code as original
+Rogue: Exploring the Dungeons of Doom
+Copyright (C) 1980-1983, 1985, 1999 Michael Toy, Ken Arnold and Glenn Wichman
+almost 40 years old!
+```
+
+
+[19-Feb-19 02:28 AM] CryptoNinjaa#5350
+👋
+
+
+[19-Feb-19 02:41 AM] Cryptofist#7504
+🔥
+
+
+[19-Feb-19 02:43 AM] Cryptofist#7504
+▶ 🇵 🇱 🇦 🇾    🇷 🇴 🇬 🇺 🇪 ◀
+
+
+[19-Feb-19 02:52 AM] Cryptofist#7504 (pinned)
+Guide to get started with ROGUE game https://github.com/KomodoPlatform/komodo/wiki/Get-Started-with-Rogue-Game
+
+{Embed}
+https://github.com/KomodoPlatform/komodo/wiki/Get-Started-with-Rogue-Game
+KomodoPlatform/komodo
+Komodo. Contribute to KomodoPlatform/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[19-Feb-19 02:57 AM] Cryptofist#7504
+**ROGUERS** 
+Please update to latest version (jl777 and FSM are in sync). there are "hardforking" changes in gameplay interpretation and I will be enabling strict validation soon. When I do, if you are not running the latest, you will go on a fork
+
+
+[19-Feb-19 03:01 AM] CrisF#3405
+@Cryptofist Do you hav pinning powers?  The `Getting Started` would probably be a good 📌
+
+
+[19-Feb-19 03:03 AM] jl777c#5810
+Pinned a message.
+
+
+[19-Feb-19 03:03 AM] CrisF#3405
+Thank you.
+
+
+[19-Feb-19 03:03 AM] Cryptofist#7504
+I do not
+
+
+[19-Feb-19 03:03 AM] CrisF#3405
+For multi-player:```be sure that you have latest daemon and update TUI
+TUI have 3 new features: 
+[6] Create new multiplayer game (you'll be asked for max players amount and buyin amount)
+[7] Join (register) multiplayer game - it's scan chain for multiplayer game and asking for txid of game you want to join, then sending register
+[8] Check my multiplayer games status / start - it's scanning for not finished multiplayer games you participating in, asking if you want to start any, if yes asking for game txid and starting rogue for this game
+Then after you finish your rogue game it'll execute bailout if there is more than 1 player alive or highlander if you're last player alive
+Amulet cases I'm not tracking yet```
+
+
+[19-Feb-19 03:04 AM] Cryptofist#7504
+I have yet to earn the light green name.  Hopefully I will level up sometime in the future. 😉
+
+{Reactions}
+🦎 (2) 
+
+[19-Feb-19 05:16 AM] CrisF#3405
+777 KMD!  ```jl777cToday at 8:31 PM
+OK, I will make a 777 KMD bounty for any non-dev that gets the most ROGUE via legit gameplay. farming or multiplayer. your ROGUE address will be the proof of claim and I will send the KMD to the same address. Monday Feb 25th 12:00 UTC deadline
+```
+
+
+[19-Feb-19 05:22 AM] Cryptofist#7504
+https://twitter.com/RogueChainkmd/status/1097847688584982528?s=19
+
+{Embed}
+Rogue Chain- A Game Legacy, Re-invented. (@RogueChainkmd)
+https://twitter.com/RogueChainkmd/status/1097847688584982528?s=19
+Want to win 777 KMD ?
+DO you have what it takes to grind for sweet sweet ASCII gold? Find out! #contest ends in 1 week. #komodo $kmd #roguelike #reallyrogue #retro #curses
+@KomodoPlatform
+@0xca333 @KomodoWorld
+https://t.co/SfI60emrvi
+Twitter
+
+
+[19-Feb-19 05:23 AM] Cryptofist#7504
+Follow, share, RT, plaster upon the world.
+
+
+[19-Feb-19 05:39 AM] Cryptofist#7504 (pinned)
+https://www.youtube.com/watch?v=0AZPc6Hz1nk
+
+{Embed}
+NerdOfGamers
+https://www.youtube.com/watch?v=0AZPc6Hz1nk
+Gaming History - Rogue (THE roguelike precursor)
+Video Gaming History - Rogue, THE roguelike precursor DOWNLOAD: http://rogue.rogueforge.net/ Learn more about the history of video games. In this episode I t...
+https://images-ext-1.discordapp.net/external/XBLYmQA4msVLeSVhtqZhkJg_ToEu_Dy7SaZ42bi7Neg/https/i.ytimg.com/vi/0AZPc6Hz1nk/maxresdefault.jpg
+
+
+[19-Feb-19 05:39 AM] Cryptofist#7504 (pinned)
+https://www.youtube.com/watch?time_continue=2&v=jP1oVGLrT6I
+
+{Embed}
+Crypto Kadan
+https://www.youtube.com/watch?time_continue=2&v=jP1oVGLrT6I
+Komodo Rogue CC Gameplay
+This is the worlds first interactive blockchain game utilizing non-fungible token technology. It was all built using an amazing blockchain framework called t...
+https://images-ext-2.discordapp.net/external/aSFwsI_2GPl2WwQFRDceNOvff20s2PUUuNiOb4WsRMk/https/i.ytimg.com/vi/jP1oVGLrT6I/maxresdefault.jpg
+
+
+[19-Feb-19 05:40 AM] Cryptofist#7504
+Can someone please pin these
+
+{Reactions}
+😀 🎉 
+
+[19-Feb-19 05:41 AM] jl777c#5810
+Pinned a message.
+
+
+[19-Feb-19 05:41 AM] jl777c#5810
+Pinned a message.
+
+
+[19-Feb-19 05:45 AM] Cryptofist#7504
+For updating Rogue from previous versions to latest best test version.
+``` cd ~/komodo
+git checkout jl777
+git pull
+cd src/cc
+./makerogue
+cd ../../
+./zcutil/build.sh -j$(nproc)```
+
+
+[19-Feb-19 05:46 AM] jeezy#3408
+#cc-rogue just said makerogue not needed anymore
+
+{Reactions}
+👌 🙏 
+
+[19-Feb-19 05:46 AM] Cryptofist#7504 (pinned)
+**For a New Install of Rogue**
+```git clone https://github.com/jl777/komodo
+cd komodo
+git checkout jl777
+./zcutil/build.sh -j$(nproc) ```
+
+**To Update TUI**
+```cd ~/komodo_cryptoconditions_tui
+git checkout rogue
+git pull
+cp -r * ~/komodo/src
+```
+
+**To Update Rogue**
+```
+cd ~/komodo
+git checkout jl777
+git pull
+./zcutil/build.sh -j$(nproc) ```
+
+
+[19-Feb-19 06:04 AM] SHossain#0007
+Pinned a message.
+
+
+[19-Feb-19 06:29 AM] Cryptofist#7504
+@TonyL  Did I do the update wrong for the TUI ? I do not see multiplayer?
+
+
+[19-Feb-19 06:29 AM] Cryptofist#7504
+I used the above commands ^
+
+
+[19-Feb-19 06:37 AM] SHossain#0007
+```
+cd ~/komodo_cryptoconditions_tui
+git checkout rogue
+git pull
+cp -r * ~/komodo/src
+```
+
+
+[19-Feb-19 06:38 AM] Cryptofist#7504
+Aye
+
+
+[19-Feb-19 06:38 AM] Cryptofist#7504
+thank you sir!
+
+
+[19-Feb-19 06:38 AM] Cryptofist#7504
+https://www.youtube.com/watch?v=vxF1osPkplA
+
+{Embed}
+Scott Manley
+https://www.youtube.com/watch?v=vxF1osPkplA
+Rogue - The Original Roguelike
+Let's take a look at the origin of the term 'Roguelike' - the original 1980 text terminal, procedural content, save-free dungeon crawler. Seeking the Amulet ...
+https://images-ext-1.discordapp.net/external/2mA5gBrP729QXCvPzlwMIm8sl3vpMXleovDJ6Kcu_bE/https/i.ytimg.com/vi/vxF1osPkplA/maxresdefault.jpg
+
+
+[19-Feb-19 06:41 AM] TonyL#3577
+Multiplayer should be  is in both master and rogue TUI branches (I've synced code between branches 2 hours ago). Just git pull before copying is needed yup
+
+
+[19-Feb-19 06:43 AM] Cryptofist#7504
+Excelelent
+
+
+[19-Feb-19 06:43 AM] Cryptofist#7504
+Noob has advanced to level 2
+
+
+[19-Feb-19 06:44 AM] Cryptofist#7504
+I have like a +7 in Marketing with 2 d20's
+but linux is like +0 +0 1d8
+
+{Reactions}
+😂 
+
+[19-Feb-19 06:44 AM] Cryptofist#7504
+*has gone too far with the D&D humor*
+
+
+[19-Feb-19 06:49 AM] TonyL#3577
+Maybe it's +1 already?
+
+
+[19-Feb-19 06:57 AM] Cryptofist#7504
+Maybe a d12 🤔
+
+
+[19-Feb-19 06:57 AM] Cryptofist#7504
+And just had another Komodo Games thought
+
+
+[19-Feb-19 06:57 AM] Cryptofist#7504
+Dice roll + charecter creation for D&D with tradeable, verifiable charecters
+
+
+[19-Feb-19 06:58 AM] Cryptofist#7504
+System for players and DM's to use online with transactional benefits.
+
+
+[19-Feb-19 06:58 AM] Cryptofist#7504
+its like rolling back WOW farming to the old school table top gamers
+
+
+[19-Feb-19 07:27 AM] Cryptofist#7504
+https://ibb.co/QcVY5Wx
+
+{Embed}
+https://ibb.co/QcVY5Wx
+image
+Image image hosted in imgbb.com
+https://images-ext-2.discordapp.net/external/xHTQ7Y29fJ1l3-FGCKQEybCCBiYJ9fdOIzJRRJIB3-Q/https/i.ibb.co/MhHPXzJ/image.png
+
+
+[19-Feb-19 07:27 AM] Cryptofist#7504
+for anyone who would like to use it.
+
+
+[19-Feb-19 07:28 AM] Cryptofist#7504
+I'm going to build a full retro game brand after some research. Should be a fun + useful graphics project.
+
+
+[19-Feb-19 07:57 AM] Cryptofist#7504
+**Please Note**: If you exit a game, you unequipped everything. So when you use a saved Warrior token, you need to re-equip upon the start of the game! Both armor and weapon!
+
+
+[19-Feb-19 11:05 AM] wookie#7663
+Can I play this on a Mac?
+
+
+[19-Feb-19 11:07 AM] SHossain#0007
+yes
+
+
+[19-Feb-19 11:07 AM] SHossain#0007
+follow this guide https://github.com/KomodoPlatform/komodo/wiki/Get-Started-with-Rogue-Game
+
+{Embed}
+https://github.com/KomodoPlatform/komodo/wiki/Get-Started-with-Rogue-Game
+KomodoPlatform/komodo
+Komodo. Contribute to KomodoPlatform/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[19-Feb-19 11:07 AM] SHossain#0007
+let me know if following guide works for you
+
+
+[19-Feb-19 11:10 AM] wookie#7663
+Thanks! @SHossain
+
+
+[19-Feb-19 04:23 PM] nael55#5863
+i got 1 shot killed @ level 5 by hypothermia!
+
+
+[19-Feb-19 04:23 PM] nael55#5863
+was doing so well
+
+
+[19-Feb-19 04:24 PM] dude#6062
+^ same! but lvl 6
+
+
+[19-Feb-19 05:47 PM] Cryptofist#7504
+The dang ice monster, man!  @nael55 @dude
+
+
+[20-Feb-19 07:43 AM] wookie#7663
+sorry, noob question here: if I already have komodo (from running agama wallet), can I just start the chain? Or do I have to clone and compile from jl777's github?
+
+
+[20-Feb-19 07:45 AM] SHossain#0007
+you need to compile from latest source locally. daemon from Agama will not work
+
+
+[20-Feb-19 07:47 AM] wookie#7663
+ok. thanks.
+
+
+[20-Feb-19 08:07 AM] wookie#7663
+I got this error after running build.sh each time: 
+configure: error: Cannot enable RELRO
+
+
+[20-Feb-19 08:07 AM] wookie#7663
+is this expected?
+
+
+[20-Feb-19 08:10 AM] SHossain#0007
+you are using macOS?
+
+
+[20-Feb-19 08:10 AM] wookie#7663
+yes
+
+
+[20-Feb-19 08:10 AM] SHossain#0007
+use `./zcutil/build-mac.sh -j8`
+
+
+[20-Feb-19 08:10 AM] wookie#7663
+oh, I only used -j4
+
+
+[20-Feb-19 08:10 AM] wookie#7663
+would that make a difference?
+
+
+[20-Feb-19 08:10 AM] SHossain#0007
+j4 is ok
+
+
+[20-Feb-19 08:11 AM] SHossain#0007
+i believe you used `./zcutil/build.sh -j4`
+
+
+[20-Feb-19 08:11 AM] SHossain#0007
+you need to use `build-mac.sh`
+
+
+[20-Feb-19 08:11 AM] wookie#7663
+yes
+
+
+[20-Feb-19 08:11 AM] wookie#7663
+oh ok
+
+
+[20-Feb-19 08:11 AM] wookie#7663
+you mean ./zcutil/build-mac.sh -j4
+
+
+[20-Feb-19 08:11 AM] SHossain#0007
+yes
+
+
+[20-Feb-19 08:13 AM] SHossain#0007
+```build.sh = Linux
+build-mac.sh = macOS (OSX)
+build-win.sh = Windows cross-compile```
+
+
+[20-Feb-19 08:13 AM] wookie#7663
+oops, yes, I see where I did not read the instructions...my bad
+
+
+[20-Feb-19 08:40 AM] wookie#7663
+not sure what I did wrong this time, but when I copy and paste the cmd to start the chain,
+cd ~/komodo/src
+./komodod -ac_name=ROGUE -ac_supply=1000000 -addnode=5.9.102.210  -ac_cclib=rogue -ac_perc=10000000 -ac_reward=100000000 -ac_cc=60001 -ac_script=2ea22c80203d1579313abe7d8ea85f48c65ea66fc512c878c0d0e6f6d54036669de940febf8103120c008203000401cc -daemon
+
+ I get: 
+-bash: ./komodod: No such file or directory
+
+
+[20-Feb-19 08:43 AM] SHossain#0007
+what were the last few lines after compile finished?
+
+
+[20-Feb-19 08:44 AM] SHossain#0007
+doesn't look like compile was finished
+
+
+[20-Feb-19 08:45 AM] wookie#7663
+last 5 lines: 
+ld: library not found for -lidn2
+collect2: error: ld returned 1 exit status
+make[2]: *** [komodo-test] Error 1
+make[1]: *** [all-recursive] Error 1
+make: *** [all-recursive] Error 1
+
+
+[20-Feb-19 08:50 AM] SHossain#0007
+so, it ended up on error. means komodod bins weren't created
+
+
+[20-Feb-19 08:52 AM] wookie#7663
+ok, I'll start over and see where I went wrong
+
+
+[20-Feb-19 10:20 AM] Cryptofist#7504 (pinned)
+:Komodo:  **Hello Everyone!** 
+I would really like to sort out some branding for The Rogue project.  I feel like we should really lock in a well chosen title for the project. I ended up putting "Rogue Chain" on twitter to get some accounts started, but i'm not happy with it.  I have a list put together for possible names to choose from and am open to more. I think selecting one banner to fly under is one of the most important things we can all decide on as it brings brand recognition, sets us apart from the other projects and shows strength as a community. 
+ 
+I would like pretty much anyone's opinion so please feel free to tell what you like/do not like and WHY. 
+
+Outside of my personal ideas I have seen Roguelike and Roguelander used alongside my current "Rogue Chain" . 
+
+SO here is the list along with some comments from me. 
+1 *Roguelander*  - what JL777c has named the multpilayer  game play(aka highlander can only be one.)
+2 *Roguelike*  - Is a genre and technically... this game we have is ACTUALLY Rogue ..... so Roguelike as a title doesn't sit well for me.  
+3 *RogueCC* - This grew on me over time, it showcases Crypto Conditions as the base of technology, it is short, simple and clear. It even has a nice ring to it and has this subconscious implication of being fast (500CC etc)  
+4 *Rogue by Komodo*
+5 *Komodo Rogue*
+6 *KMD Rogue*
+7 *Roguechain*
+8 *Rogue Chain* (I'm personally burnt on the chain crypto names)
+9 *Rogue Reinvented*
+10(A) *Rogue Legacy*  - I really dig this one.
+11 (B)*Chain Rogue*
+12(C) *Crypto Rogue* 
+13(D) *Rogue+*
+14(E) *Rogue++*
+Any other ideas?
+
+{Reactions}
+3⃣ (7) 🇨 (9) 🇩 🇪 (4) 
+
+[20-Feb-19 10:27 AM] Cryptofist#7504
+Some additional info
+Rogue = Ascii game title created in the 1980's, by CS Engineers in Berkely later updated to an IBM Edition (IV)
+ROGUE = The asset-chain on Komodo 
+RogueCC = The smart contract that runs Rogue on the ROGUE asset-chain on Komodo
+Roguelike/Roguelikes - Genre of games that is has changed a lot in the last 30 years and many debates exist about what **IS** & **ISN'T** a Roguelike
+Rouge - A color you get when you typo Rogue
+
+
+[20-Feb-19 10:29 AM] TonyL#3577
+`Rogue+`
+
+
+[20-Feb-19 10:29 AM] TonyL#3577
+Just as idea 😃
+
+
+[20-Feb-19 10:30 AM] Cryptofist#7504
+OH
+
+
+[20-Feb-19 10:30 AM] Cryptofist#7504
+yeah!!
+
+
+[20-Feb-19 10:30 AM] Cryptofist#7504
+I love all the ideas where the title implies an advancement  on the original game. I feel like thats the real identity we are looking for here.
+
+
+[20-Feb-19 10:31 AM] Cryptofist#7504
+Added
+
+{Reactions}
+👍 
+
+[20-Feb-19 10:31 AM] jl777c#5810
+rogue++
+
+{Reactions}
+troll_thuglife 💯 (2) 
+
+[20-Feb-19 10:32 AM] TonyL#3577
+Next will be rogue# ?
+
+
+[20-Feb-19 10:32 AM] TonyL#3577
+😂
+
+
+[20-Feb-19 10:32 AM] Cryptofist#7504
+Rogue - (++)
+
+
+[20-Feb-19 10:32 AM] Cryptofist#7504
+its written in ``C`` right?
+
+{Reactions}
+✅ 
+
+[20-Feb-19 10:34 AM] Cryptofist#7504
+Rogue Mahone
+
+
+[20-Feb-19 10:35 AM] Cryptofist#7504
+@ComputerGenie  as usual I would enjoy your input when you have time.
+
+
+[20-Feb-19 10:38 AM] ComputerGenie#7004
+@Cryptofist not sure what I can provide, what do you need?
+
+
+[20-Feb-19 10:38 AM] Cryptofist#7504
+scroll up to "Hello Everyone" post about naming, please ^
+
+
+[20-Feb-19 10:38 AM] Cryptofist#7504
+Opinion needed
+
+
+[20-Feb-19 10:41 AM] TonyL#3577
+Pinned a message.
+
+
+[20-Feb-19 10:44 AM] ComputerGenie#7004
+`Crypto Rogue` sounds the best to me
+
+
+[20-Feb-19 10:52 AM] Cryptofist#7504
+Thank you sir!
+
+
+[20-Feb-19 10:57 AM] dude#6062
+While playing rogue.. listen to this... it makes the game more suspenseful 😂
+https://www.youtube.com/watch?v=c0SuIMUoShI
+
+{Embed}
+teamrocketspy621
+https://www.youtube.com/watch?v=c0SuIMUoShI
+Super Mario Bros. Underground Theme
+The Super Mario Bros. Underground Theme. Uploaded since it seems no one else has. Super Mario Bros. is owned by Nintendo. Koji Kondo created this music, not me.
+https://images-ext-2.discordapp.net/external/U1qfdLnc_j04CJKhVv1QYbLAMg3h6kHP3dnnFICrRj8/https/i.ytimg.com/vi/c0SuIMUoShI/hqdefault.jpg
+
+{Reactions}
+🍄 (3) 😂 (2) 
+
+[20-Feb-19 11:00 AM] Cryptofist#7504
+That is super fun. Ive had mostly slow + Low doom metal or oddball fantasy music on whenever I play.
+
+
+[20-Feb-19 11:01 AM] Cryptofist#7504
+So far Crypto Rogue and Rogue++ in the lead.
+
+
+[20-Feb-19 11:01 AM] dude#6062
+lol, this is what i heard 1st time playing it... had to put it on.. 😄
+
+
+[20-Feb-19 11:04 AM] Cryptofist#7504
+duhna duhna duhn duhn
+
+
+[20-Feb-19 11:05 AM] dude#6062
+whats the highest lvl you all got too? currently on lvl 11 w/1736 gold...
+
+
+[20-Feb-19 11:06 AM] dude#6062
+damn leprechaun stole some 200 gold from me tho..
+
+
+[20-Feb-19 11:06 AM] TonyL#3577
+Most level I reached so far is 15
+
+
+[20-Feb-19 11:06 AM] TonyL#3577
+Trolls are pretty strong
+
+{Reactions}
+troll_thuglife 
+
+[20-Feb-19 11:08 AM] dude#6062
+oh no there's trolls too... a nymph hit me stole a scroll and bounced on me
+
+
+[20-Feb-19 11:08 AM] dude#6062
+tried chasing down couldn't find it!
+
+
+[20-Feb-19 11:25 AM] dude#6062
+@TonyL  ur troll got me on 1st run in....
+
+
+[20-Feb-19 11:36 AM] nael55#5863
+i got to 7 but keep losing access to warriors so continuously starting over
+
+
+[20-Feb-19 11:37 AM] nael55#5863
+anyone have an idea why this keeps happening?
+
+
+[20-Feb-19 11:38 AM] TonyL#3577
+How are you loosing em? Can you provide some game txid where you lost warrior?
+
+
+[20-Feb-19 11:39 AM] TonyL#3577
+```./komodo-cli -ac_name=ROGUE cclib games 17```
+Is this call returning some txids in "games" ?
+
+
+[20-Feb-19 11:40 AM] nael55#5863
+i can't access them once i quit or when i die. sometimes after dying, i still can, but eventually i have always lost access
+
+
+[20-Feb-19 11:40 AM] nael55#5863
+ill take note of game txids from now on
+
+
+[20-Feb-19 11:41 AM] nael55#5863
+yes that is
+
+
+[20-Feb-19 11:41 AM] nael55#5863
+`{
+  "name": "rogue",
+  "method": "games",
+  "pastgames": [
+    "46de7635052e0c5b2e1d2361335832a9e5e6c1608fad93790508dbdf9881fb2c",
+    "c51ea009a73ccceedd118b173e7b23fb7c4c3fdb6f6cda7990a84cec473dcfcd",
+    "14ec6ec65c29a80f3aa936609ca200362939663209296cc8e1e8d8bd15168939",
+    "4d49974ba7b79b0e5fd3a816927540c0e8a586a701ba8752308901878448f954",
+    "2ceb94a8a03dc250772819018193ffd932431f81d9020584e54d72d6e283d124",
+    "4134450616472109765ab9ed2eef4dd98482069afae05a6d8bcbf0ddb395b42e",
+    "caf249aa6909aecaf5ee8fdc118f490d69340676966e78f9b91c1696469cd44d",
+    "b1eca43d1dd01d4535f3d8aa8e2f6582e07e229334ce5227fc620201056fae5b",
+    "cb218aba49e0cd0772fb5d21c0453a3bfb3d7fb483b39a32dd711523f7aee27c",
+    "ddbf8aafb23aef5a93995eddb49bbc095c3d7142ef9153aa748bfd78465319c0",
+    "78e7bf2375265c6f79495fb3911db0f6cab2980fd192f591324a803df6f05f1b",
+    "d18d010588db2ef9bea8fe7ad78da059cf0ef58d6979b716dfc0724c5398ba6f",
+    "75444c84530dbb191e011d09847eabbdc15bb3c53b62e771d1d8b59be33d63a9",
+    "5cb4c9ffc0f3d0505d31c523a07165d656545d46b2a677de5cb495d7d499703f",
+    "c4805d01aa7941bd6e2ca0aabddb1e2ba755e183ba8b04770fc6ceeaa660272f",
+    "9737ea22f24efc2e0b8437c62e6f620f138d603b75ac8a0798ffd1b19f3b9397",
+    "ea84c24fc4100adb871bf4dc6ba276f28de8aab7c36b5f1678dacfa12b6fa5ce",
+    "563fc22569bfea560ee505a0b6ffd093fe9a3e55e91788ef37167e637d1deafb",
+    "436e4fc8806ba34981946303f21f8610aeed5bb4db9306ee087926360ed428fa"
+  ],
+  "games": [
+  ],
+  "numgames": 19
+}
+`
+
+
+[20-Feb-19 11:42 AM] TonyL#3577
+Hmm, all games are finished what means that bailout (quit game transaction) broadcasted
+
+
+[20-Feb-19 11:42 AM] TonyL#3577
+Please note txids of games which you find suspicious - game is still in testing so some bugs are possible
+
+
+[20-Feb-19 11:43 AM] nael55#5863
+does that explain why i'm losing access to warriors though?
+
+
+[20-Feb-19 11:43 AM] nael55#5863
+maybe i'm just not understanding game mechanics
+
+
+[20-Feb-19 11:44 AM] TonyL#3577
+Maybe they are dying
+
+
+[20-Feb-19 11:44 AM] TonyL#3577
+To save warrior you need to quit dungeon by `shift + q` + `y` with alive warrior
+
+
+[20-Feb-19 11:44 AM] TonyL#3577
+And with gold > 0 and at least one monster killed
+
+
+[20-Feb-19 11:44 AM] nael55#5863
+ok once i die, then warrior is essentially deleted?
+
+
+[20-Feb-19 11:44 AM] TonyL#3577
+Yes, when warrior dead he is dead
+
+
+[20-Feb-19 11:45 AM] TonyL#3577
+Token is burning and you can't use him anymore
+
+
+[20-Feb-19 11:45 AM] nael55#5863
+shift + q + y while i have a stash of gold should increase my rogue balance, right?
+
+
+[20-Feb-19 11:45 AM] TonyL#3577
+Yes, 0.0005 ROGUE coins per 1 gold in singleplayer
+
+
+[20-Feb-19 11:45 AM] nael55#5863
+rogue token balance*
+
+
+[20-Feb-19 11:46 AM] TonyL#3577
+But your warrior should be alive
+
+
+[20-Feb-19 11:46 AM] nael55#5863
+right
+
+
+[20-Feb-19 11:46 AM] nael55#5863
+sometimes it updates but for my recent save my rogue balance didn't increase. had farmed about 500 gold
+
+
+[20-Feb-19 11:46 AM] nael55#5863
+can i see anywhere the otucome of a game? eg, how much rogue was earned?
+
+
+[20-Feb-19 01:52 PM] TonyL#3577
+If you're using TUI you can use `[0] Check current connection`
+
+
+[20-Feb-19 01:52 PM] TonyL#3577
+Oh I thought you're asking about total ROGUE balance
+
+
+[20-Feb-19 01:53 PM] TonyL#3577
+If you're playing singleplayer you should receive 0.0005 ROGUE per gold when succesfully quit the game but there is no such indication at the moment
+
+
+[20-Feb-19 02:21 PM] nael55#5863
+👌
+
+
+[20-Feb-19 03:25 PM] SHossain#0007
+https://twitter.com/techloverhd/status/1098362040022896641
+
+{Embed}
+TechLoverHD (@techloverhd)
+https://twitter.com/techloverhd/status/1098362040022896641
+Playing blockchain enforced Rogue game by @KomodoPlatform on Windows 10 Computer. Thanks to @0xca333 for the Windows version. We will make this better :)
+#Komodo #DecentralizedGames #ROGUE #Blockchain $KMD
+https://images-ext-1.discordapp.net/external/tyiBYQEacOntahniXJfNPQ8MNYVR-2IsGhZLv674BKI/https/pbs.twimg.com/media/Dz4qNyDXcAEvyO5.png%3Alarge
+Twitter
+
+
+[20-Feb-19 07:11 PM] Cryptofist#7504
+https://ibb.co/dDWPtsJ
+
+{Embed}
+https://ibb.co/dDWPtsJ
+FB-IMG-1550717442492
+Image FB-IMG-1550717442492 hosted in imgbb.com
+https://images-ext-2.discordapp.net/external/TiOrwyOzY2w_HCp0ZsyzC1OZDsH07Oyf-E1UWbSsb9Q/https/i.ibb.co/VTjgx0p/FB-IMG-1550717442492.jpg
+
+
+[21-Feb-19 08:03 AM] Cryptofist#7504
+Current tally for Project Name
+Rogue++ -4 | Rogue+ 1 |  Crypto Rogue 8 | RogueCC 7|
+
+
+[21-Feb-19 12:01 PM] Cryptofist#7504
+https://docs.freebsd.org/44doc/usd/30.rogue/paper.pdf
+
+
+[21-Feb-19 12:01 PM] Cryptofist#7504
+Better copy of the original guide.
+
+{Reactions}
+👌 
+
+[21-Feb-19 05:02 PM] ph03nix#3115
+https://d4rri9bdfuube.cloudfront.net/assets/images/book/large/9780/0619/9780061939891.jpg
+
+{Embed}
+https://d4rri9bdfuube.cloudfront.net/assets/images/book/large/9780/0619/9780061939891.jpg
+https://images-ext-1.discordapp.net/external/fek2_Tn3w1mZglbAUd618VxlqcI-WRmJTTMZWhxd6sE/https/d4rri9bdfuube.cloudfront.net/assets/images/book/large/9780/0619/9780061939891.jpg
+
+{Reactions}
+🤦 (3) troll (2) 
+
+[21-Feb-19 08:42 PM] Mylo#8306
+RogueCC now has 7 😘
+
+{Reactions}
+🔥 
+
+[22-Feb-19 09:04 AM] Cryptofist#7504
+Hello to any and all new ROGUERS, if you have any questions please feel free to ask. There is also the #cc-rogue channel where more of the tech minded people hang out.
+
+
+[22-Feb-19 10:33 AM] andrew#0137
+hello
+
+
+[22-Feb-19 10:34 AM] andrew#0137
+where  will i find my pub key?
+
+
+[22-Feb-19 10:35 AM] andrew#0137
+in windows ?
+
+
+[22-Feb-19 11:00 AM] Cryptofist#7504
+When you're running the daemon you follow most of the commands in the guide, just remove ''./"
+
+
+[22-Feb-19 11:18 AM] TonyL#3577
+Oh yes, actually just usage of `.\` instead of `./` should make a trick
+@andrew
+Start ROGUE daemon in one cmd terminal, then In other terminal:
+```.\komodo-cli -ac_name=ROGUE getaccountaddress ""
+.\komodo-cli -ac_name=ROGUE validateaddress address^^
+You'll get a `pubkey:` on this stage
+.\komodo-cli -ac_name=ROGUE stop
+```
+Then restart ROGUE daemon with `-pubkey=pubkey_which_you_get_from_validateaddress` param
+
+
+[22-Feb-19 03:44 PM] khl#2211
+this is rogue project?
+
+
+[22-Feb-19 03:45 PM] SHossain#0007
+yes.
+
+
+[22-Feb-19 03:45 PM] SHossain#0007
+There is also the #cc-rogue channel where more of the tech minded people hang out.
+
+
+[22-Feb-19 03:45 PM] SHossain#0007
+(copied from above)
+
+
+[22-Feb-19 04:53 PM] Cryptofist#7504
+Please retweet and share! 
+
+https://twitter.com/RogueChainkmd/status/1099108314586271745?s=19
+
+{Embed}
+Crypto Rogue - A Game Legacy, Re-invented. (@RogueChainkmd)
+https://twitter.com/RogueChainkmd/status/1099108314586271745?s=19
+The 1st official #weekly report in medium. Here I detail from the beginning of the project up through yesterday. I'm really looking forward to working with @KomodoPlatform to bring this #game to the screens of the world! 
+https://t.co/FMZbR1c5AX
+Twitter
+
+
+[22-Feb-19 07:07 PM] Tylor zkFS#8280
+Im only allowed on this channel
+
+
+[22-Feb-19 07:08 PM] Tylor zkFS#8280
+Lol
+
+
+[22-Feb-19 07:55 PM] Cryptofist#7504
+@Tylor zkFS  Why? What did you do? 👀
+
+
+[24-Feb-19 02:50 PM] CrisF#3405
+`TonyLToday at 4:38 AM`
+...update komodod daemon (at first stop it by```./komodo-cli -ac_name=ROGUE stop```):
+```cd ~/komodo
+git checkout jl777
+git pull
+make clean
+cd src
+rm komodod komodo-cli komodo-tx *.so
+cd cc
+rm *.so
+cd ../..
+./zcutil/build.sh -j$(nproc) ```
+ for Mac it will be:
+```cd ~/komodo
+git checkout jl777
+git pull
+make clean
+cd src
+rm komodod komodo-cli komodo-tx *.dylib
+cd cc
+rm *.dylib
+cd ../..
+./zcutil/build-mac.sh```
+
+
+[24-Feb-19 02:53 PM] CrisF#3405
+`TonyLToday at 4:43 AM`
+```Any feedback (negative or positive) regards warriors saving and re-usage is highly appreciated on this stage (but please update daemon first to latest) ```
+
+
+[24-Feb-19 03:18 PM] TonyL#3577
+Thanks @CrisF !
+
+{Reactions}
+👍 
+
+[24-Feb-19 03:22 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Unknown if this has been posted but very helpful https://strategywiki.org/wiki/Rogue/Items
+
+{Embed}
+https://strategywiki.org/wiki/Rogue/Items
+Items
+
+{Reactions}
+treasure (2) 
+
+[24-Feb-19 04:40 PM] CrisF#3405
+`TonyLToday at 9:36 AM`
+```Published testing nightly Ubuntu and OSX ROGUE bundles (daemon + rogue + TUI): 
+https://github.com/tonymorony/komodo_cryptoconditions_tui/releases/tag/0.1n```
+`Windows is coming`
+```In next version will update TUI to do these steps automatically: 
+
+Start ROGUE chain, get valid for wallet pubkey, stop the daemon
+Copy ROGUE.conf to the folder with unzipped files
+Start the daemon with valid pubkey
+Wait for chain synchronization```
+
+
+[24-Feb-19 05:44 PM] Tylor zkFS#8280
+Trying to get my son to build a GUI for this....where can I point him to get him to understand....and how much can he ultimately make in $$$  right now hes starting to build on Roblox and we need this genious kid to work here now and in the future. Hes above 160 and a talented artist as well..I need help recruiting him
+
+
+[24-Feb-19 07:39 PM] CrisF#3405
+The dev action is happening in #cc-rogue, @Tylor zkFS. TonyL or @Cryptofist might also be able to answer.
+
+
+[25-Feb-19 12:09 AM] ronyi#5719
+Post or send DM Rogue Gold Grinding Contest address?
+
+
+[25-Feb-19 03:14 AM] Cryptofist#7504
+@ronyi I believe JL is going to look at the list and addreses and decide, then send the 777 to the winning address.
+
+
+[25-Feb-19 03:20 AM] Cryptofist#7504
+I see you got your answer in the other channel. Nice! 😀
+
+
+[25-Feb-19 03:42 AM] ronyi#5719
+@Cryptofist  thanks
+
+
+[25-Feb-19 04:19 AM] ronyi#5719
+https://imgur.com/a/BO9TPAQ
+
+{Embed}
+https://imgur.com/a/BO9TPAQ
+https://images-ext-1.discordapp.net/external/ZIqKVWPfvenpZ_F8sMJb2MholZ6PpES9cAsyIcAtPX4/https/i.imgur.com/ND4e7huh.jpg
+
+
+[25-Feb-19 05:29 AM] Cryptofist#7504
+Wow killer character!
+
+
+[25-Feb-19 08:05 AM] ronyi#5719
+txid: d8c5e2dbf6e44ee3c8374df7c7e8cb03f1d95eddc37ccfa047cd5e5c112a27af
+Price: 1.00000000
+Warrior tokenid: 77549e285d63e408f98448da0b55ac2285a1913f8cda4510a54746b003ba7d8e
+
+================================
+
+Warrior selling on marketplace: 77549e285d63e408f98448da0b55ac2285a1913f8cda4510a54746b003ba7d8e
+Name: Ronyi
+
+Player txid: 77549e285d63e408f98448da0b55ac2285a1913f8cda4510a54746b003ba7d8e
+Token txid: 77549e285d63e408f98448da0b55ac2285a1913f8cda4510a54746b003ba7d8e
+Hitpoints: 60
+Strength: 17
+Level: 10
+Experience: 4486
+Dungeon Level: 16
+Chain: ROGUE
+
+Inventory:
+
+2 slime-molds
++6 chain mail [protection 11]
+-2 ring mail [protection 1]
++0 studded leather armor [protection 3]
+A +7,+8 mace
+5 potions of restore strength(green)
+4 potions of extra healing(grey)
+3 potions of hallucination(ecru)
+A potion of magic detection(pink)
+2 potions of blindness(white)
+A potion of healing(orange)
+A potion of confusion(silver)
+A potion of poison(brown)
+A potion of gain strength(topaz)
+A ring of see invisible(onyx)
+A ring of regeneration(alexandrite)
+A ring of searching(turquoise)
+A wand of cancellation [7 charges](lead)
+A scroll of identify ring, wand or staff
+A scroll of enchant armor
+
+Total packsize: 20
+
+
+================================
+
+
+[25-Feb-19 08:07 AM] TonyL#3577
+Ok, I bought 😃
+
+
+[25-Feb-19 08:08 AM] TonyL#3577
+Did you want to sell it by this price or it was a mistake? I can send back
+
+
+[25-Feb-19 08:08 AM] ronyi#5719
+@TonyL 😃 I hope it will bring a lot of joy.
+
+
+[25-Feb-19 08:09 AM] TonyL#3577
+😃  oh, thanks! It's a warrior of first Rogue champion - big glory to have it in inventory 😃
+
+{Reactions}
+Komodo 3040_kingpeepo 
+
+[25-Feb-19 08:09 AM] Cryptofist#7504
+⚔️
+
+
+[25-Feb-19 08:10 AM] ronyi#5719
+Now farmed 20 Rouge this warrior, but few food.
+
+
+[25-Feb-19 08:10 AM] TonyL#3577
+I made one with exp between 4-5k on the last week - but it died without any glory by icemonster 😃
+
+
+[25-Feb-19 08:11 AM] Cryptofist#7504
+Thanks for playing and testing and sharing so much  @ronyi
+
+{Reactions}
+Komodo 
+
+[25-Feb-19 08:11 AM] ronyi#5719
+icemonster can suprise everyone.
+
+
+[25-Feb-19 08:11 AM] ronyi#5719
+Happy to help.
+
+
+[25-Feb-19 08:11 AM] Cryptofist#7504
+Dude f the Ice monster it's the only one that makes me nervous
+
+{Reactions}
+😰 
+
+[25-Feb-19 08:11 AM] Cryptofist#7504
+Lol
+
+
+[25-Feb-19 08:11 AM] Cryptofist#7504
+Usually dies in one hit or destroys me instantly
+
+
+[25-Feb-19 08:12 AM] TonyL#3577
+Hmm this warrior not showing in TOP20 warriors list by some reason
+
+
+[25-Feb-19 08:12 AM] TonyL#3577
+Will investigate
+
+
+[25-Feb-19 08:13 AM] ronyi#5719
+@Cryptofist Something hit you! my favorit message. 😄 and don't see any monster and dead.
+
+{Reactions}
+troll (2) 
+
+[25-Feb-19 08:14 AM] Cryptofist#7504
+haha
+
+
+[25-Feb-19 08:27 AM] Cryptofist#7504
+@Tylor zkFS  Ive been trying to think on how to answer your question. The money part I can not answer at all. As far as a GUI, someone will have to know how to work with ``C`` code and build from there, the game uses an engine called ``curses`` to create the current game interface.  There would also be some learning on the fly with the blockchain side of things as far as I know... JL777  can assist the GUI devs for ROGUE where *needed* (as well for new games to be put  on chain...)   There will be a GUI contest at some point soon for people to create one for our Crypto Rogue.....  a head start on that might pay off well.
+
+
+[25-Feb-19 01:20 PM] Tylor zkFS#8280
+I think getting him involved right away will make huge payoffs in the future...I think he thinks hes gunna make a game on roblox and make 50k a week...maybe i will just let him fail/succeed and direct him from there
+
+
+[25-Feb-19 01:30 PM] Cryptofist#7504
+@Tylor zkFS  I like the attitude on direction!!!
+
+
+[25-Feb-19 01:30 PM] Cryptofist#7504
+How old is he?
+
+
+[25-Feb-19 01:31 PM] Cryptofist#7504
+My son is 6 and it has been neat finding all these kids coding apps and toys.
+
+
+[26-Feb-19 12:08 AM] ronyi#5719
+https://nethackwiki.com/wiki/Graphical_user_interface Maybe just contact with Nethack Team?
+
+{Embed}
+https://nethackwiki.com/wiki/Graphical_user_interface
+Graphical user interface
+As well as the standard ASCII interface, many official and unofficial graphical user interfaces are available. This page will be a visual showcase.
+
+
+[26-Feb-19 03:19 AM] CrisF#3405
+🏆 Congratulations, @ronyi 🎉 
+Great work to earn your win!
+Happy hunting ⚔ 
+(bugs and monsters)
+
+
+[26-Feb-19 03:19 AM] ronyi#5719
+@CrisF Thank you!
+
+{Reactions}
+🍻 (2) 
+
+[26-Feb-19 04:21 AM] ronyi#5719
+https://strategywiki.org/wiki/Rogue/Items I think is really usefull.
+
+{Embed}
+https://strategywiki.org/wiki/Rogue/Items
+Items
+
+{Reactions}
+🔥 
+
+[26-Feb-19 04:56 AM] ronyi#5719
+With 2 slow digestion . Two rings can cancel out food consumption. Tested and worked! Really usefull for farming between lvl 1-6.
+
+
+[26-Feb-19 05:15 AM] TonyL#3577
+Oh thats cool - can have more space in inventory that way
+
+
+[26-Feb-19 07:35 AM] Tylor zkFS#8280
+15 @Cryptofist cryptofi  hes ready to script for real
+
+
+[26-Feb-19 09:04 AM] Cryptofist#7504
+@ronyi  I'm going to announce you as the winner on twitter and medium with some additional info, including your strategy, if that is ok with you.
+
+
+[26-Feb-19 09:07 AM] ronyi#5719
+@Cryptofist naturally.
+
+
+[26-Feb-19 09:07 AM] Cryptofist#7504
+Sweeeeet
+
+
+[26-Feb-19 11:01 AM] wookie#7663
+is it possible to transfer items between warriors?
+
+
+[26-Feb-19 11:01 AM] jl777c#5810
+no. the rogue items arent unique in and of themselves, even if they are very rare
+
+
+[26-Feb-19 11:02 AM] jl777c#5810
+for NFT, you want unique properties, which a player+pack will get
+
+
+[26-Feb-19 11:02 AM] jl777c#5810
+now maybe there is a demand for FT so people can buy specific things like food, weapons, magics... but I think that would make the game too easy
+
+
+[26-Feb-19 11:05 AM] wookie#7663
+👌
+
+
+[26-Feb-19 02:39 PM] Tylor zkFS#8280
+Not if the in app purchases were for clothing and visual GUI things....I think I see a way....upgrading level s/weapons should be expensive and difficulty could also rise if i am understanding this D&D game correctly
+
+
+[26-Feb-19 02:45 PM] Tylor zkFS#8280
+Just wondering if GUI should be updated to 3d and researching how to integrate with roblox...
+
+
+[26-Feb-19 03:40 PM] Cryptofist#7504
+@Tylor zkFS  any serious advancement of gameplay should be another game  really.
+
+
+[26-Feb-19 03:40 PM] Cryptofist#7504
+BUT if the talent is around.... D&D or other table tops are a great place to start for creating new games.
+
+
+[26-Feb-19 03:41 PM] Cryptofist#7504
+Maybe have you son try his hand at game dev with unity?
+
+
+[27-Feb-19 03:06 AM] ronyi#5719
+Favorite monster ability: "N" stole items, "A" weaken your armor, "L" give or stole gold,  "R" - strenght, "F" catch you,  "I" hypothermia, did I miss something?
+
+
+[27-Feb-19 04:13 AM] Cryptofist#7504
+I havent been any farther down. Zombie is the only other I can think of
+
+
+[27-Feb-19 04:14 AM] Cryptofist#7504
+dragons will torch you with fire across a room.
+
+
+[27-Feb-19 05:01 AM] CrisF#3405
+Are you writing something up, @ronyi?  I'd be keen to have a look if you are! 🗺 :treasure:
+
+
+[27-Feb-19 05:20 AM] ronyi#5719
+Yes, but my english is not perfect, but if you proofread, then of course.
+
+
+[27-Feb-19 05:33 AM] wookie#7663
+@TonyL just to clarify, if I quit in the middle of fighting a monster, but my warrior is still alive, does my warrior get saved? I had 3 consecutive games where I quit and not get saved (the most painful loss was 3000+ gold, level 12)
+
+
+[27-Feb-19 05:40 AM] Cryptofist#7504
+Yes IF you got gold + killed at least one monster @wookie
+
+
+[27-Feb-19 05:40 AM] Cryptofist#7504
+OR it is supposed to be that way
+
+
+[27-Feb-19 05:41 AM] Cryptofist#7504
+Please let us know any time something like that happens, the devs might want more info so save the output print post game please.
+
+
+[27-Feb-19 05:42 AM] Cryptofist#7504
+ALSO, that sucks! I can send you some ROGUE if you want.
+
+
+[27-Feb-19 06:15 AM] wookie#7663
+@Cryptofist Yes. That happened yesterday. a level 12, 3000+ gold, a level 11 2000+ gold, and something else smaller. I thought it was resolved, but apparently it's still around. Is there a way for me to look up the post game output? I closed the windows terminal yesterday. @TonyL  this is using your 0.11n tui
+
+
+[27-Feb-19 06:16 AM] Cryptofist#7504
+Did you update everything else?
+
+
+[27-Feb-19 06:35 AM] ronyi#5719
+@CrisF https://pastebin.com/RnTPRfiz
+
+{Embed}
+https://pastebin.com/RnTPRfiz
+Rogue - Pastebin.com
+https://images-ext-1.discordapp.net/external/lZwHlcJYEP_-CeL744a7RSWVnhrIifPJgiIcmKkDuJY/https/pastebin.com/i/facebook.png
+
+
+[27-Feb-19 06:36 AM] wookie#7663
+@Cryptofist From my understanding with @TonyL his 0.11 tui is a complete build.
+
+
+[27-Feb-19 06:38 AM] wookie#7663
+btw, what's the difference between using this #rogue channel and the #cc-rogue channel? Not sure which one to post questions in.
+
+
+[27-Feb-19 06:59 AM] Cryptofist#7504
+General banter here tech in CC
+
+
+[27-Feb-19 07:00 AM] Cryptofist#7504
+I think everyone checks both anyway.
+
+
+[27-Feb-19 07:03 AM] Cryptofist#7504
+@wookie check #cc-rogue  updates for reliability..
+
+{Reactions}
+👌 
+
+[27-Feb-19 07:04 AM] Cryptofist#7504
+@ronyi was having the same issue.
+
+
+[27-Feb-19 11:11 AM] TonyL#3577
+Bundles have both not up to date TUI and daemon already. I'll update bundles soon (now daemon in testing)
+
+
+[27-Feb-19 11:25 AM] Cryptofist#7504
+@wookie JL updated and fixed the big bad bad bug
+
+
+[27-Feb-19 11:27 AM] wookie#7663
+Thanks @Cryptofist. @TonyL can you please ping me when bundles are ready?
+
+
+[27-Feb-19 11:29 AM] TonyL#3577
+@wookie I'll pin it in #cc-rogue and in #rogue , may forget to update you personally since it might be done not today
+
+
+[27-Feb-19 11:30 AM] wookie#7663
+No problem, thank you!
+
+{Reactions}
+👍 
+
+[28-Feb-19 01:37 AM] CrisF#3405
+Thanks @ronyi ,that is very cool :3040_kingpeepo:
+
+
+[28-Feb-19 09:34 PM] Sdunbar#5064
+I'm trying to set this up and when I run this command
+
+
+[28-Feb-19 09:35 PM] Sdunbar#5064
+cd ~/komodo/src
+./komodod -ac_name=ROGUE -ac_supply=1000000 -addnode=5.9.102.210  -ac_cclib=rogue -ac_perc=10000000 -ac_reward=100000000 -ac_cc=60001 -ac_script=2ea22c80203d1579313abe7d8ea85f48c65ea66fc512c878c0d0e6f6d54036669de940febf8103120c008203000401cc -daemon
+
+
+[28-Feb-19 09:35 PM] Sdunbar#5064
+I get a message that ./komodod no such file or directory
+
+
+[28-Feb-19 09:36 PM] Sdunbar#5064
+What have I done wrong in this process?
+
+
+[28-Feb-19 10:29 PM] TonyL#3577
+@Sdunbar It means that komodod wasn't built on your side
+On which platform are you?
+
+
+[01-Mar-19 04:22 AM] ronyi#5719
+New personal record: 21.81053259Rogue in one game
+
+{Reactions}
+👀 (3) 👏🏽 unicorn 
+
+[01-Mar-19 07:39 AM] Sdunbar#5064
+@TonyL I'm on linux
+
+
+[01-Mar-19 07:41 AM] TonyL#3577
+@Sdunbar Please try to do following:
+```cd ~/komodo
+git checkout jl777
+git pull
+make clean
+cd src
+rm komodod komodo-cli komodo-tx *.so
+cd cc
+rm *.so
+cd rogue
+make clean
+cd ../../..
+./zcutil/build.sh -j$(nproc)```
+
+
+[01-Mar-19 07:42 AM] Sdunbar#5064
+Hey Tony, just about to head off to work but I
+
+
+[01-Mar-19 07:42 AM] Sdunbar#5064
+will give this a shot when i return home
+
+
+[01-Mar-19 07:42 AM] Sdunbar#5064
+thanks!
+
+
+[01-Mar-19 07:53 AM] TonyL#3577
+Hey! You're most welcome!
+
+
+[01-Mar-19 09:27 AM] wookie#7663
+I've noticed this in the last few games: when I restart a new game with my saved warrior, the HP is much lower than when I quit the game. Is that an expected aspect?
+
+
+[01-Mar-19 10:30 AM] Cryptofist#7504
+Yes, it should always be 12 @wookie
+
+{Reactions}
+👌 
+
+[01-Mar-19 10:30 AM] Cryptofist#7504
+I have been trying to figure out what to cal that feature. lol
+
+
+[01-Mar-19 10:31 AM] Cryptofist#7504
+When you exit the dungeons of doom then return your health is returned to what it once ws upon intial arrival.
+
+
+[01-Mar-19 10:37 AM] jl777c#5810
+new born baby has no clothes
+
+
+[01-Mar-19 10:38 AM] jl777c#5810
+and doesnt wield two handed sword
+
+
+[01-Mar-19 11:10 AM] wookie#7663
+https://i.imgur.com/bVngsaL.png
+
+{Embed}
+https://imgur.com/bVngsaL
+https://images-ext-2.discordapp.net/external/qQkC_Dae0hgneQezfEVC5dRe_Y2jXf7Nsi5l9jf28V8/https/i.imgur.com/bVngsaL.png
+
+
+[01-Mar-19 11:26 AM] Cryptofist#7504
+Verily! Doth thine lad posses the amulet of legend??
+
+
+[01-Mar-19 11:26 AM] Cryptofist#7504
+https://t00.deviantart.net/sRk44F6ojONQm2Muhs6OthySw4c=/500x250/filters:fixed_height(100,100):origin()/pre00/53ec/th/pre/i/2015/203/f/0/medieval_trollface_by_akimdrawing-d92ccfo.png
+
+{Embed}
+https://t00.deviantart.net/sRk44F6ojONQm2Muhs6OthySw4c=/500x250/filters:fixed_height(100,100):origin()/pre00/53ec/th/pre/i/2015/203/f/0/medieval_trollface_by_akimdrawing-d92ccfo.png
+https://images-ext-1.discordapp.net/external/2XU5Z2ZbPV3FZG2kjY7oX7uJPlqc-9LsO_ebJt0vQgk/https/t00.deviantart.net/sRk44F6ojONQm2Muhs6OthySw4c%3D/500x250/filters%3Afixed_height%28100%2C100%29%3Aorigin%28%29/pre00/53ec/th/pre/i/2015/203/f/0/medieval_trollface_by_akimdrawing-d92ccfo.png
+
+
+[01-Mar-19 09:34 PM] Sdunbar#5064
+./komodo-cli -ac_name=ROGUE getnewaddress produces ./komodo-cli no such file or directory
+
+
+[01-Mar-19 09:34 PM] Sdunbar#5064
+clearly ive done something terribly wrong here
+
+
+[01-Mar-19 09:35 PM] Sdunbar#5064
+i did run this first
+
+
+[01-Mar-19 09:35 PM] Sdunbar#5064
+cd ~/komodo
+git checkout jl777
+git pull
+make clean
+cd src
+rm komodod komodo-cli komodo-tx *.so
+cd cc
+rm *.so
+cd rogue
+make clean
+cd ../../..
+./zcutil/build.sh -j$(nproc)
+
+
+[01-Mar-19 09:35 PM] Sdunbar#5064
+as @TonyL  suggested
+
+
+[01-Mar-19 09:53 PM] Sdunbar#5064
+nm
+
+
+[01-Mar-19 09:53 PM] Sdunbar#5064
+im just bad at changing directories
+
+
+[01-Mar-19 10:06 PM] Sdunbar#5064
+now when i run this
+
+
+[01-Mar-19 10:06 PM] Sdunbar#5064
+./komodo-cli -ac_name=ROGUE getnewaddress
+
+
+[01-Mar-19 10:06 PM] Sdunbar#5064
+I get
+
+
+[01-Mar-19 10:06 PM] Sdunbar#5064
+missing komodo.conf
+
+
+[01-Mar-19 10:06 PM] Sdunbar#5064
+ive created that alread
+
+
+[01-Mar-19 10:06 PM] Sdunbar#5064
+which dir should that be in?
+
+
+[01-Mar-19 10:49 PM] TonyL#3577
+You have to start daemon first for ROGUE chain: 
+```./komodod -ac_name=ROGUE -ac_supply=1000000 -addnode=5.9.102.210  -ac_cclib=rogue -ac_perc=10000000 -ac_reward=100000000 -ac_cc=60001 -ac_script=2ea22c80203d1579313abe7d8ea85f48c65ea66fc512c878c0d0e6f6d54036669de940febf8103120c008203000401cc -daemon
+```
+
+
+[01-Mar-19 10:49 PM] TonyL#3577
+https://github.com/KomodoPlatform/komodo/wiki/Get-Started-with-Rogue-Game#step-1---start-the-chain
+
+{Embed}
+https://github.com/KomodoPlatform/komodo/wiki/Get-Started-with-Rogue-Game
+KomodoPlatform/komodo
+Komodo. Contribute to KomodoPlatform/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[01-Mar-19 10:54 PM] Sdunbar#5064
+ah yes worked now
+
+
+[01-Mar-19 10:54 PM] Sdunbar#5064
+i noticed in my other terminal that the chain had stopped running
+
+
+[01-Mar-19 10:55 PM] Sdunbar#5064
+thanks
+
+{Reactions}
+👍 
+
+[06-Mar-19 06:39 PM] Sdunbar#5064
+ok trying to get this to work again
+
+
+[06-Mar-19 06:40 PM] Sdunbar#5064
+command "python setup.py egg info" failed with error code 1 in tmp/pip-build-p5s5m8pg/slick-bitcoinrpc/
+
+
+[06-Mar-19 06:52 PM] TonyL#3577
+@Sdunbar Could you please share command on which you get it and more output lines?
+
+
+[06-Mar-19 07:10 PM] Sdunbar#5064
+sean@sean-virtual-machine:~/komodo/src$ pip3 install setuptools wheel slick-bitcoinrpc
+Collecting setuptools
+  Using cached https://files.pythonhosted.org/packages/d1/6a/4b2fcefd2ea0868810e92d519dacac1ddc64a2e53ba9e3422c3b62b378a6/setuptools-40.8.0-py2.py3-none-any.whl
+Collecting wheel
+  Using cached https://files.pythonhosted.org/packages/96/ba/a4702cbb6a3a485239fbe9525443446203f00771af9ac000fa3ef2788201/wheel-0.33.1-py2.py3-none-any.whl
+Collecting slick-bitcoinrpc
+  Using cached https://files.pythonhosted.org/packages/f0/bc/81d8c2296c5a4f7dbe5c9f822ac18d0547bf612589bf0e88b1e90c607d89/slick-bitcoinrpc-0.1.4.tar.gz
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'setuptools'
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-p5s5m8pg/slick-bitcoinrpc/
+
+
+[06-Mar-19 07:16 PM] TonyL#3577
+@Sdunbar Try to `sudo apt-get install python3-setuptools`
+
+
+[06-Mar-19 07:32 PM] Sdunbar#5064
+that part didnt throw any errors this time
+
+
+[06-Mar-19 07:32 PM] Sdunbar#5064
+i get this though now
+
+
+[06-Mar-19 07:32 PM] Sdunbar#5064
+sean@sean-virtual-machine:~/komodo/src$ ./rogue_tui.py
+Traceback (most recent call last):
+  File "./rogue_tui.py", line 3, in <module>
+    from lib import rpclib, tuilib
+  File "/home/sean/komodo/src/lib/rpclib.py", line 2, in <module>
+    from slickrpc import Proxy
+ModuleNotFoundError: No module named 'slickrpc'
+
+
+[06-Mar-19 07:32 PM] Sdunbar#5064
+Also my rogue chain seems to shut down right away
+
+
+[06-Mar-19 07:33 PM] Sdunbar#5064
+Please help, human!
+Error: A block chain reorganization has been detected that would roll back 386 blocks! This is larger than the maximum of 99 blocks, and so the node is shutting down for your safety.
+
+Reorganization details:
+- Current tip: 000dd400467501c9cf7f6544626dddb4242dbbd98725177cffe6084cb9db322e, height 40150, work 0000000000000000000000000000000000000000000000000000000007544a59
+stake 0000000000000000000000000000000000000000000000000000000000000000
+- New tip:     0002757abcd83d1d4061de14afc040d4b5b7b200db5ac083260cf5891572b0c1, height 42282, work 0000000000000000000000000000000000000000000000000000000007b3db2b
+stake 0000000000000000000000000000000000000000000000000000000000000000
+- Fork point:  ROGUE 0004d3a94f71c01b6080a633ad120a1d4851733ccac1e50f3b6029ccdcd2d953, height 39764
+
+Please help, human!
+
+
+[06-Mar-19 07:42 PM] TonyL#3577
+Aha so now problem is with daemon sync - you have to update it
+
+
+[06-Mar-19 07:43 PM] TonyL#3577
+```   from slickrpc import Proxy
+ModuleNotFoundError: No module named 'slickrpc'``` hmm and  ``` pip3 install setuptools wheel slick-bitcoinrpc``` seems to not be completed succesfully
+
+
+[06-Mar-19 07:43 PM] TonyL#3577
+I'll publish soon fresh Ubuntu bundle with portable TUI and precompiled daemon
+
+
+[06-Mar-19 07:43 PM] TonyL#3577
+In a few hours I think
+
+
+[06-Mar-19 08:02 PM] Sdunbar#5064
+Sounds good appreciate the help
+
+
+[06-Mar-19 08:13 PM] TonyL#3577
+https://github.com/tonymorony/komodo_cryptoconditions_tui/releases/tag/0.2.1b Updated bundles (ROGUE daemon + Rogue game + TUI) for OSX and Ubuntu
+Have latest jl777 branch daemon inside + TUI with this last keystroke confirmation change
+CC: @Sdunbar
+
+{Embed}
+https://github.com/tonymorony/komodo_cryptoconditions_tui/releases/tag/0.2.1b
+tonymorony/komodo_cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/komodo_cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+{Reactions}
+🚀 
+
+[06-Mar-19 08:26 PM] Cryptofist#7504
+🙌
+
+
+[06-Mar-19 08:42 PM] Sdunbar#5064
+Thanks Tony
+
+
+[06-Mar-19 08:42 PM] Sdunbar#5064
+Do i need to extract this somewhere specifically or just anywhere?
+
+
+[06-Mar-19 08:52 PM] Sdunbar#5064
+Tried extracting into Komodo/src and then running again and same error
+
+
+[06-Mar-19 08:52 PM] Sdunbar#5064
+no module named slickrpc
+
+
+[06-Mar-19 08:53 PM] Sdunbar#5064
+chain died again right away
+
+
+[06-Mar-19 08:53 PM] Sdunbar#5064
+i must have done something incorrectly
+
+
+[06-Mar-19 09:03 PM] TonyL#3577
+Just extract it anywhere
+
+
+[06-Mar-19 09:03 PM] TonyL#3577
+And run daemon extracted from zip, and `./rogue_tui` executable from zip then
+
+
+[06-Mar-19 09:05 PM] TonyL#3577
+Maybe you will need re-sync from scratch. For it just delete blockchain which you have now: 
+```rm -rf ~/.komodo/ROGUE/blocks
+rm -rf ~/.komodo/ROGUE/chainstate
+rm -rf ~/.komodo/ROGUE/database```
+And start daemon again
+
+
+[06-Mar-19 10:01 PM] Sdunbar#5064
+sounds good will try when i get home from work tomorrow
+
+
+[06-Mar-19 10:01 PM] Sdunbar#5064
+have to sleep now
+
+
+[06-Mar-19 10:14 PM] TonyL#3577
+Good night!
+
+
+[07-Mar-19 07:10 AM] OsTa#2589
+https://ethcc.cryptowars.jp/ nice ETH game !
+
+
+[07-Mar-19 07:11 AM] OsTa#2589
+a bit slow and not scalable but it's working well
+
+
+[08-Mar-19 06:47 AM] OsTa#2589
+https://github.com/e11-io/crypto-wars-solidity
+
+{Embed}
+https://github.com/e11-io/crypto-wars-solidity
+e11-io/crypto-wars-solidity
+CryptoWars is the first strategy game to fully run on smart contracts. Build your village, summon your army, protect your e11 tokens and attack your enemies to steal theirs. - e11-io/crypto-wars-so...
+https://images-ext-1.discordapp.net/external/Hhb-o9Cl7IKGm2zXZAWf7AbW-2Ru5LEKlSrUqsJW19U/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/31971428
+
+{Reactions}
+🤔 
+
+[08-Mar-19 12:44 PM] Cryptofist#7504
+https://twitter.com/RogueChainkmd/status/1104006969336258560
+
+{Embed}
+Crypto Rogue - A Game Legacy, Re-invented. (@RogueChainkmd)
+https://twitter.com/RogueChainkmd/status/1104006969336258560
+Come test with us!  
+Updated bundles now available for OSX and Ubuntu. 
+(ROGUE daemon + Rogue game + TUI) 
+(Windows coming as.soom as possible)
+
+https://t.co/uFxiXDrCQ6 
+
+@KomodoPlatform
+Twitter
+
+
+[08-Mar-19 12:45 PM] Cryptofist#7504
+Please, help boost the signal a a bit and RT/Share!
+
+
+[08-Mar-19 08:58 PM] Sdunbar#5064
+weird, i didnt even start rogue_tui. All i did was try to run ./rogue from the new extracted files and it asked me to put my rogue.conf in the current directory
+
+
+[08-Mar-19 08:58 PM] Sdunbar#5064
+so i did that and then ./rogue again and the game started up?
+
+
+[08-Mar-19 08:58 PM] Sdunbar#5064
+seems to work?
+
+
+[08-Mar-19 08:58 PM] Sdunbar#5064
+im guessing the chain is not running though?
+
+
+[08-Mar-19 08:59 PM] Sdunbar#5064
+i have no idea what im doing lol
+
+
+[08-Mar-19 09:01 PM] Sdunbar#5064
+Where is the rogue daemon in this package?
+
+
+[08-Mar-19 09:21 PM] Cryptofist#7504
+I believe you start with komodod
+
+
+[08-Mar-19 09:21 PM] Cryptofist#7504
+I'll take a look in a bit when I return  to my computer.
+
+
+[08-Mar-19 09:23 PM] Cryptofist#7504
+Double check the instructions from git hub in the meantime.
+
+
+[08-Mar-19 09:24 PM] Cryptofist#7504
+@TonyL is there anything additional to know about set up with the bundles?
+
+
+[08-Mar-19 09:43 PM] TonyL#3577
+@Cryptofist it's on github in releases page: just unzip, start daemon with rogue params, start tui
+
+
+[08-Mar-19 09:44 PM] TonyL#3577
+Tui will copy config, will ensure that rogue synced and set pubkey so unzip and start is all what is needed
+
+
+[08-Mar-19 09:44 PM] Cryptofist#7504
+@Sdunbar ^
+
+
+[08-Mar-19 09:45 PM] Cryptofist#7504
+Thanks  @TonyL  !
+
+
+[08-Mar-19 10:03 PM] TonyL#3577
+Daemon is `komodod`, tui is `rogue_tui`
+
+{Reactions}
+✅ 
+
+[08-Mar-19 11:39 PM] Sdunbar#5064
+ok will give that a shot tomorrow
+
+
+[08-Mar-19 11:39 PM] Sdunbar#5064
+gonna go to bed thanks for help
+
+
+[09-Mar-19 08:40 AM] Sdunbar#5064
+- Fork point:  ROGUE 0004d3a94f71c01b6080a633ad120a1d4851733ccac1e50f3b6029ccdcd2d953, height 39764
+
+Please help, human!
+if you launch with -maxreorg=2701 it might be able to resolve this automaticallyError: A block chain reorganization has been detected that would roll back 2691 blocks! This is larger than the maximum of 99 blocks, and so the node is shutting down for your safety.
+
+
+[09-Mar-19 08:43 AM] Sdunbar#5064
+😕
+
+
+[09-Mar-19 08:43 AM] Sdunbar#5064
+not sure if this is user error - something im doing wrong or not
+
+
+[09-Mar-19 09:12 AM] SHossain#0007
+start with reindex or delete chain data (except wallet.dat & ROGUE.conf) and start again
+
+
+[09-Mar-19 10:07 AM] Sdunbar#5064
+nice
+
+
+[09-Mar-19 10:07 AM] Sdunbar#5064
+seems to work now
+
+
+[09-Mar-19 10:07 AM] Sdunbar#5064
+thanks for everyones help
+
+
+[09-Mar-19 10:07 AM] Sdunbar#5064
+I'm kind of a noob at linux lol
+
+
+[09-Mar-19 10:30 AM] Sdunbar#5064
+how do i read a scroll in this game
+
+
+[09-Mar-19 10:30 AM] Sdunbar#5064
+press r then ??? to confirm
+
+
+[09-Mar-19 10:31 AM] Sdunbar#5064
+nevermind figured it out
+
+
+[09-Mar-19 10:31 AM] Sdunbar#5064
+😃
+
+
+[09-Mar-19 09:05 PM] wookie#7663
+@Sdunbar here's a quickstart guide to the game: https://github.com/jl777/komodo/blob/jl777/src/cc/rogue/rogue.doc
+
+{Embed}
+https://github.com/jl777/komodo/blob/jl777/src/cc/rogue/rogue.doc
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[10-Mar-19 12:30 PM] Sdunbar#5064
+Thanks
+
+
+[10-Mar-19 12:30 PM] Sdunbar#5064
+When I name my character and then it shows my high score after it doesnt seem to have the name
+
+
+[11-Mar-19 05:21 AM] TonyL#3577
+For fresh warrior name will appear in warriors list after your warrior back - it's fine that rogue printing blank name on this stage
+
+
+[11-Mar-19 07:15 AM] CrisF#3405
+```TonyLToday at 11:04 PM
+ANNOUNCEMENT: wiped OSX bundle from github. Before OS specific things resolution only Ubuntu release will be maintained. If you want to test on any other OS - please set-up virtual machine with Ubuntu OS or rent VPS/spin cloud instance with it.```
+
+
+[22-Mar-19 12:11 AM] ronyi#5719
+New T-850: 😂 
+Hitpoints: 74
+Strength: 31
+Level: 11
+Experience: 6646
+Dungeon Level: 18
+Chain: ROGUE
+
+Inventory:
+
+10 rations of food
+7 slime-molds
++7 leather armor [protection 9]
+A +8,+4 two handed sword
+5 scrolls of teleportation
+6 scrolls of monster confusion
+6 potions of restore strength(pink)
+3 potions of extra healing(yellow)
+2 potions of raise level(silver)
+10 potions of healing(ecru)
+4 potions of monster detection(grey)
+A ring of sustain strength(garnet)
+A ring of slow digestion(onyx)
+A ring of slow digestion(onyx)
+A ring of searching(stibotantalite)
+A ring of aggravate monster(jade)
+
+Total packsize: 16
+
+
+[25-May-19 11:35 PM] Deleted User#0000
+Hi here :).
+Barterlly is now open on BETA mode, and will provide tools for users and CoinOwners to perform OTC trades in a safe way.
+Any KMD assetchain dPowed will be listed, and supported, for free.
+Other coins not already listed can submit a listing application at : https://barterlly.typeform.com/to/iqpS1H
+During the BETA, Barterlly won't charge any fee other than the transaction ones. after the release we will charge 1% on top of every transaction.
+Our goal is to provide premium tools for coins listed on the platform. (Discord swapbot, twitter integration, public orders, wallet integration, API, custom templating, and many more).
+Feel free to join us on our Discord.
+https://discord.gg/RHc95zw
+The app link is located at : https://app.barterlly.io
+We are open to suggestions, and partnerships.
+
+See you soon !
+
+Barterlly's team
+
+{Embed}
+https://barterlly.typeform.com/to/iqpS1H
+Barterlly-Listing
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-1.discordapp.net/external/j4WRBwI9aqFsv-lpkCn64Fr0EvicWgWYGmO4DedtKOM/https/images.typeform.com/images/FYUps4mFKPYK
+
+{Reactions}
+👍 Komodo 💯 (2) shexy 
+
+==============================================================
+Exported 354 message(s)
+==============================================================

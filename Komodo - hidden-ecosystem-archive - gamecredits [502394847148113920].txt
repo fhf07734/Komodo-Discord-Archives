@@ -1,0 +1,90 @@
+==============================================================
+Guild: Komodo
+Channel: hidden-ecosystem-archive / gamecredits
+Topic: Discussion area for GameCredits, a peer to peer cryptocurrency for the gaming industry. The first non-Komodo chain to adopt dPoW. This purpose-built cryptocurrency aims to launch a store where users can buy and sell their PC games using GameCredits. Additionally, the currency aims to be accepted across major vendors such as Steam, Draft Kings, Fan Duel, Green Man Gaming, etc to realize the ultimate vision of GAME which is a p2p currency for gamers without lock in on any specific platform.
+==============================================================
+
+[18-Oct-18 11:16 PM] sφldat#8733
+GameCredits ?
+
+
+[18-Oct-18 11:32 PM] jl777c#5810
+yes, i realized they had no channel here
+
+{Reactions}
+👍 (4) 
+
+[19-Oct-18 10:44 AM] n64#1985
+🚀
+
+
+[19-Oct-18 10:52 AM] SHossain#0007
+@carl please also bridge this channel with GAME discord server. @n64 from GAME can help with the other part 😃
+
+{Reactions}
+👆 (2) ⚓ 🐔 
+
+[02-Nov-18 09:32 AM] Virginia (Peer2Group)#1459
+https://twitter.com/peer2group/status/1058393508950740992
+
+{Embed}
+peer2group (@peer2group)
+https://twitter.com/peer2group/status/1058393508950740992
+Great news! All @gamecredits community can get a crypto loaded card, buy & sell #GAME within #pungoapp wallet! Get it at https://t.co/6OSWc4wI7G. If you 𝗼𝗿𝗱𝗲𝗿 𝗮 𝗰𝗮𝗿𝗱 𝘄𝗶𝘁𝗵 𝗚𝗔𝗠𝗘 during next 2 weeks, you can get 30% REFUND...
+https://images-ext-1.discordapp.net/external/N9VSjnOL0D_yccIzVkBSFnWwUrVHHU5_gd365cq27cI/https/pbs.twimg.com/media/DrApQhgX4AAAW8P.jpg%3Alarge
+Twitter
+
+{Reactions}
+👍 (2) 
+
+[02-Nov-18 11:33 AM] n64#1985
+Retweeted via gamecredits twitter 😉
+
+
+[13-Nov-18 02:09 PM] Audo#5667
+Hey Komodo Projects,
+
+Komodo team is looking to know better the projects which are building with Komodo. We ask you to fill out this form so that we get information about each project and the rapidly growing ecosystem.
+
+https://airtable.com/shrKBzMwUddQ4ggET
+
+{Embed}
+https://airtable.com/shrKBzMwUddQ4ggET
+Submit New Project - Airtable
+Fill out the "Submit New Project" form quickly and securely on Airtable.
+https://images-ext-2.discordapp.net/external/wOO2B2WaFrXKHRFn-C_52mTmmd6WpFp5YNlHI3X6hPA/https/static.airtable.com/images/oembed/airtable.png
+
+
+[21-Jan-19 11:33 AM] FishyGuts#5085
+Does game have their own discord?
+
+
+[24-Apr-19 05:06 AM] n64#1985
+is there an updated list of notaries / updated Komodo include files for 0.15 coins?
+
+
+[24-Apr-19 05:07 AM] jl777c#5810
+there will be after the elections, activation will be end of June, early July
+
+
+[24-Apr-19 07:58 AM] n64#1985
+thanks jl777
+
+
+[04-Jun-19 07:31 PM] kolo#0539
+We will need to do updated set of pubkeys in coming couple of days
+
+
+[04-Jun-19 10:39 PM] n64#1985
+no problem let me know when it’s ready, you can also make a pull request on our github (preferred) when it’s ready  https://github.com/gamecredits-project/gamecredits
+
+{Embed}
+https://github.com/gamecredits-project/gamecredits
+gamecredits-project/GameCredits
+GameCredits: a peer-to-peer currency for gamers - Official Core Repository - gamecredits-project/GameCredits
+https://images-ext-2.discordapp.net/external/JdEM0eu8filABY1TIQen4c38bffX8RldKwcY6_NxBxk/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/12903534
+
+
+==============================================================
+Exported 13 message(s)
+==============================================================
