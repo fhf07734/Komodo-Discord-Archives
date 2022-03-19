@@ -1,0 +1,1078 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -3 / dev-dico
+Topic: Development organisation of dICO application and dICO related dev talk.
+==============================================================
+
+[20-Oct-18 02:12 PM] SHossain#0007
+@Alice
+
+
+[20-Oct-18 02:18 PM] Alice#9607
+Is it possible to create an dico similar to the EOS ico?
+
+
+[20-Oct-18 02:19 PM] Alice#9607
+Over a certain timeframe coins can be contributed to a pot. When the time is over a fixed amount of coins get distributed to all contributors to the pot proportionally.
+
+
+[20-Oct-18 02:21 PM] Alice#9607
+https://eosscan.io
+
+{Embed}
+https://eosscan.io/.
+EOSscan - EOS token sale tracker by scanning ethereum blockchain
+EOS Scan offers you the current price of EOS tokens by analyzing transactions of EOS token purchases on the Ethereum blockchain.
+
+
+[20-Oct-18 02:23 PM] Alice#9607
+can such an offering be done with barterdex? @jl777c
+
+{Reactions}
+👍 
+
+[21-Oct-18 12:41 AM] jl777c#5810
+via dico, the coins are transfered when the swap is done
+
+
+[21-Oct-18 02:43 AM] Alice#9607
+@jl777c Are there code samples how to implement this?
+
+
+[21-Oct-18 02:44 AM] jl777c#5810
+there is a dico repo somewhere, but i dont remember exactly where
+
+
+[21-Oct-18 10:25 AM] jspook16#3059
+Maybe you can time lock them and use a CC to identify belonging to a certain address so even though the receiver doesn't get them right away, they know those coins are scheduled to be delivered to them.
+
+
+[21-Oct-18 10:27 AM] jl777c#5810
+would require to make such a CC and enable arbitrary destination addresses
+
+
+[21-Oct-18 10:28 AM] jl777c#5810
+not impossible
+
+
+[21-Oct-18 10:33 AM] jspook16#3059
+Just throwing ideas out.
+
+{Reactions}
+🇻 
+
+[29-Oct-18 09:58 PM] Nacho Figx#4221
+Hello Community, Pixdum.com is starting to take form and our intention is to make a good research about the dICO, if you know anyone within the community or you know about this topic, please contact me.
+
+
+[30-Oct-18 12:33 AM] jl777c#5810
+contact #chainmakers or #chainzilla
+
+{Reactions}
+👍 (3) 
+
+[11-Nov-18 12:58 PM] bartwr#6773
+The dico-app is here https://github.com/KomodoPlatform/dicoapp-e
+
+I'd like to configure the dicoapp for a new token. @ca333, I see you configured DSEC in https://github.com/KomodoPlatform/dicoapp-e/commit/45dbb79127d86e65dd98a935194e52a9e7b5b358#diff-7b7bc9b49494840e8a390b095d1fcb78.  What is the pubkey that you configured here?
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/commit/45dbb79127d86e65dd98a935194e52a9e7b5b358
+modify for DSEC · KomodoPlatform/dicoapp-e@45dbb79
+https://images-ext-1.discordapp.net/external/odO1GEZjXVfb1MMXFakEV1Oz4dmaW1GhG6vDNkq6dxQ/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/10762374
+
+
+[11-Nov-18 12:59 PM] bartwr#6773
+My goal is to have the dicoapp configured so that the dICO coin can be bought from one of our liquidity providers.
+
+
+[11-Nov-18 07:57 PM] namhoang28#4328
+Hi @bartwr 
+Still need @ca333 to confirm but I think that is the key you needed to be able to receive the coin.
+You can get your public key by calling this api (https://docs.komodoplatform.com/barterDEX/barterDEX-API.html#passphrase)
+P/S: Please use `develop` branch for latest code and feel free open new issue if you want to support
+I don't usually on here 😃 so many channel
+
+
+[11-Nov-18 10:47 PM] bartwr#6773
+@namhoang28 Ah, the pubkey in https://github.com/KomodoPlatform/dicoapp-e/blob/45dbb79127d86e65dd98a935194e52a9e7b5b358/app/main/config/tokenconfig.js#L16 could be the _users_ pubkey/passphrase for trading. I see. If someone can confirm this, please do!
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/blob/45dbb79127d86e65dd98a935194e52a9e7b5b358/app/main/config/tokenconfig.js
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Reactions}
+❔ 
+
+[11-Nov-18 10:48 PM] bartwr#6773
+Also, I would love to use the `develop` branch, though I've problems with running the app there, from my Ubuntu based machine.
+
+
+[11-Nov-18 10:48 PM] bartwr#6773
+On `master` I get the app to work, but only using `yarn start` & after having done these 2 modifications: https://github.com/KomodoPlatform/dicoapp-e/issues/56#issuecomment-437703551
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/issues/56
+App shouldn't load a white, empty screen · Issue #56 · KomodoPla...
+Title: App shouldn't load a white, empty screen Currently: I execute yarn dev. A Chrome window opens. The inspector for this Chrome window opens as well. But the app does not load. It loads a w...
+https://images-ext-2.discordapp.net/external/0my4sIarrxFFqPGlv7nbuHFCt0KKgwQURsuCGx3U3oE/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/899234
+
+
+[11-Nov-18 10:50 PM] bartwr#6773
+On `develop` the command `yarn install` does not work, because some dependencies are not for node 9.11.2 (the version mentioned in the README.md). If I set node 10 instead & then `yarn install`, the installation of dependencies works. Though starting the app gives JavaScript console errors. Because I cannot run the app in `develop`, but can run the `master`, I now test the master branch, fyi
+
+
+[11-Nov-18 11:41 PM] namhoang28#4328
+I've updated all dependencies to the newest version in last week. Now you need node > 10 to run dICO app. I suggest using node v10.13.0 since I use it in my laptop.
+https://github.com/KomodoPlatform/dicoapp-e/blob/develop/package.json#L278
+And there are also some people have problem with marketmaker app in dICO repo. Please try to replace it with latest version here before you run it:
+https://github.com/artemii235/SuperNET/releases/tag/v1.0.942
+The application should run normally after that
+Let me know if you still get any problem
+I will update document in this week. It needs a clear instruction guide
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/blob/develop/package.json
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Embed}
+https://github.com/artemii235/SuperNET/releases/tag/v1.0.942
+artemii235/SuperNET
+Contribute to artemii235/SuperNET development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6tle8mq-vBNKZMUSJgicxTqb0XV_6r5olkUss4Ckk7U/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/15745003
+
+
+[11-Nov-18 11:48 PM] bartwr#6773
+@namhoang28 Thank you for your reply. I can help with a good instruction guide. Will try to run the latest `develop` now, and notify on errors. Together then we can make this work
+
+
+[11-Nov-18 11:57 PM] namhoang28#4328
+That's wonderful. Please try and let me know the result
+
+
+[12-Nov-18 12:11 AM] bartwr#6773
+Note: There was no `/app/bin/marketmaker/linux` folder, so I created it. Also I downloaded the latest `marketmaker` and put it in this `linux` folder.
+
+
+[12-Nov-18 12:12 AM] bartwr#6773
+Running the `develop` branch with node v10.13.0 and `yarn dev` gives me the same errors as when I run `yarn dev` in master branch: https://i.imgur.com/goWel31.png
+
+{Embed}
+https://imgur.com/goWel31
+Screenshot at 09:09:29.png
+https://images-ext-2.discordapp.net/external/nFyv1lUw031wDwwy2n8euC_9Q-nX4n5ZrHVudbvCEo4/https/i.imgur.com/goWel31.png
+
+
+[12-Nov-18 12:12 AM] bartwr#6773
+`yarn start` gives me an error: `Unexpected token {` in `import { setup } from ...`: https://i.imgur.com/CJ3YDFr.png
+
+{Embed}
+https://imgur.com/CJ3YDFr
+Screenshot at 09:11:05.png
+https://images-ext-2.discordapp.net/external/9IoQwGZq4sr7ooTbMsbdmmksK9fnP7R-R3Q85aGFg3Y/https/i.imgur.com/CJ3YDFr.png
+
+
+[12-Nov-18 12:23 AM] bartwr#6773
+Strange, `commonjs2` is included in `webpack.config.base.js`, so it should convert all 'import's to 'require's..
+
+
+[12-Nov-18 12:27 AM] namhoang28#4328
+```
+Note: There was no /app/bin/marketmaker/linux folder, so I created it. Also I downloaded the latest marketmaker and put it in this linux folder.
+```
+Yes, I try to remove it from source code and install it independently. It’s binary file and we should not commit it into git. Let chat together. We don’t want to spam this channel 😃
+
+
+[12-Nov-18 12:28 AM] bartwr#6773
+Apart from running the `develop` branch of the dicoapp-e repo, I have an other question. I want to offer a coin in exchange for BTC or KMD. The coin at the top is the coin that can be bought. Right now the balance of the offered coin is 0. What do I have to do to have a balance here?
+
+I think the answer is something like this:
+
+- Make sure that the electrum server `electrum1.cipig.net` can find liquidity for coin 'X'. As soon as there's liquidity, the amount of tokens for 'X' goes from 0 to a higher amount. From that moment it's possible to buy available tokens via BTC/KMD using the dICO-app.
+
+Is my assumption above correct?
+
+
+[12-Nov-18 06:45 PM] ca333#0333
+@namhoang28 @bartwr - that pubkey is the bob-pubkey! You need to set up a bob from which the price gets fetched explicitly - doing it based on market-offering can lead to unpleasant situations (underbidding you with "empty" orders, etc.)
+
+{Reactions}
+👍 (2) 
+
+[29-Nov-18 01:21 PM] bartwr#6773
+fyi I have the dico-app 'master' branch running well. Tested it with KMD/[coin] & BTC/[coin] swaps. Works great.
+
+I've seen the new `develop` branch as well - this one looks better than the `master` & has lots of improvements. Can't make it run locally yet, will test later on.
+
+Anyhow. Just saying that the dico-app does what it should do. Nice.
+
+{Reactions}
+👍 
+
+[29-Nov-18 06:26 PM] namhoang28#4328
+@bartwr thanks for your comment. Feel free open new issue on github if you need to support : )
+
+{Reactions}
+Komodo 
+
+[15-Dec-18 01:54 PM] bartwr#6773
+Nice new documentation on https://github.com/particle4dev/dicoapp-e/tree/update-document-and-instruction#----dico---
+
+{Embed}
+https://github.com/particle4dev/dicoapp-e/tree/update-document-and-instruction
+particle4dev/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - particle4dev/dicoapp-e
+https://images-ext-1.discordapp.net/external/aoYFsE1Mstym_kQHATdrwByqGRZjypnRA7_QKcsOYCQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3245868
+
+
+[17-Dec-18 05:15 AM] Nick Bk (YAF.fy)#1402
+Hi, guys! 
+could I issue tokens without max count limit? 
+and manage tokens creation based on payed commitments to clients?
+
+
+[17-Dec-18 05:17 AM] jl777c#5810
+there is not really a max, it is more a function of initial supply + lifetime mining rewards
+
+
+[17-Dec-18 05:23 AM] gcharang#6833
+I don't know your exact purpose, but there is on-chain token creation available on any asset-chain built using komodo. It's numbers are virtually limitless as `1 base-token = 10^8 on-chain tokens` https://docs.komodoplatform.com/cc/contracts/tokens/introduction.html
+
+
+[17-Dec-18 06:38 AM] Nick Bk (YAF.fy)#1402
+@gcharang
+I meant a assetchain with dynamic coins supply.
+But is talking about some another entity named "on-chain tokens"?
+
+
+[17-Dec-18 06:41 AM] jl777c#5810
+@Nick Bk (YAF.fy) the coins must be created by some mechanism... or you want anybody to be able to create more coins at anytime?
+
+
+[17-Dec-18 06:41 AM] jl777c#5810
+or some special user?
+
+
+[17-Dec-18 06:56 AM] Nick Bk (YAF.fy)#1402
+@jl777c
+I would like issue coins as far as new orders arrives. It will be presale campaign of the real world product
+
+
+[17-Dec-18 07:01 AM] jl777c#5810
+ok, but what blockchain method validates that a new order arrived?
+
+
+[17-Dec-18 07:01 AM] jl777c#5810
+some data entry person enters a web form to issue 1 million coins?
+
+
+[17-Dec-18 07:01 AM] jl777c#5810
+do you see the problem?
+
+
+[17-Dec-18 07:02 AM] jl777c#5810
+you can preissue a large amount of coins and then burn the excess afterwards
+
+
+[17-Dec-18 07:02 AM] jl777c#5810
+but unless there is a secure method to create new coins, this new method to create coins wont be secure
+
+
+[17-Dec-18 07:03 AM] Nick Bk (YAF.fy)#1402
+bitcoin transaction to crowdsale address
+
+
+[17-Dec-18 07:06 AM] ComputerGenie#7004
+That seems to me as something that would create a huge inflationary value issue without a cap somewhere
+
+
+[17-Dec-18 07:06 AM] Nick Bk (YAF.fy)#1402
+so it will be ico, with fixed token price, but tokens count will be incremental
+
+
+[17-Dec-18 07:07 AM] jl777c#5810
+why not wait until ICO is over to create the chain?
+
+
+[17-Dec-18 07:08 AM] Nick Bk (YAF.fy)#1402
+@jl777c
+I want fair dICO
+
+
+[17-Dec-18 07:08 AM] Nick Bk (YAF.fy)#1402
+and do not store balances anywhere besides blockchain
+
+
+[17-Dec-18 07:09 AM] jl777c#5810
+then preissue max, burn unsold
+
+
+[17-Dec-18 07:10 AM] Nick Bk (YAF.fy)#1402
+I want timeless tokens issue, but controlled by clients payments
+
+
+[17-Dec-18 07:14 AM] jl777c#5810
+this is not a built in function, you would need to do a merkle proof against a trusted source of BTC merkle roots and implement a way to create coins based on this
+
+
+[17-Dec-18 07:15 AM] Nick Bk (YAF.fy)#1402
+ps: it should be like crowdsale on omnilayer
+
+
+[17-Dec-18 07:20 AM] Nick Bk (YAF.fy)#1402
+@jl777c
+it should be done like proof of burn (https://en.bitcoin.it/wiki/Proof_of_burn) but tomy address, I think it is done already by someone
+
+
+[17-Dec-18 07:23 AM] jl777c#5810
+who?
+
+
+[17-Dec-18 07:23 AM] Nick Bk (YAF.fy)#1402
+omnicoin(mastercoin) has that functional
+
+
+[17-Dec-18 07:23 AM] jl777c#5810
+it is not done by me, seems gateways CC is the closest
+
+
+[17-Dec-18 07:24 AM] Nick Bk (YAF.fy)#1402
+but its dex is bitcoin based, so it very slow
+
+
+[17-Dec-18 07:24 AM] jl777c#5810
+and omni is build on top of bitcoin and has bitcoind accessible, doing it cross chain is an entirely different thing
+
+
+[17-Dec-18 07:24 AM] jl777c#5810
+and much more difficult
+
+
+[17-Dec-18 07:25 AM] Nick Bk (YAF.fy)#1402
+I understand it
+could we reuse some of its code in komodo?
+
+
+[17-Dec-18 07:27 AM] Nick Bk (YAF.fy)#1402
+it has some kind proof, that btc transaction is done, and then coins issued (maybe I mistaked, because issue additional omnilayer coins is simple op-return trick)
+
+
+[17-Dec-18 07:28 AM] Nick Bk (YAF.fy)#1402
+but they declared two kinds of ico, and second one creates coins on behalf of transaction to some address
+
+
+[17-Dec-18 07:29 AM] Nick Bk (YAF.fy)#1402
+it should be simpler that atomic swap used in barterdex exchange
+
+
+[17-Dec-18 07:31 AM] ComputerGenie#7004
+Not sure how a system that's essentially atomic swap *plus* mining *plus* other stuff could be "simpler" than atomic swap alone
+
+
+[17-Dec-18 07:31 AM] Nick Bk (YAF.fy)#1402
+what about this kind of solution:
+coins created like coinbase mined in block, and appears on input addresses of transactions in that block.. something like that
+
+
+[17-Dec-18 07:32 AM] Nick Bk (YAF.fy)#1402
+so its a kind of PoS mechanism
+
+
+[17-Dec-18 07:32 AM] Nick Bk (YAF.fy)#1402
+adopted for the use case
+
+
+[17-Dec-18 07:33 AM] ComputerGenie#7004
+Po(someother)S, more like
+
+{Reactions}
+😁 
+
+[17-Dec-18 07:34 AM] ComputerGenie#7004
+for it to be PoS, there has to be an S
+since S is created on-demand in your proposal, it's not really akin that
+
+
+[17-Dec-18 07:35 AM] Nick Bk (YAF.fy)#1402
+no matter how to call it, but mechanism is very similar, and I think could be reused
+
+
+[17-Dec-18 07:35 AM] ComputerGenie#7004
+basically, as I see it, you'd have to combine mm and komodod into 1 creature
+
+
+[17-Dec-18 07:38 AM] Nick Bk (YAF.fy)#1402
+count of coins mined in PoS will depend on count of transactions in block, but not on count of utxo in whole chain.. (but I am not fully familiar with PoS algorithm)
+
+
+[17-Dec-18 07:39 AM] jl777c#5810
+you want to accept bitcoin
+
+
+[17-Dec-18 07:39 AM] jl777c#5810
+which means either all nodes need to run a bitcoin node (impractical) or you use cross chain proofs
+
+
+[17-Dec-18 07:39 AM] jl777c#5810
+additionally the cross chain proofs need to be used to issue new coins
+
+
+[17-Dec-18 07:40 AM] jl777c#5810
+gateways CC does most of this, but it uses the locked coins that are only released when valid proofs are submitted
+
+
+[17-Dec-18 07:40 AM] jl777c#5810
+so it is blockchain enforced as to freely movable coins, as the locked coins are locked until a valid cross chain proof is submitted
+
+
+[17-Dec-18 07:40 AM] jl777c#5810
+but this requires a source of bitcoin merkleroots
+
+
+[17-Dec-18 07:41 AM] jl777c#5810
+the cross chain burn protocol could be modified to do a one way coin create, but still a source of bitcoin merkle roots are needed and this change needs to be made at the core level
+
+
+[17-Dec-18 07:42 AM] ComputerGenie#7004
+mechanics aside, for a second, and going back to my inflation thought...
+If your total sale = 5BTC in value, what stops BuyerX from dumping 5BTC and instantly doubling the supply and cutting everyone else's value instantly in half?
+
+
+[17-Dec-18 07:45 AM] Nick Bk (YAF.fy)#1402
+@jl777c
+how is "locked coins" prepaired transaction stored? is it stored on mempool? we could also store "virtually locked coins" of second one chain and issue it in next block..
+
+
+[17-Dec-18 07:46 AM] Nick Bk (YAF.fy)#1402
+I am became a guarantee of that chain capitalisation, not much different with fixed supply
+
+
+[17-Dec-18 07:47 AM] ComputerGenie#7004
+your BTC is double, that has no impact on investors and your CoinX will have it's own market/value that wouldn't be tied to BTC 1:1
+
+
+[17-Dec-18 07:48 AM] Nick Bk (YAF.fy)#1402
+@ComputerGenie
+but btc is pulled out from market, until I am hold it on my address
+
+
+[17-Dec-18 07:49 AM] ComputerGenie#7004
+you'd be like "the Fed" printing money at will
+
+
+[17-Dec-18 07:50 AM] Nick Bk (YAF.fy)#1402
+@ComputerGenie
+market could see if I spend that money, and tokens price will drop
+
+
+[17-Dec-18 07:50 AM] Alright#0419
+What is the problem with premining a very large amount of coins, selling what you're able to sell then burning the rest?
+
+
+[17-Dec-18 07:51 AM] ComputerGenie#7004
+`but btc is pulled out from market`
+in the 5+5 situation that I'm asking about, 10 BTC is meaningless in the BTC market, whereas doubling CoinX supply is meaningful
+even at 10x, 100 BTC is fairly meaningless to the BTC market
+
+
+[17-Dec-18 07:51 AM] Nick Bk (YAF.fy)#1402
+@Alright
+it should be timeless
+
+
+[17-Dec-18 07:51 AM] Alright#0419
+I can show you how to print coins at will on an asset chain, but it's not at all simple
+
+
+[17-Dec-18 07:52 AM] Alright#0419
+requires a hardfork for sure
+
+
+[17-Dec-18 07:52 AM] Nick Bk (YAF.fy)#1402
+@ComputerGenie
+yes I will create a new money, and it will backed by trust in future product fabrication, if I do it , the price of tokens up, if not, its goes down.
+
+
+[17-Dec-18 07:53 AM] Alright#0419
+simply creating more than you would ever possibly be able to sell and keeping them locked up tight seems the easiest solution
+
+
+[17-Dec-18 07:54 AM] ComputerGenie#7004
+`backed by trust in future` a promise is not value, so you're still not addressing the fact that every investor prior to that comparative "whale" would have their value halved
+
+
+[17-Dec-18 07:54 AM] Alright#0419
+Genie has a very good point
+
+
+[17-Dec-18 07:55 AM] Alright#0419
+I'm not sure what you propose makes sense unless coin holders are getting that BTC
+
+{Reactions}
+👆🏽 
+
+[17-Dec-18 07:55 AM] Alright#0419
+sounds like fiat with extra steps
+
+
+[17-Dec-18 07:55 AM] jl777c#5810
+I already wrote the solution
+
+
+[17-Dec-18 07:56 AM] jl777c#5810
+but I have no interest to spend time to implement as simply issuing more and burned at the end of ICO is the simple solution
+
+
+[17-Dec-18 07:56 AM] jl777c#5810
+in either case, people need to trust the issuer for the coins/dilution
+
+
+[17-Dec-18 07:56 AM] Nick Bk (YAF.fy)#1402
+@ComputerGenie
+Trust is only makes value for any money, and cryptocurrency not exception.
+In my case I am trying to nominate product price 1-to-1 with coin, in case of standard ICO product has variable price in coins
+
+
+[17-Dec-18 07:56 AM] Alright#0419
+He wants an ICO that never ends from what I understand @jl777c
+
+
+[17-Dec-18 07:57 AM] Alright#0419
+which again, @Nick Bk (YAF.fy) doesn't make sense unless existing coin holders are receiving the BTC directly
+
+
+[17-Dec-18 07:58 AM] Alright#0419
+Nick, if you actually want to do it, I can explain how to create an assetchain that allows you to create coins at will. Warning you though, it's not simple *at all*
+
+
+[17-Dec-18 08:00 AM] Nick Bk (YAF.fy)#1402
+In standard ICO you nominate a COMPANY with X coins (max supply), I want to nominate a PRODUCTS with unlimited supply, only restricted by count of clients orders
+
+
+[17-Dec-18 08:01 AM] Nick Bk (YAF.fy)#1402
+@Alright
+It will be cool
+
+
+[17-Dec-18 08:02 AM] Alright#0419
+You can do it via momom and the burn contract. You need to notarize a new fungible chain then transfer coins from it
+
+
+[17-Dec-18 08:02 AM] jl777c#5810
+then what I wrote about the one way cross chain import is what is needed to be done
+
+
+[17-Dec-18 08:03 AM] jl777c#5810
+BTC -> newchain
+
+
+[17-Dec-18 08:03 AM] Nick Bk (YAF.fy)#1402
+@jl777c
+I dont need a scam time limited ICO and then burn and forget coins... I want continuesly grow it
+
+
+[17-Dec-18 08:03 AM] Alright#0419
+you realize that each additional investor dilutes the previous investors' coins?
+
+
+[17-Dec-18 08:04 AM] Alright#0419
+like the opposite of a ponzi 😛
+
+
+[17-Dec-18 08:06 AM] ComputerGenie#7004
+`you realize that each additional investor dilutes the previous investors' coins?` <- exactly what I was trying to say
+
+
+[17-Dec-18 08:07 AM] Nick Bk (YAF.fy)#1402
+@Alright
+if value of produced (also in future)  items not reduces, then whole capitalisation grows 1-to-1 with coins supply
+and you could exchange items and reflect it on chain
+
+
+[17-Dec-18 08:09 AM] ComputerGenie#7004
+`if value of produced (also in future) items not reduces`
+So you're saying you will have the capacity to instantly produce orders on demand at a rate of 1:1? What if your production rate is 10 widgets per day and I order 10k?
+
+
+[17-Dec-18 08:10 AM] Nick Bk (YAF.fy)#1402
+@ComputerGenie
+eventually production rate should achieve demand
+if not, the price will drop
+
+
+[17-Dec-18 08:10 AM] Nick Bk (YAF.fy)#1402
+it is futures contract
+
+
+[17-Dec-18 08:11 AM] ComputerGenie#7004
+_backs out slowly as @ComputerGenie  doesn't think @ComputerGenie will ever understand this_
+
+
+[17-Dec-18 08:12 AM] Nick Bk (YAF.fy)#1402
+@ComputerGenie
+inflation will equal item wear
+
+
+[17-Dec-18 08:13 AM] ComputerGenie#7004
+`inflation will be equal to item wear` <- literally *not* how value of a free-market currency works
+
+
+[17-Dec-18 08:14 AM] Nick Bk (YAF.fy)#1402
+@ComputerGenie
+but how real world items is
+
+
+[17-Dec-18 08:17 AM] ComputerGenie#7004
+I'm lost as to how you think you can force coin value to match products in existence *and* the condition of those products, but I wish you the best of luck
+_goes back to trying to fix his stratum_
+
+
+[17-Dec-18 08:18 AM] Nick Bk (YAF.fy)#1402
+@ComputerGenie
+👌 
+ONE COIN - ONE ITEM
+ONE CHAIN - ONE PRODUCT TYPE
+
+
+[17-Dec-18 08:57 AM] Nick Bk (YAF.fy)#1402
+@Alright
+Seems I have understand what you mean. Would learn Komodo contracts..
+
+
+[17-Dec-18 08:58 AM] Alright#0419
+It's not well documented at the moment
+
+
+[17-Dec-18 08:59 AM] Alright#0419
+How technical are you? It's basically untested tech. We have one project planning to use it, but it's still in testnet
+
+
+[17-Dec-18 08:59 AM] Alright#0419
+again, by far the simplest way to do it would be print more coins than you could ever possibly sell in the premine then lock them up safely
+
+
+[17-Dec-18 09:25 AM] Nick Bk (YAF.fy)#1402
+@Alright
+I have decade but in java programming.., have not much time for now, but will do it )
+
+
+[17-Dec-18 09:26 AM] Nick Bk (YAF.fy)#1402
+@Alright
+is there any examples?
+
+
+[17-Dec-18 09:27 AM] Alright#0419
+#kmdlabs has it's testnet up right now which supports fungible chains
+
+
+[17-Dec-18 09:27 AM] Alright#0419
+about 8 months of constant development
+
+
+[17-Dec-18 09:27 AM] Alright#0419
+again, by far the simplest way to do it would be print more coins than you could ever possibly sell in the premine then lock them up safely
+
+
+[17-Dec-18 09:28 AM] Alright#0419
+if your investors can trust you enough to be able to print coins at will, they should be able to trust you enough with a large amount of coins that should never really come into circulation
+
+
+[17-Dec-18 09:29 AM] Nick Bk (YAF.fy)#1402
+@Alright
+not my way.. ) and I would like to attract investors by that..
+
+
+[17-Dec-18 09:29 AM] Alright#0419
+if you wait maybe ~6 months, setting up fungible chains should be significantly easier
+
+
+[17-Dec-18 09:29 AM] Alright#0419
+right now, it's *hard*
+
+
+[17-Dec-18 09:30 AM] Nick Bk (YAF.fy)#1402
+I need it for my future product: http://bkey.tech
+
+
+[17-Dec-18 09:31 AM] Nick Bk (YAF.fy)#1402
+@Alright
+ok, will make some research and decide
+
+
+[17-Dec-18 09:32 AM] Alright#0419
+premine more coins than you could ever possibly sell, lock them up in a few multisig addresses
+
+
+[17-Dec-18 09:33 AM] Alright#0419
+That's all you really need to do. The momom thing I mentioned wasn't intended to be used as a way to print coins at will, it's just a consequence of how it works that it's possible
+
+
+[17-Dec-18 09:37 AM] Nick Bk (YAF.fy)#1402
+@Alright
+Am I right?
+I should make new assetchain by deploying couple of notary nodes, and then issue assets on that chain, like in NXT but with some magic coin conditions contract?
+
+
+[17-Dec-18 09:38 AM] Nick Bk (YAF.fy)#1402
+Where is that contract executed, or it is like plugin for client node?
+
+
+[17-Dec-18 09:40 AM] Nick Bk (YAF.fy)#1402
+Is any client, who would like to trade on barterdex should has that plugin installed, or it is propagated somehow..?
+
+
+[17-Dec-18 09:47 AM] Deleted User#0000
+YOu just need some noary nodes of your own yes ... then crate a NEW assetchain in the same cluster with the amount of coins you want... then migrate them to the otehr chain.. and kill the chain you created.
+
+
+[17-Dec-18 09:47 AM] Deleted User#0000
+its a bit of a process.
+
+
+[17-Dec-18 10:41 AM] Nick Bk (YAF.fy)#1402
+@Deleted User
+And how will I migrate them? They should be traded on market to have value, but then it will be very difficult to migrate
+
+
+[17-Dec-18 10:41 AM] Deleted User#0000
+https://github.com/StakedChain/PoS_scripts/blob/master/CC_scripts/MoMoM/migratecoin.sh
+
+{Embed}
+https://github.com/StakedChain/PoS_scripts/blob/master/CC_scripts/MoMoM/migratecoin.sh
+StakedChain/PoS_scripts
+various scripts we have developed on STAKED so far, none of these are perfect and some might not even work. use them as examples of what you can do. - StakedChain/PoS_scripts
+https://images-ext-1.discordapp.net/external/HhyWP-0Sd5I4jG6OLRR8Z4upEFZlVyxGwgtl6Aqq9hw/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/42953759
+
+
+[17-Dec-18 10:42 AM] Deleted User#0000
+currently thats the only possible way to do it automatically....
+
+
+[17-Dec-18 10:42 AM] Deleted User#0000
+its by no means perfect either.... it was made to find bugs not actualy be used by a user
+
+
+[17-Dec-18 10:43 AM] Deleted User#0000
+basically you create a new blockchain every time you ant more coins
+
+
+[17-Dec-18 10:43 AM] Deleted User#0000
+then send them from that blockchain to the main one.
+
+
+[17-Dec-18 10:43 AM] Deleted User#0000
+there is probably easier ways ... like you can write a custom consensus rule that a particular key can just crate imprt coins without a valid MoMoM hash.
+
+
+[17-Dec-18 10:44 AM] Deleted User#0000
+but I dont know how that would go ...
+
+
+[17-Dec-18 10:44 AM] Deleted User#0000
+just means the chains has a GOD key ... if it was stolen the chain is dead.
+
+
+[17-Dec-18 10:49 AM] Nick Bk (YAF.fy)#1402
+@Deleted User
+I don't understand how coins could be migrated to another chain if we have a fixed amount of supply..
+So there is some constant variable, but not fully constant as is ))
+Looks like a PoS scam..
+
+
+[17-Dec-18 10:50 AM] Deleted User#0000
+lol ... its not a constant supply ... you said you wanted to create unlimited coins whenever you like this is how you can do it
+
+
+[17-Dec-18 10:50 AM] Deleted User#0000
+For out project there are 25 notary nodes who all contreol the keys that make the process possible... so they al need tpo decide together to invent coins ...
+
+
+[17-Dec-18 10:50 AM] Nick Bk (YAF.fy)#1402
+but when I created asset chain, should I set max supply constant?
+
+
+[17-Dec-18 10:50 AM] Deleted User#0000
+rather than just 1 person
+
+
+[17-Dec-18 10:51 AM] Deleted User#0000
+yes but doing this you can have 1000 chains if you rlike and they all act as 1
+
+
+[17-Dec-18 10:51 AM] Deleted User#0000
+coins are fungible accorss them
+
+
+[17-Dec-18 10:53 AM] Nick Bk (YAF.fy)#1402
+@Deleted User
+Having fixed count of notary nodes is main assumption that I see as point of control in Komodo chain, so it is permissioned blockchaon now..
+I will look more to the scripts you mentioned
+
+
+[17-Dec-18 10:54 AM] Deleted User#0000
+Maybe I dont understand what it is exactly your trying to do
+
+
+[17-Dec-18 10:54 AM] Deleted User#0000
+My understanding is you want to be abel to tinfenatly print money
+
+
+[17-Dec-18 10:55 AM] Nick Bk (YAF.fy)#1402
+@jl777c
+This is what I want https://en.bitcoin.it/wiki/Proof_of_burn
+
+it will be measurement of distributed trust to me )
+
+{Embed}
+https://en.bitcoin.it/wiki/Proof_of_burn
+Proof of burn
+
+
+[17-Dec-18 10:56 AM] Nick Bk (YAF.fy)#1402
+burn is transaction to me ) and all done without any hosted server
+
+
+[17-Dec-18 10:57 AM] Deleted User#0000
+hmmm it seems similar to what we are doing ... you need to burn coins to creat the coins back on the other chains.
+
+
+[17-Dec-18 10:57 AM] Deleted User#0000
+it allows diffrent chains to have diffrent rules and contractsetc ... but use the same currency/token
+
+
+[17-Dec-18 11:18 AM] Nick Bk (YAF.fy)#1402
+@Deleted User
+What magic function "migrate_converttoexport" do?
+Is it used to push coin supply value to "notary" nodes?
+
+
+[17-Dec-18 11:19 AM] Deleted User#0000
+It burns the coins
+
+
+[17-Dec-18 11:19 AM] Deleted User#0000
+Then the notary nodes create a notarisation of the merkle roots onto kmd and the other chains
+
+{Reactions}
+😁 
+
+[17-Dec-18 11:19 AM] Deleted User#0000
+So that the import tx can verify the burn happened
+
+
+[17-Dec-18 11:20 AM] Deleted User#0000
+In your case u could probably skip all that and just import
+
+
+[17-Dec-18 11:20 AM] Deleted User#0000
+But again not quote are what your trying to do
+
+
+[17-Dec-18 11:21 AM] Deleted User#0000
+The notaries power come from choosing what chains to notaries to allow this process to happen nothing more
+
+
+[17-Dec-18 11:22 AM] Nick Bk (YAF.fy)#1402
+directive to centralbank.. sorry, notary nodes  to make some additional debt line in balance sheet
+
+
+[17-Dec-18 11:24 AM] Nick Bk (YAF.fy)#1402
+is that how 5% in agama wallet appears?
+
+
+[17-Dec-18 11:27 AM] Deleted User#0000
+Ni
+
+
+[17-Dec-18 11:27 AM] Deleted User#0000
+This had nothing to do with kmd notaries
+
+
+[17-Dec-18 11:27 AM] Deleted User#0000
+These are a separate thing
+
+
+[17-Dec-18 11:27 AM] Deleted User#0000
+Although kmd ones can do this aswell
+
+
+[17-Dec-18 11:27 AM] Deleted User#0000
+They dont
+
+
+[17-Dec-18 11:28 AM] Nick Bk (YAF.fy)#1402
+but that is function of komodo_cli
+
+
+[17-Dec-18 11:28 AM] Deleted User#0000
+Maybe u should read some of the blogs on hownit works
+
+
+[17-Dec-18 11:28 AM] Nick Bk (YAF.fy)#1402
+I know, I should trust notary nodes..
+
+
+[17-Dec-18 11:28 AM] Deleted User#0000
+You don't need to trust them for this, only that they dontbadd more chains
+
+
+[17-Dec-18 11:29 AM] Deleted User#0000
+The migrate process is trust less
+
+
+[17-Dec-18 11:29 AM] Deleted User#0000
+Only the notaries can choose to add more chains if they wanted to
+
+
+[17-Dec-18 11:32 AM] Nick Bk (YAF.fy)#1402
+ok, deep problems we dig here.. 
+I understand, that it needed for now to protect from 51% attack, because chain is not powerful yet
+will hope notary nodes became PoW based in future..
+anyway, blackjok3r thanks you show me the way!
+
+
+[17-Dec-18 08:35 PM] gcharang#6833
+@Nick Bk (YAF.fy) the actual Komodo notaries can't do this. Komodo has no other fungible chains. @Deleted User is talking about the notaries for #kmdlabs which is a testing environment for new features and chains
+
+
+[17-Dec-18 08:36 PM] Deleted User#0000
+MoMoM has been enabled on KMD notaries, there is just no chains that use it yet
+
+
+[17-Dec-18 08:36 PM] Deleted User#0000
+Well ... thats not exactly right .. the MoMoM deos not mean the chains a re fungible .. but it does enable cross chain contracts.
+
+
+[17-Dec-18 08:37 PM] Deleted User#0000
+any chains with ccid > 1 (so 2 to 100) are using it already.
+
+
+[17-Dec-18 08:38 PM] Deleted User#0000
+But they do not support migrate/import/export transactions.
+
+{Reactions}
+👍 
+
+[23-Jan-19 10:00 PM] smkhound#7640
+@Nick Bk (YAF.fy)  this post might explain migrations for you - http://rant.cryptocartography.io/tokens-without-borders-migration/
+
+It is basically a way to allow chains within the same cluster to be fungible. It only works if you have the migrations CC contract enabled on your asset chains, and the source/destination chain has the same ccid (i.e. are on the same cluster of chains).
+
+{Embed}
+http://rant.cryptocartography.io/tokens-without-borders-migration/
+Coins without Borders: Migration
+KMD Labs spent the last few months of 2018 testing cross chain migrations, a CryptoConditions smart contract example which acts to move coins from one asset chain to another within the same cluster. Testing has continued into 2019, with an upcoming bounty challenge competitio...
+https://images-ext-2.discordapp.net/external/aaTChLW4JkmuDBf1kg21oSKbbr61HMPeRlSqiPpqxt4/http/rant.cryptocartography.io/content/images/2019/01/le_alpi_1899.jpg
+
+{Reactions}
+🆒 (2) 
+
+[24-Jan-19 10:00 PM] Mylo#8306
+5% comes from UTXO existing.  Just the existence of having a UTXO with >10 KMD entitles it to 5% per year after approx 1 hour.    The UTXO when spent then claims this reward, it's part of the blockchain rules (consensus) which every node can see and verify.
+
+
+[16-May-19 01:43 AM] KomodoWorld#8282
+Is the dICO still usable or better wait for mm2.0 ?
+
+
+[16-May-19 01:50 AM] jorian#4555
+if you want to do a dico, we can arrange a dico
+
+
+[16-May-19 01:50 AM] jorian#4555
+it will be based on mm2.0
+
+
+[16-May-19 01:50 AM] jorian#4555
+i'm not sure if KMD team will do dicos in the future
+
+
+[16-May-19 01:54 AM] KomodoWorld#8282
+I'm just asking because there are 2 very interesting projects that could launch later this year (maybe) and they need wide distribution of coins, they seem perfect targets to propose to use dICO.  Unfortunately neither of them is Bitcoin-based, so I think they will need to wait for mm2.0 and a custom integration.
+
+
+[16-May-19 02:03 AM] KomodoWorld#8282
+Do you know if there been any data analysis about coin distribution with the 5 dICO that have been done? One of the dICO selling points was a wider distribution because whales can't buy most tokens at once. I think having data to back this claim would be very useful
+
+
+[17-May-19 11:51 AM] bartwr#6773
+@KomodoWorld All transaction data should be available in the blockchain of the 'dICO coin'. Check the blockchain explorer of this specific coin during the time of the dICO to get data that you can analyse.
+
+
+[17-May-19 11:53 AM] bartwr#6773
+Would be nice if there was a graphical tool of course, but I don't think it exists right now.
+
+
+[17-May-19 12:00 PM] bartwr#6773
+Also. Any team that launches a coin could help rewriting the dICO app, so that it's using the new mm2. It shouldn't be too difficult. (The mm2 is still in alpha right now. Later this year it is fully usable I believe).
+
+Here's the Github repo: https://github.com/particle4dev/dicoapp-e I could help if there're questions for customizing or rewriting to mm2
+
+{Embed}
+https://github.com/particle4dev/dicoapp-e
+particle4dev/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - particle4dev/dicoapp-e
+https://images-ext-1.discordapp.net/external/aoYFsE1Mstym_kQHATdrwByqGRZjypnRA7_QKcsOYCQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3245868
+
+
+[17-May-19 12:03 PM] KomodoWorld#8282
+it's a good idea, but extracting all that data manually takes a lot of time. I need to find if there are tools available
+
+
+[24-May-19 08:31 PM] Mylo#8306
+Somebody was asking a out mm2 whale resistance compared to mm1.
+
+Where it was a technical "thing" in mm1 it can also be restrictive in mm2 with a flag set of "max per swap per pubkey".
+
+Slightly different mechanism to perform resistance.  Can be gamed if a whale wanted to participate with 1000 instances perhaps.
+
+@KomodoWorld I think you asked a cpl weeks ago
+
+
+[22-Jun-19 01:27 AM] jl777c#5810
+it is highly resistant to the non-technical whale
+
+
+[22-Jun-19 01:27 AM] jl777c#5810
+but if a whale has technical skills too, well,  they can dominate any online sales process,but such techie-whales are very very rare
+
+
+[24-Jun-19 05:51 PM] allbits#5898
+The only one I think of is hollowman
+
+{Reactions}
+troll_compadre (2) 
+
+[15-Aug-19 11:13 PM] morningsun#2488
+I know this isn't really a dICO, but there's a swiss company hoping to run an ICO adhering to KYC regulation, and have a few thousand dollars to put into a good ICO dashboard. I want to support komodo/the community so if it's possible to do (not really decentralized), would anyone be willing to give a quote? 
+Here are the requirements;
+Presale of NFT indicating a set SuperNode, which will receive a % of bought back tokens quarterly.
+Main sale of regular currency.
+Competitive supernodes: quarterly top 10 holders are locked in for next quarter, receiving same benefits as set Supernodes.
+
+Their main application is built on HyperLedger, and the main use of the token will be purchase of their services. 
+
+If this is possible, please send any quote you have 😄 Thanks in advance, and I hope I can inject a bit of support to the Komodo community if possible. (Don't undersell yourself, and give as realistic a quote as possible).
+
+{Reactions}
+👍 (2) 
+
+[16-Aug-19 08:22 PM] NutellaLicka#4241
+Try @PTYX or @siu  they are KMD service providers, they may be able to help
+
+{Reactions}
+💯 (2) 
+
+==============================================================
+Exported 216 message(s)
+==============================================================

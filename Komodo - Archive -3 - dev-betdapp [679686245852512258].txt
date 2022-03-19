@@ -1,0 +1,878 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -3 / dev-betdapp
+Topic: ./komodod -ac_name=DORN -pubkey=<> -handle=<> -dexp2p=2 -ac_cc=2 -ac_supply=1000000 -ac_reward=100000000 -addnode=136.243.58.134
+==============================================================
+
+[19-Feb-20 05:57 AM] jl777c#5810 (pinned)
+this is related to subatomic, but now that we can have dedicated channels for dev topics without worry about it being archived, i made a new channel just for betdapp. it operates similarily but not exactly the same as subatomic.
+
+eventually this will use the EURK stablecoin, but we need to wait a bit before it is ready for that. in the meantime i made a chain just for this call DORN: -ac_name=DORN -ac_cc=2 -ac_supply=1000000 -ac_reward=100000000 -addnode=136.243.58.134
+
+the initial game will be a simple double or nothing game, you send in one bet, and get back double or nothing. for now it is working without channels, but it is just to test the state machine. by friday, i hope to have it using CC channels for realtime bets (5 to 10 seconds). the -dexp2p network to use is the BET chain, you can have it as a -nSPV=1 chain to avoid having to sync it.
+
+bob runs ./betdapp DORN "" DORN with the appropriate DORN<->DORN swap, use the same volA and volB, there isnt much error checking yet.
+alice runs ./betdapp DORN <id> <total>
+the <total> will be 1000x the betsize as a CC channel has max payments of 1000. so you will get 1000 bets, current the test just issues 10 bets and gets either 2x back via payments or 0x back via fullypaid
+
+{Reactions}
+🔥 (9) 👍 
+
+[19-Feb-20 06:18 AM] mrlynch#5735
+Pinned a message.
+
+
+[20-Feb-20 02:37 AM] jl777c#5810
+i have 777 DORN for anybody that wants to test
+
+
+[20-Feb-20 02:42 AM] gcharang#6833
+send me some RHHhhs58NUoMdW1FkSNC1ZUXBYL6ETY5yd
+
+
+[20-Feb-20 02:48 AM] gcharang#6833
+daemon output:
+```
+privkey for pubkey not found -> generate session specific privkey
+DEX_pubkey.(018f577f45069f118fcca16f803ebdb30a0cf14cc93f71c71b419c1b2c29bfe21e) sizeof DEX_globals 4059272
+
+pwalletMain.0x556a6e049a60 errors 0 DB_LOAD_OK.0
+```
+started the BET chain with 
+```
+./komodod -pubkey=02e52f06381bfde2cf95478e0dc4874aad183a27e5afc0d117c58a158b7c0ebd51 -ac_name=BET -ac_supply=999999 -addnode=95.213.238.98 -dexp2p=2 -nSPV=1
+```
+validateaddress says BET node owns the pubkey
+
+
+[20-Feb-20 02:53 AM] jl777c#5810
+you are using the latest jl777 branch?
+
+
+[20-Feb-20 02:53 AM] gcharang#6833
+yes
+
+
+[20-Feb-20 02:53 AM] jl777c#5810
+it should be ok, what does DEX_stats show?
+
+
+[20-Feb-20 02:54 AM] jl777c#5810
+pwalletMain.0x556a6e049a60 errors 0 DB_LOAD_OK.0
+that happens after the initial check, and until the DB_LOAD_OK, there is no wallet to check
+
+
+[20-Feb-20 02:54 AM] jl777c#5810
+so what i do is that after the wallet loads, i do a DEX_setpubkey internally. took a while to get all that sorted
+
+
+[20-Feb-20 02:55 AM] jl777c#5810
+one way to test for sure is to send a packet to any non-"inbox" tagA/tagB/<01 pubkey>
+
+
+[20-Feb-20 02:55 AM] jl777c#5810
+and see if it complains about wrong senderpub
+
+
+[20-Feb-20 02:55 AM] gcharang#6833
+```
+  "publishable_pubkey": "01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028",
+  "secpkey": "02e52f06381bfde2cf95478e0dc4874aad183a27e5afc0d117c58a158b7c0ebd51",
+  "recvaddr": "RHHhhs58NUoMdW1FkSNC1ZUXBYL6ETY5yd",
+```
+DEX_stats shows the correct pubkey+address
+
+
+[20-Feb-20 02:56 AM] gcharang#6833
+> send a packet to any non-"inbox" tagA/tagB/<01 pubkey>
+checking
+
+
+[20-Feb-20 02:56 AM] jl777c#5810
+sent DORN
+
+
+[20-Feb-20 02:56 AM] jl777c#5810
+using the same bid or ask script as with subatomic, bob node can create an orderbook entry
+
+
+[20-Feb-20 02:57 AM] jl777c#5810
+for now set volA and volB to be the same, and both tagA/tagB as DORN
+
+
+[20-Feb-20 02:57 AM] jl777c#5810
+no error checking yet, but it should do 10 payments and stop, interested in how long it takes
+
+
+[20-Feb-20 02:57 AM] gcharang#6833
+```
+DEX_broadcast "hello" 5 "BTC" "KMD" "01e28518858aa3515163a67deee2b19f0d30e4fa237f0aec255e4c94db0fe8d063" "0.1" "100"
+```
+says
+```
+"senderpub": "01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028",
+  "error": "wrong sender",
+```
+
+
+[20-Feb-20 02:58 AM] gcharang#6833
+received DORN
+
+
+[20-Feb-20 02:58 AM] jl777c#5810
+you said to send as 01e28518858aa3515163a67deee2b19f0d30e4fa237f0aec255e4c94db0fe8d063
+
+
+[20-Feb-20 02:58 AM] jl777c#5810
+why did you use that 01 pubkey?
+
+
+[20-Feb-20 02:59 AM] gcharang#6833
+sorry, was confused
+other than the daemon output, everything else is fine
+
+
+[20-Feb-20 03:00 AM] jl777c#5810
+an the deamon output is fine, the init sequence i did not want to change to make the daemon output
+
+{Reactions}
+👍 
+
+[20-Feb-20 03:04 AM] gcharang#6833
+ok, testing
+
+
+[20-Feb-20 03:14 AM] gcharang#6833
+@jl777c betdapp says
+```
+dpow_broadcast.(handles/) [ ] 02e52f06381bfde2cf95478e0dc4874aad183a27e5afc0d117c58a158b7c0ebd51 error.(-1)
+```
+repeatedly after the command for bob node `./betdapp DORN "" DORN`
+using the same pubkey to start  both DORN and BET chains
+
+
+[20-Feb-20 03:15 AM] jl777c#5810
+you launched the nodes with -handle=
+
+
+[20-Feb-20 03:16 AM] gcharang#6833
+no, will do
+
+
+[20-Feb-20 03:17 AM] gcharang#6833
+ok, bob looks good
+```
+./bet DEX_list 0 0 handles
+{
+  "result": "success",
+  "matches": [
+    {
+      "timestamp": 1582197435,
+      "id": 3147025472,
+      "hash": "07c43cb94bc65caeda96897ade2a421da3e6a11b5b439e1e0b1eaae5b0da215c",
+      "tagA": "handles",
+      "tagB": "gcharang_bob",
+      "pubkey": "01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028",
+      "payload": "d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad0289c48bcdbc9b456715fdacf61dd45fd1eefaffb37caa5060600000000000000000000000000000000f844451d70ec730dc2d389e77084d09dd66db55cbea313c67c65b90809421a63cbaa36d8b926da12b2fc4493846185eb36",
+      "hex": 1,
+      "decrypted": "02e52f06381bfde2cf95478e0dc4874aad183a27e5afc0d117c58a158b7c0ebd51",
+      "decryptedhex": 1,
+      "senderpub": "01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028",
+      "amountA": "0.00000000",
+      "amountB": "0.00000000",
+      "priority": 6,
+      "recvtime": 1582197435,
+      "cancelled": 0
+    }
+  ],
+  "tagA": "handles",
+  "tagB": "",
+  "pubkey": "",
+  "n": 1
+}
+```
+setting up alice
+
+
+[20-Feb-20 03:38 AM] CHMEX#0686
+gcharang how do I compile that dapp?
+
+
+[20-Feb-20 03:39 AM] jl777c#5810
+it is at the top of betdapp.c
+
+
+[20-Feb-20 03:40 AM] jl777c#5810
+gcc betdapp.c -lm
+
+
+[20-Feb-20 03:46 AM] gcharang#6833
+`gcc -o betdapp cc/dapps/betdapp.c -lm` running this from the src dir  gives the betdapp executable in teh src dir
+
+
+[20-Feb-20 03:46 AM] CHMEX#0686
+thanks looks like I did not have the c file ( i'm on jl777 branch ) all good now
+
+
+[20-Feb-20 03:48 AM] gcharang#6833
+my alice BET node is struggling to get peers
+
+
+[20-Feb-20 03:49 AM] jl777c#5810
+you did an addnode=<my node> ?
+
+
+[20-Feb-20 03:49 AM] jl777c#5810
+in the komodod
+
+
+[20-Feb-20 03:51 AM] gcharang#6833
+yes, that didn't help
+from debug.log:
+```
+2020-02-20 11:46:49 receive version message: /MagicBean:3.0.0beta1/: version 170009, blocks=757579, us=49.205.219.26:12533, peer=6
+2020-02-20 11:46:49 ProcessMessages(verack, 0 bytes) FAILED peer=6
+2020-02-20 11:49:46 receive version message: /MagicBean:3.0.0beta1/: version 170009, blocks=757585, us=49.205.219.26:12690, peer=7
+2020-02-20 11:49:46 ProcessMessages(verack, 0 bytes) FAILED peer=7
+```
+
+
+[20-Feb-20 03:51 AM] jl777c#5810
+do you have my node as a peer?
+
+
+[20-Feb-20 03:51 AM] jl777c#5810
+or does alice have bob node as a peer?
+
+
+[20-Feb-20 03:52 AM] gcharang#6833
+hmm, adding the bob node helped
+
+
+[20-Feb-20 04:00 AM] gcharang#6833
+ok, alice node is seeing the dexp2p datablobs
+published this order in the bob node
+```
+{
+      "timestamp": 1582198843,
+      "id": 281736288,
+      "hash": "0746af0ca154fdb2239a847743b716944b2415fd9275e9f5fe982a726f243d5a",
+      "tagA": "DORN",
+      "tagB": "DORN",
+      "pubkey": "01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028",
+      "payload": "d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028b896c87fea10b928c42e2163ef76df562b4e5172de12528100000000000000000000000000000000ba733ce73a593982abfc0cf1205f9ae0a18d39aaa780f13929988524b947c128234019d2eef9c84c25faa5562cf321e4c517ae",
+      "hex": 1,
+      "decrypted": "RHHhhs58NUoMdW1FkSNC1ZUXBYL6ETY5yd",
+      "decryptedhex": 0,
+      "senderpub": "01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028",
+      "amountA": "20.00000000",
+      "amountB": "20.00000000",
+      "priority": 5,
+      "recvtime": 1582199674,
+      "cancelled": 0
+    }
+```
+running `./betdapp DORN "" DORN` on bob node
+
+
+[20-Feb-20 04:01 AM] gcharang#6833
+running `./betdapp DORN 281736288 20000` on alice node
+
+
+[20-Feb-20 04:01 AM] jl777c#5810
+you dont have 20000 DORN
+
+
+[20-Feb-20 04:01 AM] jl777c#5810
+it is the total amount to put
+
+
+[20-Feb-20 04:01 AM] gcharang#6833
+oh, that is the total amount?
+
+
+[20-Feb-20 04:01 AM] gcharang#6833
+ok
+
+
+[20-Feb-20 04:01 AM] jl777c#5810
+1/1000 of total amount will be bet each time
+
+
+[20-Feb-20 04:02 AM] gcharang#6833
+ok alice node has 100 DORN
+running `./betdapp DORN 281736288 3`
+
+
+[20-Feb-20 04:02 AM] gcharang#6833
+should I be able to observe anything to see if it is working?
+
+
+[20-Feb-20 04:03 AM] jl777c#5810
+same type of messages should print on alice and bob nodes
+
+
+[20-Feb-20 04:03 AM] jl777c#5810
+as when doing a subatomic swap
+
+
+[20-Feb-20 04:04 AM] gcharang#6833
+there is only
+```
+start subatomic_loop iambob.1 3 -> DORN, 0 0 0
+```
+on  alice
+
+
+[20-Feb-20 04:04 AM] jl777c#5810
+you are running two bob nodes?
+
+
+[20-Feb-20 04:04 AM] gcharang#6833
+sorry
+```
+start subatomic_loop iambob.1 DORN -> DORN, 0 0 0
+```
+on bob
+
+
+[20-Feb-20 04:05 AM] jl777c#5810
+./betdapp DORN "" 281736288 3
+
+
+[20-Feb-20 04:05 AM] jl777c#5810
+for alice, you must be exactly precise
+
+
+[20-Feb-20 04:05 AM] SHossain#0007
+@jl777c can i please get some DORN for my bob here? `RW6gc3ssjUMjXKKWpyYayb2eRn6abuY9F3`
+
+
+[20-Feb-20 04:06 AM] gcharang#6833
+it started
+```
+subatomic_channel_alice (DORN/DORN) 281736288 281736288 with 3.00000000 300000000
+CHECK rel.DORN/DORN  openrequest 281736288 status.0 (RN727JeeiZ6NXic7PUKTCiHT1HvuBN4RDa/)
+checks
+281736288 openrequest.3257357120 -> (01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028)
+start subatomic_loop iambob.0 DORN -> DORN, 281736288 300000000 3257357120
+```
+
+
+[20-Feb-20 04:06 AM] gcharang#6833
+@SHossain I sent 200 DORN
+
+
+[20-Feb-20 04:06 AM] SHossain#0007
+Thanks
+
+
+[20-Feb-20 04:06 AM] jl777c#5810
+sent also
+
+
+[20-Feb-20 04:07 AM] jl777c#5810
+did it start doing more prints on bob side?
+
+
+[20-Feb-20 04:07 AM] jl777c#5810
+and then alice
+
+
+[20-Feb-20 04:07 AM] gcharang#6833
+> did it start doing more prints on bob side?
+no
+
+
+[20-Feb-20 04:07 AM] jl777c#5810
+no other prints?
+
+
+[20-Feb-20 04:07 AM] gcharang#6833
+no, the same
+```
+start subatomic_loop iambob.1 DORN -> DORN, 0 0 0
+```
+on bob
+
+
+[20-Feb-20 04:08 AM] jl777c#5810
+can bob node see the alice messages with DEX_get
+
+
+[20-Feb-20 04:09 AM] SHossain#0007
+for starters we need `DORN` chain launched normally and `BET` with `-nSPV=1` and `dexp2p=2`?
+
+{Reactions}
+👍 
+
+[20-Feb-20 04:09 AM] gcharang#6833
+```
+281736288 openrequest.3257357120 -> (01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028)
+```
+3257357120 is the id of alice request correct?
+
+
+[20-Feb-20 04:10 AM] jl777c#5810
+yes
+
+
+[20-Feb-20 04:10 AM] jl777c#5810
+01d88e81e12fd58098022d81ce4a13995d8c8b6ee526ed267fb2454f47a94ad028 is your bob 01pubkey
+
+
+[20-Feb-20 04:11 AM] gcharang#6833
+bob can't see 3257357120
+
+
+[20-Feb-20 04:11 AM] jl777c#5810
+that is the problem
+
+
+[20-Feb-20 04:11 AM] jl777c#5810
+is bob connected to my node?
+
+
+[20-Feb-20 04:12 AM] gcharang#6833
+this one: `136.243.58.134` correct?
+
+
+[20-Feb-20 04:12 AM] jl777c#5810
+yes
+
+
+[20-Feb-20 04:14 AM] gcharang#6833
+ok, something different happened after I restarted betdapp on alice after adding your node to BET chain on bob
+alice:
+```
+subatomic_channel_alice (DORN/DORN) 281736288 281736288 with 3.00000000 300000000
+initialized 0 messages, updated 1 out of total.1
+CHECK rel.DORN/DORN  openrequest 281736288 status.1 (RN727JeeiZ6NXic7PUKTCiHT1HvuBN4RDa/)
+```
+
+
+[20-Feb-20 04:16 AM] gcharang#6833
+let me restart the bob node properly
+
+
+[20-Feb-20 04:17 AM] jl777c#5810
+each "swap" starts a state machine, that actually lives across instances of betdapp
+
+
+[20-Feb-20 04:18 AM] jl777c#5810
+so it remembered that 281736288 already did an openrequest and currently to simplify error cases, unless it is brand new state.0, it wont do anything more
+
+
+[20-Feb-20 04:18 AM] jl777c#5810
+this is to avoid two different instances processing the same state machine, which would create a mess
+
+{Reactions}
+👍 
+
+[20-Feb-20 04:24 AM] gcharang#6833
+not sure whats going on. alice is seeing bob's messages but bob is not seeing alice's
+bob has `136.243.58.134` and `[2a01:4f8:212:1985::2]` as peers
+alice only has `136.243.58.134` as peer
+I am using a home computer as alice but didn't see a similar problem before while testing dexp2p
+
+
+[20-Feb-20 04:25 AM] jl777c#5810
+seems you have connectivity issues...
+
+
+[20-Feb-20 04:26 AM] jl777c#5810
+what if you use BET chain without -nSPV=1
+
+
+[20-Feb-20 04:26 AM] jl777c#5810
+it doesnt matter if it is still syncing, it should still work during sync
+
+
+[20-Feb-20 04:26 AM] jl777c#5810
+i am thinking we might be better off going with a dedicated messaging chain
+
+
+[20-Feb-20 04:27 AM] jl777c#5810
+since we are all running DORN chain, i will use that chain for the -dexp2p in the next version
+
+{Reactions}
+👍 
+
+[20-Feb-20 04:31 AM] gcharang#6833
+restarted both bob and alice without nSPV=1, same issue
+
+
+[20-Feb-20 04:32 AM] gcharang#6833
+maybe we have too few dexp2p nodes online?
+
+
+[20-Feb-20 04:32 AM] jl777c#5810
+ok, change betdapp.c line 18: DEXP2P_CHAIN to be "DORN"
+
+
+[20-Feb-20 04:33 AM] jl777c#5810
+this way the BET chain wont be used for dexp2p, the DORN chain will
+
+
+[20-Feb-20 04:33 AM] jl777c#5810
+of course add -dexp2p=2 when launching DORN chain
+
+{Reactions}
+👍 
+
+[20-Feb-20 04:34 AM] jl777c#5810
+and add -pubkey and -handle!
+
+{Reactions}
+👍 
+
+[20-Feb-20 04:39 AM] gcharang#6833
+haaa
+its working
+finally
+
+
+[20-Feb-20 04:40 AM] SHossain#0007
+are we going to use only DORN chain now?
+
+
+[20-Feb-20 04:41 AM] gcharang#6833
+on alice: https://paste.ubuntu.com/p/Y3xXBBKXnQ/
+
+{Reactions}
+shexy 🎉 🚀 🔥 
+
+[20-Feb-20 04:41 AM] jl777c#5810
+yes, i guess for current betdapp, it will be just the DORN chain that is needed
+
+{Reactions}
+👍 
+
+[20-Feb-20 04:41 AM] gcharang#6833
+> only DORN chain now
+yes
+start it with handle dexp2p pubkey
+
+{Reactions}
+👍 
+
+[20-Feb-20 04:41 AM] SHossain#0007
+ok. restarting everything
+
+
+[20-Feb-20 04:41 AM] jl777c#5810
+good! so it was connectivity issue, seems it is best to use a dedicated chain for the comms
+
+
+[20-Feb-20 04:41 AM] jl777c#5810
+@gcharang add a time to the alice cli
+
+
+[20-Feb-20 04:42 AM] jl777c#5810
+how many seconds to do the 10 payments
+
+{Reactions}
+👍 
+
+[20-Feb-20 04:42 AM] jl777c#5810
+once we get a couple of data points, i can move onto using actual channels to see how fast that goes
+
+
+[20-Feb-20 04:44 AM] gcharang#6833
+timed alice
+```
+Command exited with non-zero status 255
+1.47user 0.84system 0:57.23elapsed 4%CPU (0avgtext+0avgdata 6040maxresident)k
+0inputs+3712outputs (0major+140360minor)pagefaults 0swaps
+```
+
+
+[20-Feb-20 04:44 AM] jl777c#5810
+this is for a successful run of 10 payments?
+
+
+[20-Feb-20 04:45 AM] gcharang#6833
+yes, it finished with
+```
+alice 3671407424 300000000 1994577696 finished
+```
+and there were paymentid[0] to paymentid[9] 2224127392
+and no errors
+
+
+[20-Feb-20 04:45 AM] jl777c#5810
+in 2 seconds??
+
+
+[20-Feb-20 04:46 AM] jl777c#5810
+or is that 1 minute 47 seconds
+
+
+[20-Feb-20 04:46 AM] gcharang#6833
+another
+```
+Command exited with non-zero status 255
+1.46user 0.71system 0:58.47elapsed 3%CPU (0avgtext+0avgdata 6040maxresident)k
+0inputs+3952outputs (0major+146758minor)pagefaults 0swaps
+```
+
+
+[20-Feb-20 04:46 AM] gcharang#6833
+it is definitely more than 2 seconds
+
+
+[20-Feb-20 04:46 AM] gcharang#6833
+this is my first time using time
+
+
+[20-Feb-20 04:46 AM] gcharang#6833
+will check what it means
+
+
+[20-Feb-20 04:48 AM] jl777c#5810
+i think it means 58.47 seconds elapsed time
+
+
+[20-Feb-20 04:54 AM] SHossain#0007
+what is the command to publish bob bets?
+
+
+[20-Feb-20 04:55 AM] jl777c#5810
+same as subatomic bids
+
+
+[20-Feb-20 04:55 AM] jl777c#5810
+and asks
+
+
+[20-Feb-20 04:55 AM] jl777c#5810
+just that both coins are DORN
+
+
+[20-Feb-20 04:55 AM] jl777c#5810
+and the volA and volB amounts need to be the same
+
+
+[20-Feb-20 04:55 AM] jl777c#5810
+it is the max bet amount
+
+
+[20-Feb-20 04:55 AM] SHossain#0007
+thanks. chain setup is ready. will publish bets now
+
+
+[20-Feb-20 04:56 AM] gcharang#6833
+> i think it means 58.47 seconds elapsed time
+yes, this is the real time that passed
+
+
+[20-Feb-20 04:56 AM] jl777c#5810
+ok, i plan for channels based to be a bit faster
+
+
+[20-Feb-20 04:58 AM] gcharang#6833
+I am making a guide to get started with testing betdapp
+
+
+[20-Feb-20 05:07 AM] SHossain#0007
+bet published by bob
+```
+./betask 100 100
+{
+  "timestamp": 1582203587,
+  "id": 944108064,
+  "hash": "07225f84f3a251bcf4d0c914a37d3a2fed57ba4a78706967dbb5b23af7b2f22f",
+  "tagA": "DORN",
+  "tagB": "DORN",
+  "pubkey": "01b5196e83119eba1f0b2242e2f361f069efe3875982f0d82a232e993088f98f2a",
+  "payload": "b5196e83119eba1f0b2242e2f361f069efe3875982f0d82a232e993088f98f2a41a81ccd37e79b000646a1f98a130b03655874d7148c7a1a0000000000000000000000000000000042a5ea7921b85dcd8bedfb3a401f8bf1d61b49b77b9dc16411420776ff94ffba6c9aef81c4fb06922f4f0efa34d426848cb8f5",
+  "hex": 1,
+  "decrypted": "RW6gc3ssjUMjXKKWpyYayb2eRn6abuY9F3",
+  "decryptedhex": 0,
+  "senderpub": "01b5196e83119eba1f0b2242e2f361f069efe3875982f0d82a232e993088f98f2a",
+  "amountA": "100.00000000",
+  "amountB": "100.00000000",
+  "priority": 5,
+  "recvtime": 1582203587,
+  "cancelled": 0
+}
+```
+
+
+[20-Feb-20 05:07 AM] SHossain#0007
+started the loop on bob node
+```
+./betdapp DORN "" DORN
+start subatomic_loop iambob.1 DORN -> DORN, 0 0 0
+```
+
+
+[20-Feb-20 05:07 AM] SHossain#0007
+how alice bets?
+
+
+[20-Feb-20 05:08 AM] SHossain#0007
+`time ./betdapp DORN 944108064 1` starts bob loop on alice node
+
+
+[20-Feb-20 05:08 AM] gcharang#6833
+./betdapp DORN "" 944108064  5
+
+
+[20-Feb-20 05:08 AM] SHossain#0007
+thanks
+
+
+[20-Feb-20 05:09 AM] SHossain#0007
+yes, bet started
+
+
+[20-Feb-20 05:10 AM] SHossain#0007
+```
+real    0m47.051s
+user    0m0.889s
+sys    0m0.335s
+```
+
+
+[20-Feb-20 05:11 AM] jl777c#5810
+ok so we have two data points, both about a minute. i will now move forward to channels based. so betdapp will be broken until i post that it is working
+
+{Reactions}
+👍 (2) 
+
+[20-Feb-20 05:11 AM] SHossain#0007
+bob: https://paste.ubuntu.com/p/FN3pNNZTcB/
+alice: https://paste.ubuntu.com/p/KXZ6cHx83y/
+
+
+[20-Feb-20 05:22 AM] SHossain#0007
+2nd bet also around same time
+```
+real    0m46.136s
+user    0m0.945s
+sys    0m0.308s
+```
+
+
+[20-Feb-20 05:42 AM] jl777c#5810
+about to break betdapp with using actual channels CC
+
+
+[20-Feb-20 06:29 AM] jl777c#5810
+ok, its updated, but until i get a new update for channels CC, it will be generating errors. i am getting the same performance as before, which is 5 seconds per bet. will still need more enhancements and debugging with the updated CC channels, but it seems the structure is mostly in place
+
+
+[20-Feb-20 06:34 AM] SHossain#0007
+updated
+
+
+[20-Feb-20 06:35 AM] SHossain#0007
+now there are `channelsopen` messages with HEX
+
+
+[20-Feb-20 06:35 AM] gcharang#6833 (pinned)
+<https://docs.komodoplatform.com/basic-docs/smart-chains/smart-chain-tutorials/betdapp.html>
+initial guide
+
+{Reactions}
+💯 (5) 👍 🔥 
+
+[20-Feb-20 06:35 AM] gcharang#6833
+Pinned a message.
+
+
+[20-Feb-20 06:35 AM] Tylor zkFS#8280
+can/will there be multiple bets / subatomic sends at  the same time to same bob/alice?
+
+
+[20-Feb-20 06:36 AM] gcharang#6833
+yes
+
+
+[20-Feb-20 06:36 AM] SHossain#0007
+```
+real    1m3.816s
+user    0m0.870s
+sys    0m0.246s
+```
+
+
+[20-Feb-20 06:36 AM] SHossain#0007
+with latest
+
+
+[20-Feb-20 06:36 AM] Tylor zkFS#8280
+so 100x$1 = $100 at 10 seconds?
+
+{Reactions}
+labs 
+
+[20-Feb-20 06:37 AM] SHossain#0007
+10x
+
+
+[20-Feb-20 06:37 AM] Tylor zkFS#8280
+$10 current conditions in 10 seconds
+
+
+[20-Feb-20 06:37 AM] SHossain#0007
+and yes, as jl777 said, it's generating errors
+
+
+[20-Feb-20 06:38 AM] Tylor zkFS#8280
+ok
+
+
+[20-Feb-20 06:39 AM] gcharang#6833
+similar performance as before
+```
+0:57.99 real,    1.43 user,    0.64 sys
+```
+
+
+[21-Feb-20 01:13 AM] CrisF#3405
+Great work with the docs, @gcharang !  :treasure:
+
+{Reactions}
+awthanks (2) 💯 (3) labs1 
+
+[21-Feb-20 02:15 AM] jl777c#5810
+we got 50 notaries using the notarizer, so i will switch back to that for now. still waiting on a new CC channels release, which will be next week
+
+{Reactions}
+👍 (5) 
+
+[13-Mar-20 08:15 PM] Mylo#8306
+can the DORN chain be updated so zkparams need not be downloaded using chain param -ac_public=1 with this PR https://github.com/jl777/komodo/pull/1819 sometime this month?
+i'd like to build a docker image for redistribution and testing
+
+{Embed}
+https://github.com/jl777/komodo/pull/1819
+Do not load zksnark params on ac_public chains by leto · Pull Reque...
+Params are loaded during app init before any block data is loaded, so I was not able to look for a recent unix timestamp in the first block.
+If necessary, this check could be deferred until block 1...
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[13-Mar-20 08:18 PM] Mylo#8306
+@CrisF read https://ikomodo.com/hakan-aygun-disable-zcash-params-story-komodo/
+
+{Reactions}
+👍 
+
+[13-Mar-20 10:49 PM] jl777c#5810
+its merged, but you will need to make a new chain as changing ac_public will hardfork the chain
+
+
+[14-Mar-20 12:47 AM] Mylo#8306
+Ok. I’ll read channel history. Cheers!
+
+
+[16-Dec-21 07:08 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is there anything updates to this project? Did it go private?
+
+
+==============================================================
+Exported 158 message(s)
+==============================================================

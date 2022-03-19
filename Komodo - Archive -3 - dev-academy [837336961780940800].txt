@@ -1,0 +1,282 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -3 / dev-academy
+Topic: Komodo Developer Academy aims to create a path for aspiring blockchain developers to hone their skills by getting hands-on experience in the blockchain sector. By the community for the community.
+==============================================================
+
+[29-Apr-21 11:47 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/837336961780940800/837399830888316978/Komodo_Academy_Launch.jpg
+
+
+[29-Apr-21 11:48 AM] Audo#5667 (pinned)
+**What is Komodo Developer Academy?**
+
+*Community of Learners*
+You will be part of an active community of people who want to learn about development and blockchain. Join KDA and get to know your peers. Together we empower each other.
+ 
+*Open Developer Curriculum*
+You will have access to a curriculum that points you towards online resources and tools that help you advance on your journey to learning blockchain development.
+ 
+*Junior Developer Program*
+Once you are ready for the next challenge, you can apply to Komodo's Junior Developer program in which you can work directly alongside the Komodo developer team.
+
+Read More: https://blog.komodoplatform.com/en/introducing-komodo-developer-academy/
+
+{Reactions}
+KMD (6) 🔥 (6) 📈 (2) 👌 AtomicDEX (2) 🪜 
+
+[29-Apr-21 11:52 AM] Delton#2644
+If you want to receive updates about the Komodo Developer Academy, be sure to sign up here. https://mailchi.mp/komodoplatform/komodo-developer-academy
+
+
+[29-Apr-21 11:55 AM] Delton#2644 (pinned)
+I'm also looking for technical people to help produce content for the open curriculum! We're looking to cover a variety of topics - from getting started as a blockchain developer to in-depth tutorials. If you're interested in contributing, please send me a message.
+
+{Reactions}
+📧 (3) AtomicDEX (3) 📈 (2) 
+
+[04-May-21 01:15 PM] ca333#0333 (pinned)
+As part of the Komodo Developer Academy, I'm starting up the Junior Developer Program to find new talent. If you already have some knowledge in development and are interested in getting real-world dev experience in the blockchain space, send your resume to ca333@komodoplatform.com and jobs@komodoplatform.com with the subject line "Junior Developer Program".
+
+{Reactions}
+🔥 (7) 📈 (3) 👌 (3) AtomicDEX (5) 
+
+[06-May-21 09:39 AM] Audo#5667
+Shutout to @dudezmobi, @Pangz & @paco for working on the first version of 'open developer curriculum'  and being part of setting up the entire academy effort! 🙇‍♂️
+
+{Reactions}
+🍻 (4) 🚀 (4) treasure (3) KMD (3) KomodoCore (3) 
+
+[06-May-21 11:13 AM] dewlinedew#8713
+@ca333  is the academy learn at your own pace?
+
+
+[06-May-21 11:13 AM] dewlinedew#8713
+Or is their some minimum time commitment?
+
+
+[06-May-21 05:16 PM] sems#7713
+are we gonna wait too long  on waitlist?
+
+
+[07-May-21 02:22 PM] sems#7713
+Guess, no one knows. lol
+
+
+[08-May-21 04:47 AM] smkhound#7640
+It's a busy period this time of year with KMD and the upcoming new NN season - I'd expect hings here to pick up pace after that.
+
+
+[08-May-21 09:38 AM] Audo#5667
+The junior dev program that ca333 runs is a full hands-on experience where you work directly with ca333 & others.
+
+The Komodo Academy has many other components as well, and those are yet to be launched. The other aspects are more like 'learn at your own pace' just as @dewlinedew was thinking.
+
+{Reactions}
+❤️ (2) 
+
+[11-May-21 03:03 PM] sems#7713
+I’d like to join the program
+
+
+[12-May-21 10:22 PM] Mylo#8306
+I am also interested, possibly as a scrum master (I am cerified).
+
+
+[12-May-21 10:24 PM] Mylo#8306
+Doing c++ dev I am also interested to port some of my experiments to crypto conditions, but a self learn timeframe is better for my current workload.
+
+
+[12-May-21 10:24 PM] Mylo#8306
+Thanks
+
+
+[17-May-21 10:25 AM] Biz#0842
+I'd also be happy to help with developer academy in whatever ways I can do so
+
+
+[28-May-21 06:08 AM] LostDreamer#4024
+hey guys @Artakush told me that you've got open spots in the academy
+I'm very interested in hearing more about this
+
+
+[28-May-21 06:10 AM] Artakush#4285
+I can tell this much about @LostDreamer . Creative senior dev, with round 20 y exp profesionally 🦾
+
+
+[28-May-21 06:12 AM] LostDreamer#4024
+(but probably most of those in the wrong field 😉 web development) mostly intermediate systems joining together different systems via API's
+
+
+[29-May-21 10:14 AM] 𝓓𝓻 𝓚𝓾𝓼𝓱 |🦄| Komodian#3853
+I'm on an arbitrage bot, anyway and I came across it, is that about what you want to do ?
+https://github.com/Kucoin-academy
+
+
+[02-Jun-21 11:15 PM] Mylo#8306
+@here like to invite someone to lead a dev environment setup for c++ development with komodo so i can learn what i need to get started. happy to pay a bounty and that i can record it and put on yt.
+
+{Reactions}
+👆 
+
+[02-Jun-21 11:16 PM] Mylo#8306
+or if there is already a zcash/bitcoin dev env best practice to get familiar with
+
+
+[22-Sep-21 03:55 AM] cryptosammy#3587
+@Mylo just to setup a dev environment then follow build the daemon by source, look at the flappybird gaming sdk tutorial and adex build from source. Havent touched a C++ file from KMD, so not much help there.
+
+
+[22-Sep-21 05:33 AM] Mylo#8306
+thanks.
+ building from sources no probs.
+i'm interested in IDE, debugger options.
+i guess it's a matter of starting with regtest mode and tinkering.
+
+
+[22-Sep-21 06:58 AM] cryptosammy#3587
+@Mylo your IDE is all about taste. I like Visual Studio Code. I build using powershell but not that I know it, just using arrow up
+
+
+[22-Sep-21 08:27 AM] Mylo#8306
+i used visual studio for c++ 21 years ago and eclipse/netbeans in java for a few years.
+both had nice debuggers and some profiling, which was useful for the env (multi-threaded networking)
+thanks for the chat 👍  i'll have a look whats on yt for coin dev
+
+
+[22-Sep-21 12:22 PM] Slyris#2880
+You can just use CLion it's the best C++ ide out there
+
+
+[22-Sep-21 05:09 PM] thekaiky#4398
+Hello, how is everything?
+
+I'm a tech student and I'm 15 years old, I'm creating a Zcash fork to study cryptocurrencies, would you know how I could generate the genesis hash?
+
+Thanks for listening
+
+{Reactions}
+komodopog googlederp 
+
+[22-Sep-21 05:27 PM] thekaiky#4398
+I already tried this tutorial but it went wrong :/
+
+
+[22-Sep-21 05:27 PM] thekaiky#4398
+https://github.com/sebastianst/GenesisZ
+
+
+[22-Sep-21 10:47 PM] NutellaLicka#4241
+You should try out Komodo Smartchains, far easier/better option in my opinion.
+You can find everything you'd need to start, here: https://developers.komodoplatform.com/
+
+{Embed}
+https://developers.komodoplatform.com/
+Komodo Documentation
+Documentation for developers building on the Komodo Platform.
+https://images-ext-2.discordapp.net/external/JRuH6_LDrjOGd6HbRckiIc9OBFcyJGE1c7DjCukFvtA/https/developers.komodoplatform.com/start-here-pics/Dev_Docs_Introduction_small.png
+
+
+[23-Sep-21 03:26 AM] thekaiky#4398
+I didn't find anything about the genesis block = /
+
+
+[23-Sep-21 03:52 AM] cryptosammy#3587
+@thekaiky its the first mined block, so you need the 2nd host for it to be mined.
+
+
+[23-Sep-21 04:35 AM] thekaiky#4398
+but i want to generate a new block with equihash for my blockchain, do you know how i can do this?
+
+
+[23-Sep-21 06:51 AM] Mylo#8306
+ok it looks good. i use pycharm community here & there
+
+
+[23-Sep-21 06:51 AM] Mylo#8306
+thanks for suggestion mate 🙏
+
+
+[23-Sep-21 04:45 PM] NutellaLicka#4241
+All you have to do is setup the chain and use the 'setgenerate true` command and you will create a 'genesis' block and start mining
+
+
+[23-Sep-21 11:37 PM] thekaiky#4398
+but then what do I do with the genesis block that is already configured in chainparams?
+
+
+[23-Sep-21 11:41 PM] thekaiky#4398
+assert(consensus.hashGenesisBlock == uint256S("0x027e3758c3a65b12aa1046462b486d0a63bfa1beae327897f56c5cfb7daaae71"));
+        assert(genesis.hashMerkleRoot == uint256S("0x4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b"));
+
+
+[23-Sep-21 11:41 PM] thekaiky#4398
+in this line
+
+
+[24-Sep-21 02:14 AM] NutellaLicka#4241
+Please read the documentation, you don't have to edit any of that!
+
+
+[24-Sep-21 02:14 AM] NutellaLicka#4241
+You create your own independent blockchain without touching any of that. Simply run the commands
+
+
+[24-Sep-21 04:03 AM] thekaiky#4398
+can you give me the documentation link please?
+
+
+[24-Sep-21 04:05 AM] thekaiky#4398
+but then I'll create a token, let it go, thank you so much for your help
+
+
+[24-Sep-21 08:00 AM] ComputerGenie#7004
+all chains derived from the komodo source share the same GenesisBlock and MerkleRoot
+this is what allows for both cross-chain interoperability and chain independence
+
+
+[24-Sep-21 01:41 PM] thekaiky#4398
+oh yeah, got it, but there's no problem?
+
+
+[24-Sep-21 01:46 PM] thekaiky#4398
+so how does komodo have the genesis block different from zcash? how was this block generated?
+
+
+[24-Sep-21 05:08 PM] NutellaLicka#4241
+https://discord.com/channels/412898016371015680/837336961780940800/890474403215851580
+
+
+[24-Sep-21 05:17 PM] thekaiky#4398
+thank
+
+
+[24-Sep-21 05:17 PM] thekaiky#4398
+so how does komodo have the genesis block different from zcash? how was this block generated?
+
+
+[24-Sep-21 06:15 PM] NutellaLicka#4241
+I'm not sure sorry, maybe someone here knows
+
+
+[24-Sep-21 11:11 PM] thekaiky#4398
+ok, sorry for the inconvenience
+
+
+[24-Sep-21 11:35 PM] NutellaLicka#4241
+No inconvenience at all, I apologise I don't know!
+
+
+[13-Jan-22 05:41 PM] grewalsatinder#9653
+It's a genesis block from Bitcoin if I remember correctly
+
+
+[13-Jan-22 05:41 PM] grewalsatinder#9653
+James used genesis block info from Bitcoin which applies to kmd and all of it's smart chains
+
+
+==============================================================
+Exported 56 message(s)
+==============================================================

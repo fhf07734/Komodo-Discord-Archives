@@ -1,0 +1,1155 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -3 / dev-ops
+Topic: Organise creation/hosting of Komodo application containers and environment containers.
+==============================================================
+
+[18-Nov-18 03:41 AM] SHossain#0007
+@ns408
+
+
+[18-Nov-18 03:41 AM] ns408#8889
+@patchkez
+
+
+[18-Nov-18 03:42 AM] ns408#8889
+@Mylo inviting you here since @Deleted User mentioned that you're interested in containerisation as well.
+
+
+[18-Nov-18 03:46 AM] ns408#8889
+@SHossain are you able to set up a title for this channel please "Conversations related to containerisation (docker, kubernetes)"
+
+
+[18-Nov-18 03:46 AM] SHossain#0007
+done
+
+
+[18-Nov-18 03:46 AM] ns408#8889
+thanks bud!
+
+
+[18-Nov-18 03:52 AM] ns408#8889
+@patchkez @Mylo @Deleted User 
+
+I'm trying to answer the following questions and open to your input:
+- Do we want to use a publicly accessible trello board for managing the tasks related to containerisation: https://trello.com/b/lrL1g3Es
+_I'm open to using git project if we have majority suggesting to go with it.
+- Which repo would we like to focus on for this work?
+- How can we be transparent about the number of hours each of us has each weeks to work on different tasks
+- I'm trying to think about the higher level vision of what we want to achieve as part of this exercise. Eg. We want to be able to quickly launch semi baked containers on both local machines for testing and in production on schedulers like k8 or openshift.
+- Then, it would be worthwhile to think about what strategy we want to undertake. Eg. Initially, we may just look at the work that @Deleted User and @patchkez did to containerise things and see what's remaining if we were to put that work to use in a new test environment. And we can define tasks from there.
+
+Also, I'm very open to suggestions and changes that can actually help us stay motivated, consistent and get *actual results* - not just for ourselves but for any new person who comes alone for the ride.
+
+{Embed}
+https://trello.com/b/lrL1g3Es
+Trello
+Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.
+
+
+[18-Nov-18 03:53 AM] ns408#8889
+@Deleted User @Decker 
+Just an FYI with this stuff - _going forward, I have every intention to containerise some (if not everything) of the amazing stuff that you guys have created so I'd just like to keep you wonderful people in the loop_
+
+{Reactions}
+👌 
+
+[18-Nov-18 03:59 AM] Deleted User#0000
++1 for trello ... it increased my productivity on staked tasks no end.
+
+{Reactions}
+👍 
+
+[18-Nov-18 03:59 AM] ns408#8889
+Why do we need containerisation:
+
+- On komodoplatform, we run a whole range of chains which get compiled, configured and deployed differently. Each of these may have different dependencies and it gets harder to test things *in isoltation* when we deploy all of these on a single server. We  would like to handle this problem through containerisation where self container docker images can be used to launch containers which work exactly the same irrespective of underlying operating system (_and it's version_).
+- Compilation takes a while and occasionally we see 3rd party packages being missed. We would like to keep dockerhub images which have compiled version that can just be used without any fuss.
+- Local testing on your laptops gets easier because you can just work with a container, make changes and then get it deployed onto your production environment.
+
+
+[18-Nov-18 04:00 AM] ns408#8889
+@SHossain Is there a way some of us can have admin rights over this channel. If not, it's cool. Then I'm gonna have to bug you now and then for requests such as:
+- could you please pin the above post so that people can read why we're wanting to do this.
+
+
+[18-Nov-18 04:05 AM] patchkez#5349
+@ns408 I am fine with the name for this channel. I am also fine with trello, used some other tracking tools in the past, but think trello is fine
+
+
+[18-Nov-18 04:06 AM] patchkez#5349
+what do you mean by using git? you meant to use github issues to track work?
+
+
+[18-Nov-18 04:08 AM] patchkez#5349
+all coins which are run on NN are containerized. But improvement is needed here. This is up-to-date repo and I run this on my NN https://github.com/patchkez/kmdplatform
+
+{Embed}
+https://github.com/patchkez/kmdplatform
+patchkez/kmdplatform
+Containers for Komodo Nodes. Contribute to patchkez/kmdplatform development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/Yj37lqto-rbkJWA_0tItRqvV2y7ZXrXFPpB3tQXRKqM/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/11808967
+
+
+[18-Nov-18 04:10 AM] patchkez#5349
+I made few poor decisions in how I use all containers together, @Deleted User made it better. e.g. I have to re-build iguana image when I want to add new coin
+
+
+[18-Nov-18 04:11 AM] patchkez#5349
+IMHO we should first create plan/vision how our platform should look like, and from that create individual tasks
+
+
+[18-Nov-18 04:11 AM] patchkez#5349
+I have plan already in my head for longer time, I can write it down somewhere and we can discuss it
+
+
+[18-Nov-18 04:12 AM] patchkez#5349
+or what steps do you guys propose?
+
+
+[18-Nov-18 04:18 AM] ns408#8889
+@patchkez could you please send dm me your trello user so I can add it to the board.
+cc @Deleted User
+
+
+[18-Nov-18 04:20 AM] ns408#8889
+>what do you mean by using git? you meant to use github issues to track work?
+
+Yes, that's what - but let's just start with trello and we'll see how things go.
+
+>all coins which are run on NN are containerized. But improvement is needed here. This is up-to-date repo and I run this on my NN https://github.com/patchkez/kmdplatform
+
+Great! We can always improve and even refactor things if needed. Great to have a really good, tested starting point though - thanks to you.
+
+>I made few poor decisions in how I use all containers together, @Deleted User made it better. e.g. I have to re-build iguana image when I want to add new coin
+>I made few poor decisions in how I use all containers together, @Deleted User made it better. e.g. I have to re-build iguana image when I want to add new coin
+
+That's cool. We'll learn from it and refactor things to make it better.
+
+
+>IMHO we should first create plan/vision how our platform should look like, and from that create individual tasks
+I have plan already in my head for longer time, I can write it down somewhere and we can discuss it
+or what steps do you guys propose?
+
+Absolutely, let's just start populating a few cards. I'm just gonna pop a card on the board so that you can put your plan in there and we can then look at either adding "docs" directory in your git repo later.
+
+{Embed}
+https://github.com/patchkez/kmdplatform
+patchkez/kmdplatform
+Containers for Komodo Nodes. Contribute to patchkez/kmdplatform development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/Yj37lqto-rbkJWA_0tItRqvV2y7ZXrXFPpB3tQXRKqM/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/11808967
+
+
+[18-Nov-18 04:28 AM] patchkez#5349
+@ns408 my trello user is 'patchkez'
+
+{Reactions}
+👍 
+
+[18-Nov-18 05:32 AM] Mylo#8306
+Great thanks will catch up later this afternoon !
+
+{Reactions}
+👍 
+
+[18-Nov-18 05:49 AM] ns408#8889
+@patchkez  
+- https://github.com/patchkez/kmdplatform/pull/4
+- https://trello.com/c/tkJfnBxx/1-platform-vision
+
+{Embed}
+https://github.com/patchkez/kmdplatform/pull/4
+add docs and update README.md by ns408 · Pull Request #4 · patch...
+also removed extra whitespace characters.
+https://images-ext-1.discordapp.net/external/-iWbg8SfFPMTULPw7X7BJJGmUNjpiup4j-4SJmannI4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/7683823
+
+{Embed}
+https://trello.com/c/tkJfnBxx
+Platform vision
+Let's try putting enough details about our vision in 
+https://github.com/patchkez/kmdplatform/pull/4
+
+
+[18-Nov-18 09:38 AM] FishyGuts#5085
+@ns408 You could have Trello with Public and private boards.  We do that for Pirate.
+
+
+[18-Nov-18 09:46 AM] ComputerGenie#7004
+Since this chan is here, I'm making a simple request....
+Someone, please, create a docker tutorial for existing linux users that:
+a) assumes the use has no feken clue how to use docker
+b) wants to create from scratch
+c) isn't using Win, Mac as host
+d) isn't running Visual Studio Code
+
+
+[18-Nov-18 09:49 AM] ComputerGenie#7004
+In other words, I'm on linux and would like to create a docker Debian 9.6 "thingy-ma-bob" that has all of the assetchains, Agama, BarterDEX, and other Komodo related items; dafuq do I do?
+
+
+[18-Nov-18 09:57 AM] Alright#0419
+@ComputerGenie this will let you run as many nodes as you need in containers 
+`https://github.com/alrighttt/dockersegid`
+
+
+[18-Nov-18 09:58 AM] Alright#0419
+not exactly what you're looking for, but a good start
+
+
+[18-Nov-18 09:59 AM] ComputerGenie#7004
+yeah, I need the "before step 1"
+as in not using an "official" image, but one I can create the environment of
+
+
+[18-Nov-18 10:00 AM] Alright#0419
+that shows you how to create an image for komodod
+
+
+[18-Nov-18 10:01 AM] Alright#0419
+https://github.com/Alrighttt/dockersegid/blob/master/Dockerfile
+this is what you'd edit if you needed to change something
+
+{Embed}
+https://github.com/Alrighttt/dockersegid/blob/master/Dockerfile
+Alrighttt/dockersegid
+[DEPRECATED]The purpose of this is to semi-automate the process of staking coins on all 64 segids on a komodod ac_staked chain. This process is neccesary to secure a newly created ac_staked chain. ...
+https://images-ext-2.discordapp.net/external/-Cj6-CMDPEXUsmpPCG_WSOt1mbR_ph_wzx_DxXDK6o4/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/36680730
+
+
+[18-Nov-18 10:02 AM] Alright#0419
+just jump in, I did that in like a week with 0 docker experience
+
+
+[18-Nov-18 10:02 AM] ComputerGenie#7004
+`FROM ubuntu:16.04` != `FROM scratch`
+
+
+[18-Nov-18 10:03 AM] ComputerGenie#7004
+I don't want to go from A to someone else's B
+I want to go from A to my B
+
+
+[18-Nov-18 10:03 AM] Alright#0419
+may as well write machine code then
+
+
+[18-Nov-18 10:05 AM] ComputerGenie#7004
+So, you're telling me that if tomorrow Cononical releases Ubuntu 20 in testing, there's no way for me to use Ubuntu 20 in docker until Cononical releases an initial start point?
+
+
+[18-Nov-18 10:06 AM] Alright#0419
+do you use libraries in any of your code?
+
+
+[18-Nov-18 10:06 AM] ComputerGenie#7004
+of course
+
+
+[18-Nov-18 10:07 AM] Alright#0419
+so you start from "someone else's B"?
+
+
+[18-Nov-18 10:07 AM] ComputerGenie#7004
+I don't need to wait for them to image the newest update to use it, I can just update and use it
+
+
+[18-Nov-18 10:09 AM] ComputerGenie#7004
+If the only way to create a docker of an OS is some "official" company has to create an "original" docker file, then how dafuq do **they** do it (if it can't be done)?
+
+
+[18-Nov-18 10:09 AM] ComputerGenie#7004
+Let's say I want to use "MyLinuxOS", how dafuq do I start?
+
+
+[18-Nov-18 10:11 AM] ComputerGenie#7004
+`FROM MyLinuxOS:1.1` and docker magically knows what MyLinuxOS is?
+
+
+[18-Nov-18 10:21 AM] mrlynch#5735
+@ComputerGenie https://docs.docker.com/engine/reference/commandline/import/ there ya go
+
+{Embed}
+https://docs.docker.com/engine/reference/commandline/import
+docker import
+Description Import the contents from a tarball to create a filesystem image Usage docker import [OPTIONS] file|URL|- [REPOSITORY[:TAG]] Options Name, shorthand Default Description --change , -c Apply Dockerfile instruction to...
+https://images-ext-1.discordapp.net/external/PCdDm6urnPkiAPvp45QDT_2Y3DllavgTjTRnm7_yg9w/https/docs.docker.com/favicons/docs%402x.ico
+
+
+[18-Nov-18 10:22 AM] mrlynch#5735
+grab yourself your fav linux iso ... import, run, do whatever you need to do inside, then commit
+
+
+[18-Nov-18 10:22 AM] mrlynch#5735
+and you can create your own image in your dockerhub
+
+
+[18-Nov-18 10:23 AM] mrlynch#5735
+or .tar.gz sorrz
+
+
+[18-Nov-18 10:23 AM] mrlynch#5735
+😁
+
+
+[18-Nov-18 10:23 AM] ComputerGenie#7004
+one cannot import something out of a tarball without the thing being put into the tarball
+
+
+[18-Nov-18 10:23 AM] mrlynch#5735
+put it in the tar ball then :trollface:
+
+
+[18-Nov-18 10:24 AM] ComputerGenie#7004
+and how dafuq do I do that?
+
+
+[18-Nov-18 10:24 AM] mrlynch#5735
+or do you want to create your own flavor of linux?
+
+
+[18-Nov-18 10:24 AM] mrlynch#5735
+you can take a tar backup of your system for example
+
+
+[18-Nov-18 10:24 AM] mrlynch#5735
+might have some issues with drivers though 🤔
+
+
+[18-Nov-18 10:25 AM] mrlynch#5735
+depends on what you want to achieve though???
+
+
+[18-Nov-18 10:25 AM] mrlynch#5735
+what do you want to create  from scratch?
+
+
+[18-Nov-18 10:25 AM] ComputerGenie#7004
+I have "MyLinuxOS 1.1"...
+how dafuq do I use docker and how dafuq does guyB use what I make?
+That's the tutorial I'm asking for 👆🏽
+
+
+[18-Nov-18 10:26 AM] mrlynch#5735
+hold on
+
+
+[18-Nov-18 10:26 AM] mrlynch#5735
+actually... can you take an image of your MyLinuxOS 1.1 ?
+
+
+[18-Nov-18 10:27 AM] mrlynch#5735
+because the way to do what you want is the actual docker import cmd
+
+
+[18-Nov-18 10:33 AM] mrlynch#5735
+@ComputerGenie https://docs.docker.com/develop/develop-images/baseimages/#create-a-full-image-using-tar
+
+{Embed}
+https://docs.docker.com/develop/develop-images/baseimages
+Create a base image
+Most Dockerfiles start from a parent image. If you need to completely control the contents of your image, you might need to create a base image instead. Here’s the difference:...
+https://images-ext-1.discordapp.net/external/PCdDm6urnPkiAPvp45QDT_2Y3DllavgTjTRnm7_yg9w/https/docs.docker.com/favicons/docs%402x.ico
+
+
+[18-Nov-18 10:33 AM] mrlynch#5735
+as i said, basically you need to take a tar image of your working MyLinuxOS 1.1 and then import -> that creates a base image
+
+
+[18-Nov-18 10:34 AM] mrlynch#5735
+after that you can build it, and preferably add it to dockerhub
+
+
+[18-Nov-18 10:34 AM] mrlynch#5735
+that way when you write Dockerfiles you do FROM ComputerGenie/MyLinuxOS:v1.1
+
+
+[18-Nov-18 10:34 AM] mrlynch#5735
+or something like that
+
+
+[18-Nov-18 10:37 AM] ComputerGenie#7004
+#ApageIsn'tAturorial
+
+
+[18-Nov-18 10:37 AM] mrlynch#5735
+lol
+
+
+[18-Nov-18 10:37 AM] mrlynch#5735
+i'll try and put up something if time permits
+
+
+[18-Nov-18 01:26 PM] Mylo#8306
+There’s a good book called “Docker For Developers” if you can get your hands on it.
+
+
+[18-Nov-18 04:55 PM] Alright#0419
+You haven't heard of CONTAINERISATION?
+
+{Reactions}
+trollface 
+
+[18-Nov-18 05:36 PM] Deleted User#0000
+*starts containerisation chain with a mining pool and explorer*
+
+
+[18-Nov-18 11:53 PM] FishyGuts#5085
+*Lists on DigitalPrice.io*
+
+
+[19-Nov-18 04:56 AM] TonyL#3577
+*dumped his CONTAINERISATION bag on someone since markets are bleeding*
+
+{Reactions}
+🤣 (2) 😂 (3) 😭 (2) 
+
+[19-Nov-18 05:13 AM] Mylo#8306
+_generates a CONTAINERIZATION whitepaper for US-english i10n, seeks funding_
+
+{Reactions}
+😂 (3) 
+
+[19-Nov-18 05:38 AM] ns408#8889
+@patchkez gentle reminder :)
+- https://github.com/patchkez/kmdplatform/pull/4
+- https://trello.com/c/tkJfnBxx/1-platform-vision
+
+{Embed}
+https://github.com/patchkez/kmdplatform/pull/4
+add docs and update README.md by ns408 · Pull Request #4 · patch...
+also removed extra whitespace characters.
+https://images-ext-1.discordapp.net/external/-iWbg8SfFPMTULPw7X7BJJGmUNjpiup4j-4SJmannI4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/7683823
+
+{Embed}
+https://trello.com/c/tkJfnBxx
+Platform vision
+Let's try putting enough details about our vision in 
+https://github.com/patchkez/kmdplatform/pull/4
+
+
+[19-Nov-18 05:43 AM] ns408#8889
+For others (_look at this channel_), I will try to capture some of the requirements / concerns / improvements being mentioned here at least a few times in a week.
+It would be great if those raising them can just draft those as issues - we can then take things from there.
+Please do note that at the moment, we're really trying to focus on containerisation from Notary Node perspective but in the process, we'll be either listing or creating artefacts that can be used by others for testing or launching these komodoplatform (and thirdparty) resources quickly.
+
+At the moment, we're working from @patchkez 's repository so submitting an issue request there will be helpful.
+Also, we're tracking our work through and currently there's nothing on there but in the next week or so, we'll have more cards that will reflect our direction: https://trello.com/b/lrL1g3Es/containerisation
+
+{Embed}
+https://trello.com/b/lrL1g3Es/containerisation
+Trello
+Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.
+
+
+[19-Nov-18 05:45 AM] ns408#8889
+@Deleted User 
+@ComputerGenie 
+>Shouldn't this be under TECHNOLOGY instead of ECOSYSTEM (3RD PARTY)?
+
+I asked this question originally but this got created under 3rd party - which isn't too bad. Once we prove our intent and have something to show for, we can then ask for this channel to exist under core, or technology or where ever contributors find it to be suitable later on.
+
+
+[19-Nov-18 11:14 AM] ns408#8889
+Ah cool! So, I'm guessing you had the super power to move it?
+
+
+[19-Nov-18 11:29 AM] ns408#8889
+ha ha ha..
+
+{Reactions}
+😂 (2) 
+
+[20-Nov-18 12:21 AM] patchkez#5349
+@ns408 made review of your PR, looks good
+
+{Reactions}
+👍 
+
+[20-Nov-18 12:22 AM] patchkez#5349
+@ns408 I am writing doc which describes how my current NN solution works, I will submit PR once I am done with it
+
+{Reactions}
+👍 
+
+[20-Nov-18 09:24 AM] Mylo#8306
+just a heads up the tech tuesday is mainly about docker, because i'm using it for howtos with dapp creation
+
+{Reactions}
+👍 
+
+[20-Nov-18 11:51 AM] Mylo#8306
+container heads!   https://komodoplatform.com/tech-tuesday-update-11/
+
+{Embed}
+https://komodoplatform.com/tech-tuesday-update-11
+Tech Tuesday Update #11: A Summary Of Last Week's Development - Komodo
+Komodo Platform is starting a weekly briefing on the progress the Komodo Dev Team is making. It's called Tech Tuesday Update. Here's another update!
+https://images-ext-1.discordapp.net/external/5mM-oiRXPZqjXgvgfZbbafJQt6TUjYRR-YWovzFebXc/https/komodoplatform.com/wp-content/uploads/2018/09/tech-tuesday-update.jpg
+
+
+[20-Nov-18 01:29 PM] patchkez#5349
+@Mylo  nice article! Good idea to use Makefile  for shortcuts.
+
+
+[20-Nov-18 01:40 PM] Mylo#8306
+Haha I know you read to the bottom then!  Thanks
+
+
+[20-Nov-18 02:01 PM] patchkez#5349
+@ns408 your PR https://github.com/patchkez/kmdplatform/pull/4 looks good to me and can be merged if there are no objections from other engineers.
+
+{Embed}
+https://github.com/patchkez/kmdplatform/pull/4
+add docs and update README.md by ns408 · Pull Request #4 · patch...
+also removed extra whitespace characters.
+https://images-ext-1.discordapp.net/external/-iWbg8SfFPMTULPw7X7BJJGmUNjpiup4j-4SJmannI4/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/7683823
+
+{Reactions}
+👍 
+
+[20-Nov-18 03:53 PM] patchkez#5349
+added new trello cards and new PR with detailed description how current solution works, everyone feel free to comment
+
+{Reactions}
+👍 
+
+[12-Dec-18 11:19 PM] psylox#9876
+👍😋
+
+
+[13-Dec-18 12:02 AM] Mylo#8306
+anyone familiar with alpine?
+just copying files and trying to execute them doesn't work.  these are the portable komodod.
+```
+....dockerfile....
+COPY komodod /komodod
+COPY komodo-cli /komodo-cli
+```
+Running it from inside container
+```
+bash-4.4# ./komodod 
+bash: ./komodod: No such file or directory
+bash-4.4# ls -l
+total 177776
+drwxr-xr-x    1 root     root          4096 Dec 12 14:32 bin
+drwxr-xr-x    5 root     root           360 Dec 13 08:01 dev
+-rwxrwxr-x    1 root     root            27 Dec 12 14:15 entrypoint.sh
+drwxr-xr-x    1 root     root          4096 Dec 13 08:01 etc
+drwxr-xr-x    2 root     root          4096 Sep 11 20:23 home
+-rwxr-xr-x    1 root     root       8783760 Dec 12 14:26 komodo-cli
+-rwxr-xr-x    1 root     root     173194416 Dec 12 14:26 komodod
+drwxr-xr-x    1 root     root          4096 Sep 11 20:23 lib
+drwxr-xr-x    5 root     root          4096 Sep 11 20:23 media
+drwxr-xr-x    2 root     root          4096 Sep 11 20:23 mnt
+dr-xr-xr-x  235 root     root             0 Dec 13 08:01 proc
+drwx------    2 root     root          4096 Sep 11 20:23 root
+drwxr-xr-x    2 root     root          4096 Sep 11 20:23 run
+drwxr-xr-x    2 root     root          4096 Sep 11 20:23 sbin
+drwxr-xr-x    2 root     root          4096 Sep 11 20:23 srv
+dr-xr-xr-x   13 root     root             0 Dec 13 08:01 sys
+drwxrwxrwt    2 root     root          4096 Sep 11 20:23 tmp
+drwxr-xr-x    1 root     root          4096 Dec 12 14:32 usr
+drwxr-xr-x    1 root     root          4096 Sep 11 20:23 var
+bash-4.4# ./komodo-cli getinfo
+bash: ./komodo-cli: No such file or directory
+```
+
+
+[13-Dec-18 04:40 AM] gcharang#6833
+There won't even be git in there. The only benefit from alpine afaik is that it is very light weight. For KMD purposes ubuntu 16.04 or 18.04 as a base will be better I think
+
+
+[13-Dec-18 05:38 PM] Mylo#8306
+Ok going back to Ubuntu thx
+
+
+[13-Dec-18 05:40 PM] Mylo#8306
+Still handy for a nodejs app I think.  The alpine packaging seems pretty straight forward however, once the base Ubuntu layer is on user machine, the d/l and storage is already a “sunk cost”
+
+
+[13-Dec-18 05:48 PM] Deleted User#0000
+you could get it to build, but it wouldnt be easy
+
+
+[13-Dec-18 05:48 PM] Deleted User#0000
+I had komodo building on Arch a few versions ago, but now it just errors out like crazy again. it seems to be mostly newer GCC that complains more than older versions.
+
+
+[13-Dec-18 05:49 PM] Deleted User#0000
+Best to stick with whatever the devs are using, so I just use 16.04 server VM that has all deps, and copy it. only a 10GB image, and you can copy it anywhere.
+
+
+[13-Dec-18 05:51 PM] Mylo#8306
+Yes agree.   The benefits are lost with any time lost to things that have been solved or are not a problem elsewhere.
+
+
+[16-Dec-18 09:29 PM] smellycouch#3071
+@Deleted User   you can still do it, you just need to add some returns to functions that don't have them right now
+
+
+[16-Dec-18 09:30 PM] Deleted User#0000
+Yeah james fixed all those with cipi a while abck, but the verus merge made a heap of them again.
+
+
+[07-Jan-19 05:14 AM] Mylo#8306
+i've always deferred learning about docker-compose because i never understood the benefits of going too deep into config/file formats....but one look at this and it makes it obvious
+https://composerize.com/
+
+
+[07-Jan-19 05:15 AM] Mylo#8306
+i haven't run through all my recipes, but i like what it'll do for my memory!
+
+
+[07-Jan-19 05:17 AM] Deleted User#0000
+scaletest stuff was impossible without docker-compose
+
+
+[14-Jan-19 05:10 AM] siu#3920
+i just noticed there is no official komodo repo for docker hub.
+
+
+[14-Jan-19 05:12 AM] jorian#4555
+just yesterday i found out that Emmanuel is the owner of https://hub.docker.com/u/kmdplatform
+
+
+[14-Jan-19 05:13 AM] siu#3920
+yes, that is the nearest we are to a official repo
+
+
+[14-Jan-19 05:13 AM] siu#3920
+but there is none with the official tag
+
+
+[14-Jan-19 05:16 AM] siu#3920
+im playing around with docker :p
+
+
+[15-Jan-19 07:13 PM] Mylo#8306
+There is a dockerfile in kmd src also I have a cpl different but the most optimised is a 250MB image at https://hub.docker.com/u/imylomylo using the releases binary
+
+
+[15-Jan-19 07:15 PM] Mylo#8306
+This is the best one imo for size.  I’ll be using it for all documentation in devportal.  Will post recipe online, it will need one further optimization for official release with the binary release of komodod/Komodo-cli from the release catalogue to provide a json file of the sha256 of those files so someone can be sure when they build their own from binary, rather than src.
+
+
+[15-Jan-19 07:16 PM] Mylo#8306
+Src builds in docker are >1.5GB
+
+
+[15-Jan-19 07:24 PM] Deleted User#0000
+The scaletest container is tiny
+
+
+[15-Jan-19 07:24 PM] Deleted User#0000
+from source.... You need to delete heaps of crap
+
+
+[15-Jan-19 07:25 PM] Deleted User#0000
+https://github.com/blackjok3rtt/scaletest_containers/blob/master/komodod/Dockerfile-minimal
+Somehting like that
+
+{Embed}
+https://github.com/blackjok3rtt/scaletest_containers/blob/master/komodod/Dockerfile-minimal
+blackjok3rtt/scaletest_containers
+Contribute to blackjok3rtt/scaletest_containers development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/H9TDr69kM7mmxGBcENY3FInyORgkC6up-3NZ7sRUihU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/30971146
+
+
+[15-Jan-19 09:37 PM] Mylo#8306
+interesting, i'll try it out - cheers
+
+
+[28-Jan-19 01:28 AM] Mylo#8306
+hmmmmm, my containers from sprout to sapling seem to have gone from 2GB to 5GB.
+
+
+[28-Jan-19 01:29 AM] Mylo#8306
+on ubuntu18
+
+
+[28-Jan-19 01:38 AM] Mylo#8306
+yeah at runtime i have zcash-params ro.  will check my build.
+
+
+[28-Jan-19 01:38 AM] Mylo#8306
+shared
+
+
+[28-Jan-19 01:38 AM] Mylo#8306
+thx
+
+
+[28-Jan-19 02:00 AM] Mylo#8306
+@Deleted User can you build container without the keys?
+
+
+[28-Jan-19 02:00 AM] Mylo#8306
+build komodo
+
+
+[28-Jan-19 02:19 AM] Mylo#8306
+ok,  "initialize" with a rw volume, then after that re-use that same volume ro.   annoying but it's like that for a reason!!
+
+
+[28-Jan-19 03:45 AM] Mylo#8306
+i'm building kmd like i used to, for a time i used the binaries only and mounted a docker volume ro, which was really lean.  but building it, i guess i just have to mount an empty volume on first build rw.
+
+
+[28-Jan-19 03:45 AM] Mylo#8306
+for zcash-params.   my localhost has zcash params but i'm making some recipes for ppl new to blockchain
+
+{Reactions}
+🆒 
+
+[21-Mar-19 05:22 AM] smkhound#7640
+@Mylo have you got a recent repo for this?
+
+
+[21-Mar-19 07:58 PM] Mylo#8306
+no, but i have an updated recipe on a server i can push - have other tasks atm, so expect on weekend.
+
+
+[22-Mar-19 01:36 AM] smkhound#7640
+no worries and thanks, pls let me know when ready to go. I'm new to docker but keen to wrap my head around it to make testing CCs which are multinode from within a single node.
+
+{Reactions}
+👍 
+
+[26-Mar-19 04:10 AM] Monetashi#8770
+Hi I just rand the docker build command using the main repository and it fails.
+
+
+[26-Mar-19 04:11 AM] Monetashi#8770
+The command '/bin/sh -c cd /komodo &&     ./autogen.sh &&     ./configure --with-incompatible-bdb --with-gui || true &&     ./zcutil/build.sh -j$(nproc)' returned a non-zero code: 137
+
+
+[26-Mar-19 04:12 AM] Monetashi#8770
+Does someone have a pointer to a working Dockerfile to build from source, preferably with a lean production stage?
+
+
+[26-Mar-19 04:12 AM] gcharang#6833
+@Deleted User ^
+
+
+[26-Mar-19 04:12 AM] gcharang#6833
+https://github.com/imylomylo/docker-komodod this should help
+
+{Embed}
+https://github.com/imylomylo/docker-komodod
+imylomylo/docker-komodod
+Contribute to imylomylo/docker-komodod development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[26-Mar-19 04:13 AM] Monetashi#8770
+@gcharang thanks
+
+
+[15-Apr-19 02:11 PM] Greer#0666
+I'm trying to build on alpine.  Looks like zcash made some changes to the source a couple of years ago to make it possible.  With komodo I'm getting an issue with librustzcash.  cargo cannot be found and there is no option to build without-rust as there was in zcash.
+Has anyone managed to build in alpine?
+
+
+[16-Apr-19 01:52 AM] Mylo#8306
+no i gave up with alpine.  not much advantage compared to ubuntu
+
+
+[17-Apr-19 06:21 PM] Greer#0666
+Its tiny in comparison so much quicker to fire up an image from dockerhub, but alas, gave up too.  Zcash got it working.
+
+
+[17-Apr-19 08:39 PM] Greer#0666
+debian:buster-slim did the trick 👍
+
+{Reactions}
+👍 
+
+[08-May-19 10:34 AM] Bongistan#2965
+https://github.com/awb99/mykomodo
+
+{Embed}
+https://github.com/awb99/mykomodo
+awb99/mykomodo
+tests with komodo chain. Contribute to awb99/mykomodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ehqy4FKKSHpborN7_6neOKSK2Ztjf7suGfSghbjbj_w/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/10854682
+
+
+[08-May-19 10:34 AM] Bongistan#2965
+gents
+
+
+[08-May-19 10:35 AM] Bongistan#2965
+I was searching for proper docker images to run komodo
+
+
+[08-May-19 10:35 AM] Bongistan#2965
+and to be honest I was quite disappointed.
+
+
+[08-May-19 10:35 AM] Bongistan#2965
+most of the docker images for komodo were not working.
+
+
+[08-May-19 10:35 AM] Bongistan#2965
+so I did put something together.
+
+
+[08-May-19 10:35 AM] Bongistan#2965
+my idea is to start up two dockerd images via docker-compose
+
+
+[08-May-19 10:36 AM] Bongistan#2965
+cool @Deleted User
+
+
+[08-May-19 10:38 AM] Bongistan#2965
+https://github.com/emmnx/kmdplatform/tree/master/komodod
+
+{Embed}
+https://github.com/emmnx/kmdplatform/tree/master/komodod
+emmnx/kmdplatform
+Containers for Komodo Nodes. Contribute to emmnx/kmdplatform development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/dpZ4yJTLCgvmhLhTOwFloye_yXwMx4GDxQ4YuqJ_FQI/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/8750682
+
+
+[08-May-19 10:38 AM] Bongistan#2965
+is it this link?
+
+
+[08-May-19 10:46 AM] Bongistan#2965
+thanks!
+
+{Reactions}
+👍 
+
+[08-May-19 10:47 AM] Bongistan#2965
+The image I  did is quite similar.
+
+
+[08-May-19 10:47 AM] Bongistan#2965
+However I am trying to run multiple of this images
+
+
+[08-May-19 10:47 AM] Bongistan#2965
+because I think I need to run two komodod to launch my own chain.
+
+
+[08-May-19 10:49 AM] Bongistan#2965
+I actually download the zcash params when I build the docker image.
+
+
+[08-May-19 10:49 AM] Bongistan#2965
+yes it does
+
+
+[08-May-19 10:50 AM] Bongistan#2965
+that is a good optimization.
+
+
+[08-May-19 10:51 AM] Bongistan#2965
+But this is too early for me.
+
+
+[08-May-19 10:51 AM] Bongistan#2965
+Right now I try to start my own chain,
+
+
+[08-May-19 10:51 AM] Bongistan#2965
+and then do some transactions via cli
+
+
+[08-May-19 10:51 AM] Bongistan#2965
+I am somehow struggeling there.
+
+
+[08-May-19 10:51 AM] Deleted User#0000
+you can use -testnode=1 so you can test params and start chains with 1 node only. 😃
+
+
+[08-May-19 10:52 AM] Deleted User#0000
+might only be in jl777 branch though
+
+
+[08-May-19 10:52 AM] Bongistan#2965
+the jl777 branch is the dev branch
+
+
+[08-May-19 10:52 AM] Bongistan#2965
+right?
+
+
+[08-May-19 10:52 AM] Bongistan#2965
+it is a little confusing as normally I would look for a dev tag
+
+
+[08-May-19 10:53 AM] Bongistan#2965
+but as I understand it jl777 is dev repo,
+
+
+[08-May-19 10:53 AM] Bongistan#2965
+and then komodo has the release repo
+
+
+[08-May-19 10:53 AM] Bongistan#2965
+I see
+
+
+[08-May-19 10:53 AM] Bongistan#2965
+thanks!
+
+
+[08-May-19 10:54 AM] Bongistan#2965
+the addnode
+
+
+[08-May-19 10:55 AM] Bongistan#2965
+they communicate on the port specified in port=
+
+
+[08-May-19 10:55 AM] Bongistan#2965
+I want to create 10000 unique assets for a start.
+
+
+[08-May-19 10:55 AM] Bongistan#2965
+so I guess I have to tell the komodod to start 10000 chains?
+
+
+[08-May-19 10:57 AM] Bongistan#2965
+I want to track ownership of multiple unique items.
+
+
+[08-May-19 10:59 AM] Bongistan#2965
+no  problem.
+
+
+[08-May-19 10:59 AM] Bongistan#2965
+I will figure that out
+
+
+[08-May-19 10:59 AM] Bongistan#2965
+haha
+
+
+[08-May-19 10:59 AM] Bongistan#2965
+or not
+
+
+[08-May-19 10:59 AM] Bongistan#2965
+😃
+
+
+[08-May-19 11:00 AM] Deleted User#0000
+Ive done 128 or 256 on a very big AWS instance with docker for scale test. 10,000 needs crazy amounts of cpus
+
+
+[08-May-19 11:00 AM] Deleted User#0000
+good luck 😃
+
+{Reactions}
+💯 
+
+[08-May-19 11:03 AM] Bongistan#2965
+can I pass the asset chain parameter
+
+
+[08-May-19 11:03 AM] Bongistan#2965
+into the komodod config file?
+
+
+[08-May-19 11:03 AM] Bongistan#2965
+cat coin.conf
+addnode=144.76.94.38
+addnode=178.63.69.164
+addnode=5.9.102.210
+addnode=5.9.122.241
+addnode=78.47.196.146
+addnode=88.198.65.74
+addnode=89.248.166.91
+port=13001
+rpcallowip=127.0.0.1
+rpcpassword=set-a-password
+rpcport=13000
+rpcuser=coinrpc
+txindex=1
+ac_name=BONGO
+ac_supply=9999
+ac_sapling=555555555555
+
+
+[08-May-19 11:05 AM] Deleted User#0000
+I think that actually works yes
+
+
+[09-May-19 06:25 AM] gcharang#6833
+@Bongistan 
+https://docs.komodoplatform.com/assetchains/create-asset-chain-single-node.html
+
+here's a way to use a single node to create an asset chain
+
+{Embed}
+https://docs.komodoplatform.com/assetchains/create-asset-chain-single-node.html
+Create and test an Asset Chain using a Single Node | Komodo Docume...
+Documentation for developers building on Komodo
+
+
+[24-Jun-19 07:42 AM] Mylo#8306
+does anyone here use a docker GUI mgmt like rancher.io  or equivalent?
+
+
+[24-Jun-19 07:43 AM] Mylo#8306
+does not have to be production, just dev/testing/experiment.
+
+
+[07-Jul-19 06:01 PM] Greer#0666
+@Mylo I played with https://www.portainer.io/ a while back was impressed.  Dont use it though, was curious so tried it.
+
+
+[07-Jul-19 09:21 PM] Mylo#8306
+thanks i'll check it out on the next docker tutorials work
+
+
+[01-Jan-20 07:39 AM] phm87#7395
+https://pythonclock.org/
+
+{Embed}
+https://pythonclock.org/
+Python 2.7 Countdown
+Python 2.7 will retire in 2020. Learn more and see the countdown here.
+
+
+[10-Feb-21 04:52 AM] Cryptoon#3362
+how do I find out its location?
+
+
+[10-Feb-21 05:27 AM] gcharang#6833
+https://www.ultratools.com/tools/ipv6InfoResult?ipAddress=+2a02%3A1812%3A2526%3A6c00%3A583%3Ac7fb%3A6d56%3A2803
+
+{Embed}
+https://www.ultratools.com/tools/ipv6InfoResult?ipAddress=+2a02%3A1812%3A2526%3A6c00%3A583%3Ac7fb%3A6d56%3A2803
+IPv6 Address Lookup Tool | UltraTools
+The IPv6 lookup tool from UltraTools provides WHOIS information, ASN information, expanded and compressed IPv6 address information.
+
+
+[10-Feb-21 05:44 AM] Cryptoon#3362
+hmm thx
+
+
+[10-Feb-21 05:44 AM] Cryptoon#3362
+but no geo location it seems
+
+
+[10-Feb-21 05:49 AM] Cryptoon#3362
+gonna have to contact internet provider to get to know the address
+
+
+[10-Feb-21 05:54 AM] andy_hauser#0965
+belgium
+
+
+[10-Feb-21 05:55 AM] cipi#4502
+the geo stuff is of course not reliable, never was... it shows the location of the provider that reserved the IP address
+```
+address:        Telenet Operaties N.V.
+address:        Liersesteenweg 4
+address:        B-2800 Mechelen
+address:        Belgium
+```
+you could try a `traceroute` and guess the location from the other IPs
+
+
+[10-Feb-21 05:56 AM] Cryptoon#3362
+I know whose ip adress it is, just got to prove it, would be easy if it could just give the person's home address :p
+
+
+[10-Feb-21 05:58 AM] andy_hauser#0965
+that won't really work by IP alone, the closest next hop router might give coords though
+
+
+[10-Feb-21 05:59 AM] andy_hauser#0965
+in javascript you can get a good guess from the browser
+
+
+[10-Feb-21 05:59 AM] andy_hauser#0965
+that usually suprises people
+
+
+[10-Feb-21 06:00 AM] Cryptoon#3362
+100kmd bounty if someone could narrow it down to the village or nearest city that is not Mechelen where Telenet (internet provider) is located
+
+
+[10-Feb-21 06:06 AM] andy_hauser#0965
+Zele, Flanders, Belgium
+
+
+[10-Feb-21 06:16 AM] Cryptoon#3362
+any printout on how you got there?
+
+
+[10-Feb-21 06:17 AM] Cryptoon#3362
+it's 2 villages away to where my target address is :p
+
+
+[10-Feb-21 06:17 AM] Cryptoon#3362
+here's half already
+
+
+[10-Feb-21 06:17 AM] Cryptoon#3362
+!kmdtip @andy_hauser 50
+
+
+[10-Feb-21 06:17 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Cannot tip with entered amount.
+
+
+[10-Feb-21 06:18 AM] Cryptoon#3362
+ffs no dpow conf yet 😄
+
+
+[10-Feb-21 06:19 AM] andy_hauser#0965
+😄
+
+
+[10-Feb-21 06:27 AM] Cryptoon#3362
+waiting for tipbot to accept my deposit
+
+
+[10-Feb-21 06:28 AM] Cryptoon#3362
+need a dpow conf 😦
+
+
+[10-Feb-21 06:28 AM] Cryptoon#3362
+any way to specify it even more @andy_hauser
+
+
+[10-Feb-21 06:28 AM] Cryptoon#3362
+and is there a printout you can send me for my lawyer to use in a cease and desist?
+
+
+[10-Feb-21 06:35 AM] Cryptoon#3362
+!kmdtip @andy_hauser 50
+
+
+[10-Feb-21 06:35 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+@Cryptoon (Cryptoon#3362)
+You tipped @andy_hauser **50 KMD**
+
+
+[11-Feb-21 02:11 PM] Deleted User#0000
+hello all.. KMD is an awesome project... i love the video tutorial on their webiste especially on interoporability
+anyone know how a dapp can work which requires a lot of user data.. moreso user images
+also integrate a fiat payment gateway
+
+
+[12-Feb-21 04:19 AM] Cryptoon#3362
+hey, best to ask in #💻┃dev-general
+
+
+==============================================================
+Exported 216 message(s)
+==============================================================

@@ -1,0 +1,2099 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -3 / dev-sahipsiz
+==============================================================
+
+[27-Feb-20 01:31 AM] jl777c#5810
+@B. Gültekin Çetiner @Paro @hakan aygun @TonyL @SHossain
+
+
+[27-Feb-20 01:33 AM] jl777c#5810 (pinned)
+this channels is for SAHIPSIZ -dexp2p network development. the goal is to be able to freely broadcast 5 minute video clips to all "subscribers". probably there wont be any coins needed for this usecase, but i will generate 1 million coins just in case, so we can have them setaside. due to the highly variable bandwidth and computer speeds of all the nodes at scale, i think it is best to use the file publish and subscribe method. the file sizes to test are 100 MB, 200MB, 300MB and we can see how big a file we can transfer reliably
+
+
+[27-Feb-20 01:36 AM] jl777c#5810
+i imagine most all users will be using windows, with a few using mac. so we would need an end user installer for windows and osx that get the SAHIPSIZ -dexp2p chain running. then there will be a few special pubkeys that will have a broadcast ability, so some way to specify a file to broadcast. then the rest of the nodes need a way to see what files have been published and to obtain that file. so the GUI should be quite simple. we will assume that once a user has a file on their computer they will be able to use a video player to view it
+
+
+[27-Feb-20 01:36 AM] jl777c#5810
+i think we have all the core tech needed to support this and since we arent using the streaming, it should just work as long as the file isnt too big
+
+{Reactions}
+👍 (6) 
+
+[27-Feb-20 01:38 AM] jl777c#5810
+hakan aygun is a famous journalist in turkey: https://twitter.com/hakan_aygun?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+
+{Embed}
+https://twitter.com/hakan_aygun?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+hakan aygun (@hakan_aygun)
+YOUTUBE KANALIMA ABONE OLURSANIZ SEVİNİRİM: https://www.youtube.com/channel/UC5l4FL91Be5kdTv Journalist, Analizlerim temenni değil tarafsız gözle gördüklerimdir
+Tweets
+128993
+Followers
+146560
+https://images-ext-1.discordapp.net/external/xCSVNv84c_EEaZTQVKiXpfuOu6X0sacFF5HB3Bdpzm8/https/pbs.twimg.com/profile_images/976733207944146944/0YxiomMv_normal.jpg
+Twitter
+
+
+[27-Feb-20 01:39 AM] jl777c#5810
+once we have an end user installer available, he will help recruit 100+ testers to verify the p2p network scales to that level and if it does, we can keep increasing the network size. also, he might be able to obtain several high performance servers that can be -addnode= in the commandline
+
+
+[27-Feb-20 01:40 AM] jl777c#5810
+we will need team istanbul to help pull this all together and provide support to the 100+ testers
+
+{Reactions}
+👍🏻 (5) KMD (6) 
+
+[27-Feb-20 01:56 AM] Paro#7842
+audience. potentially around 140k.
+
+{Reactions}
+💎 (3) 
+
+[27-Feb-20 02:19 AM] TonyL#3577
+sounds very interesting!
+am I understand correct that some re-broadcasting in loop of same file is needed because of purging?
+
+
+[27-Feb-20 02:25 AM] TonyL#3577
+lets say we got purgetime 1 hour (or 24 hours) - publisher broadcasted file and nobody downloaded it. publisher will need to track this case and rebroadcast the file?
+
+
+[27-Feb-20 02:26 AM] jl777c#5810
+yes, broadcaster would just broadcast every 50 minutes
+
+
+[27-Feb-20 02:26 AM] jl777c#5810
+or maybe it is a settable parameter
+
+
+[27-Feb-20 02:26 AM] TonyL#3577
+`yes, broadcaster would just broadcast every 50 minutes` it might create duplicates if I understand correct
+
+
+[27-Feb-20 02:26 AM] TonyL#3577
+when we get list of all available files
+
+
+[27-Feb-20 02:27 AM] TonyL#3577
+now we want something more youtube-like if I understand correct
+
+
+[27-Feb-20 02:28 AM] TonyL#3577
+there are channels (pubkeys) - channels upload files and subscribers watch
+
+
+[27-Feb-20 02:28 AM] TonyL#3577
+I got an idea - what if there will be some "files_list" and each publisher can file_add file_remove to his fies_list
+
+
+[27-Feb-20 02:29 AM] TonyL#3577
+and then dapp on publisher side trying to broadcast files according to files_list
+
+
+[27-Feb-20 02:33 AM] TonyL#3577
+but it should not just rebroadcast permanently all files from list probably but check if it already purged from RAM or not
+
+
+[27-Feb-20 02:35 AM] jl777c#5810
+yes, something like that
+
+
+[27-Feb-20 02:36 AM] jl777c#5810
+can just check if a file is in the files DEX_list and if it isnt, then and only then publish again
+
+
+[27-Feb-20 02:36 AM] jl777c#5810
+i use this logic in subatomic dapp for handles
+
+
+[27-Feb-20 02:37 AM] jl777c#5810
+it checks to see if the handle is there already and if not, it broadcasts
+
+
+[27-Feb-20 02:37 AM] jl777c#5810
+i guess there can be a file like subatomic.json that has a list of approved pubkeys, due to bandwidth reasons, i think each -dexp2p network should be just for a single broadcaster
+
+
+[27-Feb-20 02:40 AM] jl777c#5810
+it would be good if the GUI can be localized and translated into turkish
+
+
+[27-Feb-20 02:42 AM] jl777c#5810
+this basic single broadcaster -dexp2p dapp can then be used as a template for any language and anybody that wants to set up a channel can easily do it. i guess the broadcaster would need to add the ip addresses of seed nodes and maybe that is the only broadcaster specific customization needed
+
+
+[27-Feb-20 03:01 AM] Paro#7842
+I made a general review. Videos with more than 1 million views per month.
+
+
+[27-Feb-20 03:03 AM] Paro#7842
+There are more than 5k videos.
+
+{Reactions}
+👍 
+
+[27-Feb-20 03:04 AM] jl777c#5810
+it will be a challenge to have a million nodes!
+
+{Reactions}
+👍🏻 (2) 
+
+[27-Feb-20 03:48 AM] SHossain#0007
+Sounds exciting. I'm in.
+
+
+[27-Feb-20 09:50 AM] hakan aygun#8844
+Tks all. İ have more questions. But after i spoke to paro, i certainly need a programmer who knows reactjs , angularjs, electronjs and also knows about p2p...
+
+
+[27-Feb-20 09:51 AM] polycryptoblog#1173
+This sounds like an exciting project
+
+
+[27-Feb-20 09:53 AM] hakan aygun#8844
+As a beginning. İ want to put codes of jl’s komodo into my personal websiyçte hakanaygun.com and colkect peers for it and lets  see how it works. Poly can u give a hand to me? Also hossain??
+
+
+[27-Feb-20 10:02 AM] grewalsatinder#9653
+very interesting.... will keep an eye on it's development, while I'm busy doing Subatomic Go web app.
+
+
+[27-Feb-20 10:11 AM] SHossain#0007
+@hakan aygun Please let me know how I can help with this and I'll do my best within my capability.
+
+
+[27-Feb-20 10:12 AM] SHossain#0007
+For peers data we need a chain param first. then, we need participants to launch the chain. then, all nodes will be interconnected and peer IPs will be available.
+
+
+[27-Feb-20 10:19 AM] hakan aygun#8844
+İ am not a programmer; just a media guy... maybe paro or jl give u a road map.. but simply i can give the admin of my website and u can put jl’s open source codes for p2p inside it and i collect nodes and peers for it. Then we test it and i describe what i want to develope u. And we can work on it
+
+
+[27-Feb-20 10:22 AM] polycryptoblog#1173
+It’s a little beyond my skills at this point but when it’s fleshed ( win installers plz 🙂 )our a bit more I will help where I can
+
+
+[27-Feb-20 11:12 AM] hakan aygun#8844
+Tks.also please help me to find people for starting🙏🏿
+
+
+[27-Feb-20 11:59 AM] SHossain#0007
+yes, a roadmap and plan would definitely be helpful
+
+
+[27-Feb-20 12:00 PM] SHossain#0007
+i'm not a programmer either. but, i understand how dexp2p works to some extent and can write instructions for other participants on how to get their nodes running
+
+
+[27-Feb-20 12:00 PM] SHossain#0007
+i'll join the test with my node(s) too
+
+
+[27-Feb-20 12:34 PM] Tylor zkFS#8280
+May I suggest using m3u data as locator information
+
+
+[27-Feb-20 12:37 PM] Tylor zkFS#8280
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3zzqEti.png" group-title="* Fluxus.tv",* Fluxus.tv https://fluxustv.blogspot.com@bit.ly/FluxusFireplace?.mp4
+
+{Embed}
+https://imgur.com/3zzqEti
+https://images-ext-2.discordapp.net/external/CxaIBJgN73OzxUI3ZGEcuUccMkMn2YnVaQIxu0wQnpM/https/i.imgur.com/3zzqEti.png
+
+
+[27-Feb-20 12:38 PM] Tylor zkFS#8280
+Put the stream link into the payload
+
+
+[27-Feb-20 12:39 PM] Tylor zkFS#8280
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/Sky-news-logo.png" group-title="24/7 YOUTUBE ENGLISH",Sky News https://www.youtube.com/watch?v=9Auq9mYxFEE
+
+{Embed}
+Sky News
+https://www.youtube.com/watch?v=9Auq9mYxFEE
+Watch Sky News live
+Today's top stories: A brewery employee has killed five of his co-workers in the US city of Milwaukee before turning the gun on himself, diabetes leads to more than 176 leg, toe or foot amputations every week in England, according to new analysis and Congress finally makes lyn...
+https://images-ext-1.discordapp.net/external/GGzQ4U45EqPqpfjFm6JzNbolEitw9JNXeHEGEWSchWA/https/i.ytimg.com/vi/9Auq9mYxFEE/maxresdefault_live.jpg
+
+
+[27-Feb-20 12:40 PM] Tylor zkFS#8280
+My audience will be way over the 140k people when you guys hammer this out
+
+
+[27-Feb-20 12:45 PM] grewalsatinder#9653
+@Tylor zkFS as I understand from the primary requirements, the idea is to directly broadcast videos to the user to load from the local computer.
+m3u makes a playlist of both types, with local relative path to the media files and remote URLs. I don't understand how it will be good in this case.
+
+
+[27-Feb-20 12:47 PM] grewalsatinder#9653
+And if someone from YouTube is moving to such p2p video sharing, to my views, that's to be sure that their content is accessible no matter what censorship is forced by host companies such as YouTube.
+
+
+[27-Feb-20 12:47 PM] jl777c#5810
+we are going with file publishing, not streaming, it is much more robust way
+
+{Reactions}
+👍 (2) 👆 
+
+[27-Feb-20 12:48 PM] grewalsatinder#9653
+` publishing not streaming ` yep, that's clear already
+
+
+[27-Feb-20 01:01 PM] Tylor zkFS#8280
+For searching both inside dexp2p and the outside world a content provider only needs to share a link to his content
+
+
+[27-Feb-20 01:02 PM] Tylor zkFS#8280
+To integrate both worlds is optimum
+
+
+[27-Feb-20 01:03 PM] Tylor zkFS#8280
+And it's not like the requirement would take long to implement
+
+
+[27-Feb-20 01:03 PM] Tylor zkFS#8280
+TagA TagB TagC TagD +payload"
+
+
+[27-Feb-20 01:05 PM] Tylor zkFS#8280
+Payload can be link or file chunks
+
+
+[27-Feb-20 01:06 PM] Tylor zkFS#8280
+The m3u playlist is a standard format for content
+
+
+[27-Feb-20 01:09 PM] Tylor zkFS#8280
+People will jump on board if they know the data feeds they are already working with
+
+
+[27-Feb-20 01:10 PM] Tylor zkFS#8280
+Really isn't as complicated as you think I am making it
+
+
+[27-Feb-20 01:11 PM] Tylor zkFS#8280
+Soooo - that's why 😜
+
+
+[27-Feb-20 01:12 PM] Tylor zkFS#8280
+You dont need to rewrite the book on playlists is all I am saying
+
+
+[27-Feb-20 01:15 PM] Tylor zkFS#8280
+As JL would say "Google is your friend"
+
+
+[27-Feb-20 01:15 PM] Tylor zkFS#8280
+https://en.m.wikipedia.org/wiki/M3U
+
+{Embed}
+https://en.m.wikipedia.org/wiki/M3U
+M3U
+M3U (MP3 URL or Moving Picture Experts Group Audio Layer 3 Uniform Resource Locator in full) is a computer file format for a multimedia playlist. One common use of the M3U file format is creating a single-entry playlist file pointing to a stream on the Internet.  The created f...
+
+
+[27-Feb-20 01:51 PM] Tylor zkFS#8280
+One more tidbit- my last product I created sold over 25,000,000 pieces world wide....thats just a little over 140,000
+
+
+[27-Feb-20 01:51 PM] Tylor zkFS#8280
+👆
+
+
+[27-Feb-20 02:41 PM] Tylor zkFS#8280
+Integrating old with new IS the next step - getting solid content providers will not happen overnight. But scrapers could fill the network up with solid content overnight. This is my last 2 weeks of R&D. I am hiring for my project if anyone wants to help with UI things... Have a great day as mine is almost over....
+
+
+[27-Feb-20 08:34 PM] hakan aygun#8844
+Cencorship has started in tırkey; twitter is stopped by government etc because of the war situation in syria. Giving news is under pressure now; that’s why i need p2p 😦
+
+{Reactions}
+👍 
+
+[27-Feb-20 08:51 PM] hakan aygun#8844
+Turkey:)
+
+
+[27-Feb-20 11:25 PM] grewalsatinder#9653
+totally understandable reasons 👍
+
+
+[28-Feb-20 12:39 AM] hakan aygun#8844
+Still help needed to put jj’s dexp2p codes into my hakanaygun.com . Is there anybody to do this for me! Then i develope it for nodes natives users etc🙏🏿
+
+
+[28-Feb-20 05:30 AM] Tylor zkFS#8280
+So relaying feeds to d P2P would solve a major problem with censorship.....probably mostlty news feeds including live or delayed live TV broadcasts.... This is almost a humanitarian mission
+
+
+[28-Feb-20 05:47 AM] Tylor zkFS#8280
+@Nabob | $ARRR ...this is the use case
+
+
+[28-Feb-20 06:23 AM] Nabob | $ARRR#5004
+interesting, will keep an eye on this space.👌
+
+
+[28-Feb-20 07:34 AM] hakan aygun#8844
+Waiting for help:)
+
+
+[28-Feb-20 07:36 AM] jl777c#5810
+it will take a bit of time to make a windows installer
+
+{Reactions}
+👍🏻 
+
+[28-Feb-20 07:53 AM] Paro#7842
+this can be done with the most beautiful electronjs.
+
+
+[28-Feb-20 07:53 AM] Paro#7842
+@hakan aygun I recommend you to find "electronjs" expert.
+
+
+[28-Feb-20 07:53 AM] jl777c#5810
+tonyL is making a windows installer
+
+{Reactions}
+👍🏻 (2) 🎉 
+
+[28-Feb-20 08:46 AM] TonyL#3577
+*unlikely I'll make it as beatiful as electronjs but should be enough for tech demonstration and as demo for beatiful GUIs devs
+
+{Reactions}
+👍🏻 (2) 👌 
+
+[28-Feb-20 08:51 AM] polycryptoblog#1173
+@Tylor zkFS good description,  In that spirit , my vote for the inaugural file will be this song .  https://youtu.be/XrvMgTa0TKk
+
+{Embed}
+YouPuup
+https://www.youtube.com/watch?v=XrvMgTa0TKk
+Anti-Flag - Underground Network
+Underground Network
+Alternative Communication
+https://images-ext-2.discordapp.net/external/7js2kVNjSCD-iuEbYxVr6bLs9Y79Ql1sUhJKGPOubaU/https/i.ytimg.com/vi/XrvMgTa0TKk/hqdefault.jpg
+
+
+[28-Feb-20 09:34 AM] grewalsatinder#9653
+@TonyL yes, at the moment, something working is good than nothing for windows users.
+
+
+[28-Feb-20 09:36 AM] jl777c#5810
+we dont even know if dexp2p works with windows, did we confirm that?
+
+
+[28-Feb-20 10:21 AM] TonyL#3577
+thats something to test and fix if needed in parallel with GUI creation - for GUI itself I can abstract from OS (at least on initial prototyping stage)
+
+
+[28-Feb-20 10:30 AM] TonyL#3577
+https://github.com/jl777/komodo/runs/474562581?check_suite_focus=true jl777 branch daemon builds for windows atm what is already a good sign
+
+{Embed}
+https://github.com/jl777/komodo/runs/474562581?check_suite_focus=true
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Reactions}
+👍 
+
+[28-Feb-20 10:38 AM] TonyL#3577
+@Sir Seven Is it hard to port dexp2p tests for windows client?
+
+
+[28-Feb-20 10:44 AM] Sir Seven#7158
+Tests can be ported in a hour or two. Have no idea if dexp2p will work on win tho.
+
+
+[29-Feb-20 02:45 AM] Sir Seven#7158
+- oops, wrong channel
+
+
+[29-Feb-20 05:58 AM] jl777c#5810
+what is a windows dir that can be used in place of /usr/local/dexp2p ?
+
+
+[29-Feb-20 06:09 AM] SHossain#0007
+i guess it would be `C:\users\<user>\AppData\Roaming\dexp2p` or `%AppData%\Roaming\dexp2p`
+
+
+[29-Feb-20 06:22 AM] TonyL#3577
+almost finished with files uploader logic - tomorrow will start with downloader
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/683318266214875164/unknown.png
+
+{Reactions}
+treasure (4) 
+
+[29-Feb-20 06:32 AM] jl777c#5810
+not sure how to get <user> from stdio
+
+
+[29-Feb-20 06:33 AM] TonyL#3577
+```#include  <stdio.h>
+
+int main(void)
+{
+    printf("%s\n", getenv("USERPROFILE"));  // Print user's home directory.
+    return 0;
+}```
+
+
+[29-Feb-20 06:33 AM] TonyL#3577
+probably this way will work
+
+
+[29-Feb-20 06:34 AM] TonyL#3577
+can try on win machine shortly
+
+
+[29-Feb-20 06:36 AM] gcharang#6833
+```
+char* appdata = getenv("APPDATA");
+```
+to get the datadir
+<https://stackoverflow.com/a/9947681>
+
+
+[29-Feb-20 06:38 AM] jl777c#5810
+ok, thanks!
+
+
+[29-Feb-20 06:41 AM] jl777c#5810
+pushed version that looks in appdata\dexp2p
+
+
+[29-Feb-20 06:41 AM] jl777c#5810
+for the filename
+
+
+[29-Feb-20 06:41 AM] jl777c#5810
+let me know if it works, in case the getenv call returns error it looks in C:\tmp\dexp2p\filename
+
+
+[29-Feb-20 06:42 AM] jl777c#5810
+with this, it just might work with windows
+
+
+[29-Feb-20 10:23 AM] TonyL#3577
+@jl777c 
+looks like too many slashes
+```.\komodo-cli -ac_name=FILET1 DEX_publish komodod123.exe                           {                                                                                                                         "result": "error",                                                                                                      "error": "file not found",                                                                                              "filename": "komodod123.exe",                                                                                           "altname": "C:\\Users\\Tony\\AppData\\Roaming\\dexp2p\\komodod123.exe"                                                } ```
+
+
+[29-Feb-20 10:23 AM] TonyL#3577
+```C:\Users\Tony\AppData\Roaming\dexp2p>dir                                                                                 Том в устройстве C не имеет метки.                                                                                      Серийный номер тома: 7A7B-7B94                                                                                                                                                                                                                  Содержимое папки C:\Users\Tony\AppData\Roaming\dexp2p                                                                                                                                                                                          01.03.2020  01:21    <DIR>          .                                                                                   01.03.2020  01:21    <DIR>          ..                                                                                  01.03.2020  00:51        57 737 752 komodo123.exe ```
+
+
+[29-Feb-20 10:24 AM] TonyL#3577
+ouch, everything is fine it's my bad
+
+
+[29-Feb-20 10:24 AM] TonyL#3577
+tried `komodod123.exe` but file is calling `komodo123.exe`
+
+
+[29-Feb-20 10:32 AM] TonyL#3577
+```C:\Users\Tony\Downloads\windows_jl777>.\komodo-cli -ac_name=FILET1 DEX_publish komodo123.exe                            {                                                                                                                         "fname": "komodo123.exe",                                                                                               "id": 2284033408,                                                                                                       "senderpub": "01e6f8be753c02cd978a580c6f36216f7c8b86a3f37176132f4aa883e22c2d1e59",                                      "filesize": 57737752,                                                                                                   "fragments": 5774,                                                                                                      "numlocators": 5774,                                                                                                    "filehash": "1035e846b518da616d8db12631e505202e86c4fc1e8f55b291690b23800fec06",                                         "checkhash": "1035e846b518da616d8db12631e505202e86c4fc1e8f55b291690b23800fec06",                                        "result": "success"                                                                                                   }       ```
+
+
+[29-Feb-20 10:34 AM] TonyL#3577
+looks like it works on windows - but noticed strange behavior, after DEX_publish daemon stops to response on RPC calls (even if I publish 1 fragment file) until I press Ctrl+C in console with daemon - after I press this keys combination everything works fine
+
+
+[29-Feb-20 10:34 AM] TonyL#3577
+Like a something waits for a SIGINT
+
+
+[29-Feb-20 10:37 AM] TonyL#3577
+@Sir Seven it sounds somehow similar to the issue you've faced on windows with stop call - could you please try to press `Ctrl+C` in console window in which daemon was started next time you reproduce it manually?
+
+
+[29-Feb-20 10:39 AM] TonyL#3577
+So tomorrow will try to implement file uploading for windows via GUI and then if uploading works fine will proceed to downloading part
+
+
+[01-Mar-20 01:55 AM] TonyL#3577
+ok so uploading works on windows too
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/683613363158515736/unknown.png
+
+{Reactions}
+🤩 (4) 👍 (2) 💯 
+
+[01-Mar-20 07:36 AM] Regnar#6164
+Started added some of this to my site <https://awesomekmd.herokuapp.com/> let me know if there are any additional images, links, proof of concepts you want me to add
+
+{Reactions}
+👍 (2) KMD 🍌 
+
+[01-Mar-20 02:44 PM] Sir Seven#7158
+> let me know if it works, in case the getenv call returns error it looks in C:\tmp\dexp2p\filename
+@jl777c 
+Works just fine on both Win and Ubuntu for me.
+One question:
+Why not use fallback if %APPDATA%\dexp2p directory does not exist?
+Looks like fallback `C:\tmp\dexp2p\filename`  atm works only if `%APPDATA%` env var is empty.
+
+{Reactions}
+💯 
+
+[01-Mar-20 08:32 PM] TonyL#3577
+@jl777c Is it possible to write file size there? :
+I'll show it in list to user and then track downloading progress by comparing with concatenated downloaded part size:
+```
+./komodo-cli -ac_name=FILET1 DEX_list 0 0 files
+{
+  "result": "success",
+  "matches": [
+    {
+      "timestamp": 1583123358,
+      "id": 1633607232,
+      "hash": "07e4ed154681d5010257072523c35c59b31ca1e6ab097d78a6b40d68f76a7dbc",
+      "tagA": "files",
+      "tagB": "komodod",
+      "pubkey": "01b636e4e8c65411e87f91bda360e166aef1a217f15b19328d1014e64bfc708c77",
+      "payload": "b636e4e8c65411e87f91bda360e166aef1a217f15b19328d1014e64bfc708c770a7ed782eb82d7f8d40dd66a6b05ca411ac358c61fb6735b00000000000000000000000000000000b7c403f61702ba9c9b5120c287333f8b3af3f376784de5b40e24417325fdd4649cca8690b485a812fefd139702181a0b",
+      "hex": 1,
+      "decrypted": "2b9302db89fbb9fd4185f9f0cadc3fa16e90e8afb98f6011b5aca9faaaae59c8",
+      "decryptedhex": 1,
+      "senderpub": "01b636e4e8c65411e87f91bda360e166aef1a217f15b19328d1014e64bfc708c77",
+      "amountA": "3.20351744",
+      "amountB": "0.00032036",
+      "priority": 6,
+      "recvtime": 1583123358,
+      "cancelled": 0
+    }
+  ],
+  "tagA": "files",
+  "tagB": "",
+  "pubkey": "",
+  "n": 1
+}
+```
+
+
+[01-Mar-20 08:33 PM] TonyL#3577
+ohh it's amountA
+
+
+[01-Mar-20 08:36 PM] TonyL#3577
+and displaying correct amount, just have to covert 
+```
+ls -la | grep komodod
+-rwxr-xr-x  1 root root 320351744 Feb 29 11:29 komodod
+
+ls -la -h | grep komodod
+-rwxr-xr-x  1 root root 306M Feb 29 11:29 komodod
+```
+
+
+[01-Mar-20 09:36 PM] Loo✟z#2749
+Can the upstream be utilized for live file transfers ?
+
+
+[01-Mar-20 09:37 PM] Loo✟z#2749
+sort of like streaming over data
+
+
+[01-Mar-20 09:53 PM] CHMEX#0686
+Yes
+
+
+[01-Mar-20 10:57 PM] TonyL#3577
+@gcharang Could you please add `DEX_subscribe` RPC call description to the https://docs.komodoplatform.com/basic-docs/smart-chains/smart-chain-setup/dexp2p.html ?
+
+
+[01-Mar-20 10:58 PM] gcharang#6833
+yes, adding. it should be up in a few minutes
+
+
+[01-Mar-20 10:58 PM] TonyL#3577
+thanks!
+
+
+[01-Mar-20 11:11 PM] TonyL#3577
+trying to download file:
+
+```./komodo-cli -ac_name=FILET1 DEX_list 0 0 files
+{
+  "result": "success",
+  "matches": [
+    {
+      "timestamp": 1583132641,
+      "id": 130297024,
+      "hash": "07cc427cc0a4ea036354d58a04686c2fd589b6b3e383df51d35e9e7eeff5aec7",
+      "tagA": "files",
+      "tagB": "kkk1",
+      "pubkey": "01b636e4e8c65411e87f91bda360e166aef1a217f15b19328d1014e64bfc708c77",
+      "payload": "b636e4e8c65411e87f91bda360e166aef1a217f15b19328d1014e64bfc708c7742b39d68435bb57c6b3984f427f515337e0f2cd987fa55c200000000000000000000000000000000ad967c156ea62f71aea5f75ccef9c22a9fa792f33805b6d47b428992cfcb80ad0838f447c72bbf68d20eae3a8c2dc99d",
+      "hex": 1,
+      "decrypted": "ac77727cfaa926443deb907cb0fcece2dde00928199e0ffe201954e2ac2cfb3b",
+      "decryptedhex": 1,
+      "senderpub": "01b636e4e8c65411e87f91bda360e166aef1a217f15b19328d1014e64bfc708c77",
+      "amountA": "0.12847448",
+      "amountB": "0.00001285",
+      "priority": 6,
+      "recvtime": 1583132641,
+      "cancelled": 0
+    },```
+
+```./komodo-cli -ac_name=FILET1 DEX_subscribe kkk1 0 130297024 01b636e4e8c65411e87f91bda360e166aef1a217f15b19328d1014e64bfc708c77
+{
+  "result": "error",
+  "error": "tags mismatch",
+  "tagA": "files",
+  "filename": "kkk1",
+  "tagB": "kkk1",
+  "tagBstr": "locators",
+  "sliceid": 0
+}
+```
+
+
+[01-Mar-20 11:11 PM] TonyL#3577
+not 100% sure what I'm doing wrong
+
+
+[01-Mar-20 11:27 PM] gcharang#6833
+@TonyL the RPC should be up in 5 minutes
+>  DEX_subscribe kkk1 0 130297024 
+replace 130297024 with the id of the locators datablob
+it can be found by filtering tagA= <filename> and tagB="locators"
+
+
+[01-Mar-20 11:28 PM] TonyL#3577
+`./komodo-cli -ac_name=FILET1 DEX_subscribe "kkk1" 0 0 013d344108b464875fadfb339cb41279e096b8b37c76d52bcc03600ab5cf8dce54` 
+this option worked for me and full file downloaded
+
+
+[01-Mar-20 11:28 PM] TonyL#3577
+does it mean "download from locator 0 till the end" ?
+
+
+[01-Mar-20 11:32 PM] gcharang#6833
+>  "download from locator 0 till the end"
+
+```
+"kkk1" 0 0 013d344108b464875fadfb339cb41279e096b8b37c76d52bcc03600ab5cf8dce54
+```
+ it means the "locators datablob's id" is not supplied by the command
+just the name of the file and publisher's pubkey is enough to find and download the file
+
+it used to be that locators datablob's id was mandatory, but looks like jl changed it
+
+
+[01-Mar-20 11:38 PM] jl777c#5810
+it seemed that nobody could find the right id, so i made automatic. set id to 0 have the pubkey and it finds it for you
+
+{Reactions}
+👍 (3) 
+
+[02-Mar-20 12:43 AM] TonyL#3577
+added files list and download button which downloading files
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/683957665898168378/unknown.png
+
+{Reactions}
+👍 (2) shexy KMD (2) 😎 (2) 
+
+[02-Mar-20 12:43 AM] TonyL#3577
+so now it's possible to upload and download files and files list refreshing automagically
+
+
+[02-Mar-20 12:44 AM] TonyL#3577
+in todo list: 
+- fix progress bar for uploading on Linux (on windows it works fine but on linux not refreshing if user uploading > single file per session)
+- add progress bar for downloading
+- add few validations
+- arrange elements some UX friendly way (now it's just packed automagically)
+- add some configurator which starting daemon / checking if it started for needed P2P chain and etc
+
+and now also it's not cleaning dexp2p folder with files because of funny crutch
+
+
+[02-Mar-20 12:48 AM] TonyL#3577
+but in general it's usable already for files transfer between multiple computers and I can make test .exe in a few hours
+
+
+[02-Mar-20 01:25 AM] TonyL#3577
+https://github.com/tonymorony/P2PFileShare-Py/releases/tag/0.0.1 bundled for Windows what I have now (tried on totally clean Windows 10 and it worked fine)
+
+To test (on Windows):
+1) Download zip archive https://github.com/tonymorony/P2PFileShare-Py/releases/download/0.0.1/komodo_p2p_filesexchange_v0.0.1.zip and unzip
+2) Start FILET1 chain (there is precompiled daemon in zip archive):
+`.\komodod -ac_name=FILET1 -dexp2p=2 -ac_supply=999999 -addnode=95.217.44.58`
+3) Start application in console as `.\main.exe`
+4) Try to upload/download files (files downloading to same folder with daemon as filename.publisherpubkey)
+
+
+ac_name `FILET1` is hardcoded in this one (chain naming is not about the meat but "file test one")
+
+{Embed}
+https://github.com/tonymorony/P2PFileShare-Py/releases/tag/0.0.1
+tonymorony/P2PFileShare-Py
+Contribute to tonymorony/P2PFileShare-Py development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[02-Mar-20 01:26 AM] TonyL#3577
+CC @Sir Seven please try on your side when you available
+
+{Reactions}
+👍 
+
+[02-Mar-20 01:30 AM] TonyL#3577
+ah, only tricky thing when you test on fresh PC is that zcash-params are required anyway 🙂 (https://raw.githubusercontent.com/KomodoPlatform/komodo/master/zcutil/fetch-params.bat
+http://159.69.45.70/wget64.exe)
+
+
+[02-Mar-20 02:23 AM] TonyL#3577
+`it seemed that nobody could find the right id, so i made automatic. set id to 0 have the pubkey and it finds it for you` hmm, interesting how it'll behave in such case if two+ different publishers will try to broadcast file with the same name (added to "to test" list)
+
+
+[02-Mar-20 02:24 AM] jl777c#5810
+that is why the pubkey is used
+
+{Reactions}
+😅 👍 
+
+[02-Mar-20 07:50 AM] gcharang#6833
+@jl777c when two different files are being published at the same time, the `progress` key in the DEX_stats response is showing the progress of one or the other "randomly"
+
+
+[02-Mar-20 08:04 AM] jl777c#5810
+yes
+
+
+[02-Mar-20 08:04 AM] jl777c#5810
+this is expected
+
+
+[02-Mar-20 08:04 AM] jl777c#5810
+you are only expected to publish one file at a time
+
+
+[02-Mar-20 08:09 AM] gcharang#6833
+got it. sending the stop command to the node while it is in the middle of publishing a file kills the RPC server
+i.e., sending any command gives the error
+```
+error: couldn't connect to server: unknown (code -1)
+(make sure server is running and you are connecting to the correct RPC port)
+```
+ but the daemon keeps running
+
+
+[02-Mar-20 08:09 AM] gcharang#6833
+I guess till the file is completely published, but haven't verified that yet
+
+
+[02-Mar-20 08:13 AM] gcharang#6833
+```
+pgrep komodod
+```
+is giving no response
+
+
+[02-Mar-20 08:15 AM] jl777c#5810
+the publish will keep going until it is done
+
+
+[02-Mar-20 08:15 AM] jl777c#5810
+the stop stopped everything else
+
+
+[02-Mar-20 08:16 AM] jl777c#5810
+expected behavior
+
+
+[02-Mar-20 08:16 AM] jl777c#5810
+stop doesnt send a kill signal, for obvious reason
+
+
+[02-Mar-20 08:19 AM] gcharang#6833
+got it. the daemon exited by itself  sometime after stop command has been sent while a file is being published. but, looks like there is a `.lock` file leftover which will interfere with starting it again
+
+
+[02-Mar-20 08:27 AM] gcharang#6833
+^ that was not an issue
+
+
+[02-Mar-20 08:28 AM] gcharang#6833
+there was a file called `komodod.pid` along with `.lock` that prevented new instance from launching while the old one is running
+
+
+[02-Mar-20 08:37 AM] gcharang#6833
+@jl777c from what I can see, if we send a stop command while a file is being published, the daemon finishes braodcasting the datablobs with the data, but doesn't publish the one with the tagA "files" or the locators datablob
+
+
+[02-Mar-20 08:55 AM] jl777c#5810
+best to not issue a stop command while you are publishing
+
+
+[02-Mar-20 09:06 AM] gcharang#6833
+got it
+
+
+[02-Mar-20 09:07 AM] jl777c#5810
+think about it
+
+
+[02-Mar-20 09:08 AM] jl777c#5810
+you are doing some command that takes a long time and in the middle you say "stop"
+
+
+[02-Mar-20 09:08 AM] jl777c#5810
+so it goes until the first chance it can stop
+
+
+[02-Mar-20 09:15 AM] gcharang#6833
+yes, I get that. these are issues the gui dev needs to consider to make the UX smooth (cc: @TonyL )
+for example, if the gui allows the user to issue stop while a large file is being uploaded, 
+ the user will have to wait for the daemon to exit after publishing all the datablobs
+ but also, won't have any reward for waiting that long which might be frustrating
+so, I am going to document this behavior
+
+
+[02-Mar-20 09:19 AM] jl777c#5810
+we might want to put up warnings if you are publishing files over a certain size, the idea is that it should finish in a reasonably short amount of time
+
+{Reactions}
+👍 
+
+[02-Mar-20 09:29 AM] gcharang#6833
+done
+
+
+[02-Mar-20 06:37 PM] TonyL#3577
+https://discordapp.com/channels/412898016371015680/682519762995118080/684086490594410595 I have uploading progress bar in GUI and percents printing
+
+
+[02-Mar-20 06:39 PM] TonyL#3577
+not sure how to stop uploading in the middle - can kill daemon maybe but don't know if it's required on this app stage
+
+
+[02-Mar-20 06:40 PM] TonyL#3577
+it's would be great if someone try file uploading/downloading on initial windows bundle https://discordapp.com/channels/412898016371015680/682519762995118080/683968215809916956 and left some feedback with a things which missing most for comfy file exchange so I'll start adding them
+
+
+[02-Mar-20 08:28 PM] Regnar#6164
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/684255918120370206/dexp2p1.png
+
+
+[02-Mar-20 08:28 PM] Regnar#6164
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/684255929713426462/dexp2p2.png
+
+{Reactions}
+👍 shexy KMD (2) 😎 (2) 
+
+[02-Mar-20 08:29 PM] Regnar#6164
+Did a little visual redesign testing
+
+
+[02-Mar-20 08:29 PM] Regnar#6164
+still all tkinter
+
+
+[02-Mar-20 08:30 PM] Regnar#6164
+I haven't tested it running a chain or anything, so hopefully it all works well
+
+
+[02-Mar-20 08:48 PM] TonyL#3577
+Looks nice 👍 Is it in your fork? I can test it with real files uploading/downloading shortly
+
+
+[02-Mar-20 08:51 PM] TonyL#3577
+I’ll add two more elements also shortly: uploading progress text label in decimal procents (under progress bar) and path to selected file - can put it between buttons
+
+
+[02-Mar-20 08:54 PM] Regnar#6164
+I actually did it in a scratch file, I'm heading to bed, but tomorrow I'll fork this and the subatomic and make the changes. subatomic was very simple since you already used grid. Just added ttkthemes (arc, equilux) and converted any tk.Object to ttk.Object
+
+
+[02-Mar-20 08:55 PM] Regnar#6164
+the DEXP2P was a bit trickier, switched pack over to grid and messed with the layout
+
+
+[02-Mar-20 08:55 PM] TonyL#3577
+Ok, file uploaded in this repo https://github.com/tonymorony/P2PFileShare-Py
+
+{Embed}
+https://github.com/tonymorony/P2PFileShare-Py
+tonymorony/P2PFileShare-Py
+Contribute to tonymorony/P2PFileShare-Py development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[02-Mar-20 08:56 PM] Regnar#6164
+but all not really substantive additions 😅
+
+
+[02-Mar-20 08:56 PM] TonyL#3577
+I’ve used packs just to save time while prototyping 😆
+
+
+[02-Mar-20 08:56 PM] TonyL#3577
+Feel free to rearrange elements how you think it looks best
+
+
+[02-Mar-20 08:56 PM] Regnar#6164
+oh yea definitely what I do too
+
+
+[02-Mar-20 08:56 PM] Regnar#6164
+pack is a life saver
+
+
+[02-Mar-20 08:57 PM] Regnar#6164
+but I figured I'd mess with grid a bit and save you the hassle
+
+
+[02-Mar-20 08:58 PM] Regnar#6164
+I forget if tkinter looks for a static file for images, right now the logo is sitting in root, but having static might be better...
+
+
+[02-Mar-20 09:00 PM] Regnar#6164
+I'll probably push a default theme, and later one we can add cool stuff like selecting and saving themes
+
+
+[02-Mar-20 09:02 PM] Regnar#6164
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/684264416082133019/subatomic1.png
+
+
+[02-Mar-20 09:02 PM] Regnar#6164
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/684264418741059589/subatomic2.png
+
+{Reactions}
+🌃 (2) 👍 
+
+[02-Mar-20 09:03 PM] Regnar#6164
+I'm a sucker for night modes, but the lighter one, arc, looks really good too
+
+{Reactions}
+👍 
+
+[02-Mar-20 09:30 PM] TonyL#3577
+any UX improvements are highly appreciated because I've not work on it - just placed almost automatically default elements 🙂
+
+
+[02-Mar-20 09:38 PM] Regnar#6164
+Okay I'll push night mode changes. I haven't looked too much into the subatomic py yet, but I'd also like to do some price fetching. It's always a plus when people can see a 3rd value for a swap.
+
+I'll see if someone in the ecosystem has a price data API, maybe the Antara coin cap group, if not I'll probably use CP or CG. Worst case I can run my own API with data, but I don't want to build it to rely on an unreliable endpoint
+
+{Reactions}
+👍 
+
+[02-Mar-20 10:04 PM] TonyL#3577
+I've added two graphical elements to downloader - first displaying path to selected file and second is dynamically updating percentage for progress bar. Might affect your arrangement so CC @Regnar
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/684280006448644096/unknown.png
+
+{Reactions}
+👍 (2) 
+
+[02-Mar-20 11:59 PM] grewalsatinder#9653
+nice work! @TonyL @Regnar 👍 😃
+
+{Reactions}
+👍 (2) KMD 
+
+[03-Mar-20 03:41 AM] Regnar#6164
+I'll take a look at it later today and work on the layout.
+
+
+[03-Mar-20 04:14 AM] TonyL#3577
+@jl777c could you please change dir for linux from `/usr/local/dexp2p` to `$HOME/dexp2p` ? It'll help a lot because catalog in /usr/bin need sudo from user (or he need chown manually)
+
+
+[03-Mar-20 04:19 AM] jl777c#5810
+how do i find $HOME universal way?
+
+
+[03-Mar-20 04:21 AM] TonyL#3577
+`const char* s = getenv("HOME");`
+
+
+[03-Mar-20 04:22 AM] TonyL#3577
+for windows current solution with %APPDATA% works fine
+
+
+[03-Mar-20 04:24 AM] Sir Seven#7158
+> CC @Sir Seven please try on your side when you available
+@TonyL 
+Upload and Download works fine on WIn with latest release.
+
+
+[03-Mar-20 04:25 AM] jl777c#5810
+@TonyL updated
+
+
+[03-Mar-20 04:26 AM] TonyL#3577
+thank you!
+
+
+[03-Mar-20 04:30 AM] TonyL#3577
+pushed new path for gui - @Sir Seven please try if it resolves the issue on your side
+
+
+[03-Mar-20 05:08 AM] TonyL#3577
+it works fine 🙂 so all known issues are UX related at the moment
+
+
+[03-Mar-20 06:26 AM] LocoMB#8593
+so what was the deal about the activity recently in #🎰┃ask-jl777 that seemed to have something to do with people streaming videos over some KMD sidechain?
+I wonder why this was never discussed and preseented elsewhere, what was this about in the first place?
+Reason I am asking is because there is (another) project doing decentralized video platform, they are on steem, and now they seem to realize that steem is trash..
+>This could be a really good opportunity for KMD platform to attract some important use case
+
+
+[03-Mar-20 06:26 AM] LocoMB#8593
+https://steemit.com/dtube/@dtube/dtube-mainnet-launch-date-and-adjustments
+https://d.tube
+
+
+[03-Mar-20 06:27 AM] LocoMB#8593
+https://steemit.com/video/@heimindanger/introducing-dtube-a-decentralized-video-platform-using-steem-and-ipfs
+
+
+[03-Mar-20 06:34 AM] LocoMB#8593
+I invited heimindanger#3942 from dtube over here - he asked if this is feasible for live streaming video, I wasnt sure
+
+
+[03-Mar-20 06:41 AM] jl777c#5810
+we have tested streaming and it works in some networks, not on the other. it can be made more robust with fancier retry algo, i just did it as a basic proof of concept, so it is still rough around the edges for streaming. however with a bit of work, i dont see any reason why a personal dexp2p network cant be used for streaming
+
+
+[03-Mar-20 06:41 AM] jl777c#5810
+reliably
+
+
+[04-Mar-20 04:31 AM] TonyL#3577
+Merged UX theme from @Regnar so it looks cool now 🔥  thanks a lot!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/684739922350964743/68747470733a2f2f692e696d6775722e636f6d2f663366453754622e706e67.png
+
+{Reactions}
+treasure (8) 💯 (9) shexy (8) 
+
+[04-Mar-20 08:40 AM] Tylor zkFS#8280
+Live streams seem to be in high demand
+
+{Reactions}
+👆 (2) 
+
+[04-Mar-20 08:38 PM] Regnar#6164
+got a test file up on p2pdex file share 😄
+
+
+[05-Mar-20 03:47 AM] TonyL#3577
+Made patch for GUI: 
+* Now ac_name is not hardcoded and you can select any on startup
+* Checking if selected filename is <= 15 symbols and printing relevant message
+* Added popup for download button callback
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/685091169868578818/unknown.png
+
+
+[05-Mar-20 03:50 AM] TonyL#3577
+Now I'll bundle it for windows and freeze this GUI development to switch to OTC application improvement.
+Looks like it's possible to upload/download files via this GUI relatively easy. If more improvement needed on this stage - feel free to open tickets with problems/bugs or feature requests there: https://github.com/tonymorony/P2PFileShare-Py/issues
+
+{Embed}
+https://github.com/tonymorony/P2PFileShare-Py/issues
+tonymorony/P2PFileShare-Py
+Contribute to tonymorony/P2PFileShare-Py development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[05-Mar-20 03:53 AM] TonyL#3577
+I can give 777 MCL bounty to anyone who record a video with file transfer between two machines and GUI usage from one end 🙂
+
+{Reactions}
+👍 (2) 
+
+[05-Mar-20 03:53 AM] TonyL#3577
+*single bounty - first come first served 😅
+
+
+[05-Mar-20 04:04 AM] TonyL#3577
+https://github.com/tonymorony/P2PFileShare-Py/releases/tag/0.0.2
+
+{Embed}
+https://github.com/tonymorony/P2PFileShare-Py/releases/tag/0.0.2
+tonymorony/P2PFileShare-Py
+Contribute to tonymorony/P2PFileShare-Py development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[05-Mar-20 11:59 PM] hakan aygun#8844
+Turkey again shot down one of the biggest website.. odatv.com) my need to p2p is increasing:(((
+
+
+[06-Mar-20 12:38 AM] jl777c#5810
+can you  try the release above and see if you can get it to work?
+
+
+[06-Mar-20 05:30 AM] hakan aygun#8844
+TonyL can u help me to try your release in www.hakanaygun.com if i give you editorial essentials🙏🏿because any programmer here doesn’t understand this too much also mine
+
+
+[06-Mar-20 05:46 AM] Tylor zkFS#8280
+Could you relay stream websites? I guess you could with requests...use dexp2p like VPN- that might help the live stream architecture- just kinda use the 8 node army/worker math - content provider <-8 nodes-> subscribers . The live streaming doesnt seem difficult, just maybe cumbersome with the relays causing a delay in the feed -- hmmm - time to draw up the flow. Do I have to hire devs to add more tags and or another unencrypted payload?
+
+
+[06-Mar-20 06:35 AM] TonyL#3577
+Dear @hakan aygun I don't have much web apps developing expertise + I don't think that this dexp2p can work via web in current stage (many modifications needed). Is desktop version a option for your users?
+
+
+[06-Mar-20 06:35 AM] TonyL#3577
+Installable client when you need to unzip it or run setup.exe and then run a program
+
+
+[06-Mar-20 06:37 AM] hakan aygun#8844
+Yes we can try it first but i need your help for my website to put your reşease inside it. Could u try it for me if i send u editorial authority
+
+
+[06-Mar-20 06:39 AM] hakan aygun#8844
+Just give me your email adress i will send u editorial things.. so meyba u can say if its possible to try your release in my website
+
+
+[06-Mar-20 06:40 AM] TonyL#3577
+I can just prepare very detailed guide and patch my program a little bit so even users who never used cryptocurrencies can try it (you may try it first and then decide if it usable enough to share it with your users). I'll work on it during the weekends and will write to you on Monday-Tuesday and we'll try to publish some of your videos in pilot mode.
+
+
+[06-Mar-20 06:40 AM] TonyL#3577
+Is it sounds fine?
+
+
+[06-Mar-20 06:41 AM] hakan aygun#8844
+Yepp🙏🏿
+
+{Reactions}
+👍 
+
+[06-Mar-20 06:41 AM] TonyL#3577
+@jl777c is it hard to make very special komodod version for this project which will not download zcash params or we need it for files broadcasting?
+
+
+[06-Mar-20 06:43 AM] TonyL#3577
+in general I may add check to GUI and download it as Agama wallet did in native mode but not sure if users will be happy to download it (especially if internet connection of them is not so good)
+
+
+[06-Mar-20 06:44 AM] hakan aygun#8844
+İ really dont know; just be my guide for what can i able to do🙏🏿🙏🏿
+
+{Reactions}
+👍 
+
+[06-Mar-20 06:44 AM] jl777c#5810
+it strictly doesnt need it, but i think it wont be easy to avoid downloading it. maybe someone can try?
+
+
+[06-Mar-20 06:44 AM] jl777c#5810
+i guess that is a pretty big blocker for normal users...
+
+
+[06-Mar-20 06:45 AM] TonyL#3577
+yeah for non-crypto users it's a blocker I think
+
+
+[06-Mar-20 06:46 AM] hakan aygun#8844
+Tks guys for your deep interest🙏🏿🙏🏿🙏🏿i listen what u offer to try and just obey🙏🏿
+
+
+[06-Mar-20 06:47 AM] TonyL#3577
+@hakan aygun Will try my best to deliver your voice with this young tech help 👍
+
+
+[06-Mar-20 06:47 AM] hakan aygun#8844
+İ aldo have the donain name of sahipsiz.tv and we can do sth new:))
+
+
+[06-Mar-20 06:48 AM] hakan aygun#8844
+Also domain:))
+
+
+[06-Mar-20 06:48 AM] hakan aygun#8844
+Tks tony🙏🏿🙏🏿
+
+{Reactions}
+👍 
+
+[06-Mar-20 06:39 PM] Mylo#8306
+Confirming the current barriers needing solution are:
+1. Remove zcash param check
+2a. Web streaming.
+2b. P2P web streaming.
+
+2a is solvable however it becomes centrally hosted and target for DoS.
+
+
+[07-Mar-20 07:09 AM] Mylo#8306
+for (1), @dukeleto gave some hints how to do it from this PR. thanks mate.
+https://github.com/jl777/komodo/pull/1584/commits/7c8f862d0dae82448c597bf49562704861e41cae
+
+{Embed}
+https://github.com/jl777/komodo/pull/1584/commits/7c8f862d0dae82448c597bf49562704861e41cae
+Avoid downloading 700MB groth16 params that we do not need by leto ...
+NOTE: Work in progress, needs more testing before merging.
+This is a port of this from the Hush codebase. I had to make some manual changes in fetch-params, which is different since Hush does not d...
+https://images-ext-2.discordapp.net/external/lcamaiqfGRT5SU8siXS61L2Rl4ej_oWAHAXE5zxwNlw/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/30298
+
+
+[07-Mar-20 07:13 AM] Mylo#8306
+Pinned a message.
+
+
+[07-Mar-20 07:14 AM] Mylo#8306
+pinned the first post (ANN) in this channel to save scrolling for ppl who want info.
+
+
+[07-Mar-20 11:07 AM] dukeleto#7326
+@Mylo i can probably help with removing the zcash param check, if i know the situation it needs to work in
+
+
+[07-Mar-20 11:08 AM] dukeleto#7326
+@jl777c perhaps ac_public=1 chains should not load zcash params, or there could be another CLI param to not load them
+
+
+[07-Mar-20 11:08 AM] dukeleto#7326
+if we can be sure there will never be a ztx to validate in a block and we never want to make a ztx, we never need to load the zcash params
+
+
+[07-Mar-20 11:30 AM] jl777c#5810
+yes, we can hinge it on ac_public=1 with first block having a recent timestamp!
+
+
+[07-Mar-20 11:30 AM] jl777c#5810
+that would be very good
+
+
+[07-Mar-20 11:38 AM] dukeleto#7326
+ok, i can make a patch for that. If ac_public=1 and a recent unix timestamp, do not load zcash params
+
+
+[07-Mar-20 12:26 PM] jl777c#5810
+if nTime of height 1
+
+
+[07-Mar-20 12:26 PM] jl777c#5810
+that way older chains that might need it would load it
+
+
+[07-Mar-20 12:26 PM] jl777c#5810
+or if needed, i guess just a special parameter
+
+
+[07-Mar-20 07:03 PM] dukeleto#7326
+@jl777c https://github.com/jl777/komodo/pull/1819
+
+{Embed}
+https://github.com/jl777/komodo/pull/1819
+Do not load zksnark params on ac_public chains by leto · Pull Reque...
+Params are loaded during app init before any block data is loaded, so I was not able to look for a recent unix timestamp in the first block.
+If necessary, this check could be deferred until block 1...
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[07-Mar-20 07:04 PM] dukeleto#7326
+WLC21 seems to work with that code. Looking at nTime of height=1 would be possible by deferring zk param loading until height=1 I guess, but I am not sure it is needed. What edge case does that catch?
+
+
+[07-Mar-20 07:05 PM] dukeleto#7326
+If some chain *becomes* ac_public=1 and wasn't before, I can see that being an issue
+
+{Reactions}
+treasure 💎 
+
+[07-Mar-20 09:34 PM] Mylo#8306
+champion @dukeleto - thanks for the circuitry comments in the code, so simple to grok
+
+
+[07-Mar-20 09:35 PM] Mylo#8306
+!kmdtip @dukeleto 10 for being a legend 😄
+
+{Reactions}
+👍 
+
+[07-Mar-20 09:35 PM] KMD TipBot#0077
+
+{Embed}
+TipBot
+@Mylo (Mylo#8306)
+You tipped @dukeleto **10 KMD**
+
+
+[08-Mar-20 04:09 AM] B. Gültekin Çetiner#0626
+I am not in favour of using and/or associating blockchain technologies such as dexp2p with/within a specific/personal political agenda and within official Komodo channel. As I told before, p2p broadcasting should be carefully studied and made a good business case as what Bittube does. We need to define the business requirements first. This will help better to achieve Komodo vision for a peaceful decentralized World.
+
+
+[08-Mar-20 04:17 AM] B. Gültekin Çetiner#0626
+This is Bittube tv. I suggest revising this project and solving problems that are not solved yet. https://bittube.tv
+
+{Embed}
+https://bittube.tv/
+Home
+Take back control of your content. Create it. Link it. Monetize it!
+https://images-ext-1.discordapp.net/external/wWopMCfRTZ9vQoGygzm0M-UXBmm8G21FvcwclWzGOOU/https/bittubers.com/images/bittube_logo.png
+
+
+[08-Mar-20 04:27 AM] B. Gültekin Çetiner#0626
+https://bittube.tv/about
+
+{Embed}
+https://bittube.tv/about
+About
+About BitTube
+https://images-ext-1.discordapp.net/external/wWopMCfRTZ9vQoGygzm0M-UXBmm8G21FvcwclWzGOOU/https/bittubers.com/images/bittube_logo.png
+
+
+[08-Mar-20 04:30 AM] B. Gültekin Çetiner#0626
+I tried to follow this project since the beginning. Here is the history. https://bittube.tv/about/history
+
+{Embed}
+https://bittube.tv/about/history
+about history
+about BitTube history
+https://images-ext-1.discordapp.net/external/wWopMCfRTZ9vQoGygzm0M-UXBmm8G21FvcwclWzGOOU/https/bittubers.com/images/bittube_logo.png
+
+{Reactions}
+KMD 
+
+[08-Mar-20 04:37 AM] B. Gültekin Çetiner#0626
+I think dexp2p might be a good opportunity to create such a generic Komodo based TV platform. But it is really challenging as you can imagine.
+
+
+[08-Mar-20 04:37 AM] jl777c#5810
+it does appear to be a lot of work required and will need community members to step up to achieve it
+
+{Reactions}
+👍 
+
+[08-Mar-20 04:39 AM] B. Gültekin Çetiner#0626
+Bittube is based on Monero fork and since they have no smart contract such as CC they did many things centrally. This is my guess.
+
+
+[08-Mar-20 04:44 AM] B. Gültekin Çetiner#0626
+https://www.google.com/amp/s/www.way2earning.com/2019/01/earn-money-bit-tube-review/
+
+{Embed}
+https://www.google.com/amp/s/www.way2earning.com/2019/01/earn-money-bit-tube-review/
+How To Earn Money With Bit.Tube : Review, Best YouTube Alternative
+Bit.Tube review : The content creators or publishers can earn rewards from visitors watch time. Users can earn for watching videos.
+https://images-ext-1.discordapp.net/external/H3S_B6yiVtJ-i2h0k8bmCwlq99-vOdOSfH0lUuJrtmQ/https/www.way2earning.com/wp-content/uploads/2019/01/Webp.net-compress-image-50.jpg
+
+
+[08-Mar-20 04:48 AM] B. Gültekin Çetiner#0626
+Miners produce and from miners they do somehow distribute certain amount to people. Instead of that, there may be smart contract to make content creator, watcher to earn. Also there will be videos to be shared. People who provide storage may also be given incentives. The idea of staking as in Marmara might be useful.
+
+
+[08-Mar-20 05:16 AM] B. Gültekin Çetiner#0626
+I think the most critical part is to meet the gigantic amount of storage needs in such a project. Who will provide the storage? How will they be incentivised? Will there be adds? If so how will rewards be distributed? There are many cases to be decided.
+
+
+[08-Mar-20 05:17 AM] B. Gültekin Çetiner#0626
+Decentralization in storage might be solving problem.
+
+
+[08-Mar-20 05:18 AM] B. Gültekin Çetiner#0626
+I think providers of storage should be incentivised as much as content creators. I think This issue is not solved in Bittube.
+
+
+[08-Mar-20 05:19 AM] dukeleto#7326
+@Mylo thanks for the tip, much appreciated. Let me know if I can help further
+
+{Reactions}
+👍 
+
+[08-Mar-20 05:21 AM] B. Gültekin Çetiner#0626
+You are most welcome. There are, of course also other basic issues such as streaming, video editing, etc.
+
+
+[08-Mar-20 05:42 AM] dukeleto#7326
+I am best utilized at the KMD/ZEC/BTC internals layer, since I know it like the back of my hand 🙂
+
+{Reactions}
+👍 
+
+[08-Mar-20 07:31 AM] Tylor zkFS#8280
+Advertisers @B. Gültekin Çetiner - that's the solution, with micropayments to the storage and delivery nodes -- BOOM!!! I am looking for a team to implement this exact solution. @Nabob | $ARRR do we have any takers yet?
+
+{Reactions}
+👍 
+
+[08-Mar-20 07:33 AM] B. Gültekin Çetiner#0626
+But we should not forget the content creators and viewers, too. It should be a win-win for all stakeholders.
+
+
+[08-Mar-20 07:45 AM] Tylor zkFS#8280
+Content provider also get paid in the parallel payment- viewers are leachers and only get paid when their node also shares the "data"
+
+
+[08-Mar-20 07:45 AM] Tylor zkFS#8280
+The tech is already here, it just needs assembled.
+
+
+[08-Mar-20 07:51 AM] Tylor zkFS#8280
+There will/could even be a payment to the founders of such system - pretty simple actually. Architecture of the live streams and the growing network of Viral data needs built. Looking for DEVs to help with the back end including playlist organizing, Ad integration, and parallel payments to the 8 closest selected nodes to the leacher.
+
+
+[08-Mar-20 07:58 AM] Tylor zkFS#8280
+Maybe you can get devs from the big Dtube and Bittube to help
+
+
+[08-Mar-20 08:17 AM] Nabob | $ARRR#5004
+we are in discussion with  developers to help build  project around p2p streaming. hope we may get on track soon with no more delays.need to bring positive ideas and talent. Buddy developers who are unaware of blockchain world may need some time to get on the code and need some guidance to mould them.
+
+
+[08-Mar-20 08:33 AM] Tylor zkFS#8280
+I guess plug in ad network and parallel payments to existing file share system. Then we can work on architecture for live data streams - just a good MVP to start the ball rolling
+
+
+[08-Mar-20 08:43 AM] Tylor zkFS#8280
+Oh yeah - flowchart first - shit
+
+
+[08-Mar-20 08:51 AM] hakan aygun#8844
+Tks gultekin hoca for advices...
+
+
+[08-Mar-20 09:25 AM] B. Gültekin Çetiner#0626
+>>> Maybe you can get devs from the big Dtube and Bittube to help
+
+
+[08-Mar-20 09:26 AM] B. Gültekin Çetiner#0626
+I don’t know developers from them
+
+
+[09-Mar-20 03:59 AM] LocoMB#8593
+I don't believe that Bittube will be successful- I had 2 or 3 BTC worth of it ~2yrs ago and I hung out on the discord:
+it is a Berlin registered company, and there were censorship battles raging on there even 2 yrs ago, plus an echo chamber of deluded fanboys, so I bailed out with a nice green zero, and then it dumped..
+maybe they got a solid plan going since then, but I'd be surprised...
+
+{Reactions}
+👍 (2) 
+
+[09-Mar-20 05:52 AM] B. Gültekin Çetiner#0626
+That is why there is an opportunity for Komodo with a new vision for this business.
+
+
+[09-Mar-20 06:19 AM] Mylo#8306
+@Regnar @TonyL  
+http://git.videolan.org/?p=vlc/bindings/python.git;a=blob;f=examples/tkvlc.py;h=55314cab09948fc2b7c84f14a76c6d1a7cbba127;hb=HEAD
+this is a vlc embed python tk-inter thing
+
+
+[09-Mar-20 06:21 AM] Mylo#8306
+with the p2p file sharing, might be a solution.
+nginx+rtmp can also work for live streaming somewhere to look
+
+
+[09-Mar-20 12:42 PM] Regnar#6164
+I might not be following right now, the app is a way to upload/download p2p files, for that any 3rd party video software should work. What would be the goal for integrating video software into the app?
+
+How different are downloads vs streaming?
+
+
+[10-Mar-20 10:11 PM] hakan aygun#8844
+Once user download the app, then cencorship doesn’t work inside it also by the help of the p2p system... that’s the poşnt i guess:)
+
+
+[10-Mar-20 10:16 PM] hakan aygun#8844
+And also just like utorrent system, if user automatically becomes a peer when start watching, that will be very user friendly... :)) @TonyL  @jl777c
+
+
+[11-Mar-20 04:07 AM] Mylo#8306
+Simply product development.
+
+1. Files p2p 
+2. Payments
+3. Watch
+4. Rating
+5. Discoverability
+
+Leaving it as files p2p and sending payment during this iteration may be enough for 100 testers.
+
+
+[11-Mar-20 04:20 AM] TonyL#3577
+Unfortunately I'm very time limited from this week because of upcoming elections and hardupdate - maybe someone from community can help to adjust this GUI for such needs 
+Repo is there: https://github.com/tonymorony/P2PFileShare-Py
+
+{Embed}
+https://github.com/tonymorony/P2PFileShare-Py
+tonymorony/P2PFileShare-Py
+Contribute to tonymorony/P2PFileShare-Py development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[11-Mar-20 04:08 PM] Regnar#6164
+I guess I mean I don't know how the app supports streaming right now? I get if you are downloading a video file, you could view in the app with VLC, but wouldn't it be lighter and make more sense to just let them use their native video viewer software?
+
+
+[11-Mar-20 05:21 PM] Mylo#8306
+streaming not gonna work p2p without more app work tbh.  webtorrent works, but streaming was a (web) server solution for hosting files.
+the app, watching vid simply to have the file browser & viewer in same app.  then be able to add further functionality (payments, ratings, download progress)
+
+"lighter" yes.  depends what the goals for this project are in what timeframe.
+for a proof-of-concept, adding video watching i thought was a good idea.
+for 100 testers, video watching can be done in external viewer, get user feedback. find funding/partners.
+
+depends on direction of projects & who wants what for how much resources/effort spent.
+
+
+[11-Mar-20 05:57 PM] Tylor zkFS#8280
+If you are talking live streams the serving nodes will need organized by ping times / internet speed / rating and retry logic needs improved
+
+
+[11-Mar-20 06:00 PM] Tylor zkFS#8280
+Thinking outside the box I will guess joe q public probably wouldnt be a great candidate for helping serve live streams at high quality. So completely random probably isn't the best solution for the architecture
+
+
+[11-Mar-20 06:03 PM] Tylor zkFS#8280
+Up and down Speed tests to distribute to best 8 candidate nodes to start then spread it to 64 when demand is needed... then 640,000 if its viral... I have some logic thought about but no devs to talk to abour implementation yet
+
+
+[11-Mar-20 07:34 PM] Mylo#8306
+live streams & streaming in general adds a lot extra.
+a single web host, streaming a pre-recorded file is as far as i've looked into.
+ivanontech are looking at p2p streaming options, but looking at eth ecosystem for solutions because of market & defi space there.
+
+
+[11-Mar-20 07:34 PM] Mylo#8306
+☝️ said on his vid a day or two ago
+
+
+[11-Mar-20 07:35 PM] Mylo#8306
+https://webtorrent.io/ already exists btw
+
+{Embed}
+https://webtorrent.io/
+WebTorrent - Streaming browser torrent client
+WebTorrent, the streaming torrent client for the browser, Mac, Windows, and Linux
+https://images-ext-2.discordapp.net/external/dZeQx_zP85nQ7JCqBggsQ-KUTUrQ_nCszEQOCN6DqQA/https/webtorrent.io/img/WebTorrent.png
+
+{Reactions}
+👌 
+
+[11-Mar-20 07:37 PM] Mylo#8306
+& https://instant.io/
+
+
+[11-Mar-20 07:43 PM] Regnar#6164
+I've definitely used webtorrent before. It is built into Brave browser
+
+
+[11-Mar-20 07:43 PM] Regnar#6164
+```DEXP2P
+
+DEXP2P works as a real time decentralised p2p orderbook and millions of orders can be displayed without clogging down the p2p network. It’s a great solution for atomicDEX orderbook, it opens up great possibilities. One of them is live streaming of videos or any other files.
+```
+<https://medium.com/paradigm-fund/komodo-approaching-2020-notary-node-election-dexp2p-ama-for-komodo-blockchain-training-9ee49f24dbbf>
+
+
+[11-Mar-20 07:58 PM] Mylo#8306
+yes.  for resources available, maybe leave it for files only, test it for 100 users, see what results etc.
+
+
+[11-Mar-20 10:04 PM] hakan aygun#8844
+At first i just want to try small size videos to share p2p as jl777 said and try to find 100 native users (maybe a few strong nodes with strong servers) ... and then other things? Like livestream, like coining, like put şt into an app... so need someone to put codes inside www.hakanaygun.com and this will be just an experiment:)) i don’t cry for first results:)) tks all guys and sorry that i am not a technic guy 🙈but just trust my content provider side pls🙏🏿
+
+
+[13-Mar-20 12:24 PM] polycryptoblog#1173
+Gave a mention to sahipsiz in video I did with crypto rich,  should be out soonish
+
+{Reactions}
+👍 
+
+[13-Mar-20 04:01 PM] ph03nix#3115
+what is the meaning of the word sahipsiz?
+
+
+[13-Mar-20 04:02 PM] ComputerGenie#7004
+<https://en.wiktionary.org/wiki/sahipsiz>
+?
+
+{Reactions}
+rum 
+
+[14-Mar-20 06:59 AM] Voight#4922
+Lol who named this channel?
+
+
+[14-Mar-20 07:00 AM] Voight#4922
+It means derelict
+
+
+[14-Mar-20 07:03 AM] Voight#4922
+Alson means masterless
+
+
+[14-Mar-20 07:10 AM] ComputerGenie#7004
+I'm told "ownerless" is also an acceptable translation
+
+{Reactions}
+👍 
+
+[14-Mar-20 07:29 AM] hakan aygun#8844
+Ownerless is true:)
+
+
+[15-Mar-20 11:32 AM] Regnar#6164
+https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/
+
+{Embed}
+https://www.howtogeek.com/118075/how-to-stream-videos-and-music-over-the-network-using-vlc/
+VLC includes a fairly easy-to-use streaming feature that can stream music and videos over a local network or the Internet. You can tune into the stream using VLC or other media players.
+https://images-ext-2.discordapp.net/external/D71_PmPSrZcLgzyXA6plS2x8zUaukGunlOzyyOQ2iDw/https/www.howtogeek.com/thumbcache/2/200/bf448e503984646c4bc8bb20cb4ed4dd/wp-content/uploads/2012/07/image49.png
+
+
+[15-Mar-20 11:32 AM] Regnar#6164
+technically couldn't you just list your IP/port and the name of the stream and just connect that way?
+
+
+[15-Mar-20 12:20 PM] jl777c#5810
+if you had a node that had unlimited bandwidth
+
+
+[15-Mar-20 12:20 PM] jl777c#5810
+and could handle large number of outbound streams at once
+
+
+[15-Mar-20 02:01 PM] Regnar#6164
+yea good point
+
+
+[15-Mar-20 02:10 PM] SHossain#0007
+getting an unlimited bandwidth hosting soon. would be good for some testing.
+
+
+[15-Mar-20 02:10 PM] SHossain#0007
+that would have 100Mbps constant speed with 1Gbps burst
+
+
+[16-Mar-20 10:44 PM] OswaldTheIllustrious#7716
+This sounds like a great project
+
+
+[18-Mar-20 01:16 PM] Regnar#6164
+Thought of a cool idea to raise some community awareness of this. @TonyL what if we post some .txt files with chunks of a Seed phrase with some KMD in the address, and users can download the python app and attempt to download them, and claim the coins?
+
+{Reactions}
+🆒 (2) 
+
+[18-Mar-20 08:23 PM] Mylo#8306
+Of different coins & trade them on atomicdex
+
+
+[19-Mar-20 01:51 AM] TonyL#3577
+@Regnar yeah, thats sounds like a cool idea - probably it's possible to combine with some #cryptopuzzle 
+I can fund such bounty from my NN funds if somebody prepare the quiz, instructions and etc.
+
+{Reactions}
+👍 
+
+[19-Mar-20 03:49 AM] hakan aygun#8844
+Now i am practising sth it on youtube but still waiting  for help to rescue from youtube:))
+
+AÇIKLIYORUM! TÜRKİYE'DE KORONAVİRÜS'TEN İLK ÖLEN KİM VE HANGİ İLİMİZDEN!  youtu.be/5DW-hFMrkA8
+
+MESiH HASAN MEZARCI: islamı siyasal islam bitirdi, harun gibi geldiler, karun oldular
+https://youtu.be/pZJpLzXOTmA
+
+Mesih hasan mezarcı: camiler kapatılmalı, günahkarlar bana gelsin, hastalar doktora gitmeli. Koronavirüsle zinanın ve eşcinselliğin alakası yok!
+https://youtu.be/5n1fuDc3IZc
+
+
+GELiR FIRSATI İÇİN SON 200 ABONE BEKLİYORUM. KANALIMA ABONE OLUN, SANSÜRSÜZ KORONA HABERLERİNİ ÖNCEDEN İZLEYEN OLUn
+Youtube.com/hakanayguntv
+
+{Embed}
+hakan aygun
+https://www.youtube.com/watch?v=pZJpLzXOTmA
+''MESİH'' HASAN MEZARCI: İSLAMI SİYASAL İSLAM BİTİRDİ; HARUN GİBİ G...
+''MESİH'' HASAN MEZARCI: İSLAMI SİYASAL İSLAM BİTİRDİ; HARUN GİBİ GELDİLER KARUN OLDULAR!
+https://images-ext-1.discordapp.net/external/eLCI3gttUEzZShfnr60eHEzGHh5E8ki7qOrN1biP4p0/https/i.ytimg.com/vi/pZJpLzXOTmA/maxresdefault.jpg
+
+{Embed}
+hakan aygun
+https://www.youtube.com/watch?v=5n1fuDc3IZc
+MESİH HASAN MEZARCI: CAMİLER KAPATILMALI; GÜNAHKARLAR BANA GELSİN, ...
+MESİH HASAN MEZARCI: CAMİLER KAPATILMALI; GÜNAHKARLAR BANAGELSİN, HASTALAR DOKTORA GİTSİN!
+https://images-ext-1.discordapp.net/external/AMuKMJ4VzPNsgbiEU-N-6udOyzAocUl9VhjWQKWyU38/https/i.ytimg.com/vi/5n1fuDc3IZc/maxresdefault.jpg
+
+
+[22-Mar-20 04:42 PM] Regnar#6164
+Started throwing together a video player within the app. Having a bit of trouble getting the video to output to the app frame instead of popping up it's own window
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/691431576780669009/dexp2p_demo.png
+
+{Reactions}
+👍🏻 
+
+[22-Mar-20 04:42 PM] Regnar#6164
+And yes, that's Rick Astley
+
+
+[22-Mar-20 05:04 PM] ph03nix#3115
+i've been rick rolled :2561_feelsevilman:
+
+
+[22-Mar-20 05:14 PM] Regnar#6164
+I've been rick rolling myself every few minutes testing this...
+
+{Reactions}
+troll_king (3) 
+
+[22-Mar-20 05:25 PM] Regnar#6164
+So this would obviously be for downloaded videos, but as for live streams, how exactly would that work with DEXP2P?
+
+
+[22-Mar-20 05:34 PM] Regnar#6164
+https://github.com/johang/vlc-bittorrent
+
+{Embed}
+https://github.com/johang/vlc-bittorrent
+johang/vlc-bittorrent
+A bittorrent plugin for VLC. Contribute to johang/vlc-bittorrent development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/Ep2bYCMzLo2HXkdvPdnwMNo3W5uoUdX90pJhKIVaFR8/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/41016
+
+
+[22-Mar-20 06:28 PM] Mylo#8306
+Video streaming @gcharang @SHossain tested. I don’t know the details but depends on the video container/codec. mkv was used
+
+
+[22-Mar-20 06:29 PM] Mylo#8306
+I link to techloverhd blog describing their work from here https://ikomodo.com/p2p-streaming-with-vlc/
+
+{Embed}
+iKomodo Mylo
+https://ikomodo.com/p2p-streaming-with-vlc/
+P2P Streaming With VLC on Komodo DEX Technology - iKomodo P2P
+This is a relayed story from the TechLoverHD blog. This is a continuation of the blobs of data p2p transmission for sending and receiving. This has been actively developed from late December 2019 through to present time of writing. The tech team at Komodo has been testing with...
+https://images-ext-2.discordapp.net/external/pObFKHcb0BQKTfDlLqhuIHXqPc12jRFrP5hTQVedufc/%3Ffit%3D1452%252C748%26ssl%3D1/https/i1.wp.com/ikomodo.com/wp-content/uploads/2020/01/Komodo-p2p-Live-Streaming-Ubuntu-VLC-Player.png
+
+{Reactions}
+aw_yeah 
+
+[22-Mar-20 06:49 PM] hakan aygun#8844
+Still waiting sb to try p2p in my website hakanaygun.com ... corona days at home (unfortunately!) good time to work on it at home:(
+
+
+[22-Mar-20 07:03 PM] gcharang#6833
+@Mylo @Regnar 
+how to live stream and playback: <https://docs.komodoplatform.com/basic-docs/smart-chains/smart-chain-tutorials/streaming-dexp2p.html>
+
+{Reactions}
+👍 💎 🤘 
+
+[22-Mar-20 07:05 PM] gcharang#6833
+introduction can be skipped. the sections "How to stream" and "How to watch a stream" have all the needed steps
+
+
+[22-Mar-20 07:09 PM] hakan aygun#8844
+İt seems very very ready to try in my website?
+
+
+[22-Mar-20 07:16 PM] Regnar#6164
+That's pretty awesome actually!
+
+
+[22-Mar-20 07:18 PM] hakan aygun#8844
+Gültekin hocaaa🙏🏿
+
+
+[22-Mar-20 07:23 PM] Regnar#6164
+This is super helpful docs. I can totally see how a GUI with video could be helpful for this
+
+{Reactions}
+👀 👍 
+
+[22-Mar-20 09:37 PM] Mylo#8306
+when it's closer to public testing, we can use a chain without zcash params download required too!
+
+
+[22-Mar-20 10:57 PM] hakan aygun#8844
+What can i do for my website to try this? Who can help me ?
+
+
+[22-Mar-20 11:04 PM] gcharang#6833
+@hakan aygun as far as I understand it, there is no way for a website alone to use this technology to stream videos. You can publish instructions to your viewers on your website and they will have to install software on their desktops to view any live stream.
+
+
+[23-Mar-20 12:07 AM] gcharang#6833
+btw, @Regnar the streaming solution is not robust enough for general use right now. jl recommends the publish/download flow for sahipsiz
+https://discordapp.com/channels/412898016371015680/682519762995118080/682520780827000902
+>  i think it is best to use the file publish and subscribe method
+<https://docs.komodoplatform.com/basic-docs/smart-chains/smart-chain-tutorials/publish-download-files-dexp2p.html>
+create a video file using whatever means. The file can be published, downloaded p2p using dexp2p. this works well
+
+I am not familiar with Tkinter or anyother py gui framework. so, I am starting work on a vuejs/nuxt/vuetify/electron GUI right now. I am familiar with  vuejs/nuxt/vuetify but not electron(the thing that lets web pages be desktop apps). so, not sure how long till a working prototype
+
+{Reactions}
+👍 (2) 
+
+[23-Mar-20 04:54 AM] Regnar#6164
+That's good, I've been working with tkinter because I know Python and TonyL had been cruising along with proof of concepts built in tkinter
+
+
+[23-Mar-20 05:15 AM] hakan aygun#8844
+Sony62 nerdesin
+
+
+[23-Mar-20 09:22 AM] hakan aygun#8844
+After all this, i think i have to find an angular vue react js programmer for building a player for html5 site and putting  it inside my hakanaygun.com
+
+
+[23-Mar-20 09:58 AM] ismet2911#7973
+Hi
+
+
+[23-Mar-20 10:07 AM] hakan aygun#8844
+Hi
+
+
+[01-Apr-20 05:18 AM] gcharang#6833
+GUI is coming along nicely. only the publish page is done. will upload to github after every page (settings/downloader/dashboard) gets the bare minimum functionality. should be able to do that by the coming monday. once packaging for different OS's is figured out for this one, GUIs for all the available Antara modules can be created very easily as well. only requirement is be able to code in js and know some vue. Vue is very easy for someone who already knows js and it is fun to work with
+
+Disclaimer: this isn't anything secure, but should be good enough for quick prototyping and showcase of new tech. None of our cc are supported by a GUI right now and that results in the majority of our community not being able to experience them
+
+{Attachments}
+https://cdn.discordapp.com/attachments/682519762995118080/694883275319017472/Screenshot_from_2020-03-31_21-30-27.png
+
+{Reactions}
+👍 (7) 
+
+[01-Apr-20 05:32 AM] grewalsatinder#9653
+nice work @gcharang 👍
+
+{Reactions}
+awthanks 
+
+[01-Apr-20 05:56 AM] Regnar#6164
+Some of the CCs have GUIs (subatomic, channels, sudoku, dice) but yea not all of them. I think having a consistent themed Komodo GUI for various CCs would be awesome. Maybe we should just make a GUI dashboard for all Komodod...
+
+
+[01-Apr-20 06:00 AM] gcharang#6833
+> Maybe we should just make a GUI dashboard for all Komodod
+that's in my todo list as well
+
+
+[01-Apr-20 06:52 AM] Regnar#6164
+@gcharang what did you use to make that GUI?
+
+
+[01-Apr-20 06:53 AM] Regnar#6164
+I feel like I should learn some js
+
+
+[01-Apr-20 06:59 AM] gcharang#6833
+<https://github.com/michalzaq12/electron-nuxt>
+this is boiler-plate code that creates your initial directory. it will already have most of the dependencies needed to make a desktop gui .
+on top of that, you need to know vuejs.
+
+the specifics:
+the programming language -> js
+cross platform GUI creation -> electron
+frontend logic and interface with komodod & sqlite(db) -> vuejs
+something to make working with vuejs easier -> nuxt
+UI components -> vuetify (this is the thing responsible for the perfectly arranged tabs and theme. I'm aesthetically challenged, so couldn't design those components if my life depended on it 😅 )
+
+the list is large, but the only thing you **need** to know is js lol. the rest are there to make your life easier
+
+
+[01-Apr-20 07:09 AM] Regnar#6164
+cool, going to take a js course on codecademy today and read the w3 tutorial lol
+
+
+[01-Apr-20 07:11 AM] gcharang#6833
+I would suggest this: <https://developer.mozilla.org/en-US/docs/Web/Tutorials>
+w3 is kinda bad/outdated for js
+
+{Reactions}
+👍 
+
+[01-Apr-20 07:13 AM] Regnar#6164
+cool I'll take a look now. I like w3 based on how simple the site is set up. plus I like the w3.css framework
+
+
+[01-Apr-20 08:02 AM] Mylo#8306
+Nice work @gcharang , nice boilerplate to kickstart electron project.
+
+{Reactions}
+👍 
+
+[01-Apr-20 08:23 AM] gcharang#6833
+and thx @Mylo for suggesting vuepress for the docs and suggesting vue/nuxt/vuetify as UI enhancements
+
+
+[01-Apr-20 04:39 PM] Mylo#8306
+all good brother. it's a complete set of tools/ecosystem to build on in an iterative and upskilling way.
+next thing to keep your eye on is https://deno.land/
+it will be released more public sometime this Q.  it will somewhat appease the javascript-phobiacs.
+integrates with v8 and rust.  keep it on your radar for the rest of this year imo.
+
+{Embed}
+https://deno.land/
+Deno
+Deno is a secure JavaScript and TypeScript runtime
+
+{Reactions}
+👍 
+
+[10-May-20 05:01 AM] hakan aygun#8844
+Turkey’s Government put me into prison just because of a tweet not including any harrasment etc, just a political critics. After 5 weeks i am free again. And my need for p2p/ blockchain based uncenseorable   Media growing. lets help me again to try codes on my web page hakanaygun.com🙏🏿
+
+{Reactions}
+😔 (3) 
+
+[10-May-20 05:33 AM] grewalsatinder#9653
+damn, that's bad to hear. hope you are doing fine
+
+
+[10-May-20 05:34 AM] Mylo#8306
+@hakan aygun welcome back - there is progress in the p2p streaming in tests.
+
+
+[10-May-20 05:35 AM] Mylo#8306
+what software do you currently use for live streaming?
+
+
+[10-May-20 05:35 AM] Mylo#8306
+to control your camera & sound.
+
+
+[10-May-20 05:37 AM] CrisF#3405
+Sorry to hear that, @hakan aygun.  I hope you are ok.  
+It is inspiring to see you back at such a worthy cause.
+
+
+[10-May-20 07:21 AM] hakan aygun#8844
+Ecamm on my computer.. but i think you mean on my website?? People here said i need a html player?? Can u look at hakanaygun.com?
+
+
+[16-May-20 05:13 AM] hakan aygun#8844
+Is there anybody out there:)
+
+
+[16-May-20 07:01 PM] grewalsatinder#9653
+yes
+
+
+[21-May-20 02:36 PM] Regnar#6164
+@gcharang how's that GUI coming along?
+
+
+[21-May-20 10:06 PM] gcharang#6833
+stalled for now, was busy working on other things. will try to get a mvp out by next week
+
+
+[22-May-20 05:14 AM] Regnar#6164
+no worries, just thought it was cool looking
+
+
+[25-May-20 03:33 AM] Paro#7842
+@hakan aygun https://github.com/thetatoken/videojs-theta-plugin-example
+
+{Embed}
+https://github.com/thetatoken/videojs-theta-plugin-example
+thetatoken/videojs-theta-plugin-example
+Contribute to thetatoken/videojs-theta-plugin-example development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/RP_XMf61FihgBuSDYIKgniRJWiQIqzqCddk1FWp8bSM/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/32890952
+
+
+[19-Aug-20 05:52 AM] hakan aygun#8844
+Komodo
+
+
+[19-Aug-20 05:54 AM] grewalsatinder#9653
+Komodo
+
+
+[27-Aug-20 04:47 AM] Tylor zkFS#8280
+Komodo
+
+
+[05-Sep-20 03:17 AM] Crabby Paddy#6239
+Komodo
+
+
+[06-Sep-20 03:30 AM] Cryptoon#3362
+Komodo
+
+
+[06-Sep-20 07:27 PM] Tylor zkFS#8280
+Komodo DexDefi
+
+
+[07-Sep-20 05:15 AM] Tylor zkFS#8280
+@gcharang where GUI? is it connected to subatomic payments? can you get a MVP started so I can get some DEVs on it? explaining all this would take weeks..  PLEASE
+
+
+[07-Sep-20 08:55 AM] gcharang#6833
+@Tylor zkFS it is stalled for a long time now. will take a look this week and give you the source for a MVP version. I started working on it for just the file share though. but, it can be extended to do file vs coin swaps as mylo pointed in the other channel. 
+
+it is a js/electron/vue app, and I was making it as something for demos and community testing btw, not as a end user product
+
+
+[07-Sep-20 04:07 PM] Tylor zkFS#8280
+Please if you find time - content provider sets price dexp2p gets paid, 8 seeders get paid (if they are picked). Content providers get paid.All with micropayments subatomic with zCoinage.....i can pm you my basic thoughts for "EdgeP2P" ....i have it all written somewhere... @gcharang
+
+
+[01-Nov-20 06:18 AM] hakan aygun#8844
+Please keep on working🙏🏿
+
+
+[01-Nov-20 06:28 AM] alkimi#1111
+not sure what's been going on here, but I'm wicked interested so I'll be looking into it and eventually helping however I can
+
+
+[08-Dec-20 04:25 AM] hakan aygun#8844
+Yes please
+
+
+[13-Feb-21 01:53 PM] Regnar#6164
+Something somewhat relevant here
+https://news.ycombinator.com/item?id=26124236
+
+{Embed}
+dennis-tra
+https://news.ycombinator.com/item?id=26124236
+Show HN: Peer-to-Peer data transfer tool based on libp2p
+Hacker News
+
+
+[13-Feb-21 01:53 PM] Regnar#6164
+<https://github.com/dennis-tra/pcp>
+
+{Reactions}
+👍 (2) 
+
+[16-Dec-21 07:08 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is there anything updates to this project? Did it go private?
+
+
+==============================================================
+Exported 387 message(s)
+==============================================================

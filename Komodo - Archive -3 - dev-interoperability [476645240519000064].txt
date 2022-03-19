@@ -1,0 +1,567 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -3 / dev-interoperability
+Topic: Discussion about Komodo Interoperability technology.
+==============================================================
+
+[02-Oct-18 11:56 PM] CrisF#3405
+Hi, could someone please explain interoperability in the context of this channel?
+
+
+[03-Oct-18 12:35 AM] CrisF#3405
+Anything to do with clusters?
+
+
+[03-Oct-18 12:39 AM] KomodoWorld#8282
+I think it's a new tech to be announced, recently there was an image posted in marketing with an obvious spoiler
+
+
+[03-Oct-18 12:40 AM] Deleted User#0000
+ETH was being notarised to KMD... maybe that something... but thats anoher libscott project so I guess we are waiting for him to come back on that one too, my eth notarizer stopped working on latest update.
+
+
+[03-Oct-18 12:43 AM] KomodoWorld#8282
+The spoiler was "Interchain bridges" or something similar, prob interoperability w non-KMD based blockchains
+
+{Reactions}
+👌 
+
+[03-Oct-18 01:05 AM] CrisF#3405
+Ahh, ETH-bridge, thanks!
+
+
+[11-Oct-18 08:09 PM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+Once ive figure out how to get my custom inflation algo into a kmd asset-chain, ill be spending 90% of my time here
+
+
+[12-Oct-18 05:07 AM] Mylo#8306
+@ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵 use crypto-conditions.   Send the block reward to a crypto condition address then you can do your DoI-SMS thing at any stage.   There’s a response back in the pioneers discord
+
+
+[14-Oct-18 01:42 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+I feel a bit foolish leaving the server then. I had no idea someone had replied.
+
+
+[14-Oct-18 01:43 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+@Mylo im in the process of moving interstate. Workstation is packed away already.
+
+
+[14-Oct-18 01:43 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+Ill be back to work in a fortnight... long drive ahead of me
+
+
+[14-Oct-18 01:45 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+Ive almost been able to reboot peercoin with a very long 'else if' for the inflation model.
+
+
+[14-Oct-18 01:46 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+I have shortlist of codebases i want to test this on. Thing is i dont know any about coding outside of using tutorials and stackoverflow to break my way to something functioning.
+
+
+[14-Oct-18 01:47 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+I know its very simple stuff doing it. Ive gone through the code for countless coins. A few use else ifs. Anyway... ive got too many ideas and no one to help ke develop them.
+
+
+[14-Oct-18 01:47 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+The idea of launching zerozed was to somehow self finance and prove the model at the same time
+
+
+[14-Oct-18 01:48 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+All ive done is ended up been evicted and about 10 grand in debt
+
+
+[14-Oct-18 01:50 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+Anyways. Ill be back in a couple of weeks to continue on. Peter bushnel of ftc is rebase me to bitcoin abc pretty soon and at that point ill have time to spend on these 2 other coins and the kmd asset chain
+
+
+[14-Oct-18 04:07 AM] Mylo#8306
+@ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵 all good man.  but yes, don't be so hasty in leaving after posting useful info - ya never know when ppl will respond.   the google doc much more useful for my reading than the medium post (less reading, straight to details).
+
+OK - what crypto conditions (CC) allows you to do is make custom consensus.  so in the case of DoI-SMS, mine to a CC address (a "smart contract" but more powerful because of it's capabilities) and then redistribute based on whatever algorithm you use.
+
+Perhaps the best way to move foward at the moment is:
+ - pick any programming language
+ - simulate the distribution in a loop (e.g. for loop, while etc.)
+ - print out the stats to a file (e.g. csv or json)
+ - have a pretty graphs (either using excel, d3 or plotly) to show what actually happens
+ - be able to modify the parameters in the loop
+
+This exercise will give you uncomplicated programming practise.
+
+When another programmer can see what is going on, to port it to say C++ would be much easier to collaborate than to try and implement it from just a whitepaper of sorts.
+
+Collaboration is key and so is looking after yourself.   We are all in it for the long game, the debt is just a number - as long as it is managed.  If management of that to you is paying it all out over 3-6 months - great.   If it's a 5 year loan at $50/month, cool.
+
+All the best in the drive etc.
+
+
+[14-Oct-18 04:08 AM] Mylo#8306
+```
+Hmmmm I wonder if you are deleted user Calem, cannot mention you.
+I remember jl777 saying that the different block reward eras could make and approximate curve.
+Verus coin had an interesting launch and block rewards locking feature for the early miners.  Currently BR are 24 and not locked.
+
+I’m not sure the block reward is the place for your DoI-SMS tbh.  Using a crypto condition, it would be able to lock block rewards and redistribute them according to anything you want, over time in portions to the miner, or according to off-chain data oracle-ized shared out (again over time and also cumulatively recalculate this period) like mining pool shares, to spread the distribution or “water down” the concentration of high payout BR to early miners.
+```
+👆 from the pioneers discord
+
+
+[14-Oct-18 04:10 AM] jl777c#5810
+changing blockreward is easily done by making changes to the blockreward function. no need for any complex CC
+
+
+[14-Oct-18 04:15 AM] Mylo#8306
+I think i read DoI-SMS in the context of the BR being shared out, and my thoughts went to the infographic competition - where some of the prize money (5x100KMD) went to other ppl.  So in the case of miners with BR, they can be diffused to other parties involved.   Maybe i am complicating it.
+
+
+[14-Oct-18 04:45 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+`int64 static GetBlockValue(int nHeight, int64 nFees)
+
+{
+double nSubsidy = 1 * COIN;
+double nsubsidy_function = 0;
+double Xheight = 0;
+
+if (nHeight == 1)
+{
+nSubsidy = 2000000.0 * COIN;
+}
+
+else if (nHeight > 1 && nHeight < 1274030)
+{
+Xheight = nHeight * 0.0000038051750381;
+nsubsidy_function = ((3583.5719028332051*(pow(Xheight,8))) -(67959.212902381332*(pow(Xheight,7))) + (500144.30431838805*(pow(Xheight,6))) -(1806581.9194472283*(pow(Xheight,5))) + (3537339.4754780694*(pow(Xheight,4))) -(4712758.2800668897*(pow(Xheight,3))) + (4535015.6408610735*(pow(Xheight,2))) + (834937.06954081857*Xheight) + (1000845.7073113875));
+nSubsidy = ((floor((nsubsidy_function*(1.0/60000.0)*0.33757734955)*100.0))/100.0) * COIN; // our emission curve [no. of coins per block]
+}
+
+else
+{
+nSubsidy = 0 * COIN;
+}
+
+return nSubsidy + nFees;
+}`
+
+
+[14-Oct-18 04:46 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+Is what is currently running in the scrypt implimentation of the model
+
+
+[14-Oct-18 04:46 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+I know double is bad for money calculations. We plan on fixing that...
+
+
+[14-Oct-18 04:51 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+https://cdn.discordapp.com/attachments/474325895449149460/500663829231829003/Final_Coin_Emmision_Schedule_by_month.ods
+
+
+[14-Oct-18 04:51 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+Not sure if that will open. Im stuck on mobile
+
+
+[14-Oct-18 06:16 AM] ミカ 🎗 🅼🅸🅲🅰🅷 | ❤😈🎵#5181
+Watching that recent yt upload. Reminded me to mention that the inflation model i want to test as an asset chain, id like to have it as proof of stake as it seems that should be possible.
+
+
+[14-Oct-18 06:32 AM] Mylo#8306
+Interesting, I don’t do any cpp stuff atm but see how things go for the rest of the month in codebase exploration
+
+
+[10-Dec-18 04:14 PM] Deleted User#0000
+@libscott @jl777c 
+```UniValue crosschainproof(const UniValue& params, bool fHelp)
+{
+    UniValue ret(UniValue::VOBJ);
+    //fprintf(stderr,"crosschainproof needs to be implemented\n");
+    return(ret);
+}
+```
+Whats the status on this?
+I am assuming this is the RPC I would need to use to verify a tx from another chain on a chain? Say a list of notarisation txids is sent to an oracle, I can use this RPC to make sure that each notarisation actually happened?
+
+
+[10-Dec-18 04:15 PM] Deleted User#0000
+I want to make a very basic cross chain contract..
+
+
+[10-Dec-18 04:15 PM] Deleted User#0000
+But the functionality seems not implemented.
+
+
+[11-Dec-18 01:17 AM] jl777c#5810
+I noticed that too. not sure its status nor its intended usage
+
+
+[11-Dec-18 01:17 AM] jl777c#5810
+in gateways CC I do a cross chain proof using the existing rpc calls
+
+
+[11-Dec-18 01:51 AM] Deleted User#0000
+ah ok cool. I will look at gateways as an example then. Thanks 😃
+
+
+[11-Dec-18 01:56 AM] jl777c#5810
+gatewaysdeposit
+
+
+[11-Dec-18 01:57 AM] jl777c#5810
+top of gateways.cpp has some details as to what info is needed
+
+{Reactions}
+👍 
+
+[15-Dec-18 08:11 PM] Deleted User#0000
+😦
+
+
+[16-Dec-18 02:32 AM] ComputerGenie#7004
+@Deleted User  nExpiryHeight and valueBalance have been added, so they must be accounted for
+https://github.com/zcash/zips/blob/master/zip-0243.rst#example
+
+{Embed}
+https://github.com/zcash/zips/blob/master/zip-0243.rst
+zcash/zips
+Zcash Improvement Proposals. Contribute to zcash/zips development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/QPRkPDZ0P8HYtO4CeaEVJF0ANfqYgXKpk3VxiNKYmhw/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/16122764
+
+
+[16-Dec-18 02:34 AM] ComputerGenie#7004
+That's why it's a "hard fork", sometimes you simply can't add things without changing the "old" things
+
+
+[16-Dec-18 04:13 AM] ComputerGenie#7004
+👍🏽
+
+
+[16-Dec-18 04:14 AM] ComputerGenie#7004
+Found that yesterday when my UTXO consolidater stopped working because of manual setting lock time for raw
+
+
+[13-Jan-19 07:18 PM] Exile13#4458
+Ya’ll are awesome, just sayin
+
+
+[08-Mar-19 01:53 AM] Nixgeschenkt#9372
+Does anyone in here know InternetOf coins? They have a multicurrency wallet with crosschainfunction. It's OpenSource and Komodo should be now problem to include they said. As I am no Dev by myself maybe one of you might have a look at it? Could be another KMD wallet in future? https://internetofcoins.org/blog/multi-ledger-api-live
+
+{Embed}
+https://internetofcoins.org/blog/multi-ledger-api-live
+Multi Ledger API live now! | Internet of Coins | Open and decentra...
+. Same mission, same team, different name. The engine that we have been building since the crowdfund in 2017 is publicly available from now on. We have decided to call this engine hybrix. . . Hybrix is a Multi Ledger API. Check out more on hybrix.io. The wallet. We have built...
+https://images-ext-1.discordapp.net/external/rmxA7omI9ic-9Q5rQZP7gHFpCEe5oXbrQccWXZ5Avo0/https/internetofcoins.org/user/pages/03.blog/multi-ledger-api-live/pressPackage_Gradient_Laag%25203.jpg
+
+
+[10-Mar-19 08:29 AM] PTYX#6840
+that's pretty cool
+
+
+[10-Mar-19 08:40 AM] Mylo#8306
+interesting.   
+https://github.com/imylomylo/komodo-cakeshop if it were updated more often connects to all KMD assetchains, BTC protocol coins.   It's a bit dumb, but could be one part of a solution hybrix offers (if it supported eth + waves etc.)
+
+{Embed}
+https://github.com/imylomylo/komodo-cakeshop
+imylomylo/komodo-cakeshop
+Komodo Cakeshop - Ecosystem Projects - PoC. Contribute to imylomylo/komodo-cakeshop development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[09-Aug-19 07:46 AM] lelonex#7376
+Hi I am an active member of Zclassic Community, 
+
+I am looking for a solution to use Callisto-Network Smart-Contracts from our Blockchain to design an Hybrid-Ecosystem around or main core. I designed a solution including a Side-chain connected with the Atomic-swaps but I would like to check the feasibility of the project I designed.
+
+
+[09-Aug-19 07:47 AM] lelonex#7376
+Who's can help me to study the possibility to use Komodo interoperability to achieve the goal?
+
+
+[09-Aug-19 07:52 AM] lelonex#7376
+ps.: I am mainly interested to understand the possibility to convert the token/info in both direction Zclassic <[Komodo]> Callisto
+
+
+[09-Aug-19 07:54 AM] jl777c#5810
+it callisto supports CLTV opcode, it should work with atomicDEX, but i remember one of the zclassic type of coins changed all their vouts to need some strange extra data. if ZCL is one of those it is nonstandard and would require a special handling
+
+
+[09-Aug-19 07:55 AM] lelonex#7376
+@jl777c it is similar Zcash, we share the same code
+
+
+[09-Aug-19 07:58 AM] jl777c#5810
+then it should just work
+
+
+[09-Aug-19 07:58 AM] lelonex#7376
+we need to write a slice of system to evolve community in developement partecipation without changing the main purpose of the chain: keeping Zclassic 100% community driven
+
+
+[09-Aug-19 07:58 AM] jl777c#5810
+read the readme: https://github.com/jl777/coins
+
+{Embed}
+https://github.com/jl777/coins
+jl777/coins
+coin parameters and all files needed for GUI support - jl777/coins
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[09-Aug-19 07:59 AM] lelonex#7376
+I check your info. I share your suggestions with our new IT leader Vic.
+
+
+[09-Aug-19 08:01 AM] lelonex#7376
+Thanks a lot
+
+
+[10-Aug-19 03:41 AM] lelonex#7376
+@jl777c what kind of info a swap can share between blockchain to have a full interoperability? Is it possible to interact to a Smart-contract of a specific foreign blockchain? 
+
+ex. If I would like to interact with Callisto ChainLink hub from Zclassic.. can I use Atomic-Swaps as a "proxy" to route disposal to a specific contract on the foreign blockchain?
+
+
+[10-Aug-19 03:45 AM] jl777c#5810
+probablly not. atomicDEX is designed to do cross chain swaps of coins
+
+
+[10-Aug-19 03:45 AM] lelonex#7376
+https://developers.atomicdex.io/basic-docs/atomicdex/atomicdex-api.html#buy
+
+{Embed}
+https://developers.atomicdex.io/basic-docs/atomicdex/atomicdex-api.html
+DEX API | AtomicDEX Documentation
+Documentation for developers building on AtomicDEX
+
+
+[10-Aug-19 03:46 AM] lelonex#7376
+mumble.. I suppose it is spectacular if it is possible to send infos too as interact
+
+
+[10-Aug-19 03:47 AM] lelonex#7376
+to have a complete ""routing""
+
+
+[10-Aug-19 03:48 AM] hyperDEX#6586
+I thought Zclassic was just a zcash fork?
+
+
+[10-Aug-19 03:48 AM] lelonex#7376
+yes, It is
+
+
+[10-Aug-19 03:58 AM] hyperDEX#6586
+Silly question but what do you use the smart contract for? Why not just use komodo CC on a new chain that you migrate to?
+
+
+[10-Aug-19 03:59 AM] hyperDEX#6586
+You could then get dPoW and once james finishes his mining diff algo, you would not get diff stranded any more
+
+
+[10-Aug-19 04:07 AM] jl777c#5810
+-ac_adaptivepow is in beta testing now. arguably the best DAA
+
+
+[10-Aug-19 04:07 AM] jl777c#5810
+single CPU can unstrand a chain from any level of diff stranding
+
+
+[10-Aug-19 04:07 AM] jl777c#5810
+massive hashrate increase only gets 3 or 4 blocks before being stopped with diff adjustment that can 600x each block
+
+
+[10-Aug-19 04:09 AM] hyperDEX#6586
+The DAA improvements will bring in more smaller coin communities that need it 😃
+
+
+[10-Aug-19 04:33 AM] lelonex#7376
+we have an improvement about 51% attack reduction. we are testing it. we got an implementation about 2 weeks ago 😃 
+
+my question is about  interoperability and the ability to access to Smart-contacts system using a mediator
+
+
+[12-Sep-19 08:08 PM] ph03nix#3115
+https://consensys.net/research/avoiding-blockchain-balkanization/
+
+{Embed}
+https://consensys.net/research/avoiding-blockchain-balkanization/
+Avoiding Blockchain Balkanization | ConsenSys Research
+Why blockchain protocol interoperability is nothing short of a fundamental requirement to realize the potential of the technology.
+https://images-ext-2.discordapp.net/external/ACnnYm86ZXUgiZXKgCDDNSLktWG5RzZE3hPFwMzp3J8/%3Fssl%3D1%26resize%3D1200%2C630/https/i0.wp.com/content.consensys.net/wp-content/uploads/avoiding-blockchain-balkanization.png
+
+
+[26-Sep-19 06:05 PM] bench#9811
+How is the process of listing a new coin on the DEX ?
+
+
+[26-Sep-19 07:02 PM] polycryptoblog#1173
+@bench  send a mail to partners@komodoplatform.com with more information on the coin and I will forward you to the appropriate service provider
+
+
+[14-Feb-20 11:24 PM] CrisF#3405
+Here's Forbes' take on Interoperability
+`https://www.forbes.com/sites/richardgendalbrown/2020/02/13/the-five-ingredients-of-blockchain-interoperability/#53c9a3f058a1`
+
+
+[01-Apr-20 01:07 PM] STEM#0752
+Hello @polycryptoblog , i just wrote an email as advised upper.
+We'd like to make a listing request for D4RK coin (utxo based, created in 2018).
+As far as i understand there's a PR to make in jl777/coins repo.
+I see what to do, except the swaps/KMD-D4RK.md file (i suppose there has to be a first successful swap tx if i understand).
+
+May you share the procedure so i can initiate a correct PR please ?
+Thanks and keep up the good -decentralized- work !
+
+
+[01-Apr-20 02:58 PM] polycryptoblog#1173
+@STEM  Hello, just saw your email.  Will forward it to the service provider.
+
+
+[01-Apr-20 03:06 PM] STEM#0752
+@polycryptoblog thanks !
+
+
+[22-Feb-21 12:42 PM] collars#0538
+hi @polycryptoblog     - can you help with a coin integration for the DEX?
+
+Im a dev from GoByte coin,   GBX  (3 years old blockchain,  DASH codebase)
+
+Ive had a look through the docs and just wondering the best place to start with the integration?
+
+any help and guidance would be much appreciated.
+
+
+[22-Feb-21 01:06 PM] polycryptoblog#1173
+Hi, yes one sec
+
+
+[22-Feb-21 01:07 PM] polycryptoblog#1173
+https://github.com/KomodoPlatform/coins
+
+{Embed}
+https://github.com/KomodoPlatform/coins
+KomodoPlatform/coins
+coin parameters and all files needed for GUI support - KomodoPlatform/coins
+https://images-ext-1.discordapp.net/external/22LglkYqJGgf5n05qZ_ycizyn0hhH24aNCqZC6jt6CI/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/21276113
+
+
+[22-Feb-21 01:12 PM] polycryptoblog#1173
+To get integrated you will need to complete a swap with the coin.  The required info needed for you to make a swap locally is in the link above.  Once that is done it can be added to desktop version.  For mobile version there is a cost.  You can email partners@komodoplatform.com for any followup questions or if you are looking for mobile integration as well
+
+
+[22-Feb-21 01:14 PM] collars#0538
+that's great,  thanks  for the info  👍 
+
+for desktop version integration,  does that need done by the core team?  is there a process for that after the initial swap completion?
+
+for mobile version,  do you know the price?
+
+
+[22-Feb-21 01:22 PM] polycryptoblog#1173
+For desktop just need to submit the pull request.  For mobile integration cost is 6500$ +1k a year maintenance
+
+
+[22-Feb-21 01:27 PM] polycryptoblog#1173
+Paying for Mobile includes desktop integration.
+
+
+[22-Feb-21 02:02 PM] collars#0538
+ok,  will look into it all further,  cheers for the help  @polycryptoblog
+
+{Reactions}
+👍 (2) 
+
+[14-Jun-21 07:45 PM] Guiseppe#5907
+What steps would I need to take given this scenario:
+
+1. I have my own blockchain using Komodo that has it's own coin FISHCOIN
+2. I have a token on my chain called TROUT
+3. I want to swap in BEP20 tokens from BSC to my chain, where I then swap the BSC tokens for either TROUT or FISHCOIN
+
+I'm unclear about how I would bridge the BSC tokens to my blockchain. Would the BEP20 tokens just be a tokenized representation of the real BEP20 tokens on the BSC chain?
+
+How could I take ownership of those BEP20 tokens?
+
+(My project has already publicly offered BEP20 tokens but I want to get them off BSC and onto Komodo but we need a mechanism to swap in existing token holders etc.)
+
+
+[14-Jun-21 10:40 PM] Mylo#8306
+i think it's BEP20 token -> native smartchain COIN
+
+
+[14-Jun-21 10:40 PM] Mylo#8306
+i am also looking to do the same thing with a group of people with a game.
+
+
+[14-Jun-21 10:40 PM] Mylo#8306
+BEP20 is for liquidity
+
+
+[14-Jun-21 10:40 PM] Mylo#8306
+KMD smartchain for game
+
+
+[15-Jun-21 02:35 AM] gcharang#6833
+Atomicdex allows you trade BEP20 tokens vs KMD smart chain coins.
+so,  create 1:1 maker orders for  FISHCOIN vs BEP20 token on Atomicdex. then, you can create on-chain orders for Trout vs Fishcoin
+
+
+[15-Jun-21 07:48 AM] cipi#4502
+keep in mind that txes on BEP20 still cost something, even if it's only 5-15 cents, but if you need to do lots of transactions, you are still better off with UTXO coins
+
+
+[15-Jun-21 07:52 AM] cipi#4502
+does not look like the KMD concept with the assetchains will get any competition in terms of transaction fees
+
+
+[15-Jun-21 10:37 AM] Guiseppe#5907
+Ok cool, so I function as the market make and it's all good. Awesome!
+
+{Reactions}
+👍 
+
+[15-Jun-21 10:37 AM] Guiseppe#5907
+I love Komodo more and more each day.
+
+
+[15-Jun-21 07:51 PM] Mylo#8306
+yeah kmd smartchain is great for application level stuff
+
+
+[30-Jul-21 04:05 PM] lausiv#2362
+Hello, how can i develop AMM defi like pancakeswap using komodo Atomicswap API? Assuming user can easily set the liquidity pool like pancakeswap, no installation
+
+
+[31-Jul-21 02:19 AM] gcharang#6833
+AMM functionality is not available in AtomicDEX currently. AtomicDEX deals with only cross chain swaps right now and that doesn't lend itself to a easy AMM like system
+
+
+[04-Aug-21 08:36 PM] lausiv#2362
+Thanks. Could u suggest the idea about how to lend itself easily?
+
+
+[11-Jan-22 06:40 PM] mediast#1110
+Hey Everyone.  Is anyone working on an EVM interface for Komodo chains?  We switched to Komodo nearly two years ago (were attracted by a number of features, but interoperability was high in our list), but it seems as though we're now at a disadvantage due to no evm support.
+
+
+[11-Jan-22 06:41 PM] mediast#1110
+I'm actually considering switching again 🤦‍♂️
+
+
+[11-Jan-22 11:39 PM] smkhound#7640
+https://komodoplatform.com/en/blog/smart-contracts-vs-smart-chains/
+
+{Embed}
+https://komodoplatform.com/en/blog/smart-contracts-vs-smart-chains/
+Smart Contracts vs. Smart Chains: Sept 18, 2018 Tech Tuesday Update
+Everyone knows what smart contracts are and how they work but not so many people are familiar with Smart Chains. In this Tech Tuesday Update, we will cover the differences of smart contracts vs. Smart Chains.
+https://images-ext-2.discordapp.net/external/Nd-CaqDpEus0tj1geWWxZSHyFCpjyLRHNNFhyHjTtNI/https/komodoplatform.com/en/blog/content/images/2021/07/default_komodo_960x480-50-86.jpg
+
+
+[11-Jan-22 11:41 PM] smkhound#7640
+That article is from a couple of years ago, and smartchain dev has been progressing smoothly.
+If you have a specific operation you are looking to implement, it's likely that it can be developed, you just need to ask the right questions and talk to the right developers.
+
+
+==============================================================
+Exported 102 message(s)
+==============================================================
