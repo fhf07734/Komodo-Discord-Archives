@@ -1,0 +1,3889 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / pirate_private
+==============================================================
+
+[06-Oct-18 03:12 AM] SHossain#0007
+@FishyGuts Here you go.
+
+
+[06-Oct-18 03:12 AM] SHossain#0007
+Who else should be in here?
+
+
+[06-Oct-18 03:33 AM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/498080402829737984/chat_list.JPG
+
+
+[06-Oct-18 03:34 AM] FishyGuts#5085
+Whoever else you feel is critical to helping build or able to help the team out.  
+I will have the art guy and my computer savvy buddy (helps me ) join this weekend too.
+
+
+[06-Oct-18 04:13 AM] grewalsatinder#9653
+aha!!! 😃
+
+
+[06-Oct-18 04:13 AM] grewalsatinder#9653
+ahoy!
+
+
+[06-Oct-18 05:19 AM] SHossain#0007
+:realpirate:
+
+
+[06-Oct-18 07:18 AM] webworker01#3884
+thank you for the invite
+
+
+[06-Oct-18 07:18 AM] webworker01#3884
+waiting to hear back from jorian still re: the logo contest
+
+
+[06-Oct-18 11:12 AM] FishyGuts#5085
+Sounds good.   I also DM'd you too.   Glad to do the announce and take any flak or questions.  Just redirect to me.   You guys have more important things to do.
+
+
+[06-Oct-18 01:32 PM] FishyGuts#5085
+Can someone here fill out this webform for me,  someone who knows the code?
+https://www.cheddur.com/coin
+It's at this site.   You can use this below for the description and change or add to it as you please.  I don't know some of the answers at the bottom of the page.  
+
+I want to know how we can go about getting our Equihash coin added to your calculator.  
+Currently, in less than 6 weeks, we are the 3rd highest hash rate of any equihash coin.  
+We are also the most secure, we feel, in terms of privacy as well as security with dPoW from Komodo securing our chain to Bitcoins hashrate.
+We are not listed on exchanges but we have an API that is updated twice daily on confirmed Minimum market purchase price.
+This is what Crypto-Coinz will be using as well as any other integration sites until we get on an exchange.
+Here is the API : 
+https://dexstats.info/api/pirateprice.php 
+Here is the base purchase site being used for onboarding new pirates which is based on the lowest OTC price at the time: 
+https://dexstats.info/onboarding.php
+Please let me know what you would need to integrate the coin into your calculators. 
+Thank you for your time and consideration,
+
+{Embed}
+https://www.cheddur.com/coin
+Cheddur
+Add a new coin to Cheddur. All submissions must be verified by Cheddur's moderators.
+https://images-ext-1.discordapp.net/external/VRosoHOsI13YUqRD391jrU6f-XtpqHCa9grpR4lobyw/https/s3.amazonaws.com/cheddur/images/seo_metadata/cheddur_og_image_compact-2.jpg
+
+{Embed}
+https://dexstats.info/onboarding.php
+Dexstats Dashboard - BarterDEX and Komodo ECO System
+Onboard to PIRATE
+
+
+[06-Oct-18 01:33 PM] FishyGuts#5085
+let me know when it's submitted and I will mark it in trello. Thank you.
+
+
+[06-Oct-18 03:59 PM] FishyGuts#5085
+Guys.   We will be listed in a few days on this mining calculator.  What changes do you want to see on this small announcement @Senda made?
+
+
+[06-Oct-18 03:59 PM] FishyGuts#5085
+https://cdn.discordapp.com/attachments/494624371835535388/498267893687910400/COINZ.NET7.jpg
+
+{Embed}
+https://cdn.discordapp.com/attachments/494624371835535388/498267893687910400/COINZ.NET7.jpg
+https://media.discordapp.net/attachments/494624371835535388/498267893687910400/COINZ.NET7.jpg
+
+
+[06-Oct-18 03:59 PM] FishyGuts#5085
+Let him know here and we will post it tomorrow once we’re listed.
+
+
+[06-Oct-18 04:00 PM] FishyGuts#5085
+I’m off for the night.  Be good, pirates.
+
+
+[07-Oct-18 01:29 AM] jl777c#5810
+something I realized most people probably dont know:
+maybe many people assume that zaddr are visible on the blockchain like taddr are. they are not
+the way it works is that each node has a set of zaddr/privkey pairs in their wallet
+then for EVERY ztransaction, they try to decrypt it. if they can, it is a transaction for that wallet and it is processed
+so the zadddr exists in the blockchain only by being able to decrypt transactions encrypted to that zaddr
+
+
+[07-Oct-18 02:19 AM] Mylo#8306
+Are all these statements correct @jl777c ?
+
+the zaddr is only known to exist if:
+ - you are the person that holds the privkey
+ - you sent funds to a zaddr owned by someone else
+ - you publish the zaddr somewhere for others to see (e.g. the web)
+
+the blockchain properties of PIRATE (or any z-only blockchain):
+ - no amounts are disclosed except for the block reward to the miner which goes to a t-addr and then from that t-addr are shielded to a z-addr known only to the person doing the shielding
+ - the transactions details (sender/receiver) are encrypted, not viewable by a third party
+ - only the node/wallet with the privkeys to decrypt a transaction can see transaction details
+
+
+[07-Oct-18 06:44 AM] jl777c#5810
+no
+
+
+[07-Oct-18 06:46 AM] jl777c#5810
+it is asymmetric. the sender will know both their zaddr and the destination zaddr, amount, txid. but the receiver wont know what zaddr sent the funds to them, well not easily. maybe it is possible to know this, but on the receive side the txid/amount/memo are all that is visible
+
+
+[07-Oct-18 07:02 AM] jl777c#5810
+probably it is possible for the destination node to determine who sent though, so I am not sure on this point
+
+
+[07-Oct-18 07:44 AM] Mylo#8306
+Ok thanks.  I’ll double check between nodes and revise the point form summary.  Cheers
+
+
+[07-Oct-18 08:09 AM] FishyGuts#5085
+What about the graphic guys?   No one feeling it?    We should be listed by the end of today.
+
+
+[07-Oct-18 08:10 AM] FishyGuts#5085
+https://cdn.discordapp.com/attachments/494706629703368704/498414599750549506/COINZ.NET_quadrat2.jpg
+
+{Embed}
+https://cdn.discordapp.com/attachments/494706629703368704/498414599750549506/COINZ.NET_quadrat2.jpg
+https://media.discordapp.net/attachments/494706629703368704/498414599750549506/COINZ.NET_quadrat2.jpg
+
+
+[07-Oct-18 08:11 AM] FishyGuts#5085
+We even put in a pirate whale 👍
+
+
+[07-Oct-18 08:16 AM] webworker01#3884
+ok i believe i have all the logo funds collected now and ready to distribute
+
+
+[07-Oct-18 08:21 AM] FishyGuts#5085
+Let me know.   I’m getting my flak jacket and helmet ready
+
+
+[07-Oct-18 08:21 AM] webworker01#3884
+do you want me to send to you ?
+
+
+[07-Oct-18 08:21 AM] webworker01#3884
+the graphic is ok
+
+
+[07-Oct-18 08:22 AM] webworker01#3884
+slightly on the "young" side
+
+
+[07-Oct-18 08:27 AM] FishyGuts#5085
+Yes it’s a bit youthful.
+
+
+[07-Oct-18 08:27 AM] FishyGuts#5085
+Cartoony and playful.
+
+
+[07-Oct-18 08:28 AM] FishyGuts#5085
+Just tell me who won web and what amounts and I’ll handle it. 👍you can send out or send to me.  I think I DMd you the pirate marketing address.
+
+
+[07-Oct-18 09:16 AM] webworker01#3884
+got it, sending now
+
+
+[07-Oct-18 09:34 AM] webworker01#3884
+my suggestion that's hopefully fair is : 2500 to ignacio, hermes, llama and wookie, 1000 to whomever made the orange skull
+
+
+[07-Oct-18 09:34 AM] webworker01#3884
+i think that was your friend @FishyGuts
+
+
+[07-Oct-18 09:52 AM] FishyGuts#5085
+I know the guy yes.  I think that is fair, especially since it started as a winner take all 😃
+
+
+[07-Oct-18 09:53 AM] FishyGuts#5085
+Wookie knows he didn't break the rules, but that he may have walked the plank outside the spirit of the competition... and therefore the prize reduction is fine.
+
+
+[07-Oct-18 09:53 AM] FishyGuts#5085
+It's a temp logo and we will certainly work the more popular P eyepatch into the final design since it was popular with the community overall.
+
+
+[07-Oct-18 11:47 AM] FishyGuts#5085
+Crypto Rich wants to do an interview.... any one here up for it?
+
+
+[07-Oct-18 11:47 AM] FishyGuts#5085
+He asked about availability tomorrow.
+
+
+[07-Oct-18 11:54 AM] SHossain#0007
+How about jl777 answering his scripted question prepared beforehand? jl777 did one like that few months ago.
+
+
+[07-Oct-18 11:54 AM] SHossain#0007
+(just idea)
+
+
+[07-Oct-18 11:57 AM] FishyGuts#5085
+I did mention that as well.   We’re in emails now.   Any more ideas or thoughts are welcome
+
+
+[07-Oct-18 11:57 AM] SHossain#0007
+@webworker01 We have an issue with `komodod.exe`. it crashes when we issue `komodo-cli.exe -ac_name=PIRATE help`. Would you please have a look if you can identify the issue when you have some time?
+
+
+[07-Oct-18 11:58 AM] webworker01#3884
+i will try to load it up in windows
+
+
+[07-Oct-18 11:58 AM] webworker01#3884
+doesn't crash on ubuntu
+
+
+[07-Oct-18 11:58 AM] SHossain#0007
+Thank you very much
+
+
+[07-Oct-18 11:59 AM] webworker01#3884
+will need a bit, have to find my notes on the windbg stuff
+
+
+[07-Oct-18 11:59 AM] SHossain#0007
+let me check on Linux
+
+
+[07-Oct-18 11:59 AM] SHossain#0007
+just a min
+
+
+[07-Oct-18 12:07 PM] SHossain#0007
+@webworker01 Linux is fine
+
+
+[07-Oct-18 12:07 PM] SHossain#0007
+no issue here
+
+
+[07-Oct-18 12:50 PM] FishyGuts#5085
+Guys... is a wallet plugin feasible/possible with the zaddr only?  I would really like to work on getting one made unless someone here knows how and can make it happen.  I’d rather pay a bounty to you all than someone else.
+
+
+[07-Oct-18 02:35 PM] webworker01#3884
+syncing on windows @SHossain
+
+{Reactions}
+shexy 
+
+[07-Oct-18 02:36 PM] webworker01#3884
+what do you mean by wallet plugin @FishyGuts
+
+
+[07-Oct-18 03:08 PM] FishyGuts#5085
+I meant shop plugin
+
+
+[07-Oct-18 03:08 PM] FishyGuts#5085
+Not wallet oops.
+
+
+[08-Oct-18 03:14 AM] CHMEX#0686
+Two ideas let me know what you think. Ultimate goal is to increase the trx count on PIRATE.
+- I can setup a (fee) nodes that just sends trx to the network. 1440 trx per node per day is possible. 
+- Setup a faucet that sends little ARRR. 
+Both increases the trx count.
+
+
+[08-Oct-18 03:16 AM] jl777c#5810
+i think the onboarding bots will do this for us
+
+
+[08-Oct-18 03:17 AM] jl777c#5810
+if you can detect a repeat usage and limit it to 0.777 KMD in that case, it seems we will get all the spam tx we want and paid for by the onboarder
+
+
+[08-Oct-18 03:20 AM] CHMEX#0686
+Lovley
+
+
+[08-Oct-18 03:22 AM] jl777c#5810
+it will consume a lot of CPU resources though, so adjust the pricing as needed to cover the incremental cost
+
+
+[08-Oct-18 06:00 AM] webworker01#3884
+yes for some reason `komodo-cli -ac_name=PIRATE help` crashes komodod, will make a debug build, found my notes
+
+
+[08-Oct-18 06:04 AM] jl777c#5810
+in windows only as far as I have heard
+
+
+[08-Oct-18 06:06 AM] webworker01#3884
+yes, well i don't have a mac to test that but worked fine in ubuntu
+
+
+[08-Oct-18 06:45 AM] SHossain#0007
+i'll test the macOS version today
+
+
+[08-Oct-18 08:17 AM] webworker01#3884
+apparently my notes weren't good enough, getting `configure: error: libdb_cxx headers missing, Bitcoin Core requires this library for wallet functionality (--disable-wallet to disable wallet functionality)` on both ubuntu 16 and 18 machines when trying compile for win
+
+
+[08-Oct-18 08:18 AM] webworker01#3884
+fwiw i'm pretty sure the issue is not just for pirate, i tried to run help with HODL and it also crashed komodod on win
+
+
+[08-Oct-18 08:20 AM] SHossain#0007
+are you following these steps for cross-compile?
+```
+sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-openssl-dev bsdmainutils automake curl cmake mingw-w64
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
+rustup target add x86_64-pc-windows-gnu
+git clone https://github.com/jl777/komodo --branch jl777 --single-branch
+cd komodo
+./zcutil/fetch-params.sh
+# -j8 = using 8 threads for the compilation - replace 8 with number of threads you want to use
+./zcutil/build-win.sh -j8
+#This can take some time.
+```
+
+
+[08-Oct-18 08:20 AM] webworker01#3884
+not exactly that but close, the error seems to be related to berkleydb version
+
+
+[08-Oct-18 08:21 AM] webworker01#3884
+i'll try that rustup target line though i didn't have that
+
+{Reactions}
+👍🏽 
+
+[08-Oct-18 08:55 AM] webworker01#3884
+same error
+
+
+[08-Oct-18 08:56 AM] webworker01#3884
+i must have upgraded bdb via apt at some point
+
+
+[08-Oct-18 08:56 AM] webworker01#3884
+will have to come back to this later
+
+
+[08-Oct-18 09:56 AM] grewalsatinder#9653
+@FishyGuts I will not go on public facing interview for pirate. 🙂
+
+
+[08-Oct-18 09:56 AM] grewalsatinder#9653
+I can help answer questions for pirate in text.
+
+
+[08-Oct-18 09:57 AM] grewalsatinder#9653
+being in NZ, I have to be now even extra careful, to be not found easily online.
+
+
+[08-Oct-18 09:57 AM] grewalsatinder#9653
+the content I have published, I'll filter and may be take offline some of it.
+
+
+[08-Oct-18 10:15 AM] FishyGuts#5085
+Send to me what you want me to crosspublish on our medium.  
+And yes, I kind of figured that you wouldn't be able to go.
+
+
+[08-Oct-18 10:17 AM] grewalsatinder#9653
+I don't have any written content to publish yet. 🙂
+
+
+[08-Oct-18 10:18 AM] grewalsatinder#9653
+if crypto rich can be here I'm pretty sure he'll get loads of content and info
+
+
+[08-Oct-18 02:38 PM] Mylo#8306
+@grewalsatinder you can be a pirate ghost writer https://en.wikipedia.org/wiki/Ghostwriter
+
+{Embed}
+https://en.wikipedia.org/wiki/Ghostwriter
+Ghostwriter
+A ghostwriter is hired to write literary or journalistic works, speeches, or other texts that are officially credited to another person as the author. Celebrities, executives, participants in timely news stories, and political leaders often hire ghostwriters to draft or edit ...
+https://images-ext-2.discordapp.net/external/KgBPzbEuwsaTf1XsOLXk_f_JaWx_z6ko3lHmxYpHdBA/https/upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Tom_Clancy_at_Burns_Library%252C_Boston_College.jpg/1200px-Tom_Clancy_at_Burns_Library%252C_Boston_College.jpg
+
+
+[08-Oct-18 03:13 PM] FishyGuts#5085
+Hey everyone... Who would I ask about making a daily faucet?
+
+
+[08-Oct-18 03:17 PM] FishyGuts#5085
+Also, anyone here know someone capable of making simple web games?
+
+
+[08-Oct-18 03:18 PM] FishyGuts#5085
+@grewalsatinder 
+
+Would you! ? !    Make a ghostwriter account with a pirate name.
+
+
+[08-Oct-18 07:05 PM] FishyGuts#5085
+Talked to ptyx about the faucet.  
+
+Anyone know a simple or burdgeonung web game developer?
+
+
+[09-Oct-18 12:07 AM] Mylo#8306
+@FishyGuts https://drive.google.com/open?id=1OEah-57oA01uRNLEiigEvxbFTRXL3Ya6 that’s what we’ll use for scaling test
+
+
+[09-Oct-18 12:08 AM] Mylo#8306
+Etomic faucet is run by artem
+
+
+[09-Oct-18 12:09 AM] Mylo#8306
+Pbca runs faucets for beer, pizza, coqui.  Ask him plus a button in agama desktop that claims from whatever faucet u get.
+
+
+[09-Oct-18 12:10 AM] Mylo#8306
+For the button, make a github issue
+
+
+[09-Oct-18 12:13 AM] Mylo#8306
+Have a look around https://construct.net it’s a GUI programming env.  No programming skill required
+
+{Embed}
+https://construct.net/.
+Make Your Own Games ★★★★★
+Create your own games with Construct. Our tools will empower you to make building 2D games easy no matter your experience level. Start your free trial today!
+https://images-ext-1.discordapp.net/external/78865DHKYoPFIrqotuKEYzpr2CnzUKmGG5e-5iqE-ZY/https/s1.construct.net/images/v540/siteicons/ogg-image.png
+
+
+[09-Oct-18 12:13 AM] Mylo#8306
+@FishyGuts ask v.politely 😃
+
+
+[09-Oct-18 12:29 AM] FishyGuts#5085
+So @Mylo Very cool.  So you made that game on Construct?
+
+
+[09-Oct-18 12:29 AM] FishyGuts#5085
+I have PTYX doing the faucet.   Thought I would throw chainzilla some practice work.
+
+
+[09-Oct-18 12:29 AM] FishyGuts#5085
+He and I just settled on it tonight.
+
+
+[09-Oct-18 12:31 AM] FishyGuts#5085
+Stepping back.... the game, with the transactions... how involved is that?   I want to make a pirate game like that.   Maybe not to send that many tx's... unless they are tiny... but I want to include something like that on the onboarding portal page.   Gamify your way to earn free Pirate.
+
+
+[09-Oct-18 12:31 AM] FishyGuts#5085
+@grewalsatinder would you pretty please be a ghost writer?  😛
+
+
+[09-Oct-18 12:31 AM] Mylo#8306
+Yes it’s one of their demos, I just added a web socket connection on bullet.  If u needed something similar, change pirate ships and cannons or someth
+
+
+[09-Oct-18 12:32 AM] grewalsatinder#9653
+I'll probably just keep going with my "Satinder Grewal" name
+
+
+[09-Oct-18 12:32 AM] grewalsatinder#9653
+my document names is full and not having Grewal anywhere in it
+
+
+[09-Oct-18 12:32 AM] grewalsatinder#9653
+😄
+
+
+[09-Oct-18 12:32 AM] grewalsatinder#9653
+and I don't have any social media accounts
+
+
+[09-Oct-18 12:33 AM] grewalsatinder#9653
+so bit better than how I was visible on internet few years ago
+
+
+[09-Oct-18 12:33 AM] grewalsatinder#9653
+Might just change the profile pic and I'll have all 3 of my photos from the internet gone too
+
+
+[09-Oct-18 12:33 AM] grewalsatinder#9653
+😉
+
+
+[09-Oct-18 12:33 AM] grewalsatinder#9653
+1 on komodo platform site,
+2nd on Twitter
+3rd on Medium
+
+
+[09-Oct-18 12:33 AM] grewalsatinder#9653
+😄
+
+
+[09-Oct-18 12:34 AM] grewalsatinder#9653
+these are the only 3 pics of mine on internet 😄
+
+
+[09-Oct-18 12:34 AM] FishyGuts#5085
+Time to get scrubbing.
+
+
+[09-Oct-18 12:34 AM] grewalsatinder#9653
+I know what level of dirty these govt peeps can go
+
+
+[09-Oct-18 12:35 AM] FishyGuts#5085
+I will bug you about the websocket in a couple days.  I appreciate those links.  @Mylo  
+
+This is great.   I would like to have lots of pirate mini games where people can earn coin.  
+Non crypto users will generate coins in game and then they can be indoctrinated into crypto.
+
+
+[09-Oct-18 12:35 AM] grewalsatinder#9653
+I don't care what customs and all are up for. I have to even secure my home systems too from such intentions now
+
+
+[09-Oct-18 12:35 AM] Mylo#8306
+No probs.  You wanna throw in some education into the mix.  Quiz game might be a demo, I haven’t looked around enough
+
+
+[09-Oct-18 12:36 AM] FishyGuts#5085
+Great idea!  Adding it to the list.
+
+
+[09-Oct-18 12:37 AM] Mylo#8306
+Browser games though.....what happens if user opens 50 tabs.  Need some smarts in the server end.  IP address is spoofable
+
+
+[09-Oct-18 12:37 AM] FishyGuts#5085
+Email address linked.
+
+
+[09-Oct-18 12:38 AM] FishyGuts#5085
+Lots of trouble to go through to make $2 a day
+
+
+[09-Oct-18 12:38 AM] FishyGuts#5085
++-
+
+
+[09-Oct-18 12:38 AM] FishyGuts#5085
+Trying to boost TX counts and fun factor for people to share with friends.
+
+
+[09-Oct-18 12:38 AM] FishyGuts#5085
+"I earned crypto by playing games"
+
+
+[09-Oct-18 12:39 AM] FishyGuts#5085
+I want ALL your input though. I am not familiar with all the ways people can game systems so I need your guys skilled input too on that.
+
+
+[09-Oct-18 12:39 AM] Mylo#8306
+Or twitter. That way you can tweet and mention them saying thanks for playing, appreesh and pride, bragging etc about getting one from coin team... dunno...yeah u need to work out the gamifying and feedback loop for community involvement or stickiness.
+
+
+[09-Oct-18 12:40 AM] FishyGuts#5085
+"Double your loot today by tweeting your results"
+
+
+[09-Oct-18 12:40 AM] FishyGuts#5085
+Then non crypto people see "it's a game, sweet"
+
+
+[09-Oct-18 12:40 AM] Mylo#8306
+Screenshots, yeah
+
+
+[09-Oct-18 12:40 AM] FishyGuts#5085
+and after a month of playing they have $25 and bam.. a new crypto user, in the Komodo ecosystem.
+
+
+[09-Oct-18 12:41 AM] FishyGuts#5085
+This isn't next month or anything.  There is alot to it but I want to have it all go with the Onboarding bonuses that JL has concocted.
+
+
+[09-Oct-18 12:42 AM] FishyGuts#5085
+I really gotta hit the hay but keep the ideas and suggestions coming.  I am all ears.
+
+
+[09-Oct-18 12:42 AM] FishyGuts#5085
+See you guys tomorrow.
+
+
+[09-Oct-18 12:43 AM] Mylo#8306
+Double your loot will be good with quiz/education but harder than just a simple shooter.  If u had translations in Spanish, Chinese, Vietnamese, Thai probably good for the unbanked.  But maybe better when tortuga is up, teach benefit of trade to kmd which can be spent in many more places
+
+
+[09-Oct-18 12:44 AM] FishyGuts#5085
+We have Spanish and Phillipine transaltors for the unbanked areas.
+
+
+[09-Oct-18 12:44 AM] FishyGuts#5085
+And yes, an exchange is critical and even if I started today< I proabbly wouldn't finish before tortuga.
+
+
+[09-Oct-18 12:44 AM] Mylo#8306
+Grewal can do Punjab
+
+
+[09-Oct-18 12:44 AM] FishyGuts#5085
+Who?   I don't know anyone who works for pirate by the name Grewal.
+
+
+[09-Oct-18 12:44 AM] FishyGuts#5085
+😉
+
+
+[09-Oct-18 12:45 AM] FishyGuts#5085
+Good night guys.
+
+
+[09-Oct-18 12:45 AM] Mylo#8306
+L8r
+
+
+[09-Oct-18 12:45 AM] grewalsatinder#9653
+yes, can do Punjabi and Hindi translations
+
+
+[09-Oct-18 12:46 AM] grewalsatinder#9653
+hehe 😁
+
+
+[09-Oct-18 12:46 AM] grewalsatinder#9653
+night mate
+
+
+[09-Oct-18 06:41 AM] webworker01#3884
+> Lots of trouble to go through to make $2 a day
+You'd be surprised, they will do it
+
+
+[09-Oct-18 10:49 AM] webworker01#3884
+sorry i'm still at a loss as to why i can't cross compile this to windows
+
+
+[09-Oct-18 10:49 AM] webworker01#3884
+just tested though and just `komodo-cli help` also crashes komodod on win
+
+
+[09-Oct-18 01:35 PM] FishyGuts#5085
+Question... who manages the discord administration?   Who would I contact about tipbot integration?
+
+
+[09-Oct-18 02:41 PM] SHossain#0007
+@carl is the man for that
+
+
+[09-Oct-18 02:50 PM] FishyGuts#5085
+Awesome thanks.  
+I have a KMD tipbot completed for discord.  He’s just syncing the chain and I need to send him payment. 👍
+Could be live today. :Komodo:
+
+{Reactions}
+Komodo 
+
+[09-Oct-18 09:37 PM] Mylo#8306
+@webworker01 is it crashing because you are cross compiling?  Are you following instructions from anywhere?
+
+
+[10-Oct-18 01:40 AM] FishyGuts#5085
+Somehow I missed this being late to the party maybe but... are our transactions run through TOR?
+
+
+[10-Oct-18 01:47 AM] polycryptoblog#1173
+They can be if you configure it to
+
+
+[10-Oct-18 01:50 AM] FishyGuts#5085
+Got it.   But not by default, correct?  Not like Kovri for monero?
+
+
+[10-Oct-18 01:51 AM] FishyGuts#5085
+Or is that optional? *doesnt use monero*
+
+
+[10-Oct-18 01:59 AM] jl777c#5810
+tor is optional
+
+
+[10-Oct-18 01:59 AM] jl777c#5810
+not sure if we have tor nodes setup yet
+
+
+[10-Oct-18 01:59 AM] jl777c#5810
+it is not such a priority as it is just ztransactions, but more privacy is better if you are able to arrange it
+
+
+[10-Oct-18 02:15 AM] FishyGuts#5085
+It’s now on the list.
+
+
+[10-Oct-18 02:37 AM] SHossain#0007
+@FishyGuts which logo you want to use on the video?
+
+
+[10-Oct-18 03:13 AM] FishyGuts#5085
+We will use Wookies.  I’ve already used the others on he more visited coin info sites.  The final images should be a couple weeks.
+
+
+[10-Oct-18 03:27 AM] SHossain#0007
+ok. please let me know once you finalize one to use for the Agama video
+
+
+[10-Oct-18 03:54 AM] FishyGuts#5085
+So you're saying let's not add one until we have the final?  😏
+
+
+[10-Oct-18 03:55 AM] Mylo#8306
+@FishyGuts towards the bottom of https://pirate.black there is tor info
+
+{Embed}
+https://pirate.black/.
+pirate_black_website
+Pirate Website
+
+
+[10-Oct-18 03:56 AM] FishyGuts#5085
+Killer.   I will have that laced into an article with other useful links about getting to that point 😃 
+Thank you!
+
+
+[10-Oct-18 03:58 AM] jl777c#5810
+but i think there needs to be some tor nodes for it to work and not sure that is in place. it might be, or not
+
+
+[10-Oct-18 04:07 AM] FishyGuts#5085
+I have put it on the list.   I mean, if that is available to users, then there is even more privacy surrounding the coin and it's use, correct?
+
+I would basically need a few scattered servers running komodod + TOR correct?
+
+
+[10-Oct-18 04:10 AM] FishyGuts#5085
+God sometimes the questions I ask... I think to myself... *"These people must think I am an idiot"*
+
+
+[10-Oct-18 04:16 AM] polycryptoblog#1173
+@FishyGuts  https://en.bitcoin.it/wiki/Setting_up_a_Tor_hidden_service
+
+{Embed}
+https://en.bitcoin.it/wiki/Setting_up_a_Tor_hidden_service
+Setting up a Tor hidden service
+
+
+[10-Oct-18 04:18 AM] FishyGuts#5085
+Then run the komodod on it with the info at the bottom of pirate.black - Come back and give you guys the i.p.'s?
+
+
+[10-Oct-18 04:18 AM] FishyGuts#5085
+"simply"
+
+
+[10-Oct-18 05:55 AM] SHossain#0007
+@FishyGuts is the tip-bot open source? who will be hosting the bot?
+
+
+[10-Oct-18 06:13 AM] FishyGuts#5085
+The creator hosts it.
+
+
+[10-Oct-18 06:14 AM] FishyGuts#5085
+If we need anything he’s glad to help out. I don’t think it’s open source.
+
+
+[10-Oct-18 06:14 AM] FishyGuts#5085
+0x03 says he’s a good guy.
+
+
+[10-Oct-18 06:14 AM] SHossain#0007
+@ca333 ^^
+
+
+[10-Oct-18 06:16 AM] FishyGuts#5085
+@sclear
+
+
+[10-Oct-18 06:16 AM] FishyGuts#5085
+Is his user id
+
+
+[10-Oct-18 06:17 AM] FishyGuts#5085
+He’s got backups and “disaster prevention” whatever that means.  Just message him with any support issues.
+
+
+[10-Oct-18 06:17 AM] FishyGuts#5085
+Or let me know what I can do.  I know you guys are busy.
+
+
+[10-Oct-18 06:18 AM] ca333#0333
+cool - do we know how much its gonna cost us @FishyGuts ?
+
+
+[10-Oct-18 06:18 AM] FishyGuts#5085
+Nothing.  I have it covered.
+
+
+[10-Oct-18 06:18 AM] ca333#0333
+thanks a lot - would be great if someone gets in touch with him and gets info on whats needed from our side
+
+
+[10-Oct-18 06:19 AM] FishyGuts#5085
+I will do so.   
+
+This is a thank you gift from pirate to KMD.
+
+
+[10-Oct-18 06:19 AM] FishyGuts#5085
+❤️ :Komodo:
+
+{Reactions}
+♥ (2) realpirate (2) Komodo (2) 
+
+[10-Oct-18 06:19 AM] ca333#0333
+nice man - p.s. you can contact @SHossain or any other admin for bot api access
+
+{Reactions}
+👍🏽 
+
+[10-Oct-18 06:41 AM] FishyGuts#5085
+https://discordapp.com/oauth2/authorize?client_id=499325474128920597&permissions=67632193&scope=bot
+@SHossain
+
+{Embed}
+https://discordapp.com/oauth2/authorize?client_id=499325474128920597&permissions=67632193&scope=bot
+Discord - Free voice and text chat for gamers
+Step up your game with a modern voice & text chat app. Crystal clear voice, multiple server and channel support, mobile apps, and more. Get your free server now!
+https://images-ext-2.discordapp.net/external/HfR2VUvbtgDrYRhtJYtbVRG8ptOUXl0szXSCAOAiC_8/https/discordapp.com/assets/ee7c382d9257652a88c8f7b7f22a994d.png
+
+
+[10-Oct-18 06:41 AM] FishyGuts#5085
+Someone needs to click that and add the bot - Someone with admin priveledges.
+
+
+[10-Oct-18 06:43 AM] FishyGuts#5085
+We will want a channel for the bot too.  Give me the name of the channel so he can configure the bot.   This will be for spammy messages like wallet help and stuff.   Tips will work everywhere.
+
+{Reactions}
+👍🏽 
+
+[10-Oct-18 06:58 AM] SHossain#0007
+will get that soon
+
+
+[10-Oct-18 07:07 AM] FishyGuts#5085
+Sounds good.   Also let me knowwhat the bot channel name is when it's up 😃
+
+
+[10-Oct-18 08:44 AM] SHossain#0007
+@FishyGuts can you try reaching out to Linus https://www.youtube.com/user/LinusTechTips ? they have 7 Million subscribers.
+he was mining crypto and made few videos. pitch him the vision and invite him to mine PIRATE and make a video. (if you can)
+
+{Embed}
+https://www.youtube.com/user/LinusTechTips
+Linus Tech Tips
+We make entertaining videos about technology, including tech reviews, showcases and other content. LinusTechTips@gmail.com - Business inquiries only. All oth...
+https://images-ext-1.discordapp.net/external/qf-qn6pa7BNsyeRV0Rh2KuJzEEPt-WOBg8zRbtgr0aY/https/yt3.ggpht.com/a-/AN66SAx3vaKAG4MVtJoLDoTpYI1uPrwbjzC8JYmO5w%3Ds900-mo-c-c0xffffffff-rj-k-no
+
+
+[10-Oct-18 08:44 AM] SHossain#0007
+They have a forum too
+
+
+[10-Oct-18 08:45 AM] SHossain#0007
+https://linustechtips.com/main/
+
+{Embed}
+https://linustechtips.com/main
+Linus Tech Tips
+
+
+[10-Oct-18 08:45 AM] SHossain#0007
+or, anyone else from PIRATE community who think they can reach out to him, would be great
+
+
+[10-Oct-18 08:58 AM] SHossain#0007
+Even if we give him some PIRATE to make a sponsored video, that would be great!
+10-20k ARRR would be a lot and very high reach.
+
+
+[10-Oct-18 09:18 AM] FishyGuts#5085
+He said we need to add the bot to our server through the link ankuce and give the creator our bot channel name.   
+
+I’ll reach out to Linus.   Let me get that on a list.  😂
+
+
+[10-Oct-18 09:25 AM] SHossain#0007
+sure. take your time. i was just suggesting. i like his funny tech videos.
+
+
+[10-Oct-18 09:30 AM] FishyGuts#5085
+I remember watching a video of him ordering some experimental multicore CPUS and the trials required just to get it to work 😛
+
+
+[10-Oct-18 09:44 AM] SHossain#0007
+He was mining BurstCoin using HDD
+
+
+[10-Oct-18 09:53 AM] FishyGuts#5085
+That was a funny video too.   The giant box shoved full of 50 HDDs.
+
+
+[10-Oct-18 09:53 AM] FishyGuts#5085
+Wonder what kind of ROI on those things 😄
+
+
+[10-Oct-18 10:18 AM] SHossain#0007
+that was a test i guess. but, he surely had some ASICs
+
+
+[10-Oct-18 12:56 PM] SHossain#0007
+Speaking of Linus, just realised his latest video is actually on Antrouter - miner + router https://www.youtube.com/watch?v=lO6apKKWEDc
+
+{Embed}
+Linus Tech Tips
+https://www.youtube.com/watch?v=lO6apKKWEDc
+WHY?? - A MINING WiFi Router???
+Sign up for Private Internet Access VPN at https://www.privateinternetaccess.com/pages/linus-tech-tips/linus2 Check out the Thermaltake Level 20 series cases...
+https://images-ext-1.discordapp.net/external/ngIJonLaNXbgZUQxETzt3-QxcynjepvkRLQ7wpooVN4/https/i.ytimg.com/vi/lO6apKKWEDc/maxresdefault.jpg
+
+
+[10-Oct-18 02:55 PM] FishyGuts#5085
+Pirate tipbot will add Ztxs to the pool wont it?
+
+
+[10-Oct-18 02:55 PM] FishyGuts#5085
+💪
+
+
+[10-Oct-18 02:55 PM] FishyGuts#5085
+He is working on it now.  The KMD seems to be popular.  Thanks again Team KMD.  It was the least I could do for this opportunity.
+
+{Reactions}
+shexy 
+
+[10-Oct-18 02:58 PM] SHossain#0007
+This tipbot looks really nice & the first of it's kind in Komodo Discord. Great job @FishyGuts
+
+
+[10-Oct-18 02:59 PM] FishyGuts#5085
+People seem to like it. 
+It can be used in ANY discord, so I urge you guys to share it.   Other people seeing KMD tips in other discords will only get them talking.
+
+
+[10-Oct-18 02:59 PM] FishyGuts#5085
+It's a fun distraction and encourages interaction.
+
+
+[10-Oct-18 02:59 PM] FishyGuts#5085
+Cost like basically nothing in the grand scheme of things, so well worth it.
+
+
+[10-Oct-18 03:00 PM] SHossain#0007
+Let's start tipping in other cross connected discord channels. people will be interested
+
+
+[10-Oct-18 03:00 PM] FishyGuts#5085
+I posted in about 10-12 asset channels they can use it on their private discords.
+
+
+[10-Oct-18 03:00 PM] FishyGuts#5085
+The only issue is that the discord admins have to add the KMD tipbot first like we did this morning.
+
+
+[10-Oct-18 03:01 PM] FishyGuts#5085
+But once they do.... we can make it rain, thunder and soak at random 😃
+
+
+[10-Oct-18 03:01 PM] FishyGuts#5085
+Organic marketing strategy that is cost effective.
+
+
+[10-Oct-18 03:01 PM] FishyGuts#5085
+I'm going to do it with Pirate 😃
+
+
+[10-Oct-18 03:01 PM] FishyGuts#5085
+I will ask lots of servers if we can add our bot and then just tip at random all the time.
+
+
+[10-Oct-18 03:04 PM] SHossain#0007
+yes, i have seen them. i did a thunder in #verus . it seems the bridge is broken now. otherwise, it would have been visible in Verus discord as well
+
+
+[10-Oct-18 03:05 PM] FishyGuts#5085
+Did a Verus admin add the bot?
+
+
+[10-Oct-18 03:05 PM] FishyGuts#5085
+Message @sclear
+
+
+[10-Oct-18 03:05 PM] FishyGuts#5085
+Im off for a biot.  See you in 6 hours +- m,aybe.
+
+
+[10-Oct-18 03:07 PM] SHossain#0007
+they didn't add it i guess. i'll ask Mike
+
+
+[10-Oct-18 03:08 PM] SHossain#0007
+i need to go to sleep 😃
+
+
+[10-Oct-18 03:09 PM] SHossain#0007
+it is going to be free for all discord. right?
+
+
+[10-Oct-18 03:33 PM] FishyGuts#5085
+Basically.   Any discord can add this bot.  If you’re an admin of the bitcoin discord you can add this bot and people can tip in KMD on that discord.
+
+
+[10-Oct-18 03:33 PM] FishyGuts#5085
+Ours is hopefully not going to cause channel clutter.    I’m gonna be giving ARRR Out left and right.
+
+
+[10-Oct-18 04:39 PM] FishyGuts#5085
+MacAfee emailed me asking if I am affiliated with Anon.  Is anyone here working with them at all?
+
+
+[10-Oct-18 04:40 PM] FishyGuts#5085
+I responded as such:
+None whatsoever that I know of.   
+We could have a dev on the team helping them out but being open source and decentralized, it’s fine.
+
+In our opinion, it seems like it is a cash grab.  
+
+- Zcash parameters only provide privacy as much as people use it.  Pirate requires z tx’s only making the shielded pool 99,9% of the total funds on the chain.    With Zcash, currently about 4% of the pool of funds are shielded.  https://explorer.zcha.in/statistics/value 
+
+- Masternodes are a farce and everyone just copies DASH with nearly no additional functionality or use.  MNs provide a false sense of decentralization since all of the nodes are likely run from the same 3 or 4 VPN providers.  In addition, it’s just a way for people to feel like a coin with no use has value… until the dev team or sales team can hopefully come up with a use case.  Any baked in functionality specific to MNs and not the chain itself is usually a step towards centralization.  
+
+- Staking… But why?   Nothing is truly at stake and it’s just a fancy way of “adding” value to a coin where there is none.
+
+I hope I didn’t offend or go in to deep.
+
+Ryan AKA FishyGuts
+
+{Embed}
+https://explorer.zcha.in/statistics/value
+Zchain: Zcash Block Explorer, Analytics Platform & API. Browse and search blocks, transactions, accounts, statistics and more.
+
+
+[11-Oct-18 02:05 AM] SHossain#0007
+@FishyGuts Miketout wants to VRSC version of the tipbot
+
+{Reactions}
+👍 
+
+[11-Oct-18 06:47 AM] FishyGuts#5085
+Killer.   I forwarded this to the creator....
+
+
+[11-Oct-18 06:47 AM] FishyGuts#5085
+I also have something interesting to throw into the mix from him Shossain.
+
+
+[11-Oct-18 06:47 AM] FishyGuts#5085
+https://media.discordapp.net/attachments/499301572107436043/499906542263468032/unknown.png
+
+{Embed}
+https://media.discordapp.net/attachments/499301572107436043/499906542263468032/unknown.png
+https://images-ext-1.discordapp.net/external/A7gFnF29T4MszFW87HFTWKO0QnlrpNELbITLTVbebqo/https/media.discordapp.net/attachments/499301572107436043/499906542263468032/unknown.png
+
+
+[11-Oct-18 06:48 AM] FishyGuts#5085
+https://media.discordapp.net/attachments/499301572107436043/499906768709746689/unknown.png
+
+{Embed}
+https://media.discordapp.net/attachments/499301572107436043/499906768709746689/unknown.png
+https://images-ext-1.discordapp.net/external/MlL8zl5MJb8mGOPHESEhrpXSXd-l83mvyQPBEml1C1c/https/media.discordapp.net/attachments/499301572107436043/499906768709746689/unknown.png
+
+
+[11-Oct-18 06:48 AM] SHossain#0007
+nice.
+
+
+[11-Oct-18 06:48 AM] FishyGuts#5085
+SwapBot
+
+
+[11-Oct-18 06:48 AM] FishyGuts#5085
+Discord trading bot.
+
+
+[11-Oct-18 06:48 AM] SHossain#0007
+let's keep this exclusive for us now
+
+
+[11-Oct-18 06:48 AM] FishyGuts#5085
+@ydx
+
+
+[11-Oct-18 06:48 AM] FishyGuts#5085
+Of course
+
+
+[11-Oct-18 06:48 AM] FishyGuts#5085
+I also have DigitalPrice saying they can integrate us.
+
+
+[11-Oct-18 06:48 AM] SHossain#0007
+do you want to talk to Mike directly?
+
+
+[11-Oct-18 06:49 AM] FishyGuts#5085
+I already told Miketout about the tipbot
+
+
+[11-Oct-18 06:49 AM] SHossain#0007
+DigitalPrice asks for money if there is any update needed
+
+
+[11-Oct-18 06:49 AM] FishyGuts#5085
+But the swapbot is something the dev brought up this morning.
+
+
+[11-Oct-18 06:49 AM] FishyGuts#5085
+DigitalPrice is pretty cost effective at the moment as an option.
+
+
+[11-Oct-18 06:50 AM] SHossain#0007
+good idea. as we may not have any significant update to the chain soon
+
+
+[11-Oct-18 06:51 AM] FishyGuts#5085
+So Swapbot..... do you want to talk to @sclear about it?
+
+
+[11-Oct-18 06:51 AM] FishyGuts#5085
+I feel like I would be getting in over my head there.
+
+
+[11-Oct-18 06:51 AM] FishyGuts#5085
+I'll negotiate and pay but I wanted to check to see if you want to do it and if it's compatible/makes sense.
+
+
+[11-Oct-18 06:56 AM] SHossain#0007
+how this swap would work?
+
+
+[11-Oct-18 06:57 AM] SHossain#0007
+i will let you guys decide. get opinion from James, ca333, Satinder and Jorian
+
+
+[11-Oct-18 06:58 AM] SHossain#0007
+or anyone else who wish to have opinion
+
+
+[11-Oct-18 08:07 AM] FishyGuts#5085
+We can make a group chat with the dev if you want.
+
+
+[11-Oct-18 11:09 AM] FishyGuts#5085
+*TripleX (Claudio)Today at 10:41 AM*
+@FishyGuts Check your inbox
+
+*FishyGutsToday at 10:45 AM*
+Check your wallet 😃
+
+*TripleX (Claudio)Today at 11:02 AM*
+I will proceed with the listing. Thanks
+Give or take, within a week you will be listed if there are no complications
+
+
+[11-Oct-18 11:09 AM] FishyGuts#5085
+It's Digital Price and it was cheap to list.  Let's hope there are no integration issues.
+
+
+[11-Oct-18 11:09 AM] FishyGuts#5085
+Please keep it quiet until the listing is live.
+
+
+[11-Oct-18 11:39 AM] FishyGuts#5085
+2 weeks.   Tonight will be 2 weeks since I first started doing things for Pirate. 😃
+
+
+[11-Oct-18 11:39 AM] FishyGuts#5085
+9/27/18
+
+
+[11-Oct-18 11:39 AM] FishyGuts#5085
+9/9/9
+
+
+[11-Oct-18 11:39 AM] FishyGuts#5085
+whoa....
+
+
+[11-Oct-18 11:40 AM] FishyGuts#5085
+😉
+
+
+[11-Oct-18 11:49 AM] SHossain#0007
+9+9+9 = 27
+2+7 = 9
+9
+
+
+[11-Oct-18 11:50 AM] SHossain#0007
+multiply any number wtih 9 and do your math. it will always be 9 😃
+
+
+[11-Oct-18 11:36 PM] jorian#4555
+Swapbot; a discord 'cex'?
+
+
+[12-Oct-18 02:27 AM] SHossain#0007
+yes, it can be done.
+
+
+[12-Oct-18 02:37 AM] jorian#4555
+would be nice
+
+
+[12-Oct-18 02:45 AM] jorian#4555
+also, digitalprice is sure they want to add a z-only chain?
+
+
+[12-Oct-18 02:46 AM] jorian#4555
+especially with their weird policy on updating coins for a price, i would first do the swapbot and see how that works
+
+
+[12-Oct-18 02:49 AM] SHossain#0007
+PIRATE may not need constant updates like other coin. 🤞🏽
+
+
+[12-Oct-18 02:50 AM] SHossain#0007
+except the next year notary fork with sapling.
+
+
+[12-Oct-18 02:58 AM] jorian#4555
+yes, true
+
+
+[12-Oct-18 02:58 AM] jl777c#5810
+do they know it is zaddr only?
+
+
+[12-Oct-18 02:58 AM] jorian#4555
+@FishyGuts seems you are in contact with them
+
+
+[12-Oct-18 04:36 AM] FishyGuts#5085
+Yes.  I was implicitly clear with them yesterday when sending my application.   He said 1-2 weeks from yesterday.
+
+
+[12-Oct-18 04:37 AM] FishyGuts#5085
+For the swap bot... he is going to make an escrow bot version for OTC trades but we might be on DigitalPrice by then.  
+
+The swap bot was something cool I thought maybe KMD could use when porting new projects Into the ecosystem.
+
+
+[12-Oct-18 04:38 AM] jorian#4555
+that is indeed nice
+
+
+[12-Oct-18 04:39 AM] FishyGuts#5085
+Is someone able to create a github repo on Komodo GitHub for the WooCommerce shop plugin I am having made?  I’m not sure how that works but the dev asked me about this.
+
+
+[12-Oct-18 04:40 AM] FishyGuts#5085
+I asked him to get the KMD one first and he will work on pirate second.   I figured since we don’t have exchanges that he had a few extra days on the pirate one.
+
+{Reactions}
+👍 
+
+[12-Oct-18 04:44 AM] jl777c#5810
+@SHossain can
+
+
+[12-Oct-18 05:08 AM] SHossain#0007
+@FishyGuts Please send me the link of the KMD one, i'll fork the repo or host it in KomodoPlatform github repo
+
+
+[12-Oct-18 12:39 PM] FishyGuts#5085
+As sad as it makes me say this.... we should think about this going forward....
+
+
+[12-Oct-18 12:39 PM] FishyGuts#5085
+We gotta rebrand someday... Something less..."nefarious"   Been racking my brain trying to figure it out.
+XPC?  Private Chain - Nod to people to still call it Pirate Chain - XPC plays off XMR
+I dunno... Gotta think that one through, especially if we hit CMC top 100!
+
+
+[12-Oct-18 12:40 PM] FishyGuts#5085
+APC ?  PAC Private Asset Chain is good but PAC is taken.
+
+
+[12-Oct-18 12:40 PM] FishyGuts#5085
+ACP Asset Chain: Private
+
+
+[12-Oct-18 04:18 PM] FishyGuts#5085
+^^^ Thoughts? ^^^
+
+Just going forward, something to keep in mind. 
+
+I love pirate but we do want to look at longevity as well.
+
+
+[12-Oct-18 05:31 PM] polycryptoblog#1173
+Coin out for a month and already talk of rebranding
+
+
+[12-Oct-18 05:47 PM] FishyGuts#5085
+Haha.
+
+
+[12-Oct-18 05:47 PM] FishyGuts#5085
+Not for a while of course.  I am Just having a hard time seeing the world take Pirate ARRR seriously.
+
+
+[12-Oct-18 05:47 PM] FishyGuts#5085
+Maybe I’m old and out of the loop though 😜
+
+
+[12-Oct-18 06:54 PM] jl777c#5810
+https://www.boxofficemojo.com/franchises/chart/?id=piratesofthecaribbean.htm
+
+
+[12-Oct-18 08:08 PM] polycryptoblog#1173
+I have an idea on how to make pirate go viral but it could start a massive amount of shit.
+
+
+[12-Oct-18 08:15 PM] polycryptoblog#1173
+Pirates purpose is to allow financial privacy.   With the massive increase in divorce and child support cases,  men worldwide are being raked through the coals with the assistance and force of governments who utilize their access to individual financial statements to levy outrageous and unfair collections.   Pirate gives a way for completely private finances.   Double edged sword,  some misanthropes may use it to completely fuck over dependents ,  but it prevents a lot of men from what is essentially slavery.
+
+
+[12-Oct-18 08:21 PM] polycryptoblog#1173
+Who needs financial privacy more than dudes getting raked in divorce courts and in child support payments.
+
+
+[12-Oct-18 08:22 PM] polycryptoblog#1173
+#jussayin
+
+
+[12-Oct-18 10:59 PM] FishyGuts#5085
+hazha
+
+
+[12-Oct-18 11:34 PM] polycryptoblog#1173
+Speaking of getting raked over coals: https://www.investors.com/etfs-and-funds/personal-finance/divorce-rules-change-alimony-guidelines/
+
+
+[12-Oct-18 11:35 PM] polycryptoblog#1173
+( btw: not married nor have children,  just seen tons of guys get their entire lives ruined because of it )
+
+
+[13-Oct-18 12:27 AM] Mylo#8306
+XMARRR
+
+
+[13-Oct-18 12:30 AM] Mylo#8306
+PMS, private money system vs premenstrual syndrome
+
+
+[13-Oct-18 12:33 AM] FishyGuts#5085
+I just got PMS!
+
+
+[13-Oct-18 12:33 AM] FishyGuts#5085
+PMS is bleeding heavily today.  All red in the charts.
+
+
+[13-Oct-18 04:07 AM] SHossain#0007 (pinned)
+New website on the works https://pirate.black/
+
+{Embed}
+https://pirate.black/
+- Pirate Chain (ARRR)
+[Discord] | [Twitter] | [Telegram] | [Reddit] | [BitcoinTalk] INTRO PIRATE is the best of Zcash (ZEC) combined with the best of Monero (XMR). It’s a forced Shielded-transactions (z-transactions) only blockchain, meant for completely anonymous transactions. PIRATE is mined i...
+
+
+[13-Oct-18 05:07 AM] SHossain#0007
+Do we have a nice messge to display in the contact-us page? https://pirate.black/contact-us/
+
+{Embed}
+https://pirate.black/contact-us
+Contact Us - Pirate Chain (ARRR)
+
+
+[13-Oct-18 08:48 AM] SHossain#0007
+https://pirate.black/exchanges/
+exchanges page up. we need a nice exchange image for the background
+
+{Embed}
+https://pirate.black/exchanges
+Exchanges - Pirate Chain (ARRR)
+Exchanges We are working on listing PIRATE (ARRR) on centralised exchanges. There is a on-boarding page online where you can buy ARRR with KMD. Onboarding   Exchanges We are also working on Telegram Exchange Bot to make it easy. You can also buy or sell PIRATE over the count...
+
+
+[13-Oct-18 08:59 AM] SHossain#0007
+updated https://pirate.black/exchanges/
+
+{Embed}
+https://pirate.black/exchanges
+Exchanges - Pirate Chain (ARRR)
+Exchanges We are working on listing PIRATE (ARRR) on centralised exchanges. There is a on-boarding page online where you can buy ARRR with KMD. Onboarding   Exchanges We are also working on Telegram Exchange Bot to make it easy. You can also buy or sell PIRATE over the count...
+
+
+[13-Oct-18 10:46 AM] SHossain#0007
+https://pirate.black/wallets/
+
+{Embed}
+https://pirate.black/wallets
+Wallets - Pirate Chain (ARRR)
+Agama Desktop GUI The best multi-currency wallet out there with over 50 different coins including PIRATE (ARRR) Get Agama Desktop This is experimental and unfinished software. Use at your own risk! No warranty for any kind of damage! [THE SOFTWARE IS PROVIDED "AS IS", WITHOUT...
+
+
+[13-Oct-18 10:47 AM] SHossain#0007
+(just an idea)
+
+
+[14-Oct-18 04:46 AM] SHossain#0007 (pinned)
+@FishyGuts let's use this non expiring invite link to invite new users to Komodo Discord `https://discordapp.com/invite/53M27QD`
+This will give you nice stats of how many users Pirate brought in.
+
+
+[14-Oct-18 04:48 AM] CHMEX#0686
+can you make one for dexstats?
+
+
+[14-Oct-18 04:48 AM] SHossain#0007
+yes
+
+
+[14-Oct-18 04:49 AM] SHossain#0007
+@CHMEX here you go `https://discord.gg/xSFb37d`
+
+
+[14-Oct-18 04:50 AM] SHossain#0007
+please ask me later how many hits your links generated. i can pull the stats.
+
+
+[14-Oct-18 04:53 AM] CHMEX#0686
+thanks! I added the invite now
+
+{Reactions}
+👍🏽 
+
+[14-Oct-18 05:01 AM] SHossain#0007
+Cool. pirate.black website is already using the other link
+
+
+[14-Oct-18 05:02 AM] CHMEX#0686
+I think I'm also close to have a basic referral system ready.
+
+
+[14-Oct-18 05:03 AM] jl777c#5810
+pirates ready to test!
+
+{Reactions}
+rum 
+
+[14-Oct-18 06:25 AM] FishyGuts#5085
+Do we want to work the referral system into the faucet portal?
+
+
+[14-Oct-18 06:25 AM] FishyGuts#5085
+One login email to rule them all.
+
+
+[14-Oct-18 06:25 AM] FishyGuts#5085
+Cuts down in re-use from buyers from onboarding.
+
+
+[14-Oct-18 06:26 AM] FishyGuts#5085
+Can email if they opt in for future pirate news.
+
+
+[14-Oct-18 06:26 AM] jl777c#5810
+what faucet portal?
+
+
+[14-Oct-18 07:00 AM] FishyGuts#5085
+I’m having one made
+
+
+[14-Oct-18 07:01 AM] FishyGuts#5085
+It will require an email to proceed and people can opt into the mailing list - it takes you to a faucet page and I was wondering if this could be an all in one portal.   
+For onboarding purchasing and the referral tracking.
+
+
+[14-Oct-18 07:01 AM] FishyGuts#5085
+Where people can go to see their stats and such.
+
+
+[14-Oct-18 07:01 AM] jl777c#5810
+the onboarding site needs to be optimized for maximum clickrate, etc. so clearly it needs to be more than the current text only
+
+
+[14-Oct-18 07:02 AM] jl777c#5810
+not sure email required is the best way for referrals
+
+
+[14-Oct-18 07:03 AM] FishyGuts#5085
+For referrals, I assume you want to use wallet addresses then?    
+
+Basically my thought is to put the onboarding and referral program on the portal - as a stepped process.
+
+
+[14-Oct-18 07:03 AM] FishyGuts#5085
+I thought emails would be a harder way to spoof multiple accounts into the portal.
+
+
+[14-Oct-18 07:03 AM] FishyGuts#5085
+I can understand the privacy thing but anyone truly concerned would be using a burner email anyway right?
+
+
+[14-Oct-18 07:04 AM] FishyGuts#5085
+Input appreciated.
+
+
+[14-Oct-18 07:04 AM] jl777c#5810
+the referral system is designed so that unlimited usage of it is actually good
+
+
+[14-Oct-18 07:04 AM] jl777c#5810
+it can be on the same page, just dont require email for onboarding
+
+
+[14-Oct-18 07:04 AM] FishyGuts#5085
+I meant unlimited usage by the same user.
+
+
+[14-Oct-18 07:05 AM] FishyGuts#5085
+I guess that wouldn’t benefit them though.
+
+
+[14-Oct-18 07:05 AM] FishyGuts#5085
+Just working it in my head it wouldn’t benefit them to game it at all would it.
+
+
+[14-Oct-18 07:05 AM] jl777c#5810
+correct
+
+
+[14-Oct-18 07:05 AM] FishyGuts#5085
+👍
+
+
+[14-Oct-18 07:05 AM] jl777c#5810
+it would just create more ztx
+
+
+[14-Oct-18 07:05 AM] FishyGuts#5085
+Literally pointless if they tried to.  Ok good.
+
+
+[14-Oct-18 07:06 AM] jl777c#5810
+it does create direct demand for more PIRATE, which is what it is all about
+
+
+[14-Oct-18 07:06 AM] FishyGuts#5085
+Speaking of z tx- the bot is all over it.   We’re changing thunder to cannon - which hits three people ( z tx - 3 )
+
+
+[14-Oct-18 07:07 AM] FishyGuts#5085
+He will batch all rain and soak txs
+
+
+[14-Oct-18 07:08 AM] FishyGuts#5085
+It will be great for tx count boost.  @dukeleto I also wanted to do the transactions comparison page.     I want the pie charts to be globes and the shielded tx s are the water.. and unshielded is land.
+
+
+[14-Oct-18 07:09 AM] FishyGuts#5085
+Showing where pirates can sail and where other privacy coins allow their pirates to sale. (New flash their water is the sIze of a small lake in this comparison )😂
+
+
+[14-Oct-18 07:10 AM] FishyGuts#5085
+Before we start the referral system.... let’s make a game of it for a reward.
+
+
+[14-Oct-18 07:11 AM] FishyGuts#5085
+Any ideas?  
+I’ll think today.   Just going through coffee.
+
+
+[14-Oct-18 07:52 AM] SHossain#0007
+guys, just a thought:
+how about if we change the kmdtipbot name to `alfred` or `jarvis`?
+alfred = the butler of batman
+jarvis = AI assistant of iron man
+
+
+[14-Oct-18 07:55 AM] SHossain#0007
+imagine the bot as butler or assistant, and every user can imagine they are Batman or Dark Knight 😃
+
+
+[14-Oct-18 08:01 AM] FishyGuts#5085
+Easily done.   Or Smaug, Shenron - Dragon references 😛
+
+
+[14-Oct-18 08:02 AM] FishyGuts#5085
+Great idea.
+
+{Reactions}
+😃 
+
+[14-Oct-18 08:31 AM] webworker01#3884
+i assume the chatbot will only be making z tx when withdraws are made 😄
+
+
+[14-Oct-18 08:46 AM] FishyGuts#5085
+Nope.  He's programming it for me to do them all.
+
+
+[14-Oct-18 08:47 AM] FishyGuts#5085
+Bumping out ztx totals daily. 😃
+
+
+[14-Oct-18 08:47 AM] FishyGuts#5085
+Each cannon fire will throw out 3 txs per shot.   He will be batching rain, and probably cannon fire is my guess since that typically happens more than 1 at a time.
+
+{Reactions}
+👍 (2) 
+
+[14-Oct-18 11:57 AM] jl777c#5810
+do we have chinese translations in the works? https://www.ccn.com/china-threatens-overseas-tax-havens-will-investors-flock-to-crypto/
+
+{Embed}
+https://www.ccn.com/china-threatens-overseas-tax-havens-will-investors-flock-to-crypto
+China Threatens Overseas Tax Havens, Will Investors Flock to Crypto
+China has tightened policies on offshore and foreign investments, which may lead local investors to alternative assets like crypto.
+https://images-ext-2.discordapp.net/external/Y-BdRY--1yIoyqmNln7IQvFR8SL4hS45lYItU5M26js/https/www.ccn.com/wp-content/uploads/2017/10/China-yuan-note.jpg
+
+
+[14-Oct-18 01:08 PM] FishyGuts#5085
+Mandarin/ Chinese Russian all the big ones left we are missing.
+
+
+[14-Oct-18 01:09 PM] FishyGuts#5085
+I’ll hit up the KMD channel.
+
+
+[14-Oct-18 11:11 PM] grewalsatinder#9653
+Treasure Chest wallet should get good marketing when ready 🙂
+
+
+[14-Oct-18 11:12 PM] grewalsatinder#9653
+And translations
+
+
+[14-Oct-18 11:26 PM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/501279560382545922/image0.png
+
+
+[14-Oct-18 11:26 PM] FishyGuts#5085
+51% attacker fucks with pirate 😃
+
+
+[14-Oct-18 11:27 PM] jl777c#5810
+he had little chance of making a dent
+
+
+[14-Oct-18 11:31 PM] FishyGuts#5085
+He was going after BTCP
+
+
+[14-Oct-18 11:31 PM] FishyGuts#5085
+And got shutdown
+
+
+[14-Oct-18 11:32 PM] FishyGuts#5085
+But why not finish the attack and record it?
+
+
+[14-Oct-18 11:32 PM] FishyGuts#5085
+I think you might be right.
+
+
+[14-Oct-18 11:49 PM] jl777c#5810
+he was able to get a longer private chain for BTCP. just logistics issues
+
+
+[14-Oct-18 11:49 PM] jl777c#5810
+but PIRATE is doubly safe due to its high hashrate and dPoW
+
+
+[14-Oct-18 11:59 PM] FishyGuts#5085
+He would have needed 120MS to longer chain us and it would have been a close dance between notarizations and pirate block times.
+
+
+[14-Oct-18 11:59 PM] FishyGuts#5085
+Would be interesting to see dPoW in action live.
+
+
+[15-Oct-18 12:00 AM] jl777c#5810
+but the exchange waiting for a notarization before crediting deposit, so there is no gain to being able to double spend
+
+
+[15-Oct-18 12:00 AM] jl777c#5810
+as if you double spend before your deposit is credited, then it is an invalid deposit and you wont get credited
+
+
+[15-Oct-18 12:01 AM] jl777c#5810
+if you dont double spend before the deposit is notarized, then the deposit is locked in and cant be double spent
+
+
+[15-Oct-18 12:06 AM] FishyGuts#5085
+True.   I don’t think he was trying to cause harm, I think he was trying to showcase security flaws.
+
+
+[15-Oct-18 12:08 AM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/501290270688542730/image0.png
+
+
+[15-Oct-18 12:08 AM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/501290305719500820/image0.png
+
+
+[15-Oct-18 12:08 AM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/501290347431723010/image0.png
+
+
+[15-Oct-18 12:09 AM] FishyGuts#5085
+Haha drama.
+
+
+[15-Oct-18 12:09 AM] FishyGuts#5085
+Anyone want to help them migrate to KMD? 😜
+
+
+[15-Oct-18 05:37 AM] Mylo#8306
+@FishyGuts how does this tip bot work?  my deposit address is `RGQe4HXzW3FWq6dUxbUqcPHcvKRhdEzeBH` and i have `!tip balance` of about 4KMD but no activity on explorer https://kmdexplorer.io/address/RGQe4HXzW3FWq6dUxbUqcPHcvKRhdEzeBH
+
+Did i read the PIRATE modifications will make all tx on-chain?  And this is aimed at making more privacy?
+
+
+[15-Oct-18 05:37 AM] Mylo#8306
+I have not deposited.  only whatever gets rained/thunder etc.
+
+
+[15-Oct-18 05:39 AM] jl777c#5810
+it is internal balance you got from all the rains
+
+
+[15-Oct-18 05:39 AM] jl777c#5810
+since you didnt make a deposit, there is no activity on the deposit address
+
+
+[15-Oct-18 06:50 AM] FishyGuts#5085
+Tipbot works off chain and this will happen from time to time.  
+Pirates has to be on chain for a couple reasons (at this time).
+
+
+[15-Oct-18 07:05 AM] FishyGuts#5085
+Asked him to put an accounting feature in the next chance he gets.  It would be in probably if he wasn’t doing bots for zilla and Verus
+
+
+[15-Oct-18 08:22 AM] FishyGuts#5085
+Is someone at their computer right now with a digital price account?
+
+
+[15-Oct-18 08:23 AM] FishyGuts#5085
+I’ll be back in 10 mins to test the wallet for deposits and withdraws.
+
+
+[15-Oct-18 08:23 AM] FishyGuts#5085
+The exchange wallet
+
+
+[15-Oct-18 08:24 AM] FishyGuts#5085
+Would love to have a volume and price ticker on pirate.black 
+
+CHMEX let me know who I should reach out to about getting DigPri on CMC and then to get us on as well.
+
+
+[15-Oct-18 08:27 AM] SHossain#0007
+I'm afk
+
+
+[15-Oct-18 08:30 AM] jl777c#5810
+digital price doesnt generate deposit address
+
+
+[15-Oct-18 08:31 AM] jl777c#5810
+i see it did, but it generated and Raddress, wont work
+
+
+[15-Oct-18 08:31 AM] jl777c#5810
+they need to use z_getnewaddress instead of getnewaddress
+
+
+[15-Oct-18 08:37 AM] FishyGuts#5085
+Just informed him.
+
+
+[15-Oct-18 08:38 AM] jl777c#5810
+it seems they didnt understand anything about zaddr support
+
+
+[15-Oct-18 08:38 AM] jl777c#5810
+z_getnewaddress is the absolute simplest
+
+
+[15-Oct-18 08:41 AM] FishyGuts#5085
+He rushed through it it seems.  Said two weeks and took 4 days.   I understand they aren’t busy but let’s see how fast he can resolve this.
+
+
+[15-Oct-18 08:43 AM] jl777c#5810
+http://zcash.readthedocs.io/en/english-docs/payment-api.html
+
+
+[15-Oct-18 08:48 AM] FishyGuts#5085
+Pinned a message.
+
+
+[15-Oct-18 08:49 AM] FishyGuts#5085
+Pinned a message.
+
+
+[15-Oct-18 09:33 AM] FishyGuts#5085
+https://support.discordapp.com/hc/en-us/articles/115001542132-Server-Vanity-URLs
+
+{Embed}
+https://support.discordapp.com/hc/en-us/articles/115001542132-Server-Vanity-URLs
+Server Vanity URLs
+Custom URLs
+One of the fancy perks of partnership is being able to assign a custom URL invite to your partnered server! You can find the option to do so in your server settings > Vanity URL tab....
+https://images-ext-1.discordapp.net/external/mQH-tkk-OJdpfqZQP0rLonutjbZ-DRSqQduAuryou7E/https/theme.zdassets.com/theme_assets/678183/e2b1100d284d709a3da875b62ce5d60a42496762.png
+
+
+[15-Oct-18 09:33 AM] FishyGuts#5085
+Well, as much as I want a pirate one, I don't think it would be right to use it from the KMD server... On that note, KMD could get a vanity URL.  I will send this to Ben now.
+
+
+[17-Oct-18 10:45 AM] FishyGuts#5085
+!invites
+
+
+[17-Oct-18 10:53 AM] FishyGuts#5085
+https://discordapp.com/invite/53M27QD
+
+
+[17-Oct-18 05:09 PM] FishyGuts#5085
+Vosk Video Tomorrow 1PM EST
+
+
+[17-Oct-18 05:09 PM] FishyGuts#5085
+😃
+
+
+[17-Oct-18 05:10 PM] FishyGuts#5085
+Pirate/vosk shirts for sale - limited run of 30
+
+
+[17-Oct-18 10:21 PM] polycryptoblog#1173
+Nice
+
+
+[18-Oct-18 02:14 PM] FishyGuts#5085
+!invites
+
+
+[18-Oct-18 02:28 PM] SHossain#0007
+!invites
+
+
+[18-Oct-18 02:28 PM] InviteManager#3907
+
+{Embed}
+SHossain
+You have **2047** invites! (**2050** regular, **0** bonus, **0** fake, **-3** leaves)
+InviteManager
+
+
+[18-Oct-18 02:28 PM] SHossain#0007
+@FishyGuts it works now
+
+
+[18-Oct-18 02:31 PM] FishyGuts#5085
+Nice.  You were able to populate old ones?
+
+
+[18-Oct-18 02:31 PM] FishyGuts#5085
+The bot mananger said it wasn’t able to.
+
+
+[18-Oct-18 02:39 PM] SHossain#0007
+it populated old once for me
+
+
+[18-Oct-18 02:39 PM] SHossain#0007
+the links are still active
+
+
+[18-Oct-18 02:39 PM] SHossain#0007
+you can safely exclude me from your bounty or competition
+
+
+[18-Oct-18 02:55 PM] FishyGuts#5085
+Hehe.   At least you guys can look back and see which portals have brought people in.
+
+
+[18-Oct-18 02:56 PM] FishyGuts#5085
+Like the permanent link you gave me... who is that generated as.   Was that you?    I’ve been spamming that everywhere.
+
+
+[18-Oct-18 02:56 PM] SHossain#0007
+i guess this is via this specific link which is being used everywhere https://komodoplatform.com/discord
+
+{Embed}
+https://komodoplatform.com/discord
+Discord - Free voice and text chat for gamers
+Step up your game with a modern voice & text chat app. Crystal clear voice, multiple server and channel support, mobile apps, and more. Get your free server now!
+https://images-ext-2.discordapp.net/external/HfR2VUvbtgDrYRhtJYtbVRG8ptOUXl0szXSCAOAiC_8/https/discordapp.com/assets/ee7c382d9257652a88c8f7b7f22a994d.png
+
+
+[18-Oct-18 02:57 PM] SHossain#0007
+there is no way to find out which exact source
+
+
+[18-Oct-18 03:08 PM] FishyGuts#5085
+So when you all generate your own links, you can reset and use those in designated outlets.
+
+
+[19-Oct-18 09:04 AM] grewalsatinder#9653
+@FishyGuts 
+https://twitter.com/PirateChain/status/1053309909045927936?s=20
+
+{Embed}
+PirateChain (@PirateChain)
+https://twitter.com/PirateChain/status/1053309909045927936?s=20
+🤔
+https://images-ext-2.discordapp.net/external/8RFtXiGDJzd_50mrXYZ3mqy6bOm23ttwlXehbbQ-JfY/https/pbs.twimg.com/media/Dp4bxqPUwAAaeEi.jpg%3Alarge
+Twitter
+
+
+[19-Oct-18 09:04 AM] grewalsatinder#9653
+How this relates to project?
+
+
+[19-Oct-18 09:04 AM] grewalsatinder#9653
+Looks all about political views
+
+
+[19-Oct-18 09:05 AM] grewalsatinder#9653
+Non relation to project
+
+
+[19-Oct-18 10:47 AM] FishyGuts#5085
+Oh carp.   I thought I posted from mine 😂  
+Did it right before the interview.   Doh.   
+
+taken down.
+
+
+[19-Oct-18 10:47 AM] FishyGuts#5085
+Thank you for the notice.
+
+
+[19-Oct-18 10:48 AM] FishyGuts#5085
+🤦
+
+
+[19-Oct-18 11:16 AM] grewalsatinder#9653
+np 🙂
+
+
+[19-Oct-18 11:17 AM] FishyGuts#5085
+God that was bad.   Need to be more careful.
+
+
+[19-Oct-18 11:26 AM] grewalsatinder#9653
+yep, don't worry too much of stuff. and get sleep when feel sleepy. don't worry about what time either 😄
+
+
+[19-Oct-18 11:32 AM] FishyGuts#5085
+I think the interview went well... just one technical question I hope I answered right.   Don’t recall exactly what it was but it was the only time I felt unsure.
+
+
+[19-Oct-18 11:32 AM] FishyGuts#5085
+Didn’t get to discuss value but sent him my notes.
+
+
+[19-Oct-18 11:33 AM] grewalsatinder#9653
+🙂 👍
+
+
+[19-Oct-18 12:30 PM] FishyGuts#5085
+!invites
+
+
+[19-Oct-18 12:30 PM] InviteManager#3907
+
+{Embed}
+FishyGuts
+You have **48** invites! (**48** regular, **0** bonus, **0** fake, **0** leaves)
+InviteManager
+
+
+[19-Oct-18 12:32 PM] FishyGuts#5085
+My link must not match the one Shossain gave me.  Whats your invite count now @SHossain
+
+
+[19-Oct-18 12:32 PM] FishyGuts#5085
+!invites @SHossain
+
+
+[19-Oct-18 12:32 PM] InviteManager#3907
+
+{Embed}
+SHossain
+@SHossain has **2116** invites! (**2120** regular, **0** bonus, **0** fake, **-4** leaves)
+InviteManager
+
+
+[19-Oct-18 12:32 PM] FishyGuts#5085
+69 invites.   It must be your link,.
+
+
+[19-Oct-18 12:33 PM] FishyGuts#5085
+22 hours.
+
+
+[19-Oct-18 12:34 PM] SHossain#0007
+could be.
+
+
+[21-Oct-18 08:39 AM] FishyGuts#5085
+https://twitter.com/notsofast/status/1054030400278925312
+
+{Embed}
+notsofast (@notsofast)
+https://twitter.com/notsofast/status/1054030400278925312
+@PirateChain @AriDavidPaul @prestonjbyrne I like you.
+Twitter
+
+
+[21-Oct-18 08:39 AM] FishyGuts#5085
+150K followers.
+
+
+[21-Oct-18 08:39 AM] FishyGuts#5085
+Dropped my attorney a line this morning.   We're now chatting in DM 😃
+
+
+[21-Oct-18 08:53 AM] FishyGuts#5085
+Yeah.. if my attorneys come through... we got him on our side forever 😃
+
+
+[21-Oct-18 08:54 AM] FishyGuts#5085
+Please obviously in the purpose of discretion, do not speak of this 😛
+
+
+[21-Oct-18 08:54 AM] FishyGuts#5085
+But if any of you know him, feel free to put in a good word for the project now.
+
+
+[21-Oct-18 08:56 AM] jl777c#5810
+he hates me
+
+
+[21-Oct-18 08:56 AM] FishyGuts#5085
+hahaha
+
+
+[21-Oct-18 08:56 AM] FishyGuts#5085
+why?
+
+
+[21-Oct-18 08:57 AM] jl777c#5810
+no idea
+
+
+[21-Oct-18 11:33 AM] grewalsatinder#9653
+@FishyGuts good work mate! 🙂 👍
+
+
+[22-Oct-18 03:01 AM] SHossain#0007
+@jorian wordpress has a lot of features. i tried to setup few other pages and been busy with some other testing. probably, after i become free of my current testing schedules, i can look into the site and modify it as much as i can. i'm good with WP backend mostly
+
+
+[22-Oct-18 03:02 AM] SHossain#0007
+we have purchased the premium theme and another plugin and we can customize as we want it.
+
+
+[22-Oct-18 03:03 AM] SHossain#0007
+@CHMEX do you have some time to modify the site?
+
+
+[22-Oct-18 03:03 AM] SHossain#0007
+if we have a working design for the website, we only have to add/modify info in the future
+
+
+[22-Oct-18 03:04 AM] SHossain#0007
+@jorian if you are good with WP front-end, you can get access as well
+
+
+[22-Oct-18 03:04 AM] jorian#4555
+Wordpress ALWAYS takes more time than you want to invest. I liked the easy editing of stuff in markdown and it just works
+
+
+[22-Oct-18 03:05 AM] SHossain#0007
+check out this page. just a mockup https://pirate.black/wallets/
+
+{Embed}
+https://pirate.black/wallets
+Wallets - Pirate Chain (ARRR)
+Agama Desktop GUI The best multi-currency wallet out there with over 50 different coins including PIRATE (ARRR) Get Agama Desktop This is experimental and unfinished software. Use at your own risk! No warranty for any kind of damage! [THE SOFTWARE IS PROVIDED "AS IS", WITHOUT...
+
+
+[22-Oct-18 03:05 AM] jorian#4555
+but i guess some want wordpress and it's being worked on
+
+
+[22-Oct-18 03:06 AM] SHossain#0007
+you can get nice styling with WP, it may take long time to get on. but, once we finish designing, i still have one more thing to do which will make the site loads very fast
+
+
+[22-Oct-18 03:06 AM] SHossain#0007
+also being secure
+
+
+[22-Oct-18 03:14 AM] jorian#4555
+we dont want nice styling, we want information for pirates. arrr. just plain and simple to understand for uneducated pirates. am i the only one around here who thinks the website doesn't need fancy features and purple boxes with big white letters?
+
+
+[22-Oct-18 03:16 AM] grewalsatinder#9653
+may be I'm old fashion. I liked the old website 😄
+
+
+[22-Oct-18 03:22 AM] SHossain#0007
+@jorian all info is there. i'll change the theme to dark as soon as i can
+
+
+[22-Oct-18 03:26 AM] SHossain#0007
+i liked the old site too. but, with the plan of integrating different features on the site like onboarding, github wouldn't be ideal place. but, of course anytime you can change the dns to GH
+
+
+[22-Oct-18 05:22 PM] FishyGuts#5085
+https://discord.gg/xSFb37d
+
+
+[23-Oct-18 03:18 AM] FishyGuts#5085
+https://polly.chainstrike.io/
+New pool to list.
+
+
+[23-Oct-18 08:11 PM] FishyGuts#5085
+!invites
+
+
+[23-Oct-18 08:11 PM] InviteManager#3907
+
+{Embed}
+FishyGuts
+You have **77** invites! (**77** regular, **0** bonus, **0** fake, **0** leaves)
+InviteManager
+
+
+[24-Oct-18 10:56 AM] FishyGuts#5085
+An email came in asking this.. 
+Message Body:
+Please fix links in the footer of your site. Social Media block
+
+
+[24-Oct-18 11:11 AM] SHossain#0007
+fixed
+
+
+[25-Oct-18 07:57 AM] SHossain#0007
+website updated with latest Agama wallet links.
+
+
+[25-Oct-18 07:59 AM] SHossain#0007
+@FishyGuts there are some specific improvements for PIRATE (Z tx based coin) in this agama version. do you want to announce?
+
+
+[25-Oct-18 08:04 AM] SHossain#0007
+- no t address creation using Agama for PIRATE only
+- better display placement of the z addr when sending tx, it used to overlap
+- mining icon removed
+
+
+[25-Oct-18 11:29 AM] FishyGuts#5085
+When a listing app asks "Provide your nodes" what are they for pirate?
+
+
+[25-Oct-18 11:29 AM] FishyGuts#5085
+and we're 8 decimals?
+
+
+[25-Oct-18 11:30 AM] jl777c#5810
+8 decimals
+
+
+[25-Oct-18 11:31 AM] jl777c#5810
+the seed node is: 136.243.102.225
+
+
+[25-Oct-18 11:31 AM] jl777c#5810
+getpeerinfo will return a nodes list of peers
+
+
+[25-Oct-18 11:11 PM] FishyGuts#5085
+I need a whitepaper for Binance.
+
+
+[25-Oct-18 11:11 PM] FishyGuts#5085
+I would write it buuuuuuuut.... yeah.... 😂
+
+
+[25-Oct-18 11:12 PM] FishyGuts#5085
+I'll work with my attorney to get a Token Opinion letter.
+
+
+[25-Oct-18 11:12 PM] FishyGuts#5085
+We should also start a foundation if this is gonna go farther.   I really have no ability or legal authority to sign any forms like trhe ones Binance is asking about.
+Something to think about.
+
+
+[25-Oct-18 11:20 PM] grewalsatinder#9653
+🤦 whitepaper
+
+
+[25-Oct-18 11:21 PM] grewalsatinder#9653
+Make a brief doc for marketing 
+As a replacement for whitepaper requirement
+
+
+[25-Oct-18 11:21 PM] grewalsatinder#9653
+That’s what I suggest
+
+
+[25-Oct-18 11:59 PM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/505274349272432653/Crypto_Rich_Notes.txt
+
+
+[26-Oct-18 12:00 AM] FishyGuts#5085
+What would or wouldn't be included.  Send it back and I can splice it together unless that's enough for someone here to do it
+
+
+[26-Oct-18 01:02 AM] FishyGuts#5085
+Ban this kook please
+
+
+[26-Oct-18 01:02 AM] FishyGuts#5085
+One8Zero3
+
+
+[26-Oct-18 01:05 AM] FishyGuts#5085
+Message three in OTC - You guys are scammers and message 5 called  Flexatron and Oszy fuckers.
+
+
+[26-Oct-18 02:03 AM] grewalsatinder#9653
+I see ban and kick options on right click.
+
+
+[26-Oct-18 02:03 AM] grewalsatinder#9653
+havn't done yet.
+
+
+[26-Oct-18 02:04 AM] grewalsatinder#9653
+plz give him a warning first.
+
+
+[26-Oct-18 02:09 AM] FishyGuts#5085
+Take a look in OTC. You’ll probably agree. I’ve dropped it and blocked him.
+
+
+[26-Oct-18 04:48 AM] grewalsatinder#9653
+cool 👍
+
+
+[27-Oct-18 03:03 AM] SHossain#0007
+https://pirate.black/
+Hope you guys like this new website makeover. Otherwise, complain to @FishyGuts. He is preparing graphics to put it. 😃
+
+{Embed}
+https://pirate.black/
+- Pirate Chain (ARRR)
+PIRATE (ARRR) is the best of Zcash (ZEC) combined with the best of Monero (XMR) and secured by Komodo's (KMD) Delayed-Proof-of-Work (dPoW) It’s a forced Shielded-transactions (z-transactions) only blockchain, meant for completely anonymous transactions. PIRATE is mined into...
+
+
+[27-Oct-18 09:35 AM] SHossain#0007
+@CHMEX when you have some time, please use this link for Agama download link from the onboarding page. this way we only need to keep this page updated
+https://pirate.black/wallets/
+
+{Embed}
+https://pirate.black/wallets
+Wallets - Pirate Chain (ARRR)
+Agama Desktop GUI The best multi-currency wallet out there with over 50 different coins including PIRATE (ARRR) Get Agama Desktop This is experimental and unfinished software. Use at your own risk! No warranty for any kind of damage! [THE SOFTWARE IS PROVIDED "AS IS", WITHOUT...
+
+
+[27-Oct-18 09:36 AM] SHossain#0007
+@FishyGuts please upte the Medium post of GPU guide with this link for Agama download
+
+
+[27-Oct-18 10:06 AM] webworker01#3884
+http://pirate.black open in private window so cached redirect is not used, shows "error 522, connection timeout"
+
+
+[27-Oct-18 10:10 AM] SHossain#0007
+you are right @webworker01 . using only http and incognito or private mode gets connection timeout
+
+
+[27-Oct-18 10:10 AM] webworker01#3884
+in cloudflare there is a setting you could try to have them do the redirect for you
+
+
+[27-Oct-18 10:11 AM] webworker01#3884
+or that could also be the cause 😄
+
+
+[27-Oct-18 10:14 AM] SHossain#0007
+could be. but, i don't think @grewalsatinder is using cloud flare for this domain
+
+
+[27-Oct-18 10:15 AM] SHossain#0007
+website is now pointing to latest Agama 43d version
+
+
+[27-Oct-18 10:18 AM] webworker01#3884
+i think it is, error is a cloudflare error page
+
+
+[27-Oct-18 11:06 AM] SHossain#0007
+@grewalsatinder can you please check Cloudflare settings if any? the nginx blocks are already setup to redirect all http traffic to https
+
+
+[27-Oct-18 01:06 PM] SHossain#0007
+i like the idea of the website design contest. winner gets 10k ARRRR that community can donate. we could get a full design and change the contents or update them when needed. what are your opinion gents?
+
+
+[27-Oct-18 01:13 PM] grewalsatinder#9653
+Has to be static HTML design 
+With written consent 
+Host it on GitHub 
+Later turn that to CMS using same HTML design
+
+
+[27-Oct-18 01:13 PM] grewalsatinder#9653
+Away from computer 
+Will check cloud flair
+
+
+[27-Oct-18 01:15 PM] SHossain#0007
+how about if we just ask for directly to be based on Genesis Framework or just as a wordpress theme? we can serve static page. we have a great plugin for that
+
+
+[27-Oct-18 01:17 PM] SHossain#0007
+of course you guys decide that 😃
+
+
+[27-Oct-18 01:17 PM] grewalsatinder#9653
+I usually don’t like design competitions. I leave it to you guys. Do as you think best 🙂👍 don’t want to discourage or interrupt 🙂
+
+
+[27-Oct-18 01:17 PM] grewalsatinder#9653
+U said same 😂
+
+
+[27-Oct-18 01:18 PM] SHossain#0007
+yes.
+
+
+[27-Oct-18 01:18 PM] SHossain#0007
+😃
+
+
+[27-Oct-18 01:32 PM] FishyGuts#5085
+Design comps are hard.
+
+
+[27-Oct-18 03:37 PM] FishyGuts#5085
+https://cdn.discordapp.com/attachments/498232775560790037/505872686354923550/xmrvspirate.jpg
+
+{Embed}
+https://cdn.discordapp.com/attachments/498232775560790037/505872686354923550/xmrvspirate.jpg
+https://media.discordapp.net/attachments/498232775560790037/505872686354923550/xmrvspirate.jpg
+
+{Reactions}
+👍 
+
+[27-Oct-18 03:37 PM] FishyGuts#5085
+Thoughts?
+
+
+[27-Oct-18 03:37 PM] FishyGuts#5085
+Changes?
+
+
+[27-Oct-18 08:47 PM] grewalsatinder#9653
+I think it’s good idea to make a list of known escrow members of community, and pin it to otc channel. 🤔
+
+
+[27-Oct-18 08:47 PM] grewalsatinder#9653
+What you guys think?
+
+
+[27-Oct-18 10:02 PM] FishyGuts#5085
+https://cdn.discordapp.com/attachments/504324863633391616/505787459582427146/fzhd01dhzedut.jpg
+
+{Embed}
+https://cdn.discordapp.com/attachments/504324863633391616/505787459582427146/fzhd01dhzedut.jpg
+https://media.discordapp.net/attachments/504324863633391616/505787459582427146/fzhd01dhzedut.jpg
+
+
+[27-Oct-18 10:02 PM] FishyGuts#5085
+This guy pretended to be me.
+
+
+[27-Oct-18 10:03 PM] FishyGuts#5085
+Even a list won't solve all issues.
+Hopefully DWY will have his solution ready or DigPri will wrap up.  It's 6 AM where they are so maybe todays gonna be a productive day for them.
+
+
+[27-Oct-18 10:22 PM] FishyGuts#5085
+Thoughts ideas on the infographic?
+
+
+[27-Oct-18 11:16 PM] grewalsatinder#9653
+Infographic ok 👌
+
+
+[27-Oct-18 11:18 PM] grewalsatinder#9653
+RingCT*
+
+
+[28-Oct-18 12:25 AM] Senda#7983
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/506005474823503873/IMG_20181028_065611.jpg
+
+
+[28-Oct-18 12:25 AM] Senda#7983
+I have seen this infographic
+
+
+[28-Oct-18 12:26 AM] Senda#7983
+Excuse my ignorance, i don't know what is time warp attack
+
+
+[28-Oct-18 12:28 AM] Senda#7983
+They are being compared with other private currencies. Could we do better? If you tell me how, I can prepare a comparative table
+
+
+[28-Oct-18 12:46 AM] grewalsatinder#9653
+https://github.com/zcash/zcash-wordpress-theme
+
+{Embed}
+https://github.com/zcash/zcash-wordpress-theme
+zcash/zcash-wordpress-theme
+Zcash Wordpress theme. Contribute to zcash/zcash-wordpress-theme development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/QPRkPDZ0P8HYtO4CeaEVJF0ANfqYgXKpk3VxiNKYmhw/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/16122764
+
+
+[28-Oct-18 12:46 AM] grewalsatinder#9653
+zcash wordpress theme 😉
+
+
+[28-Oct-18 12:46 AM] grewalsatinder#9653
+@SHossain @FishyGuts
+
+
+[28-Oct-18 06:42 AM] FishyGuts#5085
+!kmdtip @grewalsatinder 20
+
+
+[28-Oct-18 06:43 AM] FishyGuts#5085
+Sht
+
+
+[28-Oct-18 06:43 AM] FishyGuts#5085
+I think there’s a lot of guffaw about the website but I don’t think it’s that bad while we wait for art.   
+Am I missing something?
+
+
+[28-Oct-18 06:44 AM] FishyGuts#5085
+@Senda - if you want to study - google “Network attack XVG” and go to the bitcoin talk forum thread.   There are people in there who discuss the time warp attack and what it is/how it works.
+
+
+[28-Oct-18 06:46 AM] Senda#7983
+Ok, thanks @FishyGuts  :pirate:
+
+
+[28-Oct-18 06:58 AM] FishyGuts#5085
+I could try and tell you but I’d be wrong in some spots.   Plus reading and learning is the best way to fully understand it.  It’s about 30 minutes of studying.
+
+
+[28-Oct-18 07:17 AM] grewalsatinder#9653
+thanks for tip @FishyGuts 😃
+
+
+[28-Oct-18 07:19 AM] SHossain#0007
+I can mange WP backend well along with the server environment, on site SEO and optimization. I'm not that good with frontend design part.
+
+
+[28-Oct-18 07:21 AM] FishyGuts#5085
+I’ll get on this artist more.  
+
+PS don’t work with friends or friend referrals. 😂😂
+
+
+[28-Oct-18 07:21 AM] FishyGuts#5085
+Question guys... about dice.
+
+
+[28-Oct-18 07:21 AM] FishyGuts#5085
+How can we integrate to pirate.
+
+
+[28-Oct-18 07:21 AM] FishyGuts#5085
+I want people to be able to “roll the bones”
+
+
+[28-Oct-18 07:21 AM] FishyGuts#5085
+Can we have a web portal?
+
+
+[28-Oct-18 07:22 AM] FishyGuts#5085
+Have the faucet direct to the dice game after they get their coins to play?
+Is it arrr compatible or only KMD?
+
+
+[28-Oct-18 07:26 AM] SHossain#0007
+Dice CC is not compatible with KMD neither PIRATE for now
+
+
+[28-Oct-18 09:20 AM] jl777c#5810
+doesnt mean PIRATE/KMDICE combined dapps cant be created
+
+{Reactions}
+😍 (2) 
+
+[28-Oct-18 09:50 AM] FishyGuts#5085
+Question from what to mine . Com.
+
+
+[28-Oct-18 09:50 AM] FishyGuts#5085
+Hey,
+
+Is there any api for barterdex to pull all supported coins stats?
+Mostly interested in current highest buy offer and last 24h volume in BTC.
+
+WTM
+
+
+[28-Oct-18 09:56 AM] CHMEX#0686
+http://api1.barterdexapi.net/viewall.php
+
+
+[28-Oct-18 09:58 AM] CHMEX#0686
+If they need specific info just send them to me.
+Looks like this mining pages bring a lot of new pirates to the boat happy to build whatever they need
+
+
+[28-Oct-18 10:45 AM] FishyGuts#5085
+Any problems with me posting this?
+
+
+[28-Oct-18 10:46 AM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/506161770788945921/Preview_Road_Map.JPG
+
+
+[28-Oct-18 10:46 AM] FishyGuts#5085
+To buy time for a road map.
+
+
+[28-Oct-18 10:47 AM] FishyGuts#5085
+Also, the Binance listing will need the Whitepaper so whenever someone finds time, I have 2500 ARRR for that.  Please just one though, don't want multiple people wasting time writing them.
+
+
+[28-Oct-18 10:48 AM] CHMEX#0686
+siddartha writes well in my opinion
+
+
+[28-Oct-18 02:46 PM] grewalsatinder#9653
+@FishyGuts just noticed this tweet
+
+
+[28-Oct-18 02:46 PM] grewalsatinder#9653
+https://twitter.com/FolexOfficial/status/1056656680732278784
+
+{Embed}
+FoLEx Official (@FolexOfficial)
+https://twitter.com/FolexOfficial/status/1056656680732278784
+We are listing @KomodoPlatform on @FolexOfficial 
+
+For more information visit us on https://t.co/tnHuRvmhsT
+and join our Telegram Channel https://t.co/msOCbWaKoP           
+
+#komodo #kmd #listing #folex #flx #exchange #blockchain #bitcoin #16november
+https://images-ext-1.discordapp.net/external/zeQUqe5aIxnu6qs9Pf8VUBMBs8WJe9J2W9V2Prc97Kk/https/pbs.twimg.com/media/Dqn_pcpX4AI4tOF.jpg%3Alarge
+Twitter
+
+
+[28-Oct-18 02:46 PM] grewalsatinder#9653
+I have no idea how good or legit this exchange is or will be
+
+
+[28-Oct-18 02:47 PM] grewalsatinder#9653
+but in any case nothing bad to try if Pirate can be listed there somehow
+
+
+[28-Oct-18 02:47 PM] grewalsatinder#9653
+a new exchange should be hungry to add new quality project tokens 🙂
+
+
+[28-Oct-18 02:47 PM] grewalsatinder#9653
+https://folex.io/
+
+{Embed}
+dave
+https://folex.io/
+FoLEx - Future of Trading
+Make a decision for the future in CryptoTrading. Make a decision for the exchange of the future! Make your decision for the All-in-One solution, with everything you need for crypto trading!
+https://images-ext-2.discordapp.net/external/QsjfBEgytojpWsU8v-b7YjcO6LESdJoyBu4EsLOfx9E/https/folex.io/wp-content/uploads/2017/09/250x250_Kopf.png
+
+
+[29-Oct-18 11:06 AM] FishyGuts#5085
+https://discord.gg/xSFb37d
+
+
+[29-Oct-18 11:06 AM] FishyGuts#5085
+!invites
+
+
+[29-Oct-18 11:06 AM] InviteManager#3907
+
+{Embed}
+FishyGuts
+You have **135** invites! (**139** regular, **0** bonus, **-2** fake, **-2** leaves)
+InviteManager
+
+
+[29-Oct-18 11:06 AM] FishyGuts#5085
+I still use the link you gave Shossain for main sites and this is my distributed link when posting.
+
+
+[29-Oct-18 11:21 AM] SHossain#0007
+nice.
+
+
+[29-Oct-18 12:02 PM] FishyGuts#5085
+178 people joined during the mining rig giveaway according to gleam.
+
+
+[29-Oct-18 12:02 PM] FishyGuts#5085
+And still 2 days left.
+
+
+[30-Oct-18 07:42 AM] FishyGuts#5085
+Whale reports threw us a follow yesterday,
+
+
+[30-Oct-18 07:43 AM] FishyGuts#5085
+pamp eet
+
+{Reactions}
+👏🏽 (2) 
+
+[31-Oct-18 04:07 AM] SHossain#0007
+I guess i found the http issue that was showing connection timed out and fixed it
+
+
+[31-Oct-18 04:09 AM] SHossain#0007
+http redirects now to https even in incognito mode
+
+
+[31-Oct-18 04:09 AM] SHossain#0007
+i don't think this issue will occur anymore 😃
+
+
+[31-Oct-18 07:02 AM] FishyGuts#5085
+Little help on this one please :
+
+Are you a fork of KMD? What not fork directly from ZCash?
+
+
+[31-Oct-18 07:03 AM] FishyGuts#5085
+Big stakes on this answer.   Solid account to talk accurately with.
+
+
+[31-Oct-18 07:05 AM] FishyGuts#5085
+“We’re a Komodo asset chain based on zcash parameters.   Komodo Asset chains can be launched under any parameters with no changes needed under umbrella of the additional features that KMD provides such as dPoW. “
+
+
+[31-Oct-18 07:05 AM] FishyGuts#5085
+Is that a sufficient answer to a very knowledgeable player?
+
+
+[31-Oct-18 07:09 AM] jl777c#5810
+dPoW support and private chain support, without any changes needed
+
+
+[31-Oct-18 07:10 AM] FishyGuts#5085
+Is my answer thorough and vague enough to work?
+
+
+[31-Oct-18 07:11 AM] FishyGuts#5085
+Edited it.
+
+
+[31-Oct-18 07:11 AM] jl777c#5810
+yes, but remove the sapling part
+
+
+[31-Oct-18 07:11 AM] jl777c#5810
+as ZEC has sapling
+
+
+[31-Oct-18 07:11 AM] jl777c#5810
+so you want to focus on things ZEC doesnt have, which is dPoW, notaries, -ac_private mode
+
+
+[31-Oct-18 07:12 AM] FishyGuts#5085
+“We’re a Komodo asset chain based on zcash parameters.   Komodo Asset chains can be launched under any parameters with no changes needed under umbrella of the additional features that KMD provides such as dPoW, notarization to BTC and private chain support.”
+
+
+[31-Oct-18 07:12 AM] FishyGuts#5085
+Thank you.
+
+
+[31-Oct-18 08:49 AM] grewalsatinder#9653
+@FishyGuts can also pass my article of why assetchains
+
+
+[02-Nov-18 07:58 AM] FishyGuts#5085
+Something that has been asked a few times. “Who’s behind pirate / who started it”. 
+I’ve been vague and can do it a little while longer but at some point we should assign these previous roles wether they are active or not today.
+
+
+[02-Nov-18 08:25 AM] jl777c#5810
+there is a very long post as to the origins of PIRATE
+
+
+[02-Nov-18 08:26 AM] jl777c#5810
+at least there used to be, satinder made a blog post about the origins
+
+
+[02-Nov-18 08:29 AM] FishyGuts#5085
+Are we able to mention the creators.  I know some people were wary at first.  Hopefully we’ve shifted the mindset.
+
+
+[02-Nov-18 08:32 AM] jl777c#5810
+all the details were in the blog post, not sure why it was removed from pirate.black
+
+
+[02-Nov-18 08:32 AM] jl777c#5810
+it seems a lot of url are missing from the new site?
+
+
+[02-Nov-18 08:49 AM] FishyGuts#5085
+I think @grewalsatinder was initially worried about the implications and issues with a negative connotation on privacy coins.   They wanted to ensure a delineation between KMD devs and Pirate Devs.   
+
+That is my take on it.   I am sure he has a more elaborate reason.
+
+
+[02-Nov-18 08:51 AM] jl777c#5810
+well the medium post was made... it seemed a good history
+
+
+[02-Nov-18 08:54 AM] CHMEX#0686
+Jorian controlled the node which mined the first block. So I that makes him the 'creator'
+
+
+[02-Nov-18 08:58 AM] CHMEX#0686
+https://blog.komodoplatform.com/pirates-of-komodo-platform-cdc991b424df
+
+Medium Post with Screenshots as timeline very nice collection.
+
+{Embed}
+https://blog.komodoplatform.com/pirates-of-komodo-platform-cdc991b424df
+Satinder’s notes on the PIRATE chain – Komodo Platform
+The views expressed in the community content section and other contributions on Komodo’s Medium are those of the authors and do not…
+https://images-ext-1.discordapp.net/external/LXKIAOhVYFr6nEeEbB4ZgzTZXVcMcbNtND0ZLq3Z1a8/https/cdn-images-1.medium.com/max/1200/1%2AJaFqkXPkc6_NsosUdWKFrw.png
+
+
+[02-Nov-18 09:17 AM] FishyGuts#5085
+Who has the emission rate spreadsheet?
+
+
+[02-Nov-18 09:17 AM] FishyGuts#5085
+Thanks CHMEX - I will put something together and verify all the devs desires to be labelled or not.
+
+
+[02-Nov-18 12:05 PM] FishyGuts#5085
+https://discord.gg/xSFb37d
+
+
+[02-Nov-18 12:05 PM] FishyGuts#5085
+!invites
+
+
+[02-Nov-18 12:05 PM] InviteManager#3907
+
+{Embed}
+FishyGuts
+You have **148** invites! (**152** regular, **0** bonus, **-2** fake, **-2** leaves)
+InviteManager
+
+
+[02-Nov-18 12:06 PM] FishyGuts#5085
+4665 discord members!    Komodo has doubled its discord participation in the last 35 days.  💪
+
+
+[02-Nov-18 12:06 PM] FishyGuts#5085
+Sick guys.  Keep it up!
+
+
+[02-Nov-18 01:52 PM] CHMEX#0686
+https://ip.bitcointalk.org/?u=https%3A%2F%2Fi.imgur.com%2FbapLTj5.jpg&t=594&c=3h745vgPLotbyQ
+
+@FishyGuts
+
+{Embed}
+https://ip.bitcointalk.org/?u=https%3A%2F%2Fi.imgur.com%2FbapLTj5.jpg&t=594&c=3h745vgPLotbyQ
+https://images-ext-1.discordapp.net/external/P-TV5vk5D4uCZ7w3OKAEAT6jfB6TNF2iZzU-UVWlwEM/%3Fu%3Dhttps%253A%252F%252Fi.imgur.com%252FbapLTj5.jpg%26t%3D594%26c%3D3h745vgPLotbyQ/https/ip.bitcointalk.org/
+
+
+[02-Nov-18 01:59 PM] FishyGuts#5085
+Thanks for the image!   
+I did end up finding it a bit earlier.
+
+
+[02-Nov-18 01:59 PM] FishyGuts#5085
+Let's talk onboarding soon.  I am having idea after idea 😃
+
+
+[02-Nov-18 07:54 PM] FishyGuts#5085
+Spoke to someone who is interested in running the pirate trading post.  Our legitimized marketplace.
+
+
+[02-Nov-18 07:54 PM] FishyGuts#5085
+Let’s see what he comes up with / can do.
+
+
+[02-Nov-18 09:02 PM] grewalsatinder#9653
+I was only involved in the conversation of private chain.
+Trying to find right params.
+Name of pirate is my idea
+Announcement post is made by me
+
+
+[02-Nov-18 09:02 PM] grewalsatinder#9653
+That is the only thing I did
+
+
+[02-Nov-18 09:02 PM] grewalsatinder#9653
+It’s in true for a community coin
+
+
+[02-Nov-18 09:03 PM] grewalsatinder#9653
+Nobody specific a creator
+
+
+[02-Nov-18 09:03 PM] grewalsatinder#9653
+If want to blame first block miner blame jorian 😂
+
+
+[02-Nov-18 09:04 PM] grewalsatinder#9653
+I still don’t want to be associated with creator of pirate
+
+
+[02-Nov-18 09:05 PM] grewalsatinder#9653
+M a seasoned dev for it if required
+
+
+[02-Nov-18 09:10 PM] grewalsatinder#9653
+I will link GitHub website to pearl.black domain
+
+
+[02-Nov-18 09:10 PM] grewalsatinder#9653
+Feeling the need of community controlled website
+
+
+[02-Nov-18 09:11 PM] grewalsatinder#9653
+Let mw know if any objections or bad idea it is
+
+
+[02-Nov-18 09:43 PM] FishyGuts#5085
+Is monero or bitcoins?
+
+
+[02-Nov-18 09:43 PM] FishyGuts#5085
+Or are they controlled by a “team” of trusted members?
+
+
+[02-Nov-18 10:16 PM] grewalsatinder#9653
+devs push code to git repo
+
+
+[02-Nov-18 10:17 PM] grewalsatinder#9653
+Miners mine the block on the software compiled from this code
+
+
+[02-Nov-18 10:17 PM] grewalsatinder#9653
+So both devs and miners are controllers
+
+
+[02-Nov-18 10:17 PM] grewalsatinder#9653
+Major control I guess coming from devs
+
+
+[02-Nov-18 10:18 PM] grewalsatinder#9653
+Then again those who are authorised to control git repo still can not be treatas full control
+
+
+[02-Nov-18 10:18 PM] FishyGuts#5085
+I think it would be nice to have some content control no?
+
+
+[02-Nov-18 10:18 PM] grewalsatinder#9653
+They have community auditors auditing there code commits
+
+
+[02-Nov-18 10:18 PM] FishyGuts#5085
+These things are new to me.
+
+
+[02-Nov-18 10:19 PM] grewalsatinder#9653
+I guess I answered something else
+
+
+[02-Nov-18 10:19 PM] grewalsatinder#9653
+Please ask your question again from the line monero bitcoin
+
+
+[02-Nov-18 10:22 PM] FishyGuts#5085
+Who are their websites managed by?
+
+
+[02-Nov-18 10:22 PM] FishyGuts#5085
+And why.
+
+
+[02-Nov-18 10:55 PM] grewalsatinder#9653
+Their’s? I have no idea 🙂
+
+
+[03-Nov-18 02:05 PM] CHMEX#0686
+Fishy if you need to tap the onboaring pool fund it has 5600 KMD in it let me know
+http://kmd.explorer.dexstats.info/address/RAzq6y7dsUKgfuzNjpzyGiuFzvrwuDheQw
+
+{Reactions}
+👍 
+
+[03-Nov-18 02:37 PM] FishyGuts#5085
+I would just use that and have low buy orders set for Pirate TBH.
+
+
+[03-Nov-18 02:37 PM] FishyGuts#5085
+We need as much ARRR as we can get
+
+
+[03-Nov-18 02:37 PM] FishyGuts#5085
+Espeically if I can figure out the gamification of the onboard portal.
+
+
+[05-Nov-18 02:25 AM] FishyGuts#5085
+I might need Pirate more than KMD soon.  A couple of things in the works.  
+Might be looking to coin swap a community with 1000+ people in it, into Pirate.
+
+
+[05-Nov-18 02:37 AM] jl777c#5810
+what does that mean? "coin swap a community"
+
+
+[05-Nov-18 02:38 AM] FishyGuts#5085
+Say a coin dies but the community doesn't.
+
+
+[05-Nov-18 02:39 AM] FishyGuts#5085
+You can basically "buy" them by offering a swap.  Say, 100-1 or  1000-1 or something.  They get SOMETHING for their "dead" tokens.... and they can either a, sell them to the market, or b, be excited about a new project and their "newfound free" money after they already wrote it off.
+
+
+[05-Nov-18 02:40 AM] jl777c#5810
+interesting!
+
+
+[05-Nov-18 02:40 AM] FishyGuts#5085
+So if a chain say, has 10M circ supply, you can set aside 100K coins to swap them at 100-1
+
+
+[05-Nov-18 02:40 AM] FishyGuts#5085
+I've happened upon just such a community with 1200 members, most of which whom love me 😛
+
+
+[05-Nov-18 02:41 AM] FishyGuts#5085
+In discovery phase at the moment.   Will advise when I have more info.
+
+
+[05-Nov-18 02:41 AM] FishyGuts#5085
+Also my comment about needing more pirate thgan KMD was to CHMEX and his offer from the onboarding .  Just to clarify.
+
+
+[05-Nov-18 02:41 AM] FishyGuts#5085
+Have a great night everyone.  Off to bed.  2:40 here.
+
+
+[05-Nov-18 03:04 AM] FishyGuts#5085
+One of the admins works on ETHos the mining management platform.    That’s huge.
+
+
+[05-Nov-18 03:04 AM] jorian#4555
+cool
+
+
+[05-Nov-18 03:04 AM] jorian#4555
+how much PIRATE would you need for that
+
+
+[05-Nov-18 03:08 AM] CHMEX#0686
+That sounds like a great idea.
+Swap and than burn could also be done via a website like the onboarding.
+If you need the pirates let me know and I 'swap it back'
+
+
+[05-Nov-18 03:08 AM] CHMEX#0686
+40k so far donated by the webworker pool
+
+
+[05-Nov-18 03:09 AM] FishyGuts#5085
+I’ll work the logistics.  
+Sclear has a bot already that can do this so you won’t need to do more work @CHMEX 👍
+
+
+[05-Nov-18 03:09 AM] FishyGuts#5085
+Good night all.
+
+
+[05-Nov-18 03:10 AM] CHMEX#0686
+gn
+
+
+[05-Nov-18 04:57 AM] CHMEX#0686
+Would it be a good idea to add ZEN/ horizon as a payment option the the onboarding site?
+
+
+[05-Nov-18 05:03 AM] CHMEX#0686
+Onboarding price respects now the dp ask price rounded to two decimals
+
+
+[05-Nov-18 07:20 AM] FishyGuts#5085
+Haha that would be funny.  Adding zen to buy with.
+
+
+[05-Nov-18 02:14 PM] FishyGuts#5085
+!invites
+
+
+[05-Nov-18 02:14 PM] InviteManager#3907
+
+{Embed}
+FishyGuts
+You have **168** invites! (**175** regular, **0** bonus, **-3** fake, **-4** leaves)
+InviteManager
+
+
+[05-Nov-18 02:14 PM] FishyGuts#5085
+Wish I had used the same code since the beginning 😛
+
+
+[05-Nov-18 02:14 PM] FishyGuts#5085
+that was a marketing fail on my part.
+
+
+[05-Nov-18 02:21 PM] webworker01#3884
+!invites
+
+
+[05-Nov-18 02:21 PM] InviteManager#3907
+
+{Embed}
+webworker01
+You have **70** invites! (**72** regular, **0** bonus, **0** fake, **-2** leaves)
+InviteManager
+
+
+[05-Nov-18 02:51 PM] FishyGuts#5085
+💪
+
+
+[05-Nov-18 03:02 PM] CHMEX#0686
+Here is a preview of the referral system:
+https://dexstats.info/piratestats.php?zaddress=zcfPMr21X24LzHrhqVW5VDPtdD8x8spPVVB5tH7S5ztFvQUYW8sswf1aDUrzxNVuJirqQqBA71QstVu6tYU27sofUrNCQzH
+
+Please do me a favor and do not publish this in a public channel
+
+{Embed}
+https://dexstats.info/piratestats.php?zaddress=zcfPMr21X24LzHrhqVW5VDPtdD8x8spPVVB5tH7S5ztFvQUYW8sswf1aDUrzxNVuJirqQqBA71QstVu6tYU27sofUrNCQzH
+Dexstats Dashboard - BarterDEX and Komodo ECO System
+Stats to your PIRATE
+
+
+[05-Nov-18 03:03 PM] FishyGuts#5085
+OMG OMG OMG ..
+
+
+[05-Nov-18 03:03 PM] CHMEX#0686
+Each Pirate gets a referral link which he can use
+
+{Reactions}
+pirate 
+
+[05-Nov-18 03:03 PM] FishyGuts#5085
+BRB.   Picking kids up.
+
+
+[05-Nov-18 03:03 PM] FishyGuts#5085
+Super exited for this.
+
+
+[05-Nov-18 03:06 PM] CHMEX#0686
+The 'key' to view the stats is the zaddress.
+I'm thinking also on that maybe a special code can be generated ( like I gave one to Duke for TresureChest )
+Making sure you own that address maybe I can work with the viewingkey. You if you provide the viewing key you get some extra power on the address like changing the referrallink and later execute a payout if it did not reach the minimum payout limit yet.
+
+
+[05-Nov-18 03:07 PM] CHMEX#0686
+I go to sleep hopefully can work on it tomorrow (today). It's all setup with API's so if in the future somebody wants to create a fancy gui me by guest.
+
+
+[05-Nov-18 09:25 PM] FishyGuts#5085
+I’m gonna get us to 5k discord members this week.  I’m shilling hard in that possible coin swap community.
+
+
+[05-Nov-18 09:26 PM] FishyGuts#5085
+Mkst of them love me except one conspiracy theory kook
+
+
+[05-Nov-18 09:26 PM] FishyGuts#5085
+I bet we will 6 k before November is over.
+
+
+[05-Nov-18 09:27 PM] FishyGuts#5085
+Who wants to bet me 1 KMD?
+
+
+[05-Nov-18 09:27 PM] FishyGuts#5085
+6000 discord members (double since pirate started) by dec 1 end of day?
+
+
+[05-Nov-18 09:33 PM] CHMEX#0686
+Deal I m happy to loose that bet.
+
+
+[05-Nov-18 09:42 PM] FishyGuts#5085
+Just like in trading places Mortimer.
+
+
+[05-Nov-18 09:42 PM] FishyGuts#5085
+👍
+
+
+[06-Nov-18 06:30 AM] FishyGuts#5085
+Questions time:  These are for an interview with a guy who has a big following.
+
+
+[06-Nov-18 06:31 AM] FishyGuts#5085
+TEAMTALKS #15-PIRATE CHAIN
+
+INITIAL INTRODUCTION
+Who are you?
+What is your role on PIRATE CHAIN?
+
+PROLIFIC PROJECT
+What are PIRATE CHAIN's key features?
+Why does the world need PIRATE CHAIN?
+
+COMPROMISING COMPETITION
+Who are PIRATE CHAIN's competitors?
+Why is PIRATE CHAIN superior/different? (to it's competitors)
+
+TEAM TENACITY
+How does the PIRATE CHAIN core team look right now?
+Are there plans of team expansion & in which part(s) of the team?
+
+END EXPERIENCE
+How will the man on the street experience/use PIRATE CHAIN?
+How will ordinary shop owners & small businesses?
+How will government bodies and large corporations?
+How will the crypto investor?
+
+FORESEEN FUTURE
+What is the next big thing for PIRATE CHAIN?
+Where do you see PIRATE CHAIN in 5 years?
+
+
+[06-Nov-18 06:31 AM] FishyGuts#5085
+Deeper Dive:
+- Why did you choose to update the halving time rewards by 5x?
+- Was there any pre-mine?
+- How much of total supply is held by the team?
+- Do you see any problem with using dPoW from working with Komodo and not only miner rewards but notary adresses being transparent, and all in all why did you choose to build on the Komodo Platform?
+
+ Flashy Gordy
+ *edit (last question)
+- Do you see any problem with using dPoW from working with Komodo and now not only miner rewards but also notary adresses being transparent, and all in all why did you choose to build on the Komodo Platform?
+
+4h 4 hours ago
+Also if u feel like answering any of these questions, would be nice too:
+
+- Will ARRR get an own wallet?
+
+- Will it be techically possible to make mobile wallets one day?
+
+- Will ARRR further "emancipate" from KMD, for example, getting an OWN discord channel?
+
+- Will the obligatory privacy cause trouble with exchanges? For example if you make a deposit to an exchange address but they don't credit it... How can you even show you sent it?
+
+- How is the progress with getting on coinlib and coinmarketcap and when will it be listed on crex24?
+
+
+[06-Nov-18 06:31 AM] FishyGuts#5085
+I can get to these later but any help would be greatly appreciated.
+
+
+[06-Nov-18 07:40 AM] jorian#4555
+good questions
+
+
+[06-Nov-18 07:40 AM] jorian#4555
+maybe make a spreadsheet?
+
+
+[06-Nov-18 07:40 AM] jorian#4555
+or i can do that too of course
+
+
+[06-Nov-18 07:48 AM] jorian#4555
+it's mostly about the future of pirate
+
+
+[06-Nov-18 07:48 AM] jorian#4555
+so what is the future of pirate? :p
+
+
+[06-Nov-18 07:48 AM] FishyGuts#5085
+Private commerce / exchange.
+
+
+[06-Nov-18 07:49 AM] FishyGuts#5085
+I have to web devs working on building a legitimate marketplace for shops that accept Pirate.... and eventuallly all crypto shops.
+
+
+[06-Nov-18 07:49 AM] FishyGuts#5085
+Lots of marketing for me in the coming weeks and none to investors.
+
+
+[06-Nov-18 07:49 AM] FishyGuts#5085
+That's ok though, it's where my real talent lies anyway.
+
+
+[06-Nov-18 07:49 AM] jorian#4555
+if you get it to work, i'll start a 'buy rum with arrr' shop 😛
+
+
+[06-Nov-18 07:49 AM] FishyGuts#5085
+It will work.
+
+
+[06-Nov-18 07:49 AM] FishyGuts#5085
+And I will hold you to that.
+
+
+[06-Nov-18 07:50 AM] jorian#4555
+hahaha
+
+
+[06-Nov-18 08:31 AM] grewalsatinder#9653
+Use pad.supernet.org
+
+
+[06-Nov-18 08:31 AM] grewalsatinder#9653
+If finy easier
+
+
+[06-Nov-18 08:32 AM] grewalsatinder#9653
+find*
+
+
+[06-Nov-18 08:38 AM] FishyGuts#5085
+Never have.   Willl check it out. I assume you all can have access if i share a link?
+
+
+[06-Nov-18 08:46 AM] jorian#4555
+Pad.supernet.org/whatever
+
+
+[06-Nov-18 08:46 AM] jorian#4555
+Anyone who knows the link has access
+
+
+[06-Nov-18 09:20 AM] jorian#4555
+oh
+
+
+[06-Nov-18 09:20 AM] jorian#4555
+it's 502 Bad Gateway
+
+
+[06-Nov-18 01:43 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/509482889549971466/Screenshot_from_2018-11-06_21-42-55.png
+
+
+[06-Nov-18 01:43 PM] SHossain#0007
+pool list updated
+
+
+[07-Nov-18 06:51 AM] FishyGuts#5085
+Could you also tell me .conf file name?
+
+
+[07-Nov-18 06:52 AM] FishyGuts#5085
+What is he asking here?  The exchange guy at Crex24.
+
+
+[07-Nov-18 06:55 AM] CHMEX#0686
+Its in the .komodo/PIRATE/PIRATE.conf
+
+
+[07-Nov-18 06:56 AM] CHMEX#0686
+He already has KMD running same structure just in the subfolder PIRATE
+
+
+[07-Nov-18 08:04 AM] CHMEX#0686
+Pirate block 665 looks intressting
+
+http://pirate.explorer.dexstats.info/block/0005a942a144c60c3f8fc01d1534b8f434a776d2b054cac698056a734a2a3d7d
+
+1256 PIRATE block reward straight to the burn address.
+I can understand the mined to burn address but not the 1256 Block reward.
+
+
+[07-Nov-18 08:09 AM] jorian#4555
+that was a test from alright
+
+
+[07-Nov-18 08:10 AM] CHMEX#0686
+Test as in fixed and should not happen again?
+
+
+[07-Nov-18 08:11 AM] jorian#4555
+no idea
+
+
+[07-Nov-18 08:11 AM] jorian#4555
+i think he was playing around with the T addresses
+
+
+[07-Nov-18 08:12 AM] CHMEX#0686
+I send him a DM lets see
+
+
+[07-Nov-18 08:14 AM] jl777c#5810
+txfee funded it
+
+
+[07-Nov-18 08:16 AM] CHMEX#0686
+Ah there is is true sorry should have looked closer
+
+
+[07-Nov-18 08:16 AM] CHMEX#0686
+Thanks
+
+
+[07-Nov-18 08:50 PM] FishyGuts#5085
+I need a record of onboarding to my Pirate z address.
+
+
+[07-Nov-18 09:15 PM] CHMEX#0686
+I m afraid I dont understand what do you need exactly?
+
+
+[08-Nov-18 08:31 AM] FishyGuts#5085
+Someone asked for that.
+
+
+[08-Nov-18 08:31 AM] FishyGuts#5085
+What’s to know all of his pirate transactions.   
+I told him to check his KMD history.
+
+
+[08-Nov-18 08:40 AM] webworker01#3884
+`komodo-cli z_listreceivedbyaddress $zaddr`
+
+
+[08-Nov-18 08:40 AM] webworker01#3884
+it's a bit sparse but you can work out most things from there
+
+
+[08-Nov-18 09:11 AM] CHMEX#0686
+You can also transmit messages with that I think there is a Memo Field
+
+
+[08-Nov-18 03:05 PM] FishyGuts#5085
+@jl777c - I Have Justin Ehrenhofer asking a few questions.   I believe you would be the best to field this one perhaps.  
+I have some ideas on answers but this one is best left to the pros.
+
+*Let me preface by saying that I generally support the idea of making fully-shielded transactions mandatory for a number of reasons, so I think we are generally on the same page there
+ However, I really do not understand the design decision to build this asset on top of Komodo. I admittedly am not intimately familiar with Komodo, but I do not understand the advantages here. I can only think of disadvantages*
+
+
+[08-Nov-18 03:08 PM] FishyGuts#5085
+I like to think of Komodo like eth.. only better in lots of ways... AND unlike eth... the projects launched on KMD have dev support unlike ETH.
+
+
+[08-Nov-18 03:09 PM] FishyGuts#5085
+I think if he understood KMD better he would understand why Pirate is benefitted by this decision.
+
+
+[08-Nov-18 03:10 PM] jl777c#5810
+dPoW
+
+
+[08-Nov-18 03:10 PM] jl777c#5810
+arguably makes PIRATE more secure than XMR
+
+
+[08-Nov-18 03:10 PM] jl777c#5810
+what is hard to understand?
+
+
+[08-Nov-18 03:11 PM] jl777c#5810
+100Msol is not bad, but it is nothing compared to ZEC hashrate and not even visible compared to BTC
+
+
+[08-Nov-18 03:11 PM] FishyGuts#5085
+Give me the elevator pitch on why it’s better to launch  an asset chain under KMD.   DPoW is the only reason?
+
+
+[08-Nov-18 03:12 PM] FishyGuts#5085
+Xmr is what.  500 MS?
+
+
+[08-Nov-18 03:13 PM] webworker01#3884
+By building ARRR with Komodo technology, we've instantly inherited all of KMD's benefits, in particular adding dPoW security to our chain to reduce the impact of 51% attacks. 
+
+Komodo's technology allows developers to create runtime forks (Komodo Independent Assetchains) which are not tied to the Komodo blockchain except when they choose to add dPoW security.   Future updates to the Komodo codebase will be easily inherited by ARRR including the Sapling upgrade.
+
+
+[08-Nov-18 03:13 PM] jl777c#5810
+dPoW built in, always improving codebase inherited from KMD
+
+
+[08-Nov-18 03:14 PM] jl777c#5810
+so drastically reduced development efforts, orders of magnitude more security. what other platform gets even one of those? let alone both
+
+
+[08-Nov-18 03:14 PM] jl777c#5810
+also what is more important than chain security?
+
+
+[08-Nov-18 05:13 PM] FishyGuts#5085
+1h
+ Justin Ehrenhofer
+Sounds like a roundabout way to do merged mining without the mining
+ Is that the main advantage? Komodo's network security?
+
+
+[08-Nov-18 05:15 PM] jl777c#5810
+you cant force a miner to merge mine, and with thousands of coins the process becomes very difficult to recruit enough miners to get a meaningful hashrate
+
+
+[08-Nov-18 05:16 PM] jl777c#5810
+with dPoW, the miner has no choice
+
+
+[08-Nov-18 05:16 PM] jl777c#5810
+so yes, if you can convince all of the bitcoin miners to mine your small chain that might not even have any trading market, then maybe dPoW isnt needed
+
+
+[08-Nov-18 05:17 PM] jl777c#5810
+but the practical reality is that the miners can merge mine only so many coins and there is no assurance a new coin will be able to get enough merge mining hashrate
+
+
+[08-Nov-18 05:17 PM] jl777c#5810
+with dPoW 100% of BTC hashrate is involved
+
+
+[09-Nov-18 11:11 PM] FishyGuts#5085
+Wy did we update the halving rewards?
+
+
+[09-Nov-18 11:31 PM] FishyGuts#5085
+Read thru.. edit or let me know what to add/change/
+
+
+[09-Nov-18 11:31 PM] FishyGuts#5085
+Still have to answer one section in the middle.
+
+
+[09-Nov-18 11:31 PM] FishyGuts#5085
+Good night all.
+
+
+[10-Nov-18 01:00 AM] jorian#4555
+http://pad.supernet.org/fishy_questions
+
+
+[10-Nov-18 03:26 AM] jl777c#5810
+the original emission schedule was too fast and would have created (justified) complaints that the early miners got all the 256 reward blocks. With the current emission, there is plenty of time for miners to decide to mine or not and later they have only themselves to blame for not mining the 256 blocks. With the halving to 128, then 64, 32.. over the next 2 years, these days of 256 PIRATE block rewards will be missed.
+
+
+[11-Nov-18 03:20 AM] FishyGuts#5085
+Ok.....
+
+
+[11-Nov-18 03:20 AM] FishyGuts#5085
+I need a final review before sending this out.   
+Who has 15 mins to read?
+
+
+[11-Nov-18 03:21 AM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/511138372455104522/FlashGordyCrypto_TeamTalk.txt
+
+
+[11-Nov-18 03:21 AM] FishyGuts#5085
+Your link is broken Jorian.
+
+
+[11-Nov-18 03:44 AM] FishyGuts#5085
+Thoughts, additions, corrections?
+
+
+[11-Nov-18 03:46 AM] FishyGuts#5085
+I’ve put him off long enough. 😂
+
+
+[11-Nov-18 03:46 AM] FishyGuts#5085
+Only four days but that seems Ike forever in crypto.
+
+
+[11-Nov-18 03:47 AM] FishyGuts#5085
+Also I’m 45
+Minutes away from 24 hours awake.  Would like to get it in his hands and wake up to it posted in the morning.
+
+
+[11-Nov-18 04:02 AM] FishyGuts#5085
+I’m gonna make an executive decision  and send it in.
+
+
+[11-Nov-18 04:02 AM] FishyGuts#5085
+Good night everyone.
+
+
+[11-Nov-18 06:57 AM] jorian#4555
+my link used to work, but pad is broken
+
+
+[11-Nov-18 06:58 AM] jorian#4555
+aren't you more something of a Captain instead of Director? 😄
+
+
+[11-Nov-18 06:59 AM] jorian#4555
+Q: why does the world need ARRR? -> i would remove that first sentence and start right off with `the world NEEDS privacy`
+
+
+[11-Nov-18 06:59 AM] jorian#4555
+(they just don't know it yet)
+
+
+[11-Nov-18 07:00 AM] jorian#4555
+the rest of that part is a bit cliche though
+
+
+[11-Nov-18 07:02 AM] jorian#4555
+nice analogy with the house
+
+
+[11-Nov-18 07:09 AM] jorian#4555
+```We chose to build on Komodo because they provide an out of the box solution to start a blockchain, and because many of the developers and advisors are intimately familiar with it.``` thats not entirely true though.. we didn't choose komodo, komodo chose us
+
+
+[11-Nov-18 07:09 AM] jorian#4555
+because of the -ac_private parameter we started experimenting
+
+
+[11-Nov-18 07:09 AM] jorian#4555
+result: ARRR
+
+
+[11-Nov-18 07:12 AM] jorian#4555
+about that emancipation part: of course there will come a time when ARRR deserves its own discord. but that's more for marketing
+
+
+[11-Nov-18 07:12 AM] jorian#4555
+only on that part will ARRR emancipate imo
+
+
+[11-Nov-18 07:12 AM] jorian#4555
+it will not move away from KMD tech
+
+
+[11-Nov-18 07:16 AM] jorian#4555
+also, there are too many people complaining about ARRR being tied to the komodo ecosystem and seeing that as a bad thing. maybe he'll ask that question too in the interview, and it must be made clear that being in the KMD ecosystem is always better than being alone in the dark. dPoW, bunch of devs, fast integration into existing tech etc
+
+
+[11-Nov-18 07:16 AM] jorian#4555
+so instead of a weakness, being tied to KMD is a strength
+
+
+[11-Nov-18 09:58 AM] FishyGuts#5085
+Done.  Thank you.
+
+
+[11-Nov-18 10:26 AM] FishyGuts#5085
+By the way i agree with you
+
+
+[11-Nov-18 10:26 AM] FishyGuts#5085
+1,000%
+
+
+[13-Nov-18 12:38 AM] FishyGuts#5085
+Snag. Did another one after this and I have a new@list of questions for a third interview.  Woo boo!
+
+
+[13-Nov-18 12:39 AM] FishyGuts#5085
+This guy is named Blackbeard and he has 47k followers!!
+
+
+[13-Nov-18 12:39 AM] FishyGuts#5085
+Can’t wait for that one.
+
+
+[13-Nov-18 11:10 PM] FishyGuts#5085
+Has anyone else tested CHMEX ref link?  https://pirate.dexstats.info/?NYIIT
+
+Can we get some more?  To try to get him to level up?
+
+I sent 3 tx's in.
+
+Boat Status:    Rowboat
+userID:    1685
+username:    NYIIT
+zaddress:    zcfPMr21X24LzHrhqVW5VDPtdD8x8spPVVB5tH7S5ztFvQUYW8sswf1aDUrzxNVuJirqQqBA71QstVu6tYU27sofUrNCQzH
+total Balance:    20.202
+purchased PIRATE:    7.77
+referred COMMISSION:    12.432
+paidout PIRATE:    0
+pending PIRATE:    12.432
+current Level:    1
+lastpaymentdate:    0
+Your Referral link*:    https://pirate.dexstats.info/?NYIIT
+
+History 
+TRXAmount    Level    Your Commission    Datetime
+77.7    1    3.885    2018-11-14 08:06:40
+77.7    1    3.885    2018-11-14 08:04:55
+77.7    1    3.885    2018-11-14 07:53:29
+7.77    1    0.3885    2018-11-05 23:46:52
+7.77    1    0.3885    2018-11-05 23:13:28
+
+{Embed}
+https://pirate.dexstats.info/?NYIIT
+Dexstats Dashboard - BarterDEX and Komodo ECO System
+Onboard to PIRATE
+
+
+[13-Nov-18 11:20 PM] webworker01#3884
+i tried to do this and after entering receiving address it just sent me back to the initial form
+
+
+[13-Nov-18 11:48 PM] FishyGuts#5085
+It did that to me once or twice as well.
+
+
+[19-Nov-18 12:48 PM] grewalsatinder#9653
+@jl777c @FishyGuts @SHossain linked old github pages website to this domain:
+
+http://pearl.black/
+
+{Embed}
+http://pearl.black/
+pirate_black_website
+Pirate Website
+
+{Reactions}
+👍🏽 
+
+[19-Nov-18 12:48 PM] grewalsatinder#9653
+it can be treated as alternative website
+
+
+[19-Nov-18 12:48 PM] grewalsatinder#9653
+but I haven't notified anyone about it
+
+
+[19-Nov-18 12:48 PM] grewalsatinder#9653
+just did the domain setup work yesterday
+
+
+[19-Nov-18 12:48 PM] grewalsatinder#9653
+have mixed thought about it telling people as the project name is different and this domain is different
+
+
+[19-Nov-18 12:49 PM] grewalsatinder#9653
+what you guys think?
+
+
+[19-Nov-18 01:02 PM] SHossain#0007
+we have some great WP and PHP devs working on the site :)
+the WP dev made infamous https://xda-developers.com
+before i came to crypto, i used to lurk on XDA forum
+
+
+[19-Nov-18 01:16 PM] grewalsatinder#9653
+nice!!!!
+
+
+[19-Nov-18 01:16 PM] grewalsatinder#9653
+I leave it to @FishyGuts to decide if this alternative website needs to be told to public or not.
+
+
+[19-Nov-18 01:16 PM] FishyGuts#5085
+Wrong dude to ask 😛
+
+
+[19-Nov-18 01:16 PM] grewalsatinder#9653
+let me know if not, I'll disable it's pearl.black domain link
+
+
+[19-Nov-18 01:16 PM] FishyGuts#5085
+I would ask the reasoning I guess is why.
+
+
+[19-Nov-18 01:17 PM] FishyGuts#5085
+Just for vintage reference?
+
+
+[19-Nov-18 01:17 PM] grewalsatinder#9653
+wordpress - official team
+github - community
+
+
+[19-Nov-18 01:17 PM] FishyGuts#5085
+I know the existing iteration isn't great but we're on it hard now 😛
+
+
+[19-Nov-18 01:17 PM] FishyGuts#5085
+Oh you mean community can mod it?
+
+
+[19-Nov-18 01:17 PM] grewalsatinder#9653
+exactly
+
+
+[19-Nov-18 01:17 PM] grewalsatinder#9653
+anyone on the web can just push changes to website
+
+
+[19-Nov-18 01:18 PM] grewalsatinder#9653
+all the team can do is moderate
+
+
+[19-Nov-18 01:18 PM] grewalsatinder#9653
+accept or deny those changes
+
+
+[19-Nov-18 01:18 PM] grewalsatinder#9653
+that's not the case with wordpress
+
+
+[22-Nov-18 01:57 PM] SHossain#0007
+just casted my vote. https://txbit.io/Coin
+let's share this in an interval via twitter and channel announcements. also please dont' forget to leave some nice comments
+
+
+[26-Nov-18 09:21 AM] FishyGuts#5085
+*What is Pirate?
+Pirate (ARRR) is a cryptocurrency that solves the issue of financial privacy on the blockchain.  
+Unlike most other cryptocurrencies which use a public ledger of data, transactions on the Pirate network are required to be private.  This means that your financial data remains in your control, that your transactions are always anonymous and there is absolutely no residual footprint left behind.  
+The importance of financial privacy becomes more and more evident every day and Pirate provides this much needed tool to users in an easy to use fashion.  One of our goals to continually ease the use of such products for people in everyday life, so that they do not need to work for their privacy.
+
+Pirate is not only the most private cryptocurrency in existence today, it is also the most secure. 
+We use a security mechanism called delayed Proof of Work.  This is essentially a backup copy of our blockchain written into each Bitcoin block.  This means that Pirate is protected against damage from double spends and 51% attacks on the network.  If you want to attack Pirate, you have to attack Bitcoin first. 
+
+Pirate is open source and practically free to use.  It was selflessly created by a team of developers for the community. There is no pre-mine, no founder fund, no developer tax. 
+Everything about Pirate is 100% fundamentally complete and owned by the community of users.  We look forward to your company on this voyage to financial privacy.*
+
+
+[26-Nov-18 09:22 AM] FishyGuts#5085
+Good morning,
+If you opened our webpage and saw that.... 
+How would you feel?  
+What would you change?
+Let's get this laced up today.  
+I appreciate all of your input.
+
+
+[26-Nov-18 09:37 AM] CHMEX#0686
+>>This is essentially a backup copy of our blockchain written into each Bitcoin block.
+This might be misunderstood it's just a hash not the complete chain backedup to BTC.
+( english is not my native language so maybe it is totally ok in English)
+
+
+[26-Nov-18 10:10 AM] FishyGuts#5085
+I understand that .  Is there an easier way to exp,ain to people who dont know what dPoW is?
+
+
+[26-Nov-18 10:10 AM] FishyGuts#5085
+for the website initial contact iand prject info.
+
+
+[26-Nov-18 03:00 PM] CHMEX#0686
+Its really diffucult to describe. Here my try.
+
+This is essentially storing a current checkpoint of PIRATE chain into each Bitcoin block. After its confirmed on Bitcoin the PIRATE chain can't be rolled back past that same checkpoint.
+
+
+[27-Nov-18 01:27 AM] jl777c#5810
+@CHMEX latest FSM branch fixes the getsnapshot rpc, at least it looks good from the tests
+
+
+[27-Nov-18 01:30 AM] CHMEX#0686
+great thanks a lot I will test it once changes are in piratenetwork repo
+
+
+[28-Nov-18 03:33 AM] CHMEX#0686
+It worked thank you for the fix
+
+
+[28-Nov-18 03:39 AM] jl777c#5810
+it was all miket
+
+
+[04-Dec-18 09:42 AM] FishyGuts#5085
+Ok.....  Time to set sail Pirates. 
+We've built the new discord and we want to get all of us migrated over there.  We have radio, and tip bots and will get a bridge to the one remaining Pirate channel in KMD discord once everyone sets sail.  
+
+TODAY THE INVITE BOUNTY STARTS!!!!  
+So get your ref link and lets annoy everyone on social media platforms from Instagram to Twitter, FB to Gab, Reddit to Steemit! 
+
+https://discord.gg/UsJT5AY
+
+{Attachments}
+https://cdn.discordapp.com/attachments/498073083857338408/519569119595593728/Arrr_Discord_Bounty.jpg
+
+
+[10-Dec-18 05:35 PM] benohanlon#7045
+this room is being archived
+
+
+==============================================================
+Exported 825 message(s)
+==============================================================

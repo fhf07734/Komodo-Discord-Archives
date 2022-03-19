@@ -1,0 +1,441 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / dev-gui
+Topic: Komodo GUI/Frontend Development.
+==============================================================
+
+[15-Aug-18 04:58 AM] ca333#0333
+@pbca26 @jusoaresf @namhoang28 - we can use this channel for all GUI dev related talk.
+
+
+[15-Aug-18 04:59 AM] ca333#0333
+there is a new role "GUI-dev" which gives permission to interact in this channel. Team members also have full access.
+
+{Reactions}
+👍🏽 (3) 
+
+[15-Aug-18 05:04 AM] jusoaresf#3291
+Thank you @ca333 .
+
+
+[15-Aug-18 05:16 AM] jusoaresf#3291
+Welcome  @namhoang28 .
+@ca333 is our CTO, the developer of the dICO App and has the details on the proposed challenge.
+@pbca26 is our front end developer behind all versions of Agama Wallet.
+
+
+[15-Aug-18 05:18 AM] namhoang28#4328
+Thank @jusoaresf for the introduction.
+
+
+[15-Aug-18 05:18 AM] namhoang28#4328
+Hi @ca333, @pbca26. Nice to meet you.
+
+
+[15-Aug-18 05:18 AM] namhoang28#4328
+My name is Hoang. I am a new here 😃
+
+
+[15-Aug-18 05:23 AM] SHossain#0007
+Mr Hoang, nice to meet you. Welcome to the team 😃
+
+
+[15-Aug-18 05:25 AM] namhoang28#4328
+@SHossain  thank you 😄
+
+
+[15-Aug-18 05:26 AM] namhoang28#4328
+Nice to meet you too
+
+
+[15-Aug-18 05:32 AM] pbca26#5430
+hi and welcome @namhoang28 
+i liked your suggestions for agama web/mobile and agama-wallet-lib refactor👍
+
+
+[15-Aug-18 05:36 AM] namhoang28#4328
+Oh thank you, that's what I familiar with. Glad you like it 😃
+
+
+[15-Aug-18 05:36 AM] Mylo#8306
+Hi @namhoang28 all the best!
+i'm working on an rpc-lib  for some test gui stuff https://github.com/imylomylo/komodo-rpc-lib  feedback welcome (only a week into it but will be usable next week) in something like this https://github.com/imylomylo/komodo-cakeshop which i'm using as prototype.
+
+{Embed}
+https://github.com/imylomylo/komodo-rpc-lib
+imylomylo/komodo-rpc-lib
+komodo-rpc-lib - ES6 komodo platform rpc for use in gui or nodejs
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+{Embed}
+https://github.com/imylomylo/komodo-cakeshop
+imylomylo/komodo-cakeshop
+Contribute to komodo-cakeshop development by creating an account on Github.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+{Reactions}
+👍 
+
+[15-Aug-18 05:39 AM] Yassin#3685
+Welcome @namhoang28 :yassinkomodo:
+
+
+[15-Aug-18 06:17 AM] grewalsatinder#9653
+Welcome @namhoang28
+
+
+[15-Aug-18 06:55 AM] namhoang28#4328
+Thank you for warm welcome guys. I will be starting during the weekend. I'm very happy to be part of the team. @Mylo your repo looks great 😃
+
+{Reactions}
+yassinheart 👍 (2) Komodo (2) 
+
+[15-Aug-18 10:36 AM] siu#3920
+welcome @namhoang28 !
+
+
+[16-Aug-18 03:28 AM] grewalsatinder#9653
+@Mylo can you please help compiling kmdrpc to use with react.js project ?
+
+
+[16-Aug-18 03:28 AM] grewalsatinder#9653
+https://github.com/imylomylo/komodo-rpc-lib/
+
+{Embed}
+https://github.com/imylomylo/komodo-rpc-lib/
+imylomylo/komodo-rpc-lib
+komodo-rpc-lib - ES6 komodo platform rpc for use in gui or nodejs
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[16-Aug-18 03:29 AM] grewalsatinder#9653
+need to use it in this example: https://github.com/facebook/create-react-app
+
+{Embed}
+https://github.com/facebook/create-react-app
+facebook/create-react-app
+create-react-app - Create React apps with no build configuration.
+https://images-ext-2.discordapp.net/external/RMv6Aj9hc1iKIZhBm3ONtwb2ssog3fuL4UI24SC88_s/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/69631
+
+
+[16-Aug-18 05:35 AM] Bryan_Beus#6442
+@Mylo 
+
+Your statement about it being "always almost done" turned out to be prophetic.
+
+I was so close tonight to finishing it all up... and then I did something that broke the whole thing. Getting that same `relationship ("Trees") does not exist` error again, which may mean that I've changed something that's ruining the MVC system.
+
+Can't rebuild the database even, though it was working just a few hours ago.
+
+Got a final exam this weekend, so won't be able to come back to this till next week.
+
+😛 So close, but so far away.
+
+
+[16-Aug-18 08:02 PM] Mylo#8306
+haha - we all know it.
+oh well, you've lost it.  let it go. it's gone - til next week... and you'll have to rekindle the same magic.  but it will have a different-sameness.  ya gotta work on your drills of getting productive with your tools - make trivial stuff sometimes -  find their quirks and try not to hit those quirks too often.
+
+
+[16-Aug-18 08:05 PM] Mylo#8306
+@grewalsatinder i haven't tested it yet with browser code.
+
+
+[16-Aug-18 08:06 PM] Mylo#8306
+i'll test try after lunch
+
+
+[16-Aug-18 08:06 PM] grewalsatinder#9653
+Cool
+Will wait for your update
+
+
+[16-Aug-18 08:11 PM] Mylo#8306
+fyi for nodejs it uses es-2015 something plugin of babel.   so for browser, babel stuff prob not needed because browser env can handle import { ... } from statement.   recent node can (v10 i think) but not v9 - so it requires babel
+
+
+[16-Aug-18 08:12 PM] grewalsatinder#9653
+React using babel
+
+
+[16-Aug-18 09:41 PM] Mylo#8306
+ok, error with `stdrpc` standalone, so i'll just look through current/closed issues to see how to resolve.  it uses `axios` for http requests, which is the go-to lib used in vue projects.
+
+
+[16-Aug-18 09:55 PM] Mylo#8306
+`...` <-- es6 feature in browser i think.
+
+
+[16-Aug-18 10:14 PM] Mylo#8306
+@grewalsatinder looks like the dependency `stdrpc` hasn't included some es6 browser babel stuff.  left an issue to see what that dev says for now: https://github.com/montyanderson/stdrpc/issues/11
+
+{Embed}
+https://github.com/montyanderson/stdrpc/issues/11
+npm babel loader for browser use? · Issue #11 · montyanderson/stdrpc
+What's the secret for getting it to work in browser? error in ./node_modules/stdrpc/index.js Module parse failed: Unexpected token (10:2) You may need an appropriate loader to handle this file ...
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[16-Aug-18 11:05 PM] Mylo#8306
+There's a way for webpack to transpile dependencies in `node_modules` but i'm not very good with webpack configurations (which i presume your react setup uses, vue uses webpack).  Exploring some options.  
+
+Otherwise, worst case is to modify stdrpc lib so the javascript es6 spread operator `...` (which iterates through an array/object) to whatever babel transpilation would output, hacky.
+
+Or, just use `axios` directly https://github.com/imylomylo/stdrpc/blob/master/index.js#L44  but stdrpc makes it nice and easy to build a lib with for future once this little problem is overcome (like a marketmaker rpc, similar to what marketmaker-cli has summarised)
+
+{Embed}
+https://github.com/imylomylo/stdrpc/blob/master/index.js
+imylomylo/stdrpc
+stdrpc - ES6+ compatible, isomorphic JSON-RPC module for node and the browser.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[17-Aug-18 12:21 AM] pbca26#5430
+generally you don't need to convert es6 to es5 for node
+only if you plan to run code on some prehistoric node version
+for browser i'd suggest to always transpile it to es5 so that people running ie6 remain happy
+babel-cli is a good option to run a es6->es5 conversion
+however it will produce a bit of a garbage code but in exchange for total automation
+a small price to pay imo
+
+
+[17-Aug-18 12:23 AM] pbca26#5430
+if you know/can find your way around webpack config that's even better
+
+
+[17-Aug-18 12:39 AM] Mylo#8306
+thanks @pbca26 i'll look at the webpack config a bit more then 👍
+
+
+[17-Aug-18 06:55 AM] ca333#0333
+@namhoang28 - welcome in the team, as the initial task we would like to have the dICO-app prototype ported to a native electron app utilizing react or vue for the GUI side (or any comparable/solid UI framework). The initial prototypes codebase is https://github.com/komodoplatform/dicoapp/tree/example - please check out the app and the way it works and let me know if you need any further help porting it. It is a meteorJS based prototype. In addition we added a electron wrapper to use the meteorJS app as a standalone electron desktop application. [cc: @pbca26 @jusoaresf ]
+
+{Embed}
+https://github.com/komodoplatform/dicoapp/tree/example
+KomodoPlatform/dicoapp
+dicoapp - whitelabeled dico application
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Reactions}
+👍 
+
+[17-Aug-18 07:09 AM] namhoang28#4328
+@ca333 thank you,
+I just cloned and ran it on my local yesterday. Now I’m reading the code.
+
+
+[17-Aug-18 07:33 AM] namhoang28#4328
+@ca333, Do we need the server side for this app. I saw the code here (https://github.com/KomodoPlatform/dicoapp/blob/example/server/main.js#L1).
+If we need, I think we will have 2 app (one for electron app, one for server side).
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp/blob/example/server/main.js
+KomodoPlatform/dicoapp
+dicoapp - whitelabeled dico application
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[17-Aug-18 04:40 PM] Mylo#8306
+@grewalsatinder i got it to work by transpiling the stdrpc lib and `npm install --save /absolute/path/to/local/` of the kmdrpc locally.  Then in my vue (your react project) do the same, npm install --save /abs/path/to/kmdrpc.  i'll put clear instructions up over the weekend and bundle it into the latest docker kmd cc image.
+
+At least we can get started until working out the babel/webpack recipe for transpiling a dependency.
+
+
+[17-Aug-18 10:55 PM] namhoang28#4328
+@ca333 @pbca26 Where can I push the code? I'm still reading the codebase but I think I can start doing something basic like creating issues, adding labels, set up a boilerplate …
+
+
+[18-Aug-18 01:18 AM] grewalsatinder#9653
+Cool @Mylo 
+M on mobile now
+When back on computer will test, 
+Also will play with webpack. Have tried it and have lil understanding on it. Will possibly be able to solve it. 🙂👍
+
+
+[18-Aug-18 05:56 AM] ca333#0333
+@namhoang28 - all server code is considered GUI "backend" logic and will of course be part of the application. But there wont be 2 apps. Its one single application.
+
+
+[18-Aug-18 05:56 AM] ca333#0333
+let me know your github username and i ll create you a new repo for the new app
+
+
+[18-Aug-18 05:56 AM] ca333#0333
+also which UI framework are you going to use?
+
+
+[18-Aug-18 05:59 AM] ca333#0333
+also please dont reinvent the wheel - try to use a prebuilt boilerplate base since the real/important task is porting/rewriting the app. Getting skelleting up is a no-brainer. And the available boilerplates are mostly well tested and maintained. 
+for example: 
+https://github.com/SimulatedGREG/electron-vue
+https://github.com/chentsulin/electron-react-boilerplate
+
+{Embed}
+https://github.com/SimulatedGREG/electron-vue
+SimulatedGREG/electron-vue
+electron-vue - An Electron & Vue.js quick start boilerplate with vue-cli scaffolding, common Vue plugins, electron-packager/electron-builder, unit/e2e testing, vue-devtools, and webpack.
+https://images-ext-2.discordapp.net/external/44r7Y7pWJ96ijbGNNzQS4r6cWF__uoEN7PS7gLG0agM/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/8327811
+
+{Embed}
+https://github.com/chentsulin/electron-react-boilerplate
+chentsulin/electron-react-boilerplate
+electron-react-boilerplate - Live editing development on desktop app
+https://images-ext-2.discordapp.net/external/GhO2f1gTb2L3tZmDG3JklXWk3g049sBx0D8DUTONsto/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3382565
+
+
+[18-Aug-18 07:13 AM] namhoang28#4328
+@ca333 thanks. I got it.
+This is my github profile (https://github.com/particle4dev). For the GUI side, I will stick with react since I familiar with it. electron-react-boilerplate looks good. I will try it.
+
+
+[18-Aug-18 07:13 AM] namhoang28#4328
+I have one more question. Where can I find the document about marketmaker app (https://github.com/KomodoPlatform/dicoapp/tree/example/.desktop/modules/marketmaker/LINUX). I tried to find it on the wiki in github but no luck.
+
+
+[19-Aug-18 11:46 PM] gcharang#6833
+@namhoang28 marketmaker and barterDEX-CLI are the same thing. You can find barterDEX api here: https://docs.komodoplatform.com/barterDEX/barterDEX-API.html
+General setup and other instructions regarding marketmaker/barterDEX-cli : https://docs.komodoplatform.com/home-barterDEX.html
+
+{Reactions}
+👍 
+
+[06-Sep-18 04:56 AM] Mylo#8306
+does anyone mind if i hijack this channel with @Bryan_Beus (& @gcharang ) for some documentation chat?  or maybe we can get a documentation channel if it annoys you?
+
+Anyway:
+
+
+There's about 220 API commands atm not including the newer CCs which will add further.
+
+Take a look at what shossain started with the smart contract RPC docs [1] and the layout of my js kmd rpc lib [2].  the monkey task of creating directories and initial docs between his work and my work will save you a cpl hours and prevent the endless scroll of api docs which sucks about AWS documentation.
+
+However, since it bugs me to see repetitve tasks carried out by humans - i made a bash script here [0] that when you run it creates the directories and puts the `komodo-cli help` output into respective files with some minor formatting (heading and back quotes).  Check it out 😃  saves you heaps of repetitive tasks.   More importantly, if there is anything that is missing, it needs developer docs written by core devs (e.g. in the FSM directories and some z_ wallet stuff zcrawjoinsplit).  Also, if there are things that say "Response" or "Result" be good if the output from komodo-cli was uniform.
+
+By making output of `komodo-cli` uniform, we can then just use some script to compile a set of docs.   As there are changes to the API (addition of smart contracts) it becomes administrative overhead, and we end up with docs from <2018 rather than shifting the maintenance into code (scripts, daemon output etc.) which we can manage with a better degree of skill (strictly imo!)
+
+[0] - https://github.com/imylomylo/mkdocs.sh
+[1] - https://github.com/himu007/KMD-CC-Token-Test-Guide/tree/master/rpc
+[2] - https://github.com/imylomylo/komodo-rpc-lib/tree/master/src
+
+{Embed}
+https://github.com/imylomylo/mkdocs.sh
+imylomylo/mkdocs.sh
+Contribute to imylomylo/mkdocs.sh development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+{Embed}
+https://github.com/himu007/KMD-CC-Token-Test-Guide/tree/master/rpc
+himu007/KMD-CC-Token-Test-Guide
+Komodo CC Token testing description, setup & how-to - himu007/KMD-CC-Token-Test-Guide
+https://images-ext-2.discordapp.net/external/Qx6z4A2x3fXUMicK26FfxO0XCVNXI0f0LO00uiWvE9g/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/8881040
+
+{Embed}
+https://github.com/imylomylo/komodo-rpc-lib/tree/master/src
+imylomylo/komodo-rpc-lib
+ES6 komodo platform rpc for use in gui or nodejs. Contribute to imylomylo/komodo-rpc-lib development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[06-Sep-18 05:33 AM] gcharang#6833
+Does this mean we can submit PRs to jl777's komodo repo with better explanations(and remove zcash references) and use your shell script for auto-doc creation?
+
+
+[06-Sep-18 06:49 AM] Mylo#8306
+First thing,  yes if the docs need updating - do it and submit PR after testing it.
+Once the docs in src are good, that script will make new docs yes (from Komodo-cli help) output
+
+
+[06-Sep-18 09:08 AM] Mylo#8306
+also it's just a starting point - an example of being able to do this from a script.
+so when it comes time to making menus, during the loop where it hits the `== heading ==` from output, if there's a "menu" or some links to create - can add them to the script to write out to file.
+
+Alternatively, just use this output for inserting into a better document project.   so it's just a utility script.   see how useful it is.  at least it is repeatable.
+
+
+[07-Sep-18 12:43 AM] gcharang#6833
+@Mylo this is great. I have found this repo: https://github.com/miyakogi/m2r that can convert github `.md` format  files to rst format. We can even integrate your script and this new utility into the Travis continous build system thats already setup so that it builds the updated api documents automatically everytime.
+
+{Embed}
+https://github.com/miyakogi/m2r
+miyakogi/m2r
+Markdown to reStructuredText converter. Contribute to miyakogi/m2r development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/rRxxfj-0RZN34SlumegN1nwear7W21RHUCcVkXvN7tk/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/3213998
+
+
+[07-Sep-18 10:21 AM] Mylo#8306
+@gcharang nice one.   well in the future, can change script from bash to python so it can all be managed by one thing, but for now this could be great!
+
+{Reactions}
+👍 
+
+[07-Sep-18 11:19 AM] Mylo#8306
+@Bryan_Beus 
+Doc notes
+
+docbox: https://github.com/tmcw/docbox
+Takes structured md and turns into prettier docs
+
+Samples:
+ 1.  beautiful but horribly long and corresponding load time https://docs.8thwall.com/#introduction
+ 2. https://www.mapbox.com/api-documentation/?language=cURL#introduction
+ 3.  maybe it's what ca used for api.kmd.host for barterdex...not sure.
+
+{Embed}
+https://github.com/tmcw/docbox
+tmcw/docbox
+REST API documentation generator. Contribute to tmcw/docbox development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/DpOckix44xIB2V9JyB8ECke42wRrmPqy9Ws8zYtUCXc/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/32314
+
+
+[07-Sep-18 11:21 AM] Bryan_Beus#6442
+Nice.
+
+
+[07-Sep-18 11:22 AM] Mylo#8306
+For interactive developer playing
+
+Swagger:  https://petstore.swagger.io/?_ga=2.265859398.895688636.1536342271-84529313.1535582265#/pet/findPetsByStatus
+That is a sample, similar to what gamecredits explorer we saw.
+
+👆 this functionality to add into other docs is not so easy.    Might need a simple node app built to create that, still to explore.
+Otherwise without the interactivity, commenting code.
+
+
+[07-Sep-18 11:23 AM] Mylo#8306
+But adding this as a downloadable/packaged-up/docker environment for devs to use on a regtest chain out-of-the-box within 5 mins, is safe.
+Same can be made available online for instant testing on our docs site.
+
+
+[07-Sep-18 11:23 AM] Mylo#8306
+So on one hand you have uber descriptions, the other interactivity.   But not both so easily...  Not that i have found.
+
+
+[07-Sep-18 11:41 AM] Mylo#8306
+And lastly another option http://apidocjs.com/#param-api-sample-request
+with example http://apidocjs.com/example/
+Which could be less in-the-way than the other two
+
+
+[19-Nov-18 07:53 AM] benohanlon#7045
+@Mylo does this channel need to be private? Am setting test server up for discord reorg and want to confirm?
+
+
+[19-Nov-18 07:53 AM] Mylo#8306
+from what i understand yes @benohanlon it's for internal product testing
+
+
+[19-Nov-18 07:54 AM] Mylo#8306
+specific to gui dev
+
+
+[28-Nov-18 04:58 AM] siu#3920
+looking for CC gui developer, please DM me.
+
+
+[29-Nov-18 06:04 AM] jusoaresf#3291
+@siu 👌
+
+
+==============================================================
+Exported 64 message(s)
+==============================================================

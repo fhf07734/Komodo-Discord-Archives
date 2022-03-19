@@ -1,0 +1,4948 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / stable-beta-040-launch-party🎉🎉
+==============================================================
+
+[26-Feb-21 07:48 AM] lightspeed393#5403
+:AtomicDEX: 🚀
+
+{Reactions}
+KMD (7) 🔥 (5) 🎉 (4) 
+
+[26-Feb-21 07:48 AM] Jcharming#2693
+@everyone Today is the big day and this is the big weekend for the Stable Beta 040 launch party and public release. 
+
+We'll be livestreaming out of our discord to youtube and twitter.
+
+{Reactions}
+AtomicDEX (8) 2561_feelsevilman (2) 👍 (3) Antara (3) 
+
+[26-Feb-21 07:49 AM] Artist#0765
+Awesome
+
+
+[26-Feb-21 07:49 AM] saskboy#5198
+Is it available in Canada?
+
+
+[26-Feb-21 07:49 AM] 𝙊𝙞𝙣𝙠#3612
+Youtube not yet available in Canada?
+
+{Reactions}
+troll_lol (4) 
+
+[26-Feb-21 07:50 AM] saskboy#5198
+The software I mean.
+
+
+[26-Feb-21 07:50 AM] Minigunner#0467
+🤣
+
+
+[26-Feb-21 07:51 AM] KOLOVRAT_SVARGI#1158
+😆
+
+
+[26-Feb-21 07:52 AM] daemonfox#6136
+:komodopog:
+
+
+[26-Feb-21 07:54 AM] lightspeed393#5403
+there's still geoblock for canada, but marmarachain typically releases a non-geoblocked version right after.
+
+
+[26-Feb-21 07:54 AM] ejuliano#8606
+:KMD: :AtomicDEX:
+
+
+[26-Feb-21 07:54 AM] ejuliano#8606
+i thought 0.4. is free from geoblock?
+
+
+[26-Feb-21 07:54 AM] Artist#0765
+Emc2 added in this version
+
+
+[26-Feb-21 07:54 AM] Artist#0765
+It's on desktop but not on mobile version yet
+
+
+[26-Feb-21 07:54 AM] lightspeed393#5403
+https://github.com/KomodoPlatform/atomicDEX-Desktop/blob/master/CMakeLists.txt#L52 doesn't appear so
+
+
+[26-Feb-21 07:55 AM] Jcharming#2693
+We'll have the stable beta release today and then a follow up continuation tomorrow as well to carry the noise and signal. 
+You can help make noise for this event and show your KomodLove by 
+sharing the livestream link via RT and quote RT when it goes live in 2 hours from our twitter. 
+
+✅ Sharing the Komodo platform community page https://komodoplatform.com/en/community.html 🐲
+
+✅ Sharing the February event scheduler tagging the livestream event (last 2) coming out of our discord and being re-streamed on youtube and twitter. 🏆⚔https://blog.komodoplatform.com/en/komodo-february-2021-discover-atomicdex/
+
+✅ Sharing the specific calendar add event https://www.addevent.com/event/Ct6030125 via your own channels and other discords 🔥
+
+✅ Sharing atomicdex.io the countdown website which will go live as the product explainer page for AtomicDEX and cues the release of Stable Beta 040. 🎉
+
+{Embed}
+https://komodoplatform.com/en/community.html
+Komodo Platform Community - Join Like-minded Crypto Enthusiasts
+We are a global community of blockchain and cryptocurrency enthusiasts. Home of the KMD coin, the fuel of the Komodo ecosystem. Follow your blockchain path, and join our community!
+
+{Embed}
+https://blog.komodoplatform.com/en/komodo-february-2021-discover-atomicdex/
+Komodo February 2021📅 Discover AtomicDEX
+Six events, all AtomicDEX, attend and Earn4Learning with Komodo. The Komodo February event series will be capped off with the 1st ever AtomicDEX Swap Competition on February 27th. Attend events to unlock early access to AtomicDEX v0.4.0 Stable Beta before public release.
+https://images-ext-1.discordapp.net/external/w84BLJ5Tk8U-F_ExZsn7kHsfH1HIhg0W9JAKPbFIevc/https/blog.komodoplatform.com/en/content/images/2021/02/Feb--1-.jpg
+
+{Embed}
+https://www.addevent.com/event/Ct6030125
+Stable Beta Launch Party 🚀👩‍🚀👨‍🚀- AtomicDEX v0.4.0
+You're reading this because you have been invited to the Stable Beta Launch Party 🚀👩‍🚀👨‍🚀- AtomicDEX v0.4.0.DESCRIPTION5. 4. 3. 2. 1. We have lift off!  Be at the launch party - hosted by Komodo - attended by many. Games, prizes, and much fun (very wow). We're also highlighting the gorgeous new atomicdex.io website. CHECKLIST✓ Download AtomicDEX...
+https://images-ext-1.discordapp.net/external/5jNnj9c6rCR8ObqAfJydAW7NoHHYp_O57TmHoJ3STac/https/addevent.com/gfx/logofs.png
+
+
+[26-Feb-21 07:56 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814888570983809044/Guess2GetKMD.jpg
+
+
+[26-Feb-21 07:56 AM] Audo#5667
+We will play a little game on the stream. Like wheel of fortune type of thing 🙂
+
+{Reactions}
+KMD (3) 
+
+[26-Feb-21 08:18 AM] VandarGR#6065
+❤
+
+
+[26-Feb-21 08:21 AM] Slyris#2880
+Bonjour everyone
+
+
+[26-Feb-21 08:21 AM] Ronald#9634
+Good afternon
+
+
+[26-Feb-21 08:24 AM] ZokiZok  $ARRR#9247
+Hallo
+
+
+[26-Feb-21 08:28 AM] Walter83#3669
+I am so excited
+
+{Reactions}
+💯 (2) 
+
+[26-Feb-21 08:29 AM] Chadwinc#0075
+Awesome stuff team!
+
+
+[26-Feb-21 08:51 AM] structi#6733
+What is the requirements for getting the free KMDs, Just downloading the New version is enough?
+
+
+[26-Feb-21 09:01 AM] Audo#5667
+the 10 KMD is still there 🙂 No one paid attention!
+
+{Reactions}
+treasure 
+
+[26-Feb-21 09:04 AM] daemonfox#6136
+Is noon on Fri in US... most of us are work/watching at best
+
+
+[26-Feb-21 09:08 AM] Audo#5667
+Next game will be 50 KMD – join the live stream for first hints
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814906819129638932/unknown.png
+
+{Reactions}
+KMD 
+
+[26-Feb-21 09:18 AM] Jcharming#2693
+Hello everyone  : ) 
+@Churro Killing it by spinning up our Reddit crowd and sharing it out as a cross post.  Here is the link to our reddit with the prize and bounty details he built out! Show some love we'll be showing it on the livestream.  ❤️ https://link.komodoplatform.com/3PzhYO
+
+
+[26-Feb-21 09:18 AM] Artist#0765
+Where is the live stream
+
+
+[26-Feb-21 09:18 AM] Jcharming#2693
+Here out of our discord - and then it will be restreamed to youtube and twitter as well
+
+
+[26-Feb-21 09:19 AM] Jcharming#2693
+Just like the other livestream events this Month : )
+
+
+[26-Feb-21 09:21 AM] CryptoQueen#8313
+Super 🚀
+
+
+[26-Feb-21 09:28 AM] Artist#0765
+https://www.reddit.com/r/komodoplatform/comments/lt2uzq/we_do_this_for_a_hobby/?utm_medium=android_app&utm_source=share
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt2uzq/we_do_this_for_a_hobby/?utm_medium=android_app&utm_source=share
+r/komodoplatform - We do this for a hobby
+0 votes and 0 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/42vtAzVgtIXgVg7FRE4Gu-nzhWS1MrLqxSMY-J0pf9E/%3Fauto%3Dwebp%26s%3D0e24053ca7e335ee49d3ae8016e02babc03aa9c1/https/preview.redd.it/rrxm14amwuj61.jpg
+
+{Reactions}
+😂 (3) 
+
+[26-Feb-21 09:40 AM] Jcharming#2693
+Love it!
+
+
+[26-Feb-21 09:42 AM] Artist#0765
+Thanks
+
+
+[26-Feb-21 09:42 AM] Jcharming#2693
+@everyone Stream will be live in ~20m ❤️
+
+Thanks for everyone participating in a great month of events and helping spread the word about Komodo - looking forward to having Stable Beta 040 for the following months leading into our first half of the year wins for Komodo together.
+
+{Reactions}
+👍 (10) KMD (6) AtomicDEX (5) komodopog (3) 
+
+[26-Feb-21 09:42 AM] Artist#0765
+I hope the community loves the content I have been working on as well.
+Publish soon
+
+{Reactions}
+🔥 (3) 
+
+[26-Feb-21 09:47 AM] joe_land1#1088
+@Jcharming is the wallet relased yet?
+
+
+[26-Feb-21 09:47 AM] Jcharming#2693
+meme master here
+
+
+[26-Feb-21 09:47 AM] joe_land1#1088
+i mean new application
+
+
+[26-Feb-21 09:47 AM] joe_land1#1088
+atomic dex
+
+
+[26-Feb-21 09:47 AM] joe_land1#1088
+brain small
+
+
+[26-Feb-21 09:47 AM] joe_land1#1088
+it weekend
+
+
+[26-Feb-21 09:47 AM] joe_land1#1088
+cash money
+
+
+[26-Feb-21 09:48 AM] joe_land1#1088
+https://tenor.com/view/nicolas-cage-friday-feel-that-friday-feeling-feel-that-thats-friday-gif-12235300
+
+{Embed}
+https://tenor.com/view/nicolas-cage-friday-feel-that-friday-feeling-feel-that-thats-friday-gif-12235300
+https://images-ext-2.discordapp.net/external/sX5t4S-HAxJqo3zZK1uSCS4IruA1pytkDhlce-YnmSY/https/media.tenor.co/images/4d75d626c30e5fca32c2053af77f40e2/tenor.png
+
+
+[26-Feb-21 09:48 AM] daemonfox#6136
+lol smol brain crew
+
+
+[26-Feb-21 09:48 AM] Jcharming#2693
+lol atomicdex.io 
+
+and the stream here less than 20 mins now.
+
+
+[26-Feb-21 09:48 AM] joe_land1#1088
+cash money
+
+
+[26-Feb-21 09:48 AM] joe_land1#1088
+everyone here is small brain, this is crypto after all
+
+
+[26-Feb-21 09:48 AM] joe_land1#1088
+integer overflow
+
+
+[26-Feb-21 09:49 AM] Jcharming#2693
+very small much smooth
+
+
+[26-Feb-21 09:49 AM] ZokiZok  $ARRR#9247
+https://tenor.com/view/golden-girls-konga-dancing-dance-dance-party-gif-14688514
+
+{Embed}
+https://tenor.com/view/golden-girls-konga-dancing-dance-dance-party-gif-14688514
+https://images-ext-2.discordapp.net/external/uV5LO9TgScIBSu7f5uT0ZdPm8D9tooakwnZw1eBSkE8/https/media.tenor.co/images/44a800107c06dac75f59f82efee24a47/tenor.png
+
+
+[26-Feb-21 09:49 AM] joe_land1#1088
+https://tenor.com/view/bff-friends-shave-whole-body-shave-gif-14992607
+
+{Embed}
+https://tenor.com/view/bff-friends-shave-whole-body-shave-gif-14992607
+https://images-ext-1.discordapp.net/external/ukSUS3BADwBstiQKDvxrRfXOSUS3_-fPiO2aoFqkGSc/https/media.tenor.co/images/66f2d692865a96f2672339766754f8dc/tenor.png
+
+
+[26-Feb-21 09:49 AM] joe_land1#1088
+_SMEWTH_
+
+
+[26-Feb-21 09:49 AM] joe_land1#1088
+imma shitpost a bit cuz i got nothing better to do
+
+
+[26-Feb-21 09:49 AM] joe_land1#1088
+brb
+
+
+[26-Feb-21 09:50 AM] YoImSaiyan#7540
+https://tenor.com/view/jonah-hill-yay-african-child-screaming-shouting-gif-7212866
+
+{Embed}
+https://tenor.com/view/jonah-hill-yay-african-child-screaming-shouting-gif-7212866
+https://images-ext-1.discordapp.net/external/Ug2lua7m5ZfaH53H-IVUcfkSO0O6xzlpQfpme8VoPmQ/https/media.tenor.co/images/2208f4bccdeaad6c7ed367d8fb97de92/tenor.png
+
+
+[26-Feb-21 09:51 AM] D3b0#9761
+https://tenor.com/view/happy-dance-excited-gif-5084918
+
+
+[26-Feb-21 09:51 AM] joe_land1#1088
+https://www.reddit.com/r/ProgrammerHumor/comments/lspmy0/how_do_you_use_this/
+
+{Embed}
+https://www.reddit.com/r/ProgrammerHumor/comments/lspmy0/how_do_you_use_this/
+r/ProgrammerHumor - How do you use this ?
+17,383 votes and 162 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/9Ht59F-R5cmHNBBWyPxT1uwT3BNBV4FNUGazPRJYvgo/%3Fformat%3Dpjpg%26auto%3Dwebp%26s%3Dc21020e64a6e84e56f4ee3855ea42ef1d78c107f/https/external-preview.redd.it/Gth_A1JLPr36391JMRtCLQRqk6_3mVy45xwHtzS6rn0.png
+
+
+[26-Feb-21 09:52 AM] ZokiZok  $ARRR#9247
+is the new 0.4.0 beta from today newer as the 0.4.0 from monday?
+
+
+[26-Feb-21 09:52 AM] joe_land1#1088
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814917790166679642/uqbxnnwagtj61.png
+
+
+[26-Feb-21 09:52 AM] joe_land1#1088
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814917841027334164/rzxweg3mnqj61.png
+
+
+[26-Feb-21 09:53 AM] joe_land1#1088
+@PTYX oh rly, dang
+
+
+[26-Feb-21 09:53 AM] joe_land1#1088
+asics?
+
+
+[26-Feb-21 09:53 AM] Jcharming#2693
+yes it is the official update.  The Monday one was for those that attended the livestream and got early access : )
+
+{Reactions}
+👍 (2) 
+
+[26-Feb-21 09:55 AM] joe_land1#1088
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814918482579816469/2hklec6uwuj61.png
+
+{Reactions}
+troll_lol 
+
+[26-Feb-21 09:55 AM] joe_land1#1088
+ho dang
+
+
+[26-Feb-21 09:55 AM] joe_land1#1088
+what?
+
+
+[26-Feb-21 09:55 AM] joe_land1#1088
+i dont think that matcha is good
+
+
+[26-Feb-21 09:55 AM] joe_land1#1088
+matcha is fancy green tea
+
+
+[26-Feb-21 09:58 AM] joe_land1#1088
+could u make a say
+
+
+[26-Feb-21 09:58 AM] joe_land1#1088
+10 KMD to register and then u vote every day or something
+
+
+[26-Feb-21 09:58 AM] joe_land1#1088
+idk
+
+
+[26-Feb-21 09:58 AM] joe_land1#1088
+i not pro
+
+
+[26-Feb-21 09:58 AM] joe_land1#1088
+maybe take a snapshot
+
+
+[26-Feb-21 09:59 AM] joe_land1#1088
+to make sure ppl cant cheat the system
+
+
+[26-Feb-21 09:59 AM] joe_land1#1088
+🤷
+
+
+[26-Feb-21 10:02 AM] joe_land1#1088
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814920389201100820/0147eahjdtj61.png
+
+{Reactions}
+😂 (2) 
+
+[26-Feb-21 10:02 AM] Jcharming#2693
+lmfao
+
+
+[26-Feb-21 10:03 AM] joe_land1#1088
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814920503633772565/1CdCWC98xOIlXR1mCX-nU2PafjenTMBVOa3BUu-lhns.png
+
+
+[26-Feb-21 10:03 AM] joe_land1#1088
+for u starwards nderds
+
+
+[26-Feb-21 10:03 AM] jurbel#5593
+Let's go
+
+
+[26-Feb-21 10:04 AM] Jimm B.#9993
+:komodopog:
+
+
+[26-Feb-21 10:04 AM] joe_land1#1088
+cash money
+
+
+[26-Feb-21 10:06 AM] jurbel#5593
+Farm on #DeFi
+
+
+[26-Feb-21 10:08 AM] Chadwinc#0075
+10
+
+
+[26-Feb-21 10:08 AM] Chadwinc#0075
+5
+
+
+[26-Feb-21 10:08 AM] Chadwinc#0075
+0
+
+
+[26-Feb-21 10:08 AM] ZokiZok  $ARRR#9247
+🥳
+
+
+[26-Feb-21 10:08 AM] PTYX#6840
+https://tenor.com/view/cat-launch-button-helmet-redbutton-gif-4812571
+
+{Embed}
+https://tenor.com/view/cat-launch-button-helmet-redbutton-gif-4812571
+Launch
+https://images-ext-1.discordapp.net/external/mOGdcAti_bEiScKL1s5CFB6aNc1S0n2rOg_nfxOAY6o/https/media.tenor.co/images/61c5a38bcc6c3e8b138d2280442e1fd3/raw
+
+{Reactions}
+AtomicDEX (3) KMD (3) 
+
+[26-Feb-21 10:09 AM] joe_land1#1088
+https://tenor.com/view/blast-blastoff-off-rocket-zoom-gif-9503123
+
+{Embed}
+https://tenor.com/view/blast-blastoff-off-rocket-zoom-gif-9503123
+https://images-ext-1.discordapp.net/external/hTpVwei92OcJHEpRh2PyZKGTmLTGYCjMl-gjS1T_7UQ/https/media.tenor.co/images/250f8003f8d9a2f0689b86333f2486c7/tenor.png
+
+{Reactions}
+🚀 (3) 
+
+[26-Feb-21 10:10 AM] andy#0316
+The site is very nice. Congratulations!
+
+
+[26-Feb-21 10:10 AM] jansako#3330
+Congrats folks!
+
+
+[26-Feb-21 10:10 AM] unalsengun#0892
+Go baby gooo
+
+
+[26-Feb-21 10:11 AM] Cryptosaurus | $ARRR#2742
+very nice!
+
+
+[26-Feb-21 10:11 AM] jansako#3330
+been a long time coming!
+
+
+[26-Feb-21 10:11 AM] recep#8521
+Nicely done
+
+
+[26-Feb-21 10:11 AM] Jcharming#2693
+Hell yes!  🎉🎉
+
+
+[26-Feb-21 10:11 AM] Lexbaba#3219
+👏
+
+
+[26-Feb-21 10:12 AM] umitkara48#6464
+great site
+
+
+[26-Feb-21 10:12 AM] alkimi#1111
+ur my hero Joe
+
+
+[26-Feb-21 10:13 AM] Artist#0765
+Not for mobile?
+
+
+[26-Feb-21 10:13 AM] Artist#0765
+The update
+
+
+[26-Feb-21 10:13 AM] Walter83#3669
+Only for Desktop
+
+
+[26-Feb-21 10:13 AM] sanktuli#4374
+Nice
+
+
+[26-Feb-21 10:13 AM] Walter83#3669
+At the moment
+
+
+[26-Feb-21 10:14 AM] Mvictor#4284
+can I unistall the current version, clean the folder and install the new one without having to use the seed phrase to recover the wallet?
+
+
+[26-Feb-21 10:14 AM] Audo#5667
+mobile too!
+
+
+[26-Feb-21 10:14 AM] unalsengun#0892
+Pump it baby go go go
+
+
+[26-Feb-21 10:14 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+The site looks sick !
+
+
+[26-Feb-21 10:14 AM] Slyris#2880
+You can
+
+
+[26-Feb-21 10:14 AM] joe_land1#1088
+idk what i did, but ur welcome 😂
+
+
+[26-Feb-21 10:14 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Well done
+
+
+[26-Feb-21 10:14 AM] Walter83#3669
+Really? Oh ok...dont know it
+
+
+[26-Feb-21 10:14 AM] Audo#5667
+we have mobile & desktop version, browser DEX next
+
+{Reactions}
+👍 
+
+[26-Feb-21 10:14 AM] Mvictor#4284
+Because I have the 0.4.0 already but I downloaded it even before the first event haha
+
+
+[26-Feb-21 10:15 AM] Kingen#3025
+👍
+
+
+[26-Feb-21 10:15 AM] Walter83#3669
+Yeah but mobile is not 0.4.0 at moment?
+
+
+[26-Feb-21 10:15 AM] joe_land1#1088
+https://atomicdex.io/
+
+{Embed}
+https://atomicdex.io/
+AtomicDEX Coming Soon
+AtomicDEX Coming Soon
+
+
+[26-Feb-21 10:15 AM] alkimi#1111
+ur shishiposting made my day
+
+
+[26-Feb-21 10:15 AM] joe_land1#1088
+its on website
+
+
+[26-Feb-21 10:15 AM] Cypher#9999
+soo sexy
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814923607662264391/unknown.png
+
+
+[26-Feb-21 10:15 AM] Slyris#2880
+@Mvictor you can use reset assets configuration after installing the last one (it's in the settings)
+
+
+[26-Feb-21 10:15 AM] joe_land1#1088
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814923697663639572/unknown.png
+
+
+[26-Feb-21 10:15 AM] Audo#5667
+Mobile might take more time to update as there's always delay
+
+{Reactions}
+👍 
+
+[26-Feb-21 10:15 AM] joe_land1#1088
+ah shit
+
+
+[26-Feb-21 10:16 AM] Mvictor#4284
+ok, thank you 🙂
+
+
+[26-Feb-21 10:16 AM] wil#2080
+Well done!!
+
+
+[26-Feb-21 10:17 AM] Artist#0765
+Nice
+
+
+[26-Feb-21 10:17 AM] Rocketman#4077
+awesome 💯
+
+
+[26-Feb-21 10:18 AM] Cypher#9999
+:charmander_dancing:
+
+
+[26-Feb-21 10:19 AM] PTYX#6840
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814924612458250251/478AD266-5885-470B-9B07-290FCA0DC97D_1.jpg
+
+{Reactions}
+😆 (3) 
+
+[26-Feb-21 10:21 AM] oicred#5677
+Got it
+
+
+[26-Feb-21 10:21 AM] oicred#5677
+allready made the first swap lol
+
+{Reactions}
+😎 (2) 
+
+[26-Feb-21 10:23 AM] Cryptosaurus | $ARRR#2742
+dashboard on the site looks nice 🙂 but i don't have it on my 0.4.0 is it still an other version?
+
+
+[26-Feb-21 10:23 AM] tolken#2655
+Guys, the whole KMD and AtomicDex websites have taken a massive leap the last few months, congrats to all the hard work, its paying off.
+
+{Reactions}
+👍 (2) 
+
+[26-Feb-21 10:24 AM] Audo#5667
+all credit about atomicdex.io goes to @TonyL ! 🙂
+
+{Reactions}
+3040_kingpeepo (5) KMD (6) 👏 (2) 
+
+[26-Feb-21 10:24 AM] oicred#5677
+Where can we check the list for the rewards for this event etc
+
+
+[26-Feb-21 10:25 AM] Audo#5667
+we will talk about the rewards soon
+
+
+[26-Feb-21 10:25 AM] gcharang#6833
+you need to backup your seed phrase offline if you haven;t already
+
+
+[26-Feb-21 10:25 AM] Walter83#3669
+Yes...many respect to the team and especially marketing team!!! You listen to community and approve the whole marketing! Congratulation!! I am very proud to be part of this project :-)
+
+
+[26-Feb-21 10:25 AM] oicred#5677
+😉 just doing some transactions like a test overal on win10 looks fine
+
+
+[26-Feb-21 10:26 AM] Mvictor#4284
+Oh I do, was just lazy to go pick it up hshhahaha
+
+{Reactions}
+😆 
+
+[26-Feb-21 10:26 AM] Slyris#2880
+Coming soon
+
+
+[26-Feb-21 10:26 AM] Mvictor#4284
+I did*
+
+
+[26-Feb-21 10:26 AM] PTYX#6840
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814926482111332413/download_12.jpg
+
+{Reactions}
+AtomicDEX (6) 🔥 (4) komodopog (2) 
+
+[26-Feb-21 10:27 AM] LocoMB#8593
+wow! did I _not_ miss the party for once?!?! 🍾 
+Happy Launch everyone!
+
+
+[26-Feb-21 10:28 AM] Audo#5667
+🍾 🥂
+
+
+[26-Feb-21 10:28 AM] Cryptosaurus | $ARRR#2742
+there is some fee reduction for KMD? Maybe it is also something nice to state on the website..
+
+
+[26-Feb-21 10:30 AM] oicred#5677
+felling a bit alone on the dex eheh swap MORTY RICK
+
+
+[26-Feb-21 10:30 AM] oicred#5677
+🙂
+
+
+[26-Feb-21 10:32 AM] jspook16#3059
+Is it out?
+
+
+[26-Feb-21 10:32 AM] oicred#5677
+yep!
+
+
+[26-Feb-21 10:33 AM] oicred#5677
+sorry did not get the game on youtube live. So if possible explain again
+
+
+[26-Feb-21 10:33 AM] PTYX#6840
+yes, it will be explained again by @Audo
+
+{Reactions}
+👍 (2) 
+
+[26-Feb-21 10:34 AM] sakata#4279
+Congrats Nakomodos 👍
+
+
+[26-Feb-21 10:34 AM] Churro#4832
+Wooooo
+
+
+[26-Feb-21 10:34 AM] Sdunbar#5064
+Nice work!
+
+
+[26-Feb-21 10:35 AM] ZokiZok  $ARRR#9247
+😋
+
+
+[26-Feb-21 10:36 AM] Audo#5667
+50 KMD up for graps for someone who is able to guess the seed correctly. We will show the first clue soon on the stream.
+
+Instructions:
+ – Guess the seed and add it to your AtomicDEX wallet
+ – If the seed is correct you will login to a wallet with 50 KMD in it
+ – transfer it to your own wallet
+
+Seed info
+ – only words, written IN ALL CAPS
+ - separated by space (like normally)
+
+
+[26-Feb-21 10:37 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814929091220340776/unknown.png
+
+
+[26-Feb-21 10:37 AM] Audo#5667
+currently all 6 words are hidden - no clues have been shown yet
+
+
+[26-Feb-21 10:38 AM] Cypher#9999
+RJJc1tksgWmdFkWM7HHQodickbNWZPiXWN
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814929361059708968/unknown.png
+
+{Reactions}
+shexy KMD 
+
+[26-Feb-21 10:39 AM] Kingen#3025
+R9TXex3R3spzM3SFZXfC8oqTUa4aFQKucu
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:39 AM] Audo#5667
+Those who missed in on the stream, post your KMD address here – first 25 will get a bounty
+
+
+[26-Feb-21 10:39 AM] drgucc#3067
+RJ4LjZerhoNXfW7soZNhkhqNqQZcznF7mP
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:39 AM] kharris#9477
+hello
+
+
+[26-Feb-21 10:39 AM] Mvictor#4284
+RKjsns5XCFt9wswzfA65jdqLgkD1chwrCn
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:39 AM] Zeyneb ~ Mins Design#2568
+RUQj3UcASMA47CF8eMiYLMyHBzjLLgGMoz
+
+{Reactions}
+😆 KMD 
+
+[26-Feb-21 10:39 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+RKm2VmQmd4ToYw9phfAGiyE9F8dsSG4dgR
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:39 AM] oicred#5677
+lol
+
+
+[26-Feb-21 10:39 AM] Oszy#5734
+RRabfMneJipReP33ountbiT7CubyiHpT4T :troll:
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:40 AM] kharris#9477
+RNNbc8Vsozq6YWTdev4MZrQ4LXinh56y8f
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:40 AM] Cryptosaurus | $ARRR#2742
+RJhZTf97SDxQ5h87MaZypoZFrcWRjaYvy3
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:40 AM] [GiveUlt] Zer0zer#4262
+https://tenor.com/view/bottenbig-thick-thicc-thicker-women-gif-14276454
+
+{Embed}
+https://tenor.com/view/bottenbig-thick-thicc-thicker-women-gif-14276454
+https://images-ext-1.discordapp.net/external/u3dGZVUMSmaQj4b2EZAeUB4GwroUFdyQ3AohnKcqWT8/https/media.tenor.co/images/6bf01ece62a6ea008e7290d76dd4c8bf/tenor.png
+
+
+[26-Feb-21 10:40 AM] kharris#9477
+how to send picture
+
+
+[26-Feb-21 10:40 AM] rionnox#3470
+R9UnUcJJ1ZD21mZismkHk4b8Gh2YCe3fTD
+
+{Reactions}
+🚀 (2) KMD 
+
+[26-Feb-21 10:40 AM] Lexbaba#3219
+RQBNgAfkUTcDzkCouPQJtyqT3cyDytYdnC
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:40 AM] Mvictor#4284
+oh should be emty, forget that hahaha
+
+
+[26-Feb-21 10:40 AM] sanktuli#4374
+RDwMYVDwU6p5tSMwAs666pDGT1mUir3Ct5
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:40 AM] Cypher#9999
+take a screenshot and then paste it
+
+
+[26-Feb-21 10:40 AM] oicred#5677
+cant
+
+
+[26-Feb-21 10:40 AM] oicred#5677
+send the print sscreen
+
+
+[26-Feb-21 10:40 AM] oicred#5677
+bah
+
+
+[26-Feb-21 10:40 AM] recep#8521
+RUBg3htwxXGjKe3AvYikCp79ygR5XG7b1S
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:40 AM] Reverse2Ruins#3833
+RWthfGYfcicRY6VBgdfZBU9BbQtJt6B9nq
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:40 AM] kharris#9477
+can;t send picture sir hmm
+
+
+[26-Feb-21 10:40 AM] Mr.Rify | decom.888#5487
+RTRWgBJzuh5HQ7kLa8FKxbVfNTfai5zz1Y
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:41 AM] lexiano#9591
+RPE5BcjypZF2LjJxsCFMf66Fs4sLXKY6Lp
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:41 AM] andy#0316
+RDk3FhqDcLXY1UHXLA7cYog9WK7HLhV6zt
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:41 AM] oicred#5677
+RJy7m1GWr125Fer1SU2h9YHW7FNPf3fPhc
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:41 AM] Deleted User#0000
+RMsgvrxGkLqeokYrzk34SoSBXArvhN6zjn
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:41 AM] oicred#5677
+how can you print screen! lol
+
+
+[26-Feb-21 10:41 AM] Cypher#9999
+oh nvm then
+
+
+[26-Feb-21 10:41 AM] PTYX#6840
+5 more
+
+
+[26-Feb-21 10:41 AM] AC#6881
+R9ZXh3LBvYVmwxuQsU1HXFVnh86MZBQkm5
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:41 AM] oicred#5677
+bah lol
+
+{Reactions}
+👍 
+
+[26-Feb-21 10:42 AM] SadykovT#2123
+RQ9pYjoji97XsdFMrm1KkvCgqmbpRPDVNf
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:42 AM] spoderman#7017
+RCLaS6tNxd4LD4w7e8NkXW6gS71vL3xs7m
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:42 AM] oicred#5677
+just cant lol 😄
+
+
+[26-Feb-21 10:43 AM] Rocketman#4077
+RE7uuJmq9Wb7Hpsh8pxD7JaTSmKw3c3dTT
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:43 AM] Artist#0765
+https://www.reddit.com/r/komodoplatform/comments/lt2uzq/we_do_this_for_a_hobby/?utm_medium=android_app&utm_source=share
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt2uzq/we_do_this_for_a_hobby/?utm_medium=android_app&utm_source=share
+r/komodoplatform - We do this for a hobby
+0 votes and 1 comment so far on Reddit
+https://images-ext-2.discordapp.net/external/42vtAzVgtIXgVg7FRE4Gu-nzhWS1MrLqxSMY-J0pf9E/%3Fauto%3Dwebp%26s%3D0e24053ca7e335ee49d3ae8016e02babc03aa9c1/https/preview.redd.it/rrxm14amwuj61.jpg
+
+{Reactions}
+doge 🔥 🎉 
+
+[26-Feb-21 10:43 AM] Artist#0765
+5 upvotes on this
+
+
+[26-Feb-21 10:43 AM] Artist#0765
+Hope I get rewarded
+
+
+[26-Feb-21 10:43 AM] Artist#0765
+🤣🤣🤣
+
+{Reactions}
+troll 
+
+[26-Feb-21 10:44 AM] Agnostic#7681
+RYK1yCNW3Je2YEbB2o9AfEELozv429Hu1i  https://images-ext-2.discordapp.net/external/quETPZdUFDHTITKyb3_ECBTm2FR9sX5O6Tr9dqVeyao/https/i.imgur.com/3Fgku8A.png?width=974&height=609
+
+{Embed}
+https://imgur.com/3Fgku8A
+https://images-ext-2.discordapp.net/external/quETPZdUFDHTITKyb3_ECBTm2FR9sX5O6Tr9dqVeyao/https/i.imgur.com/3Fgku8A.png
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:44 AM] Cypher#9999
+thank you sir 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814930911392694272/unknown.png
+
+{Reactions}
+KMD 🔥 
+
+[26-Feb-21 10:44 AM] oicred#5677
+heheh wierd cypher could not past here tried
+
+
+[26-Feb-21 10:45 AM] oicred#5677
+but hopefully will get it
+
+
+[26-Feb-21 10:45 AM] Hirvikarhu#6314
+RGvus5WnYNCyD6pcaTNYEcEEjeuqFsQGJ5
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:45 AM] Cypher#9999
+what do you mean ?
+
+
+[26-Feb-21 10:45 AM] Jcharming#2693
+ba44c7e6b09f64e573b89b350c50c6d7758f1852d36c849630f546b608fe2ebf
+
+akso sent another couple afterwards to make sure you have 10!
+
+
+[26-Feb-21 10:45 AM] Cypher#9999
+awesome thanks @Jcharming
+
+
+[26-Feb-21 10:45 AM] oicred#5677
+the screenshot of my wallet was using
+
+
+[26-Feb-21 10:45 AM] kharris#9477
+yeah everybody like airdrop LOL
+
+
+[26-Feb-21 10:46 AM] Cypher#9999
+yeah the reason i can send screenshots is prob due to the community contributor role i just realised my bad sorry
+
+
+[26-Feb-21 10:46 AM] oicred#5677
+oh 😐 lol
+
+
+[26-Feb-21 10:46 AM] Oszy#5734
+posting picture directly is role based, you can link imgur URL
+
+
+[26-Feb-21 10:46 AM] Jcharming#2693
+89e1192d63017c344a1546c90916db2f4a2c10667851f406d8a3233da75c2c52
+
+
+[26-Feb-21 10:46 AM] oicred#5677
+was too busy trying to send the picture ,,, lol
+
+
+[26-Feb-21 10:47 AM] kharris#9477
+yeahhh, yre right
+
+
+[26-Feb-21 10:47 AM] dwhalen1000#6259
+RNRUBH8vuGhF2pVjxgWfjo2Av9LJyR2f4t
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:47 AM] Nel#8652
+RNuY9qgj9y1kQf4EEjdf8t6CeUWwhQPLTj
+
+{Reactions}
+KMD 
+
+[26-Feb-21 10:47 AM] sanktuli#4374
+I cantpost a picture.
+
+
+[26-Feb-21 10:47 AM] oicred#5677
+no need
+
+
+[26-Feb-21 10:47 AM] webworker01#3884
+hi
+
+
+[26-Feb-21 10:47 AM] Cypher#9999
+would you like us to set up some swaps @Audo ?
+
+
+[26-Feb-21 10:47 AM] Hirvikarhu#6314
+https://imgur.com/a/CrC6dBt
+
+{Embed}
+https://imgur.com/a/CrC6dBt
+RGvus5WnYNCyD6pcaTNYEcEEjeuqFsQGJ5
+https://images-ext-2.discordapp.net/external/NCDh6_OHAayqWQULi7y8JnvbvxL77gDwSKtBBDhD6GY/https/i.imgur.com/nFBGjIKh.jpg
+
+
+[26-Feb-21 10:48 AM] webworker01#3884
+just want to be on the video
+
+{Reactions}
+😂 (3) 
+
+[26-Feb-21 10:48 AM] Artist#0765
+https://www.reddit.com/r/komodoplatform/comments/lt2uzq/we_do_this_for_a_hobby/?utm_medium=android_app&utm_source=share
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt2uzq/we_do_this_for_a_hobby/?utm_medium=android_app&utm_source=share
+r/komodoplatform - We do this for a hobby
+0 votes and 1 comment so far on Reddit
+https://images-ext-2.discordapp.net/external/42vtAzVgtIXgVg7FRE4Gu-nzhWS1MrLqxSMY-J0pf9E/%3Fauto%3Dwebp%26s%3D0e24053ca7e335ee49d3ae8016e02babc03aa9c1/https/preview.redd.it/rrxm14amwuj61.jpg
+
+{Reactions}
+doge (3) 
+
+[26-Feb-21 10:48 AM] Artist#0765
+RXetrnNqpD2UkNeLucCYRvkwyUpFny54KE
+
+
+[26-Feb-21 10:48 AM] jurbel#5593
+RQCpPtuCzU6FamiExuf4PU5gwBkMFPRRgS
+
+
+[26-Feb-21 10:48 AM] 3na1#5511
+i cant count so here is mine... RJxxEEcXyi8RnRV5J4AbyCmyqddaMz8Stw
+
+
+[26-Feb-21 10:48 AM] jurbel#5593
+Damn hope in list
+
+
+[26-Feb-21 10:48 AM] jspook16#3059
+#MeToo
+
+
+[26-Feb-21 10:48 AM] PTYX#6840
+https://cointelegraph.com/news/komodo-launches-atomicdex-beta-bringing-atomic-swaps-to-ethereum-and-bitcoin?utm_source=Telegram&utm_medium=social
+
+{Embed}
+https://cointelegraph.com/news/komodo-launches-atomicdex-beta-bringing-atomic-swaps-to-ethereum-and-bitcoin?utm_source=Telegram&utm_medium=social
+Komodo launches AtomicDEX beta bringing atomic swaps to Ethereum an...
+Atomic swaps allow to connect completely different blockchains together and conduct non-custodial trading.
+https://images-ext-2.discordapp.net/external/kWV_BAGDwiZ7hhUeDKQjTmGtPsTw8o_r_6zI_Y_CZ5I/https/images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjEtMDIvMDIxZjNhN2QtOWFmNy00MGE3LTgyNGUtNzg5MWU4YzA4OWNiLmpwZw%3D%3D.jpg
+
+
+[26-Feb-21 10:48 AM] jspook16#3059
+#WakeTheDragon
+
+{Reactions}
+🐲 (9) KMD (6) AtomicDEX (5) 
+
+[26-Feb-21 10:49 AM] jurbel#5593
+Any post on medium?
+
+
+[26-Feb-21 10:49 AM] PTYX#6840
+i could've sworn i saw you webby
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814932227590062120/big-frog-eyes.jpg
+
+{Reactions}
+PeepoThink 🐸 
+
+[26-Feb-21 10:49 AM] Agnostic#7681
+https://i.imgur.com/3Fgku8A.png
+
+{Embed}
+https://imgur.com/3Fgku8A
+https://images-ext-2.discordapp.net/external/quETPZdUFDHTITKyb3_ECBTm2FR9sX5O6Tr9dqVeyao/https/i.imgur.com/3Fgku8A.png
+
+
+[26-Feb-21 10:49 AM] Agnostic#7681
+https://discord.com/channels/412898016371015680/814886401631715328/814930850625617930
+
+
+[26-Feb-21 10:50 AM] Jcharming#2693
+125dee0ba98b478f2bf79ae5149d5d9ef14bf4f3554f57c3542fec3400deb364
+
+
+[26-Feb-21 10:50 AM] oicred#5677
+-> im on youtube!
+
+
+[26-Feb-21 10:50 AM] oicred#5677
+lol
+
+
+[26-Feb-21 10:51 AM] Jcharming#2693
+1d93d9535512d8cfa0fc9c4e0b0b8705989f7f7f0005181521b396f3bd5eb41e
+
+
+[26-Feb-21 10:51 AM] recep#8521
+R
+
+
+[26-Feb-21 10:51 AM] ryilmaz#4060
+R9vsEKNYJw3mgnkzEVxnGroi615bV6Qe2M
+
+
+[26-Feb-21 10:51 AM] ejuliano#8606
+S
+
+
+[26-Feb-21 10:51 AM] jspook16#3059
+Is that a private key?
+
+
+[26-Feb-21 10:51 AM] Stefanos#7530
+REEFpqGzrjXBUmcH2dyuppyfJFwd69BhgK
+
+
+[26-Feb-21 10:52 AM] jspook16#3059
+#SwapParty
+
+
+[26-Feb-21 10:52 AM] sanktuli#4374
+RDwMYVDwU6p5tSMwAs666pDGT1mUir3Ct5
+
+
+[26-Feb-21 10:53 AM] andy#0316
+O
+
+
+[26-Feb-21 10:53 AM] recep#8521
+E
+
+
+[26-Feb-21 10:53 AM] peratt#6611
+RSF5srzZRYq4oUT1jJURmYnhTsj5zaFDdw #congrats KMD
+
+
+[26-Feb-21 10:53 AM] Jcharming#2693
+db875283e8507541e3197fff4fcf09e4c7a22b9d8a604ef74feffb6a819a2067
+
+
+[26-Feb-21 10:53 AM] Artist#0765
+when are reditt memers getting it
+
+
+[26-Feb-21 10:53 AM] webworker01#3884
+M
+
+
+[26-Feb-21 10:54 AM] Artist#0765
+xD
+
+
+[26-Feb-21 10:54 AM] oicred#5677
+how many words is it
+
+
+[26-Feb-21 10:54 AM] oicred#5677
+?
+
+
+[26-Feb-21 10:54 AM] webworker01#3884
+https://www.youtube.com/watch?v=UzWcpd2Mym0
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=UzWcpd2Mym0
+Stable Beta Launch Party 🚀👩‍🚀👨‍🚀- AtomicDEX v0.4.0
+5. 4. 3. 2. 1. We have lift off!  Be at the launch party - hosted by Komodo - attended by many. Games, prizes, and much fun (very wow). We're also highlighting the gorgeous new atomicdex.io website.
+https://images-ext-2.discordapp.net/external/BVxoUpQPY48UP7Ho2CjvPi--qlcJaGw9xsUU51pDRUo/https/i.ytimg.com/vi/UzWcpd2Mym0/maxresdefault_live.jpg
+
+
+[26-Feb-21 10:54 AM] Chadwinc#0075
+Second word is Komodo
+
+
+[26-Feb-21 10:54 AM] webworker01#3884
+obviously 😄
+
+
+[26-Feb-21 10:54 AM] peratt#6611
+> db875283e8507541e3197fff4fcf09e4c7a22b9d8a604ef74feffb6a819a2067
+@Jcharming what this?
+
+
+[26-Feb-21 10:54 AM] webworker01#3884
+transaction ids
+
+
+[26-Feb-21 10:54 AM] webworker01#3884
+search in explorer
+
+
+[26-Feb-21 10:54 AM] Chadwinc#0075
+First word moon?
+
+
+[26-Feb-21 10:55 AM] oicred#5677
+see how many words?
+
+
+[26-Feb-21 10:55 AM] webworker01#3884
+it's on the vid
+
+
+[26-Feb-21 10:55 AM] Jcharming#2693
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814933688160747530/unknown.png
+
+
+[26-Feb-21 10:55 AM] Chadwinc#0075
+D
+
+
+[26-Feb-21 10:55 AM] Jimm B.#9993
+E
+
+
+[26-Feb-21 10:55 AM] Jcharming#2693
+f0a1e77abb0f68ea35dd0a84c43e029cf44eb50c29cbb1c0583991fcd4cc75ab
+
+
+[26-Feb-21 10:55 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+👌👌 thanks
+
+
+[26-Feb-21 10:56 AM] Metamorphed#4082
+I missed it. Why are we sharing wallet?  RRWbxUc5vDVfM8pJSWJabC9ekGYC46yVds
+
+
+[26-Feb-21 10:56 AM] Artist#0765
+noice, waiting for you guys to go on reddit
+
+
+[26-Feb-21 10:56 AM] Jcharming#2693
+that is your tx hash so you can see it on KMD block explorer to know it's been sent! 
+
+enter it in here to see the blockchain live at work https://komodod.com/a/R9TXex3R3spzM3SFZXfC8oqTUa4aFQKucu
+
+
+[26-Feb-21 10:56 AM] Chadwinc#0075
+H
+
+
+[26-Feb-21 10:56 AM] Cypher#9999
+they were doing a drop of 10 kmd for first 25 people
+
+
+[26-Feb-21 10:56 AM] t0sma#0368
+RA41jTp5gKvc5gs3p6zmAFLB2S5gbPEUv5
+
+
+[26-Feb-21 10:56 AM] Metamorphed#4082
+aah I see. Okay.
+
+
+[26-Feb-21 10:56 AM] Cryptosaurus | $ARRR#2742
+was i to late to receive the airdrop? 🙂
+
+
+[26-Feb-21 10:57 AM] Metamorphed#4082
+New website is very good looking
+
+
+[26-Feb-21 10:57 AM] Jcharming#2693
+e236e5bd865bdaaec6a4db5d2c9672e63468b14682f9e9139d43767e3c2babca
+
+
+[26-Feb-21 10:57 AM] Agnostic#7681
+JOIN KOMODO DEX  ......
+
+
+[26-Feb-21 10:58 AM] kharris#9477
+dragon
+
+
+[26-Feb-21 10:58 AM] Walter83#3669
+join komodo and  ride the dragon
+
+
+[26-Feb-21 10:59 AM] SadykovT#2123
+JOIN KOMODO AND RIDE THE DRAGON
+
+{Reactions}
+😂 (2) 🚀 (3) 
+
+[26-Feb-21 10:59 AM] Jcharming#2693
+80637befe3c24346fd68a6c13ac4aaf2297bd1288d061de078e07f927d5d2800
+
+
+[26-Feb-21 10:59 AM] Artist#0765
+where is it ike?
+
+
+[26-Feb-21 10:59 AM] Artist#0765
+where is the hint
+
+
+[26-Feb-21 10:59 AM] Artist#0765
+whats goint on xD?
+
+
+[26-Feb-21 11:00 AM] Jcharming#2693
+9736618c1ed190814e809d09070b06c572276a7578e678482077a91184f7ad1b
+
+
+[26-Feb-21 11:00 AM] Walter83#3669
+i have to claim it?
+
+
+[26-Feb-21 11:00 AM] Walter83#3669
+damn
+
+
+[26-Feb-21 11:00 AM] Zeyneb ~ Mins Design#2568
+Thank you 🙂
+
+
+[26-Feb-21 11:00 AM] Oszy#5734
+I tried to claim it but tx was rejected by network rules XD 
+congrats who made it
+
+
+[26-Feb-21 11:00 AM] Cypher#9999
+gzz
+
+
+[26-Feb-21 11:00 AM] Walter83#3669
+i thougt only say the answer
+
+
+[26-Feb-21 11:00 AM] Cryptosaurus | $ARRR#2742
+ty!!!
+
+
+[26-Feb-21 11:01 AM] Oszy#5734
+`JOIN KOMODO AND RIDE THE DRAGON`
+
+{Reactions}
+👍 (4) 
+
+[26-Feb-21 11:01 AM] Cypher#9999
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+r/komodoplatform - Binance no! ATOMIC DEX YASSSSSS
+0 votes and 0 comments so far on Reddit
+
+
+[26-Feb-21 11:01 AM] Jcharming#2693
+fb336a4ac7eb508071628b808da1bf72178e2713a7882a4398422ddeadbba548
+
+{Reactions}
+🦾 
+
+[26-Feb-21 11:02 AM] SadykovT#2123
+@Walter83  Give me your address
+
+
+[26-Feb-21 11:02 AM] kharris#9477
+https://imgur.com/QvuAV3D thanks sir
+
+{Embed}
+https://imgur.com/QvuAV3D
+https://images-ext-1.discordapp.net/external/YBqdLBr94pOEzZr-neWa4YN9TD57mcu3iBm_a2SE6eA/https/i.imgur.com/QvuAV3D.png
+
+
+[26-Feb-21 11:03 AM] Cypher#9999
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814935566474805268/td26gexwcvj61.png
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+r/komodoplatform - Binance no! ATOMIC DEX YASSSSSS
+0 votes and 0 comments so far on Reddit
+
+{Reactions}
+💯 (3) KMD (2) 🚀 (2) 
+
+[26-Feb-21 11:03 AM] Jcharming#2693
+37c4e73bd8c3422ee1a0355a9edb2091676071860c5b64999b9e0103cfa6d7f1
+
+
+[26-Feb-21 11:03 AM] Chadwinc#0075
+The mobile app is lit! 🔥
+
+{Reactions}
+AtomicDEX KMD 
+
+[26-Feb-21 11:03 AM] zrhbollas#6434
+App look sexy #kmd
+
+
+[26-Feb-21 11:03 AM] zrhbollas#6434
+RLaxxXhToNtnahLAbeq6npYrrkfbTRfWcw
+
+
+[26-Feb-21 11:04 AM] Jcharming#2693
+4aad98496d497ce39d6f4b8bb3c96caef05abd56e9fc927866b8e44d014b9526
+
+
+[26-Feb-21 11:04 AM] Cypher#9999
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+if you like it upvote it 😉 to the mooooon 🌙
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+r/komodoplatform - Binance no! ATOMIC DEX YASSSSSS
+0 votes and 0 comments so far on Reddit
+
+{Reactions}
+💯 
+
+[26-Feb-21 11:05 AM] Artist#0765
+will there be reddit bounty
+
+
+[26-Feb-21 11:05 AM] Chadwinc#0075
+RGNS2gBzSK1Np35jWHaiwJQ81ZAxAkojG
+
+
+[26-Feb-21 11:05 AM] oicred#5677
+did the old rick and morty was removed from the dex?
+
+
+[26-Feb-21 11:05 AM] sanktuli#4374
+Thanks for +11 kmd 😃
+
+
+[26-Feb-21 11:06 AM] Walter83#3669
+RGbJ9YNmV5LfHCiDL5F9cdYLF3kSDCE9Er
+
+
+[26-Feb-21 11:06 AM] Jcharming#2693
+c618ff8cf6572696ce91d7fb640cc03e914e4aabd8d23ecb0625275d396926f9
+
+
+[26-Feb-21 11:06 AM] Walter83#3669
+you got the quiz reward? congrats 🙂
+
+
+[26-Feb-21 11:06 AM] recep#8521
+Ty:-)
+
+
+[26-Feb-21 11:06 AM] oicred#5677
+waiting for the prize lol
+
+
+[26-Feb-21 11:06 AM] Cypher#9999
+gzz on the quizz rewards 🙂
+
+
+[26-Feb-21 11:07 AM] oicred#5677
+https://kmdexplorer.io/address/RJy7m1GWr125Fer1SU2h9YHW7FNPf3fPhc
+
+
+[26-Feb-21 11:07 AM] oicred#5677
+hehe
+
+
+[26-Feb-21 11:07 AM] webworker01#3884
+how long is stream break
+
+
+[26-Feb-21 11:07 AM] webworker01#3884
+oh there's a countdown
+
+{Reactions}
+abusedsmily 
+
+[26-Feb-21 11:07 AM] Chadwinc#0075
+500 seconds
+
+{Reactions}
+komodopog 
+
+[26-Feb-21 11:08 AM] oicred#5677
+ups guys
+
+
+[26-Feb-21 11:08 AM] SadykovT#2123
+@Walter83 Yes, I did. I sent you half of it
+
+{Reactions}
+AtomicDEX (4) KMD (4) 👍 (6) 💯 (5) 
+
+[26-Feb-21 11:08 AM] Artist#0765
+is there a reddit meme bounty
+
+
+[26-Feb-21 11:08 AM] Walter83#3669
+wow..thanks..thats very nice of you
+
+{Reactions}
+🍻 
+
+[26-Feb-21 11:09 AM] Artist#0765
+how many bounties were there
+
+
+[26-Feb-21 11:09 AM] Walter83#3669
+i dont realise that i have to claim it 😆
+
+
+[26-Feb-21 11:09 AM] Artist#0765
+i made only one meme on reddit xD
+
+
+[26-Feb-21 11:09 AM] Mitos.lthn#8324
+RH5mirkR4yEvPJWseJUg8fRwzcuz41UMcy
+
+
+[26-Feb-21 11:09 AM] peratt#6611
+RSF5srzZRYq4oUT1jJURmYnhTsj5zaFDdw   🔥🔥
+
+
+[26-Feb-21 11:09 AM] oicred#5677
+hey i think i got a frontend bug low importance on the dex
+
+
+[26-Feb-21 11:10 AM] oicred#5677
+where can i send the steps and screenshot
+
+
+[26-Feb-21 11:10 AM] Jcharming#2693
+c618ff8cf6572696ce91d7fb640cc03e914e4aabd8d23ecb0625275d396926f9
+
+
+[26-Feb-21 11:10 AM] lightspeed393#5403
+#🤝│dex-desktop
+
+
+[26-Feb-21 11:10 AM] Jcharming#2693
+96a3e419b51baf7f58123c1c42511264ba4f5b36e99352e93f54bb38660120a4
+
+
+[26-Feb-21 11:11 AM] Walter83#3669
+RGbJ9YNmV5LfHCiDL5F9cdYLF3kSDCE9Er
+
+
+[26-Feb-21 11:12 AM] Metamorphed#4082
+RRWbxUc5vDVfM8pJSWJabC9ekGYC46yVds
+
+
+[26-Feb-21 11:12 AM] Metamorphed#4082
+Still? lol
+
+
+[26-Feb-21 11:12 AM] ZokiZok  $ARRR#9247
+🥳
+
+
+[26-Feb-21 11:12 AM] Metamorphed#4082
+I'm going to frame it and hang it on the wall.
+
+
+[26-Feb-21 11:13 AM] Oszy#5734
+https://github.com/KomodoPlatform/atomicDEX-Desktop/issues
+
+
+[26-Feb-21 11:13 AM] Chadwinc#0075
+🔥
+
+
+[26-Feb-21 11:13 AM] Nora Gretz#0461
+RKshWHgLKcezsytycmyD4QAMqQuvGRs8at
+
+
+[26-Feb-21 11:15 AM] recep#8521
+Will there be coins burned in the next future?
+
+
+[26-Feb-21 11:16 AM] Jcharming#2693
+d5e8d9453c4252152ab3e4a2b00fc9b7e6b4de3f63a42d87cdd42ec9caf9af79
+
+
+[26-Feb-21 11:17 AM] Jcharming#2693
+7943fb696e72ceb3c74769e67f1810eead0b7361a426b7c3f256fc97a9f73d66
+
+
+[26-Feb-21 11:17 AM] andy#0316
+Thanks a lot!
+
+
+[26-Feb-21 11:18 AM] Jcharming#2693
+7c208e56da851fe974a85414515feb0b9f07810904896330edb65c912d72e0d6
+
+
+[26-Feb-21 11:18 AM] moft#7075
+Congratulations on the new version!
+
+
+[26-Feb-21 11:18 AM] moft#7075
+RXyzwQnjSLSP7sy4yKYKkuoFb7Vm5FusAF
+
+
+[26-Feb-21 11:19 AM] Jcharming#2693
+67b07c88e9221c6ad9f32db2cafd03fa04cd5ba5b31627da01c99d04ed856415
+
+
+[26-Feb-21 11:19 AM] AC#6881
+Thanks!
+
+
+[26-Feb-21 11:19 AM] Enokas WeS#5292
+R9jw4XbFu1yJqNbQkQaYcgDkcngMNr6UTG 🙂
+
+
+[26-Feb-21 11:20 AM] t0sma#0368
+Hey, I jus installed the new version but It looks like to the previous version. Not the one on the new web site ?
+
+
+[26-Feb-21 11:20 AM] Cypher#9999
+@oicred had this appear any ideas ?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814939892848132116/01da0b9a-e57c-47ad-ae66-051c5ed7151e.png
+
+
+[26-Feb-21 11:20 AM] t0sma#0368
+is it normal ?
+
+
+[26-Feb-21 11:20 AM] Cypher#9999
+not sure 😄 hence why im asking (not me a user asked this )
+
+
+[26-Feb-21 11:20 AM] daemonfox#6136
+Go to settings and reset your coinlist
+
+
+[26-Feb-21 11:21 AM] daemonfox#6136
+should be able to add them back
+
+
+[26-Feb-21 11:21 AM] daemonfox#6136
+Windows?
+
+
+[26-Feb-21 11:21 AM] kharris#9477
+yeah we just fall into DEFI, but actually there are lot of people don't know what defi is,
+
+
+[26-Feb-21 11:22 AM] t0sma#0368
+yes
+
+
+[26-Feb-21 11:22 AM] Jcharming#2693
+ceadb8fddd68026580bf1197e837393e50ddcd86fb6c2ee24a20b1cecbe9823c
+
+
+[26-Feb-21 11:22 AM] Jcharming#2693
+37e1a184d71bafd415ef5c23719ce6f0a3741cd63896c57d3abb24112fdce9b1
+
+
+[26-Feb-21 11:22 AM] fumi1973#2739
+Why people type address?
+
+
+[26-Feb-21 11:23 AM] Jcharming#2693
+78c7de49f81b8faca433073da912a66ef163965ddb3dca6826d1437915e447eb
+
+
+[26-Feb-21 11:23 AM] ZokiZok  $ARRR#9247
+first 25 with empty wallet get some.
+
+
+[26-Feb-21 11:23 AM] Cypher#9999
+there was a drop for being first 25 to install atomic dex 0.4.0
+
+
+[26-Feb-21 11:23 AM] Cypher#9999
+they are all gone now
+
+
+[26-Feb-21 11:23 AM] daemonfox#6136
+The install doesnt like to install over the existing directory...
+
+
+[26-Feb-21 11:23 AM] LeZ#6316
+RCu6nTbTSnXCMosZtrKzrFnf5pCPXr7Fwa
+
+
+[26-Feb-21 11:23 AM] daemonfox#6136
+You may be launching the old shortcut
+
+
+[26-Feb-21 11:23 AM] Cypher#9999
+so no point posting more addresses
+
+
+[26-Feb-21 11:24 AM] tolken#2655
+@Jcharming regarding the topic being discussed now (advantages of AtomicDex, re no intermedia token) Is there an advantage over ShapeShift, considering the funds stay in your wallet. @Audo @Delton
+
+
+[26-Feb-21 11:24 AM] t0sma#0368
+https://ibb.co/7R6krwc
+
+{Embed}
+https://ibb.co/7R6krwc
+Capture
+Image Capture hosted in ImgBB
+https://images-ext-2.discordapp.net/external/kanBJRw-ns9OI6uFFEzfC4Dz0V6IF3lGGOaUPhL1v1o/https/i.ibb.co/3MLRSDX/Capture.jpg
+
+
+[26-Feb-21 11:24 AM] Jcharming#2693
+4af3b75044f9fa08c0110e0b892225bdac841361b16ddca604e6e9caee172d8d
+
+
+[26-Feb-21 11:24 AM] t0sma#0368
+my 0.4.0 beta doesn't looks like to this
+
+
+[26-Feb-21 11:25 AM] t0sma#0368
+this picture is a screenshot of the new website
+
+
+[26-Feb-21 11:25 AM] Jcharming#2693
+3d2d4303e0b63496a152aba0912581ad7866e115bca38a4fe7bcbc25d1ad335f
+
+
+[26-Feb-21 11:26 AM] Jcharming#2693
+3d2d4303e0b63496a152aba0912581ad7866e115bca38a4fe7bcbc25d1ad335f
+
+
+[26-Feb-21 11:26 AM] CryptoQueen#8313
+Guys I cannot find btcz in the desktop version.
+
+
+[26-Feb-21 11:26 AM] CryptoQueen#8313
+It is not available yet ?
+
+
+[26-Feb-21 11:26 AM] Lexbaba#3219
+How do you have all the widgets in your wallet? like wallets, assets, chart?
+
+
+[26-Feb-21 11:26 AM] Agnostic#7681
+KMD Recived Thanks!
+
+
+[26-Feb-21 11:27 AM] t0sma#0368
+I don't have it. This is from the website
+
+
+[26-Feb-21 11:27 AM] webworker01#3884
+atomicdex unlocks the real L2 for bitcoin
+
+{Reactions}
+💯 (2) 
+
+[26-Feb-21 11:27 AM] webworker01#3884
+every altcoin
+
+
+[26-Feb-21 11:27 AM] Lexbaba#3219
+aaah ok...
+
+
+[26-Feb-21 11:27 AM] Mitos.lthn#8324
+RH5mirkR4yEvPJWseJUg8fRwzcuz41UMcy
+
+
+[26-Feb-21 11:27 AM] Jcharming#2693
+@everyone ok I have dispatched all the rewards for todays 10 KMD for the first 25 downloads and empty wallet setups!  
+
+Stay tuned for next earn opp!
+
+{Reactions}
+👍 (13) KMD (11) 
+
+[26-Feb-21 11:27 AM] oicred#5677
+oh :\
+
+
+[26-Feb-21 11:27 AM] t0sma#0368
+this is the purpose of my question 🙂
+
+
+[26-Feb-21 11:28 AM] oicred#5677
+sorry but dont see it
+
+
+[26-Feb-21 11:28 AM] Hirvikarhu#6314
+What "claim rewards" button mean and what does it do?
+
+
+[26-Feb-21 11:29 AM] t0sma#0368
+When you have more than 10KMD you get active rewards
+
+
+[26-Feb-21 11:29 AM] Cypher#9999
+Can we ask how we will be working on marketing Delton, KMD has an awareness issue, it used to be a top 50 coin however it has slowly lost attention with time, how would we go about turning this around ? 
+How can the community help with this?
+
+
+[26-Feb-21 11:30 AM] t0sma#0368
+it's 5% APY and you have to claim it at least one a month
+
+
+[26-Feb-21 11:30 AM] ZokiZok  $ARRR#9247
+in atomicdex wallet the KMD wallet, you can claim reward when you hold 10 or more KMD.
+
+
+[26-Feb-21 11:30 AM] oicred#5677
+sorry 😐
+
+
+[26-Feb-21 11:30 AM] oicred#5677
+not me
+
+
+[26-Feb-21 11:32 AM] Delton#2644
+Alex Zwirs from YouTube "​Can Komodo work with Nimiq for off ramp fiat bridge?"
+
+
+[26-Feb-21 11:32 AM] Cypher#9999
+this one for you @Delton : )
+
+{Reactions}
+💯 (2) 
+
+[26-Feb-21 11:34 AM] oicred#5677
+does it take long the transaction of the 10KMD ?
+
+
+[26-Feb-21 11:35 AM] PTYX#6840
+not long but it's manual so JC is doign them one by one
+
+
+[26-Feb-21 11:35 AM] oicred#5677
+he said was done but gone none 18th
+
+
+[26-Feb-21 11:36 AM] t0sma#0368
+can we expect in next versions to have compatibilty with hardware wallet and access to all KMD assetchains (like VOTE for example for Notary node election)
+
+
+[26-Feb-21 11:40 AM] cipi#4502
+it is, you need to reset asset config under settings if you used atomicdex before
+
+
+[26-Feb-21 11:40 AM] ZokiZok  $ARRR#9247
+is the Remote Procedure Call RPC a secret in settings and what can i do with it?
+
+
+[26-Feb-21 11:41 AM] jvr#6773
+https://twitter.com/paperballcrypto/status/1360003141022973958
+
+{Embed}
+PB Crypto (@paperballcrypto)
+https://twitter.com/paperballcrypto/status/1360003141022973958
+Some of you may not be old enough to understand this comparison but @AtomicDEX is like the Limewire of the crypto universe
+
+An industry disruptor in which the users benefit directly from each other
+
+@KomodoPlatform $KMD $BTC #blockchain #CryptoNews
+Twitter
+
+
+[26-Feb-21 11:42 AM] Keytothegate#7972
+Regarding Cypher's question on marketing and related to AtomicDex: Feel like we are not getting noticed amongst the other "dexes", but someone just said some magic words there like "sort of p2p torrent exchange. For money. On blockchain", in other words something that sounds completely different to your avg crypto enthusiast.
+
+
+[26-Feb-21 11:42 AM] Cypher#9999
+ok thanks guys ^.^ looking forward to it lets get to the top 10
+
+
+[26-Feb-21 11:43 AM] Mvictor#4284
+The limewire of crypto aahhaahahahha, damn I don't know how to feel about it
+
+
+[26-Feb-21 11:43 AM] lightspeed393#5403
+it should be kept a secret from others. It's so you could send commands to mm2 without using the app.
+
+
+[26-Feb-21 11:43 AM] Dio#0919
+Could I ask a couple of questions please ?
+1) is any way for the US citizens to run dex in desktop mode ?
+2) Is bitcoinz available in this version? I still cannot find it in the desktop latest beta.
+Thanx
+
+
+[26-Feb-21 11:43 AM] lexiano#9591
+Suggestion: Work with Nimiq for off ramp fiat bridge straight to your bank account
+
+
+[26-Feb-21 11:43 AM] Mvictor#4284
+since limewire was the nearest thing as to having unprotected sex with the internet using your computer...
+
+
+[26-Feb-21 11:44 AM] ZokiZok  $ARRR#9247
+Thanks 👍
+
+
+[26-Feb-21 11:44 AM] cipi#4502
+yes, use a VPN
+BTCZ is there, you need to enable it
+
+
+[26-Feb-21 11:45 AM] joe_land1#1088
+https://m.youtube.com/watch?v=gdKQogDuK3A
+
+{Embed}
+R M
+https://www.youtube.com/watch?v=gdKQogDuK3A
+Robot Chicken - You need two Pokémons who like each other very much
+Season 9, episode 6: Strummy Strummy Sad Sad
+https://images-ext-2.discordapp.net/external/8d2Q0rVPfd212x9EguQOjbaqWwCGbkDp9l8VgNlucoI/https/i.ytimg.com/vi/gdKQogDuK3A/maxresdefault.jpg
+
+
+[26-Feb-21 11:45 AM] lightspeed393#5403
+marmara typically does a release without geoblock. @B. Gültekin Çetiner will you be doing a release for 0.4.0?
+
+
+[26-Feb-21 11:46 AM] Jcharming#2693
+ty @Nakomodo Knight 🏆⚔   I can't tell you how much I appreciate your patience while waiting for a initiative that wasn't planed to be built out until mid to late march along with the community proposal system.  You all were the beta testers for seed interest in this community initiative 
+
+be sure to check your public address wallets you listed in #community-bounties as I'm sending out more KMD to all of you - thank you for the great social media sharing you've been doing.
+
+
+[26-Feb-21 11:46 AM] CryptoQueen#8313
+Thnx @cipi ✅
+
+
+[26-Feb-21 11:46 AM] CryptoQueen#8313
+This was useful for me as well!!
+
+
+[26-Feb-21 11:47 AM] Dio#0919
+Thx man!
+
+
+[26-Feb-21 11:47 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+👌👌:yassinheart:
+
+
+[26-Feb-21 11:48 AM] Cypher#9999
+you deserve it ^.^
+
+
+[26-Feb-21 11:49 AM] jvr#6773
+lol yeah the biggest difference is that AtomicDex deals with transactions from blockchain to blockchain and is able to verify and secure transactions in a way that wasn't possible when dealing with random "off-chain" files.
+
+
+[26-Feb-21 11:49 AM] ZokiZok  $ARRR#9247
+next guess quest german words pls.
+
+
+[26-Feb-21 11:49 AM] VandarGR#6065
+Guys if you don't enable the coin you cannot see it by default @Dio
+
+
+[26-Feb-21 11:49 AM] VandarGR#6065
+Well done kmd team ! Excellent job!
+
+{Reactions}
+🚀 (7) ❤ (5) AtomicDEX (5) shexy (4) 
+
+[26-Feb-21 11:50 AM] LocoMB#8593
+cool music!
+
+
+[26-Feb-21 11:50 AM] LocoMB#8593
+much more original than the usual umptah-umptah11
+
+
+[26-Feb-21 11:51 AM] Artist#0765
+Is the reddit bounty over?
+
+
+[26-Feb-21 11:51 AM] Keytothegate#7972
+If you guys still have time to comment would like hear your estimation on the future of ARRR used on AtomicDex. Remember the time when there were some plans for this
+
+{Reactions}
+👍 
+
+[26-Feb-21 11:52 AM] daemonfox#6136
+To add to the App store no DOGE issue... Robinhood WILL allow withdrawals soon
+
+
+[26-Feb-21 11:52 AM] daemonfox#6136
+But most wont know where to send that
+
+
+[26-Feb-21 11:52 AM] daemonfox#6136
+aDEX has a chance to MONOPOLIZE that
+
+
+[26-Feb-21 11:53 AM] daemonfox#6136
+sorry... DOGEDEX
+
+
+[26-Feb-21 11:53 AM] webworker01#3884
+mandarin muzak
+
+
+[26-Feb-21 11:53 AM] Cypher#9999
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+r/komodoplatform - Binance no! ATOMIC DEX YASSSSSS
+0 votes and 1 comment so far on Reddit
+
+
+[26-Feb-21 11:53 AM] Mvictor#4284
+https://www.reddit.com/r/komodoplatform/comments/lt58v3/when_the_new_site_comes_online/
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt58v3/when_the_new_site_comes_online/
+r/komodoplatform - When the new site comes online...
+0 votes and 2 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/nkWKSYviAzehw0anA2jpUQaVmxfK_xfggxwLxoUduPg/%3Fauto%3Dwebp%26s%3D0d37ad6ce7e85ae5b8f9cfcc1808f82e4b51ba96/https/preview.redd.it/oqna2q34fvj61.jpg
+
+
+[26-Feb-21 12:01 PM] webworker01#3884
+atomicdex has cross platform multiplayer
+
+{Reactions}
+komodopog (3) troll_king 
+
+[26-Feb-21 12:02 PM] VandarGR#6065
+Tommorow there will be even more downloads because we will cover the listing in the btcz site as well ❤
+
+{Reactions}
+AtomicDEX (5) 🚀 (4) 🔥 (4) 
+
+[26-Feb-21 12:02 PM] daemonfox#6136
+and negative latency
+
+
+[26-Feb-21 12:05 PM] moft#7075
+supercool coins ?? komodo ???? ??G???
+
+
+[26-Feb-21 12:06 PM] Cypher#9999
+a
+
+
+[26-Feb-21 12:06 PM] Churro#4832
+Join the party!
+
+
+[26-Feb-21 12:06 PM] ZokiZok  $ARRR#9247
+O
+
+
+[26-Feb-21 12:06 PM] Churro#4832
+https://www.reddit.com/r/komodoplatform/comments/lt2c9j/when_this_post_is_1_hour_old_atomicdex_stable/?utm_source=share&utm_medium=web2x&context=3
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt2c9j/when_this_post_is_1_hour_old_atomicdex_stable/?utm_source=share&utm_medium=web2x&context=3
+r/komodoplatform - When this post is 1 hour old - AtomicDEX Stable ...
+11 votes and 15 comments so far on Reddit
+
+
+[26-Feb-21 12:06 PM] Churro#4832
+Komodo Club open 24/7
+
+
+[26-Feb-21 12:06 PM] Artist#0765
+Already did @Churro first meme waiting for reward🤣🤣
+
+{Reactions}
+2561_feelsevilman 
+
+[26-Feb-21 12:06 PM] Churro#4832
+🥳
+
+
+[26-Feb-21 12:07 PM] Churro#4832
+Yes will be announced towards the end of whole event
+
+
+[26-Feb-21 12:07 PM] Churro#4832
+WOOO
+
+
+[26-Feb-21 12:07 PM] Cypher#9999
+😄
+
+
+[26-Feb-21 12:08 PM] Churro#4832
+Spread the word my friends!
+
+
+[26-Feb-21 12:08 PM] Churro#4832
+tell your mama, ya sisters, ya brothers, your whole entire family!
+
+
+[26-Feb-21 12:08 PM] Churro#4832
+LOL
+
+
+[26-Feb-21 12:08 PM] Artist#0765
+What were the worda
+
+
+[26-Feb-21 12:08 PM] andy#0316
+L
+
+
+[26-Feb-21 12:08 PM] Artist#0765
+Alphabets
+
+
+[26-Feb-21 12:10 PM] recep#8521
+Where do we claim?
+
+
+[26-Feb-21 12:10 PM] recep#8521
+Wheres the link
+
+
+[26-Feb-21 12:10 PM] Artist#0765
+S or H
+
+
+[26-Feb-21 12:10 PM] moft#7075
+AtomicDEX ???s on KOMODO ???? ??G???
+
+
+[26-Feb-21 12:11 PM] Artist#0765
+Are you guys creating the seed
+
+
+[26-Feb-21 12:11 PM] Artist#0765
+Or is that done already🤣🤣
+
+
+[26-Feb-21 12:11 PM] Minigunner#0467
+https://ibb.co/fQCKtDv
+
+{Embed}
+https://ibb.co/fQCKtDv
+komodo-meme-1
+Image komodo-meme-1 hosted in ImgBB
+https://images-ext-2.discordapp.net/external/Euv1Q38lib2Fe0zpEdG4Uj1M_bue4o1WERf8aGjr78o/https/i.ibb.co/6N4pbXB/komodo-meme-1.png
+
+{Reactions}
+doge 
+
+[26-Feb-21 12:12 PM] Nora Gretz#0461
+Were is the link to the game
+
+
+[26-Feb-21 12:12 PM] Nora Gretz#0461
+?
+
+
+[26-Feb-21 12:13 PM] Cypher#9999
+can you pick D
+
+
+[26-Feb-21 12:14 PM] MorganaTalos#5100
+I'm so confused what is this?
+
+
+[26-Feb-21 12:14 PM] daemonfox#6136
+yES d PLS
+
+
+[26-Feb-21 12:14 PM] Delton#2644
+https://www.youtube.com/watch?v=UzWcpd2Mym0&feature=youtu.be
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=UzWcpd2Mym0
+Stable Beta Launch Party 🚀👩‍🚀👨‍🚀- AtomicDEX v0.4.0
+5. 4. 3. 2. 1. We have lift off!  Be at the launch party - hosted by Komodo - attended by many. Games, prizes, and much fun (very wow). We're also highlighting the gorgeous new atomicdex.io website.
+https://images-ext-2.discordapp.net/external/BVxoUpQPY48UP7Ho2CjvPi--qlcJaGw9xsUU51pDRUo/https/i.ytimg.com/vi/UzWcpd2Mym0/maxresdefault_live.jpg
+
+
+[26-Feb-21 12:14 PM] Delton#2644
+Guessing game is on YouTube
+
+
+[26-Feb-21 12:14 PM] Artist#0765
+Give us the first letters
+
+
+[26-Feb-21 12:14 PM] Artist#0765
+🤣🤣
+
+
+[26-Feb-21 12:14 PM] Artist#0765
+Of the 6 words
+
+
+[26-Feb-21 12:15 PM] MorganaTalos#5100
+Nice thanks for the explanation
+
+
+[26-Feb-21 12:15 PM] Nora Gretz#0461
+when can we see the layout?
+
+
+[26-Feb-21 12:15 PM] Cypher#9999
+can you pick D please @Audo
+
+
+[26-Feb-21 12:15 PM] Oszy#5734
+💸
+
+
+[26-Feb-21 12:16 PM] moft#7075
+atomicdex runs on komodo ...?
+
+
+[26-Feb-21 12:16 PM] Cypher#9999
+gzz whoever got it
+
+
+[26-Feb-21 12:16 PM] Oszy#5734
+Oopsie 🙂
+
+
+[26-Feb-21 12:17 PM] Cypher#9999
+its this
+
+
+[26-Feb-21 12:17 PM] Oszy#5734
+ATOMICDEX RUNS ON KOMODO DEFI ENGINE
+
+{Reactions}
+rum (3) 👏 (2) 
+
+[26-Feb-21 12:17 PM] Artist#0765
+It is developed on the Komodo ecosystem using MM2 the protocol that powers it, mm2 for market Maker 2
+
+{Reactions}
+👍 (2) 
+
+[26-Feb-21 12:17 PM] Cypher#9999
+attomicex runs on komodo defi engine
+
+
+[26-Feb-21 12:17 PM] moft#7075
+Atomicdex runs on komodo defi engine !
+
+
+[26-Feb-21 12:18 PM] Cypher#9999
+thank you all for an amazing stream ^.^
+
+
+[26-Feb-21 12:18 PM] Cypher#9999
+and tip bot rains
+
+
+[26-Feb-21 12:18 PM] Jcharming#2693
+if you want to you can think about it how MM2 as a name has been replaced with Komodo DeFi Engine with the update to the AtomicDEX Stable beta 040
+
+
+[26-Feb-21 12:19 PM] Artist#0765
+Ooh thank you for telling me cause I wrote an article about how atomic swaps work, it was cause mm2
+
+
+[26-Feb-21 12:19 PM] kharris#9477
+WOW congratss for winet
+
+
+[26-Feb-21 12:19 PM] Cypher#9999
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814954819986784297/jsvx5qdtovj61.png
+
+{Reactions}
+KMD (2) 🤩 
+
+[26-Feb-21 12:19 PM] Churro#4832
+LOL
+
+
+[26-Feb-21 12:19 PM] Artist#0765
+Should I update the name
+
+
+[26-Feb-21 12:19 PM] daemonfox#6136
+27TH
+
+
+[26-Feb-21 12:21 PM] Collider#6160
+thanks guys appreciate it 👍
+
+
+[26-Feb-21 12:21 PM] ZokiZok  $ARRR#9247
+any news to the collider drop from the stresstest event?
+
+
+[26-Feb-21 12:21 PM] Nora Gretz#0461
+Thanks
+
+
+[26-Feb-21 12:21 PM] ZokiZok  $ARRR#9247
+👏
+
+
+[26-Feb-21 12:22 PM] moft#7075
+👏
+
+
+[26-Feb-21 12:23 PM] Jcharming#2693
+please do it's the new major communication. 
+
+MM2 was always a placeholder with no equity intentions or power behind it unfortunately. It's advancement became a perfect opp to redub it with it's own title and PR teams helped us develop a strong equity strategy around it. 
+
+We've also deprioritized Antara as a set of terminology and are instead talking about Custom Contract - Custom Consensus on Komodo Independent Smart Chains is the best terminology moving forward.
+
+
+[26-Feb-21 12:24 PM] Collider#6160
+only just possible now will discuss with team update about this soon
+
+{Reactions}
+👍 komodopog 
+
+[26-Feb-21 12:24 PM] Artist#0765
+The tech is that same right? Cause then I have to update the whole thing talking about the things that were built in mm2 for instance timely tested network, libtorrent integration etc
+
+
+[26-Feb-21 12:24 PM] Jcharming#2693
+----
+@everyone Thank you for coming and attending the live stream don't forget to get your copy of AtomicDEX 040 from atomicdex.io and https://komodoplatform.com/en/wallets.html
+
+{Embed}
+https://komodoplatform.com/en/wallets.html
+Komodo Wallets - Secure Your KMD Coins
+Download AtomicDEX or browse the full list of supported KMD wallets.
+
+{Reactions}
+KMD (8) AtomicDEX (6) 👍 (6) 
+
+[26-Feb-21 12:25 PM] Artist#0765
+When am I getting the reddit meme reward🤣🤣
+
+
+[26-Feb-21 12:25 PM] Jcharming#2693
+tech is the same no impact for you it's for PR and language so we can talk about the underlying tech and have something to point to MM2 was too lack luster for us to land wins we figured out by the end of the year last year.
+
+
+[26-Feb-21 12:25 PM] Cypher#9999
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+r/komodoplatform - Binance no! ATOMIC DEX YASSSSSS
+0 votes and 1 comment so far on Reddit
+
+
+[26-Feb-21 12:25 PM] ZokiZok  $ARRR#9247
+🥳
+
+
+[26-Feb-21 12:25 PM] Artist#0765
+Alright good thing everything on verus and kmd is still in drafts due to the site not functional yet will update
+
+{Reactions}
+🔥 
+
+[26-Feb-21 12:26 PM] Cypher#9999
+pleasure as always hearing everyone
+
+{Reactions}
+KMD (6) AtomicDEX (8) 🔥 (7) 
+
+[26-Feb-21 12:27 PM] Psurge#9082
+This is pretty. Cool. Coin
+
+
+[26-Feb-21 12:27 PM] Psurge#9082
+Is hush. From this. Coin ?
+
+
+[26-Feb-21 12:29 PM] Artist#0765
+Verus is marmara is and a few others like kmdlabs, chips I guess
+
+
+[26-Feb-21 12:30 PM] Artist#0765
+No idea about hush
+
+
+[26-Feb-21 12:30 PM] Psurge#9082
+Well. I. Was. Playing. Around. With. Trying to change. The. Algo. For. My. Asci and. Fount kmd. Been mining. It. Ever since
+
+
+[26-Feb-21 12:31 PM] Cypher#9999
+nice what hardware are you mining it on ?
+
+
+[26-Feb-21 12:31 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814957816288772136/unknown.png
+
+{Reactions}
+charmander_dancing (4) 👀 
+
+[26-Feb-21 12:31 PM] Audo#5667
+Youtube analytics
+
+
+[26-Feb-21 12:31 PM] Psurge#9082
+Zmini
+
+
+[26-Feb-21 12:31 PM] Artist#0765
+Not bD
+
+
+[26-Feb-21 12:31 PM] Cypher#9999
+nice nice
+
+
+[26-Feb-21 12:32 PM] ZokiZok  $ARRR#9247
+i saw a bounty with KMD and JUMBLR coin as reward but cant find much about JUMBLR coin.
+
+
+[26-Feb-21 12:32 PM] Artist#0765
+Which software are you using to mine kmd
+
+
+[26-Feb-21 12:32 PM] Artist#0765
+Psurge
+
+
+[26-Feb-21 12:32 PM] Audo#5667
+Tomorrow's stream: https://youtu.be/evvjV97J0tY
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=evvjV97J0tY
+AtomicDEX Bounty Day
+Participate in AtomicDEX Bounty Day on February 27th and join the livestream for additional reward opportunities. Download AtomicDEX v0.4.0 and play games for your chance to earn KMD.
+https://images-ext-2.discordapp.net/external/uAmDJuidAZR9mjlSsPazBxUAT_M6Q5BFJFqRli4Ocko/https/i.ytimg.com/vi/evvjV97J0tY/maxresdefault_live.jpg
+
+
+[26-Feb-21 12:32 PM] Psurge#9082
+I went. From zcash. To kmd
+
+{Reactions}
+🥳 (2) 
+
+[26-Feb-21 12:32 PM] Artist#0765
+Kmd is zcash fork
+
+
+[26-Feb-21 12:32 PM] Artist#0765
+So it's cool
+
+
+[26-Feb-21 12:32 PM] Psurge#9082
+Um it. On the zmini
+
+
+[26-Feb-21 12:33 PM] Psurge#9082
+I would. Have. To check. It. But I'm at work. At the moment. . Ya know. People. Got to. Have. Boxes. Lol
+
+{Reactions}
+👍 
+
+[26-Feb-21 12:34 PM] Psurge#9082
+I really. Like. How. It has climb in value. To
+
+
+[26-Feb-21 12:57 PM] Jcharming#2693
+Hey @everyone look who's getting noticed.... 💚 Komodo https://cointelegraph.com/news/komodo-launches-atomicdex-beta-bringing-atomic-swaps-to-ethereum-and-bitcoin
+
+{Embed}
+https://cointelegraph.com/news/komodo-launches-atomicdex-beta-bringing-atomic-swaps-to-ethereum-and-bitcoin
+Komodo launches AtomicDEX beta bringing atomic swaps to Ethereum an...
+Atomic swaps allow to connect completely different blockchains together and conduct non-custodial trading.
+https://images-ext-2.discordapp.net/external/kWV_BAGDwiZ7hhUeDKQjTmGtPsTw8o_r_6zI_Y_CZ5I/https/images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjEtMDIvMDIxZjNhN2QtOWFmNy00MGE3LTgyNGUtNzg5MWU4YzA4OWNiLmpwZw%3D%3D.jpg
+
+{Reactions}
+KMD (30) AtomicDEX (19) komodopog (14) 💯 (8) 👌 (4) 
+
+[26-Feb-21 12:57 PM] daemonfox#6136
+YASS
+
+
+[26-Feb-21 12:58 PM] daemonfox#6136
+IDGAF about Coindesk much anymore, they got some ignorant reporters... its sad... but CoindTelegraph has been legit
+
+
+[26-Feb-21 12:58 PM] Alloymonkey#9625
+Komodo for life homie
+
+{Reactions}
+🔥 
+
+[26-Feb-21 02:06 PM] Psurge#9082
+Does. Anyone. Know. What. A usb miner. Is
+
+
+[26-Feb-21 02:06 PM] daemonfox#6136
+yes
+
+
+[26-Feb-21 02:07 PM] daemonfox#6136
+Back in the first wave of ASICs after Avakons, small single chip ASICs could come on USB sticks
+
+
+[26-Feb-21 02:07 PM] daemonfox#6136
+and inserted into large USB boards
+
+
+[26-Feb-21 02:07 PM] daemonfox#6136
+Then a CLI app on Linux or Windows could detect them all and mine
+
+
+[26-Feb-21 02:08 PM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814982323665633280/hqdefault.png
+
+
+[26-Feb-21 02:10 PM] daemonfox#6136
+The old Gridseeds for LTC and many other miners had USB interfaces rather than an onboard controller like large enterprise ASICs now
+
+
+[26-Feb-21 02:10 PM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/814982833147871243/5a982c6647a0e730b1a0c5b6-large.png
+
+
+[26-Feb-21 02:12 PM] daemonfox#6136
+https://www.amazon.com/Block-Erupter-Port-USB-220V/dp/B00GCQQE42/ref=dp_prsubs_1?pd_rd_i=B00GCQQE42&psc=1
+
+
+[26-Feb-21 02:12 PM] daemonfox#6136
+Hardware like that
+
+
+[26-Feb-21 02:13 PM] Psurge#9082
+Very. Intresting
+
+
+[26-Feb-21 02:13 PM] Psurge#9082
+Are. They. Worth. The. Time
+
+
+[26-Feb-21 02:13 PM] Psurge#9082
+Will they. Burn. Up
+
+
+[26-Feb-21 02:18 PM] Psurge#9082
+Like. Mining. Off. A. Pi ?
+
+
+[26-Feb-21 02:25 PM] Oszy#5734
+you dont even make 1 cent in a year with these now 🙂
+
+
+[26-Feb-21 02:26 PM] Psurge#9082
+Oh. Wow.  Seriously
+
+
+[26-Feb-21 02:26 PM] Psurge#9082
+So. Just. Novelty  I guess. Lol
+
+
+[26-Feb-21 02:26 PM] Psurge#9082
+I seen. And. Was. Curious
+
+
+[26-Feb-21 02:28 PM] daemonfox#6136
+yes nearly worthless
+
+
+[26-Feb-21 02:29 PM] daemonfox#6136
+But... if found for a near nothing cost and ran on "free" or super ass cheap power, you could earn some coin
+
+
+[26-Feb-21 02:29 PM] daemonfox#6136
+Youd make more digging a ditch at that point though lol
+
+{Reactions}
+😆 (2) 
+
+[26-Feb-21 02:30 PM] Oszy#5734
+a core2duo cpu is more profitable than these 😄
+
+
+[26-Feb-21 02:30 PM] daemonfox#6136
+I have 3 mining VRSC laughably
+
+
+[26-Feb-21 02:30 PM] Psurge#9082
+Lol. Wow. 🤣
+
+
+[26-Feb-21 02:30 PM] daemonfox#6136
+actually... theye are celerons
+
+
+[26-Feb-21 02:30 PM] daemonfox#6136
+even worse
+
+
+[26-Feb-21 02:31 PM] Psurge#9082
+I seen. Some. Where. They. Sell. A. Whole. Usd. Bar with. About. 20 on it. For. Like. 30 bucks
+
+
+[26-Feb-21 02:31 PM] Psurge#9082
+Usb*
+
+
+[26-Feb-21 02:32 PM] Psurge#9082
+I'll stick my. To ascii lol
+
+
+[26-Feb-21 02:32 PM] Psurge#9082
+Thanks. For. Clearing  that. Up for. Me
+
+
+[26-Feb-21 03:03 PM] jcom3030#5780
+I have some of those
+
+
+[26-Feb-21 03:24 PM] Cryptolord#2006
+Me too
+
+
+[26-Feb-21 04:51 PM] Ghostface.£th#3716
+Hello!
+
+
+[26-Feb-21 04:52 PM] fsocietyCrypto#1179
+:3040_kingpeepo:
+
+
+[26-Feb-21 05:53 PM] VJ#1796
+:rum:
+
+
+[26-Feb-21 05:59 PM] dudezmobi#1945
+lets start the partyyyyy
+
+
+[26-Feb-21 11:28 PM] Mr.Lubo#2057
+Can I have apk file last night i quit test version can't download new?
+
+
+[27-Feb-21 12:40 AM] rionnox#3470
+Is this for the mobile version? It's not out yet.
+
+
+[27-Feb-21 01:38 AM] oicred#5677
+Hi good morning
+
+
+[27-Feb-21 01:43 AM] oicred#5677
+Hi, can if possible can the team check the KMD, didn't received during the live YouTube yesterday (10KMD)
+https://kmdexplorer.io/address/RJy7m1GWr125Fer1SU2h9YHW7FNPf3fPhc
+
+{Reactions}
+😕 
+
+[27-Feb-21 03:55 AM] kharris#9477
+hello may i know why withdraw from binance its take to long time sir
+
+
+[27-Feb-21 04:08 AM] cipi#4502
+takes only couple minutes to withdraw KMD from Binance... but you need to ask Binance if your withdraw is stuck
+
+
+[27-Feb-21 05:44 AM] Muzo354510#0742
+RQt5dG3nKaRP4fQfDQkgPZEUm7eqHq8kf3
+
+
+[27-Feb-21 05:45 AM] Muzo354510#0742
+KMD was not sent to me ...
+
+
+[27-Feb-21 06:44 AM] jurbel#5593
+Still no out new version for mobile
+
+
+[27-Feb-21 07:05 AM] rionnox#3470
+https://twitter.com/AtomicDEX/status/1365650431289008129?s=19
+
+Some clarity would be good 😕.
+
+{Embed}
+AtomicDEX ⚛️ (@AtomicDEX)
+https://twitter.com/AtomicDEX/status/1365650431289008129?s=19
+@Airdroplanet And we asked you to drop into the support channel on Discord. Did you get the link?
+Twitter
+
+
+[27-Feb-21 07:18 AM] Oszy#5734
+First 25 to post address was eligible to receive airdrop, were you in the 25? If yes, @Jcharming can sort you out. If not, better luck next time.
+
+
+[27-Feb-21 07:23 AM] Jcharming#2693
+Correct - I actually batched out more than 25! But at least got the first 25 responses from those that didn't have any funds in their wallets.  thx @Oszy
+
+{Reactions}
+🦾 (4) 
+
+[27-Feb-21 07:44 AM] ZokiZok  $ARRR#9247
+close to double 44.
+
+{Reactions}
+shexy 
+
+[27-Feb-21 08:05 AM] tolken#2655
+@Muzo354510 if I’m not mistaken, doesn’t the address have to have never had any KMD in it? I’m not sure.
+
+
+[27-Feb-21 08:09 AM] tolken#2655
+@Muzo354510 check your account again, looks like you got some.
+
+
+[27-Feb-21 09:00 AM] Spitzel#9913
+:AtomicDEX:
+
+{Reactions}
+AtomicDEX (3) 
+
+[27-Feb-21 09:27 AM] lerecidiviste69#5175
+hello frds 
+
+i donwload ok
+put my BTCZ order ok
+
+still monitoring Will make some remarks latter on
+
+
+[27-Feb-21 09:31 AM] Jcharming#2693
+@here we have the second day and follow up event for the Stable Beta 040 Live stream party happening here and being live streamed out of Komodo discord to twitter and youtube 
+
+please share out these links we'll be starting in about 30m @everyone 
+https://discord.com/channels/412898016371015680/412915799251222539/815273718430957598
+
+
+Links to share with others in your social media and reach ❤️ 
+
+Discord Invite
+https://discord.gg/A8YDArvg
+
+Komodo Twitter
+https://twitter.com/KomodoPlatform
+
+Komodo Youtube 
+https://www.youtube.com/c/KomodoPlatformOfficial
+
+{Embed}
+https://twitter.com/KomodoPlatform
+Komodo 🦎 (@KomodoPlatform)
+Komodo is a technology provider and open source workshop. Join the community of innovators that's changing the world. For Spanish tweets follow @Komodo_ES.
+Tweets
+6493
+Followers
+99307
+https://images-ext-2.discordapp.net/external/7oRKXDAgq33agCUXua0OxIuX-FK1w45FzHnC8kBjVuE/https/pbs.twimg.com/profile_images/1159035882634170368/t_w-JXfi_normal.jpg
+Twitter
+
+{Embed}
+https://www.youtube.com/c/KomodoPlatformOfficial
+Komodo Platform
+Komodo is an end-to-end blockchain infrastructure solutions provider. Consistently recognized as one of the world’s most innovative blockchain projects, Komodo is a global, interoperable blockchain ecosystem that’s secured with the power of the Bitcoin network and independently scalable for every project.
+https://images-ext-1.discordapp.net/external/cCDCl8PtdatuuPRNuqwHZcCdBpk7wi8plN_Emh-GZ6w/https/yt3.ggpht.com/ytc/AAUvwnghuzDbjNacE8tLjOW2X32pO-6dRogAWb8oTY7Fxw%3Ds900-c-k-c0x00ffffff-no-rj
+
+{Reactions}
+💯 (4) 👍 (3) 
+
+[27-Feb-21 09:33 AM] Well Done#8264
+can I syncronize with the mobil :AtomicDEX: ?
+
+
+[27-Feb-21 09:35 AM] Jcharming#2693
+what do you mean by synchornize?
+
+
+[27-Feb-21 09:35 AM] unalsengun#0892
+Hello everyone 👋
+
+{Reactions}
+👋 (2) 
+
+[27-Feb-21 09:35 AM] unalsengun#0892
+Let's go to moon together and forever 😍
+
+
+[27-Feb-21 09:36 AM] unalsengun#0892
+🚀🚀🚀
+
+{Reactions}
+✅ (2) 
+
+[27-Feb-21 09:36 AM] unalsengun#0892
+Is there New marketing news about Komodo?
+
+
+[27-Feb-21 09:37 AM] unalsengun#0892
+What is the next bomb?
+
+
+[27-Feb-21 09:37 AM] Jcharming#2693
+You'll have to find out on the livesream ❤️
+
+{Reactions}
+💯 
+
+[27-Feb-21 09:38 AM] unalsengun#0892
+We are here everytime long years with this bomba team.
+
+
+[27-Feb-21 09:38 AM] Well Done#8264
+the mobil wallet with my desktop wallet :AtomicDEX: atomicdex
+
+
+[27-Feb-21 09:39 AM] unalsengun#0892
+But i cant understand livesream ☺️ my english is not enough to understand
+
+
+[27-Feb-21 09:39 AM] unalsengun#0892
+☺️
+
+{Reactions}
+😅 (2) 
+
+[27-Feb-21 09:42 AM] SadykovT#2123
+@Well Done you can, use the same seed
+
+
+[27-Feb-21 09:42 AM] jurbel#5593
+20 min left to stream right?
+
+{Reactions}
+🔥 
+
+[27-Feb-21 09:43 AM] Well Done#8264
+perfect , thanks 👍
+
+
+[27-Feb-21 09:43 AM] Jcharming#2693
+☝ This is true @Well Done  - your seed your coins whichever the platform. 
+
+Atm there are some subtle variations between mobile and desktop - mobile does not have everything listed that desktop does so if you log in and can't find your EMC2 for example no need to worry it's just because that or a different coin isn't enable on mobile yet.
+
+
+[27-Feb-21 09:45 AM] Well Done#8264
+good info 🍺 cheers
+
+{Reactions}
+Cheers 
+
+[27-Feb-21 09:47 AM] unalsengun#0892
+Did you find the attention you expected from the atomicdex boot?  what are your new marketing projects?
+
+
+[27-Feb-21 09:49 AM] unalsengun#0892
+Don't you think of new projects like gift distribution to increase interaction and investment?  who knows, maybe we can increase the number of comodos we have.
+
+{Reactions}
+⭐ 
+
+[27-Feb-21 09:51 AM] Jcharming#2693
+We did, and def feeling like we're continuing to build this new strong syndication network which didn't exist before. 
+
+To dovetail another answer and talk about new to marketing project - every month is a sprint with a specific theme, goal, and set of OKR's in mind for the first half of the year.  
+https://blog.komodoplatform.com/en/explore-komodo-marketing-roadmap/
+
+Next month we'll be seeking to become active on desirably at least a dozen different platforms besides twitter that we aren't already. 
+
+@Churro just stepped up to take care of reddit which is one day already before the month is starting - the biggest issue is getting some dedicated people to champion these. 
+
+Telegram and CrpytoNotification networks are high on our list to work out this scheme as well (things like blockfolio and CMC calednars etc)
+
+{Embed}
+https://blog.komodoplatform.com/en/explore-komodo-marketing-roadmap/
+Marketing Roadmap - Explore Komodo during first half of 2021!
+Komodo is embarking on our 2021 journey, and we want you to join us! Here is our marketing roadmap for the first six months of 2021. Sign up below for an invite to a personal orientation event of the months you choose.
+https://images-ext-2.discordapp.net/external/dZHZ0hydafXhASM0XbM109Red-8eexBTLFuiz63Gwxg/https/blog.komodoplatform.com/en/content/images/2021/02/1m-39s-1.jpg
+
+
+[27-Feb-21 09:52 AM] Nora Gretz#0461
+Hi, How can I know if I am running last version of atomic dex desktop?
+
+
+[27-Feb-21 09:53 AM] Nora Gretz#0461
+It shows 0.4.0-beta on the left top under the logo but I don't get the same dashboard as in the screen shots you show here
+
+
+[27-Feb-21 09:55 AM] Jcharming#2693
+did u catch that @Nora Gretz ?  I just answered your question live
+
+
+[27-Feb-21 09:55 AM] Nora Gretz#0461
+no sorry
+
+
+[27-Feb-21 09:55 AM] Nora Gretz#0461
+the live is on youtube only?
+
+
+[27-Feb-21 09:56 AM] Sdunbar#5064
+https://www.youtube.com/watch?v=evvjV97J0tY&feature=youtu.be&ab_channel=KomodoPlatform
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=evvjV97J0tY
+AtomicDEX Stable Beta Launch Party Continued | DAY 2 🚀👩‍🚀👨‍🚀
+Participate in AtomicDEX Bounty Day on February 27th and join the livestream for additional reward opportunities. Download AtomicDEX v0.4.0 and play games for your chance to earn KMD.
+https://images-ext-2.discordapp.net/external/uAmDJuidAZR9mjlSsPazBxUAT_M6Q5BFJFqRli4Ocko/https/i.ytimg.com/vi/evvjV97J0tY/maxresdefault_live.jpg
+
+
+[27-Feb-21 09:57 AM] Jcharming#2693
+yes livestream is on youtube and twitter and we had an overflow last time and couldn't get a speaker in - so we have to sort this out this time, but in the future we're going to find a way to make sure the video channel in discord is open.
+
+{Reactions}
+👍 (7) 
+
+[27-Feb-21 09:58 AM] Jcharming#2693
+# growing pains
+
+
+[27-Feb-21 09:58 AM] Jcharming#2693
+apparently this is a good thing?
+
+
+[27-Feb-21 09:58 AM] Jcharming#2693
+lol
+
+
+[27-Feb-21 09:59 AM] ZokiZok  $ARRR#9247
+Jcharming sayed open dashbord, press support button, you see on top changelog and rev number.
+
+{Reactions}
+👍 
+
+[27-Feb-21 09:59 AM] ZokiZok  $ARRR#9247
+if i understand right.
+
+
+[27-Feb-21 09:59 AM] Nora Gretz#0461
+as you said growing pains 😅 hopefully we are growing
+
+
+[27-Feb-21 10:01 AM] Nora Gretz#0461
+ok it shows up to date, thanks
+
+{Reactions}
+👋 (2) 
+
+[27-Feb-21 10:02 AM] Nora Gretz#0461
+https://discord.com/channels/412898016371015680/814886401631715328/814940972474826783
+
+
+[27-Feb-21 10:02 AM] Nora Gretz#0461
+on this picture another user posted the dashboard is different with the portfolio graph
+
+
+[27-Feb-21 10:03 AM] wil#2080
+Today is the big Bang?
+
+
+[27-Feb-21 10:03 AM] Sdunbar#5064
+RIP livestream
+
+
+[27-Feb-21 10:05 AM] Jcharming#2693
+Livestream rebooting - technical difficulties please standby
+
+
+[27-Feb-21 10:07 AM] Cypher#9999
+Oooh just made it in time ^.^
+
+
+[27-Feb-21 10:07 AM] Sdunbar#5064
+https://www.youtube.com/watch?v=ll3vQPGcTfY&ab_channel=KomodoPlatform
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=ll3vQPGcTfY
+AtomicDEX Stable Beta Launch Party Continued | DAY 2
+Participate in AtomicDEX Bounty Day on February 27th and join the livestream for additional reward opportunities. Download AtomicDEX v0.4.0 and play games for your chance to earn KMD.
+https://images-ext-1.discordapp.net/external/TjjHKvXaa5XRoZDs4ytj45d-Ah4VdV6gsVI5p-Aww3g/https/i.ytimg.com/vi/ll3vQPGcTfY/maxresdefault_live.jpg
+
+
+[27-Feb-21 10:08 AM] Delton#2644
+New livestream link
+
+{Reactions}
+👍 
+
+[27-Feb-21 10:08 AM] Delton#2644
+https://www.youtube.com/watch?v=ll3vQPGcTfY
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=ll3vQPGcTfY
+AtomicDEX Stable Beta Launch Party Continued | DAY 2
+Participate in AtomicDEX Bounty Day on February 27th and join the livestream for additional reward opportunities. Download AtomicDEX v0.4.0 and play games for your chance to earn KMD.
+https://images-ext-1.discordapp.net/external/TjjHKvXaa5XRoZDs4ytj45d-Ah4VdV6gsVI5p-Aww3g/https/i.ytimg.com/vi/ll3vQPGcTfY/maxresdefault_live.jpg
+
+{Reactions}
+👍 
+
+[27-Feb-21 10:08 AM] Cypher#9999
+thank you
+
+
+[27-Feb-21 10:10 AM] ZokiZok  $ARRR#9247
+🥳
+
+
+[27-Feb-21 10:11 AM] Cypher#9999
+https://tenor.com/bbh8Q.gif
+
+{Embed}
+https://tenor.com/view/party-minions-dancing-party-time-happy-gif-15045334
+https://images-ext-2.discordapp.net/external/ANTRaNNU5qfcnQByLp4mZMpUEOQnDRTgbIoOq4_P59g/https/media.tenor.co/images/e4ea53bc7913d26f74d8c1a910c793cd/tenor.png
+
+{Reactions}
+🎉 (6) 🥳 (6) ⭐ (6) 
+
+[27-Feb-21 10:11 AM] Jcharming#2693
+https://tenor.com/view/golden-girls-konga-dancing-dance-dance-party-gif-14688514
+
+{Embed}
+https://tenor.com/view/golden-girls-konga-dancing-dance-dance-party-gif-14688514
+https://images-ext-2.discordapp.net/external/uV5LO9TgScIBSu7f5uT0ZdPm8D9tooakwnZw1eBSkE8/https/media.tenor.co/images/44a800107c06dac75f59f82efee24a47/tenor.png
+
+{Reactions}
+🥳 (3) 😆 (2) ⭐ 
+
+[27-Feb-21 10:12 AM] Bull#1467
+RD79qGEXGsmqCPTwsBsBjpU7tXPC7VZUsk
+
+
+[27-Feb-21 10:12 AM] DigitalDan#5742
+Can we pin the blog post?
+
+
+[27-Feb-21 10:12 AM] DigitalDan#5742
+Sorry joining late but would love to check it out 🙂
+
+
+[27-Feb-21 10:12 AM] Jcharming#2693 (pinned)
+https://blog.komodoplatform.com/en/atomicdex-stable-beta-v0-4-live/
+
+{Embed}
+https://blog.komodoplatform.com/en/atomicdex-stable-beta-v0-4-live/
+AtomicDEX v0.4.0 Is Live
+The release of AtomicDEX v0.4.0 Stable Beta marks a major milestone for Komodo and DEX technology
+https://images-ext-2.discordapp.net/external/KwVA6lYQtWA0QRq73bkv0RrkzPB42jrQvBNHOsHuvsw/https/blog.komodoplatform.com/en/content/images/2021/02/v0.4.0-Live-Banner.jpg
+
+
+[27-Feb-21 10:12 AM] Jcharming#2693
+Pinned a message.
+
+
+[27-Feb-21 10:12 AM] Jcharming#2693
+done
+
+
+[27-Feb-21 10:13 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+👌👌 🎊
+
+
+[27-Feb-21 10:15 AM] zrhbollas#6434
+Lag stream
+
+
+[27-Feb-21 10:15 AM] Delton#2644
+https://blog.komodoplatform.com/en/2020-atomicdex-stress-test-final-results/
+
+{Embed}
+https://blog.komodoplatform.com/en/2020-atomicdex-stress-test-final-results/
+2020 AtomicDEX Stress Test Final Results
+We have proven our DEX technology is scalable, and ready for widespread adoption. As a result, we are officially launching the Komodo DeFi Engine!
+https://images-ext-2.discordapp.net/external/hmHJamWJ-mlfYYbJEhnI-qK8YmhFLrxDsW0q22103ko/https/blog.komodoplatform.com/en/content/images/2021/02/AtomicDEX-Stress-Test-Banner.jpg
+
+
+[27-Feb-21 10:19 AM] kharris#9477
+hello billionare 2021
+
+{Reactions}
+🎉 (2) 
+
+[27-Feb-21 10:19 AM] Jcharming#2693
+https://tenor.com/view/backing-you-get-yours-danny-devito-danny-devito-gif-13052176
+
+{Embed}
+https://tenor.com/view/backing-you-get-yours-danny-devito-danny-devito-gif-13052176
+https://images-ext-1.discordapp.net/external/V9MpnEZ__4O92eU7w2D0BcuepPHc20A345ypbh-id2s/https/media.tenor.co/images/7742115825d43b62b69dbeab1071391e/tenor.png
+
+
+[27-Feb-21 10:19 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+I used mostly my 2 iPhones
+
+
+[27-Feb-21 10:19 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+It was a pain to my fingers
+
+
+[27-Feb-21 10:19 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Ahah
+
+
+[27-Feb-21 10:19 AM] Nora Gretz#0461
+we will rock next stress test with 10x more swaps
+
+{Reactions}
+💯 (8) 
+
+[27-Feb-21 10:21 AM] Sdunbar#5064
+: ))
+
+
+[27-Feb-21 10:25 AM] tolken#2655
+@Nora Gretz when next one?
+
+
+[27-Feb-21 10:27 AM] squidcell#1363
+If someone knew your IP address, could they flood a taker and cause the taker to lose money?
+
+
+[27-Feb-21 10:28 AM] squidcell#1363
+I.e., interrupting a swap?
+
+
+[27-Feb-21 10:31 AM] squidcell#1363
+This is mainly from the support item that says you must both remain online, otherwise there is a risk of cancellation as a maker, or loss of funds as a taker.
+
+
+[27-Feb-21 10:33 AM] squidcell#1363
+But that could feasibly turn a simple flood attack into a direct monetary loss for a taker, right?
+
+
+[27-Feb-21 10:37 AM] tolken#2655
+You could interrupt, but I don’t see how it could lead to loss.
+
+
+[27-Feb-21 10:38 AM] squidcell#1363
+Ah.  Is the fourth note in the 'support' section of AtomicDEX app  incorrect, then?
+
+
+[27-Feb-21 10:38 AM] Audo#5667
+there's a way to blacklist IPs and bad players – so the nodes know to avoid such spammers – a link to the full answer was posted here yesterday but I don't have that handy right now
+
+
+[27-Feb-21 10:38 AM] squidcell#1363
+Ah. thanks, @Audo
+
+
+[27-Feb-21 10:39 AM] Audo#5667
+no problem!
+
+
+[27-Feb-21 10:39 AM] Cypher#9999
+readdit bounty page is broken on the blog post ~ https://blog.komodoplatform.com/en/february-2021-event-6-stable-beta-launch-party-atomicdex-v0-4-0/
+
+{Embed}
+https://blog.komodoplatform.com/en/february-2021-event-6-stable-beta-launch-party-atomicdex-v0-4-0/
+February 2021 Event 6 - AtomicDEX Bounty Day
+Participate in AtomicDEX Bounty Day on February 27th and join the livestream for additional reward opportunities.
+https://images-ext-1.discordapp.net/external/zlDq5E03DX9oiBnrDrNnz5coQeR-n3daz8iZKbgkYTo/https/blog.komodoplatform.com/en/content/images/2021/02/Event-6-Banner.jpg
+
+
+[27-Feb-21 10:40 AM] Audo#5667
+thanks! flagging @Delton ☝️
+
+
+[27-Feb-21 10:42 AM] Cypher#9999
+can we guess letters Audo ?
+
+
+[27-Feb-21 10:42 AM] Audo#5667
+yes, I'll ask for a letters to reveal when we are ready to start the game
+
+
+[27-Feb-21 10:42 AM] Cypher#9999
+cool cool thanks 🙂
+
+{Reactions}
+🙌 (3) 
+
+[27-Feb-21 10:42 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Seems like good fun gl to everyone
+
+
+[27-Feb-21 10:43 AM] RNI#2666
+if someone guesses the phrase, he needs to select revover wallet to get access or how do you import the phrase?
+
+
+[27-Feb-21 10:44 AM] Audo#5667
+yes, you need to recover a custom seed and login to the wallet, and send to your wallet
+
+
+[27-Feb-21 10:44 AM] RNI#2666
+👍
+
+
+[27-Feb-21 10:45 AM] Cypher#9999
+SMASH THE LIKES ON YOUTUBE 🙂
+
+{Reactions}
+KMD (4) AtomicDEX (5) 
+
+[27-Feb-21 10:45 AM] Audo#5667
+haha! good idea for a future game seed
+
+{Reactions}
+9756_AppJedi (4) 
+
+[27-Feb-21 10:46 AM] Delton#2644
+Hmmm, link works on my end from the blog post. Here's the direct link https://www.reddit.com/r/komodoplatform/comments/lt2c9j/when_this_post_is_1_hour_old_atomicdex_stable/
+
+{Reactions}
+👍 
+
+[27-Feb-21 10:49 AM] Delton#2644
+Lots of people asking on YouTube about when the Android download will be ready
+
+
+[27-Feb-21 10:50 AM] Churro#4832
+25 responses so far for the Reddit party bounty! Looking good!
+
+{Reactions}
+🔥 (3) 
+
+[27-Feb-21 10:50 AM] Mitos.lthn#8324
+Multi order for fiat?
+
+
+[27-Feb-21 10:51 AM] Artist#0765
+Reddit
+
+
+[27-Feb-21 10:51 AM] Artist#0765
+Bounty?
+
+
+[27-Feb-21 10:51 AM] Churro#4832
+yes
+
+
+[27-Feb-21 10:51 AM] Artist#0765
+My meme was the first submission
+
+
+[27-Feb-21 10:51 AM] squidcell#1363
+wait, where are we supposed to respond? @Churro
+
+
+[27-Feb-21 10:51 AM] Churro#4832
+Yup
+
+
+[27-Feb-21 10:51 AM] Artist#0765
+When is it
+
+
+[27-Feb-21 10:51 AM] Cypher#9999
+example meme
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/lt4yd8/binance_no_atomic_dex_yassssss/
+r/komodoplatform - Binance no! ATOMIC DEX YASSSSSS
+14 votes and 1 comment so far on Reddit
+
+
+[27-Feb-21 10:52 AM] Churro#4832
+🥳
+
+{Reactions}
+🥳 
+
+[27-Feb-21 10:52 AM] Delton#2644
+Otis Murray III on YouTube "can't download from google. keep getting an error msg...​I want this so bad , but can't download it"
+
+
+[27-Feb-21 10:52 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+👌
+
+
+[27-Feb-21 10:53 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+You are the man @Jcharming
+
+{Reactions}
+💯 (6) 👍 (2) 
+
+[27-Feb-21 10:54 AM] zrhbollas#6434
+All done live stream?
+
+
+[27-Feb-21 10:54 AM] Audo#5667
+nope!
+
+
+[27-Feb-21 10:55 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Guys if I guess the wallet seed I will be airdropping it here for the community
+
+
+[27-Feb-21 10:55 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Let’s hope I manage to
+
+{Reactions}
+👍 
+
+[27-Feb-21 10:55 AM] Cypher#9999
+hmm i think im one word short on the guess >.>
+
+
+[27-Feb-21 10:55 AM] kharris#9477
+LOVE THE SONG
+
+
+[27-Feb-21 10:55 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+🤣
+
+
+[27-Feb-21 10:55 AM] Jcharming#2693
+this song is dope
+
+
+[27-Feb-21 10:55 AM] Audo#5667
+2x 50 KMD seed reveals coming
+ + PTYX talking about DogeDEX & branded DEXes
+ + Video from ca333 about 2021 incase you haven't seend it yet
+
+
+[27-Feb-21 10:56 AM] Audo#5667
+**Song Info**
+
+Title: Jell-O by Nightlife Disco
+Album: Nightlife Disco
+
+{Reactions}
+9756_AppJedi (2) 
+
+[27-Feb-21 10:56 AM] kharris#9477
+song pls
+
+{Reactions}
+😂 (2) 
+
+[27-Feb-21 10:56 AM] squidcell#1363
+@Audo How do the seed reveals work?
+
+
+[27-Feb-21 10:56 AM] kharris#9477
+nah thankss
+
+
+[27-Feb-21 10:57 AM] Audo#5667
+I'll explain on the stream again when we start @squidcell
+
+{Reactions}
+👍 (2) 
+
+[27-Feb-21 10:57 AM] Lilszi#2160
+whats this porn music 🤣
+
+{Reactions}
+👆 (2) 😂 (2) 🍆 (3) troll_hardcore (2) 
+
+[27-Feb-21 10:57 AM] Audo#5667
+basically you guess the seed, add it to your AtomicDEX wallet -> find the 50 KMD there -> send it to your own wallet
+
+
+[27-Feb-21 10:57 AM] squidcell#1363
+Ah.
+
+
+[27-Feb-21 10:58 AM] Cypher#9999
+can we try K please Audo ?
+
+
+[27-Feb-21 10:59 AM] rionnox#3470
+Carl Duffy bro
+
+
+[27-Feb-21 11:02 AM] Audo#5667
+Try to guess? Yes, very soon 😉
+
+
+[27-Feb-21 11:02 AM] Sdunbar#5064
+keep them likes goin on youtube, lets get it to 100
+
+{Reactions}
+🚀 
+
+[27-Feb-21 11:02 AM] Walter83#3669
+what is the adress of "try to guess" gameß
+
+
+[27-Feb-21 11:02 AM] Audo#5667
+totally, where were you guys? We need more people demanding likes & upvotes 😄
+
+
+[27-Feb-21 11:03 AM] Audo#5667
+https://explorer.komodoplatform.com/address/RCRC2coGBhwQEkKxGTHkZG8hGFHsXdPcFK/coin/KMD
+
+{Embed}
+https://explorer.komodoplatform.com/address/RCRC2coGBhwQEkKxGTHkZG8hGFHsXdPcFK/coin/KMD
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[27-Feb-21 11:03 AM] Cypher#9999
+https://tenor.com/Sdh2.gif
+
+{Embed}
+https://tenor.com/view/hype-thrusters-activated-anime-gif-10498452
+https://images-ext-1.discordapp.net/external/uR5FytYUIDeaeH9x5-bRswtHq8dYXBrWgGTYtvhpnUc/https/media.tenor.co/images/9391e04beda00f8255264803d752eef9/tenor.png
+
+
+[27-Feb-21 11:03 AM] Walter83#3669
+and seed is needed or only password?
+
+
+[27-Feb-21 11:04 AM] Cypher#9999
+custom seed
+
+
+[27-Feb-21 11:04 AM] Walter83#3669
+and seed ist the word from the game?
+
+
+[27-Feb-21 11:04 AM] Walter83#3669
+so no password needed?
+
+
+[27-Feb-21 11:04 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Come play with dex
+
+
+[27-Feb-21 11:05 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+😆
+
+
+[27-Feb-21 11:05 AM] ZokiZok  $ARRR#9247
+you have to set your own pw to enter the recovered wallet.
+
+
+[27-Feb-21 11:06 AM] SadykovT#2123
+@Buddz1993  HYPEBEARS FAN 🐻❄  This doesn't fit ^-)))
+
+
+[27-Feb-21 11:06 AM] Delton#2644
+It's a custom seed contest. You just need to be the first one to guess it and move the funds before anyone else. 🙂
+
+
+[27-Feb-21 11:06 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+It’s this one no ?
+
+
+[27-Feb-21 11:06 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/815298944132579358/image0.png
+
+
+[27-Feb-21 11:07 AM] Delton#2644
+@Buddz1993  HYPEBEARS FAN 🐻❄ Yep, we'll reveal a few letters during the stream
+
+
+[27-Feb-21 11:08 AM] cryptos#3669
+hi guys,
+
+
+[27-Feb-21 11:08 AM] zrhbollas#6434
+Doge dex
+
+
+[27-Feb-21 11:08 AM] ZokiZok  $ARRR#9247
+the discordstream dosnt show ptyx in tiny window.
+
+
+[27-Feb-21 11:08 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Play with doge dex ?
+
+{Reactions}
+👎 (2) 
+
+[27-Feb-21 11:09 AM] zrhbollas#6434
+Is new product doge dex?
+
+
+[27-Feb-21 11:10 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+🥴
+
+
+[27-Feb-21 11:10 AM] Delton#2644
+Link to DogeDEX website https://dogedex.xyz/
+
+{Embed}
+https://dogedex.xyz/
+DogeDEX - Shiba Powered Dogecoin Wallet and Decentralized Exchange
+Never store your bones in a centralized exchange, use DogeDEX to store, trade, and transfer your Dogecoins. Your keys, your coins!
+https://images-ext-2.discordapp.net/external/r6V7bJzTCiVe3TER0URs62K6ovGU4NlS7JM5uwLwkgY/https/dogedex.xyz/storage/2021/02/doge-150x150.png
+
+
+[27-Feb-21 11:10 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Tried
+
+{Reactions}
+😂 (3) 
+
+[27-Feb-21 11:11 AM] Delton#2644
+Keep trying lol
+
+
+[27-Feb-21 11:11 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+Not even close I’m assuming
+
+
+[27-Feb-21 11:11 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+🤣
+
+
+[27-Feb-21 11:13 AM] squidcell#1363
+Thanks, @PTYX , that was informative.
+
+{Reactions}
+💯 
+
+[27-Feb-21 11:14 AM] Cypher#9999
+CAN WE TRY K PLEASE
+
+{Reactions}
+😂 
+
+[27-Feb-21 11:14 AM] Walter83#3669
+d please
+
+
+[27-Feb-21 11:15 AM] Nora Gretz#0461
+m 😅
+
+
+[27-Feb-21 11:15 AM] Bull#1467
+e
+
+
+[27-Feb-21 11:15 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+a
+
+
+[27-Feb-21 11:15 AM] Goksy1888#5950
+G
+
+
+[27-Feb-21 11:16 AM] squidcell#1363
+r
+
+
+[27-Feb-21 11:16 AM] Nora Gretz#0461
+we started with  KMD 😅
+
+
+[27-Feb-21 11:16 AM] Cypher#9999
+M   DOGE  DEX
+
+
+[27-Feb-21 11:16 AM] Cypher#9999
+😭
+
+
+[27-Feb-21 11:16 AM] Walter83#3669
+meet doge with dex
+
+
+[27-Feb-21 11:17 AM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+I was close ahah
+
+
+[27-Feb-21 11:17 AM] Cypher#9999
+gzz whoever got it
+
+
+[27-Feb-21 11:17 AM] Sdunbar#5064
+close.. make doge your dex was my guess lol
+
+
+[27-Feb-21 11:17 AM] Cypher#9999
+😄
+
+
+[27-Feb-21 11:17 AM] Bull#1467
+Omg
+
+
+[27-Feb-21 11:17 AM] Walter83#3669
+congratulation cypher
+
+
+[27-Feb-21 11:17 AM] Cypher#9999
+not me
+
+
+[27-Feb-21 11:17 AM] Cypher#9999
+lol
+
+
+[27-Feb-21 11:17 AM] squidcell#1363
+Hehe.  Nice.
+
+
+[27-Feb-21 11:18 AM] Bull#1467
+Who got it?
+
+
+[27-Feb-21 11:18 AM] Cypher#9999
+much doge very dex lmao
+
+
+[27-Feb-21 11:18 AM] Churro#4832
+Thanks i got it
+
+{Reactions}
+treasure 
+
+[27-Feb-21 11:18 AM] Churro#4832
+hahahah
+
+
+[27-Feb-21 11:18 AM] Cypher#9999
+gzz churro
+
+
+[27-Feb-21 11:18 AM] Churro#4832
+jk
+
+
+[27-Feb-21 11:18 AM] ZokiZok  $ARRR#9247
+the seed was what?
+
+
+[27-Feb-21 11:18 AM] Churro#4832
+i wish
+
+
+[27-Feb-21 11:18 AM] Audo#5667
+MUCH DOGE VERY DEX
+
+{Reactions}
+👍 (7) 
+
+[27-Feb-21 11:18 AM] squidcell#1363
+No way.
+
+
+[27-Feb-21 11:19 AM] zrhbollas#6434
+gg
+
+
+[27-Feb-21 11:19 AM] ZokiZok  $ARRR#9247
+MAKE DEFI  xExx  DEX  was my guess
+
+
+[27-Feb-21 11:19 AM] squidcell#1363
+Acting as a dex provider is really a great way of increasing KMD liquidity.
+
+{Reactions}
+👍 (2) 
+
+[27-Feb-21 11:20 AM] kharris#9477
+ZERO FOUR ZERO DEX is my gueasing LOL
+
+
+[27-Feb-21 11:20 AM] squidcell#1363
+With that as a driver, I think I'm gonna double down with KMD as one of my moon shots.
+
+
+[27-Feb-21 11:21 AM] TranslucentMonkey#9147
+umm. Are we creating a wallet from seed to win this game?
+
+
+[27-Feb-21 11:21 AM] squidcell#1363
+I think so.  No way I can do it fast enough.  @TranslucentMonkey
+
+
+[27-Feb-21 11:21 AM] Artist#0765
+My reddit meme has 13 upvotes guys need more
+
+
+[27-Feb-21 11:21 AM] Artist#0765
+Posted the same in doge coin community as well
+
+
+[27-Feb-21 11:21 AM] Artist#0765
+🤣🤣 waiting for that to get flooded doge coin users are crazy
+
+
+[27-Feb-21 11:23 AM] squidcell#1363
+Does Komodo have a team scaling leadership plan?  What I mean is -- there's a decent chance you'll need to grow quickly.  Do you have something in place to handle that?
+
+
+[27-Feb-21 11:23 AM] Churro#4832
+Will people be able to use their debt/credit cards to buy crypto directly on AtomicDex, DogeDex in the future?
+
+
+[27-Feb-21 11:24 AM] Jcharming#2693
+@PTYX ? 🙃
+
+
+[27-Feb-21 11:24 AM] Artist#0765
+Moonpay integration
+
+
+[27-Feb-21 11:24 AM] Artist#0765
+Maybe will help
+
+
+[27-Feb-21 11:24 AM] Artist#0765
+Or other providers
+
+
+[27-Feb-21 11:24 AM] SadykovT#2123
+Will the Komodo ecosystem have its own stablecoin ?
+
+
+[27-Feb-21 11:25 AM] Churro#4832
+😮
+
+
+[27-Feb-21 11:25 AM] Artist#0765
+I don't think it's necessary for now as kmd itself hasn't
+
+
+[27-Feb-21 11:25 AM] Artist#0765
+Gained much value
+
+
+[27-Feb-21 11:25 AM] Artist#0765
+Imo
+
+
+[27-Feb-21 11:25 AM] Jcharming#2693
+https://tenor.com/view/well-yes-but-actually-no-well-yes-no-yes-yes-no-gif-13736934
+
+{Embed}
+https://tenor.com/view/well-yes-but-actually-no-well-yes-no-yes-yes-no-gif-13736934
+https://images-ext-1.discordapp.net/external/DuElB3j7Hmi0Y6REzRZ6dELToern0dRe0nk_S7DAFWk/https/media.tenor.co/images/c1a523015e3f1e589197b829a80c30a7/tenor.png
+
+
+[27-Feb-21 11:25 AM] Artist#0765
+If it crosses 50 or maybe 100
+
+
+[27-Feb-21 11:26 AM] Artist#0765
+But that requires a lot of financial integrations from liquidity providers, bs etc
+
+
+[27-Feb-21 11:26 AM] squidcell#1363
+KMD is the perfect platform for an independently-valued stablecoin.  What I mean is, one that takes multiple fiats and cryptos into account, and is a representation of the mean of the larger market (by cap).
+
+{Reactions}
+💯 
+
+[27-Feb-21 11:26 AM] kharris#9477
+where is the music ?
+
+
+[27-Feb-21 11:26 AM] Audo#5667
+Let's get the party going!!! 👯‍♂️
+
+{Reactions}
+🔥 (7) tux_rocknroll (2) 🥳 
+
+[27-Feb-21 11:26 AM] kharris#9477
+nahh
+
+
+[27-Feb-21 11:26 AM] squidcell#1363
+There it is!
+
+{Reactions}
+🔥 (2) 
+
+[27-Feb-21 11:26 AM] Hirvikarhu#6314
+What is the program used for livestreaming?
+
+
+[27-Feb-21 11:27 AM] Lexbaba#3219
+lol the dj ...
+
+
+[27-Feb-21 11:27 AM] Artist#0765
+Where is the live stream going on
+
+
+[27-Feb-21 11:27 AM] squidcell#1363
+Boun-chicka-bou bouooow!
+
+
+[27-Feb-21 11:27 AM] Sdunbar#5064
+prono time
+
+
+[27-Feb-21 11:27 AM] Artist#0765
+The discord channel is locked
+
+
+[27-Feb-21 11:27 AM] RNI#2666
+https://www.youtube.com/watch?v=ll3vQPGcTfY
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=ll3vQPGcTfY
+AtomicDEX Stable Beta Launch Party Continued | DAY 2
+Participate in AtomicDEX Bounty Day on February 27th and join the livestream for additional reward opportunities. Download AtomicDEX v0.4.0 and play games for your chance to earn KMD.
+https://images-ext-1.discordapp.net/external/TjjHKvXaa5XRoZDs4ytj45d-Ah4VdV6gsVI5p-Aww3g/https/i.ytimg.com/vi/ll3vQPGcTfY/maxresdefault_live.jpg
+
+
+[27-Feb-21 11:27 AM] zrhbollas#6434
+Will be add feature stake and earn ?
+
+
+[27-Feb-21 11:27 AM] Audo#5667
+now plaing: Big City Lights by Up in the Air
+
+
+[27-Feb-21 11:28 AM] Artist#0765
+Active user rewards
+
+
+[27-Feb-21 11:28 AM] Artist#0765
+Already
+
+
+[27-Feb-21 11:28 AM] zrhbollas#6434
+Ahh nice
+
+
+[27-Feb-21 11:28 AM] Artist#0765
+Verus is a project developed on Komodo ecosystem they have staking rewards.
+I guess Komodo father's stuff🤣🤣🤣
+
+
+[27-Feb-21 11:29 AM] Jcharming#2693
+honest answer - we are building and going through some significant growing pains atm. 
+@Audo has organized marketing pushes into monthly sprints surrounding topics like this - next month in March for example there is a push to find and cultivate a team of SM managers to be present on a dozen or more so important channels. 
+
+@ca333 is on the lookout for more talent to add to the development team all the time - blockchain talent is limited as it's a new sector and it's a complicated niche with high demand and low supply
+
+@PTYX & @polycryptoblog handle biz so well that they have a backlog list and Komodo is never going to run out of opportunities.
+
+{Reactions}
+👍 (7) 
+
+[27-Feb-21 11:30 AM] squidcell#1363
+Thanks for giving that a bit of attention.
+
+
+[27-Feb-21 11:31 AM] rionnox#3470
+Carl Duffy bro
+
+
+[27-Feb-21 11:31 AM] Sdunbar#5064
+dogedex getting more nice tweets from big doge accounts on twitter!
+
+
+[27-Feb-21 11:31 AM] Sdunbar#5064
+huge
+
+
+[27-Feb-21 11:31 AM] Jcharming#2693
+https://github.com/KomodoPlatform/atomicDEX-Desktop/issues/new/choose
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Desktop/issues/new/choose
+Build software better, together
+GitHub is where people build software. More than 56 million people use GitHub to discover, fork, and contribute to over 100 million projects.
+https://images-ext-1.discordapp.net/external/GknnCjizMYMXTf7AxtPGiAkqk1cGv6dwIUxYVc4g3cA/https/github.githubassets.com/images/modules/open_graph/github-logo.png
+
+
+[27-Feb-21 11:31 AM] TranslucentMonkey#9147
+How are you integrating into Ethereum 2.0? Will ETH Gas go down on your DEX when this goes live?
+
+
+[27-Feb-21 11:32 AM] Sdunbar#5064
+keep likes going on youtube stream
+
+
+[27-Feb-21 11:32 AM] Carlos D#2831
+Mark Heagney bro
+
+{Reactions}
+🦾 (2) 
+
+[27-Feb-21 11:36 AM] Jcharming#2693
+@here Komodo CTO Kadan Stadelmann gave us a great video to share at the live party for today - it's on the livestream atm 
+https://www.youtube.com/watch?v=ll3vQPGcTfY
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=ll3vQPGcTfY
+AtomicDEX Stable Beta Launch Party Continued | DAY 2
+Participate in AtomicDEX Bounty Day on February 27th and join the livestream for additional reward opportunities. Download AtomicDEX v0.4.0 and play games for your chance to earn KMD.
+https://images-ext-1.discordapp.net/external/TjjHKvXaa5XRoZDs4ytj45d-Ah4VdV6gsVI5p-Aww3g/https/i.ytimg.com/vi/ll3vQPGcTfY/maxresdefault_live.jpg
+
+{Reactions}
+KMD (5) AtomicDEX (5) 🌸 
+
+[27-Feb-21 11:36 AM] ZokiZok  $ARRR#9247
+is atomicdex NFT compatible / ready?
+
+
+[27-Feb-21 11:41 AM] jvr#6773
+An NFT marketplace built into AtomicDex would be awesome..
+
+https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/beginner-series-part-4.html#create-a-non-fungible-token
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/beginner-series-part-4.html
+Komodo Developer Path | Understanding Tokens
+Each Smart Chain in the Komodo ecosystem can act as a fully tokenizable platform. This provides many opportunities to the developer for creating on-chain assets that represent varying types of value for their users.
+https://images-ext-2.discordapp.net/external/o5u6kMhb-gChwn-Kt1Ek6fWlI6-xFGmhLzakz-MezWs/https/developers.komodoplatform.com/2019-06-24-tutorial-4-img-1.png
+
+{Reactions}
+👍 (5) 
+
+[27-Feb-21 11:44 AM] Cypher#9999
+could you let people download them
+
+
+[27-Feb-21 11:44 AM] Cypher#9999
+and then activate them remotely on our end?
+
+
+[27-Feb-21 11:46 AM] Jcharming#2693
+what are you referencing?
+
+
+[27-Feb-21 11:46 AM] Cypher#9999
+in terms of the apps, i.e. let users get them ahead of time, but the content could be locked until an activation from the kmd side
+
+
+[27-Feb-21 11:46 AM] tolken#2655
+@Sdunbar just gotta have a good game plan to ensure there’s some good DOGE volume when DogeDex launches. Would hate for users not be able to do some good trading on day one. Doge users in particular might be really confused by empty orderbooks.
+
+
+[27-Feb-21 11:46 AM] Sdunbar#5064
+true
+
+
+[27-Feb-21 11:48 AM] tolken#2655
+I hope to help a little, I bought my first Doge to provide a tiny bit of liquidity ;D Going to try and provide for DOGE/LTC and DOGE/KMD.
+
+
+[27-Feb-21 11:48 AM] PTYX#6840
+We're ensuring that there's orders available but we do need a long term LP plan for major pairs
+
+
+[27-Feb-21 11:49 AM] PTYX#6840
+@tolken ask @cipi if you need help
+
+
+[27-Feb-21 11:49 AM] PTYX#6840
+he's the master at LPs
+
+
+[27-Feb-21 11:49 AM] zrhbollas#6434
+Swap & trading competition 🤠🔥🔥
+
+
+[27-Feb-21 11:51 AM] tolken#2655
+@PTYX I’m all good, CIPI has been helping me for a while. 😄 If there’s interest in DOGE, I’ll certainly keep providing.
+
+
+[27-Feb-21 11:53 AM] Delton#2644
+https://blog.komodoplatform.com/en/crypto-collider-joins-komodo-ecosystem/
+
+{Embed}
+https://blog.komodoplatform.com/en/crypto-collider-joins-komodo-ecosystem/
+Crypto Collider Joins The Komodo Ecosystem
+Crypto Collider (CLC) recently completed its migration to the Komodo ecosystem. The project now has its own independent, native chain built using Komodo's multi-chain architecture.
+https://images-ext-2.discordapp.net/external/3pa5NTjukBHOqDjgb42AXWd4DK6LvtNAARNU8M6LaYY/https/blog.komodoplatform.com/en/content/images/2021/02/Events--20---1---1-.jpg
+
+{Reactions}
+👍 (9) 
+
+[27-Feb-21 11:54 AM] Cypher#9999
+Thanks guys awesome work 🙂
+
+{Reactions}
+🔥 (8) 🙏 (6) 
+
+[27-Feb-21 11:55 AM] RNI#2666
+Yes. what a progress since i firtst got into komodo in 2017 🚀  awesome
+
+
+[27-Feb-21 11:56 AM] samurai321#0681
+dogedex name maybe even more popular than us. Shibas don't know what is an atomic trade. 😄
+
+
+[27-Feb-21 11:56 AM] Sdunbar#5064
+much more organized and focusd now!
+
+
+[27-Feb-21 11:56 AM] Jcharming#2693
+Blame @Audo  please
+
+
+[27-Feb-21 11:57 AM] Sdunbar#5064
+Nice work to @Audo and the rest of the marketing team, very impressed
+
+{Reactions}
+👍 (3) 
+
+[27-Feb-21 11:58 AM] TranslucentMonkey#9147
+Thanks! I know, probably a dumb question.
+
+
+[27-Feb-21 11:59 AM] Audo#5667
+atomicdex.io website was launched by @TonyL & @yurii-khi ! All credit for him. Also @PTYX has been leading the latest DogeDEX campaign push. Our whole team has been contributing to marketing and we are all working very closely together. 
+
+Big thanks to @ca333 also for spending all the time and energy to work with us as we are discovering how to explain and market Komodo technology.
+
+{Reactions}
+👍 (11) AtomicDEX (8) 
+
+[27-Feb-21 12:00 PM] Sdunbar#5064
+Website is very beautiful and doge outreach growth is awesome
+
+
+[27-Feb-21 12:01 PM] Sdunbar#5064
+atomic dex website is very well done
+
+{Reactions}
+⭐ (2) 
+
+[27-Feb-21 12:02 PM] Jcharming#2693
+srsly no dumb questions - ask anything we're all here to learn
+
+{Reactions}
+👍 (2) 
+
+[27-Feb-21 12:05 PM] Audo#5667
+GAME TIME
+
+{Reactions}
+🦾 (3) 
+
+[27-Feb-21 12:05 PM] PTYX#6840
+https://twitter.com/dogecoindex/status/1365737463629684747
+
+{Embed}
+DogeDEX (@dogecoindex)
+https://twitter.com/dogecoindex/status/1365737463629684747
+@ItsDogeCoin #DogeDEX Such revolution! Much Decentralized!
+https://images-ext-2.discordapp.net/external/CXfQVwIE08ZYQoQKg5fqhdbAa3amRJ7r4FAy2n5Xl6g/https/pbs.twimg.com/media/EvQS_ChXAAIeZfC.jpg%3Alarge
+Twitter
+
+{Reactions}
+😆 (8) ❤️ (5) 😹 (6) 
+
+[27-Feb-21 12:06 PM] ºGandiº#7084
+😹 😹
+
+
+[27-Feb-21 12:08 PM] Jcharming#2693
+Start your guessing
+
+
+[27-Feb-21 12:09 PM] Cypher#9999
+D please
+
+
+[27-Feb-21 12:09 PM] kharris#9477
+R please
+
+
+[27-Feb-21 12:10 PM] RNI#2666
+A please
+
+
+[27-Feb-21 12:10 PM] Bull#1467
+U
+
+
+[27-Feb-21 12:10 PM] ºGandiº#7084
+K please
+
+
+[27-Feb-21 12:10 PM] Cypher#9999
+E
+
+
+[27-Feb-21 12:10 PM] Nora Gretz#0461
+K,M,D
+
+
+[27-Feb-21 12:10 PM] RNI#2666
+X please
+
+
+[27-Feb-21 12:11 PM] Bull#1467
+I
+
+
+[27-Feb-21 12:11 PM] squidcell#1363
+I won't be able to create the wallet fast enough even if I guess it.
+
+
+[27-Feb-21 12:12 PM] rionnox#3470
+Fourth word is Komododex 😜
+
+
+[27-Feb-21 12:12 PM] squidcell#1363
+😮
+
+
+[27-Feb-21 12:12 PM] Jcharming#2693
+Words = 8 
+4 - 3 - 2 - 9 - 3 - 6 - 4 - 7
+
+
+[27-Feb-21 12:13 PM] Goksy1888#5950
+G
+
+
+[27-Feb-21 12:13 PM] squidcell#1363
+Last word:  Retards?  sorry, been on wsb too much.
+
+{Reactions}
+🙃 (3) 
+
+[27-Feb-21 12:13 PM] Jcharming#2693
+https://tenor.com/view/oh-well-forgetting-sarah-marshall-shrug-what-idk-gif-5281408
+
+{Embed}
+https://tenor.com/view/oh-well-forgetting-sarah-marshall-shrug-what-idk-gif-5281408
+https://images-ext-2.discordapp.net/external/bGNoLsyIJE0M1zFlsNI8TcTFH5AZM0TsTJs0d4Cqomw/https/media.tenor.co/images/01f66d8d60f837d11ab7485d5086fd4b/raw
+
+
+[27-Feb-21 12:14 PM] squidcell#1363
+s
+
+
+[27-Feb-21 12:16 PM] Lilszi#2160
+goneeeee
+
+
+[27-Feb-21 12:17 PM] ºGandiº#7084
+Done? O o
+
+
+[27-Feb-21 12:17 PM] Cypher#9999
+KMD ATOMICDEX USER REWARDS
+
+
+[27-Feb-21 12:17 PM] Cypher#9999
+hmm
+
+
+[27-Feb-21 12:17 PM] Cypher#9999
+lol as far as i got
+
+
+[27-Feb-21 12:17 PM] Cypher#9999
+hahah
+
+
+[27-Feb-21 12:17 PM] Lilszi#2160
+`HODL KMD ON ATOMICDEX FOR ACTIVE USER REWARDS` :komodopog:
+
+{Reactions}
+👏 (7) 
+
+[27-Feb-21 12:17 PM] Cypher#9999
+ahh
+
+
+[27-Feb-21 12:17 PM] RNI#2666
+nice one
+
+
+[27-Feb-21 12:17 PM] Cypher#9999
+gzzz
+
+
+[27-Feb-21 12:17 PM] Lexbaba#3219
+aah.. almost
+
+
+[27-Feb-21 12:18 PM] Jcharming#2693
+were the the one that got it?
+
+
+[27-Feb-21 12:18 PM] Jcharming#2693
+🐲🔥🎉
+
+
+[27-Feb-21 12:18 PM] Sdunbar#5064
+i didnt even get close on this one lol
+
+{Reactions}
+💯 
+
+[27-Feb-21 12:18 PM] Cypher#9999
+https://tenor.com/blG4C.gif
+
+{Embed}
+https://tenor.com/view/fly-me-to-the-moon-take-me-to-the-moon-send-me-to-the-moon-lets-go-to-the-moon-launch-me-to-the-moon-gif-17524452
+https://images-ext-1.discordapp.net/external/5P7YxhqEWlkuOKG9xl_qs5ILgSLt5W6De7JNxur0dDg/https/media.tenor.co/images/940de906aad6526a6af0ad797969430b/tenor.png
+
+
+[27-Feb-21 12:18 PM] Lilszi#2160
+:troll_lol:
+
+
+[27-Feb-21 12:19 PM] Cypher#9999
+thanks again for being awesome everyone be sure to share KMD smash the likes retweet subscribe and follow ^.^
+
+{Reactions}
+🔥 (4) 🎉 (4) 
+
+[27-Feb-21 12:19 PM] ZokiZok  $ARRR#9247
+👏  Thanks.
+
+{Reactions}
+🙏 (2) 
+
+[27-Feb-21 12:20 PM] Cypher#9999
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/815317429361705039/jsvx5qdtovj61.png
+
+{Reactions}
+💯 
+
+[27-Feb-21 12:20 PM] Jcharming#2693
+Thank you everyone for coming to attend the livestream event AtomicDEX 040 Stable Beta Release party - PART 2
+
+{Reactions}
+❤️ (12) 🎉 (10) 🔥 (11) charmander_dancing (12) KMD (9) AtomicDEX (10) awthanks (2) 
+
+[27-Feb-21 12:20 PM] ºGandiº#7084
+thanks for the game
+
+{Reactions}
+KMD (4) 
+
+[27-Feb-21 12:21 PM] Jcharming#2693
+Reddit bounty comp - share your dank memers there https://discord.com/channels/412898016371015680/453203596494766099/814956070002360340
+
+
+[27-Feb-21 12:22 PM] kharris#9477
+SEE YOUU
+
+
+[27-Feb-21 12:22 PM] Artist#0765
+Already had
+
+
+[27-Feb-21 12:25 PM] Jcharming#2693
+https://twitter.com/Anbessa100/status/1365755778594988032?s=19
+
+Looks like we got picked up by a major crowd - One of the first comments beneath the post is someone talking about how it's literally the first true dex.  💚
+
+{Embed}
+AN₿ESSA (@Anbessa100)
+https://twitter.com/Anbessa100/status/1365755778594988032?s=19
+$KMD 
+
+Congrats on that milestone @KomodoPlatform 🎊
+
+@AtomicDEX is out 🙌
+
+when #TA & #FA match up 📈🤝 https://t.co/h7zanPmw0x
+Twitter
+
+{Reactions}
+3040_kingpeepo (13) 
+
+[27-Feb-21 05:40 PM] Tylor zkFS#8280
+Update Cryptocompare description of Komodo @Jcharming - KomoDefi / DEXdefi Engine to the moon! - #AddTheChat
+
+
+[27-Feb-21 11:39 PM] Mark81#4505
+is atomicdex out of beta? should it be available from normal play store apps? or is it still beta testing app? cannot find update to mobile.
+
+
+[28-Feb-21 03:19 AM] Pringle#4720
+Anyone know how to update a tokens logo to an already added token?
+
+
+[28-Feb-21 05:05 AM] PTYX#6840
+Through github if I'm not mistake. Making a PR
+
+
+[28-Feb-21 05:35 AM] CHMEX#0686
+Pr here https://github.com/KomodoPlatform/coins
+
+{Embed}
+https://github.com/KomodoPlatform/coins
+KomodoPlatform/coins
+coin parameters and all files needed for GUI support - KomodoPlatform/coins
+https://images-ext-1.discordapp.net/external/22LglkYqJGgf5n05qZ_ycizyn0hhH24aNCqZC6jt6CI/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/21276113
+
+
+[28-Feb-21 06:16 AM] Oszy#5734
+i think he meant to change icon of an erc20 he added 🤔
+
+
+[28-Feb-21 06:20 AM] cipi#4502
+there is a directory `~/.atomic_qt/custom_coins_icons` in linux where the pngs of the manually added tokens are
+
+
+[28-Feb-21 07:14 AM] Artist#0765
+Hi guys is the reddit community bounty done?
+
+
+[28-Feb-21 08:01 AM] Churro#4832
+nope
+
+
+[28-Feb-21 08:01 AM] Churro#4832
+3 winners will be announced soon
+
+
+[28-Feb-21 08:09 AM] Churro#4832
+1pm Est. stay tuned
+
+
+[28-Feb-21 09:21 AM] Artist#0765
+Alright
+
+
+[28-Feb-21 10:23 AM] Churro#4832
+WINNNERS OF THE REDDIT ATOMIC DEX PARTY BOUNTY ARE ....
+
+1st Place: hongoren (275KMD) 🥇
+2nd Place: Arahzy09 (150KMD) 🥈
+3rd Place iamahmedshah (75KMD) 🥉
+
+Congrats winners and thank you everyone for joining us! You will recieve your bounty shortly! Cheers🥳🥳
+
+{Reactions}
+👍 (8) 3040_kingpeepo (5) rum (5) 👏 
+
+[28-Feb-21 10:25 AM] recep#8521
+Damnnn
+
+
+[28-Feb-21 11:06 AM] Audo#5667
+Congratulations to the winners! Big thanks for @Churro
+
+{Reactions}
+👍 (2) 
+
+[28-Feb-21 11:09 AM] Artist#0765
+Thanks
+
+
+[28-Feb-21 11:10 AM] Artist#0765
+The android update is it up already?
+
+
+[28-Feb-21 01:32 PM] Jack.#4200
+Says my voice is suppressed
+
+
+[28-Feb-21 01:46 PM] Jack.#4200
+Yeah I'm here but can't speak
+
+
+[28-Feb-21 01:46 PM] Jack.#4200
+Can you repeat that please, I missed it
+
+
+[01-Mar-21 04:40 AM] Pringle#4720
+Yes this is what I was after thanks
+
+
+[01-Mar-21 06:47 AM] Artist#0765
+hi is there any list of contents of change from the previous version to current, any links? sorry for this stupid question
+
+
+[01-Mar-21 07:45 AM] gcharang#6833
+release notes here: https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.4-beta
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.4-beta
+Release AtomicDEX Desktop v0.4 stable beta · KomodoPlatform/atomicD...
+Release Notes
+Features:
+🔥 Added 100+ ERC20 tokens (SUSHI, UNI, AAVE, and many others)
+🔥 Added 12 QRC20 tokens (QI, QIAIR, HLC, HPY, and many others)
+🔥 Added GRS, BLK, BTCZ, VRM, CLC, DP, WSB, SOULJ...
+https://images-ext-1.discordapp.net/external/22LglkYqJGgf5n05qZ_ycizyn0hhH24aNCqZC6jt6CI/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/21276113
+
+{Reactions}
+👍 
+
+[01-Mar-21 08:13 AM] c2k#6034
+I see DOGEDEX now says available in the google play store and wondering is there any difference between Atomic Dex and DogeDEX?
+
+
+[01-Mar-21 08:17 AM] cipi#4502
+i uses the same https://github.com/KomodoPlatform/atomicDEX-API and the same network, just a different GUI
+don't know about the exact coin list, but i will try... i see it is also available through Aurora Store on GrapheneOS... nice
+
+
+[01-Mar-21 08:19 AM] c2k#6034
+just asking bc i only want to download 1 of them
+
+
+[01-Mar-21 08:32 AM] cipi#4502
+the coin list looks the same
+
+
+[01-Mar-21 08:55 AM] PTYX#6840
+@Regnar installed dogedex on lineageOS with no issue
+
+
+[01-Mar-21 08:56 AM] PTYX#6840
+Same DEX, different packaging
+
+
+[01-Mar-21 08:56 AM] PTYX#6840
+:doge:
+
+{Reactions}
+👍 
+
+[01-Mar-21 09:12 AM] rionnox#3470
+It mentions chainzilla.io on the playstore for Dogedex. Are they related to Komodo in some way?
+
+
+[01-Mar-21 09:31 AM] PTYX#6840
+Chainzilla is my company, I used it to publish the app. It was faster than opening a new company and publishing under a dogeDEX company for example.
+
+{Reactions}
+🦾 (2) 
+
+[01-Mar-21 11:25 AM] rionnox#3470
+Ah ok!  Great 😃
+
+
+[01-Mar-21 12:06 PM] Cryptoon#3362
+Im riiiiiich
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/816038656371720263/image0.png
+
+
+[01-Mar-21 12:07 PM] actionslacks#4072
+bruh, how many pairs are on dogedex rn?
+
+
+[01-Mar-21 12:11 PM] Cryptoon#3362
+Same netid as atomicdex, so in theory every adex coin is also available on dogedex I assume? Cc @PTYX
+
+
+[01-Mar-21 12:18 PM] Cryptoon#3362
+Any combination of these coins I guess
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/816041641457614888/RPReplay_Final1614629305.MP4
+
+
+[01-Mar-21 12:18 PM] Cryptoon#3362
+already had btc doge and kmd activated
+
+
+[01-Mar-21 12:25 PM] PTYX#6840
+Yes
+
+{Reactions}
+komodopog (2) KMD (2) doge (2) AtomicDEX (3) 9176_pepelove (2) 
+
+[01-Mar-21 01:22 PM] Cryptoon#3362
+https://twitter.com/dogecoin_devs/status/1366478352719216643?s=21
+
+{Embed}
+Dogecoin Developers (@dogecoin_devs)
+https://twitter.com/dogecoin_devs/status/1366478352719216643?s=21
+.@dogecoindex is looking for testers for their new iOS and Android apps. 
+See below for more info about their DogeDEX apps. #DoOnlyGoodEveryday https://t.co/4t5OPVgi6V
+Likes
+290
+Twitter
+
+
+[01-Mar-21 01:22 PM] Cryptoon#3362
+Wow an account with 80k followers shared it :shexy:
+
+{Reactions}
+letsplay (2) 
+
+[01-Mar-21 01:26 PM] actionslacks#4072
+it's about to go viral
+
+
+[01-Mar-21 01:26 PM] actionslacks#4072
+atomic dogedemic
+
+
+[01-Mar-21 01:46 PM] actionslacks#4072
+does anyone remember getting cut out of the doge/eth swap bounty a few years ago? we should send them this link https://dexstats.info/gui/index.php?base=DOGE&rel=ETH
+
+{Reactions}
+komodopog 
+
+[01-Mar-21 01:49 PM] Cryptoon#3362
+I believe there were plenty excuses for them not to pay the bounty
+
+
+[01-Mar-21 01:50 PM] actionslacks#4072
+I wonder who got it.
+
+
+[01-Mar-21 01:53 PM] ph03nix#3115
+iirc etomic was the excuse
+
+
+[01-Mar-21 01:56 PM] Cryptoon#3362
+https://twitter.com/cryptodale/status/1366506712686080007?s=21
+
+{Embed}
+Dale (@CryptoDale)
+https://twitter.com/cryptodale/status/1366506712686080007?s=21
+@Jacobstoon @dogecoindex @AtomicDEX I do the last piece, yes
+Twitter
+
+
+[01-Mar-21 01:56 PM] Cryptoon#3362
+30k followers
+
+
+[01-Mar-21 01:56 PM] Cryptoon#3362
+🙂
+
+
+[01-Mar-21 01:57 PM] actionslacks#4072
+oh yeah etomic, well we can all see who prevailed now. muahaha
+
+
+[01-Mar-21 01:57 PM] ph03nix#3115
+:komodopog:
+
+
+[01-Mar-21 02:31 PM] PTYX#6840
+We have a tremendous amount of users sharing and installing
+
+{Reactions}
+👍 (4) 
+
+[01-Mar-21 02:34 PM] Mitos.lthn#8324
+Atomicdex instaling?
+
+
+[01-Mar-21 02:40 PM] Mitos.lthn#8324
+What's the difference between atomicdex and dogedex??
+
+
+[01-Mar-21 03:59 PM] PTYX#6840
+dogeDEX is a branded dex built on AtomicDEX core
+
+
+[01-Mar-21 04:00 PM] PTYX#6840
+no difference in the technical level
+
+
+[02-Mar-21 12:01 AM] Mitos.lthn#8324
+Two separate projects? What Benefit will it have komodo from this? What if all users go to dogedex?
+
+
+[02-Mar-21 12:12 AM] Oszy#5734
+shared liquidity, fees collected from both
+
+
+[02-Mar-21 12:14 AM] Mitos.lthn#8324
+Fees from dogedex goes to komodo?
+
+{Reactions}
+komodopog 
+
+[02-Mar-21 12:56 AM] figgy132#7531
+Swap fees are collected from any & all iterations of this software then eventually distributed to DEX hodlers afaik
+
+
+[02-Mar-21 01:03 AM] Mitos.lthn#8324
+Ok. This is good 👏👏👏
+
+
+[02-Mar-21 03:11 AM] Mark81#4505
+why play store ain't updating atomicdex to 0.4 beta?
+
+
+[02-Mar-21 03:12 AM] Mark81#4505
+has beta testing ended?
+
+
+[02-Mar-21 03:24 AM] rionnox#3470
+It's not out on mobile yet. Just desktop.
+
+
+[02-Mar-21 05:47 AM] ZokiZok  $ARRR#9247
+but the Dogedex in the playstore is rebranded atomicdex  0.4.0?
+
+
+[02-Mar-21 06:36 AM] PTYX#6840
+yes
+
+{Reactions}
+👍 (2) 
+
+[02-Mar-21 05:34 PM] B. Gültekin Çetiner#0626
+We are happy to announce that the Marmara version of stable release of AtomicDEX without geoblock is already on Marmara GitHub.
+
+{Reactions}
+🙏 (9) komodopog (6) 👍 (9) 3040_kingpeepo 
+
+[02-Mar-21 11:31 PM] VJ#1796
+@PTYX Have we reached out to https://twitter.com/BillyM2k ?
+
+{Embed}
+https://twitter.com/BillyM2k
+Shibetoshi Nakamoto (@BillyM2k)
+Original creator of dogecoin (though no longer coding on the project) | Dogecoin tips welcome! DFFXRKAPacHnbJoynbSdKFG9WdGTTq3Bbh | Email is billym2k @ gmail
+Tweets
+956
+Followers
+26293
+https://images-ext-1.discordapp.net/external/ha7ua6AtGma8OiFfvt-xYtOAZ1HKLQQw2NPpijvTfEs/https/pbs.twimg.com/profile_images/378800000858421913/a3HRLCXK_normal.png
+Twitter
+
+
+[03-Mar-21 03:18 AM] PTYX#6840
+Yes, he's ignored so far.
+
+{Reactions}
+😔 
+
+[03-Mar-21 04:59 AM] Chainhead/Wardog#1965
+Good morning, I am trying to am trying to get my csv to report. my original wallet on android will not update, I can still view trading history but not balance showing. I re-installed the wallet on an i Phone and there's no history at all but I have the balance showing. I don't see an export option on the android phone.
+
+
+[03-Mar-21 05:07 AM] Chainhead/Wardog#1965
+sorry I posted in the wrong chat.. just type yes and I will delete the messages
+
+
+[03-Mar-21 05:42 AM] samurai321#0681
+So it's possible to have the same account in the desktop and smartphone at the same time?? does it sync the trades ? that would be great because can't keep open my laptop 24/7
+
+
+[03-Mar-21 06:07 AM] phm87#7395
+I did it between 2 AtomicDEX-API, you have many possibilities to run into troubles but if you pay attention, it can works. i did it a while ago but it worked (trades of each one were visible on the other one). I stopped doing it because you can easily run into troubles and it increases the surface attack (the private key is present on 2 devices)
+
+
+[03-Mar-21 11:41 PM] samurai321#0681
+yeah, i guess my question was wrong. i mean to ask, can you move directly from desktop to mobile or you have to recreate the orders?
+
+
+[04-Mar-21 08:01 AM] jansako#3330
+AFAIK the open orders are local. Or at least they used to be for sure.
+
+
+[06-Mar-21 01:48 PM] Evitor#6985
+Geo block is still active for dex user from Austria?
+
+
+[06-Mar-21 01:52 PM] PTYX#6840
+@Evitor feel free to use DogeDEX, it has no geoblock
+
+
+[06-Mar-21 01:55 PM] Evitor#6985
+@PTYX yes...would use it... But i need it on my computer, not on the mobile 😉
+
+
+[06-Mar-21 02:00 PM] cipi#4502
+use https://github.com/marmarachain/atomicDEX-Desktop/releases or use VPN
+
+{Embed}
+https://github.com/marmarachain/atomicDEX-Desktop/releases
+Releases · marmarachain/atomicDEX-Desktop
+atomicDEX Desktop app - project codename "Dextop". Contribute to marmarachain/atomicDEX-Desktop development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/pZLmZ4dKxO1erWuJRYHKWfixVPkBTKbn50Ln3EJHngo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/44530858
+
+{Reactions}
+2561_feelsevilman 
+
+[06-Mar-21 02:43 PM] Evitor#6985
+@cipi thank you very much... It works very well :)
+
+
+[07-Mar-21 02:29 AM] Cryptoon#3362
+austria was never blocked I believe?
+
+
+[07-Mar-21 03:46 AM] Slyris#2880
+It is
+
+
+[07-Mar-21 06:25 AM] VandarGR#6065
+Hmmm this version by Marmara uses the same desktop base as the atomicdex with just the geo-block off ?
+
+{Reactions}
+💯 (2) komodopog (2) 
+
+[07-Mar-21 06:26 AM] VandarGR#6065
+And @@PTYX  , dogedex has no geoblock ? This is superb :-)❤
+
+
+[07-Mar-21 06:32 AM] VandarGR#6065
+I love the fact that it supports many interesting coins like dgb & zcash  (additionally to kmd and doge of course ) !
+
+
+[07-Mar-21 06:33 AM] VandarGR#6065
+I hope we will see BitcoinZ soon in dogedex as well !❤ 💐
+
+{Reactions}
+💗 
+
+[07-Mar-21 07:21 AM] PTYX#6840
+Me when I use a French VPN but i'm in Austria
+
+{Attachments}
+https://cdn.discordapp.com/attachments/814886401631715328/818141354797432862/French_Guy-photo-001.jpg
+
+{Reactions}
+😂 (6) 
+
+[07-Mar-21 08:44 AM] VandarGR#6065
+loool
+
+
+[07-Mar-21 09:15 AM] lightspeed393#5403
+yes it's exactly the same but without geoblock: https://github.com/marmarachain/atomicdex-desktop/releases
+
+{Embed}
+https://github.com/marmarachain/atomicdex-desktop/releases
+Releases · marmarachain/atomicDEX-Desktop
+atomicDEX Desktop app - project codename "Dextop". Contribute to marmarachain/atomicDEX-Desktop development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/pZLmZ4dKxO1erWuJRYHKWfixVPkBTKbn50Ln3EJHngo/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/44530858
+
+
+[07-Mar-21 09:32 AM] Slyris#2880
+fortunately I have an option in my build system allowing me to disable geoblock ;D
+
+
+[07-Mar-21 12:07 PM] jansako#3330
+It's not like you are a team member or anything...
+
+{Reactions}
+troll (2) 
+
+[11-Mar-21 11:03 PM] Kaks | $ARRR Privacy Matters#6612
+I still got some chainzilla coin since 2019 and dont know where to sell them 😂
+
+
+[12-Mar-21 01:19 AM] rionnox#3470
+HODL
+
+{Reactions}
+KMD 
+
+[26-Mar-21 06:11 AM] steinsg8#0288
+Is this on Google play?
+
+
+[26-Mar-21 08:32 AM] rionnox#3470
+Yes unless your geo blocked
+
+
+[26-Mar-21 08:32 AM] rionnox#3470
+Visit www.AtomicDEX.io
+
+
+==============================================================
+Exported 1,001 message(s)
+==============================================================

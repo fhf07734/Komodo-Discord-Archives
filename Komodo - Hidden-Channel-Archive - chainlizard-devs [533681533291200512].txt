@@ -1,0 +1,348 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / chainlizard-devs
+==============================================================
+
+[14-Jun-19 03:33 AM] Diesmaster#5068
+Hello, the convermation emails are not comming in. Do you guys know the problem?
+
+
+[14-Jun-19 04:37 AM] Diesmaster#5068
+recieved some emails but their link expired
+
+
+[14-Jun-19 07:14 AM] TonyL#3577
+Hello @Diesmaster There pressists an issue with emails delivery speed which will be resolved when @naezith change mail sending software
+
+
+[14-Jun-19 07:14 AM] TonyL#3577
+We're aware of it
+
+
+[14-Jun-19 07:29 AM] naezith#9757
+I was using a random Outlook email account to send those
+
+
+[14-Jun-19 07:29 AM] naezith#9757
+Outlook blocked the account, that was why it was not working
+
+
+[14-Jun-19 07:29 AM] naezith#9757
+last night I implemented SendGrid, now it should be working fine
+
+
+[14-Jun-19 07:29 AM] naezith#9757
+though make sure you check the spam folder
+
+
+[14-Jun-19 07:59 AM] naezith#9757
+by the way, please @ me every time you need me, I have the server muted. I added this channel as notification exception but I don't know if it works.
+
+{Reactions}
+👍 
+
+[19-Jun-19 07:43 AM] Diesmaster#5068
+very cool will conetinue the testing
+
+
+[19-Jun-19 09:09 AM] Diesmaster#5068
+@naezith little problem. Chainlizzard is not accepting my public key. Do you know what I can do about it?
+
+
+[19-Jun-19 09:10 AM] Diesmaster#5068
+the error is: make sure the formating is right (but in dutch so this is a lose translation).
+
+
+[19-Jun-19 09:14 AM] Diesmaster#5068
+fixed it, my thing was returned in caps, and it only takes un-capitalized pkeys
+
+
+[19-Jun-19 11:11 AM] naezith#9757
+hmm yes, should I make it allow A-Z too?
+
+
+[19-Jun-19 11:19 AM] jl777c#5810
+pubkey hex, so at most A-F
+
+
+[19-Jun-19 11:03 PM] naezith#9757
+okay, I will cast it to lowercase at serverside
+
+
+[19-Jun-19 11:03 PM] naezith#9757
+it would look more elegant in komodod launch line
+
+
+[20-Jun-19 02:48 AM] naezith#9757
+changes this week 
+```
+- Launch chain button opens Cart and adding all tools automatically by default, instead of opening the Tools page.
+- Increased max ticker length from 6 to 8.
+- Aligned input fields in Blockchain Basics.
+- Better "Passwords do not match".
+- Displaying Standard Rewards.
+- Renamed "Initial Block Reward" to "Block Mining Reward".
+- Added visible Resend Email count-down timer.
+- Re-login is required every time when Email Change, Password Change or 2FA enable/disable is wanted
+- Fixed reCAPTCHA was not resetting when 2FA is asked after first login attempt.
+- Aligned "Payment Details" with "Your Shopping Cart".
+- Payment Details in Cart page is now sticky.
+- Added "66 characters Hexadecimal string" info to ac_pubkey input. Also allowing uppercase letters too now, but casting it to lowercase at server-side, for a more elegant komodod launch line.
+- Added reCAPTCHA to Registration and Password Reset pages.
+- Chains inside orders which are in "Awaiting payment" or "Pending Payment" states are shown in "Your Blockchains" page.
+- Orders which are not paid in 3 days are set as Payment timeout.
+- Giving "Already in use" error when user tries to create a chain with same ticker which is already used for another chain in the Cart.
+- Fixed "Blockchain Generator" button in Navbar was not highlighted when page is open.
+- Fixed "Blockchain Generator" button in Navbar was generating a new chain ID every time it's clicked.
+```
+
+
+[20-Jun-19 03:01 AM] naezith#9757
+very rarely it says `ERROR: No 'merchant' set in the button!` in a blank white page, when our site redirects to CoinPayments
+
+
+[20-Jun-19 03:01 AM] naezith#9757
+yet I could not find a way to get this error consistently, so can't fix
+
+
+[20-Jun-19 03:02 AM] naezith#9757
+it's a huge problem because cart is being cleared just before that redirect
+
+
+[20-Jun-19 03:02 AM] naezith#9757
+cart is gone, payment site gives error. means user needs to start all over again
+
+
+[20-Jun-19 03:02 AM] naezith#9757
+would be nice if someone can find a way to get it consistently, or the reason it happens
+
+
+[20-Jun-19 03:04 AM] naezith#9757
+that's the merchant it complains about
+
+
+[20-Jun-19 03:05 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/533681533291200512/591206907981594624/unknown.png
+
+
+[20-Jun-19 04:12 AM] smkhound#7640
+Couple things I noticed while testing and getting basics on guide ready - 
+- Some panels dont have save button visible until modified
+- pressing back button from coinpayments goes back to empty cart. Order listed as "awaiting payment" in order history page, but cant see how to load it back into cart.
+
+
+[20-Jun-19 04:12 AM] smkhound#7640
+
+{Attachments}
+https://cdn.discordapp.com/attachments/533681533291200512/591223804219359251/unknown.png
+
+
+[20-Jun-19 04:12 AM] smkhound#7640
+@naezith
+
+
+[20-Jun-19 04:17 AM] naezith#9757
+save button is hidden because there is nothing to save
+
+
+[20-Jun-19 04:19 AM] naezith#9757
+yes cart is cleared in the moment you get into coinpayments page
+
+
+[20-Jun-19 05:38 AM] TonyL#3577
+https://docs.google.com/document/d/1ogGHnIBmbyS7zDNsku81X9xn8Lz8xmS0uW2XEW8kyD4/edit?usp=sharing latest changes review CC [ @naezith @ca333 @smkhound ]
+
+{Embed}
+https://docs.google.com/document/d/1ogGHnIBmbyS7zDNsku81X9xn8Lz8xmS0uW2XEW8kyD4/edit?usp=sharing
+Chainlizard changes Review (June 20)
+Product: Chainlizard https://chainlizard.kmd.dev/  Test date: 20 June 2019 Tester: TonyL Operating system: Ubuntu Browser: Google Chrome, Version 74.0.3729.169 (Official Build) (64-bit)  Changelist (previous test):	2   Changelist (previous test): - Added "66 characters Hexade...
+https://images-ext-1.discordapp.net/external/Cem4UkJM_UQiROPywimNT7-SZ7lKRB5Q5sqj-wag26Q/https/lh6.googleusercontent.com/UUpVYcknW6-tyZN753dZfcNrGzB_vbkmO6W6w-u0cP3NM4G9NLhLyGi1Xbv6u1S59znPsg%3Dw1200-h630-p
+
+
+[20-Jun-19 05:42 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/533681533291200512/591246378278322177/unknown.png
+
+
+[20-Jun-19 05:42 AM] naezith#9757
+got it again
+
+
+[20-Jun-19 05:42 AM] naezith#9757
+dammit
+
+
+[20-Jun-19 05:45 AM] smkhound#7640
+@naezith noting to save, but default selected. so to save, have to select something else, save then select default and save again.
+On Privacy panel, default it both types of addresses. Cant get green tick without save, cant save default without saving someting else first
+
+Can we add small anchorlink from consensus pael to rewards panel if PoS acitve?
+
+
+[20-Jun-19 05:52 AM] TonyL#3577
+Hmm, not able to catch such error so far - bought 4 chains today without issues
+
+
+[20-Jun-19 05:56 AM] naezith#9757
+if it's default selected, then you don't need to save it
+
+
+[20-Jun-19 05:56 AM] naezith#9757
+that's what it will use anyways
+
+
+[20-Jun-19 05:57 AM] naezith#9757
+@ca333 the gray default icon is confusing everyone, should we make them green?
+
+
+[20-Jun-19 05:58 AM] naezith#9757
+that was the reason we made consensus look green by default
+
+
+[20-Jun-19 06:06 AM] naezith#9757
+but then it will look like this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/533681533291200512/591252527161409537/unknown.png
+
+
+[20-Jun-19 06:06 AM] ca333#0333
+grey means it hasnt been set.
+green means its set or saved (or defaulted = preset and presaved)
+
+whats the problem exactly other than individual interpretation issues? Is there any technical problem related to that?
+
+
+[20-Jun-19 06:06 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/533681533291200512/591252574355587102/unknown.png
+
+
+[20-Jun-19 06:06 AM] ca333#0333
+no we dont set them all green since its a indicator of missing configs.
+
+
+[20-Jun-19 06:06 AM] naezith#9757
+no technical issues
+
+{Reactions}
+👍🏼 
+
+[20-Jun-19 06:07 AM] ca333#0333
+so if all is green while its not set and not saved - how will it make things more clear? i am afraid it will become more irritating if we change it to "all green by default".
+
+
+[20-Jun-19 06:07 AM] naezith#9757
+this is how it looks right now
+
+{Attachments}
+https://cdn.discordapp.com/attachments/533681533291200512/591252762050822194/unknown.png
+
+
+[20-Jun-19 06:07 AM] naezith#9757
+I'd suggest setting consensus to grey too though
+
+
+[20-Jun-19 06:07 AM] naezith#9757
+but it's up to you
+
+
+[20-Jun-19 06:07 AM] ca333#0333
+ok - that would be fine. Setting all grey by default.
+
+
+[20-Jun-19 06:08 AM] ca333#0333
+and turning green as soon as set/saved - so logic stays the same.
+
+
+[20-Jun-19 06:08 AM] ca333#0333
+@smkhound would that prevent the irritation on your end?
+
+
+[20-Jun-19 06:08 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/533681533291200512/591253151282364416/unknown.png
+
+{Reactions}
+shexy 
+
+[20-Jun-19 06:08 AM] naezith#9757
+very elegant imo
+
+
+[20-Jun-19 06:11 AM] smkhound#7640
+yeah lacking green piques OCD tendancies. Guess I like to confirm default. Starting grey is good too or else maybe user skips a section by accident and gets default unintentionally
+
+{Reactions}
+👍🏼 
+
+[20-Jun-19 06:11 AM] naezith#9757
+about the topic in #antara-composer-beta
+
+
+[20-Jun-19 06:11 AM] naezith#9757
+Awaiting payment state is when you click that `Pay with CoinPayments` button
+
+
+[20-Jun-19 06:11 AM] naezith#9757
+coinpayments page opens
+
+
+[20-Jun-19 06:12 AM] naezith#9757
+basically
+
+
+[20-Jun-19 06:12 AM] smkhound#7640
+I think I went back with browser button, not page button, so I understand the outcome
+
+
+[20-Jun-19 06:12 AM] naezith#9757
+I save the order to database, then coinpayments opens with that order id
+
+
+[20-Jun-19 06:13 AM] smkhound#7640
+just wondering if we can revive from awaiting payment order history, else it just sits until timed out
+
+
+[20-Jun-19 06:13 AM] naezith#9757
+in that coinpayments page, if you click to cancel, then order gets removed
+
+
+[20-Jun-19 06:13 AM] naezith#9757
+though I don't know how to make a custom URL which would act the same
+
+
+[20-Jun-19 06:13 AM] naezith#9757
+I'll check
+
+
+[20-Jun-19 06:15 AM] smkhound#7640
+I was being a stupid user, lie when  you use browser back button on bank site, have to log in again. Its how payemnet pages should work. I though I lost it and was going to start again, then I saw on orders page, but couldnt revive
+
+
+[20-Jun-19 06:15 AM] naezith#9757
+lemme see
+
+
+[20-Jun-19 06:16 AM] naezith#9757
+I'll try to make a button
+
+{Reactions}
+🍻 
+
+[20-Jun-19 06:28 AM] ca333#0333
+thanks for all the feedback guys - its really appreciated and a big help.
+
+**lets move all talk to #antara-composer-beta - archiving this channel. **
+
+{Reactions}
+👌 
+
+==============================================================
+Exported 69 message(s)
+==============================================================

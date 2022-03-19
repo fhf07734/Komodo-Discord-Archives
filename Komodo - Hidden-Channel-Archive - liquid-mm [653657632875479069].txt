@@ -1,0 +1,74 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / liquid-mm
+==============================================================
+
+[12-Dec-19 10:09 AM] n2okpride#1967
+Welcome @Maxim !
+
+
+[12-Dec-19 10:14 AM] Maxim#0226
+Hi Steve!
+
+
+[12-Dec-19 10:18 AM] Maxim#0226
+As discussed before:
+For the trial on Liquid we will need the api keys from the account, and switch off withdrawal for safety.
+Please prefund the account with something like 1200$ of each currency for every pair. This money will stay on your account, just to have some space in terms of funds.
+Besides that if you would like us to build deep order book and very tight spread then good to have more funds, as much as deep order book you want to see.
+Spread we can do with mentioned balances, just orders will be quite small.
+
+
+[12-Dec-19 11:23 AM] Maxim#0226
+@n2okpride
+
+
+[12-Dec-19 11:52 AM] n2okpride#1967
+Thanks Maxim, we will work on getting the account funded and follow up with you with the api keys.
+
+
+[12-Dec-19 01:00 PM] Maxim#0226
+Ok, we waiting
+
+
+[17-Dec-19 12:31 AM] Maxim#0226
+@n2okpride Any news for us?
+
+
+[17-Dec-19 10:47 AM] n2okpride#1967
+Will DM you @Maxim
+
+
+[17-Dec-19 10:54 AM] Maxim#0226
+Ok, got it, thank you!
+
+
+[18-Dec-19 05:28 AM] Maxim#0226
+@n2okpride Steve, something wrong with API keys:
+
+
+[18-Dec-19 05:28 AM] Maxim#0226
+{
+    "message": "API Authentication failed"
+}
+
+
+[18-Dec-19 05:37 AM] Maxim#0226
+Or maybe check permission status, please
+
+
+[18-Dec-19 08:29 AM] n2okpride#1967
+ok let me look into this
+
+
+[19-Dec-19 09:05 AM] Maxim#0226
+@n2okpride Hey, Steve, did you have a chance to check?
+
+
+[03-Jan-20 01:34 AM] Maxim#0226
+@n2okpride Happy New Year! Hope everything is fine. Are you ready to launch MM on Liquid?
+
+
+==============================================================
+Exported 15 message(s)
+==============================================================

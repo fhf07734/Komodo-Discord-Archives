@@ -1,0 +1,925 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / metaverse_attack_mitigation
+==============================================================
+
+[20-Sep-19 08:47 AM] ca333#0333
+@opsec Welcome to the metaverse attack mitigation channel - we created this channel for the organization and dev-talk of the mitigation implementation. This attack vector looks like a serious threat against our privacy. 
+We still need to validate the attack scenario and prove its indeed a practical problem. According to ZEC team this is not a problem (yes - i already asked them for help) - so based on their input it might be the case that shielded transactions are validated (only) by the sapling proof and not the prev. tx. utxo like we are assuming for the metaverse attack. My question - have we validated this in a "wildfire test"? If not, then we should likely do this first. Happy coding!
+
+
+[20-Sep-19 08:49 AM] mrlynch#5735
+not sure what data and tests itm has
+
+
+[20-Sep-19 08:50 AM] mrlynch#5735
+it would be great if we had some actual data, graphs presented in here
+
+
+[20-Sep-19 09:02 AM] ca333#0333
+@ITM have you already executed a PoC for the meta-verse-attack? If so - can you please share details in here. I invited all relevant and highly trusted community members and devs to this channel.
+
+
+[20-Sep-19 09:02 AM] dukeleto#7326
+just saw this!
+
+
+[20-Sep-19 09:02 AM] dukeleto#7326
+jl777 told me it existed 👍
+
+{Reactions}
+👍 
+
+[20-Sep-19 09:03 AM] dukeleto#7326
+@ca333 ITM is optimizing his methods on the first 10,000 blocks of ZEC mainnet
+
+{Reactions}
+💯 
+
+[20-Sep-19 09:03 AM] dukeleto#7326
+i have given him some ideas that made things so much faster that we can maybe do it in real-time
+
+
+[20-Sep-19 09:04 AM] dukeleto#7326
+previously, it was very slow
+
+
+[20-Sep-19 09:04 AM] dukeleto#7326
+@ca333 ITM says it works on ZEC 120%
+
+
+[20-Sep-19 09:04 AM] ca333#0333
+excellent - thanks for the heads up - once ready lets have a look on an ongoing attack and then discuss potential mitigations. Very exciting and interesting topic!
+
+
+[20-Sep-19 09:04 AM] dukeleto#7326
+It does not work against ARRR very well
+
+
+[20-Sep-19 09:04 AM] dukeleto#7326
+until we add swaps
+
+
+[20-Sep-19 09:04 AM] dukeleto#7326
+then, it's really bad
+
+
+[20-Sep-19 09:05 AM] dukeleto#7326
+HUSH is also badly effected, but since the encrypted memo field is our #1 focus, and that is untouched, it's not fatal to us
+
+
+[20-Sep-19 09:05 AM] dukeleto#7326
+I think this is fatal to a lot of zcash forks
+
+
+[20-Sep-19 09:06 AM] dukeleto#7326 (pinned)
+This was the fist backup of public info being dropped in Hush #general: `https://gist.github.com/leto/b03b152be119331f21ebe6fff340f573`
+
+
+[20-Sep-19 09:06 AM] dukeleto#7326
+@ca333  can you pin that and maybe give people in here ability to pin/etc?
+
+
+[20-Sep-19 09:07 AM] dukeleto#7326
+If you have not read that gist, do that first.
+
+
+[20-Sep-19 09:07 AM] ca333#0333
+Pinned a message.
+
+
+[20-Sep-19 09:07 AM] dukeleto#7326
+This attack technique has never been said or mentioned ever before
+
+
+[20-Sep-19 09:07 AM] ca333#0333
+Everyone in here should now be able to pin messages.
+
+
+[20-Sep-19 09:07 AM] dukeleto#7326
+I will do my best to braindump in here, to show y'all that we are not FUD'ing, at least on ZEC. XMR is an open question
+
+{Reactions}
+👍 
+
+[20-Sep-19 09:08 AM] dukeleto#7326
+This attack simulates what WOULD happen if alternate histories happened
+
+
+[20-Sep-19 09:08 AM] dukeleto#7326
+That is why I call it the "Multiverse Metadata Attack" (not ITMs name, he doesn't have an official name for it yet)
+
+
+[20-Sep-19 09:08 AM] dukeleto#7326
+you simulate alternate blockchain history
+
+
+[20-Sep-19 09:08 AM] dukeleto#7326
+and because of MATH, metadata drops out
+
+
+[20-Sep-19 09:08 AM] dukeleto#7326
+Things you should never be able to tell.
+
+
+[20-Sep-19 09:09 AM] dukeleto#7326
+Like the entire history of a zutxo, and a range of potential amounts, such as "this zaddr has between 1.256 and 3.464 ZEC"
+
+
+[20-Sep-19 09:09 AM] dukeleto#7326
+every address has more or less privacy based on the opsec of the people who owned the funds
+
+
+[20-Sep-19 09:09 AM] dukeleto#7326
+and some can be very tightly definied "between 1 and 1.00001 zec"
+
+
+[20-Sep-19 09:09 AM] dukeleto#7326
+others might be "between 5 and 10 zec"
+
+
+[20-Sep-19 09:10 AM] dukeleto#7326
+but then, that is just phase 0 of the attack
+
+
+[20-Sep-19 09:10 AM] dukeleto#7326
+How the fuck is this possible?
+
+
+[20-Sep-19 09:10 AM] dukeleto#7326
+Are you smoking drugs, Duke?
+
+
+[20-Sep-19 09:10 AM] dukeleto#7326
+I know, you must be asking yourself
+
+
+[20-Sep-19 09:10 AM] dukeleto#7326
+Look at block N, ignore all of history after that
+
+
+[20-Sep-19 09:10 AM] dukeleto#7326
+take block N+1, break it into every transaction
+
+
+[20-Sep-19 09:11 AM] dukeleto#7326
+now, make a fake block N+1, with just that xtn, and see if fails to connect
+
+
+[20-Sep-19 09:11 AM] dukeleto#7326
+if it fails to connect, what does that mean? it's not the output of anything involved in that block
+
+
+[20-Sep-19 09:11 AM] dukeleto#7326
+there is a cascading combinatorial explosion of work, but pretty much, the entire history of a zutxo can be figured out
+
+
+[20-Sep-19 09:12 AM] dukeleto#7326
+Additionally, you can do an active attack, but sending dust to zaddrs you can't resolve enough
+
+
+[20-Sep-19 09:12 AM] dukeleto#7326
+ITM is actively doing this to ARRR mainnet exchanges
+
+
+[20-Sep-19 09:12 AM] dukeleto#7326
+I have no control over this, he does what he wants. I am reporting this.
+
+
+[20-Sep-19 09:13 AM] dukeleto#7326
+</braindump>
+
+
+[20-Sep-19 11:23 AM] dukeleto#7326
+```
+ 
+mrlynchToday at 8:55 AM
+diversifier index, diversifier key
+which create pk_d - transmission key
+it's actually the transmission key that needs to be sqewed
+```
+
+
+[20-Sep-19 11:24 AM] dukeleto#7326
+is @mrlynch in this room?
+
+
+[20-Sep-19 11:24 AM] dukeleto#7326
+doesn't show him in my UI
+
+
+[20-Sep-19 11:24 AM] dukeleto#7326
+there you are
+
+
+[20-Sep-19 11:24 AM] dukeleto#7326
+weird
+
+
+[20-Sep-19 11:24 AM] mrlynch#5735
+i'm here
+
+
+[20-Sep-19 11:24 AM] dukeleto#7326
+so, the transmission key
+
+
+[20-Sep-19 11:24 AM] dukeleto#7326
+what are the constraints on it?
+
+
+[20-Sep-19 11:25 AM] mrlynch#5735
+that is the equivalent of public key, yes
+
+
+[20-Sep-19 11:27 AM] dukeleto#7326
+@mrlynch is it valid to be non-prime or even?
+
+
+[20-Sep-19 11:27 AM] dukeleto#7326
+let's do this already
+
+
+[20-Sep-19 11:27 AM] dukeleto#7326
+make it 0, generate an address in the paper wallet
+
+
+[20-Sep-19 11:27 AM] dukeleto#7326
+that will give us an unspendable zutxo, pretty sure
+
+
+[20-Sep-19 11:27 AM] dukeleto#7326
+need to verify the RPCs allow it
+
+
+[20-Sep-19 11:28 AM] dukeleto#7326
+if not, use a non-prime or some other invalid number
+
+
+[20-Sep-19 11:28 AM] dukeleto#7326
+Hush should use a different address than Pirate, probably
+
+
+[20-Sep-19 11:28 AM] dukeleto#7326
+we haven't decided if they will be global, per wallet or per xtn
+
+
+[20-Sep-19 11:29 AM] dukeleto#7326
+per xtn might cause wallet.dat scalability problems
+
+
+[20-Sep-19 11:29 AM] dukeleto#7326
+per wallet might be the sweet spot between privacy and performance. maybe an optional setting to make a new one every time?
+
+
+[20-Sep-19 11:37 AM] dukeleto#7326
+@mrlynch i am almost certain transkeys cannot be even numbers. Choose an even number, such as 0 or it might need to be nonzero, and it should be possible to send to an address that has no corresponding transmission key to spend it
+
+
+[20-Sep-19 11:37 AM] dukeleto#7326
+i might be very wrong
+
+
+[20-Sep-19 11:38 AM] dukeleto#7326
+but it might work
+
+
+[20-Sep-19 11:39 AM] mrlynch#5735
+it's a bit trickier
+
+
+[20-Sep-19 11:39 AM] mrlynch#5735
+transmission keys don't seem to be standard such as pubkeys, beginning with 02, 03 or 04
+
+
+[20-Sep-19 11:40 AM] mrlynch#5735
+per tx is ideal, not sure how it will affect wallet.dat as the unspendable, in theory, is generated on the fly and not stored anywhere
+
+
+[20-Sep-19 12:03 PM] dukeleto#7326
+@mrlynch these zutxos will need to be in memory until all of time on each chain
+
+
+[20-Sep-19 12:04 PM] dukeleto#7326
+they are unspendable but the chain doesn't know
+
+
+[20-Sep-19 12:04 PM] dukeleto#7326
+per tx has massive scalability concerns for exchanges and pools
+
+
+[20-Sep-19 12:04 PM] mrlynch#5735
+the idea is to have it such as a tx fee
+
+
+[20-Sep-19 12:04 PM] dukeleto#7326
+what if it changed every N blocks?
+
+
+[20-Sep-19 12:04 PM] dukeleto#7326
+choose N to taste
+
+
+[20-Sep-19 12:04 PM] mrlynch#5735
+0.0001 tx fee + 0.00000001 to unspendable
+
+
+[20-Sep-19 12:05 PM] mrlynch#5735
+unspendable isn't required to be known
+
+
+[20-Sep-19 12:07 PM] dukeleto#7326
+you think?
+
+
+[20-Sep-19 12:07 PM] dukeleto#7326
+what do you mean, exactly?
+
+
+[20-Sep-19 12:21 PM] dukeleto#7326
+Sorry, I don't understand what you mean by `unspendable isn't required to be known`
+
+
+[20-Sep-19 12:51 PM] mrlynch#5735
+as in, it's not required to be added to wallet.dat
+
+
+[20-Sep-19 12:52 PM] mrlynch#5735
+you only need an address to add by default to z_sendmany and other calls that send funds on top of where you send
+
+
+[20-Sep-19 01:17 PM] dukeleto#7326
+@mrlynch you are right, they don't go in the local wallet.dat
+
+
+[20-Sep-19 01:17 PM] dukeleto#7326
+but they must be held in memory for all nodes until the end of time
+
+
+[20-Sep-19 01:17 PM] dukeleto#7326
+so i was wrong
+
+
+[20-Sep-19 01:18 PM] dukeleto#7326
+not wallet.dat scalability, but maybe node RAM scalability
+
+
+[20-Sep-19 01:18 PM] dukeleto#7326
+Doing every xtn can lead to an out-of-memory DoS against nodes, i think
+
+
+[20-Sep-19 01:18 PM] dukeleto#7326
+and really fucks up the shielded pool
+
+
+[20-Sep-19 01:31 PM] mrlynch#5735
+why do they have to be held in memory?
+
+
+[20-Sep-19 01:38 PM] dukeleto#7326
+@mrlynch where do you think the shielded pool is held? The UTXO set of Bitcoin is held in memory, and as far as I know, @jl777c plz correct me, the shielded pool is held in memory too
+
+
+[20-Sep-19 01:38 PM] dukeleto#7326
+changing that is massive
+
+
+[20-Sep-19 01:39 PM] dukeleto#7326
+also prevents nodes with less than X GB RAM from being a node
+
+
+[20-Sep-19 01:39 PM] dukeleto#7326
+it's a DoS
+
+
+[20-Sep-19 01:49 PM] dukeleto#7326
+we could probably measure the memory use increase of `komodod` as the chain is bombarded with zutxos
+
+
+[20-Sep-19 01:50 PM] dukeleto#7326
+such as: send 10 zxtns per minute, and then measure memory increase per minute
+
+
+[20-Sep-19 01:50 PM] dukeleto#7326
+divide by ten, you might have an estimate as to how much memory use actually incresaes per zutxo, without trying to read the spec or understand all the header files
+
+
+[20-Sep-19 06:13 PM] mrlynch#5735
+so you mean all sends to all addresses, ever are stored in memory?
+
+
+[20-Sep-19 06:13 PM] mrlynch#5735
+doesn't make much sense
+
+
+[20-Sep-19 07:06 PM] dukeleto#7326
+@mrlynch the node must load things from disk and operate on them in memory
+
+
+[20-Sep-19 07:06 PM] dukeleto#7326
+if they don't fit in memory, it all fails
+
+
+[20-Sep-19 07:06 PM] dukeleto#7326
+Such as git, for example
+
+
+[20-Sep-19 07:06 PM] dukeleto#7326
+the operation `git add` requires about 3X the RAM as the size of the file being added
+
+
+[20-Sep-19 07:06 PM] mrlynch#5735
+what i'm proposing is just a standard tx with a minimun of 2 sends per z_sendmany
+
+
+[20-Sep-19 07:07 PM] dukeleto#7326
+we are not understanding each other
+
+
+[20-Sep-19 07:07 PM] dukeleto#7326
+it's pretty frustrating, to be honest
+
+
+[20-Sep-19 07:07 PM] dukeleto#7326
+I will just write some code
+
+
+[20-Sep-19 07:07 PM] dukeleto#7326
+and Pirate can do whatevs
+
+
+[20-Sep-19 07:08 PM] mrlynch#5735
+1 to wherever you send, 1 to an unspendable address that is, for all intents and purposes, a valid address
+
+
+[20-Sep-19 11:02 PM] ITM#7678
+@ca333 Hi, I see this only now.
+The attack is only z-transactions. Its just a chain of z-transactions dependencies. It chains z-transactions by reverse proofing.
+If you have a tx transaction to z-transaction x 10 z-transaction. We can only proof z-transaction to 9x z-transactions. Analyzing the first couple of 10000 is misleading to say that the attack has great impact, since the bigger the blockchain the more resources is used, its exponential. Since if there 100 000 transaction unchained, we will need to proof every new z-transaction dependencies against 100 000. 
+linking a txTransaction to a z-address is not compromise since there no dependencies. Only if you have meta data or your zChain included, you can determine the txOutput based on amounts. 
+I am working on improving (using high and low amounts) and start to play around with txTransactions inputs to z-transactions ouput and z-transactions to txTransactions output. 
+
+I tested it and also attempted to determined if funds moved from digitalprice to tradeogre or tradeogre to digitalprice. It was success on all 3 attempts. I am updating to see know if graviex can also be part of the list, since I received alot ARRR to play around(jl777c).
+
+
+[20-Sep-19 11:06 PM] ITM#7678
+All I can say is I can 100%(I say 120%) proof the chain of a z-transactions. Only the later the block chain, the resources are massive, going from block 70000 to 80000 took 8 gpu and 2 weeks
+
+
+[20-Sep-19 11:13 PM] ITM#7678
+Not only the attack is resource intensive but also memory intensive. So my next improvement is to optimize my code by offloading everything to gpu, second have multiple thread proofing, if we can find a solve faster, saving on resources(its more luck based, if one gpu process thread start from block 75000 and the other block 78000, we could find a solve at 78001, a solve = invalid proof and when ztx is added the solve now becomes valid)
+
+
+[20-Sep-19 11:28 PM] ITM#7678
+Now how will this impact Zcash/Hush - By knowing the z-transaction chain and if break up, you can then know how many splits the coin went through, by determining the zcash flow, one could determine that 25 hush went in - transaction fees, it got split into 2 and we expect to output tx + sum of transaction fees to amount to 25 hush.
+Now how will it impact ARRR - Dust attacks
+
+
+[20-Sep-19 11:29 PM] ITM#7678
+ARRR will only be vulnerable to dust attacks or you share the chain. Not sure how important is this to privacy :P.
+
+
+[20-Sep-19 11:40 PM] ITM#7678
+I made one mistake through, I was only testing one input and one output. (Index was hardcorded), now added to a loop and notice my assumption to mitigate the attack by creating a dust is incorrect.
+I can confirm that if you split z-transactions in one dust and one none actual spend does not secure you @jl777c. I was rewriting pieces of zcash and Never took into account uniqueness of the nullifier. Since I was always checking index[0], but I spent index[1] or index[2].
+
+
+[20-Sep-19 11:50 PM] ITM#7678
+txTransactions inputs to z-transactions ouputs are linked up(forms part of your transaction), so you will be able to chain ARRR Tx to Zchain. but not zchain to tx
+
+
+[21-Sep-19 12:16 AM] ITM#7678
+we can only predict zchain to tx, but having a high low amount(next research part), we can associate zchains to tx with higher accurancy
+
+
+[21-Sep-19 04:18 AM] dukeleto#7326
+@ca333 @jl777c this is very bad: https://piratepool.io/workers
+
+{Embed}
+https://piratepool.io/workers
+PiratePool.io - mining pool for PirateChain (ARRR) - the most priv...
+The first and largest mining pool for PirateChain (ARRR). Low fees with 66% of proceeds donated to development and marketing efforts. The most private and anonymous cryptocurrency in existence is mineable here on the Equihash algorithm by CPU, GPU, ASIC, NiceHash. - Pirate
+https://images-ext-2.discordapp.net/external/-D1zJsriBgayXhVgyfxryYjSKHlx1yd6s9rLta1KduQ/https/piratepool.io/static/pirate128.png
+
+
+[21-Sep-19 04:18 AM] dukeleto#7326
+It's worse than I thought yesterday
+
+
+[21-Sep-19 04:18 AM] dukeleto#7326
+Because I know all of those zaddrs will get a payout the next pool payout
+
+
+[21-Sep-19 04:18 AM] dukeleto#7326
+this almost proves those zaddrs were in some txids
+
+
+[21-Sep-19 04:18 AM] dukeleto#7326
+And, then the entire game falls down
+
+
+[21-Sep-19 04:19 AM] dukeleto#7326
+@jl777c i would do everything in my power to remove that worker page.
+
+
+[21-Sep-19 04:19 AM] dukeleto#7326
+it ruins the security of the whole Pirate chain
+
+
+[21-Sep-19 04:19 AM] jl777c#5810
+plz let the pool operator know
+
+
+[21-Sep-19 04:19 AM] dukeleto#7326
+we have
+
+
+[21-Sep-19 04:19 AM] dukeleto#7326
+no response
+
+
+[21-Sep-19 04:19 AM] dukeleto#7326
+for weeks?
+
+
+[21-Sep-19 04:19 AM] dukeleto#7326
+months?
+
+
+[21-Sep-19 04:19 AM] dukeleto#7326
+So now, all Pirate users suffer
+
+
+[21-Sep-19 04:19 AM] dukeleto#7326
+Forever.
+
+
+[21-Sep-19 04:20 AM] dukeleto#7326
+it webworker
+
+
+[21-Sep-19 04:20 AM] dukeleto#7326
+not sure if he is on vacation, or doesn't realize
+
+
+[21-Sep-19 04:20 AM] dukeleto#7326
+but @ca333 this is now security critical
+
+
+[21-Sep-19 04:20 AM] dukeleto#7326
+that worker page must not exist
+
+
+[21-Sep-19 04:29 AM] dukeleto#7326
+https://explorer.pirate.black/tx/1a9f6f755eb8bb443e8c49780999509d4d877069d64a8c0170f3cba367ab40f0
+
+
+[21-Sep-19 04:29 AM] dukeleto#7326
+I know about 100 zaddrs in this xtn
+
+
+[21-Sep-19 04:29 AM] dukeleto#7326
+The actual zaddrs
+
+
+[21-Sep-19 04:29 AM] dukeleto#7326
+This is really bad.
+
+
+[21-Sep-19 04:29 AM] mrlynch#5735
+but there are only 28 outputs 🤔
+
+
+[21-Sep-19 04:31 AM] mrlynch#5735
+@ITM so, if i understand correctly, the more transactions on chain, the harder it is for you to reverse new transactions. correct?
+also, since the unspendable output (dust) is off the table, is there anything else that you have in mind for mitigation or not yet?
+
+
+[21-Sep-19 04:33 AM] mrlynch#5735
+i'd love to see some actual data from you, either here or in DM, just to fully understand how this works. i can make assumptions and believe i have a fair understanding of it, but assumptions are also mother of all screw ups
+
+
+[21-Sep-19 04:34 AM] dukeleto#7326
+There are no ZEC mining pools that show zaddrs. Pirate has less security in that regard
+
+
+[21-Sep-19 04:34 AM] dukeleto#7326
+I just checked them all
+
+
+[21-Sep-19 04:34 AM] mrlynch#5735
+we've pinged webworker again
+
+
+[21-Sep-19 04:34 AM] mrlynch#5735
+my point was in regards to this `I know about 100 zaddrs in this xtn` <- `but there are only 28 outputs`
+
+
+[21-Sep-19 04:35 AM] dukeleto#7326
+sorry
+
+
+[21-Sep-19 04:35 AM] dukeleto#7326
+I know about 27 of the zaddrs, then
+
+
+[21-Sep-19 04:35 AM] dukeleto#7326
+I was hyperbolic
+
+
+[21-Sep-19 04:35 AM] dukeleto#7326
+all the current zaddrs listed on the pool have 99% chance of being outputs  in that txid
+
+
+[21-Sep-19 04:36 AM] ITM#7678
+
+{Attachments}
+https://cdn.discordapp.com/attachments/624629768851161088/624931856915234836/unknown.png
+
+
+[21-Sep-19 04:36 AM] ITM#7678
+how ever this will not work
+
+
+[21-Sep-19 04:36 AM] ITM#7678
+
+{Attachments}
+https://cdn.discordapp.com/attachments/624629768851161088/624931928897880084/unknown.png
+
+
+[21-Sep-19 04:37 AM] ITM#7678
+so t-address don't work, I have ask ca333 to ask zcash on why.
+
+
+[21-Sep-19 04:37 AM] dukeleto#7326
+@ITM no, you should ask me 🙂
+
+
+[21-Sep-19 04:37 AM] dukeleto#7326
+Do not ask Zcash things
+
+
+[21-Sep-19 04:37 AM] dukeleto#7326
+just haven't been able to respond yet
+
+
+[21-Sep-19 04:37 AM] dukeleto#7326
+zs1gas5fcnlw9kj0ctwed3qjvarcmyy3ejxatfqed742rrgnv0q0q883k0ahl4zkf2d9sn3kwqptel
+
+
+[21-Sep-19 04:37 AM] dukeleto#7326
+@mrlynch there you go
+
+
+[21-Sep-19 04:38 AM] mrlynch#5735
+thank you @ITM
+
+
+[21-Sep-19 04:38 AM] dukeleto#7326
+that is a zaddr that is an output in that txid
+
+
+[21-Sep-19 04:38 AM] mrlynch#5735
+and you know how?
+
+
+[21-Sep-19 04:38 AM] ITM#7678
+@mrlynch I am cleaning(removing personal code and creating a clean base)
+
+
+[21-Sep-19 04:38 AM] dukeleto#7326
+@mrlynch i don't mean to be a dick
+
+
+[21-Sep-19 04:38 AM] dukeleto#7326
+@ITM can you explain?
+
+
+[21-Sep-19 04:39 AM] dukeleto#7326
+Miners get mining pool payouts, every payout.
+
+
+[21-Sep-19 04:39 AM] dukeleto#7326
+Since that was the most recent payout
+
+
+[21-Sep-19 04:39 AM] dukeleto#7326
+and that address had high hashrate
+
+
+[21-Sep-19 04:39 AM] dukeleto#7326
+it almost definitely was paid in that payout
+
+
+[21-Sep-19 04:39 AM] dukeleto#7326
+does this make sense?
+
+
+[21-Sep-19 04:40 AM] dukeleto#7326
+small addresses don't get paid out every time, we can account for that too
+
+
+[21-Sep-19 04:40 AM] dukeleto#7326
+zs1dx7glm0fgjxx20x09t68mdy0f470la5nzfhl37kq94r2arr7y4xvw8yjxc77dwjwgmtucrw7nvr is one of the largest workers
+
+
+[21-Sep-19 04:40 AM] dukeleto#7326
+they definitely got a payout that block
+
+
+[21-Sep-19 04:40 AM] dukeleto#7326
+this is the logic I am using
+
+
+[21-Sep-19 04:41 AM] dukeleto#7326
+since there are 230 zaddrs I just downloaded
+
+
+[21-Sep-19 04:41 AM] dukeleto#7326
+and 27 payouts
+
+
+[21-Sep-19 04:41 AM] mrlynch#5735
+then don't be one.. i'm only asking because i want to see actual data.. i don't deny the possibility, but making statements based on assumptions is a bit iffy
+
+
+[21-Sep-19 04:41 AM] dukeleto#7326
+we know that over 10% of miners are getting paid out each time
+
+
+[21-Sep-19 04:41 AM] dukeleto#7326
+@mrlynch it's not obvious to me what is hard for you to understand
+
+
+[21-Sep-19 04:41 AM] dukeleto#7326
+@ITM do you agree with me statements?
+
+
+[21-Sep-19 04:41 AM] ITM#7678
+Yes
+
+
+[21-Sep-19 04:42 AM] mrlynch#5735
+🤦 it's not the understanding part.. stop being condescending. i'm only asking for proof.. it is very easy to make assumptions
+
+
+[21-Sep-19 04:43 AM] jl777c#5810
+@Alright
+
+
+[21-Sep-19 04:44 AM] dukeleto#7326
+@mrlynch I respect your intelligence, and also, your rudimentary questions sometimes slow me down and frustrate me. That is the real deal ♥
+
+
+[21-Sep-19 04:44 AM] mrlynch#5735
+that big hash rate worker addresses get paid every time is not a secret.. i want to see where that leads
+does that make sense?
+
+
+[21-Sep-19 04:44 AM] dukeleto#7326
+ok
+
+
+[21-Sep-19 04:44 AM] dukeleto#7326
+Knowing a zaddr is an output in a txid is massive metadata leakage
+
+
+[21-Sep-19 04:44 AM] dukeleto#7326
+it adds to the ITM attack
+
+
+[21-Sep-19 04:45 AM] dukeleto#7326
+makes it much faster
+
+
+[21-Sep-19 04:45 AM] dukeleto#7326
+use less RAM
+
+
+[21-Sep-19 04:45 AM] dukeleto#7326
+less CPU
+
+
+[21-Sep-19 04:45 AM] dukeleto#7326
+and resolve data better
+
+
+[21-Sep-19 04:45 AM] mrlynch#5735
+my rudimentary questions as you put it are supposed to slow you down a bit
+
+
+[21-Sep-19 04:45 AM] dukeleto#7326
+yes, I know
+
+
+[21-Sep-19 04:45 AM] dukeleto#7326
+my brain moves too fast for people
+
+
+[21-Sep-19 04:45 AM] mrlynch#5735
+ok
+
+
+[21-Sep-19 04:45 AM] dukeleto#7326
+piratepool.io worker page ruins the privacy for the entire Pirate chain right now
+
+
+[21-Sep-19 04:45 AM] dukeleto#7326
+i have all the zaddrs
+
+
+[21-Sep-19 04:46 AM] dukeleto#7326
+and I will use it in my ARRR search engine
+
+
+[21-Sep-19 04:46 AM] dukeleto#7326
+tell all those people to change their zaddrs whenever the pool removes the page
+
+
+[21-Sep-19 04:49 AM] mrlynch#5735
+back on topic, so unspendable addresses are now not really essential
+
+
+[21-Sep-19 04:51 AM] jl777c#5810
+it doesnt seem to have any benefit, other than making the tx graph larger, so it is useful, but not any direct mitigation
+
+
+[21-Sep-19 04:59 AM] dukeleto#7326
+@jl777c i want to ask rudimentary dumb questions
+
+
+[21-Sep-19 05:00 AM] dukeleto#7326
+maybe something useful is all we need in the short term?
+
+
+[21-Sep-19 05:00 AM] dukeleto#7326
+I missed the part that shows why they are not as useful as we thought
+
+
+[21-Sep-19 05:01 AM] mrlynch#5735
+```ARRR will only be vulnerable to dust attacks or you share the chain. Not sure how important is this to privacy :P```
+```I made one mistake through, I was only testing one input and one output. (Index was hardcorded), now added to a loop and notice my assumption to mitigate the attack by creating a dust is incorrect.
+I can confirm that if you split z-transactions in one dust and one none actual spend does not secure you @jl777c. I was rewriting pieces of zcash and Never took into account uniqueness of the nullifier. Since I was always checking index[0], but I spent index[1] or index[2].```
+
+
+[21-Sep-19 05:01 AM] jl777c#5810
+ITMToday at 03:40
+I made one mistake through, I was only testing one input and one output. (Index was hardcorded), now added to a loop and notice my assumption to mitigate the attack by creating a dust is incorrect.
+I can confirm that if you split z-transactions in one dust and one none actual spend does not secure you @jl777c. I was rewriting pieces of zcash and Never took into account uniqueness of the nullifier. Since I was always checking index[0], but I spent index[1] or index[2].
+
+
+[21-Sep-19 05:09 AM] dukeleto#7326
+It's unclear if duplicate addresses give unique nullifiers, probably not
+
+
+[21-Sep-19 05:09 AM] dukeleto#7326
+that has implications y'all can figure out
+
+
+[21-Sep-19 05:11 AM] dukeleto#7326
+@mrlynch @ca333 i am backing away from this, it's too much to coordinate Pirate + Hush + ITM attack stuff
+
+
+[21-Sep-19 05:11 AM] dukeleto#7326
+Pirate can do what it thinks is best
+
+
+[21-Sep-19 05:14 AM] mrlynch#5735
+each commitment has its' own nullifier
+
+
+[21-Sep-19 05:16 AM] dukeleto#7326
+but does every output get it's own commitment even if it's the same address?
+
+
+[21-Sep-19 05:16 AM] dukeleto#7326
+i am too angry to go look
+
+
+[21-Sep-19 05:17 AM] mrlynch#5735
+each note has a commitment and a nullifier, so yes
+
+
+[21-Sep-19 05:17 AM] dukeleto#7326
+It's way easier for me to just wait for Pirate, I guess. why am I doing free work?
+
+
+[21-Sep-19 05:17 AM] dukeleto#7326
+fucking dummy I am
+
+
+[23-Sep-19 09:59 PM] Alright#0419
+has a POC for deanoymizing txes been created yet?
+
+
+[23-Sep-19 10:00 PM] Alright#0419
+joker and I posted up at a hotel for a day, could take a crack at it if no one has made it yet
+
+
+[24-Sep-19 12:01 AM] jl777c#5810
+go for it, would be good to see how easy it is to do
+
+
+==============================================================
+Exported 220 message(s)
+==============================================================

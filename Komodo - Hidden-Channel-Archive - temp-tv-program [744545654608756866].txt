@@ -1,0 +1,370 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / temp-tv-program
+==============================================================
+
+[16-Aug-20 06:26 AM] Audo#5667
+This is a temporary channel for the upcoming TV program on Thursday.
+
+> On TV program on next thursday at 20:00 in GMT+3, İstanbul, the theme will be Bitcoin revolution and Blockchain. I will talk about Komodo whereever possible. I want to use AtomicDex pro during program to show how people can send money to anywhere in the world. I will send and receive Komodo and MCL. I will also try atomic swap between them. Anyone who can join from other countries? One from far east one from USA or European countries could be very nice. We will have live connection. We can make tests before the program.
+
+The idea is to showcase how we can send crypto payments across the world. Total time ~5-10 min. To join you will need to have a webcam and quality microphone, and of course AtomicDEX wallet with some KMD & MLC in it.
+
+The program is in Turkish, but I would imagine this segment is in English. @B. Gültekin Çetiner will have the details.
+
+So far interested people:
+ - @TonyL , and also promised to give basic tech support if needed
+ - @ca333 , I am sure CA would like to say few words about the AtomicDEX wallet too if that's possible
+ - @PTYX
+
+
+[16-Aug-20 08:24 AM] grewalsatinder#9653
+@B. Gültekin Çetiner
+
+
+[16-Aug-20 08:25 AM] B. Gültekin Çetiner#0626
+Thanks.
+
+
+[16-Aug-20 08:30 AM] B. Gültekin Çetiner#0626
+@Audo Sure. It will be good if @ca333 would explain AtomicDex in a few words.
+
+
+[16-Aug-20 08:32 AM] B. Gültekin Çetiner#0626
+Can we make an audio discussion before thursday on what to talk and what to do? It may be wednesday.
+
+
+[16-Aug-20 08:37 AM] B. Gültekin Çetiner#0626
+Basically I can send/receive some MCL and Komodo to/from several countries. We can talk how communities could create their blockchains freely with Komodo and list on atomicdex. I am planning to start an atomicswap at the beginning of program. I hope it will finish by the end of program which takes 50 minutes.
+
+
+[18-Aug-20 03:10 PM] Audo#5667
+Ok, let's review the plan. What time on Wednesday is good for you?
+
+
+[19-Aug-20 04:41 AM] B. Gültekin Çetiner#0626
+Any time you wish. You can arrange the time.
+
+
+[19-Aug-20 06:16 AM] Audo#5667
+@B. Gültekin Çetiner what do the participants need to have ready?
+
+ - webcam
+ - microphone
+ - AtomicDEX Mobile with KMD & MLC (so can show the mobile to to the webcam)
+ - Address to send the funds to during the live program
+
+Anything else?
+
+Do you need some support or anything from our side?
+
+
+[19-Aug-20 06:26 AM] B. Gültekin Çetiner#0626
+Could Skype be used for live connection? I will install atomicdex in studio and send a wallet address. I will send some MCL and KMD and receive also. That is enough. I will make atomic swap then myself. Later we will have more time in other programs. We will have a Special program for komodo later.
+
+
+[19-Aug-20 06:30 AM] Audo#5667
+sounds good!
+
+I don't know about the best option for live connection. I think other choice is Google hangouts.
+
+@TonyL do you have any recommendations? We will need a stable connection with no lag/issues
+
+
+[19-Aug-20 06:30 AM] B. Gültekin Çetiner#0626
+I will go to studio early.
+
+
+[19-Aug-20 06:30 AM] B. Gültekin Çetiner#0626
+Tomorrow
+
+
+[19-Aug-20 06:31 AM] Audo#5667
+even Discord could be used (but sometimes there are issues on Discord). I like this option because you could tell the audience that you will make this test with "komodo community" and then show the Komodo Discord
+
+
+[19-Aug-20 06:31 AM] B. Gültekin Çetiner#0626
+Maybe it is better
+
+
+[19-Aug-20 06:32 AM] B. Gültekin Çetiner#0626
+There is no need for installing. We can use from browser directly
+
+
+[19-Aug-20 06:33 AM] B. Gültekin Çetiner#0626
+You can also mention Komodo Discord channel to Turkish audience with qr code
+
+
+[19-Aug-20 06:53 AM] TonyL#3577
+I do recommend to use https://meet.google.com
+
+{Embed}
+https://meet.google.com/
+Meet
+Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.
+https://images-ext-2.discordapp.net/external/esmkNqRvv_uM84r7jKXLg4PJYn6vHhrSoJ2Qs7oO2Z8/https/www.gstatic.com/images/branding/product/2x/meet_96dp.png
+
+
+[19-Aug-20 06:55 AM] TonyL#3577
+@B. Gültekin Çetiner there is newer atomicdex-pro version (it's current 0.2.1 RC - you can download it if login into GH). I think it looks better than 0.2.0 and it might be worth to use this one for the demo:
+https://github.com/KomodoPlatform/atomicDEX-pro/actions/runs/214188334
+
+(version will be updated until tomorrow most probably)
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-pro/actions/runs/214188334
+KomodoPlatform/atomicDEX-Pro
+atomicDEX Desktop app - project codename "Dextop". Contribute to KomodoPlatform/atomicDEX-Pro development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[19-Aug-20 06:55 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/744545654608756866/745642195306151956/unknown.png
+
+
+[19-Aug-20 08:52 AM] B. Gültekin Çetiner#0626
+@TonyL do we use it with Gmail accounts?
+
+
+[19-Aug-20 09:05 AM] TonyL#3577
+Yes, google account is needed
+
+
+[20-Aug-20 12:35 AM] Audo#5667
+alright, so the show is at 5 PM UTC today (8 PM Turkish time).
+
+I will be in another call at that time.
+
+@B. Gültekin Çetiner what time should the participants join and be ready exactly?
+
+
+[20-Aug-20 06:01 AM] B. Gültekin Çetiner#0626
+We are going to studio. The program will start at 8 pm Turkish time. But we will Contact early to arrange the things.
+
+
+[20-Aug-20 06:02 AM] B. Gültekin Çetiner#0626
+We can make a test beforehand.
+
+
+[20-Aug-20 06:05 AM] TonyL#3577
+👍  I'm with PC
+
+
+[20-Aug-20 06:26 AM] B. Gültekin Çetiner#0626
+Ok. Thanks. My Gmail address is drcetiner@gmail.com I will try connection first with meet.google.com
+
+
+[20-Aug-20 06:49 AM] TonyL#3577
+Sure, please ping me when you availiable for the test
+
+
+[20-Aug-20 08:57 AM] B. Gültekin Çetiner#0626
+I am in studio now
+
+
+[20-Aug-20 08:57 AM] B. Gültekin Çetiner#0626
+Shall I install this
+
+
+[20-Aug-20 08:57 AM] B. Gültekin Çetiner#0626
+https://github.com/KomodoPlatform/atomicDEX-pro/actions/runs/214188334
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-pro/actions/runs/214188334
+KomodoPlatform/atomicDEX-Pro
+atomicDEX Desktop app - project codename "Dextop". Contribute to KomodoPlatform/atomicDEX-Pro development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[20-Aug-20 08:57 AM] B. Gültekin Çetiner#0626
+@TonyL
+
+
+[20-Aug-20 08:57 AM] B. Gültekin Çetiner#0626
+Or offcial one on site
+
+
+[20-Aug-20 08:59 AM] TonyL#3577
+https://github.com/KomodoPlatform/atomicDEX-Pro/actions/runs/216738425 please install this one
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Pro/actions/runs/216738425
+KomodoPlatform/atomicDEX-Pro
+atomicDEX Desktop app - project codename "Dextop". Contribute to KomodoPlatform/atomicDEX-Pro development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[20-Aug-20 08:59 AM] TonyL#3577
+it got some bugfixes since yesterday
+
+
+[20-Aug-20 09:01 AM] B. Gültekin Çetiner#0626
+https://meet.google.com/hzg-fwje-iuv
+
+{Embed}
+https://meet.google.com/hzg-fwje-iuv
+Meet
+Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.
+https://images-ext-2.discordapp.net/external/esmkNqRvv_uM84r7jKXLg4PJYn6vHhrSoJ2Qs7oO2Z8/https/www.gstatic.com/images/branding/product/2x/meet_96dp.png
+
+
+[20-Aug-20 09:01 AM] B. Gültekin Çetiner#0626
+This is meet
+
+
+[20-Aug-20 09:01 AM] B. Gültekin Çetiner#0626
+Link
+
+
+[20-Aug-20 09:11 AM] B. Gültekin Çetiner#0626
+New link
+
+
+[20-Aug-20 09:11 AM] B. Gültekin Çetiner#0626
+https://meet.google.com/ait-ptnq-xzj
+
+{Embed}
+https://meet.google.com/ait-ptnq-xzj
+Meet
+Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.
+https://images-ext-2.discordapp.net/external/esmkNqRvv_uM84r7jKXLg4PJYn6vHhrSoJ2Qs7oO2Z8/https/www.gstatic.com/images/branding/product/2x/meet_96dp.png
+
+
+[20-Aug-20 09:16 AM] B. Gültekin Çetiner#0626
+@TonyL
+
+
+[20-Aug-20 09:16 AM] B. Gültekin Çetiner#0626
+Did not link work?
+
+
+[20-Aug-20 09:17 AM] B. Gültekin Çetiner#0626
+AtomicDEX did not start
+
+
+[20-Aug-20 09:18 AM] TonyL#3577
+joined
+
+
+[20-Aug-20 09:18 AM] B. Gültekin Çetiner#0626
+I cannot install on studio PC screen
+
+
+[20-Aug-20 09:19 AM] B. Gültekin Çetiner#0626
+
+{Attachments}
+https://cdn.discordapp.com/attachments/744545654608756866/746040656904060998/image0.jpg
+
+
+[20-Aug-20 09:23 AM] B. Gültekin Çetiner#0626
+I think qrcode is not visible. I send my Wallet address so you can send yours
+
+
+[20-Aug-20 09:48 AM] B. Gültekin Çetiner#0626
+This is the Wallet on studio I. I changed
+
+
+[20-Aug-20 09:48 AM] B. Gültekin Çetiner#0626
+RXmrWxeqQNzU7zrdx3GHTPy1GKwzNM7kJD
+
+
+[20-Aug-20 09:53 AM] B. Gültekin Çetiner#0626
+TV program on Kanal 34 is starting at 20:00. Some Komodo team members will join.
+
+https://twitter.com/drcetiner/status/1295451257558245378?s=21
+
+{Embed}
+Prof. Dr. B. Gültekin Çetiner (@drcetiner)
+https://twitter.com/drcetiner/status/1295451257558245378?s=21
+Aşağıdaki bağlantılardan erişebilirsiniz. 
+1.  https://t.co/U9KlpAisCJ
+2. https://t.co/kSWcKMpWQs
+3. https://t.co/86wjcH3BOA
+4. https://t.co/0j4tf1orVZ
+5. https://t.co/CE1sLXDfQ0
+6. https://t.co/eCX5jRZVSi
+Twitter
+
+
+[20-Aug-20 09:53 AM] TonyL#3577
+prof should I say something and/or share my screen on some point?
+
+
+[20-Aug-20 09:53 AM] TonyL#3577
+I hear you not 100% good so afraid that can miss something
+
+
+[20-Aug-20 11:58 AM] B. Gültekin Çetiner#0626
+Thanks @TonyL it was wonderful. We have very good feedbacks.
+
+{Reactions}
+👍 
+
+[20-Aug-20 12:09 PM] TonyL#3577
+Was glad to join! 🙂
+
+{Reactions}
+👍 
+
+[20-Aug-20 12:47 PM] Audo#5667
+awesome @B. Gültekin Çetiner ! I want to see the episode :)
+
+Would it be possible to get the recording over to us and we could upload it to Komodo youtube?
+
+
+[20-Aug-20 12:47 PM] Audo#5667
+Big thanks for @TonyL too!
+
+{Reactions}
+KMD (3) 
+
+[20-Aug-20 12:52 PM] B. Gültekin Çetiner#0626
+It was fantastic. We transferred money from/to Russia. And we also made AtomicSwap live. Atomicswap took half an hour. Yes we can provide recording. Do you need translation?
+
+
+[20-Aug-20 12:56 PM] B. Gültekin Çetiner#0626
+We can have a separate program. The title may be “Why Komodo?” We can make it as online panel with many participants from different locations. I can have no guest in studio in that program. It may be in English. We can have Turkish subtitles later.
+
+
+[20-Aug-20 01:23 PM] Audo#5667
+if you can share it with english subtitles that's even better 👌
+
+{Reactions}
+👍 
+
+[20-Aug-20 06:51 PM] hyperDEX#6586
+Nice work @B. Gültekin Çetiner  @TonyL
+
+{Reactions}
+👍 
+
+[22-Aug-20 01:08 PM] B. Gültekin Çetiner#0626
+In the next TV program, we will go into mining and staking in blockchain systems. We are planning to demonstrate something live as in the last program. Any idea? We will talk about PoW and PoS and their importance. Definitely we can talk about notarization of other chains through dPoW. Sending/receiving coins to/from Russia last time created very good effect. What can we do similarly?
+
+
+[24-Aug-20 08:52 AM] TonyL#3577
+Hi professor @B. Gültekin Çetiner 
+as an idea - http://komodo.zogs.org/ such interactive presentation might be interesting option
+
+{Reactions}
+👍 
+
+[24-Aug-20 08:54 AM] B. Gültekin Çetiner#0626
+It looks great.
+
+
+[24-Aug-20 10:09 AM] TonyL#3577
+part of the content on it exact example is outdated (lets same Gamecredit is not notarising anymore, DICE assetchain is not opearting and etc) + it hangs time to time, so it's better to use as a ref. atm rather than actual presentation
+
+{Reactions}
+👍 
+
+[24-Aug-20 03:44 PM] B. Gültekin Çetiner#0626
+Thanks. Is There source for it? So that we can translate into Turkish
+
+
+==============================================================
+Exported 65 message(s)
+==============================================================

@@ -1,0 +1,4433 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / antara-composer-beta
+Topic: This is the official Antara Composer beta program channel - please use https://github.com/KomodoPlatform/composer/issues for bug reports and feature requests. For critical security bug reports please do send us your encrypted (https://pgp.mit.edu/pks/lookup?op=get&search=0x379287998EE6CF47) report to security@komodoplatform.com and allow up to 24h for reply.
+==============================================================
+
+[04-Jun-19 08:30 AM] ca333#0333
+@everyone this will be our official chainlizard beta phase channel - similar purpose like the #🤝│dex-mobile channel. 
+
+Does anyone have time for a test **now**? Plz DM me for access.
+
+{Reactions}
+✅ (3) 
+
+[04-Jun-19 08:33 AM] Diesmaster#5068
+I have time to test @ca333
+
+
+[04-Jun-19 08:33 AM] gcharang#6833
+I have sent my observations  in DM
+
+
+[04-Jun-19 08:57 AM] ca333#0333
+thanks a lot for the feedback @gcharang - this is floating into the current revision. @Diesmaster will share access via DM. Thanks!
+
+{Reactions}
+👍 (2) 
+
+[19-Jun-19 02:37 AM] smkhound#7640
+Just spotted a typo -
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/590837498033340416/Screenshot_20190619-172452_Firefox.png
+
+
+[19-Jun-19 02:37 AM] smkhound#7640
+Congratulations, you have successfully `vertified` your email address.
+
+
+[19-Jun-19 04:40 AM] TonyL#3577
+@naezith ^^
+
+
+[19-Jun-19 04:43 AM] naezith#9757
+thanks, fixed
+
+
+[20-Jun-19 04:05 AM] smkhound#7640
+is there a way to revive a pending order? It's in order history as `awaiting payment`, but cant see how to get back to the cart with it loaded up
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591222184446394382/unknown.png
+
+
+[20-Jun-19 04:08 AM] TonyL#3577
+Have you made payment? @smkhound  Actually this status "Awaiting payment" is when you initiated payment with coinpayments but chainlizard not received it yet
+
+
+[20-Jun-19 04:08 AM] smkhound#7640
+I made one a couple days ago, went into coinpayments, then used "back" in browser.
+
+
+[20-Jun-19 04:08 AM] smkhound#7640
+it returned to an empty cart, so I made another
+
+
+[20-Jun-19 04:08 AM] TonyL#3577
+Aha, so maybe some timeout is needed
+
+
+[20-Jun-19 04:08 AM] smkhound#7640
+paid for the second one
+
+
+[20-Jun-19 04:09 AM] smkhound#7640
+noticed first one still on list later
+
+
+[20-Jun-19 04:09 AM] TonyL#3577
+Lets move convo to #chainlizard-devs
+
+{Reactions}
+👍🏽 
+
+[20-Jun-19 04:09 AM] TonyL#3577
+There are two channels so if we write different things in two channels it quite confusing
+
+
+[20-Jun-19 06:37 AM] naezith#9757
+@TonyL you wrote that this is your transaction https://www.coinpayments.net/index.php?cmd=status&id=CPDF6UU0MTU0AYM115YERBE49W&key=96d9cd785a06a0f439ac9bb63b4cd6f7
+
+{Embed}
+https://www.coinpayments.net/index.php?cmd=status&id=CPDF6UU0MTU0AYM115YERBE49W&key=96d9cd785a06a0f439ac9bb63b4cd6f7
+Transaction Status
+Payment gateway providing buy now buttons, shopping carts, and more to accept Bitcoin, Litecoin, and other cryptocurrencies/altcoins on your website/online store.
+https://images-ext-2.discordapp.net/external/W-ZFyvSMF1HK9q7kwAcViSePsyHdwBR627eF9e-onhU/https/www.coinpayments.net/images/logo.png
+
+
+[20-Jun-19 06:37 AM] TonyL#3577
+oh yes, it's timeouted since this time
+
+
+[20-Jun-19 06:37 AM] naezith#9757
+URL has 
+```id=CPDF6UU0MTU0AYM115YERBE49W
+key=96d9cd785a06a0f439ac9bb63b4cd6f7```
+
+
+[20-Jun-19 06:38 AM] naezith#9757
+id I have in my database
+
+
+[20-Jun-19 06:38 AM] naezith#9757
+but key is secret I think
+
+
+[20-Jun-19 06:38 AM] naezith#9757
+if I change it
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591260585664970755/unknown.png
+
+
+[20-Jun-19 06:39 AM] naezith#9757
+so I can't construct that URL
+
+
+[20-Jun-19 06:39 AM] TonyL#3577
+I see
+
+
+[20-Jun-19 06:39 AM] naezith#9757
+though you put the link `You can view the status of this payment or leave feedback for the seller for the next 30 days at https://gocps.net/4xb6nk5aotkd2zy7t2y1xrn0l/ `
+
+
+[20-Jun-19 06:39 AM] naezith#9757
+I don't have that ID neither
+
+
+[20-Jun-19 06:39 AM] naezith#9757
+they only exist in email I think
+
+
+[20-Jun-19 06:40 AM] TonyL#3577
+Btw payment window is 2 hours
+
+
+[20-Jun-19 06:41 AM] TonyL#3577
+Maybe it's too long to store chain in "awaiting payment" status for 3 days. After 2 hours we can give user possiblity to re-initiate payment for same chain params
+
+
+[20-Jun-19 06:43 AM] naezith#9757
+that 2 hours is not same for all currencies I think
+
+
+[20-Jun-19 06:43 AM] naezith#9757
+there is even paypal option for example
+
+
+[20-Jun-19 06:43 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591261909832040458/unknown.png
+
+
+[20-Jun-19 06:43 AM] naezith#9757
+is this good?
+
+
+[20-Jun-19 06:43 AM] naezith#9757
+basically
+
+
+[20-Jun-19 06:44 AM] naezith#9757
+if you opened that coinpayments page but did not continue, then it is stuck in `Awaiting payment` state
+
+
+[20-Jun-19 06:44 AM] naezith#9757
+which you can open again from here
+
+
+[20-Jun-19 06:44 AM] naezith#9757
+and initiated ones, `check your inbox for coinpayments email`
+
+
+[20-Jun-19 06:45 AM] naezith#9757
+that email has the `continue paying` link
+
+
+[20-Jun-19 06:45 AM] naezith#9757
+or status whatever
+
+
+[20-Jun-19 06:45 AM] naezith#9757
+and if it times out at coinpayments side, then user needs to go through chain creation again
+
+
+[20-Jun-19 06:46 AM] TonyL#3577
+imo it looks good - since there is possiblity to initiate payment if user accidently closed coinpayments tab but haven't sent funds (Pay with coinpayments button on picture) and also instruction where to find information where to get information if funds were sent
+
+
+[20-Jun-19 06:48 AM] TonyL#3577
+Sad that its not possible to generate same link for payment status page as coinpayments sending in email
+
+
+[20-Jun-19 06:51 AM] naezith#9757
+@ca333 coinpayments support requires login, can you ask them if this is possible?
+
+
+[20-Jun-19 06:52 AM] naezith#9757
+they send an email with `view transaction status & continue`
+
+
+[20-Jun-19 06:52 AM] naezith#9757
+url
+
+
+[20-Jun-19 06:52 AM] naezith#9757
+and I need to construct the same url
+
+
+[20-Jun-19 06:52 AM] naezith#9757
+I have transaction ID but not the viewing key
+
+
+[20-Jun-19 07:00 AM] naezith#9757
+I checked again @TonyL some transactions don't send that 'failed/timed out' notification
+
+
+[20-Jun-19 07:33 AM] naezith#9757
+update
+```
+- Did some minor changes which might have fixed "ERROR: No 'merchant' set in the button!" error.
+- All status icons in Create Chain page are grey by default now.
+- Added Pay with CoinPayments button to Orders page, allows user to initiate payment for orders with "Awaiting Payment" state.
+- Cart redirects to orders page if it's empty.
+```
+
+
+[20-Jun-19 07:34 AM] naezith#9757
+can someone test that pay button in orders page
+
+
+[20-Jun-19 07:50 AM] TonyL#3577
+working fine on my side @naezith
+
+
+[20-Jun-19 08:45 AM] ca333#0333
+yes will check with coinpayments @naezith - plz DM me the exact request
+
+
+[20-Jun-19 10:58 AM] Diesmaster#5068
+where can I get my wallet?
+
+
+[20-Jun-19 10:59 AM] Diesmaster#5068
+for my just made coin
+
+
+[21-Jun-19 02:22 AM] smkhound#7640
+revived the `awaiting payment` order and made payment 👍
+
+
+[21-Jun-19 02:23 AM] smkhound#7640
+now pending payment, will advise once 🚀
+
+
+[21-Jun-19 02:23 AM] smkhound#7640
+😦
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591558891113021441/unknown.png
+
+
+[21-Jun-19 02:24 AM] smkhound#7640
+been pretty much 3 days tho, could be that
+
+
+[21-Jun-19 03:45 AM] TonyL#3577
+@naezith could you please check why chain from screenshot above have "Launch failed" status?
+
+
+[21-Jun-19 03:48 AM] naezith#9757
+will do
+
+
+[21-Jun-19 03:49 AM] naezith#9757
+`An error occurred (InstanceLimitExceeded) when calling the RunInstances operation: Your quota allows for 0 more running instance(s). You requested at least 1`
+
+
+[21-Jun-19 03:50 AM] naezith#9757
+our current amazon account allows only 20 servers to be live at the same time
+
+
+[21-Jun-19 03:50 AM] jl777c#5810
+@ca333 this seems a very severe limitation
+
+
+[21-Jun-19 03:51 AM] naezith#9757
+there are 3 system servers
+
+
+[21-Jun-19 03:51 AM] naezith#9757
++
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591580884168212480/unknown.png
+
+
+[21-Jun-19 03:51 AM] naezith#9757
+hmm two pubkey1 chains at the same time
+
+
+[21-Jun-19 03:51 AM] naezith#9757
+that's not good
+
+
+[21-Jun-19 03:52 AM] naezith#9757
+that's before the name patch I guess, lemme check
+
+
+[21-Jun-19 03:52 AM] jl777c#5810
+what if we get 100+ chains started at the same time? or lifetime? we cant have such small limits
+
+
+[21-Jun-19 03:52 AM] naezith#9757
+you mean 20 instances limit?
+
+
+[21-Jun-19 03:53 AM] ca333#0333
+@jl777c i set that limit.
+
+
+[21-Jun-19 03:53 AM] jl777c#5810
+so how many customers can be handled?
+
+
+[21-Jun-19 03:54 AM] ca333#0333
+we are currently using a virtual prices for chain-creation so that our team can test - a chain with full setup costs 0.1 USD for full integration. This is just to ensure that for the case that someone gets the URL wont be able to spam us and cause high costs on our AWS infra. 
+
+Once the internal tests are considered finished i will update the prices to the real ones and remove that limit. So even if someone wants to spam us it will result in good revenue for us.
+
+
+[21-Jun-19 03:55 AM] ca333#0333
+tl;dr - the 20 instance limit is a spam prevention due to the low-price we set for the test-phase (0.1 USD per chain).
+
+
+[21-Jun-19 03:56 AM] ca333#0333
+@naezith i just saw a redundant chain-name above - did you check that?
+
+
+[21-Jun-19 03:56 AM] naezith#9757
+which one
+
+
+[21-Jun-19 03:57 AM] ca333#0333
+`PUBKEY1`
+
+
+[21-Jun-19 03:58 AM] naezith#9757
+tony launched that, though as I said it is not supposed to be doubled
+
+
+[21-Jun-19 03:58 AM] naezith#9757
+I was checking it atm
+
+
+[21-Jun-19 04:00 AM] jl777c#5810
+ok, so when in production, we can scale arbitrarily high
+
+{Reactions}
+👍🏼 ✅ 
+
+[21-Jun-19 04:08 AM] naezith#9757
+one thing is still in to do list:  cleaning of tools when the chain is deleted
+
+
+[21-Jun-19 04:09 AM] naezith#9757
+like the name is being inserted to all those repos, pull requests etc.
+
+
+[21-Jun-19 04:22 AM] naezith#9757
+okay I figured out the chain being launched twice
+
+
+[21-Jun-19 04:23 AM] naezith#9757
+not a bug. I was running the server on my local computer too at that time, so that order got processed on my pc too before it was marked as `launched`
+
+
+[21-Jun-19 04:25 AM] naezith#9757
+removed the duplicate one, SMK762 creation should run without issue now, let's see
+
+{Reactions}
+👍🏼 
+
+[21-Jun-19 04:27 AM] naezith#9757
+yeah it did, cute dog
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591590134047047681/unknown.png
+
+
+[21-Jun-19 04:29 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591590613095284736/unknown.png
+
+
+[21-Jun-19 04:29 AM] naezith#9757
+so there are 5 chains running atm
+
+
+[21-Jun-19 04:30 AM] naezith#9757
+you can't launch more because of the 20 instances limit as I said
+
+
+[21-Jun-19 04:30 AM] smkhound#7640
+awse, thanks 😃
+
+
+[21-Jun-19 04:30 AM] smkhound#7640
+I'll kill mine soon, one of the few things I've not tested yet
+
+
+[21-Jun-19 04:31 AM] smkhound#7640
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591591121675878417/20190617_151314.jpg
+
+
+[21-Jun-19 04:32 AM] naezith#9757
+you don't talk about your dog right
+
+{Reactions}
+😂 (3) 
+
+[21-Jun-19 04:42 AM] smkhound#7640
+he's responsible for my early work with oracles, and I'm not shy to post unsolicited dog pix 🐶
+
+
+[21-Jun-19 04:42 AM] smkhound#7640
+chain kill done without issue 👍🏽
+
+{Reactions}
+👍🏼 
+
+[21-Jun-19 05:54 AM] naezith#9757
+~~his name is not chain, right? just making sure~~
+
+{Reactions}
+🤣 (2) 😂 (2) 💯 
+
+[21-Jun-19 06:35 AM] Diesmaster#5068
+I got woland coin down, but now I can't create a new one 😦
+
+
+[21-Jun-19 06:35 AM] Diesmaster#5068
+payment won't open the link
+
+
+[21-Jun-19 07:08 AM] grewalsatinder#9653
+I was thinking the exact same.... good boi is precious! 😄
+
+
+[21-Jun-19 07:58 AM] ca333#0333
+@Diesmaster got issues?
+
+
+[21-Jun-19 08:00 AM] Diesmaster#5068
+Yeah, the payment link is not working
+
+
+[21-Jun-19 08:02 AM] Diesmaster#5068
+It wont send me through to the payment site to be precise
+
+
+[21-Jun-19 08:03 AM] Diesmaster#5068
+Last time it took 1 min but now it is not working
+
+
+[21-Jun-19 08:03 AM] ca333#0333
+@naezith ^
+
+
+[21-Jun-19 08:08 AM] naezith#9757
+sec
+
+
+[21-Jun-19 08:09 AM] naezith#9757
+im a little confused. @Diesmaster can you tell me what do you do step by step
+
+
+[21-Jun-19 08:09 AM] naezith#9757
+you go to blockchain generator, set stuff up
+
+
+[21-Jun-19 08:09 AM] naezith#9757
+then go to cart
+
+
+[21-Jun-19 08:09 AM] naezith#9757
+click to Pay with CoinPayments
+
+
+[21-Jun-19 08:09 AM] naezith#9757
+then what happens
+
+
+[21-Jun-19 08:10 AM] Diesmaster#5068
+Nothing happens
+
+
+[21-Jun-19 08:11 AM] naezith#9757
+what is nothing
+
+
+[21-Jun-19 08:11 AM] naezith#9757
+lemme try the same
+
+
+[21-Jun-19 08:11 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/591646482143117312/unknown.png
+
+
+[21-Jun-19 08:11 AM] naezith#9757
+this does not open?
+
+
+[21-Jun-19 08:16 AM] naezith#9757
+maybe an extension blocks that button, try in another browser?
+
+
+[22-Jun-19 02:29 AM] naezith#9757
+@Diesmaster
+
+
+[22-Jun-19 02:30 AM] Diesmaster#5068
+No it does not open
+
+
+[22-Jun-19 02:30 AM] Diesmaster#5068
+Good idea maybe it is my adblocker
+
+
+[22-Jun-19 09:01 AM] Diesmaster#5068
+working now
+
+
+[22-Jun-19 09:01 AM] Diesmaster#5068
+cool cool
+
+
+[23-Jun-19 02:18 PM] naezith#9757
+changes: 
+- Hiding komodod launch line until block height hits 129.
+- Displaying KMD Wallet Address in Chain Details page.
+- Added 'Miner Node' tool.
+
+
+[23-Jun-19 02:18 PM] naezith#9757
+don't test miner node yet, I'll add some more features about it
+
+
+[23-Jun-19 04:24 PM] naezith#9757
+working on Miner Node feature https://cdn.discordapp.com/attachments/504346756922736641/592494974269128714/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/504346756922736641/592494974269128714/unknown.png
+https://media.discordapp.net/attachments/504346756922736641/592494974269128714/unknown.png
+
+
+[23-Jun-19 04:25 PM] naezith#9757
+https://media.discordapp.net/attachments/504346756922736641/592495033932840962/unknown.png?width=1623&height=583
+
+{Embed}
+https://media.discordapp.net/attachments/504346756922736641/592495033932840962/unknown.png?width=1623&height=583
+https://images-ext-1.discordapp.net/external/cWbiOqXIGLCefMNjfUv3udHa6bcgcFY-VIPjZUUFSm8/%3Fwidth%3D1623%26height%3D583/https/media.discordapp.net/attachments/504346756922736641/592495033932840962/unknown.png
+
+
+[23-Jun-19 04:25 PM] TonyL#3577
+Just noticed this withdrawal button and clicked 😃
+
+
+[23-Jun-19 04:25 PM] naezith#9757
+https://media.discordapp.net/attachments/504346756922736641/592495098361544716/unknown.png
+
+{Embed}
+https://media.discordapp.net/attachments/504346756922736641/592495098361544716/unknown.png
+https://images-ext-1.discordapp.net/external/J-o93aJ1om3F9GcnhDaJ52qPBgVp4QuAZQAbRokJgws/https/media.discordapp.net/attachments/504346756922736641/592495098361544716/unknown.png
+
+
+[23-Jun-19 04:26 PM] naezith#9757
+I really liked it
+
+
+[23-Jun-19 04:26 PM] naezith#9757
+it is exciting to wait and watch how it mines, then you click after 1 coin mined 😄
+
+
+[23-Jun-19 04:26 PM] TonyL#3577
+http://34.245.137.196/tx/597d63dc636f5c6a2c77eb74fc84ea6882bcdb0f257318acb9c7e2213c7d4f0a and seems coins correctly were sent to `KMD Wallet Address` on click
+
+
+[23-Jun-19 04:26 PM] TonyL#3577
+Oh, I claimed on PUBKEY1 - sorry if you're needed these rewards for test 😃
+
+
+[23-Jun-19 04:27 PM] naezith#9757
+np np it just keeps mining
+
+
+[23-Jun-19 04:27 PM] naezith#9757
+and implementation is almost done
+
+
+[23-Jun-19 04:27 PM] naezith#9757
+it won't work for new coins until tomorrow
+
+
+[23-Jun-19 04:27 PM] naezith#9757
+I need to update
+
+{Reactions}
+👌 
+
+[23-Jun-19 04:28 PM] TonyL#3577
+nice moment to go sleep so 😃
+
+
+[23-Jun-19 04:28 PM] naezith#9757
+and this button is hidden till block 129
+
+
+[23-Jun-19 04:28 PM] naezith#9757
+premined coins are automatically sent at 129
+
+
+[23-Jun-19 04:28 PM] naezith#9757
+then button appears
+
+{Reactions}
+📝 
+
+[24-Jun-19 07:58 AM] naezith#9757
+okay I think `Miner Node` is ready, you can test now @TonyL
+
+
+[24-Jun-19 07:59 AM] TonyL#3577
+Should I wait for rewards accumulating on `TONYL1` or it's better to create a new chain? @naezith
+
+
+[24-Jun-19 07:59 AM] TonyL#3577
+As I can see PUBKEY1 not alive anymore 😃
+
+
+[24-Jun-19 08:02 AM] naezith#9757
+I killed pubkey1 because miner node tool was enabled manually by me
+
+
+[24-Jun-19 08:03 AM] naezith#9757
+```
+- Chain Details page displays Miner Node balance.
+- Miner Node can send whole balance to the KMD Wallet Address when requested in Chain Details page.
+- Changed AWS Instance AMI
+- Moved CoinPayments merchant_id to .env
+```
+
+
+[24-Jun-19 08:03 AM] naezith#9757
+make a new one so other changes also can be verified
+
+{Reactions}
+👍 
+
+[24-Jun-19 08:03 AM] naezith#9757
+TONYL1 does not have `Miner Node` enabled
+
+
+[24-Jun-19 08:04 AM] naezith#9757
+wait, it shows enabled, I'll check that now
+
+
+[24-Jun-19 08:36 AM] naezith#9757
+okay fixed that TONYL1 thingy
+
+
+[24-Jun-19 08:45 AM] TonyL#3577
+creating new chain with founders rewards 👍
+
+
+[24-Jun-19 09:11 AM] TonyL#3577
+5 minutes ago received an email from coinpayments that payment is complete:
+```Hello,
+
+We have received all required funds for your payment of 0.07108000 KMD to ca333 and your payment is now Complete.
+
+The transaction ID of this payment is: CPDF47B2KFKPEU1EYKZYGJZYAK
+
+You can view the status of this payment or leave feedback for the seller for the next 30 days at https://gocps.net/dud3h1abk4vc7wskg5mhvfdh2/
+If you were logged in to your account, you will also be able to view the status at https://gocps.net/cn4ogkv4uzdumttpl8lj87ql9/
+```
+
+
+[24-Jun-19 09:12 AM] TonyL#3577
+but chain is still with "Pending payment" status @naezith
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/592748772631511053/unknown.png
+
+
+[24-Jun-19 09:17 AM] TonyL#3577
+upd its online
+
+
+[24-Jun-19 11:27 AM] naezith#9757
+yes that delay is caused by coinpayments
+
+
+[24-Jun-19 11:27 AM] naezith#9757
+they wait around 7 minutes dunno why
+
+
+[24-Jun-19 11:28 AM] naezith#9757
+until they send our server "ok good money"
+
+
+[24-Jun-19 11:35 AM] TonyL#3577
+withdrawn funds fine, founder percentage paying correct also
+
+
+[25-Jun-19 07:26 AM] naezith#9757
+removed TONYL1 and ARTI to make space for new chains
+
+
+[25-Jun-19 07:26 AM] naezith#9757
+GirlPower chain got stuck in Launching state as I see, I'll check that now
+
+
+[25-Jun-19 07:36 AM] Angelina#6231
+how very sexist of Chainlizard 😄
+
+{Reactions}
+😅 (3) 
+
+[25-Jun-19 07:40 AM] naezith#9757
+the generated launch line of it is missing `-addnode=` somehow. will check why
+
+
+[25-Jun-19 07:40 AM] naezith#9757
+that's why nodes could not connect
+
+
+[25-Jun-19 07:53 AM] naezith#9757
+when I launch AWS instance, I wait 30 seconds, then ask for `public_ip`. that was enough for all the chains so far. seems like it wasn't ready for GirlPower. I'll make it ask over and over again until `public_ip` is there
+
+
+[25-Jun-19 08:22 AM] naezith#9757
+don't launch anything for now please
+
+{Reactions}
+👍 
+
+[25-Jun-19 09:56 AM] naezith#9757
+okay it works now
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/593122307883401216/unknown.png
+
+
+[25-Jun-19 09:57 AM] naezith#9757
+though at two new chains, premined coins are not sent somehow, though it's possible to withdraw so not a big issue but I'll check now
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/593122609013587981/unknown.png
+
+
+[25-Jun-19 10:12 AM] naezith#9757
+`"balance": 0.04868065,` it's actually sent... the value on button was not being updated. checking it now
+
+
+[25-Jun-19 01:15 PM] naezith#9757
+gave a break for that thingy, working on removing tools at chain deletion
+
+
+[25-Jun-19 01:15 PM] naezith#9757
+it's hard as to enable them 😄
+
+
+[26-Jun-19 05:25 AM] TonyL#3577
+POS chain needs some additional staking scripts/software configuration - I propose to temporary disable POS chains creation possibility until we implement the resolution @ca333 @naezith
+
+
+[26-Jun-19 05:26 AM] jl777c#5810
+i agree, PoS chains are much trickier to setup properly
+
+
+[26-Jun-19 05:29 AM] naezith#9757
+I don't mind implementing it, though it might take time if it's that complex
+
+
+[26-Jun-19 05:36 AM] Deleted User#0000
+@Alright  created an sutomatic staking chain creator in python here:
+https://github.com/KMDLabs/pos64staker/blob/restart/stakerlib.py#L647
+
+{Embed}
+https://github.com/KMDLabs/pos64staker/blob/restart/stakerlib.py
+KMDLabs/pos64staker
+Automated staker for PoS assetchains. Contribute to KMDLabs/pos64staker development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/HhyWP-0Sd5I4jG6OLRR8Z4upEFZlVyxGwgtl6Aqq9hw/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/42953759
+
+
+[26-Jun-19 10:45 AM] naezith#9757
+coded the removal of spv server tool. wallet and dpow are left
+
+
+[26-Jun-19 10:45 AM] naezith#9757
+which are mostly about repositories, branches and pull requests
+
+
+[26-Jun-19 11:30 AM] ca333#0333
+lets deactivate PoS chains for now until we replicate the logic from Alrights "staking chain creator" @naezith - so we will add this for post-beta features.
+
+
+[26-Jun-19 12:06 PM] naezith#9757
+put an info and slider is not movable
+
+
+[26-Jun-19 12:06 PM] naezith#9757
+should I do something else? @ca333
+
+
+[26-Jun-19 12:09 PM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/593518181726027777/unknown.png
+
+{Reactions}
+👍🏼 
+
+[26-Jun-19 12:11 PM] ca333#0333
+yes thats fine @naezith , shows the user that its coming eventualy  - @Daniel CP can you please check the "You can skip this section" text and provide us a good copy?
+
+
+[26-Jun-19 11:51 PM] Daniel CP#2020
+In Development and Testing
+
+Proof of Stake (PoS) chains are available from the command line of Komodo's software but are still in the process of being integrated to the Antara Blockchain Composer. For now, your Smart Chain will be 100% Proof of Work (PoW).
+
+
+[26-Jun-19 11:52 PM] Daniel CP#2020
+I think this will work @ca333
+
+{Reactions}
+👍🏼 
+
+[27-Jun-19 12:20 AM] Deleted User#0000
+Make sure verushash11 or assetchains n and k works so they have some kind of asic resistance or their chain is prone to stalling attacks
+
+
+[27-Jun-19 02:12 AM] Alright#0419
+100% POW on normal equihash is very insecure unless the chain expects a decent amount of hashrate
+
+
+[27-Jun-19 02:12 AM] Alright#0419
+I'd say don't allow it at all or slap massive warnings on it
+
+
+[27-Jun-19 02:16 AM] Alright#0419
+I can censor all transactions on a low diff equihash chain.  Could probably do about 20 chains at once with a single z9 mini. Also you can stall one indefinitely with about $10 of nicehash or a GPU. It takes manually fixing or days(possibly longer) for it to unstall
+
+
+[28-Jun-19 11:06 AM] naezith#9757
+alright, I'm done with the tool cleanup at chain deletion
+
+
+[28-Jun-19 11:06 AM] naezith#9757
+I did couple tests, it was fine
+
+
+[28-Jun-19 11:09 AM] naezith#9757
+changes: 
+
+```
+- Chain creation asks AWS for public_ip over and over again to make sure it gets one.
+- Fixed ac_supply=0 was not allowed server-side.
+- Miner Node reports balance after block 129.
+- Sending email about atomicDEX Listing and atomicDEX Mobile Wallet Listing when a chain is killed.
+- Disabling SPV Server when chain is killed.
+- Renamed "The server is down" to "Connection Failure" because it also happens when client connection drops.
+- Disallowed Proof of Stake chain creation.
+- Disabling Wallet and dPoW when chain is killed, tool clean-up is done.
+```
+
+
+[28-Jun-19 11:10 AM] naezith#9757
+removed GMWR chain to test btw, sorry about it, not a sexist act
+
+
+[28-Jun-19 11:10 AM] naezith#9757
+@Angelina hope you were not using it
+
+
+[28-Jun-19 11:11 AM] naezith#9757
+I need to cleanup the `KomodoPlatform, KomodoOcean, komodo` repositories because they have leftovers of all test chains so far
+
+
+[28-Jun-19 11:11 AM] naezith#9757
+the new ones will be cleaned automatically from now on
+
+
+[29-Jun-19 01:56 AM] naezith#9757
+please don't create anything until I say, I'm doing a full clean up
+
+{Reactions}
+👌 (2) 
+
+[29-Jun-19 03:41 PM] naezith#9757
+okay I did one test, went well
+
+
+[29-Jun-19 03:41 PM] naezith#9757
+tools are being removed nicely
+
+
+[29-Jun-19 03:44 PM] naezith#9757
+need to test Miner Node again, though since it needs the chain to reach  block 129, I will launch one and sleep now, will test tomorrow
+
+
+[29-Jun-19 03:44 PM] naezith#9757
+but you can start testing all other stuff
+
+
+[29-Jun-19 03:58 PM] Alright#0419
+@naezith what do you mean it must wait until block 129?
+
+
+[29-Jun-19 11:32 PM] naezith#9757
+lets say we entered ac_supply 250000,
+
+
+[29-Jun-19 11:32 PM] naezith#9757
+gen node gets them all at 128
+
+
+[29-Jun-19 11:32 PM] naezith#9757
+then sends them to the provided KMD wallet address
+
+
+[29-Jun-19 11:32 PM] naezith#9757
+then mines one more block for that transaction
+
+
+[29-Jun-19 11:33 PM] naezith#9757
+at 129, I make "withdraw coins" button show up in the chain page
+
+
+[29-Jun-19 11:33 PM] naezith#9757
+which sends whole balance on demand
+
+
+[29-Jun-19 11:35 PM] jl777c#5810
+for chains with big supply (over 10 billion) the coins are generated 1 billion per block. also you cant send more than 10 billion in a single tx
+
+
+[29-Jun-19 11:53 PM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/594782496701546496/unknown.png
+
+
+[29-Jun-19 11:54 PM] naezith#9757
+here premined are sent automatically already
+
+
+[29-Jun-19 11:54 PM] naezith#9757
+and withdraw button is available
+
+
+[29-Jun-19 11:55 PM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/594782986919084042/unknown.png
+
+
+[29-Jun-19 11:55 PM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/594783115314987039/unknown.png
+
+
+[29-Jun-19 11:56 PM] naezith#9757
+hmmm I didn't know about that 10 billion stuff
+
+
+[29-Jun-19 11:56 PM] naezith#9757
+makes stuff complicated
+
+
+[29-Jun-19 11:56 PM] naezith#9757
+how should I handle them
+
+
+[30-Jun-19 12:36 AM] jl777c#5810
+limit supply to 10 billion for now
+
+
+[30-Jun-19 05:06 AM] naezith#9757
+I love this kind of "solutions" 😄
+
+
+[30-Jun-19 05:07 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/594861680761110528/unknown.png
+
+
+[30-Jun-19 05:08 AM] jl777c#5810
+nobody really needs more than 10 billion coins, so we can deal with supporting it after the initial release. if we decide that it is important to support
+
+
+[30-Jun-19 05:08 AM] naezith#9757
+max was 2 bil already
+
+
+[30-Jun-19 05:08 AM] jl777c#5810
+then it avoids the issue
+
+
+[30-Jun-19 05:08 AM] naezith#9757
+ah I remember where I saw 2 bil and set
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/594861886751899668/unknown.png
+
+
+[30-Jun-19 05:09 AM] naezith#9757
+I put limits depending on that docs so
+
+
+[30-Jun-19 05:10 AM] jl777c#5810
+there were some bugs before and after i fixed them i found the exact boundary of 10 billion per tx
+
+
+[30-Jun-19 05:17 AM] naezith#9757
+should I change it to 10 b @jl777c
+
+
+[30-Jun-19 05:24 AM] jl777c#5810
+best to keep it at 2 for now. if there is some big demand for it, we can boost it
+
+
+[30-Jun-19 06:22 AM] Alright#0419
+@naezith what is the significance of the number 128? arbitrary?
+
+
+[30-Jun-19 07:58 AM] naezith#9757
+I don't remember jl or ca told me about it for a long time but I think that's when premining of initial supply completes, no?
+
+
+[30-Jun-19 07:58 AM] jl777c#5810
+ondemand chains stop mining at 128
+
+
+[30-Jun-19 07:59 AM] jl777c#5810
+anything less than 100 is very easy to fork, so best to do at least 100.
+
+
+[30-Jun-19 07:59 AM] jl777c#5810
+128 seems fine
+
+
+[02-Jul-19 11:26 AM] naezith#9757
+```
+- CoinPayments button won't react more than once when spammed.
+- Delete warning modal for DEX Articles.
+- Using CSS em for everything, setting font-size to anything makes it look correct.
+- Did a full test, chain creation and deletion works without any flaw. Definitely needs more testing though
+- Fixed some img sizes.
+- Safari: Fixed Generator Top Bar was breaking after making the window big and then small again.
+- Safari: Fixed @media max-width values were not matching with Javascript window width, breaking the layout.
+- Safari: Fixed ( - 2 + ) node count button was broken.
+- Using - and + characters instead of collapse and expand imgs for node count incremental input.
+- Fixed price was too small in order page for extra small screens.
+- Added page loading icon to Chain Details page.
+- Email field in Password Reset page is being filled automatically.
+- Added Recovery code for 2FA.
+- Fixed 'Require Fresh Auth' was not working properly if 2FA was enabled.
+```
+
+{Reactions}
+✅ (2) 
+
+[02-Jul-19 11:29 AM] naezith#9757
+server is `t2.small` atm
+
+
+[02-Jul-19 11:29 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/595682543949316126/unknown.png
+
+
+[02-Jul-19 11:29 AM] naezith#9757
+which one should I select
+
+
+[02-Jul-19 11:30 AM] naezith#9757
+no info about prices unfortunately
+
+
+[02-Jul-19 01:03 PM] ca333#0333
+@naezith pick t2.xl for now - we can still scale up if the demand gets out of control.
+
+
+[02-Jul-19 02:52 PM] naezith#9757
+done, new IP needs to be set `34.250.255.60` for `chainlizard.kmd.dev`, kinda urgent @ca333
+
+
+[02-Jul-19 03:03 PM] ca333#0333
+done
+```
+nslookup chainlizard.kmd.dev
+Server:        8.8.8.8
+Address:    8.8.8.8#53
+
+Non-authoritative answer:
+Name:    chainlizard.kmd.dev
+Address: 34.250.255.60
+```
+
+
+[03-Jul-19 03:30 PM] TonyL#3577
+@naezith I can see 3 clones of my chain (created/paid only for one)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596105558382215209/unknown.png
+
+
+[03-Jul-19 03:31 PM] TonyL#3577
+I've tried to smack "Pay with Coinpayments" button when created this one (TONYL1) maybe I clicked exactly 4 times
+
+
+[03-Jul-19 03:33 PM] TonyL#3577
+Since in my `Order history` I can see unique ORDER ID for each - I wonder this one `- CoinPayments button won't react more than once when spammed.
+` still actual
+
+
+[03-Jul-19 03:45 PM] ca333#0333
+@naezith ^
+
+
+[03-Jul-19 03:49 PM] naezith#9757
+alright
+
+
+[03-Jul-19 03:49 PM] naezith#9757
+will check it tomorrow
+
+
+[03-Jul-19 03:51 PM] naezith#9757
+cancelled those
+
+
+[03-Jul-19 05:06 PM] TonyL#3577
+Seems my chain stuck on this height, at first gaps between blocks started to be huge (like a 10 minutes)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596129777241554945/unknown.png
+
+
+[03-Jul-19 05:07 PM] TonyL#3577
+then explorer stopped to display blocks
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596129903213150230/unknown.png
+
+
+[03-Jul-19 05:07 PM] TonyL#3577
+would be great to check debug.log on nodes and current daemon state
+
+
+[03-Jul-19 05:09 PM] TonyL#3577
+aha, and now it "unstuck" but cant see previous blocks in explorer
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596130551380049956/unknown.png
+
+
+[03-Jul-19 05:41 PM] Alright#0419
+@TonyL @naezith ac_private=1 won't work out of the box unless something is removed from the daemon
+
+
+[03-Jul-19 05:41 PM] Alright#0419
+jl made it fail and added some message about using PIRATE
+
+
+[03-Jul-19 05:42 PM] TonyL#3577
+chain above is usual one
+
+
+[03-Jul-19 05:42 PM] Alright#0419
+it worked?
+
+
+[03-Jul-19 05:42 PM] TonyL#3577
+will get params soon to check it, but I've chosen ac_private chain and blocks seems generating
+
+
+[03-Jul-19 05:43 PM] Alright#0419
+https://github.com/jl777/komodo/blob/0238f38686d73f504c16c15b46a06a14f99bc64b/src/komodo_utils.h#L2318
+
+{Embed}
+https://github.com/jl777/komodo/blob/0238f38686d73f504c16c15b46a06a14f99bc64b/src/komodo_utils.h
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Reactions}
+🤔 
+
+[03-Jul-19 05:53 PM] TonyL#3577
+Seems I've not cliked "Save" when changed txs to private only and started chain with both txs allowed. Let me try once again with private only.
+Btw all params summary review before launch and message like a "Are you sure that you want to start chain with the following params" might be helpful
+
+
+[03-Jul-19 06:02 PM] TonyL#3577
+But from code above it's obv that private only chain will not start, yep
+
+
+[03-Jul-19 06:06 PM] Alright#0419
+it is an arbitrary limitation, could ask jl to remove it
+
+
+[03-Jul-19 06:07 PM] Alright#0419
+doubt anyone will use it, but I don't see why it should be limited for the sake of promoting pirate
+
+
+[03-Jul-19 11:54 PM] naezith#9757
+okay so I am removing `-ac_private` option, right? @ca333
+
+
+[03-Jul-19 11:59 PM] naezith#9757
+@TonyL those TONY1 chain issues are not about CL right? one of them is about komodod, and other one is Explorer.  `komodod -ac_name=TONYL1 -ac_supply=250000 -ac_reward=100000000 -ac_end=0 -ac_halving=1000000 -ac_decay=50000000 -ac_perc=10000000 -ac_pubkey=02f76e2d7122dd3c731d15b845337826ce636a43d016e0eaf427fa53894ffdd957 -addnode=34.253.224.167 &`
+
+
+[04-Jul-19 12:04 AM] TonyL#3577
+CL as a product combines webinterface, SPV, explorer and komodod so it's global product issues, but not web-interface ones, yep
+Not understand why blocks generating so not consistent, would be great to check nodes logs/state
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596234763505893380/unknown.png
+
+
+[04-Jul-19 12:04 AM] TonyL#3577
+maybe just date/time of explorer is not correct
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596234978950643763/unknown.png
+
+
+[04-Jul-19 12:06 AM] naezith#9757
+explorer node
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596235350821830656/debug.log
+
+
+[04-Jul-19 12:07 AM] naezith#9757
+-gen node
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596235620687282177/debug.log
+
+
+[04-Jul-19 12:08 AM] naezith#9757
+seed node
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596235932328525824/debug.log
+
+
+[04-Jul-19 12:08 AM] naezith#9757
+do you want anything else?
+
+
+[04-Jul-19 12:10 AM] TonyL#3577
+what are their white IPs?
+
+
+[04-Jul-19 12:11 AM] naezith#9757
+seed: `34.253.224.167`
+gen: `34.252.240.184`
+explorer: `52.17.83.192`
+
+
+[04-Jul-19 12:11 AM] naezith#9757
+brb breakfast
+
+
+[04-Jul-19 12:11 AM] naezith#9757
+type if you need something else
+
+
+[04-Jul-19 12:11 AM] TonyL#3577
+bon appetite!
+
+
+[04-Jul-19 12:18 AM] TonyL#3577
+connected my node and generated few blocks without problems -  so probably something is not ok with mining  (-gen) node
+
+
+[04-Jul-19 12:19 AM] TonyL#3577
+when you have time - could you please connect to it and check:
+`./komodo-cli -ac_name=TONYL1 getinfo` 
+`./komodo-cli -ac_name=TONYL1 getmininginfo`
+`./komodo-cli -ac_name=TONYL1 getpeerinfo`
+
+
+[04-Jul-19 12:20 AM] TonyL#3577
+or maybe we just should mine with more threads on it for consistent blocks generation  🤔
+
+
+[04-Jul-19 12:33 AM] naezith#9757
+gen node is so slow atm it does not return anything from those, just hanging
+
+
+[04-Jul-19 12:33 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596242179878289408/unknown.png
+
+
+[04-Jul-19 12:33 AM] naezith#9757
+though this is too long already
+
+
+[04-Jul-19 12:57 AM] ca333#0333
+keep private param @naezith - no params modification unless it leads to critical states.
+
+
+[04-Jul-19 12:59 AM] TonyL#3577
+so it seems daemon on mining node hanged. it generated 321 blocks, then stopped and as I understand daemon not response now on mining node (it's not related to -ac_private issue - usual chain)
+
+
+[04-Jul-19 12:59 AM] naezith#9757
+@ca333 chain does not launch at all
+
+
+[04-Jul-19 01:00 AM] jl777c#5810
+@ca333 -ac_private is deprecated
+
+
+[04-Jul-19 01:00 AM] naezith#9757
+kmd version     0.4.0a
+
+
+[04-Jul-19 01:01 AM] ca333#0333
+ouch - @jl777c why -we had private chain feature from the beginning and as a feature requirement.
+
+
+[04-Jul-19 01:01 AM] naezith#9757
+am I removing it or not
+
+
+[04-Jul-19 01:02 AM] jl777c#5810
+it creates a chain that will have a LOT of support issues, also technically its anon set cant be that big and wont have the effect people want
+
+
+[04-Jul-19 01:03 AM] jl777c#5810
+also none of the other features will work. exchange integrations are a nightmare, etc.
+
+
+[04-Jul-19 01:03 AM] naezith#9757
+if I remove it, we will have two options: "Public and Private" which does not put any params to komodod. and "Public only" which adds `-ac_public=1`
+
+
+[04-Jul-19 01:04 AM] ca333#0333
+@naezith in this case remove the mess
+
+{Reactions}
+👍 
+
+[04-Jul-19 01:05 AM] jl777c#5810
+maybe public only vs private available? just a bit of language to denote taddr only vs taddr/zaddr
+
+
+[04-Jul-19 01:07 AM] jl777c#5810
+the GUI could always restrict to zaddr only, but as it is i dont think the wallets will fully support zaddr?
+
+
+[04-Jul-19 01:07 AM] TonyL#3577
+@ca333 Artem asking you to check DM asap
+
+
+[04-Jul-19 01:08 AM] ca333#0333
+it would have been a good feature to have, specially for R&D or test chains - AS discussed before we developed CL. anyway - we can orientate towards ‘technically non indicated’ deprecation - not a biggie for us.
+
+
+[04-Jul-19 01:08 AM] jl777c#5810
+exchanges are losing peoples coins
+
+
+[04-Jul-19 01:08 AM] ca333#0333
+@TonyL tell him i will get back to him when i have time to do so
+
+{Reactions}
+👌 
+
+[04-Jul-19 01:09 AM] ca333#0333
+exchanges losing peoples coins seems irrelevant for a testchain.
+
+
+[04-Jul-19 01:09 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596251224139890688/unknown.png
+
+
+[04-Jul-19 01:09 AM] naezith#9757
+that's default
+
+
+[04-Jul-19 01:09 AM] ca333#0333
+anyway - we removed it. issue sorted
+
+
+[04-Jul-19 01:09 AM] naezith#9757
+I just deactivated the radio button, if we need it in future, everything is ready
+
+{Reactions}
+✅ 
+
+[04-Jul-19 01:10 AM] jl777c#5810
+until they want to make the testchain real chain. this should be a GUI level enforcement
+
+
+[04-Jul-19 01:10 AM] TonyL#3577
+` tell him i will get back to him when i have time to do so` ok, it's MM2 release related seems urgent since he worry much
+
+
+[04-Jul-19 01:11 AM] ca333#0333
+I know @TonyL - already ACKd him.
+
+
+[04-Jul-19 01:11 AM] TonyL#3577
+gotcha
+
+
+[04-Jul-19 02:11 AM] TonyL#3577
+@naezith could you please check `htop` on mining node (loading on CPU and RAM)? Seems it started to generate blocks again - maybe it have not enough resources because of mining thats why daemon not react on RPC calls
+
+
+[04-Jul-19 02:13 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596267255839457284/unknown.png
+
+
+[04-Jul-19 02:14 AM] naezith#9757
+```
+ubuntu@ip-172-31-45-95:~$ ps aux | grep komo
+ubuntu    1509 44.8  4.6 817560 94820 ?        SLl  Jul03 278:50 /home/ubuntu/komodo/src/komodod -ac_name=TONYL1 -ac_supply=250000 -ac_reward=100000000 -ac_end=0 -ac_halving=1000000 -ac_decay=50000000 -ac_perc=10000000 -ac_pubkey=02f76e2d7122dd3c731d15b845337826ce636a43d016e0eaf427fa53894ffdd957 -addnode=34.253.224.167 -gen
+ubuntu    3731  0.0  0.0   4504   852 ?        S    09:05   0:00 /bin/sh -c /home/ubuntu/komodo/src/komodo-cli -ac_name=TONYL1 getinfo
+ubuntu    3732  0.0  0.2  19492  4584 ?        S    09:05   0:00 /home/ubuntu/komodo/src/komodo-cli -ac_name=TONYL1 getinfo
+```
+
+
+[04-Jul-19 02:21 AM] naezith#9757
+journal is going crazy
+
+
+[04-Jul-19 02:21 AM] naezith#9757
+I'll check my scripts
+
+
+[04-Jul-19 02:21 AM] TonyL#3577
+I see, thank you 👍 I propose to use multithread CPU instance for mining node
+
+
+[04-Jul-19 02:22 AM] TonyL#3577
+100% loading on CPU explains temporary mining issues
+
+
+[04-Jul-19 02:23 AM] TonyL#3577
+t2.small have only 1 vCPU so even if you mine on 1 thread it's loaded fully
+
+
+[04-Jul-19 02:23 AM] TonyL#3577
+At least t2.medium with 2 vCPU is better - possible to generate blocks on 1 core and second core will do other stuff
+
+
+[04-Jul-19 02:24 AM] naezith#9757
+okay
+
+
+[04-Jul-19 02:24 AM] naezith#9757
+I'll upgrade to t2.medium
+
+
+[04-Jul-19 02:24 AM] TonyL#3577
+I think @ca333 should confirm first
+
+
+[04-Jul-19 02:37 AM] naezith#9757
+that heavy cpu load was my fault, tiny mistake in code
+
+
+[04-Jul-19 02:37 AM] naezith#9757
+will fix now
+
+
+[04-Jul-19 02:49 AM] naezith#9757
+t2.small is probably enough btw
+
+
+[04-Jul-19 02:49 AM] naezith#9757
+my code has a flaw as I said
+
+
+[04-Jul-19 02:49 AM] naezith#9757
+I'll try again with t2.small
+
+
+[04-Jul-19 02:49 AM] naezith#9757
+it will take a while to cook a new AMI though
+
+
+[04-Jul-19 02:49 AM] naezith#9757
+please don't create any chains or something
+
+
+[04-Jul-19 02:50 AM] Deleted User#0000
+minig uses the lowst priority so 1 core should be fine 😃
+
+
+[04-Jul-19 03:08 AM] TonyL#3577
+it's very little cores on these instances it's like a 10% from real core maybe 😃
+
+
+[04-Jul-19 03:13 AM] TonyL#3577
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html pretty tricky credits system for T2 ones
+
+{Embed}
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-credits-baseline-concepts.html
+CPU Credits and Baseline Performance for
+         Burstable Perfor...
+Traditional Amazon EC2 instance types provide fixed performance, while burstable performance instances provide a baseline level of CPU performance with the ability to burst above that baseline level. The baseline performance and ability to burst are governed by CPU credits. A...
+
+
+[04-Jul-19 09:07 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596371412353286181/unknown.png
+
+
+[04-Jul-19 09:07 AM] naezith#9757
+okay journal is calm now 😄
+
+
+[04-Jul-19 09:53 AM] Alright#0419
+@naezith the text for `public transactions only` vs `public and private transactions` could mention that wallet encryption is supported on `public transactions only` whereas it's not on `public and private transactions`
+
+
+[04-Jul-19 10:23 AM] naezith#9757
+I am not the one who prepares those texts. all of them will be replaced but I don't know who will give me those
+
+
+[04-Jul-19 08:10 PM] TonyL#3577
+@naezith Did you have a chance to reproduce this problem? I just clicked many times on pay with coinpayments button I think
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596538286319599636/unknown.png
+
+
+[05-Jul-19 12:31 AM] naezith#9757
+I did not fix that yet
+
+
+[05-Jul-19 04:30 AM] naezith#9757
+fixed now @TonyL
+
+
+[05-Jul-19 05:46 AM] TonyL#3577
+@naezith when I'm selecting PayPal and then click "Pay with coinpayments"  I'm getting coinpayments page where I can pay with cryptocurrencies only. Before I was able to pay by PayPal
+Have we disabled this feature?
+
+
+[05-Jul-19 05:51 AM] TonyL#3577
+Issue with button seems to be fixed. Smacked ~5 times before coinpayments page loaded but have only one chain
+
+
+[05-Jul-19 06:30 AM] naezith#9757
+what happened to paypal @ca333
+
+
+[05-Jul-19 08:18 AM] ca333#0333
+dm'ing you details @naezith
+
+
+[05-Jul-19 08:19 AM] naezith#9757
+@TonyL so yeah it's not on my side
+
+
+[05-Jul-19 08:19 AM] ca333#0333
+@TonyL paypal will be re-activated during the next days. We will let you know.
+
+
+[05-Jul-19 08:20 AM] TonyL#3577
+👍
+
+
+[05-Jul-19 09:16 AM] naezith#9757
+don't create anything please
+
+
+[05-Jul-19 09:20 AM] naezith#9757
+okay you can do anything you want now
+
+
+[05-Jul-19 10:10 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/596749758886838283/unknown.png
+
+
+[05-Jul-19 10:11 AM] naezith#9757
+so much DM spam going on in this server, I disabled it, add me as friend if you need me.
+
+
+[10-Jul-19 08:04 AM] naezith#9757
+heyyy check this out https://chainlizard.kmd.dev/c/NAE
+
+
+[10-Jul-19 08:04 AM] naezith#9757
+public dashboard with a vanity url, as a tool
+
+{Reactions}
+🔥 (3) 
+
+[10-Jul-19 08:08 AM] Audo#5667
+wow! That is cool @naezith 😃
+
+
+[10-Jul-19 08:54 PM] gcharang#6833
+hey, @naezith 
+
+```
+Rewards:    1 coin, with a decay of 50% over 1,000,000 blocks
+```
+
+should be
+
+```
+Rewards:    1 coin, with a decay of 50% every 1,000,000 blocks
+```
+
+
+[11-Jul-19 12:48 AM] naezith#9757
+thanks, fixed
+
+
+[11-Jul-19 09:21 AM] naezith#9757
+should I hide KMD Wallet Address from the page
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/598911639315677186/unknown.png
+
+
+[11-Jul-19 09:21 AM] naezith#9757
+it's used to receive miner node balance
+
+
+[11-Jul-19 10:05 AM] jl777c#5810
+seems no need to hide it
+
+
+[11-Jul-19 10:31 PM] TonyL#3577
+@naezith I input lowercase chain name input warning box saying about KMD address - seems this warning is static for all form
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599110663541096478/unknown.png
+
+
+[11-Jul-19 10:35 PM] TonyL#3577
+As an ultimate solution we can just auto capitalize the input into this field ( @Mylo s catch and idea)
+
+
+[12-Jul-19 01:05 AM] naezith#9757
+alright ill try auto capitalize
+
+
+[12-Jul-19 01:05 AM] naezith#9757
+thanks
+
+
+[12-Jul-19 02:18 AM] naezith#9757
+done @TonyL
+
+
+[12-Jul-19 02:20 AM] TonyL#3577
+text is autocapitalizing now, but right after I start to input ticker text this `Please enter a valid KMD Wallet Address.` message appears
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599168297748922399/unknown.png
+
+
+[12-Jul-19 02:21 AM] naezith#9757
+yes
+
+
+[12-Jul-19 02:21 AM] naezith#9757
+that must be entere
+
+
+[12-Jul-19 02:21 AM] naezith#9757
+d
+
+
+[12-Jul-19 02:21 AM] naezith#9757
+it's for whole form
+
+
+[12-Jul-19 02:23 AM] TonyL#3577
+maybe show it by default on form opening until user enter valid address? it's just a little bit confusing imo that message about valid address input appears when I'm starting to input ticker
+
+
+[12-Jul-19 02:23 AM] TonyL#3577
+but it's quite minor thing for sure
+
+
+[12-Jul-19 02:23 AM] naezith#9757
+hmm I can make it wait until the save button is clicked once at least
+
+
+[12-Jul-19 02:26 AM] TonyL#3577
+maybe make for this field same popup as for public key?
+
+
+[12-Jul-19 02:26 AM] naezith#9757
+can't
+
+
+[12-Jul-19 02:26 AM] TonyL#3577
+if I input not valid pubkey and press save - appears popup near pubkey field with message that format not match
+
+
+[12-Jul-19 02:26 AM] naezith#9757
+we do something really special
+
+
+[12-Jul-19 02:27 AM] naezith#9757
+using a lib which makes sure it's a valid KMD address
+
+
+[12-Jul-19 02:27 AM] naezith#9757
+let me try this first
+
+
+[12-Jul-19 02:27 AM] naezith#9757
+then I'll search if that one you say is possible
+
+
+[12-Jul-19 02:36 AM] naezith#9757
+updated @TonyL
+
+
+[12-Jul-19 02:41 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599173583662743563/image0.jpg
+
+
+[12-Jul-19 02:42 AM] TonyL#3577
+@naezith great! one more little thing in this form: when input not valid things to fields with such popup and start scroll - they stick to screen (in other forms parts fields too actually)
+
+
+[12-Jul-19 02:42 AM] TonyL#3577
+had to photo because on screenshot attempt it hiding 😃
+
+
+[12-Jul-19 02:44 AM] naezith#9757
+hmm I couldn't reproduce this, or I didn't understand
+
+
+[12-Jul-19 02:46 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599174709422063646/ve1lJbySpB.gif
+
+
+[12-Jul-19 02:46 AM] naezith#9757
+those popups are not custom code
+
+
+[12-Jul-19 02:46 AM] naezith#9757
+browser & bootstrap stuff
+
+
+[12-Jul-19 02:47 AM] naezith#9757
+but they work fine on windows chrome
+
+
+[12-Jul-19 02:47 AM] naezith#9757
+ill try on firefox
+
+
+[12-Jul-19 02:48 AM] TonyL#3577
+https://send.firefox.com/download/e548db38ff62c526/#aTmWt0a51-zHxraNTfBW9g
+
+{Embed}
+https://send.firefox.com/download/e548db38ff62c526/
+Firefox Send
+Encrypt and send files with a link that automatically expires to ensure your important documents don’t stay online forever.
+https://images-ext-2.discordapp.net/external/O4QDsQ_NIT6gJMQF3_UZi16fYOYPPLjqBnEKJvUOJG0/https/send.firefox.com/send-fb.358d4b57.jpg
+
+
+[12-Jul-19 02:49 AM] TonyL#3577
+ah, right maybe it's firefox specific - let me check in Chrome. Forgot about how many troubles ubuntu firefox making 😃
+
+
+[12-Jul-19 02:50 AM] TonyL#3577
+yes, in Chrome it's fine
+
+
+[12-Jul-19 02:51 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599176023506026507/T1WsRmf4De.gif
+
+
+[12-Jul-19 02:51 AM] naezith#9757
+yeah firefox is weird
+
+
+[12-Jul-19 02:52 AM] naezith#9757
+it's not a bootstrap thing neither I think, it looks completely different
+
+
+[12-Jul-19 02:52 AM] naezith#9757
+browser behavior then
+
+
+[12-Jul-19 02:53 AM] TonyL#3577
+yep, many things  displaying different in firefox - chain deletion popup lets say
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599176626307072010/unknown.png
+
+
+[12-Jul-19 02:54 AM] naezith#9757
+that works in windows firefox
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599176805961826314/unknown.png
+
+
+[12-Jul-19 02:54 AM] TonyL#3577
+but it seems common problem because rocketchat popups displaying the same on ubuntu firefox
+
+
+[12-Jul-19 02:54 AM] naezith#9757
+seriously how can ubuntu firefox be that broken 😄
+
+
+[12-Jul-19 02:55 AM] naezith#9757
+I have ubuntu VM
+
+
+[12-Jul-19 02:55 AM] naezith#9757
+ill check
+
+
+[12-Jul-19 02:55 AM] naezith#9757
+list me the stuff you found out please
+
+
+[12-Jul-19 02:55 AM] naezith#9757
+stuff that works on windows firefox but not on ubuntu firefox
+
+
+[12-Jul-19 03:06 AM] TonyL#3577
+Beside of this popup and sticky warnings can't notice anything now. Animations are not so smooth as in chrome - but it's browser engine issue I wonder
+
+
+[12-Jul-19 05:46 AM] naezith#9757
+👍
+
+
+[12-Jul-19 07:18 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599243123180175383/JPEG_20190712_171804.jpg
+
+
+[12-Jul-19 07:20 AM] naezith#9757
+@TonyL discord camera is a mess, but as you see it works on ubuntu 18.04
+
+
+[12-Jul-19 07:20 AM] naezith#9757
+default installation firefox
+
+
+[12-Jul-19 07:21 AM] TonyL#3577
+👍 so very edge/deps case on my side it should be
+
+
+[12-Jul-19 07:22 AM] naezith#9757
+I hate to be that "it works for me" developer
+
+
+[12-Jul-19 07:22 AM] naezith#9757
+but I just can't reproduce
+
+
+[12-Jul-19 07:26 AM] naezith#9757
+tried on linux mint, it works again
+
+
+[12-Jul-19 07:27 AM] TonyL#3577
+I have `68.0 (64-bit)` installed
+
+
+[12-Jul-19 07:28 AM] naezith#9757
+ubuntu 16.04,  it works
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599245657961922630/unknown.png
+
+
+[12-Jul-19 07:28 AM] TonyL#3577
+maybe it's some Ubuntu 18.10 "tricks", let me try on 16.04 VM. Anyway I dont think many users can be affeced (maybe only me lol 😃 )
+
+
+[12-Jul-19 07:28 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599245815692656640/unknown.png
+
+
+[12-Jul-19 07:28 AM] naezith#9757
+mint
+
+
+[12-Jul-19 07:30 AM] TonyL#3577
+Like a charm on 16.04
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599246114914435082/unknown.png
+
+
+[12-Jul-19 07:30 AM] naezith#9757
+19.04
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599246256019341313/unknown.png
+
+
+[12-Jul-19 07:31 AM] naezith#9757
+I don't have 18.10
+
+
+[12-Jul-19 07:31 AM] naezith#9757
+is your firefox updated
+
+
+[12-Jul-19 07:32 AM] TonyL#3577
+yes `68.0 (64-bit) ` it's latest release (released just July 9)
+
+
+[12-Jul-19 07:33 AM] TonyL#3577
+but it worked before update same way - there are deps interconnected with firefox (gnome partially lets say as I understand) - maybe it's really deps issue
+
+
+[12-Jul-19 08:48 AM] Mylo#8306
+if.... you're using `display: flexbox;` in css, firefox doesn't play well with flexbox.   `display: block` will work better, but this will make something small change in chrome - which can be fixed by another minor edit, then it all works fine. 
+else....ignore if you're not using flexbox
+
+
+[12-Jul-19 11:14 PM] naezith#9757
+no flexbox but this. 
+
+```
+display: flex !important; 
+justify-content: center !important; 
+align-items: center !important;
+``` @Mylo
+
+
+[12-Jul-19 11:15 PM] Mylo#8306
+yes that's the one, let me search discord for previous suggestion to flex problem with firefox.
+
+
+[12-Jul-19 11:18 PM] Mylo#8306
+`display: block;` and it will break 2 very small things in chrome which are easy to fix with chrome dev tools for that section.
+
+
+[13-Jul-19 02:36 PM] naezith#9757
+how do you guys like this sort
+
+
+[13-Jul-19 02:36 PM] naezith#9757
+from "understandable" stuff to "full nerd"
+
+
+[13-Jul-19 02:38 PM] naezith#9757
+do you want any modifications
+
+
+[13-Jul-19 02:38 PM] naezith#9757
+about icons or order
+
+
+[13-Jul-19 02:45 PM] naezith#9757
+... sec ill send with better colors
+
+{Reactions}
+👍🏼 
+
+[13-Jul-19 02:50 PM] naezith#9757
+@ca333
+
+
+[13-Jul-19 02:54 PM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/599720320915603486/unknown.png
+
+
+[13-Jul-19 03:55 PM] ca333#0333
+we will likely replace few icons on there - miner nodes with a mining related icon like in https://www.iconfinder.com/search/?q=miner&from=homepage , atomicDEX icon, and so on. Will DM you these @naezith
+
+{Embed}
+https://www.iconfinder.com/search/?q=miner&from=homepage
+Miner icons - 376 free & premium icons on Iconfinder
+Download all the miner icons you need. Choose between 376 miner icons in both vector SVG and PNG format.
+     Related icons include worker icons, mining icons, avatar icons, construction icons
+https://images-ext-1.discordapp.net/external/hpm1-FN5FdEhn5khtGatkwydZx3LF8-oWfZh5I4lsio/%3F01f5058368/https/cdn.iconfinder.com/static/img/meta-generic.png
+
+
+[14-Jul-19 03:54 PM] naezith#9757
+don't launch anything please
+
+{Reactions}
+👌 
+
+[14-Jul-19 11:22 PM] ca333#0333
+@naezith please ensure the system is ready to go - as you know today is the big day. 🚀
+
+
+[14-Jul-19 11:27 PM] ca333#0333
+@Daniel CP @TS @Audo can you guys please check the copy/tooltip/texts a last time once updated and request any changes directly from @naezith
+
+@naezith please update the content based on the marketing feedback: https://docs.google.com/document/d/1piXFa0xga-yTC-8F5FEnOno4_BxzPPNJRBF0-SUFOJs/edit?usp=sharing
+
+@TonyL please run a last tech test once naezith validates the system is ready to go and in final state and post status into this channel.
+
+{Embed}
+https://docs.google.com/document/d/1piXFa0xga-yTC-8F5FEnOno4_BxzPPNJRBF0-SUFOJs/edit?usp=sharing
+Feedback about Blockchain Generator (UX/UI)
+COPY https://chainlizard.kmd.dev   (Komodo logo) WELCOME TO THE ANTARA SMART CHAIN COMPOSER  Launching your Smart Chain is as easy as 1 - 2 - 3.  STEP 1 Create an account  STEP 2 Choose your configurations  STEP 3 Launch your Smart Chain  /login and /signup  Billions of Confi...
+https://images-ext-1.discordapp.net/external/3vDbjM7g0bSx04jZkWLijpo-34RplvAGezO_HiFUAgY/https/lh3.googleusercontent.com/FNfncDJdQc7mxNQ5swlUC1xT-8jifFFLNZdKNVVwe31SQB6okwHcltCHD3C_0zDhQhq3yw%3Dw1200-h630-p
+
+{Reactions}
+👌 (2) 
+
+[15-Jul-19 01:17 AM] naezith#9757
+please ping me again when the docs is fully complete
+
+
+[15-Jul-19 01:17 AM] naezith#9757
+@Daniel CP
+
+
+[15-Jul-19 01:18 AM] Daniel CP#2020
+@naezith Everything is ready to go!
+
+
+[15-Jul-19 01:19 AM] naezith#9757
+oki
+
+
+[15-Jul-19 02:49 AM] naezith#9757
+@Daniel CP I think you forgot this one, only the perc is given
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600262712567529482/unknown.png
+
+
+[15-Jul-19 02:49 AM] naezith#9757
+left side is missing
+
+
+[15-Jul-19 02:50 AM] naezith#9757
+that shows up when Yes is selected
+
+
+[15-Jul-19 02:51 AM] naezith#9757
+also
+
+
+[15-Jul-19 02:51 AM] naezith#9757
+entire Tools page is missing
+
+
+[15-Jul-19 02:52 AM] naezith#9757
+prepare a chain, go to cart, remove one of the tools, this button will appear
+
+
+[15-Jul-19 02:52 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600263421572808704/unknown.png
+
+
+[15-Jul-19 02:52 AM] naezith#9757
+these
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600263523221766144/unknown.png
+
+
+[15-Jul-19 02:53 AM] naezith#9757
+and their `Learn more` modal
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600263650502246430/unknown.png
+
+
+[15-Jul-19 03:00 AM] Daniel CP#2020
+Ok thanks, will take a look at the tools page shortly
+
+
+[15-Jul-19 03:33 AM] ca333#0333
+fyi  -we are moving to production URLs shortly
+
+
+[15-Jul-19 03:40 AM] Daniel CP#2020
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600275398835699712/unknown.png
+
+
+[15-Jul-19 03:40 AM] Daniel CP#2020
+@naezith  my UX is a little different, I'm not seeing a tools page or pop ups
+
+
+[15-Jul-19 03:43 AM] TS#7923
+hey guys, reading back, I'll help with the missing text in a second.
+
+
+[15-Jul-19 03:43 AM] TonyL#3577
+@Daniel CP you have to delete some item on checkout page by red bin button and then press "add more tools to your blockchain"
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600276303891136512/unknown.png
+
+
+[15-Jul-19 03:44 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600276405208743936/unknown.png
+
+
+[15-Jul-19 03:44 AM] TonyL#3577
+Imo we can just make all elements on this cart page with +- (some thigs as an AtomicDEX listing for example just +- from 0 to 1) and deprecate this additional page at all
+
+
+[15-Jul-19 03:50 AM] Daniel CP#2020
+Ah OK I see
+
+
+[15-Jul-19 03:51 AM] Daniel CP#2020
+I'm actually tied up with something else right now but Torsten is gonna help out and get you guys the copy you need
+
+
+[15-Jul-19 03:52 AM] ca333#0333 (pinned)
+UX changes including UI modifications will take place post-beta - lets collect all feedback, bug reports and feature-requests in https://github.com/KomodoPlatform/composer/issues
+
+{Embed}
+https://github.com/KomodoPlatform/composer/issues
+KomodoPlatform/composer
+antara composer. Contribute to KomodoPlatform/composer development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Reactions}
+👍 
+
+[15-Jul-19 03:57 AM] ca333#0333
+Pinned a message.
+
+
+[15-Jul-19 04:24 AM] naezith#9757
+changing the domain
+
+
+[15-Jul-19 04:24 AM] naezith#9757
+site will be down/unstable for a while
+
+
+[15-Jul-19 04:27 AM] TonyL#3577
+should it be considered as `the system is ready to go ` and ready for final test?
+
+
+[15-Jul-19 04:40 AM] TS#7923
+team, can you help me qith two things, please?
+
+
+[15-Jul-19 04:40 AM] TS#7923
+1. What is "Public dashboard", what do we offer exactly?
+
+
+[15-Jul-19 04:40 AM] TS#7923
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600290625107132437/unknown.png
+
+
+[15-Jul-19 04:40 AM] TS#7923
+if this is not ready we should take this out
+
+
+[15-Jul-19 04:41 AM] TS#7923
+2. What is the difference between AtomicDEX listing and AtomicDEX mobile wallet listing? I guess nothing at this point so we should just keep AtomicDEX listing for now
+
+
+[15-Jul-19 04:41 AM] TS#7923
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600290841101074432/unknown.png
+
+
+[15-Jul-19 04:50 AM] TonyL#3577
+Public dashboard is the page with infomration about blockchain (same blockchain info page as user can see inside of composer but detached and without chain deletion feature)
+
+
+[15-Jul-19 04:52 AM] TonyL#3577
+`2. What is the difference between AtomicDEX listing and AtomicDEX mobile wallet listing? I guess nothing at this point so we should just keep AtomicDEX listing for now` 
+I wonder just AtomicDEX listing supposes steps to make coin compatible with mm2 protocol (coin params/electrums pr to coins repo for example), but it's better to confirm with @ca333 
+On this stage this option is a stub I think.
+
+
+[15-Jul-19 04:53 AM] TonyL#3577
+As a hot fix maybe make options which do nothing atm grey/inactive with "coming soon" in text?
+
+
+[15-Jul-19 04:54 AM] ca333#0333
+atomicdex mobile listing is the listing into the mobile dex app
+
+atomicdex listing is adding the coin and logo to coins list of supported coins on atomicdex repo and running a swap test
+
+
+[15-Jul-19 05:00 AM] TS#7923
+@TonyL is this public dashboard live / ready? Can you show me an example?
+
+
+[15-Jul-19 05:00 AM] TonyL#3577
+Yes, it's ready. Unfortunately I can't show example right now because a) website migrating b) all my blockchains were deleted
+
+
+[15-Jul-19 05:00 AM] TonyL#3577
+let me try to find some screenshot
+
+
+[15-Jul-19 05:01 AM] TS#7923
+@ca333 I think we should join the two options for now while we are still in beta, what do you think? I can mention both in the copy.
+
+
+[15-Jul-19 05:17 AM] TonyL#3577
+So dashboard in general is the page like this: https://media.discordapp.net/attachments/585490205751115777/596129777241554945/unknown.png?width=1391&height=597
+
+{Embed}
+https://media.discordapp.net/attachments/585490205751115777/596129777241554945/unknown.png?width=1391&height=597
+https://images-ext-2.discordapp.net/external/FRfXZLgFo63599sTEnaA-KRAdCTQsgqcmy5Yrt0jcdI/%3Fwidth%3D1391%26height%3D597/https/media.discordapp.net/attachments/585490205751115777/596129777241554945/unknown.png
+
+
+[15-Jul-19 05:17 AM] TonyL#3577
+dont have better screenshot sorry, in general there is more params/infos
+
+
+[15-Jul-19 05:43 AM] TS#7923
+this is great, thanks!
+
+
+[15-Jul-19 06:08 AM] TS#7923
+The missing copy is at the very end of this document: https://docs.google.com/document/d/1piXFa0xga-yTC-8F5FEnOno4_BxzPPNJRBF0-SUFOJs/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/document/d/1piXFa0xga-yTC-8F5FEnOno4_BxzPPNJRBF0-SUFOJs/edit?usp=sharing
+Feedback about Blockchain Generator (UX/UI)
+COPY https://chainlizard.kmd.dev   (Komodo logo) WELCOME TO THE ANTARA SMART CHAIN COMPOSER  Launching your Smart Chain is as easy as 1 - 2 - 3.  STEP 1 Create an account  STEP 2 Choose your configurations  STEP 3 Launch your Smart Chain  /login and /signup  Billions of Confi...
+https://images-ext-1.discordapp.net/external/3vDbjM7g0bSx04jZkWLijpo-34RplvAGezO_HiFUAgY/https/lh3.googleusercontent.com/FNfncDJdQc7mxNQ5swlUC1xT-8jifFFLNZdKNVVwe31SQB6okwHcltCHD3C_0zDhQhq3yw%3Dw1200-h630-p
+
+
+[15-Jul-19 06:25 AM] Mylo#8306
+This looks great!
+
+
+[15-Jul-19 07:43 AM] naezith#9757
+I was editing `/iguana/m_splitfund` kind of couple files to enable dPoW, seems like you removed them @artem.pikulin what should I do now
+
+
+[15-Jul-19 07:45 AM] naezith#9757
+@ca333
+
+
+[15-Jul-19 07:47 AM] artem.pikulin#0794
+@naezith Hi, is your question related to MM2? The `iguana` part is was completely removed from MM2 repo. Please use https://github.com/jl777/SuperNET/  repo for iguana.
+
+{Embed}
+https://github.com/jl777/SuperNET/
+jl777/SuperNET
+Contribute to jl777/SuperNET development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[15-Jul-19 07:48 AM] naezith#9757
+do the same things on that repo right?
+
+
+[15-Jul-19 07:53 AM] artem.pikulin#0794
+MM2 development is unrelated to iguana for long time, MM2 changes should not be repeated on main iguana repo.
+
+
+[15-Jul-19 08:06 AM] ca333#0333
+its irrelevant @naezith - fork supernet from jl777/supernet to chainlizard/supernet and do the modifications there. as aforementioned these will be merged to jl777/supernet after a manual review.
+
+
+[15-Jul-19 09:30 AM] naezith#9757
+okay it's ready for tests, @TonyL I still didn't check the double-payable paypal issue, will do now
+
+
+[15-Jul-19 09:37 AM] naezith#9757
+I'll update the tool page texts now
+
+
+[15-Jul-19 09:43 AM] TonyL#3577
+@naezith could you please share actual domain?
+
+
+[15-Jul-19 09:43 AM] naezith#9757
+https://composer.kmd.io/c/NAE
+
+
+[15-Jul-19 09:44 AM] TonyL#3577
+thanks!
+
+
+[15-Jul-19 09:48 AM] TonyL#3577
+still stub text on this page @naezith
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600368187225276417/unknown.png
+
+
+[15-Jul-19 09:50 AM] TonyL#3577
+https://docs.google.com/document/d/1piXFa0xga-yTC-8F5FEnOno4_BxzPPNJRBF0-SUFOJs/edit text for this page was added to this file end
+
+{Embed}
+https://docs.google.com/document/d/1piXFa0xga-yTC-8F5FEnOno4_BxzPPNJRBF0-SUFOJs/edit
+Feedback about Blockchain Generator (UX/UI)
+COPY https://chainlizard.kmd.dev   (Komodo logo) WELCOME TO THE ANTARA SMART CHAIN COMPOSER  Launching your Smart Chain is as easy as 1 - 2 - 3.  STEP 1 Create an account  STEP 2 Choose your configurations  STEP 3 Launch your Smart Chain  /login and /signup  Billions of Confi...
+https://images-ext-1.discordapp.net/external/3vDbjM7g0bSx04jZkWLijpo-34RplvAGezO_HiFUAgY/https/lh3.googleusercontent.com/FNfncDJdQc7mxNQ5swlUC1xT-8jifFFLNZdKNVVwe31SQB6okwHcltCHD3C_0zDhQhq3yw%3Dw1200-h630-p
+
+
+[15-Jul-19 10:00 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600371206314655754/unknown.png
+
+
+[15-Jul-19 10:00 AM] naezith#9757
+this is sad
+
+
+[15-Jul-19 10:01 AM] naezith#9757
+why do we remove  it
+
+
+[15-Jul-19 10:01 AM] naezith#9757
+@TS two lines of text, that's all, no?
+
+
+[15-Jul-19 10:02 AM] naezith#9757
+@TonyL can you give me two lines for atomicdex mobile listing
+
+
+[15-Jul-19 10:13 AM] naezith#9757
+List your asset on the mobile AtomicDEX application
+
+
+[15-Jul-19 10:13 AM] naezith#9757
+that's enough for now
+
+{Reactions}
+👌 
+
+[15-Jul-19 10:13 AM] naezith#9757
+I can add something else later if you want
+
+
+[15-Jul-19 10:15 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600374802490064916/unknown.png
+
+
+[15-Jul-19 10:15 AM] TonyL#3577
+https://kmdexplorer.io/tx/cef3c8086d202da341116f6125ca010d268cdaf34cf2a9192ea2a43274af5150 16 confirmations on payment - still no info in coinpayments
+
+
+[15-Jul-19 10:15 AM] TonyL#3577
+maybe they are not passed fork smooth 🤔
+
+
+[15-Jul-19 10:16 AM] TonyL#3577
+@SHossain do you know if coinpayments updated komodod?
+
+
+[15-Jul-19 10:18 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600375739581464615/Screenshot_from_2019-07-15_18-18-31.png
+
+
+[15-Jul-19 10:22 AM] TonyL#3577
+ok, lets wait so 😃
+
+
+[15-Jul-19 10:23 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600376898371059779/unknown.png
+
+
+[15-Jul-19 10:24 AM] TonyL#3577
+```this is sad
+why do we remove  it``` - I believe it's just a proposal
+
+
+[15-Jul-19 10:25 AM] TonyL#3577
+I think you can just remove stub text for now from this print @naezith
+
+
+[15-Jul-19 10:25 AM] TonyL#3577
+and left green sentence and next after it
+
+
+[15-Jul-19 10:25 AM] naezith#9757
+I cut lorem part
+
+
+[15-Jul-19 10:37 AM] TonyL#3577
+payment for another chain in DOGE was quite fast, for KMD payment waiting for a one hour already - seems KMD not working on coinpayments side at the moment
+
+
+[15-Jul-19 10:51 AM] TonyL#3577
+@SHossain Could you please contact coinpayments? It looks like KMD payments not working from their side at the moment (most probably it's hardfork related because just 2 days ago I paid fine).
+
+Example of problem payment (I paid full sum to provided adress but payment status never changed, with DOGE payment was smooth): 
+order ID: 5d2caee41194e61dbfc48108
+ Payment ID: CPDG2YLGN2GPR042RYUOVKCJIC 
+txid: https://kmdexplorer.io/tx/cef3c8086d202da341116f6125ca010d268cdaf34cf2a9192ea2a43274af5150
+
+
+[15-Jul-19 10:53 AM] SHossain#0007
+@polycryptoblog ^^
+
+
+[15-Jul-19 11:37 AM] polycryptoblog#1173
+Ok I will send them a message and try to see what is going on
+
+
+[15-Jul-19 11:49 AM] polycryptoblog#1173
+Hopefully it’s a simple issue
+
+
+[15-Jul-19 11:58 AM] SHossain#0007
+thanks @polycryptoblog
+
+
+[15-Jul-19 11:59 AM] SHossain#0007
+could be they didn't restart daemon after the update?
+
+
+[15-Jul-19 11:59 AM] SHossain#0007
+Ledger is having issues today after the fork
+
+
+[15-Jul-19 11:59 AM] polycryptoblog#1173
+that might be it,  did seem strange they updated so quickly after my message last month
+
+
+[15-Jul-19 11:59 AM] SHossain#0007
+after spending enough time with them, they went home and will continue tomorrow
+
+
+[15-Jul-19 12:00 PM] SHossain#0007
+😄
+
+
+[15-Jul-19 12:07 PM] TonyL#3577
+On attempt to pay by LTC/BCH/DASH/ETH with current prices user will get such message:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600403145499082759/unknown.png
+
+
+[15-Jul-19 12:16 PM] TonyL#3577
+so we have to rise prices or remove these currencies
+
+
+[15-Jul-19 12:16 PM] ca333#0333
+this^ is irrelevant @TonyL - it is basically "dust-tx" prevention. Once we update to real prices they will be above the minimum..
+
+
+[15-Jul-19 12:16 PM] TonyL#3577
+oh ok, I thought current prices are real already 😃
+
+
+[15-Jul-19 12:17 PM] TonyL#3577
+like a opening promotion hehe
+
+
+[15-Jul-19 12:17 PM] ca333#0333
+oh no - that would be tooo cheap 😄
+
+
+[15-Jul-19 12:33 PM] TonyL#3577
+I think there is no more critical issues at the moment ( at least detected ones 😃 ) so with higher prices and temporary disabled KMD as a payment method we can show composer to wider auditory @ca333
+
+
+[15-Jul-19 12:51 PM] Audo#5667
+what was the URL? Was it https://chainlizard.kmd.dev/? I get privacy warning and can't get in
+
+
+[15-Jul-19 12:54 PM] ca333#0333
+@Audo composer.kmd.io is the production URL
+
+
+[15-Jul-19 12:54 PM] Audo#5667
+alright, thanks
+
+
+[15-Jul-19 12:54 PM] Audo#5667
+need a screenshot 😉
+
+{Reactions}
+👍🏼 
+
+[15-Jul-19 01:18 PM] naezith#9757
+please verify the prices @ca333
+
+
+[15-Jul-19 01:44 PM] ca333#0333
+timeframe missing - will DM you details @naezith
+
+
+[15-Jul-19 02:39 PM] naezith#9757
+please verify the prices @ca333
+
+{Reactions}
+✅ 
+
+[15-Jul-19 04:07 PM] TS#7923
+Guys, we are going to announce Composer soon
+
+
+[15-Jul-19 04:07 PM] TS#7923
+Can you please make sure that the site has a nice thumbnail and description when shared on Twitter?
+
+
+[15-Jul-19 04:08 PM] TS#7923
+See here: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image
+
+{Embed}
+https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image
+Summary with large image
+
+
+[15-Jul-19 04:34 PM] naezith#9757
+can you quickly provide all the required fields @TS
+
+
+[15-Jul-19 04:37 PM] TS#7923
+will do @naezith ! Creating a thumbnail image, hang on for a few min
+
+
+[15-Jul-19 04:38 PM] naezith#9757
+alright I'm waiting, will sleep asap afterwards
+
+
+[15-Jul-19 04:48 PM] TS#7923
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@komodoplatform">
+<meta name="twitter:title" content="Antara Smart Chain Composer">
+<meta name="twitter:description" content="Antara Composer lets anyone customize and launch a Smart Chain, complete with full seed nodes and mining nodes, in just minutes.">
+<meta name="twitter:image" content="URL_PATH_TO_THE_IMAGE">
+
+
+[15-Jul-19 04:48 PM] naezith#9757
+please
+
+
+[15-Jul-19 04:48 PM] naezith#9757
+cover this in
+
+
+[15-Jul-19 04:48 PM] TS#7923
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600473915722301501/composer_twitter.png
+
+
+[15-Jul-19 04:49 PM] TS#7923
+please upload the image to the server ^^^
+
+
+[15-Jul-19 04:49 PM] TS#7923
+and change the URL
+
+
+[15-Jul-19 04:49 PM] naezith#9757
+```
+
+
+[15-Jul-19 04:50 PM] naezith#9757
+no file hosting on the server
+
+
+[15-Jul-19 04:51 PM] ca333#0333
+will upload it somewhere - one moment
+
+
+[15-Jul-19 04:52 PM] ca333#0333
+done & DM'd
+
+
+[15-Jul-19 04:53 PM] naezith#9757
+added those lines to the site
+
+
+[15-Jul-19 04:53 PM] naezith#9757
+if that's all we need to do
+
+
+[15-Jul-19 04:54 PM] ca333#0333
+one moment
+
+
+[15-Jul-19 04:55 PM] ca333#0333
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/600475652809818112/composer.png
+
+
+[15-Jul-19 04:55 PM] ca333#0333
+yes - looks good.
+
+
+[15-Jul-19 04:56 PM] ca333#0333
+@TS ^
+
+
+[15-Jul-19 04:56 PM] TS#7923
+perfect, thank you guys!
+
+
+[15-Jul-19 05:32 PM] hyperDEX#6586
+Guys who is doing socials?
+
+
+[16-Jul-19 09:29 AM] naezith#9757
+cool discord also parses those twitter info https://composer.kmd.io/
+
+{Embed}
+https://composer.kmd.io/
+Antara Smart Chain Composer
+Antara Composer lets anyone customize and launch a Smart Chain, complete with full seed nodes and mining nodes, in just minutes.
+https://images-ext-1.discordapp.net/external/6NHX8s2Y9s6H5eiUNVQhMDfUX9TEhhgjIY3T2ojetZ4/https/i.imgur.com/URjE63B.png
+
+{Reactions}
+👍🏼 
+
+[17-Jul-19 02:03 AM] jl777c#5810
+in order to activate a specific CCs you can do this with -ac_ccenable=nn, nn, nn...
+
+{Reactions}
+✅ 
+
+[17-Jul-19 02:04 AM] jl777c#5810
+most of the CC are built in and that would work, for the ones like dilithium that are in a libcc, you need to link in that libcc, or maybe there are just a few prebuilt komodod with each libcc
+
+
+[17-Jul-19 03:53 AM] ca333#0333
+yes - we will add CC (Antara modules) next together with dynamic timeframes (3 - N months) for the chain-subscriptions.
+
+
+[17-Jul-19 06:58 AM] naezith#9757
+composer does not use `ac_ccenable` for now
+
+
+[17-Jul-19 06:58 AM] naezith#9757
+only `ac_cc`
+
+
+[17-Jul-19 06:59 AM] jl777c#5810
+that would enable them all, which is ok too, if that is what the customer wants
+
+
+[18-Jul-19 01:29 AM] Mylo#8306
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/601329795481206784/unknown.png
+
+
+[18-Jul-19 01:30 AM] Mylo#8306
+my saved chain from earlier in the day is not in "My blockchains" list, i didn't pay of it.  but the ticker is still unavailable & i can't access my saved template
+
+
+[18-Jul-19 01:31 AM] Mylo#8306
+found it in my cart, sorry for the bother
+
+
+[20-Jul-19 12:26 AM] gcharang#6833
+I am not sure if it is intentional, but the clusters section doesn't indicate that it enables Antara modules.
+
+Is it possible to change the section name to "Antara Modules"
+and add the options N=0 and N=1 too ? (for the cases: disable antara modules and enable antara modules but disable crosschain stuff)
+
+Also the description of "Non-fungible" case should have: "less than 100"
+and "fungible" case should have: "greater than 99"
+https://developers.komodoplatform.com/basic-docs/antara/antara-setup/antara-customizations.html#summary-of-ac-cc
+@ca333 @naezith
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/602038659654352903/Screenshot_from_2019-07-20_12-52-45.png
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/antara/antara-setup/antara-customizations.html
+Antara Customizations | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[20-Jul-19 02:42 AM] naezith#9757
+someone please review and take the final decisions, I will do the changes then
+
+
+[20-Jul-19 03:52 AM] ca333#0333
+yes - lets orientate towards https://developers.komodoplatform.com/basic-docs/antara/antara-setup/antara-customizations.html#ac-cc and gcharangs suggestion @naezith - @Alright can you please help us with the review once this is done.
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/antara/antara-setup/antara-customizations.html
+Antara Customizations | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[20-Jul-19 04:08 AM] naezith#9757
+did these two changes:
+- change CLUSTERS  to ANTARA MODULES
+- description of "Non-fungible" case should have: "less than 100"  "fungible" case should have: "greater than 99"
+
+
+[20-Jul-19 04:11 AM] naezith#9757
+we don't have any special rule for N=0 and N=1 @gcharang
+
+
+[20-Jul-19 04:12 AM] naezith#9757
+I mean you can set it to 0 and 1
+
+
+[20-Jul-19 04:15 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/602096163046555651/unknown.png
+
+
+[20-Jul-19 04:15 AM] naezith#9757
+anything else?
+
+
+[20-Jul-19 06:57 AM] Alright#0419
+if the chain is meant to be fungible with others, it requires dpow and the number must be reserved
+
+
+[20-Jul-19 06:58 AM] Alright#0419
+so like if one customer makes ac_cc=312 chain, no other chains can use 312 unless that customer allows it
+
+{Reactions}
+☝ 
+
+[20-Jul-19 07:13 AM] Alright#0419
+0 should not be a valid value btw, that is the equivalent of not setting ac_cc at all
+
+
+[22-Jul-19 09:05 AM] gcharang#6833
+@naezith 
+
+my suggestion is:
+
+```
+Section name: Antara modules
+
+Show 3 options
+- Antara modules disabled ---> don't include  "-ac_cc" in the chain params at all
+- Antara modules enabled but no crosschain validation ---> "-ac_cc=1" (a chain that doesn't want to scale at all)
+- Antara modules enabled and crosschain validation is also enabled.
+  |   If this case is selected, then show these two sub options
+  | - non-fungible case ---> "-ac_cc=N" N >= 2 and <= 99 (chains that can interact with other chains to create some complex logic like fitbit tokens transfering to a insurance chain to activate an Antara module)
+  | - fungible case ---> "-ac_cc=N" N >= 100 (chains that can scale and increase their txn/sec)
+```
+@Alright can you confirm the above description is correct?
+
+
+[22-Jul-19 09:07 AM] Alright#0419
+it's correct
+
+
+[22-Jul-19 09:07 AM] Alright#0419
+nothing really uses momom over than burn protocol right now, so 2-99 is just future proofing
+
+
+[22-Jul-19 09:12 AM] naezith#9757
+okay I can do the changes, do you approve @ca333 ?
+
+{Reactions}
+✅ 
+
+[22-Jul-19 09:14 AM] Alright#0419
+```
+  | - non-fungible case ---> "-ac_cc=N" N >= 2 and <= 99 (chains that can interact with other chains to create some complex logic like fitbit tokens transfering to a insurance chain to activate an Antara module)
+  | - fungible case ---> "-ac_cc=N" N >= 100 (chains that can scale and increase their txn/sec)
+```
+@gcharang @naezith maybe mention this requires dpow
+
+
+[22-Jul-19 09:16 AM] naezith#9757
+current system does not check if dpow is in same cart
+
+
+[22-Jul-19 09:16 AM] naezith#9757
+since dpow is added after all these stuff are selected
+
+
+[22-Jul-19 09:20 AM] gcharang#6833
+@naezith if the third option 
+```
+Antara modules enabled and crosschain validation is also enabled.
+```
+is selected, mention there that subscribing to dPoW is mandatory in the selection screen
+
+Later in the cart, if the user tries to go to the Payment screen without adding dPoW, throw an error saying "either select dPoW or go back to change the Antara module to the `-ac_cc=1` case"?
+
+
+[22-Jul-19 09:32 AM] Alright#0419
+it's a weird situation because nothing actually uses momom right now other than burn protocol
+
+
+[22-Jul-19 09:32 AM] Alright#0419
+a default value of ac_cc=2 would work for 99% of people
+
+
+[22-Jul-19 09:33 AM] Alright#0419
+practically, there is no difference between ac_cc=1 and ac_cc=2 right now
+
+
+[22-Jul-19 09:34 AM] Alright#0419
+the reserving any ac_cc value >99 is vitally important btw
+
+
+[22-Jul-19 09:34 AM] Alright#0419
+so if you can't do that right now, wouldn't support >99 for now
+
+
+[22-Jul-19 09:36 AM] Alright#0419
+Let's say Alice makes new coin with ac_cc=101, if Bob can create another ac_cc=101 chain and have it added to the same dpow network, Bob can make millions of coins on his chain and import them to Alice's
+
+
+[22-Jul-19 10:24 AM] ca333#0333
+approved @naezith
+
+
+[23-Jul-19 12:34 AM] naezith#9757
+👍 noted
+
+
+[03-Aug-19 07:21 AM] naezith#9757
+can someone assist
+
+
+[03-Aug-19 07:21 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/607216531880804363/unknown.png
+
+
+[03-Aug-19 07:22 AM] naezith#9757
+24611 coins
+
+
+[03-Aug-19 07:22 AM] naezith#9757
+`transaction too large`
+
+
+[03-Aug-19 07:22 AM] naezith#9757
+code runs when I click the withdraw button
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/607216795685879810/unknown.png
+
+
+[03-Aug-19 07:23 AM] naezith#9757
+can you explain @jl777c
+
+
+[03-Aug-19 07:23 AM] jl777c#5810
+too many inputs
+
+
+[03-Aug-19 07:23 AM] naezith#9757
+`/home/ubuntu/komodo/src/komodo-cli -ac_name=${ac_name} sendtoaddress ${withdrawal.kmd_address} $(/home/ubuntu/komodo/src/komodo-cli -ac_name=${ac_name} getbalance) "" "" true`
+
+
+[03-Aug-19 07:23 AM] jl777c#5810
+send smaller amounts
+
+
+[03-Aug-19 07:24 AM] jl777c#5810
+you have no guarantee that you can send your entire balance
+
+
+[03-Aug-19 07:24 AM] naezith#9757
+can you give me a safer line
+
+
+[03-Aug-19 07:24 AM] naezith#9757
+which would work
+
+
+[03-Aug-19 07:25 AM] naezith#9757
+though I do exactly the same when I send the premined coins
+
+
+[03-Aug-19 07:25 AM] naezith#9757
+250,000
+
+
+[03-Aug-19 07:25 AM] naezith#9757
+that works and this doesn't, why
+
+
+[03-Aug-19 07:30 AM] naezith#9757
+okay ca explained the reason why it happens nicely
+
+
+[03-Aug-19 07:30 AM] naezith#9757
+now I need to definition or implementation of `smaller amounts`
+
+
+[03-Aug-19 07:30 AM] naezith#9757
+what is the highest safe amount
+
+
+[03-Aug-19 07:56 AM] naezith#9757
+and will it be same for all chains
+this value I'll find
+
+
+[03-Aug-19 08:11 AM] jl777c#5810
+you can use about 500 inputs
+
+
+[03-Aug-19 08:12 AM] jl777c#5810
+so if it is mining and has a lot of block rewards 500x blockreward would be the cap
+
+
+[03-Aug-19 08:12 AM] jl777c#5810
+all depends on actual utxos
+
+
+[03-Aug-19 08:32 AM] naezith#9757
+`1000` works
+
+
+[03-Aug-19 08:32 AM] naezith#9757
+I'll set it 500 then
+
+
+[03-Aug-19 08:34 AM] jl777c#5810
+there is no one size fits all
+
+
+[03-Aug-19 08:36 AM] naezith#9757
+what should I do then
+
+
+[03-Aug-19 08:37 AM] naezith#9757
+something smaller like 100?
+
+
+[03-Aug-19 08:39 AM] jl777c#5810
+for 250,000?
+
+
+[03-Aug-19 08:39 AM] jl777c#5810
+i would try to send all, if it fails, send half
+
+
+[03-Aug-19 08:39 AM] jl777c#5810
+if that fails send quarter
+
+
+[03-Aug-19 08:39 AM] jl777c#5810
+until it works
+
+
+[03-Aug-19 09:34 AM] naezith#9757
+okay so there is no pure math we can get from supply or something
+
+
+[03-Aug-19 09:39 AM] jl777c#5810
+depends on exact state of wallet
+
+
+[03-Aug-19 09:39 AM] jl777c#5810
+the limit is that each tx cant be larger than 200kb
+
+
+[03-Aug-19 09:39 AM] jl777c#5810
+each input needs to be signed, so that is 120 bytes or so, but depending on the type of input, can be a lot bigger
+
+
+[03-Aug-19 09:40 AM] jl777c#5810
+its like trying to figure out exactly how many drops of rain a specific area on earth will get, and not knowing where or when
+
+
+[05-Aug-19 12:45 AM] gcharang#6833
+I am not sure if it is clear, the problem is not the "amount of coins"; atleast not directly
+the actual problem is the number of inputs the total value is in
+
+Ex: 250000 coins available in 1 input vs 1000 inputs that each have 250 coins
+the transaction to send 250000 in the first case will be very small (in terms of data size)
+the transaction to send 250000 in the second case is very large(in terms of data size) as it needs to include details about 1000 different inputs and sign all of them
+
+as there is a limit on the maximum size a transaction can be, the above difference matters
+
+
+[05-Aug-19 02:30 AM] gcharang#6833
+you could run this script or similar: https://github.com/TheComputerGenie/Misc_Stuff/blob/master/Wallet%20stuff/Consolidate.sh
+on a crontab to consolidate the coins from a large number of utxos on mining nodes
+
+{Embed}
+https://github.com/TheComputerGenie/Misc_Stuff/blob/master/Wallet%20stuff/Consolidate.sh
+TheComputerGenie/Misc_Stuff
+It's gotta go somewhere, so why not here? Contribute to TheComputerGenie/Misc_Stuff development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/adRejDCWKzHVNAVZ6UL6nBXNwlKQQqBa7TNG66sm2VQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21057518
+
+
+[05-Aug-19 06:11 AM] naezith#9757
+trying to send and halving the amount at every failure works well
+
+{Reactions}
+👍 
+
+[05-Aug-19 10:47 AM] naezith#9757
+@gcharang can you provide more professional texts
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/607992983643750400/unknown.png
+
+
+[05-Aug-19 10:47 AM] naezith#9757
+and is it looking as you wanted
+
+
+[06-Aug-19 01:41 AM] gcharang#6833
+@naezith 
+that looks correct
+
+for the first option, 
+```
+don't include -ac_cc in the chain parameters at all
+```
+that would disable Antara modules
+
+Regarding the texts, the content is accurate. @Daniel CP would be of more help making the copy better
+
+
+[06-Aug-19 01:43 AM] naezith#9757
+yeah it does `don't include -ac_cc in the chain parameters at all`
+
+
+[06-Aug-19 01:43 AM] naezith#9757
+I'll type that instead then
+
+{Reactions}
+👍 
+
+[06-Aug-19 04:44 AM] Daniel CP#2020
+Hey guys, I think that copy works
+
+
+[06-Aug-19 04:45 AM] Daniel CP#2020
+''Do not include -ac_CC in your Smart Chain's parameters''
+
+
+[06-Aug-19 04:45 AM] Daniel CP#2020
+I'd suggest using this ^
+
+{Reactions}
+👍 
+
+[07-Aug-19 10:51 AM] naezith#9757
+@TonyL 
+here is an update which might create issues:
+
+```
+- Reimplemented "Antara Modules" UI.
+- Improved ticker input box, space and letters like Ş Ç Ö are not being typed.
+- Tiny UI tweaks.
+- Fixed and tested the withdraw issue fully.
+- Added Subscription Month Selectors to Cart Page, Cart Sidebar and Tools Page.
+- Changed prices.
+- Website is served built/statically instead of in development mode.
+```
+
+
+[07-Aug-19 10:52 AM] naezith#9757
+so now we have subscription length option
+
+
+[07-Aug-19 10:52 AM] naezith#9757
+1-3-6-12 months
+
+
+[07-Aug-19 10:53 AM] naezith#9757
+though subscription is not implemented on server-side yet
+
+
+[07-Aug-19 10:54 AM] naezith#9757
+like they don't cancel after 1 month atm, that's the next thing I'll be working on now
+
+
+[07-Aug-19 10:55 AM] TonyL#3577
+Thank you for updates @naezith ! For now we're fine with video I shown you yesterday. I can help to fully test subscription logic when it's ready and make another one with different scenario - lets say another business case with some tricky rewards scheme and monthly payments
+
+
+[08-Aug-19 01:42 AM] ca333#0333
+@TonyL @smkhound plz test ^
+
+{Reactions}
+👍🏼 
+
+[08-Aug-19 02:14 AM] smkhound#7640
+I reset password, and after a couple min got reset link. Entered/confirmed new password, screen says to check email for verification link. 30 min later, still no email. 
+Clicked resend... waiting.
+
+
+[08-Aug-19 02:17 AM] smkhound#7640
+Is email verification after password reset neccessary? Seems duplicate action after already using the password reset link which was emailed to same address.
+
+
+[08-Aug-19 02:25 AM] smkhound#7640
+verification link arrived after manual resent button clicked.
+email link text != href makes spam detection unhappy
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/608953924095049729/unknown.png
+
+
+[08-Aug-19 02:42 AM] smkhound#7640
+- confirm space and special chars not being input for ticker.
+- suggest dynamic $ value next to subscription item values, and column each for monthly / total for item
+ - cancel and return from coinpayments page clears pending chain order (not sue if intended, just mentioning). Assuming payment works, did not test.
+
+
+[09-Aug-19 02:31 AM] naezith#9757
+I thought about this but there is no space in the row `- suggest dynamic $ value next to subscription item values, and column each for monthly / total for item`
+
+
+[09-Aug-19 02:32 AM] naezith#9757
+I can add it inside the select dropdown maybe
+
+
+[09-Aug-19 02:32 AM] naezith#9757
+yes `- cancel and return from coinpayments page clears pending chain order `
+
+
+[09-Aug-19 02:54 AM] naezith#9757
+whoa that email link thingy is so weird
+
+
+[09-Aug-19 02:54 AM] naezith#9757
+it's basically plain text in the code
+
+
+[09-Aug-19 02:55 AM] naezith#9757
+sendgrid turns it into their own url somehow
+
+
+[09-Aug-19 02:55 AM] naezith#9757
+@smkhound there shouldn't be any email verification after password reset
+
+
+[09-Aug-19 02:55 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/609323971237904404/unknown.png
+
+
+[09-Aug-19 02:56 AM] naezith#9757
+this happens for me
+
+
+[09-Aug-19 02:56 AM] naezith#9757
+email verification should occur only if you didn't do email verification before
+
+
+[09-Aug-19 02:59 AM] smkhound#7640
+I recall having some problem recieving the verification link testing early on, I think I used gmail on the second attempt to get in so that makes sense. The address used last night probably wasnt verified until yesterday
+
+
+[09-Aug-19 03:01 AM] smkhound#7640
+this might help with the link issue - https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-link-branding/#what-is-link-branding
+
+{Embed}
+https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-link-branding/
+How to set up link branding
+Set up link branding to improve your deliverability and security of your emails.
+https://images-ext-2.discordapp.net/external/pA2l6hrSgeHFFkprjZPUeqWTb9vwYTW-Z6E2AEYAfQc/https/sendgrid.com/brand/sg-twilio/SG_Twilio_Lockup_Social.png
+
+
+[09-Aug-19 05:01 AM] naezith#9757
+this is really absurd
+
+
+[09-Aug-19 05:01 AM] naezith#9757
+@ca333 can you check what's going on within the sendgrid dashboard please?
+
+
+[09-Aug-19 05:03 AM] naezith#9757
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/609356016760520717/unknown.png
+
+
+[09-Aug-19 05:11 AM] ca333#0333
+checking shortly @naezith
+
+
+[06-Sep-19 06:59 AM] naezith#9757
+I need some new lines
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/619532250819854367/unknown.png
+
+
+[06-Sep-19 07:00 AM] naezith#9757
+Nodes got been separated to "Base Nodes" and "Nodes", latter is being extra
+
+
+[06-Sep-19 07:01 AM] naezith#9757
+@Daniel CP
+
+
+[06-Sep-19 07:02 AM] naezith#9757
+that "You need at least two nodes to run a Smart Chain" is now the "Base Nodes"
+
+
+[06-Sep-19 07:02 AM] naezith#9757
+though I think we should hide that "two" so quantity will be a mystery
+
+
+[06-Sep-19 07:44 AM] Daniel CP#2020
+Hi @naezith I'm happy to help but not sure what you need
+
+
+[06-Sep-19 07:45 AM] Daniel CP#2020
+Should I write 3 new lines for the "NODES" page on the right in the image you sent?
+
+
+[06-Sep-19 07:50 AM] naezith#9757
+both needs to be updated I think
+
+
+[06-Sep-19 07:50 AM] naezith#9757
+doesn't have to be `new` lines but I need to fill them, so 6 lines
+
+
+[06-Sep-19 08:59 AM] Daniel CP#2020
+OK sure, no problem. I'll get it done shortly
+
+
+[09-Sep-19 02:50 AM] naezith#9757
+@Daniel CP any update?
+
+
+[09-Sep-19 02:52 AM] naezith#9757
+btw the site is updated, now we have Subscription working fully.  also it's possible now to add new tools and nodes, or extend the tool subscription of existing chains
+
+
+[09-Sep-19 02:56 AM] Daniel CP#2020
+Sorry, forgot to get this done over the weekend
+
+
+[09-Sep-19 02:56 AM] Daniel CP#2020
+I still need a bit more context. What is the difference between Base Nodes and Nodes?
+
+
+[09-Sep-19 02:57 AM] Daniel CP#2020
+If we are requiring two base nodes for every Smart Chain, would it make sense to remove that from the UI completely? And just encourage people to add more nodes?
+
+
+[09-Sep-19 03:05 AM] naezith#9757
+since we have subscription system, nodes get terminated when subscription expires. but we need two base nodes to stay alive because the tools depend on them. so we have a fixed price for the base nodes which will live as long as chain is alive, and extra nodes can be created and expire/die separately @Daniel CP
+
+
+[09-Sep-19 03:13 AM] Daniel CP#2020
+https://docs.google.com/document/d/1kz7AFFkX7TQHnUMiDSuSUWAOZtIhYGVVlH8lF_E3kdg/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/document/d/1kz7AFFkX7TQHnUMiDSuSUWAOZtIhYGVVlH8lF_E3kdg/edit?usp=sharing
+Base Nodes & Nodes
+Base Nodes  Decentralized networks must have more than one node, by definition A minimum of 2 base nodes is required for running your Smart Chain Each node keeps a copy of your Smart Chain’s distributed ledger  Nodes  Additional nodes boost the security and decentralization...
+https://images-ext-1.discordapp.net/external/vJkH9hVckuf-6zlmztG8iTmP17Gt_056yGtrpv7zMBU/https/lh5.googleusercontent.com/BqjHp5RoYcnQ1WBNVeCmWQ4y-6huHl2a5DDiu3GhnCtAMhpb8XFSWRAj-iUv94Fl3tr1sg%3Dw1200-h630-p
+
+
+[09-Sep-19 03:13 AM] Daniel CP#2020
+Ok I think this will work @naezith
+
+
+[09-Sep-19 03:23 AM] naezith#9757
+perfect, thanks
+
+
+[09-Sep-19 03:27 AM] Daniel CP#2020
+No problem
+
+
+[12-Oct-19 02:35 AM] runpaint#7773
+We're about to launch a blockchain with Antara Composer.  How soon can we be added to the AtomicDEX mobile app?
+
+{Reactions}
+😃 
+
+[12-Oct-19 04:54 AM] runpaint#7773
+I completed checkout, but my bank declined the transaction for a security check.  The order history says I should get a Coinpayments email, but I haven't gotten one.
+
+
+[12-Oct-19 05:07 AM] Regnar#6164
+@ca333 ^
+
+{Reactions}
+👍 
+
+[12-Oct-19 05:15 AM] ca333#0333
+If you took the "atomicDEX Mobile Wallet Listing" it will take less than a week to list you in the AtomicDEX mobile app @runpaint
+
+{Reactions}
+AntaraFramework (3) 
+
+[12-Oct-19 05:16 AM] runpaint#7773
+Thanks!
+
+
+[12-Oct-19 02:41 PM] Oszy#5734
+@runpaint  welcome aboard 🙂
+
+
+[12-Oct-19 03:22 PM] runpaint#7773
+@Oszy thanks!
+
+
+[19-Oct-19 10:51 AM] runpaint#7773
+Golden Crypto Commodity is launching with Antara Composer.  Everything's almost ready, so we went ahead and announced at Bitcointalk.
+https://bitcointalk.org/index.php?topic=5194266.0;topicseen
+
+{Embed}
+https://bitcointalk.org/index.php?topic=5194266.0;topicseen
+[ANN] [COMMOD] Golden Crypto Commodity - The #2 Cryptocurrency
+[ANN] [COMMOD] Golden Crypto Commodity - The #2 Cryptocurrency
+
+{Reactions}
+🎆 (7) 
+
+[19-Oct-19 01:24 PM] Tylor zkFS#8280
+Built using the Komode platform
+(Spell Correct)
+
+{Reactions}
+👆 
+
+[20-Oct-19 04:23 AM] t0sma#0368
+@runpaint  your coin is on AtomicDEX now 🙂
+
+
+[20-Oct-19 05:54 AM] Oszy#5734
+is it just me or i can't see it in the coins file?
+
+
+[20-Oct-19 06:34 AM] runpaint#7773
+@t0sma thanks!
+
+
+[20-Oct-19 06:48 AM] runpaint#7773
+@Oszy did you download the new update?
+
+
+[20-Oct-19 08:11 AM] Oszy#5734
+No i was checking the official coins list file on github for mm2 cli
+
+
+[20-Oct-19 08:17 AM] Oszy#5734
+I see it in atomicdex :)
+
+
+[20-Oct-19 08:18 AM] Oszy#5734
+When can we see orders?
+
+
+[20-Oct-19 12:20 PM] runpaint#7773
+There are lots of orders now
+
+
+[20-Oct-19 12:21 PM] runpaint#7773
+@Tylor zkFS - yes this is a very embarrassing typographical error in our announcement.  However, because of the decentralized nature of this project, we don't use checkpointing.  Therefore we must allow the typo to remain, just as it would on the blockchain.
+
+
+[20-Oct-19 12:46 PM] Tylor zkFS#8280
+Ok....wrong place for this post... but are you keeping your broken link too @runpaint ???
+
+
+[20-Oct-19 12:47 PM] runpaint#7773
+@Tylor zkFS Commode.io was redirecting to the main site, then I was going to clone the mining pool at that url, but the mining pool isn't working.  I apologize for the inconvenience and personal trouble you've experienced
+
+
+[20-Oct-19 12:49 PM] runpaint#7773
+Was there any other broken link besides that one?  If not, please correct your statement from "broken links" to "broken link"
+
+
+[20-Oct-19 12:59 PM] runpaint#7773
+Thank you for the revision.  Our technical team is working to fix the link, and Komodo team is working to fix the pool.  The support from the community makes it all worthwhile
+
+
+[20-Oct-19 02:17 PM] Tylor zkFS#8280
+Good ...cause I just bought 99,999 coins
+
+
+[20-Oct-19 02:35 PM] runpaint#7773
+That's wonderful!  How much did you pay?
+
+
+[24-Oct-19 01:17 AM] wolfgang#3508
+Hello all - im trying to figure out if this is the right solution for me.
+
+
+[24-Oct-19 01:18 AM] wolfgang#3508
+Is the wallet available through antara mobile friendly?
+
+
+[24-Oct-19 01:18 AM] wolfgang#3508
+Basically want a token for a competition ill be running for a local community here.
+
+
+[24-Oct-19 01:19 AM] wolfgang#3508
+Dont know if using antara and kmd would be the way to go or just use RVN?
+
+
+[24-Oct-19 01:19 AM] wolfgang#3508
+tokens earnt through the comp will be ongoing like a currency for this community
+
+{Reactions}
+💯 
+
+[24-Oct-19 01:20 AM] Markus#5464
+atomicdex wallet is very user friendly yes
+
+{Reactions}
+👌 (3) 
+
+[24-Oct-19 06:03 AM] Regnar#6164
+@wolfgang what type of competition is it going to be? Also are the participants developer heavy or not really? This is to give me an idea of what is the best fit for you. Generally Antara is the simplest route and the best looking as you can get the wallet, explorers, etc with Antara. 
+
+If your community is heavy developers they may be more interested in the nitty gritty parts of it, and you may want to explore the documentation for command line interface. However this wouldn't be a great route if you prefer everyone to be able to have their coins on mobile wallets.
+
+
+[24-Oct-19 06:06 AM] Regnar#6164
+If the coins are rewards for a competition, and it isn't something like a blockchain developer competition, I would suggest Antara. That will give you the coins, the wallets, the explorers, basically everything you need to provide coins as rewards and for your community to interact with them, hodl, send them, trade, check them out on explorers, the user friendly crypto experience.
+
+{Reactions}
+💯 
+
+[24-Oct-19 06:12 AM] Regnar#6164
+@ca333 is definitely the go to here for walking you through Antara and making sure it is the right fit for you and your goals if you would prefer to discuss your plans in a less public channel.
+
+
+[24-Oct-19 06:16 AM] ca333#0333
+Feel free to contact me if you have any more questions @wolfgang - @Regnar just explained it perfectly. 
+Antara lets you set up your blockchain/token, the entire minimal infrastructure to form a p2p network, blockchain explorer, SPV infrastructure, mining nodes, and much more just with a few clicks - however, it is not a pre-requirement to use Antara in order to build your chain on KMD and to get the mobile DEX wallet. Everything is pretty much very independent of each other on our platform.
+
+{Reactions}
+👍 (5) 
+
+[05-Nov-19 05:48 AM] Mark81#4505
+@ca333 Commod chain has been stalled 45 minutes now. what is wrong?https://commod.explorer.dexstats.info/blocks
+
+
+[05-Nov-19 05:49 AM] jl777c#5810
+if its on demand chain, then simply lack of tx would make the blocks stop
+
+
+[05-Nov-19 05:49 AM] Mark81#4505
+ist mineable
+
+
+[05-Nov-19 05:49 AM] Mark81#4505
+https://pool.kmd.dev/stats
+
+
+[05-Nov-19 05:49 AM] jl777c#5810
+or not enough miners
+
+
+[05-Nov-19 05:50 AM] Mark81#4505
+Mining hashes has been same whole day but for some reason it just stopped to latest block
+
+
+[05-Nov-19 05:51 AM] SHossain#0007
+there wasn't enough miners on COMMOD
+
+
+[05-Nov-19 05:52 AM] Mark81#4505
+its going on now...
+
+
+[05-Nov-19 05:52 AM] SHossain#0007
+hashrate on that pool doesn't seem to be accurate
+
+
+[05-Nov-19 05:52 AM] SHossain#0007
+i started mining few mins ago to get it moving
+
+
+[05-Nov-19 05:52 AM] Mark81#4505
+ok, thanks
+
+
+[05-Nov-19 06:23 AM] ca333#0333
+as pointed out by Shossain - the COMMOD network seems lacking miners @Mark81 (cc: @runpaint )
+
+
+[05-Nov-19 06:27 AM] Mark81#4505
+okay, my tx was stuck for a while and now its moving again. its just weird that pool shows steady hashes and still tx can get stuck. Is there pool upgrade for commod if its not working proberly? @runpaint
+
+
+[05-Nov-19 06:41 AM] ca333#0333
+the pool is working properly - only the hashrate stats are not 100% reliable/approp.
+
+
+[05-Nov-19 06:55 AM] Mark81#4505
+Over their ann someone complained lack of higher diff for asics?
+
+
+[05-Nov-19 07:06 AM] runpaint#7773
+Yeah I don't know why, I've had my ASICs and rentals on it nonstop.  Sometimes a block can take 10 times the target time to find, but 45 minutes seems extreme for 1-minute blocks
+
+
+[05-Nov-19 07:51 AM] Cryptoon#3362
+could be difficulty spikes
+
+
+[08-Nov-19 07:54 AM] Mark81#4505
+commod chain is again stalled. almost an hour now.
+
+
+[08-Nov-19 07:55 AM] Mark81#4505
+net work is being attacked with high minig power to raise difficulty up.
+
+
+[08-Nov-19 07:56 AM] Mark81#4505
+Difficulty: 856821.2322978075
+
+
+[08-Nov-19 11:20 PM] LuckyShadow#3212
+commod have no adaptive pow ?!
+
+
+[09-Nov-19 01:39 AM] Mark81#4505
+No just normal difficulty adjustment. I think aPow would be necessary especially for atomicdex to operate flawlessly with DEX swaps for assetchains.
+
+
+[09-Nov-19 05:59 AM] LuckyShadow#3212
+can't make swaps if blockchain is stuck !
+
+
+[09-Nov-19 06:38 AM] Oszy#5734
+well that's up to the Commod team to think about inmplementing
+
+
+[09-Nov-19 08:47 AM] Cryptoon#3362
+They should rent a mining node in antara tbh
+
+
+[09-Nov-19 08:57 AM] Oszy#5734
+he has a few asic constantly running, but if someone comes and deliberately raises the diff with nicehash and leave, you cant do much with a couple asics
+
+
+[09-Nov-19 09:04 AM] jl777c#5810
+adaptivepow was made for such cases
+
+{Reactions}
+👆 (4) 
+
+[09-Nov-19 10:59 PM] Mark81#4505
+Commod last block yesterday.
+
+
+[09-Nov-19 11:00 PM] Mark81#4505
+Atomic swaps won't happen with these conditions.
+
+
+[09-Nov-19 11:14 PM] jl777c#5810
+it seems the pools for commod are not configured right
+
+
+[09-Nov-19 11:15 PM] jl777c#5810
+adaptivepow is recommended for coins without a large number of miners and pools
+
+
+[10-Nov-19 12:45 AM] Mark81#4505
+Can they switch to adaptive pow without hardforking chain?
+
+
+[10-Nov-19 12:49 AM] Mark81#4505
+If i am right commod chain bought through antara framework and is in that sence boot uped by komodo devs.
+
+
+[10-Nov-19 12:50 AM] gcharang#6833
+> Can they switch to adaptive pow without hardforking chain?
+no, it is a hardforking change
+
+
+[10-Nov-19 12:53 AM] grewalsatinder#9653
+antara framework is the initializer. and yes komodo team indeed has built it and made it easy, for SMEs to get started with komodo tech to start their own independent blockchain with much less efforts than being a developer, it does not mean it is booted by or started by the komodo devs.
+it's the system.
+system is created and setup by the komodo devs.
+now it's the system who takes care of all things automatically.
+and since the system also gives the params to all people who wants to connect to this independent blockchain to make transactions over a fully synchronised network client, it becomes distributed, being spread over multiple nodes than just the initial nodes which started this independent blockchain at the first place.
+
+
+[10-Nov-19 12:54 AM] grewalsatinder#9653
+I guess since it's all the core basics of Network Topologies, could be confusing to non-IT people, but in a Decentralised/Distributed Network there is no central point of failure.
+
+
+[10-Nov-19 12:54 AM] grewalsatinder#9653
+Neither any central point of control.
+
+
+[10-Nov-19 12:56 AM] grewalsatinder#9653
+ah... guess I replied without understanding full context 😅
+
+
+[10-Nov-19 12:56 AM] grewalsatinder#9653
+gcharan covered it in short and to the point 😄
+
+
+[10-Nov-19 08:57 AM] Mark81#4505
+i am thinking reason for this difficulty spikes to commod. what if this reason is to get network diff to high and after that stall rest of network. And then mine secretly blocks and not publish it? If done succesfully even one day it could cause huge mining rewards?
+
+
+[10-Nov-19 08:59 AM] Mark81#4505
+is there limit to how many blocks can be mined before added to last notarization?
+
+
+[10-Nov-19 09:00 AM] LuckyShadow#3212
+from about 7 hours no activity on commod blockchain...
+
+
+[10-Nov-19 09:01 AM] Mark81#4505
+#28669 is the last block that is mined on official pool.
+
+
+[10-Nov-19 09:02 AM] LuckyShadow#3212
+what is the address of blockchain explorer ?
+
+
+[10-Nov-19 09:02 AM] LuckyShadow#3212
+for commod
+
+
+[10-Nov-19 09:03 AM] Mark81#4505
+http://34.251.151.148/
+
+{Embed}
+http://34.251.151.148/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[10-Nov-19 09:03 AM] LuckyShadow#3212
+at me nothing shows !!!
+
+
+[10-Nov-19 09:03 AM] Mark81#4505
+also
+
+
+[10-Nov-19 09:03 AM] Mark81#4505
+https://commod.explorer.dexstats.info/
+
+{Embed}
+https://commod.explorer.dexstats.info/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[10-Nov-19 09:03 AM] LuckyShadow#3212
+nothing ...
+
+
+[10-Nov-19 09:03 AM] LuckyShadow#3212
+Waiting for blocks...
+
+
+[10-Nov-19 09:03 AM] LuckyShadow#3212
+Waiting for transactions...
+
+
+[10-Nov-19 09:04 AM] Mark81#4505
+last block mined on network so far 28670 according explorers
+
+
+[10-Nov-19 09:04 AM] LuckyShadow#3212
+at me nothing show...
+
+
+[10-Nov-19 09:05 AM] Mark81#4505
+they are empty since network is stalled but you can search that blocknumber
+
+
+[10-Nov-19 09:05 AM] LuckyShadow#3212
+it was stalled last days but shows at what block left, now is different result !
+
+
+[10-Nov-19 09:08 AM] LuckyShadow#3212
+interesting on commod pool are some miners !!! they receive the rewards ?!
+
+
+[10-Nov-19 09:09 AM] Mark81#4505
+if there is happening background mining and blocks are not published then even pool miners are screwed. hostile mining is so far by now that every reward will be vanishing.
+
+
+[10-Nov-19 09:09 AM] Mark81#4505
+there has been some reason why network was attacked in first place.
+
+
+[10-Nov-19 09:10 AM] Mark81#4505
+i guess its time to get  some mining power to pool since if it gets moving and is published then notary nodes will permanently write it to kmd and hostile mining cant erase that.
+
+
+[10-Nov-19 09:11 AM] LuckyShadow#3212
+how it was attacked ?! have no dpow and apow features enabled ?!
+
+
+[10-Nov-19 09:11 AM] Mark81#4505
+dpow is enabled
+
+
+[10-Nov-19 09:11 AM] Mark81#4505
+its such my speculation that something is mined in background
+
+
+[10-Nov-19 09:11 AM] LuckyShadow#3212
+interesting...
+
+
+[10-Nov-19 09:12 AM] Mark81#4505
+but once it has few block mined it will be notarized and possible mining without publishing blocks will be useless.
+
+
+[10-Nov-19 09:15 AM] LuckyShadow#3212
+btw, will be created commod channel to inform people what happening , if is, or will be some hardfork, etc ?
+
+
+[10-Nov-19 10:44 AM] Mark81#4505
+Can someone take a look this commod pool? https://pool.kmd.dev/stats
+
+
+[10-Nov-19 10:45 AM] Mark81#4505
+I have put there some asics by renting but still chains is stuck.
+
+
+[10-Nov-19 10:45 AM] Oszy#5734
+@runpaint  ^^
+
+
+[10-Nov-19 10:46 AM] Oszy#5734
+and guys please use another channel for COMMOD discussion #talk-other-topics
+
+{Reactions}
+👆 
+
+[10-Nov-19 10:46 AM] runpaint#7773
+Mark81, try using the low difficulty port
+
+
+[10-Nov-19 10:47 AM] Mark81#4505
+it is ported to 3777 which is low.
+
+
+[10-Nov-19 10:47 AM] runpaint#7773
+I'll ask ca333 who is in complete control of the pool
+
+
+[10-Nov-19 10:48 AM] Mark81#4505
+yes that i am hoping too because its run by antara framework.  @Oszy
+
+
+[11-Nov-19 04:19 PM] Mark81#4505
+@ca333  commod pool in need of restart again.
+
+{Reactions}
+✅ 
+
+[11-Nov-19 04:20 PM] phm87#7395
+I added COMMOD on my pool unimining.net in case you need another pool @Mark81
+
+
+[11-Nov-19 04:22 PM] phm87#7395
+Stratum port: 2146  -  Stratum URL: equihash.eu1.unimining.net
+
+
+[11-Nov-19 04:32 PM] phm87#7395
+110 kS/s arrived on the pool and ... congrats for the block !
+
+
+[11-Nov-19 04:32 PM] phm87#7395
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585490205751115777/643608913840832533/unknown.png
+
+
+[11-Nov-19 04:32 PM] phm87#7395
+I'll add the icon of the coin and I'll fine tune numbers (difficulty, TTF, profit)
+
+
+[11-Nov-19 04:58 PM] Mark81#4505
+Thanks @phm87 !
+
+
+[11-Nov-19 04:58 PM] phm87#7395
+you're welcome
+
+
+[11-Nov-19 04:59 PM] phm87#7395
+as I think that you have the whole network, maybe you can reduce hashrate used to lower difficulty and lower the cost of mining
+
+
+[11-Nov-19 05:00 PM] Mark81#4505
+Rented so i really cant.
+
+
+[11-Nov-19 05:02 PM] Mark81#4505
+Or i need to point some of hashrate else where. Its getting late here so i need to get some sleep. I will sleep better now.
+
+
+[11-Nov-19 05:03 PM] phm87#7395
+it is 2 am here and I can't set another pool. Tomorrow, I'll compare hash of last block of COMMOD on my notary node and my pool
+
+
+[11-Nov-19 05:03 PM] phm87#7395
+and I hope that the other pool will be fixed tomorrow
+
+
+[11-Nov-19 05:04 PM] phm87#7395
+Blockhash of blocks found on the pool are displayed here : <https://unimining.net/site/block?id=3097>
+
+
+[11-Nov-19 05:06 PM] Mark81#4505
+Thank you again!  Have nice sleep you too!
+
+
+[11-Nov-19 05:08 PM] phm87#7395
+No problem. Have a nice sleep
+
+
+[17-Nov-19 04:42 PM] Regnar#6164
+relaying from telegram:
+`omboti: When we created blockchain using Antara Framework, how many nodes should we buy?`
+
+{Reactions}
+👍 
+
+[20-Nov-19 02:38 AM] Mark81#4505
+Antara commod explorer which is hosted by Amazon AWS is down. http://34.251.151.148 @ca333
+
+
+[20-Nov-19 02:40 AM] phm87#7395
+Hopefully the unofficial dexstats explorer of commod works fine: https://commod.explorer.dexstats.info
+
+{Embed}
+https://commod.explorer.dexstats.info
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[20-Nov-19 02:42 AM] Mark81#4505
+it works fine its just that if antara is PAID service it shoud be working all time
+
+
+[20-Nov-19 02:43 AM] Mark81#4505
+So far there has been problems with official pool and now with explorer.
+
+
+[20-Nov-19 02:44 AM] Mark81#4505
+if projects gets launched with antara more who will be checking all time that everything is fine and working.
+
+
+[20-Nov-19 02:44 AM] Mark81#4505
+explorer been down already at least four days.
+
+
+[20-Nov-19 02:49 AM] Cryptoon#3362
+who is running the pool?
+
+
+[20-Nov-19 02:50 AM] Cryptoon#3362
+I think the main problems was spikes in diff and hashrate? Dont really see why that is a problem of antara team/kmd, more like a problem for the project itself?
+
+
+[20-Nov-19 02:50 AM] Cryptoon#3362
+they can rent mining nodes as well if needed
+
+
+[20-Nov-19 02:57 AM] phm87#7395
+@Mark81 I have automated checks for my pool and some explorers, it requires adaptations for knomp and kmd ecosystem explorers. Yiimp pools have automated checks out of the box (email sent if payments fail), I don t know for knomp
+
+
+[20-Nov-19 02:59 AM] Mark81#4505
+runpaint has contacted ca333 always in case for pool problems
+
+
+[20-Nov-19 02:59 AM] Mark81#4505
+if you buy service do you run them by itself?
+
+
+[20-Nov-19 03:00 AM] Mark81#4505
+buy new car and you do pay maintance services to dealer and do services by your self?
+
+
+[20-Nov-19 03:02 AM] Mark81#4505
+if antara is hosted service then things need to run without need to worry those by buyer.
+
+
+[20-Nov-19 03:03 AM] Mark81#4505
+I know its new  thing still and things will get better over time.
+
+
+[20-Nov-19 03:09 AM] Cryptoon#3362
+Antara provides a toolkit. It also offers the services to run everything such as mining nodes etc. If you dont pay for mining nodes should you still get them because they are offered as an option?
+
+
+[20-Nov-19 03:10 AM] Cryptoon#3362
+I dont expect my bmw to have laserlights if I didnt pay for them even if they are offered
+
+
+[20-Nov-19 03:14 AM] phm87#7395
+@Cryptoon I think that they paid for the official pool. But I have no clues what are root causes of problems that occured
+
+
+[20-Nov-19 03:44 AM] ca333#0333
+@Mark81 what exactly are you trying to say?
+
+i) the explorer is NOT down - https://composer.kmd.io/c/COMMOD clearly lists http://34.247.161.246/ as the explorer. Please do NOT spread false informations/FUD ref. Antara Composer.
+
+ii) the pool for commod is a service i am running personally for runpaint for FREE and not being paid for it. it was meant as a favor. In addition we provided him pool sources/repos so he can set up an official pool.
+
+{Embed}
+https://composer.kmd.io/c/COMMOD
+Antara Smart Chain Composer
+Antara Composer lets anyone customize and launch a Smart Chain, complete with full seed nodes and mining nodes, in just minutes.
+https://images-ext-1.discordapp.net/external/6NHX8s2Y9s6H5eiUNVQhMDfUX9TEhhgjIY3T2ojetZ4/https/i.imgur.com/URjE63B.png
+
+{Embed}
+http://34.247.161.246/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[20-Nov-19 03:45 AM] ca333#0333
+@phm87 Not sure where you are pulling `I think that they paid for the official pool.` from?
+
+
+[20-Nov-19 03:47 AM] phm87#7395
+@ca333 I misunderstood some infos in the discussion here above. I owe you an appology, I did not know you were running this pool for free. Sorry for the wrong thinking
+
+
+[20-Nov-19 03:51 AM] phm87#7395
+Note: I was not paid to add commod on my pool. I did it to help guys
+
+
+[20-Nov-19 03:51 AM] ca333#0333
+No problem. Rest all assured that Antara Composer is a great and reliable service. It is fully automated and there is 0 downtime. The underlying infrastructure shows 100% uptime for all servers/p2p-nodes related to  https://composer.kmd.io/c/COMMOD - Composer uses the AWS API for the key operations. For the dpow'd chain networks itself we ensure there are at least 60 additional & independent p2p nodes available to form a truly decentralized network.
+
+{Embed}
+https://composer.kmd.io/c/COMMOD
+Antara Smart Chain Composer
+Antara Composer lets anyone customize and launch a Smart Chain, complete with full seed nodes and mining nodes, in just minutes.
+https://images-ext-1.discordapp.net/external/6NHX8s2Y9s6H5eiUNVQhMDfUX9TEhhgjIY3T2ojetZ4/https/i.imgur.com/URjE63B.png
+
+
+[20-Nov-19 04:36 AM] Mark81#4505
+My thinking is from commod ANN site (https://bitcointalk.org/index.php?topic=5194266.0) were links to ip http://34.251.151.148 are shown as explorer and when i checked that ip its "Amazon Data Services Ireland Limited" so if that is not part of Composer services then my apoligies to @ca333
+
+{Embed}
+https://bitcointalk.org/index.php?topic=5194266.0)
+[ANN] [COMMOD] Golden Crypto Commodity - The #2 Cryptocurrency
+[ANN] [COMMOD] Golden Crypto Commodity - The #2 Cryptocurrency
+
+
+[20-Nov-19 04:38 AM] ca333#0333
+composer related and smart chain specific services are listed in https://composer.kmd.io/c/COMMOD
+
+{Embed}
+https://composer.kmd.io/c/COMMOD
+Antara Smart Chain Composer
+Antara Composer lets anyone customize and launch a Smart Chain, complete with full seed nodes and mining nodes, in just minutes.
+https://images-ext-1.discordapp.net/external/6NHX8s2Y9s6H5eiUNVQhMDfUX9TEhhgjIY3T2ojetZ4/https/i.imgur.com/URjE63B.png
+
+
+[20-Nov-19 04:39 AM] Mark81#4505
+And the link to composer explorers are new to me so again sorry for claiming wrong information @ca333 and also regarding pool i thought it being part of composer services.
+
+{Reactions}
+👍 (2) 
+
+[20-Nov-19 04:40 AM] Mark81#4505
+its actually very well informed site!
+
+
+[20-Nov-19 04:41 AM] Mark81#4505
+i will provide these links to runpaint so he can update ann site accordingly.
+
+
+[20-Nov-19 04:53 AM] Mark81#4505
+Links are now updated to ANN site.
+
+
+[20-Nov-19 04:55 AM] Mark81#4505
+after talking to runpaint he told that links on ann were provide by Komodo team so is it possible that amazon changed explorer address?
+
+
+[20-Nov-19 04:56 AM] Mark81#4505
+@ca333
+
+
+[20-Nov-19 05:12 AM] Mark81#4505
+Well it turns out that Explorer address for composer is indeed changed by Amazon since even atomicdex wallet hardcoded Ip address is not working for commod coin explorer as its refers also to old address http://34.251.151.148/. @ca333
+
+
+[20-Nov-19 05:34 AM] ca333#0333
+@naezith ^ why did explorer IP change?
+
+
+[20-Nov-19 05:41 AM] ca333#0333
+ok i guess i know it just by logic - client bought explorer on monthly subscription - then did not pay/upgrade next month and had to buy the service again after expiration. In this case you get a new explorer server. Pretty sure this happened.
+
+
+[20-Nov-19 05:42 AM] 𝙊𝙞𝙣𝙠#3612
+plausible
+
+
+[20-Nov-19 05:48 AM] naezith#9757
+exactly
+
+
+[20-Nov-19 06:24 AM] ca333#0333
+thanks for confirming @naezith
+
+{Reactions}
+👍 (2) 
+
+[20-Nov-19 07:01 AM] Mark81#4505
+Now that atomicdex commod explorer has wrong ip address does it affect somehow to commod trading on DEX?
+
+
+[20-Nov-19 07:06 AM] Oszy#5734
+no that is trough spv
+
+
+[20-Nov-19 07:21 AM] Mark81#4505
+How about transaction confirmations? also through spv?
+
+
+[20-Nov-19 07:26 AM] Oszy#5734
+yes, spv runs a full node
+
+
+[20-Nov-19 07:26 AM] Oszy#5734
+explorer is just GUI for the blockchain
+
+
+[20-Nov-19 07:56 AM] jl777c#5810
+did spv server change ipaddr too?
+
+
+[20-Nov-19 08:19 AM] Oszy#5734
+not that i know of, i had COMMOD trade today in atomicdex, and mobile wallet is running fine too.
+
+
+[20-Nov-19 10:48 AM] ca333#0333
+no - the SPV didn't "expire" as we re using it for multiple chains so even if its being removed its just temporary and until the service is paid again which triggers the deployment
+
+
+[25-Nov-19 03:27 PM] Regnar#6164
+@ca333 is there a directory page that shows coins like you see at <https://composer.kmd.io/c/COMMOD>
+
+
+[02-Dec-19 12:49 AM] zenosama#5371
+i wonder would it be possible to create a smart chain soft cap ico ;D
+
+
+[02-Dec-19 12:52 AM] zenosama#5371
+as a matter of fact, the question would be how to
+
+
+[02-Dec-19 01:12 AM] Markus#5464
+@zenosama you can create a smart chain with antara composer and get it listed on atomicdex, afterwards u just put up your "ico" coins for trade on the atomicdex. That would be the easiest way to make a decentralized ico.
+
+
+[02-Dec-19 01:15 AM] zenosama#5371
+@Markus yeah but considered that soft cap needs more coins as people purchase, that would not be the case, also there is very little liquidity on atomicdex, so unless people would be willing to use it only for the ico, hmm
+
+
+[02-Dec-19 01:17 AM] Markus#5464
+@zenosama I believe liquidity is low due to it being in beta stage, when beta is over there will even be liquidity providers running market makers
+
+
+[02-Dec-19 01:19 AM] zenosama#5371
+@Markus yeah, and also it is only an app, so it would be pretty hard to get people use it atm
+
+
+[02-Dec-19 01:20 AM] Markus#5464
+atomicdex will be available on all devices not just mobile phones
+
+
+[02-Dec-19 01:20 AM] Oszy#5734
+there will be web based version afaik
+
+
+[02-Dec-19 01:23 AM] zenosama#5371
+yeaah, but I am searching for a solution atm
+
+
+[02-Dec-19 01:24 AM] zenosama#5371
+so anyone know, could give some guidance, into how there would be possible to create a soft cap smart chain ico? at least where could one start
+
+
+[02-Dec-19 01:43 AM] Alright#0419
+could you explain exactly what you mean by soft cap please?
+
+
+[02-Dec-19 01:43 AM] Alright#0419
+@zenosama
+
+
+[02-Dec-19 01:45 AM] zenosama#5371
+@Alright in example there is a set MVP for 1m$, the crowdsale starts today. However, it is set to end in 1 month. So even if a project gathers 2m$ in 2days, the crowdsale still ends in 1 month, and the funds are being added till then
+
+
+[02-Dec-19 01:47 AM] jl777c#5810
+VRSC will have this functionality
+
+{Reactions}
+👍 (2) 
+
+[02-Dec-19 01:48 AM] Alright#0419
+There is a parameter you could use that would allow a specific pubkey to print additional coins
+
+
+[02-Dec-19 01:48 AM] Alright#0419
+don't think it's integrated into antara composer, but I could walk you through how to use it. Not really sure how VRSC solution works, might be better
+
+
+[02-Dec-19 01:49 AM] Alright#0419
+could also just premine way more coins than you could possibly sell
+
+
+[02-Dec-19 01:49 AM] Alright#0419
+burn the rest when you're done
+
+
+[02-Dec-19 01:50 AM] Alright#0419
+have you used the app? Seems perfect for an ICO `yeah, and also it is only an app, so it would be pretty hard to get people use it atm` don't understand what you mean by this
+
+
+[03-Dec-19 04:14 AM] Regnar#6164
+I think this post might also be relevant here so I'm copy and pasting from #komodo-team. It's a tweet by Internet Wayback machine about letting family and friends save deceased people's tweets from being deleted by Twitter based on the new terms of service. I'm wondering if this would be possible using Antara Composer.
+
+`Hey team, it might be a cool idea marketing wise and also to showcase what can be done with Antara, to build an Antara smartchain to put these tweets on a blockchain. We could throw an explorer up that lets people view their deceased friend's and family's twitters and give it over to the Internet Wayback Machine. Make the nodes public so others can contribute to maintaining it, and make the blocks mined on demand (when new people are added)`
+
+https://twitter.com/internetarchive/status/1201707491387510784?s=20
+
+{Embed}
+Internet Archive (@internetarchive)
+https://twitter.com/internetarchive/status/1201707491387510784?s=20
+There's no better reason to support the #WaybackMachine than this. https://t.co/rtxuDav228 https://t.co/jftBn1wxwO
+Twitter
+
+
+[03-Dec-19 04:16 AM] Regnar#6164
+Or it could run hand in hand with Wayback Machine where they save the tweets like they would normally, and they add a link to their page that shows the tweet on an block explorer. Plenty of ways to cut this, but might be a cool marketing/proof of concept idea.
+
+
+[14-Apr-20 01:06 AM] PeLe | $ARRR#1096
+Hello everyone,
+I don't know to whom i should address this question so i posted here.
+A friend of mine is working on a project and requires an asset chain. We are considering building one with antara modules but we are missing a crucial calculation, tx fee.
+So to cut it short, the smart contract is sending a token to, lets say, 1 mil users per day.
+Is there a way to calculate daily tx fee?
+I would very much appreciate if someone could point me to the correct document. 
+Thank you.
+
+
+[14-Apr-20 01:36 AM] NutellaLicka#4241
+The tx fee could be whatever you set it as in your transaction. So if you set 0.0001 as the tx fee, multiply that by a million and there is your answer. Alternatively, you could set it to 0, and wait for a miner to mine tx's with 0 fee.
+
+
+[14-Apr-20 01:38 AM] NutellaLicka#4241
+I'm not sure If you're using KMD tokens (not the assetchain coins, there is a difference). I'm not sure how token transactions occur.
+
+
+[14-Apr-20 01:39 AM] gcharang#6833
+when you perform a txn on a Assetchain named `COIN`, the default txfee is `0.0001 COIN`
+
+
+[14-Apr-20 01:41 AM] PeLe | $ARRR#1096
+Sweet, thank you.
+
+
+[14-Apr-20 01:41 AM] PeLe | $ARRR#1096
+Will come back if more questions arise
+
+
+[12-Jun-20 04:58 PM] MorganJekyll#8355
+https://twitter.com/gavinandresen/status/1271561026199261185?s=12
+
+{Embed}
+Gavin Andresen (@gavinandresen)
+https://twitter.com/gavinandresen/status/1271561026199261185?s=12
+Scaling BTC in three easy steps:
+
+1. Scale ethereum
+2. Trustlessy tokenize your BTC
+3. Transact using the wrapped tokens on the eth2 chain
+Likes
+340
+Twitter
+
+
+[12-Jun-20 04:59 PM] MorganJekyll#8355
+Can we create a side chain to transact btc for cheaper than the main chain and not use GAS on eth while securing  it using DPOW?
+
+
+[12-Jun-20 05:01 PM] MorganJekyll#8355
+Like basically Lightning network that runs on a KMD side chain.
+
+
+[13-Jun-20 01:17 AM] Cryptoon#3362
+you can create a btc peg, sure
+
+
+[13-Jun-20 06:27 AM] phm87#7395
+Decentralized peg by consensus? Peg by multisig "decentralized" by several NN? Or centralized peg?
+
+
+[13-Jun-20 06:28 AM] phm87#7395
+It already exists some ethereum smart contracts to be able to move ICO tokens without gas. The ICO tokens are converted to gas thanks to the smart contract.
+
+
+[13-Jun-20 06:30 AM] phm87#7395
+Right now, thanks to cc-peg on kmd, we can create a peg (search KEURTEST if you want to play with it). I don t remember if the peg is a multisig or not yet
+
+
+[13-Jun-20 06:31 AM] phm87#7395
+But some coding is still require to do what you want but we have some parts
+
+
+[13-Jun-20 06:32 AM] gcharang#6833
+> It already exists some ethereum smart contracts to be able to move ICO tokens without gas
+they are just arbitraging low demand time for high demand time. the chain still has a tps limit and it is a single chain. if 3 -4 cryptokitty type dapps are launched and **used**, these arbitraging contracts won't work anymore
+
+
+[13-Jun-20 06:34 AM] jorian#4555
+that's what i tell the handful of prospects of chainmakers, until they see there is no support at all for CC yet, even within the komodo platform. so, do you really want to get MorganJekyll his smart chain?
+
+
+[13-Jun-20 06:35 AM] jorian#4555
+and with support, i mean gui and the fact that it's all heavily in test phase, or even being recoded
+
+
+[13-Jun-20 06:35 AM] jorian#4555
+also the reason we decided to take down the chainmakers website and cease operations
+
+
+[13-Jun-20 06:43 AM] phm87#7395
+@gcharang I agree, all of this is onchain of ethereum so these smart contracts are not helping to refuce fees but you can move erc-xx without having eth. Maybe a cc variant of it could be added into mm2 I was thinking
+
+
+[13-Jun-20 07:55 AM] MorganJekyll#8355
+It’s seems as if there is a high demand for being able to transact BTC “off chain” in the form of lightning network or on a second layer like eth. Most these solutions have to sacrifice security for scalability. With KMD being able to do 1 mil + tps why don’t we run a Lightning channel like multi chain where we can transact btc with btc level security?
+
+
+[13-Jun-20 09:03 AM] polycryptoblog#1173
+Lightning is not compatible with KMD, no Segwit.  However someone can if they want to set a BTC gateway  still layer 1,  but can reduce blocktimes down low with higher blocksize
+
+
+[13-Jun-20 10:59 AM] MorganJekyll#8355
+And then settle or back up every 60 min with DPOW?
+
+
+[13-Jun-20 12:18 PM] polycryptoblog#1173
+Yes the chain that the pseudo BTC would be on would need to be secured with DPoW .   The issue is more who wants to run it?  It’s an area of crypto that deals with custody.
+
+
+[13-Jun-20 12:19 PM] polycryptoblog#1173
+Which is a minefield , it’s a business in itself for the entrepreneurial
+
+
+[14-Jul-20 11:11 AM] Deleted User#0000
+I was going to check out the composer, but I never get sent a verification email. I've used two different email providers and nothing yet.
+
+
+[14-Jul-20 12:28 PM] Oszy#5734
+@ca333 ^^
+
+
+[14-Jul-20 03:00 PM] ca333#0333
+@naezith-work ^
+
+
+[15-Jul-20 06:55 AM] naezith-work#3299
+> I was going to check out the composer, but I never get sent a verification email. I've used two different email providers and nothing yet.
+@Deleted User should be solved now, can you please try again?
+
+
+[15-Jul-20 08:12 AM] Deleted User#0000
+It works! Thanks!
+
+{Reactions}
+👍 
+
+[18-Aug-20 07:49 PM] Mountain720#7683
+Hello, I'm trying to use the tokentransfer method - how do I find the pubkey for the transparent address I'm sending tokens to (the destpubkey in the developer docs)?  Using the validateaddress command on the destination address only gives a scriptPubKey value.  Thanks for the help!
+
+
+[18-Aug-20 08:02 PM] Mountain720#7683
+Well, I found a conversation on here from last Oct., and looks like you have to get the person's pubkey from them, which is not easy for a common user to give.  No worries., okay.
+
+
+[18-Aug-20 08:59 PM] polycryptoblog#1173
+A transaction should do
+
+
+[18-Aug-20 09:00 PM] polycryptoblog#1173
+Best to get help in dev general
+
+{Reactions}
+👍 
+
+[20-Aug-20 04:54 AM] L K#5774
+Hello
+My name is Alex, I'm the owner of Bitrockxa Capital, its a Bitcoin lending hedge fund. I want to start a ICO based on Komodo, cause i think komodo is really hgreat projects. So is there anybody who can help me? I had some questions about the settings, and if its working with a normal erc20 script website. Thanks for all answers.
+
+
+[20-Aug-20 04:56 AM] NutellaLicka#4241
+@PTYX would be your best port of call
+
+
+[20-Aug-20 05:00 AM] Cryptoon#3362
+or @polycryptoblog
+
+
+[20-Aug-20 05:08 AM] L K#5774
+thx
+
+
+[21-Aug-20 02:55 AM] Surfer007#0709
+@L K have you already been helped and your questions answered?
+
+
+[21-Aug-20 03:02 AM] L K#5774
+HI Aron, thank you for replay. No not really yet. But i hope somebody can help me
+
+{Reactions}
+🧐 
+
+[21-Aug-20 03:50 AM] Cryptoon#3362
+@PTYX or @polycryptoblog havent seen the ping maybe 🙂
+
+
+[21-Aug-20 04:24 AM] Audo#5667
+Hey, PTYX reached out earlier – there was just no reply here on this channel 🙂
+
+
+[21-Aug-20 04:41 AM] L K#5774
+Hi, i replayed to ptyx
+
+{Reactions}
+👌 (2) 
+
+[21-Aug-20 04:54 AM] L K#5774
+its looks like PTYX is offline, anyway aron helped me thank you, and regnar helped me too.
+
+{Reactions}
+KMD (2) 
+
+[21-Aug-20 05:20 AM] Audo#5667
+it's early morning for PTYX, he will be coming online soon
+
+
+[21-Aug-20 05:45 AM] L K#5774
+ok thx
+
+
+[21-Aug-20 07:35 AM] PTYX#6840
+I'm on it :)
+
+
+==============================================================
+Exported 929 message(s)
+==============================================================

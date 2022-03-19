@@ -1,0 +1,3714 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / talk-entrepreneurship
+Topic: Talk about subjects such as laws & regulations, tax issues, starting a business, and entrepreneurship in general.
+==============================================================
+
+[04-Jun-19 04:21 AM] Crabby Paddy#6239
+👀
+
+
+[04-Jun-19 04:22 AM] Audo#5667
+There was a request to create a dedicated channel for topis like regulations, tax issues, starting a business, entrepreneurship in blockchain, and things like that.
+
+
+[04-Jun-19 04:23 AM] Audo#5667
+In other words, a channel for all the people & teams who will help to build a Komodo ecosystem 😃
+
+
+[04-Jun-19 04:26 AM] Mylo#8306
+hi @Crabby Paddy channel got setup because of some business related questions - like company formations, residency, tax etc.
+
+
+[04-Jun-19 04:26 AM] Mylo#8306
+amongst some of the users in the community
+
+
+[04-Jun-19 06:15 AM] dukeleto#7326
+this seems cool
+
+
+[04-Jun-19 06:50 AM] mrlynch#5735
+this is necessary
+
+
+[04-Jun-19 07:55 AM] eclips#1570
+what's your way to cash out mining revenues (or crypto revenues in general) ?
+
+
+[04-Jun-19 07:55 AM] eclips#1570
+here, still use wirex
+
+
+[04-Jun-19 08:25 AM] mrlynch#5735
+otc, shifting to biz
+
+
+[04-Jun-19 08:26 AM] mrlynch#5735
+any non-kyc or upto xxx limit non-kyc exchange
+
+
+[04-Jun-19 08:59 AM] cipi#4502
+@eclips i use Binance -> Kraken -> Bank account, with KYC
+unfortunately KMD is not on Kraken
+
+{Reactions}
+😕 
+
+[04-Jun-19 09:20 AM] Llama#1330
+pirate is IRS resistant
+
+
+[04-Jun-19 09:21 AM] jorian#4555
+unless you need to buy something
+
+
+[04-Jun-19 11:38 AM] actionslacks#4072
+coinbase is a necessary evil in my life. they deposit to my bank almost instantly now though, which is nice.
+
+
+[04-Jun-19 11:39 AM] mrlynch#5735
+has anyone used bisq?
+
+
+[04-Jun-19 12:05 PM] mrlynch#5735
+care to elaborate?
+
+
+[04-Jun-19 12:46 PM] mrlynch#5735
+that's ok
+
+
+[04-Jun-19 03:58 PM] allbits#5898
+I've used bisq for a siafund/btc trade and I did not need any daemons running locally
+
+
+[04-Jun-19 03:58 PM] allbits#5898
+And it was smooth, worked as expected
+
+
+[04-Jun-19 09:28 PM] dukeleto#7326
+@eclips what is your experience with wirex? I think they are expanding to the US soon
+
+{Reactions}
+🙏 👂 
+
+[07-Jun-19 11:36 AM] InfiniteSumLtd#9498
+I've just finished compiling a content breakdown for Komodo on Crypto Hedgehog, and I was hoping to get some feedback on the write-up. 
+https://stage.cryptohedgehog.io/coin/KMD
+
+{Embed}
+https://stage.cryptohedgehog.io/coin/KMD
+Hedgehog | Cryptocurrency Investment Tools
+Crypto Hedgehog provides all of the knowledge and tools you need to develop and manage your cryptocurrency portfolio. From detailed information about each token to industry-vetted portfolio management methods, we provide everything you need at Hedgehog.
+https://images-ext-1.discordapp.net/external/XSu9I879vi6jhbbgZHi0_MEkYwpc1S5yMtT1ZIRVPus/https/stage.cryptohedgehog.io/og-image.png
+
+
+[07-Jun-19 11:36 AM] InfiniteSumLtd#9498
+All of the sources are pretty much from the Komodo site or documentation, and it covers a condensed version of the history, how it works, the products, and some security / technical info. If anyone spots anything that’s missing / wrong / should be elaborated on / etc., I’d really appreciate it 😬
+
+
+[07-Jun-19 12:38 PM] gcharang#6833
+@InfiniteSumLtd thanks for the write up, someone from the team will go through it, and get in touch with you
+but it might take some time because we are all busy now
+can you ping us a week later if we don't get back to you?
+
+
+[07-Jun-19 12:40 PM] InfiniteSumLtd#9498
+No worries. I figured everyone was busy handling the Agama issues
+
+{Reactions}
+👍 
+
+[07-Jun-19 12:40 PM] InfiniteSumLtd#9498
+@gcharang
+
+
+[07-Jun-19 12:40 PM] InfiniteSumLtd#9498
+👍
+
+
+[07-Jun-19 10:29 PM] Mylo#8306
+@InfiniteSumLtd yeah we'll have to go through card by card.   lots of updates in the next month which will make your site look outdated & team page is different to current.
+
+
+[07-Jun-19 10:31 PM] Mylo#8306
+plenty of info there, which is great - site didn't fully load , every 2nd card is blank.  vids are cool.
+
+
+[07-Jun-19 10:39 PM] InfiniteSumLtd#9498
+Thanks for taking a look @Mylo.  I figured we'd have to update things again with the new releases, so no worries there. I was just trying to make sure that the basic foundation is there, and that we weren't missing anything glaring.
+
+
+[07-Jun-19 10:39 PM] InfiniteSumLtd#9498
+The blank cards thing is a little weird though...they all load up on my end, so I'm not sure what the error might be.
+
+
+[07-Jun-19 11:53 PM] Mylo#8306
+Firefox maybe.  If you have flex in css it can be a bit weird
+
+
+[07-Jun-19 11:56 PM] InfiniteSumLtd#9498
+Yup. That's it. Just booted up firefox and I'm seeing the same thing.
+
+
+[07-Jun-19 11:58 PM] InfiniteSumLtd#9498
+It works in Brave, Chrome, and Safari, so I'll dive in this weekend to see if I can fix that.
+
+
+[07-Jun-19 11:58 PM] InfiniteSumLtd#9498
+Thanks @Mylo
+
+
+[08-Jun-19 12:11 AM] Mylo#8306
+display: block;   (it'll break some chrome stuff but fixable - not sure exactly)
+
+
+[08-Jun-19 06:09 AM] TerryPines#8252
+I need to fork a sidechain repo
+
+
+[08-Jun-19 06:14 AM] gcharang#6833
+@TerryPines there in no seperate sidechain repo
+there is the komodo repo which has all the sidechain (we call them assetchains here) functionality
+https://github.com/jl777/komodo
+https://docs.komodoplatform.com/basic-docs/installations/creating-asset-chains.html
+
+{Embed}
+https://github.com/jl777/komodo
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Embed}
+https://docs.komodoplatform.com/basic-docs/installations/creating-asset-chains.html
+Creating Komodo Asset Chains | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[08-Jun-19 06:15 AM] TerryPines#8252
+; ) thanks
+
+
+[08-Jun-19 06:36 AM] Chipmoon#7477
+smart chain 😄
+
+{Reactions}
+💯 
+
+[08-Jun-19 09:11 AM] dukeleto#7326
+I just call them chains
+
+
+[10-Jun-19 08:48 AM] Jisu_jung#8912
+I call em 2chainz
+
+{Reactions}
+😅 (3) ⛓ (3) 
+
+[10-Jun-19 11:17 AM] InfiniteSumLtd#9498
+Is there any resource that lists the strategic (or non-strategic) partnerships announced by Komodo?
+
+I’d like to populate the Crypto Hedgehog KMD Business page with partners, and I know some of them have been announced on the blog...I was just hoping to find a definitive / exhaustive list to make sure I don’t miss any.
+
+
+[10-Jun-19 06:54 PM] Mylo#8306
+There’s a lot not covered.  They are all informal or formal.  They are generally not public because each dev, team member, notary node operates independently and not representative of solely kmd.
+
+There is a formal kmd partner program in the works.
+
+
+[14-Jun-19 11:47 AM] phm87#7395
+@metaphilibert as I suggested IRL to reduce your taxes in Be, if your company is less than 1 year old and if you were in phisical person before, you can do the goodwheel to reduce taxes of about 10%
+
+
+[14-Jun-19 11:47 AM] metaphilibert#0926
+Too late for me, had to do it 9 years ago lol
+
+
+[14-Jun-19 11:48 AM] metaphilibert#0926
+But indeed good advice
+
+
+[14-Jun-19 11:48 AM] phm87#7395
+If you have/own other companies in Europe, you can invoice your belgian company. Do not be too hard with amounts to avoid pbs
+
+
+[14-Jun-19 11:49 AM] phm87#7395
+International accountant in Europe is about 5k to 10k. Then 1k to 5k per year. I heard it is worth it (guy in fr who have companies in uk, lux ...)
+
+
+[14-Jun-19 11:52 AM] phm87#7395
+There are other tricks that are not forbidden yet (bc govt is slow) as example to play with physical person and company stuff (administrative work but we can gain few %).
+
+
+[14-Jun-19 01:25 PM] Cryptoon#3362
+5k for an accountant per year what
+
+
+[14-Jun-19 01:25 PM] Cryptoon#3362
+I pay mine 2.5k total or so in BE. Management company so not that many outgoing/ingoing invoices. For the other ones that have something like 1k ingoing/outgoing docs I pay around 1000/month allin
+
+
+[14-Jun-19 01:28 PM] Cryptoon#3362
+Lots of optimisations possible in BE 😃
+
+
+[14-Jun-19 01:29 PM] phm87#7395
+In Be, I paid mine about 600-700€ per year when I was in physical person. Now that I have a company it should be 1.2k per year
+
+
+[14-Jun-19 01:30 PM] phm87#7395
+@Cryptoon  I didn't know you were also belgian ^^ that's cool 🇧🇪
+
+
+[14-Jun-19 01:30 PM] Cryptoon#3362
+^^
+
+
+[14-Jun-19 01:30 PM] Cryptoon#3362
+Quarterly VAT calculations make an enterprise accountant more expensive 😦
+
+
+[14-Jun-19 01:31 PM] Cryptoon#3362
+GCV or BVBA?
+
+
+[14-Jun-19 01:31 PM] phm87#7395
+I work in Brussels as freelance but I signed with a luxemburgish company so we are doing autoregulation (no VAT on the bill and VAT is paid in Lux)
+
+
+[14-Jun-19 01:31 PM] phm87#7395
+I am now in BVBA
+
+
+[14-Jun-19 01:31 PM] Cryptoon#3362
+Intracommunautaire levering hehe
+
+{Reactions}
+👌 
+
+[14-Jun-19 01:31 PM] phm87#7395
+but previously, I was in physical person (sorry I speak french)
+
+
+[14-Jun-19 01:32 PM] Cryptoon#3362
+Ah hmm livraison intracommunautaire?
+
+
+[14-Jun-19 01:32 PM] phm87#7395
+yeah somethings like this but for services
+
+
+[14-Jun-19 01:32 PM] Cryptoon#3362
+Protip: if you order stuff on coolblue, and enter your VAT details, you can get anything delivered without VAT
+
+
+[14-Jun-19 01:33 PM] phm87#7395
+yeah but I prefer to pay VAT then the state gives me back the money (I was in autoregulation during 2 years when I worked in Lux and paid taxes in Be)
+
+
+[14-Jun-19 01:33 PM] Cryptoon#3362
+LIC is the legal term, doesnt matter what you sell services/goods/... just means you dont need to charge vat for sales cross borders
+
+{Reactions}
+👆 
+
+[14-Jun-19 01:34 PM] Cryptoon#3362
+@phm87 yes, but you can buy personal stuff, have them delivered without vat and just dont register the invoice
+
+{Reactions}
+😱 👿 🇫 🇷 🇦 🇺 🇩 
+
+[14-Jun-19 01:34 PM] Cryptoon#3362
+21% discount for everything
+
+
+[14-Jun-19 01:34 PM] jorian#4555
+whut?
+
+
+[14-Jun-19 01:34 PM] Cryptoon#3362
+Dont put the invoice in your accounting
+
+
+[14-Jun-19 01:35 PM] phm87#7395
+taxes things @jorian
+
+
+[14-Jun-19 01:35 PM] jorian#4555
+you belgians..
+
+{Reactions}
+🤗 
+
+[14-Jun-19 01:35 PM] Cryptoon#3362
+Jorian can do the same for stuff he buys in BE and have them delivered in NL should he have a company :p
+
+
+[14-Jun-19 01:35 PM] phm87#7395
+@jorian  as I want to do some tax load balancing, in what country is estoblished Chainmakers ? US ?
+
+
+[14-Jun-19 01:36 PM] phm87#7395
+NL maybe ?
+
+
+[14-Jun-19 01:36 PM] jorian#4555
+officially in puerto rico
+
+
+[14-Jun-19 01:36 PM] phm87#7395
+_is taking notes and learning ..._
+
+
+[14-Jun-19 01:37 PM] phm87#7395
+Why ? How ?
+
+
+[14-Jun-19 01:37 PM] jorian#4555
+@siu is from there
+
+{Reactions}
+☝ 
+
+[14-Jun-19 01:37 PM] Cryptoon#3362
+Better tax system and easy to do because siu lives there I think?
+
+
+[14-Jun-19 01:38 PM] jorian#4555
+siu lives there, and puerto rico is a crypto paradise
+
+
+[14-Jun-19 01:39 PM] jorian#4555
+it's part of US but it has a tax exemption
+
+
+[14-Jun-19 01:39 PM] jorian#4555
+so living in PR is worth it
+
+
+[14-Jun-19 01:42 PM] Cryptoon#3362
+Anyway, a good accountant can cost you some money, but it can save you a loooot more 😃
+
+
+[14-Jun-19 01:48 PM] phm87#7395
+my belgian accountant doesn't want to discuss about international stuff : only belgian law. But I think that in crypto-sphere, enhance this can be easier
+
+
+[14-Jun-19 01:49 PM] phm87#7395
+I'll google a little bit and discuss later. Thanks you guys
+
+
+[14-Jun-19 01:53 PM] Cryptoon#3362
+I remember talking to someone about crypto accountants in france back in the day on slack
+
+
+[14-Jun-19 01:54 PM] Cryptoon#3362
+Dont remember who it was, maybe webworker...
+
+
+[14-Jun-19 01:54 PM] phm87#7395
+I discuss regularly on the cryptofr slack
+
+
+[14-Jun-19 01:54 PM] phm87#7395
+and I met webworker twice (once in Be at a meetup in Liege and once at Breaking Bitcoin in Amsterdam few days ago)
+
+
+[14-Jun-19 01:55 PM] phm87#7395
+now, webworker works for LN stuff so we can ask him precise question about LN
+
+
+[14-Jun-19 01:55 PM] metaphilibert#0926
+🤔
+
+{Reactions}
+😍 
+
+[14-Jun-19 01:56 PM] metaphilibert#0926
+I think you confuse with someone else
+
+
+[14-Jun-19 01:56 PM] metaphilibert#0926
+Webworker was at breaking bitcoin?
+
+
+[14-Jun-19 01:56 PM] phm87#7395
+yes
+
+
+[14-Jun-19 01:56 PM] phm87#7395
+I have proofs on the slack
+
+
+[14-Jun-19 01:56 PM] phm87#7395
+I discussed with him
+
+
+[14-Jun-19 01:56 PM] metaphilibert#0926
+Sure it was not weedcoder?
+
+
+[14-Jun-19 01:57 PM] phm87#7395
+he lost weight, maybe that's why you didn't recognize him
+
+
+[14-Jun-19 01:57 PM] phm87#7395
+oh yes weedworker
+
+
+[14-Jun-19 01:57 PM] metaphilibert#0926
+Lol
+
+
+[14-Jun-19 01:57 PM] phm87#7395
+sorry for the typo (made 50 times)
+
+
+[14-Jun-19 01:57 PM] metaphilibert#0926
+Weedcoder
+
+
+[14-Jun-19 01:57 PM] metaphilibert#0926
+Very smart guy
+
+
+[14-Jun-19 01:58 PM] phm87#7395
+yeah for me, webworker01 is still the kind of goat with plainty of things on his repo (I'll never have the time to read everything) and websites that I forgot that he is the owner
+
+
+[14-Jun-19 01:58 PM] metaphilibert#0926
+Sorry for interrupting please continue your conversation 😇
+
+
+[14-Jun-19 01:58 PM] phm87#7395
+yeah thanks for clarification
+
+
+[14-Jun-19 02:10 PM] zatJUM#9924
+I'm interested by the "crypto accountants in france"... Don't know where to start my searches. It seems that "fiscal services" don't know how to tax us too!
+
+
+[14-Jun-19 02:14 PM] metaphilibert#0926
+France seems to be hell for crypto startups as all the main banks are not allowing you to open accounts if you mention "blockchain" or "Cryptocurrency" in your business description
+True fact
+
+
+[14-Jun-19 02:14 PM] phm87#7395
+establish crypto company in france with bank account is germany is fine
+
+
+[14-Jun-19 02:14 PM] phm87#7395
+I heard
+
+
+[14-Jun-19 02:17 PM] metaphilibert#0926
+Was highlightening the fact that the situation in France is quite noticeable as banks are really blocking the thing
+Like a non said protectionnism
+And in the meanwhile minister of economy is using the word crypto-nation
+
+
+[14-Jun-19 02:18 PM] metaphilibert#0926
+So lol
+
+
+[14-Jun-19 02:18 PM] metaphilibert#0926
+And so sad
+
+
+[14-Jun-19 02:18 PM] phm87#7395
+I agree
+
+
+[14-Jun-19 02:19 PM] phm87#7395
+But I still want to know how it is taxed in france and how we can fuck states
+
+
+[14-Jun-19 02:19 PM] phm87#7395
+or nuke govts if you prefer
+
+
+[14-Jun-19 02:20 PM] metaphilibert#0926
+In west EU, Crypto friendly countries are
+Netherlands
+Portugal
+Luxembourg
+Switzerland (not really in eu)
+
+
+[14-Jun-19 02:21 PM] phm87#7395
+Luxembourg is a good country very close to Be. Portugal is far and country have more pbs than Lux
+
+
+[14-Jun-19 02:22 PM] metaphilibert#0926
+Netherlands are not far from you also and and many attractive aspects 😉
+
+
+[14-Jun-19 02:22 PM] phm87#7395
+I'd love to go to the Netherlands but I must learn more the language that ik spreek een beetje
+
+
+[14-Jun-19 02:23 PM] phm87#7395
+yes but mining ... is it working or trading or else ?
+
+
+[14-Jun-19 02:23 PM] phm87#7395
+how to tax ?
+
+
+[14-Jun-19 02:23 PM] phm87#7395
+apart from that, if I launch a hashrate trading place such as nicehashmafia or hashtap.ca (zpool that I love), how to tax this ?
+
+
+[14-Jun-19 02:24 PM] phm87#7395
+Income is coming from all around the world so due to global income, the company can choose its country and states are trying to attract with rulings
+
+
+[14-Jun-19 02:24 PM] phm87#7395
+and exceptions in laws
+
+
+[14-Jun-19 02:25 PM] metaphilibert#0926
+Not sure about all the specific aspects but it surely should worh a comparison
+
+
+[14-Jun-19 02:26 PM] phm87#7395
+US defined laws about mining and I think that other countries should follow
+
+
+[14-Jun-19 02:26 PM] phm87#7395
+US have a bigger army and a president that is more intelligent than other presidents united :troll:
+
+
+[14-Jun-19 02:27 PM] phm87#7395
+but in many cases, US decided and other countries follows
+
+
+[14-Jun-19 02:27 PM] phm87#7395
+what about VAT on crypto on mining in US ?
+
+
+[14-Jun-19 02:27 PM] metaphilibert#0926
+Don't know
+
+
+[14-Jun-19 02:27 PM] phm87#7395
+answer can change in each state of US I think
+
+
+[14-Jun-19 02:28 PM] phm87#7395
+maybe we should ask @ComputerGenie  about US taxes on mining/trading and such things
+
+
+[14-Jun-19 02:28 PM] metaphilibert#0926
+```but in many cases, US decided and other countries follows```
+Less since the orange agent
+
+
+[14-Jun-19 02:29 PM] metaphilibert#0926
+At least I hope 😅
+
+
+[14-Jun-19 02:32 PM] metaphilibert#0926
+Oh orange agent is a reference to the guy elected in US in case you wonder
+
+
+[14-Jun-19 02:42 PM] metaphilibert#0926
+not sure if i prefer a dumb guy or a smart guy acting like a dumb
+
+
+[14-Jun-19 02:43 PM] phm87#7395
+it remembers me few belgian politicians who were quite funny on tv but nothing related IRL (tv like to show what they want)
+
+{Reactions}
+💯 
+
+[14-Jun-19 02:43 PM] metaphilibert#0926
+```in this world nothing is what it looks like``` true that
+
+
+[14-Jun-19 02:44 PM] phm87#7395
+US have 4% of inner growth right now, US ppl are happy about Trump work (despite rest of the world is pissed off)
+
+
+[14-Jun-19 02:44 PM] phm87#7395
+Sorry to digress to politics and economics.
+Let's go back to tax system comparison and tax load balancing
+
+
+[14-Jun-19 02:45 PM] phm87#7395
+so Emmanual : do you know how much taxes you pay in your country ?
+
+
+[14-Jun-19 02:45 PM] phm87#7395
+and what is the country that you chosed for this year
+
+
+[14-Jun-19 02:50 PM] phm87#7395
+is it crypto friendly ?
+
+
+[14-Jun-19 03:07 PM] Chipmoon#7477
+Which country/ region in Asia?
+
+
+[14-Jun-19 03:07 PM] Chipmoon#7477
+I will be moving to Indonesia , maybe Bali by end of this year
+
+{Reactions}
+👌 
+
+[14-Jun-19 03:29 PM] metaphilibert#0926
+@Cryptoon  you're right about (logical) non appliance of VAT for your "intracommunautaire" invoices  (between EU countries) (for B2B only) -check article 21 Code TVA / article 44 Directive 2006/112/CE-
+but afaik VAT infos are crossed between EU countries and using a VAT nr to buy goods in another country with a 21% discount (by not registering on your side) will be spotted and is fraud
+
+
+[14-Jun-19 03:30 PM] metaphilibert#0926
+just saying
+
+
+[14-Jun-19 03:30 PM] metaphilibert#0926
+cause love you guys 😘
+
+
+[14-Jun-19 05:05 PM] metaphilibert#0926
+falling asleep hoping to have at least a dream about us living in a simple, fair and efficient system
+
+
+[14-Jun-19 05:05 PM] metaphilibert#0926
+as i know we won't wake up into it tomorrow
+
+
+[14-Jun-19 05:26 PM] Chipmoon#7477
+maybe AI will take over and make the system simpler someday soon
+
+
+[14-Jun-19 09:24 PM] Mylo#8306
+@lukechilds friend me.   i can't DM you. have questions about setting up company in thailand.
+
+
+[15-Jun-19 12:49 AM] Cryptoon#3362
+@metaphilibert intracommunautaire listing which they use to check such things is only needed if you cross 100k in international invoices a year I believe. Without there isnt an efficient way to check this
+
+
+[15-Jun-19 12:50 AM] Cryptoon#3362
+Also in the company my partner has a family member working for the tax authority and just asked her if they checked for such things
+
+
+[15-Jun-19 12:51 AM] Cryptoon#3362
+She said they dont have time for that so its simply not checked 😃
+
+{Reactions}
+😳 🤦 
+
+[15-Jun-19 12:59 AM] jl777c#5810
+i thought multinationals never have to pay any taxes via cleverly setup inter-company expenses/revenues
+
+
+[15-Jun-19 01:00 AM] jl777c#5810
+a) find 2 (or more) jurisdictions that allow for arbitrary fiscal years and taxes due based on annual profits
+
+
+[15-Jun-19 01:00 AM] jl777c#5810
+b) company in jurisdiction A has fiscal year ending Dec 31, in B it ends June 30th
+
+
+[15-Jun-19 01:01 AM] jl777c#5810
+c) during the first half of year, B has a lot of legitimate expenses that it pays to A, so A has a surplus at June 30th, B has no profits at the critical end of fiscal year
+
+
+[15-Jun-19 01:02 AM] jl777c#5810
+d) during the second half of the year, A has a lot of legitimate expenses that it pays to B, so B now has a surplus at Dec 31 and A has no profits at the critical end of fiscal year
+
+
+[15-Jun-19 01:02 AM] jl777c#5810
+e) repeat, moving ever larger amounts as profits compound taxfree
+
+
+[15-Jun-19 01:03 AM] jl777c#5810
+when i realized this is what the multinationals are doing, with full awareness of the govt, then i realized it is only the smaller companies that are funding basically the majority of tax burden
+
+
+[15-Jun-19 01:04 AM] jl777c#5810
+best is to pick A and B that have legitimate seasonal profitability, many retail companies have a lot of profits in Q4, so that is not to hard to find
+
+
+[15-Jun-19 01:04 AM] jl777c#5810
+and all this done properly is totally legal as they wrote the rules so that if you pay the accountant and laywer taxes, you dont have to pay actual taxes
+
+{Reactions}
+💯 
+
+[15-Jun-19 02:24 AM] Cryptoon#3362
+I do that with my comps as they have different ends of their fiscal years
+
+
+[15-Jun-19 02:25 AM] Cryptoon#3362
+But the ‘problem’ is when you want to take out profits is that you need to realize them one day in order to pay out dividends from your country
+
+
+[15-Jun-19 02:25 AM] Cryptoon#3362
+What the international companies do is setup a company that holds the trademarks in a low tax country
+
+
+[15-Jun-19 02:25 AM] jl777c#5810
+with proper types of companies, virtually all things can become a company expense, cant it?
+
+
+[15-Jun-19 02:26 AM] Cryptoon#3362
+And the other entities in high tax countries pay to use the trademarks to the low tax entity
+
+
+[15-Jun-19 02:26 AM] jl777c#5810
+it is all just a big joke, the companies with the funds to pay the right accountants end up with 2.4% tax rate, the others at 48%
+
+{Reactions}
+💯 (3) 🤡 🌎 
+
+[15-Jun-19 02:26 AM] Cryptoon#3362
+So they siphon profits to entities in low tax companies
+
+
+[15-Jun-19 02:27 AM] Cryptoon#3362
+Et voila, you can extract dividends very cheaply
+
+
+[15-Jun-19 02:27 AM] jl777c#5810
+yes, so pay the 2% tax, all problems solved
+
+
+[15-Jun-19 02:27 AM] jl777c#5810
+the tax rate for a properly structured multinational is whatever the lowest tax rate that exists in the world
+
+
+[15-Jun-19 02:28 AM] jl777c#5810
+toss in all the special exemptions that exist
+
+
+[15-Jun-19 02:28 AM] Cryptoon#3362
+Jep
+
+
+[15-Jun-19 02:28 AM] jl777c#5810
+it is just a big waste of time and productivity to prevent excessive taxation. more efficient to spend time and money on productive things, but it you dont do it, you get screwed really bad, so seems not much choice but to play the game
+
+
+[15-Jun-19 02:29 AM] Cryptoon#3362
+Problem is that you have countries also outbidding eachother fiscally in order to have the multinationals come to their country
+
+{Reactions}
+👆 
+
+[15-Jun-19 02:29 AM] Cryptoon#3362
+So the companies with most resources have the best opportunities to figure it all out
+
+
+[15-Jun-19 02:30 AM] Cryptoon#3362
+And small/medium enterprises end up paying the bills
+
+
+[15-Jun-19 02:34 AM] Cryptoon#3362
+Although apparently in BE anyone can go to the taxman and ask for a fiscal ruling 😃
+
+
+[15-Jun-19 03:42 AM] phm87#7395
+Most of the bel20 companies have a fiscal ruling (some are below 500 employees). I will begin an excel sheet.
+I agree with Cryptoon : we should ask a ruling. But for now, I prefer to learn existing rules about other countries
+
+
+[15-Jun-19 03:44 AM] phm87#7395
+I saw small companies with as much optimizations as big ones (they played with their friends companies instead of creating new ones). Who owns the company, who is employee and have right to unemployment benefits as example
+
+
+[15-Jun-19 03:45 AM] phm87#7395
+And to reduce taxes, I wonder if I can play with notional interests to invest in buildings and projects in Europe (such as @Lumbi idea about a farm in Europe). I am just thinking here
+
+
+[15-Jun-19 04:41 AM] mrlynch#5735
+just want to mention my recent experiences
+UK is a crypto friendly country - i was looking for months for a proper setup and didn't see the trees for the forest
+
+1. main banks are crypto friendly (barclays actually welcome crypto businesses as they are building their own blockchain)
+2. company formation is cheap (aprox £150 with all the bells and whistles; cheapest i saw was around £40) and you don't have to be a resident
+3. gov has passed **some** crypto tax regulation but they left it at a case by case basis basically meaning don't be a dickhead and pay **some** tax - hmrc (irs equivalent) is more than helpful with info - long term hodlers pay 0% tax, traders need to qualify under what they call "badges of trade" and pay cgt (capital gains tax - 20% of profits), trust funds are possible to alleviate %
+4. corporation tax is 19% but there are loads of deductibles
+5. london is one of the most respected financial centers
+6. if brexit happens, regulations are more likely to be even more relaxed - brits in general like privacy, but had to go by eu laws & regulations (aml, etc)
+7. plenty of crypto accountants & lawyers offering their services which lets u focus on actually running your business and they deal with all the tax non-sense
+
+
+[15-Jun-19 04:43 AM] mrlynch#5735
+https://blocktax.uk/guide/
+
+{Embed}
+https://blocktax.uk/guide/
+Guide — blocktax.uk
+
+
+[15-Jun-19 04:45 AM] mrlynch#5735
+annual tax-free allowance for individuals - aprox £12k
+
+
+[15-Jun-19 04:45 AM] mrlynch#5735
+all in all not a bad deal
+
+
+[15-Jun-19 04:47 AM] mrlynch#5735
+you don't have to report profits under that threshold unless u sell crypto worth 4 times that
+
+
+[15-Jun-19 04:48 AM] mrlynch#5735
+https://www.harvex.io/cryptocurrency-tax/
+
+{Embed}
+David
+https://www.harvex.io/cryptocurrency-tax/
+Cryptocurrency Tax UK | VAT on Crypto | Capital Gains | Trading Pr...
+Harvex are leading specialists in Cryptocurrency Tax UK & beyond. Highly experienced in taxation of Crypto Trading, Investing, Airdrops, Bounties, Forks...
+
+
+[15-Jun-19 06:23 AM] Cryptoon#3362
+@phm87 btw I would never ask for a ruling directly myself, but let a lawyer be an intermediary at first to see what is possible. Otherwise if the ruling is denied they know who you are and what you have. But if done by a lawyer on your behalf, the lawyer can ask it hypothetically and not divulge personal information because client confidentiality.
+
+
+[15-Jun-19 06:51 AM] phm87#7395
+I agree
+
+
+[15-Jun-19 06:54 AM] Cryptoon#3362
+Asked my banker what their stance is on crypto, and they automatically flag your account when you deal with crypto exchanges etc, but dont do anything about it
+
+
+[15-Jun-19 06:54 AM] Cryptoon#3362
+They flag it just so they know you are in contact with crypto
+
+
+[15-Jun-19 06:55 AM] Cryptoon#3362
+And if you stay below 10k withdrawals they wont automatically report you to the govt
+
+
+[15-Jun-19 06:55 AM] Cryptoon#3362
+That was early 2018 tho, not sure what the stance is now, can ask again when I see him (KBC)
+
+
+[15-Jun-19 09:53 AM] phm87#7395
+My friend is using seeral bank accounts to stay below limits. He worked for a big bank so he knows rules.
+One idea is to use the same bank of the exchange used (kraken used deutsche bank)
+
+
+[15-Jun-19 12:21 PM] Llama#1330
+Have you guys ever thought about moving to Malta?
+
+
+[15-Jun-19 12:24 PM] Cryptoon#3362
+Just for hodling crypto, belgium is quite ok... when hodling as long term investment no taxes due iirc
+
+
+[15-Jun-19 12:24 PM] Cryptoon#3362
+When speculating short term it’s considered a job income and taxes are due
+
+{Reactions}
+✅ 
+
+[15-Jun-19 12:24 PM] Cryptoon#3362
+So if you hold 1y, no taxes due
+
+{Reactions}
+✅ 
+
+[15-Jun-19 12:24 PM] Llama#1330
+If pirate is >$1 in 4 years I’m planning on moving to Malta
+
+
+[15-Jun-19 12:25 PM] Cryptoon#3362
+If you daytrade its your job and then taxes are due
+
+
+[15-Jun-19 12:25 PM] Cryptoon#3362
+If you hold 1m arrr for 4y taxfree 😃
+
+
+[15-Jun-19 12:25 PM] Llama#1330
+What if it’s <1m
+
+
+[15-Jun-19 12:26 PM] Cryptoon#3362
+Doesnt matter, as long as you hold it for a longer period and dont trade constantly,
+
+
+[15-Jun-19 12:26 PM] Llama#1330
+Right now I’m in USA
+
+
+[15-Jun-19 12:26 PM] Cryptoon#3362
+Its the same as investing long term in stock which is also taxfreep
+
+
+[15-Jun-19 12:26 PM] Llama#1330
+But Malta is my next stop
+
+
+[15-Jun-19 12:26 PM] Cryptoon#3362
+In the netherlands you pay a couple % on your holdings each year iirc
+
+
+[15-Jun-19 12:27 PM] Cryptoon#3362
+Which is also not too bad
+
+
+[15-Jun-19 12:27 PM] Llama#1330
+Do most people speak English?
+
+
+[15-Jun-19 12:27 PM] Cryptoon#3362
+Probably
+
+
+[15-Jun-19 12:28 PM] Llama#1330
+I’m thinking Malta because it’d be like a big vacation
+
+
+[15-Jun-19 12:28 PM] Cryptoon#3362
+But in BE there hasnt been too many big cases yet
+
+
+[15-Jun-19 12:28 PM] Cryptoon#3362
+So it’s all a bit up in the air
+
+
+[15-Jun-19 12:28 PM] Cryptoon#3362
+Untill someone comes forward with 10k btc or so
+
+
+[15-Jun-19 12:28 PM] Cryptoon#3362
+Malta is chill
+
+
+[15-Jun-19 12:29 PM] Cryptoon#3362
+Big pokerplayer community as well
+
+
+[15-Jun-19 12:29 PM] Cryptoon#3362
+Dont know how expensive life is over there
+
+
+[15-Jun-19 12:29 PM] Llama#1330
+https://www.google.com/amp/s/amp.reddit.com/r/Stellar/comments/7o8qtd/malta_no_tax_on_crypto_eu_citizen_after_183_days/
+
+{Embed}
+https://www.google.com/amp/s/amp.reddit.com/r/Stellar/comments/7o8qtd/malta_no_tax_on_crypto_eu_citizen_after_183_days/
+r/Stellar - Malta - no tax on crypto - EU citizen after 183 days
+16 votes and 43 comments so far on Reddit
+
+
+[15-Jun-19 12:32 PM] CHMEX#0686
+If you are non european I think you have to go through this process
+maltaimmigration.com
+
+
+[15-Jun-19 12:34 PM] ComputerGenie#7004
+`...to ensure only deserving and reputable applicants are granted Maltese citizenship.`
+well, I'm feked 😭
+
+{Reactions}
+🙃 (2) 😂 (2) 
+
+[15-Jun-19 12:34 PM] CHMEX#0686
+To get citizenship I believe you need to make a donation of about 650k euros to the gov.
+
+{Reactions}
+😵 
+
+[15-Jun-19 12:36 PM] ComputerGenie#7004
+seems I need a new dictionary; mine has no meaning where `contribution` and `donation` are ever compulsory things
+
+{Reactions}
+☝ 
+
+[15-Jun-19 12:36 PM] Llama#1330
+Well if anyone has any suggestions for me lmk
+
+
+[15-Jun-19 12:37 PM] CHMEX#0686
+...non-refundable contribution to the National Development and Social Fund....
+Donations ... contributions...  bribes no?
+
+
+[15-Jun-19 12:38 PM] Llama#1330
+That’s a bribe yeah
+
+
+[15-Jun-19 12:38 PM] ComputerGenie#7004
+at a minimum, it's a "required fee/tax/surcharge"
+
+
+[15-Jun-19 12:39 PM] Llama#1330
+650k is a lot
+
+
+[15-Jun-19 12:39 PM] Llama#1330
+Might as well pay taxes
+
+
+[15-Jun-19 12:39 PM] CHMEX#0686
+Yes... they call it golden visa for a reason.... free edit: no visa needed edit end: travel in europe included
+
+{Reactions}
+troll_hardcore 
+
+[15-Jun-19 12:40 PM] ComputerGenie#7004
+I like free airfare
+
+{Reactions}
+😂 
+
+[15-Jun-19 12:41 PM] CHMEX#0686
+If somebody is serious about that in Malta ping me and I can give you a contact....
+
+
+[15-Jun-19 12:45 PM] actionslacks#4072
+visa free travel to us and canada as well
+
+
+[15-Jun-19 12:46 PM] Llama#1330
+Jerez that’s pretty nice
+
+
+[15-Jun-19 12:46 PM] Llama#1330
+Basically do whatever you want
+
+
+[15-Jun-19 12:46 PM] actionslacks#4072
+http://www.independent.com.mt/articles/2016-05-12/local-news/Malta-s-citizenship-scheme-ranks-number-one-in-Henley-Partners-report-6736157746
+
+{Embed}
+http://www.independent.com.mt/articles/2016-05-12/local-news/Malta-s-citizenship-scheme-ranks-number-one-in-Henley-Partners-report-6736157746
+Malta's citizenship scheme ranks number one in Henley & Partners r...
+Malta's citizenship scheme has taken the number one spot in a report compiled by Henley & Partners. Henley & Partners launched its Global Residence and Citizenship Programs 2016 report,
+https://images-ext-2.discordapp.net/external/5M3L_YSbRHYzBSvX7JsMHbO2XveWir1nLPTgSYJtC5o/%3Ff%3D93090/http/www.independent.com.mt/file.aspx
+
+
+[15-Jun-19 12:48 PM] Llama#1330
+I guess I’d need $10 pirate then
+
+
+[15-Jun-19 12:57 PM] jl777c#5810
+i read many countries give you citizenship if you buy expensive real estate
+
+
+[15-Jun-19 01:04 PM] actionslacks#4072
+when you consider that the price likely includes a nice piece of property it doesn't seem like that bad of a deal.
+
+
+[15-Jun-19 01:06 PM] jl777c#5810
+yes, it seems you can make a list of countries you wouldnt mind living in. then see if they have a decent citizenship via real estate program. a lot of the EU countries are very desperate for funds, i think spain, portugal, cyprus, all vacation type of countries with decent deals
+
+
+[15-Jun-19 01:07 PM] jl777c#5810
+lots of island countries do the same, but maybe it gets boring in such small places over time
+
+
+[15-Jun-19 01:59 PM] mrlynch#5735
+canary islands - 4% tax 😉
+
+
+[15-Jun-19 01:59 PM] mrlynch#5735
+after 3 months they grant you residency
+
+
+[15-Jun-19 01:59 PM] mrlynch#5735
+cheap cost of living
+
+
+[15-Jun-19 02:22 PM] Cryptoon#3362
+Canary islands is spain, no?
+
+{Reactions}
+💯 
+
+[15-Jun-19 09:37 PM] jl777c#5810
+island countries -> small
+
+
+[15-Jun-19 09:38 PM] jl777c#5810
+spain != island
+
+{Reactions}
+☑ 
+
+[15-Jun-19 11:24 PM] jl777c#5810
+many countries do that. they get registration fees and no expenses, so it is pure profit
+
+
+[16-Jun-19 12:06 AM] PTYX#6840
+Costa Rica and Panama both have 0% income tax on all international business
+
+{Reactions}
+👍 (2) 
+
+[16-Jun-19 12:41 AM] PTYX#6840
+BeCaUsE TrIfEcTa
+
+{Reactions}
+👇 
+
+[16-Jun-19 01:34 AM] mrlynch#5735
+@Cryptoon it's a bit weird with canary islands - they're technically spanish but they are also self governing with their own parliament, political structure and their own set of laws
+
+{Reactions}
+🤔 
+
+[16-Jun-19 02:27 AM] Cryptoon#3362
+Aha, did not know that!
+
+
+[16-Jun-19 04:09 AM] Lumbi#8378
+@phm87 there are a lot of subsidies and tax breaks for  sustainable energy projects, not to mention a major PR opportunity (eg inviting youtubers to video journal the rigs, etc) to take the crypto world by storm. 😎
+
+{Reactions}
+♻ (2) 💡 
+
+[16-Jun-19 04:12 AM] Lumbi#8378
+Could also solve the fiat problem by creating positive cashflow / cash reserves. Flights from Paris to Valletta ca. 300,- EUR
+
+
+[16-Jun-19 09:50 AM] Lumbi#8378
+https://imgur.com/a/fpejlKq
+
+{Embed}
+https://imgur.com/a/fpejlKq
+https://images-ext-1.discordapp.net/external/Icwrti4v0FpTQTcS8DSNz5NFGCblfNj5jscLzhc8E5w/https/i.imgur.com/3gNC3f4h.jpg
+
+
+[21-Jun-19 01:54 PM] Cryptoon#3362
+@Deleted User ?
+
+
+[21-Jun-19 01:54 PM] Cryptoon#3362
+@FabØ peutetre
+
+
+[21-Jun-19 01:54 PM] Deleted User#0000
+😃
+
+
+[21-Jun-19 02:19 PM] FabØ#8941
+Hey 👋 @Cryptoon
+
+
+[21-Jun-19 02:19 PM] FabØ#8941
+Thanks
+
+
+[21-Jun-19 02:31 PM] FabØ#8941
+Nope @zatJUM as tu une question spécifique ?
+
+
+[26-Jun-19 10:25 AM] G888#0307
+I have found in shopping for visa's its more important to consider their visa treaties, and taxation secondarily. Once you are outside USA tax jurisdiction - ie have renounced your citizenship - numerous (legal) tax avoidance options become available. Besides - even retaining us citizenship the right foundations and trusts can shield 100% of tax liability
+
+
+[26-Jun-19 10:26 AM] G888#0307
+visa treaties - for those not familiar - are more important for non-eu countries, like carribean islands. St Kitts for example has strong visa treaties (travel rights with other nations)
+
+
+[01-Jul-19 04:26 PM] BlackMarket#6984
+Tax free in Costa Rica
+
+
+[01-Jul-19 07:43 PM] PTYX#6840
+US citizens are now using Puerto Rico as a goto
+
+
+[02-Jul-19 02:36 AM] hyperDEX#6586
+@G888 there is also a exit tax from the US
+
+
+[02-Jul-19 02:42 AM] Cryptoon#3362
+Isnt PR a special case as they have a tax treaty with the US?
+
+
+[02-Jul-19 02:45 AM] hyperDEX#6586
+no federal tax i think
+
+
+[02-Jul-19 02:45 AM] hyperDEX#6586
+or capital gains
+
+
+[02-Jul-19 02:46 AM] Cryptoon#3362
+yeah but I mean, no exit tax either
+
+
+[02-Jul-19 02:46 AM] Cryptoon#3362
+as you dont really exit the us because of the tax treaty
+
+
+[02-Jul-19 02:47 AM] hyperDEX#6586
+oh ok that i dont know 😄
+
+
+[02-Jul-19 02:48 AM] Cryptoon#3362
+https://ustax.bz/puerto-rico/
+
+{Embed}
+Stewart Patton
+https://ustax.bz/puerto-rico/
+6 Reasons the Puerto Rico Tax Incentives Aren’t all They’re Cr...
+Lots of offshore gurus are pushing Puerto Rico these days.  As usual, the picture isn’t quite as rosy once you dig below the surface.
+
+
+[02-Jul-19 02:48 AM] Cryptoon#3362
+hmm some caveats it seems
+
+
+[02-Jul-19 02:48 AM] Cryptoon#3362
+GOING FULLY OFFSHORE WORKS BETTER FOR MOST PEOPLE
+
+If you’re a hedge fund manager or other professional with a big office who’s making millions in fees for your services, or you trade financial assets or cryptocurrency full-time, Puerto Rico’s a pretty sweet deal (for as long as it lasts).
+
+
+[02-Jul-19 02:48 AM] Cryptoon#3362
+;p
+
+
+[08-Jul-19 03:53 PM] coinmonks || CoinCodeCap#8469
+Serious question - Other than store of value [Bitcoin] ... is there any other single usecase which has mass adoption in last 10 years?
+
+
+[08-Jul-19 03:53 PM] phm87#7395
+Internet ?
+
+
+[08-Jul-19 03:53 PM] phm87#7395
+Mobile phones ?
+
+
+[08-Jul-19 03:54 PM] coinmonks || CoinCodeCap#8469
+I am talking about crypto space
+
+
+[08-Jul-19 03:54 PM] phm87#7395
+Tablet adoption is ongoing
+
+
+[08-Jul-19 03:54 PM] phm87#7395
+oh sorry
+
+
+[08-Jul-19 03:54 PM] phm87#7395
+then no, bitcoin and crypto is still a scam for 90%+ of ppl
+
+
+[08-Jul-19 03:55 PM] coinmonks || CoinCodeCap#8469
+Even who understands crypto .. I don't find a well enough blockchain use case out side of finance
+
+
+[08-Jul-19 03:56 PM] coinmonks || CoinCodeCap#8469
+blockchains are good at creating asset and financial instruments,,, after store of value.. we will see a wave of products providing lending support and I think it will get adopted well too
+
+
+[08-Jul-19 03:57 PM] coinmonks || CoinCodeCap#8469
+Payments is good usecase and I think stable coins and libra will drive that
+
+
+[08-Jul-19 04:16 PM] polycryptoblog#1173
+@coinmonks || CoinCodeCap ,   Documentation
+
+
+[08-Jul-19 04:25 PM] polycryptoblog#1173
+That is another major use case of crypto in the past ten years.  Open timestamp (Bitcoin), supplychain tracking(Vaultchain),  Deeds and titles(Factom),  Cybersecurity (Komodo).  Taken in aggregate , millions of users affected by this use case
+
+
+[08-Jul-19 04:39 PM] allbits#5898
+Also storage (Sia) and id for use in decentralized applications (blockstack). These are actual use cases since I personally use them for real world stuff.
+
+
+[08-Jul-19 06:38 PM] actionslacks#4072
+if blockchain devs are getting six figure job offers then there must be something to it.
+
+{Reactions}
+😮 
+
+[08-Jul-19 09:21 PM] jl777c#5810
+biggest usecase is trading
+
+
+[09-Jul-19 12:40 AM] hyperDEX#6586
+https://tenor.com/view/money-kim-kardashian-gq-gif-6195523
+
+{Embed}
+https://tenor.com/view/money-kim-kardashian-gq-gif-6195523
+Kim Kardashian 킴 카다시안 돈 현금 탕진잼 지름신 지름 쇼핑
+https://images-ext-2.discordapp.net/external/boS7cLB0h17DsFpjoxStjniYpzrUjJFg27ucri3TRF0/https/media.tenor.co/images/fb206acdc1ea1346c03f94dfd8773a49/tenor.png
+
+
+[09-Jul-19 03:49 AM] Deleted User#0000
+these happy small businesses, which are selling emotions by practicing their management philosophy that people should be better off, and society should be better, are expected to give us a lot of implications today. Looking at the aspects of small and medium-sized companies that place the value of a company in the happiness of its members and its perpetuation, there is hope that they will realize what the essence of the company is and find some answers.
+
+
+[11-Jul-19 12:41 AM] Lumbi#8378
+https://www.youtube.com/watch?v=hGyh9GPKok0
+
+{Embed}
+Techquickie
+https://www.youtube.com/watch?v=hGyh9GPKok0
+How do Chip Cards Work?
+EMV chip cards are touted as being safer than old-school magnetic stripe cards - but are they really? And how do they work, anyway? Squarespace link: Visit h...
+https://images-ext-1.discordapp.net/external/S0RcDoQEbIjDTD7yvBjhKSTKIsH-9o72p2EhirDMgbY/https/i.ytimg.com/vi/hGyh9GPKok0/hqdefault.jpg
+
+
+[12-Jul-19 06:11 AM] ComputerGenie#7004
+afaik, the every tx rule applies to trades and mining, whereas usage as currency is a different set of rules
+
+
+[12-Jul-19 06:13 AM] ComputerGenie#7004
+I'll have to find it again, I only keep track of rules during Jan and Sept
+
+{Reactions}
+👌 
+
+[12-Jul-19 06:23 AM] jl777c#5810
+i think theoretically if you used tomatoes to barter for things, the same rules apply
+
+
+[12-Jul-19 06:24 AM] ComputerGenie#7004
+<https://www.irs.gov/pub/irs-drop/n-14-21.pdf>
+points to
+<https://www.fincen.gov/sites/default/files/shared/FIN-2013-G001.pdf>
+In my readings, `Users of Virtual Currency` in the latter applies
+
+
+[12-Jul-19 06:25 AM] ComputerGenie#7004
+
+{Attachments}
+https://cdn.discordapp.com/attachments/585427540748009472/599229870735622157/Screenshot_2019-07-12_08-25-23.png
+
+
+[12-Jul-19 06:27 AM] ComputerGenie#7004
+`FinCEN doesn't matter here, IRS matters`
+True, but what I'm saying is that the IRS's official stance is that the FinCEN doc is their basis and as such if FinCEN says it doesn't apply then the IRS can't say that it does if the IRS says that FinCEN is their guide (logically at least)
+
+
+[12-Jul-19 06:29 AM] ComputerGenie#7004
+From the IRS:``` For a more comprehensive description of convertible virtual currencies to date, see Financial Crimes Enforcement Network (FinCEN) Guidance on the Application of FinCEN’s Regulations to Persons Administering, Exchanging, or Using Virtual Currencies (FIN-2013-G001, March 18, 2013).  ```
+🤷🏽
+
+
+[12-Jul-19 06:31 AM] ComputerGenie#7004
+I'm not sure how a conversion service like BitPay stands in the mix
+I thought you meant actually using for currency
+
+
+[12-Jul-19 06:32 AM] ComputerGenie#7004
+Chances are likely that BitPay would be seen as the same action as trading on a CEX
+
+
+[12-Jul-19 06:33 AM] ComputerGenie#7004
+it's basically the same in my eyes too 😛
+
+
+[12-Jul-19 06:35 AM] ComputerGenie#7004
+well, when you think of the steps, BitPay is the same as an exchange and withdraw to your bank and the difference is you designate a receiver per instance rather than a constant
+
+{Reactions}
+💯 
+
+[12-Jul-19 06:36 AM] ComputerGenie#7004
+so, the long to get to answer is: yes, you probably need to document each instance and pay property tax on it
+
+{Reactions}
+😞 
+
+[12-Jul-19 06:37 AM] ComputerGenie#7004
+`we all know it's not the same, but for the sake of understanding USSA's mind... it is.`
+True, CEXs don't employ false advertisement  :troll:
+
+
+[12-Jul-19 09:30 PM] jl777c#5810
+https://news.bitcoin.com/georgia-exempts-bitcoin-from-vat-to-become-the-next-country-to-affirm-its-currency-status/
+
+{Embed}
+https://news.bitcoin.com/georgia-exempts-bitcoin-from-vat-to-become-the-next-country-to-affirm-its-currency-status/
+Georgia Exempts Bitcoin From VAT to Become the Next Country to Aff...
+Cryptocurrency taxation is a subject that concerns a growing number of users, traders and investors. An area that creates a lot of confusion among Cryptocurrency taxation is a subject that concerns a growing number of users, traders and investors. An area that creates a lot o...
+https://images-ext-2.discordapp.net/external/60_ImpDqNdNqOMRtqa7QEW9O_5RHWo2DqG-peBYaTjA/https/news.bitcoin.com/wp-content/uploads/2019/07/shutterstock_1372267412_1600.jpg
+
+
+[12-Jul-19 09:30 PM] jl777c#5810
+also no taxes for trading
+
+
+[13-Jul-19 01:40 AM] hyperDEX#6586
+Did you say move to Georgia? 😄
+
+{Reactions}
+🛩 
+
+[13-Jul-19 02:26 AM] hyperDEX#6586
+Good place to mine i was told
+
+
+[13-Jul-19 05:05 AM] Andersen#8337
+Georgia .   Batumi  city          https://media-cdn.tripadvisor.com/media/photo-s/0e/34/32/c1/batumi-hotels.jpg
+
+{Embed}
+https://media-cdn.tripadvisor.com/media/photo-s/0e/34/32/c1/batumi-hotels.jpg
+https://images-ext-1.discordapp.net/external/Pyhp5jqykDHtIyTI9eaVXJ7bFonwWKGXkKPhCg2-974/https/media-cdn.tripadvisor.com/media/photo-s/0e/34/32/c1/batumi-hotels.jpg
+
+{Reactions}
+👏 👍 (2) 3040_kingpeepo ✌ 
+
+[13-Jul-19 05:07 AM] Andersen#8337
+Mostly  russian.
+
+
+[13-Jul-19 05:08 AM] Andersen#8337
+Yes  they  all speak clear  russian
+
+
+[13-Jul-19 05:08 AM] Andersen#8337
+Near  tourists places of course  english too
+
+
+[13-Jul-19 08:06 AM] Audo#5667
+I am currently in Georgia, it's indeed nice here 😃
+
+
+[13-Jul-19 08:06 AM] Audo#5667
+had to wait my turn to get to a BTC ATM
+
+{Reactions}
+👌 (4) 🆒 (2) 
+
+[13-Jul-19 08:15 AM] sφldat#8733
+Enjoy! @Audo 😉
+
+
+[13-Jul-19 05:40 PM] hyperDEX#6586
+@Audo you living there or visiting?
+
+
+[13-Jul-19 10:35 PM] Audo#5667
+visiting
+
+
+[14-Jul-19 11:59 PM] TonyL#3577
+Lived in Tbilisi for a few months. Nice place indeed - good food and wine 😃
+
+{Reactions}
+👍 
+
+[30-Jul-19 02:26 PM] D2D privacyalternatives.com#5667
+That's a great article @jl777c not just about Georgia, it explains regulations in general ... it's so chaotic and hard to understand at the moment
+
+
+[30-Jul-19 02:27 PM] jl777c#5810
+https://www.reuters.com/article/us-security-fiveeyes-britain/five-eyes-security-alliance-calls-for-access-to-encrypted-material-idUSKCN1UP199
+
+{Embed}
+https://www.reuters.com/article/us-security-fiveeyes-britain/five-eyes-security-alliance-calls-for-access-to-encrypted-material-idUSKCN1UP199
+'Five Eyes' security alliance calls for access to encrypted material
+The U.S.-led "Five Eyes" intelligence alliance said on Tuesday that te...
+https://images-ext-2.discordapp.net/external/ckkCiM9YQcYIPnTHxRT1fYyCKRSJu8EPr0DT6-2NgYM/%3Fm%3D02%26d%3D20190730%26t%3D2%26i%3D1413648530%26w%3D1200%26r%3DLYNXNPEF6T1OH/https/s2.reutersmedia.net/resources/r/
+
+
+[30-Jul-19 03:24 PM] D2D privacyalternatives.com#5667
+if what that article says actually happens, it's basically the end of privacy and also security
+
+
+[30-Jul-19 03:24 PM] D2D privacyalternatives.com#5667
+Apple actually refused to do this last time they tried to force them
+
+
+[30-Jul-19 03:28 PM] D2D privacyalternatives.com#5667
+It's just a 1 min video, but I like a lot what he says here about cryptography:
+https://www.youtube.com/watch?v=nq01BN-TxdE
+
+{Embed}
+RSA Conference
+https://www.youtube.com/watch?v=nq01BN-TxdE
+Whitfield Diffie on Protecting the Individual
+In celebration of the 20th Anniversary of RSA Conference, we hear from the founders of cryptography - the Giants Among Us. Whitfield Diffie on Protecting the...
+https://images-ext-2.discordapp.net/external/qiR3CrKzWacqL7xTVv6stmfhpgh8iwS6rOp7tQBpECM/https/i.ytimg.com/vi/nq01BN-TxdE/hqdefault.jpg
+
+
+[31-Jul-19 12:04 AM] D2D privacyalternatives.com#5667
+***
+
+Any suggestions on how to monetise a site without compromising on privacy?
+
+Do you know of any forms of ethical advertising/affiliates where people are not tracked with cookies across the web? 
+I read that it's possible...in the sense that if they buy something from a totally unique link given to you, that's what tells the seller the buyer comes from you.
+
+ The other common method is more effective, they usually use an ID that is in a cookie and it tracks visitors, but I don't want to use it - the whole site is focused on Privacy tech so it wouldn't be right.
+
+My other idea is to integrate a form of crypto exchange, maybe something like what sideshift.ai offer to their partners
+
+Would like to also make a utility coin with optional Z-addresses that members can use to pay for premium listings/special features and receive a discount if they use it.
+
+
+[31-Jul-19 12:29 AM] hyperDEX#6586
+optional privacy is basically no privacy at all
+
+
+[31-Jul-19 12:29 AM] hyperDEX#6586
+@D2D privacyalternatives.com
+
+
+[31-Jul-19 12:36 AM] D2D privacyalternatives.com#5667
+Even the way Hush and Verus do it?
+
+
+[31-Jul-19 12:38 AM] jl777c#5810
+USSA will be running nodes for all the major coins, ip sniffing and detecting what node creates the transaction
+
+
+[31-Jul-19 12:39 AM] jl777c#5810
+staying private against a state level actor becomes quite difficult
+
+
+[31-Jul-19 12:39 AM] jl777c#5810
+you would need something like ARRR
+
+
+[31-Jul-19 12:40 AM] jl777c#5810
+HUSH and VRSC will achieve corporate level privacy, but surrounded by taddr and all entry/exit to the chain monitored.... maybe its possible to stay private, but maybe not against a full scale surveillance state
+
+{Reactions}
+👆 
+
+[31-Jul-19 12:49 AM] D2D privacyalternatives.com#5667
+Yes also from what I've been reading, ARRR is the only true privacy coin
+
+
+[31-Jul-19 12:50 AM] D2D privacyalternatives.com#5667
+Isn't there a risk they might ban coins with z-only addresses?
+
+
+[31-Jul-19 12:52 AM] jl777c#5810
+so?
+
+
+[31-Jul-19 12:53 AM] jl777c#5810
+many things are banned, but if it is something people really need, it survives
+
+
+[31-Jul-19 12:53 AM] jl777c#5810
+atomicDEX doesnt need any approvals, it is in a regulatory safe-harbor according to recent guidance
+
+
+[31-Jul-19 12:54 AM] jl777c#5810
+i think ussa tried to ban many things, but the only bans that worked were things that were centralized in nature where they could exert control on a small group of people
+
+{Reactions}
+👍 
+
+[31-Jul-19 12:55 AM] D2D privacyalternatives.com#5667
+But why did Hush and VRSC choose optional z-addresses instead of z-only addresses?
+
+
+[31-Jul-19 12:58 AM] D2D privacyalternatives.com#5667
+And KMD doesn't have z-address anymore now
+
+
+[31-Jul-19 01:03 AM] D2D privacyalternatives.com#5667
+It's good to hear that atomicDEX is in a regulatory safe-harbor
+
+
+[31-Jul-19 01:06 AM] jl777c#5810
+going zaddr only means you cant really do anything else that transactions and store of value
+
+
+[31-Jul-19 01:07 AM] jl777c#5810
+and even simple things like exchange integration become major ordeals and mobile is maybe not even possible without great contortions
+
+
+[31-Jul-19 01:07 AM] jl777c#5810
+PIRATE is the ultimate in privacy, but that is the only thing it can do
+
+
+[31-Jul-19 01:09 AM] jl777c#5810
+maybe in the landscape of thousands of coins that cant do anything else either, PIRATE is their equal in functionality, but the next wave of alt season we will see many alts with enhanced capabilities and the vanilla forks that are not already firmly established wont have any chance
+
+
+[31-Jul-19 01:12 AM] D2D privacyalternatives.com#5667
+Yes that's what I thought and why I suggested making a z-optional coin if I do create one to go with the website.
+ARRR already does full privacy very well
+
+
+[31-Jul-19 01:15 AM] D2D privacyalternatives.com#5667
+--
+About AtomicDEX, it says this on the site (bottom of the homepage, under "Partner with Us"):
+"integrate atomic swaps and let your users trade right from your app"
+
+
+[31-Jul-19 01:15 AM] D2D privacyalternatives.com#5667
+is that just for mobile apps, or could a website also integrate it?
+
+
+[31-Jul-19 01:16 AM] jl777c#5810
+not sure, but i think for now it is mobile only, with website later
+
+
+[31-Jul-19 01:17 AM] D2D privacyalternatives.com#5667
+OK
+
+
+[31-Jul-19 01:19 AM] D2D privacyalternatives.com#5667
+If it's ok to ask, did AtomicDEX base the business in a specific country to be able to be compliant and stay in a safe-harbor?
+
+
+[31-Jul-19 01:20 AM] D2D privacyalternatives.com#5667
+A crypto-friendly country like Georgia for example
+
+
+[31-Jul-19 01:21 AM] D2D privacyalternatives.com#5667
+Because where you base the business must also make a big difference with all the new regulations coming
+
+
+[31-Jul-19 01:24 AM] jl777c#5810
+there is no location
+
+
+[31-Jul-19 01:24 AM] D2D privacyalternatives.com#5667
+OK : )
+
+
+[31-Jul-19 01:27 AM] D2D privacyalternatives.com#5667
+Hopefully it will also be integrated in Pungo wallet. At the moment they use Coinswitch for swaps
+
+
+[31-Jul-19 01:42 AM] D2D privacyalternatives.com#5667
+--
+I'm reading the sideshift.ai documentation for the api they offer to partners to integrate.
+Maybe of interest:
+https://documenter.getpostman.com/view/6895769/S11RKvNp?version=latest
+
+
+[31-Jul-19 01:45 AM] D2D privacyalternatives.com#5667
+And this page:
+https://help.sideshift.ai/en/articles/2800696-i-already-have-a-live-product-service-how-do-i-integrate-sideshift-ai
+
+{Embed}
+https://help.sideshift.ai/en/articles/2800696-i-already-have-a-live-product-service-how-do-i-integrate-sideshift-ai
+I already have a live product/service, how do I integrate SideShif...
+If you have a live product/service, learn how you can integrate.
+
+
+[31-Jul-19 03:33 AM] D2D privacyalternatives.com#5667
+---
+Thought of sharing this which might also be of interest:
+https://ramp.network/
+
+{Embed}
+https://ramp.network/
+The protocol powering fiat to crypto exchanges. Decentralized, sec...
+We at Ramp build a tool for connecting the open and the closed. We are on a journey to an open, meshed, decentralized world where new financial systems help to build better futures.
+https://images-ext-1.discordapp.net/external/ZgGDinpAMIcfa1xJev2H9Yuj_nNZM6WMYezW9Ttp2iY/https/ramp.network/assets/images/og.4508f6bfc22b93aaa34b4e7092fcdc34.png
+
+
+[31-Jul-19 02:48 PM] ph03nix#3115
+`Any suggestions on how to monetise a site without compromising on privacy?`
+
+{Reactions}
+troll_thuglife 
+
+[31-Jul-19 02:49 PM] ph03nix#3115
+@D2D privacyalternatives.com maybe integrate with https://brave.com
+
+{Embed}
+Ross Moody
+https://brave.com
+Secure, Fast & Private Web Browser with Adblocker | Brave Browser
+Welcome to the new Brave browser. Experience a faster, more private and secure browser for PC, Mac and iOS and Android. Block ads and trackers that slow you down, cost you money and invade your privacy. Join the Brave revolution, learn more.
+https://images-ext-2.discordapp.net/external/338YMyhLEouNMQspVltitIjQBQysKlpsvxgHPJbdg08/https/brave.com/wp-content/uploads/2018/07/facebook.png
+
+
+[31-Jul-19 02:52 PM] D2D privacyalternatives.com#5667
+Thanks, yes I thought about it as a good option and almost completed their registration. But despite being a privacy search engine, they do want your full name when registering for that, so not sure yet. I also didn't like the fact that during the registration they say "just confirm" your email. Then after you do that they say one last thing....your name...not very transparent
+
+
+[31-Jul-19 02:54 PM] D2D privacyalternatives.com#5667
+I do like their product, but the registration process is not very honest
+
+{Reactions}
+👌 
+
+[31-Jul-19 02:59 PM] D2D privacyalternatives.com#5667
+When a new browser like Brave, but based on Komodo? : )
+
+{Reactions}
+🤐 😉 👍 
+
+[31-Jul-19 10:08 PM] hastrup#8742
+@D2D privacyalternatives.com one of the the biggest no no's I have about brave its chromium based hence its a Google product not directly but indirectly. I cannot for the life of me understand why they did not fork Firefox if brave what to be for privacy.
+
+
+[01-Aug-19 01:19 AM] Cryptoon#3362
+Thought brave was made by one of the guys from mozilla
+
+
+[01-Aug-19 01:19 AM] Cryptoon#3362
+assumed they forked ff
+
+
+[01-Aug-19 01:19 AM] D2D privacyalternatives.com#5667
+But from what I understand, there shouldn't be any link between the two, Google doesn't get any data from Chrome just because they are using the Chromium code.
+I think technically by default Brave is the best for privacy (no telemetry, while Firefox has that). But if you understand the settings you can make Firefox super-private
+
+
+[01-Aug-19 01:20 AM] D2D privacyalternatives.com#5667
+Yes it was made by one of the guys at Mozilla, who was kicked out because they accused him of being homophobic
+
+{Reactions}
+2561_feelsevilman 🤡 
+
+[01-Aug-19 01:23 AM] D2D privacyalternatives.com#5667
+https://en.wikipedia.org/wiki/Brendan_Eich
+
+
+[01-Aug-19 01:26 AM] gcharang#6833
+he is also the creator of javascript
+
+
+[01-Aug-19 01:26 AM] D2D privacyalternatives.com#5667
+yes
+
+
+[01-Aug-19 01:31 AM] D2D privacyalternatives.com#5667
+About a year or so ago Brave had lots of bugs, but now it works very well, also the separate identities you can create, to browse different things and keep cookies/logins separate is great
+
+
+[01-Aug-19 01:31 AM] D2D privacyalternatives.com#5667
+I do like it
+
+
+[01-Aug-19 01:34 AM] D2D privacyalternatives.com#5667
+But I think his choice of asking for KYC to pay the Brave rewards (for watching ads) is an awful choice
+
+
+[01-Aug-19 01:35 AM] D2D privacyalternatives.com#5667
+I mean, a browser knows almost more about you than yourself
+
+
+[01-Aug-19 01:35 AM] D2D privacyalternatives.com#5667
+They should never ever ask for KYC
+
+
+[01-Aug-19 02:21 AM] hastrup#8742
+@D2D privacyalternatives.com but if you are using Chromium base you are also supporting chromium development hence you are supporting Google. Like you said you can make ff very secure and remove telemetry if you want. So why did brave now do that? Because a personal issue whit ff? Idk it's hard to find the perfect solution. I just want to not use Google related products that's why I'm using Firefox. (while sitting here using Android, fuck me right!)
+
+
+[01-Aug-19 02:25 AM] D2D privacyalternatives.com#5667
+ahah...it's hard to stay away from Google, they are everywhere
+
+
+[01-Aug-19 02:25 AM] D2D privacyalternatives.com#5667
+I think there's a better ethos behind Mozilla and Firefox
+
+
+[01-Aug-19 02:26 AM] D2D privacyalternatives.com#5667
+But some sites seemed to always work better on Chromium than on Firefox for me
+
+
+[01-Aug-19 02:28 AM] D2D privacyalternatives.com#5667
+***
+And there's no real alternative to Youtube yet
+
+
+[01-Aug-19 02:29 AM] D2D privacyalternatives.com#5667
+The only thing you can do is use invidio.us - instead of the "youtube.com" part on the url,  you can put invidio.us and watch their videos without actually being on Youtube
+
+
+[01-Aug-19 02:33 AM] D2D privacyalternatives.com#5667
+For example if you want to watch this video:
+https://www.youtube.com/watch?v=XplVo4LOlFY
+
+{Embed}
+The Coin Chat
+https://www.youtube.com/watch?v=XplVo4LOlFY
+Is Komodo on the Tipping Point of Mass Adoption? Interview with CT...
+Hot Interview: "Roger Ver talks adoption and future of Bitcoin Cash" https://www.youtube.com/watch?v=d9KPm5KD6HU --~-- Visit us at https://patreon.com/thecoi...
+https://images-ext-1.discordapp.net/external/R6mPJo1fEduc9yJOmZ4HMdiA3cGmplW71EQZilomMsI/https/i.ytimg.com/vi/XplVo4LOlFY/maxresdefault.jpg
+
+
+[01-Aug-19 02:34 AM] D2D privacyalternatives.com#5667
+You change the url and make it into:  https://invidio.us/watch?v=XplVo4LOlFY
+And you can then watch it there without being on Youtube
+
+{Embed}
+https://invidio.us/watch?v=XplVo4LOlFY
+Is Komodo on the Tipping Point of Mass Adoption? Interview with CT...
+Hot Interview:
+https://images-ext-2.discordapp.net/external/279-kyMnd-4OIloL1ng9B0rJoWIRIwyuHFaINEcYunc/https/invidio.us/vi/XplVo4LOlFY/maxres.jpg
+
+
+[01-Aug-19 05:54 AM] hastrup#8742
+@Deleted User can you point me to a place where I can read and understand why Firefox is bad architecture compared to chromium. In my mind the solution is not all browser is based on chromium. And that why Firefox is needed for the space.
+
+
+[01-Aug-19 06:02 AM] hastrup#8742
+@Deleted User well that is not very promising for the future of browsers and free net. Thx for the insight!
+
+
+[01-Aug-19 10:18 AM] D2D privacyalternatives.com#5667
+Another thing is that not too long ago Firefox had a bug that suddenly deactivated thousands of addons. And these extra plugins are used for everything now, even as VPNs...so that was quite bad. And when I use Firefox  on Mac it's quite heavy for it and the fans start hyperventilating
+
+
+[02-Aug-19 12:34 AM] D2D privacyalternatives.com#5667
+@Deleted User I  just saw this post and they mention something called Fennec, a privacy-focused Firefox fork:
+https://www.reddit.com/r/privacy/comments/cl0gbg/firefox_alternatives/
+
+{Embed}
+https://www.reddit.com/r/privacy/comments/cl0gbg/firefox_alternatives/
+r/privacy - Firefox alternatives?
+0 votes and 4 comments so far on Reddit
+
+
+[02-Aug-19 02:11 AM] Lordus Dicrurus#7491
+Also guys, I'm about to release `http://shared.mn/`, a shared masternodes and staking service aimeing to be the easiest to use even for beginners !
+Will let you know 😉
+
+
+[02-Aug-19 02:30 AM] D2D privacyalternatives.com#5667
+Maybe Komodo could help them:
+https://docs.opencollective.com/help/about#why-not-use-the-blockchain-and-cryptocurrency
+
+{Embed}
+https://docs.opencollective.com/help/about
+About
+https://images-ext-2.discordapp.net/external/0uymJCejkNm-eCISv3AaP2WH1kRevYyaC2KcbOFc0Ms/https/app.gitbook.com/share/space/thumbnail/-LWSZizTt4ZC1UNDV89f.png
+
+
+[02-Aug-19 02:30 AM] D2D privacyalternatives.com#5667
+"Why not use the Blockchain and Cryptocurrency?
+We're excited about about the new possibilities these technologies are creating, and we'd love to explore how they could help us achieve our goals. But just like we won't wait for self-driving cars to become ubiquitous before calling a Lyft, we're very practical about using existing services to solve problems right now. We can already get pretty far using well-established technologies already integrated with global systems. That said, we are actively exploring how to support cryptocurrency on the platform, so if you're interested in that, get in in touch."
+
+
+[02-Aug-19 06:22 AM] cipi#4502
+apropos privacy: https://www.eff.org/privacybadger
+it works very good and blocks a lot of trackers
+
+{Embed}
+https://www.eff.org/privacybadger
+Privacy Badger
+https://images-ext-2.discordapp.net/external/wAlc4h0t0nBxXyPlGgsX5YkuEm05rkv6wdVsVCRJ1_w/https/www.eff.org/files/banner_library/pb_banner_no_text_1200x600.png
+
+
+[08-Aug-19 07:17 AM] Lumbi#8378
+With the boom of mini-stakers (distributed PoS), KMD could notarize to LUMBER and send the 10-50 BTC it would otherwise have burned in the old model, directly to LUMBER to fund further development and industry adoption (network effect for KMD).
+
+{Reactions}
+♻ 🤦 (4) 👍 
+
+[08-Aug-19 07:23 AM] hyperDEX#6586
+Once you have more hashing than BTC i dont think that would be an issue.
+
+
+[08-Aug-19 07:24 AM] hyperDEX#6586
+oh dPOS 😄
+
+
+[09-Aug-19 05:49 AM] NutellaLicka#4241
+For any Aussie miners out there. An interesting read in relation to Aussie tax & mining crypto
+<https://community.ato.gov.au/t5/Tax/Mining-cryptocurrency/ta-p/4599>
+
+
+[09-Aug-19 05:54 AM] NutellaLicka#4241
+Also, food for thought in this article about "quantitative easing" aka money printing
+<https://mobile.abc.net.au/news/2019-06-18/reserve-bank-must-consider-quantitative-easing,-economists-say/11218476>
+
+
+[09-Aug-19 07:34 AM] Lumbi#8378
+@hyperDEX sort of what ETH is doing with Casper
+
+
+[09-Aug-19 07:36 AM] Lumbi#8378
+or steam engines vs tesla batteries in terms of road performance
+
+
+[09-Aug-19 07:38 AM] Lumbi#8378
+or return on resource allocation
+
+
+[11-Aug-19 07:08 AM] morningsun#2488
+Is anyone interested in working on a games project? I have a mostly finished game in C# and was looking for either a UI/UX person, or someone that could help finish the game. I sunk some money into dev, artwork, etc but never finished it off - if you are ok working for game ownership % that would be sick. I have a partner that's got 12 years of dev but no game dev experience, and I'm more on the business strategy/marketing side of things.
+
+If you want to connect, feel free to shoot me a PM!
+
+{Reactions}
+👍 KMD 
+
+[12-Aug-19 09:18 AM] D2D privacyalternatives.com#5667
+https://www.buying.com/
+
+
+[12-Aug-19 09:20 AM] D2D privacyalternatives.com#5667
+"Buying.com is a Technological company that connects people with E-commerce on demand with 30 minute to 2 hour delivery windows. We do this by offering the next generation of a Decentralized E-commerce Platform along with innovations in Bulk Pricing, Real-time Logistics, E-Commerce and Cryptocurrency."
+
+
+[15-Aug-19 07:27 PM] D2D privacyalternatives.com#5667
+https://www.technologyreview.com/s/614164/new-money-laundering-rules-change-everything-for-cryptocurrency-exchanges/
+
+{Embed}
+https://www.technologyreview.com/s/614164/new-money-laundering-rules-change-everything-for-cryptocurrency-exchanges/
+New money-laundering rules change everything for cryptocurrency ex...
+FATF's new money-laundering regulation is a game changer for the crypto industry
+https://images-ext-2.discordapp.net/external/4LIzfhjSRa4jHIonwjHuvk2noLlAdct10f83zeVUGNA/%3Fsw%3D560%26cx%3D0%26cy%3D0%26cw%3D2990%26ch%3D1687/https/www.technologyreview.com/i/images/moneylaundering.jpg
+
+{Reactions}
+⚛ (2) 👈 (2) 
+
+[15-Aug-19 09:28 PM] D2D privacyalternatives.com#5667
+There's another swap app called Sideshift, which can actually be integrated into your site, can you help me understand how it differs from AtomicDEX
+
+
+[15-Aug-19 09:28 PM] D2D privacyalternatives.com#5667
+https://help.sideshift.ai/en/articles/2800696-i-already-have-a-live-product-service-how-do-i-integrate-sideshift-ai
+
+{Embed}
+https://help.sideshift.ai/en/articles/2800696-i-already-have-a-live-product-service-how-do-i-integrate-sideshift-ai
+I already have a live product/service, how do I integrate SideShif...
+If you have a live product/service, learn how you can integrate.
+
+
+[15-Aug-19 09:29 PM] D2D privacyalternatives.com#5667
+(they also allow Zcash with Z addresses)
+
+
+[15-Aug-19 09:44 PM] D2D privacyalternatives.com#5667
+-----
+I started adding some products/articles for a new Shop on my website and I'm using affiliates (referral links) at the moment. They are ITP (Intelligent Tracking Protection) compliant, so they use only first party cookies (not the third party cookies that follow you around showing you the same ads everywhere).
+
+ But I would prefer to sell my own products, also because the profits on referrals are very low, especially for a niche site on privacy. So if there are any logos/designs from the Komodo ecosystem that I can use to design some t-shirts etc please let me know. I found some affiliates for Hush clothing, Monero, Grin, Zcash...but the ones I found for Komodo are still using the old logo
+
+
+[16-Aug-19 05:27 AM] smkhound#7640
+@D2D privacyalternatives.com  there's a link at the bottom of https://komodoplatform.com/ `Download Logo Pack` which has the latest.
+
+{Embed}
+admin
+https://komodoplatform.com/
+Komodo - An Open, Composable Smart Chain Platform
+Komodo is introducing the industry's first open, composable Smart Chain platform. Learn more about Komodo's new blockchain technology offerings here.
+https://images-ext-1.discordapp.net/external/cdjEZNTu_SpW37iLNTZmFBAvV17L3W4YUzZwgcTz_vU/https/komodoplatform.com/wp-content/uploads/2019/07/komodo-image.png
+
+
+[16-Aug-19 05:29 AM] D2D privacyalternatives.com#5667
+@smkhound Thanks : ) And it's ok to use them to design/sell t-shirts etc?
+
+{Reactions}
+👍🏼 
+
+[16-Aug-19 05:36 AM] Audo#5667
+yes, Komodo is an open source project any anyone can use the logo to print t-shirts / coffee bugs, etc.
+
+{Reactions}
+👍 
+
+[16-Aug-19 05:44 AM] D2D privacyalternatives.com#5667
+OK thanks : )
+
+
+[16-Aug-19 05:51 AM] D2D privacyalternatives.com#5667
+Do you think creating a dedicated coin could have a place on the Privacy Alternatives website?
+To keep things simple, it wouldn't even need to have privacy features as there are already some great privacy-focused coins around. Thinking of creating an ERC20 token to try it, using Metamask etc, then maybe later I can move it to the Komodo blockchain
+
+
+[16-Aug-19 06:15 AM] smkhound#7640
+may as well save the gas and hassle, just use Antara composer 😉
+
+
+[16-Aug-19 06:16 AM] smkhound#7640
+https://composer.kmd.io/
+
+{Embed}
+https://composer.kmd.io/
+Antara Smart Chain Composer
+Antara Composer lets anyone customize and launch a Smart Chain, complete with full seed nodes and mining nodes, in just minutes.
+https://images-ext-1.discordapp.net/external/6NHX8s2Y9s6H5eiUNVQhMDfUX9TEhhgjIY3T2ojetZ4/https/i.imgur.com/URjE63B.png
+
+{Reactions}
+KMD 
+
+[16-Aug-19 06:18 AM] smkhound#7640
+or if you dont mind some CLI, you can DIY https://developers.komodoplatform.com/basic-docs/smart-chains/smart-chain-tutorials/create-a-default-smart-chain.html#introduction
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/smart-chains/smart-chain-tutorials/create-a-default-smart-chain.html
+Creating Komodo Smart Chains | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[16-Aug-19 06:28 AM] D2D privacyalternatives.com#5667
+Yes GAS is a problem I know, but Ethereum have the infrastructure to do it easily with Metamask and other tools and wallets available. I registered with the composer and the complete price was more than $8k. Not saying it's an unfair price , you get a lot for that amount,  being on AtomicDEX, having the security of dPoW etc, but I can't spend that amount at the moment. 
+
+I also want to research what I would need to do for anything  related to regulations/compliance if:
+
+1) I create a coin and then put it on any exchanges
+
+2) If I integrate an exchange like Sideshift (and even AtomicDEX I think offer integrations).
+
+Planning to move to a crypto friendly country very soon, probably Georgia, to make this possible
+
+
+[16-Aug-19 08:04 AM] D2D privacyalternatives.com#5667
+--
+Might be of interest here:
+https://i2trading.com/
+
+
+[16-Aug-19 08:04 AM] D2D privacyalternatives.com#5667
+(over-the-counter liquidity specialists)
+
+
+[16-Aug-19 08:05 AM] D2D privacyalternatives.com#5667
+they are used by Zelcore
+
+
+[16-Aug-19 08:15 AM] polycryptoblog#1173
+@D2D privacyalternatives.com  if you want to just experiment you can spin a chain for free just need to provide your own infrastructure
+
+{Reactions}
+👍 
+
+[26-Aug-19 04:59 AM] NutellaLicka#4241
+http://www.abc.net.au/news/2019-08-26/cash-ban-so-you-pay-the-bank-to-hold-your-money-what-imf-wants/11443646
+
+Some interesting times in australia. One member of parliament is proposing a ban on cryptocurrencies as well as this cash restriction..
+
+{Embed}
+http://www.abc.net.au/news/2019-08-26/cash-ban-so-you-pay-the-bank-to-hold-your-money-what-imf-wants/11443646
+This is why the IMF wants to stop you from using cash
+A theory gaining traction is that the real motive for the cash ban is not the so-called black economy, but to give authorities greater control during recessions.
+https://images-ext-1.discordapp.net/external/LZ-SX10hkFYCaszpVdLFVT-lYclx05OCKHzKgXI1HhY/https/www.abc.net.au/news/image/182916-16x9-700x394.jpg
+
+{Reactions}
+🤔 
+
+[26-Aug-19 05:03 AM] Deleted User#0000
+I've seen this coming for a while...  Was just praying that it didnt happen lol
+
+
+[26-Aug-19 05:04 AM] NutellaLicka#4241
+I am in two minds whether to hold cash now. I am not paying a bank to store my money.
+
+
+[26-Aug-19 05:04 AM] Deleted User#0000
+```Yet the Government is moving ahead with proposed laws that could make people criminals — with the threat of two years in jail — for spending more than $10,000 in cash.``` 
+This is pretty ridiculuous.,.... But when i took out $7000 to buy my car, they were wuite angrey about it saying I was supposed to give 2 eeks notice to withdraw that amount
+
+
+[26-Aug-19 05:05 AM] Deleted User#0000
+I usually hold most of my money in cash lol... But need a safe or something haha
+
+
+[26-Aug-19 05:05 AM] NutellaLicka#4241
+Yeah I need to invest in one as well. 
+Although they're placing a restriction on the usage of it. It makes me want to store cash more so now aha
+
+
+[26-Aug-19 05:05 AM] CHMEX#0686
+A number of other countries have already imposed limits — France has banned cash transactions above 1,000 euros; Spain above 2,500 euros; Italy above 3,000 euros.
+
+
+[26-Aug-19 05:06 AM] CHMEX#0686
+So if you carry more than 1k in france that makes you a criminal?
+
+
+[26-Aug-19 05:06 AM] Deleted User#0000
+Might bust buy a bunch of silver of gold tho, not sure.
+
+
+[26-Aug-19 05:07 AM] NutellaLicka#4241
+I was thinking precious minerals. I've always been interested into them. A lot more than gold and silver anyway.
+
+
+[26-Aug-19 05:07 AM] Deleted User#0000
+yeah, the $10,000 thing is already implemented here I am prety sure... Not sure of the punishemnts for it though.
+
+
+[26-Aug-19 05:07 AM] NutellaLicka#4241
+It's just being passed I think jok3r. 2 years in prison is the punishment
+
+
+[26-Aug-19 05:07 AM] Deleted User#0000
+I hjave most of my SuperAnnuation in gold stocks, its up 120% in 2 years... I have nto earnt anything or put any money in it, and its mroe than x2.
+
+{Reactions}
+👌 (2) 
+
+[26-Aug-19 05:08 AM] Deleted User#0000
+Not aht I wil ever see that money... like 30-40 years before I am allowed to withdraw it I think... definatly be worthless by then
+
+
+[26-Aug-19 05:08 AM] NutellaLicka#4241
+Or it's worth 10x more because theyve mined every piece of gold on the planet
+
+
+[26-Aug-19 05:09 AM] Deleted User#0000
+I mean that the supperannuation is bankrupt lol ....
+
+
+[26-Aug-19 05:09 AM] NutellaLicka#4241
+Ahhh right. 
+Either way, this 10k cash limit and the talk of negative interest rates is a fairly big over reach to force people to spend.
+
+
+[26-Aug-19 05:09 AM] Deleted User#0000
+yes... Waste all of your moeny now. \
+
+
+[26-Aug-19 05:09 AM] Deleted User#0000
+:troll:
+
+
+[26-Aug-19 05:10 AM] NutellaLicka#4241
+Also to monitor peoples spending habits
+
+
+[26-Aug-19 05:10 AM] NutellaLicka#4241
+People hodling in a capitalist society = not good
+
+
+[26-Aug-19 05:10 AM] Deleted User#0000
+They already do this, but you can just use cash..... Here most people still use it, I dont see them forcing all the elderly people to use technoology...
+
+
+[26-Aug-19 05:11 AM] Deleted User#0000
+Hopefu;lly people will just refuse
+
+
+[26-Aug-19 05:11 AM] NutellaLicka#4241
+Yeah itll be interesting
+
+
+[26-Aug-19 05:12 AM] NutellaLicka#4241
+Hopefully people see the benefits in crypto then
+
+
+[26-Aug-19 05:13 AM] Deleted User#0000
+Nobody understands the benifits of it really... Or even what it is,... They just think I sit a home all day and get free money.
+
+
+[26-Aug-19 05:14 AM] Deleted User#0000
+But this is a coutry town, mayeb things are diffrent eleswhere...
+
+
+[29-Aug-19 11:25 PM] D2D privacyalternatives.com#5667
+https://twitter.com/CharlieShrem/status/1159947258932191232?s=20
+
+{Embed}
+Charlie Shrem (@CharlieShrem)
+https://twitter.com/CharlieShrem/status/1159947258932191232?s=20
+Happened just now... 
+
+Tried buying a Walmart gift card for a friend in need, my credit card was frozen for fraud. 
+
+Used #Bitcoin via @bitrefill to buy one a few minutes later. Instantly and low fees. 
+
+Thanks Bitcoin
+Retweets
+182
+Likes
+1404
+Twitter
+
+
+[03-Sep-19 12:59 AM] Deleted User#0000
+Just a little question. Is there any project that was able to get in real touch with @FabØ , I mean a real conversation, and maybe a real investment / proposal. Seems I can t find anything but Dune.
+I know @PTYX is on the Dune discord, but aside of that, is there anything really going on for real ?
+
+
+[03-Sep-19 01:02 AM] PTYX#6840
+@Deleted User I can't give out too much information since it seems they are still very hush hush about the project. @FabØ is partners with Starchain Capital whom I read in an article is investing in Dune.
+
+
+[03-Sep-19 01:02 AM] Deleted User#0000
+somewhat KMD disappeared from starchain's website, and nothing from the communication is left
+
+
+[03-Sep-19 01:03 AM] Deleted User#0000
+No, he s a general manager, so maybe removing KMD from starchain's website can be explained
+
+
+[03-Sep-19 01:03 AM] PTYX#6840
+Yeah he's better to explain.
+
+
+[03-Sep-19 01:03 AM] PTYX#6840
+I don't particularly know any details.
+
+
+[03-Sep-19 01:04 AM] PTYX#6840
+It's likely that if they had a position in KMD it could be liquidated. Hence the removal. Just my speculation though.
+
+
+[03-Sep-19 01:04 AM] Deleted User#0000
+maybe something is on behind the scene, being still in KMD this got my attention. OUR seems discontinued and was sold prior to swap on KMD at huge prices
+
+
+[03-Sep-19 01:05 AM] Deleted User#0000
+I just want to confirm / refute some evidences and some articles that a guy put on medium that gives a lot of doubts.
+
+
+[03-Sep-19 01:10 AM] Deleted User#0000
+Doubts are not a good thing, so would be happy to discuss :)
+
+
+[03-Sep-19 01:10 AM] FabØ#8941
+@Deleted User really ?
+
+
+[03-Sep-19 01:10 AM] Deleted User#0000
+Hello :)
+
+
+[03-Sep-19 01:11 AM] FabØ#8941
+Man sorry your project did not work well but if you use calomnie and false information our next conversation will be in front of a judge
+
+
+[03-Sep-19 01:12 AM] Deleted User#0000
+what???
+
+
+[03-Sep-19 01:12 AM] Deleted User#0000
+my project is ok... that s just a question, no need to be aggressive, relax
+
+
+[03-Sep-19 01:13 AM] Deleted User#0000
+I don t see harming in my words, but am not a native speaker, I didn t want to offend. A judge seems a lot just for a question :(
+
+
+[03-Sep-19 01:14 AM] Deleted User#0000
+we re all on KMD, and friends :)
+
+
+[03-Sep-19 01:14 AM] FabØ#8941
+Let’s be friendly then
+
+
+[03-Sep-19 01:15 AM] Deleted User#0000
+that s just a question man, why say judge :(
+
+
+[03-Sep-19 01:15 AM] Deleted User#0000
+I just do my own research like anyone
+
+
+[03-Sep-19 01:15 AM] FabØ#8941
+Starchain is still involve on komodo ecosystem we will be in Lisbon and we actually sponsors the event
+
+
+[03-Sep-19 01:15 AM] Deleted User#0000
+cause I want to invest too
+
+
+[03-Sep-19 01:16 AM] FabØ#8941
+Have a great day and best luck to you @Deleted User
+
+
+[03-Sep-19 01:16 AM] Deleted User#0000
+yes but am sad not to see KMD on starchain s website, I just wanted to know why :(
+
+
+[03-Sep-19 01:16 AM] Deleted User#0000
+have a great day you too !
+
+
+[03-Sep-19 01:25 AM] Crabby Paddy#6239
+A lot of misinformation and fud on the article, I think I know which one you’re taking about dwy! But a lot of the points are either false or handpicked info, they have a clear agenda
+
+
+[03-Sep-19 01:26 AM] Crabby Paddy#6239
+Our is still going strong and being worked on ✌️
+
+
+[03-Sep-19 01:27 AM] Crabby Paddy#6239
+@FabØ don’t think dwy meant any fud or offence in his words 😦
+
+{Reactions}
+👆 (2) 
+
+[03-Sep-19 01:29 AM] Deleted User#0000
+@Crabby Paddy it was absolutely not to harm... I don t understand the judge thing :( I just wanted some infos
+
+
+[03-Sep-19 01:15 PM] Sunshine in my ass#2896
+Its a French thing
+
+
+[03-Sep-19 01:15 PM] Sunshine in my ass#2896
+@Deleted User
+
+
+[03-Sep-19 01:16 PM] Sunshine in my ass#2896
+But he completely avoided the question
+
+
+[03-Sep-19 01:40 PM] Deleted User#0000
+I don't want any trouble, sorry to have asked questions
+
+
+[03-Sep-19 03:15 PM] D2D privacyalternatives.com#5667
+Some time ago there was talk about  a stablecoin coming out of the Komodo ecosystem, is it still happening?
+
+
+[03-Sep-19 03:43 PM] Crabby Paddy#6239
+@D2D privacyalternatives.com yes. Some details have changed slightly, with addition of something else 😂 can’t say too much
+
+
+[03-Sep-19 03:43 PM] Crabby Paddy#6239
+But it is still happening
+
+
+[03-Sep-19 03:44 PM] Crabby Paddy#6239
+Let’s wait for Lisborn and see what comes out then
+
+
+[03-Sep-19 04:09 PM] D2D privacyalternatives.com#5667
+OK : )
+
+
+[03-Sep-19 04:12 PM] D2D privacyalternatives.com#5667
+Might interest you:
+https://media.consensys.net/the-state-of-stablecoins-2019-40c3eca990f4
+
+
+[03-Sep-19 11:50 PM] D2D privacyalternatives.com#5667
+https://www.coindesk.com/crypto-firms-serving-netherlands-must-register-with-dutch-central-bank
+
+
+[09-Sep-19 04:55 PM] D2D privacyalternatives.com#5667
+https://cryptobriefing.com/algorithmic-stablecoins-regulatory-fog-basis/
+
+
+[09-Sep-19 07:04 PM] D2D privacyalternatives.com#5667
+https://defirate.com/stablecoins/
+
+{Embed}
+Cooper Turley
+https://defirate.com/stablecoins/
+Stablecoin List & Comparison - Decentralized Cryptocurrency Stable...
+Everything you need to know about Stablecoins. We compare and list the most popular crypto stablecoins & let you know which are fiat backed & decentralized.
+
+
+[09-Sep-19 08:28 PM] Zekeiel#2861
+It seems like every little group or pairs of people have privvy information, in this discord.
+
+
+[11-Sep-19 11:54 PM] D2D privacyalternatives.com#5667
+https://www.bloomberg.com/news/articles/2019-09-11/tiny-pacific-nation-is-making-a-go-of-its-own-digital-currency
+
+
+[12-Sep-19 09:53 AM] D2D privacyalternatives.com#5667
+Good article on Stablecoins:
+https://multicoin.capital/2018/01/17/an-overview-of-stablecoins/
+
+
+[12-Sep-19 09:58 AM] D2D privacyalternatives.com#5667
+"The final two challenges facing all stablecoins (most of which haven’t launched yet) are scalability and privacy. Global digital cash must be fast, cheap, and private. That can only occur if the platform it is built upon can scale. It must also be private, for both philosophical and practical reasons. A decentralized stablecoin could never serve as global, digital cash without some guarantee of privacy."
+
+
+[13-Sep-19 04:48 PM] D2D privacyalternatives.com#5667
+https://blockonomi.com/daihard-fiat-crypto-ramp-dai-saved/
+
+{Embed}
+https://blockonomi.com/daihard-fiat-crypto-ramp-dai-saved/
+DAIHard: Fiat-Crypto Ramp for Dai Fumbles Launch, Saved by White Hat
+DAIHard fiat to crypto ramp for the DAI stablecoin was saved by a White Hat Hacker who noticed a bug and drained the contract
+https://images-ext-2.discordapp.net/external/QiFxBNZK-lmYm-RSHfh8VsPGi9VGaBAMEVYEU5q_Iws/https/blockonomi-9fcd.kxcdn.com/wp-content/uploads/2019/04/white-hat.jpg
+
+
+[17-Sep-19 07:05 AM] dukeleto#7326
+If anybody is interested in the Bitcoin ATM industry, I have a lot of knowledge about running them, and looking for people that want my tech skills. I want to be completely buffered from all the non-tech side of stuff :abusedsmily:
+
+
+[17-Sep-19 07:07 AM] dukeleto#7326
+It's under $5K USD to buy a brand new ATM and they break even relatively fast, if put in the right location
+
+
+[17-Sep-19 08:06 AM] dukeleto#7326
+yes
+
+
+[18-Sep-19 12:30 PM] D2D privacyalternatives.com#5667
+@dukeleto I saw this crypto ATMs map the other day, it's well done:
+https://coinatmradar.com/
+
+{Embed}
+https://coinatmradar.com/
+Bitcoin ATM Map – Find Bitcoin ATM, Online Rates
+Find Bitcoin ATM locations easily with our Bitcoin ATM Map. For many Bitcoin machines online rates are available.
+https://images-ext-1.discordapp.net/external/Oiw7A1fUKMW6VogLrjQ6lv8FYiTNQPUs3AlwXq2rYxA/https/coinatmradar.com/img/opengraph/main2.png
+
+
+[18-Sep-19 12:30 PM] D2D privacyalternatives.com#5667
+also covers ATMs with other coins, not just Bitcoin
+
+
+[18-Sep-19 08:21 PM] dukeleto#7326
+@D2D privacyalternatives.com yes, i have helped setup https://www.generalbytes.com/batmtwo/
+
+{Embed}
+https://www.generalbytes.com/batmtwo/
+BATMTwo Bitcoin ATM | GENERAL BYTES
+Unidirectional Bitcoin ATM, distributes coins from wallet or crypto exchange.  Point Of Sale terminal integrated. Eye catching, secure design, industrial quality, manageable and upgradable from remote. Best value/price on the market with fast ROI MultilingualServer software f...
+https://images-ext-2.discordapp.net/external/MuKdhxqtFMGdKB91izdFCojECMhbnJUxg1iDJ1G1HJc/https/cdn7.plusaminus.com/res/crc-3212783730/web/images/1200x630crop/opengraph-ew-opengraph-bg.png
+
+{Reactions}
+👍 
+
+[18-Sep-19 08:21 PM] dukeleto#7326
+they support hundreds of coins, it's all free software on Github
+
+
+[18-Sep-19 08:21 PM] dukeleto#7326
+it's the best ATM for supporting any coin you want. The code is there, you can add a random new smart chain if you want
+
+
+[18-Sep-19 08:26 PM] PTYX#6840
+Instead of atms, smaller machines or POS that would work with a store's cashier can turn any store into an exchange point.
+
+
+[18-Sep-19 08:31 PM] polycryptoblog#1173
+@dukeleto  what is needs codewise to get a coin on there.  Been looking to get KMD added
+
+
+[18-Sep-19 08:31 PM] actionslacks#4072
+People actively hunt down crypto atm's. I know there is no competition in my area.
+
+
+[18-Sep-19 08:32 PM] polycryptoblog#1173
+If we get on there, between them and coinflip which we are on is like 60% of the available market
+
+
+[18-Sep-19 08:34 PM] actionslacks#4072
+an nspv enabled atm would be epic. I have heard that the paperwork is daunting though.
+
+
+[18-Sep-19 08:35 PM] actionslacks#4072
+at least in the ussa
+
+{Reactions}
+👆 📋 
+
+[18-Sep-19 10:09 PM] polycryptoblog#1173
+I have atm distributor interest,  hoping to nail out something by the end of next month.
+
+
+[18-Sep-19 11:34 PM] dan.#2473
+What sort of margins do people set on these machines.
+
+
+[18-Sep-19 11:35 PM] dan.#2473
+And where are people usually putting these ?
+
+
+[19-Sep-19 05:16 AM] dukeleto#7326
+@polycryptoblog they have all the code on github, KMD might already be supported
+
+
+[19-Sep-19 05:17 AM] dukeleto#7326
+https://github.com/GENERALBYTESCOM/batm_public
+
+{Embed}
+https://github.com/GENERALBYTESCOM/batm_public
+GENERALBYTESCOM/batm_public
+BATM Public Repository. Contribute to GENERALBYTESCOM/batm_public development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ixWKVzK8qGKAn0K-N53m8x3maRYJ4nYUSZPSM_F2DiE/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/7998255
+
+
+[19-Sep-19 05:18 AM] dukeleto#7326
+@polycryptoblog it's mostly GPLv3 code, which is even more interesting
+
+
+[19-Sep-19 05:18 AM] dukeleto#7326
+Free Software in Cryptocoins!
+
+
+[19-Sep-19 05:19 AM] dukeleto#7326
+@polycryptoblog last I looked, ZEC + ZEN were supported and I was going to add KMD
+
+
+[19-Sep-19 05:19 AM] dukeleto#7326
+It's definitely the best ATM to buy, in terms of supporting arbitrary new coins
+
+
+[19-Sep-19 05:20 AM] dukeleto#7326
+If anybody gets one, I have set up the backends and can help with that. There are so many options
+
+
+[19-Sep-19 08:49 AM] D2D privacyalternatives.com#5667
+https://twitter.com/naomibrockwell/status/1174707710610300928?s=20
+
+{Embed}
+Naomi ₿rockwell (@naomibrockwell)
+https://twitter.com/naomibrockwell/status/1174707710610300928?s=20
+Going live w/ @paullinator CEO of @EdgeWallet at 12pmET for another episode of Coin Watch!
+This week we're diving deep into @Dashpay & @monero, & covering the latest news for both:
+Dash's new listing on @coinbase
+Monero & privacy coins targeted by govt
+https://t.co/EJzq3xH...
+https://images-ext-2.discordapp.net/external/awUzY3q0ThnBVsNQqktBldrpT6e0C_WpQ-Sn-gMM-KI/https/pbs.twimg.com/media/EE1mYbvWsAAJiny.jpg%3Alarge
+Twitter
+
+
+[19-Sep-19 11:00 AM] Markus#5464
+imagine those atm's being connected to atomicdex
+
+
+[19-Sep-19 11:09 AM] PTYX#6840
+In theory you could have a pool of stable coin which is swapped for another currency on the spot and sent to the buyer but you'd need to account for the atomic swap time and transaction fees
+
+
+[19-Sep-19 06:59 PM] D2D privacyalternatives.com#5667
+https://www.youtube.com/watch?v=p52PY_cwIsA
+
+{Embed}
+Freethink
+https://www.youtube.com/watch?v=p52PY_cwIsA
+This Man Launched a New Internet Service Provider from His Garage ...
+Many people complain about their internet service, but Brandt Kuykendall did something about it. A resident of the small town of Dillon Beach, CA, he found t...
+https://images-ext-2.discordapp.net/external/Dum1e7rfJpHtndDS_b4LWnJV4DEMGZ-2FPq8DsMG91c/https/i.ytimg.com/vi/p52PY_cwIsA/maxresdefault.jpg
+
+
+[19-Sep-19 07:40 PM] Mylo#8306
+@PTYX crypto pos yes, this is on my task list for prototype apps later this year along with some others that haven't been finalized.
+
+
+[19-Sep-19 07:41 PM] PTYX#6840
+We're using the XPOS from Pundix to launch our pos and otc desk in Panama
+
+
+[19-Sep-19 07:41 PM] PTYX#6840
+Their software and device is very complete and compatible with standard payment methods as well
+
+
+[19-Sep-19 07:44 PM] Mylo#8306
+oh ok thanks for the info, then maybe crypto pos prototype not required!  this is great news
+
+
+[19-Sep-19 08:29 PM] Deleted User#0000
+@dan. margins usually 10-20%
+
+
+[19-Sep-19 08:49 PM] dukeleto#7326
+https://anypayinc.com/
+
+{Embed}
+derrickj
+https://anypayinc.com/
+Anypay
+Civilized Payment
+https://images-ext-1.discordapp.net/external/hHhgJpjuzFi4BWw4CXgB638hUYpbnIvprg8NxfWHoTQ/%3Ffit%3D512%252C512%26ssl%3D1/https/i2.wp.com/anypayinc.com/wp-content/uploads/2019/02/cropped-anypay-favicon-1.png
+
+
+[19-Sep-19 08:49 PM] dukeleto#7326
+highly recommended cryptocoin PoS
+
+
+[19-Sep-19 08:49 PM] dukeleto#7326
+supports many many coins
+
+
+[19-Sep-19 09:09 PM] dan.#2473
+wow
+
+
+[19-Sep-19 09:09 PM] dan.#2473
+im considering looking into it more, i live somewhere not quite hipster cool so there arent any but cool enough where people would use it
+
+
+[20-Sep-19 11:31 AM] dukeleto#7326
+AnyPay supports Zcash shielded addresses and would be trivial to add KMD and ARRR. I know the owners of the company as well, and could provide an introduction
+
+{Reactions}
+KMD (2) 
+
+[20-Sep-19 02:54 PM] hyperDEX#6586
+@Audo
+
+
+[20-Sep-19 02:57 PM] polycryptoblog#1173
+I will reach out to them
+
+{Reactions}
+👍 (2) 
+
+[21-Sep-19 02:56 PM] D2D privacyalternatives.com#5667
+https://www.youtube.com/watch?v=YhGO2Cwcrl8
+
+{Embed}
+CoinDesk
+https://www.youtube.com/watch?v=YhGO2Cwcrl8
+Invest: Asia 2019: Fast Money: Why the Markets Love Stablecoins
+Created in the vacuum left by bitcoin and banking services, allowed to flourish by traders for years, stablecoins are finding new ways to push the crypto ind...
+https://images-ext-1.discordapp.net/external/uGdlAjOWBjsYoVjbVIyMn61t4ElXnNKM_ZTGMmuuBsQ/https/i.ytimg.com/vi/YhGO2Cwcrl8/maxresdefault.jpg
+
+
+[22-Sep-19 12:43 AM] D2D privacyalternatives.com#5667
+https://cryptoslate.com/everipedia-sam-kazemian-better-stablecoin-frax/
+
+{Embed}
+https://cryptoslate.com/everipedia-sam-kazemian-better-stablecoin-frax/
+Everipedia co-founder Sam Kazemian is building a better stablecoin...
+Everipedia co-founder Sam Kazemian talks about changing DeFi, stablecoins, and banking through his latest startup, Frax.
+https://images-ext-1.discordapp.net/external/EFOXbYEy4h-ST0_PpyhrmFfA_r7hVrbHGEgj3JiKTlM/https/cryptoslate.com/wp-content/uploads/2019/09/sam-kazemian-interview-social.jpg
+
+
+[24-Sep-19 10:46 AM] Audo#5667
+This channel is not that active. The topics discussed here could be discussed on #talk-other-topics 
+
+Any objections if we archive this channel?
+
+EDIT: we will keep the channel
+
+{Reactions}
+👍 (2) 👎 (5) 
+
+[24-Sep-19 10:59 AM] mrlynch#5735
+this channel may not be active, but it does contain useful information. fwiw this is one of the few channels that actually lives up to its' purpose
+
+
+[24-Sep-19 11:03 AM] jorian#4555
+yes, i don't consider laws, regulations, tax issues etcetera to be casual stuff
+
+
+[24-Sep-19 11:04 AM] jorian#4555
+bear market has things on a slow down, but once people start getting more serious about businesses etc, this channel is valuable
+
+
+[24-Sep-19 11:05 AM] hastrup#8742
+👆 👍
+
+
+[24-Sep-19 11:05 AM] mrlynch#5735
+this channel is low volume, high quality
+
+{Reactions}
+💯 (3) 
+
+[24-Sep-19 02:51 PM] Crabby Paddy#6239
+Keep it 😬
+
+
+[24-Sep-19 02:51 PM] Crabby Paddy#6239
+Get rid of safespace instead :3040_suspepe:
+
+
+[24-Sep-19 03:56 PM] grewalsatinder#9653
+Agree with mrlynch
+
+
+[24-Sep-19 11:49 PM] Lumbi#8378
+same...
+
+
+[24-Sep-19 11:49 PM] Lumbi#8378
+vote keep ☑
+
+
+[26-Sep-19 10:46 AM] D2D privacyalternatives.com#5667
+@mrlynch You were wondering how hard it is to fork the Brave browser and maybe use it with different coins. That's what GAB have done basically, but they use Bitcoin:
+https://decrypt.co/6719/gab-forking-brave
+
+{Embed}
+https://decrypt.co/6719/gab-forking-brave
+Gab is forking Brave, and Brave is forking furious
+Gab is creating its own web browser using Brave’s open-source code, scrapping the BAT token, and replacing it with Bitcoin Lightning Network integration.
+https://images-ext-2.discordapp.net/external/VhkHM2igsiIFzn27FKRkiCeHrhBPxhoTLzVJZ_7gYrc/https/screenshot.dmedia.cloud/capture/aHR0cHM6Ly9kZWNyeXB0bWVkaWEuY29tL3NjcmVlbnNob3QvcG9zdC82NzE5Lz9zZWxlY3Rvcj0ucG9zdENhcmQtU3R5bGVkQ2FyZCZoZWlnaHQ9NDcwcHgmd2lkdGg9OTAwcHg%3D.png
+
+
+[26-Sep-19 10:47 AM] mrlynch#5735
+thanks for that.. i forgot about gab
+
+{Reactions}
+👍 
+
+[26-Sep-19 10:49 AM] phm87#7395
+I know lola (girl dev) who forked brave (or another google stuff) with a team and removed all calls to google. ZeroSomething if my memory is correct. Aim is also privacy
+
+
+[26-Sep-19 11:22 AM] D2D privacyalternatives.com#5667
+I think a browser is one of the best things for mass adoption. And as Brave has a wallet for certain cryptos, a fork could have its own coins like, KMD etc. Then I don't know how it works for regulations, if they would be forced to do KYC like Brave.
+They say it's to prevent fraud. And it's true that if you have a system of rewards many people will try to cheat, but there are better and safer ways to verify without people giving their real name, documents etc
+
+
+[26-Sep-19 11:23 AM] D2D privacyalternatives.com#5667
+(Keybase and Blockstack for example)
+
+
+[26-Sep-19 01:17 PM] mrlynch#5735
+i'll wait for gab to release their own
+
+
+[26-Sep-19 02:37 PM] actionslacks#4072
+To Brendan Eich getting pissed about being forked I say "welcome"
+
+
+[26-Sep-19 03:33 PM] D2D privacyalternatives.com#5667
+https://www.coindesk.com/the-new-medici-bank-is-about-to-take-on-its-first-crypto-clients
+
+{Embed}
+Nathan DiCamillo
+https://www.coindesk.com/the-new-medici-bank-is-about-to-take-on-its-first-crypto-clients
+The New Medici Bank Is About to Take On Its First Crypto Clients -...
+The new crypto-friendly institution, founded by a descendant of the Renaissance-era banking dynasty, is about to onboard its first clients.
+https://images-ext-1.discordapp.net/external/mwYnJy_Mj5slKiEY-spzpIrl7d30U8MwVM2ZXWD6UcE/https/static.coindesk.com/wp-content/uploads/2019/09/Medici-palace.jpg
+
+{Reactions}
+shexy 
+
+[26-Sep-19 09:19 PM] D2D privacyalternatives.com#5667
+https://medium.com/chainrift-research/mass-adoption-isnt-in-kyc-it-s-in-bvs-2376bfa879b2
+
+{Embed}
+https://medium.com/chainrift-research/mass-adoption-isnt-in-kyc-it-s-in-bvs-2376bfa879b2
+Mass Adoption isn’t in KYC, it’s in BVs
+Bitcoin sales as they were meant to be.
+https://images-ext-1.discordapp.net/external/Oqitg0piXDY8RPDTiiY7rTV8uH2e7vXp5yKk-ZRJfwg/https/miro.medium.com/max/1200/1%2Ab0K3Ixbq6BQ-rqBGcGd5dg.png
+
+
+[26-Sep-19 11:01 PM] NutellaLicka#4241
+http://www.abc.net.au/news/2019-09-27/is-blockchain-key-to-entering-the-property-market/11549584/
+
+{Embed}
+http://www.abc.net.au/news/2019-09-27/is-blockchain-key-to-entering-the-property-market/11549584/
+Is blockchain the key for millennials entering Australia's housing...
+An international technology company is trialling a new approach to home ownership in Adelaide, using blockchain technology to help millennials enter the housing market.
+https://images-ext-1.discordapp.net/external/Au-yGtCiwpQxYAunTIvmleRKp-rmH-yhNbbZFkvupis/https/www.abc.net.au/news/image/11550854-16x9-700x394.jpg
+
+
+[28-Sep-19 09:58 AM] D2D privacyalternatives.com#5667
+https://www.youtube.com/watch?v=0cuKAfFAO08
+
+{Embed}
+Crypto Cast Network
+https://www.youtube.com/watch?v=0cuKAfFAO08
+Bitcoin Matters # 14 - Azte.co
+In this episode of Bitcoin Matters Beautyon (@beautyon_) from azte.co and Shaine Kennedy (@shaine_kennedy) discuss the bitcoin voucher company Azte.co and it...
+https://images-ext-1.discordapp.net/external/cS2XVv4t0xeai4LQ_WqUFWAKftHFTQtVrgs0Rg9UYcY/https/i.ytimg.com/vi/0cuKAfFAO08/maxresdefault.jpg
+
+
+[28-Sep-19 09:59 AM] D2D privacyalternatives.com#5667
+Would be awesome if Komodo did the same as Azte.co with vouchers
+
+
+[29-Sep-19 04:58 AM] SΞAD0X#0001
+i couldn't find a proper category for this but this is our project and wanted to share it. we would like to get funded and complete it if community approves and loves project.
+
+https://docs.google.com/document/d/11x7gpfeDEnUEgnc4uPgVH0Ka3XtPHuYfTB2XDWYgWwc/edit?usp=sharing
+
+here is our demo for "Bitrophone" project. Due to lack of sources we couldn't enable/create some features & get cloud servers, mail servers & licensing protocols for song uploads and payment screen... If we get funded for project we will use funding to get them and upgrade the website in future. But i think we created a cool thing as a demo version in less then a month with just 2 people. Also our admin panel, which you won't be able to see in this demo is almost ready. I wanted to mail you with a demo, now at least we got something to show & upgrade. We are still at %20 completion of being %100 ready for service.
+
+https://sabrikas.com/bitrophone/ 
+demo username: demo@bitrophone.com
+demo password: 123456
+
+
+In this demo you can see how will our music distribution service work, 
+song upload panels(disabled uploads but works on backend. we don't have cloud :D), 
+payment methods(we didn't enable credit card and kmd payments, only website credits are usable to purchase in demo),
+Released albums,
+Subscription timings,
+Upgradable plans for different type of musicians & labels.
+
+
+[29-Sep-19 06:01 AM] Chipmoon#7477
+What does the investor get from funding this project? @SΞAD0X
+
+
+[29-Sep-19 06:02 AM] Chipmoon#7477
+As in profit share? Ownership percentage? etc thanks
+
+
+[30-Sep-19 12:23 AM] D2D privacyalternatives.com#5667
+https://hackernoon.com/the-business-model-of-crypto-wallets-89aeed8322dc
+
+
+[30-Sep-19 12:45 AM] D2D privacyalternatives.com#5667
+https://sci.smithandcrown.com/research/cryptoeconomics-seigniorage-shares-stablecoins-basis-and-carbon
+
+
+[30-Sep-19 03:44 PM] SΞAD0X#0001
+@Chipmoon  it can be discussed with investor.
+
+{Reactions}
+👌 
+
+[01-Oct-19 03:10 AM] Mylo#8306
+@SΞAD0X here is a relevant non-blockchain service you might find some useful material to be inspired by as well:  https://www.reverbnation.com/band-promotion
+
+{Embed}
+https://www.reverbnation.com/band-promotion
+Promotional Tools for Musicians
+ReverbNation offers the most complete platform for musicians to launch and grow their careers—meaningful opportunities, industry access, and a powerful suite of promotional tools.
+https://images-ext-1.discordapp.net/external/RekpW0HhmWLx8g1tpleqf1edpSacLvfga9vK8CFVT4A/https/gp1.wac.edgecastcdn.net/802892/production_static/20190924105624/images/main_page/open_graph/rn-logo_1200x630.png
+
+{Reactions}
+👌 💯 
+
+[01-Oct-19 06:29 PM] Mylo#8306
+@SΞAD0X @Chipmoon 
+Where traditional business models may just have subscriptions, using cryptocurrencies, especially the komodo ecosystem #cc-pegs #cc-prices related tech in the upcoming years would enable a new business model.
+
+For example, if an artist needs automated redistribution service & they are paying $20/month, in this type of business the platform could offer to invest 50% of the subscription fee into a peg fund and other type of algorithmic trading and derivative market.  Any profits from such diversification of income stream can be used to offset future monthly payments for the artist, or for the investor an added opportunity to get knock-on effects of this type of investment.
+
+If music royalties exist, then as they are accumulated over quarters or 6-month intervals, the same could be diverted into a fund of kinds.
+
+These income streams can all pour into kmd network services - doesn’t have to be specific to music platforms.   Just an idea that popped up middle of the night on how this platform can be used.
+
+{Reactions}
+🤔 (2) 💯 (2) 👌 
+
+[01-Oct-19 06:31 PM] Mylo#8306
+The same applies to location data and services like “dog walking uber” (wag app), where certain locations that are popular with dog ownership, the civic Centre has an opportunity to get development for the local environment, like dog park allotment, or safe drinking water fountains & the like.
+
+
+[02-Oct-19 01:28 AM] SΞAD0X#0001
+Great ideas. I was also thinking licensing songs on blockchain is also a use case. But problem is a music company costs money unlike the wallet applications. It needs more funding, time & effort than other projects. But when it gets live, brings great roi.
+
+
+[02-Oct-19 08:10 AM] D2D privacyalternatives.com#5667
+https://www.coindesk.com/pantera-leads-5-million-round-for-decentralized-derivatives-market
+
+{Embed}
+Brady Dale
+https://www.coindesk.com/pantera-leads-5-million-round-for-decentralized-derivatives-market
+Pantera Leads $5 Million Round for Decentralized Derivatives Marke...
+A protocol built to put financial middlemen out of business has secured a $5 million seed round from Pantera, Ripple's Xpring, Hashed and others.
+https://images-ext-1.discordapp.net/external/vvUCBR5HGo4PwswGksqSuSAmyHOKLb01wZSmkqOSRTU/https/static.coindesk.com/wp-content/uploads/2019/09/Paul-Veradittakit-Partner-at-Pantera-Capital.jpg
+
+
+[02-Oct-19 08:57 AM] Markus#5464
+Lately it seems like more and more projects with decentralization as goal popping up
+
+{Reactions}
+✊ (2) 
+
+[02-Oct-19 09:36 AM] 𝙊𝙞𝙣𝙠#3612
+Yes, and they start by centralizing the funds... 🤣
+
+{Reactions}
+🎯 
+
+[02-Oct-19 02:08 PM] D2D privacyalternatives.com#5667
+https://twitter.com/paullinator/status/1179482427166617601?s=20
+
+{Embed}
+Paul Puey (@paullinator)
+https://twitter.com/paullinator/status/1179482427166617601?s=20
+Today is a major groundbreaking release for @edgewallet. Users in Europe can now buy and sell #Bitcoin with a bank account up to €5000 per day with no KYC thanks to our integration partner @bity. To my Europe friends, please give it a try. 
+
+https://t.co/w0zP7Dzzfz
+https://images-ext-2.discordapp.net/external/upWLgBuddaIUYxlJJOQdNBKLvkaBx0q_qRRIT5LTdKk/https/pbs.twimg.com/media/EF5dAliVUAActqi.jpg%3Alarge
+Twitter
+
+
+[02-Oct-19 02:24 PM] mrlynch#5735
+not bad
+
+
+[02-Oct-19 02:46 PM] jorian#4555
+bank account == KYC imo
+
+
+[02-Oct-19 02:47 PM] jorian#4555
+i see bity is swiss, and the swiss are quite far in 'legislation' concerning crypto
+
+
+[03-Oct-19 01:25 AM] D2D privacyalternatives.com#5667
+@jorian You are right, I also thought this.
+But at least they are not asking people to send copies of documents which is unsafe (or do awful webcam verifications)
+
+
+[03-Oct-19 01:57 AM] D2D privacyalternatives.com#5667
+***
+This is what Indacoin (https://indacoin.com) ask:
+"To complete verification you’ll need to enter the 4 digit code you receive via phone call. For your second step you may also be asked to undergo photo verification, which requires you to upload a photo of your passport/ID and a selfie with ID and a piece of paper with required text, confirming the purchase. We may alternatively ask for video verification, where you will need to record your face, say "Indacoin verification for crypto" show your ID and card you made the payment with. When showing the card, show only last 4 digits and the name."
+
+
+[03-Oct-19 07:41 AM] xh311m4n#9873
+I'm a bity user. You can use it without KYC with a limit of 4000CHF a year (buy and sell) last time I checked. If you want to be able to up your limit, you will have to KYC. 
+
+Bity also operate a network of BTC/ETH ATMs in all major Swiss cities with a daily limit of 5000CHF I believe. You need 0 KYC for this...
+
+
+[03-Oct-19 07:43 AM] xh311m4n#9873
+Switzerland is crypto friendly yes, but will most likely have to enforce the latest iteration of the AML (#5) which kinda hammers down on crypto. We'll see what the Finma says...
+
+
+[03-Oct-19 03:02 PM] D2D privacyalternatives.com#5667
+The best system I've seen so far for both privacy and usability is azte.co
+
+
+[04-Oct-19 12:34 AM] Farl#9964
+@xh311m4n That’s the way I would like it. Only KYC to prevent heavy money laundring, but not always KYC for crypto user surveillance.
+
+
+[04-Oct-19 02:16 AM] xeonrider#3120
+Does anyone know a good resource to get minimum funding for example to get dPoW, maybe 1-2 listings (beaxy) and server costs? Not even thinking about an ICO remotely, but just enough to kickstart? Like a kickstarter platform for crypto that would support a Komodo project
+
+
+[04-Oct-19 02:17 AM] xeonrider#3120
+I could try to save for it myself but that would take til 2030
+
+
+[04-Oct-19 02:26 AM] Cryptoon#3362
+Didnt beaxy get hacked last month or so?
+
+
+[04-Oct-19 02:27 AM] xeonrider#3120
+aren't like exchanges hacked all the time
+
+
+[04-Oct-19 02:27 AM] xeonrider#3120
+Binance gets hacked 🙂
+
+
+[04-Oct-19 02:28 AM] xeonrider#3120
+and that DigitalPrice exchange got hacked too not so very long ago
+
+
+[04-Oct-19 02:29 AM] xeonrider#3120
+I like that they are very open at Beaxy
+
+
+[04-Oct-19 02:29 AM] xeonrider#3120
+most exchanges have their terms and costs hidden away
+
+
+[04-Oct-19 02:33 AM] Markus#5464
+exchanges should just use cold wallets and make withdraws 1-2 times a day
+
+{Reactions}
+💯 
+
+[04-Oct-19 02:34 AM] Andersen#8337
+Bitmex  never  hacked
+
+
+[04-Oct-19 02:34 AM] Andersen#8337
+withdrawal 1 time  a  24 hrs
+
+
+[04-Oct-19 02:35 AM] 𝙊𝙞𝙣𝙠#3612
+DigitalPrice was compromised due to the Agama vulnerability: as I understand they used Agama in Lite mode to transfer funds from their cold wallet to their hot wallet.
+
+
+[04-Oct-19 02:37 AM] xeonrider#3120
+Agama was the komodo wallet right
+
+
+[04-Oct-19 02:37 AM] 𝙊𝙞𝙣𝙠#3612
+Yup
+
+
+[04-Oct-19 02:37 AM] xeonrider#3120
+well, things can get hacked. Can't do anything about that.
+
+
+[04-Oct-19 02:37 AM] xeonrider#3120
+Just patch patch patch
+
+
+[04-Oct-19 02:38 AM] xeonrider#3120
+maybe some ducktape
+
+
+[04-Oct-19 02:38 AM] Andersen#8337
+@𝙊𝙞𝙣𝙠   thats  mean  DP   use  both  wallets as  hot,   not  cold wallett
+
+
+[04-Oct-19 02:38 AM] 𝙊𝙞𝙣𝙠#3612
+True...
+
+
+[04-Oct-19 02:38 AM] Oszy#5734
+`Does anyone know a good resource to get minimum funding for example to get dPoW, maybe 1-2 listings (beaxy) and server costs?` 
+do some private sales, get investors interested in your project
+
+
+[04-Oct-19 02:39 AM] Oszy#5734
+forget beaxy most of the people won't sign up there to trade cus kyc
+
+
+[04-Oct-19 02:39 AM] 𝙊𝙞𝙣𝙠#3612
+I should rephrase my statement: active hot wallet and storage hot-wallet
+
+{Reactions}
+☝ 
+
+[04-Oct-19 02:39 AM] xeonrider#3120
+hah, like I know any investors at all xD
+
+
+[04-Oct-19 02:39 AM] Oszy#5734
+try to get on smaller exchanges, tradeogre, altsbit, atomicdex
+
+
+[04-Oct-19 02:39 AM] Oszy#5734
+well if you don't tell us what your project is about, we can't invest innit
+
+
+[04-Oct-19 02:39 AM] xeonrider#3120
+very simple
+
+
+[04-Oct-19 02:40 AM] Oszy#5734
+make a discord, have a whitepaper draft at least
+
+
+[04-Oct-19 02:40 AM] xeonrider#3120
+a black jack game
+
+
+[04-Oct-19 02:40 AM] xeonrider#3120
+oh god
+
+
+[04-Oct-19 02:40 AM] xeonrider#3120
+no
+
+
+[04-Oct-19 02:40 AM] Oszy#5734
+ok i don't know how serious is it right now just telling ideas
+
+
+[04-Oct-19 02:40 AM] Oszy#5734
+everything starts somewhere
+
+
+[04-Oct-19 02:40 AM] xeonrider#3120
+a simple blackjack game, you play, bet and stuff
+
+
+[04-Oct-19 02:40 AM] Oszy#5734
+without an exchange
+
+
+[04-Oct-19 02:41 AM] Oszy#5734
+you could get your own channel in ecosystem projects just have a github with the code so we can verify 🙂
+
+
+[04-Oct-19 02:41 AM] 𝙊𝙞𝙣𝙠#3612
+Hmmm, I'm tempted to suggest another chain, but it's not my intention to hijack potential Komodo bussiness...
+
+
+[04-Oct-19 02:42 AM] Oszy#5734
+then investors will come if your doing good stuff
+
+{Reactions}
+☝ 
+
+[04-Oct-19 02:42 AM] xeonrider#3120
+investors who look at code?
+
+
+[04-Oct-19 02:42 AM] Oszy#5734
+I do
+
+
+[04-Oct-19 02:43 AM] Markus#5464
+@xeonrider if u think blockchain based then im not sure how well u can compete against CHIPS, might want to find a easier target
+
+
+[04-Oct-19 02:43 AM] xeonrider#3120
+dont want to compete
+
+
+[04-Oct-19 02:43 AM] Oszy#5734
+CHIPS is different..
+
+
+[04-Oct-19 02:43 AM] Oszy#5734
+let him do his idea
+
+
+[04-Oct-19 02:43 AM] Oszy#5734
+this is not a competition here
+
+
+[04-Oct-19 02:43 AM] xeonrider#3120
+so, basically advise is to drop exchange stuff
+
+
+[04-Oct-19 02:43 AM] Markus#5464
+True but he might get ppl more interested if he will do something what ppl are not already doing
+
+
+[04-Oct-19 02:44 AM] xeonrider#3120
+and no dpow
+
+
+[04-Oct-19 02:44 AM] Oszy#5734
+people can trade or invest OTC if it's a legit project and you can be trusted and for that all you need to prove is a working product
+
+
+[04-Oct-19 02:44 AM] 𝙊𝙞𝙣𝙠#3612
+I would consider a listing on atomicDEX, xeonrider
+
+{Reactions}
+☝ 
+
+[04-Oct-19 02:45 AM] Oszy#5734
+but that takes time too they will add coins later
+
+
+[04-Oct-19 02:45 AM] Oszy#5734
+just focus on your project first
+
+
+[04-Oct-19 02:45 AM] Oszy#5734
+show us something 🙂
+
+
+[04-Oct-19 02:45 AM] Oszy#5734
+And I might invest 😉
+
+
+[04-Oct-19 02:46 AM] xeonrider#3120
+haha
+
+
+[04-Oct-19 02:46 AM] xeonrider#3120
+sorry, I wont do a whitepaper
+
+
+[04-Oct-19 02:47 AM] Markus#5464
+@xeonrider whats is ur goal anyway
+
+
+[04-Oct-19 02:47 AM] Oszy#5734
+a description and documentation is very much needed if you want us to understand how things work
+
+
+[04-Oct-19 02:47 AM] Oszy#5734
+we all know what blackjack is
+
+
+[04-Oct-19 02:47 AM] Oszy#5734
+but how you planning ot use blockchain is what we are interested in
+
+{Reactions}
+☝ 
+
+[04-Oct-19 02:48 AM] Oszy#5734
+don't want to end up like "we_dont_say_the_name_of_that_project" do you
+
+{Reactions}
+🤣 (2) 
+
+[04-Oct-19 02:48 AM] xeonrider#3120
+?
+
+
+[04-Oct-19 02:48 AM] Markus#5464
+Does not feel too serious since he refuse to even  do a whitepaper, would not invest
+
+
+[04-Oct-19 02:49 AM] Oszy#5734
+take a look at #kmdice and get some ideas if you haven't already
+
+
+[04-Oct-19 02:49 AM] Oszy#5734
+that is a good blockchain game project
+
+
+[04-Oct-19 02:49 AM] xeonrider#3120
+@Markus just to get dPoW for now
+
+
+[04-Oct-19 02:49 AM] Oszy#5734
+they dont have whitepaper
+
+
+[04-Oct-19 02:49 AM] xeonrider#3120
+and a list
+
+
+[04-Oct-19 02:49 AM] xeonrider#3120
+thats it
+
+
+[04-Oct-19 02:49 AM] xeonrider#3120
+maybe 20 bucks for a better linode
+
+
+[04-Oct-19 02:49 AM] Oszy#5734
+why do you want dpow for something that's not even ready?
+
+
+[04-Oct-19 02:50 AM] xeonrider#3120
+because its a security feature. I am not writing a whole new antara thing, its not even worth calling an ecosystem project
+
+
+[04-Oct-19 02:51 AM] Oszy#5734
+a new smart chain is very much a whole new antara thing
+
+
+[04-Oct-19 02:51 AM] Oszy#5734
+unless you are writing a cc to use on any chain
+
+
+[04-Oct-19 02:51 AM] xeonrider#3120
+just a dapp that uses RPC, and assets, and its own coin (which is super easy on Komodo)
+
+
+[04-Oct-19 02:51 AM] Markus#5464
+like JL777 use to say, in a car u first make the engine and u dont sell the car before u have a working prototype
+
+
+[04-Oct-19 02:52 AM] xeonrider#3120
+well, I was not asking for it, just asking if there were resources
+
+
+[04-Oct-19 02:52 AM] xeonrider#3120
+I am not that long here
+
+
+[04-Oct-19 02:52 AM] xeonrider#3120
+I forgot it gets a bit hostile here when I ask questions
+
+
+[04-Oct-19 02:52 AM] xeonrider#3120
+thanks all
+
+
+[04-Oct-19 02:53 AM] Oszy#5734
+I am trying to say you don't need dpow unless you did finish coding and everything works fine. show us the game, let us test it, decide if we want to fund you, then you can dpow
+
+
+[04-Oct-19 02:53 AM] 𝙊𝙞𝙣𝙠#3612
+I don't read it all as hostile, but as well-intended advice.
+
+
+[04-Oct-19 02:54 AM] Oszy#5734
+I really just trying be objective here, based on past experiences, and seen enough project launch and fails because of said things
+
+
+[04-Oct-19 02:55 AM] D2D privacyalternatives.com#5667
+Any thoughts on this?
+https://www.forbes.com/sites/leemathews/2019/09/10/mozilla-and-cloudflare-join-forces-to-boost-firefox-browser-privacy/#344df9503d40
+
+
+[04-Oct-19 02:55 AM] Oszy#5734
+` I was not asking for it, just asking if there were resources` - Yes, there are people here who might be interested in said funding, and usually we'd like to see a working product or code first. This was my advise.
+
+
+[04-Oct-19 02:56 AM] Oszy#5734
+Nothing hostile, no hard feelings, I like the idea of your project.
+
+
+[04-Oct-19 02:56 AM] xeonrider#3120
+I am not starting a big project. It seems that dPoW is a security feature of Komodo and it comes across as a necessity before releasing the coin out in the wild.
+
+
+[04-Oct-19 02:57 AM] xeonrider#3120
+I just dont want to have an angry mob chasing me because I didn't have it in the first place.
+
+
+[04-Oct-19 02:57 AM] Oszy#5734
+This is why i advised you to have a channel or discord where we can privately test your game, before you'd launch it
+
+
+[04-Oct-19 02:58 AM] xeonrider#3120
+so there are no kickstarter platform of any kind or like programs
+
+
+[04-Oct-19 02:58 AM] xeonrider#3120
+I mean I can pay that in installments but the whole sum is just too much
+
+
+[04-Oct-19 02:59 AM] xeonrider#3120
+but thanks anyway
+
+
+[04-Oct-19 02:59 AM] Oszy#5734
+because if you want an app that's 100% non-exploitable, dpow is not enough on its own, that is to protect the chain only, you need komodo guys to try to exploit it believe me 😉
+
+
+[04-Oct-19 02:59 AM] xeonrider#3120
+ehm now you are scaring me
+
+
+[04-Oct-19 02:59 AM] xeonrider#3120
+no, I just want to prevent something
+
+
+[04-Oct-19 03:00 AM] xeonrider#3120
+its probably a break even project
+
+
+[04-Oct-19 03:00 AM] xeonrider#3120
+maybe get me a better job
+
+
+[04-Oct-19 03:00 AM] polycryptoblog#1173
+Just spin up a chain and develop your application.  No need for DPoW when no reason to double spend on the chain
+
+{Reactions}
+☝ (2) 
+
+[04-Oct-19 03:00 AM] Oszy#5734
+Exactly
+
+
+[04-Oct-19 03:00 AM] Markus#5464
+@xeonrider Do you have any previous experience from blockchain developing?
+
+
+[04-Oct-19 03:01 AM] xeonrider#3120
+Yes, but its Ethereum
+
+{Reactions}
+👍 
+
+[04-Oct-19 03:01 AM] xeonrider#3120
+Solidity, Remix, truffle
+
+
+[04-Oct-19 03:01 AM] xeonrider#3120
+whole other ballpark
+
+
+[04-Oct-19 03:01 AM] xeonrider#3120
+whole other universe
+
+{Reactions}
+💯 
+
+[04-Oct-19 03:01 AM] phm87#7395
+I run several testchains without dpow to test ideas and changes
+
+
+[04-Oct-19 03:02 AM] Oszy#5734
+If you need help testing, we are always here and welcoming new projects, we have no intention to double-spend on your chain trust me, you don't need dPow right now.
+
+
+[04-Oct-19 03:04 AM] Oszy#5734
+You could even use a chain with mining disabled just use PoS with 0 reward
+
+
+[04-Oct-19 03:55 AM] smkhound#7640
+@xeonrider #kmdlabs offers dpow on test chains under an incetivised testing model. Might be a good place to develop in early stages without spending all your beer money
+
+
+[04-Oct-19 03:56 AM] smkhound#7640
+https://kmdlabs.com/
+
+{Embed}
+MW
+https://kmdlabs.com/
+Home - KMDLabs
+Incentivized testing and R&D laboratory for Komodo Platform technologies Scalable and Customizable Development Laboratory A fully scalable and customizable test bed for testing and developing your Komodo (KMD) based assetchains and Crypto-Conditions contracts, KMDLabs provide...
+https://images-ext-1.discordapp.net/external/u_UUAAeoz1Is6CmT0DvRXmB5akBNTEQkD_NvQ1UOg_k/https/kmdlabs.com/wp-content/uploads/2019/04/komodo-logo-icon-black-150x150.png
+
+{Reactions}
+👌 labs 
+
+[04-Oct-19 04:16 AM] D2D privacyalternatives.com#5667
+A bit of research about Cloudlfare, which will be also used by Firefox to increase privacy:
+https://whatismyipaddress.com/cloudflare-dns
+
+
+[04-Oct-19 04:23 AM] D2D privacyalternatives.com#5667
+https://www.privateinternetaccess.com/blog/2019/09/warp-is-not-a-vpn-for-privacy/
+
+
+[04-Oct-19 01:45 PM] cipi#4502
+lol, Cloudflare is well known for their anti-Tor policy... now they want to increase privacy? They only need to stop blocking tor users, job done 🙂
+
+{Reactions}
+💯 
+
+[04-Oct-19 02:34 PM] grewalsatinder#9653
+don't forget google's human verification : 🤦
+
+
+[04-Oct-19 02:34 PM] grewalsatinder#9653
+most annoying over TOR
+
+{Reactions}
+👆🏻 
+
+[04-Oct-19 03:06 PM] cipi#4502
+yes, very annoying... and i saw sites that are not even implementing it right... site is loading, but elements are missing
+and if you use the developer tools of the browser you can see why: every request to those elements that don't show up get a 403 (unauthorized) and they are asking for the captcha stuff, but that is not visible on the main site, only in the developer tools
+would love to see Google charging 1$ for each request to their captchas, then this will stop for sure 🙂
+
+
+[04-Oct-19 03:22 PM] grewalsatinder#9653
+I had to select trucks as buses in human verifications 🤦 😅
+
+
+[04-Oct-19 07:59 PM] Mylo#8306
+@xeonrider have you already created your dApp on ethereum?
+
+
+[04-Oct-19 08:01 PM] Mylo#8306
+if so, what token functions do you need?
+build it on KMDICE, it gets dPoW already.   If it gets popular, the community will no doubt help you pay for dpow on it's own chain.
+
+
+[05-Oct-19 05:23 AM] xeonrider#3120
+@Mylo is it a fork or something like Verus?
+
+
+[05-Oct-19 07:39 AM] gcharang#6833
+@xeonrider it is a smartchain
+
+
+[06-Oct-19 12:29 PM] Evitor#6985
+https://www.the-blockchain.com/2019/10/04/liechtenstein-parliament-passes-blockchain-act/
+
+{Embed}
+https://www.the-blockchain.com/2019/10/04/liechtenstein-parliament-passes-blockchain-act/
+Liechtenstein Parliament Passes Blockchain Act - Blockchain News
+Blockchain News - Liechtenstein Parliament Passes Blockchain Act
+https://images-ext-1.discordapp.net/external/acUOyhOK13ZoP6H-QZrQ_NpqYa9qwHOd3OXDKNHdy2g/https/www.the-blockchain.com/wp-content/uploads/2019/10/liechtenstein.jpg
+
+{Reactions}
+👌 
+
+[06-Oct-19 12:35 PM] mrlynch#5735
+anyone know an agent that incorporates in Lichtenstein? :abusedsmily:
+
+
+[06-Oct-19 12:36 PM] Evitor#6985
+Also very interesting news (but just in german) :  https://app.handelsblatt.com/finanzen/elektronische-anleihen-bundesregierung-will-noch-2019-blockchain-wertpapiere-einfuehren/25023216.html
+
+{Embed}
+https://app.handelsblatt.com/finanzen/elektronische-anleihen-bundesregierung-will-noch-2019-blockchain-wertpapiere-einfuehren/25023216.html
+Aktien: Regierung will noch 2019 Blockchain-Wertpapiere einführen
+Die Große Koalition will Deutschland zum Krypto-Vorreiter machen. Dafür muss sie das deutsche Recht aufknüpfen – und legt einen straffen Zeitplan vor.
+
+{Reactions}
+👌 
+
+[06-Oct-19 09:25 PM] Mylo#8306
+@xeonrider yes it's a smartchain.   if you sync it with 
+```
+https://github.com/KomodoPlatform/komodo/blob/master/src/assetchains.old#L44
+```
+that command will start it, once synced, 
+```
+https://github.com/Komodo-Cakeshop/komodo-in-a-box/blob/master/setup/cc/tokens.sh#L37
+```
+👆 will list the tokens created on KMDICE with your rpcuser/pass/port
+
+and then getting info about a specific token created  it can be done with 
+```
+https://github.com/Komodo-Cakeshop/komodo-in-a-box/blob/master/setup/cc/tokens.sh#L76
+```
+using the token id.
+
+
+[06-Oct-19 09:25 PM] Mylo#8306
+there is a docker tutorial for this stuff, https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/beginner-series-part-4.html#conceptualizing-tokens
+
+
+[06-Oct-19 09:26 PM] Mylo#8306
+i've got a web gui i'll put up later this month if docker and text isn't fancy enough for you 🙂
+
+
+[06-Oct-19 10:38 PM] Mylo#8306
+https://www.grantfortheweb.org/faq
+
+{Embed}
+https://www.grantfortheweb.org/faq
+FAQ
+
+
+[06-Oct-19 10:39 PM] Mylo#8306
+This a $100m fund that was sent to me by a notary colleague.
+
+{Reactions}
+😯 
+
+[06-Oct-19 10:39 PM] Mylo#8306
+It builds on webmonetization (& other, but webmonetization is prioritized) APIs in-browser for grants.
+
+
+[06-Oct-19 10:44 PM] Mylo#8306
+At the moment a lot of this seems to be tied to ILP protocol - if anyone is interested in building an ILP connector for the komodo ecosystem, might be a good place to get funding for it.
+
+{Reactions}
+👍 (2) 
+
+[07-Oct-19 12:43 AM] xeonrider#3120
+wow
+
+
+[07-Oct-19 12:46 AM] xeonrider#3120
+@Mylo you also do the pangea front end? (poker game?)
+
+
+[07-Oct-19 12:48 AM] Mylo#8306
+Not me.  I haven’t been full-time dev for 10+ years.  I only do basic stuff these days 🙂
+
+
+[07-Oct-19 12:48 AM] xeonrider#3120
+oh, just saw that the repo had like a front end for pangea with API calls
+
+
+[07-Oct-19 12:48 AM] xeonrider#3120
+because that would have been perfect
+
+
+[07-Oct-19 12:49 AM] xeonrider#3120
+so cakeshop is not yours?
+
+
+[07-Oct-19 12:49 AM] Mylo#8306
+Check the CHIPS discord for Pangea.
+Yes cakeshop is some vuetifyjs stuff I did earlier this year
+
+
+[07-Oct-19 12:50 AM] xeonrider#3120
+yes, I am in there - I was planning a blackjack game, but then I saw chips. However, not a lot of documented resources but it looks pretty awesome.
+
+
+[07-Oct-19 12:51 AM] xeonrider#3120
+@Mylo oh cool, so there is already a web socket API ?
+
+
+[07-Oct-19 12:52 AM] Mylo#8306
+CHIPS will get easier to deploy in coming weeks.  Everything is accessible HTTP RPC.  CHIPS has websocketapi but i don’t know much about it
+
+
+[07-Oct-19 12:52 AM] xeonrider#3120
+I prefer to use unity (webgl, linux native) for my gamedev, web requests are awesome if they already work
+
+
+[07-Oct-19 12:53 AM] xeonrider#3120
+vue is cool 😄
+
+
+[07-Oct-19 12:54 AM] xeonrider#3120
+are you a webdev?
+
+
+[07-Oct-19 01:06 AM] Mylo#8306
+Not a pro dev.  Not a full time dev.  When I was younger i could code a bit in c++/java.  Web components are very useful.   Web is useful, and the javascript ecosystem is handy for prototypes but for production-level code, I’m not your man :)
+
+There is a gaming-SDK currently being worked on.
+
+If you’re going to make blackjack or any multiplayer gambling games, the CHIPS project is better for microtransactions between groups because of the network model of games (small groups of people).
+
+If you’re going to build a platformer or rogue-like game, then using komodo and it’s token system will work for you.  All the calls are available by http RPC (not rest).   From a browser there is CORS limitation.   From standalone programs, no problem.
+
+If you were to grab a game template from the unity asset store, adding token calls would be pretty trivial.
+
+A lightweight P2P daemon is in development - this will likely replace needing to run a full node for taking advantage of the antara framework (application smarts on blockchain)
+
+
+[07-Oct-19 01:09 AM] Mylo#8306
+Seeing as you said you know ethereum, basically the lightweight nSPV daemon has all the functions of something like infura, but distributable in a small bundle (4MB memory, 500kB executable C code)
+
+
+[08-Oct-19 04:45 PM] Instel7#1416
+@Deleted User PM
+
+
+[08-Oct-19 11:17 PM] Acura#2748
+banned
+
+
+[28-Oct-19 12:11 AM] D2D privacyalternatives.com#5667
+https://www.coindesk.com/okex-korea-reviewing-decision-to-delist-privacy-coins-zcash-and-dash
+
+{Embed}
+William Foxley
+https://www.coindesk.com/okex-korea-reviewing-decision-to-delist-privacy-coins-zcash-and-dash
+OKEx Korea Reviewing Decision to Delist Privacy Coins Zcash and Da...
+OKEX Korea is reconsidering a decision to delist the privacy coins zcash and dash it announced in September.
+https://images-ext-2.discordapp.net/external/tJKT8t9b6y8S5lLyXLNBByPXGaVtnvBcW6MTDf-B_94/https/static.coindesk.com/wp-content/uploads/2019/10/zcash-and-dash.jpg
+
+
+[12-Nov-19 06:36 AM] BlackMarket#6984
+looking to work for a crypto project that has a marketing budget and will pay me in BTC
+
+
+[27-Nov-19 07:50 PM] Deleted User#0000
+Hello
+
+
+[28-Nov-19 01:04 AM] Cryptoon#3362
+👋🏼
+
+
+[03-Dec-19 08:44 AM] Farl#9964
+@Deleted User Since you love to say hello to everyone. Post it in #introductions  You have the floor! 😉
+
+
+[06-Dec-19 01:52 PM] Mylo#8306
+I am interested (but not keen yet) in testing small application implementations with the community in a micro loan setting over the next 6-12 months starting February 2020.  It is related to the collateralized lending system discussed in the #🎰┃ask-jl777
+
+
+[06-Dec-19 01:54 PM] Mylo#8306
+The idea is to pilot some micro loan examples in units of 10KMD for *random internet jobs* like writing a blog or doing a graphic etc.
+
+
+[06-Dec-19 01:55 PM] Mylo#8306
+Plz contribute to conversation here or DM me your interest in the project if you prefer.  Cheers!
+
+
+[06-Dec-19 02:08 PM] Mylo#8306
+I already do something similar for a blog at HybridDEX.com 
+Currently this is done using shapeshift to send an advance for some work.
+
+Using the new tech, it would allow me to not exchange my KMD (eg I can hodl), and extract the value of KMD into EURK/USDK etc.
+
+Replacing shapeshift as I currently use it, the payee (person receiving the advance/micro loan), can use atomicDEX to convert the EURK/USDK to a stablecoin supported by their local money changer.
+
+Simple example.  Thanks for reading
+
+
+[06-Dec-19 05:27 PM] hyperDEX#6586
+@Mylo happy to help with that effort if you want some help on the funding side?
+
+{Reactions}
+👍 
+
+[07-Dec-19 12:48 AM] Mylo#8306
+Nice one.  Yep we can chat bro
+
+
+[25-Dec-19 01:19 AM] Deleted User#0000
+Too many companies are making the mistake of focusing on products and services rather than customers.
+
+
+[25-Dec-19 04:26 AM] smkhound#7640
+some companies focus so much on the customer their services are just an excuse to sell their customer data as a product
+
+
+[25-Dec-19 06:53 AM] actionslacks#4072
+that's probably about 90% of the motivation behind smartphone app development. collecting and monetizing customer data.
+
+
+[10-Feb-20 07:50 PM] infotech-al#5583
+> The idea is to pilot some micro loan examples in units of 10KMD for *random internet jobs* like writing a blog or doing a graphic etc.
+@Mylo
+
+
+[10-Feb-20 07:57 PM] Mylo#8306
+yes, ok.  i already do it, but not blockchain-ified - let's chat later this week (tmrw) about it
+
+
+[11-Feb-20 04:01 AM] cascrypto#8206
+Hi Guys would like to set up a call with the participants for our event next week at Deloitte @barv @metaphilibert @PHBA2061 | VietStaking Validator @ca333 @michaeltoutjr we are looking for a Komodo sollution on recalls in the food supply chain, Barv could you give some what more guidance plz, this is for track 1 of course it would als be good to discus possibities from komodo on compliance and small holders! I am avaible the whole week let me know guys and see you next thursday www.striketwosummit.com als vechain and dusk network will be present at the event!
+
+{Reactions}
+👍 KMD 
+
+[11-Feb-20 04:05 AM] cascrypto#8206
+@phm87 mix you guys up to many times, if you would like to join let me know excuses the noice @PHBA2061 | VietStaking Validator
+
+
+==============================================================
+Exported 757 message(s)
+==============================================================

@@ -1,0 +1,218 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / komodo-services
+Topic: dPoW pricing, etc.
+==============================================================
+
+[17-Apr-19 06:17 AM] Audo#5667
+I created this new channel for Komodo service related discussion and questions, e.g. dPoW.
+
+@PTYX and @siu are here as the service providers
+
+
+[17-Apr-19 07:45 AM] PTYX#6840
+👍
+
+
+[17-Apr-19 07:45 AM] PTYX#6840
+I'm sending the 365 KMD for the Koinon integration in a few moments. USD amount was transferred yesterday.
+
+
+[17-Apr-19 07:47 AM] PTYX#6840
+@Audo so you're aware, we didn't take our 10% from the amount. So I'll pass along an address for that when the integration is finalized.
+
+
+[17-Apr-19 07:50 AM] Audo#5667
+ok
+
+
+[17-Apr-19 08:35 AM] siu#3920
+👌
+
+
+[18-Apr-19 10:17 AM] PTYX#6840
+We received a request from Zclassic 2 weeks ago but they hadn't confirmed once we sent the pricing. I reached out today and apparently the person that contacted us is on vacation but they said they will evaluate and get back to us as soon as he's back
+
+
+[18-Apr-19 10:18 AM] PTYX#6840
+They want dpow. ca333 says that their codebase should be fairly easy to audit if they do decide to onboard.
+
+{Reactions}
+👌 
+
+[27-Apr-19 05:34 AM] Audo#5667
+As we had planned the service providers that bring in dPoW customers and maintain the customer relationship get 10 % of the revenue.
+
+Chainzilla address: 0x304e800e8196cb9cbeff6dbce03de354bca590da
+
+> since koinon only paid 50%, we should only get 50% of the 10%. In 4 months they will pay the remaining fees and we can get the ramining 50%.
+
+@Alice can you handle the payments?
+
+
+[01-May-19 06:54 AM] Alice#5685
+Yes i will do it
+
+
+[11-May-19 07:00 AM] PTYX#6840
+@ca333 we have a blockchain that wants to be added to dpow. It's a zcoin fork
+
+
+[11-May-19 07:00 AM] PTYX#6840
+https://github.com/tecracoin/tecracoin
+
+{Embed}
+https://github.com/tecracoin/tecracoin
+tecracoin/tecracoin
+Contribute to tecracoin/tecracoin development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/WmKtMWLxaYa7rIE9S7uTZCC-jF2dOkI_UepuW2Dalyk/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/44404868
+
+
+[11-May-19 07:00 AM] PTYX#6840
+Can we get a price for the security audit?
+
+
+[11-May-19 07:02 AM] SHossain#0007
+doesn't Zcoin source has serious security flaw?
+
+
+[11-May-19 07:25 AM] PTYX#6840
+I've got no idea
+
+
+[11-May-19 07:26 AM] PTYX#6840
+I assume they want dpow for a reason
+
+
+[11-May-19 07:27 AM] PTYX#6840
+this is the second z-fork that has approached us though. Zclassic backed out because their main benefactor isn't available and he was going to cover the cost of dpow.
+
+
+[11-May-19 08:19 AM] siu#3920
+They fist contacted us, Dukeleto told us that he wont participate or help in anyway zclassic.
+
+
+[11-May-19 08:19 AM] siu#3920
+not sure if its zcoin related
+
+
+[11-May-19 08:47 AM] ca333#0333
+@PTYX can you please DM me some details:
+
+1) which zcoin version are they based on? 
+2) what sort of modifications have been done? I see only 2 commits - so would it be possible for them to fork the zcoin version they used from the original github repo and then add their modifications within 1 commit? This would simplify the review-process and lower the price of the same since we have a clean commit-history back to the initial legacy zcoin sources.
+3) how high are the chances that you could convince them to migrate to a KMD AC?
+
+
+[11-May-19 08:49 AM] PTYX#6840
+i can ask about a migration, i'm not sure if that's an option
+
+
+[11-May-19 08:49 AM] PTYX#6840
+i'll pass along those questions to them and will update you soon
+
+
+[14-May-19 11:51 AM] PTYX#6840
+@ca333 ok so they can't migrate because they have masternodes and are building out their chain
+
+
+[14-May-19 11:52 AM] PTYX#6840
+however, it's clean fork of zcoin at this point in time
+
+
+[14-May-19 11:54 AM] PTYX#6840
+they'd like to move forward so we should get them the price for the security audit and i'll add that in along with the dpow cost
+
+
+[14-May-19 12:19 PM] ca333#0333
+@PTYX - ok thanks for the info. 
+we cant ensure that its a clean fork because it wasnt forked on github but rather re-initialized like aforementioned above. 
+
+This is what i mean:
+
+
+[14-May-19 12:20 PM] ca333#0333
+you can see a " forked from zcoinofficial/zcoin" (i am not sure if this is the official zcoin codebase - but thats irrelevant for this explanation) which means the git history is preserved - this allows us to validate their codebase.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/568061963561598976/577938330134511617/clean_fork.png
+
+
+[14-May-19 12:21 PM] ca333#0333
+but tecracoin makes it look like its all their code - the git history (= all commits from zcoin) is not present in their codebase which makes it hard to validate their claims without generating a diff.
+
+
+[14-May-19 12:22 PM] ca333#0333
+so here we dont see on which repo this one is 'forked' off
+
+{Attachments}
+https://cdn.discordapp.com/attachments/568061963561598976/577938773896200203/tera_coin.png
+
+
+[14-May-19 12:26 PM] ca333#0333
+with this current structure it would be: 10-15k USD just for the code 'review' - they would not get any report though since it is not considered a "real" secure-code review. It is just for us to exclude the risk of malicious code running on our NNs. If they fork it clean of zcoin repo it would be much less efforts and costs.
+
+
+[14-May-19 12:40 PM] PTYX#6840
+What would be the alternative? If it's a direct zcoin fork, can they just make a new repo with all the zcoin history?
+
+
+[14-May-19 12:40 PM] PTYX#6840
+10-15K does sound a bit out of the range of most projects to get added
+
+
+[14-May-19 12:58 PM] ca333#0333
+alternative would be for them to fork it off the zcoin codebase - that would reduce the work and costs extremely.
+
+
+[14-May-19 01:00 PM] ca333#0333
+but a full codebase review based on the repo that was provided above represents many hundreds of hours of work
+
+
+[14-May-19 01:00 PM] ca333#0333
+
+{Attachments}
+https://cdn.discordapp.com/attachments/568061963561598976/577948438055092245/tecra_codebase.png
+
+
+[14-May-19 01:11 PM] jl777c#5810
+its only a million lines of code!
+
+
+[14-May-19 03:51 PM] PTYX#6840
+Ok sounds good I'll pass the info along to their team and get a decision
+
+
+[20-May-19 07:44 AM] siu#3920
+Hello, K64 has paid for dPOW services. Let me know what we need to do.
+
+
+[20-May-19 07:45 AM] siu#3920
+Will go live soon.
+
+
+[22-May-19 02:25 PM] ca333#0333
+@Alice ^
+
+
+[22-May-19 02:25 PM] ca333#0333
+@siu whats the K64 blockexplorer URL?
+
+
+[22-May-19 02:31 PM] ca333#0333
+nevermind - Shossain just sent me the URL.
+
+
+[25-May-19 12:42 PM] Audo#5667
+hey @PTYX & @siu 
+
+can you forward the contact info of all dPoWed 3rd party blockchains to @Alright ? The ones that are your clients. He needs to contact them ASAP
+
+
+[25-May-19 01:33 PM] PTYX#6840
+The ones I've brought in that are external are still in process of being added so they have all been kmd assets
+
+
+==============================================================
+Exported 44 message(s)
+==============================================================

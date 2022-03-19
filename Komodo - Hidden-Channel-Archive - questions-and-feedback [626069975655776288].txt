@@ -1,0 +1,3753 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / questions-and-feedback
+Topic: If you have questions or concerns for the Komodo team, please ask them here. You can also leave us general feedback.
+==============================================================
+
+[24-Sep-19 09:47 AM] Audo#5667
+This is a temporary channel to get feedback from our community. We got new community guidelines and we are defining a good moderation policy that makes everyone happy.
+
+We are also thinking if there's any way to reduce the amount of channels. Probably not :abusedsmily: 
+
+Drop your feedback & ideas here
+
+
+[24-Sep-19 09:50 AM] phm87#7395
+I noticed that most of conversations on #📈┃talk-trading  are not related to trading. I found no channel in such state
+
+
+[24-Sep-19 10:13 AM] mrlynch#5735
+not that different to a real life trading floor though
+
+
+[24-Sep-19 10:16 AM] phm87#7395
+Yes but I know more serious trading communities where such msgs can be deleted. Crypto funds and investors. Anyway, I won't fight to fix this : I learn trading stuff elsewhere and not on kmd discord
+
+
+[24-Sep-19 10:17 AM] phm87#7395
+Guys such as siu and markus can help ppl (to see if a TA is valid or invalidated). They are helping ppl and teaching. But these msgs are lost in all unrelated msgs
+
+
+[24-Sep-19 10:18 AM] phm87#7395
+In the traders community I am talking about, they have 2 trading channels: talk-crypto and TA. TA should contain only TA
+
+
+[24-Sep-19 10:18 AM] mrlynch#5735
+the only solution is.... more channels :troll:
+
+
+[24-Sep-19 10:18 AM] phm87#7395
+I agree
+
+
+[24-Sep-19 10:19 AM] phm87#7395
+Or maybe push ppl in offtopic or general or use another random channel to discuss
+
+
+[24-Sep-19 10:19 AM] Cryptoon#3362
+Technical trading <> Trading general
+
+
+[24-Sep-19 10:19 AM] Cryptoon#3362
+could be an option for two trading chans
+
+
+[24-Sep-19 10:19 AM] phm87#7395
+I agree
+
+
+[24-Sep-19 10:19 AM] phm87#7395
+I vote for 1200 new channels
+
+
+[24-Sep-19 10:20 AM] Cryptoon#3362
+where trading general can be the loosely moderated trading channel that has existed since the slack times etc
+
+
+[24-Sep-19 10:20 AM] Cryptoon#3362
+and trading technical where you can talk fib and EMA levels :p
+
+
+[24-Sep-19 10:20 AM] phm87#7395
+I read a suggestion to have a bot trading channel for dev who trade with bots
+
+
+[24-Sep-19 10:20 AM] mrlynch#5735
+there was one, nobody used it i think
+
+
+[24-Sep-19 10:22 AM] mrlynch#5735
+#dev-tradebots <- #dev-marketmaker
+
+
+[24-Sep-19 10:23 AM] jorian#4555
+the chat style in #📈┃talk-trading is probably a remnant of the Slack era, where the trading channel there was a place to discuss a lot more than just trading
+
+
+[24-Sep-19 10:24 AM] jorian#4555
+also #general in Slack was a nice place to discuss all general things SuperNET / komodo
+
+
+[24-Sep-19 10:24 AM] jorian#4555
+can't really describe why that is
+
+
+[24-Sep-19 10:27 AM] xeonrider#3120
+I find it quite hostile in trading not sure what is going on there but it surely isnt about trading
+
+
+[24-Sep-19 10:28 AM] xeonrider#3120
+and... way too many channels
+
+
+[24-Sep-19 10:30 AM] Audo#5667
+thanks for your feedback. Much appreciated
+
+
+[24-Sep-19 10:30 AM] ComputerGenie#7004
+Yous say "more channels", I say:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/626069975655776288/626108319060328471/GiveNow.png
+
+
+[24-Sep-19 10:31 AM] mrlynch#5735
+there goes your no-troll rule
+
+{Reactions}
+troll (2) 
+
+[24-Sep-19 10:32 AM] twittler#0062
+guyse am i the only one who thinks we have too many chats in this discord? maybe it would be nice to have seperate discords for some branches and only keep the top topics here, maybe link the subchannels here to an outsourced discord? idk, but scrolling through the channels is getting somehow overwhelming, even tho it is neatly structured, for me its getting bin hard to overlook the topics im intrested in.
+
+
+[24-Sep-19 10:35 AM] Audo#5667
+do the channels at the very bottom get in way too? Like for example we have tons of ecosystem project channels.
+
+
+[24-Sep-19 10:39 AM] twittler#0062
+not necessarily but its bit hard to over look all this, especially for new members i think
+
+
+[24-Sep-19 10:40 AM] twittler#0062
+imagine landing here for the first time...
+
+
+[24-Sep-19 10:40 AM] twittler#0062
+just sayin tho
+
+
+[24-Sep-19 10:40 AM] twittler#0062
+😉
+
+
+[24-Sep-19 10:44 AM] xeonrider#3120
+@Audo there are archived ones. Unless there is an option now in discord to mute every channel
+
+
+[24-Sep-19 10:45 AM] xeonrider#3120
+@twittler you are right, but than again Komodo tech isnt really easy for someone new
+
+
+[24-Sep-19 10:45 AM] xeonrider#3120
+unless you just want to fire up a blockchain
+
+
+[24-Sep-19 10:47 AM] xeonrider#3120
+I prefer moderation vs lesser channels
+
+
+[24-Sep-19 10:53 AM] ComputerGenie#7004
+`do the channels at the very bottom get in way too? Like for example we have tons of ecosystem project channels.`
+no, it's all the other crap that gets in the way of getting to *them*
+
+{Reactions}
+💯 
+
+[24-Sep-19 10:56 AM] ComputerGenie#7004
+imo, 2 ecosystem headers would be nice
+maybe "Ecosystem Projects" for those that do live here and "Ecosystem Extensions" (or something along that line) for those that are here and somewhere else?
+
+
+[24-Sep-19 11:36 AM] twittler#0062
+@xeonrider but i think we also want to grow the community. some ppl just want to invest and see the developement and news, others may start their own project at somepoint. maybe dev topics and general topics could be separated, idk, komodo is developing so quickly its hard to follow up unless the surrounding structure gets updated aswell to make it easy for newbs to find an entrance point and satisfying userexperience. it takes couple hours to overview the project to someone new, maybe that could be a good starting point.
+
+
+[24-Sep-19 11:38 AM] ComputerGenie#7004
+`to make it easy for newbs to find an entrance point`
+Having watched all the growth from just a handful of channels when we moved over here, I've often wondered the challenge level of coming here new
+
+
+[24-Sep-19 11:50 AM] xeonrider#3120
+the entrance point is not the issue. You simply don't really get ahead without being at the mercy of people who might know something. I just like being able to do the basics on my own instead of throwing myself at the mercy of other people who "might" be in a good mood to help out or get referred to rtfm or "go slowly".
+
+
+[24-Sep-19 11:50 AM] xeonrider#3120
+just my 2 cents
+
+
+[24-Sep-19 11:56 AM] twittler#0062
+growing the community is the issue as i see it, from ethusiast and businessrelated pov, but the question is who is the targeting group and how to attract them. cus the tech is good imo.
+
+
+[24-Sep-19 06:34 PM] Mixic 🐬#3188
+Well done, guys! Glad to see that Komodo always thinks about his community 🙂 👍
+
+
+[24-Sep-19 07:36 PM] actionslacks#4072
+I agree with the move to raise the general quality of what gets posted on this discord. It also seems like an inordinate amount of posts are just people complaining. Constructive criticism ie "I think X is a little weak, we should try Y to make X better" is a lot better than "kmd is a total shitcoin and your team sucks". People often just come in here to troll everyone and there should be some threshold where people who are being dicks will be muted or kicked, even temporarily. No one needs it. It just lowers morale. This is an open project, but that doesn't mean that anyone should be able to come here and spread their psychic waste because they're frustrated.
+
+
+[25-Sep-19 12:33 AM] Surfer007#0709
+Good initiative !! What I would like Komodo to promote as a multifunctional platform for upcoming projects. Also to point out already existing ERC-20 projects on the clear advantages of komodo and also to offer guidance including supporters for a change (Chainzilla ...). A graphic representation would set the ball rolling and komodo would be in the minds of devs and investors.
+
+{Reactions}
+👍 (3) 
+
+[26-Sep-19 01:47 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Ecosystem needs a #mediation channel to help prevent flame wars. Quarantine the posts and the ones arguing to only this channel till disputes solved, utilize a mediator. Find some common ground, shake hands, act like adults.
+
+{Reactions}
+yassinheart (2) 
+
+[26-Sep-19 02:16 PM] Oszy#5734
+when I used to run a chat back in the GPRS WAP days we had a room called "Prison" people who got sent to prison could not come out until they "did their time" but in the prison, they could rant without rules, and only "inmates" were allowed in that room. 
+It worked really well, but I don't know if this is possible on Discord unless you manually assign a "prisoner" role to said people and then manually remove it.
+
+
+[26-Sep-19 02:17 PM] Oszy#5734
+we had it coded, maybe a discord bot can manage this the same way, so after X minutes it removes the role, and the role would make the person only able to see / write in that single room
+
+{Reactions}
+☝🏽 
+
+[26-Sep-19 02:19 PM] ComputerGenie#7004
+What if (and I realize this is a really radical idea) people saw the name of someone they didn't like and just choose to not read the words that follow that name....
+
+
+[26-Sep-19 02:24 PM] Oszy#5734
+It's not about who you like but what they write, and for that you have to read what they wrote 😛 
+Blocking someone hides the messages too, but that doesn't stop them flooding the channel with irrelevant or offensive chat.
+
+
+[26-Sep-19 02:25 PM] ComputerGenie#7004
+`It's not about who you like but what they write`
+OK, I thought you were referring to what happened today
+_will butt out now_
+
+
+[26-Sep-19 02:25 PM] Oszy#5734
+Don't know about what happened today
+
+
+[26-Sep-19 02:27 PM] ComputerGenie#7004
+fwiw: "offensive chat" is an entirely subjective concept open to much individual interpretation 🤷🏽
+
+
+[26-Sep-19 02:35 PM] Oszy#5734
+of course
+
+
+[27-Sep-19 02:44 AM] Audo#5667
+haha, interesting idea @Oszy 
+
+That would be possible actually, but maybe the current solution is a bit better though.
+
+Right now mods can 'timeout' people for x number of minutes, making them unable to chat (but they can read).
+
+
+[27-Sep-19 03:26 AM] mrlynch#5735
+increase their rage levels
+
+
+[28-Sep-19 08:17 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+In my part of the world saying wtf is not ban worthy. It's more of a colloquial expression. Calling some one mean names such as @#$&, or a string of demeaning curse words is however ban worthy.
+
+
+[28-Sep-19 08:17 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+STFU is even a popular Max keiser saying.
+
+
+[28-Sep-19 08:22 AM] Audo#5667
+The decision was made after reading the message history. We won't be banning people too easily in general, but there have been a number of people who have caused problems and we take a more strict line now to set a proper moderation standard.
+
+Many people work hard to build up this project, and we don't need people here who never contribute to the conversation but only cause problems.
+
+
+[28-Sep-19 08:27 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Agree. I appreciate the case by case common sense approach and explanation of actions taken.
+
+
+[28-Sep-19 08:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Hopefully though, a cool down time out ban is also implemented as sanity is often governed by external forces and most times rest and food are the cure.
+
+
+[28-Sep-19 08:31 AM] ComputerGenie#7004
+a "cool down time" tends to just make someone that's mad sit and write and entire text wall instead of being in context (in my experience)
+
+{Reactions}
+3040_suspepe (3) 
+
+[28-Sep-19 08:32 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+True.
+
+
+[28-Sep-19 12:04 PM] gone for some time#3337
+Lets unban mrztmp3
+
+
+[28-Sep-19 12:05 PM] ComputerGenie#7004
+who?
+
+
+[28-Sep-19 12:05 PM] gone for some time#3337
+He was a big kmd promoter who got banned for "foul" language 😦
+
+
+[28-Sep-19 12:07 PM] ComputerGenie#7004
+I missed most of what happened with that, but it kinda says something about the complaint being that that channel is **more** offensive now than when I was there :troll_lol:
+
+
+[29-Sep-19 10:59 AM] Audo#5667 (pinned)
+If someone is banned or muted they can fill a form and make an appeal to the Komodo community's moderators. This way there is always a way back for those who really want to be part of our community.
+
+The form: https://forms.monday.com/forms/5fd66a8253ca0111449a26807c88a113
+
+ - Komodo community moderatorion team
+
+
+[29-Sep-19 10:59 AM] Audo#5667
+Pinned a message.
+
+
+[03-Oct-19 06:21 PM] allbits#5898
+Congratulations and thank you for cleaning up the discord.  Seems like the disrespectful culture was really down to a handful of people who are revealing by their continued absences that they were always more interested in disruption than in komodo
+
+{Reactions}
+🎊 (9) 💯 (5) 👎 
+
+[31-Oct-19 06:31 AM] ComputerGenie#7004
+@Audo 
+I'm not sure how to better explain it, but you're still missing my point.
+that you said x was *also* the reason, in some channel that the person will likely never go into, doesn't change what he can screenshot what the bot told him
+```
+YAGPDB.xyzBOT 10/31/2019
+Komodo: You have been :mute:Muted (Expires after: 10 minutes)
+Reason: repeating complaints atomicdex everywhere```
+makes for a __horrible__ screenshot when it comes to PR and the dude telling everyone that will listen that he got mute just because he was confused and couldn't get help
+no one outside of this discord is going to see that you said something in addition to that in a given team channel
+
+
+[31-Oct-19 06:33 AM] ComputerGenie#7004
+From a PR stance, the "reason" used needs to be something that "you don't know the whole story" doesn't need to be said, imo
+
+
+[31-Oct-19 06:34 AM] Audo#5667
+Moderating is not easy, let's just show some support to our mods that try to help.
+
+If you mean that @Farl should also have added that the guy called a team member a scammer then yes, that would have been a good addition to the reason.
+
+
+[31-Oct-19 06:34 AM] ComputerGenie#7004
+yes, that was what I was getting at
+
+
+[31-Oct-19 06:35 AM] Audo#5667
+ok, it's good input, thanks @ComputerGenie .
+
+@Community Moderator let's type out the 'reason' carefully from now on as that is what most of the community sees. Otherwise people might be alarmed that we mute or warn people too easily.
+
+{Reactions}
+👍🏽 (3) 
+
+[31-Oct-19 06:37 AM] Farl#9964
+Sure, no problem. 👍🏻
+
+
+[31-Oct-19 06:38 AM] CrisF#3405
+Who was muted?
+
+
+[31-Oct-19 06:38 AM] Audo#5667
+some guy who was frustrated got 10 min mute, spammed channels and called SirSeven a scammer
+
+
+[31-Oct-19 06:38 AM] CrisF#3405
+Where was that?
+
+
+[31-Oct-19 06:39 AM] Audo#5667
+probably on the atomicdex channel
+
+
+[31-Oct-19 06:40 AM] CrisF#3405
+Ok, thanks.
+
+
+[31-Oct-19 06:40 AM] CrisF#3405
+Didn't see it.  Had stuff going on in Labs too, so maybe mis-timing.
+
+
+[09-Dec-19 08:17 AM] gilardh#8348
+Scammer : https://image.noelshack.com/fichiers/2019/50/1/1575908236-capture.png
+
+{Embed}
+https://image.noelshack.com/fichiers/2019/50/1/1575908236-capture.png
+https://images-ext-2.discordapp.net/external/12FwmeW9em3VU459nXxXJVotVZl6FUK2o4S4mVul6Pc/https/image.noelshack.com/fichiers/2019/50/1/1575908236-capture.png
+
+
+[09-Dec-19 08:19 AM] Audo#5667
+banned
+
+{Reactions}
+👍 
+
+[11-Dec-19 10:27 AM] phm87#7395
+Giveaway accounts entered. I don t see it in member list but it is dm spaming me
+
+
+[11-Dec-19 10:27 AM] phm87#7395
+654358221645021207
+
+
+[11-Dec-19 10:27 AM] phm87#7395
+
+{Attachments}
+https://cdn.discordapp.com/attachments/626069975655776288/654388884683096119/Screenshot_20191211-192736_Discord.jpg
+
+
+[11-Dec-19 10:38 AM] Markus#5464
+@phm87 banned
+
+
+[20-Dec-19 04:33 AM] phm87#7395
+spammer
+
+
+[20-Dec-19 04:33 AM] phm87#7395
+Gentle
+#0897
+
+
+[20-Dec-19 04:33 AM] phm87#7395
+657550333685268484
+
+
+[20-Dec-19 04:46 AM] mrlynch#5735
+-ban 657550333685268484 spam
+
+
+[20-Dec-19 04:46 AM] YAGPDB.xyz#8760
+🔨 Banned `657550333685268484` indefinitely
+
+
+[21-Dec-19 03:04 AM] CrisF#3405
+Hi,
+What do you think about connecting the #faq  info somehow with the #🤗┃start-here  page?  If not on the same page, it is pretty full already, as a welcome DM, or linked in some obvious way?
+
+
+[21-Dec-19 05:01 AM] Audo#5667
+perhaps a DM would be the best.
+
+#🤗┃start-here links to the FAQ/introduction post
+
+{Reactions}
+👌 
+
+[20-Jan-20 08:27 PM] Audo#5667
+This channel can now be used to discuss Komodo Community Portal related feedback and ideas as well.
+
+
+[20-Jan-20 08:27 PM] Audo#5667
+(I renamed it from "discord-feedback" to"community-feedback")
+
+
+[20-Jan-20 09:24 PM] ComputerGenie#7004
+My feedback is that if mods are going to mute community members because the mod got their feelings hurt when the mod wrongfully muted a project owner in the project channel and the community member came to defense of that project owner, then eventually there will not be anyone but mods and subjugated sheeple left in what will no longer resemble a "community" after some time
+
+
+[20-Jan-20 09:33 PM] ComputerGenie#7004
+Forget, for a moment, that I am me
+Take a step back and reread the events of my latest muting __in context__
+That had more to do with a mod's "feelz" than any community guidelines in even the most absurd of communities
+Only a level of hubris that will do more harm than good would allow a community member to be acted upon in such a revengeful manner as to punish them for speaking out and saying it's wrong to enter into a project channel and tell the project owner they are being punished for "unnecessary quarrel"
+
+
+[20-Jan-20 11:21 PM] Audo#5667
+I hear you @ComputerGenie , but muting someone for a personal attack is very much within the line of our moderation policy. There was a misunderstanding, but still there is no need for pointing fingers, escalating, or ridiculing others.
+
+There will always be missunderstandings and conflicts, and that is part of an online community. Nonetheless, we need to find better ways to deal with them than a long text battle on a public channel. The two main things that we are asking everyone to follow:
+
+- no personal attacks or insults, even if you are right. Treat others with repsect even when you disagree with them and think they are in the wrong.
+- no drawn out off-topic debates on public channels, even if there are no clear personal insults involved
+
+
+[21-Jan-20 12:42 AM] hastrup#8742
+@Audo well said I totally agree 👍
+
+
+[21-Jan-20 04:00 AM] ComputerGenie#7004
+If the "moderation policy" is that "power-tripping" is a "personal attack" then I completely stand behind what I said about it ruining the remainder of the "community". Human beings are not designed to never have opinions and to never express them. 🤷🏽‍♂️
+
+
+[21-Jan-20 04:03 AM] 𝙊𝙞𝙣𝙠#3612
+There are regimes on this earth that would disagree there....
+
+
+[21-Jan-20 04:16 AM] ComputerGenie#7004
+Yes, and their people feel as oppressed and persecuted as some here do.
+
+
+[21-Jan-20 04:27 AM] ComputerGenie#7004
+Jokes aside, I still feel that it is detrimental to building a "community" for what I said, in the context that it was said in, to incur punishment. (specifically look at if it would have received the same punishment were it said by personX, person,Y, or personZ)
+Actually punishing people for sarcasm is a step too far for a "community"
+It will, however, build a bland business environment where people hate their overlords (and yes "you **will** show me respect just because I have a title" makes one an overlord).
+
+
+[21-Jan-20 04:33 AM] hastrup#8742
+I understand what you are trying to say. But I will give a warning if someone  is using tearms: like fucktard stupid or donkey directly at somone. That does not help anything
+
+
+[21-Jan-20 04:35 AM] ComputerGenie#7004
+That bit I only object to if it's not done to *everyone* that uses those term, and is indeed different than yesterday's issues
+
+
+[21-Jan-20 04:37 AM] ComputerGenie#7004
+We can tackle the "we let friends say things" bit too, but my main concern is that the larger problem is yesterday's events and the worst bits of it as it concerns a global policy are being overlooked because it specifically involved me
+
+
+[21-Jan-20 04:39 AM] hastrup#8742
+I understand you concern. And I will talk to you about it but I need to work now I be back in 2 hours
+
+
+[21-Jan-20 04:40 AM] ComputerGenie#7004
+Had post I made been made by Alright or mrlynch, or anyone, would he have received punishment? 
+If so, then it's a policy step too far
+If not, then it's a poor standard to apply arbitrarily because of "hurt feelings"
+
+
+[21-Jan-20 06:32 AM] hastrup#8742
+the community moderator role is still a new thing and it will take time to adjust to it, and there will be paper cuts along the way. I understand your concern that some can have a bias towards you
+Like you said in your nn proposal: some like me some hate me “paraphrasing” 
+And horns well meet sometimes and that is alright 
+the issue is when A calls B a cunt/stupid that is not a healthy way to arguer and that will get a warning
+and there was one time yesterday where you call someone something similar. 
+and i have not whiteness mrlynch or alright have call someone cunt/stupid or something similar
+but again the moderator group is still learning and we value your input.
+
+
+[21-Jan-20 06:37 AM] ComputerGenie#7004
+`and there was one time yesterday where you call someone something similar. `
+see, that's where context matters the most and mods need to view the larger picture
+I gave two "if...then" statements
+he agreed with the first
+which made the second moot
+that you are stuck on the second means that you are not seeing the context of the statement and hinging on single selective words
+Until the mods got involved, no one interpreted that as me calling him an idiot, moron, or whatever noun I used in the sentence because they read the context of the conversation
+
+
+[21-Jan-20 06:41 AM] ComputerGenie#7004
+`and i have not whiteness mrlynch or alright have call someone cunt/stupid or something similar`
+while I don't recall the former doing so, I assure you there are several examples of the latter doing just that
+and if you're using that word as an example of me, that goes to an even larger issue of moderating speech that isn't even on this server (as the time I used that word [until the recipient of it used it here twice] was on a completely different server and **totally** out of the jurisdiction of **any** mod here and shouldn't even be part of any discussion here)
+
+
+[21-Jan-20 06:45 AM] ComputerGenie#7004
+and also, I didn't use it in the context of the example I put forth with their names nor was any language in that even similar
+that so many things carry baggage and refuse to involve context is, indeed, much of the larger issue
+
+
+[21-Jan-20 06:48 AM] ComputerGenie#7004
+In context, the phrase was "Power-tripping" and it was used in the context of a mod coming into a channel and telling the channel owner that the owner was to be punished of "unnecessary quarrel"
+please stick to that context and not devolve it into some fiction
+
+
+[21-Jan-20 06:56 AM] ComputerGenie#7004
+For clarity:
+The sole reason for mentioning either of them was to point out that if either of them saw what I saw and said "Power-tripping mod" they would not have been punished for "being disrespectful to decision moderator"
+again, it's all about context
+
+
+[21-Jan-20 07:02 AM] hastrup#8742
+context matters that we do agree on. but one does not have to use derogatory term against someone because whatever reason. 
+If so, then it has 100% liquidity
+If not, then you're a feken idiot
+the end
+
+whit your way whit words you could have phrase it different.
+
+
+[21-Jan-20 07:04 AM] Audo#5667
+@ComputerGenie you were publicly pointing fingers and ridiculing Farl for his efforts moderate. If some other person would out of the blue have said exactly what you said, yes, maybe it wouldn't have resulted an instant mute. However, each person has a history and your past actions affect how people treat you in the future.
+
+People are not robots, and the same situation can be perceived in different ways depending on who is involved. If someone has received numerous warnings in the psat of course he gets different treatment than a first timer. Let's just try to be understanding and improve our relationship from here on out.
+
+
+[21-Jan-20 07:09 AM] ComputerGenie#7004
+`However, each person has a history and your past actions affect how people treat you in the future.`
+In the part of the world I live in, that's called "bias" and one acting with unfettered discretion as instantaneous judge, jury, and executioner should refrain from such emotional feelings as to bring out of context baggage with them.
+No, people are not robots, nor do I expect them to be, but my point is that if no one says something then it will be worse for all of us in the future.
+`Let's just try to be understanding and improve our relationship from here on out.`
+Every reason I'm writing here instead of the devolving actions/words I imagine some might expect.
+
+
+[21-Jan-20 07:11 AM] Audo#5667
+If a person commits the exact same crime twice he tends to get a harder sentence on the second time.
+
+
+[21-Jan-20 07:12 AM] ComputerGenie#7004
+--------
+`whit your way whit words you could have phrase it different.`
+I'm sure I *could* phrase 100 gajillion things in life differently, but we live in the real world and people say real things.
+I do, however, stand by the belief that only a stupid person would pass on accepting $72 million USD to *not* say a specific thing after that thing is shown to be wrong 🤷🏽‍♂️
+
+
+[21-Jan-20 07:13 AM] Audo#5667
+I am just saying how things work in the real world, people do judge you on your past actions and there is always bias
+
+
+[21-Jan-20 07:14 AM] ComputerGenie#7004
+`If a person commits the exact same crime twice he tends to get a harder sentence on the second time.`
+That we agree there are those in the community that could have said the exact same words in the exact same context without it being deemed "disrespectful" should mean that we should agree that it's not a crime to get a sentence for
+
+
+[21-Jan-20 07:15 AM] ComputerGenie#7004
+that's my whole point
+either it's bad or it isn't
+not it's bad just because I'm an unlikable ass
+
+
+[21-Jan-20 07:16 AM] Audo#5667
+@ComputerGenie you need to learn to give in an inch 🙂 Trust me
+
+
+[21-Jan-20 07:17 AM] ComputerGenie#7004
+I've given more inches than you might think
+
+
+[21-Jan-20 07:17 AM] ComputerGenie#7004
+And again, I'm just using me as an example
+
+
+[21-Jan-20 07:18 AM] hastrup#8742
+it is condescending when you phrase it like that and it will be  moderate as such, not just  you everyone will be moderate for that.
+
+
+[21-Jan-20 07:20 AM] ComputerGenie#7004
+if the eloquence of a chosen noun is really an issue for moderation policies, then the policies are to stringent for a true "community"
+
+
+[21-Jan-20 07:21 AM] hastrup#8742
+i need to open up my danish/english book for that word 😄  eloquence
+
+
+[21-Jan-20 07:21 AM] ComputerGenie#7004
+`it is condescending `
+and?
+
+
+[21-Jan-20 07:21 AM] hastrup#8742
+the practice or art of using language with fluency and aptness
+
+
+[21-Jan-20 07:22 AM] hastrup#8742
+thats a nice word 🙂 eloquence
+
+
+[21-Jan-20 07:24 AM] hastrup#8742
+it is not very inviting to new member to be condescending towards them in general
+
+
+[21-Jan-20 07:26 AM] ComputerGenie#7004
+how inviting is it for new members to see a name with all of these pretty colors get punished for saying a mod was "power-tripping" for punishing a channel owner for running their channel?
+
+
+[21-Jan-20 07:26 AM] ComputerGenie#7004
+you're kind of beginning to see my point, I think
+
+
+[21-Jan-20 07:27 AM] hastrup#8742
+i dont know what happen there
+
+
+[21-Jan-20 07:27 AM] hastrup#8742
+what channel is this?
+
+
+[21-Jan-20 07:27 AM] ComputerGenie#7004
+off to see Dr, bbl
+
+
+[21-Jan-20 07:27 AM] ComputerGenie#7004
+#💎｜blur
+
+
+[21-Jan-20 07:55 AM] Cryptoon#3362
+It all comes down to people being buthurt to soon, and going 0-100 too fast on the other hand
+
+
+[21-Jan-20 07:56 AM] Cryptoon#3362
+Both sides do some water with their wine and you wont get drunk that fast/thrown out for being a drunk :p
+
+
+[21-Jan-20 07:56 AM] Cryptoon#3362
+Not sure if thet metaphore works in english though, whatever 😃
+
+
+[21-Jan-20 08:08 AM] jorian#4555
+we just need the bear to be over
+
+{Reactions}
+🤣 
+
+[21-Jan-20 12:35 PM] Farl#9964
+Regarding the Community Portal, the difference between a comment and an answer on a Question is not really clear to me. Look at this Question for example: https://community.komodoplatform.com/question/5e2616dedf23747246e2a10b/answer
+
+
+[21-Jan-20 12:54 PM] ComputerGenie#7004
+`It all comes down to people being buthurt to soon`
+well I wanted to say that to begin with, but was trying to be "respectful"
+
+
+[21-Jan-20 06:49 PM] gcharang#6833
+@Farl normal questions will have both comments and answers
+the question you pointed to is a poll. so it has options to select from and comments
+
+
+[21-Jan-20 10:01 PM] Farl#9964
+My point was about that a Question post needs an Answer and a Discussion post a Comment.  Now there are too many choices imo, a bit intransient. I like the KISS approach. 💋
+
+
+[21-Jan-20 10:09 PM] Farl#9964
+With my poll Question there is even an extra option which is Vote description. So three comment options, a bit too many imho.
+
+
+[21-Jan-20 10:11 PM] Farl#9964
+Just trying to find a way to make it more user friendly by cutting out  unnecessary components.
+
+
+[22-Jan-20 02:05 AM] Audo#5667
+yeah I agree @Farl , it's a bit confusing and I too first just 'commented' on a question when I wanted to answer it. 
+
+I guess with a comment you can provide some insight into the matter, or just have a normla discussion. Answer is like a bigger "comment" where you try your best to answer the questions as well as you can. Each person can only post one answer per question. 
+
+Answers can be upvoted by liking them.
+
+
+[22-Jan-20 02:05 AM] Audo#5667
+_ _
+The comments are indeed quite hidden too, I didn't even notice you had left a comment until now.
+
+
+[22-Jan-20 02:06 AM] Audo#5667
+_ _
+To me it looks like "Vote description" == "answer"
+
+
+[22-Jan-20 02:12 AM] gcharang#6833
+most question/answer sites have comments + answers
+answers should directly answer the question
+comments can be about anything. like suggestions to make the question better or if you are unsure of the answer, can leave your thoughts in the comments
+
+
+[22-Jan-20 02:13 AM] Farl#9964
+Thanks for sharing your opinion guys. we can leave them as it is of course.
+
+
+[22-Jan-20 02:16 AM] Farl#9964
+It's not very clear that answers can be upvoted. In BitTube there is a Upvote button AND a Like button for this. But that is in conflict with my KISS principles. 🤔 
+Can't we change Likes by Answers in Upvotes and display a number? A bit like Stackoverflow does?
+
+
+[22-Jan-20 02:30 AM] Audo#5667
+Good suggestion agian, I'll add that to the UX/UI list.
+
+We can't get specific changes made right away though. I will pass on the feedback to the portal devs (external business) and they may or maynot implement some of those changes.
+
+In the future, we can divert from the "main branch" and customize the portal more to our liking. That's when we have more power over how the portal looks and feels.
+
+{Reactions}
+👍🏻 
+
+[27-Jan-20 05:00 AM] Mylo#8306
+does community portal have public area (no sign up?)
+
+
+[27-Jan-20 05:04 AM] gcharang#6833
+it will be made public when it launches officially on Feb 3
+everything can be read publicly but posting will need signup obviously
+it would look similar to <https://community.tribe.so/>
+they are the tech provider for the portal
+
+
+[27-Jan-20 05:04 AM] Mylo#8306
+ok great, thanks.
+
+
+[27-Jan-20 05:05 AM] Mylo#8306
+what are the republishing of content guidelines?  for instance i'd like to republish info about projects - e.g. https://community.komodoplatform.com/post/5e276dbe25b5545ce927cafd
+
+
+[27-Jan-20 05:07 AM] Audo#5667
+I guess you treat the content similarly as if it were on any forum, like bitcointalk forum. You could copy/paste the content and then link to the original source.
+
+
+[27-Jan-20 05:07 AM] Mylo#8306
+that makes sense.  i'll do a post of two to test pplz reactions.
+
+
+[27-Jan-20 05:08 AM] Mylo#8306
+is there a graphic or something i can use "join the komodo community" that links to the sign up page?
+
+
+[27-Jan-20 05:10 AM] Audo#5667
+we have a portal graphic in production, but won't be ready until launch on Feb 3rd
+
+
+[27-Jan-20 05:17 AM] Mylo#8306
+cool! thanks i will find it useful.  i have a "news relay" part in my website.
+for instance, the geneva university stuff in last week's update, i'd like to relay this news into the internet with a link to the source article and a graphic that says "join the komodo community discussions etc."
+
+
+[27-Jan-20 05:24 AM] Audo#5667
+nice! The portal got API/widgets too that allows content to be posted to any website and it then shows the discussion in real-time. 
+
+@gcharang do you know if the API/widgets are publicly available to everyone? Could we share it?
+
+
+[27-Jan-20 05:27 AM] gcharang#6833
+API is definitely not public
+re: widgets, they offer a questions widget directly. It is very simple to integrate <https://docs.tribe.so/#questions-widget>
+but for a widget with posts or a combination of posts/questions like a news feed, we need to contact them with our requirements
+
+for the widgets to work, our portal first needs to go public
+
+
+[27-Jan-20 05:30 AM] gcharang#6833
+ah, there is an alternate way to integrate the widgets using iframes
+<https://community.tribe.so/question/5d273b1e3399f46c56a5f6bc>
+all of these are possible, after our portal goes public
+```
+Topic Feed Widget
+Group Feed Widget
+User Widget
+Notifications Widget
+Question Widget
+Answer Widget
+Post Widget
+Home Widget
+```
+
+
+[27-Jan-20 05:31 AM] Audo#5667
+Thanks for the info @gcharang !
+
+
+[27-Jan-20 05:32 AM] Mylo#8306
+ok cool thanks
+
+
+[27-Jan-20 05:36 AM] Mylo#8306
+if i wanted to post a "developer update" from my website into the community portal, what is the best section to do so?
+
+
+[27-Jan-20 05:37 AM] gcharang#6833
+do you mean sth like an automated repost?
+
+
+[27-Jan-20 05:38 AM] Mylo#8306
+no, i'm happy to login and c+p from my website into the community portal.
+
+
+[27-Jan-20 05:38 AM] gcharang#6833
+sorry I misread "best section to do so" as "best action to do so"
+
+{Reactions}
+👌 😄 
+
+[27-Jan-20 05:41 AM] gcharang#6833
+> best section to do so
+I think it depends on the content what what topics it relates to?
+there are no hard rules right now and common sense rules like
+related to Komodo -> Komodo discussion
+related to Ecosystem projects -> Komodo ecosystem etc should work?
+
+
+[27-Jan-20 05:43 AM] Mylo#8306
+ok, i'll check it out after it launches to see how it goes, cheers!
+
+{Reactions}
+👍 (2) 
+
+[27-Jan-20 06:54 AM] Audo#5667
+**Discord Channel Structure Proposal**
+
+The Komodo Community Portal fills many gaps we have tried to fill with Discord.
+
+The problem has been that content gets lost on Discord, so we have given each topic a channel to make it easier to scroll up and find the relevant messages and pinned posts. The result has been an enormous list of channels that overwhelms any newcomer.
+
+Now that we have the portal, we should take another look at the Discord channel structure and try to find ways to make its use more efficient.
+
+**Reasons For Restructuring**
+
+1) We want to encourage the discussion to happen on the portal instead as it provides us with long term benefits.
+2) With fewer channels, we would concentrate the conversation and make the Discord feel more active.
+3) It is hard to stay on-topic in live chat, so why don't we accept that and use few more general channels instead?
+
+**Share Your Thoughts**
+
+Read the proposal and answer the poll on the Komodo Community Portal.
+
+- Yes, I agree we should reduce the number of channels and rethink the structure
+- No, the current Discord structure works, and we should keep it as it is
+
+Share your thoughts here or on the portal thread.
+
+
+[27-Jan-20 06:55 AM] Audo#5667
+https://community.komodoplatform.com/post/5e2ef75a823f5e2b5a015192
+https://docs.google.com/document/d/1dZCm4SH3VCEOKxrkjQc8bzGeD5B2VTtySmM4TBmLB6s/edit#
+
+
+[29-Jan-20 02:22 AM] Audo#5667
+Discord channel structure now matches with the proposal. Channels that would be archived according to the current plan are under a category called "To Be Archived".
+
+If there are channels someone thinks we should keep we can discuss it here or leave a comment to the portal discussion.
+
+
+[29-Jan-20 02:47 AM] Mylo#8306
+#dev-marketmaker and #dev-nspv are v.useful unless told otherwise by devs.
+
+
+[29-Jan-20 02:48 AM] Mylo#8306
+Oh man, all cc channels too....does archived mean still readable?
+
+
+[29-Jan-20 02:50 AM] Mylo#8306
+#cc-pegs has a bunch of future tech chat
+
+
+[29-Jan-20 02:57 AM] Audo#5667
+yes, we will keep them in read-only stage. If someone could import all the info to the portal that would be awesome.
+
+If we want to keep more dev channels we can. If those are in active use and there is a fair chance that two different topics would be discussed on #💻┃dev-general simultaniously, then keeping those dev channels makes sense.
+
+
+[29-Jan-20 02:58 AM] Audo#5667
+the proposal was "let's cut everything we can" and then just hear out what we should definitely keep in addition.
+
+
+[29-Jan-20 03:21 AM] ComputerGenie#7004
+`Channels that would be archived according to the current plan are under a category called "To Be Archived".`
+I cannot imagine a universe in which #⛏┃talk-mining would fall under "archived". Are we just done with having an ecosystem and it's just purely about phone GUIs and trading revenue now?
+
+
+[29-Jan-20 03:26 AM] Audo#5667
+Our thinking is that the mining channel (similar to entrepreneurship) has only new discussions occasionally, and they are of higher value and probably ever-green content. We would like that content to be on the portal, so that we can build like a knowledge base surrounding the topic 'mining'.
+
+
+[29-Jan-20 03:30 AM] ComputerGenie#7004
+Miners are never going to look for some random "portal" (especially one they have to sign up for) for instructions on how to mine each new ecosystem chain (be it new in release or just new to them)
+
+
+[29-Jan-20 03:32 AM] Cryptoon#3362
+Kind of agree with genie tbh
+
+
+[29-Jan-20 03:32 AM] ComputerGenie#7004
+I get that it is of no interest to the handful of people that signed up for the portal, but that doesn't make it so for the rest of the ecosystem
+
+
+[29-Jan-20 03:33 AM] Audo#5667
+All portal content will be public on Monday. Mining related questions can still be asked on our discord even if there is no #mining channel. I doubt anyone goes to #⛏┃talk-mining to search for answers. They would simply ask, and why couldn't they ask about that on #💬┃general ?
+
+
+[29-Jan-20 03:33 AM] Audo#5667
+At the end we will listen to the community. That's why I am asking for feedback.
+
+
+[29-Jan-20 03:34 AM] Cryptoon#3362
+Some people have other channels muted
+
+
+[29-Jan-20 03:34 AM] Cryptoon#3362
+As there is too much non interesting stuff going on
+
+
+[29-Jan-20 03:34 AM] Audo#5667
+ok, that makes sense
+
+
+[29-Jan-20 03:34 AM] Cryptoon#3362
+And stuff like mining I dont mute as usually urgent questions are only asked there
+
+
+[29-Jan-20 03:34 AM] ComputerGenie#7004
+`All portal content will be public on Monday.`
+Then maybe wait until a month after Monday (and some actual community members have had a voice) before deciding to tell an entire class of community member that they no longer matter in discord?
+
+
+[29-Jan-20 03:45 AM] Audo#5667
+We certainly can give more time to re-consider what to do with all channels that someone feels are important.
+
+I wanted to change the structure already so it is more evident what will change, and that we would get some discussion going on (like we did).
+
+When it comes to the structure we certainly will listen to the community. That is why we have channels in the first place. The very reason for this reorg plan is all the complaints about too many discord channels. We are simply trying to listen to everyone and improve. So let's calmn down :)
+
+Current channels that have been mentioned as important
+ - #dev-marketmaker 
+ - #dev-nspv 
+ - #cc-pegs 
+ - #⛏┃talk-mining
+
+
+[29-Jan-20 03:48 AM] ComputerGenie#7004
+`The very reason for this reorg plan is all the complaints about too many discord channels. `
+I'm one of the 1st people in line to make that complaint.
+However, the answer is to do away with channels that serve the same function/topic, not just delete things that people that were likely never active in the topic think shouldn't be a topic.
+
+
+[29-Jan-20 03:50 AM] Audo#5667
+We haven't deleted anything and all changes are easy to revert.
+
+This is a good discussion. I am going for dinner now, I'll be back later. Keep the feedback coming
+
+{Reactions}
+👍🏽 (2) 🍽️ (2) 
+
+[29-Jan-20 04:15 AM] grewalsatinder#9653
+@Audo I couldn't find #meshbits channel.
+
+
+[29-Jan-20 04:15 AM] grewalsatinder#9653
+last time I had conversation with someone in team it was archived as I remember.
+
+
+[29-Jan-20 04:25 AM] grewalsatinder#9653
+on behalf of cats and unicorns I'm relaying the message that they are not happy about #safespace to be in archive channels list.
+
+{Reactions}
+🤣 
+
+[29-Jan-20 04:25 AM] grewalsatinder#9653
+🐱 🦄
+
+
+[29-Jan-20 04:58 AM] Audo#5667
+yes @grewalsatinder , we still have it on the very old archived channel list. I can add you there incase you need to browse the old messages
+
+
+[29-Jan-20 05:01 AM] grewalsatinder#9653
+@Audo glad to hear. yes, please add me there. thanks 👍 
+Also cats and unicorns waiting on the safety of their #safespace channel 🐱 🦄
+
+
+[29-Jan-20 05:03 AM] grewalsatinder#9653
+thanks @Audo can see it now 👍
+
+
+[29-Jan-20 05:03 AM] Audo#5667
+ok, you should see it now
+
+
+[29-Jan-20 05:03 AM] Audo#5667
+great
+
+
+[29-Jan-20 05:05 AM] Audo#5667
+my vote goes against cats & unicorns but I'm not the one making the final decision, so lets see what the rest of our community thinks.
+
+My reasoninig is that if we need to take a hard look at what to cut and we and agree that something must be cut, then the cats and unicorn channel would be in the top of my list. Sorry to say 😄
+
+
+[29-Jan-20 05:06 AM] grewalsatinder#9653
+😄
+
+
+[29-Jan-20 05:06 AM] grewalsatinder#9653
+I understand.
+There must be some people unlike you and like me here 😉
+
+
+[29-Jan-20 05:50 AM] ComputerGenie#7004
+_is bound by honor to never enter that channel, so he has no opinion either way_
+
+
+[29-Jan-20 05:51 AM] grewalsatinder#9653
+_catitude_ 😸
+
+
+[29-Jan-20 10:34 AM] Jimm B.#9993
+@Audo please look at my DM.👀 👀
+
+
+[29-Jan-20 02:54 PM] phm87#7395
+I'd like to keep #⛏┃talk-mining #dev-marketmaker and #safespace
+
+
+[29-Jan-20 02:57 PM] Markus#5464
+i think #safespace can go, we have off topic that can be used no need for 2 channels both being off topic
+
+
+[29-Jan-20 03:19 PM] ComputerGenie#7004
+_thinks more mods than have spoken should be fans of #safespace (or at least their actions and comments have indicated that they should be)_
+
+
+[29-Jan-20 03:20 PM] ComputerGenie#7004
+```Safe Space | Definition of Safe Space by Merriam-Webster
+Definition of safe space. : a place (as on a college campus) intended to be free of bias, conflict, criticism, or potentially threatening actions, ideas, or conversations … student volunteers put up posters advertising that a "safe space" would be available for anyone who found the debate too upsetting.—```
+
+
+[29-Jan-20 03:21 PM] ComputerGenie#7004
+seems right in line with the new "policies" to me 🤷🏽‍♂️
+
+
+[29-Jan-20 05:37 PM] Audo#5667
+Good morning, I was sleeping – new day now :D
+
+OK, I will move the #safespace out of the 'to be archived' list as requested by multiple people.
+
+{Reactions}
+👍 
+
+[29-Jan-20 06:49 PM] grewalsatinder#9653
+Yay!!! 😃👍👌👏
+
+
+[04-Feb-20 07:07 AM] Cryptoon#3362
+isnt the portal bridge a bit too spammy?
+
+
+[04-Feb-20 07:07 AM] Cryptoon#3362
+in discord?
+
+
+[04-Feb-20 07:07 AM] Oszy#5734
+it will be adjusted
+
+
+[04-Feb-20 07:28 AM] Audo#5667
+I didn't have time to look into it yet, but yes, we will make some improvements.
+
+I don't think we will maintain this level of portal activity for long though. It's through the roof
+
+
+[12-Feb-20 06:12 AM] Hember | $ARRR#5341
+On community portal bounty it says:
+"Leave us feedback about the portal or tell us about your ideas to improve the portal. Feature requests are also welcome!  
+Use this thread for your Feedback, Ideas, and Feature Requests https://community.komodoplatform.com/post/5e29288972f9a64e4433340f
+Copy and Paste Your Portal Post Link Here."
+
+I replied, but I cant find any link that would be attached to my reply.
+
+
+[12-Feb-20 06:14 AM] Oszy#5734
+just link the thread URL there is no such feature to link your reply
+
+
+[12-Feb-20 06:18 AM] Hember | $ARRR#5341
+Ok. I was thinking that maybe portal wants me to start my own discussion based on my suggestion, but to be frank I don't see that worthy of it's own discussion. I just added some ideas to already existing feature request.
+
+
+[12-Feb-20 06:20 AM] Oszy#5734
+it's manually checked anyway afaik
+
+
+[12-Feb-20 06:24 AM] ComputerGenie#7004
+@Hember | $ARRR you can go to your profile and under "replies" find the one you're looking for and use the "posted recently" link, it'll look like:
+<https://community.komodoplatform.com/post/5e29288972f9a64e4433340f#response-5e294298bb28a830eabe7362>
+
+{Reactions}
+👍 
+
+[12-Feb-20 06:25 AM] ComputerGenie#7004
+it's the long and ugly way to get the link, but they do exist
+
+
+[12-Feb-20 06:32 AM] Hember | $ARRR#5341
+I don't see a "posted recently" option anywhere
+
+
+[12-Feb-20 06:34 AM] Hember | $ARRR#5341
+hmm
+
+
+[12-Feb-20 06:34 AM] Hember | $ARRR#5341
+and I cant post a screenshot here...
+
+
+[12-Feb-20 06:35 AM] ComputerGenie#7004
+what's your user name?
+
+
+[12-Feb-20 06:35 AM] Hember | $ARRR#5341
+Hember
+
+
+[12-Feb-20 06:36 AM] ComputerGenie#7004
+`https://community.komodoplatform.com/user/hember/`
+returns "not found" for me
+
+
+[12-Feb-20 06:37 AM] Hember | $ARRR#5341
+ehmm...
+
+
+[12-Feb-20 06:37 AM] Oszy#5734
+https://community.komodoplatform.com/user/hansiharjunharja
+
+
+[12-Feb-20 06:38 AM] Hember | $ARRR#5341
+oh, ok 🍮
+
+
+[12-Feb-20 06:38 AM] ComputerGenie#7004
+hmmm
+
+
+[12-Feb-20 06:40 AM] ComputerGenie#7004
+grrrr the page hijacks ctrl+f
+
+
+[12-Feb-20 06:48 AM] ComputerGenie#7004
+<https://community.komodoplatform.com/post/5e29288972f9a64e4433340f#response-5e4400f4e207de5c68572339> is the link, but since it requires scrolling and hidden replies, I'm not sure you can get there (which is likely why it's not hotlinked on your replies list) 😦
+
+
+[12-Feb-20 06:48 AM] ComputerGenie#7004
+that's the problem with "load more..." pages 😦
+
+
+[12-Feb-20 06:51 AM] Hember | $ARRR#5341
+ok..
+
+
+[12-Feb-20 09:11 AM] Artist#0765
+how does gleam.io track if the link we are posting is real or not? or the answer we giving is ours or not ?
+i am talking about bounty? yes
+
+
+[12-Feb-20 09:20 AM] Oszy#5734
+team checking the submission manually
+
+
+[12-Feb-20 09:21 AM] Oszy#5734
+`also that +2, my friends said they can re-enter every 5 hours but I have to wait 23 hours why?` you can't they might have done it 5 hours before the daily reset
+
+
+[12-Feb-20 09:22 AM] Artist#0765
+oops
+
+
+[12-Feb-20 09:22 AM] Artist#0765
+I see yes one thing more manually how?
+
+
+[12-Feb-20 09:25 AM] Oszy#5734
+they go on the link you entered and look for your submission posted under you username
+
+
+[12-Feb-20 09:31 AM] Artist#0765
+lovely
+
+
+[13-Feb-20 05:05 AM] Artist#0765
+so it ends today
+
+
+[13-Feb-20 05:05 AM] Oszy#5734
+so it is
+
+
+[13-Feb-20 05:05 AM] Artist#0765
+results?
+
+
+[13-Feb-20 05:08 AM] Audo#5667
+winners will be posted next week
+
+
+[13-Feb-20 05:08 AM] Artist#0765
+cool
+
+
+[13-Feb-20 06:12 AM] stamphh#5923
+I think it’s be nice for Komodo to advertise dpow on sites like. https://www.crypto51.app
+
+{Embed}
+https://www.crypto51.app/
+Cost of a 51% Attack for Different Cryptocurrencies | Crypto51
+
+
+[13-Feb-20 06:28 AM] Audo#5667
+I believe we tried but coudln't convince them. Good point though.
+
+
+[13-Feb-20 06:35 AM] Hember | $ARRR#5341
+How to get people to answer a question?.. Do people see new post easily on the community platform or should one share it somewhere?
+
+
+[13-Feb-20 07:06 PM] Audo#5667
+well, now due to the bounty campaign the portal is clogged up with repetitive posts. I'm glad that the bounty campaign is finally over. We can now clean up the portal and merge duplicate questions, and then make sure that the legitmate questions got good answers.
+
+{Reactions}
+👍 
+
+[13-Feb-20 07:07 PM] Audo#5667
+you are always welcome to share/highlight you post/question on Discord too @Hember | $ARRR
+
+
+[19-Feb-20 04:27 AM] Audo#5667
+I got feedback about some of the active cc-dev channels being in the "archived" category.
+
+Perhaps the right solution is to keep the currently active channels under the "Komodo Project" and the others under an "archived" category. Whatever module/technology is under active development can be moved up to the 'Komodo Project' category, and visa versa.
+
+I hope this would be a middle of the road approach that has the good sides of both worlds:
+ - we keep the dev channels that help us to develop & test new technologies
+ - we mark the (currently) inactive channels as 'archived' not to overwhelm the new users about where our current focus is and what all the different names mean.
+
+Let me know what you think of this.
+
+
+[19-Feb-20 04:29 AM] Audo#5667
+_ _
+I moved these up to the 'Komodo Project' category
+ - #cc-pegs 
+ - #cc-channels 
+ - #dev-subatomic
+
+
+[19-Feb-20 04:30 AM] Farl#9964
+Seems like a logical move
+
+
+[19-Feb-20 04:30 AM] Oszy#5734
+we could have Active Development and Finished / In Progess maybe?
+
+
+[19-Feb-20 04:30 AM] Oszy#5734
+as main categories
+
+
+[19-Feb-20 04:31 AM] Oszy#5734
+I personally find it hard to understand stuffing everything including dev rooms into "Komodo Project" and CC stuff
+
+
+[19-Feb-20 04:31 AM] Oszy#5734
+it looked more organized before
+
+{Reactions}
+🤔 👆 
+
+[19-Feb-20 04:32 AM] ComputerGenie#7004
+Perhaps an "inactive" category as well as "archived" for those that aren't currently active but also not "dead"?
+
+
+[19-Feb-20 04:35 AM] ComputerGenie#7004
+"archived" reads like "this is dead, but we're saving the conversations for posterity"
+
+
+[19-Feb-20 04:36 AM] jl777c#5810
+i dont understand the OCD need to reduce channels
+
+
+[19-Feb-20 04:36 AM] Audo#5667
+yeah, we have to find better terminology
+
+
+[19-Feb-20 04:36 AM] jl777c#5810
+why not have a "folder" where the channels can be all made to look like one thing, if you dont want to scare people with the number of things that are going on
+
+
+[19-Feb-20 04:37 AM] jl777c#5810
+i dont mind having a single firehose channel where all topics are discussed, but i have heard most people cant handle having multiple things happening in a serial fashion, let along dozens of different things. so i accept to have more channels, but now we are having to reduce the number of channels to being less than the number of different topics that are being discussed
+
+
+[19-Feb-20 04:38 AM] jl777c#5810
+why?
+
+
+[19-Feb-20 04:38 AM] jl777c#5810
+just minimize all the CC channels and it becomes one category, it takes up one slot and isnt scary.
+
+
+[19-Feb-20 04:38 AM] jl777c#5810
+of course, its ok to have two dozen language channels
+
+
+[19-Feb-20 04:38 AM] jl777c#5810
+but if they are tech channels it will scare the newbs
+
+
+[19-Feb-20 04:40 AM] grewalsatinder#9653
+has to agree with James on dev channels 🤔
+
+
+[19-Feb-20 04:40 AM] Audo#5667
+most of the channels removed were non-dev related. Currently the dev channels are as they were but only under "archived" labels.
+
+The language channels are not visible to the normal users, only to us admins who see all the channels.
+
+We can keep the dev channels in any way you devs prefer. We can go back to the old way of listing all cc-channels in one category and all dev channels in another category.
+
+
+[19-Feb-20 04:41 AM] ComputerGenie#7004
+the main reason I offered the idea of a "middle" classification is that the reorg of channels seems to be by the less tech-involved (for lack of a better term)
+still not sure who decided to "archive" #marmara literally the day after they started to get somewhere solid 😕
+
+{Reactions}
+👆 (4) 
+
+[19-Feb-20 04:41 AM] Audo#5667
+maybe that is the best approach then, if it doesn't make sense to reduce the number of dev channels. At least we tried
+
+
+[19-Feb-20 04:42 AM] jl777c#5810
+why the need to actively reduce channels to below the number of independent topics?
+
+
+[19-Feb-20 04:42 AM] jl777c#5810
+would it be better if i just made a new discord for tech discussions?
+
+
+[19-Feb-20 04:42 AM] grewalsatinder#9653
+agree with @ComputerGenie
+
+{Reactions}
+✅ 
+
+[19-Feb-20 04:42 AM] jl777c#5810
+then it wouldnt have to contaminate this discord with confusing tech talk
+
+
+[19-Feb-20 04:42 AM] Audo#5667
+ok, so let me switch the dev channels the way they were. Then we are all happy.
+
+{Reactions}
+👍 
+
+[19-Feb-20 04:43 AM] jl777c#5810
+dont you see that somewhere along the way, something very wrong about the priorities around this discord happened.
+
+
+[19-Feb-20 04:43 AM] jl777c#5810
+now it is some sort of goal to reduce the number of tech channels
+
+
+[19-Feb-20 04:43 AM] jl777c#5810
+i could just stop developing new tech
+
+
+[19-Feb-20 04:43 AM] jl777c#5810
+then there wont be any new tech channels to, not sure why they are perceived as a negative
+
+
+[19-Feb-20 04:45 AM] Artist#0765
+good point
+
+
+[19-Feb-20 04:46 AM] Audo#5667
+point taken, I'll leave the dev channels alone and let you guys manage & categorize them
+
+
+[19-Feb-20 04:48 AM] Audo#5667
+they are now the way they were
+
+{Reactions}
+👍 👌 
+
+[19-Feb-20 04:50 AM] Artist#0765
+@Audo when are the results coming in
+
+
+[19-Feb-20 04:51 AM] Audo#5667
+Alper will post the bounty campaign results today
+
+
+[19-Feb-20 04:51 AM] Artist#0765
+cool
+
+
+[19-Feb-20 04:58 AM] grewalsatinder#9653
+@Audo I'd also suggest to take #marmara out of to be archived category.
+If things go well as per the latest discussions going on in #cc-pegs it would be good to accessible.
+
+
+[19-Feb-20 04:59 AM] Audo#5667
+ok
+
+{Reactions}
+👌 
+
+[19-Feb-20 03:10 PM] Mylo#8306
+Channels heaps better.  Maybe a signpost or one page pdf or graphic to explain channel structure for n00bs
+
+
+[20-Feb-20 12:00 AM] jorian#4555
+and a video by torsten
+
+
+[20-Feb-20 12:00 AM] jorian#4555
+can discord do braille?
+
+
+[20-Feb-20 11:11 AM] jorian#4555
+@Audo can you make categories alphabetically sorted? especially `dev` channels?
+
+
+[02-Mar-20 03:17 AM] Audo#5667
+_**My view on the situation on #📈┃talk-trading**_
+
+As far as I can remember, we have always had a very loose moderation policy. Very rarely have we ever banned anyone. If we have, it's been because of abusive behavior and bad language. We have never banned anyone (to my knowledge) who has just complained, even if they have been trolling on purpose and brought nothing but negativity.
+
+I agree that non-productive discussion/criticism serves no real purpose. It is little like being half-drunk and watching football on TV while continuously complaining about the game. If someone truly cares about the project (or game), he will become active and try to make things better instead of complaining about it.
+
+Productive criticism is always welcome, and of course, we went to improve continuously. We do our best, and if there are good ideas on how we could improve, please let us know.
+
+My recommendation is that we should not make too quick decisions. We don't want to be going back & forth with the policy or second-guessing the decisions. My recommendation is to steer our ship slowly and then maintain the course.
+_ _
+
+
+[02-Mar-20 03:18 AM] Audo#5667 (pinned)
+**_About our moderation policy_ **
+
+We are an open-source project, and we have to keep things as open and transparent as possible. There is a line there somewhere, though. It's not up to the Komodo team or community moderators to decide where that line is. Our moderation policy is a reflection of our culture and the input we receive.
+
+Here is the bottom line:
+
+1) Community Moderators enforce our community guidelines & moderation policy
+2) **Community influences the guidelines & moderation policy**
+3) Moderator team reviews and implements changes.
+
+Current banning policy: we ban scammers and people who can't behave (situation that happened on #📈┃talk-trading does not apply).
+
+If our community feels we are too loose on the moderation policy, then we need to have some opinions and discussion about it. We are not going to change the policy ad hoc. 
+
+The best place to leave feedback and discuss moderation policy is this channel.
+
+
+[02-Mar-20 03:20 AM] Audo#5667
+Pinned a message.
+
+
+[15-Mar-20 09:05 AM] Jeannie#4107
+Hi guys ~ I'd like to talk to about listing plans. Who should I contact?
+
+
+[15-Mar-20 09:05 AM] ComputerGenie#7004
+"listing plans"?
+
+
+[15-Mar-20 09:26 AM] Jeannie#4107
+Yes
+
+
+[15-Mar-20 09:27 AM] ComputerGenie#7004
+meaning....
+
+
+[15-Mar-20 09:29 AM] Cryptoon#3362
+@siu @PTYX
+
+
+[15-Mar-20 09:30 AM] Cryptoon#3362
+You know what she means Genie :p
+
+
+[15-Mar-20 09:34 AM] ComputerGenie#7004
+Actually, I don't
+Given all that goes on here, I can think of multiple meanings that could have 🤷🏽‍♂️
+
+
+[15-Mar-20 10:11 AM] Cryptoon#3362
+atomicdex listing
+
+
+[15-Mar-20 10:11 AM] Cryptoon#3362
+how to
+
+
+[15-Mar-20 10:11 AM] Cryptoon#3362
+and price
+
+
+[15-Mar-20 10:21 AM] ComputerGenie#7004
+or even plans to post a ban listing (given the context of the post above it)
+
+{Reactions}
+troll (2) 
+
+[15-Mar-20 12:04 PM] siu#3920
+@PTYX would be better fitted to help you @Jeannie
+
+
+[15-Mar-20 12:06 PM] PTYX#6840
+I'll PM her
+
+
+[23-Mar-20 06:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Just a suggestion. Maybe create a health channel for health related topics including corona virus. As it mimics real life, corona virus chat is spreading into other channels. Soon, I expect it to exponentially take over all channels. We need to be able to quarantine corona talk to its own channel before it's too late. 😷
+
+{Reactions}
+🤦🏽‍♂️ (2) 
+
+[25-Mar-20 06:45 AM] t_dan#3334
+@Audo Am I talking to Komodo's marketing manager (on the website it says that's Audo Kowitz)? We had quite a discussion today on telegram why it is that a lot of crypto influencers, such as Julian Hosp, Ivan On Tech, der Blocktrainer, and today even Vitalik Buterin talk about different aspects of DEXes, all claiming that it's not existing yet, or limited in supported chains etc., thus not knowing anything about Komodo's AtomicDEX. Two hours ago there has even been published a cointelegraph article about Vitalik's recent post, where he requests to put efforts into developing such a highly-desired cross chain DEX. In the chat, we all strongly felt that there's something seriously wrong with komodo's marketing and rising of industry-wide awareness. We, the users, kindly ask the Komodo team to increase resources on marketing, or re-think existing approaches and measures, because reading posts and articles like these show us, that so far we only developed within our closed little system, not seen and known of by the world.
+
+
+[25-Mar-20 06:45 AM] t_dan#3334
+https://cointelegraph.com/news/vitalik-proposes-solution-to-embarrassing-lack-of-bitcoinethereum-bridge
+
+{Embed}
+https://cointelegraph.com/news/vitalik-proposes-solution-to-embarrassing-lack-of-bitcoinethereum-bridge
+Vitalik Proposes Solution to 'Embarrassing' Lack of Bitcoin–Ethereu...
+Ethereum co-founder Vitalik Buterin suggests a DEX-bridge solution to the “embarrassing” lack of easy movement between Bitcoin and Ethereum networks.
+https://images-ext-2.discordapp.net/external/ikDsfXOAjyWer5f4v65AGf9T1ZqCAoKrz5pQe4gYMYo/https/images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hNjlkMDAzMzhkNmIyYmYzOGQ5Mzg1NDIxMzZhNzE4OC5qcGc%3D.jpg
+
+
+[25-Mar-20 06:55 AM] t_dan#3334
+I know that we are still in Beta with atomicDEX, however, that's still no reason why the awareness and knowing about what's being developed is lacking on a wide scale due to lack of marketing. It's like someone trying to re-invent the wheel without knowing that someone else has almost completed the building of the first wheel. It's an unnecessary effort only due to lack of awareness about what's already being built.
+
+
+[25-Mar-20 07:05 AM] bfresh#0001
+I mean he has a point
+
+
+[25-Mar-20 07:05 AM] bfresh#0001
+The Twitter account for atomicDEX has no tweets at all
+
+
+[25-Mar-20 07:05 AM] bfresh#0001
+I'm sure alot more people would use it if they knew about it 🙂
+
+
+[25-Mar-20 07:26 AM] tese#3502
+I still remember the Audos first livestream in a hotel suffering due to connection errors. I kindly appreciate the job he has done these years but I think we need something more and I feel, this is the last traim kmd can catch
+
+
+[25-Mar-20 07:27 AM] tese#3502
+If we have the best products but nobody is buying them, something is wrong
+
+
+[25-Mar-20 07:28 AM] bfresh#0001
+I'd be willing to help in the marketing department, but that twitter has to be active lol
+
+
+[25-Mar-20 07:32 AM] tese#3502
+Ive offered my help before but they just want devs
+
+
+[25-Mar-20 07:34 AM] bfresh#0001
+Yeah I'm sure they can only afford to pay people operating in the backend, but I think at the very least, if they start posting on that Twitter account, alot more people will be aware of the DEX
+
+
+[25-Mar-20 07:34 AM] bfresh#0001
+Check out AtomicDEX (@AtomicDex): https://twitter.com/AtomicDex?s=09
+
+{Embed}
+https://twitter.com/AtomicDex?s=09
+AtomicDEX (@AtomicDex)
+The evolution of wallets and exchanges into a single application.
+Followers
+493
+https://images-ext-1.discordapp.net/external/VRIFuMm9t4twYT3diTc9ibmjuQLkar_N8HpoyQqxmgc/https/pbs.twimg.com/profile_images/1143409917207826432/xnAnxuYh_normal.png
+Twitter
+
+
+[25-Mar-20 07:34 AM] tese#3502
+A lot of people would do this job for some kmd
+
+
+[25-Mar-20 07:35 AM] tese#3502
+I know, Ive been following and supporting kmd everyday since 3/4 momth ago
+
+
+[25-Mar-20 07:36 AM] tese#3502
+> @Audo Am I talking to Komodo's marketing manager (on the website it says that's Audo Kowitz)? We had quite a discussion today on telegram why it is that a lot of crypto influencers, such as Julian Hosp, Ivan On Tech, der Blocktrainer, and today even Vitalik Buterin talk about different aspects of DEXes, all claiming that it's not existing yet, or limited in supported chains etc., thus not knowing anything about Komodo's AtomicDEX. Two hours ago there has even been published a cointelegraph article about Vitalik's recent post, where he requests to put efforts into developing such a highly-desired cross chain DEX. In the chat, we all strongly felt that there's something seriously wrong with komodo's marketing and rising of industry-wide awareness. We, the users, kindly ask the Komodo team to increase resources on marketing, or re-think existing approaches and measures, because reading posts and articles like these show us, that so far we only developed within our closed little system, not seen and known of by the world.
+@t_dan +1
+
+
+[25-Mar-20 07:41 AM] bfresh#0001
+The desktop version isn't out yet so maybe that's a possible reason
+
+
+[25-Mar-20 07:41 AM] bfresh#0001
+But either way yeah it should be talked about more
+
+
+[25-Mar-20 07:41 AM] bfresh#0001
+I'll try to think of some ways the community can help, but I don't think there's much of an impact without the official social media account talking about (@atomicdex)
+
+
+[26-Mar-20 05:06 AM] Audo#5667
+Hey @t_dan ,
+
+Nowadays we are working with a PR agency who has been getting us a lof of media coverage. AtomicDEX and our progress has been covered multiple times.
+
+We have had a policy in place for some time now to not attend blockchain conferences as those take a lot of time and money.
+
+AtomicDEX is a major focus for us in 2020 both from marketing and from development perspective. There will be markeitng activities surrounding AtomiDEX once we go to the 'release candidate' stage. Currently our team is doing backend optimizations and preparing for Desktop alpha. Our marketing team is working on to build a new atomicdex.io website.
+
+Our response to the Vitalik tweet was noticed by him and there's now an effort to walk him through what we have. I don't have the details about that.
+
+No one of us have had Vitalki phone number, and it's not easy to reach out to the biggest influencers when there is so much noise in the market. We have all information publicly available and well documented nowadays. 
+
+My personal opinion is that eventually the tech cannot be ignored, and it will get noticed. From marketing perspective we are focusing on the fundamentals: write documentation, publish regular updates/newsletters/articles, work with PR agency, focus on community building. We are not spending money on advertisements nor conferences, nor do we have money for a giant ambassador program or other marketing packages that are constantly advertised to us.
+
+{Reactions}
+🔥 (4) 
+
+[26-Mar-20 05:06 AM] Audo#5667
+_ _
+I believe with 'marketing' people often mean media mentions. Here are few recent media mentions:
+
+- https://magazine.cointelegraph.com/2020/03/12/journeys-in-blockchain-kadan-stadelmann/
+- https://bravenewcoin.com/insights/podcasts/atomic-dex-how-the-komodo-decentralized-exchange-enables-atomic-swaps
+- https://decrypt.co/12783/komodo-makes-big-upgrade-to-its-atomic-swap-technology
+
+With 'marketing' people might also refer to business development. This year we have put more budged to business development and we for the first time we have a small team and a concious effort on that front.
+
+Incase you guys wonder what has the marketing team been working on then, here are few things we have done in 2019/2020
+ - New messaging, rebrand (Smart Chains / Antara Framework) www.komodoplatform.com
+ - First atomicdex.io website version (update coming, as mentioned)
+ - new community portal community.komodoplatform.com
+ - a lot of documentation was created, with much help from the dev & support team of course: developers.komodoplatform.com
+ - continous coverage through weekly/monthly updates and blog posts.
+ - An ongoing SEO campaign to drive traffic to our website: https://komodoplatform.com/category/blockchain-fundamentals/
+
+If there is something specific you guys would like us to do drop a hint/idea. If there is a button we could press for more marketing, we would. I don't think there are shortcuts though, so for better marketing we have to keep steadily walking the rocky path and focus on fundamentals. We might not be perfect, but we do constantly work and get better at what we do.
+
+
+[26-Mar-20 05:13 AM] bfresh#0001
+Be more active on the @atomicdex twitter account
+
+
+[26-Mar-20 05:13 AM] bfresh#0001
+i think doing that will do ALOT for you guys ❤️
+
+{Reactions}
+👆 
+
+[26-Mar-20 05:18 AM] Audo#5667
+yeah, sure, I'll bring that up with the team
+
+
+[26-Mar-20 05:21 AM] bfresh#0001
+Thanks for the all work you guys do and the professionalism/kindness you keep when talking with us on disc. Definitely goes a long way!
+
+{Reactions}
+👍 
+
+[26-Mar-20 05:27 AM] moneystacks#7758
+@t_dan I hope that Audo's response answers your questions
+
+
+[26-Mar-20 05:29 AM] Audo#5667
+Alper is our social media manager and he will start tweeting with our AtomicDEX account too.
+
+{Reactions}
+❤️ (2) 
+
+[26-Mar-20 05:50 AM] CrisF#3405
+I also see a great deal of things being done with limited resources.
+PR, advertising, marketing and business dev are coming together and will likely peak at the same time as the tech, building a very strong platform.
+
+
+[26-Mar-20 05:52 AM] CrisF#3405
+Thank for your contributions to this, @bfresh.  Hope to see more of them!
+
+
+[26-Mar-20 06:32 AM] bfresh#0001
+Hell yeah! I understand how hard it is to keep a grasp on everything when running a huge project like this! That's why the community is here 😁
+
+{Reactions}
+💯 
+
+[26-Mar-20 09:06 AM] t_dan#3334
+@Audo Thank you for addressing our concerns and taking them seriously. I don't know how other companies do their marketing, but the most common that I am aware of, and which could also be considered by Komodo:
+- Youtube advertisment videos that are shown ahead other videos
+- Twitter advertisments
+In other words, why do I see "eToro" ad videos ahead of almost each crypto-related video and not a Komodo advertisment video? Why do I see  Apple ads in my Twitter account instead of Komodo ads? I'm sure there are other prominent channels. Just some food for thought.
+
+
+[26-Mar-20 09:23 AM] CrisF#3405
+Hi @t_dan,
+It's really nice to have your feedback and that from everyone else.
+I'll pass along what I've seen when the issue of this sort of advertising has been discussed before.
+Basically comes down to effective use of limited resources. 
+There isn't much bang-for-the-buck for a project like Komodo to advertize in such ways.
+
+
+[26-Mar-20 09:25 AM] ComputerGenie#7004
+`There isn't much bang-for-the-buck for a project like Komodo to advertize in such ways.`
+As evidenced by a belief system or by empirical data?
+
+
+[26-Mar-20 09:26 AM] CrisF#3405
+Evidenced by my ad-blocker :troll:
+
+{Reactions}
+♥️ (2) 
+
+[26-Mar-20 09:27 AM] ComputerGenie#7004
+🤣
+
+
+[26-Mar-20 09:27 AM] CrisF#3405
+I don't have statistics to back that up.
+
+
+[26-Mar-20 09:28 AM] ComputerGenie#7004
+Well, I know that most of us believe that komodo is better off not doing so, was just curious if there was anything to confirm what we think
+
+
+[26-Mar-20 09:28 AM] CrisF#3405
+I would be interesting to see stats on it.
+
+
+[26-Mar-20 09:30 AM] CrisF#3405
+That el-toro campaign mentioned has been around to a long time.  I have read before that getting that kind of brand awareness from those sorts of ads requires a long-term campaign.
+
+
+[26-Mar-20 09:33 AM] CrisF#3405
+I do know the name beacause I've seen it many times on coingecko.  Never once licked on it, and when I see `sponsored` I automatically disregard it, feeling it's just a dodgey sales pitch and not serious.
+
+
+[26-Mar-20 09:34 AM] CrisF#3405
+
+{Attachments}
+https://cdn.discordapp.com/attachments/626069975655776288/692773362123931749/Screenshot_from_2020-03-27_01-32-20.png
+
+
+[26-Mar-20 09:34 AM] ComputerGenie#7004
+`Never once licked on it`
+that's good for your health
+
+{Reactions}
+😷 
+
+[26-Mar-20 09:34 AM] CrisF#3405
+Oops
+
+
+[26-Mar-20 09:35 AM] CrisF#3405
+THose ads must work, otherwise they wouldn't be continuing them.
+
+
+[26-Mar-20 09:36 AM] CrisF#3405
+But don't feel a campaign like that, sustained over years, would be the best use of resources at the current stage.
+
+
+[26-Mar-20 09:37 AM] CrisF#3405
+What do you think?
+
+
+[26-Mar-20 09:37 AM] Meyse#0952
+```THose ads must work, otherwise they wouldn't be continuing them.``` they must have deep pockets, they even got alec baldwin xD
+
+
+[26-Mar-20 09:37 AM] jl777c#5810
+large scale campaigns require millions of dollars, we are not in the position to spend the majority of our funds for a branding campaign
+
+
+[26-Mar-20 09:39 AM] CrisF#3405
+Yes, that is something for the future.
+
+
+[26-Mar-20 09:40 AM] CrisF#3405
+Seems like the current focus on creating resources for front-end devs will be quite effective for this stage in the game.
+
+
+[26-Mar-20 09:40 AM] Meyse#0952
++ eToro has a product to sell, the more people use it/download it, the more revenue they make. This makes sense to promote wildly. For KMD, this is a different situation
+
+{Reactions}
+💯 
+
+[26-Mar-20 09:45 AM] CrisF#3405
+To produce longer term growth to build on, a more b2b approach seems to make sense.  As that continues to grow, the front-end side (the b2b clients) will also be promoting Komodo through the use of their products and services.
+
+
+[26-Mar-20 09:48 AM] CrisF#3405
+To me that seems a sensible way for a serious long term project to operate, as opposed to a pump-and-dump or client facing product.
+
+
+[26-Mar-20 03:44 PM] Oszy#5734
+eToro is one of the oldest Forex trading websites I used to be an affiliate 10+ years ago
+
+
+[26-Mar-20 10:11 PM] CrisF#3405
+Yeah, that's what I figured.  After buikding up a strong base over the years that kind of advertising campaign would make sense.
+
+
+[02-Apr-20 01:57 AM] Surfer007#0709
+What do you think about the suggestion to specify the reading time in minutes at the top of a report?
+
+
+[02-Apr-20 01:57 AM] Surfer007#0709
+https://komodoplatform.com/lyra2rev2-algorithm/
+
+{Embed}
+Delton Rhodes
+https://komodoplatform.com/lyra2rev2-algorithm/
+Lyra2REv2: An Overview Of The Lyra2REv2 Mining Algorithm - Komodo
+Lyra2REv2 is a hashing algorithm used on certain Proof of Work blockchains. First introduced in August 2015, Lyra2REv2 is still used today. Learn more here.
+https://images-ext-2.discordapp.net/external/houGdxELuMIbW2uHJ7Ci-aDd7c9GQtMbmHS-lWLeT_4/https/komodoplatform.com/wp-content/uploads/2020/02/lyra2rev2-algorithm-banner-image.jpg
+
+{Reactions}
+👍 (2) 
+
+[03-Apr-20 01:42 AM] Audo#5667
+I can add that as a feature request, but it probably isn't a very high priority
+
+
+[03-Apr-20 02:52 AM] Surfer007#0709
+ok thank you
+
+
+[03-Apr-20 04:36 AM] Markus#5464
+@Audo Maybe consider adding the option to listen to the article aswell 🙂
+
+{Reactions}
+👍 
+
+[03-Apr-20 04:37 AM] Markus#5464
+should be possible to add text to voice
+
+
+[03-Apr-20 05:57 AM] Oszy#5734
+https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en
+
+{Embed}
+https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en
+Read Aloud: A Text to Speech Voice Reader
+Read out loud the current web-page article with one click. Supports 40+ languages.
+https://images-ext-2.discordapp.net/external/6CC5dCugue-Ebu8WaXWE-ynBTjBPsbdxfRCKTdruFHU/https/lh3.googleusercontent.com/QuYuKrml5nqJadmY4pJVR9ch_IfBw5cDzFms3W3CsSLrxpCfHpAe_Jm43ckUzxxfMa5983F91g%3Dw128-h128-e365
+
+
+[05-Apr-20 12:16 PM] Jimm B.#9993
+it would be nice to see the new logo and an accurate description on the cointelegraph info page.
+
+https://cointelegraph.com/tags/komodo/amp
+
+{Embed}
+https://cointelegraph.com/tags/komodo/amp
+Latest News on Komodo | Cointelegraph
+Read the latest news about Komodo to stay posted about this altcoin. The most recent events, price dips and jumps and more...
+https://images-ext-2.discordapp.net/external/POXsl7NWSsUyj9NcmK524dnbCIbTxP1zl2d4vET0tHY/https/cointelegraph.com/assets/img/share.png
+
+{Reactions}
+👍🏻 
+
+[11-May-20 01:17 PM] Tyke#2495
+@everyone here is an updated Komodo history book pdf: https://www.docdroid.net/S6Hs6P2/komodobookchapters11052020-pdf
+
+Please support me as I continue to write a comprehensive Komodo history:
+
+KMD Address: RHuiTCWmGujNboskKFzHBLnzQXtCbYym9i 
+
+I will be working full-time to complete it as soon as possible. I won't compromise on detail and important content. Thank you for all your support in advance.
+
+{Embed}
+https://www.docdroid.net/S6Hs6P2/komodobookchapters11052020-pdf
+KomodoBookChapters11052020.pdf
+MULTIGATEWAY THIRD-PARTY DAPP CREATED IN FEBRUARY 2014 SUPERNET THIRD-PARTY DAPP CREATED IN AUGUST 2014 DECLARATION OF BLOCKCHAIN INDEPENDENCE ISSUED ON 16/02/2016 KOMODO PLATFORM ANNOUNCED ON 01/09/2016 KOMODO TESTNET BLOCKCHAIN LAUNCHED ON 13/09/2016 NOTARY NODE ELECTION WEB...
+https://images-ext-1.discordapp.net/external/SxBz645zEy82PO3R-OmXbGn2nHlFW_lSex6inVBuqVk/https/www.docdroid.net/thumbnail/S6Hs6P2/1500%2C750/komodobookchapters11052020-pdf.jpg
+
+{Reactions}
+👍 (2) 
+
+[12-May-20 11:10 PM] Oszy#5734
+consider uploading it to Kindle store 🤔
+
+
+[20-May-20 01:19 AM] moneystacks#7758
+@Tyke could you please change the logo on the cover page or what was the reason for using the old logo?
+
+
+[20-May-20 01:29 AM] Tyke#2495
+@moneystacks the logo image applies to chapter 1. That page is not the first page of the book, rather page 26, 30, or 34 depending on how many intro pages are written. Hope you understand 🙂
+
+
+[20-May-20 01:29 AM] moneystacks#7758
+Gotcha! 🙂
+
+
+[20-May-20 01:32 AM] Tyke#2495
+This is the most recent version: https://discordapp.com/channels/412898016371015680/428673045767520260/712050774376579213
+
+
+[20-May-20 11:04 AM] Tyke#2495
+@everyone Komodo history book is WIP.  Please read these pages about the beginning of Komodo:
+
+https://www.docdroid.net/uhivb1g/komodobookpage34to40-pdf
+
+If you discover misinformation, or something important is missing, please say.  I will continue to write similar pages for KMD history in 2017, 2018, 2019, 2020 over the next several weeks.  
+
+Please support the book by donating KMD or BTC to the following wallet addresses:
+
+KMD: RHuiTCWmGujNboskKFzHBLnzQXtCbYym9i
+BTC: 1AeYQnpEqxAV4LdrFE5AzquqheTekLNggx
+
+I will be spending most of my time to complete the book ASAP.  Thank you for your support in advance 🙂
+
+{Embed}
+https://www.docdroid.net/uhivb1g/komodobookpage34to40-pdf
+KomodoBookpage34to40.pdf
+MULTIGATEWAY THIRD-PARTY DAPP CREATED IN FEBRUARY 2014 SUPERNET THIRD-PARTY DAPP CREATED IN AUGUST 2014 DECLARATION OF BLOCKCHAIN INDEPENDENCE ISSUED ON 16/02/2016 KOMODO PLATFORM ANNOUNCED ON 01/09/2016 KOMODO ICO DETAILS PUBLISHED ON 02/09/2016 KOMODO TESTNET BLOCKCHAIN LAUN...
+https://images-ext-2.discordapp.net/external/gONt7fbEPqBLCLVWLSJ0jyrvn4qMMuJ90VHQ3Zkb0Tw/https/www.docdroid.net/thumbnail/uhivb1g/1500%2C750/komodobookpage34to40-pdf.jpg
+
+{Reactions}
+👍 (3) 
+
+[23-May-20 10:36 AM] CryptosFanddone#6833
+hi link android google channel =  error the answer is not found😡
+
+
+[23-May-20 10:01 PM] CrisF#3405
+Hi @CryptosFanddone,
+You may find info on android related matters in #🤝│dex-mobile.  Discord search isn't the best is it? :/
+
+
+[15-Jul-20 02:01 AM] cascrypto#8206
+nice crypto promotion from cardano https://www.youtube.com/watch?time_continue=228&v=7MJIrOs5Ij8&feature=emb_logo
+
+{Embed}
+David Likes Crypto
+https://www.youtube.com/watch?v=7MJIrOs5Ij8
+How CARDANO Can WIN The DeFi Race (2020)
+In this video we take a look at how Cardano plans to tackle DeFi and it might not be the way that you think it is.
+
+About Cardano: 
+
+Cardano is a decentralized public blockchain and cryptocurrency project and is fully open source. Cardano is developing a smart contract platfor...
+https://images-ext-1.discordapp.net/external/_w3KopFheUBW5UY8Q-cguv8DcnFZmX7vqXMx6AyuDUE/https/i.ytimg.com/vi/7MJIrOs5Ij8/maxresdefault.jpg
+
+
+[17-Jul-20 02:41 PM] Grisu#3373
+the new atomicdex UI looks awesome, good work!
+
+
+[25-Jul-20 04:12 AM] yumyumdumdum#3421
+Why doesn’t the Komodo coin have an official use case?
+
+
+[25-Jul-20 05:08 AM] Cryptoon#3362
+https://medium.com/@jameslee777/tokenomics-are-for-tokens-not-for-coins-3f262d0aa4b3
+
+{Embed}
+https://medium.com/@jameslee777/tokenomics-are-for-tokens-not-for-coins-3f262d0aa4b3
+Tokenomics are for tokens, not for coins!
+I see a lot of questions about if KMD doesnt charge any KMD for usage of its platform “why should anybody hodl KMD”. Implicit in the…
+
+
+[25-Jul-20 05:08 AM] Cryptoon#3362
+Read this one
+
+
+[25-Jul-20 05:09 AM] Cryptoon#3362
+Dpow services are paid in kmd
+
+
+[25-Jul-20 05:09 AM] Cryptoon#3362
+All reward payouts are in kmd
+
+
+[25-Jul-20 05:09 AM] Cryptoon#3362
+Supernet/dex/hodl/...
+
+
+[26-Jul-20 12:22 AM] smkhound#7640
+also acts as most common base pair on AtomicDEX
+
+
+[26-Jul-20 10:29 AM] polycryptoblog#1173
+Need KMD to do notarization to kmd chain
+
+
+[27-Jul-20 04:20 AM] Crabby Paddy#6239
+0 conf trades
+
+
+[01-Aug-20 01:16 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/626069975655776288/739214925368524891/Welcome_Screen.png
+
+{Reactions}
+🔥 9756_AppJedi 
+
+[01-Aug-20 01:16 PM] Audo#5667
+We just implemented the new features Discord launched yesterday. That is now what new users see when they join our server.
+
+
+[07-Aug-20 07:08 AM] ohweoh#0581
+I just saw a ETC tweet from Komodo. Just wondering, how much would it cost for Komodo to secure their network yearly, is it something like 5000 staked kmd ? And has Komodo discussed doing promotional dpow protection for chains? Might be good for community engagement and marketing?
+
+
+[07-Aug-20 07:20 AM] Audo#5667
+I don't quite remember the exact pricing, and for third party projects its a bit more complicated as it will require custom work from our side. It's not very expensive though, if you compare the price to how much inflation high mining rewards generate. We are talking about 5000 - 10,000 USD range per year, depending on situation.
+
+For latest info and the details the projects would need to reach out to our business devs
+
+{Reactions}
+👍 
+
+[07-Aug-20 07:24 AM] ohweoh#0581
+Thanks.
+
+
+[09-Aug-20 07:38 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Since ETC 51% attack. What is the difficulty to add dPow to ETC code? Is it possible to just do it ourselves and then use this to generate press and hopefully greater dpow acceptance
+
+
+[09-Aug-20 07:42 AM] grewalsatinder#9653
+I think the first challenge is to have a ETC community consensus, on agreement to add dPoW service to the chain.
+the technical challenge would be someone from the devs side taking the charge to implement dPoW to ETC consensus. I don't know this part's details so can't comment how much level of work it might be.
+
+
+[09-Aug-20 07:43 AM] grewalsatinder#9653
+KMD devs will be able to assist, but the dPoW implementation has to be done by ETC devs to my understanding.
+
+
+[09-Aug-20 07:43 AM] gcharang#6833
+>  can't comment how much level of work it might be
+I can say that it will be completely new work, as no other ETH fork has dPoW yet
+
+
+[09-Aug-20 07:44 AM] grewalsatinder#9653
+agree
+
+
+[09-Aug-20 07:44 AM] gcharang#6833
+for example, implementing dPoW to a btc fork (utxo chain) is easier these days because it has been done many times already
+
+
+[09-Aug-20 07:44 AM] grewalsatinder#9653
+true
+
+
+[09-Aug-20 08:28 AM] 𝙊𝙞𝙣𝙠#3612
+>  Is it possible to just do it ourselves and...
+As I understand it needs a mandatory update on the ETC nodes. Of course a 'external' dev can put that in technically, but it would mean the support of the ETC community is needed to implement that update, possibly a forking of ETC can happen at that point if the ETC community cannot reach consensus.
+
+
+[09-Aug-20 08:56 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Let me clarify my statement. Instead of asking permission, and gaining ETC dev support for such a thing, we just do it. Think of it as a marketing exercise, it's an excuse to make some noise and get everyone to look at us. A friendly boast, "see, we provide  insurance against 51% attack". Let them publicly say, no we don't want to secure our chain. We just do it, to show them up.
+
+
+[09-Aug-20 09:03 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+It would be a more aggressive approach to marketing dPow. Kinda like friendly picking a fight
+
+
+[09-Aug-20 09:03 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+A sophisticated form of talking shit
+
+
+[09-Aug-20 09:11 AM] ejuliano#8606
+if you mean forking etc and doing the work to implement dpow to this forked chain, call it ETK (ethereum komodo) or whatever, i think that's a fun guerrilla marketing tactic, plus even better it's a research and development effort for komodo to learn how to do it
+
+{Reactions}
+🤔 
+
+[09-Aug-20 09:37 AM] Audo#5667
+@༺α☬丂Ӧ¢ ༒ ༻ I think that's a valid approach to consider. Makes sense on paper: we would offer them a full solution ready to be rolled out. They would have to take a serious look at it, and it would put more pressure.
+
+However, we cannot enable dPoW without their consent and cooperation. Also,  the issue with this route is that we would have to tie dev resources into it, and then the ETC community might still turn-down the offer or ignore it.
+
+The smartest move for us is to keep the focus on AtomicDEX and roll-out the release candidate & stress test on time.
+
+{Reactions}
+👍 (4) 
+
+[09-Aug-20 10:57 AM] Mark81#4505
+Agree to last one with @Audo .  For dPOW best marketing is just tweeting of it everytime some chain is 51% attacked. And telling how many days it has been protecting chains that adopted it. Maybe own twitter channel for dPOW to publish statistics of it success?
+
+{Reactions}
+👍 
+
+[09-Aug-20 11:43 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Has dPow been accredited by any organizations or institutions? Someone professional that we can point to that recognizes the solution as legit.
+
+
+[09-Aug-20 12:12 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+It would be easier to promote dPow if say someone like Gavin Andresen vetted it. Reason being, say we approach an insurance company or coinbase to work dpow into a product offering, I'd imagine the first thing they would say is, can you prove it works, and can a respected third party prove it works.
+
+
+[09-Aug-20 06:54 PM] Mylo#8306
+How many chain days has dpow been protecting?
+
+
+[09-Aug-20 06:55 PM] Mylo#8306
+Each 24 hours is approx 35 chain days currently
+
+
+[09-Aug-20 06:55 PM] Mylo#8306
+Also how much marketcap
+
+
+[09-Aug-20 06:55 PM] Mylo#8306
+How many unique addresses
+
+
+[09-Aug-20 08:37 PM] polycryptoblog#1173
+> Has dPow been accredited by any organizations or institutions? Someone professional that we can point to that recognizes the solution as legit.
+@༺α☬丂Ӧ¢ ༒ ༻  Coinbene has recognized it as legit
+
+
+[09-Aug-20 08:38 PM] polycryptoblog#1173
+https://breakermag.com/komodo-says-it-has-answers-to-some-of-blockchains-biggest-problems-and-its-pushing-to-grow/
+
+{Embed}
+David Z. Morris
+https://breakermag.com/komodo-says-it-has-answers-to-some-of-blockchains-biggest-problems-and-its-pushing-to-grow/
+51% Attacks Are a Growing Threat to Smaller Blockchains; Komodo May...
+The project, originally a fork of Zcash, is repositioning itself as a security service—and an Ethereum rival.
+https://images-ext-2.discordapp.net/external/lZht93g583ZgX-HTRpSpY6vRdxhHOQQ6wIIvweMgX4w/https/breakermag.com/wp-content/uploads/2019/01/cropped-512-X-512.jpg
+
+
+[09-Aug-20 08:39 PM] polycryptoblog#1173
+https://medium.com/coinbene-official/komodo-and-coinbene-launch-joint-security-initiative-to-prevent-51-attacks-91b31b8dde0b
+
+{Embed}
+https://medium.com/coinbene-official/komodo-and-coinbene-launch-joint-security-initiative-to-prevent-51-attacks-91b31b8dde0b
+Komodo and CoinBene Launch Joint Security Initiative to Prevent 51%...
+Strategic Technical Partnership endorses Komodo’s security mechanism as a validated third-party security solution and exploration of P2P…
+https://images-ext-1.discordapp.net/external/jxqM3sRTqrsOYluKe7iaH33a1zgntEscqPTDBrZQiAA/https/miro.medium.com/max/900/1%2ARFiOteOo1SYL3QAdjfrBUg.jpeg
+
+
+[09-Aug-20 08:41 PM] polycryptoblog#1173
+9th largest by volume
+
+
+[09-Aug-20 08:46 PM] Deleted User#0000
+U.S. government seems to be taking an attitude of actively embracing bitcoin and crypto as it cannot stop it. 
+what stand does Komodo intend to take on the positions of these governments? 
+
+It doesn't look good against government.
+
+concerns that bitcoin and crypto could be used by criminal organizations are likely to be seen as reasons why bitcoins are difficult to mainstream. the reality, however, is developing in the opposite direction. first goal not only for the U.S. but also for governments around the world regarding bitcoin is to destroy bitcoin and its technology. however, in the course of the study, we find that this goal is virtually impossible. government has no choice but to readjust its policy goals in line with what it can do. It is only a matter of time before realizing that bold engagement policy is the only measure to manage much within the system.
+
+In fact, the more banks secure customers' bitcoins, the more the government can identify bitcoins owners. 
+It can also identify the ownership status of people who are not left to the bank because bitcoin moves in the network of wallets. 
+real owner of wallet, which was traded with a known wallet, can be tracked if the investigative authorities have a will.
+
+U.S. government signaled that banks should take lead in crypto rather than Facebook. 
+this measure suggests that other governments' concerns are in fact concluded. 
+It also reminds us that there is not much time left.
+
+
+[09-Aug-20 09:10 PM] polycryptoblog#1173
+Komodo is already a transparent chain, Elliptic and other software can do tracking if they want.  We dont have an issue working with governments, however we will not allow governments to dictate development.
+
+{Reactions}
+KMD (2) 
+
+[09-Aug-20 09:13 PM] polycryptoblog#1173
+If you want privacy, use Pirate
+
+{Reactions}
+realpirate 💯 
+
+[09-Aug-20 10:11 PM] q1w2#7338
+Do you think integrating Komodo in BSN would be a smart move? They need cross chain tech which Komodo fits
+
+
+[09-Aug-20 10:21 PM] Deleted User#0000
+Unlike existing financial assets, bitcoin and crypto do not require financial networks when they are transferred and stored. In other words, two people on the other side of the globe can remit money as if they were exchanging cash directly without relying on the security system of the government's reach. It is an innovative technology that is likely to be used in the dark unless institutional rights are held.
+
+komodo, leader in atomic swap, are both very innovative and destructive, so komodo seem very likely to be used in the dark. 
+
+what strategy does komodo have to be incorporated into the social system and nurtured?
+
+or, do you have a strategy to continue to circumvent government regulations without being included in the system?
+
+
+[09-Aug-20 10:31 PM] Deleted User#0000
+In order to become mass adoption and popularization, komodo must be incorporated into a social system and function in accordance with legal procedures without social problems. 
+
+curious about Komodo team's strategy in terms of social, not technical.
+
+as a Komodo team with innovative and destructive technology, 
+I think there will be a lot of conflict, interference, and oppression with existing system.
+
+head-to-head competition with government and existing system is a very reckless strategy. 
+
+hope to komodo take a realistic and feasible strategy.
+
+
+[09-Aug-20 11:01 PM] Mylo#8306
+https://medium.com/chainzilla/komodo-blockchain-training-for-government-4d5e3915dfd0
+
+
+[09-Aug-20 11:07 PM] polycryptoblog#1173
+Alot of that will be revealed over this last quarter, a good analogy to what we are working towards business wise can be found in Wordpress. https://torquemag.io/2013/01/wpf-automattic/ atomic swaps and compliance are not mutually exclusive.  People who want a version of it that allows compliance are welcome to do so.   According to https://www.law.cornell.edu/cfr/text/17/240.3b-16 ,  in the Exchange Act,  definition of an exchange is 1) Brings together the orders for securities of multiple buyers and sellers; and
+
+(2) Uses established, non-discretionary methods (whether by providing a trading facility or by setting rules) under which such orders interact with each other, and the buyers and sellers entering such orders agree to the terms of a trade.      Point 1 is not applicable to Komodo as each person using it compiles their own orderbooks, we dont do any matching. ( The operative word "and" )
+
+{Embed}
+John Saddington
+https://torquemag.io/2013/01/wpf-automattic/
+The Difference: WordPress Foundation and Automattic, Inc. | @thetor...
+A clear outline and distinction between WordPress.com, WordPress.org, Automattic, Inc., and The WordPress Foundation.
+https://images-ext-1.discordapp.net/external/zjAjJvNv30PSXs1yqb09m-bb0gV8cs0pnimAKWov0cQ/https/s3-torquehhvm-wpengine.netdna-ssl.com/uploads/2019/10/OG-Image-Fallback%402x.jpg
+
+{Embed}
+https://www.law.cornell.edu/cfr/text/17/240.3b-16
+17 CFR § 240.3b-16 - Definitions of terms used in Section 3(a)(1) o...
+https://images-ext-1.discordapp.net/external/TAQWN_tCWdODrT3X2j8cdr3bzeA5ZH1Hph0q1jhSqu8/https/www.law.cornell.edu/images/liibracketlogo.gif
+
+
+[09-Aug-20 11:53 PM] Deleted User#0000
+Thank you for sincere reply and apologize for my past severe criticism.
+
+as you can see in e-gold's case, government is dominant player in games that can revise laws or make new laws to ban them. 
+
+sincerely hope that Komodo will be strong and wise enough to neutralize such dominant player.
+https://en.wikipedia.org/wiki/E-gold
+
+{Embed}
+https://en.wikipedia.org/wiki/E-gold
+E-gold
+E-gold was a digital gold currency operated by Gold & Silver Reserve Inc. (G&SR) under e-gold Ltd. that allowed users to open an account on their web site denominated in grams of gold (or other precious metals) and the ability to make instant transfers of value ("spends") to o...
+https://images-ext-1.discordapp.net/external/T1fPNS8nrBUPqiDheEebXlIJ0nGVQIYYa0-bnNew_OM/https/upload.wikimedia.org/wikipedia/en/thumb/9/9c/G%2526SR_%2528e-gold_Operator%2529_office%252C_1998-2014.jpg/1200px-G%2526SR_%2528e-gold_Operator%2529_office%252C_1998-2014.jpg
+
+
+[09-Aug-20 11:54 PM] Deleted User#0000
+I think atomic-dex is a double-edged sword.
+
+
+[10-Aug-20 12:23 AM] Deleted User#0000
+imagination that they will be satisfied with the passive service of waiting for bitcoin to be brought in and then storing it in the safe for a certain amount of storage fee is weak. banks employing experts will try to actively offer investment portfolios of crypto-currency to older and wealthy customers, mostly. 
+
+since it involves investment advice that analyzes related news based on expertise, storage fees will also be subject to changes depending on earnings. banks can actively develop and sell products that contain various crypto-currency.
+
+of course, currency regulator drew the line that customers' crypto assets should be managed individually. customers' assets must be kept in kind because they cannot be combined and operated. 
+In other words, it is not possible to do credit work with a customer's crypto. 
+
+however, once the banking sector secures large amounts of crypto assets, lobbying to expand its business will be inevitable.
+
+
+[10-Aug-20 12:23 AM] q1w2#7338
+thanks @polycryptoblog  that would be helpful
+
+
+[10-Aug-20 07:57 AM] Deleted User#0000
+@PTYX https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit#
+have you finished checking the facts about this question?
+```
+Any fortune 500 companies or big names are testing Antara or interested in it already?
+Yes, there is interest from very big companies. We can't disclose more at this point. 
+```
+
+{Embed}
+https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit
+Antara & Rebrand AMA
+Antara Framework & Rebrand AMA July 2nd, 2019    Komodo is an open, modular multi-chain platform with blockchain development roots going back to 2014. Since Komodo is a fork of Zcash, it started its journey as a privacy-oriented project, but has since expanded far beyond that....
+https://images-ext-1.discordapp.net/external/gG-hSDasuCXgPb8LPbIE_ecl_1zQiojcVUCgMnKOaUE/https/lh5.googleusercontent.com/6Lsb7-gdKxmf1ySwMwD9f50eHfMgdSLgQOv-de5Wxx3gQs0_AB5YEYKQHaBSjlFAEooDzLAFeA%3Dw1200-h630-p
+
+
+[10-Aug-20 03:48 PM] ejuliano#8606
+how difiult/easy is it for Ethereum ERC20-based projects to transfer their existing work onto KMD/Antara chains?  What sort of disruption might that entail for currently functioning applications that already serve customers?  Could it be done in parallel while they continue to run their current operation as-is until the Antara chain is ready to go?
+
+
+[10-Aug-20 09:20 PM] Mylo#8306
+smart contracts are synchronous (stuff can happen between smart contracts more easily), account based, have 10 decimal figures, have different programming primitives, runs on top of blockchain.
+Consensus logic is asynchronous (requires a confirmation), is utxo based, has 8 decimal places,  uses c++ (but there is python and rust implementations brewing), is part of blockchain.
+
+the same stuff can pretty much be engineered.  slighly different mindset required.
+if the utxo model is familiar, then it is much easier to grasp.
+EIPs help eth standardize on behaviour.
+
+
+[10-Aug-20 09:21 PM] Mylo#8306
+i am working with a "big name" in a blockchain solution.
+
+
+[10-Aug-20 09:22 PM] Mylo#8306
+using kmd tech & looking to further develop antara modules.
+
+
+[10-Aug-20 09:22 PM] Mylo#8306
+industries other than finance, need time to adjust their workflows to accommodate what blockchain can deliver them.
+
+
+[10-Aug-20 09:23 PM] Mylo#8306
+i am not working on a finance solution for this company.
+
+
+[11-Aug-20 06:06 AM] ejuliano#8606
+thanks mylo 👍
+
+
+[15-Aug-20 02:22 AM] Deleted User#0000
+please explain fact to the questions about the 2019 AMA.
+```
+Any fortune 500 companies or big names are testing Antara or interested in it already?
+Yes, there is interest from very big companies. We can't disclose more at this point. 
+```
+
+
+[15-Aug-20 02:23 AM] Deleted User#0000
+why silent?
+
+
+[15-Aug-20 02:41 AM] 𝙊𝙞𝙣𝙠#3612
+NDA?
+
+
+[15-Aug-20 02:50 AM] Audo#5667
+There is always interest from businesses, and we are always looking for opportunities. We can't discuss any of those until everything has been finalized. I think it was a poor judgment from us even to mention such a thing.
+
+
+[15-Aug-20 05:33 AM] Deleted User#0000
+https://cointelegraph.com/news/this-altcoin-has-thrived-amid-global-lockdown-seeing-102-growth-in-28-days?utm_campaign=cryptocontrol.io&utm_medium=cryptocontrol_api&utm_source=cryptocontrol.io Has anyone from marketing seen this? I know it is a bit old but may be worth reaching out to them once we have something noteworthy? 
+
+Greg Thomson is a cryptocurrency and blockchain journalist with a passion for unearthing the rarest stories from within the crypto landscape. Hailing from Glasgow, Scotland, he is fascinated by cryptocurrency’s potential to reshape the world, and excited by the friction it causes as it rubs up against the current financial establishment.
+
+{Embed}
+https://cointelegraph.com/news/this-altcoin-has-thrived-amid-global-lockdown-seeing-102-growth-in-28-days?utm_campaign=cryptocontrol.io&utm_medium=cryptocontrol_api&utm_source=cryptocontrol.io
+This Altcoin Has Thrived Amid Global Lockdown, Seeing 102% Growth i...
+Little-known multi-chain architecture project, Komodo (KMD), saw 102% growth against the dollar over the past month, after plunging 75% one month previous
+https://images-ext-1.discordapp.net/external/AVzvzqi4pLB6r6xZrYalegbdA4zAKoZHP_zZIhnRuAM/https/s3.cointelegraph.com/storage/uploads/view/4b129a54ac77cd048f71fb957a293419.jpg
+
+{Reactions}
+KMD (3) 👍 (3) 
+
+[15-Aug-20 06:36 AM] Oszy#5734
+against usd btc grown 100%  as well. 😂
+
+
+[15-Aug-20 06:36 AM] Oszy#5734
+old news
+
+
+[15-Aug-20 06:53 AM] Audo#5667
+Hey @Deleted User , we are working with a PR agency and they are always looking to get our message & news out there. I am sure they will do great job again when we launch AtomicDEX.
+
+{Reactions}
+👍 (3) 
+
+[17-Aug-20 12:53 AM] Mark81#4505
+I had intresting thought for antara listing procedure where projects would get free listing if dex token holders get airdrop of some percentage like of 7.77%.
+
+
+[17-Aug-20 12:55 AM] Mark81#4505
+Some platform uses same approach dont remember name.
+
+
+[17-Aug-20 01:11 AM] Crabby Paddy#6239
+Kmd holders? :yassinkmodo:
+
+
+[17-Aug-20 01:12 AM] Crabby Paddy#6239
+Or a kmd side chain which is updated with snapshots every day :abusedsmily: would be good to have something for all kmd holders
+
+
+[17-Aug-20 02:02 AM] Cryptoon#3362
+Actually quite a nice idea
+
+
+[17-Aug-20 02:17 PM] bouch#7580
+Is there any use for the Jumbler coin, as I don't see it in atomicDex?
+
+
+[17-Aug-20 02:48 PM] Deleted User#0000
+@bouch not right now but maybe in the future
+
+
+[17-Aug-20 03:44 PM] ejuliano#8606
+jumblr to get 15% of dex fees still, unless something has changed there
+
+
+[18-Aug-20 12:44 AM] Cryptoon#3362
+Normally not
+
+
+[18-Aug-20 04:06 AM] Deleted User#0000
+Oh i did not know that. Thanks @ejuliano
+
+
+[20-Aug-20 09:32 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+```getting exchanges to do anything is not easy at all. that is why dpowconfs is designed to require no changes for exchanges running the standard daemon
+however many exchanges run custom daemons, with custom security things... so it isnt as simple as it seems and we go back again to where it is hard to get exchanges to do anything custom
+```
+Can anyone elaborate on this jl777 quote? What kind of custom things are exchanges doing to kmd daemon? And what are these custom security things? And how do these changes effect dPow?
+
+
+[20-Aug-20 09:53 PM] grewalsatinder#9653
+I'd assume the exchange developers who are serious about their security, make their own APIs for even the blockchain networks they use on their exchanges. The reason could be multiple, ranging from security to more efficiency on managing the wallets, private keys, funds etc. Example can be like just utilising the blockchain database and parsing the direct TCP/UDP/IP network connections with peers where the network messages are received and sent. And using their own custom solution in such ways means such custom programming will at one hand give them less reliance on the wallets/coins own performance and security aspects, and also allows them to isolate their own cryptocurrency management system. Possibly allowing easier integration once they add a protocol support to such custom coins daemon or blockchain management system. Pretty sure it would be very proprietary system if any big exchanges would have built in last decade, because blockchains as general and their default daemons are very slow performing on their own, and there are various other ways to enhance the performance.
+
+
+[20-Aug-20 09:54 PM] grewalsatinder#9653
+If that is the case, that would mean such exchange would not even be using the default transactions confirmations API provided by the daemon, but only using the daemon to connect to their native blockchain
+
+
+[20-Aug-20 09:55 PM] grewalsatinder#9653
+and that could be the possible reason of unable to use default confirmations provided by the daemon's API, leading to unable to use dPoW confirmations
+
+
+[20-Aug-20 09:55 PM] grewalsatinder#9653
+Note that I'm just assuming this scenario, but it is very much a likely scenario for centralised exchanges who are big and want an efficient blockchains management system of their own.
+
+
+[20-Aug-20 09:56 PM] grewalsatinder#9653
+jl777's `iguana` code was such example, which allowed to connect to multiple different network of blockchains and gave a common API set to create different applications around it.
+
+
+[20-Aug-20 09:57 PM] grewalsatinder#9653
+using `iguana` we didn't even need to download the existing wallet/daemon software of for example Bitcoin, Litecoin, and various other supported wallets.
+
+
+[20-Aug-20 09:57 PM] grewalsatinder#9653
+`iguana` could directly connect to these networks provided some params and some seed IPs to connect to the network, and the rest was just managed by the `iguana`
+
+
+[20-Aug-20 09:59 PM] grewalsatinder#9653
+if jl777 being a single developer could have made such an efficient common blockchain management daemon as early as 2014-2016, imagine what multiple core level developers could develop for centralised exchanges with huge funding to back the development and make a solid blockchain management system for a centralised service like cryptocurrency exchange.
+
+
+[20-Aug-20 09:59 PM] grewalsatinder#9653
+@༺α☬丂Ӧ¢ ༒ ༻ hope this gives some idea of why could be the possible reason of not using `dpowconfs` by exchanges.
+
+{Reactions}
+👍 (3) 💯 (2) 
+
+[21-Aug-20 10:08 PM] nhdigitalcash#4343
+Hi, I know the Komodo Project has a Twitter account and my question is do you have a Mastodon account to follow too? I can't seem to find one, which is why I am asking :)
+
+
+[21-Aug-20 10:08 PM] nhdigitalcash#4343
+Also, I have found Pirate and Hush Mastodons, but not any KMD yet
+
+
+[21-Aug-20 11:02 PM] smkhound#7640
+@Audo 👆
+
+
+[21-Aug-20 11:22 PM] grewalsatinder#9653
+I made mastodon accounts for Komodo platform a while ago
+
+{Reactions}
+👍 
+
+[21-Aug-20 11:23 PM] grewalsatinder#9653
+Have the password if those are still active and not expired not deleted somehow being non active accounts
+
+
+[22-Aug-20 11:43 AM] nhdigitalcash#4343
+> I made mastodon accounts for Komodo platform a while ago
+@grewalsatinder @Audo I'm looking for the info to follow it if it exists :)
+like Pirate is: @arrr@mastodon.social 
+and Hush is: @myhushteam@fosstodon.org
+
+
+[23-Aug-20 09:57 PM] Cabey#3299
+Not sure the best place to post this so apologies if it's in the wrong section. Coinspot in Australia have just announced they're delisting KMD because it's considered a privacy coin. Is there a press release which announces KMD no longer has z transactions?
+
+
+[23-Aug-20 09:57 PM] gcharang#6833
+@Audo @polycryptoblog ^
+
+
+[23-Aug-20 09:58 PM] Cabey#3299
+Delisting Announcement
+Regulatory updates from industry service providers regarding the below privacy coins have unfortunately made it unworkable to continue trading these assets. As a result, the below coins/tokens will be removed from trading as of 31 August 2020.
+
+Monero (XMR)
+Komodo (KMD)
+Bytecoin (BCN)
+ZCoin (XZC)
+
+
+[23-Aug-20 09:58 PM] Cabey#3299
+I don't know how popular an on-ramp it is but they do have physical locations all over Australia, most every newsagency
+
+
+[23-Aug-20 10:00 PM] gcharang#6833
+@Cabey thanks for the information, there are documents stating that KMD is no longer as privacy coin, and that allowed some other exchanges to keep it listed. Our team will contact the exchange with the details
+
+
+[23-Aug-20 10:00 PM] Cabey#3299
+🤞
+
+
+[23-Aug-20 10:00 PM] Cabey#3299
+Cheers
+
+
+[23-Aug-20 11:44 PM] smkhound#7640
+@Cabey https://komodoplatform.com/kmd-compliant-with-strict-singapore-securities-and-aml-laws-binance-lists-stablecoin-pairs/
+https://komodoplatform.com/komodos-sapling-upgrade-success/
+
+{Embed}
+Torsten Sándor
+https://komodoplatform.com/kmd-compliant-with-strict-singapore-securities-and-aml-laws-binance-lists-stablecoin-pairs/
+KMD Compliant With Strict Singapore Securities And AML Laws, Binanc...
+Komodo worked with one of the leading global law firms advising top investment banks and hedge fund managers, to acquire a legal opinion about KMD.
+https://images-ext-1.discordapp.net/external/xGbFDpk7IXXD720iN1VrKHlEkO2yUmZ_1emqNy4lQTM/https/komodoplatform.com/wp-content/uploads/2020/08/Singapore_banner.001.jpeg
+
+{Embed}
+Daniel
+https://komodoplatform.com/komodos-sapling-upgrade-success/
+Komodo’s Sapling Upgrade Was A Huge Success - Komodo
+On December 15, the Komodo Sapling upgrade was activated smoothly across the entire ecosystem of 40 independent blockchains. Learn more here.
+https://images-ext-2.discordapp.net/external/naIOY7pEBOL4F-evOv3F32ocT-BcEizulIYgYUVhpR0/https/komodoplatform.com/wp-content/uploads/2019/07/sapling-upgrade-complete.jpg
+
+
+[24-Aug-20 01:08 AM] mercadinaut#9107
+Can anyone provide some more background on the fate of the `-ac_private`
+ option? It seems to have fallen out of the developer documentation.
+
+
+[24-Aug-20 01:28 AM] jorian#4555
+iirc, the idea was that Pirate has the most privacy, hence there is no need for another chain that has enforced privacy
+
+
+[24-Aug-20 01:28 AM] jorian#4555
+the komodo codebase has the option commented out, afaik
+
+
+[24-Aug-20 01:29 AM] Cabey#3299
+Swyftx exchange is also delisting KMD by the looks, similar to the above with Coinspot
+
+
+[24-Aug-20 08:40 AM] actionslacks#4072
+if you're catching flak, you know you're over the target. as real volumes on adex surpass fake exchange volumes we will likely see more of this.
+
+{Reactions}
+👆 
+
+[25-Aug-20 04:49 AM] Cabey#3299
+Binance AU now too, sigh
+
+
+[25-Aug-20 04:49 AM] Cabey#3299
+`Fellow Binancian,
+
+By offering you and other Australian users AUD deposits and withdrawals, Binance Australia is obligated to adhere to local regulations.
+
+From 28th August 2020 11:59 PM, your account will be restricted from trading the following privacy coins:
+
+XMR, ZEC, DASH, XVG, XZC, KMD, ZEN, PIVX, GRS.
+
+Please ensure that you have taken note of the following before 28th August:
+
+Close any open trades or positions involving privacy coins on your Spot, Margins, or Futures account.
+
+All existing privacy coin balances are to be converted to other assets or withdrawn from your account`
+
+
+[25-Aug-20 04:50 AM] Cabey#3299
+@gcharang that's 3 I know of - Coinspot, Sywftx and now Binance AU
+
+
+[25-Aug-20 04:56 AM] Cryptoon#3362
+coinspot already reverted their decision after @PTYX or @polycryptoblog reached out 🙂
+
+
+[25-Aug-20 05:03 AM] Cabey#3299
+Good to hear
+
+
+[25-Aug-20 08:19 AM] gcharang#6833
+thanks for the info @Cabey
+our bizdev team is on it
+cc: @polycryptoblog @PTYX 
+> Coinspot, Sywftx and now Binance AU
+
+{Reactions}
+🤞 (2) 
+
+[25-Aug-20 02:34 PM] Cabey#3299
+It may be worth checking CoinTree also, I _think_ that's every exchange in AU which are on-ramps for KMD
+
+
+[26-Aug-20 06:43 AM] grewalsatinder#9653
+@Audo @nhdigitalcash I had to dig my archives for komodoplatform account access. got it now.
+
+
+[26-Aug-20 06:43 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/626069975655776288/748175839526387722/Screen_Shot_2020-08-27_at_1.42.06_AM.png
+
+
+[26-Aug-20 06:44 AM] grewalsatinder#9653
+https://mastodon.social/@komodoplatform
+
+{Embed}
+https://mastodon.social/@komodoplatform
+komodoplatform (@komodoplatform@mastodon.social)
+0 Toots, 2 Following, 1 Follower Â·
+https://images-ext-1.discordapp.net/external/bav_lkuhZI1azFzE99ZuJOYnbEVgPmHA5N9tsOQG45U/https/mastodon.social/avatars/original/missing.png
+
+
+[26-Aug-20 06:44 AM] grewalsatinder#9653
+@Audo let me know if you want to utilise it.
+
+
+[26-Aug-20 06:47 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/626069975655776288/748176905567469588/Screen_Shot_2020-08-27_at_1.47.49_AM.png
+
+{Reactions}
+👍 
+
+[26-Aug-20 06:47 AM] grewalsatinder#9653
+updated profile data
+
+
+[26-Aug-20 10:24 AM] Bacon#9333
+Hey guys maybe someone can help me understand.. I am trying to research the difference between Komodo, Cosmos and Polkadot. 
+Cosmos sends Blockchain token transfers ( sending value) cross chain. Polkadot does Both... 
+Komodo does both.. Better! (Correct?) KMD DEX etc..
+The other two are single chain? More centralized?
+KMD allows for your own chain (or as many as you want). What am I missing? How do these blockchains have an upper hand on KMD? or do they? 
+
+Also, will KMD get involved in Defi?
+
+I have been telling others about KMD for over 3 years but all the noobs see is what all these youtube kids are talking about and not the true tech. Lots of advertising pumping the value.
+I really don't like the projects who spend millions on advertising and pump the price. I love the fact that KMD just keeps building a better project but it would be nice to have a few short youtube videos explaining these things/differences. 
+Thanks for any help. Just doing my best teaching others about projects I love and believe will be here in the long run.
+
+
+[26-Aug-20 10:33 AM] 𝙊𝙞𝙣𝙠#3612
+Polkadot: The first real difference I noticed on the website is that Polkadot uses a so called Relay Chain to connect all the chains together, whereas PBaas connects all the chains to the main network. This Relay chain provides the interchain security, where Verus has all the security features built in.  Polkadot uses Bridges to allow inerchain communication, which have there own security built in in do not rely on the Relay Chain. They use a host of diffenerent roles like Validators, collectors and nominators to make the chains interoperable
+
+Cosmos: they enable you to compose your own blockchain with a mix of prebuilt and self built modules. It will take programmers with descent knowledge hours to do so. Cosmos uses a seperate chain called the Hub for inter-blockchain communication, which acts as a ledger for all Cosmos subchains. The Hub also tracks the tokens held by private entities and the subchains (called zones).
+As far as I see all Cosmos chains can freely use the same PoS security, but don't receive automatic validation of that security from the main chain, but they have the option to do so. Cosmos uses a limited set of validators that reach consensus for transactions
+
+{Reactions}
+treasure rum 👍 
+
+[26-Aug-20 10:34 AM] 𝙊𝙞𝙣𝙠#3612
+Polkadot:  Polkadot uses a so called Relay Chain to connect all the chains together. This Relay chain provides the interchain security, where Verus has all the security features built in.  Polkadot uses Bridges to allow inerchain communication, which have there own security built in in do not rely on the Relay Chain. They use a host of diffenerent roles like Validators, collectors and nominators to make the chains interoperable
+
+Cosmos: they enable you to compose your own blockchain with a mix of prebuilt and self built modules. It will take programmers with descent knowledge hours to do so. Cosmos uses a seperate chain called the Hub for inter-blockchain communication, which acts as a ledger for all Cosmos subchains. The Hub also tracks the tokens held by private entities and the subchains (called zones).
+As far as I see all Cosmos chains can freely use the same PoS security, but don't receive automatic validation of that security from the main chain, but they have the option to do so. Cosmos uses a limited set of validators that reach consensus for transactions.
+
+
+[26-Aug-20 10:51 AM] Bacon#9333
+Thanks Oink, maybe its because I understand KMD a little better but they both seem more complicated and not as secure. I will read your response a few more times to help it sink in my little brain! ahha thanks again!
+
+
+[26-Aug-20 11:02 AM] 𝙊𝙞𝙣𝙠#3612
+I stripped out the comparison to Verus PBaaS chains, since I dug up this info about 18 months ago. (Not all, I now see)
+
+
+[26-Aug-20 11:46 AM] polycryptoblog#1173
+Parachains aren’t real blockchains ,  consensus is not done by the chain itself
+
+
+[26-Aug-20 05:24 PM] Mylo#8306
+Kmd is utxo based.
+The others are account based afaik
+
+
+[27-Aug-20 02:06 AM] Deleted User#0000
+@Bacon Polkadot and Cosmos are popular in market. Komodo is not popular in market.
+
+{Reactions}
+🤦 (3) 
+
+[28-Aug-20 02:12 AM] Farl#9964
+The website page about Adaptive Proof-of-Work states the following: "Proof of Stake blockchains face threats like the Nothing at Stake problem and Weak Subjectivity.". What do they mean with Weak Subjectivity?
+
+
+[28-Aug-20 02:25 AM] grewalsatinder#9653
+There is a great verus article covering both of these
+
+
+[28-Aug-20 02:25 AM] grewalsatinder#9653
+https://medium.com/veruscoin/how-verus-solved-nothing-at-stake-and-weak-subjectivity-proof-of-stake-problems-b4dd6a85086e
+
+{Embed}
+https://medium.com/veruscoin/how-verus-solved-nothing-at-stake-and-weak-subjectivity-proof-of-stake-problems-b4dd6a85086e
+How Verus Solved Nothing at Stake and Weak Subjectivity Proof of St...
+From ‘Nothing at Stake’ to ‘No Incentive to Cheat’ — Innovating Proof of Stake on the Verus PoS+PoW Hybrid  Blockchain
+https://images-ext-1.discordapp.net/external/Rn3ELhlMzqBs25joyEIdRNmlktJaLnBHIwBrBEPq7bU/https/miro.medium.com/max/900/1%2Ai304yCjrJU8aW1cysPgGGw.png
+
+{Reactions}
+👍 (6) 
+
+[28-Aug-20 03:45 PM] Bacon#9333
+I didn't realize Verus is sharing their tech with Komodo. That is awesome!
+
+
+[28-Aug-20 04:03 PM] bishop#9773
+Yeah, they brought sapling to the KMD platform which ARRR benefited from greatly for getting on exchanges
+
+{Reactions}
+👆 (4) 💯 (5) KMD (5) rum 
+
+[30-Aug-20 07:18 AM] Deleted User#0000
+now komodo be no longer need engineer like wozniak, need people like Jobs, Bill Gates, and Musk, who have superior business skills. 
+need an attractive businessman who can dazzle the public.
+
+{Reactions}
+👎 (3) 
+
+[30-Aug-20 07:27 AM] Deleted User#0000
+there's not much time left for a small, capitalless company to compete in the blockchain world. maybe it's too late.
+
+
+[30-Aug-20 10:15 AM] LeshAft9#0083
+What is the relationship between AtomixDex / AtomicDeFi and the Komodo blockchain?
+
+
+[30-Aug-20 04:47 PM] Deleted User#0000
+@LeshAft9  AtomicDEX is the name of the DEX, AtomicDefi is the name AtomicDEX was going to change to (to show that it is more than a DEX) but the community did not like it so they changed it back and will see what the community wants to do. KMD is the main pair on AtomicDEX and created by the KMD team.
+
+{Reactions}
+👍 
+
+[30-Aug-20 09:23 PM] Cabey#3299
+> thanks for the info @Cabey
+> our bizdev team is on it
+> cc: @polycryptoblog @PTYX 
+@gcharang Sywftx reversed their decision to delist KMD, haven't seen anything official from Binance AU / Cointree
+
+{Reactions}
+👍 
+
+[30-Aug-20 09:51 PM] PTYX#6840
+it will likely happen, they are just taking their time with it.
+
+
+[31-Aug-20 04:30 AM] polycryptoblog#1173
+I sent Binance au a request but haven’t heard back
+
+
+[31-Aug-20 04:30 AM] polycryptoblog#1173
+It takes time these things
+
+
+[31-Aug-20 04:44 AM] Deleted User#0000
+grayscale, which is entrusted with investment in cryptocurrency by institutions, is continuing its explosive growth. not long ago, MicroStrategy, the world's largest corporate information provider and NASDAQ-listed company, said it bought 250 million dollars worth of bitcoins, totaling 21,454 bitcoin. the official reason for investing in bitcoin is that the risk of holding company assets in cash is too high because of inflation.
+
+there is one more factor to pay attention to other than the growth of the ecosystem, inflation and institutional investment. It is the escape of assets outside the chinese border. the possibility has already emerged since the Hong Kong crisis last year. since then, the pace of development of china's decoupling led by the U.S. has been accelerating, drawing more attention. the slush funds of chinese communist party leaders, which have already been hidden in swiss banks, have become the center of controversy. they say that a huge amount of money worth more than 1 trillion won per person has been hidden in swiss banks. swiss banks are likely to disclose their list. In other words, Hong Kong, the U.S., and switzerland, the three preferred asset havens of china's rich, are not expected to be intact. therefore, chances are high that china's rich people will consider securing bitcoins and burying them for a long time. If you keep the mined coins in the form of paper wallets unless you create a deal, you won't be caught, nor will it take you to cross the border.
+
+
+[31-Aug-20 04:45 AM] Deleted User#0000
+chainalysis, a blockchain analysis company, already estimated that about $50 billion (about 59 trillion won) worth of funds have been withdrawn from china over the past year. although Tether, which is more linked to dollars and prices than bitcoin, is mainly used, the fact that Tether's management is currently being indicted by the U.S. New York prosecutors is an important variable. this is because investment in Tether is likely to be identified by U.S. financial authorities. after all, it is highly likely that bitcoin will be the final choice of chinese rich people.
+
+It has been eight years since those who want to be institutionalized like the winkleboss brothers began to focus on bitcoin. bitcoin, as they thought, began to encounter institutional rights. perhaps the real reason for bitcoin's existence is the desire of global citizens and individuals to secure a link to the global system.
+
+
+[31-Aug-20 04:51 AM] Deleted User#0000
+china's richest people and huge financial companies and institutions have begun buying bitcoin. In this bull market, there will be a bitcoin market that is different from the past.
+
+
+[31-Aug-20 04:57 AM] Deleted User#0000
+https://cryptoslate.com/the-winklevoss-twins-think-bitcoin-will-hit-500000-over-a-long-period-of-time/
+
+{Embed}
+https://cryptoslate.com/the-winklevoss-twins-think-bitcoin-will-hit-500000-over-a-long-period-of-time/
+The Winklevoss Twins think Bitcoin will hit $500,000 over a long pe...
+By most analysts’ interpretations of the Bitcoin price chart, the cryptocurrency market is in the early innings of another bull trend.
+https://images-ext-2.discordapp.net/external/S-mT45GbAWdIMZ54Y8MsZo_ODb5CCeedyO54l9NtYVE/https/cryptoslate.com/wp-content/uploads/2019/05/person-cameron-winklevoss-02.jpg
+
+
+[31-Aug-20 06:25 PM] Deleted User#0000
+https://cointelegraph.com/magazine/2020/08/31/is-ethereum-left-and-bitcoin-right?fbclid=IwAR2lIH8IC2kU5As4Z_x4Z4yWymqn8LrjGbPdJAUpPA1I0ormWXBESKCuGjw
+
+{Embed}
+Andrew Fenton
+https://cointelegraph.com/magazine/2020/08/31/is-ethereum-left-and-bitcoin-right?fbclid=IwAR2lIH8IC2kU5As4Z_x4Z4yWymqn8LrjGbPdJAUpPA1I0ormWXBESKCuGjw
+Is Ethereum left and Bitcoin right? – Cointelegraph Magazine
+Hacktivist Bitcoin developer Amir Taaki took aim at Ethereum co-founder Vitalik Buterin on Twitter recently for essentially writing off smart contracts inventor Nick Szabo as a right-wing crank. Taaki wrote that this sort of attitude was typical of an “Eth[ereum] culture which...
+https://images-ext-1.discordapp.net/external/em2S103M-_4xqv6y1kD22QqX45uXxq4R37gJqnLh5-s/https/cointelegraph.com/magazine/wp-content/uploads/2020/08/magazine_Ethereum_Left_Bitcoin_Right-scaled.jpg
+
+
+[31-Aug-20 06:28 PM] Deleted User#0000
+bitcoin opposes manipulation because it begins with a fundamental pessimism about humanism. on the other hand, ethereum itself is an attempt to "manipulate" the world with good will.
+
+The problem is that ethereum can be replaced by a nation, the best monster invented by mankind for manipulation, because of its very manipulative worldview.
+
+In fact, ethereum, which is progressive to eat a bitcoin that opposes manipulation, and controlled governments are attacking from all sides, and the day when the ethereum blockchain camp, which seems completely alien, and the governments, are united is likely to come soon.
+
+
+[01-Sep-20 02:13 AM] Deleted User#0000
+https://www.verdict.co.uk/bitcoin-ethereum-vienna-stock-exchange/?fbclid=IwAR3QUwCCi2jxOT4AELnr3_235CimrMGSv6HABYn9RR61RR1qpM5Wg77fTLQ
+
+{Embed}
+Lucy Ingham
+https://www.verdict.co.uk/bitcoin-ethereum-vienna-stock-exchange/?fbclid=IwAR3QUwCCi2jxOT4AELnr3_235CimrMGSv6HABYn9RR61RR1qpM5Wg77fTLQ
+Bitcoin, Ethereum traded on Vienna Stock Exchange for first time - ...
+Bitcoin and Ethereum are today available to trade on the regulated market of the Vienna Stock Exchange for the first time.
+https://images-ext-2.discordapp.net/external/ZrV-QgYfccrp3-eUt07Pb9FdF4BZgNjYBiBhSMxYiIU/https/www.verdict.co.uk/wp-content/uploads/2020/09/vienna-stock-exchange-bitcoin-ethereum.jpg
+
+
+[01-Sep-20 02:13 AM] Deleted User#0000
+this is what Blockchain popularization is about.
+
+
+[01-Sep-20 02:14 AM] Deleted User#0000
+convergence with existing institutions.
+
+
+[03-Sep-20 07:42 AM] Mylo#8306
+https://komodoplatform.com/defi-decentralized-finance/#:~:text=Komodo%20DeFi%20Applications,launch%20an%20independent%20Smart%20Chain.
+
+{Embed}
+Delton Rhodes
+https://komodoplatform.com/defi-decentralized-finance/
+An Overview of the Decentralized Finance (DeFi) Space
+Decentralized finance, or DeFi for short, is an emerging industry and a primary use case for blockchain. Learn more about decentralized finance here.
+https://images-ext-1.discordapp.net/external/ha4EmEcEAuw9wic-c0f_b9h27K1l6LlMuGurQe9qq_k/https/komodoplatform.com/wp-content/uploads/2020/03/decentralized-finance-banner-image.jpg
+
+{Reactions}
+👍 (2) 
+
+[03-Sep-20 07:42 AM] Mylo#8306
+In this article, the cross border payments section
+
+
+[03-Sep-20 07:43 AM] Mylo#8306
+The fee of $80 on a $10000 transaction is not 8%, it is 0.8%.
+
+
+[03-Sep-20 11:20 AM] Sanyadurnov#9361
+Is Atomicdex official release in this year? Somebody could answer this question?
+
+
+[03-Sep-20 11:22 AM] Sanyadurnov#9361
+How many developers in Komodo team?
+
+
+[03-Sep-20 11:26 AM] Delton#2644
+@Mylo Thank you, I just updated the article
+
+{Reactions}
+👍 
+
+[03-Sep-20 10:45 PM] gcharang#6833
+@Sanyadurnov 
+>  Is Atomicdex official release in this year?
+yes, it is planned to be in this year
+
+> How many developers in Komodo team?
+you can see all of our full time developers listed  at https://komodoplatform.com/about-komodo/
+
+
+[04-Sep-20 02:34 AM] Sanyadurnov#9361
+🙏 thx
+
+
+[10-Sep-20 02:53 AM] coreyou#6882
+Komodo is absolut erc20, right ?
+No pivx or other real Blockchain Support ?
+
+
+[10-Sep-20 03:42 AM] Mylo#8306
+@coreyou  the opposite.
+
+atomic dex supported coins https://github.com/KomodoPlatform/coins/blob/master/coins
+atomic dex verified-by-team swaps https://github.com/KomodoPlatform/coins/tree/master/swaps
+
+atomic dex community-verification repo/workflow does not exist yet.  requires some community collaboration to support more coins
+
+barterdex (pre-atomic-dex) supported coins https://github.com/jl777/coins/blob/master/coins
+
+
+[10-Sep-20 03:43 AM] Mylo#8306
+tokenizing 3rd party coin on KMD smart chain tutorial
+
+
+[10-Sep-20 03:43 AM] Mylo#8306
+https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/gateways-module-tutorial.html#tutorial
+
+
+[10-Sep-20 03:43 AM] Mylo#8306
+hope this helps
+
+
+[10-Sep-20 03:44 AM] Mylo#8306
+kmd is zec fork with privacy removed for main chain, zec is btc fork.
+
+
+[10-Sep-20 04:30 AM] coreyou#6882
+Since 10 Month No New added coin ?
+
+
+[10-Sep-20 05:39 AM] Oszy#5734
+> Since 10 Month No New added coin ?
+@coreyou `Latest commit 1ec00ff 14 days ago` 🤷‍♂️
+
+
+[10-Sep-20 05:56 AM] coreyou#6882
+Need to Check again. Sorry
+
+
+[10-Sep-20 06:00 AM] coreyou#6882
+Listing Fee i Not found
+
+
+[10-Sep-20 06:13 AM] Oszy#5734
+Listing fee for what exactly?
+
+
+[10-Sep-20 06:19 AM] Oszy#5734
+listing in the API is free, just make a PR to the repo. 
+Listing fee for mobile DEX is unknown, need to contact a service provider.
+Listing fee for desktop DEX is free, just make a PR to the repo.
+
+{Reactions}
+👍 (2) 
+
+[11-Sep-20 07:22 AM] coreyou#6882
+🤔  our Dev Just havent enough time for:
+Someone wane earn TPWR Coins for Adaption to komodo Network ?
+
+
+[11-Sep-20 10:41 PM] Mylo#8306
+What are details of tpwr coin?
+
+
+[12-Sep-20 04:01 AM] cipi#4502
+i guess it is this https://coinmarketcap.com/currencies/thepowercoin
+https://github.com/tpowercoin/tpwr-core ... seems to be a PIVX fork... my first question would be if the `listunspent` call accepts watchonly addresses... last time i looked at PIVX, it wasn't the case, so AtomicDEX shows 0 balance, because all addresses are watchonly
+
+
+[13-Sep-20 03:22 AM] coreyou#6882
+Anyone wane get that Job or should i puplish that offer around ?
+
+
+[13-Sep-20 04:09 AM] Mylo#8306
+I don't see job description. What is the job? Need more info
+
+
+[13-Sep-20 05:22 AM] Oszy#5734
+i think it's migrate TPWR to a KMD SC
+
+
+[13-Sep-20 08:09 AM] coreyou#6882
+Yes correct, migrate tpwr to kmd
+
+
+[13-Sep-20 08:09 PM] Mylo#8306
+is there an explorer for TPWR?
+is it to re-create existing chain doing an airdrop, or start from scratch to create that emission?
+
+
+[13-Sep-20 09:43 PM] coreyou#6882
+https://chain.t-powercoin.com/
+
+
+[13-Sep-20 09:44 PM] coreyou#6882
+Not Understand that question -sorry-
+
+
+[13-Sep-20 11:08 PM] Oszy#5734
+do you want to mirror the current chain? e.g. airdrop new coins to old holders
+or do you want a completely new chain with different emission (block reward)
+
+
+[13-Sep-20 11:49 PM] coreyou#6882
+like that: <https://www.facebook.com/job_opening/636207180418432>
+
+
+[14-Sep-20 02:35 AM] Mylo#8306
+ok.
+1. create tokenized coins on a smart chain.
+2. after that ?
+
+
+[14-Sep-20 02:35 AM] Mylo#8306
+
+{Attachments}
+https://cdn.discordapp.com/attachments/626069975655776288/754998830201831484/unknown.png
+
+
+[14-Sep-20 02:35 AM] Mylo#8306
+for anyone else that doesn't go on fb.
+
+
+[14-Sep-20 04:10 AM] jorian#4555
+an API connection? why is taht so hard?
+
+
+[14-Sep-20 04:11 AM] jorian#4555
+if they took 10 minutes to read, they would have found out the RPCs that Komodo supports
+
+
+[14-Sep-20 04:11 AM] jorian#4555
+@coreyou
+
+
+[14-Sep-20 04:12 AM] jorian#4555
+are you working with TPWR?
+
+
+[14-Sep-20 04:33 AM] coreyou#6882
+Yeah thats also my mind....
+But iam Not programmer
+
+
+[14-Sep-20 04:33 AM] coreyou#6882
+Just the buisness development Guy and owner of TPWR
+
+
+[14-Sep-20 04:34 AM] jorian#4555
+so who created this?
+
+
+[14-Sep-20 04:49 AM] dukeleto#7326
+lulz
+
+
+[14-Sep-20 05:04 AM] coreyou#6882
+The Blockchain bought as Service from Gossip Dev.   And Last Update Made my Dev friend witch is on team
+
+
+[14-Sep-20 08:45 AM] CHMEX#0686
+@coreyou what do you want to do exactly and that is your native language?
+Do you want to migrate to a KMD assetchain?
+
+
+[14-Sep-20 08:45 AM] CHMEX#0686
+Do you have actual users on the current chain or do u want to start new?
+
+
+[14-Sep-20 08:46 AM] coreyou#6882
+I thought its possible to add tpwr to sutch nice komodo Exchange (atomicdex)
+German
+
+
+[14-Sep-20 08:50 AM] Oszy#5734
+he wants to list a PIVX fork on adex
+
+
+[14-Sep-20 08:51 AM] Oszy#5734
+but it's not possible so now he want to tokenize tpwr on kmd
+
+
+[14-Sep-20 08:52 AM] coreyou#6882
+Oh tokenize.... Not thought about.
+
+
+[14-Sep-20 08:53 AM] coreyou#6882
+OK i have Now the answer to question If its possible to list:
+No it isnt 😒
+
+
+[14-Sep-20 08:53 AM] CHMEX#0686
+Do you really need the old chain as its so young maybe just start new and u get all the features KMD has
+
+
+[14-Sep-20 08:54 AM] CHMEX#0686
+You can airdrop old userfunds to the new chain
+
+
+[14-Sep-20 08:54 AM] CHMEX#0686
+Get some nice explorers electrum servers dpow miners etc
+
+
+[14-Sep-20 08:55 AM] Mylo#8306
+all of what CHMEX says.
+
+{Reactions}
+👍 
+
+[14-Sep-20 08:56 AM] CHMEX#0686
+And you get tons of help from people here... @coreyou  we even speak german....
+
+
+[14-Sep-20 08:57 AM] coreyou#6882
+For token, its need eth based because everywhere adaptable
+
+
+[14-Sep-20 08:58 AM] CHMEX#0686
+Ok that we can not offer. What you can do is an eth token which can be traded against your KMD based coin on atomic dex
+
+
+[14-Sep-20 08:58 AM] CHMEX#0686
+So you get uniswap etc and you have a real coin
+
+
+[14-Sep-20 08:58 AM] coreyou#6882
+Ich bin zu fremd zu komodo und die globale Verbreitung adaptions zu Services kenn ich mich zu komodo nicht aus. Inwieweit das auch wie gewohnt funktioniert
+
+{Reactions}
+👍 
+
+[14-Sep-20 08:59 AM] CHMEX#0686
+Lets keep in english here but if needed there will be help in german via DM or in a dedicated channel
+
+
+[14-Sep-20 09:01 AM] coreyou#6882
+OK, but iam Open for build an Testbuild or Just a coin or token especially for use on komodo.
+For get experience and May after that there could be a Swap Platform or anything Like that
+
+{Reactions}
+👍 (2) 
+
+[14-Sep-20 09:02 AM] CHMEX#0686
+Sounds good
+
+
+[14-Sep-20 09:21 AM] coreyou#6882
+OK, what is to do ?
+
+
+[14-Sep-20 09:46 AM] coreyou#6882
+<https://komodoplatform.com/how-to-make-a-blockchain/>
+
+
+[14-Sep-20 09:54 AM] CHMEX#0686
+Unfortunatly I do t have time at the moment but I can spend some hours on it on saturday afternoon and set you up with a testchain if till than nobody helped.
+
+
+[14-Sep-20 09:54 AM] CHMEX#0686
+If you manage to set it up with the documents we have even better
+
+
+[14-Sep-20 10:03 AM] coreyou#6882
+oh i love it...  first Error message by just opening the client 🤣     thats me....  i find all stupid things
+
+
+[14-Sep-20 10:04 AM] coreyou#6882
+(couldnt post screenshots here)
+
+
+[14-Sep-20 10:04 AM] coreyou#6882
+komodo-qt-win.exe
+
+
+[14-Sep-20 10:04 AM] coreyou#6882
+"Error: Cannot parse configuation file: missing komodo.conf....."
+
+
+[14-Sep-20 10:05 AM] coreyou#6882
+i try the "install file now"
+
+
+[14-Sep-20 10:07 AM] Oszy#5734
+starting the wallet is not the first step, go back a little to creating .conf file for the chain 🙂
+
+
+[14-Sep-20 10:12 AM] coreyou#6882
+its need an KMD adress
+
+
+[14-Sep-20 10:12 AM] coreyou#6882
+first step is on that platform for generate Blockchain
+
+
+[14-Sep-20 10:12 AM] coreyou#6882
+Blockchain is 11years old 😜
+
+
+[14-Sep-20 10:13 AM] coreyou#6882
+its ZCash Blockchain for Full loading ????
+
+
+[14-Sep-20 10:13 AM] Oszy#5734
+Start here please
+https://docs.komodoplatform.com/basic-docs/smart-chains/smart-chain-setup/installing-from-source.html#linux
+
+you don't have to download Komodo Chain to create your own
+
+
+[14-Sep-20 10:13 AM] coreyou#6882
+thanks  and how for stupid windows user ?
+
+
+[14-Sep-20 10:14 AM] Oszy#5734
+i don't know that
+
+
+[14-Sep-20 10:14 AM] coreyou#6882
+<https://composer.kmd.io/>
+
+
+[14-Sep-20 10:14 AM] coreyou#6882
+thats nice platform....  but i need a KMD adress
+
+
+[14-Sep-20 10:14 AM] coreyou#6882
+and for that i should use an real "own" one...  isnt ?
+
+
+[14-Sep-20 10:15 AM] coreyou#6882
+need to generate also puplic key
+
+
+[14-Sep-20 10:15 AM] coreyou#6882
+But please someone could tell:
+KMD = ZCASH ?
+
+
+[14-Sep-20 10:15 AM] Oszy#5734
+composer is the paid creator you will have to pay to create the chain
+
+
+[14-Sep-20 10:16 AM] coreyou#6882
+i every thought that KMD is a pretty new and genius
+
+
+[14-Sep-20 10:16 AM] Oszy#5734
+KMD is a ZEC fork
+
+
+[14-Sep-20 10:16 AM] coreyou#6882
+but why load full ZEC ?
+
+
+[14-Sep-20 10:16 AM] Oszy#5734
+it doesn't
+
+
+[14-Sep-20 10:16 AM] coreyou#6882
+or KMD is 11 years old ?
+
+
+[14-Sep-20 10:16 AM] Oszy#5734
+no
+
+
+[14-Sep-20 10:16 AM] Oszy#5734
+that number is not correct
+
+
+[14-Sep-20 10:17 AM] coreyou#6882
+oh yeah now its 3 years
+
+
+[14-Sep-20 10:17 AM] coreyou#6882
+KMD 3 years ?
+
+
+[14-Sep-20 10:17 AM] Oszy#5734
+about that old yes
+
+
+[14-Sep-20 10:17 AM] coreyou#6882
+🧐 ok
+
+
+[14-Sep-20 10:18 AM] coreyou#6882
+it looks like "old school" litecoin 😁
+
+
+[14-Sep-20 10:20 AM] Oszy#5734
+BTC+ZEC
+
+
+[14-Sep-20 10:20 AM] coreyou#6882
+😱  oh dear i just review the prices.......   Total about 8000$.....
+
+
+[14-Sep-20 10:21 AM] coreyou#6882
+ok lets stop it
+
+
+[14-Sep-20 10:21 AM] coreyou#6882
+need my money for real buisness fiat side
+
+
+[14-Sep-20 10:26 AM] coreyou#6882
+Now i Understand why sutch cool system isnt popular.
+
+
+[14-Sep-20 10:46 AM] Oszy#5734
+you can do everything yourself for free
+
+
+[14-Sep-20 10:46 AM] Oszy#5734
+you pay others to do it for you when you pay $8k
+
+
+[14-Sep-20 10:55 AM] coreyou#6882
+its written on youre videos
+
+
+[14-Sep-20 10:57 AM] coreyou#6882
+<https://komodoplatform.com/how-to-make-a-blockchain/>
+
+
+[14-Sep-20 11:23 AM] polycryptoblog#1173
+Can spin up a chain from cli, but doesn’t include DPoW or Atomicdex integration
+
+
+[14-Sep-20 11:46 AM] coreyou#6882
+DPoW isnt liked but atomic would be nice
+
+
+[14-Sep-20 04:26 PM] polycryptoblog#1173
+If you submit the PR it can be in the desktop, only mobile costs.
+
+
+[14-Sep-20 09:54 PM] gcharang#6833
+@coreyou if you have a dev on your team, point them to https://docs.komodoplatform.com/basic-docs/smart-chains/smart-chain-tutorials/create-a-default-smart-chain.html and https://docs.komodoplatform.com/basic-docs/antara/antara-setup/antara-customizations.html
+they will be able to create a new chain for you in 20 minutes
+
+
+[14-Sep-20 09:55 PM] coreyou#6882
+OK thanks
+
+
+[15-Sep-20 12:19 PM] cah5896#7669
+I posted in general, but maybe this is better place: I am a holder going all the way back to BTCD, and it has been a long ride for me here, but my sack of KMD will be out in a month unless the price miraculously moons soon. I’ve lurked around here and always held as long as possible. My biggest regret is not selling at $10, so foolish, I could have been so rich. I’ve been able to do a lot with my investment and I’m extremely grateful to the team and jl777, but I am disappointed at the recent fate at least price wise we are in. My only question is if assets like REVS and JUMBLR have any value and how to sell if I choose to.
+
+
+[15-Sep-20 12:37 PM] tolken#2655
+@cah5896  REVs should be tradeable on AtomicDefi, but for some reason they haven't added it as a coin in the GUI apps.  REVs certainly has value as it derives profits from multiple streams - small dividends still, but that's more than many can claim. JUMBLR is rumored to possibly be repurposed down the line.  Sorry to hear KMD hasn't met your expectations, hopefully the price pumps before you dump. Good luck.
+
+
+[15-Sep-20 12:53 PM] cipi#4502
+both are on AtomicDEX Pro, like most of the ACs: https://github.com/KomodoPlatform/atomicDEX-Pro/blob/master/assets/config/0.2.1-coins.json
+
+
+[15-Sep-20 08:31 PM] hastrup#8742
+@cah5896 I have pm you about jumblr and revs
+
+
+[05-Oct-20 07:22 AM] Komodefi#5638
+What coin does MCL represent on atomic dex?
+
+
+[05-Oct-20 07:23 AM] 𝙊𝙞𝙣𝙠#3612
+Marmara Credit Loops
+
+
+[05-Oct-20 07:23 AM] Oszy#5734
+https://discord.gg/xr7MP38
+
+{Reactions}
+👍 
+
+[10-Oct-20 04:00 AM] Deleted User#0000
+sadly, corona virus has pushed the transition to a cashless society. All the money will be converted into digital form in the future. 
+In the process, only criminals, tax evaders and extreme privacy advocates will remain in the cash process.
+
+
+[10-Oct-20 05:32 AM] 𝙊𝙞𝙣𝙠#3612
+That may be true in certain regions in the world. Not the entire world has the infrastructure to facilitate electronic cash. People in those regions have no choice to pay cash (electronic payment devices in my micro-region have only been introduced last year). By your definition, people in those regions are criminals, tax evaders or extreme privacy advocates.
+
+
+[10-Oct-20 07:12 AM] actionslacks#4072
+if you want to buy anything from another individual (not a business) in person, cash is still king. Card and paypal transactions can be reversed, leaving the seller with nothing. It's a common scam.
+
+
+[10-Oct-20 08:38 PM] Mylo#8306
+@Deleted User nearly all of your comments in discord are some kind of personal judgement. Try not judging for a week
+
+
+[15-Oct-20 07:36 PM] chimaera#8503
+Hey Komodo - noticed that your website doesn't list StakeCube Exchange isn't listed.  Would be awesome if you could add it when next making an update, thanks 👍
+
+
+[15-Oct-20 07:51 PM] DigitalDan#5742
+Hey quick question - I noticed the peg module which allows developers to create a pegged stablecoin through your platform. Is there plans or a method to create a non-pegged stablecoin i.e. non-collateralized
+
+
+[15-Oct-20 08:26 PM] gcharang#6833
+@DigitalDan
+> a pegged stablecoin 
+a pegged coin just means that its value should always be equal to a predefined external asset. to make the design resilient, our design includes a collateral
+
+> non-pegged stablecoin i.e. non-collateralized
+they are not the same. non-pegged just means the coins value isn't equal to any external asset, just like most cryptos
+
+how do you think a non-collateralised stable coin can be trustworthy? do you know of any designs?
+
+
+[15-Oct-20 08:29 PM] DigitalDan#5742
+@gcharang I think I am tracking what you're saying. non-pegged stablecoin is only as trusted as the people or organization who is putting it out i.e. the reason the USD which is not pegged to anything other than our government works... Right? Idk if you're free right now but maybe a quick voice chat in the hangouts room would clear up my confusion
+
+
+[15-Oct-20 08:30 PM] DigitalDan#5742
+I know what you're saying and agree with you, maybe I am delirious thinking a non-collateralized could be executed
+
+
+[15-Oct-20 08:33 PM] gcharang#6833
+sorry, not available for a call right now.
+>  non-pegged stablecoin is only as trusted as the people or organization who is putting it out
+thats my thought as well
+> the reason the USD which is not pegged to anything other than our government works... 
+ here too, there is collateral. just not monetary. it is reputation, power in the physical world :D, history etc
+
+
+[15-Oct-20 08:35 PM] DigitalDan#5742
+No worries - right but in that example it isn't pegged to an a physical asset but rather ideologies ... which can be created through a product. I am asking my question from a basis of a side project I am developing a product - trying to determine the correct tech stack for my team and I to dive into
+
+{Reactions}
+👍 
+
+[15-Oct-20 11:14 PM] Mylo#8306
+sounds like you would need an instrument to bind the physical object to some value of COIN.  Then using these COINS as collateral to produce the stablecoin.   The COIN would need to have some price attached to it.   just thoughts.
+
+
+[19-Oct-20 05:21 AM] Roger#1320
+Hi all sorry to jump in, but just reading up on Pegs https://docs.komodoplatform.com/basic-docs/antara/antara-api/pegs.html#introduction  It was last updated 8 months ago just wondering where it is going ?
+
+{Embed}
+https://docs.komodoplatform.com/basic-docs/antara/antara-api/pegs.html
+Pegs
+::: tip
+https://images-ext-2.discordapp.net/external/JRuH6_LDrjOGd6HbRckiIc9OBFcyJGE1c7DjCukFvtA/https/developers.komodoplatform.com/start-here-pics/Dev_Docs_Introduction_small.png
+
+
+[19-Oct-20 10:16 PM] gcharang#6833
+@Roger version 2 of it is under development not ready for production use yet
+
+
+[20-Oct-20 07:38 AM] Roger#1320
+Thanks for update. do you have a timeline for version 2 and details of what will be in it?
+
+
+[20-Oct-20 10:33 PM] gcharang#6833
+version 2 of pegs will be similar in architecture to pegs v1, but will update the internals so that it is more difficult to disrupt the expected functionality of the module. @Mihailo will be able to tell us its expected timeline
+
+
+[21-Oct-20 01:20 AM] Mihailo#5902
+Pegs module is dependent on tokens, oracles and gateways. When those are complete in V2 then pegs will get its turn. Tokens and oracles are already done in v2, gateways are in process...
+
+{Reactions}
+👍 
+
+[01-Nov-20 05:42 AM] daemonfox#6136
+I would like to suggest a position be filled to further the Marketing team. Someone needs to be tasked with defining contests, rewards and other giveaways completely, so that the rules are determined beforehand, all rewards are defined and put onto Social Media with confidence and end users don;t have to question how things work.
+
+{Reactions}
+😍 
+
+[01-Nov-20 05:43 AM] daemonfox#6136
+Yesterday was fun, seeing the backend handled today is disappointing.
+
+
+[01-Nov-20 05:45 AM] daemonfox#6136
+I'll volunteer, and confirm abstaining from any of these contests going forward (obviously) if I am asked to help in this way.
+
+
+[01-Nov-20 06:14 AM] alkimi#1111
+good idea defining things early on, there is a lot of evidence of ad-hoc development throughout the whole platform
+
+
+[03-Nov-20 12:15 PM] Audo#5667
+Please share all feedback regarding the past bounty context and let us know exactly what to change. We need to plan new contests for the upcoming stress tests.
+
+Let's make the next context a perfect one. Anyone who wants to get involved can. Maybe we make a call to brainstorm ideas and go over the plan.
+
+cc: @Jcharming
+
+
+[03-Nov-20 12:16 PM] Audo#5667
+one key goal is to reach out to other coin communities who we got listed on AtomicDEX and get them involved
+
+
+[03-Nov-20 05:26 PM] Jcharming#2693
+@daemonfox Love the energy and enthusiasm, looking forward to the collab.  Like what @Audo said we're planning out events to come for the stress test and other engagement activities, and looking forward to responses to his opening question.   
+
+Halloween was definitely a 'test the waters' event for us, with the new marketing team setup we have, and needing to collect some sentiments + metrics for our communities current level of participation.
+
+{Reactions}
+👍 (3) 
+
+[08-Nov-20 07:38 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+```We’ll also be making an announcement at the end of Q4 regarding a new release that is separate from the AtomicDEX Desktop & Mobile releases. If you think you have a guess, come to our Discord and let us know. This is something that the entire Komodo community will be anxiously waiting for once we announce the news. Stay tuned for more details!``` Will people be geoblocked from this new release?
+
+
+[08-Nov-20 01:25 PM] Deleted User#0000
+why not just announce it, we can take the good news
+
+
+[08-Nov-20 01:30 PM] Sanakoev#7417
+im not ready for all this good news, please make us wait longer D:
+
+
+[08-Nov-20 02:30 PM] Deleted User#0000
+Will hot holochain be added to the atomic dex mobile app?
+
+￼
+
+
+[08-Nov-20 04:13 PM] PTYX#6840
+@Deleted User it's very possible
+
+
+[13-Nov-20 05:20 PM] dhdhfhfhfnf#2207
+I’m worried about Komodo, have been with the project since ICO. The market isn’t rational and overvalues eth ecosystem coins over independent blockchains. Competition too has increased and I’m a bit worried about Komodo funding (longevity). 
+People are buying food coins and scams. That capital should be used for good true to crypto projects. Perhaps atomicdex holders should be diluted and an ico should be made. Perhaps a  new system/project using atomicdex should form. A polkadot competitor for example.
+Idk what to say anymore. People didn’t understand Komodo tech. It wasn’t adopted for some strange reason. Komodo costs are pretty high. I fear for the future of the project I loved.
+Unlike cfb, doge, ltc, etc. Komodo has kept innovating. It truly a sad sight when real projects fair worse than “scams”.
+Is Komodo still well funded? Am I worrying for no reason?
+
+
+[13-Nov-20 05:38 PM] lost#4038
+If you deep dive into this discord,+ pirate,+ verus,+ marmara you will connect all the dots. IMHO your last sentence is correct.
+
+{Reactions}
+💯 (6) 
+
+[13-Nov-20 11:46 PM] Deleted User#0000
+@dhdhfhfhfnf yes fully funded for a decade maybe?
+
+
+[19-Nov-20 03:30 AM] Mylo#8306
+https://blog.komodoplatform.com/
+
+
+[19-Nov-20 03:30 AM] Mylo#8306
+no longer resolves.
+
+
+[19-Nov-20 03:30 AM] Mylo#8306
+had a lot of stories on the medium site about kmd.
+
+
+[19-Nov-20 08:44 AM] Audo#5667
+@Mylo can you link the stories? Were they on your personal Medium?
+
+We are moving to Ghost CMS and disabled Medium integration
+
+
+[19-Nov-20 05:23 PM] Mylo#8306
+https://blog.komodoplatform.com/komodo-quantum-resistant-transactions-musig-for-larger-more-private-multi-signature-transactions-3a4fb5844d47
+
+I can umpublish from kmd and publish to personal...or something else
+
+
+[19-Nov-20 05:25 PM] Mylo#8306
+And this one, outdated but shows from 2018/aug that Antara was in alpha stage and testable 
+
+https://blog.komodoplatform.com/pre-alpha-komodo-utxo-smart-contracts-notes-7c5e8f49206
+
+
+[19-Nov-20 05:26 PM] Mylo#8306
+These are the only 2 belonging to me. I think Ben o hanlon published a lot of stories
+
+
+[20-Nov-20 08:34 AM] gcharang#6833
+@Mylo please unpublish from kmd, publish to personal and give me the new links. I will setup redirects from the blog.komodoplatform.... to yours
+
+{Reactions}
+👍 
+
+[20-Nov-20 09:46 AM] gcharang#6833
+most of the stories that were directly published on blog.komodoplatform medium account were also present on the official website directly, so we setup redirects for them already
+
+{Reactions}
+👍 
+
+[20-Nov-20 10:09 PM] DrPhu#7023
+"Interest by Default, Create with Komodo"  < Slogan
+
+
+[20-Nov-20 10:12 PM] DrPhu#7023
+"Code with Komodo, Interest by Design"
+
+
+[22-Nov-20 02:59 AM] Mylo#8306
+https://medium.com/@imylomylo/pre-alpha-komodo-utxo-smart-contracts-notes-7c5e8f49206
+https://medium.com/@imylomylo/komodo-quantum-resistant-transactions-musig-for-larger-more-private-multi-signature-transactions-3a4fb5844d47
+
+They were the two articles @gcharang
+
+{Reactions}
+👍 
+
+[22-Nov-20 03:00 AM] Mylo#8306
+dilithium/musig probably useful to keep redirect.
+utxo pre-alpha, shows it was usable back in 2018, but other than that, it's only a historical footnote in kmd history.
+
+{Reactions}
+👍 
+
+[22-Nov-20 09:28 AM] gcharang#6833
+@Mylo  done. all of the following urls resolve correctly now
+https://blog.komodoplatform.com/pre-alpha-komodo-utxo-smart-contracts-notes-7c5e8f49206
+https://blog.komodoplatform.com/komodo-quantum-resistant-transactions-musig-for-larger-more-private-multi-signature-transactions-3a4fb5844d47
+https://blog.komodoplatform.com/
+
+{Reactions}
+👍 
+
+[22-Nov-20 03:24 PM] ejuliano#8606
+mylo your blog posts are good!
+
+
+[22-Nov-20 03:25 PM] ejuliano#8606
+very helpful
+
+{Reactions}
+👍 (3) 
+
+[25-Nov-20 11:50 PM] Bacon#9333
+You said what I was thinking! I have been buying KMD every dip and have Loved KMD for years now. I Shill it all over youtube because I believe the tech is so much better than most other top coins out there. People buy "hype" as they should to make money but do people see how great KMD is? I don't think so. I search every day for a new YouTube video on Komodo but rarely do I ever find one, if any. I can find thousands on ETH, EOS, ZIL, Link, cosmos, Dot  and yet I still think KMD is far better. Someone explain to me why Doge coin is top 50 and KMD is 150? I know Komodo is funded and they are not going to stop innovating but I feel like it need some mention and respect soon or I am goin to start thinking I am nuts.
+
+
+[25-Nov-20 11:55 PM] Deleted User#0000
+@Bacon dont say this in trading, you will get shot
+
+
+[26-Nov-20 12:39 PM] Bacon#9333
+say what?  I don't want to get shot!🦃
+
+
+[26-Nov-20 01:58 PM] Deleted User#0000
+they dont like people with hope 😛
+
+
+[26-Nov-20 06:38 PM] Crabby Paddy#6239
+Is my interest gone? I sent a tax with ledger thinking the balance would reduce by sent - interest, but seems my interest is gone
+
+
+[26-Nov-20 06:38 PM] Crabby Paddy#6239
+and I cant find any other addresses which may hold it :abusedsmily:
+
+
+[26-Nov-20 07:23 PM] Deleted User#0000
+if you sent via ledger @Crabby Paddy without claiming first, interest went to miner
+
+{Reactions}
+abusedsmily 
+
+[26-Nov-20 07:23 PM] Deleted User#0000
+you have to claim using the ledger tool
+
+
+[26-Nov-20 07:44 PM] Crabby Paddy#6239
+Welp one happy miner
+
+
+[26-Nov-20 07:45 PM] Crabby Paddy#6239
+I think it was around 100kmd or 200 😅
+
+
+[26-Nov-20 08:27 PM] gcharang#6833
+@Crabby Paddy if you are using ledger, you should use https://pbca26.github.io/hw-kmd-wallet/ or https://github.com/pbca26/hw-kmd-wallet/releases/tag/v0.1.9
+
+
+[28-Nov-20 04:22 PM] ubhillutd#3274
+Hello. I just installed the desktop version of the atomic dex. Works really well. I just saw something that might be a bug.
+1) I'm getting multiple notifications for the same transactions. 
+2)I've also sent it only once from my phone wallet. But in the notifications it says I've both sent and reviewed.
+3) in the notifications, the information button doesn't really do anything. It just closes out the notifications.
+
+
+[29-Nov-20 01:26 AM] Audo#5667
+Thanks @ubhillutd , I'll flag @gcharang here who collect's issues & feedback.
+
+
+[29-Nov-20 07:43 AM] gcharang#6833
+@ubhillutd can you please share a screenshot (DM is fine) of the notifications? you can try sending another similar transaction to reproduce it
+
+
+[03-Dec-20 06:58 PM] CITEX--Andy#8900
+Hello, I'm the head of operation of CITEX where KMD has been listing. We need to communicate with the technical staff of KMD about some technical problems. Please let the technical staff of KMD PM me, thank you
+
+
+[03-Dec-20 09:27 PM] gcharang#6833
+we have an old telegram chat open with the CITEX team. and it seems there is also an "Andy"  who is part of it. is that you?
+
+
+[03-Dec-20 10:00 PM] CITEX--Andy#8900
+Yes, I get it. Thanks
+
+
+==============================================================
+Exported 728 message(s)
+==============================================================

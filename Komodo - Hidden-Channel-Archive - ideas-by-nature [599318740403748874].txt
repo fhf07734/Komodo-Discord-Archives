@@ -1,0 +1,2552 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / ideas-by-nature
+==============================================================
+
+[12-Jul-19 12:20 PM] Audo#5667
+Hey @ideas_justin & @butthole.finance , you should see this channel now
+
+
+[12-Jul-19 12:22 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/599319692468944897/unknown.png
+
+
+[12-Jul-19 12:24 PM] Audo#5667
+We were thinking one option would be to do something like on the above mockup for the team members without a profile picture. Just their initials / first letter of their name.
+
+For jl777 we wanted to do a bit more. For example a very generic picture of a person with just outlines... i.e. similar line art that you have been using throught the site.
+
+
+[12-Jul-19 12:30 PM] ideas_justin#1384
+Hey Audo, thanks for the invite! Yeah I think we should be able to do the first initials, but we’ll have to check with Chris to be sure.
+
+
+[12-Jul-19 01:25 PM] Audo#5667
+welcome @chrislabeard
+
+
+[12-Jul-19 01:26 PM] chrislabeard#2645
+Hey guys thanks for the invite. Doing the initials should be fine. And we can do one specific for jl777
+
+
+[13-Jul-19 10:13 AM] TS#7923
+I’ve updated the issue tracker with a few visual glitches, padding, etc
+
+
+[13-Jul-19 01:50 PM] butthole.finance#0577
+@TS thanks we're taking a look at it all now
+
+
+[13-Jul-19 02:20 PM] butthole.finance#0577
+@Audo @TS @Daniel CP are any of you in the site editing currently? i'm assuming no since you are probably asleep
+
+
+[13-Jul-19 02:31 PM] butthole.finance#0577
+we are requesting no more new items in the sptreadsheet other than bugs from this point forward before launch
+
+
+[13-Jul-19 07:01 PM] ideas_justin#1384
+Hey guys, what action would you like the discord icon to take when a user clicks on it?
+
+
+[13-Jul-19 07:41 PM] ideas_justin#1384
+@n2okpride  see above question
+
+
+[13-Jul-19 09:03 PM] ideas_justin#1384
+@Audo or @TS maybe you can answer the question?
+
+
+[13-Jul-19 09:28 PM] TS#7923
+Please link to https://discordapp.com/invite/PTcYhCc
+
+
+[13-Jul-19 09:29 PM] TS#7923
+@ideas_justin ^^^
+
+
+[13-Jul-19 09:37 PM] ideas_justin#1384
+@TS thank you. Would you like that for all the discord links? Not individual DMs? I tried to search for how to link to someone's individual Discord DM but it doesn't really work.
+
+
+[13-Jul-19 09:37 PM] ideas_justin#1384
+So to make sure I am correct: everyone on the team should have a discord icon under their name, and that discord icon should link to the link that you just posted.
+
+
+[13-Jul-19 09:51 PM] TS#7923
+Oh no no
+
+
+[13-Jul-19 09:51 PM] TS#7923
+The link above is for the footer etc
+
+
+[13-Jul-19 09:52 PM] TS#7923
+Honestly, I don’t think it makes sense to add Discord links to the individual team members. I am not sure it’s even possible, and even if it is, that can be a spam magnet.
+
+
+[13-Jul-19 09:53 PM] TS#7923
+Individual team members shouldn’t have Discord links, only Twitter, Github, LinkedIn
+
+
+[13-Jul-19 09:53 PM] ideas_justin#1384
+OK cool, that works. Yeah I tried to figure out if it was possible and I couldn't find a way.
+
+
+[13-Jul-19 09:54 PM] TS#7923
+Great, thanks!
+
+
+[13-Jul-19 09:54 PM] ideas_justin#1384
+No problem
+
+
+[13-Jul-19 10:44 PM] Audo#5667
+Another minor thing that came to my mind. 
+
+Currently we use several easy to remember URL's that should carry over to the new site. We should set redirects to these:
+
+komodoplatform.com/discord
+komodoplatform.com/newsletter
+komodoplatform.com/whitepaper
+komodoplatform.com/explorer (currently not in use)
+
+
+[13-Jul-19 10:45 PM] chrislabeard#2645
+@Audo I was going to import all of the current redirects from the old site.
+
+{Reactions}
+👍🏼 
+
+[14-Jul-19 05:46 AM] Audo#5667
+we are editing the site, ping us if we need to log off
+
+
+[14-Jul-19 08:06 AM] TS#7923
+Here's the copy that goes with @808 's animation
+
+
+[14-Jul-19 08:06 AM] TS#7923
+https://docs.google.com/document/d/1zx-F5Sc-VsucwWoLx3-gjB-EveK-0c3Z1idzEhJp3ZU/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/document/d/1zx-F5Sc-VsucwWoLx3-gjB-EveK-0c3Z1idzEhJp3ZU/edit?usp=sharing
+New website animation copy
+Komodo originated from proven technologies: Bitcoin and ZCash.  Its development started in 2014, and it is one of the most established projects in the blockchain industry.    Komodo is the world’s most advanced multi-chain platform.   Each project that builds with Komodo’...
+https://images-ext-1.discordapp.net/external/AKVBs4SPs5S9lN7De4BP9aBRGeODuw2WF5EjFy5zQZ0/https/lh6.googleusercontent.com/YNvZEh-6RxFKO8UyVYa-jQsbwlVtN95dHZtXKYdm8xpo2D229rqpFXtphYoImbkLYRWS2Q%3Dw1200-h630-p
+
+
+[14-Jul-19 09:06 AM] butthole.finance#0577
+@n2okpride when did you want to sync up today?
+
+
+[14-Jul-19 09:13 AM] n2okpride#1967
+When is the earliest you guys will be ready to review?
+
+
+[14-Jul-19 09:31 AM] butthole.finance#0577
+@n2okpride 3PM PST will be good so that Chris can have much done as possible. i'll put it on the calendar for now, text me if that doesn't work
+
+
+[14-Jul-19 09:39 AM] n2okpride#1967
+Might be good to do 1 earlier so my team can attend. We can also do 3pm with just myself.
+
+
+[14-Jul-19 09:47 AM] n2okpride#1967
+I also really need the brochure template
+
+
+[14-Jul-19 10:04 AM] butthole.finance#0577
+Justin was up until 4am last night working on the site design tasks so I will check in with him as soon as he is up.
+
+
+[14-Jul-19 10:04 AM] butthole.finance#0577
+If there are other design asks he still hasn't gotten to, should I prioritize the brochure over the website design tasks?
+
+
+[14-Jul-19 10:05 AM] butthole.finance#0577
+I'll reschedule for 1pm your time but Chris will not have had time to finish the video by then.
+
+
+[14-Jul-19 10:28 AM] n2okpride#1967
+Depends on what's outstanding on his web related tasks
+
+
+[14-Jul-19 10:28 AM] n2okpride#1967
+I need to finish all content pieces today, so the earlier I get it the better
+
+
+[14-Jul-19 11:16 AM] TS#7923
+Still adding a few items to the issue tracker. Trying to be reasonable and not to add every minor thing, just the more important ones 😃
+
+
+[14-Jul-19 11:28 AM] butthole.finance#0577
+@n2okpride here are the tasks:
+For website stuff I still need to:
+1. design the contact form
+2. go through the site and switch out icons where needed
+3. design a graphic for the mutually beneficial symbiosis section
+4. change the icons on the atomic swaps in 7 steps section
+5. Antara logo
+
+
+[14-Jul-19 11:29 AM] butthole.finance#0577
+Justin will work on the brochure immediately, but just know it pushes those other things down.
+
+
+[14-Jul-19 11:29 AM] butthole.finance#0577
+@TS thanks, I will review them and prioritize accordingly for chris
+
+
+[14-Jul-19 12:55 PM] butthole.finance#0577
+here is the hangouts link in 5 minutes: https://meet.google.com/vfw-eiyk-wct
+
+{Embed}
+https://meet.google.com/vfw-eiyk-wct
+Meet
+Real-time meetings by Google. Using your browser, share your video, desktop, and presentations with teammates and customers.
+https://images-ext-2.discordapp.net/external/esmkNqRvv_uM84r7jKXLg4PJYn6vHhrSoJ2Qs7oO2Z8/https/www.gstatic.com/images/branding/product/2x/meet_96dp.png
+
+
+[14-Jul-19 07:36 PM] TS#7923
+Morning guys! I am sure you are still working on the site but I wanted to point out the two major major issues:
+
+1. The video animation is not ready. The UX doesn't work, some slides don't load. There's also an issue when you click on the "Continue" button twice or more as it messes up the video loading.
+
+*PROPOSED FIX*: All slides need to load correctly. A temporary fix is not displaying the "Continue" button until the current scene ends, and fading it in when it's ready to display the next scene. This is not the ideal solution but it should fix the UX mess.
+
+We should also think about how to make the fold a bit better designed, but this is not a priority.
+
+2. Mobile view is very messy. We didn't bring this up earlier as we were assuming this will be the last part you'll be working on, but it still needs a ton of work. For the animation video, we'll probably need to display the text below the animation.
+
+
+[14-Jul-19 08:46 PM] chrislabeard#2645
+Yes working on the mobile responsive part of the site now that most of the content and layouts are finalized.
+
+
+[14-Jul-19 09:01 PM] chrislabeard#2645
+@TS  I think what happened was I got my seek times mixed up. Trying to fix now. The first like 4 layers have pauses in the video so that was easy to track on but once we get to 34 seconds. I'm not 100% sure where the correct spot to stop is.
+
+
+[14-Jul-19 09:22 PM] TS#7923
+@chrislabeard will send you the timing in less than an hour
+
+
+[14-Jul-19 09:24 PM] chrislabeard#2645
+Thanks @TS
+
+
+[14-Jul-19 09:30 PM] TS#7923
+@chrislabeard Added the exact timing to the doc
+
+
+[14-Jul-19 09:49 PM] chrislabeard#2645
+thank you, i'll update that
+
+
+[14-Jul-19 10:39 PM] TS#7923
+Added two new timeline items but the order is off, they were inserted as items #2 and 3. Can we enable reordering?
+
+
+[14-Jul-19 10:54 PM] chrislabeard#2645
+@TS I've turned on the drag and drop ordering for timeline items
+
+
+[14-Jul-19 11:03 PM] TS#7923
+Thank you!
+
+
+[15-Jul-19 03:04 AM] chrislabeard#2645
+@TS I added the timestamps you gave me, and also the button hides when the video is playing. The time stamps don't seem correct still to me.
+
+
+[15-Jul-19 03:19 AM] TS#7923
+Hey @chrislabeard , yea, it’s not right. The problem is that you’ve added the one that should start at 0:09 to 0:01 so the whole sequence is shifted
+
+
+[15-Jul-19 03:21 AM] chrislabeard#2645
+just to clarify the timestamp is where it pauses. Not where it starts from. So when you first come to the page its going from 0 :00- 0:01, then the next layer would be 0:01 - 0:09 , etc.
+
+
+[15-Jul-19 03:21 AM] TS#7923
+No
+
+
+[15-Jul-19 03:21 AM] TS#7923
+The time stamp is when the text following the time stamp should appear
+
+
+[15-Jul-19 03:21 AM] TS#7923
+Sorry I thought it’s clear
+
+
+[15-Jul-19 03:21 AM] TS#7923
+So scene 1 is from 0:00 - 0:09
+
+
+[15-Jul-19 03:22 AM] TS#7923
+Pause, new text, animation with the new text until 0:17
+
+
+[15-Jul-19 03:22 AM] chrislabeard#2645
+okay I get what you are saying. Thats not what I was thinking this would be.
+
+
+[15-Jul-19 03:23 AM] chrislabeard#2645
+I built it off of the old apple mac pro page as a reference.
+
+
+[15-Jul-19 03:25 AM] TS#7923
+I am not aware of that site. Ideally the pauses shouldn't come mid-animation like half of the labels on the left side are already there but the scene pauses.
+
+
+[15-Jul-19 03:28 AM] chrislabeard#2645
+Here is an example of how the mac pro page worked -- https://www.youtube.com/watch?v=fmFSfCwNVJw
+
+{Embed}
+Bootgum
+https://www.youtube.com/watch?v=fmFSfCwNVJw
+Apple Mac Pro - Website Features Page
+The Mac Pro isn't going to be around for much longer. The second-generation Mac Pro, as seen in the video, hasn't seen significant changes since it was relea...
+https://images-ext-2.discordapp.net/external/aM0Mibjl44GOan7yfdhzHQ-1doxyYJcPPWFz2OpDfw8/https/i.ytimg.com/vi/fmFSfCwNVJw/maxresdefault.jpg
+
+
+[15-Jul-19 03:28 AM] chrislabeard#2645
+The video basically freezes and the text comes in.
+
+
+[15-Jul-19 03:29 AM] chrislabeard#2645
+so yah the only thing I'm not doing is fading in the text when it gets to that frame.
+
+
+[15-Jul-19 03:36 AM] TS#7923
+ah yea I see, but this is done with parallax, and looks like parallax was not feasible to implement
+
+
+[15-Jul-19 03:39 AM] chrislabeard#2645
+its actually a video
+
+
+[15-Jul-19 03:39 AM] TS#7923
+and the text is part of the video?
+
+
+[15-Jul-19 03:39 AM] chrislabeard#2645
+no its on top of the video
+
+
+[15-Jul-19 03:39 AM] chrislabeard#2645
+I have the video here somewhere
+
+
+[15-Jul-19 03:40 AM] chrislabeard#2645
+https://www.apple.com/media/us/mac-pro/2013/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/videos/macpro_main_desktop.mp4
+
+{Embed}
+https://www.apple.com/media/us/mac-pro/2013/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/videos/macpro_main_desktop.mp4
+
+
+[15-Jul-19 03:40 AM] chrislabeard#2645
+we are just keeping the text in the same place on our version
+
+
+[15-Jul-19 03:41 AM] TS#7923
+Ah OK, I see. What was the main reason we couldn't implement it like this? I know we've tried but it didn't seem to be working very well
+
+
+[15-Jul-19 03:41 AM] chrislabeard#2645
+The main issue was the mac pro page took up the entire page. Ours is a section within the page, and capturing the scroll events like that is not a great UX.
+
+
+[15-Jul-19 03:42 AM] chrislabeard#2645
+So the solution was going to be to allow the user to just click through the sections within a frame.
+
+
+[15-Jul-19 03:42 AM] chrislabeard#2645
+As if they were scrolling through it.
+
+
+[15-Jul-19 03:43 AM] TS#7923
+Got it, OK. Let's stick to the solution what we have now, just let's adjust the timing. Thank you!
+
+
+[15-Jul-19 03:43 AM] chrislabeard#2645
+okay sounds good, just ping me when you have updated the timestamps.
+
+
+[15-Jul-19 04:08 AM] TS#7923
+@chrislabeard updated according to the mac pro logic
+
+
+[15-Jul-19 04:08 AM] TS#7923
+i.e., pause at this timestamp, with this text
+
+
+[15-Jul-19 04:08 AM] chrislabeard#2645
+okay cool i'll go update it
+
+
+[15-Jul-19 04:08 AM] TS#7923
+removed the screenshots, they are confusing
+
+
+[15-Jul-19 04:38 AM] chrislabeard#2645
+@TS  that seems to be working much better now.
+
+
+[15-Jul-19 04:40 AM] TS#7923
+great, let me check!
+
+
+[15-Jul-19 04:47 AM] TS#7923
+almost there!
+
+
+[15-Jul-19 04:48 AM] chrislabeard#2645
+yah its a pretty snazzy little interactive guide
+
+
+[15-Jul-19 04:49 AM] chrislabeard#2645
+i'm going to step away for a little bit.
+
+
+[15-Jul-19 04:51 AM] TS#7923
+sure no problem
+
+
+[15-Jul-19 04:51 AM] TS#7923
+thanks for holding the fort
+
+
+[15-Jul-19 04:51 AM] TS#7923
+will send you minor tweaks
+
+
+[15-Jul-19 04:57 AM] TS#7923
+two minor tweaks, clearly marked with red
+
+
+[15-Jul-19 04:57 AM] TS#7923
+thanks!
+
+
+[15-Jul-19 04:58 AM] TS#7923
+also, on fold 2 (homepage) the first column padding is broken again
+
+
+[15-Jul-19 05:14 AM] Daniel CP#2020
+re-posting a comment from @808  from the ideas-by-nature channel:
+
+@butthole.finance Just checking, did you receive the images I send yesterday?
+- Built On A Multi-Chain Architecture
+- Cross-Chain Data Notarizations
+- Komodo is the world’s most advanced blockchain platform
+Ah never mind, I see you have used one of them on the work in progress version. What if I want to swap some of these stills with animated gifs later today. What kind of resolution / max file size do you require?
+
+
+[15-Jul-19 05:43 AM] ideas_justin#1384
+@Daniel CP I think @chrislabeard will have to answer this question. He has stepped away from the computer for a little bit, but I will remind him to answer this question when he is back on.
+
+
+[15-Jul-19 05:53 AM] Daniel CP#2020
+Ok thanks @ideas_justin
+
+
+[15-Jul-19 06:07 AM] 808#8446
+Movie is done; https://youtu.be/vlUrWHwCj44 will send the final files via mail.
+
+{Embed}
+Asura
+https://youtu.be/vlUrWHwCj44
+KMD Rebrand movie
+https://images-ext-2.discordapp.net/external/ECK8wwwlFMFnrFyAKxldRo4jmfXitKVXTZbkFOdGSHM/https/i.ytimg.com/vi/vlUrWHwCj44/maxresdefault.jpg
+
+{Reactions}
+shexy 
+
+[15-Jul-19 07:50 AM] butthole.finance#0577
+looks super nice.
+
+
+[15-Jul-19 07:50 AM] butthole.finance#0577
+chris went to bed a few hours ago, so we will need to wait for him to get you an answer @808
+
+
+[15-Jul-19 07:51 AM] butthole.finance#0577
+but swapping out images and GIFs is easy
+
+
+[15-Jul-19 07:52 AM] 808#8446
+Ok, thanks. I will just go with what I think is the right balance between quality / size / frame rate etc. for now.
+
+
+[15-Jul-19 07:52 AM] butthole.finance#0577
+thank you!
+
+
+[15-Jul-19 08:41 AM] n2okpride#1967
+We have the new video, and due to time changes we need to update the copy and time stamps
+
+
+[15-Jul-19 08:41 AM] n2okpride#1967
+we are working on that now
+
+
+[15-Jul-19 08:41 AM] n2okpride#1967
+just FYI
+
+
+[15-Jul-19 08:43 AM] butthole.finance#0577
+ok thanks, so you're editing the homepage right now?
+
+
+[15-Jul-19 08:43 AM] butthole.finance#0577
+i'm going through and making changes too, so i want to make sure we're not overwriting
+
+
+[15-Jul-19 08:44 AM] butthole.finance#0577
+@808 i'm looking for the images that you sent, but i can't seem to find the email
+
+
+[15-Jul-19 08:46 AM] Daniel CP#2020
+@butthole.finance we're not editing on site, just walking through the new vid to make sure time stamps are still good and updating copy
+
+{Reactions}
+👍 
+
+[15-Jul-19 08:57 AM] 808#8446
+@butthole.finance https://drive.google.com/folderview?id=1HbuT6CzGVCztDlbCdlToXzHje3Rmi_r0
+
+
+[15-Jul-19 09:05 AM] butthole.finance#0577
+thanks!
+
+
+[15-Jul-19 09:52 AM] butthole.finance#0577
+@808 for the gifs, just match the image size that you sent over, we can work with that
+
+
+[15-Jul-19 09:54 AM] butthole.finance#0577
+10MB max
+
+
+[15-Jul-19 09:55 AM] butthole.finance#0577
+@n2okpride can we push our standup to later while we're making changes?
+
+
+[15-Jul-19 10:19 AM] 808#8446
+Im now using 800x800 as the resolution. 3000x3000 is too much to render on such short notice. 10mb is ok. I will deliver the gif and png sequence if you want to further optimize.
+
+
+[15-Jul-19 10:54 AM] n2okpride#1967
+@butthole.finance yes we can
+
+
+[15-Jul-19 10:55 AM] 808#8446
+@butthole.finance please see ; https://drive.google.com/open?id=1IolPnwm2p8uqMrvRzjXe1QqOBkPbGAme for the first GIF loop.
+
+
+[15-Jul-19 10:58 AM] 808#8446
+You can see two folders, 'GIF Animations' are my looped exported GIFs. It is very difficult to stay below 10MB. The first GIF has only 90 frames at 12fps / res of 779x558 and its 9,92 MB in size. I have included a 25fps and 12fps PNG sequences so you could try to better compress this.
+
+
+[15-Jul-19 11:01 AM] n2okpride#1967
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600386411518230553/unknown.png
+
+
+[15-Jul-19 11:01 AM] n2okpride#1967
+http://dev-kmd2019.pantheonsite.io/antara-framework/
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/antara-framework/
+Antara Framework - Komodo
+
+
+[15-Jul-19 11:03 AM] butthole.finance#0577
+@n2okpride we're still working on the homepage, so we're going to deprioritize that under
+
+
+[15-Jul-19 11:04 AM] butthole.finance#0577
+@808 which section do you want to use the GIF for? http://dev-kmd2019.pantheonsite.io/delayed-proof-of-work/
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/delayed-proof-of-work/
+Delayed Proof of Work - Komodo
+
+
+[15-Jul-19 11:05 AM] 808#8446
+@butthole.finance The first GIF (ReBrand_GIF_Cross-Chain_Data_Notarizations_12fps.gif) is for this section. Not sure were it is now on the website, maybe @n2okpride can answer that better.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600387542868557832/Screen_Shot_2019-07-11_at_10.50.37.png
+
+
+[15-Jul-19 11:07 AM] n2okpride#1967
+missing quantum security, musig, and more in development.
+
+
+[15-Jul-19 11:08 AM] n2okpride#1967
+https://docs.google.com/document/d/1zx-F5Sc-VsucwWoLx3-gjB-EveK-0c3Z1idzEhJp3ZU/edit    <- Copy for video with updated time stamps
+
+{Embed}
+https://docs.google.com/document/d/1zx-F5Sc-VsucwWoLx3-gjB-EveK-0c3Z1idzEhJp3ZU/edit
+New website animation copy
+PAUSE THE VIDEO AT 0:05  TEXT BELOW SHOULD BE ON SCREEN  Komodo’s development dates back to 2014. The Komodo Platform was built upon from the proven technologies of Bitcoin and ZCash.  Since the project was first launched, Komodo has developed and pioneered dozens of innova...
+https://images-ext-1.discordapp.net/external/AKVBs4SPs5S9lN7De4BP9aBRGeODuw2WF5EjFy5zQZ0/https/lh6.googleusercontent.com/YNvZEh-6RxFKO8UyVYa-jQsbwlVtN95dHZtXKYdm8xpo2D229rqpFXtphYoImbkLYRWS2Q%3Dw1200-h630-p
+
+
+[15-Jul-19 11:11 AM] butthole.finance#0577
+@808 this is what the page looks like right now: http://dev-kmd2019.pantheonsite.io/delayed-proof-of-work/
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/delayed-proof-of-work/
+Delayed Proof of Work - Komodo
+
+
+[15-Jul-19 11:11 AM] butthole.finance#0577
+i put the animated GIF for corss-chain data notarizations. not sure what to use for the top image @n2okpride
+
+
+[15-Jul-19 11:12 AM] butthole.finance#0577
+@Audo need links for this page: http://dev-kmd2019.pantheonsite.io/komodo-basics/
+Ledger and Trezor link
+Paper Wallet link
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/komodo-basics/
+Komodo Basics - Komodo
+
+
+[15-Jul-19 11:16 AM] butthole.finance#0577
+@Audo also needs links for komodo oceanQT section: http://dev-kmd2019.pantheonsite.io/komodo-wallets/
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/komodo-wallets/
+Browse Wallets - Komodo
+
+
+[15-Jul-19 11:30 AM] 808#8446
+@butthole.finance I have added a second GIF; ReBrand_GIF_Advanced_blockchain_platform_12fps.gif
+
+
+[15-Jul-19 11:32 AM] Audo#5667
+Ok, actually let's do this:
+ - delete the three "learn more" buttons on http://dev-kmd2019.pantheonsite.io/komodo-basics/ (the wallet cards)
+ - change the remaining CTA button from "Browse All Available Wallets" to "Browse All Wallets"
+
+Could the  OceanQT simply link back to http://dev-kmd2019.pantheonsite.io/komodo-wallets/ ? (More specifically, to the OceanQT Wallet fold as the downloads are there)
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/komodo-basics/
+Komodo Basics - Komodo
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/komodo-wallets/
+Browse Wallets - Komodo
+
+{Reactions}
+👍 
+
+[15-Jul-19 11:37 AM] butthole.finance#0577
+@n2okpride the first pause point you guys have as 5 seconds, and it does'nt look right so we're changing it to 4 seconds
+
+
+[15-Jul-19 11:37 AM] butthole.finance#0577
+@Audo specific OceanQT links are changelog and everything else on that line if you look at that section
+
+
+[15-Jul-19 11:41 AM] n2okpride#1967
+ok
+
+
+[15-Jul-19 12:03 PM] Audo#5667
+ah! Ok @butthole.finance I can go in and add those links after my break
+
+
+[15-Jul-19 12:03 PM] butthole.finance#0577
+sounds good
+
+
+[15-Jul-19 12:04 PM] butthole.finance#0577
+@n2okpride can we jump on in a half hour to do final review and start the process of launching?
+
+
+[15-Jul-19 12:09 PM] 808#8446
+@butthole.finance here are the PNGs for mobile; https://mab.to/C7McQV9nE
+
+{Embed}
+https://mab.to/C7McQV9nE
+MyAirBridge.com | Send or share big files up to 20 GiB for free
+We will transfer your files easily, safely and rapidly from one place to another. You can send them directly to an email address or share files using a unique link.
+
+
+[15-Jul-19 12:40 PM] butthole.finance#0577
+@n2okpride last thing we're tightening up is the mobile version of the video and the hover animations over the modules. once that's done, we're going to consider a code freeze to draw a line outside of content changes. let's schedule a call for 3PM so that we can review and start launching the site. i will send a calendar invite.
+
+
+[15-Jul-19 12:42 PM] n2okpride#1967
+have you spoke with CA?
+
+
+[15-Jul-19 12:48 PM] butthole.finance#0577
+@n2okpride i have not reached out yet, do you want me to do that or do you want to?
+
+
+[15-Jul-19 12:49 PM] n2okpride#1967
+I don't want to me a middle man. Reach out to him directly please.
+
+
+[15-Jul-19 12:50 PM] n2okpride#1967
+be*
+
+
+[15-Jul-19 12:52 PM] butthole.finance#0577
+@n2okpride i msged him and added him to the calendar invite. i also meant 3PM Mountain, so 2PM Pacific for you
+
+
+[15-Jul-19 01:07 PM] n2okpride#1967
+please add to antara hero section.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600418184616738816/Antara_Chip.png
+
+
+[15-Jul-19 01:22 PM] Audo#5667
+Hey @butthole.finance 
+
+Fixed the links for OceanQT
+
+We need to provide a disclaimer for our own wallets such as OceanQT. Once of the links was to a disclaimer but there's no disclaimer page so I just removed it for now. I think there are two options for disclaimer
+ - new page
+ - pop-up window
+
+Disclaimer is here: https://docs.google.com/document/d/1f5SYl2NzJ47nPztT6H6XMWAIrS9vzYl3TctbTY_QT0k/edit
+
+Please add that task to your tracking sheet. We can do it after launch.
+
+{Embed}
+https://docs.google.com/document/d/1f5SYl2NzJ47nPztT6H6XMWAIrS9vzYl3TctbTY_QT0k/edit
+Disclaimer for official Komodo Wallets
+Disclaimer The software is provided ‘as is’, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non infringement. In no event shall the authors or copyright holders be liab...
+https://images-ext-1.discordapp.net/external/hL1WZcZit9gvVB8dOpGkbvz2bh_kDPJmnKKVz-adLko/https/lh6.googleusercontent.com/SHbVuD6nqO_lMWeoYBbJPGgiwobc7nKfYGNQmhFciVppCN9RngPMEjGE8xatB-zvKlMClg%3Dw1200-h630-p
+
+
+[15-Jul-19 01:23 PM] butthole.finance#0577
+@Audo got it
+
+
+[15-Jul-19 01:38 PM] Daniel CP#2020
+There doesn't seem to be a way to adjust the buttons in the hero scroller on the homepage @butthole.finance
+
+
+[15-Jul-19 01:40 PM] Daniel CP#2020
+For the new AtomicDEX header, we need there to be 2 buttons
+
+
+[15-Jul-19 01:41 PM] Daniel CP#2020
+Learn More --> https://komodoplatform.com/atomic-swaps/
+
+Try AtomicDEX --> atomicdex.io
+
+
+[15-Jul-19 01:48 PM] Audo#5667
+FYI: the team section has gotten mixed up on our about page: http://dev-kmd2019.pantheonsite.io/about-komodo/
+
+It should be on the same order as on our current site (community contributors and community devs at the bottom)
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/about-komodo/
+About Komodo - Komodo
+
+
+[15-Jul-19 01:50 PM] n2okpride#1967
+please add to atomicDEX hero on homepage
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600429021863477265/atomicDEX_hero.png
+
+
+[15-Jul-19 01:51 PM] 808#8446
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600429167493775371/Movie.JPG
+
+
+[15-Jul-19 01:51 PM] 808#8446
+Two pauses are a bit off.
+
+
+[15-Jul-19 01:51 PM] 808#8446
+Maybe add a ‘restart’ button when the sequence has ended?
+
+
+[15-Jul-19 01:53 PM] butthole.finance#0577
+@Audo you can re-order them appropriately here: http://dev-kmd2019.pantheonsite.io/wp-admin/edit.php?post_type=team_members&page=to-interface-team_members
+
+
+[15-Jul-19 01:56 PM] n2okpride#1967
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600430427353907210/unknown.png
+
+
+[15-Jul-19 01:56 PM] butthole.finance#0577
+@Daniel CP you can edit in Oxygen by clicking on the arrow. i went ahead and removed one button and applied that text and links to the buttons for the atomicdex header
+
+
+[15-Jul-19 01:56 PM] n2okpride#1967
+please remove this page. not signed off and not accurate.
+
+
+[15-Jul-19 01:56 PM] n2okpride#1967
+Are we not linking the design system ?
+
+
+[15-Jul-19 02:00 PM] Audo#5667
+What's the meeting link?
+
+
+[15-Jul-19 02:00 PM] butthole.finance#0577
+meet.google.com/zem-zffr-tyx
+
+
+[15-Jul-19 02:01 PM] chrislabeard#2645
+@808 I fixed the timing on those two sections
+
+
+[15-Jul-19 02:01 PM] 808#8446
+Cool, thanks.
+
+
+[15-Jul-19 02:01 PM] Audo#5667
+thanks
+
+
+[15-Jul-19 02:02 PM] 808#8446
+Meeting is now right?
+
+
+[15-Jul-19 02:04 PM] Audo#5667
+yes
+
+
+[15-Jul-19 02:26 PM] Daniel CP#2020
+Komodo's Antara Framework & the new Komodo website are being activated. Please check back in a few minutes.
+
+
+[15-Jul-19 02:26 PM] Daniel CP#2020
+@butthole.finance  we can use this as a message while we're switching over ^
+
+
+[15-Jul-19 02:37 PM] butthole.finance#0577
+thanks
+
+
+[15-Jul-19 02:42 PM] butthole.finance#0577
+@808 http://dev-kmd2019.pantheonsite.io/technology/ the static for the GIF probably should be removed or cleaned up on the white background
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/technology/
+Technology Overview - Komodo
+
+
+[15-Jul-19 02:43 PM] butthole.finance#0577
+@Audo are you good with re-arranging the team categories or do you need me to show you on that?
+
+
+[15-Jul-19 02:43 PM] butthole.finance#0577
+@Daniel CP can you give thumbs up on the atomicDEX slider?
+
+
+[15-Jul-19 02:43 PM] 808#8446
+```the static for the GIF probably should be removed``` not sure what you mean?
+
+
+[15-Jul-19 02:43 PM] Daniel CP#2020
+yeah let me take a quick look
+
+
+[15-Jul-19 02:44 PM] Audo#5667
+is the downtime really just few minutes? if it's 30+ minutes we should not say "few minutes" 😃
+
+
+[15-Jul-19 02:44 PM] Audo#5667
+@butthole.finance I rearranged them and they are now good
+
+
+[15-Jul-19 02:44 PM] Daniel CP#2020
+@butthole.finance it's good
+
+
+[15-Jul-19 02:45 PM] butthole.finance#0577
+@Audo downtime could be an hour or so if all things go well
+
+
+[15-Jul-19 02:45 PM] butthole.finance#0577
+Komodo's Antara Framework & the new Komodo website are being activated. Please check back soon!
+
+
+[15-Jul-19 02:45 PM] butthole.finance#0577
+how about that?
+
+
+[15-Jul-19 02:45 PM] Daniel CP#2020
+Yes that's fine
+
+
+[15-Jul-19 02:45 PM] Audo#5667
+ok
+
+
+[15-Jul-19 02:51 PM] 808#8446
+I have added a new GIF movie; ReBrand_GIF_Smart-Chain_Chips_12fps
+
+
+[15-Jul-19 02:51 PM] 808#8446
+And updated the following GIF movie; ReBrand_GIF_Advanced_blockchain_platform_12fps
+
+
+[15-Jul-19 02:53 PM] butthole.finance#0577
+thanks @808
+
+
+[15-Jul-19 02:54 PM] butthole.finance#0577
+here's the downtime page, komodoplatform.carrd.co
+
+
+[15-Jul-19 02:56 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600445572314431509/unknown.png
+
+
+[15-Jul-19 02:56 PM] Audo#5667
+@ideas_justin I believe you guys are editing the ecosystem page. I tried to update it with this logo.
+
+> Cloud Infrastructure Partner
+
+
+[15-Jul-19 02:56 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600445723254718504/aws-partner-badge_shadow.png
+
+
+[15-Jul-19 02:57 PM] Audo#5667
+Can you guys make that happen? Right before the "financial service providers" section
+
+
+[15-Jul-19 02:59 PM] 808#8446
+@butthole.finance something is wrong with the shadow. Im going to try to fix it. Or leave it out and provide you new files.
+
+
+[15-Jul-19 03:00 PM] n2okpride#1967
+@butthole.finance  Technology Overview  first image shouldn't be that gif
+
+
+[15-Jul-19 03:00 PM] n2okpride#1967
+just use the static image you had there
+
+
+[15-Jul-19 03:00 PM] n2okpride#1967
+bob's new gif will be added to composable section and that should be good
+
+
+[15-Jul-19 03:03 PM] TS#7923
+Guys, please change the copy (subheadline) on the home page, on the first slide of the hero slider.
+
+The main title ("The Future is Multi-Chain") stays the same.
+
+*New subheadline:*
+
+Try the public beta of Antara Smart Chain Composer, a web application which lets anyone customize and deploy a Smart Chain in just minutes.
+
+*New CTAs (replacing the current ones):*
+
+[ Learn More ] --> linking to Technology / Antara Framework
+[ Try Antara Composer ] --> linking to https://composer.kmd.io
+
+
+[15-Jul-19 03:09 PM] butthole.finance#0577
+@808 i will add the new GIF to composability
+@n2okpride tech overview replaced with static
+
+
+[15-Jul-19 03:10 PM] butthole.finance#0577
+i sent CA the downtime page: https://komodoplatform.carrd.co. once he gets that set up we will take down the current pantheon server
+
+{Embed}
+https://komodoplatform.carrd.co.
+Komodo Platform
+Komodo's Antara Framework & the new Komodo website are being activated. Please check back soon!
+https://images-ext-1.discordapp.net/external/9L5vdZW5Q3mnkFlYKgtjyUNkIjURN1RU8-RphBVmQXw/%3Fv17112288223651/https/komodoplatform.carrd.co/assets/images/card.jpg
+
+
+[15-Jul-19 03:14 PM] TS#7923
+Two more things guys, first is very important, the other one is fine tomorrow:
+
+1. Please make sure the Twitter and FB info is set up for the site, it has a thumbnail, etc.
+
+2. Please make sure you add the (existing) Google Analytics code to the site
+
+{Reactions}
+👍 
+
+[15-Jul-19 03:14 PM] 808#8446
+@butthole.finance I figured out the shadow issue. I render a matte for the alpha based on a dark or light background. The gif you used was made for a dark background. When placed on white, the shadow goes all wonky. What I will do is create a new folder with gifs that have no shadow. When you run into the issue you can use that version.
+
+{Reactions}
+👍 
+
+[15-Jul-19 03:24 PM] butthole.finance#0577
+@n2okpride here is the antara logo justin put together that we will put in the antara framework header
+
+
+[15-Jul-19 03:24 PM] butthole.finance#0577
+https://d.pr/free/i/Jh7ScD
+
+{Embed}
+https://d.pr/free/i/Jh7ScD
+Screen Shot 2019-07-15 at 4.24.43 PM.png
+Shared with Droplr
+https://images-ext-1.discordapp.net/external/7mKgIwaPJOV3GNYHkVN6sYARoRVu6dXNQhrWIEWR4Sc/https/d.pr/free/i/Jh7ScD%2B
+
+
+[15-Jul-19 03:26 PM] butthole.finance#0577
+@TS home hero header content updated
+
+{Reactions}
+👍 
+
+[15-Jul-19 03:27 PM] TS#7923
+@chrislabeard 
+I added a new blog post announcing the Composer, but I don't see where can I turn off comments http://dev-kmd2019.pantheonsite.io/?p=15182&preview=true
+
+Can you help me please?
+
+
+[15-Jul-19 03:28 PM] 808#8446
+@butthole.finance Gifs are updated. Please use these versions; https://drive.google.com/open?id=1IolPnwm2p8uqMrvRzjXe1QqOBkPbGAme
+
+
+[15-Jul-19 03:34 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600455156311654514/unknown.png
+
+
+[15-Jul-19 03:35 PM] Audo#5667
+Are you guys still planning to give a facelift to the news posts? Perhaps a light font version with more spacing between linves.
+
+
+[15-Jul-19 03:38 PM] butthole.finance#0577
+@Audo yeah we will do that as a post-launch item
+
+
+[15-Jul-19 03:38 PM] TS#7923
+You locked down the site right?
+
+
+[15-Jul-19 03:38 PM] TS#7923
+it asks for a pwd
+
+
+[15-Jul-19 03:41 PM] butthole.finance#0577
+yeah, we locked it down since we are starting to migrate
+
+
+[15-Jul-19 03:42 PM] TS#7923
+OK
+
+
+[15-Jul-19 03:42 PM] Audo#5667
+@butthole.finance that antara logo is good! Thanks.
+
+We would like to drop the word "framework" though.
+
+We also need a horizontal version. And SVG file (we need to get the logo to the Antara Composer site)
+
+
+[15-Jul-19 03:56 PM] Audo#5667
+Guys, @butthole.finance 
+
+The website is starting to look better and better. However, the blog post / news section is cearly unfinished and everyone will be able to see that.
+
+The problem is that we are forwarding people to read the announcement posts right after launch, and that will be their first impression on the brand. So although the rest of the site is better, our community's opinion might turn out to be negative.
+
+How long would it take to fix the news post formatting? Can we reconsdier?
+
+
+[15-Jul-19 03:57 PM] ideas_justin#1384
+Thanks @Audo. I’m working on getting Antara assets exported now. I will remove the framework from the bottom. The asset pack will have horizontal lockups, stacked lockups, and the mark.
+
+
+[15-Jul-19 03:58 PM] Audo#5667
+ok, thanks @ideas_justin
+
+
+[15-Jul-19 03:58 PM] butthole.finance#0577
+@Audo chris is going to look at that right now and see what small things he can fix so that it can look nicer
+
+
+[15-Jul-19 03:59 PM] Audo#5667
+ok, that is great news @butthole.finance
+
+
+[15-Jul-19 04:26 PM] butthole.finance#0577
+@Audo we did as much as we could for now to make sure it looks better, can you take a look
+
+
+[15-Jul-19 04:27 PM] Audo#5667
+yes, it looks a lot better now, thanks guys
+
+
+[15-Jul-19 04:29 PM] n2okpride#1967
+@Audo just give ibn the current mockup
+
+
+[15-Jul-19 04:29 PM] n2okpride#1967
+not sure if ca is going to update the background or not, i'd rather not wait on it
+
+
+[15-Jul-19 04:29 PM] Audo#5667
+the composer? yes I just saw the page was updated
+
+
+[15-Jul-19 04:29 PM] Audo#5667
+I can make it now
+
+
+[15-Jul-19 04:30 PM] Audo#5667
+https://composer.kmd.io/
+
+
+[15-Jul-19 04:34 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600470185652256791/Antara_Composer_Laptop.png
+
+
+[15-Jul-19 04:35 PM] butthole.finance#0577
+what are we supposed to do with this?
+
+
+[15-Jul-19 04:35 PM] n2okpride#1967
+home page main hero
+
+
+[15-Jul-19 04:35 PM] n2okpride#1967
+add CTA link to the url
+
+
+[15-Jul-19 04:38 PM] butthole.finance#0577
+alright, after we add this we are starting all migration and launching the site
+
+
+[15-Jul-19 04:38 PM] butthole.finance#0577
+which means no changes until we get it live
+
+
+[15-Jul-19 04:44 PM] n2okpride#1967
+yea that's fine
+
+
+[15-Jul-19 04:50 PM] TS#7923
+that's fine, just please make sure the Twitter preview works
+
+
+[15-Jul-19 04:50 PM] TS#7923
+as we'll announce the site there
+
+
+[15-Jul-19 04:51 PM] TS#7923
+btw the Antara logo is pixelated on my retina screen (http://dev-kmd2019.pantheonsite.io/antara-framework/), we can fix this after we are live
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/antara-framework/),
+Antara Framework - Komodo
+
+
+[15-Jul-19 04:54 PM] ca333#0333
+guys it getting late on our end and we will get some rest shortly - we can config DNS now and the next 15-30 mins and afterwards when we are back in the morning
+
+
+[15-Jul-19 04:55 PM] TS#7923
+yea we need to go live ASAP
+
+
+[15-Jul-19 04:59 PM] n2okpride#1967
+Yes I agree. We were targeting early afternoon at the very latest. We've already missed launch date for both EMEA and APJ. We really just need to launch at this point.
+
+
+[15-Jul-19 04:59 PM] butthole.finance#0577
+yes, we got these last minute tasks which weren't easy
+
+
+[15-Jul-19 04:59 PM] butthole.finance#0577
+getting the composer image in was not as easy as just dropping it in
+
+
+[15-Jul-19 05:00 PM] butthole.finance#0577
+we are launching now
+
+
+[15-Jul-19 05:00 PM] n2okpride#1967
+ok thanks.
+
+
+[15-Jul-19 05:00 PM] butthole.finance#0577
+we've accommodated pretty much everything you asked for today, which we've been working on since the call plus all the extras over discord
+
+
+[15-Jul-19 05:12 PM] TS#7923
+looks like we are live, let's quickly test the links etc
+
+
+[15-Jul-19 05:12 PM] TS#7923
+the internal links still point to the staging site
+
+
+[15-Jul-19 05:13 PM] TS#7923
+it's probably just the base URL that needs to be updated in WP
+
+
+[15-Jul-19 05:14 PM] ca333#0333
+yes i updated it immediately when i got the DNS data
+
+
+[15-Jul-19 05:14 PM] ca333#0333
+please validate everything and let me know if all is good
+
+
+[15-Jul-19 05:15 PM] TS#7923
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600480623492202496/unknown.png
+
+
+[15-Jul-19 05:15 PM] n2okpride#1967
+we can fix later, but text is black
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600480662046113802/unknown.png
+
+
+[15-Jul-19 05:15 PM] TS#7923
+all the internal links (for example the very first fold) still point to the staging site
+
+
+[15-Jul-19 05:16 PM] n2okpride#1967
+clicking komodo logo on nav sends me to https://live-kmd2019.pantheonsite.io/
+
+{Embed}
+admin
+https://live-kmd2019.pantheonsite.io/
+Komodo - The future is multi-chain.
+Komodo is introducing the industry's first open, composable Smart Chain platform.
+https://images-ext-1.discordapp.net/external/_lydyjGGuP6FNu76ehE-xpQrPTO1flVYgbYCVKRkzzk/https/live-kmd2019.pantheonsite.io/wp-content/uploads/2019/07/kmd-homepage.jpg
+
+
+[15-Jul-19 05:16 PM] TS#7923
+yea all links still point to pantheon
+
+
+[15-Jul-19 05:17 PM] n2okpride#1967
+Links are pointing to real url for me
+
+
+[15-Jul-19 05:17 PM] butthole.finance#0577
+try clearing your cache, links are working for me
+
+
+[15-Jul-19 05:19 PM] chrislabeard#2645
+running a script to try and catch all the links
+
+
+[15-Jul-19 05:20 PM] chrislabeard#2645
+you may see a red box briefly
+
+
+[15-Jul-19 05:20 PM] n2okpride#1967
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600481885323395105/unknown.png
+
+
+[15-Jul-19 05:20 PM] TS#7923
+I cleared my cache and tried a fresh new browser, all internal links (starting with the CTA on the hero) point to Pantheon for me
+
+
+[15-Jul-19 05:20 PM] n2okpride#1967
+oh ok nm
+
+
+[15-Jul-19 05:25 PM] butthole.finance#0577
+@TS can you go here and authorize the google analytics plugin: http://live-kmd2019.pantheonsite.io/wp-admin/admin.php?page=gadwp_settings
+
+
+[15-Jul-19 05:25 PM] butthole.finance#0577
+that will enable GA
+
+
+[15-Jul-19 05:25 PM] butthole.finance#0577
+same login as before
+
+
+[15-Jul-19 05:28 PM] TS#7923
+thanks, done
+
+
+[15-Jul-19 05:30 PM] TS#7923
+do you know why the hero image of the new blog post has a white border on the right and a smaller one at the top?
+
+
+[15-Jul-19 05:30 PM] TS#7923
+scroll down to Latest News on the home page
+
+
+[15-Jul-19 05:31 PM] TS#7923
+we use the same hero image size as we always have
+
+
+[15-Jul-19 05:31 PM] chrislabeard#2645
+hmm
+
+
+[15-Jul-19 05:32 PM] butthole.finance#0577
+@TS and everyone else: start using komodoplatform.com/wp-admin to edit from now on
+
+
+[15-Jul-19 05:32 PM] chrislabeard#2645
+@TS looks like the image itself has a border around it
+
+
+[15-Jul-19 05:33 PM] chrislabeard#2645
+https://komodoplatform.com/wp-content/uploads/2019/07/Antara-Mainnet-Banner-1024x520.png
+
+{Embed}
+https://komodoplatform.com/wp-content/uploads/2019/07/Antara-Mainnet-Banner-1024x520.png
+https://images-ext-2.discordapp.net/external/Eikhnhf3LXpTgt2aVczO8LWz5QLqwCYkkSmDpeW7Gnw/https/komodoplatform.com/wp-content/uploads/2019/07/Antara-Mainnet-Banner-1024x520.png
+
+
+[15-Jul-19 05:33 PM] chrislabeard#2645
+to the right and top
+
+
+[15-Jul-19 05:33 PM] chrislabeard#2645
+I can crop it
+
+
+[15-Jul-19 05:34 PM] chrislabeard#2645
+and re-upload
+
+
+[15-Jul-19 05:34 PM] TS#7923
+thank you!
+
+
+[15-Jul-19 05:35 PM] chrislabeard#2645
+I like the new post graphics btw. Very nice looking
+
+
+[15-Jul-19 05:36 PM] n2okpride#1967
+Thanks
+
+
+[15-Jul-19 05:37 PM] TS#7923
+@n2okpride please check Rocketchat
+
+
+[15-Jul-19 05:37 PM] n2okpride#1967
+ok
+
+
+[15-Jul-19 05:37 PM] chrislabeard#2645
+@TS I've updated it
+
+{Reactions}
+👍 
+
+[15-Jul-19 05:40 PM] n2okpride#1967
+appreciate all the hard work guys. thanks, and good night 😉
+
+
+[15-Jul-19 05:43 PM] butthole.finance#0577
+thanks steve, @ideas_justin and @chrislabeard really pulled through on this. i have a running list of post-launch items to prioritize moving forward. if you and your team can capture things into the spreadsheet we were using, that would be great so we can scope all of it out.
+
+
+[15-Jul-19 05:47 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600488655781494802/Screenshot_from_2019-07-16_01-47-09.png
+
+
+[15-Jul-19 05:47 PM] SHossain#0007
+for the mobile section, the Verus Agama Wallet is wrong
+
+
+[15-Jul-19 05:47 PM] SHossain#0007
+it's only `Verus Mobile`
+
+
+[15-Jul-19 05:48 PM] SHossain#0007
+they didn't use Agama mobile and coded the app by themselves
+
+
+[15-Jul-19 05:48 PM] SHossain#0007
+https://github.com/VerusCoin/Verus-Mobile
+
+{Embed}
+https://github.com/VerusCoin/Verus-Mobile
+VerusCoin/Verus-Mobile
+The iOS/Android Verus Mobile cryptocurrency wallet. - VerusCoin/Verus-Mobile
+https://images-ext-2.discordapp.net/external/ics999Prx3ZVXBmBBxXT-2M7Vz7hQRqCfv8JUX38JJs/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/38958958
+
+
+[15-Jul-19 05:48 PM] TS#7923
+Google Analytics is not picking up any data
+
+
+[15-Jul-19 05:51 PM] SHossain#0007
+@here please get the mobile section fixed before community members notices it and starts talking about it
+
+
+[15-Jul-19 05:52 PM] TS#7923
+@SHossain can you please tell me what to do exactly? Audo was working on that page so I am not sure what's wrong exactly.
+
+
+[15-Jul-19 05:52 PM] SHossain#0007
+instead of `Verus Agama Wallet` on mobile wallet section, it will be `Verus Mobile`
+
+
+[15-Jul-19 05:53 PM] SHossain#0007
+their mobile wallet is not named `Verus Agama Wallet`
+
+
+[15-Jul-19 05:54 PM] TS#7923
+thanks!
+
+
+[15-Jul-19 05:54 PM] TS#7923
+doing it
+
+
+[15-Jul-19 05:55 PM] TS#7923
+fixed
+
+
+[15-Jul-19 05:56 PM] SHossain#0007
+thanks
+
+
+[15-Jul-19 05:56 PM] TS#7923
+@chrislabeard Google Analytics is not picking up any data (I authorized it)
+
+
+[15-Jul-19 05:59 PM] chrislabeard#2645
+@TS I see the analytics code on the page. So it looks like its there.
+
+
+[15-Jul-19 05:59 PM] TS#7923
+@chrislabeard https://komodoplatform.com/enthusiasts/ is broken in Safari
+
+{Embed}
+admin
+https://komodoplatform.com/enthusiasts/
+Enthusiasts - Komodo
+
+
+[15-Jul-19 05:59 PM] TS#7923
+like, badly 😃
+
+
+[15-Jul-19 06:00 PM] TS#7923
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600491791682240512/unknown.png
+
+
+[15-Jul-19 06:03 PM] chrislabeard#2645
+should be fixed now
+
+
+[15-Jul-19 06:04 PM] TS#7923
+confirmed, thanks!
+
+
+[15-Jul-19 06:06 PM] grewalsatinder#9653
+can we link "Cloud Infrastructure Partner" AWS picture to AWS link where it shows KMD as advanced partner?
+
+
+[15-Jul-19 06:16 PM] TS#7923
+done
+
+
+[15-Jul-19 06:17 PM] Audo#5667
+we are missing bittrex icon on the list of exchanges
+
+
+[15-Jul-19 06:27 PM] grewalsatinder#9653
+@TS perfect! 😃 👍
+
+
+[15-Jul-19 06:28 PM] TS#7923
+@Audo I don't want to touch that fold, but @chrislabeard if you can add a Bittrex logo that would be great.
+
+
+[15-Jul-19 06:28 PM] TS#7923
+link to https://international.bittrex.com/market/?marketName=BTC-KMD
+
+{Embed}
+https://international.bittrex.com/market/?marketName=BTC-KMD
+Bittrex.com - Komodo (BTC-KMD)
+Bittrex
+
+
+[15-Jul-19 07:06 PM] TS#7923
+some good technical feedback here re: SEO etc from a community member
+
+
+[15-Jul-19 07:08 PM] TS#7923
+The typeface, kerning and 'm' in the new logo are off. 
+
+Dropdown menu should happen on mouseover, not by having the user click to access the dropdown menu and then another click to access the submenu item. When you click to open the dropdown menu without clicking a submenu option and scroll the page down, that dropdown remains open and blocks content. The submenu items do not need a horizontal line spacer, white space is best, people will not get confused if hr is removed. Remove mouseover text underlining as well. This is all just lazy megamenu editing by the devs that should have been changed from the start.
+
+Remove drop shadows on everything. It is 2001 fad, not a clean look.
+
+
+[15-Jul-19 07:08 PM] TS#7923
+Buttons: Change the button look and animation. The button mouseovers moving the text up and underlining the word and jittering back to default position is bad. Kill all dropshadows, text underlines and button borders.
+
+Keep the buttons simple. On mouseover have the button background color change and that is all. There is a lack on consistency as well with all the buttons - footer, 'view all news' buttons respond differently.
+
+For text links, just change the font color on mouseover, do not underline the text link.
+
+The infinite scroll on the news page will not be processed by search crawlers. They cannot not access all individual items in the feed. If crawlers cannot access your content, it is unlikely to surface in search results. SEO will fail there.
+
+The Antara animation on the home page is good. Since the rest of the site has fluid edge to edge backgrounds, that section should also have a edge to edge background tying in with the color on the block animation to keep the flow. If at all possible, remove the fade to black transitions and just fade in and out the animations sequences on each other. Also remove the outer dropshadow.
+
+Although the content is organized well, the site itself appears like a plug and play wordpress theme, a megamenu with no tweaking, and general css changes. Designers did not make this site, wordpress hackers did.
+
+
+[15-Jul-19 07:30 PM] hyperDEX#6586
+https://www.centricity.me/ @TS dont know who this should go to but the logo looks very much like theirs
+
+{Embed}
+admin
+https://www.centricity.me/
+Centricity Home - Centricity
+Centricity is a no-code, non-prescriptive workflow enabler providing fast turn-key digitisation of business rules and delivering game-changing results.
+
+
+[15-Jul-19 07:48 PM] TS#7923
+Thanks! This is the right channel. I haven’t worked on the logo but some of the people here did, I don’t know much about the creative process
+
+
+[15-Jul-19 09:05 PM] TS#7923
+Sorry re: the community feedback I should have cleaned it up a bit, it’s obviously just an opinion. Working since 4am is not helping 😃
+
+
+[15-Jul-19 11:06 PM] Mylo#8306
+https://komodoplatform.com/enterprise/
+firefox, huge blankness in middle section.   probably display: flex bug.
+
+{Embed}
+admin
+https://komodoplatform.com/enterprise/
+Enterprise - Komodo
+
+
+[15-Jul-19 11:07 PM] Mylo#8306
+this was fixed in the atomicdex site, same problem existed
+
+
+[16-Jul-19 01:06 AM] Daniel CP#2020
+Link on /about-komodo/  for the Komodo Design System is going to a sign-in page for invision
+
+
+[16-Jul-19 01:06 AM] Daniel CP#2020
+https://projects.invisionapp.com/dsm/ideas-by-natures/komodo-website
+
+
+[16-Jul-19 05:30 AM] Daniel CP#2020
+Please disregard my previous messages about atomic swaps pages, I've found a solution
+
+
+[16-Jul-19 05:57 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/600672422445711360/unknown.png
+
+
+[16-Jul-19 05:58 AM] Audo#5667
+I see this on tech overview page (Chromium browser)
+
+
+[16-Jul-19 08:30 AM] butthole.finance#0577
+@Daniel CP i'm in incognito viewing the design system and it goes directly to the DSM, are you still seeing the same?
+
+
+[16-Jul-19 08:30 AM] butthole.finance#0577
+the permissions are for it to be a public link, so i'm not sure what's wrong with that
+
+
+[16-Jul-19 08:37 AM] Daniel CP#2020
+It's working for me now too
+
+
+[16-Jul-19 08:38 AM] Daniel CP#2020
+Seems resolved
+
+
+[16-Jul-19 11:16 AM] gcharang#6833
+@Audo @TS 
+please set the redirect from https://komodoplatform.com/discord to
+https://discord.gg/dQFSGwp
+
+instead of the current invite link
+
+the current invite link is landing on a archived page
+
+{Embed}
+https://komodoplatform.com/discord
+Join the Komodo Discord Server!
+Check out the Komodo community on Discord - hang out with 9,382 other members and enjoy free voice and text chat.
+https://images-ext-1.discordapp.net/external/uIQAerGm-Hfw8yyS5GSUkIfK67RJIHzrSyavwsdIphY/%3Fsize%3D256/https/cdn.discordapp.com/icons/412898016371015680/09a05a2678165a043141c420742146be.jpg
+
+
+[16-Jul-19 02:59 PM] n2okpride#1967
+What's the font we're using for the Antara Logo?
+
+
+[16-Jul-19 03:01 PM] n2okpride#1967
+to be more specific, the "framework" text part
+
+
+[16-Jul-19 03:10 PM] n2okpride#1967
+i'm guessing it's rubik light? any guidance on character spacing, or just until it fits?
+
+
+[17-Jul-19 01:03 PM] ideas_justin#1384
+Hey Steve. Yeah the font for “antara” is work sans semibold and “framework” is Rubin light. I just learned the second line out until it fit underneath Antara. It isn’t exactly the same width, because that would make it look like it was actually wider than the top text, it’s a few pixels shy of being the same width as the top line.
+
+
+[17-Jul-19 01:03 PM] ideas_justin#1384
+@n2okpride
+
+
+[22-Jul-19 02:48 PM] butthole.finance#0577
+@Audo @TS did either of you post the scaling issue of the image on /technology?
+
+
+[22-Jul-19 02:48 PM] butthole.finance#0577
+is it fixed for you now here? http://dev-kmd2019.pantheonsite.io/technology/
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/technology/
+Blockchain Technology & Platform Overview - Komodo
+Komodo is an open, composable Smart Chain platform with industry-leading blockchain technology. Learn more about Komodo's technology and offerings here.
+https://images-ext-2.discordapp.net/external/eqM3CedjKWQcqupadn7LDr7-l_6FI2j8zPjWnZD8UWI/http/dev-kmd2019.pantheonsite.io/wp-content/uploads/2019/07/komodo-designed-background.png
+
+
+[22-Jul-19 04:44 PM] butthole.finance#0577
+see the new Get Started menu with developer docs and wallets: http://dev-kmd2019.pantheonsite.io/
+we think this is a good solution that puts an emphasis on the Get Started pages as well as the Wallets and Developer Documentation
+
+{Embed}
+admin
+http://dev-kmd2019.pantheonsite.io/
+Komodo - An Open, Composable Smart Chain Platform
+Komodo is introducing the industry's first open, composable Smart Chain platform. Learn more about Komodo's new blockchain technology offerings here.
+https://images-ext-1.discordapp.net/external/5-aBzlqxxVrH4zg9wplbNHa78NzKpMOvXRDUo1uV2ys/http/dev-kmd2019.pantheonsite.io/wp-content/uploads/2019/07/komodo-image.png
+
+
+[22-Jul-19 10:17 PM] Audo#5667
+@butthole.finance it was me, and I still have that issue.
+
+
+[22-Jul-19 10:18 PM] Audo#5667
+get started menu looks good 👍
+
+
+[23-Jul-19 08:40 AM] TS#7923
+I've added a new issue a few hours ago, home page video scrolling is misaligned on mobile (attached a screencast)
+
+
+[23-Jul-19 09:20 AM] chrislabeard#2645
+@TS  I've made the carousel auto-height on mobile so there isn't such a giant space. Let me know if that works better for you.
+
+
+[23-Jul-19 09:53 AM] TS#7923
+Much better, thank you @chrislabeard !
+
+
+[23-Jul-19 10:20 AM] TS#7923
+indesign
+
+user: komodomarketing
+
+sharing the first part of the passwd here. The second part in Telegram w Justin and in marketing-core with our team.
+
+First part: CyYCH%
+
+
+[23-Jul-19 10:20 AM] TS#7923
+@ideas_justin my Telegram is torsten1
+
+
+[23-Jul-19 01:10 PM] chrislabeard#2645
+@TS it looks like with the new video the timestamps might have shifted slightly. Can you confirm? Make sure i'm not crazy.
+
+
+[25-Jul-19 10:33 AM] ideas_justin#1384
+@TS I’m still not able to get logged into InVision. I’m using the email address: marketing@komodoplatform.com and the two halves of the password that you shared. But it’s telling me that the email and/or password is not correct.
+
+
+[26-Jul-19 08:31 AM] ideas_justin#1384
+Hey @TS would you have a few minutes today to help me get logged into this InVision account that you’ve created.
+
+
+[26-Jul-19 11:17 PM] TS#7923
+Hey guys! We have an issue. A community member alerted us that buttons don't work on "many pages" (not sure how many), including https://komodoplatform.com/wallet/komodo-oceanqt/
+
+Now the problem is that this page is not accessible from the site in this form, and it should not be accessible. But it is from Google if you search for "komodo oceanqt", which is something an advanced user would realistically do.
+
+Same if you search for "Komodo Magnum wallet", the 3rd result is https://komodoplatform.com/wallet/magnum-wallet/ and the button doesn't work there either (plus there's no footer padding).
+
+How can we fix this?
+
+{Embed}
+admin
+https://komodoplatform.com/wallet/komodo-oceanqt/
+Komodo OceanQT - Komodo
+Komodo OceanQT wallet is officially supported by the Komodo team and provides a secure way to store your KMD. It’s a native wallet so you must download and sync the KMD blockchain. Note that your private keys are stored in a wallet.dat file and you will have to make backups...
+https://images-ext-1.discordapp.net/external/f22xiOI0m6MXHOw33oHn9Bxa2vhC9klii9bBY7LlCSc/https/komodoplatform.com/wp-content/uploads/2019/07/Komodo-OceanQT.png
+
+{Embed}
+admin
+https://komodoplatform.com/wallet/magnum-wallet/
+Magnum Wallet - Komodo
+Magnum Wallet is a cryptocurrency wallet with all the key capabilities for managing Komodo, Bitcoin and many other popular coins. Features include a built-in exchange, watch-only wallets, and integration of Ledger and Trezor hardware wallet devices.
+https://images-ext-2.discordapp.net/external/Eds0y9TrTWhA-UCBe-BgD-zQUeNFumHLjxrBhzIHlp4/https/komodoplatform.com/wp-content/uploads/2019/07/MagnumWallet.png
+
+
+[28-Jul-19 02:59 PM] butthole.finance#0577
+@TS i'm not sure i understand the problem based on the info immediately. looks like the buttons do work at the moment.
+
+
+[02-Aug-19 06:58 AM] Daniel CP#2020
+Hey guys @butthole.finance @chrislabeard @ideas_justin 
+
+I'm not seeing the Blockchain Security Service page on the dev site
+
+
+[02-Aug-19 06:59 AM] Daniel CP#2020
+Can we make sure to add this in before we push the rest of the changes to the live website?
+
+
+[02-Aug-19 08:38 AM] ideas_justin#1384
+Hey Daniel. Chris will work on getting that page incorporated as soon as he is able to.
+
+
+[02-Aug-19 03:14 PM] ideas_justin#1384
+@Daniel CP the blockchain security page is up on Dev.
+
+{Reactions}
+✅ 
+
+[02-Aug-19 10:28 PM] Daniel CP#2020
+Awesome, thanks Justin
+
+
+[05-Aug-19 04:58 AM] Audo#5667
+hey guys, I was going through the dev site and got few final things that I recorded to the airtable: https://airtable.com/tblPGwMwJRaQ8dqcd/viwobUEFYH1HjGgOJ?blocks=hide
+
+I made a new category "final feedback" to make them stand out.
+
+When do we plan to bring all these changes online?
+
+{Embed}
+https://airtable.com/tblPGwMwJRaQ8dqcd/viwobUEFYH1HjGgOJ?blocks=hide
+Airtable: Organize anything you can imagine
+Airtable works like a spreadsheet but gives you the power of a database to organize anything. Sign up for free.
+https://images-ext-2.discordapp.net/external/wOO2B2WaFrXKHRFn-C_52mTmmd6WpFp5YNlHI3X6hPA/https/static.airtable.com/images/oembed/airtable.png
+
+
+[07-Aug-19 06:48 PM] carl#3101
+most of the buttons and links from komodoplatform.com website point and redirects to https://dev-kmd2019.pantheonsite.io/  doesn't look very professional
+
+{Embed}
+admin
+https://dev-kmd2019.pantheonsite.io/
+Komodo - An Open, Composable Smart Chain Platform
+Komodo is introducing the industry's first open, composable Smart Chain platform. Learn more about Komodo's new blockchain technology offerings here.
+https://images-ext-1.discordapp.net/external/XAm6pYUSVUd-Q33IPXOe__ZY02LaZyti275RVY4kNoA/https/dev-kmd2019.pantheonsite.io/wp-content/uploads/2019/07/komodo-image.png
+
+
+[07-Aug-19 11:09 PM] TS#7923
+@chrislabeard @ideas_justin ^^^
+
+
+[09-Oct-19 09:24 AM] chrislabeard#2645
+@Audo would it be possible to get the translations for the homepage, so I can do some testing. I'm starting with Chinese first.
+
+
+[09-Oct-19 09:55 AM] Audo#5667
+Soundsgood @chrislabeard 
+
+I believe @TS got those translaters somewhere handy. 
+
+@TS can you link the translations here?
+
+
+[09-Oct-19 10:02 AM] chrislabeard#2645
+Thanks @Audo
+
+
+[10-Oct-19 03:00 AM] Audo#5667
+hey @chrislabeard 
+
+Can you guys research and double check that we can use these two plugins we found? If yes, then we will put more thought into how we will use them and purchase the plugins.
+
+https://komodoplatform-bunch.monday.com/boards/310719964/pulses/325600258
+https://komodoplatform-bunch.monday.com/boards/310719964/pulses/325630462
+
+{Embed}
+https://komodoplatform-bunch.monday.com/boards/310719964/pulses/325600258
+monday.com: Your team's growth made easy | Sign In
+monday.com: Your team's growth made easy | Sign In
+https://images-ext-1.discordapp.net/external/-Rz2vWYn7G-IPjoUPBGpblS0E1O9vR1MWOH1zPNkers/https/cdn1.monday.com/monday-200x200.png
+
+{Embed}
+https://komodoplatform-bunch.monday.com/boards/310719964/pulses/325630462
+monday.com: Your team's growth made easy | Sign In
+monday.com: Your team's growth made easy | Sign In
+https://images-ext-1.discordapp.net/external/-Rz2vWYn7G-IPjoUPBGpblS0E1O9vR1MWOH1zPNkers/https/cdn1.monday.com/monday-200x200.png
+
+
+[10-Oct-19 07:39 AM] chrislabeard#2645
+@Audo the social stream one works just fine -- https://dev-kmd2019.pantheonsite.io/stream/
+
+It looks like the elink plugin will use javascript to embed the posts. I'm not 100% sure how y'all are planning on using this, but from a technical standpoint this one will work as well.
+
+{Embed}
+admin
+https://dev-kmd2019.pantheonsite.io/stream/
+Stream - Komodo
+
+
+[10-Oct-19 08:50 AM] Audo#5667
+great! Thank you
+
+
+[10-Oct-19 10:30 AM] Audo#5667
+@chrislabeard looks like there are some bugs on the dev site that are not on the live site
+
+for example the bottom of this page doesn't show up: https://dev-kmd2019.pantheonsite.io/atomic-swap-technology/
+
+also blog posts: https://dev-kmd2019.pantheonsite.io/four-core-requirements-true-dex/
+
+Maybe some update broke something
+
+
+[10-Oct-19 10:36 AM] chrislabeard#2645
+@Audo thanks for bringing that to my attention. The language templates weren't updated with the correct priority for blog posts. That should be fixed now.
+
+I'll look into the atomic swap page see what is going on there as well.
+
+
+[10-Oct-19 10:38 AM] Audo#5667
+no problem
+
+
+[15-Oct-19 09:25 AM] chrislabeard#2645
+@TS hey wanted to check in on getting a page to translate. Have you had a chance to put that together?
+
+
+[16-Oct-19 10:27 AM] Daniel CP#2020
+@chrislabeard  Hi Chris
+
+
+[16-Oct-19 10:27 AM] Daniel CP#2020
+I'm noticing some weird formatting issues with blog posts
+
+
+[16-Oct-19 10:27 AM] Daniel CP#2020
+The author and date of the posts no longer appear and the width of the text boxes is way wider than it was
+
+
+[16-Oct-19 10:28 AM] Daniel CP#2020
+Also, I updated a lot of content Mon and yesterday and now I'm not seeing any of the edits and updates we made
+
+
+[16-Oct-19 10:28 AM] Daniel CP#2020
+Do you know what might be going on?
+
+
+[16-Oct-19 10:30 AM] chrislabeard#2645
+I pushed an update last night with the changes that have been made. I'll revert back to the old site.
+
+So with the changes being made they require database changes, so the only way I can do that is to pull a snapshot of live over to dev and then repush. So we may need more coordination so I don't overwrite work you are doing. e.g. you guys let me know what changes you have made or you make them on both live and dev.
+
+
+[16-Oct-19 10:31 AM] chrislabeard#2645
+@Daniel CP do you have some sort of record of the changes you made so I can make sure dev is up to date with live?
+
+
+[16-Oct-19 10:32 AM] Daniel CP#2020
+I don't have a list. Most of the changes were made directly in WP
+
+
+[16-Oct-19 10:33 AM] Daniel CP#2020
+I updated a blog post, added a lot of content to it, changed a number of links in a number of blog posts, and changed a few redirects
+
+
+[16-Oct-19 10:33 AM] Daniel CP#2020
+Pushed it all live in what wouldve been early your AM yesterday
+
+
+[16-Oct-19 10:33 AM] Daniel CP#2020
+When did you push changes? What changes were they?
+
+
+[16-Oct-19 10:33 AM] Daniel CP#2020
+Might be worth reverting. I spent a lot of time making updates and edits
+
+
+[16-Oct-19 10:34 AM] chrislabeard#2645
+yah I reverted already
+
+
+[16-Oct-19 10:34 AM] chrislabeard#2645
+I just need to know when you guys make changes as I am working on the site.
+
+
+[16-Oct-19 10:35 AM] Daniel CP#2020
+Ok thanks
+
+
+[16-Oct-19 10:36 AM] Daniel CP#2020
+I don't think I was working in your day time (was maybe 7am Denver time)
+
+
+[16-Oct-19 10:36 AM] Daniel CP#2020
+I'lll try to not be in WP at all from 8am--8pm your time
+
+
+[16-Oct-19 10:36 AM] Daniel CP#2020
+Does that sound good?
+
+
+[16-Oct-19 10:36 AM] chrislabeard#2645
+Yah the version of the site I had was from I think middle of last week, which is why I didn't grab your changes.
+
+
+[16-Oct-19 10:37 AM] chrislabeard#2645
+Yah that sounds good, it would be great if you could ping me if you push any changes just so I know to look for them when puling the databases around.
+
+
+[16-Oct-19 10:38 AM] Daniel CP#2020
+OK sure, will do. I'm generally just making changes in the frontend on WP, I very rarely work in Pantheon
+
+
+[16-Oct-19 10:38 AM] Daniel CP#2020
+But I'll ping you when I make changes, I'm editing and updating things pretty regularly
+
+
+[16-Oct-19 10:39 AM] chrislabeard#2645
+Yah its tricky because of the way WP works, when I implement new features that requires database changes. I just need to make sure I have the latest database version before I do any changes and push them up while you aren't working.
+
+
+[16-Oct-19 10:42 AM] Daniel CP#2020
+Ah ok I see
+
+
+[16-Oct-19 10:42 AM] Daniel CP#2020
+I'll keep you updated 👍  thanks for the help and quick fix
+
+
+[16-Oct-19 10:43 AM] chrislabeard#2645
+yah absolutely, i'm gonna look into a way to sync the content between the two instances of the site so its a little less work on you.
+
+
+[16-Oct-19 10:43 AM] chrislabeard#2645
+I'll keep you updated.
+
+
+[16-Oct-19 11:34 AM] n2okpride#1967
+@chrislabeard finally found a good example of a bounty page: https://ark.io/bounties
+
+{Embed}
+https://ark.io/bounties
+Blockchain Bug Bounty | ARK Blockchain
+Take part in ARK's Security, Development and Bug Bounty program to earn rewards in exchange for helping to secure and advance the ecosystem.
+https://images-ext-2.discordapp.net/external/dPTwDdKxPOGe6aMl8JhQw5WEF57r7FXTqXPM4HnSQ-A/https/ark.io/images/meta/bounties.png
+
+
+[16-Oct-19 11:35 AM] n2okpride#1967
+looks like they've integrated this with their github
+
+
+[16-Oct-19 11:36 AM] n2okpride#1967
+We're also looking to build a roadmap page like: https://ark.io/roadmap by year end. Just wanted to put this on your radar
+
+{Embed}
+https://ark.io/roadmap
+ARK Roadmap | ARK Blockchain
+Take a peek at the ARK Development Roadmap to see what we're working on, what's in the pipeline and everything we're working towards.
+https://images-ext-2.discordapp.net/external/XPmHL-9SRzu3q9hhwtZYPFUOyvblvj52SbameQ08wjk/https/ark.io/images/meta/roadmap.png
+
+
+[16-Oct-19 12:39 PM] chrislabeard#2645
+@n2okpride thanks for sending that over, very interesting. I'll have to dig into it a little and see how they are doing it.
+
+
+[17-Oct-19 06:58 AM] Daniel CP#2020
+Hi Chris, I made a bunch of edits in WP today. Just a heads up
+
+
+[17-Oct-19 06:58 AM] Daniel CP#2020
+I'm finishing up with a few things but will be done in ~15 min
+
+
+[17-Oct-19 07:16 AM] Daniel CP#2020
+Ok all changes are saved and I'm logged out. Won't be making any more changes today
+
+
+[17-Oct-19 07:17 AM] Daniel CP#2020
+One thing that needs a quick fix @chrislabeard , somehow the "Sign up to receive the komodo newsletter" button at the bottom of every page is linking to the dev site
+
+
+[17-Oct-19 07:17 AM] Daniel CP#2020
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/634394589326999555/unknown.png
+
+
+[17-Oct-19 07:17 AM] Daniel CP#2020
+Right now, it is linking to:
+
+https://dev-kmd2019.pantheonsite.io/enthusiasts#newsletter
+
+
+[17-Oct-19 07:18 AM] Daniel CP#2020
+Should be linking to:
+
+https://komodoplatform.com/enthusiasts/#newsletter
+
+{Embed}
+admin
+https://komodoplatform.com/enthusiasts/
+Enthusiasts - Komodo
+
+
+[17-Oct-19 07:18 AM] Daniel CP#2020
+Can you please fix when you're online?
+
+
+[17-Oct-19 09:54 AM] chrislabeard#2645
+I'm having trouble making changes to templates looks like the ajax calls are being flagged by cloudflare's firewall. Can somone whitelist my IP on cloudflare? @Audo @Daniel CP
+
+
+[17-Oct-19 09:56 AM] Daniel CP#2020
+@ca333 or @Mylo  Are one of you guys able to help out with this?
+
+{Reactions}
+👍 
+
+[17-Oct-19 09:56 AM] Daniel CP#2020
+I'm not able to help, sorry Chris
+
+
+[17-Oct-19 09:57 AM] ca333#0333
+DM me the IP @chrislabeard - i ll see what i can do
+
+
+[17-Oct-19 10:32 AM] chrislabeard#2645
+@ca333 sent LMK when you've added it and I can test again see if it fixes my problem.
+
+
+[17-Oct-19 11:31 AM] chrislabeard#2645
+@n2okpride looking over that bug bounty page, it looks pretty indepeth. 
+
+As far as that page goes, how much of the functionality are you guys hoping to mirror?
+
+I tried looking around for a 3rd party drop in solution, but didn't immedately find anything.
+
+
+[29-Oct-19 07:27 AM] Daniel CP#2020
+Hey morning @chrislabeard
+
+
+[29-Oct-19 07:55 AM] Daniel CP#2020
+Just deleted a few messages-- please disregard. Requested a new index on search console and it solved the problem
+
+
+[29-Oct-19 08:49 AM] Audo#5667
+hey @chrislabeard , we got a report that the website doesn't work correctly with iPhone X
+
+> The website of Komodo is not working good on my iPhone X. Seems like a stylesheet problem...
+
+
+[29-Oct-19 08:49 AM] Audo#5667
+I'll add that to the monday.com board
+
+
+[29-Oct-19 08:52 AM] chrislabeard#2645
+@Daniel CP okay yah It might of been a caching problem with the redirects, which usually fixes it self once the cache clears. Glad you figured it out.
+
+
+[29-Oct-19 08:52 AM] chrislabeard#2645
+@Audo yah if you have more info that would be great.
+
+
+[29-Oct-19 08:53 AM] chrislabeard#2645
+@ca333 any luck whitelisting my IP address?
+
+
+[29-Oct-19 08:53 AM] Audo#5667
+https://komodoplatform-bunch.monday.com/boards/310719964/pulses/361789860
+
+{Embed}
+https://komodoplatform-bunch.monday.com/boards/310719964/pulses/361789860
+monday.com: Your team's growth made easy | Sign In
+monday.com: Your team's growth made easy | Sign In
+https://images-ext-1.discordapp.net/external/-Rz2vWYn7G-IPjoUPBGpblS0E1O9vR1MWOH1zPNkers/https/cdn1.monday.com/monday-200x200.png
+
+
+[29-Oct-19 08:53 AM] Audo#5667
+uploaded few screenshots there
+
+
+[29-Oct-19 08:54 AM] Audo#5667
+if you still need more info you can PM @Farl here on Discord
+
+
+[29-Oct-19 09:07 AM] chrislabeard#2645
+@Audo I see the problem already. The video isn't responsive you embedded. Looking into a way to fix it.
+
+
+[29-Oct-19 09:07 AM] chrislabeard#2645
+Not an iPhone X specific issue
+
+
+[29-Oct-19 09:12 AM] chrislabeard#2645
+@Daniel CP are you doing making changes for the moment? Was going to pull down a snapshot of the site, and make some changes.
+
+
+[29-Oct-19 09:23 AM] Daniel CP#2020
+Nope, I'm all set for today!
+
+
+[29-Oct-19 09:24 AM] Daniel CP#2020
+I'll be making a few small changes tomorrow but not now
+
+
+[29-Oct-19 09:30 AM] chrislabeard#2645
+k great thanks @Daniel CP
+
+
+[29-Oct-19 10:44 AM] chrislabeard#2645
+@Audo that video issue should be fixed now.
+
+
+[29-Oct-19 12:20 PM] Audo#5667
+thanks @chrislabeard
+
+
+[01-Nov-19 06:17 AM] Daniel CP#2020
+@chrislabeard  When you have a sec can you add alper@komodoplatform.com to the team Pantheon acct?
+
+
+[01-Nov-19 06:17 AM] Daniel CP#2020
+Thanks
+
+
+[04-Nov-19 07:30 AM] chrislabeard#2645
+@Daniel CP must of missed this, I've added that email to pantheon.
+
+
+[04-Nov-19 08:19 AM] Daniel CP#2020
+Ok sounds good, thanks Chris!
+
+
+[04-Nov-19 12:45 PM] Audo#5667
+hey @chrislabeard , I am tring to make a more interesting blog post layout and started to play around Bootstrap.
+
+I followed the instructions and inserted the required HTML code to the blog post page to get what I want. You can check out my draft post "Community Bounties"
+
+It works otherwise but doesn't show up correctly on mobile. I found this is because of the blog post template we use.
+
+When I choose "Default (Blog Post)" under "RENDER PAGE USING TEMPLATE" it doesn't show up correctly on mobile.
+
+When I choose "Page" instead it works on mobile! However, then we don't have the default header as with other blog posts.
+
+
+[04-Nov-19 12:45 PM] Audo#5667
+```
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<div class="media">
+  <img src="https://komodoplatform.com/wp-content/uploads/2019/11/500-KMD.png" class="mr-3" alt="...">
+  <div class="media-body">
+    <h5 class="mt-0">Media heading</h5>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
+
+  </body>
+</html>
+```
+
+
+[04-Nov-19 12:45 PM] Audo#5667
+_ _
+so it seems there's an issue with the 'default (blog post)' template. Would it be possible to fix it so I can use that bootstrap code on my blog post?
+
+
+[04-Nov-19 12:46 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/641015458459287577/unknown.png
+
+{Reactions}
+✅ 
+
+[04-Nov-19 12:46 PM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/641015501446709253/unknown.png
+
+{Reactions}
+❌ 
+
+[04-Nov-19 12:51 PM] chrislabeard#2645
+@Audo It would make more sense to create a new template for blog posts that want to use this alternate layout.
+
+
+[04-Nov-19 12:52 PM] chrislabeard#2645
+Then you just pick that version when using this ,so we don't break the old blog posts
+
+
+[04-Nov-19 12:52 PM] Audo#5667
+alright, makes sense. Is that a quick thing to do?
+
+
+[04-Nov-19 12:53 PM] chrislabeard#2645
+yah gimme a minute I'll throw one up
+
+
+[04-Nov-19 12:53 PM] Audo#5667
+perfect! Thank you
+
+
+[04-Nov-19 12:54 PM] chrislabeard#2645
+well actually i'm still running into that firewall issue on the live site
+
+
+[04-Nov-19 12:54 PM] chrislabeard#2645
+It would be great if I could get around that firewall to make changes
+
+
+[04-Nov-19 12:55 PM] Audo#5667
+ah, ok. @ca333 can we whitelist Chris's IP address? Or whatever else might be the solution.
+
+
+[04-Nov-19 12:57 PM] chrislabeard#2645
+This is the response its getting when it makes a POST request.
+
+
+[04-Nov-19 12:59 PM] chrislabeard#2645
+okay well it won't let me upload a screenshot, but it says "Sorry, you have been blocked"
+
+To contact the site admin with the ray ID
+
+
+[04-Nov-19 01:02 PM] Audo#5667
+you can attach files now @chrislabeard , changed channel permissions
+
+
+[04-Nov-19 01:03 PM] chrislabeard#2645
+thanks
+
+
+[04-Nov-19 01:05 PM] chrislabeard#2645
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/641020238045118464/Screen_Shot_2019-11-04_at_2.56.34_PM.jpg
+
+
+[04-Nov-19 01:07 PM] chrislabeard#2645
+@Audo if it would be okay, I could put that new template in tonight when no one is working or viewing the site? I'll have to do it on dev and then push to live.
+
+
+[04-Nov-19 01:10 PM] Audo#5667
+Yes, that sounds good @chrislabeard 
+
+I just logged out of Wordpress and no one else should be editing it. Daniel is sleeping.
+
+
+[04-Nov-19 01:16 PM] ca333#0333
+@Audo thanks for the ping - @chrislabeard please try again.
+
+
+[04-Nov-19 01:23 PM] Audo#5667
+no problems
+
+
+[04-Nov-19 01:28 PM] chrislabeard#2645
+@Audo is this something you would want to include on every post? I could do in a little more of a programmatic way. Allow you basically to check a box, and fill in the content and image.
+
+
+[04-Nov-19 01:38 PM] Audo#5667
+yes, this would be a reoccuring post type, every month.
+
+If you can make it even more convenient to use that type of layout that's great, although I think I can manage to do it with Bootstrap like I did there. Seemed pretty straight forward.
+
+It would be also good to have one blog template that is compatible with the bootstrap overall, giving us more flexibility. We might want to do something else in the future. I noticed we can use buttons and call-out boxes and other things with the bootstrap right in a normal blog post.
+
+
+[04-Nov-19 01:39 PM] chrislabeard#2645
+gotcha alright I'll try and get something that will work with bootstrap
+
+{Reactions}
+💯 
+
+[05-Nov-19 10:54 AM] chrislabeard#2645
+@Audo so I've included bootstrap on the base blog template, this shouldn't conflict with any the other posts. I'm not using the same classes as bootstrap thankfully.
+
+But when you are editing the page with bootstrap HTML all you will need is the stuff that goes in the body for example
+
+```<div class="row">
+<div class="col">...</div>
+<div class="col">...</div>
+</div>
+```
+
+The JS and CSS are already included on the blog template. Play around with that and let me know if that works for you.
+
+
+[05-Nov-19 11:46 AM] Audo#5667
+ok! Thanks @chrislabeard
+
+
+[06-Nov-19 06:14 AM] Audo#5667
+hmm, it's again not working @chrislabeard , not sure why
+
+I can use a normal layout for this post instead
+
+
+[06-Nov-19 07:18 AM] chrislabeard#2645
+@Audo could you save a post with it not working, so I can see if I can figure out what the issue is? Just some placeholder post with it in there.
+
+
+[06-Nov-19 07:18 AM] Audo#5667
+ok, one sec
+
+
+[06-Nov-19 07:20 AM] Audo#5667
+okay, done @chrislabeard
+
+
+[06-Nov-19 08:25 AM] Audo#5667
+let me know if you find a solution. I would like to post it in few hours
+
+
+[06-Nov-19 09:11 AM] Audo#5667
+any update @chrislabeard ?
+
+
+[06-Nov-19 09:15 AM] chrislabeard#2645
+@Audo can give you an update here in about 30 minutes.
+
+
+[06-Nov-19 09:15 AM] chrislabeard#2645
+Are you using something to generate this code? Or are you doing it by hand?
+
+
+[06-Nov-19 09:16 AM] Audo#5667
+ok sounds good! Thanks
+
+I got the bootstrap elements from here: https://getbootstrap.com/docs/4.3/components/media-object/
+
+and then manually edit the code to change the heading and picture
+
+{Embed}
+https://getbootstrap.com/docs/4.3/components/media-object/
+Media object
+Documentation and examples for Bootstrap’s media object to construct highly repetitive components like blog comments, tweets, and the like.
+https://images-ext-1.discordapp.net/external/zS1U5yTxbx1SEFaivoZbu9FbzunhQB-AersXlVEnl4w/https/getbootstrap.com/docs/4.3/assets/brand/bootstrap-social-logo.png
+
+
+[06-Nov-19 10:10 AM] chrislabeard#2645
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/641700974179778591/Screen_Shot_2019-11-06_at_12.10.24_PM.png
+
+
+[06-Nov-19 10:10 AM] chrislabeard#2645
+@Audo this seems to be doing what its supposed to be doing.
+
+
+[06-Nov-19 10:11 AM] chrislabeard#2645
+There is a little bit of a margin on list items, we can remove that by taking it out of a list.
+
+
+[06-Nov-19 10:11 AM] chrislabeard#2645
+But otherwise this looks correct to me.
+
+
+[06-Nov-19 10:11 AM] Audo#5667
+ok let me check
+
+
+[06-Nov-19 10:11 AM] chrislabeard#2645
+on mobile it seems to be acting kinda wacky
+
+
+[06-Nov-19 10:12 AM] Audo#5667
+yeah, that was the problem. Otherwise it looks good
+
+
+[06-Nov-19 10:12 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/599318740403748874/641701440779190285/unknown.png
+
+
+[06-Nov-19 10:12 AM] chrislabeard#2645
+okay yah gotcha
+
+
+[06-Nov-19 10:12 AM] chrislabeard#2645
+let me add some css to fix it
+
+{Reactions}
+👌 
+
+[06-Nov-19 10:17 AM] chrislabeard#2645
+@Audo I need to pull the site down to dev real quick, just want to make sure you aren't making any changes for like 5 minutes.
+
+
+[06-Nov-19 10:18 AM] chrislabeard#2645
+@ca333 I sent you more info on the error I'm getting on live when trying to post to that URL. Captcha challenge....
+
+
+[06-Nov-19 10:21 AM] Audo#5667
+yeah I am not, no problem
+
+
+[06-Nov-19 10:27 AM] chrislabeard#2645
+@Audo alright take a look, should be correct now.
+
+
+[06-Nov-19 10:27 AM] Audo#5667
+prefect, I'll
+
+
+[06-Nov-19 10:27 AM] chrislabeard#2645
+the one at the very end, you may want to also wrap in the media stuff as well
+
+
+[06-Nov-19 10:28 AM] chrislabeard#2645
+not sure what you were trying to do with that one
+
+
+[06-Nov-19 10:28 AM] chrislabeard#2645
+I have to head out for an appointment, i'll be back in a few hours. But I think you should be good to post this. @Audo
+
+
+[06-Nov-19 10:28 AM] Audo#5667
+yes, it works now! Thanks
+
+
+[07-Nov-19 10:12 AM] TS#7923
+Atomic Swaps
+原子互换
+Atomic swaps are trustless peer-to-peer exchanges of digital assets from one user to the other, without any middleman or intermediary. Atomic swap trading is magnitudes more secure than trading crypto on a centralized exchange, as users never need to give up control over their assets.
+原子交换是从一个用户到另一个用户的去信任点对点数字资产交易，不需要任何中间人或中介。 原子互换交易比在集中化交易所交易加密货币更安全，因为用户永远不需要放弃对其资产的控制。
+
+Digital Asset Trading Is Still Centralized
+数字资产交易仍然是集中化的
+Today, trading one digital asset for another is risky, inconvenient, and costly. Here’s what the trading process looks like when using centralized exchanges:
+今天，将一种数字资产交换成另一种数字资产是有风险、不方便和高成本的。 以下是使用集中化交易所时的交易流程：
+Step 1: Purchase Coins
+第1步：购买数字货币
+Purchase coins using a fiat gateway service. These services only offer a few major assets, so acquiring smaller market cap assets is difficult.
+使用法币网关服务购买数字货币。 这些服务仅提供少量的主要资产，因此难以获得规模较小的市值资产。
+Step 2: Send To An Exchange
+第2步：发送到交易所
+Send the newly-acquired assets to a centralized exchange and wait for the deposit to be confirmed. This may take several hours.
+将新获得的资产发送到集中化交易所，等待存款被确认。 这可能需要几个小时。
+Step 3: Place An Order
+第3步：下订单
+Place trade orders for the desired coins or tokens. A limited variety of trading pairs or a lack of liquidity may make this difficult.
+下达所需数字货币或代币的交易订单。 有限的各种交易对或缺乏流动性可能会使这一点变得困难。
+Step 4: Withdraw Funds
+第四步：提取资金
+Withdraw the funds to a wallet that allows you to control your funds and hold your own private keys. This may also take several hours.
+将资金提取到钱包，允许你控制自有资金并持有自己的私钥。 这可能还需要几个小时。
+This process is a hassle and makes digital asset trading an overly complicated task.
+这个过程很麻烦，使得数字资产交易成为一项过于复杂的任务。
+
+
+[07-Nov-19 10:13 AM] TS#7923
+@chrislabeard ^^^ The first half of Technology / Atomic Swaps
+
+
+[07-Nov-19 11:35 AM] chrislabeard#2645
+@TS here is that translated -- https://komodoplatform.com/zh/atomic-swap-technology/
+
+We can keep the english version of the nav until we have all the pages translated.
+
+{Embed}
+admin
+https://komodoplatform.com/zh/atomic-swap-technology/
+原子互换 - Komodo
+Komodo is the industry leader in atomic swap technology. Learn more about the trustless peer-to-peer exchanges known as atomic swaps.
+https://images-ext-2.discordapp.net/external/yEwEqdwHxGeajjf6iA_KQiD259BYfDu6xO_nerHAQcY/https/komodoplatform.com/wp-content/uploads/2019/07/komodo-designed-background.png
+
+
+[07-Nov-19 12:01 PM] Audo#5667
+@chrislabeard , I invited you and Justin to Rocketchat. Let me know if someone else should be invited as well.
+
+
+==============================================================
+Exported 494 message(s)
+==============================================================

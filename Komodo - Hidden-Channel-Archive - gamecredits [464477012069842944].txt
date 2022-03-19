@@ -1,0 +1,705 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / gamecredits
+==============================================================
+
+[05-Jul-18 10:17 AM] Audo#5667
+@vuksan who else should we invite here from your team?
+
+
+[06-Jul-18 02:16 AM] vuksan#9193
+Mihailo and mpetar please
+
+
+[07-Jul-18 06:18 AM] vuksan#9193
+@Audo Also please invite n64 as well
+
+
+[07-Jul-18 11:45 AM] Audo#5667
+Done!
+
+{Reactions}
+🙏🏿 
+
+[09-Jul-18 07:05 AM] n64#1985
+ty
+
+
+[09-Jul-18 07:46 AM] jl777c#5810
+just a heads up. we are in the process of negotiating a bulk listing with digitalprice.io. I wanted to add GAME as one of the ecosystem coins and we will pay for the listing fee.
+
+{Reactions}
+💯 (5) 
+
+[09-Jul-18 11:21 PM] n64#1985
+awesome, thanks jl777. I’ll communicate it to the higher ups
+
+
+[10-Jul-18 02:36 AM] n64#1985
+@vuksan have you seen a notarization recently? I launched my client an hour ago and still haven't received notarization data... just wondering if its a problem on my end or something else
+
+
+[10-Jul-18 02:36 AM] n64#1985
+```"protocolversion": 80008,
+  "notarizedhash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "notarizedtxid": "0000000000000000000000000000000000000000000000000000000000000000",
+  "notarized": 0,
+  "walletversion": 60000,
+  "balance": 145046.05535126,
+  "blocks": 2094009,```
+
+
+[10-Jul-18 03:19 AM] vuksan#9193
+Wow that is very generous jl thank you
+
+{Reactions}
+👍 
+
+[11-Jul-18 02:03 AM] Mylo#8306
+GAME 1 minute ago.
+`https://komodostats.com -> assetchains -> GAME`
+
+https://komodostats.com/acs.php?ac=GAME
+
+{Reactions}
+👍 
+
+[11-Jul-18 03:48 AM] Mylo#8306
+Also, maybe more relevant to you guys is:
+ - https://komodostats.com/api/notary/summary.json
+you can parse the array for the GAME ntz data.
+ - other stuff https://komodostats.com/api/explorer
+
+
+[11-Jul-18 03:48 AM] Mylo#8306
+put it on your explorer the output or website or other useful scripts.
+
+
+[15-Jul-18 03:41 PM] n64#1985
+Komodo team: we know you are so busy in Komodo, but I’m curious if you’d be interested in helping us out. Long story short: we are creating a GameCredits Foundation to break away from GNation, who is neglecting blockchain development. And we’re looking for people to join and help us out, mostly as volunteers to begin with the possibility of pay in the future. If you’re interested, I will share your name with Nele from GameCredits - the guy who is pushing to get one set up. Even if we can just get a few official Komodo folks backing (no money necessary) we have a chance to show GNation that crypto is with us and we can secure funding from them. You guys would not be the only supporters, a lot of old time GameCredits guys are backing us up as well as community
+
+
+[15-Jul-18 06:28 PM] Mylo#8306
+Interesting.  I'm a komodo noob in contrast to some in the team/community but am curious as to the Foundation you're creating.
+ - what are the goals?
+ - is there a charter/manifesto/vision paper?
+ - will it be for-profit/non-profit?
+ - will it have an entity and if so what jurisdiction/country?
+
+
+[16-Jul-18 09:35 AM] n64#1985
+Goals: to build the ecosystem that was promised to investors. Something GNation doesn’t care about. The original vision. Charter: not yet, but you can be sure we have one in progress. Likely non-profit, just building the ecosystem. Based in Serbia where the blockchain devs are
+
+
+[16-Jul-18 09:35 AM] n64#1985
+Sorry for late reply @Mylo
+
+
+[17-Jul-18 05:40 AM] Mylo#8306
+The visit to Belgrade sounds +ve 😃
+
+
+[25-Jul-18 08:36 AM] siu#3920
+Maybe you could redeploy gamecredits in an assetchain and take advantage of all the smart contracts being built in #dev-modules You guys could even develop your own contracts.
+
+
+[25-Jul-18 08:36 AM] siu#3920
+@n64
+
+
+[25-Jul-18 08:39 AM] n64#1985
+We will consider that, thanks @siu
+
+
+[25-Jul-18 08:51 AM] SHossain#0007
+also, mining would be available as well
+
+
+[25-Jul-18 09:10 PM] Mylo#8306
+and scaling
+
+
+[25-Jul-18 09:11 PM] Mylo#8306
+serge has promised scaling, if your blockchain isn't scaling, may as well do it on komodo and keep your community from getting the pitchforks, but it depends on your "game" side of the projects too.
+
+
+[26-Jul-18 07:10 AM] jl777c#5810
+https://digitalprice.io/order?url=game-btc
+
+{Reactions}
+👍 
+
+[27-Jul-18 11:44 PM] n64#1985
+I saw this on your jobs website and would like to put my hat in the ring. Will send my CV and stuff to the email listed. https://komodoplatform.com/software-test-engineers/
+
+{Embed}
+https://komodoplatform.com/software-test-engineers/
+Software Test Engineers - Komodo
+Software Test Engineers - If you are extreme in your attention to detail and take pride in improving the quality of software, we want to hear from you.
+
+{Reactions}
+👍🏽 
+
+[28-Jul-18 12:12 AM] jl777c#5810
+there is now also a GAME/KMD market: https://digitalprice.io/order?url=game-kmd
+
+{Reactions}
+👌🏽 (4) 💯 (2) 
+
+[29-Jul-18 12:28 PM] n64#1985
+thanks @jl777c! 😃
+
+
+[29-Jul-18 12:31 PM] n64#1985
+just an FYI to all... Jack Kuveke of the former joint venture between GC and GNation is doing an AMA to expose the fraud of GNation management, specifically in regards to the MGO ICO. Since we are separating from them, the community needs to know this (especially those that invested in MGO). https://www.reddit.com/r/CryptoCurrency/comments/92xa4t/jack_kuveke_former_volunteer_communications/
+
+{Embed}
+https://www.reddit.com/r/CryptoCurrency/comments/92xa4t/jack_kuveke_former_volunteer_communications/
+r/CryptoCurrency - Jack Kuveke, former volunteer communications sp...
+1 vote and 0 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/aztUhBUpxIx3LGKNsEJuH5anXOpIZ9NCG0ykeUrwlC0/%3Fs%3D8598544207619a3020f808583e28b4c4/https/i.redditmedia.com/4xFezp8qybWigpg6WN5gkAuI39AIPdv4jdHijFU4_ns.jpg
+
+
+[31-Jul-18 10:41 AM] n64#1985
+here's my account of things... https://twitter.com/samadsajanlal/status/1024340587292618752
+
+{Embed}
+Samad Sajanlal (@samadsajanlal)
+https://twitter.com/samadsajanlal/status/1024340587292618752
+About the @gamecredits, @MobileGoToken, and @gnationglobal fiasco...here’s an outsider’s perspective. #gamecredits #mobilego #game #mgo @Cointelegraph @coindesk https://t.co/4BGSwxuEBV
+Twitter
+
+
+[12-Sep-18 07:28 PM] n64#1985
+@jl777c is there anything functionally different in a kmd notary integration between 0.15.1 and 0.16? Komodo validation.h is version 0.15....exploring this before we begin upgrading GAME
+
+
+[12-Sep-18 11:56 PM] jl777c#5810
+there are bitcoin core syntax changes that seem to have been added just to break other coins, identical functionality just with different syntax
+
+
+[12-Sep-18 11:56 PM] jl777c#5810
+just change those things to compile properly and it will work
+
+
+[13-Sep-18 06:05 PM] n64#1985
+got it, thank you
+
+
+[17-Sep-18 01:41 PM] jl777c#5810
+today we found a bug that appears to be able to in some cases require 2 notarizations for full protection. We are still not 100% sure the exact impact, but with 2 notarizations it appears to be not an issue at all and since the exchanges are using N confirms such that it is getting more than 1 notarization, the risk appears to be small.
+
+we have an early fix that has tested out to resist this attack scenario, but it is not clear yet if it will be a hardforking change or not as things are in the unexpected territory. Also, there might be secondary issues that we will also find and fix after we test the patch more.
+
+I wanted to let you know so you are aware. 
+
+tl:dr Our internal abusing testing found some cases that require 2 notarizations, and we are evaluating the impact of the patch
+
+
+[24-Sep-18 11:42 AM] n64#1985
+Komodo team: all notaries are requested to pull from the master branch and update their codebase to mitigate CVE-2018-17144 DoS attacks
+
+
+[24-Sep-18 11:43 AM] n64#1985
+also please let me know if there is any code update required for the above 2 notarization case... i'm building clients at the moment and would prefer to include any fixes in this release
+
+
+[24-Sep-18 11:44 AM] n64#1985
+@here
+
+
+[24-Sep-18 11:51 AM] grewalsatinder#9653
+@Notary-Operator
+
+
+[24-Sep-18 11:56 AM] jl777c#5810
+at the top of DisconnectTip in main.cpp, add:
+    {
+        int32_t prevMoMheight; uint256 notarizedhash,txid;
+        komodo_notarized_height(&prevMoMheight,&notarizedhash,&txid);
+        if ( block.GetHash() == notarizedhash )
+        {
+            fprintf(stderr,"DisconnectTip trying to disconnect notarized block at ht.%d\n",(int32_t)pindexDelete->nHeight);
+            return(false);
+        }
+    }
+
+
+[24-Sep-18 11:56 AM] Yassin#3685
+👀
+
+
+[24-Sep-18 11:56 AM] jl777c#5810
+it is in all the branches in my repo
+
+
+[24-Sep-18 11:56 AM] n64#1985
+got it. is there any risk of HF scenario in this case?
+
+
+[24-Sep-18 11:56 AM] n64#1985
+or was that mitigated?
+
+
+[24-Sep-18 11:57 AM] n64#1985
+also we don't have a main.cpp 😉 @jl777c would it suffice to place it here? https://github.com/gamecredits-project/GameCredits/blob/master/src/validation.cpp#L2084
+
+{Embed}
+https://github.com/gamecredits-project/GameCredits/blob/master/src/validation.cpp
+gamecredits-project/GameCredits
+GameCredits: a peer-to-peer currency for gamers. Contribute to gamecredits-project/GameCredits development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/JdEM0eu8filABY1TIQen4c38bffX8RldKwcY6_NxBxk/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/12903534
+
+
+[24-Sep-18 11:58 AM] jl777c#5810
+line 2093 is a good place for it
+
+
+[24-Sep-18 11:59 AM] jl777c#5810
+there is a small chance attacker can split the network if they are running different versions. you could height activate the check to being a few weeks in the future
+
+
+[24-Sep-18 12:00 PM] n64#1985
+ok, to confirm placement:
+```    CBlock& block = *pblock;
+    if (!ReadBlockFromDisk(block, pindexDelete, chainparams.GetConsensus()))
+        return AbortNode(state, "Failed to read block");
+    // Apply the block atomically to the chain state.
+    // Komodo fix
+    { 
+        int32_t prevMoMheight; 
+        uint256 notarizedhash,txid; 
+        komodo_notarized_height(&prevMoMheight,&notarizedhash,&txid); 
+        if ( block.GetHash() == notarizedhash ) { 
+            fprintf(stderr,"DisconnectTip trying to disconnect notarized block at ht.%d\n",(int32_t)pindexDelete->nHeight); 
+            return(false); 
+        } 
+    }
+    
+    int64_t nStart = GetTimeMicros();
+    {
+        CCoinsViewCache view(pcoinsTip);```
+
+
+[24-Sep-18 12:00 PM] n64#1985
+i'll take a look at height activation to ensure its done properly
+
+
+[24-Sep-18 12:00 PM] jl777c#5810
+yes that looks good
+
+
+[24-Sep-18 12:06 PM] n64#1985
+and if i read the code correctly, activating it this way should be sufficient.
+```if ( (block.GetHash() == notarizedhash) && (pindexDelete->nHeight > 2177400)) { 
+            fprintf(stderr,"DisconnectTip trying to disconnect notarized block at ht.%d\n",(int32_t)pindexDelete->nHeight); 
+            return(false); 
+        } ```
+
+
+[24-Sep-18 12:07 PM] n64#1985
+until block height 2177400 it won't cause any trouble... after that it should be active
+
+
+[24-Sep-18 12:07 PM] jl777c#5810
+yes, more efficient to do it at the highest level as no point in calling the other things before that height, but either works
+
+
+[24-Sep-18 12:09 PM] n64#1985
+got it. then, if i do it this way, would it work? not primarily a c++ guy so i'm not sure what effect itll have if i write it this way. i used the curly braces from the code snippet you provided and turned it into an if statement.
+
+```// Komodo fix
+    if(pindexDelete->nHeight > 2177400) { 
+        int32_t prevMoMheight; 
+        uint256 notarizedhash,txid; 
+        komodo_notarized_height(&prevMoMheight,&notarizedhash,&txid); 
+        if ( block.GetHash() == notarizedhash) { 
+            fprintf(stderr,"DisconnectTip trying to disconnect notarized block at ht.%d\n",(int32_t)pindexDelete->nHeight); 
+            return(false); 
+        } 
+    }```
+
+
+[24-Sep-18 12:10 PM] n64#1985
+sorry for being a bit of a noob when it comes to c++ and syntax
+
+
+[24-Sep-18 12:12 PM] jl777c#5810
+yes, until 2177400 it wont do anything
+
+
+[24-Sep-18 12:12 PM] n64#1985
+perfect. fix will be pushed now. thank you
+
+
+[24-Sep-18 02:52 PM] siu#3920
+i cloned the repo from here: https://github.com/gamecredits-project/GameCredits
+
+{Embed}
+https://github.com/gamecredits-project/GameCredits
+gamecredits-project/GameCredits
+GameCredits: a peer-to-peer currency for gamers. Contribute to gamecredits-project/GameCredits development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/JdEM0eu8filABY1TIQen4c38bffX8RldKwcY6_NxBxk/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/12903534
+
+
+[24-Sep-18 02:52 PM] siu#3920
+now im getting this: ```/gamecredits/src$ tail ~/.gamecredits/debug.log
+2018-09-24 21:49:21 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2018-09-24 21:49:21 Using 16 threads for script verification
+2018-09-24 21:49:21 scheduler thread start
+2018-09-24 21:49:21 HTTP: creating work queue of depth 16
+2018-09-24 21:49:21 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-09-24 21:49:21 HTTP: starting 4 worker threads
+2018-09-24 21:49:21 init message: Verifying wallet(s)...
+2018-09-24 21:49:21 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-09-24 21:49:21 Using wallet wallet.dat
+2018-09-24 21:49:21 CDBEnv::Open: LogDir=/home/siu/.gamecredits/database ErrorFile=/home/siu/.gamecredits/db.log
+```
+
+
+[25-Sep-18 12:25 AM] n64#1985
+doesn’t look like anything bad, just the dirs didn’t exist beforehand. probably even synced up by now
+
+
+[25-Sep-18 12:25 AM] n64#1985
+note 0.15.3 has been released and is being seeded to miners and exchanges
+
+
+[25-Sep-18 02:30 AM] siu#3920
+it seems like there is an issue with Berkeley DB
+
+
+[25-Sep-18 02:31 AM] siu#3920
+```./gamecredits-cli getinfo
+error: couldn't connect to server: unknown (code -1)
+(make sure server is running and you are connecting to the correct RPC port)
+```
+
+
+[25-Sep-18 11:28 AM] Mihailo#5902
+@n64 Please note that seed nodes are not updated to 0.15.3. BTW, seed nodes are still in GNation ownership. Those that are hardcoded in chainparams.cpp.
+The dnsseed node is I believe yours, right?
+
+
+[25-Sep-18 12:27 PM] n64#1985
+thanks @Mihailo yes the dns seeder is mine, til we have new nodes from GCF I sadly have to keep the other ones up
+
+
+[25-Sep-18 12:27 PM] n64#1985
+@siu “gamecreditsd -daemon”, then you can do that
+
+
+[25-Sep-18 12:28 PM] n64#1985
+There’s no issues with bdb I’ve tested across Linux and Mac 😉
+
+
+[25-Sep-18 12:28 PM] n64#1985
+if you’re running only local then ./gamecreditsd-daemon
+
+
+[25-Sep-18 01:12 PM] siu#3920
+no worries, i delete the whole wallet and it worked
+
+
+[25-Sep-18 01:13 PM] siu#3920
+seems like it had something to do with the notarizations
+
+
+[30-Sep-18 01:42 PM] SHossain#0007
+@Decker here ^^
+
+
+[05-Oct-18 11:17 AM] n64#1985
+Komodo team: is there anyone I can borrow for a small (possibly paid) job? We need electrum with HW wallet support (+src code). Please let me know how much this will cost
+
+
+[10-Oct-18 05:27 PM] n64#1985
+jl777 I want to learn crypto conditions as I’m considering to launch an esports token on Komodo. The idea is to airdrop to existing GAME users to initially seed the token out. where do I start to learn about cc?
+
+
+[11-Oct-18 12:55 AM] gcharang#6833
+High level overview: https://docs.komodoplatform.com/cc/index-book-jl.html
+Comments in the files here: https://github.com/jl777/komodo/tree/FSM/src/cc
+RPC for tokens: https://docs.komodoplatform.com/cc/contracts/tokens/rpc-index.html
+
+{Embed}
+https://github.com/jl777/komodo/tree/FSM/src/cc
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Reactions}
+Komodo 👍 
+
+[11-Oct-18 01:21 PM] Mihailo#5902
+@n64 From my understanding by now of the whole system, I think you should focus on Assets CC. You can tokenize KDM coin into whatever token you name it (with ratio of 1 KDM= 100mil tokens, so if you do not need satoshis for tokens then 1 KMD  gets more than enough tokens) and give it to GAME users. Ofc, I suppose you want to integrate the token in some eSports games/system so they should integrate at least usage of RPC for assets CC in order to be able to send/receive tokens with players.
+
+
+[12-Oct-18 02:22 AM] jl777c#5810
+many ways to do this
+
+
+[12-Oct-18 02:22 AM] jl777c#5810
+a new coin that is airdropped and has CC enabled would give that the most power
+
+
+[12-Oct-18 02:22 AM] jl777c#5810
+but if all you need to do are things tokens can do, you can have a single new chain that the tokens are made on
+
+
+[12-Oct-18 03:40 AM] Mihailo#5902
+@jl777c  I think @n64 does not want to have a new chain and need to have mining and etc. If I understood correctly he just needs the token which could be used for esports purpose. So I think it is best to create a token on KMD chain, correct me if I'm wrong.
+
+
+[12-Oct-18 03:43 AM] jl777c#5810
+KMD wont support ac until next year's hardfork, so one of the existing ac_cc chains would be needed to be used
+
+
+[12-Oct-18 03:43 AM] jl777c#5810
+BTCH is looking for new usecases
+
+
+[12-Oct-18 07:56 AM] Mihailo#5902
+Ok, but CC works on KMD now or not?
+
+
+[12-Oct-18 07:58 AM] jl777c#5810
+it isnt active yet
+
+
+[12-Oct-18 07:58 AM] jl777c#5810
+not on KMD itself, want to make sure it is validated fully first
+
+
+[12-Oct-18 07:59 AM] Mihailo#5902
+Ahh, ok. So then on some asset chain that is active...
+
+
+[12-Oct-18 07:59 AM] jl777c#5810
+next hardrfork to update notaries is when I expect it to go active
+
+
+[12-Oct-18 07:59 AM] jl777c#5810
+yes, much safer to put such cutting edge tech on the smaller chains
+
+
+[12-Oct-18 08:00 AM] jl777c#5810
+i mean we think it is solid, but only way to know something is ready for field deployment is a smaller field deployment
+
+{Reactions}
+👍 
+
+[16-Oct-18 11:37 AM] n64#1985
+I’m definitely interested in the following 2 options for the future of game:
+1) a gateway where users can swap game for game(kmd) and back, allowing users to use crypto conditions
+
+
+[16-Oct-18 11:37 AM] n64#1985
+2) a possible airdrop for existing game holders
+
+
+[16-Oct-18 11:38 AM] n64#1985
+option 1 is still preferred, but possibly with some “bonuses” if those users held game at a certain block height
+
+
+[16-Oct-18 11:38 AM] n64#1985
+the reason 1 is preferred is because exchanges will likely not add GAMEkmd for a while to come, especially since we have no funding at all
+
+
+[16-Oct-18 11:39 AM] n64#1985
+does an assetchain have to be mined or can it act like an erc20 token does: eg where there’s no mining and blocks depend on the parent chain?
+
+
+[16-Oct-18 11:44 AM] jl777c#5810
+you will be able to have a CPU minable coin
+
+
+[16-Oct-18 12:11 PM] n64#1985
+I think it would be great to test this out. Iirc 1 kmd can get me up to 100 mil of an assetchain issued... the tough part is a gateway to swap back and forth
+
+
+[16-Oct-18 12:15 PM] jl777c#5810
+we are testing gateways CC now that automatically (mostly) binds an external coin to a token
+
+
+[16-Oct-18 12:15 PM] jl777c#5810
+once that works, we will extend it to use the native coin instead of a token
+
+
+[16-Oct-18 12:15 PM] jl777c#5810
+then we get a 1:1 two way pegged chain
+
+
+[16-Oct-18 12:16 PM] jl777c#5810
+this chain shouldnt be mining any significant number of new coins as they would be able to be converted to the external coin (GAME)
+
+
+[16-Oct-18 12:16 PM] jl777c#5810
+but if a little dilution is ok, then some small per block reward like 0.0001 would at least motivate CPU mining
+
+
+[16-Oct-18 12:17 PM] jl777c#5810
+so the GAMEcc chain would have a very limited number of coins in circulation
+
+
+[16-Oct-18 12:17 PM] n64#1985
+I think some dilution is fine. I actually intend to lock some addresses from being able to swap over, so there will be less than 84 mil available
+
+
+[16-Oct-18 12:17 PM] jl777c#5810
+at first 99.99% would all be locked in a special address and only by depositing GAME would it be able to be unlocked
+
+
+[16-Oct-18 12:18 PM] jl777c#5810
+via this 1:1 bidirectional gateway, non-CC coins can get all the benefits on the cc chain side, and retain all the exchange listings on the original side
+
+
+[16-Oct-18 12:18 PM] jl777c#5810
+essentially the coin becomes a dual coin, with the combined supply maintained
+
+
+[16-Oct-18 12:18 PM] n64#1985
+beautiful...exactly what we want 😃
+
+
+[16-Oct-18 12:19 PM] jl777c#5810
+it will require a set of custodian nodes to safekeep the GAME in msig address and for them to run a dapp
+
+
+[16-Oct-18 12:19 PM] jl777c#5810
+but once the bugs are all fixed, it should just be a matter or running the daemon and an extra dapp in the background
+
+
+[16-Oct-18 01:02 PM] n64#1985
+Lemme know when I need to get the asset issued on KMD 😉
+
+
+[16-Oct-18 01:03 PM] n64#1985
+I’ve been holding KMD since the TradingView bounty (last November?), not selling a single one...earning the little bit I can when I see something I can work on
+
+
+[16-Oct-18 09:35 PM] jl777c#5810
+we are still a few months away from getting a pegged sidechain for any coin all working, but you can start developing the oracles CC based dapp on any chain with -ac_cc enabled.
+
+
+[17-Oct-18 02:19 AM] Mihailo#5902
+@n64 I'm solving some bugs for multisig gateways now, when it is done you can setup your own asset chain and test how it works...
+
+
+[17-Oct-18 02:22 AM] jl777c#5810
+the part of binding to the native coin isnt implemented yet, but once the token gateway works, i dont think it will take that long
+
+
+[17-Oct-18 02:25 AM] Mihailo#5902
+Yes, I thought just to test gateways on AC without binding native coin. He can test with tokenization of KMD.
+
+
+[17-Oct-18 02:25 AM] Mihailo#5902
+And develop the dApp, and then when native coin can be used just switch to it.
+
+
+[17-Oct-18 02:25 AM] jl777c#5810
+yes, the dapp side would be virtually the same code needed
+
+
+[19-Oct-18 07:40 AM] SHossain#0007
+@n64 @Mihailo can you please provide me an invite link to GAME Discord? i found one in your twitter but link says invalid.
+
+
+[19-Oct-18 07:40 AM] SHossain#0007
+i would like to get a bridge with #gamecredits and GAME Discord's #💬┃general channel
+
+
+[19-Oct-18 07:45 AM] Mihailo#5902
+@SHossain I'm no longer with GAME guys (obviously as I'm with Komodo 😉 ), so @n64 is your point of contact for GAME stuff. Maybe you can see also with @vuksan as he is still with the team AFAIK.
+
+{Reactions}
+👍🏽 
+
+[19-Oct-18 07:45 AM] SHossain#0007
+Thanks.
+
+
+[19-Oct-18 10:28 AM] n64#1985
+This should work @SHossain https://discordapp.com/invite/vDEYBTc
+
+
+[19-Oct-18 10:42 AM] SHossain#0007
+@n64 thanks very much
+
+
+[19-Oct-18 10:42 AM] SHossain#0007
+joined
+
+
+[19-Oct-18 10:43 AM] SHossain#0007
+are you guys interested in getting a bridge between your #💬┃general channel with #gamecredits channel here?
+
+
+[19-Oct-18 10:45 AM] n64#1985
+sure why not, it’ll help the two communities interact with each other better
+
+
+[19-Oct-18 10:45 AM] n64#1985
+what do you need for it to get setup on our side? I assume some api tokens
+
+
+[19-Oct-18 10:51 AM] SHossain#0007
+fantastic. thanks.
+
+
+[11-Dec-18 05:57 AM] benohanlon#7045
+OK to archive this channel @SHossain?
+
+
+[11-Dec-18 06:24 AM] SHossain#0007
+Ask James please.
+
+
+[11-Dec-18 06:29 AM] jl777c#5810
+since there is still the public gamecredits channel, this one seems to be not needed
+
+
+[11-Dec-18 06:32 AM] SHossain#0007
+i put it in the archieved category @benohanlon . thanks @jl777c
+
+
+[15-Oct-19 02:41 AM] Mixic 🐬#3188
+https://komodoplatform.com/ecosystem/?wpv_aux_current_post_id=131&wpv_view_count=15054-TCPID131
+
+{Embed}
+admin
+https://komodoplatform.com/ecosystem/?wpv_aux_current_post_id=131&wpv_view_count=15054-TCPID131
+An Open & Collaborative Blockchain Ecosystem - Komodo
+Komodo is an open, composable Smart Chain platform with a thriving ecosystem of developers, entrepreneurs, consultants, and third-party service providers.
+https://images-ext-1.discordapp.net/external/cdjEZNTu_SpW37iLNTZmFBAvV17L3W4YUzZwgcTz_vU/https/komodoplatform.com/wp-content/uploads/2019/07/komodo-image.png
+
+
+[15-Oct-19 02:41 AM] Mixic 🐬#3188
+Link to https://gamecredits.com
+You need https://gamecredits.org
+
+
+[15-Oct-19 05:05 AM] Audo#5667
+Thanks, we will change it
+
+
+[12-Nov-19 06:00 AM] n64#1985
+@Audo the link is still broken
+
+
+[12-Nov-19 06:17 AM] Audo#5667
+ah is it? I thought I fixed it
+
+
+[12-Nov-19 06:20 AM] Audo#5667
+it is now fixed @n64
+
+
+[12-Nov-19 08:00 AM] n64#1985
+ty
+
+
+==============================================================
+Exported 138 message(s)
+==============================================================

@@ -1,0 +1,3190 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / atomicdex
+==============================================================
+
+[18-Sep-18 12:25 PM] ca333#0333
+@namhoang28 i sent you an invite for https://github.com/KomodoPlatform/dicoapp-e/ which will be the new official repo. please accept the pull request on your repo to keep both synced. I locally fixed the path err in the komodoplatform repo fork already. 
+Also shared the workpackage for the second part of the dICO-app porting challenge with you via DM. thank you for your effort so far!
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[18-Sep-18 12:25 PM] ca333#0333
+@SHossain can you please test https://github.com/particle4dev/dicoapp-e/releases/tag/v0.8.0 if you have some spare time - use a sandbox or virgin machine - binaries arent sec-checked
+
+{Embed}
+https://github.com/particle4dev/dicoapp-e/releases/tag/v0.8.0
+particle4dev/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - particle4dev/dicoapp-e
+https://images-ext-1.discordapp.net/external/aoYFsE1Mstym_kQHATdrwByqGRZjypnRA7_QKcsOYCQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3245868
+
+
+[18-Sep-18 12:26 PM] ca333#0333
+code review is ongoing
+
+
+[18-Sep-18 12:26 PM] ca333#0333
+@siu can you please share your test-results so far (OS, swaps, swap-conditions [utxo-nums, balance, trading-pairs, etc.]
+
+
+[18-Sep-18 12:28 PM] ca333#0333
+fyi - like announced during the meeting the new dICO app port will evolve into atomicDEX within the coming weeks
+
+
+[18-Sep-18 12:28 PM] SHossain#0007
+@ca333 Thanks. I'll have a sandboxed setup done tomorrow morning, then will test and let you know.
+
+
+[18-Sep-18 12:28 PM] ca333#0333
+thanks a lot
+
+{Reactions}
+👍🏽 
+
+[18-Sep-18 12:37 PM] siu#3920
+yes... will document and share. So far i have only tested in linux with BEER/COQUI and KMD/COQUI
+
+
+[18-Sep-18 04:11 PM] namhoang28#4328
+hey @SHossain, I just fixed small bug in build version. Please use this version to test.
+https://github.com/particle4dev/dicoapp-e/releases/tag/v0.8.1
+But I still highly recommend if you can run it from source.
+ My OS environment: 
+ ``` Node: v9.11.2 
+Npm: 6.3.0 ```
+ Also just recorded a video demo if you don’t have time to run and curious what it looks like.
+ Thanks!
+https://www.dropbox.com/s/0yv26pc0rmahsbc/Screen%20Capture2018-09-19%2005_57_37.mov?dl=0
+
+{Embed}
+https://github.com/particle4dev/dicoapp-e/releases/tag/v0.8.1
+particle4dev/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - particle4dev/dicoapp-e
+https://images-ext-1.discordapp.net/external/aoYFsE1Mstym_kQHATdrwByqGRZjypnRA7_QKcsOYCQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3245868
+
+{Embed}
+https://www.dropbox.com/s/0yv26pc0rmahsbc/Screen%20Capture2018-09-19%2005_57_37.mov?dl=0
+Screen Capture2018-09-19 05_57_37.mov
+Shared with Dropbox
+https://images-ext-2.discordapp.net/external/mudI2jANj9oO-W6R75qq2_7U3Q7hdW6v58b17gBi8Xs/%3Fpreserve_transparency%3DFalse%26size%3D1200x1200%26size_mode%3D4/https/www.dropbox.com/temp_thumb_from_token/s/0yv26pc0rmahsbc
+
+
+[19-Sep-18 12:30 AM] ca333#0333
+@namhoang28 like aforementioned we will be using https://github.com/KomodoPlatform/dicoapp-e/ - please merge the updates over to our repo and re-release test-version there. OSX and WIN not working after my local fixes. I wont be able to debug until i finished the secure code review - we re 80% through the codebase already. Please check it out. posted you first osx specific issue on github: https://github.com/KomodoPlatform/dicoapp-e/issues/2
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/issues/2
+OSX appdata path error · Issue #2 · KomodoPlatform/dicoapp-e
+App threw an error during load Error: ENOENT: no such file or directory, mkdir '/Users/ca/Library/Application Support/dICOApp/dicoapp' had to manually create dicoapp dir inside dicoapp to g...
+https://images-ext-1.discordapp.net/external/x4cnhfW4etZ_geuZqY6w23LhWeBDnVHlZ1AOrWNI2zM/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/10762374
+
+
+[19-Sep-18 12:41 AM] namhoang28#4328
+I'm working on it!
+
+
+[19-Sep-18 12:43 AM] ca333#0333
+thanks a lot!
+
+
+[19-Sep-18 03:20 AM] SHossain#0007
+Almost finished with setting up VM.
+
+
+[19-Sep-18 03:20 AM] SHossain#0007
+Testing soon
+
+
+[19-Sep-18 03:22 AM] grewalsatinder#9653
+@ca333 @namhoang28 really happy to see our DEX evolving in all directions via different apps. Thanks for your work on atomicDEX mates. looking nice 🙂 👍
+
+{Reactions}
+👍 (2) 
+
+[19-Sep-18 04:15 AM] SHossain#0007
+@namhoang28 @ca333 When creating a new account, if i click on the copy to clipboard button or icon, the clipboard data contains an extra `blank space`
+
+
+[19-Sep-18 04:16 AM] SHossain#0007
+so, when i paste the seed to a notepad, i see 1 additional space after the last word of the phrase
+
+
+[19-Sep-18 04:17 AM] namhoang28#4328
+That should be a bug. Please open new issue so we can keep track on it
+
+
+[19-Sep-18 04:18 AM] namhoang28#4328
+I will add a test to cover this case. Thanks
+
+
+[19-Sep-18 04:18 AM] SHossain#0007
+will do.
+
+
+[19-Sep-18 04:39 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/491936275331547136/Screenshot_from_2018-09-19_12-32-32.png
+
+
+[19-Sep-18 04:39 AM] SHossain#0007
+can't login using passphrase
+
+
+[19-Sep-18 04:39 AM] SHossain#0007
+ubuntu 18.04
+
+
+[19-Sep-18 04:43 AM] SHossain#0007
+when i click on Log in button it displays the avobe error. no matter the input (seed, wif or any words or numbers)
+
+
+[19-Sep-18 04:47 AM] namhoang28#4328
+@SHossain did market maker application run in background?
+I highly recommend if you can run it from source. I don't use ubuntu so I have not tested linux version yet
+
+
+[19-Sep-18 04:48 AM] SHossain#0007
+aha...i thought the `.deb` package had everything inside
+
+
+[19-Sep-18 04:49 AM] namhoang28#4328
+it has marketmaker inside and it should start it in background
+
+
+[19-Sep-18 04:49 AM] namhoang28#4328
+but I don't know 😃
+
+
+[19-Sep-18 04:51 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/491939363333210112/Screenshot_from_2018-09-19_12-51-01.png
+
+
+[19-Sep-18 04:53 AM] SHossain#0007
+bundled packages should include marketmaker binary for all OS
+
+
+[19-Sep-18 05:01 AM] namhoang28#4328
+https://www.dropbox.com/s/x4t659f0yt0mdl1/Screen%20Shot%202018-09-19%20at%2018.54.38.png?dl=0
+Thanks, got it.
+But it has when i check. Maybe permission error occurred.
+Noted, will check tonight
+
+{Embed}
+https://www.dropbox.com/s/x4t659f0yt0mdl1/Screen%20Shot%202018-09-19%20at%2018.54.38.png?dl=0
+Screen Shot 2018-09-19 at 18.54.38.png
+Shared with Dropbox
+https://images-ext-1.discordapp.net/external/KPgFxIgPi_6kRXEsCLiyRSygXWO56IqZE-XhcOf6NW4/%3Fpreserve_transparency%3DFalse%26size%3D1200x1200%26size_mode%3D4/https/www.dropbox.com/temp_thumb_from_token/s/x4t659f0yt0mdl1
+
+{Reactions}
+👍🏽 
+
+[19-Sep-18 05:44 AM] namhoang28#4328
+@SHossain fixed extra-blank-space bug, please check merge request
+https://github.com/KomodoPlatform/dicoapp-e/issues/19
+https://github.com/KomodoPlatform/dicoapp-e/pull/20/files
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/issues/19
+seed contains an extra blank space · Issue #19 · KomodoPlatform/...
+Title: seed should not contain an extra blank space Currently: When creating a new account, if I click on the copy to clipboard button or icon, the clipboard data contains an extra blank space - @h...
+https://images-ext-1.discordapp.net/external/aoYFsE1Mstym_kQHATdrwByqGRZjypnRA7_QKcsOYCQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3245868
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/pull/20/files
+seed-contains-an-extra-blank-space by particle4dev · Pull Request...
+General Checklist:
+
+
+ Tests added for this feature/bug
+
+
+ All tests are passed
+
+
+ No lint error
+
+
+Review
+
+ Has been reviewed
+
+
+
+ Conform by the [merge request performance guides]
+
+
+ Conform by the ...
+https://images-ext-1.discordapp.net/external/aoYFsE1Mstym_kQHATdrwByqGRZjypnRA7_QKcsOYCQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3245868
+
+
+[19-Sep-18 07:30 AM] SHossain#0007 (pinned)
+anyone wants to test this app, use the following instructions to get it installed
+
+## Install dependencies
+```shell
+sudo apt install git curl libc6-i386 libgconf-2-4
+```
+## Install NVM
+```shell
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+```
+Exit from the current terminal and start another terminal window and enter the following.
+```shell
+nvm install 9.11.2
+nvm use 9.11.2
+```
+
+## Install Yarn
+```shell
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install --no-install-recommends yarn
+```
+## Clone the repo
+```shell
+git clone https://github.com/KomodoPlatform/dicoapp-e
+cd dicoapp-e
+yarn install
+yarn dev
+```
+
+{Reactions}
+👍 
+
+[19-Sep-18 07:40 AM] SHossain#0007
+Pinned a message.
+
+
+[19-Sep-18 10:58 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/492031718430212096/Screenshot_from_2018-09-19_18-56-36.png
+
+
+[19-Sep-18 10:59 AM] SHossain#0007
+can we have withdraw to same address enabled? or would that cause any issue?
+
+
+[19-Sep-18 11:08 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/492034160194486272/Screenshot_from_2018-09-19_19-05-54.png
+
+
+[19-Sep-18 11:08 AM] SHossain#0007
+@siu buying from your bob
+
+
+[19-Sep-18 11:13 AM] SHossain#0007
+first time with only 1 utxo, i selected the pair and put buy order. marketmaker auto splitted the utxo and made 3 new small sized utxo ready for trading. but, the trade status was stuck 0/6 for a long time and no option to start another trade. only way was to restarting the app completely.
+after restart, the first swap started and stuck at 4/6.
+
+
+[19-Sep-18 11:17 AM] SHossain#0007
+i guess, if we provide the ability to issue 2 or more swap simultaneously, end user don't have to start the app twice to perform their first swap. or provide manual split functionality.
+
+
+[19-Sep-18 11:26 AM] siu#3920
+there was an issue related to the websocket status that @namhoang28 was working with
+
+
+[19-Sep-18 11:27 AM] siu#3920
+it worked well previously with swapsstatus, but he is in the process of implementing it
+
+{Reactions}
+👍🏽 
+
+[19-Sep-18 11:30 AM] namhoang28#4328
+comment this line if you want to turn websocket off
+```
+https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/containers/BuyPage/index.js#L221
+```
+
+
+[19-Sep-18 11:32 AM] namhoang28#4328
+Just integrated it 3 days ago. The codebase is quite new and has not well test yet so maybe it has a bug.
+
+
+[19-Sep-18 11:33 AM] SHossain#0007
+Extra space at the end of seed bug is fixed already. Thanks @namhoang28
+
+{Reactions}
+👌 
+
+[19-Sep-18 11:34 AM] SHossain#0007
+with the current system, if we don't allow additional buy order capability, users with stuck swap must restart before they can issue another swap.
+
+{Reactions}
+💯 
+
+[19-Sep-18 11:40 AM] SHossain#0007
+We need swap history as well
+
+
+[19-Sep-18 11:41 AM] siu#3920
+Commented line 221, now the login doesnt load
+
+
+[19-Sep-18 12:18 PM] siu#3920
+what i notice with the websocket is that it jumps to alice payment when the server is still confirming bob deposit
+
+
+[19-Sep-18 02:01 PM] ca333#0333
+whats the exact issue with the websocket stream? @namhoang28
+
+
+[19-Sep-18 08:48 PM] namhoang28#4328
+Sorry guys, it was midnight in my timezone. 
+```what i notice with the websocket is that it jumps to alice payment when the server is still confirming bob deposit``` @siu @ca333 Don’t know exactly what happened because I only get swap data from socket stream and update to redux store the changes. Don’t do any magic thing. It can be 1 to 10 seconds faster than server since it’s realtime. I will test it again today after I solve a bug related marketmaker in linux.
+
+
+[19-Sep-18 08:53 PM] namhoang28#4328
+```with the current system, if we don't allow additional buy order capability, users with stuck swap must restart before they can issue another swap.
+We need swap history as well```
+@SHossain Agreed. Original idea is dICOapp and now it changed alot lol. Noted!
+
+
+[20-Sep-18 12:27 AM] ca333#0333
+thanks for the info @namhoang28 - i tested the app on OSX through the night and i finished a full code review with 88. 
+now we are ready to modify the buy-view. Do you want me to modify it in my meteor prototype or is it enough if i sketch it on paper and send you that?
+
+
+[20-Sep-18 12:29 AM] ca333#0333
+we are basically going to modify the "buy" view and turn it into a two area dropdown where each dropdown will let you chose the token you want to swap. For example dropdown in the left side is set to KMD and on the right side its set to BTC - means i want to swap KMD for BTC (= "buy BTC with KMD") - the logic of the actual swap wont change since we just replace the dICO-token on the left side with various other tokens. 
+I ll send you a DM with more precise information on this task.
+
+
+[20-Sep-18 04:29 AM] ca333#0333
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/492296337338138634/atomicdex.jpg
+
+
+[20-Sep-18 04:30 AM] ca333#0333
+this is just mockup of how the former buy view will look like. the green area is a input box, the grey "swap" in the middle is the button to issue the swap
+
+
+[20-Sep-18 04:31 AM] ca333#0333
+and below we just have the swap history with a realtime swap status update (if you click on "i" it shall show a modal with further swap details)
+
+
+[20-Sep-18 04:31 AM] SHossain#0007
+i like the structure of this mockup
+
+
+[20-Sep-18 04:31 AM] ca333#0333
+and the grey buttons with the arrows pointing downwards are the dropdown
+
+
+[20-Sep-18 04:31 AM] ca333#0333
+once a user clicks there it should show all available tokens
+
+
+[20-Sep-18 04:32 AM] SHossain#0007
+and, it has swap history 😃
+
+
+[20-Sep-18 04:37 AM] ca333#0333
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/492298307079766016/atomicdex_dropdown.jpg
+
+
+[20-Sep-18 04:38 AM] ca333#0333
+this is how i vision the coin-selection modal which gets opene via the red dropdown arrow
+
+
+[20-Sep-18 05:27 AM] ca333#0333
+I think we need to clear a basic question first befor modifying the app into atomicDEX - how do we want to pull this? we have multiple options:
+a) separating the dICO app (for sake of 3rd party dICO operators and ecosys service providers) as a whitelabeled solution
+b) with a) also having atomicDEX being a separate standalone application (shapeshift like trading wallet)
+c) or integerating a atomicDEX view into Agama
+[cc: @jl777c @SHossain @siu ]
+
+
+[20-Sep-18 05:28 AM] siu#3920
+all 3
+
+
+[20-Sep-18 05:28 AM] siu#3920
+heheh
+
+
+[20-Sep-18 05:29 AM] SHossain#0007
+Integerating the atomicDEX view into Agama would take Agama to a whole new level 😃
+
+
+[20-Sep-18 05:29 AM] SHossain#0007
+A Multi-Currency Wallet with DEX functionality!!!!!! Superb!
+
+
+[20-Sep-18 12:08 PM] siu#3920
+imo we should first get it stable as a stand alone then work to integrate it into agama
+
+
+[20-Sep-18 12:12 PM] siu#3920
+btw i can report i finally got swaps finished using the websocket method.
+
+
+[20-Sep-18 12:12 PM] siu#3920
+In linux
+
+
+[20-Sep-18 12:12 PM] siu#3920
+the version online does have a broken mm for linux though
+
+
+[21-Sep-18 02:35 AM] ca333#0333
+update - i discussed this with @namhoang28 and we will first finalize the standalone dICO app which goes online as a whitelabel version (since we re literally already there). Afterwards we focus on porting atomicDEX prototype to the same native app-layer or into an Agama view. The "buy/swap" logic will stay the same either way.
+
+{Reactions}
+👍 (5) 
+
+[24-Sep-18 01:13 AM] ca333#0333
+little update - we are going through a list of issues/bugs and resolving them together. you can check the github issue page for more details and progress. Most communication ref. dev is happening via DM between me @namhoang28 and @siu who is actively testing from dICO operator and user perspective and helping me and @namhoang28 with valuable feedback. So its little bit quite in here. if anyone has questions feel free to ask or check our github. The app is almost done - i expect it to be passed to QA team for final test and whitelabel release within the coming 2 weeks.
+
+
+[24-Sep-18 01:49 AM] namhoang28#4328
+yes, we are trying to address this issue
+https://github.com/KomodoPlatform/dicoapp-e/issues/16
+any comment are welcome 😃
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/issues/16
+split the funds when utxos is less than 2 · Issue #16 · KomodoPl...
+Title: split the funds when utxos is less than 2 Business/User Value: As a user I want to split the funds to at least 2 utxos so that I can make a swap. Acceptance Criteria GIVEN [necessary context...
+https://images-ext-1.discordapp.net/external/aoYFsE1Mstym_kQHATdrwByqGRZjypnRA7_QKcsOYCQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3245868
+
+
+[24-Sep-18 02:08 AM] siu#3920
+morning everyone
+
+
+[24-Sep-18 02:10 AM] ca333#0333
+morning @siu
+
+
+[24-Sep-18 02:10 AM] ca333#0333
+seems issue resolved  🙂 - problem was that the current app did reissue the buy without waiting for the split to confirm.
+
+
+[24-Sep-18 02:11 AM] ca333#0333
+so now we will check against "if utxo.num < 2" - that would mean its not there yet and app not ready to do the swap
+
+
+[24-Sep-18 02:15 AM] ca333#0333
+most "clean and elegant" solution would be still this: User defines amount of buy - now since we know the price, we also know how much the user will be spending for this order - now we issue a manual split TX (sendmany to ourself) that is specifically trimmed to match the user-request. in this case we wont ever use the "auto-split" feature of marketmaker but instead do always a manual split-tx that is based on the user-balance and buy-request. @namhoang28
+
+
+[24-Sep-18 02:15 AM] ca333#0333
+this would require slightly modification of the buy func()
+
+
+[24-Sep-18 02:16 AM] ca333#0333
+so since the current solution you are working on (wait until the utxos are >=2) and give alertbox/modal with user-info to buy diff. amount if utxos is not satisfying marketmaker
+
+
+[24-Sep-18 02:16 AM] ca333#0333
+should be good from user-experience
+
+
+[24-Sep-18 02:16 AM] ca333#0333
+def. better than splitting utxos twice and having user wait x longer
+
+
+[24-Sep-18 02:26 AM] siu#3920
+cool, didnt see this first... had connections issues.
+
+
+[24-Sep-18 02:27 AM] namhoang28#4328
+`manual split TX by send to ourself` => I really like this idea, will try it after I finished current solution
+
+
+[24-Sep-18 03:58 AM] namhoang28#4328
+@siu could you help me to test the latest code on this branch?
+https://github.com/KomodoPlatform/dicoapp-e/tree/split-the-funds-when-utxos-is-less-than-2
+
+@ca333 I do really like your solution. But what about the fee? do user has to spend double fee (one for manual split and one for a swap)? Is this ok for user?
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/tree/split-the-funds-when-utxos-is-less-than-2
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[24-Sep-18 03:59 AM] siu#3920
+Yes. Fee will be an issue always regarding splitting
+
+
+[24-Sep-18 03:59 AM] siu#3920
+Im taking my daughters to school. Once i do that i can sit and work
+
+
+[24-Sep-18 04:00 AM] namhoang28#4328
+ah no worries. Do when you have time, man 😃
+
+
+[24-Sep-18 06:05 AM] siu#3920
+testing the autosplit now
+
+
+[24-Sep-18 06:05 AM] siu#3920
+swap seems to be going through
+
+
+[24-Sep-18 10:07 AM] ca333#0333
+fee is not a real issue @namhoang28 - we need the initial split to have more than 1 utxo anyway
+
+
+[25-Sep-18 12:18 AM] ca333#0333
+@everyone - the dICO app clone is finished https://github.com/KomodoPlatform/dicoapp-e/. big thanks goes to @namhoang28 who ported the application mainly his own without getting back to me or other devs. Means he read and understood what the code is doing and replicated it autonomous/independently (decetralized). Plz everyone test the dICO app - right now its  based on a COQUI setup - @siu plz fork it over to your repo. We will fully whitelabel it after this test. We will also add release-build instructions with electron-builder/packager and the installer build solution we are using for Agama (for enduser release) to the whitelabeled version. Next week atomicDEX project gets kickstarted - we are going to start with a standalone app that is based on the dICO app (same skelleton) - and later on we just port the "atomicDEX-view" into Agama. thats when @namhoang28 will fully start collaborating with @pbca26 (good introduction task into Agama codebase and views) - its also based on react. At this point the DEV-team also would like to announce that @pbca26 is now, with the growing GUI team, our official *GUI Lead Dev* [cc: @Audo @n2okpride @benohanlon - worth community ANN/FBF/etc. ?]
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Reactions}
+😎 (5) 💯 (4) 👍🏽 (5) 👌🏽 (5) yassinkomodo (3) yassinheart (3) shexy (5) Komodo (5) 
+
+[25-Sep-18 12:20 AM] grewalsatinder#9653
+Amazing! Great work @namhoang28 
+and congrats @pbca26 🙂 👏 👍
+
+
+[25-Sep-18 12:36 AM] namhoang28#4328
+@grewalsatinder thanks
+congrats @pbca26 :D
+Small note, if anyone has problem with mm during the test. Feel free to replace it with worked one. Somehow, I never get corrected one except for mac.
+
+
+[25-Sep-18 01:00 AM] Bryan_Beus#6442
+excited to test it out, @namhoang28 
+
+Welcome to the gang!
+
+Congrats, @pbca26 ! You done good.
+
+{Reactions}
+😬 
+
+[25-Sep-18 01:27 AM] benohanlon#7045
+@pbca26 @namhoang28 congratulations. Would you like to do an AMA on what the dico app is / your focus etc...? It would mean we would write up a discussion guide and info. Does this mean dicos can be run without KMD team direct involvement?
+
+
+[25-Sep-18 02:11 AM] Mylo#8306
+that's great!!  congratulations GUI DEV TEAM!!
+
+
+[25-Sep-18 07:05 AM] phideas#8309
+Just tested the dICO app. auto utxo split went ok. 2 swaps went ok.  3rd swap stuck at 4/6. my beer is stuck here and missing from wallet balance https://beer.kmdexplorer.io/address/bSAWZw33V6tz3MXWDNHAHwUy8SxytrCm1w
+app restart didn't help. after a while i was able to start a new 4th swap.
+but 3rd swap failed and beer missing. what to do in this case?
+
+
+[25-Sep-18 07:32 AM] jusoaresf#3291
+congratulations to  @pbca26 and @namhoang28. Front End for the masses!!!
+
+
+[25-Sep-18 07:35 AM] SHossain#0007
+Let the crazy development become crazier 👏🏽
+
+
+[25-Sep-18 10:15 AM] siu#3920
+@phideas
+
+
+[25-Sep-18 10:15 AM] siu#3920
+just wait for reclaim
+
+
+[25-Sep-18 10:15 AM] siu#3920
+open the app again in a couple of hours
+
+
+[25-Sep-18 10:15 AM] siu#3920
+there seems to still be some issue regarding etomic marketmakers and some swaps not going through completely
+
+
+[25-Sep-18 10:37 AM] ca333#0333
+@siu is it dico app logic related issues or MM/bob? do we know that?
+
+
+[25-Sep-18 10:37 AM] ca333#0333
+there must be a way to prevent those cases gui-side
+
+
+[25-Sep-18 10:37 AM] siu#3920
+i ve been trying to figure out what it is
+
+
+[25-Sep-18 10:37 AM] ca333#0333
+can you explain me so maybe i can try to reproduce
+
+
+[25-Sep-18 10:37 AM] siu#3920
+i also believe it can be related to websocket
+
+
+[25-Sep-18 10:38 AM] siu#3920
+there are a couple of weird things.
+
+
+[25-Sep-18 10:38 AM] siu#3920
+first, the bobdeposit in the marketmaker server get stuck at 1/3 confirmation for too long
+
+
+[25-Sep-18 10:39 AM] siu#3920
+actually, i check the explorer and sometimes it has been on confirmation 9 on explorer while the node still shows waiting for 1/3 of bobdeposit
+
+
+[25-Sep-18 10:39 AM] siu#3920
+There is a problem there, because then the app actually jumps to `waiting for alice payment`
+
+
+[25-Sep-18 10:39 AM] siu#3920
+but the server is still waiting for bob deposit to confirm.
+
+
+[25-Sep-18 10:40 AM] siu#3920
+i updated nanomsg to see if that was the issue, but it keeps happenin randomly
+
+
+[25-Sep-18 10:41 AM] siu#3920
+@jl777c is there something that needs to be done on the bob side when alice is using websocket ?
+
+
+[25-Sep-18 10:41 AM] siu#3920
+or it doesnt have anything to do?
+
+
+[25-Sep-18 10:42 AM] ca333#0333
+i see - websocket is just for gathering swaprelated info afaik
+
+
+[25-Sep-18 10:42 AM] ca333#0333
+it shouldnt have any effect on trading, etc.
+
+
+[25-Sep-18 10:43 AM] ca333#0333
+we need to test marketmaker then if thats a issue we are able to reproduce
+
+
+[25-Sep-18 10:43 AM] siu#3920
+my servers are old too...
+
+
+[25-Sep-18 10:43 AM] siu#3920
+although i have reseted marketmakers completely a couple of times in history
+
+
+[25-Sep-18 10:43 AM] siu#3920
+and on every restart it build marketmaker
+
+
+[25-Sep-18 10:44 AM] siu#3920
+not `etomic` though
+
+
+[25-Sep-18 10:44 AM] siu#3920
+hmm... maybe i can try to set artems marketmakers on the server too
+
+
+[25-Sep-18 10:47 AM] jl777c#5810
+websocket is just local logging of events
+
+
+[25-Sep-18 10:53 AM] siu#3920
+im setting artems marketmaker in the servers too
+
+
+[25-Sep-18 10:53 AM] siu#3920
+maybe that helps
+
+
+[25-Sep-18 10:53 AM] siu#3920
+online now, if anyone wants to test
+
+
+[25-Sep-18 11:08 AM] siu#3920
+```1 wait for bobdeposit bTwLA7ZfDpgcy2zktbZ3HbVUYaVquVEDVQ numconfs.3 COQUI 88b473aea838256b5c1afc959c1a33347c6608d43e13e0cd74443e2bc1bfce03
+```
+
+
+[25-Sep-18 11:08 AM] siu#3920
+https://explorer.coqui.cash/tx/88b473aea838256b5c1afc959c1a33347c6608d43e13e0cd74443e2bc1bfce03
+
+
+[25-Sep-18 11:08 AM] siu#3920
+but explorer has already 3
+
+
+[25-Sep-18 11:09 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/494208935058735104/unknown.png
+
+
+[25-Sep-18 11:10 AM] siu#3920
+and the app is already waiting for alicepayment
+
+
+[25-Sep-18 11:10 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/494209015232987164/unknown.png
+
+
+[25-Sep-18 11:10 AM] siu#3920
+while the terminal is printing this^
+
+
+[25-Sep-18 11:22 AM] ca333#0333
+thanks for the info. i will try to reproduce shortly. plz keep it online
+
+
+[25-Sep-18 11:25 AM] siu#3920
+Ok, im out picking girls at school ans stuff
+
+
+[25-Sep-18 11:52 AM] namhoang28#4328
+@siu There is not much dICO can do when swap is happening. It just gather swap status and show it to user. But I still check the logic code again.
+
+
+[25-Sep-18 11:56 AM] siu#3920
+I understand... was just trying to think of reasons why this happens randomly
+
+
+[25-Sep-18 11:57 AM] siu#3920
+Right now, 50 minutes passed since i tried this swap and im still seeing this in the marketmaker output ```2 wait for bobdeposit bTwLA7ZfDpgcy2zktbZ3HbVUYaVquVEDVQ numconfs.3 COQUI 88b473aea838256b5c1afc959c1a33347c6608d43e13e0cd74443e2bc1bfce03```
+
+
+[25-Sep-18 11:58 AM] siu#3920
+maybe if i leave it running it will eventually jump to finish the swap
+
+
+[25-Sep-18 11:58 AM] siu#3920
+but this seems to definitively be an issue more on the server side.
+
+
+[25-Sep-18 09:51 PM] ca333#0333
+this shouldnt be happening. i am rebuilding a dev build with more MM related output
+
+
+[25-Sep-18 09:51 PM] ca333#0333
+lets find the real reason for this behaviour
+
+
+[25-Sep-18 09:52 PM] ca333#0333
+i reviewed the status check - its fine and not related to this issue
+
+
+[26-Sep-18 12:33 AM] artem.pikulin#0794
+@ca333 @siu Seems like the issue is COQUI network is producing blocks too slow. According to MM log it waits for 3 confirmations but there are only 2.
+
+
+[26-Sep-18 12:34 AM] artem.pikulin#0794
+It should be either fixed from COQUI side or MM COQUI required confirmations should be set to 1.
+
+
+[26-Sep-18 12:34 AM] artem.pikulin#0794
+Ah, as I can see the required confirmations are reached, sorry.
+
+
+[26-Sep-18 12:36 AM] artem.pikulin#0794
+Is local COQUI node in sync and on right chain?
+
+
+[26-Sep-18 01:31 AM] ca333#0333
+it seems this is a local server-related issue @siu @artem.pikulin
+
+
+[26-Sep-18 01:32 AM] ca333#0333
+@siu can u test it on a fresh/solid server plz
+
+
+[26-Sep-18 01:41 AM] SHossain#0007
+@artem.pikulin yes, 3 confirmations needed for assetchains. @siu try running a tx generator. it helps
+
+
+[26-Sep-18 02:40 AM] siu#3920
+Its not coqui. The explorer shows that confirmations and blocks are being generate while the server is still waiting for the 1st confirmation
+
+
+[26-Sep-18 02:42 AM] siu#3920
+Let me see if i can set a new server
+
+
+[26-Sep-18 10:53 AM] siu#3920
+ok, guys, i got a new server and now we are getting 100% success rate
+
+
+[26-Sep-18 10:53 AM] siu#3920
+used artems release on the server and the app
+
+
+[26-Sep-18 10:54 AM] siu#3920
+we have made about 10 swaps and all of them finished successfully even when 2 where running simultaneously
+
+{Reactions}
+👍 (2) 
+
+[26-Sep-18 10:54 AM] siu#3920
+@ca333
+
+
+[26-Sep-18 11:28 AM] siu#3920
+got the first one stuck: ```swapdata rawtx has null txbytes
+error from basilisk_swapdata_rawtx.bobdeposit 0x7fddf414e44c len.0
+error sending bobdeposit
+LP_pendswap_add expiration.1538001725 3915756255-1543252797
+
+>>>>>>>>>>>>>>>>>>>>>>>>>
+SWAP completed! 3915756255-1543252797 {"error":"swap never started","uuid":"","s
+tatus":"finished","bob":"","src":"","alice":"","dest":"","requestid":3915756255,
+"quoteid":1543252797}
+```
+
+
+[26-Sep-18 11:45 AM] siu#3920
+another issue from @namhoang28 test, my server printed this: ```added 14 of 14 from COQUI listunspents
+second couldnt add address_utxo 3eae45b14faeaf7f975780888d4847c636b9ec269dac2890
+e0460cf851ef5581/v0 after not finding
+dustcombine.0 numpre.0 min0.(nil) min1.(nil) numutxos.14 amount 4.47415748
+change 0.00000000 = total 3.41017047 - amount 4.47415748, adjust 0.00000000 numv
+outs.1, txfee 0.00001000
+not enough inputs  3.41017047 < for amount 4.47415748 txfee 0.00001000
+rawtx withdraw error? ({"utxotxid":"3eae45b14faeaf7f975780888d4847c636b9ec269dac
+2890e0460cf851ef5581","utxovout":0,"locktime":1537994570,"txfee":"1000","outputs
+":[{"bWWqGHK8z8cxQw5FGfSt5T2o2LirQcc8SC":4.47414748}]})
+error bob generating 0x7fddf4157efc payment.23
+swapdata rawtx has null txbytes
+error from basilisk_swapdata_rawtx.bobpayment 0x7fddf4157efc len.0
+error sending bobpayment
+LP_pendswap_add expiration.1538002370 245202393-1361804163```
+
+
+[26-Sep-18 11:49 AM] namhoang28#4328
+this's log from my side (mm app):
+```
+dicoapp:plugins:marketmaker start swap iamalice pair.13 +0ms
+  dicoapp:plugins:marketmaker MISMATCHED required confirms me.(0 3) vs (1 3) max.(6 6) othermax.(6 6) +0ms
+  dicoapp:plugins:marketmaker NUMCONFIRMS for SWAP alice.1 bob.3, otheristrusted.0 othertrusts.0 +0ms
+  dicoapp:plugins:marketmaker CUT VERIFIED +0ms
+  dicoapp:plugins:marketmaker added 12 of 14 from BEER listunspents +0ms
+  dicoapp:plugins:marketmaker dustcombine.0 numpre.1 min0.0x0 min1.0x0 numutxos.12 amount 9.25937926 +0ms
+  dicoapp:plugins:marketmaker preselected[0]: 078d0c897081dbe3d1f25a89fd8f286c5d5e7e7a4ba5046ec29b4d1c130b12fb/v1 7378.47742826 +0ms
+  dicoapp:plugins:marketmaker added 12 of 14 from BEER listunspents +1ms
+  dicoapp:plugins:marketmaker dustcombine.0 numpre.1 min0.0x0 min1.0x0 numutxos.12 amount 0.01192679 +0ms
+  dicoapp:plugins:marketmaker preselected[0]: 297d1ebc83234a15c912f430621f2e6df8119e0d165e502d3b577667741abbc5/v1 0.02036886 +0ms
+  dicoapp:plugins:marketmaker failed blockchain.transaction.get BEER b01ff40404cf12df660d2a6e9d3e1e27d725a0cb6d034a39c3aa0d980ab6c3e5 +0ms
+```
+
+
+[26-Sep-18 12:33 PM] ca333#0333
+thanks for report @siu @namhoang28 - i am checking it.
+
+
+[26-Sep-18 12:40 PM] ca333#0333
+the stucked swaps occured on a later point of time and the prev ones were successfull - right? @siu
+
+
+[26-Sep-18 12:40 PM] ca333#0333
+would more swaps afterwards also fail/get stuck=
+
+
+[26-Sep-18 12:40 PM] ca333#0333
+?
+
+
+[26-Sep-18 12:42 PM] siu#3920
+a bit later the mm died
+
+
+[26-Sep-18 12:42 PM] siu#3920
+on my server
+
+
+[26-Sep-18 12:42 PM] siu#3920
+i had to restart
+
+
+[26-Sep-18 12:42 PM] siu#3920
+afterwards we got 2 more swaps through
+
+
+[26-Sep-18 12:47 PM] ca333#0333
+interesting - which OS/version were you running?
+
+
+[26-Sep-18 12:49 PM] siu#3920
+on the server? ubuntu 16.04
+
+
+[26-Sep-18 12:49 PM] siu#3920
+on my laptop too
+
+
+[27-Sep-18 06:35 AM] phideas#8309
+just did 3 quick swaps with latest code. all went through smooth and fast.
+
+
+[27-Sep-18 12:52 PM] ca333#0333
+@siu i changed the dico app to use DSEC config by default. can you please fork it over and modify it for usage with COQUI on your own and let me know how that works for you and if you had any obstacles. it is going to get whitelabeled this week.
+
+{Reactions}
+rum (3) 
+
+[27-Sep-18 12:52 PM] ca333#0333
+p.s. i only modifed the token-config (logos, text in the GUI, etc. remain unchanged)
+
+
+[27-Sep-18 12:56 PM] siu#3920
+Ok, cool. Ill do it.
+
+
+[28-Sep-18 04:52 AM] namhoang28#4328
+@ca333 cool, is there anything that I can help you in white-label task?
+
+
+[28-Sep-18 02:34 PM] ca333#0333
+yes @namhoang28 - shared task info with you in DM. we are going to add all dICO App labels/strings to the config file. So it gets really easy for others to reuse the app. modifying logos/icons is easy enough already (replacing files). Once we have it fully whitelabeled we will write a small documentation for it.
+
+{Reactions}
+👌🏽 
+
+[28-Sep-18 07:30 PM] namhoang28#4328
+@ca333 got it. I will work on it today after finish my current task
+
+
+[29-Sep-18 12:33 AM] ca333#0333
+thanks @namhoang28 
+@siu did you manage to run the dICO app with the coqui modifications?
+
+
+[29-Sep-18 12:04 PM] phideas#8309
+hey guys. i was curious what this app looks like so i tested it out a little bit, just like a normal end user.
+the result i can tell you so far so good. latest version worked very reliably all swaps went through quick and smooth.
+one thing i noticed there is a 10x smaller tx fee compared to agama. assuming it was made intentional.
+maybe one suggestion though. for withdrawal it would be nice to have an "all" button which  also calculates the fee and empty the wallet, just like in agama.
+good job guys, keep it up! 👍 
+i sent back the 50 coqui a bought with beer to the pool. i kept my devsec i bought with kmd.
+
+{Reactions}
+👍 (2) 
+
+[29-Sep-18 02:28 PM] namhoang28#4328
+@phideas thanks. There are a lot of things need to be done before I feel confident about app. But it’s ok to use now. 
+I like your suggestion and it would be nice if you can open new issue on here(https://github.com/KomodoPlatform/dicoapp-e) so we can easy to keep track on it.
+ and also please help me to test the latest code on master again. I just fixed some bug and need someone help me to test it : D
+
+@ca333  I just finished my current task and release new version of the app. It take more time than I thought so I’m going to work on while-label task on Monday (tomorrow). Will setup react-intl (https://github.com/yahoo/react-intl) for that task. It would takes one or two day of work.
+Just let you know my work status if you have a plan or something. 
+And could you send me some KMD to my wallet? I need some of it to test the app 😃
+
+
+[30-Sep-18 05:04 AM] ca333#0333
+thanks for the testing @phideas ! Some of dICO app logic will be reused for atomicDEX (shapeshift wallet) - the way the new price matrix is being created/calculated now will even boost the user-experience more. we will ping you all when the prototype is available.
+
+
+[30-Sep-18 05:06 AM] ca333#0333
+@namhoang28 thats fine - DM me your KMD address. So on wednesday or thursday we will run a final test with the fully whitelabeled app and then we start with the atomicDEX port. thank you
+
+
+[02-Oct-18 09:31 AM] namhoang28#4328
+Hey guys, 
+Just finished white-label task and merged it to master branch. Now you can change the label\text in translation file(https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/translations/en.json). For the text that contain HTML, we should recommend the user go to that page and change it if they want.
+Thanks @siu for helping me on this task : D
+ cc @ca333
+
+
+[02-Oct-18 09:32 AM] siu#3920
+no problem 😃
+
+
+[02-Oct-18 09:56 AM] ca333#0333
+thanks @namhoang28!
+
+
+[03-Oct-18 03:09 AM] ca333#0333
+@siu did you already manage to create a dICO app fork with your own modifications ? (from whitelabeled to COQUI version)
+
+
+[03-Oct-18 03:09 AM] ca333#0333
+would be good to run one final test on all OS before closing this and initiating the atomicDEX port
+
+
+[03-Oct-18 03:09 AM] siu#3920
+Yes i did
+
+
+[03-Oct-18 03:09 AM] ca333#0333
+so was it all smooth and straight forward for you?
+
+
+[03-Oct-18 03:09 AM] siu#3920
+But got some issues with colors. Dumb things
+
+
+[03-Oct-18 03:10 AM] ca333#0333
+i see - what sort of issues? like modifying color-scheme, etc.?
+
+
+[03-Oct-18 03:10 AM] siu#3920
+Yeah. Most coin changes and logo changes where relatively easy
+
+
+[03-Oct-18 03:10 AM] siu#3920
+Yes, color scheme was more dificult
+
+
+[03-Oct-18 03:12 AM] ca333#0333
+ok - so its probably a good idea to add some color-vars to the config file - so anyone could actually just define the HTML color code in the config file to change the elements - probably stuff like fontcolors, color of view-background and menu-background, color of buttons (hover, active,etc. modes), etc.
+
+
+[03-Oct-18 03:12 AM] ca333#0333
+would this easen the process?
+
+
+[03-Oct-18 03:12 AM] ca333#0333
+@namhoang28 can we please make the color-scheme of the app configurable via a colorscheme.js config-file
+
+
+[03-Oct-18 03:16 AM] ca333#0333
+so the configfile will export the array with all colors. heres some pseudo-example:
+
+```
+colors: {
+h1-wallet: #000,
+h1-buy: #000,
+walletfont:  #000,
+wallet-button: #000,
+login-button: #000,
+login-bg: #000,
+wallet-bg: #000,
+menu-bg: #000
+[...]
+}
+```
+
+
+[03-Oct-18 03:16 AM] namhoang28#4328
+uhm, there is a theme config file here but I don’t know if it’s hard for end user 
+https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/components/Theme/index.js
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/components/Theme/index.js
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[03-Oct-18 03:16 AM] namhoang28#4328
+let me try
+
+
+[03-Oct-18 03:16 AM] ca333#0333
+thanks!
+
+
+[03-Oct-18 03:27 AM] namhoang28#4328
+Do I need to specify color for each element in every page? because that will be huge task
+
+
+[03-Oct-18 03:28 AM] namhoang28#4328
+I suggest that we allow end user change theme in general
+
+
+[03-Oct-18 03:29 AM] namhoang28#4328
+like button color (primary/secondary), background for each page
+
+
+[03-Oct-18 03:30 AM] namhoang28#4328
+@siu what colors do you want to change in the app when you modify it?
+
+
+[03-Oct-18 03:31 AM] namhoang28#4328
+I can make it configurable
+
+
+[03-Oct-18 04:00 AM] siu#3920
+The buttons, loading stripe, menu items
+
+
+[03-Oct-18 04:05 AM] namhoang28#4328
+Do you want to specify color for button in each page? or just want to change it in general (apply in every page)
+
+
+[03-Oct-18 04:44 AM] namhoang28#4328
+Uhm, I think we should write a document about this. Because everything we want to change is ready there in  https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/components/Theme/index.js file (button color, loading stripe, menu items). 
+It’s little bit harder with font since we have to go app page and add it (https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/app.html#L7). 
+@siu Ping me when you are available and ready to work : )  
+@ca333
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/components/Theme/index.js
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/app.html
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[03-Oct-18 04:45 AM] siu#3920
+A universal button color change should be  it
+
+
+[03-Oct-18 04:49 AM] namhoang28#4328
+uhm, I can't post picture in this channel but this config will be change the button color to blue light color:
+```
+const theme = createMuiTheme({
+  palette: {
+    type: 'light',
+    primary: {
+      // This is a main color for button
+      main: '#4285f4',
+    }
+  },
+});
+```
+
+
+[03-Oct-18 04:53 AM] namhoang28#4328
+I think we should write a document to guild user how to change
+
+
+[03-Oct-18 04:54 AM] siu#3920
+I can write a guide
+
+
+[03-Oct-18 04:55 AM] namhoang28#4328
+now? let's chat together
+
+
+[03-Oct-18 05:04 AM] namhoang28#4328
+@ca333 just find out everything we want to change is ready there in theme/index.js file.
+We don't need to write any code to support it.
+I will work with @siu to write a document to guild user
+I think that is best solution (no code mean no bug : D)
+
+
+[03-Oct-18 06:05 AM] ca333#0333
+@namhoang28 general button mod should be enough - its just to give 3rd parties a chance to modify the visual part a little bit... @siu can say what elements he wants to be configurable color-wise.
+
+
+[03-Oct-18 06:06 AM] ca333#0333
+@siu please write the doc for the full modification (whitelabel -> COQUI) of the app if you have time for that.
+
+
+[03-Oct-18 06:06 AM] siu#3920
+yes, will do
+
+
+[03-Oct-18 06:06 AM] ca333#0333
+great thanks
+
+
+[03-Oct-18 06:06 AM] siu#3920
+testing the new modifications now
+
+
+[03-Oct-18 10:04 AM] siu#3920
+@ca333 can you give me permissions to push to the repo?
+
+
+[03-Oct-18 11:13 AM] ca333#0333
+@siu https://github.com/KomodoPlatform/dicoapp-e/invitations
+
+
+[03-Oct-18 11:13 AM] siu#3920
+thanks
+
+
+[03-Oct-18 11:15 AM] siu#3920
+@namhoang28 , i pushed the version with coqui.svg added
+
+
+[03-Oct-18 11:15 AM] siu#3920
+will start to add all icons possible to the app
+
+
+[03-Oct-18 11:16 AM] ca333#0333
+keep the master branch whitelabeled plz - if you have a coqui specific version (for showcase or so) use a diff.  branch
+
+
+[03-Oct-18 11:18 AM] siu#3920
+yes, added it to the `write-document-about-theme ` branch
+
+{Reactions}
+👍 
+
+[03-Oct-18 05:32 PM] siu#3920
+https://github.com/KomodoPlatform/dicoapp-e/blob/write-document-about-theme/docs/whitelabling.md
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/blob/write-document-about-theme/docs/whitelabling.md
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[03-Oct-18 05:32 PM] siu#3920
+Did this little document to list the files needed to be edited to whitelabel
+
+
+[03-Oct-18 09:21 PM] namhoang28#4328
+@siu great, thanks. Just roll back tokenconfig file with DSEC. 
+Should we move whitelabeling document into README so users don’t have to find it.
+@ca333  Please, review and merge the pull request 
+```
+https://github.com/KomodoPlatform/dicoapp-e/pull/45/files
+```
+
+
+[03-Oct-18 10:46 PM] ca333#0333
+i ll review it at and manually copy it over to the master branch together with a raw example config. we will keep the write-doc branch as the example/doc branch with ref. to the master branch readme. I ll take care on CI/CD and proper README for master branch after i hand you over the new atomic prototype - we re still going to change the split utxo procedure/func().
+
+{Reactions}
+👍 
+
+[03-Oct-18 10:59 PM] namhoang28#4328
+@ca333 great, thanks
+
+
+[04-Oct-18 04:27 AM] siu#3920
+ill make the changes to tokenconfig now
+
+
+[04-Oct-18 04:27 AM] siu#3920
+good morning
+
+
+[05-Oct-18 02:33 AM] ca333#0333
+update - we are running a final internal test where chainmakers does a dico app port and release build for all OS - once the release builds are tested on all operating systems we know that every 3rd party serviceprovider or utilizing party is able to do this autonomous and without our intervention. It might also be worth adding the other steps for a successfull dICO App port like SPV server setup reference, etc. to have a complete dICO setup tutorial [cc: @siu @SHossain @namhoang28 ]
+
+{Reactions}
+👍🏽 
+
+[05-Oct-18 02:41 AM] namhoang28#4328
+@ca333 I will support @siu  if he need my help.
+@siu Ping me anytime, mate : )
+
+{Reactions}
+👍 (2) 
+
+[05-Oct-18 06:28 AM] siu#3920
+will do today
+
+
+[05-Oct-18 06:53 AM] siu#3920
+@ca333 i dont see that a merge has been done to master
+
+
+[05-Oct-18 06:53 AM] siu#3920
+should i do it myself?
+
+
+[05-Oct-18 07:10 AM] ca333#0333
+@siu i am not done with final review. expect it towards evening UTC
+
+
+[05-Oct-18 07:16 AM] siu#3920
+👍
+
+
+[06-Oct-18 05:55 AM] siu#3920
+yesterday i tested dicoapp-e from the `write-document-about-theme` branch and everything worked as expected... didnt find any substantial bugs.
+
+
+[06-Oct-18 05:55 AM] siu#3920
+Today im building the app in windows, will update
+
+
+[06-Oct-18 06:30 AM] siu#3920
+@ca333 my windows swap is getting stuck in Bob Deposit, can you verify what the marketmaker server is doing?
+
+
+[06-Oct-18 07:58 AM] siu#3920
+@ca333 detected issues in windows version. Tried with DSEC and COQUI and swaps are getting stuck. alice payment is not being generated and server stays waiting for it.
+
+
+[06-Oct-18 07:58 AM] siu#3920
+Firewall is off and the mm im using is a freshly downloaded artem build.
+
+
+[06-Oct-18 07:59 AM] siu#3920
+marketmaker is still running in windows and queries for swap status regulary, command line prints stopped at `waiting for bob deposit confirmation 2`
+
+
+[06-Oct-18 08:00 AM] siu#3920
+server side printed this: ```2 wait for bobdeposit bG1FTNiNz3njTbQ1vDS7U9Z7jYjb4rujZi numconfs.3 COQUI b0088447b3344d0300da1862f7872a1304f7c72662eebbbdda91c1cee53f39fa
+LP_blockinit: tx->height 1041058 != 1041060
+PRICEFEED UPDATE.(KMD   /   IOP)   5.04446520 bab6ad2eebe1e666369cab504d4622b22c1f1ef718ef388e88020f30a1573e01   0.19823707
+AUTOPRICE numautorefs.3
+2 wait for bobdeposit bG1FTNiNz3njTbQ1vDS7U9Z7jYjb4rujZi numconfs.3 COQUI b0088447b3344d0300da1862f7872a1304f7c72662eebbbdda91c1cee53f39fa
+2 wait for bobdeposit bG1FTNiNz3njTbQ1vDS7U9Z7jYjb4rujZi numconfs.3 COQUI b0088447b3344d0300da1862f7872a1304f7c72662eebbbdda91c1cee53f39fa
+wait for alicepayment```
+
+
+[06-Oct-18 08:00 AM] siu#3920
+and that is it... no further update from the server
+
+
+[06-Oct-18 10:15 AM] ca333#0333
+@siu can you please try it again with DSEC - i had some weird server-side behaviour. but it was pretty sure related to some experiments i did ran with the main DSEC bob. i moved it to the clean jl777 repo branch. server is gonna be back up within ~5 - 10 mins.
+
+
+[06-Oct-18 10:16 AM] ca333#0333
+just to make sure it wasnt my scientific friday night mess arounds.
+
+
+[06-Oct-18 10:42 AM] siu#3920
+Ok. Cool, will try now
+
+{Reactions}
+👍 
+
+[06-Oct-18 10:43 AM] siu#3920
+on it now
+
+
+[06-Oct-18 10:47 AM] siu#3920
+seems like there are no orders up yet.
+
+
+[06-Oct-18 10:48 AM] ca333#0333
+ok weird. maybe alice-side needs to fetch the orderbook. 
+````
+{"bids":[],"numbids":0,"biddepth":0,"asks":[{"coin":"DSEC","address":"RJvRN2fxxCEMZ2UzjSta3sRh61tkw8iBZd","price":0.14287770,"numutxos":49,"avevolume":699.70637748,"maxvolume":51435.97126007,"depth":34285.61249663,"pubkey":"2c8f6931843ae7729ad7fdd963541228c42cab8a855e8d7409fdab9efbe0f077","age":28,"zcredits":-0.27947556}],"numasks":1,"askdepth":34285.61249663,"base":"DSEC","rel":"KMD","timestamp":1538848055,"netid":0}
+```
+
+i see the bob from my end
+
+
+[06-Oct-18 10:49 AM] ca333#0333
+*needs time to
+
+
+[06-Oct-18 10:49 AM] siu#3920
+ok, will let it wait
+
+
+[06-Oct-18 10:52 AM] siu#3920
+now
+
+
+[06-Oct-18 10:52 AM] siu#3920
+order in the way
+
+
+[06-Oct-18 10:54 AM] siu#3920
+waiting for bob deposit
+
+{Reactions}
+👍 
+
+[06-Oct-18 10:57 AM] siu#3920
+dicoapp says waiting for bob deposit numconfirm 1
+
+
+[06-Oct-18 10:58 AM] siu#3920
+but explorer shows bob deposit with 6 conf already
+
+
+[06-Oct-18 10:58 AM] siu#3920
+i think it got stuck again.
+
+
+[06-Oct-18 10:59 AM] siu#3920
+@SHossain if you have a windows computer, could you give it a try?
+
+
+[06-Oct-18 11:00 AM] SHossain#0007
+sure
+
+
+[06-Oct-18 11:01 AM] siu#3920
+use the `write-document-about-theme` branch
+
+
+[06-Oct-18 11:01 AM] siu#3920
+and throw in a new release of artems binaries on it
+
+
+[06-Oct-18 11:01 AM] SHossain#0007
+any windows specific install instructions?
+
+
+[06-Oct-18 11:01 AM] siu#3920
+the ones it has will give you a permissions issue.
+
+
+[06-Oct-18 11:01 AM] siu#3920
+yes
+
+
+[06-Oct-18 11:01 AM] siu#3920
+`choco install yarn`
+
+
+[06-Oct-18 11:01 AM] siu#3920
+`choco install nvm`
+
+
+[06-Oct-18 11:01 AM] siu#3920
+then clone and `yarn install`
+
+
+[06-Oct-18 11:05 AM] namhoang28#4328
+got stuck too at  `bob deposit` step
+https://www.dropbox.com/s/t5zu8q95zxq9n66/screenshot-01.png?dl=0
+
+{Embed}
+https://www.dropbox.com/s/t5zu8q95zxq9n66/screenshot-01.png?dl=0
+screenshot-01.png
+Shared with Dropbox
+https://images-ext-2.discordapp.net/external/rlVP3oPI8NpOkJncAsfmIbmhnaGXgrxVDH15ni7BYzs/%3Fpreserve_transparency%3DFalse%26size%3D1200x1200%26size_mode%3D4/https/www.dropbox.com/temp_thumb_from_token/s/t5zu8q95zxq9n66
+
+
+[06-Oct-18 11:06 AM] namhoang28#4328
+I tested it on win 7
+
+
+[06-Oct-18 11:08 AM] SHossain#0007
+```
+git checkout write-document-about-theme
+error: Your local changes to the following files would be overwritten by checkout:
+        app/bin/marketmaker/win/libcurl.dll
+        app/bin/marketmaker/win/marketmaker.exe
+        app/bin/marketmaker/win/msvcp140.dll
+        app/bin/marketmaker/win/nanomsg.dll
+        app/bin/marketmaker/win/vcruntime140.dll
+Please commit your changes or stash them before you switch branches.
+Aborting
+```
+
+
+[06-Oct-18 11:08 AM] namhoang28#4328
+didn't have a log since I run it in production mode but it seems related to mm app
+
+
+[06-Oct-18 11:09 AM] SHossain#0007
+tried with `git reset --hard`
+
+
+[06-Oct-18 11:09 AM] SHossain#0007
+still same error with selecting the branch
+
+
+[06-Oct-18 11:09 AM] SHossain#0007
+any ideas?
+
+
+[06-Oct-18 11:09 AM] siu#3920
+seems to be an issue with electrum
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/498195133775216650/20181006_140829.jpg
+
+
+[06-Oct-18 11:10 AM] ca333#0333
+bob output saying "0 wait for alicepayment..." still
+
+
+[06-Oct-18 11:10 AM] ca333#0333
+yes - alice-side issue
+
+
+[06-Oct-18 11:10 AM] siu#3920
+@SHossain you can just add and commit them or just delete them.
+
+
+[06-Oct-18 11:10 AM] ca333#0333
+@cipi can you plz check if all good on SPV end?
+
+
+[06-Oct-18 11:11 AM] siu#3920
+i think cipi is not active this weekend, told me he will be visitng a friend.
+
+
+[06-Oct-18 11:11 AM] ca333#0333
+but it should also have this issues on linux/osx - if SPV realted
+
+
+[06-Oct-18 11:11 AM] siu#3920
+also, swaps work without issue from linux, so i dont think its electrum related specifically
+
+
+[06-Oct-18 11:12 AM] ca333#0333
+ok i see - i ll try to do a swap too
+
+
+[06-Oct-18 11:20 AM] SHossain#0007
+@siu just give me some time. need to have some food.
+
+
+[06-Oct-18 11:21 AM] siu#3920
+no worries, there is no rush
+
+
+[06-Oct-18 11:22 AM] siu#3920
+but this seems to be an issue specific to windows .
+
+
+[06-Oct-18 11:22 AM] siu#3920
+and i think its the mm
+
+
+[06-Oct-18 11:22 AM] SHossain#0007
+i'll try to dig that once i'm back
+
+
+[06-Oct-18 11:22 AM] SHossain#0007
+already installed using `yarn install`
+
+
+[06-Oct-18 11:22 AM] siu#3920
+may be replicated in hyperdex too
+
+
+[06-Oct-18 11:40 AM] ca333#0333
+the same issue on hyper?
+
+
+[06-Oct-18 12:37 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/498217327838494731/dicoapp-error.png
+
+
+[06-Oct-18 12:38 PM] SHossain#0007
+i get this error when i run `yarn dev` on windows. probably i'm doing something wrong?
+
+
+[06-Oct-18 12:51 PM] namhoang28#4328
+@SHossain try to replace mm app with worked one
+
+{Reactions}
+👍🏽 
+
+[06-Oct-18 12:51 PM] SHossain#0007
+trying that
+
+
+[06-Oct-18 12:52 PM] namhoang28#4328
+@siu had same issue on window and he did that too
+
+
+[06-Oct-18 12:53 PM] SHossain#0007
+now it starts. thanks
+
+
+[06-Oct-18 12:54 PM] namhoang28#4328
+no problem : D
+
+
+[06-Oct-18 12:56 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/498222027711315968/dicoapp-neterror.png
+
+
+[06-Oct-18 12:56 PM] SHossain#0007
+now i have this error
+
+
+[06-Oct-18 12:58 PM] siu#3920
+did you copy a fresh download of artem release?
+
+
+[06-Oct-18 12:58 PM] SHossain#0007
+i copied from barterDEX GUI repo
+
+
+[06-Oct-18 12:59 PM] siu#3920
+hmm
+
+
+[06-Oct-18 01:00 PM] SHossain#0007
+ok. artem's repo mm let me log in
+
+
+[06-Oct-18 01:00 PM] siu#3920
+everything? or just the marketmaker binary?
+
+
+[06-Oct-18 01:00 PM] SHossain#0007
+earlier i copied only `marketmaker.exe`. now used everything from artem's repo `mm-win.zip`
+
+
+[06-Oct-18 01:01 PM] siu#3920
+ok, great, that should do it.
+
+
+[06-Oct-18 01:01 PM] ca333#0333
+would be best to test this out of a release-build instead of dev-enviroment
+
+
+[06-Oct-18 01:02 PM] SHossain#0007
+true. second that
+
+
+[06-Oct-18 01:05 PM] siu#3920
+@namhoang28 tested a release build on windows 7 and it got stuck too.
+
+
+[06-Oct-18 01:05 PM] SHossain#0007
+i have an expensive DSEC swap started step 3/6
+
+
+[06-Oct-18 01:06 PM] SHossain#0007
+:trollface:
+
+
+[06-Oct-18 01:06 PM] siu#3920
+😂
+
+
+[06-Oct-18 01:06 PM] SHossain#0007
+COQUI/PIZZA would be nice
+
+
+[06-Oct-18 01:06 PM] SHossain#0007
+😄
+
+
+[06-Oct-18 01:07 PM] SHossain#0007
+**Step 4/6 Alice Payment**
+
+
+[06-Oct-18 01:07 PM] siu#3920
+there is COQUI/BEER ;0
+
+
+[06-Oct-18 01:07 PM] siu#3920
+what does the command line output say?
+
+
+[06-Oct-18 01:07 PM] SHossain#0007
+```
+2018-10-06T20:06:40.819Z dicoapp:plugins:marketmaker 2 wait for bobdeposit bJ7VDgxkXQJpc3g5Ya93NY39t8Gycg1pdh numconfs.3 DSEC 667902c592f4c1850bb42d982234bb9e8dadf5a04d657e40f2afaea124549746
+2018-10-06T20:06:40.822Z dicoapp:plugins:marketmaker failed blockchain.transaction.get KMD 24f7df6a879d586c01c112b0c26a4d9fe21bd8f0767c3a11eb69d2f294ac1754
+```
+
+
+[06-Oct-18 01:08 PM] SHossain#0007
+@siu how can i select COQUI as currency and BEER as payment method in the app?
+
+
+[06-Oct-18 01:08 PM] siu#3920
+oh youll need to edit it or use my repo https://github.com/coquicash/coquidex
+
+{Embed}
+https://github.com/coquicash/coquidex
+CoquiCash/CoquiDEX
+SPV lightweight GUI wallet with barterDEX swap capabilities - CoquiCash/CoquiDEX
+https://images-ext-1.discordapp.net/external/xMV_7hPhgicjeFlQXEPmIUEXRfjICBxePWkQQDyzTvw/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/36870993
+
+
+[06-Oct-18 01:09 PM] SHossain#0007
+ah, no worries
+
+
+[06-Oct-18 01:09 PM] siu#3920
+use the CoquiDEX branch
+
+
+[06-Oct-18 01:09 PM] SHossain#0007
+Thanks.. Let's see if this one finishes the swap nicely
+
+
+[06-Oct-18 01:09 PM] siu#3920
+what else has the console printed?
+
+
+[06-Oct-18 01:11 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/498225702508822532/output.png
+
+
+[06-Oct-18 01:11 PM] siu#3920
+jeez... i cant read that 😂
+
+
+[06-Oct-18 01:11 PM] SHossain#0007
+click on open original and zoom in
+
+
+[06-Oct-18 01:11 PM] siu#3920
+but it seems like it got stuck in waiting for bob deposit
+
+
+[06-Oct-18 01:12 PM] SHossain#0007
+yes, 4/6
+
+
+[06-Oct-18 01:12 PM] SHossain#0007
+Alice Payment
+
+
+[06-Oct-18 01:12 PM] SHossain#0007
+GUI showing
+
+
+[06-Oct-18 01:12 PM] siu#3920
+but alice payment doesnt seem to have been created.
+
+
+[06-Oct-18 01:13 PM] SHossain#0007
+https://dsec.ac/tx/667902c592f4c1850bb42d982234bb9e8dadf5a04d657e40f2afaea124549746
+
+
+[06-Oct-18 01:13 PM] SHossain#0007
+DSEC has 9 confirmations
+
+
+[06-Oct-18 01:15 PM] siu#3920
+yeah
+
+
+[06-Oct-18 01:15 PM] siu#3920
+that is what happens.
+
+
+[06-Oct-18 01:15 PM] siu#3920
+it gets stuck
+
+
+[06-Oct-18 01:16 PM] siu#3920
+alice payment never gets created
+
+
+[06-Oct-18 01:22 PM] siu#3920
+if you leave it running long enough you should see evenatually a print that says something about `electrum error`
+
+
+[06-Oct-18 01:27 PM] siu#3920
+im going to copy the binaries from an old dicoapp release and see what happens
+
+
+[06-Oct-18 01:30 PM] SHossain#0007
+now i have 5/6
+
+
+[06-Oct-18 01:31 PM] siu#3920
+ok
+
+
+[06-Oct-18 01:38 PM] SHossain#0007
+```
+2018-10-06T20:18:44.271Z dicoapp:plugins:marketmaker 0 wait for alicepayment baKhKVSd4Nb4LHBLuLwaiaaTsVqYXfHwMK numconfs.1 KMD 24f7df6a879d586c01c112b0c26a4d9fe21bd8f0767c3a11eb69d2f294ac1754
+2018-10-06T20:18:44.271Z dicoapp:plugins:marketmaker 0 wait for alicepayment baKhKVSd4Nb4LHBLuLwaiaaTsVqYXfHwMK numconfs.1 KMD 24f7df6a879d586c01c112b0c26a4d9fe21bd8f0767c3a11eb69d2f294ac1754
+2018-10-06T20:18:44.272Z dicoapp:plugins:marketmaker                  command_rpcloop elapsed   30686.00 millis > threshold    2500.00, ave      20.76 millis, count.15673 notify
+2018-10-06T20:18:44.273Z dicoapp:plugins:marketmaker ETH txid received: 0x0000000000000000000000000000000000000000000000000000000000000000
+2018-10-06T20:18:44.273Z dicoapp:plugins:marketmaker failed blockchain.transaction.get DSEC 96e8d463f548ce4ac3bc1e302c13dc3ff0aa098ebfb33edb0ca5b0ae947b9822
+2018-10-06T20:18:44.274Z dicoapp:plugins:marketmaker                  command_rpcloop elapsed   80708.00 millis > threshold    2500.00, ave      25.23 millis, count.16459 postprice
+2018-10-06T20:18:44.275Z dicoapp:plugins:marketmaker time error with electrum, retry.0
+```
+
+
+[06-Oct-18 01:38 PM] SHossain#0007
+electrum error is there and my swap is stuck at 5/6
+
+
+[06-Oct-18 01:44 PM] ca333#0333
+i unfortunately cant check the electrum server - anyone got access?
+
+
+[06-Oct-18 02:00 PM] siu#3920
+happens exactly the same with coqui
+
+
+[06-Oct-18 02:01 PM] ca333#0333
+weird - and only on windows, right?
+
+
+[06-Oct-18 02:01 PM] siu#3920
+yes
+
+
+[06-Oct-18 02:01 PM] siu#3920
+also i now tried with old marketmakers from another dicoapp release and the result it the same.
+
+
+[06-Oct-18 02:03 PM] ca333#0333
+maybe the way the windows marketmaker version does connect to the SPV servers is the problem. windows librariy ports are always a PITA - so it could potentially also be a windows related nanomsg issue and not MM. 
+
+@jl777c is MM utilizing nanomsg for the SPV netcomm?
+
+
+[06-Oct-18 02:04 PM] jl777c#5810
+no nanomsg for SPV
+
+
+[06-Oct-18 02:04 PM] ca333#0333
+ok thanks
+
+
+[06-Oct-18 02:10 PM] SHossain#0007
+while the swap is stuck, only way to start another one is, by logging out and log back in.
+
+
+[06-Oct-18 02:11 PM] SHossain#0007
+can we keep the buy option enabled while another swap is happening?
+
+
+[06-Oct-18 02:27 PM] namhoang28#4328
+There is no way to detect the transaction is stuck or not by calling api recently 
+so we can’t enable buy button when swap is happening ```
+can we keep the buy option enabled while another swap is happening?
+```
+ Yes, we can implement it
+but then we need a history of transactions and so on … : D
+need a confirmation and I will try implement it @ca333 @SHossain  @siu
+
+
+[06-Oct-18 02:28 PM] ca333#0333
+yes its good to implement a persistent "buy-history" - the dico app prototype has this feature as well.
+
+{Reactions}
+😍 
+
+[06-Oct-18 02:29 PM] ca333#0333
+we should only add a little rate-limiter
+
+
+[06-Oct-18 02:29 PM] ca333#0333
+i.e. 3 swaps per 1 minutes with min. 15 sec. in between or so
+
+
+[06-Oct-18 02:29 PM] SHossain#0007
+thank you. in this way, user don't have ot log out and log back in
+
+
+[06-Oct-18 02:29 PM] ca333#0333
+might need little fine-tuning
+
+
+[06-Oct-18 02:29 PM] SHossain#0007
+will save them some hassle
+
+
+[06-Oct-18 02:31 PM] ca333#0333
+also the dICO app prototype will automatically let you issue another swap after 3 minutes or when the swap is confirmed. either/or
+
+
+[06-Oct-18 02:31 PM] ca333#0333
+but never would get into a "locked" state
+
+
+[06-Oct-18 02:33 PM] namhoang28#4328
+noted, will think about it now
+@pbca26 might have some experience about this : D
+
+
+[06-Oct-18 02:35 PM] namhoang28#4328
+he did it in agama wallet as well
+
+
+[06-Oct-18 06:06 PM] siu#3920
+im checking hyperdex to see if the issue is around the board
+
+
+[07-Oct-18 10:53 PM] ca333#0333
+@siu @namhoang28 had a talk to @artem.pikulin and i am now porting the atomicDEX prototype for usage with MM2 - we re getting there stabilitywise. Same for dICO app - @namhoang28 i am going to replace it with MM2 and see how that goes. Checking it serverside right now. will let you guys now when on it GUI side.
+
+
+[07-Oct-18 11:05 PM] namhoang28#4328
+Thanks @ca333 , I’m working on ”buy-history" task now.
+@siu can talk with @artem.pikulin  since he has more information about a bug (server logs and mm logs).
+I confirmed that it only happened on win. I can make a swap successful on mac and @siu  can make it on linux.
+
+
+[07-Oct-18 11:24 PM] ca333#0333
+@namhoang28 what sort of "bug" ?
+
+
+[07-Oct-18 11:25 PM] ca333#0333
+not sure if siu is already using MM2... better to just keep testing the dico app and to extend it by whatever endusers and service providers want. In the meanwhile the devs are figuring to soluve the inconsistency issues on WIN.
+
+
+[07-Oct-18 11:26 PM] ca333#0333
+@namhoang28 MM2 is the new marketmaker based on the rust port of the barterDEX codebase. I think you miss this information.
+
+
+[07-Oct-18 11:27 PM] namhoang28#4328
+@ca333 yep, I miss that. Still use the old one : D
+
+
+[07-Oct-18 11:28 PM] namhoang28#4328
+where is the repo? I'm curious
+
+
+[07-Oct-18 11:29 PM] ca333#0333
+no worries. just keep using the current MM and work together with siu to get the dICO app visually to where we need it. The dev-repo is https://github.com/artemii235/SuperNET
+
+{Embed}
+https://github.com/artemii235/SuperNET
+artemii235/SuperNET
+Contribute to artemii235/SuperNET development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6tle8mq-vBNKZMUSJgicxTqb0XV_6r5olkUss4Ckk7U/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/15745003
+
+
+[07-Oct-18 11:57 PM] namhoang28#4328
+Thanks for the link
+ I think i have to learn rust now : D
+
+
+[08-Oct-18 12:10 AM] grewalsatinder#9653
+I see a lot of rust based web assembly work, but not much in golang based webassembly 😦
+
+
+[08-Oct-18 04:11 AM] siu#3920
+awesome
+
+
+[08-Oct-18 04:11 AM] siu#3920
+can it be tested?
+
+
+[08-Oct-18 05:41 AM] ca333#0333
+ready for dev-testing - normal users or those with limited debug capabilities probably not yet
+
+
+[08-Oct-18 06:02 AM] siu#3920
+@ca333 where is the new version with mm2?
+
+
+[08-Oct-18 06:02 AM] ca333#0333
+we re still using MM1 -  i am changing some stuff slightly for usage with MM2
+
+
+[08-Oct-18 06:03 AM] ca333#0333
+give me a day to push the mods - have two more meetings today and team meeting later + reading an external security review
+
+
+[08-Oct-18 06:04 AM] siu#3920
+ok, no worries, just thought i could test it already
+
+
+[09-Oct-18 10:43 PM] Mylo#8306
+@grewalsatinder I think because rust is a Mozilla project.  Whether go and wasm will be a hit I think depends on dart/flutter success because google may put more resources to dart/flutter/wasm instead of go.
+
+
+[10-Oct-18 02:44 AM] grewalsatinder#9653
+heard dart name somewhere.... have to google them now.... 🤔
+
+
+[10-Oct-18 02:44 AM] grewalsatinder#9653
+thanks for comment on it... will check 🙂
+
+
+[11-Oct-18 04:58 PM] namhoang28#4328
+Hey @siu 
+ Could you help me to test the latest code on this branch: https://github.com/KomodoPlatform/dicoapp-e/tree/implement-my-orders-tab-in-buy-page 
+Now you can make another swap when current swap is confirmed 
+I will off in few hours but let me know the result
+ Thank you
+https://www.dropbox.com/s/85u9ue1hsh6ygkk/Screen%20Shot%202018-10-12%20at%2006.43.31.png?dl=0
+
+{Embed}
+https://www.dropbox.com/s/85u9ue1hsh6ygkk/Screen%20Shot%202018-10-12%20at%2006.43.31.png?dl=0
+Screen Shot 2018-10-12 at 06.43.31.png
+Shared with Dropbox
+https://images-ext-2.discordapp.net/external/nSjSkgQZZpoGu58LW9SyIW8SluuSe-3eTlNKC1BdHD4/%3Fpreserve_transparency%3DFalse%26size%3D1200x1200%26size_mode%3D4/https/www.dropbox.com/temp_thumb_from_token/s/85u9ue1hsh6ygkk
+
+
+[12-Oct-18 04:57 AM] siu#3920
+on it!
+
+
+[19-Oct-18 08:47 AM] namhoang28#4328
+Hi everyone,
+
+I just released new version of the app. You can download it here <https://github.com/KomodoPlatform/dicoapp-e/releases/tag/v0.10.0> if you are using osx. For other os, please download and build it from develop branch<https://github.com/KomodoPlatform/dicoapp-e/tree/develop>.
+ New features:
+- Allow user to make another swap when current swap is comfirmed
+- Display history of swaps 
+- Show details of a swap in modal
+
+The next steps I'm going to work on:
+- Redesign the wallet page, make it look better, simple and more succinctly.
+- Fixed bugs, try to resolve some technical debt 
+- Call and handle http requests in difference thread because the browsers (renderer thread) limit number of simultaneous http requests (it’s 6 in chrome currently) (low priority)
+
+Thank @siu for helping me test out the app. Happy weekend everyone : )
+
+/ cc @ca333 @SHossain @siu 
+
+Screenshot
+https://www.dropbox.com/s/mrwl39hwqazt1ow/Screen%20Shot%202018-10-19%20at%2018.20.17.png?dl=0
+https://www.dropbox.com/s/z5j9mv0828csezo/Screen%20Shot%202018-10-19%20at%2018.20.39.png?dl=0
+https://www.dropbox.com/s/mvesf3f6n25ba79/Screen%20Shot%202018-10-19%20at%2018.20.51.png?dl=0
+https://www.dropbox.com/s/rzmnaxae7m2vww4/Screen%20Shot%202018-10-19%20at%2018.21.05.png?dl=0
+https://www.dropbox.com/s/aiouzr1ozmnat8l/Screen%20Shot%202018-10-19%20at%2018.21.17.png?dl=0
+
+{Reactions}
+👏🏽 👌🏽 👍🏽 
+
+[19-Oct-18 08:54 AM] SHossain#0007
+@namhoang28 do we need to update marketmaker? or the working version is in the repo?
+
+
+[19-Oct-18 08:55 AM] namhoang28#4328
+if it's not working, please update it
+
+
+[19-Oct-18 08:59 AM] namhoang28#4328
+I still don't why mm is not work when we pull it from github. I always have to replace it
+
+
+[19-Oct-18 08:59 AM] SHossain#0007
+does the exec permission get removed?
+
+
+[19-Oct-18 08:59 AM] SHossain#0007
+i'll test it now anyway
+
+
+[19-Oct-18 08:59 AM] SHossain#0007
+😃
+
+
+[19-Oct-18 09:00 AM] namhoang28#4328
+nope
+
+
+[19-Oct-18 09:02 AM] namhoang28#4328
+I copied it from this repo (old project): https://github.com/KomodoPlatform/dicoapp/tree/master/.desktop/modules/marketmaker
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp/tree/master/.desktop/modules/marketmaker
+KomodoPlatform/dicoapp
+whitelabeled dico application. Contribute to KomodoPlatform/dicoapp development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[19-Oct-18 09:03 AM] SHossain#0007
+that could be an issue, using the old version. try the same one as BarterDEX GUI repo
+
+
+[19-Oct-18 09:04 AM] namhoang28#4328
+@SHossain if you get timeout error, please ping @siu. He need to restart server side
+
+
+[19-Oct-18 09:04 AM] namhoang28#4328
+thanks : )
+
+
+[19-Oct-18 09:04 AM] SHossain#0007
+will test this one on my Ubuntu https://github.com/KomodoPlatform/dicoapp-e/releases/download/v0.10.0/dicoapp-e_0.10.0_amd64.deb
+
+
+[19-Oct-18 09:05 AM] SHossain#0007
+seems there is no .dmg file for macOS.
+
+
+[19-Oct-18 09:06 AM] namhoang28#4328
+@SHossain ah, sorry. I uploaded wrong file. Please wait
+
+{Reactions}
+👍🏽 
+
+[19-Oct-18 09:06 AM] namhoang28#4328
+lol
+
+
+[19-Oct-18 09:09 AM] namhoang28#4328
+it's good now
+you can download .dmg file here: https://github.com/KomodoPlatform/dicoapp-e/releases/tag/v0.10.0
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/releases/tag/v0.10.0
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[19-Oct-18 09:10 AM] SHossain#0007
+lol...i'm testing in Ubuntu
+
+
+[19-Oct-18 09:12 AM] namhoang28#4328
+then please try to pull and build it from develop branch : D https://github.com/KomodoPlatform/dicoapp-e/tree/develop
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/tree/develop
+KomodoPlatform/dicoapp-e
+SPV lightweight GUI wallet with barterDEX swap capabilities - KomodoPlatform/dicoapp-e
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[19-Oct-18 09:15 AM] SHossain#0007
+yep. on it
+
+
+[19-Oct-18 09:15 AM] SHossain#0007
+thanks
+
+
+[19-Oct-18 09:21 AM] namhoang28#4328
+the app will be run faster when you run it in production mode
+try to build it by run `npm run package:all` command and go to `release` folder.  There is .deb file for ubuntu in there
+
+
+[19-Oct-18 09:21 AM] SHossain#0007
+@namhoang28 current marketmaker from your repo doesn't work. same issue. used mm binary from BarterDEX repo and i can login
+
+
+[19-Oct-18 09:22 AM] SHossain#0007
+i used `yarn install` and `yarn dev` to run the app
+
+
+[19-Oct-18 09:23 AM] cipi#4502
+i would use the newest version from here: https://github.com/artemii235/SuperNET/releases
+it also has overwinter/sapling support
+i just a did a test with VOT, which has overwinter activated and it went fine
+will add it to BarterDEX-GUI repo
+
+{Embed}
+https://github.com/artemii235/SuperNET/releases
+artemii235/SuperNET
+Contribute to artemii235/SuperNET development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6tle8mq-vBNKZMUSJgicxTqb0XV_6r5olkUss4Ckk7U/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/15745003
+
+
+[19-Oct-18 09:23 AM] SHossain#0007
+or that ☝🏽
+
+
+[19-Oct-18 09:23 AM] SHossain#0007
+thanks @cipi
+
+
+[19-Oct-18 09:23 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/502879579938226176/Screenshot_from_2018-10-19_17-23-08.png
+
+
+[19-Oct-18 09:24 AM] SHossain#0007
+swap is underway
+
+
+[19-Oct-18 09:25 AM] SHossain#0007
+started a 2nd swap while the first one is in progress
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/502880009476636672/Screenshot_from_2018-10-19_17-25-07.png
+
+
+[19-Oct-18 09:25 AM] namhoang28#4328
+@SHossain it's worked in my local. But it doestn't work when I commit it. Maybe I set something wrong in my git config
+@cipi thanks
+
+
+[19-Oct-18 09:26 AM] namhoang28#4328
+@SHossain try to click in uuid, you will see the detail of a swap : )
+
+{Reactions}
+👍🏽 
+
+[19-Oct-18 09:27 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/502880394232856577/Screenshot_from_2018-10-19_17-26-54.png
+
+
+[19-Oct-18 09:29 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/502880986149683209/Screenshot_from_2018-10-19_17-29-01.png
+
+
+[19-Oct-18 09:29 AM] SHossain#0007
+the 2nd swap never started. but, at the end status says FINISHED
+
+
+[19-Oct-18 09:30 AM] siu#3920
+was going to kick the mm, buts working fine
+
+
+[19-Oct-18 09:31 AM] namhoang28#4328
+@SHossain it means your swap is timeout. Maybe I will add some error message in detail modal
+
+
+[19-Oct-18 09:31 AM] SHossain#0007
+that is a good idea
+
+
+[19-Oct-18 09:32 AM] SHossain#0007
+the first swap completed successfully
+
+
+[19-Oct-18 09:32 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491689539996483585/502881674334306304/Screenshot_from_2018-10-19_17-31-34.png
+
+{Reactions}
+👍 
+
+[19-Oct-18 09:32 AM] SHossain#0007
+@namhoang28 great improvement
+
+
+[19-Oct-18 09:32 AM] SHossain#0007
+👍🏽
+
+
+[19-Oct-18 09:33 AM] SHossain#0007
+i will be rich soon. buying COQUI with BEER 😄
+
+
+[19-Oct-18 09:34 AM] SHossain#0007
+@namhoang28 i like this new version better
+
+
+[19-Oct-18 09:35 AM] namhoang28#4328
+@SHossain thanks : D
+
+
+[21-Oct-18 03:30 AM] ca333#0333
+Really good work on the visuals @namhoang28, app looks very fancy.
+
+
+[21-Oct-18 11:15 PM] namhoang28#4328
+thanks @ca333  but I'm sure we could make it better : )
+
+
+[02-Nov-18 06:35 AM] namhoang28#4328
+Hi everyone,
+I just released new version of the app. If you use osx you can download it here <https://github.com/KomodoPlatform/dicoapp-e/releases/tag/v0.11.0>. For other os, please download and build it from develop branch<https://github.com/KomodoPlatform/dicoapp-e/tree/develop>.
+
+Notable changes:
+- Redesign the wallet page, make it look simpler and succinctly.
+    - Add Deposit modal, Withdraw modal
+- User can withdraw all their funds and empty their wallet
+- Fix some bugs related withdraw and transactions
+
+Starting from next week, I’m going to focus on atomic dex. I will discuss with @ca333  to get more informations and requirements.
+Thank @siu @pbca26 @artem.pikulin  for helping me. Happy weekend everyone : )
+\cc @ca333 @SHossain @siu 
+https://www.dropbox.com/s/en5qpisv2af2gom/Screen%20Shot%202018-11-02%20at%2015.57.07.png?dl=0
+https://www.dropbox.com/s/c7g6jfws6ttlz33/Screen%20Shot%202018-11-02%20at%2015.57.31.png?dl=0
+https://www.dropbox.com/s/kwmpcgzx2f0r87b/Screen%20Shot%202018-11-02%20at%2016.06.31.png?dl=0
+
+{Embed}
+https://www.dropbox.com/s/en5qpisv2af2gom/Screen%20Shot%202018-11-02%20at%2015.57.07.png?dl=0
+Screen Shot 2018-11-02 at 15.57.07.png
+Shared with Dropbox
+https://images-ext-1.discordapp.net/external/lc3dYGK05ml8Hse2Ta0XCNLPngZ69RHJP-XImHZxi6M/%3Fpreserve_transparency%3DFalse%26size%3D1200x1200%26size_mode%3D4/https/www.dropbox.com/temp_thumb_from_token/s/en5qpisv2af2gom
+
+{Embed}
+https://www.dropbox.com/s/c7g6jfws6ttlz33/Screen%20Shot%202018-11-02%20at%2015.57.31.png?dl=0
+Screen Shot 2018-11-02 at 15.57.31.png
+Shared with Dropbox
+https://images-ext-1.discordapp.net/external/mLO8ChNHRD8kbBpvZ_aQwum5lxMLFHELDGrIFSNGLps/%3Fpreserve_transparency%3DFalse%26size%3D1200x1200%26size_mode%3D4/https/www.dropbox.com/temp_thumb_from_token/s/c7g6jfws6ttlz33
+
+{Embed}
+https://www.dropbox.com/s/kwmpcgzx2f0r87b/Screen%20Shot%202018-11-02%20at%2016.06.31.png?dl=0
+Screen Shot 2018-11-02 at 16.06.31.png
+Shared with Dropbox
+https://images-ext-1.discordapp.net/external/6tejh8QWfnOHI7wlksEIe1KUv1iaagBWtmPgAUKZNTQ/%3Fpreserve_transparency%3DFalse%26size%3D1200x1200%26size_mode%3D4/https/www.dropbox.com/temp_thumb_from_token/s/kwmpcgzx2f0r87b
+
+
+[05-Nov-18 07:47 AM] Mylo#8306
+anything in particular to test with the v0.11.0 osx app?
+
+
+[05-Nov-18 07:47 AM] Mylo#8306
+what are the testable coin combos?
+
+
+[05-Nov-18 07:48 AM] Mylo#8306
+it is still downloading, so may be redundant questions.
+
+
+[05-Nov-18 08:16 AM] siu#3920
+in current setup COQUI/BEER swaps can be tested
+
+
+[05-Nov-18 08:18 AM] siu#3920
+also, new wallet page and withdraw function should be tested
+
+
+[05-Nov-18 04:47 PM] Mylo#8306
+thanks siu
+
+
+[06-Nov-18 04:16 AM] ca333#0333
+@everyone @namhoang28 asked few questions and explanation on how atomicDEX gonna work - the answer could be essential info for all in here so i m posting it publicly:
+
+
+[06-Nov-18 04:16 AM] ca333#0333
+a) What is the goals of project? 
+To provide non-technical users ("grandmas") a way to issue crosschain atomic swaps without any background knowledge. It should all happen the "shapeshift" way. 
+
+b) what is the problem that we try to solve? 
+There is no really simple way of doing atomic swaps. My dico app was the first app that allowed users to do swaps without any knowledge or knowing what relvol , basevol and maxvol would mean in such swaps. I want users to be able to just tell the app how much of tokens X they want to buy - the app should check balance, utxo scheme and proper available orders to swap against. The app should be taking care of everytrhing - the user of nothing. So obvisouly the problem is that doing dex trading is still to complicated for most users and not satisfying. 
+
+c)Who will be the user of this app? 
+No def. user group - from tech affiniate and developer to grandma and mentally handicapped ppl - everyone should be able to use AtomicDEX.
+
+d) who will be early adopters?
+Devs, team-members, testers. Majority probably community users and their friends/relatives - & noobs. 
+
+e)What feature do we have in the application? 
+   I) wallet funcs: receive, send, import/export privkey/seed, encrypt/decrypt wallet.dat for all supported tokens
+  II) trade funcs: buy token X with user defined token Y
+
+
+[06-Nov-18 04:17 AM] ca333#0333
+III) AtomicDEX backend engine: needs to properly handle/split utxos on a case by case algo, precalc the available funds and if the user defined buy-amount can even be bought, etc. Literally the dICO app with ehanced utxo handling - the buy part is "almost" unchanged and very simple to modify/takeover from the dico app - to get this done will take you 10 minutes with testing. Example on how this is going to be modified/handled you can see here in my dico prototype mod https://github.com/KomodoPlatform/dicoapp/commit/09b6c04685c1c13fedd30607b784e958e958beef - this commit should make all necessary modifications clear. As for the utxo handling part - we are going to do it this way (atomicDEX buy scenario):
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp/commit/09b6c04685c1c13fedd30607b784e958e958beef
+modify buy/getprice logic · KomodoPlatform/dicoapp@09b6c04
+https://images-ext-1.discordapp.net/external/odO1GEZjXVfb1MMXFakEV1Oz4dmaW1GhG6vDNkq6dxQ/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/10762374
+
+
+[06-Nov-18 04:17 AM] ca333#0333
+**Scenario**
+
+1) User defines amount of Tokens X that he wants to buy and the type of Tokens Y that he want to spend for X (X = bobcoin in the codes, since this is what we want "from the bob" and Y = alicecoin in the codes since this is what we have) - (you can also check the atomicDEX mockup that i shared here some time ago)
+
+
+[06-Nov-18 04:17 AM] ca333#0333
+2) now the atomicDEX engine checks if this is possible (balance calc based on the price and vol calc - if good to go the atomicDEX engine will first check the available utxos - their value and how the ratio does fit. If it does reflect 1/777 utxo for the fee split and the calculated relvol, then its good to go. If not then atomicDEX engine has to generate a transaction to yourself ("sendmany" styled with multiple tx outputs) where each TX output reflects one element of the necessary alice utxos (fee, vol) also make sure you have enough TX fee added to this key! (the swap = more than 1 TX!!)
+
+
+[06-Nov-18 04:18 AM] ca333#0333
+In this step the atomicDEX app has to inform the user about the split (if such a split-tx takes place at all) - for this time its good to lock all wallet-funcs and to automatically issue the swap once the split is done to ensure a swap-success. 
+With the dICO App prototype we were all able to do 100% swap success during the initial tests last year (first dICO rounds) - so i am pretty sure that if we keep the same logic in the buy side and enhance gthe engine by the above funcs that we ll be able to provide the most robust and advanced DEX tech/enduser app to the masses. 
+BDEX v1.0 has already been able to provide almost 100% swap success around a year ago - with bdex 2.0 we ll def. hit the 100%.
+
+
+[06-Nov-18 04:18 AM] ca333#0333
+**Also important to add that what you put into something is also what you get out - we need properly trained and tech aff. ppl to run bobs/spv nodes etc. Otherwise you ll only see ppl complaining bout tech hear "tech doesnt work, blablabla"**
+
+
+[06-Nov-18 04:42 AM] artem.pikulin#0794
+@ca333 Hi, I noticed that dICO GUI app possibly works directly with available UTXOs. This might conflict with refactoring plan that we have for MM2, here are 2 main points:
+1. Input UTXO handling during tx creation must be refactored in order to provide universal way of UTXO selection especially in case of small amount of big utxos. Here is the issue describing the general idea: https://github.com/artemii235/SuperNET/issues/157
+2. Specific technical implementation of coins must be encapsulated on MM level providing a public interface for external interaction - every coin has a balance, tx history etc. However GUI shouldn't rely on specific protocol (UTXO) - it'll complicate integration of other protocol coins (like ETH and many others which have different non-UTXO implementation). The good example of problems caused by UTXO-only dependency is MM1 ETH integration - the additional proxy coin (ETOMIC) is required for ETH/ERC20 swaps now, but we can get rid of it. We also have to support things like ETOMIC faucet adding extra point of failure - faucet can be drained, down, etc.
+
+{Embed}
+https://github.com/artemii235/SuperNET/issues/157
+[v2] Discuss utxo handling refactoring. · Issue #157 · artemii23...
+This issue is created to discuss the RFC available at https://github.com/artemii235/SuperNET/blob/etomic/iguana/exchanges/utxo_handling_refactor_rfc.md. Some related discussions already happened in...
+https://images-ext-1.discordapp.net/external/6tle8mq-vBNKZMUSJgicxTqb0XV_6r5olkUss4Ckk7U/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/15745003
+
+{Reactions}
+👍 
+
+[06-Nov-18 04:49 AM] artem.pikulin#0794
+I can see that dICO app calls `listunspent` directly - https://github.com/KomodoPlatform/dicoapp/commit/09b6c04685c1c13fedd30607b784e958e958beef#diff-47581865cf708b35b6009e6be137a10cL408, I suggest to start slowly removing UTXOs dependent code from GUIs along with MM2 development. Lukechilds agrees that it's good idea: https://github.com/atomiclabs/hyperdex/pull/563#issuecomment-435288794
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp/commit/09b6c04685c1c13fedd30607b784e958e958beef
+modify buy/getprice logic · KomodoPlatform/dicoapp@09b6c04
+https://images-ext-1.discordapp.net/external/odO1GEZjXVfb1MMXFakEV1Oz4dmaW1GhG6vDNkq6dxQ/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/10762374
+
+{Embed}
+https://github.com/atomiclabs/hyperdex/pull/563
+Marketmaker v2 test by sindresorhus · Pull Request #563 · atomic...
+https://images-ext-1.discordapp.net/external/qIsgfRxmkTHjXzjE8Z_yMWm0BLcbPpxu3RHGeKXegwI/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/170270
+
+
+[06-Nov-18 04:57 AM] artem.pikulin#0794
+@artemciy_dice Also pointed there that it might be useful to provide "low level" info about transactions - like what utxo was selected for swap etc. I agree with it but I think that it should be only on "info" level, GUI shouldn't rely on UTXO to display orderbook, broadcast order, etc.
+Please share your thoughts about it 😃
+
+
+[06-Nov-18 04:58 AM] ca333#0333
+excellent - thanks a lot for the info @artem.pikulin - in this case we will exclude utxo handling and rely on MM2 for this
+
+
+[06-Nov-18 04:58 AM] ca333#0333
+i vote your proposal up - its def. a good idea to have this being part of the MM internal processings
+
+
+[06-Nov-18 04:59 AM] ca333#0333
+so GUI only takes care on GUI related stuff - i.e. mapping using inputs over to MM2
+
+
+[06-Nov-18 05:06 AM] artem.pikulin#0794
+@ca333 Thanks! The refactoring plan is already being implemented. UTXO selection and validation on order broadcasting/validation  was removed and it even works 🙂
+
+
+[06-Nov-18 05:09 AM] artemciy_dice#0049
+I'm kind of excited that this has been already prototyped in dICO. @artem.pikulin was working on this lately and IMHO it's nice to have a proof of concept at hand, and it's nice that we can do this kind of stuff from GUIs. In the long run though, it should be better to implement this in the MM (on the v2 branch) in order to be able to make better decisions when, for instance, the list of UTXOs changes (maybe there are fresh updates from the wallet, or maybe the user is doing something else in background). Preselecting UTXOs in GUI might introduce extra points of failure, might slow down trade retries and complicate the automatic testing and debugging of such trades.
+
+
+[06-Nov-18 05:13 AM] namhoang28#4328
+@ca333 @artem.pikulin thanks. I'm not with my laptop now. I will read when im home. But i refer low level of api. It make me feel more control and know how the code work hehe 😂
+
+
+[06-Nov-18 05:16 AM] artemciy_dice#0049
+`> But i refer low level of api. It make me feel more control and know how the code work hehe`
+
+I'd rather second that, there is value in keeping the low level API available, in order to make it easier to test and prototype different algorithms. Per PDIA (Problem-Driven Iterative Adaptation, a process which I came to respect) we should authorize positive deviation and let the good solutions spread through diffusion.
+
+
+[06-Nov-18 05:19 AM] artemciy_dice#0049
+On our side we'll strive to exploit the advantages of the MM2-integrated solution in order to make it faster and more reliable.  D
+
+{Reactions}
+👍 
+
+[06-Nov-18 07:53 AM] Mylo#8306
+Are there any marketmaker2 bob instructions available yet?
+
+
+[06-Nov-18 07:54 AM] Mylo#8306
+ps this has been a great read. thank yo
+
+
+[06-Nov-18 08:03 AM] namhoang28#4328
+I haven’t read all comments yet so maybe I can misunderstand something but I agreed with @artemciy_dice 
+We should make the GUI easy to use but not in API. The api should be “pure”, detail, transparent and do one thing.
+For example, buy api can split into 2 api: buy and splitting utxos (low level)
+Of course, there will be more code in GUI level and more roundtrip but it’s not big a problem since we run mm app locally.
+And it’s easy for someone (not hyper app, not dico app) want to build app on top of marketmaker app.
+Maybe they have different UI, different process and different requirements.
+Bitcoin and ECR20 are different resource. Let's create different api for it 😄
+
+
+[06-Nov-18 08:18 AM] artemciy_dice#0049
+@namhoang28 , the atomic swap does a lot behind the scenes, I doubt the "do one thing" UNIX philosophy is applicable here, it's like saying that a database APIs should "do one thing" and stop at fetching a block from the disk, or writing it back, and the database client will implement the rest of the SQL and ACID. Having a low-level API is good for prototyping and experimenting with algorithms (kind of like having a Python interface to Tensorflow), but after the prototyping the best Real Thing should then be implemented natively in the underlying trade server (MM).
+
+
+[06-Nov-18 08:22 AM] namhoang28#4328
+Yep, there is no best options but I think we talk about restful api.
+I see many benefit if we keep mm api in low level. This is my opinion : D
+
+
+[06-Nov-18 08:33 AM] namhoang28#4328
+what I mean "do one thing" is if I call buy api, it simply processes an order.
+If it found not enough tx, it should throw new error
+now it do more than one thing in buy api
+
+
+[06-Nov-18 08:37 AM] artemciy_dice#0049
+@namhoang28 , I really appreciate your eagerness to go into the nitty-gritty details of the atomic swaps! I think we'll benefit from more eyes.
+
+I think that the "low level" API might have been a misnomer though. What we have is a high level API where you're placing a buying or a selling order, then things like joining UTXOs, performing the steps of the atomic swap, everything happens inside the MM.
+
+Maybe we should chunk down and see what particular parts of the UTXO-related APIs you'd like us to preserve?
+
+`> now it do more than one thing in buy api`
+
+Interesting. What operations you'd like to see separated from the buy API?
+
+
+[06-Nov-18 08:55 AM] namhoang28#4328
+This is the code when you want to splitting utxos. It call same buy api. I personally don't like it. We should have splitting utxos api:
+```
+https://github.com/KomodoPlatform/dicoapp-e/blob/master/app/containers/BuyPage/saga/load-buy-coin-process.js#L85
+```
+```
+ things like joining UTXOs, performing the steps of the atomic swap, everything happens inside the MM.```
+I think this is low level of UTOX resource.
+But treating bitcoin(other coins) and ECR20 like same resource is not good idea. It good idea in GUI level but not good idea in API level. This is my opinion. Do what you think right since my knowledge of blockchain is not good : D
+
+
+[06-Nov-18 09:05 AM] artemciy_dice#0049
+Makes sense, if the user interface performs the splitting as a separate step then we might benefit from having a dedicated splitting API. Please feel free to add this at https://github.com/artemii235/SuperNET/issues.
+
+
+[06-Nov-18 09:13 AM] artemciy_dice#0049
+`> But treating bitcoin(other coins) and ECR20 like same resource is not good idea.`
+
+We'll take another look at this, thanks.
+
+
+[06-Nov-18 09:13 AM] namhoang28#4328
+@artemciy_dice thanks, will do 😃
+
+{Reactions}
+pirate 
+
+[06-Nov-18 09:02 PM] artem.pikulin#0794
+@namhoang28 Hi, on MM level we don't treat different coins as same resource. However it might be essential for top level software to be able to work with any coin using same API methods as some actions are same by the nature: getBalance, getTxHistory, sendTransaction, etc. It's like the task with tx history: https://github.com/KomodoPlatform/dicoapp-e/issues/64#issuecomment-432137489. Even UTXO coins provide different API for tx history in native/electrum modes, but you like to use only 1 API method (listtransactions) getting the same response format.
+Same thing we want to do in MM2. Moreover it was said few messages above that UTXO related code on ordermatching (which includes buy method) is already being removed because it makes hard to support other coins like ETH.
+So it's already planned that `buy` method won't do any splitting - it won't even know what UTXO is because specific implementation will be incapsulated on lower level. Buy method will check that address has sufficient balance to place the order and that's it.
+
+{Embed}
+https://github.com/KomodoPlatform/dicoapp-e/issues/64
+implement transactions tab · Issue #64 · KomodoPlatform/dicoapp-e
+Title: implement transactions tab Business/User Value: User objectives: filter trasactions by coin Acceptance Criteria GIVEN [necessary context and preconditions for story] WHEN [action] THEN [reac...
+https://images-ext-1.discordapp.net/external/aoYFsE1Mstym_kQHATdrwByqGRZjypnRA7_QKcsOYCQ/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3245868
+
+
+[06-Nov-18 09:10 PM] artem.pikulin#0794
+And UTXO handling algorithm will be changed significantly, you won't need to do any preparation before `buy` request. So I don't think that there will be UTXO splitting API because it's simply not required.
+
+
+[06-Nov-18 09:10 PM] namhoang28#4328
+thanks @artem.pikulin , good point.
+I can understand why buy method do splitting utox in it. It’s because there is a same team who work on both UI and marketmaker app. But now there is at least three project build on top mm app (hyper, dico, barterdex). It good if we can keep the api in low level : D
+
+
+[06-Nov-18 09:19 PM] namhoang28#4328
+```
+And UTXO handling algorithm will be changed significantly, you won't need to do any preparation before buy request. So I don't think that there will be UTXO splitting API because it's simply not required.
+```
+it even better. Let try it and see if it’s good. If not we can change later
+
+
+[06-Nov-18 09:20 PM] artem.pikulin#0794
+We're trying to keep existing API as same as possible so GUI teams don't need to do huge refactoring. For this particular case you don't need to implement UTXO split on GUI level, we want to make your life simplier 😃
+
+{Reactions}
+👍 
+
+[06-Nov-18 09:21 PM] artem.pikulin#0794
+`it even better. Let try it and see if it’s good. If not we can change later` - this work is in progress now, I'll let you know once we have something to test.
+
+
+[06-Nov-18 09:28 PM] artem.pikulin#0794
+@Mylo Hi, there is no specific instruction how to run nightly builds of MM2. It should work same way as MM1 as we're trying to keep config, API, etc. same for now to simplify MM2 usage for existing GUIs. So you just need to download the nightly binary http://195.201.0.6/etomic/ (or build it from source https://github.com/artemii235/SuperNET/tree/etomic) and replace your existing MM1 binary keeping config same. Please note that it mostly keeps all features (and bugs) same and even can have more bugs so I'd recommend to use it very carefully and with testcoins only and on private netid.
+
+
+[07-Nov-18 12:23 AM] Mylo#8306
+thanks @artem.pikulin test coins only for now sounds good
+
+
+[29-Nov-18 12:47 AM] ca333#0333
+@namhoang28 @hyperDEX @pbca26 - https://github.com/dominictarr/event-stream/issues/115 - please check if you re using package/screwed version - seems to be a dep for many other npm-packages
+
+{Embed}
+https://github.com/dominictarr/event-stream/issues/115
+Backdoored dependency? flatmap-stream-0.1.1 and flatmap-stream-0.1...
+I'm using version 3.3.6 of this module. flatmap-stream was added by this commit: e316336 The new updates to the package on npm are very suspicious. 0.1.0: https://registry.npmjs.org/flatmap-str...
+https://images-ext-2.discordapp.net/external/Aa0WG2pbiUL1etGRpuPcmtipxaSvxJIXKfV9lV-6kbc/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/416945
+
+
+[29-Nov-18 12:51 AM] ca333#0333
+https://github.com/dominictarr/event-stream/issues/116 - more infos
+
+{Embed}
+https://github.com/dominictarr/event-stream/issues/116
+I don't know what to say. · Issue #116 · dominictarr/event-stream
+EDIT 26/11/2018: Am I affected?: If you are using anything crypto-currency related, then maybe. As discovered by @maths22, the target seems to have been identified as copay related libraries. It on...
+https://images-ext-1.discordapp.net/external/eN5iljhquQjg6ut-VEVSwaI9Bdb0M5tj_r1NlcCshSI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/2512197
+
+
+[29-Nov-18 12:56 AM] namhoang28#4328
+Thanks @ca333 
+I read it few day ago and also tried to checkit in dICO and AtomicDex app by this command:
+```
+npm ls event-stream flatmap-stream
+
+dicoapp-e@0.12.0 /Volumes/Data/workspaces/komodo/atomicdex
+└── (empty)
+```
+I didn’t found it in my project 😃
+
+
+[29-Nov-18 01:24 AM] pbca26#5430
+same here, verified a few days ago when i first read it
+i told you there are going to be more elaborate hacks related to crypto
+
+
+[29-Nov-18 01:34 AM] ca333#0333
+yes i also think this is the beginning - just first finding, for sure many other npms are already infected with some sort malware/coinstealer
+
+
+[29-Nov-18 01:38 AM] ca333#0333
+@namhoang28 isnt sweetalert package affected with a subdep?
+
+
+[29-Nov-18 01:38 AM] ca333#0333
+not sure but i thought i read this amongst the list of affected packages
+
+
+[29-Nov-18 02:16 AM] grewalsatinder#9653
+how do I make sure it isn't in BarterDEX ? from sub? did you guys just did find for file/folder?
+
+
+[29-Nov-18 02:16 AM] grewalsatinder#9653
+a sub module's sub of sub etc etc can still have it.
+
+
+[29-Nov-18 02:16 AM] grewalsatinder#9653
+@ca333 @pbca26
+
+
+[29-Nov-18 02:17 AM] grewalsatinder#9653
+oh I overlooked chat
+
+
+[29-Nov-18 02:17 AM] grewalsatinder#9653
+scrolled up and tried the same command
+
+
+[29-Nov-18 02:17 AM] grewalsatinder#9653
+```satinder@satinder-Librem:~/Documents/Github/BarterDEX$ npm ls event-stream flatmap-stream
+BarterDEX@1.1.0-rc /media/veracrypt1/home/satinder/Documents/Github/BarterDEX
+└── (empty)
+```
+
+
+[29-Nov-18 02:18 AM] grewalsatinder#9653
+seems to be good I think
+
+
+[29-Nov-18 02:19 AM] namhoang28#4328
+@ca333 I just looked the source code of sweetalert in my node_modules. It looks good to me and also it and its dependencies don't depend on these package.
+```
+https://github.com/KomodoPlatform/dicoapp-e/blob/master/yarn.lock#L10505
+
+sweetalert@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/sweetalert/-/sweetalert-2.1.0.tgz#d605dec840058fa8ad4a1f7c2c8c194bc72c27fa"
+  dependencies:
+    es6-object-assign "^1.1.0"
+    promise-polyfill "^6.0.2"
+```
+This thing goes viral so quick. It will definitely have more similar attacks in furture.
+
+
+[13-Feb-19 12:35 PM] Bryan_Beus#6442
+@jl777c 
+
+Are you available right now?
+
+I have some questions for you regarding DEX.
+
+
+[13-Feb-19 12:35 PM] jl777c#5810
+ok
+
+
+[13-Feb-19 12:46 PM] Bryan_Beus#6442
+Oh, didn't see this. 
+
+I'm putting together a more comprehensive history of your involvement with atomic swaps.
+
+
+[13-Feb-19 12:46 PM] Bryan_Beus#6442
+Did you save and/or post the code that you used to perform your original atomic swap?
+
+
+[13-Feb-19 12:46 PM] Bryan_Beus#6442
+The one in 2014 between NXT assets?
+
+
+[13-Feb-19 12:48 PM] Bryan_Beus#6442
+Also, same question for the BTC <--> NXT asset you did in 2015.
+
+
+[13-Feb-19 12:58 PM] Bryan_Beus#6442
+@jl777c 
+
+Also, I see this transaction here as the first from the DEX address on BTC chain.
+
+What kind of information can an independent third-party observer get from this address?
+
+Is there by chance any data that we have that would show what atomic swaps occurred?
+
+
+[13-Feb-19 12:58 PM] jl777c#5810
+data would need to be dug up on the NXT blockchain
+
+
+[13-Feb-19 12:58 PM] jl777c#5810
+InstantDEX even had a GUI and was doing atomic swaps
+
+
+[13-Feb-19 12:59 PM] Bryan_Beus#6442
+Hmm, with the current momentum that's happening, now is the appropriate time to try to get your history and achievements into a written form.
+
+
+[13-Feb-19 12:59 PM] Bryan_Beus#6442
+We've done small write ups in the past, but Steve would like me to focus on this, as it is important, and may be useful soon.
+
+
+[13-Feb-19 01:08 PM] Bryan_Beus#6442
+As I'm thinking about how I want to put together this story, here are a few thoughts about what would be good to have. 
+
+Naturally, some things we may just not have, and that's okay. But the more data and proof we can find, the better.
+
+First NXT asset atomic swap:
+* The code that you wrote in 2014 that successfully completed your first asset-asset atomic swap
+* The txids of that swap
+* Any blockchain-stored hashes of data at that time that can prove that those transactions were what we say they are
+* Any Github timestamps that show when your code was uploaded.
+* Links to the places in social media/online forum accounts where your conversations occurred during this time period.
+
+First NXT <--> BTC atomic swap
+* All the same data
+
+First atomic swap on Instant DEX
+* Same
+
+First atomic swap as a part of the Komodo project
+* Same
+
+First atomic swap using public DEX for Komodo
+* Same
+
+
+[13-Feb-19 01:08 PM] Bryan_Beus#6442
+I know about your NXT forum account and am going to start poking through.
+
+
+[13-Feb-19 01:09 PM] Bryan_Beus#6442
+If you can point me to any specific github repos as good places to dig, and provide any guidance in find relevant information, that would also be good.
+
+
+[13-Feb-19 01:12 PM] Bryan_Beus#6442
+@jl777c ^
+
+
+[13-Feb-19 01:13 PM] jl777c#5810
+SuperNET_API repo
+
+
+[14-Feb-19 11:26 AM] Bryan_Beus#6442
+@jl777c 
+
+I see in your early bitcointalk.org comments that you were first active in the XRP community. 
+
+Do you have access to the forum id that you were using back then?
+
+
+[14-Feb-19 11:26 AM] Bryan_Beus#6442
+Can I get a link?
+
+
+[14-Feb-19 11:27 AM] Bryan_Beus#6442
+I just need to pull it down, for historical purposes.
+
+
+[14-Feb-19 11:30 AM] Bryan_Beus#6442
+pull it down = scrape it from the XRP forum
+
+
+[14-Feb-19 11:37 AM] jl777c#5810
+jl777
+
+
+[14-Feb-19 11:44 AM] Bryan_Beus#6442
+@jl777c 
+
+Are there any other online accounts that you used?
+
+I've scraped your jl777 bitcointalk account, and am about to scrape your jl777b account in a minute.
+
+
+[14-Feb-19 11:44 AM] Bryan_Beus#6442
+And I have your NXT account scraped.
+
+
+[14-Feb-19 11:44 AM] jl777c#5810
+jl777, jl777b and jl777c here
+
+
+[14-Feb-19 11:45 AM] Bryan_Beus#6442
+by here, you mean Discord, correct?
+
+
+[14-Feb-19 11:45 AM] Bryan_Beus#6442
+I should probably scrape your reddit account, come to think of it
+
+
+[14-Feb-19 11:54 AM] jl777c#5810
+yes
+
+
+[14-Feb-19 11:54 AM] jl777c#5810
+ah, thereal_jl777 on reddit
+
+
+[14-Feb-19 11:55 AM] Bryan_Beus#6442
+Ok. I'll see what options I have for Discord.
+
+
+[20-Feb-19 09:19 PM] Bryan_Beus#6442
+@jl777c 
+
+Here's a comment you made in response to something said by klee, the NXT core dev:
+
+```Quote from: klee on September 16, 2014, 05:16:11 PM
+Proposal:
+
+What about seeding NEW coins being developed with unique features? Devs could make their proposals and maybe one or more are chosen for funding.
+```
+
+This is huge in so many ways..
+Exactly.
+
+This is how Atomic was born
+
+James
+
+
+[20-Feb-19 09:19 PM] Bryan_Beus#6442
+Did this have anything to do with atomic swaps?
+
+
+[20-Feb-19 09:21 PM] Bryan_Beus#6442
+Another quote of yours:
+
+```
+Originally Atomic was proposed to me as a coin, but the nature of it made the "coinness" not the most efficient technical implementation and a more on-demand format was better. So we agreed to make it into a DAC, at least the ultimate form of it. The initial versions would probably be not quite 100% DAC
+```
+
+I'm guessing there's more info on NXT forums; I have not yet had time to review those forums. Trying to stay with BTT until I get the full scope of how you came to atomic swaps.
+
+
+[20-Feb-19 09:26 PM] Bryan_Beus#6442
+A ha, finally, a full explanation on BTT.
+
+Yes, this looks wholly relevant, I believe.
+
+
+[20-Feb-19 10:25 PM] Bryan_Beus#6442
+@jl777c 
+
+Another question:
+
+Did the "Telepathy" stuff you did with BTCD have anything to do with the DEX/atomic swap tech?
+
+
+[20-Feb-19 11:19 PM] jl777c#5810
+no
+
+
+[20-Feb-19 11:19 PM] jl777c#5810
+zcash solved that aspect
+
+
+[21-Feb-19 12:48 PM] Bryan_Beus#6442
+ok, gotcha
+
+
+[23-Feb-19 08:32 PM] Bryan_Beus#6442
+@jl777c 
+
+Are you available for some questions right now?
+
+
+[23-Feb-19 10:03 PM] Bryan_Beus#6442
+Also, in this thread:
+
+https://nxtforum.org/multigateway-jl777/nxtsubatomic-atomic-crosschain-exchange/?all
+
+You link to files that are now deleted. 
+
+Do you still have those files somewhere?
+
+
+[23-Feb-19 10:05 PM] Bryan_Beus#6442
+I'm about to sign off for the night.
+
+The question that I wanted to ask:
+
+How did you first hear of atomic swaps?
+
+Do you remember if you read Tier Nolan's BTT thread, or did you see something about it on a Bitcoin wiki page, or something?
+
+
+[23-Feb-19 10:44 PM] jl777c#5810
+i think on the bitcoin wiki page and a little googling later to Tier Nolan
+
+
+[23-Feb-19 10:44 PM] jl777c#5810
+what files? i doubt I have anything locally from 5 yrs ago
+
+
+[24-Feb-19 01:01 PM] Bryan_Beus#6442
+@jl777c 
+
+This is the type of link you had:
+
+209.126.71.170/NXTsubatomic_v11.zip
+
+Naturally, that iP address is no longer in service. I'm assuming it was a vpn that's long since gone.
+
+
+[24-Feb-19 01:02 PM] jl777c#5810
+correct. dont have it anymore, but it would have been built from the SuperNET_API repo
+
+
+[24-Feb-19 01:14 PM] Bryan_Beus#6442
+Ok, I'll see what I can find there.
+
+
+[24-Feb-19 01:15 PM] jl777c#5810
+the code for instantdex should be there
+
+
+[24-Feb-19 01:15 PM] Bryan_Beus#6442
+@jl777c 
+
+Satinder said something that sounded like you have some commits on a repository owned by Tier Nolan
+
+
+[24-Feb-19 01:15 PM] Bryan_Beus#6442
+Do you know anything about that?
+
+
+[24-Feb-19 01:15 PM] jl777c#5810
+no, at most I added some comments
+
+
+[24-Feb-19 01:15 PM] Bryan_Beus#6442
+Do you know which repository that would be?
+
+
+[24-Feb-19 01:15 PM] Bryan_Beus#6442
+Is it the BIP that he links to?
+
+
+[24-Feb-19 01:16 PM] jl777c#5810
+yes, that is the only one i know of, his repo with bips
+
+
+[24-Feb-19 01:16 PM] jl777c#5810
+but i dont remember making any comments, then again i dont remember 100% of all the things i did from 5 years ago
+
+
+[24-Feb-19 01:16 PM] Bryan_Beus#6442
+https://github.com/TierNolan/bips/blob/bip4x/bip-atom.mediawiki
+
+{Embed}
+https://github.com/TierNolan/bips/blob/bip4x/bip-atom.mediawiki
+TierNolan/bips
+Bitcoin Improvement Proposals. Contribute to TierNolan/bips development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/QGCAUcY9LDEzvntYRDOcU2BduJj4cMEohsgJYffHY9k/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/884931
+
+
+[24-Feb-19 01:16 PM] Bryan_Beus#6442
+That's the BIP that he mentions several times on BTT
+
+
+[24-Feb-19 01:17 PM] Bryan_Beus#6442
+Where would the comments be on that?
+
+
+[24-Feb-19 01:17 PM] jl777c#5810
+it doesnt seem to have it enabled
+
+
+[24-Feb-19 01:18 PM] Bryan_Beus#6442
+Hrm
+
+
+[24-Feb-19 01:18 PM] Bryan_Beus#6442
+I need to ask you about transaction malleability
+
+
+[24-Feb-19 01:18 PM] Bryan_Beus#6442
+I read through the BTT discussions on ACCT's
+
+
+[24-Feb-19 01:18 PM] Bryan_Beus#6442
+It seems that in your first attempts, in 2014, you were acting in solo and you created on-chain atomic transfers between NXT assets as a proof of concept
+
+
+[24-Feb-19 01:19 PM] Bryan_Beus#6442
+At that time, Tier Nolan (from what I've read), had ACCT's working on a test net, but due to transaction malleability, it was not possible to safely conduct these in the open
+
+
+[24-Feb-19 01:19 PM] Bryan_Beus#6442
+Does that sound about right to you?
+
+
+[24-Feb-19 01:52 PM] jl777c#5810
+yes
+
+
+[24-Feb-19 01:56 PM] Bryan_Beus#6442
+Help me understand transaction malleability. 
+
+I've read the material on the discussions, but it's a bit too technical for me.
+
+The basic idea is that, without modern (current) features, the transaction that a user sends to the mempool may not be the transaction that is included in the block.
+
+Is that correct?
+
+
+[24-Feb-19 02:11 PM] Bryan_Beus#6442
+@jl777c
+
+
+[24-Feb-19 09:28 PM] jl777c#5810
+yes.
+
+
+[24-Feb-19 09:28 PM] jl777c#5810
+a transaction has a bunch of bytes in it
+
+
+[24-Feb-19 09:29 PM] jl777c#5810
+but it doesnt include its own txid
+
+
+[24-Feb-19 09:29 PM] jl777c#5810
+the txid is based on the hash of the bytes of the transaction that get confirmed
+
+
+[24-Feb-19 09:30 PM] jl777c#5810
+this is not a problem, except that it was possible to change some bytes (even insert new ones) into the rawtx and still have the signature be valid
+
+
+[24-Feb-19 09:30 PM] jl777c#5810
+so with a valid signature, it is a valid tx. with different bytes, it is s a different txid
+
+
+[24-Feb-19 09:30 PM] jl777c#5810
+if you were expecting txid to get to the blockchain, it wont ever get there
+
+
+[24-Feb-19 09:31 PM] jl777c#5810
+this requires node with better connectivity than your node to intercept your tx from the network, modify it and broadcast it faster to the network, so by the time the real tx gets to a node, it rejects it as an attempted double spend
+
+
+[24-Feb-19 11:08 PM] Bryan_Beus#6442
+@jl777c 
+
+Here is the link to the first draft of the write up on the history of atomic swaps, and Komodo's involvement therein.
+
+https://docs.google.com/document/d/1824oc7byQq73_WiWu8gCi8gGZTogc1NzyPQvzLikcK4/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/document/d/1824oc7byQq73_WiWu8gCi8gGZTogc1NzyPQvzLikcK4/edit?usp=sharing
+Atomic Swaps, Early Pioneers, and Komodo: A More Specific History
+A Timeline of Atomic Swaps and Komodo Abstract: This document is intended for researchers, analysts, and other interested parties wishing to discover more about the history of atomic swaps. The following research and commentary is assembled by members of the Komodo team. The ...
+https://images-ext-2.discordapp.net/external/T-wqbHjbjt0SmuCNtxzMXxau52SVpAqmblnpE5Am6bk/https/lh3.googleusercontent.com/W57MYyvKrJXAhOfHE3dx-4HuJeG-Wa9tSitwLzrX4jNlOTCs2IpD1SI4Kizxsz9IkNUrfQ%3Dw1200-h630-p
+
+
+[24-Feb-19 11:09 PM] Bryan_Beus#6442
+Please provide feedback here.
+
+
+[24-Feb-19 11:09 PM] Bryan_Beus#6442
+@n2okpride 
+
+^
+
+
+[24-Feb-19 11:10 PM] Bryan_Beus#6442
+When this is ready, we can send it to Wachsman.
+
+
+[24-Feb-19 11:10 PM] Bryan_Beus#6442
+The last few pages will need a touch up tomorrow morning.
+
+
+[25-Feb-19 11:18 AM] Audo#5667
+very comprehensive research @Bryan_Beus !
+
+At the very end it would be nice to have a summary about what the other projects have done too, i.e. when they announced their first swaps (to put it all into a perspective).
+
+Was the goal to send this research to journalists?
+
+
+[25-Feb-19 11:19 AM] Bryan_Beus#6442
+Yes, and to put the story into a concrete form so we can get our own story straight
+
+
+[25-Feb-19 11:20 AM] Bryan_Beus#6442
+I think an important part of the research is that all these projects who are claiming to have done "their first atomic swap" are years behind the original atomic-swap enthusiasts.
+
+We are even behind them, as well. 
+
+I'd rather put the focus on user adoption, because that's race in which we need to win anyway, and it's the race that we're currently winning (but only "just").
+
+
+[25-Feb-19 11:20 AM] Bryan_Beus#6442
+@Audo &
+
+
+[25-Feb-19 11:21 AM] Audo#5667
+yeah, and we are building an open backend for unlimited amount of DEX frontends
+
+
+[25-Feb-19 11:21 AM] Audo#5667
+it's not like we want to build a closed product and have control over everything
+
+
+[25-Feb-19 11:31 AM] Bryan_Beus#6442
+Right. I think we should focus on user count, not on who did the first swap.
+
+If we win the user race, we don't need to worry about the other one.
+
+
+[26-Feb-19 01:03 AM] Daniel CP#2020
+Just read through the doc, great work @Bryan_Beus !
+
+
+[26-Feb-19 01:06 AM] Daniel CP#2020
+My only suggestion is to create a second, short and sweet timeline version that starts with dates
+
+Maybe something like 
+
+July 2012 -- Sergio Demian Lerner introduces the concept of a direct, peer-to-peer cryptocurrency trading protocol (w/ link to the original post)
+
+April 2013 -- Tier Nolan describes the logic of a peer-to-peer swap (w/ link to original post)
+
+etc, etc, all the way to the present day
+
+{Reactions}
+👍 
+
+[26-Feb-19 01:07 AM] Daniel CP#2020
+^ I imagine something like this will be more helpful for Wachsman and the writers they want to distribute it to
+
+
+[26-Feb-19 01:08 AM] Daniel CP#2020
+Just the dates, the significance of the event that happened on that date, and the link to verify it
+
+
+[26-Feb-19 08:11 AM] Bryan_Beus#6442
+Sounds good
+
+
+[29-Mar-19 09:20 PM] Bryan_Beus#6442
+Looking for the way to get RICK and MORTY coins?
+
+
+[29-Mar-19 09:20 PM] Bryan_Beus#6442
+Trying to test the app right now.
+
+
+[29-Mar-19 10:13 PM] Bryan_Beus#6442
+nm
+
+
+[18-Jan-22 09:33 AM] gcharang#6833
+#website-production
+
+
+==============================================================
+Exported 600 message(s)
+==============================================================

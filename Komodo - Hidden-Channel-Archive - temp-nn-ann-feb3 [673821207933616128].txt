@@ -1,0 +1,1267 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / temp-nn-ann-feb3
+==============================================================
+
+[03-Feb-20 01:39 AM] Audo#5667
+Hello brothers, this is a tempory channel for today (this week) for us to coordinate around the notary node elections announcement. We will delete this channel afterwards.
+
+Who we have on this channel
+
+ca333 – the author of notary bible
+audo - portal overseer
+daniel - komodo wordsmith
+
+SHossain - notary guru & evangelist
+Strob - notary guru & evangelist
+Titomane - notary guru & evangelist
+
+We have to find out a way to reach our community and preach them about the new rules and guidelines. As the portal guy I would like you guys (notary gurus) to make a post to the portal, where you announce the notary node elections. Daniel can help edit the content.
+
+https://community.komodoplatform.com/group/notary-nodes
+
+We go the announcement post ready to go. @Daniel CP can you share it here?
+
+{Embed}
+https://community.komodoplatform.com/group/notary-nodes
+Notary Nodes
+Notary Nodes are servers dedicated to performing critical tasks for the Komodo ecosystem. There are a total of 64 notary nodes in Komodo’s globally-distributed network. Every year, the Komod...
+https://images-ext-1.discordapp.net/external/pZ8mPuzpLTzoTs9gx3dANHob9AUYaBKnr2ncYRRaaUs/https/community.komodoplatform.com/files/groups/333/5da4927754801d2595cea333_72524.jpg
+
+
+[03-Feb-20 01:40 AM] Audo#5667
+if we need other members here let me know
+
+
+[03-Feb-20 01:49 AM] Daniel CP#2020
+Hey guys, here is a draft of the announcement
+
+
+[03-Feb-20 01:49 AM] Daniel CP#2020
+https://docs.google.com/document/d/1k-bD3a5d-D4sHEWZGsZhUXfrCY27_qcK9sFMcvMymEM/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/document/d/1k-bD3a5d-D4sHEWZGsZhUXfrCY27_qcK9sFMcvMymEM/edit?usp=sharing
+2020 Notary Node Election Announcement
+Komodo’s Fourth Annual Notary Node Election To Begin On March 1, 2020  Komodo’s Annual Notary Node Election has been a primary component of the project’s governance since Komodo was founded in September 2016. Every year, the Komodo community elects a new cohort of Notar...
+https://images-ext-2.discordapp.net/external/uiHb2CIy2dQFjg37heXLt3oiZIJEogYf4Op5sTkzi9U/https/lh5.googleusercontent.com/cKn37TvGiTkpp9YVLLWxchfppB_sCUhMdmAGbBtW2EHp5-4DRlZ6cFtrTFFHg_2s7dM17OaEQw%3Dw1200-h630-p
+
+
+[03-Feb-20 01:50 AM] Daniel CP#2020
+We will be publishing this later day
+
+
+[03-Feb-20 01:53 AM] Audo#5667
+cc: @SHossain @Strob @titomane
+
+
+[03-Feb-20 01:57 AM] Audo#5667
+https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md
+
+{Embed}
+https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md
+KomodoPlatform/dPoW
+Komodo delayed Proof of Work software. Contribute to KomodoPlatform/dPoW development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[03-Feb-20 03:17 AM] titomane#3101
+In the Bible only talk about 1 server
+
+
+[03-Feb-20 03:17 AM] titomane#3101
+We use 2 already, this will change?
+
+
+[03-Feb-20 03:24 AM] titomane#3101
+Why value of ACs grow to same as BTC & 3rdParty notas?
+
+
+[03-Feb-20 03:25 AM] titomane#3101
+If undermining is not punished. Could we have a bad scenario if +30 NN go to hunting after 6 months?
+
+
+[03-Feb-20 03:36 AM] SHossain#0007
+`ix. Physically separate your main and 3rd party NN operations by using different servers.`
+it's here. but, yes, need to explicitly mention about separate 3P server and the requirements
+
+
+[03-Feb-20 03:49 AM] titomane#3101
+I don't read well sorry
+
+
+[03-Feb-20 03:52 AM] titomane#3101
+if someone don't notarize for 1-2 months and only mine. Make a voting system for exclude in next fork
+
+{Reactions}
+👍 
+
+[03-Feb-20 03:54 AM] titomane#3101
+Only thinking ways to prevent after 6 months  some operator can't be reelected go to easy money mining with VPS.
+
+
+[03-Feb-20 04:05 AM] Strob#3417
+Yes in the hardware requirement, it should be mentioned that we need 2 servers (in the announcement too).
+
+
+[03-Feb-20 04:10 AM] Strob#3417
+Everything seems perfect so far. I'm just not sure to understand fully how the new ranking algo is better than the current ones. Maybe I would need to see an example of what would happen with current algo compared to the new one. How does the current ranking work exactly?
+
+
+[03-Feb-20 04:47 AM] Audo#5667
+let us know if you guys are in agreement & allignment regarding the plan and the bible, and if you have any feedback in regarding the announcement post. You guys will be leading the show, our marketing team is here to support you.
+
+
+[03-Feb-20 04:48 AM] Audo#5667
+or if you need more time to review & think about it. I don't think we should push it out before you guys give us the green light
+
+
+[03-Feb-20 04:59 AM] SHossain#0007
+@Audo @ca333 maybe get this point added to the bible before announcing? `in the hardware requirement, it should be mentioned that we need 2 servers (in the announcement too)`
+
+
+[03-Feb-20 05:13 AM] Strob#3417
+Do I understand the new ranking correctly by saying this?: With current ranking the NN op need to do their best each and every month to get the higher score (and if you have a good advance you can be lazy in the last months and still win). With the new one you can be lazy the first months and then do your best only for the last few months and still get the higher score? Cause with current one each month count equally while with the new one precedent months have less weight in the final balance.
+
+
+[03-Feb-20 05:15 AM] ca333#0333
+@SHossain its listed in the bible under duties
+
+
+[03-Feb-20 05:15 AM] ca333#0333
+`ix. Physically separate your main and 3rd party NN operations by using different servers.`
+
+
+[03-Feb-20 05:17 AM] SHossain#0007
+yes, i've seen that
+
+
+[03-Feb-20 05:18 AM] SHossain#0007
+but, under this section, it mentions only about one system requirements. https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md#how-to-become-a-notary-node-operator
+while 3P doesn't currently require same spec. maybe it is better to list minimum hardware requirements for Main node and 3P node?
+
+
+[03-Feb-20 05:45 AM] Strob#3417
+In the ranking example, on month 5, NN2 should have a score of 190 and not 202.5  (720/12 and not 870/12)
+130+((140+150+150+150+130)/12)=190
+(it also shows that the ranking score can actually go lower over time with the new algo)
+
+
+[03-Feb-20 05:49 AM] Strob#3417
+Here is an example with the new ranking algo of a NN1 being lower every month but suddenly on last month invest a little more in his setup and win!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/673821207933616128/673887745101529118/unknown.png
+
+
+[03-Feb-20 05:50 AM] Strob#3417
+I don't think it's more fair... or that it serves komodo better.
+
+
+[03-Feb-20 05:53 AM] Strob#3417
+Or NN1 being very lazy all year getting half the score on NN2 with a low spec server, then rent a high server only for last month and win...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/673821207933616128/673888695023304714/unknown.png
+
+
+[03-Feb-20 06:06 AM] Strob#3417
+While with current score that lazy NN1 would still get almost half the score of NN2.
+
+
+[03-Feb-20 06:19 AM] ca333#0333
+thanks will check that shortly @Strob - the idea was to have a more dynamic setup where an ongoing competition is given between all nodes - i.e. where a NN could also catch up at the end - however, if the best still keep being active it won't be any disadvantage for them. But the motivation effect for the weaker ones is quite big and worth this new alog.
+
+
+[03-Feb-20 06:19 AM] ca333#0333
+however - we re open for suggestion and improvement proposals. This is really just the first version of the NN compendium and certainly an improvement to the previous setup..
+
+
+[03-Feb-20 06:22 AM] Strob#3417
+Well the new algo make it so a weak node all year can indeed catch up and win in the end but we now have the opposite problem where a good NN can not catch up even if he was good all year but get a little problem on last month.
+
+
+[03-Feb-20 06:24 AM] ca333#0333
+IF he was really good throughout the whole year the index would be still quite high
+
+
+[03-Feb-20 06:24 AM] SHossain#0007
+i agree with this point ^^
+
+
+[03-Feb-20 06:25 AM] Strob#3417
+No cause the last month changes everything. cause the weight is so higher on the last month. Maybe it would be better to have a ranking points bonus for each month 3 best scores.
+
+
+[03-Feb-20 06:25 AM] SHossain#0007
+@ca333 what do you think about mentioning the negative effect or amount of point deductions if an NN doesn't comply with update  within first 24 hours? that would probably make things a bit more transparent about the scoring?
+
+
+[03-Feb-20 06:26 AM] ca333#0333
+there won't be any point-deduction in such a case - but in the worst case a NN could lose the spot as a consequence.
+
+
+[03-Feb-20 06:27 AM] ca333#0333
+also - each NN gets the right to start polls/votings for improvements, etc. This can also be used to improve the bible for example.
+
+{Reactions}
+👍 
+
+[03-Feb-20 06:36 AM] ca333#0333
+@SHossain you can make an example calculation where you would be operating top each month (#1 rank) - and then in the last month you can reduce your score and have another simulated NN spot be as good as you were in the previous month (or even better). Run the calc and you will see that you would still win - unless you completely screw it (like not operating well at all - which should not happen anyway) - however, i do not expect this new algo to affect the top NNs much - it will more affect the weak ones in the lower lower ranks. 
+
+And again - the most important aspect, this keeps an ongoing competition going.
+
+
+[03-Feb-20 06:37 AM] ca333#0333
+thanks @Strob - corrected month 5 calc: https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md#month-5
+
+{Embed}
+https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md
+KomodoPlatform/dPoW
+Komodo delayed Proof of Work software. Contribute to KomodoPlatform/dPoW development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[03-Feb-20 06:38 AM] SHossain#0007
+i have no issue with the scoring. i'm sure you guys done the calc and doing what's best for the NN
+
+
+[03-Feb-20 06:39 AM] Strob#3417
+You can simulate with the libre office calc sheet if you want
+
+{Attachments}
+https://cdn.discordapp.com/attachments/673821207933616128/673900405318484008/2020_new_ranking_algo_sim.ods
+
+
+[03-Feb-20 06:40 AM] SHossain#0007
+my only suggestion along with Strob was to mention the minimum spec of 3P node. this way when when someone asks, we can point them to the link (if they read the link they shoudn't ask about it anyway)
+
+
+[03-Feb-20 06:41 AM] Strob#3417
+My previous example was exactly this, NN2 was top all year with double the score of NN1 and then NN1 rented a more powerful server only for last month and won without such a big difference for last month I think (30% more btc and 3% more ac than NN2)
+
+
+[03-Feb-20 06:46 AM] Strob#3417
+Another example where NN1 has half the score and NN2 allyear but then on last month still has less btc and only 21% more AC count and NN1 win!
+Seriously it's really unfair!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/673821207933616128/673902228276379683/unknown.png
+
+
+[03-Feb-20 06:47 AM] Strob#3417
+The best NN should be NN2 in such a case.
+
+
+[03-Feb-20 06:48 AM] Strob#3417
+What this new algo says is do whatever you want all year but be the best on last month
+
+
+[03-Feb-20 06:50 AM] ca333#0333
+we could change it (which would remove the chance for weak ones to catch up) by using a 12 months avg. score calculation for the last month of the season. So basically using the ranking score of the 12 months/12 - however, this would reduce the ongoing competition effect...
+
+
+[03-Feb-20 06:52 AM] ca333#0333
+@SHossain @Strob 
+
+3P NN specs:
+```
+- OS: Ubuntu 18.x or Debian 10.x is recommended.
+- CPU: A High-Performance CPU (e.g. Xeon, i7/i9, Ryzen, EPYC, etc.)
+- RAM: 32 GB or more
+- Disk: 500 GB SSD or greater
+- Bandwidth: 100 Mbps or higher
+```
+
+does this sound good for you guys? I don't want to go much lower with the specs as the 3P chains are still important and its expected that new ones join.
+
+
+[03-Feb-20 06:52 AM] titomane#3101
+With actual system some operators are out of top7 now but in 2 month will be in 7th
+
+
+[03-Feb-20 06:52 AM] SHossain#0007
+yes, the spec sounds good
+
+
+[03-Feb-20 06:53 AM] SHossain#0007
+currently the 3P nodes uses about 9GB RAM
+
+
+[03-Feb-20 06:53 AM] titomane#3101
+Depend how many 3rd party coins will be added
+
+
+[03-Feb-20 06:53 AM] titomane#3101
+9-11
+
+
+[03-Feb-20 06:53 AM] titomane#3101
+Yes
+
+
+[03-Feb-20 06:53 AM] ca333#0333
+added @SHossain https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md#recommended-min-hardware-setup-for-main-nn
+
+{Embed}
+https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md
+KomodoPlatform/dPoW
+Komodo delayed Proof of Work software. Contribute to KomodoPlatform/dPoW development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Reactions}
+👍 
+
+[03-Feb-20 06:53 AM] SHossain#0007
+thanks very much
+
+
+[03-Feb-20 06:54 AM] ca333#0333
+i can reduce it to 16GB if we really want - but it would become almost trivial to overload such a server just by spamming a 3rd party chain for example , etc.
+
+
+[03-Feb-20 06:54 AM] SHossain#0007
+@titomane 11GB maybe with running VRSC in there? 😉
+
+
+[03-Feb-20 06:54 AM] SHossain#0007
+16GB might be on the very low side if we get few more 3P coins
+
+
+[03-Feb-20 06:54 AM] titomane#3101
+32 is perfect
+
+
+[03-Feb-20 06:55 AM] SHossain#0007
+32GB sounds good.
+
+
+[03-Feb-20 06:55 AM] titomane#3101
+Thinking in adoption in 2020
+
+
+[03-Feb-20 06:55 AM] titomane#3101
+Of other chains to dPoW
+
+
+[03-Feb-20 06:56 AM] titomane#3101
+If we watch more 51% attacks maybe more come to have a strong security
+
+
+[03-Feb-20 07:02 AM] Strob#3417
+I think the ranking should be left as it is but to motivate even the lowest rank to keep competing there should be a bonus (in KMD or ranking points) for the ones who goes up in ranking from a month to another. A bit more complicated to do but a lot better.
+
+
+[03-Feb-20 07:03 AM] titomane#3101
+Maybe excluding best and worst stat month
+
+
+[03-Feb-20 07:03 AM] Strob#3417
+Good idea too
+
+
+[03-Feb-20 07:03 AM] titomane#3101
+But can make someone last month not notarize
+
+
+[03-Feb-20 07:04 AM] titomane#3101
+Because have top3 11th month
+
+
+[03-Feb-20 07:04 AM] titomane#3101
+I don't know what is best
+
+
+[03-Feb-20 07:05 AM] Strob#3417
+Or maybe just do a blend of current score and new algo so weak ones can catch a bit easier buit not too easily
+
+
+[03-Feb-20 07:06 AM] Strob#3417
+Like 1/4 new algo 3/4 old one. I will do some sims to see what it would do. I think a weak node should be able to go high in ranking by working at least 3-4 months harder at least not just 1 month. NN work should one of long term dedication not just doing some trick in the short term.
+
+
+[03-Feb-20 07:07 AM] titomane#3101
+Mining points disappear?
+
+
+[03-Feb-20 07:07 AM] titomane#3101
+Overmining isnt punished with ban?
+
+
+[03-Feb-20 07:07 AM] Strob#3417
+I guess they didn't count 3rd and mining points for the sake of simplicity just for the the example?
+
+
+[03-Feb-20 07:11 AM] titomane#3101
+I think scoring mining prevent NN play lotto-rewards
+
+
+[03-Feb-20 07:12 AM] titomane#3101
+And only 3 reelected means only 12+4 nodes could be on air after 8-9 months
+
+
+[03-Feb-20 07:13 AM] titomane#3101
+We need 13 for notarize
+
+
+[03-Feb-20 07:14 AM] titomane#3101
+But 48 spots every year is new blood every season
+
+
+[03-Feb-20 07:43 AM] ca333#0333
+mining scoring was removed - and good point @titomane ! only 3 spots get re-elected per region in the next season. So the raking system really shouldn't have a big negative effect on the top operators/NNs.
+
+
+[03-Feb-20 07:45 AM] Strob#3417
+Why did you remove mining scoring??? I thought it was for the example. It should really be kept.
+
+
+[03-Feb-20 07:51 AM] Strob#3417
+Ok so only 12 in total will be auto reelected next year instead of 30 this year, I missed that one! 😉 But I don't get why the ranking system should not have a big negative effect on top operators, if you saw my simulation you can see there is a big effect.
+
+
+[03-Feb-20 07:53 AM] titomane#3101
+If only 1 month can change ranking isn't good. Maybe no reelection spots is most fair.
+
+
+[03-Feb-20 07:54 AM] titomane#3101
+Every year 60 spots
+
+
+[03-Feb-20 07:56 AM] titomane#3101
+Because 12 reelected reduce competition to 16-20 nodes.
+
+
+[03-Feb-20 08:07 AM] Strob#3417
+@titomane Not sure to follow your reasoning. Yes if 1 month can change everything in ranking, I think it's not fair, but having reelected spots is fair cause it rewards the best NN op. About the number of reelected spots, I'm not sure why it was changed. If we want to have more people motivated we should not reduce the number of auto elected spots! More rewards=more motivation!
+
+
+[03-Feb-20 08:09 AM] titomane#3101
+If reelected spots isn't half of spots
+
+
+[03-Feb-20 08:09 AM] titomane#3101
+Competition is reduced
+
+
+[03-Feb-20 08:09 AM] titomane#3101
+IMO
+
+
+[03-Feb-20 08:10 AM] Strob#3417
+To get solid nerwork of NN we need NN op tyo invest a bit in hardware and time. What is the point of investing if your efforts are not rewarded as they should?
+
+
+[03-Feb-20 08:12 AM] Strob#3417
+@titomane You mean it would be better to still have 30 auto-elected spots instead of reducing them right?
+
+
+[03-Feb-20 08:14 AM] titomane#3101
+I don't think 48 new operators in a security network could be good. New blood could improve platform performance.  Time will tell us what is better.
+
+
+[03-Feb-20 08:14 AM] titomane#3101
+I don't decide @Strob
+
+
+[03-Feb-20 08:17 AM] Strob#3417
+I think 50/50 was good. Having new people is good but we need to keep the serious ones around too.
+
+
+[03-Feb-20 08:19 AM] titomane#3101
+Me too, if new rules is 3 ok.
+
+
+[03-Feb-20 08:19 AM] titomane#3101
+But from 30 spots last year only 3 operators spent time and money in hardware
+
+{Reactions}
+👆 
+
+[03-Feb-20 08:19 AM] Strob#3417
+Good and serious people are hard to find and it takes many of them to change things and build in the right way while it takes only 1 bad person to move in the wrong direction by way of destruction.
+
+
+[03-Feb-20 08:20 AM] titomane#3101
+PIRATE, zatsum & you
+
+
+[03-Feb-20 08:20 AM] titomane#3101
+Checking https://komodostats.com/nn
+
+{Embed}
+https://komodostats.com/nn
+Komodo Notary Nodes Stats
+Statistics for the Komodo Platform's dPOW notarization of KMD and supported blockchains.
+
+
+[03-Feb-20 08:22 AM] titomane#3101
+Then I don't know if new operators will come for an ATM or have nodes ready 99.99 of time like TIER 3 DC
+
+
+[03-Feb-20 08:22 AM] titomane#3101
+Is an example
+
+
+[03-Feb-20 08:24 AM] titomane#3101
+Update delay is another point to include in ranking
+
+
+[03-Feb-20 08:24 AM] titomane#3101
+SHossain told I'm right with that
+
+
+[03-Feb-20 08:24 AM] titomane#3101
+Some times update secure network
+
+
+[03-Feb-20 08:24 AM] titomane#3101
+More than spent 1000€ month in server
+
+
+[03-Feb-20 08:25 AM] Strob#3417
+Yes update delay would be good to include in ranking but I guess very hard to implement and judge right..
+
+
+[03-Feb-20 08:25 AM] titomane#3101
+Critical update go joined with change port of iguana maybe
+
+
+[03-Feb-20 08:26 AM] SHossain#0007
+yes, port change is a good idea in way. but, if most doesn't update, then, it might not be
+
+
+[03-Feb-20 08:27 AM] titomane#3101
+Operator need spent time in discord
+
+{Reactions}
+👍 (2) 
+
+[03-Feb-20 08:27 AM] titomane#3101
+Some updates people not update made more notas than early updaters
+
+
+[03-Feb-20 08:28 AM] titomane#3101
+Is unfair for 24/7 operators
+
+
+[03-Feb-20 08:30 AM] ca333#0333
+`But I don't get why the ranking system should not have a big negative effect on top operators` - top operators are constantly operating well if you look at the stats/metrics of the season
+
+
+[03-Feb-20 08:34 AM] ca333#0333
+and the idea was to get lot of fresh blood each season - having 48 for elections up doesn't prevent the other to re-participate in the election anyway
+
+
+[03-Feb-20 08:35 AM] ca333#0333
+`But I don't get why the ranking system should not have a big negative effect on top operators, if you saw my simulation you can see there is a big effect.` what i mean is that if a NN is operating bad - like now for example. Take the last ones in the raking - they will have a very bad NN-index. So if a TOP NN still operates well a "bad" one will not be able to catch up anyway.
+
+
+[03-Feb-20 08:36 AM] ca333#0333
+However - i do like the suggestion of giving bonus to the ones who operate constantly well - that is in fact also the NN guru role that you guys have - it will come with additional bonuses, bounties and more benefits....
+
+
+[03-Feb-20 08:36 AM] titomane#3101
+This season EU 6th and 7th spot will change
+
+
+[03-Feb-20 08:36 AM] titomane#3101
+But if your node isnt good first month you know need a change
+
+
+[03-Feb-20 08:36 AM] titomane#3101
+Of course no one catch alien strob or me
+
+{Reactions}
+✅ abused 
+
+[03-Feb-20 08:37 AM] ca333#0333
+also - lets say #3 and #4 are VERY close to each other - the new ranking will "force" them to be extra active and basically sort of competition between them....
+
+
+[03-Feb-20 08:37 AM] titomane#3101
+Then 40 operators could stop notarize
+
+
+[03-Feb-20 08:37 AM] titomane#3101
+And only mine
+
+
+[03-Feb-20 08:37 AM] ca333#0333
+exactly thats what i meant - no one will be able to catch up with Shossain or with Tito anymore - not even if we had the new ranking...
+
+
+[03-Feb-20 08:37 AM] titomane#3101
+Because they spent 9 months of work and extra money
+
+
+[03-Feb-20 08:38 AM] ca333#0333
+`Then 40 operators could stop notarize` new rules will immediately disqualify them
+
+
+[03-Feb-20 08:38 AM] titomane#3101
+Is un fair if 1  month of effort
+
+
+[03-Feb-20 08:38 AM] titomane#3101
+Change that
+
+
+[03-Feb-20 08:38 AM] titomane#3101
+Will do a fork?
+
+
+[03-Feb-20 08:38 AM] Strob#3417
+```So if a TOP NN still operates well a "bad" one will not be able to catch up anyway.``` In fact if we use the new algo as is, only the last month count. So for sure anyone will be able to catch up anyone by concentrating on last month alone
+
+
+[03-Feb-20 08:40 AM] titomane#3101
+Excluding worst and best month you could prevent
+
+
+[03-Feb-20 08:40 AM] titomane#3101
+But not 100%
+
+
+[03-Feb-20 08:40 AM] titomane#3101
+Can happen other scenarios
+
+
+[03-Feb-20 08:45 AM] ca333#0333
+@Strob thats not true unless the best become the worst while the worst become the best...
+
+
+[03-Feb-20 08:45 AM] ca333#0333
+but as you can see thats not gonna happening
+
+
+[03-Feb-20 08:45 AM] Strob#3417
+Or maybe I don't understand something, can you point what's wrong in my simulation?
+
+
+[03-Feb-20 08:45 AM] ca333#0333
+in you scenario you would assume that the top ranked ones screw their operations in the last month.
+
+
+[03-Feb-20 08:46 AM] Strob#3417
+Not at all look: https://media.discordapp.net/attachments/673821207933616128/673902228276379683/unknown.png
+
+{Embed}
+https://media.discordapp.net/attachments/673821207933616128/673902228276379683/unknown.png
+https://images-ext-1.discordapp.net/external/EthMGjxACjksBqint2_oMwUHd3e-j8bLPfF350lk2N0/https/media.discordapp.net/attachments/673821207933616128/673902228276379683/unknown.png
+
+
+[03-Feb-20 08:46 AM] Strob#3417
+NN2 stay the same all year, but NN1 rent a better system that gives him 21% more AC for last month
+
+
+[03-Feb-20 08:46 AM] Strob#3417
+NN1 win
+
+
+[03-Feb-20 08:48 AM] Strob#3417
+NN1 finishes with 280.8 and beats NN2 at 280. right?
+
+
+[03-Feb-20 08:51 AM] ca333#0333
+but you are assuming an unrealistic boost for NN1 - i will post you an example at a later time with current (real) values
+
+
+[03-Feb-20 08:51 AM] SHossain#0007
+if the top continues to perform steady, the worst at the last moment can't be top
+
+{Reactions}
+✅ 
+
+[03-Feb-20 08:51 AM] titomane#3101
+last one for sure no
+
+
+[03-Feb-20 08:53 AM] Strob#3417
+If someone at the last moment rent a very powerfull hardware and upgrade his internet, why can't he have a boost?
+
+
+[03-Feb-20 08:53 AM] titomane#3101
+But if 1 month could change position a lot I don't think is a fair season competition
+
+
+[03-Feb-20 08:53 AM] ca333#0333
+and again - the main point was to keep that competition going - which will happen with this algo - i do understand your concerns though - i ll post you guys a proposal with a slight modification as well. That wont treat last month like its treated now - however, i still believe its better with treating it like that (competition). Best regions will get bonuses as well....
+
+
+[03-Feb-20 08:53 AM] titomane#3101
+I don't know if is possible
+
+
+[03-Feb-20 08:54 AM] titomane#3101
+But chmex_eu climb from 12th to 7th
+
+
+[03-Feb-20 08:54 AM] titomane#3101
+If my number are right
+
+
+[03-Feb-20 08:54 AM] titomane#3101
+With actual system
+
+
+[03-Feb-20 08:55 AM] titomane#3101
+This means up is possible
+
+
+[03-Feb-20 08:55 AM] titomane#3101
+Other thing is if we want a system with fastest changes
+
+
+[03-Feb-20 08:56 AM] titomane#3101
+
+{Attachments}
+https://cdn.discordapp.com/attachments/673821207933616128/673934974692360192/image0.jpg
+
+
+[03-Feb-20 08:57 AM] titomane#3101
+This stats was 5 jan
+
+
+[03-Feb-20 08:58 AM] titomane#3101
+Him start to climb before Christmas
+
+
+[03-Feb-20 08:59 AM] SHossain#0007
+wait, for 2 months passed, wouldn't the index be `(month1 + month2)/2` instead of devided by 12?
+
+
+[03-Feb-20 08:59 AM] SHossain#0007
+@Strob
+
+
+[03-Feb-20 09:00 AM] Strob#3417
+One thing is sure with new algo everything is played at the end so now the competition starts from the beginning but with new algo competiton starts at the end. So you are justy shifting where the competiton starts you are not really insuring it's all the way along look at this other example:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/673821207933616128/673935851687772200/unknown.png
+
+
+[03-Feb-20 09:01 AM] Strob#3417
+@SHossain yea that would already be better
+
+
+[03-Feb-20 09:01 AM] titomane#3101
+I prefer playoffs than regular season 😂
+
+{Reactions}
+😂 
+
+[03-Feb-20 09:01 AM] titomane#3101
+Was a joke
+
+
+[03-Feb-20 09:03 AM] Strob#3417
+If you divide first month by 12, you just mean month 1 count 12 times less than last month!
+
+
+[03-Feb-20 09:04 AM] SHossain#0007
+in my opinion, indexing should be divided by the number of months passed. not with 12 always
+
+
+[03-Feb-20 09:05 AM] SHossain#0007
+```
+Month 1: (month1)/1
+Month 2: (month1+month2)/2
+Month 3: (month1+month2+month3)/3
+Month 4: (month1+month2+month3+month4)/4
+...
+```
+
+
+[03-Feb-20 09:06 AM] titomane#3101
+This is same as now but is an average of total
+
+
+[03-Feb-20 09:06 AM] titomane#3101
+Last month is all notas/12
+
+
+[03-Feb-20 09:08 AM] SHossain#0007
+unless i didn't get the scoring
+
+
+[03-Feb-20 09:09 AM] titomane#3101
+I don't know how works really I accept strob example like right
+
+
+[03-Feb-20 09:10 AM] SHossain#0007
+i'm not good at equation or math in general
+
+
+[03-Feb-20 09:10 AM] Strob#3417
+But wait in the bible example the ranking score of each month is the current score or we have to add all of them to get the final score?
+
+
+[03-Feb-20 09:11 AM] Strob#3417
+Like month 5: 207.5 and 190 are the final scores or what?
+
+
+[03-Feb-20 09:11 AM] titomane#3101
+Ca333 will make a example later
+
+
+[03-Feb-20 09:12 AM] SHossain#0007
+ok. my example might be wrong
+
+
+[03-Feb-20 09:12 AM] titomane#3101
+No I don't say that
+
+
+[03-Feb-20 09:12 AM] SHossain#0007
+no...no...now, i'm confused.
+
+
+[03-Feb-20 09:13 AM] titomane#3101
+I said month + month2 ..../12 is an average of final count
+
+
+[03-Feb-20 09:14 AM] titomane#3101
+Only add /12 to this season position will be same
+
+
+[03-Feb-20 09:14 AM] SHossain#0007
+ok. here is the google docs format of what @Strob uploaded in .ods format https://docs.google.com/spreadsheets/d/1HjEOY7Ucyhr_xzHBN4140edte2p7O-KwRvutVAVcTkA/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1HjEOY7Ucyhr_xzHBN4140edte2p7O-KwRvutVAVcTkA/edit?usp=sharing
+NN-season4-scoring
+Sheet1
+
+NN1,NN2
+month,btc,ac,score,index,ranking score,month,btc,ac,score,index,ranking score
+1,50,100,150,150,162.5,1,40,100,140,140,151.7
+2,30,100,130,23.33333333,153.3,2,40,110,150,24.16666667,174.2
+3,30,100,130,34.16666667,164.2,3,40,110,150,36.66666667,186.7
+4,30,100,130...
+https://images-ext-1.discordapp.net/external/Zid607MiShptE0XlIZ8sOhUgHwF7awYrNUPsl4uXVng/https/lh4.googleusercontent.com/tz1b8XxlncqGkd8zRN6L526G4Nb9FaUZC633Evw2iOE7Cw_wKYbN2lWxMnO759IZc6mj0eitoA%3Dw1200-h630-p
+
+
+[03-Feb-20 09:14 AM] SHossain#0007
+i just imported the file there and didn't make any edits
+
+
+[03-Feb-20 09:14 AM] Strob#3417
+ok cool thanks
+
+
+[03-Feb-20 09:16 AM] Strob#3417
+I think the bible example is not clear. As it doesn't state if we need to add each month scoring to get the final score (which would be better in fact) or if every ranking score of each month is the current score?
+
+
+[03-Feb-20 09:17 AM] titomane#3101
+I think dPoW use BTC hashpower to secure AC
+
+
+[03-Feb-20 09:18 AM] titomane#3101
+Then BTC notas are more important
+
+
+[03-Feb-20 09:18 AM] titomane#3101
+Same score fore both isn't right IMO
+
+
+[03-Feb-20 09:20 AM] Strob#3417
+Yes in current scoring, 1 BTC nota = 1 point, 1 AC nota = 1/10 points, 3rd party = 2/10 points, kmd nota= 1 point and mined block= 1 point. It was perfect.
+
+
+[03-Feb-20 09:20 AM] titomane#3101
+I think same
+
+
+[03-Feb-20 09:22 AM] titomane#3101
+We have any way to prevent some operators don't do their duties. Change in next fork?
+
+
+[03-Feb-20 09:32 AM] titomane#3101
+Have warnings before exclude  I read violation is ban
+
+
+[03-Feb-20 09:35 AM] titomane#3101
+Ok
+
+
+[03-Feb-20 09:41 AM] ca333#0333
+I guess i know why it was confusing - so i will add a full year example - we will have a final score which will be based on a full 12 month avg. - that is basically `final score = sum(ranking_scores)/12`
+
+
+[03-Feb-20 09:42 AM] ca333#0333
+@SHossain thats why it was called "index" - however - i will change it to be `(NN1 score month1 + score monthN)/N` where `N` is current month.
+
+{Reactions}
+💯 
+
+[03-Feb-20 09:42 AM] ca333#0333
+I hope this will remove all concerns
+
+
+[03-Feb-20 09:43 AM] ca333#0333
+it won't be slowly incrementing like i actually wanted it to be (as an index) - however, if you feel its more "fair" we can go for it.
+
+
+[03-Feb-20 09:43 AM] titomane#3101
+Is same than last year adding /12
+
+
+[03-Feb-20 09:44 AM] titomane#3101
+Only change scoring system and reelected spots
+
+
+[03-Feb-20 09:44 AM] titomane#3101
+If is new rules accepted
+
+
+[03-Feb-20 09:46 AM] ca333#0333
+well weak NNs expressed the wish to turn it more "flexible" so thats its possible to catch up
+
+
+[03-Feb-20 09:46 AM] titomane#3101
+Be alert from day 0
+
+
+[03-Feb-20 09:46 AM] ca333#0333
+right now IF you are in the lower part of the list you won't have a chance to catch up after just a few months....
+
+
+[03-Feb-20 09:46 AM] titomane#3101
+Not wait 10 months for complain for system
+
+
+[03-Feb-20 09:47 AM] titomane#3101
+I say my opinion only that
+
+
+[03-Feb-20 09:47 AM] titomane#3101
+2 weeks after season 3  start I know need change my nodes
+
+
+[03-Feb-20 09:48 AM] ca333#0333
+well you re the NN gurus so you have a higher weight in deciding together with us how to structure the new scheme. I am fine with remove the new NN algorithm - so we will keep same ranking scheme + only 3 spots + new rules, etc.
+
+
+[03-Feb-20 09:48 AM] ca333#0333
+ok - so who wants to keep the old ranking just combined with new rules, 3 spot re-election, etc. ?
+
+
+[03-Feb-20 09:48 AM] titomane#3101
+I'm only an operator
+
+
+[03-Feb-20 09:48 AM] ca333#0333
+thumbs up
+
+
+[03-Feb-20 09:48 AM] titomane#3101
+With 24/7/365 dedication only that
+
+
+[03-Feb-20 09:49 AM] titomane#3101
+Only wish new blood have same dedication or near
+
+
+[03-Feb-20 09:49 AM] titomane#3101
+Or bring other things to platform is ok too
+
+
+[03-Feb-20 09:50 AM] titomane#3101
+Only want best for komodo
+
+
+[03-Feb-20 09:51 AM] SHossain#0007
+i guess this should solve @Strob's math https://discordapp.com/channels/412898016371015680/673821207933616128/673946390094675981
+
+
+[03-Feb-20 09:51 AM] SHossain#0007
+and, would be fair i guess
+
+
+[03-Feb-20 09:54 AM] ca333#0333
+i ve removed the 2020 algo - IF we changed it to that @SHossain  it would be VERY similar to the old ranking and not promoting an ongoing competition.
+
+
+[03-Feb-20 09:55 AM] ca333#0333
+However - i figured that we likely don't need a new algo for that since the new rules should be motivation enough. If nodes don't operate well they will lose the spot anyway. No one can be worse than 30% of the best OP, and so on...
+
+{Reactions}
+👍 (2) 
+
+[03-Feb-20 09:58 AM] Strob#3417
+It would be ok for me. the rules are clearer now.
+
+
+[03-Feb-20 10:00 AM] titomane#3101
+I accept new rules too accept new challenge 😂
+
+
+[03-Feb-20 10:01 AM] titomane#3101
+@SHossain do you sell your old alien hardware?
+
+
+[03-Feb-20 10:01 AM] titomane#3101
+😂
+
+
+[03-Feb-20 10:01 AM] SHossain#0007
+nope.
+
+
+[03-Feb-20 10:01 AM] titomane#3101
+Jajja was joking
+
+
+[03-Feb-20 10:02 AM] SHossain#0007
+one of them actually in my house right now. setting up ESXi for a scale test. brought it home few days ago from DC for the setup
+
+
+[03-Feb-20 10:05 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/673821207933616128/673952180365164554/20200201_202051.jpg
+
+{Reactions}
+👍 shexy 
+
+[03-Feb-20 01:30 PM] titomane#3101
+Another thing.
+If Guru rewards will be distributed per months, because is minimum period could be possible.  Guru role change if another NN is 1st for 1 month.
+First 2 months of Guru will spent more time on tasks "NN gurus also support the Komodo team during the elections, initial setups, etc." than other months.
+Will be different reward?
+
+
+[03-Feb-20 09:53 PM] ca333#0333
+Additional rewards and bounties will be set and distributed at our sole discretion - we will of course keep an eye on NN gurus activities and efforts.
+
+
+[03-Feb-20 10:17 PM] ca333#0333
+P.S. i also know that 'few' NNs are region-cheating - plz don't ask me how i gathered that info as in the next step we would have to shut these NNs off. Been tolerating this since we don't have a transparent guideline with such rules and laws written down. But we need to highlight that next season such IP masking will not be tolerated and will lead to immediate disqualification. This also means we will control all cheating setups again on March 1st and expect all NNs to be physically located in the assigned region.
+
+
+[03-Feb-20 10:19 PM] ca333#0333
+Also received additional feedback from 3rd parties and other NNs ref. the rules enforcement. It likely makes sense to assign someone unbiased a "NN Judge" role - if a debate arises, etc. both sides present their arguments to the NN Judge. Both sides are the suspected NN and We/team - and the judge would then try to understand the issue and make a final decision. 
+
+This judge would have to be someone not directly involved in the NN operations and NN community.
+
+
+[04-Feb-20 12:24 AM] Audo#5667
+could be 3 people who are seen as unbiased. If it's a close call situation they can vote, and  2 out of 3 votes is final decision.
+
+{Reactions}
+👍 
+
+[04-Feb-20 01:38 AM] titomane#3101
+If evidence are clear, we don't need judge. 
+3 people looks better for transparency.
+
+
+[04-Feb-20 01:54 AM] ca333#0333
+yes agree - IF evidence clear we don't need a judge - but sometimes its expected to cause a controversial debate. So for the case that its not clear there will be a judge and a tribunal - both not related/involved to NN
+
+
+[04-Feb-20 01:54 AM] ca333#0333
+https://github.com/KomodoPlatform/dPoW/commit/e9710b8bc5dc0b11057268448ea0f84dd3d94f7f
+
+{Embed}
+https://github.com/KomodoPlatform/dPoW/commit/e9710b8bc5dc0b11057268448ea0f84dd3d94f7f
+add NN judge and NN tribunal · KomodoPlatform/dPoW@e9710b8
+https://images-ext-1.discordapp.net/external/odO1GEZjXVfb1MMXFakEV1Oz4dmaW1GhG6vDNkq6dxQ/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/10762374
+
+
+[04-Feb-20 03:32 AM] Strob#3417
+Great! Always beter to have clear process to resolve problems and cheating!
+
+
+[04-Feb-20 12:24 PM] titomane#3101
+1st block of season 3 was 1444000. Year blocks 365x1440=525000. Will be 1969600 block start of season 4?
+Here don't say when
+https://docs.google.com/document/u/0/d/1k-bD3a5d-D4sHEWZGsZhUXfrCY27_qcK9sFMcvMymEM/mobilebasic
+
+
+[04-Feb-20 03:49 PM] titomane#3101
+Sorry I didn't read privnotary channel
+
+
+[05-Feb-20 05:40 AM] Audo#5667
+hey gurus, could you post something to the notary node board? :)
+
+Seems we went online with the announcement today
+
+https://komodoplatform.com/fourth-annual-notary-node-election/
+
+It would be great if you guys share that news on the portal. Shossain I could make you a moderator so you can post "an official update" through the portl.
+
+There is also a questions about "how to run a notary node". It would be great to get a in-depth answer to that question: https://community.komodoplatform.com/question/5e387424f2a8a5418194a2f5
+
+
+[05-Feb-20 05:41 AM] Audo#5667
+if you need help with writing/editing just ping @Daniel CP , he is here to help out.
+
+
+[05-Feb-20 05:42 AM] SHossain#0007
+thanks @Audo. i am just kinda deeply inside dexp2p testing. i'll post there something today.
+
+
+[05-Feb-20 05:47 AM] Audo#5667
+Thanks @SHossain , I appreciate that!
+
+I just gave you the verified role, team badge, and mod status on portal. You can now use the 'official update' content type
+
+
+[05-Feb-20 05:50 AM] Audo#5667
+_ _
+Of course an announcement post/update about the dexp2p would be awesome too 😄 That one can go to the 'Development Discussion' board. It seems like a big thing so we can use 'official update' there too if you like.
+
+The whole idea of the portal is that we could share ad-hoc tech updates and remove the middle men (marketing team). It also makes our job easier as we can then find the info. It is easier to read a portal post than a long discord conversation.
+
+
+[05-Feb-20 05:54 AM] SHossain#0007
+yes, i can post few things regarding the dexp2p there
+
+{Reactions}
+👍 
+
+[05-Feb-20 06:06 AM] jl777c#5810
+just added DEX_anonsend rpc call, today. that allows to send very private messages that takes someone monitoring all the ip traffic to figure out which ip sent a message, but still they wont be able to tell what the message was, nor who the recipient was
+
+{Reactions}
+👍 (3) 💯 
+
+[05-Feb-20 06:10 AM] SHossain#0007
+https://community.komodoplatform.com/post/5e3accab18d9820d5a3c631c
+
+
+[05-Feb-20 06:11 AM] SHossain#0007
+posted the ANN. let me know if that is what you wanted. need more time to get used to the portal
+
+
+[05-Feb-20 06:15 AM] Audo#5667
+thanks @SHossain ! The main point is really that we get content posted regularly and answer questions.
+
+It takes a while to get used to it.
+
+In this case the "officail update" content type would work better than quickpost though. With that content type we can use text formatting options, and it automatically goes to the main stream of "official updates", that make it easier for the community members to follow what is happening.
+
+
+[05-Feb-20 06:15 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/673821207933616128/674619058779455549/unknown.png
+
+
+[05-Feb-20 06:16 AM] Audo#5667
+if it's not too much trouble you could delete the quick post and re-send it as an offical update. Daniel or our marketing team can go in later and proofread / add more content
+
+
+[05-Feb-20 06:18 AM] SHossain#0007
+i don't see how can i post an official update
+
+
+[05-Feb-20 06:20 AM] SHossain#0007
+now i see
+
+
+[05-Feb-20 06:20 AM] Audo#5667
+good!
+
+
+[05-Feb-20 06:22 AM] SHossain#0007
+done
+
+{Reactions}
+👍 
+
+[05-Feb-20 06:22 AM] Audo#5667
+ty!
+
+
+[05-Feb-20 11:08 AM] SHossain#0007
+@Audo @ca333 my post above has been deleted from the portal.
+
+
+[05-Feb-20 11:14 AM] SHossain#0007
+i guess when someone's post gets deleted, they should get a notification along with a reason on the portal for the transparency
+
+
+[05-Feb-20 11:23 AM] ca333#0333
+@SHossain yes it was deleted as it was supposed to be an official team announcement without any conflict of interest (you are a NN and a guru...). Nothing personal or so! It was just an internal misunderstanding and the team decided its better to remove it.
+
+
+[05-Feb-20 03:35 PM] titomane#3101
+Which date start guru tasks for help? Is for mark in calendar
+
+
+[06-Feb-20 12:26 AM] ca333#0333
+It starts with the start of the S4 elections.
+
+{Reactions}
+👍 
+
+[10-Feb-20 08:52 PM] Audo#5667
+What do we want to do with https://komodoelection.com/?
+
+It lives here: https://github.com/election-sites/komodoelection.com
+
+{Embed}
+https://komodoelection.com/?
+Komodo Election
+Komodo election for notary nodes
+
+{Embed}
+https://github.com/election-sites/komodoelection.com
+election-sites/komodoelection.com
+Contribute to election-sites/komodoelection.com development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/bcLyrEnYukmGtyTPFwFupyzu0eh1P0jyJE5awuLyAH0/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/48815970
+
+
+[11-Feb-20 01:37 AM] ca333#0333
+can you/marketing get the content updated @Audo - basically orientating towards https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md ?
+
+{Embed}
+https://github.com/KomodoPlatform/dPoW/blob/dev/doc/bible.md
+KomodoPlatform/dPoW
+Komodo delayed Proof of Work software. Contribute to KomodoPlatform/dPoW development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[11-Feb-20 01:46 AM] Audo#5667
+what if we just port the content over to the portal and close down that site?
+
+{Reactions}
+✅ 
+
+[11-Feb-20 01:46 AM] Audo#5667
+we want to direct people to the portal at all times, and there they can also ask questions
+
+
+[11-Feb-20 01:47 AM] Audo#5667
+and announce their candidacy 😄
+
+
+[11-Feb-20 01:47 AM] Audo#5667
+Ah yeah, one thing I was thinking ... could we make it a requirement to announce candidacy on the portal?
+
+
+[11-Feb-20 01:48 AM] Audo#5667
+but no worries if it's too late now for rule changes
+
+
+[11-Feb-20 02:34 AM] ca333#0333
+hmm - thats actually not a bad idea - IF we can manage to get a board up on the portal that will have all infos bundled that would work! I think setting it as a requirement (posting proposal on the portal) might come little late - however, we can certainly add a notice that announcing the candidacy on the portal will significantly increase the chance of whales paying attention to the candidates... 🙂
+
+{Reactions}
+👍 
+
+[13-Apr-20 04:32 PM] titomane#3101
+Elections starts, 
+Do you need Something? I can help
+
+
+==============================================================
+Exported 265 message(s)
+==============================================================

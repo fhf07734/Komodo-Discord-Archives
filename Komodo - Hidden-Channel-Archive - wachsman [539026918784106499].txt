@@ -1,0 +1,923 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / wachsman
+==============================================================
+
+[27-Jan-19 02:21 AM] Audo#5667
+If someone know's the Discord names of the Wachsman team type them here.
+
+
+[28-Jan-19 04:51 AM] Audo#5667
+Welcome @rita & @Tamani !
+
+I could not find @AdamB#0212 – he probably has not yet joined Komodo Discord.
+
+
+[10-Feb-19 03:50 PM] ca333#0333
+@Audo jfyi - i ve just added @AdamB #0212 to this channel (according to a prev. email that is his correct discord alias)
+
+
+[11-Feb-19 07:48 AM] Audo#5667
+ok, thanks @ca333
+
+
+[20-Feb-19 12:55 AM] Daniel CP#2020
+Hello Wachsman team!
+
+
+[20-Feb-19 12:55 AM] Daniel CP#2020
+Just read through this recently published article 
+
+https://www.cryptoglobe.com/latest/2019/02/Komodo-atomic-swap-trading-app/
+
+and noticed a few small typos
+
+{Embed}
+https://www.cryptoglobe.com/latest/2019/02/Komodo-atomic-swap-trading-app/
+Komodo to Soon Release Atomic Swap-Enabled Trading App, CTO Reveal...
+Cryptocurrency exchanges have been under fir so far this year, as hackers have repeatedly targeted them and other events hurt the confidence users have in certain platforms. Atomic swap technology is set to revolutionize the way we trade cryptocurrencies and more.
+https://images-ext-1.discordapp.net/external/Nq9uKfKp8TDRVSlmBi1ZlhaD4YPd7ZXgAhpfRajmYiE/https/static.cryptoglobe.com/filer_public_thumbnails/filer_public/91/a2/91a25a7d-4bb1-4ea3-a546-007c9b3f6e2c/blockchain-pixabay.jpg__180x110_q85_crop_subsampling-2.jpg
+
+
+[20-Feb-19 01:01 AM] Daniel CP#2020
+Just a few minor things. Just let me know the best way  to get them cleared up
+
+
+[20-Feb-19 01:04 AM] Daniel CP#2020
+e.g. under the question about LN, the writer quotes ca as saying 
+
+"We've developed something we call a trust API - while we're always trying building the system trustless we know normal users don't like to wait for confirmations"
+
+That sentence needs some work. Maybe something like "We've developed something we call a trust API. While we're always trying to build trustless systems, we know normal users don't like to wait for confirmations"
+
+Just one example, there are a few places that could use some light editing
+
+
+[21-Feb-19 11:05 AM] Audo#5667
+@AdamB you should now be able to see these messages and write here
+
+
+[21-Feb-19 12:10 PM] AdamB#0212
+Hi all
+
+
+[21-Feb-19 12:11 PM] AdamB#0212
+thanks for the add!
+
+
+[19-Mar-19 12:26 PM] AdamB#0212
+Hi Team
+
+
+[19-Mar-19 12:26 PM] AdamB#0212
+Is there any update regarding the Mobile DEX invitation that was sent to influencers? We'd like to have all information on hand as we begin to shop around the exclusive for the Atomic Swap timeline.
+
+
+[19-Mar-19 01:20 PM] Audo#5667
+@ca333 should be aware of that, or do you know about the details @n2okpride ? I can't remember the exact dates/times
+
+
+[19-Mar-19 01:32 PM] ca333#0333
+@AdamB we are starting the internal tests early next week - closed external alpha a week to 2 afterwards. The feedback from those tests float into first revision - after this stage the internal QA gets the ball and our mobile devs polish the app for the beta release this summer. That beta-stage is expected to last for ~6 months likely followed by  a last revision before RC (release candidate) announcement and stable release.
+
+
+[19-Mar-19 01:47 PM] AdamB#0212
+Great, thanks for giving us a rough timeline. If someone could send us the language that was sent to the influencers, that would greatly help our ability to invite reporters. Additionally, what else would we need on hand (technology requirement wise) in order to offer reporters the opportunity to participate in the closed external alpha? For example, is there an invite page, where they'd need to sign up, something specific they'd need to download etc.?
+
+
+[19-Mar-19 02:40 PM] ca333#0333
+We need their google playstore attached email address in order to invite them - they also need an android smartphone.
+
+
+[28-Mar-19 12:15 PM] polycryptoblog#1173
+Hello, @AdamB   , are you guys familiar with HARO
+
+
+[28-Mar-19 12:34 PM] Tamani#2243
+Hi @polycryptoblog - Yes, our team references HARO on a daily basis! Was there one in particular that caught your attention recently?
+
+
+[28-Mar-19 12:41 PM] polycryptoblog#1173
+@Tamani   we are wondering about using it in reverse to get out some recent developments regarding oracles when marketing has digested it.  There is also one requester who frequently appears that seems like it would be good for us to get on ,  Disruptor Daily.
+
+
+[28-Mar-19 12:59 PM] Tamani#2243
+@polycryptoblog Ok! I do think that a lot of individual companies use it as a resource now, more so than regular reporters, so I don't think that's a bad idea. Disruptor Daily puts out a lot of HAROs and our experience with them has only been moderate. We've secured interview with them for clients in the past, only for them to completely ghost on the interview or never publish. We've refrained with working with them for the time being until they get the site up and running more frequently
+
+
+[05-Apr-19 11:05 AM] Tamani#2243
+@ca333 Hey Kadan - Tony and I are on the line!
+
+
+[30-Apr-19 08:58 AM] AdamB#0212
+Hi Team, just circling back here to see if anyone has had a chance to review the CryptoSlate opportunity on Komodo and video games we sent through last week. Per Caitlin's most recent email, we've managed to get the deadline pushed back until EOD today. Please let us know if you have any further questions.
+
+
+[10-May-19 01:54 PM] AdamB#0212
+Hi Team, just circling back to see if you have any updates for me via the emails I sent through this morning:
+
+
+[10-May-19 01:54 PM] AdamB#0212
+1) Any update regarding the situation with a possible fake IBM research account
+
+
+[10-May-19 01:55 PM] AdamB#0212
+2) I saw that a member of your biz dev team (James Brown) will be attending an after party on May 14th. Will James be at Consensus/would he be willing to interview on behalf of Komodo in case we see any inbound interest?
+
+
+[10-May-19 02:00 PM] SHossain#0007
+Jason Brown is his name
+
+
+[10-May-19 02:00 PM] SHossain#0007
+😃
+
+
+[10-May-19 02:00 PM] SHossain#0007
+@polycryptoblog ^^
+
+
+[10-May-19 02:07 PM] polycryptoblog#1173
+@AdamB  yes I will be up there with @Alright  ,  we won’t be at consensys itself but rather a private crypto investment club.   The 14th will be best for us  or evening on the 15th ,  after my presentation and panel discussion is over (after 4  )
+
+
+[10-May-19 02:08 PM] polycryptoblog#1173
+If something comes up we can skype in or hop on a zoom call or meetup with someone
+
+
+[10-May-19 02:10 PM] AdamB#0212
+Hi Jason, the Finder team's TV crew is in town, and I want to submit you for a video interview.
+
+
+[10-May-19 02:10 PM] AdamB#0212
+Can you send me an email with your phone number? My email is: adam@wachsman.com
+
+
+[10-May-19 02:11 PM] AdamB#0212
+And thank you @SHossain for the help.
+
+{Reactions}
+👍🏽 
+
+[10-May-19 02:14 PM] polycryptoblog#1173
+Ok, sent it from personal email, polycryptoblog@gmail
+
+
+[10-May-19 02:16 PM] AdamB#0212
+Thanks, will be in touch.
+
+{Reactions}
+👍 
+
+[15-May-19 02:17 AM] Mylo#8306
+@AdamB fakey on the ibm.  We made contact with a cryptographer at ibm who did the dilithium quantum resistant stuff, which is the code James used for the kmd dilithium stuff...
+He made enquires internally and was friendly and seemingly had some interest in blockchain with what we’d done (and was aware of the kmd work)
+
+
+[15-May-19 02:18 AM] Mylo#8306
+The profiles have been taken down on linked in and other places from what I read.  Was looking for his response to share but I can’t find it quick enough atm
+
+
+[15-May-19 05:20 AM] AdamB#0212
+Okay, good to know - beyond some retweets, were there any other public facing interactions/have you received any inquiries about the fake account?
+
+
+[15-May-19 08:07 AM] Mylo#8306
+No(t yet).  Pretty sure it was only twitter for public.  I will find out for you to be sure.
+
+
+[15-May-19 08:16 AM] Mylo#8306
+A few posts around from crypto news and enthusiasts that regurgitated the news.  Stand by for more.
+
+
+[15-May-19 08:16 AM] Mylo#8306
+https://www.reddit.com/r/komodoplatform/comments/bmiuuh/an_ibm_blockchain_researcher_tweeted_about_komodo/ eg
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/bmiuuh/an_ibm_blockchain_researcher_tweeted_about_komodo/
+r/komodoplatform - An IBM blockchain researcher tweeted about Komo...
+23 votes and 1 comment so far on Reddit
+https://images-ext-2.discordapp.net/external/x-JN2AiGaO4qQGweX6YG_qgfsNgzgzZ54aR5Sb01U4A/%3Fauto%3Dwebp%26s%3Dad854a56437a001b8637128b73848f737cc9dad3/https/external-preview.redd.it/w5CI7W3r4Ch4ELineWuvz_h00iT5MvLBw_6nM4E8chM.jpg
+
+
+[15-May-19 08:17 AM] Mylo#8306
+Not a team member,
+
+
+[15-May-19 11:41 PM] smkhound#7640
+https://www.youtube.com/watch?v=8vasN06gVUo
+👇   vaguely interesting.
+
+{Embed}
+Black Hat
+https://www.youtube.com/watch?v=8vasN06gVUo
+Every ROSE has its Thorn: The Dark Art of Remote Online Social Eng...
+In this talk, I place ROSE within the context of other false personae activities – trolling, sockpuppetry, bots, catfishing, and others – using detailed case...
+https://images-ext-2.discordapp.net/external/gJsSuZQyI0Lt4--PAmB6PrsK8VHueUhzMlVCVEqctvg/https/i.ytimg.com/vi/8vasN06gVUo/maxresdefault.jpg
+
+
+[04-Jun-19 02:41 PM] AdamB#0212
+Hi Team, haven't been able to make contact with anyone from Komodo today
+
+
+[04-Jun-19 02:41 PM] AdamB#0212
+Steve has an interview in 20 mins with CryptoBriefing via skype, and we're still waiting for a timeline re planned YouTuber for Mobile DEX so we can offer Decrypt the exclusive now that CoinDesk has passed
+
+
+[04-Jun-19 02:44 PM] AdamB#0212
+I will be unable to attend Steve's interview tonight, but Caitlin from our team will be staffing the call
+
+
+[04-Jun-19 02:45 PM] AdamB#0212
+Her Skype ID is: caitlineckvahl
+
+
+[05-Jun-19 12:24 AM] TS#7923
+Hey Team, @AdamB 
+
+We had this incident this morning: https://komodoplatform.com/vulnerability-discovered-in-komodos-agama-wallet-this-is-what-you-need-to-do/
+
+We can't tell much more at this current stage, but will keep you posted
+
+{Embed}
+https://komodoplatform.com/vulnerability-discovered-in-komodos-agama-wallet-this-is-what-you-need-to-do/
+Vulnerability discovered in Komodo’s Agama wallet - This is what...
+We strongly recommend moving all funds from Agama (KMD, asset chain coins, and other assets) to a new address as soon as possible.
+
+
+[05-Jun-19 06:09 AM] AdamB#0212
+Thanks for the update - can we get a call scheduled? When is everyone free to speak today?
+
+
+[05-Jun-19 04:20 PM] AdamB#0212
+Hi Team, does anyone have Steve's phone number?
+
+
+[05-Jun-19 04:33 PM] Bryan_Beus#6442
+@AdamB 
+Yes, will DM.
+
+
+[05-Jun-19 04:35 PM] AdamB#0212
+Cheers
+
+
+[06-Jun-19 06:26 AM] TS#7923
+Hey Team, CT published an article: https://cointelegraph.com/news/komodo-hacks-itself-and-saves-crypto-worth-13m-after-learning-of-security-vulnerability
+
+{Embed}
+https://cointelegraph.com/news/komodo-hacks-itself-and-saves-crypto-worth-13m-after-learning-of-security-vulnerability
+Komodo Hacks Itself and Saves Crypto Worth $13M After Learning of ...
+Funds worth an estimated $13 million were successfully shielded from attackers after Komodo reacted to a security vulnerability.
+https://images-ext-2.discordapp.net/external/gzECfWqK8Te4jRpV3G4UATt8cIjrwVkgz2JwN64_9Wo/https/images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84ZDY0NDNlNzdiNjk2YzhjZjRmZGIwZGFmNDQyYTdkZi5qcGc%3D.jpg
+
+
+[06-Jun-19 06:27 AM] TS#7923
+it's pretty factual except it starts with "Crypto wallet provider Komodo"
+
+
+[06-Jun-19 06:27 AM] TS#7923
+We are not a crypto wallet provider O_o
+
+
+[06-Jun-19 06:28 AM] AdamB#0212
+Hi TS, thanks for flagging, we'll reach out for a correction
+
+
+[06-Jun-19 06:28 AM] AdamB#0212
+Additionally, I've just sent through a full list of coverage of the hack from this morning's media sweep.
+
+
+[06-Jun-19 06:28 AM] AdamB#0212
+We believe more is coming and will keep you apprised of any updates.
+
+
+[06-Jun-19 06:29 AM] TS#7923
+Thank you Adam
+
+
+[06-Jun-19 06:30 AM] TS#7923
+community sentiment is pretty good
+
+
+[06-Jun-19 06:30 AM] TS#7923
+I'd say the CT article is favorable too in wording ("shielded" etc)
+
+
+[06-Jun-19 06:31 AM] TS#7923
+price is holding very well (outperforming Bitcoin). so far so good!
+
+
+[06-Jun-19 06:43 AM] TS#7923
+very favorable coverage on ZDNet
+
+
+[06-Jun-19 06:43 AM] TS#7923
+https://www.zdnet.com/article/cryptocurrency-startup-hacks-itself-before-hacker-gets-a-chance-to-steal-users-funds/
+
+{Embed}
+https://www.zdnet.com/article/cryptocurrency-startup-hacks-itself-before-hacker-gets-a-chance-to-steal-users-funds/
+Cryptocurrency startup hacks itself before hacker gets a chance to...
+Backdoor discovered in Agama cryptocurrency wallet. Unconventional tactic saves users from getting robbed.
+https://images-ext-2.discordapp.net/external/awLg9krWOWP8tikw5nQs-vQ8CaoSKfImq-tB6NuWlLE/https/zdnet2.cbsistatic.com/hub/i/r/2019/06/06/bed0ac8e-31a0-462e-9d7b-4443e584f824/thumbnail/770x578/86b695d538937f4c03015b960a9831cb/cryptocurrency.jpg
+
+
+[06-Jun-19 06:46 AM] AdamB#0212
+Yep, sent through earlier - I don't believe that piece even mentions any losses.
+
+
+[06-Jun-19 06:47 AM] TS#7923
+ah, the info went circle 😃
+
+
+[06-Jun-19 06:47 AM] AdamB#0212
+I just want to reiterate to the team what I sent in the email as well: if you receive any inbound questions about the hack, please forward them to our team ASAP for review.
+
+
+[06-Jun-19 06:48 AM] TS#7923
+noted, thank you!
+
+
+[06-Jun-19 06:54 AM] TS#7923
+another one, also favorable https://thehackernews.com/2019/06/komodo-agama-wallet-hacking.html
+
+{Embed}
+https://thehackernews.com/2019/06/komodo-agama-wallet-hacking.html
+Cryptocurrency Firm Itself Hacked Its Customers to Protect Their F...
+Credential Stealing Backdoor Found in Komodo's Agama Cryptocurrency Wallet Apps
+https://images-ext-1.discordapp.net/external/k_nKEm_aZiL8GGP9RgOhJq_voxiz7G9IxX9NUNLvr4w/https/1.bp.blogspot.com/-nXFQZio_MW4/XPkGr9VhGpI/AAAAAAAA0H8/_qUaHkTi8X8UxUzjfog5WxfKJAu5NEczwCLcBGAs/s728-e100/komodo-agama-wallet-hacking.jpg
+
+
+[06-Jun-19 07:46 AM] AdamB#0212
+Per my last team email, the news was additionally syndicated across Yahoo Finance and Investing.com
+
+
+[06-Jun-19 07:46 AM] AdamB#0212
+https://finance.yahoo.com/news/komodo-hacks-itself-saves-crypto-125900480.html
+
+{Embed}
+https://finance.yahoo.com/news/komodo-hacks-itself-saves-crypto-125900480.html
+Komodo Hacks Itself and Saves Crypto Worth $13M After Learning of ...
+Crypto wallet provider Komodo effectively hacked itself to prevent fraudsters from accessing its users’ funds, the company confirmed in a blog post on June 5.  Security researchers had alerted the company to a vulnerability in its Agama wallet.  Realizing that hackers cou...
+https://images-ext-1.discordapp.net/external/V5pUi8YmADhPmxpmeoE-dJKC-YexrSoF2lf45QQWu3Y/https/s.yimg.com/uu/api/res/1.2/WLdtMmVuvlm2Apyvnii3LQ--~B/aD00OTM7dz03NDA7c209MTthcHBpZD15dGFjaHlvbg--/https%3A/media.zenfs.com/en-US/cointelegraph_667/4877fed115313bb0c7e8d85607a219ed
+
+
+[06-Jun-19 07:46 AM] AdamB#0212
+https://www.investing.com/news/cryptocurrency-news/komodo-hacks-itself-and-saves-crypto-worth-13m-after-learning-of-security-vulnerability-1890404
+
+{Embed}
+https://www.investing.com/news/cryptocurrency-news/komodo-hacks-itself-and-saves-crypto-worth-13m-after-learning-of-security-vulnerability-1890404
+Komodo Hacks Itself and Saves Crypto Worth $13M After Learning of Secu
+Komodo Hacks Itself and Saves Crypto Worth $13M After Learning of Security Vulnerability
+https://images-ext-1.discordapp.net/external/asj7j1T1XRv88gq-4tZmW8yhAjbVoZR3Qln_Upuhv3I/https/i-invdn-com.akamaized.net/content/pic9e3cba592f20eaf5526f998323438421.jpg
+
+
+[06-Jun-19 08:21 AM] AdamB#0212
+https://thenextweb.com/hardfork/2019/06/06/blockchain-startup-hacked-itself-to-save-13m-of-its-users-cryptocurrency/
+
+{Embed}
+https://thenextweb.com/hardfork/2019/06/06/blockchain-startup-hacked-itself-to-save-13m-of-its-users-cryptocurrency/
+Blockchain startup hacked itself to ‘save’ $13M of its users...
+Komodo devs took all cryptocurrency out of affected wallets and will keep it in a safe place until users submit claims to have it returned.
+https://images-ext-2.discordapp.net/external/6fO-IKLglKom0kq78kmH8t2Y3uhNiUxZ_ftk7KEPQJo/%3Ffilter_last%3D1%26fit%3D1280%252C640%26url%3Dhttps%253A%252F%252Fcdn0.tnwcdn.com%252Fwp-content%252Fblogs.dir%252F1%252Ffiles%252F2019%252F04%252FUntitled-design-4.jpg%26signature%3D03d218adff0a09cf65848209441d3a01/https/img-cdn.tnwcdn.com/image/hardfork
+
+
+[07-Jun-19 04:11 AM] AdamB#0212
+https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack
+
+{Embed}
+Benedict Alibasa
+https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack
+Crypto Developer Komodo 'Hacks' Wallet Users to Foil $13 Million T...
+Cryptocurrency wallet developer Komodo has effectively hacked its own customers to protect their funds from an external attack.
+https://images-ext-1.discordapp.net/external/a2VRxCGk7qAHlaj9fPZfhdBrv7sseTYoeVho1_diong/https/static.coindesk.com/wp-content/uploads/2019/04/malware-code-skull.jpg
+
+
+[07-Jun-19 04:11 AM] AdamB#0212
+CoinDesk just picked up the story - noticeably there is no discussion of losses
+
+
+[07-Jun-19 04:12 AM] AdamB#0212
+I will also be reaching out for a change to “crypto wallet developer” as the project descriptor
+
+
+[07-Jun-19 04:35 AM] Mylo#8306
+Thanks adam
+
+
+[07-Jun-19 05:29 PM] AdamB#0212
+Hi Team
+
+
+[07-Jun-19 05:29 PM] AdamB#0212
+https://www.google.com/amp/s/www.zdnet.com/google-amp/article/cryptocurrency-startup-hacks-itself-before-hacker-gets-a-chance-to-steal-users-funds/
+
+{Embed}
+https://www.google.com/amp/s/www.zdnet.com/google-amp/article/cryptocurrency-startup-hacks-itself-before-hacker-gets-a-chance-to-steal-users-funds/
+Cryptocurrency startup hacks itself before hacker gets a chance to...
+Backdoor discovered in Agama cryptocurrency wallet. Unconventional tactic saves users from getting robbed.
+https://images-ext-2.discordapp.net/external/awLg9krWOWP8tikw5nQs-vQ8CaoSKfImq-tB6NuWlLE/https/zdnet2.cbsistatic.com/hub/i/r/2019/06/06/bed0ac8e-31a0-462e-9d7b-4443e584f824/thumbnail/770x578/86b695d538937f4c03015b960a9831cb/cryptocurrency.jpg
+
+
+[07-Jun-19 05:30 PM] AdamB#0212
+I managed to get the reporter to update the original article to include a sentence about the Verus Agama wallet not being affected
+
+{Reactions}
+👍 (2) yassinkomodo (2) 
+
+[14-Jun-19 12:16 AM] TS#7923
+Hi @AdamB ,
+Please find attached the current version of the AtomicDEX site. It will live under atomicdex.io 
+It's just a zip file, unzip it and open index.html
+You will see glitches here and there, it's not 100 percent ready, but I believe it's still helpful.
+We plan to go live on *June 24*, and not June 26. I messed up the dates, sorry about it.
+
+
+[14-Jun-19 12:21 AM] TS#7923
+Ah can't attach the file, it's too large. Download link: https://drive.google.com/file/d/1KBWHeOo4NI4-Xi5sFkk45zSVqsi58lwE/view?usp=sharing
+
+{Embed}
+https://drive.google.com/file/d/1KBWHeOo4NI4-Xi5sFkk45zSVqsi58lwE/view?usp=sharing
+atomicsite_333_02.zip
+
+
+[14-Jun-19 12:37 AM] TS#7923
+The "Supported Assets" fold is just a placeholder. Will provide you with a list of supported assets in a few days (will be less than what you see on the site, at least in the beta phase).
+
+
+[26-Jun-19 01:53 PM] AdamB#0212
+Hi Team
+
+
+[26-Jun-19 01:54 PM] AdamB#0212
+Bitcoin is dipping after a parabolic run
+
+
+[26-Jun-19 01:54 PM] AdamB#0212
+Gertrude Chavez-Dreyfuss of Reuters (syndicated in The New York Times) has called me asking for commentary
+
+
+[26-Jun-19 01:55 PM] AdamB#0212
+Why is the dip happening, where is the price going, whats going on generally with the price
+
+
+[26-Jun-19 01:55 PM] AdamB#0212
+If this is interesting to you, please get me comments from Steve or Kadan stat
+
+
+[01-Jul-19 03:26 PM] Bryan_Beus#6442
+Who is Matthew Keeley? He kindly edited some of my work earlier today -- the Atomic Swap History article I wrote for internal/researcher purposes -- and I wanted to thank him.
+
+
+[01-Jul-19 03:52 PM] Bryan_Beus#6442
+Ahh, I hear that he works at Wachsman.
+
+
+[01-Jul-19 03:52 PM] Bryan_Beus#6442
+I think I adopted 99% of all his suggestions regardless, but if there are any that I didn't adopt, tell him he is free to change it however he wants for whatever Wachsman would like to do with the document.
+
+
+[03-Jul-19 11:53 AM] AdamB#0212
+Hi, yes, Matt is our senior copywriter
+
+
+[03-Jul-19 11:55 AM] AdamB#0212
+I will relay the thanks!
+
+
+[03-Jul-19 12:54 PM] AdamB#0212
+Hi can someone give me Daniel's telgram
+
+
+[03-Jul-19 10:37 PM] Audo#5667
+Hey @AdamB , it is @Daniel_komodo
+
+However, Daniel is on holidays and won't be back until next week.
+
+
+[04-Jul-19 03:16 AM] AdamB#0212
+Thanks Audo
+
+
+[04-Jul-19 03:16 AM] AdamB#0212
+Morning all
+
+
+[04-Jul-19 03:16 AM] AdamB#0212
+https://decrypt.co/7749/komodo-releases-mobile-app
+
+{Embed}
+https://decrypt.co/7749/komodo-releases-mobile-app
+Exclusive: Komodo releases mobile application for making atomic swaps
+AtomicDEX’s beta launch means atomic swaps are coming to a phone near you.
+https://images-ext-1.discordapp.net/external/Wp8DSrpXcOaG77MEpH3YrPHwS2GjNS0K9lgYDzROg_0/https/screenshot.dmedia.cloud/capture/aHR0cHM6Ly9kZWNyeXB0bWVkaWEuY29tL3NjcmVlbnNob3QvcG9zdC83NzQ5Lz9zZWxlY3Rvcj0ucG9zdENhcmQtU3R5bGVkQ2FyZCZoZWlnaHQ9NDcwcHgmd2lkdGg9OTAwcHg%3D.png
+
+
+[04-Jul-19 03:16 AM] AdamB#0212
+Tim’s article on the AtomicDEX is now live
+
+
+[04-Jul-19 03:25 AM] TS#7923
+thank you @AdamB , we'll push atomicdex.io online in the next 30 minutes
+
+
+[04-Jul-19 03:26 AM] TS#7923
+the article is great!
+
+{Reactions}
+💯 
+
+[04-Jul-19 06:06 AM] AdamB#0212
+Hi team
+
+
+[04-Jul-19 06:08 AM] AdamB#0212
+I’ll be OOO for the rest of the day for our national holiday in the US (4th of July). I’ll be periodically checking my mail throughout the day and should be more reachable tomorrow.
+
+
+[04-Jul-19 08:18 AM] AdamB#0212
+https://finance.yahoo.com/news/exclusive-komodo-releases-mobile-application-100857763.html
+
+{Embed}
+https://finance.yahoo.com/news/exclusive-komodo-releases-mobile-application-100857763.html
+Exclusive: Komodo releases mobile application for making atomic swaps
+AtomicDEX’s beta launch means atomic swaps are coming to a phone near you.
+https://images-ext-2.discordapp.net/external/ZD0MBL0O9_oV2O3SKbuwVhyEO2bUA3jQ8Md98Oo_Vk4/https/s.yimg.com/uu/api/res/1.2/PIVhVQBHcenYsnhaml2Bwg--~B/aD00NzA7dz05MDA7c209MTthcHBpZD15dGFjaHlvbg--/https%3A/media.zenfs.com/en/decrypt_251/948e1bcc4039717f64872714481eb01a
+
+{Reactions}
+👍 (2) 
+
+[04-Jul-19 08:18 AM] AdamB#0212
+Syndicated on Yahoo Finance
+
+
+[22-Jul-19 01:08 AM] Audo#5667
+Hey, got a tip from the community and thought I would pass it on
+
+> Maybe you should contact the guy who wrote this article, he loves atomic swaps, maybe he's interested in writing something about the new Atomic DEX
+> https://hackernoon.com/atomic-swap-why-its-a-game-changer-for-exchanges-fb1380f5cb6c
+
+
+[22-Jul-19 02:58 AM] hyperDEX#6586
+He does not seem to be active anymore. His twitter handle is deleted/changed too.
+
+
+[23-Jul-19 12:16 PM] AdamB#0212
+Hi Team
+
+
+[23-Jul-19 12:17 PM] AdamB#0212
+I've emailed a briefing document to Steve and Kadan ahead of their interview with SIMETRI research tomorrow - very important they review ahead of time.
+
+
+[23-Jul-19 01:30 PM] Audo#5667
+@n2okpride @ca333 ☝
+
+
+[24-Jul-19 06:35 AM] ca333#0333
+ACK
+
+
+[26-Jul-19 08:52 AM] AdamB#0212
+Hi Team
+
+
+[26-Jul-19 08:52 AM] AdamB#0212
+is Torsten's email
+
+
+[26-Jul-19 08:52 AM] AdamB#0212
+Torsten@komodoplatform.com
+
+
+[26-Jul-19 08:54 AM] AdamB#0212
+Additionally, we also have another member of the Wachsman team joining the Komodo account, my colleague Mary
+
+
+[26-Jul-19 08:54 AM] AdamB#0212
+could you please add her to this discord group? Her user & ID are: mbmkd
+#0988
+
+
+[26-Jul-19 08:54 AM] gcharang#6833
+@TS ^
+
+
+[26-Jul-19 08:55 AM] TS#7923
+@AdamB correct 😃
+
+
+[26-Jul-19 08:55 AM] AdamB#0212
+Great, thanks!
+
+
+[26-Jul-19 09:19 AM] Audo#5667
+@Mary Dawson has been added! Welcome
+
+
+[09-Aug-19 10:21 AM] Audo#5667
+Hey guys, a tip from our community. Forwarding it to you guys:
+
+> https://hackernoon.com/blockchain-primitives-and-their-advantages-for-web-30-development-sy25348q anyone think it is worth contacting the writer and letting them know about KMD?
+
+{Embed}
+https://hackernoon.com/blockchain-primitives-and-their-advantages-for-web-30-development-sy25348q
+Blockchain Primitives and their Advantages for Web 3.0 Development
+Learning a new technology can certainly be overwhelming, especially when you’re a developer who already has a lot on your plate. But when it comes to looking out for the future of your career, even the busiest of developers should understand how important it is to stay curr...
+https://images-ext-1.discordapp.net/external/Ia_gTGm3dVPb7skLy70eg-MLXAxODKDlGbUBKaxc9PA/https/hackernoon.com/drafts/prn34v2.png
+
+
+[27-Aug-19 08:35 AM] Mary Dawson#0988
+@ca333 Caitlin and the QuantLayer podcast team are on and ready for you!
+
+
+[03-Sep-19 11:58 AM] AdamB#0212
+Hi Team
+
+
+[03-Sep-19 11:58 AM] AdamB#0212
+Can you please add Caitlin to this discord?
+
+
+[03-Sep-19 11:58 AM] AdamB#0212
+Her username/ID is: popcorn4lunch #5605
+
+
+[04-Sep-19 08:27 AM] AdamB#0212
+Hi Team
+
+
+[04-Sep-19 08:28 AM] AdamB#0212
+Is anyone available for a short call to brief us on the situation in the discords? We've been monitoring some, would be good to speak with somebody sooner rather than later.
+
+
+[04-Sep-19 08:30 AM] Daniel CP#2020
+I can jump on a quick call with you @AdamB
+
+
+[04-Sep-19 08:31 AM] Daniel CP#2020
+Give me just a min to grab my mic
+
+
+[04-Sep-19 08:35 AM] Daniel CP#2020
+@Audo can you add Caitlin to this channel when you have a minute?
+
+
+[04-Sep-19 08:36 AM] Audo#5667
+yes sure
+
+
+[04-Sep-19 08:36 AM] Audo#5667
+added
+
+
+[18-Sep-19 06:00 AM] TS#7923
+Hi @AdamB
+
+
+[18-Sep-19 06:01 AM] TS#7923
+Can you please add me on Telegram (@torsten1) or WhatsApp (+886979860099)? Thanks!
+
+
+[27-Sep-19 06:46 AM] AdamB#0212
+Hi @TS , I added you on Telegram!
+
+
+[27-Sep-19 06:46 AM] AdamB#0212
+Also, team, can you please send me a bio for Steve?
+
+
+[27-Sep-19 06:46 AM] AdamB#0212
+(He's not up yet)
+
+
+[27-Sep-19 06:47 AM] AdamB#0212
+David Weiss from Altcoin Magazine needs it for his interview
+
+
+[27-Sep-19 06:47 AM] AdamB#0212
+As soon as possible
+
+
+[27-Sep-19 06:51 AM] AdamB#0212
+He also needs a high resolution photo of Steve
+
+
+[27-Sep-19 06:51 AM] AdamB#0212
+and a high resolution photo of the NEW Komodo logo
+
+
+[27-Sep-19 06:51 AM] AdamB#0212
+and any other virtual assets you think may be useful
+
+
+[27-Sep-19 07:10 AM] Daniel CP#2020
+Hey Adam, all the assets can be found in this downloadable file:
+
+```https://komodoplatform.com/wp-content/uploads/2019/07/KMD-Brand-Assets.zip```
+
+
+[27-Sep-19 07:11 AM] Daniel CP#2020
+@AdamB ^
+
+
+[27-Sep-19 07:11 AM] Daniel CP#2020
+I think we'll need for @n2okpride to come online for the photo and the bio but we'll follow up asap
+
+
+[27-Sep-19 07:13 AM] AdamB#0212
+Awesome, thanks Daniel. Please let me know when the Steve photo + bio come through
+
+
+[27-Sep-19 09:58 AM] AdamB#0212
+Also flagging that BLOCKTV wants to have Kadan on their live show to talk about AtomicDEX
+
+
+[27-Sep-19 09:58 AM] AdamB#0212
+Sent over the opp earlier this morning
+
+
+[27-Sep-19 09:59 AM] AdamB#0212
+If we could get some of Kadan's availabilities for next week that would be great
+
+
+[27-Sep-19 09:59 AM] AdamB#0212
+For your reference, BLOCKTV is based out of Israel
+
+
+[27-Sep-19 09:59 AM] AdamB#0212
+https://blocktv.com/
+
+{Embed}
+https://blocktv.com/
+The Blockchain & Crypto Community Premier News Source
+BLOCKTV is the premier televised news source for the blockchain and cryptocurrency community.
+
+
+[27-Sep-19 11:28 AM] Audo#5667
+Hey @AdamB , here's the BIO
+
+```
+Steve is Komodo’s Chief Strategy Officer. He is responsible for setting the overall marketing strategy and direction, while ensuring execution across the team. With over a decade of experience working for Fortune 500 tech companies in the enterprise space, Steve has held a wide range of roles including executive marketing strategy, corporate communications management, product marketing, global sales enablement, and account management. Steve left Hewlett-Packard Enterprise to join the Komodo team full-time in (INSERT MONTH AND YEAR). He made the move because he believes in decentralization and wanted to be a part of something that can foster positive changes in the world.
+```
+
+@n2okpride can you confirm the year/month you joined our team? That needs to be added to the text.
+
+@AdamB , Steve will send a picture to you later
+
+Have a great weekend
+
+
+[27-Sep-19 11:46 AM] AdamB#0212
+Thanks @Audo !
+
+
+[29-Sep-19 10:25 AM] TS#7923
+@AdamB
+
+
+[29-Sep-19 10:26 AM] TS#7923
+Please check your Telegram, we have something urgent
+
+
+[29-Sep-19 10:26 AM] TS#7923
+Thank you!
+
+
+[01-Oct-19 10:10 AM] AdamB#0212
+Hi Torsten, thanks for that flag. Just wanted to circle back and let you know that we've issued corrections and have already seen edits made to FX Street and others. Will hopefully have a change from CoinTelegraph soon.
+
+
+[01-Oct-19 02:08 PM] AdamB#0212
+Hi Team, just checking in to see if we've managed to get a headshot of Steve for the Altcoin Magazine article. Please let me know - the reporter is waiting.
+
+
+[02-Oct-19 12:52 AM] Audo#5667
+@n2okpride 👆
+
+
+[01-Nov-19 12:04 PM] AdamB#0212
+Hi team
+
+
+[01-Nov-19 12:05 PM] AdamB#0212
+Can someone give me an invite to the DEX beta?
+
+
+[01-Nov-19 11:41 PM] grewalsatinder#9653
+@AdamB AtomicDEX is available publically Adam 🙂 
+can install on both Android and iOS
+https://atomicdex.io/
+
+{Embed}
+https://atomicdex.io/
+AtomicDEX
+The evolution of wallets and exchanges into a single application.
+https://images-ext-1.discordapp.net/external/5WGyjeke7hPSjpi9afomQsVFFrhcOlm0W6MojP76okw/https/komodoplatform.com/wp-content/uploads/2019/06/twitter_card_atomicdex-2.png
+
+
+[04-Dec-19 08:03 AM] Mary Dawson#0988
+@ca333 just a reminder that your interview with Andy Pickering of Brave New Coin's Crypto Conversation Podcast is today at 9:30pm Zurich time!
+
+
+[04-Dec-19 11:10 AM] ca333#0333
+thanks @Mary Dawson
+
+
+[09-Dec-19 10:19 PM] Audo#5667
+Hey @AdamB & others, do you have any contacts to Russian crypto news sites? If we translate our website to russian we might want to do some outreach. Here's a general comment from our team member Decker
+_ _
+> my humble opinion, if we want to focus more on the russian community we need to publish some articles about Komodo and our tech on most popular russian crypto-related resources, like https://bitnovosti.com/ , https://coinspot.io/ and others (if somebody needs, i can prepare a short-list). they have regular audience of crypto-entusiasts, miners and just a people who interested in crypto. but for last 2-3 years i saw no articles / reviews / quick notes about our tech on these resources. the impression is nobody interesting to spread a word about Komodo in russian crypto-related media and people here can't adequately assess komodo tech and it's value in crypto world, bcz they have zero-knowledge about it.
+
+{Embed}
+nonadmin
+https://bitnovosti.com/
+Главная
+
+{Embed}
+https://coinspot.io/
+Биткоин, финтех-тренды, p2p-технологи...
+На прошлой неделе стартап SpaceChain впервые отправил ноду биткоина на международную космическую станцию (МКС), и это сделает сеть биткоина ещё более безоп...
+
+
+[09-Dec-19 11:03 PM] Audo#5667
+The Russian website translation will be ready in 2-3 days, and then the implementation time, so I imagine would be online next week.
+
+
+[08-Jan-20 10:10 AM] AdamB#0212
+Hi Team
+
+
+[08-Jan-20 10:11 AM] AdamB#0212
+https://www.coindesk.com/10m-bitcoins-havent-moved-in-more-than-a-year-highest-since-2017
+
+{Embed}
+https://www.coindesk.com/10m-bitcoins-havent-moved-in-more-than-a-year-highest-since-2017
+10M Bitcoins Haven't Moved in More Than a Year, Highest Since 2017...
+“HODLing” has returned to a major milestone: The total amount of bitcoins that haven’t changed hands in more than a year has crossed the 10 million mark.
+https://images-ext-2.discordapp.net/external/IDJNv1N3svTsfMeAb_qxNNjr2iaAPyDh_yJ5SoAM2X4/https/static.coindesk.com/wp-content/uploads/2020/01/shutterstock_56549734.jpg
+
+{Reactions}
+👍 
+
+[08-Jan-20 10:11 AM] AdamB#0212
+We got some commentary on behalf of Kadan in CoinDesk (and Yahoo Finance)
+
+
+[08-Jan-20 10:11 AM] AdamB#0212
+see above
+
+
+[28-Jan-20 10:43 AM] Daniel CP#2020
+http://community.komodoplatform.com/
+
+{Embed}
+http://community.komodoplatform.com/
+Komodo Platform
+Komodo is an open, composable Smart Chain platform. The Antara framework allows end-to-end blockchain development, from a custom Smart Chain to an open API.
+https://images-ext-1.discordapp.net/external/wtPiyqhQ_FmfJnybOOyZVbmVSpY7oDZuwAGF-8Ey2Tg/https/community.komodoplatform.com/files/portals/e74/banner_20767.png
+
+
+[28-Jan-20 10:44 AM] Daniel CP#2020
+@AdamB and @Mary Dawson  The link to the Community Portal is here if you'd like to sign up and check it out!
+
+
+[28-Jan-20 10:44 AM] Daniel CP#2020
+I'll also send it over in an email in case you miss this
+
+
+[28-Jan-20 08:27 PM] AdamB#0212
+Thanks @Daniel CP !
+
+
+[10-Feb-20 09:31 AM] AdamB#0212
+Thought I'd share:
+
+
+[10-Feb-20 09:31 AM] AdamB#0212
+https://www.forbes.com/sites/justinoconnell/2020/02/10/in-the-future-you-can-create-your-own-stablecoin-with-just-a-few-clicks-or-commands/#1df6a9504af2
+
+{Embed}
+https://www.forbes.com/sites/justinoconnell/2020/02/10/in-the-future-you-can-create-your-own-stablecoin-with-just-a-few-clicks-or-commands/
+In The Future You Can Create Your Own Stablecoin With Just A Few Click...
+Komodo, a multi-chain blockchain platform or “composable Smart Chain platform,” seeks to enable third-parties to create their own customizable blockchains, called Komodo Smart Chains.
+https://images-ext-1.discordapp.net/external/dFCcxms37B1ZkQEWp786AmvOlGxpPczt3H6xsd6KfhY/https/thumbor.forbes.com/thumbor/600x315/https%253A%252F%252Fspecials-images.forbesimg.com%252Fimageserve%252F5e4180c08b6cf300071e5341%252F960x0.jpg
+
+{Reactions}
+👍 (3) 
+
+[11-Feb-20 07:57 AM] Audo#5667
+good job! 🙂
+
+
+[16-Mar-20 10:27 AM] Audo#5667
+Welcome @Jen Testa !
+
+
+[16-Mar-20 11:27 AM] Jen Testa#6498
+Thanks for adding me in, @Audo !
+
+
+==============================================================
+Exported 180 message(s)
+==============================================================

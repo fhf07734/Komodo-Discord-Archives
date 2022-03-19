@@ -1,0 +1,3435 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / bot-testing
+==============================================================
+
+[12-Dec-19 11:58 AM] Audo#5667
+@komodo-mod-bot
+
+
+[12-Dec-19 11:58 AM] Audo#5667
+@gcharang
+
+
+[12-Dec-19 10:52 PM] gcharang#6833
+thank you!
+
+
+[12-Dec-19 11:22 PM] komodo-mod-bot#3871
+Banned:
+userId: 530855906729132048
+username: news#7673
+
+
+[12-Dec-19 11:22 PM] komodo-mod-bot#3871
+Banned:
+userId: 644894313733685250
+username: коmodo newsbot#4049
+
+
+[12-Dec-19 11:22 PM] komodo-mod-bot#3871
+Banned:
+userId: 644907226066321408
+username: коmodo newsbot#6237
+
+
+[12-Dec-19 11:22 PM] komodo-mod-bot#3871
+Banned:
+userId: 365055497289596928
+username: sheldoncryptonews#4096
+
+
+[12-Dec-19 11:22 PM] komodo-mod-bot#3871
+Banned:
+userId: 577394851713122324
+username: metanews#2879
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 643025558967681025
+username: коmodo newsbot#3813
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 645262828147572756
+username: коmodo newsbot#0595
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 530855906729132048
+username: news#7673
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 644894313733685250
+username: коmodo newsbot#4049
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 644907226066321408
+username: коmodo newsbot#6237
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 365055497289596928
+username: sheldoncryptonews#4096
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 577394851713122324
+username: metanews#2879
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 643025558967681025
+username: коmodo newsbot#3813
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 645262828147572756
+username: коmodo newsbot#0595
+
+
+[12-Dec-19 11:23 PM] komodo-mod-bot#3871
+Banned:
+userId: 530855906729132048
+username: news#7673
+
+
+[12-Dec-19 11:29 PM] komodo-mod-bot#3871
+Banned:
+userId: 530855906729132048
+username: news#7673
+
+
+[12-Dec-19 11:29 PM] komodo-mod-bot#3871
+Banned:
+userId: 644894313733685250
+username: коmodo newsbot#4049
+
+
+[12-Dec-19 11:29 PM] komodo-mod-bot#3871
+Banned:
+userId: 644907226066321408
+username: коmodo newsbot#6237
+
+
+[12-Dec-19 11:29 PM] komodo-mod-bot#3871
+Banned:
+userId: 365055497289596928
+username: sheldoncryptonews#4096
+
+
+[12-Dec-19 11:29 PM] komodo-mod-bot#3871
+Banned:
+userId: 577394851713122324
+username: metanews#2879
+
+
+[12-Dec-19 11:29 PM] komodo-mod-bot#3871
+Banned:
+userId: 643025558967681025
+username: коmodo newsbot#3813
+
+
+[12-Dec-19 11:29 PM] komodo-mod-bot#3871
+Banned:
+userId: 645262828147572756
+username: коmodo newsbot#0595
+
+
+[13-Dec-19 12:45 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details
+userId: 530855906729132048
+username: news#7673
+
+
+[13-Dec-19 12:45 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details
+userId: 644894313733685250
+username: коmodo newsbot#4049
+
+
+[13-Dec-19 12:45 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details
+userId: 644907226066321408
+username: коmodo newsbot#6237
+
+
+[13-Dec-19 12:45 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details
+userId: 365055497289596928
+username: sheldoncryptonews#4096
+
+
+[13-Dec-19 12:45 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details
+userId: 577394851713122324
+username: metanews#2879
+
+
+[13-Dec-19 12:45 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details
+userId: 643025558967681025
+username: коmodo newsbot#3813
+
+
+[13-Dec-19 01:04 AM] Audo#5667
+it seems to be working!
+
+
+[13-Dec-19 01:09 AM] gcharang#6833
+yes, the bot will ban every user who doesn't have a role and has the strings "news" or "giveaway" in its name
+if the user has a role, it will notify in a channel specified by us
+ 
+I have to implement a command acceptance system and ability to add users to allow list through commands
+
+
+[13-Dec-19 01:10 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details:
+userId: 644894313733685250
+username: коmodo newsbot#4049
+
+
+[13-Dec-19 01:10 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details:
+userId: 644907226066321408
+username: коmodo newsbot#6237
+
+
+[13-Dec-19 01:10 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details:
+userId: 365055497289596928
+username: sheldoncryptonews#4096
+
+
+[13-Dec-19 01:10 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details:
+userId: 577394851713122324
+username: metanews#2879
+
+
+[13-Dec-19 01:10 AM] komodo-mod-bot#3871
+This user has a role but might be a spammer. PLease check 
+User details:
+userId: 643025558967681025
+username: коmodo newsbot#3813
+
+
+[13-Dec-19 02:02 AM] komodo-mod-bot#3871
+Banned:
+userId: 654986225664524298
+username: neWSGuy#1286
+
+
+[13-Dec-19 03:26 AM] komodo-mod-bot#3871
+Failed to ban:
+userId: 655007565268385803
+username: NewsNews#9807
+
+
+[13-Dec-19 03:29 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban
+                    **User**: giveaway1#4073 (655008178165121034)
+                    **Reason**: Has the string 'news' or 'giveaway' in their name.
+
+
+[13-Dec-19 03:34 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: giveawaY2#2979 (655009643189501952)
+                    **Reason**: Has the string 'news' or 'giveaway' in their name.
+
+
+[13-Dec-19 04:15 AM] gcharang#6833
+@moneystacks ^
+I was testing it here
+
+right now, the bot is up and should instaban any users with news or giveaway in their names
+
+
+[13-Dec-19 04:17 AM] moneystacks#7758
+Awesome thank you @gcharang
+
+
+[14-Dec-19 06:05 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: Giveaway#6446 (655409474105769984)
+                    **Reason**: Has the string 'news' or 'giveaway' in their name.
+
+
+[14-Dec-19 06:05 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: Fxchange Giveaway#4780 (655408783845097502)
+                    **Reason**: Has the string 'news' or 'giveaway' in their name.
+
+
+[14-Dec-19 06:05 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: FxChange News#6639 (655408568282906624)
+                    **Reason**: Has the string 'news' or 'giveaway' in their name.
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:16 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:17 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: undefined (undefined)
+                    **Reason**: Bot
+
+
+[14-Dec-19 08:24 AM] gcharang#6833
+banned the bots: https://paste.ubuntu.com/p/MGKwyrcWV9/
+after they were kicked
+
+
+[14-Dec-19 10:37 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: ck#8344 (647893580374999040)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreViolation <id>"
+
+
+[14-Dec-19 10:37 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Nick#5566 (141171633699160065)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreViolation <id>"
+
+
+[14-Dec-19 10:37 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: sheldoncryptonews#4096 (365055497289596928)
+                    **Reason**: Has the string 'news' in their name.
+
+
+[14-Dec-19 10:37 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: metanews#2879 (577394851713122324)
+                    **Reason**: Has the string 'news' in their name.
+
+
+[14-Dec-19 10:53 AM] komodo-mod-bot#3871
+
+
+[14-Dec-19 10:53 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Nick#5566 (141171633699160065)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreViolation <id>"
+
+
+[14-Dec-19 11:00 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: ck#8344 (647893580374999040)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreViolation <id>"
+
+
+[14-Dec-19 11:00 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Nick#5566 (141171633699160065)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreViolation <id>"
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: chatchai2525#5538 (481449554600919082)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Spazz413#8228 (164214856306786304)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Andre#2964 (424882271531827200)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: RazerMK24#2551 (368122203432288256)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: cryptatometrader44#8727 (442726980740317186)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: NicoleKate#9730 (498715840569671680)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: !Ratstang CryptocurrencyCheckout#4037 (187292659230965761)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: luzpaterno#9540 (511786886021513236)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: grazzlr#7136 (457362467845177356)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: r.#6038 (537342585770082314)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: miikat#1131 (456144388167434270)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: tonythegreat#7134 (576500104341487616)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: [TPUX] Djith Wattignies#3171 (387924224733347850)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: waazaapp#8781 (449901790599839744)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:34 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: SatoshiKiddo#4719 (352133667109470208)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: matthew#6155 (399718669321633792)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: bizecdat#4701 (569842038363783179)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: pheelLikeWater#3843 (345522158346436609)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: gto#2686 (582547002466893839)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: patata#0183 (431650514162155530)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: nikolobok#8357 (455085311463260160)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: faneatiku#5991 (389565724999548928)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: rob#7141 (611480073282781185)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Mo#7151 (431303065790971915)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: infathername#2071 (492578466961817610)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Data Dash#3120 (126875754616193024)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Jak#3583 (440855283573719050)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Gaz#1523 (391235581671112716)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: MasterVibration22#9147 (420120589911457792)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: fatihyigitgida#0885 (552352267601182743)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: crypto9999#3411 (428336920381227029)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: m1#8058 (577683165116629012)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Bas#9047 (411239807637913612)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: djwillz24#9542 (284078654554767361)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: NaturalNine#1063 (386034761770074112)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Herbi#9881 (467196876920193045)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: jon_at_work#4397 (588352732658663440)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Razzler04#2552 (396621210760380418)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: don#6102 (610496373887991809)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Jonathan#3687 (444601065355083777)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: ruelatayde#4848 (509122385337647114)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: mrrealestate#3274 (466269190001524757)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Herbi#2856 (456563667098664960)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: blub#6094 (353126621063938049)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: wildpot#6171 (406490330637139969)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: TS#6934 (547415983824830464)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: ale#8618 (503078671356133386)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Patrick Friggens#2418 (449560371636731904)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Ziginator#8731 (412436758777692161)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: sustakatz#8641 (448085227286429700)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: tone-cat#4547 (396484479029477377)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Razzler04#5380 (532489375745835008)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: ivat#9818 (459072302055686164)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: nn#2860 (488982581535047680)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: jazzmike#2184 (457304890302267413)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: kacpero2016#8274 (428405126672154624)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: matiarchie#8742 (442481933960871966)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: hfaz63#1930 (466523741518823434)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: D2D privacyalternatives.com#5667 (393476021065744384)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:35 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Amazongirl#3392 (370068580349509654)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Matthias#1768 (545328668298444843)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Jaxjay#9814 (483328469892071435)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Bitnative#3330 (347548186249920522)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: hatmader#5161 (398534634465525771)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: deathsgrip#5269 (219553747314016256)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: william_leBeau#8005 (465320874518642698)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: sgt-pot-smoker#1257 (127894976112623616)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Anatolii#4078 (376742406164316160)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Matthias#8937 (585825637944786945)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Syndicate.David#3850 (479688028181495812)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: agalledou#4349 (505663806681382913)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: willofleo#7505 (461126852514152448)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: HellBlazeSRB#6211 (382874416503193600)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: vogelfreund#4122 (500019182117584898)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: LoPhatMelk#9055 (488463617885208596)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: wil0080#7535 (459535082726621185)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Matij#0202 (405745818587365387)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Ian#2866 (404455069912793089)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Win Innovation#6244 (419407094446292992)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: MesholatoR#2174 (452864660954152971)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Alligator#6822 (555960727475716106)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Keytothegate#8453 (404058274694955008)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: chatzich#7518 (392805240413487106)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Awperation#0056 (135211161774850048)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: ideasbykate#1153 (465996023131668480)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Maat#9515 (432324927362957313)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Alice#9607 (501825151327797259)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Tazy#6808 (484663504377348099)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: basti#6453 (334105631898468353)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: MonsterKat#3759 (586305348734812162)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: campco-Sat(o)ish(i)#2447 (394540461039026188)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Martins#3853 (321621676217597953)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Olga Sokolova#3209 (487697750255861772)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Strobe#8558 (404797203580977163)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Avenatti2020#4980 (238459188429324290)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: nikornkpk#2014 (483215205271076869)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: TShell#5983 (586008201938599946)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:36 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Pirate#6555 (519594695995949056)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:37 AM] gcharang#6833
+that test was too broad lol
+should narrow the constraints a bit
+
+
+[15-Dec-19 10:56 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: r.#6038 (537342585770082314)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:56 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: gto#2686 (582547002466893839)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:56 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: nikolobok#8357 (455085311463260160)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:56 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: rob#7141 (611480073282781185)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:56 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Mo#7151 (431303065790971915)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:56 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Jak#3583 (440855283573719050)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:56 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Bas#9047 (411239807637913612)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:57 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: TS#6934 (547415983824830464)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:57 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Alice#9607 (501825151327797259)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:57 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: jusoaresf#2928 (563730425252544523)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:57 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: gt#6726 (371253193608265740)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[15-Dec-19 10:57 AM] komodo-mod-bot#3871
+
+{Embed}
+Suspicious User
+**User**: Strob#3736 (512260880566714388)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+You can
+Kick or Ban the User
+OR
+Tell me to ignore them by using the command "!ignoreviolation <user's long id>"
+For help, use the command !help
+
+
+[17-Dec-19 03:57 AM] gcharang#6833
+!kmdmodbot help
+
+
+[17-Dec-19 03:57 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[17-Dec-19 03:57 AM] komodo-mod-bot#3871
+@gcharang, there was an error trying to execute the command: [object Object]!
+
+
+[17-Dec-19 03:58 AM] gcharang#6833
+!kmdmodbot help
+
+
+[17-Dec-19 03:58 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[17-Dec-19 03:58 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[17-Dec-19 03:58 AM] gcharang#6833
+!kmdmodbot banlastnjoins
+
+
+[17-Dec-19 03:58 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 03:59 AM] gcharang#6833
+!kmdmodbot banlastnjoins
+
+
+[17-Dec-19 03:59 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:18 AM] gcharang#6833
+!kmdmodbot banlastnjoins
+
+
+[17-Dec-19 04:18 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:18 AM] komodo-mod-bot#3871
+@gcharang, Usage: !kmdmodbot banlastnjoins iknowwhatiamdoing <user's long id(s) with spaces>
+
+
+[17-Dec-19 04:20 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing
+
+
+[17-Dec-19 04:20 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:20 AM] komodo-mod-bot#3871
+@gcharang, You must specify the number of messages to be considered in the Introductions channel.
+
+
+[17-Dec-19 04:20 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:20 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:21 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:21 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:21 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:21 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:24 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:24 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:25 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:25 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:25 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:25 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:37 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:37 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:40 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:40 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:41 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:41 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:41 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:41 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:46 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 10
+
+
+[17-Dec-19 04:46 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:48 AM] gcharang#6833
+iknowwhatiamdoing 15
+
+
+[17-Dec-19 04:48 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 15
+
+
+[17-Dec-19 04:48 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:48 AM] komodo-mod-bot#3871
+@gcharang, I am allowed to ban only upto 10 latest joined users
+
+
+[17-Dec-19 04:49 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 19
+
+
+[17-Dec-19 04:49 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:49 AM] komodo-mod-bot#3871
+@gcharang, I am allowed to ban only upto 10 latest joined users
+
+
+[17-Dec-19 04:49 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 9
+
+
+[17-Dec-19 04:49 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:49 AM] komodo-mod-bot#3871
+@gcharang, please wait 5.8 more second(s) before reusing the `banlastnjoins` command.
+
+
+[17-Dec-19 04:49 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 9
+
+
+[17-Dec-19 04:49 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 04:53 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 9
+
+
+[17-Dec-19 04:53 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:00 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 9
+
+
+[17-Dec-19 05:00 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:02 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:02 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:04 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:04 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:15 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:15 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:16 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:16 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:18 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:18 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:18 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656329843817840658)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:19 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:19 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:19 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656329874910216193)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:19 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656329873589010433)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:19 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656329873043750933)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:19 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656329875237503020)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:19 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656329857046806548)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:21 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:21 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:21 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656330227882000386)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:21 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656330651703836672)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:21 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656329961228992526)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:21 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656329867524308995)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:21 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Failed. Please ban the user manually or using another Bot
+                    **User**: (656330600818540544)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:30 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:30 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:30 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656330244260626463)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:30 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656330561107001366)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:30 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656330243837263883)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:30 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656330468102373392)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:30 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656334525328261120)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:31 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:31 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:31 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656334625987100683)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:31 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656334501919719444)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:31 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656335358824415242)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:31 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656335920471080991)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:31 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: (656333590174367745)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:32 AM] gcharang#6833
+!kmdmodbot help
+
+
+[17-Dec-19 05:32 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[17-Dec-19 05:32 AM] gcharang#6833
+!kmdmodbot help
+
+
+[17-Dec-19 05:32 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[17-Dec-19 05:32 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[17-Dec-19 05:37 AM] gcharang#6833
+!kmdmodbot banlastnjoins iknowwhatiamdoing 5
+
+
+[17-Dec-19 05:37 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 05:37 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: Rectangular#7292  (656334375201538068)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:37 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: Firsthand Talk#9946  (656335702551953470)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:37 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: Appropriate Efficiency#4643  (656333594641563664)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:37 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: Offensive#1293  (656333768981741571)
+                    **Reason**: bot
+
+
+[17-Dec-19 05:37 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: Kooky#9572  (656334444973654017)
+                    **Reason**: bot
+
+
+[17-Dec-19 06:32 AM] gcharang#6833
+!kmdmodbot banbyavatarurl
+
+
+[17-Dec-19 06:32 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 06:32 AM] komodo-mod-bot#3871
+@gcharang, You must specify the number of messages to be considered in the Introductions channel.
+
+
+[17-Dec-19 06:33 AM] gcharang#6833
+!kmdmodbot banbyavatarurl
+
+
+[17-Dec-19 06:33 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 06:33 AM] komodo-mod-bot#3871
+@gcharang, You must specify the number of messages to be considered in the Introductions channel.
+
+
+[17-Dec-19 06:34 AM] gcharang#6833
+!kmdmodbot banbyavatarurl
+
+
+[17-Dec-19 06:34 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 06:34 AM] komodo-mod-bot#3871
+@gcharang, You must specify the Avatar URL to be banned.
+
+
+[17-Dec-19 06:34 AM] gcharang#6833
+!kmdmodbot banbyavatarurl
+
+
+[17-Dec-19 06:34 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 06:34 AM] komodo-mod-bot#3871
+@gcharang, You must specify the Avatar URL to be banned.
+
+
+[17-Dec-19 06:35 AM] gcharang#6833
+!kmdmodbot banbyavatarurl
+
+
+[17-Dec-19 06:35 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 06:35 AM] gcharang#6833
+!kmdmodbot banbyavatarurl
+
+
+[17-Dec-19 06:35 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 06:37 AM] gcharang#6833
+!kmdmodbot banbyavatarurl
+
+
+[17-Dec-19 06:37 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 06:38 AM] gcharang#6833
+!kmdmodbot banbyavatarurl
+
+
+[17-Dec-19 06:38 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:02 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 07:02 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:02 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 07:02 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:04 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 07:04 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:06 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 07:06 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:07 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 07:07 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:08 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 07:08 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:16 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 07:16 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:16 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.pngx234
+
+
+[17-Dec-19 07:16 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:22 AM] gcharang#6833
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 07:23 AM] gcharang#6833
+!kmdmodbot banbyavatarurl :https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 07:23 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 07:23 AM] komodo-mod-bot#3871
+@gcharang, I can only process URLs that start with "https://cdn.discordapp.com/" or "https://images-" .
+
+
+[17-Dec-19 07:23 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 07:23 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:31 AM] gcharang#6833
+!kmdmodbot banbyavatarurl https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 08:31 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:32 AM] komodo-mod-bot#3871
+@gcharang, Usage: !kmdmodbot banbyavatarurl iknowwhatiamdoing <avatar URL>
+
+
+[17-Dec-19 08:32 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 08:32 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:34 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 08:34 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:37 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 08:37 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:37 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 08:37 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:37 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members' usernames. Will post in the bot channel if any possible imposters are found.
+
+
+[17-Dec-19 08:37 AM] komodo-mod-bot#3871
+@gcharang, Added https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97 to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png?width=97&height=97
+https://images-ext-2.discordapp.net/external/zaJUFmLSlCXJy-vc_xNMNVF7FNz9RBSCv-QNUvOiyWM/%3Fwidth%3D97%26height%3D97/https/cdn.discordapp.com/avatars/656466572923371530/32202584a0cb2d2923fa3e4cfecd050e.png
+
+
+[17-Dec-19 08:38 AM] komodo-mod-bot#3871
+@gcharang, All the members' usernames have been scanned.
+
+
+[17-Dec-19 08:40 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png
+https://images-ext-2.discordapp.net/external/XWA5egP0zTCs8sx1d61WN0CC3pV6Z4RqnNP7M5JjSb4/https/images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png
+
+
+[17-Dec-19 08:40 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:40 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png
+https://images-ext-2.discordapp.net/external/XWA5egP0zTCs8sx1d61WN0CC3pV6Z4RqnNP7M5JjSb4/https/images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png
+
+
+[17-Dec-19 08:40 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:40 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles. Will post in the bot channel if any possible imposters are found.
+
+
+[17-Dec-19 08:40 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png
+https://images-ext-2.discordapp.net/external/XWA5egP0zTCs8sx1d61WN0CC3pV6Z4RqnNP7M5JjSb4/https/images-ext-1.discordapp.net/external/6NcwEXI6fJjbgGkHGX4g3phjNmaEHvJKlBtSdq1k-JA/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388675580100639/9b38a80facc875833c57dd7e80e692e1.png
+
+
+[17-Dec-19 08:41 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[17-Dec-19 08:41 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 08:41 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:42 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles. Will post in the bot channel if any possible imposters are found.
+
+
+[17-Dec-19 08:42 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 08:44 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 08:44 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[17-Dec-19 08:44 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[17-Dec-19 08:44 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[17-Dec-19 08:45 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[17-Dec-19 09:55 AM] gcharang#6833
+!kmdmodbot help
+
+
+[17-Dec-19 09:55 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[17-Dec-19 09:55 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[17-Dec-19 09:59 AM] gcharang#6833
+!kmdmodbot help
+
+
+[17-Dec-19 09:59 AM] komodo-mod-bot#3871
+@gcharang, I've sent you a DM with all my commands!
+
+
+[18-Dec-19 01:32 AM] gcharang#6833
+https://images-ext-2.discordapp.net/external/Ch7OVz573AO9FYKW1qr6LCi_MEvmfe6Ap-Rgv840Azw/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655407943990116352/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-2.discordapp.net/external/Ch7OVz573AO9FYKW1qr6LCi_MEvmfe6Ap-Rgv840Azw/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655407943990116352/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/LPBp7PF5LbmEpw4f3SSvIVjxloQAa5FxDsJ_VV7ADDE/https/images-ext-2.discordapp.net/external/Ch7OVz573AO9FYKW1qr6LCi_MEvmfe6Ap-Rgv840Azw/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655407943990116352/99dfc51eea4606776e369594a45804b3.png
+
+
+[18-Dec-19 01:33 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[18-Dec-19 01:33 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[18-Dec-19 01:33 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[18-Dec-19 01:33 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[18-Dec-19 01:33 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[18-Dec-19 01:34 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[18-Dec-19 01:34 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[18-Dec-19 01:34 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[18-Dec-19 01:34 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[18-Dec-19 01:34 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+https://images-ext-2.discordapp.net/external/orHm3sfcmBZyA37wYTUsuJgDVwcLwUPA1kf4_-QGTiQ/https/images-ext-1.discordapp.net/external/gKbqELZkIzf7P5fJUwsqmoJ5vU3DEIqG_uokLzg2tuY/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655388703828738070/99dfc51eea4606776e369594a45804b3.png
+
+
+[18-Dec-19 01:34 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[18-Dec-19 01:35 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[18-Dec-19 01:38 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[18-Dec-19 01:51 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+
+{Embed}
+https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+https://images-ext-1.discordapp.net/external/k7j8TNyw3NlLDmUcB5vs-UqKLPl61pobC3FQGAJe7ZY/https/images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+
+
+[18-Dec-19 01:51 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[18-Dec-19 01:51 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+https://images-ext-1.discordapp.net/external/k7j8TNyw3NlLDmUcB5vs-UqKLPl61pobC3FQGAJe7ZY/https/images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+
+
+[18-Dec-19 01:51 AM] gcharang#6833
+!kmdmodbot banbyavatarurl iknowwhatiamdoing https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+
+{Embed}
+https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+https://images-ext-1.discordapp.net/external/k7j8TNyw3NlLDmUcB5vs-UqKLPl61pobC3FQGAJe7ZY/https/images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+
+
+[18-Dec-19 01:51 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[18-Dec-19 01:51 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+https://images-ext-1.discordapp.net/external/k7j8TNyw3NlLDmUcB5vs-UqKLPl61pobC3FQGAJe7ZY/https/images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+
+
+[18-Dec-19 01:51 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[18-Dec-19 01:51 AM] komodo-mod-bot#3871
+@gcharang, Added https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png to the bannable avatar URL list and started scanning all members for this Avatar URL .
+
+{Embed}
+https://images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%3Fsize%3D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+https://images-ext-1.discordapp.net/external/k7j8TNyw3NlLDmUcB5vs-UqKLPl61pobC3FQGAJe7ZY/https/images-ext-2.discordapp.net/external/lr8MQegggr_ZHHlWulFVG5rQyDGbv_k_FiIPqOfcBGk/%253Fsize%253D128/https/cdn.discordapp.com/avatars/655408176879108096/9b38a80facc875833c57dd7e80e692e1.png
+
+
+[18-Dec-19 01:52 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[18-Dec-19 01:53 AM] gcharang#6833
+!kmdmodbot help getavatarurl
+
+
+[18-Dec-19 01:53 AM] komodo-mod-bot#3871
+@gcharang, that's not a valid command!
+
+
+[18-Dec-19 01:53 AM] komodo-mod-bot#3871
+
+{Embed}
+**Name:** getavatarurl
+Description
+Get avatar URL of a user/bot
+Location
+Cannot be used in DM
+Cooldown
+5 second(s)
+komodo-mod-bot by gcharang#6833 (423176312354635779)
+
+
+[18-Dec-19 01:54 AM] gcharang#6833
+!kmdmodbot getavatarurl 423176312354635779
+
+
+[18-Dec-19 01:54 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[18-Dec-19 01:55 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[18-Dec-19 01:55 AM] gcharang#6833
+!kmdmodbot getavatarurl 448777271701143562
+
+
+[18-Dec-19 01:55 AM] komodo-mod-bot#3871
+@gcharang,  I am sorry! I don't know that command!
+
+
+[18-Dec-19 01:56 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[24-Dec-19 09:33 PM] gcharang#6833
+!kmdmodbot scanmembers
+
+
+[24-Dec-19 09:33 PM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[24-Dec-19 09:41 PM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[25-Dec-19 07:18 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: hastrup#9003 (659394845294723072)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+
+
+[25-Dec-19 07:21 AM] gcharang#6833
+!kmdmodbot scanmembers
+
+
+[25-Dec-19 07:21 AM] komodo-mod-bot#3871
+@gcharang, Started scanning all the members profiles.
+
+
+[25-Dec-19 07:22 AM] komodo-mod-bot#3871
+@gcharang, All the members' profiles have been scanned.
+
+
+[25-Dec-19 07:23 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: CrisF#4235 (659295173439782933)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+
+
+[25-Dec-19 07:30 AM] komodo-mod-bot#3871
+
+{Embed}
+**Action**: Ban Success
+                    **User**: llama#6597 (659417007753527316)
+                    **Reason**: Has the same(or similar) username as another user with a role in this server.
+
+
+[17-Jun-20 03:52 AM] gcharang#6833
+@<670603177963290634>
+
+
+[17-Jun-20 03:52 AM] gcharang#6833
+@fab
+
+
+[11-May-21 09:16 AM] gcharang#6833
+<@202999072519356416        --nospace-- >
+
+
+[11-May-21 09:16 AM] gcharang#6833
+@Ocean
+
+
+[11-May-21 09:17 AM] gcharang#6833
+@9oklp
+
+
+[11-May-21 09:17 AM] gcharang#6833
+@MaJoRa
+
+
+[11-May-21 09:19 AM] gcharang#6833
+@bartwr
+
+
+[11-May-21 09:20 AM] gcharang#6833
+@CrisF
+
+
+[11-May-21 09:20 AM] gcharang#6833
+@Aklix
+
+
+[11-May-21 09:21 AM] gcharang#6833
+@hyperDEX
+
+
+[11-May-21 09:23 AM] gcharang#6833
+@ComputerGenie
+
+
+[12-May-21 08:35 PM] gcharang#6833
+@NutellaLicka
+
+
+==============================================================
+Exported 453 message(s)
+==============================================================

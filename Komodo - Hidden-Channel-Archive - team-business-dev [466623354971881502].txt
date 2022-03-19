@@ -1,0 +1,2395 @@
+==============================================================
+Guild: Komodo
+Channel: Hidden-Channel-Archive / team-business-dev
+==============================================================
+
+[11-Jul-18 08:15 AM] Audo#5667
+Our community requested a 'business-dev' channel and @nelg from the business dev team agreed it's a good idea and will be monitoring the channel to answer questions.
+
+
+[11-Jul-18 12:42 PM] Regnar#6164
+Awesome. So this is the primary business dev channel on discord, is it secondary to another public channel somewhere else? or has bus dev been private so far?
+
+
+[11-Jul-18 04:27 PM] polycryptoblog#1173
+Pretty much private so far
+
+
+[11-Jul-18 04:56 PM] Regnar#6164
+Okay so what type of information can we expect to be updated here? or is this just for community to suggest business ideas
+
+
+[11-Jul-18 04:57 PM] polycryptoblog#1173
+Community to suggest ideas,   Mainly for integrations and partnerships .  Will post integration announcements here first
+
+
+[11-Jul-18 04:58 PM] Regnar#6164
+okay
+
+
+[11-Jul-18 05:10 PM] Regnar#6164
+**Contacts to Blockchain areas of consulting firms**
+
+Consulting firms are where businesses turn to rent brain power. When they don’t know how to approach something, don’t know if there is a better way to do something, don’t know if they can truly implement something (like a blockchain) they turn to consultants. They don’t turn to blockchain companies to ask if it works, because that’s like asking a car salesman if you need a car. So getting in with some consulting firms would be crucial. 
+
+Consulting firms are looking for cutting edge ways to bring value to their clients, a Komodo official partnership with them could give them the tools to recommend blockchain products to their clients, these firms aren’t going to recommend building on a platform they don’t know or trust, because they are in the business of being right, not throwing ideas at a wall. 
+
+Here’s some blockchain focused contacts at the top consulting firms in the United States and World
+
+**Ernst Young**
+Angus.ChampiondeCrespigny@ey.com
+https://www.linkedin.com/in/anguschampion/
+Twitter handle: @anguschampion
+
+^^^I think this guy might be the best bet to go to first. He's young and labels himself cryptocurrency lead at EY on his twitter, and cryptoasset leader on linkedin. This is a big step up for the other roles which are "blockchain" and try to avoid the crypto part. He may be more receptive to hearing us out, and he actually has experience with integrating blockchains into businesses.
+
+**Booz Allen Hamilton**
+Jonah Czerwinski
+https://www.linkedin.com/in/jonahczerwinski/
+Twitter handle: @jonahczerwinski
+
+**Bain & Company**
+Thomas Olsen 
+https://www.linkedin.com/in/thomas-olsen-1456ab
+Twitter handle: @Thomas_A_Olsen
+
+**McKinsey & Company**
+Matthew Higginson
+https://www.linkedin.com/in/matthewhigginson/
+
+
+[11-Jul-18 05:10 PM] Regnar#6164
+**McKinsey & Company**
+Brant Carson
+https://www.mckinsey.com/our-people/brant-carson
+https://www.linkedin.com/in/brantcarson/
+^^^Brant is based in Sydney Australia, I know some of our team is around there (maybe NZ)
+
+
+**Deloitte**
+Linda Pawczuk 
+https://www2.deloitte.com/us/en/profiles/lpawczuk.html
+lpawczuk@deloitte.com
++1 720 264 4854
+https://www.linkedin.com/in/linda-pawczuk-8921a8163/
+
+{Embed}
+https://www.mckinsey.com/our-people/brant-carson
+Brant Carson
+Advises financial institutions and telecom companies on holistic digital transformation and business technology, from strategy through execution, to support growth and efficiency agendas.
+https://images-ext-2.discordapp.net/external/JZ1ATIbYsWDvtU49NawtZOAv2rgy7jaDvtBcKkJrsJ4/https/www.mckinsey.com/~/media/McKinsey/Our%2520People/Brant%2520Carson/brant-carson_profile_1536x1152_V2.ashx
+
+{Embed}
+https://www2.deloitte.com/us/en/profiles/lpawczuk.html
+Linda Pawczuk, Principal | Deloitte Consulting LLP
+Linda is a principal in the Deloitte Consulting LLP Financial Services Industry (FSI) practice and is currently the leader of the FSI Blockchain group. She has more than 30 years of experience and previously led the Deloitte US Technology practice for the insurance sector.
+https://images-ext-1.discordapp.net/external/Hwje7eL9e6Et_6zC_HYz3cyBRqSB37peizmXPSae5g4/https/www2.deloitte.com/content/dam/Deloitte/us/Images/promo_images/profile-pictures/f-l/us-linda-pawczuck-updated-042018.jpg
+
+
+[11-Jul-18 05:11 PM] Regnar#6164
+The US government also uses these consulting firms to decide on how to implement new technology. Booz Allen Hamilton is very big in government contracts and consulting as 1/3rd of their entire work force are military veterans. One strong avenue of approach would be to try and target products to the GSA.
+
+The GSA acts as the primary procurement and distribution branch for most government agencies for supplies. Including the military. It seems Booz Allen Hamilton is probably the go to consulting firm dealing with US gov. Anything with NSN can be procured through GSA, they are the big ones.
+Which means they are big in the contracting business and the audit, tracking, and verification of contracts could easily be suited for blockchains. Problem is we'd be going against probably IBM. But that hasn't stopped Factom or other blockchain companies from securing DHS contracts and grants (though Factom has a foundation based in Texas which is similar to how I figured we’d structure the Komodo entity)
+
+**GSA**
+GSA Public Affairs at (202) 501-1231. For more information on GSA policies: GSA Privacy and Security Issues. For more information on how to contribute, contact Justin Herman, GSA Emerging Citizen Technology lead, at EmergingTech@gsa.gov.
+https://emerging.digital.gov/howto/
+https://github.com/gsa/emerging-technology-atlas/issues/
+
+{Embed}
+https://emerging.digital.gov/howto/
+How to Contribute
+
+{Embed}
+https://github.com/gsa/emerging-technology-atlas/issues/
+GSA/emerging-technology-atlas
+https://gsa.github.io/emerging-technology-atlas/
+https://images-ext-2.discordapp.net/external/OHU6BE7GDrFsH2UVlBWkeHolAnEnKQbVUtAjoNCvOoo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/643070
+
+
+[11-Jul-18 05:11 PM] Regnar#6164
+Some research I've done on this
+
+
+[11-Jul-18 05:15 PM] Regnar#6164
+@polycryptoblog Hopefully this helps
+
+
+[11-Jul-18 05:18 PM] polycryptoblog#1173
+Yes,  @Bitcoin Benny   I think will be interested in this.
+
+{Reactions}
+👍 
+
+[11-Jul-18 05:21 PM] Regnar#6164
+I'm not sure he's often on Discord, think its Riot
+
+
+[11-Jul-18 05:23 PM] PTYX#6840
+🙁
+
+
+[11-Jul-18 05:23 PM] Regnar#6164
+why sad PTYX?
+
+
+[11-Jul-18 05:23 PM] polycryptoblog#1173
+We will have to see about making a bridge between the two ,  like we have for other channels
+
+
+[11-Jul-18 05:23 PM] PTYX#6840
+🙂
+
+
+[11-Jul-18 05:23 PM] Regnar#6164
+there you go
+
+
+[11-Jul-18 05:23 PM] Regnar#6164
+haha
+
+
+[11-Jul-18 05:24 PM] Regnar#6164
+I'm sure I can find more contacts, but just those ones took me hours haha
+
+
+[11-Jul-18 05:25 PM] Regnar#6164
+worked out a bit better of a way to root them out though, only for larger firms. smaller consulting firms will be much tougher tbh but I'll see what I can do
+
+
+[11-Jul-18 05:25 PM] Regnar#6164
+Also I'm definitely sure my name was not Yellow before today
+
+
+[11-Jul-18 05:28 PM] polycryptoblog#1173
+One side of bizdev is like what you have posted,  the other is integration into services , machines, etc.   lastly, for merchant/service providers that are more interested in the currency aspect of crypto,  direct them to Komodobusinesssolutions channel  in ecosystem section
+
+
+[11-Jul-18 05:28 PM] PTYX#6840
+That's because you're community support 💪
+
+{Reactions}
+💪 
+
+[11-Jul-18 05:32 PM] Regnar#6164
+Yea I figured it makes sense to sell the services to the people who will see it as value added to their own services (consultants with Komodo as a blockchain based tool to apply with their clients).
+
+
+[11-Jul-18 05:32 PM] Regnar#6164
+can you be more specific on the integration into services, machines, etc?
+
+
+[11-Jul-18 05:33 PM] Regnar#6164
+and the merchants and service providers interested in it as a currency. Okay got it
+
+
+[11-Jul-18 05:35 PM] polycryptoblog#1173
+Services: Exchanges, Plugin providers , App Developers.   Software development Machines:  ATMs, PoS Terminals,  IoT applications
+
+
+[11-Jul-18 05:36 PM] Regnar#6164
+okay got it
+
+
+[11-Jul-18 05:36 PM] Regnar#6164
+and you want those to go to Komodo business solutions?
+
+
+[11-Jul-18 05:37 PM] Regnar#6164
+or just merchants
+
+
+[11-Jul-18 05:37 PM] polycryptoblog#1173
+The ones I listed go here
+
+
+[11-Jul-18 05:37 PM] polycryptoblog#1173
+Somebody looking to accept crypto into their business the the KBS channel
+
+
+[11-Jul-18 05:38 PM] polycryptoblog#1173
+To the
+
+
+[11-Jul-18 05:39 PM] Regnar#6164
+okay, can we pin that at the top? This channel is for Business development strategy and solutions, including services such as exchanges, plugin providers, app developers. and software development machines like ATMS, PoS terminals, IoT applications. For merchants seeking to accept crypto at their business, see Komodo Business Solutions channel.
+
+
+[11-Jul-18 05:40 PM] Regnar#6164
+and then the pin for KBS too, just so we don't have new people come in posting in wrong areas
+
+
+[11-Jul-18 05:40 PM] polycryptoblog#1173
+This channel is for Business development strategy and solutions, including services such as exchanges, plugin providers, app developers. and software development machines like ATMS, PoS terminals, IoT applications.
+
+
+[11-Jul-18 05:40 PM] polycryptoblog#1173
+Ok one sec will add it
+
+
+[11-Jul-18 05:41 PM] Regnar#6164
+thanks
+
+
+[11-Jul-18 05:41 PM] polycryptoblog#1173
+okay, can we pin that at the top? This channel is for Business development strategy and solutions, including services such as exchanges, plugin providers, app developers. and software development machines like ATMS, PoS terminals, IoT applications. Somebody looking to accept crypto into their business the the komodobusinesssolutions channel
+
+
+[11-Jul-18 05:41 PM] polycryptoblog#1173
+Messed up lol
+
+
+[11-Jul-18 05:41 PM] Regnar#6164
+lol np
+
+
+[11-Jul-18 05:42 PM] polycryptoblog#1173 (pinned)
+This channel is for Business development strategy and solutions, including services such as exchanges, plugin providers, app developers. and software development machines like ATMS, PoS terminals, IoT applications. Somebody looking to accept crypto into their business go to the komodobusinesssolutions channel
+
+
+[11-Jul-18 05:42 PM] polycryptoblog#1173
+Pinned a message.
+
+
+[11-Jul-18 05:42 PM] Regnar#6164
+cool
+
+
+[11-Jul-18 10:13 PM] DG#6934
+:Komodo:
+
+
+[11-Jul-18 10:14 PM] actionslacks#4072
+Great idea,  been thinking about applications that can utilize the tps capability that KMD is building. For instance;  How many txt msgs/emails are there per second in the world?  how many unique instances of some sort of conditional data exchange  occur at or near this rate.?... I'm assuming that kmd will be first to demonstrably prove this tps capability. Need to do more research, just food for thought.
+
+
+[11-Jul-18 10:51 PM] Deleted User#0000
+It would be better to compare our scaling solution to ERC20's on ETH, i.e each ERC20 can scale on its own, rather than use the ETH blockchain. The design of the system enable's it to scale to infinity, as long as the Internet has enough bandwidth and computers to handle the transactions. I think James stated it as "limited by the capacity of the entire internet" 
+You can make chain clusters, with MoMoM so that a bunch of chains act as one single giant chain, and you can send transactions from one chain to another.  But creating one giant cluster that has all transactions in the world on it, kind of defeats the purpose of designing a system like this. To do that why not just make one blockchain with 1Gb blocks?
+
+
+[12-Jul-18 01:47 AM] Cryptoon#3362
+https://settlemint.com
+
+{Embed}
+https://settlemint.com
+SettleMint · Minting a secure & immutable business with blockchain
+SettleMint is a Belgium-based software company that provides high quality distributed middleware and solutions to companies that want to take advantage of the blockchain technology.
+https://images-ext-2.discordapp.net/external/mRYK9MVLM-pn1_9G6eD6JbdJ0kNVXfAfuHWSVAjduFA/https/settlemint.com/public/img/social/settlemint.jpg
+
+
+[12-Jul-18 01:48 AM] Cryptoon#3362
+These guys might be interesting to reach out to as well
+
+
+[12-Jul-18 01:48 AM] Cryptoon#3362
+Talked to them at the hive event where @Diesmaster did a presentation
+
+
+[12-Jul-18 01:49 AM] Cryptoon#3362
+Doing most of their stuff on ETH atm
+
+
+[12-Jul-18 03:54 AM] polycryptoblog#1173
+@Deleted User  Erc20 tx data onchain,  it's more like colored coins than independent chains,  current "mineable " eth token assets are like  NXTs custom currencies .   To answer your question, clusters or even a big cluster allows for partitioning different segments of the network based off of function .   For example ,  with KBS  a cluster of 3 chains, one for debt recording , one for credit recording and one for vouchers.  The first an ac_private=1 chain , to keep private people's debt the 2nd an ac_public=1 chain,  to allow trading among network participants,  and the 3rd utilizing burn protocol with the 2nd so that consumers can participate without joining.  Having each isolated prevents potential congestion based mishaps.  I expect the third to have a lot more tx volume than the other 2 .  However, actions on the other two are the ones that are required to be reported.
+
+{Reactions}
+👍 
+
+[15-Jul-18 11:21 PM] passcombo.com 🏴☠🍋#0622
+Hey guys, would there be possibility to make "more smart icos" using our DEX? More smart I mean - currently ICOs are more or less " give us all money right now, so we start the product production". But another possibility like could be very interesting for investors: money locked in smart contract, and pay while most investors (or bigest holders - options) agree. If no agreement reached for some defined period -> money sent back to investors wallet (+possibility to define different address then incoming address). So that only the first ICO part would be paid to start the business, and investors could agree to pay the rest BTC while the first part is successfully delivered (which is confirmed by investors vote. This requires that New Token XXX and investors BTC are frozen, and only exchanged after voting/agreement using some kind of smart contract. sth like that if it make sense? I believe it requires very big trust to give all money right away. Investing using partial payments seems more reasonable. Ofcourse this could be done without smart contracts, but  ICO owners must have some warrant theere are some BTC waiting frozen and will be paid after doing the job. Does it make sense ?
+
+{Reactions}
+👌 (2) 
+
+[16-Jul-18 10:02 AM] Regnar#6164
+Basically a bridge loan with the next rounds approved assuming different milestones are met. Private equity often does this when they make intermittent investments in a firm to reach certain development or growth targets. I can't see why this wouldn't be possible, but there may be a subjective aspect of this. It would be a good idea though, especially for institutional investors. It's a great idea
+
+
+[16-Jul-18 11:53 AM] polycryptoblog#1173
+I don't think ICO are the way to push forward with the tech.  At least not the kind we have seen in crypto.  Registered securities is another story
+
+
+[16-Jul-18 12:30 PM] passcombo.com 🏴☠🍋#0622
+@polycryptoblog  most ICOs to me currently is like buying  a pig in a poke. So having the possibility to make it in rounds could be a way of introducing more reliable projects funding and more trusted investor-developer relation? But also this mechanism could be used maybe for other purposes. Personally I would trust more a project that will take money in rounds after reaching milstones. However this requires also a platform for discussions and voting - and here we land back into my old propaganda - that what internet folks need most currently is decent secure voting online + a real decent forum engine. So that people can well discuss (or more like "process knowledge together" in an optimal way). BTW discussing is a kind of game, which optimal rules (discussion cycles, source linking, weighing knowledge sources, topics and common interest validation) maybe are not yet defined at all.
+
+
+[16-Jul-18 02:28 PM] Regnar#6164
+"Personally I would trust more a project that will take money in rounds after reaching milestones." same. and I think a lot of investors think the same. when it comes to voting it would be fairly simple to airdrop votes to the holders (though pretty sure this would make them securities) which is useful if a project has taken money from N amount of investors.
+
+
+[16-Jul-18 02:29 PM] Regnar#6164
+I think there is a fine line with development and funding. too much funding and they are likely to squander it and spend frivolously on things they could have taken care of in house (think Daymond John, Power of Broke) and too little money and they obviously can't make ends meet. So the bridge concept is an effective one.
+
+
+[16-Jul-18 02:39 PM] passcombo.com 🏴☠🍋#0622
+Could be a good selling point. Long term this approach could be preferred also by law makers and this way propagated as a better way. Should be even this year many people crying for bad ICOs to law makers.
+
+
+[16-Jul-18 04:59 PM] Regnar#6164
+yea I think it's a viable future fundraising requirement.
+
+
+[16-Jul-18 05:00 PM] Regnar#6164
+though it would take some tweaking to make the additional funding more objective upon completion of milestones
+
+
+[16-Jul-18 05:04 PM] n2okpride#1967
+I suggested something similar awhile back when Vitalik first proposed his DAICO model - built in voting of funds being released, as well as a vote option for full refund if certain development milestones or promises were not met
+
+
+[16-Jul-18 05:04 PM] n2okpride#1967
+would be a custom solution that needs to be built. but i still think it is a needed solution the industry needs.
+
+
+[16-Jul-18 05:05 PM] n2okpride#1967
+https://www.theabyss.com/ capitalized on this DAICO type idea and model
+
+{Embed}
+https://www.theabyss.com/
+Crypto Reward Ecosystem for Gamers and Developers!
+The Abyss is a next-generation digital distribution platform, delivering all types of video games (Free2play MMOs and cryptogames being a key priority), including AAA-titles, where players and developers can earn from multilevel referral program
+https://images-ext-2.discordapp.net/external/JU69h-DRL77FdXARVT7RIXKVhb5MrghhQ2ihfwBDud0/https/cdn.theabyss.com/static/img/social/share-index-en.jpg
+
+
+[16-Jul-18 10:29 PM] KomodoWorld#8282
+Has there been any actual Daico or is still a concept?
+
+
+[16-Jul-18 10:29 PM] KomodoWorld#8282
+I remember we talked about the DAICO model last year and ca333 was very skeptical
+
+
+[16-Jul-18 10:29 PM] KomodoWorld#8282
+he said it could backfire and made projects hostage of manipulators
+
+
+[16-Jul-18 10:29 PM] KomodoWorld#8282
+I'm not sure if this is the case or not, it seems having the option would be useful
+
+
+[16-Jul-18 10:29 PM] KomodoWorld#8282
+CC could make it a reality in future
+
+
+[17-Jul-18 04:16 AM] Regnar#6164
+I'm not sure about the refund model, seeing as most investors would prefer the money they give to a business actually be spent and used to achieve the goals of the business. Investors, at least institutional investors, don't give money to a company so it sits on it, gambles with it, or anything else non operational, they give it so the company spends it on what's needed to achieve growth. 
+
+Having a refund button for stages of funding probably won't work. that money is gone.
+
+
+[17-Jul-18 04:19 AM] Regnar#6164
+obviously this is different than simply raising money initially, if they raise enough in a single round they may not need spend it all and a refund could be necessary, but again, that's the whole point of staged fundraising, so that only increments of investor money is at risk at a time and only enough money is given to fund up to the next milestone. It is also incentive for legitimate projects to develop. This could root out a lot of scam projects but there is still the risk of a scam taking the initial funding, or "developing" in private and saying they met goals but that's why we verify.
+
+
+[17-Jul-18 08:24 AM] n2okpride#1967
+a refund could only be initiated if a high majority vote of all contributors agreed, and i'm sure it would also be stake weighted. this was only in an extreme case, and wouldn't be on a per user basis.
+
+
+[17-Jul-18 06:54 PM] Daniel Blockshine#5584
+Hello guys, is anyone looking to build an exchange or list your tokens on one of my companie's 20 exchanges around the world?
+
+
+[17-Jul-18 07:44 PM] Regnar#6164
+What are some of your exchanges @Daniel Blockshine
+
+
+[17-Jul-18 08:21 PM] Chipmoon#7477
+is this you https://blockshine.com/about.html
+
+
+[18-Jul-18 01:15 AM] skadoosh1#2083
+@Bitcoin Benny hey there, I was talking to sid earlier about my questions regarding how you guys got on the big exchanges like binance and upbit without being incorporated. Nowadays, you need to have ids, be incorporated in some country, have a legal opinion, basically a laundry list of things before even being considered. What I’m wondering is how you guys did it. The project I’m working with is looking for some insight and would appreciate any advice/help. Thanks!
+
+
+[18-Jul-18 01:17 AM] skadoosh1#2083
+@ca333 can answer as well if he pleases
+
+
+[18-Jul-18 09:45 PM] BlackJesus#6161
+Komodo is an old established project. You need to look up NXT and you'll find the origin of alot of top 100 coins who got on binance free of charge there @skadoosh1
+
+
+[18-Jul-18 09:46 PM] BlackJesus#6161
+Waves, IOTA, Ardor, NEM, Komodo are all projects with roots in NXT. From what I understand Ardor held the keys to the kingdom and started breaking these projects with their updates and forced all these DEVS to splinter off.
+
+{Reactions}
+👌 (2) 
+
+[18-Jul-18 09:55 PM] skadoosh1#2083
+I know my history thanks.
+
+
+[18-Jul-18 09:55 PM] skadoosh1#2083
+But yeah I figured it was something like that
+
+
+[18-Jul-18 09:58 PM] BlackJesus#6161
+Wasn't meaning to be confrontational.
+
+
+[19-Jul-18 05:25 PM] smellycouch#3071
+I was
+
+{Reactions}
+trollface 
+
+[23-Jul-18 07:42 AM] Sri#6686
+@skadoosh1 All those listed are before the regulation.
+
+
+[23-Jul-18 07:43 AM] Sri#6686
+Moreover the listing prices have gone insane for top exchanges, earlier they were not TOP exchanges
+
+
+[23-Jul-18 07:44 AM] Sri#6686
+Bittrex and Polo used to be top not anymore
+
+
+[23-Jul-18 07:48 AM] skadoosh1#2083
+That does make a lot of sense.
+
+
+[24-Jul-18 02:51 PM] xmnsteve#3585
+Hey guys, In the last 2 years, Ive been developing a custom blockchain framework that is used to handle a lot of traffic.  I'm developing a DAO that will be a courrier service, where delivery people are linked to parcels that needs delivery
+
+
+[24-Jul-18 02:52 PM] xmnsteve#3585
+I want to make an ICO for this project on the komodo platform
+
+
+[24-Jul-18 02:52 PM] xmnsteve#3585
+I talked to Acura on Telegram, and he told me to come here to get more details on how to proceed
+
+
+[24-Jul-18 03:37 PM] Chipmoon#7477
+@PTYX 👆
+
+
+[24-Jul-18 03:54 PM] PTYX#6840
+@xmnsteve can you please email us at hello@chainzilla.io. provide us as much information as possible on the project so that we may review it and the afterwards I will coordinate an meeting with you to discuss the options.
+
+{Reactions}
+👍 
+
+[27-Jul-18 12:37 PM] CryptoFoxGaming#5228
+@BlackJesus, KMD and NEM existed long before ARDR was even in the works and both IOTA and Waves existed before ARDR was off of test net, and may have been around before there was talk of ARDR as well. I lived most of NXT's history with a 1 year gap where I stopped paying attention to crypto all together (which is why I am not sure about Waves and IOTA, they were released during that year I wasn't paying attention).
+
+
+[27-Jul-18 12:46 PM] CryptoFoxGaming#5228
+On an unrelated note, I have a business solution proof-of-concept I want to build. Does anyone have connections with blockchain savvy Golang and/or QTscript developers who may be interested?
+
+I can start the project by myself, but it will take forever for me to finish without some help.
+
+I don't have a budget set yet, but I would like to develop to connections early.
+
+
+[27-Jul-18 01:41 PM] CryptoFoxGaming#5228
+@PTYX, was looking at Chainzilla, seems interesting. Seems a lot like the kind of business I want to launch with the proof of concept. You guys are one step ahead of me.
+
+
+[27-Jul-18 01:45 PM] CryptoFoxGaming#5228
+I have a tendency to to always be 10 steps ahead and unable to advance due to lack of interest or 1 step behind because I wait too long for the interest to build before advancing.
+
+Perhaps joining up with Chainzilla would be my best move. I have been involved with cryptocurrency and blockchain since late 2013 or early 2014 and I can program backend in Java and Golang.
+
+
+[18-Aug-18 03:52 PM] Crypto80#4884
+@Chipmoon expired
+
+
+[19-Aug-18 06:47 PM] Mylo#8306
+being early days, maybe license chainzilla tech or have a business agreement where they do the tech work and you mange your own customers - on both sides, backend and customer management, a lot of education and double up work.  i know with pioneers we can do 80% of the work, but in reality, the 20% will be  exhausting.  pty is looking to be the redhat of blockchain service providers.  if 10 blockchain projects wanted to onboard with zilla at the same time, maybe they can't handle the education component.  plenty of growth in the future - providing best service to end customers in education and consulting is the best way.
+
+
+[19-Aug-18 06:50 PM] Mylo#8306
+and no offence to zilla, if they can handle 10 all at once, then maybe i meant 30.  at some point there is finite human resources to handle the work.  as early adopters of the tech, no point cutting each other's grass.  so many services to be built on and around the tech.
+
+
+[20-Aug-18 07:50 AM] PTYX#6840
+We couldn't handle more than 5 at a time right now
+
+
+[20-Aug-18 07:52 AM] PTYX#6840
+A year from now I expect to be able to handle 10 at a time or more once the marketing tools we are working on are ready. Community, marketing, and PR seems to be a huge part of the success of a project so we have to provide solutions within the scope of ICO. If there isn't an ICO involved we can definitely handle 30
+
+{Reactions}
+👍 (2) 
+
+[26-Aug-18 08:37 PM] Prado#3941
+Hi, i'm new to the Komodo community, besides Smart Contracts in the way, i was wondering if there was any plan for CDN, Hardware or Mining rental for blockchains developed with Komodo?, if so, new developers could deploy their solution in minutes and start injecting FIAT to the community of Komodo miners, i think it will make Komodo the most notable equihash coin without removing complete autonomy to the new blockchains created on Komodo. With all the equihash power of ASIC and GPU in the community, renting Sol/h and Gb to developers in a descentralizad manner seems pretty interesting and will make the new blockchains much more cheap to deploy and scale initially, at least until the coin gets enough value to attract miners. If the blockchain gains traction Komodo gains by retaining some of the coins, if not, the solution may still be useful and applied for the final users and will get some FIAT besides dPOW and Trading. In essence all you need to implement this is a balancer structure that redirects miners to different Blockchains accordingly, and the automated payments of course.
+
+
+[26-Aug-18 08:51 PM] Prado#3941
+Komodo is the more powerful and flexible Blockchain development platform i have seen but its been opaqued by the easy to use and popularity of NEM, Stellar and others (at least in my initial investigation),  i would love to help with my team to make it happen, pay KMD to deploy in a click the infrastructure rented for your blockchain solution, dPOW makes it maybe the only platform that could make this right now, as renting a couple miners for your solution without dPOW will be dangerous for most DAPPs in an open blockchain. Also it could help automatize almost all the current revenue model of Komodo making the coin even more Liquid.
+
+{Reactions}
+🤓 
+
+[26-Aug-18 08:52 PM] Prado#3941
+If something like this is already in motion, i would love to be a part.
+
+
+[27-Aug-18 12:48 AM] jl777c#5810
+yes, pretty sure someone has already set up a mining pool that rotates between assetchains. @xRobeSx I think did it
+
+
+[27-Aug-18 01:31 AM] Cryptoon#3362
+@ComputerGenie as well I think? Might be private though
+
+
+[27-Aug-18 01:37 AM] polycryptoblog#1173
+@Prado  I plan on doing hardware rental and hosting end of this year beginning of next
+
+
+[27-Aug-18 03:47 AM] ComputerGenie#7004
+I've mined several assetchains in practice, but only ever 2-3 on any meaningful pool level
+
+
+[27-Aug-18 03:48 AM] ComputerGenie#7004
+@Cryptoon
+
+
+[27-Aug-18 05:00 AM] Cryptoon#3362
+Ah, thought you were also experimenting with a stratum that automatically switched assetchains or something along those lines. I usually just skim this channel, so could have misread/misinterpreted on my end
+
+
+[27-Aug-18 05:30 AM] PTYX#6840
+@0x03 has a pool
+
+
+[27-Aug-18 05:41 AM] 0x03#8822
+that one is zilla only and turned off 😄 but if theres need for such a pool, let me know
+
+
+[27-Aug-18 06:15 AM] xRobeSx#5136
+I turned off all the assetchains on my pool. The 0.0001 block rewards are more trouble than their worth
+
+{Reactions}
+💯 (2) 
+
+[27-Aug-18 06:16 AM] xRobeSx#5136
+I'm happy to add any assethchains with a real block reward
+
+
+[27-Aug-18 06:20 PM] PTYX#6840
+Yeah for us it's not necessary I don't think. Specially after block 1m
+
+{Reactions}
+🤔 
+
+[27-Aug-18 06:45 PM] Regnar#6164
+@PTYX can you explain that for me? Are you talking about the end of FFA or the change in rewards?
+
+
+[27-Aug-18 06:52 PM] PTYX#6840
+The end of FFA makes mining unnecessary to secure our chain
+
+
+[27-Aug-18 06:52 PM] PTYX#6840
+So I am OK with only having the notaries mine our chain.
+
+
+[27-Aug-18 06:59 PM] Regnar#6164
+interesting. I'll have to read up more on that
+
+
+[27-Aug-18 10:16 PM] Mylo#8306
+@Regnar 
+1.  https://komodoplatform.com/update-komodo-daemon-immediately/
+2. https://komodoplatform.com/updates-to-blockchain-at-block-1-million/
+
+{Embed}
+https://komodoplatform.com/update-komodo-daemon-immediately/
+Komodo Daemon Must Be Updated Immediately
+Komodo Platform has activated changes to the Komodo code base. The Komodo daemon must be updated immediately to avoid running on a fork.
+https://images-ext-2.discordapp.net/external/lKu6z5CAdn-M8-1Qqk9mr0gifNj10aIf6yFK2GmKfDE/https/komodoplatform.com/wp-content/uploads/2018/08/block-1-million.png
+
+{Embed}
+https://komodoplatform.com/updates-to-blockchain-at-block-1-million/
+Komodo Platform To Activate Updates To Blockchain At Block 1 Milli...
+Komodo Platform will be activating updates to the KMD blockchain in four weeks, at block 1 Million. The update is madatory. Learn more here.
+https://images-ext-2.discordapp.net/external/lKu6z5CAdn-M8-1Qqk9mr0gifNj10aIf6yFK2GmKfDE/https/komodoplatform.com/wp-content/uploads/2018/08/block-1-million.png
+
+
+[27-Aug-18 10:17 PM] Mylo#8306
+~15000 blocks to go (~11 days) https://kmdexplorer.io/
+
+{Embed}
+https://kmdexplorer.io/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[28-Aug-18 12:39 AM] Prado#3941
+As komodo attracts more h/s will the rewards would be adjusted to show the current security of the network? Example: if all equihash coins make a hardfork to protect from current ASIC there will be Th/s of ASIC available for komodo,  this could make the external dPOW less necessary and save a lot money in BTC attracting more developers, miners and even other blockchains (as the dPOW would be much more cheap and faster) also it will inject more FIAT as mining (or Holding) wouldn't  be the best option to pay for the dPOW in a competitive scenario like that, also hash power could be rented to protect small chains between dPOWs (injecting even more FIAT from developers, startups and organizations), 10 minutes its a small lapse of time to hit komodo, but its enough to ruin most dAPPs, ICOs or Smart Contracts logics and structure. It will contain all projects in consortium and private or semi private structures forever, removing some of the best properties of owning your own open, exchange capable, minable and personalizable blockchain
+
+
+[28-Aug-18 12:41 AM] jl777c#5810
+you seem to be making a lot of assumptions based on other assumptions, based on other assumptions being extrapolated
+
+
+[28-Aug-18 12:41 AM] jl777c#5810
+first off, ZEC is unlikely to fork
+
+
+[28-Aug-18 12:42 AM] jl777c#5810
+no idea how not notarizing attracts more devs
+
+
+[28-Aug-18 12:42 AM] Prado#3941
+Im just really exited for all komodo possibilities
+
+
+[28-Aug-18 12:42 AM] jl777c#5810
+let's just take one step at a time
+
+
+[28-Aug-18 12:42 AM] Prado#3941
+we will be bringing at least 5 projects to komodo this year
+
+
+[28-Aug-18 12:42 AM] Prado#3941
+as CTO of the projects i want to understand all pros and cons
+
+
+[28-Aug-18 12:42 AM] jl777c#5810
+current hashrate is relatively unchanged from prior to ASIC release
+
+
+[28-Aug-18 12:43 AM] jl777c#5810
+its fine to try to understand, but I think risky to make too many extrapolations
+
+
+[28-Aug-18 12:43 AM] Prado#3941
+Yeas i've seen that, ZEC it's attracting most of the hash power on the market
+
+
+[28-Aug-18 12:43 AM] jl777c#5810
+due to the (no) cost structure that KMD offers, I expect a lot of projects will use KMD, after all who likes to pay $5 txfees
+
+
+[28-Aug-18 12:44 AM] Prado#3941
+but i thing komodo is the future of equihash
+
+
+[28-Aug-18 12:44 AM] jl777c#5810
+until ZEC hashrate triples, I dont think KMD mining is better profitability and that is a lot of hashrate that is needed
+
+
+[28-Aug-18 12:44 AM] Prado#3941
+not zec
+
+
+[28-Aug-18 12:44 AM] jl777c#5810
+well, if KMD price goes up 3x, then it likely becomes the best thing to mine (for that day's ROI)
+
+
+[28-Aug-18 12:45 AM] jl777c#5810
+but it is very difficult to predict hashrates, market prices, across multiple coins
+
+
+[28-Aug-18 12:46 AM] Prado#3941
+ZEC wont fork as it would handle tons of hash rate to the only project that has notary as service business model
+
+
+[28-Aug-18 12:47 AM] Prado#3941
+But as more good coins and projects get to use komodo the proccess will be natural i think
+
+
+[28-Aug-18 12:48 AM] jl777c#5810
+I dont see 10 minute blocktimes, with removal of F4A period, we should get very consistent blocktimes all the time
+
+
+[28-Aug-18 12:49 AM] Prado#3941
+No thats ok, the only problem i've seen to komodo it's easy of use, and branding and as far as i know it's been solved as we speak i think is a good bet in all senses
+
+
+[28-Aug-18 12:50 AM] jl777c#5810
+yes, we are working on continuously improving all areas
+
+
+[28-Aug-18 12:50 AM] Prado#3941
+i'm happy to get to know this project we already show it to some VC ins Mexico and have big plans for it
+
+
+[28-Aug-18 12:51 AM] Prado#3941
+if we can help in any developing process we would happy to bring something back to the project
+
+
+[28-Aug-18 12:53 AM] jl777c#5810
+if you are making projects on KMD, maybe you want a channel in the ecosystem section?
+
+
+[28-Aug-18 12:53 AM] Prado#3941
+Yeah i've already sent some mails for it
+
+
+[28-Aug-18 12:54 AM] Mylo#8306
+if PoW mining is a concern, there is PoS, also combination of PoW/PoS.   In the future there is the possibility of not only equihash mining.
+
+it's nice to see your enthusiasm.  plenty of possibilities with kmd.  don't be shy with questions.
+
+
+[28-Aug-18 12:54 AM] Prado#3941
+The owner of one VC actually wants to make smart contracts to auto invest in projects with sales kpis based on komodo
+
+
+[28-Aug-18 12:54 AM] jl777c#5810
+what name do you want the channel to be?
+
+
+[28-Aug-18 12:55 AM] Prado#3941
+Corebooks
+
+
+[28-Aug-18 12:55 AM] jl777c#5810
+#corebooks
+
+
+[28-Aug-18 12:55 AM] Prado#3941
+perfect
+
+
+[28-Aug-18 03:25 AM] ComputerGenie#7004
+if/once profitability calculators take NNs into account, the likelihood of switching en masse to KMD will likely be short-lived
+
+
+[28-Aug-18 03:54 AM] Deleted User#0000
+Depends on price, it would be stupid to have notaries mine 75% of blocks if KMD was $1000 for instance, IMO
+
+
+[28-Aug-18 03:59 AM] ComputerGenie#7004
+per diff/hash KMD has to be 4x in value to any other coin to be equal in profitability
+
+
+[01-Sep-18 10:34 AM] jl777c#5810
+in other words when KMD is 10x current prices relative to the other coins, it would be 2.5x more profitable to mine than the others
+
+
+[09-Sep-18 04:29 PM] FLO team#2752
+Hi, I hate to use this notification, but if possible could someone from the @Team  Admin please take the time to discuss the 51% attack mitigation software available with KMD?
+
+{Reactions}
+Komodo (3) 
+
+[09-Sep-18 05:03 PM] PTYX#6840
+I've sent you an email. I recieved your inquiry
+
+{Reactions}
+💯 
+
+[12-Sep-18 10:49 AM] luke#8628
+Hello, I found this chart (https://bitcointalk.org/index.php?topic=1605144.msg16622435;topicseen#msg16622435) summarizing the SuperNET revenue model but it's from 2016. Is there a more up to date version that shows BarterDEX and Komodo? I just see InstandDEX and BitcoinDark. Thanks!
+
+{Embed}
+https://bitcointalk.org/index.php?topic=1605144.msg16622435;topicseen
+[ANN][KMD][dPoW] Komodo - Zcash Zero Knowledge Privacy Secured by ...
+[ANN][KMD][dPoW] Komodo - Zcash Zero Knowledge Privacy Secured by Bitcoin
+
+
+[12-Sep-18 10:49 AM] luke#8628
+dividend model*
+
+
+[12-Sep-18 11:29 AM] Cryptoon#3362
+There is a somewhat more recent one
+
+
+[12-Sep-18 11:30 AM] luke#8628
+I see this link too: https://www.reddit.com/r/komodoplatform/comments/7lwgzr/revs_usesale/  It looks like siddhartha-komodo was talking about creating updated documentation.
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/7lwgzr/revs_usesale/
+r/komodoplatform - REVS use/sale
+4 votes and 2 comments so far on Reddit
+
+
+[12-Sep-18 11:31 AM] luke#8628
+@Cryptoon do you happen to have a link to the more recent one?
+
+
+[12-Sep-18 11:32 AM] Cryptoon#3362
+Im looking but cant seem to find it at first glance
+
+
+[12-Sep-18 11:34 AM] Cryptoon#3362
+There was a shortcut on old slack I think?
+
+
+[12-Sep-18 11:35 AM] Cryptoon#3362
+https://cryptocoremedia.com/supernet-asset-migrates-komodo-blockchain-first-revenue-sharing-dividend-announced/
+
+{Embed}
+https://cryptocoremedia.com/supernet-asset-migrates-komodo-blockchain-first-revenue-sharing-dividend-announced/
+SuperNET Asset Migrates To Komodo and First Revenue Sharing Divide...
+The Komodo team has recently announced that the SuperNET assets sitting on the NXT blockchain will now be migrated to the Komodo blockchain.
+https://images-ext-1.discordapp.net/external/lxXljrPUj5klMY5kh7-M9HEf02YIyygvcZstrhgO_8Y/https/image.ibb.co/dZRTLm/DCb_Q8_AUUMAEEq0_I.jpg
+
+
+[12-Sep-18 11:36 AM] Cryptoon#3362
+Boom found it @luke
+
+
+[12-Sep-18 11:36 AM] Cryptoon#3362
+I think this one is kind of up to date
+
+
+[12-Sep-18 11:38 AM] luke#8628
+awesome! thanks! so REVS get a piece of just about everything (which makes sense). I was having trouble understanding how REVS tied into everything, but it's making more sense now.
+
+
+[12-Sep-18 11:45 AM] Cryptoon#3362
+Yeah I like supernet, dex and revs
+
+
+[12-Sep-18 11:45 AM] Cryptoon#3362
+Accumulating more kmd first though
+
+
+[12-Sep-18 12:37 PM] Chipmoon#7477
+CRYPTO is also great , it receives revenue from notarizations.
+
+
+[12-Sep-18 11:14 PM] Mylo#8306
+Ah is that what crypto does, cheers
+
+
+[13-Sep-18 12:24 AM] Chipmoon#7477
+Einsteiniumcoin just announced that they are going to implement KMD dPOW in the next hardfork. CRYPTO will be worth a lot more soon as more and more projects using dPOW 😄
+
+
+[13-Sep-18 12:28 AM] Deleted User#0000
+yes, even with using your own notaries, it seemd quite hard not to pay the CRYPTO address 😄
+
+{Reactions}
+👍 (2) 
+
+[13-Sep-18 01:22 AM] Cryptoon#3362
+Wow!
+
+
+[13-Sep-18 01:22 AM] Cryptoon#3362
+Did @dukeleto facilitate this?
+
+
+[13-Sep-18 01:22 AM] Cryptoon#3362
+Saw jl mention it a couple of times that duke has a lot of dpow experience
+
+
+[13-Sep-18 02:05 AM] jl777c#5810
+dukeleto is Mr. dPoW
+
+{Reactions}
+shexy (3) 
+
+[13-Sep-18 02:08 AM] Deleted User#0000
+Does it cost Komodo anything to provide dPoW to other coins?
+
+
+[13-Sep-18 02:08 AM] Deleted User#0000
+Or is the 300kmd fee just to help with kmd to Btc notarizations
+
+
+[13-Sep-18 02:09 AM] sφldat#8733
+The current rate for this is 300 KMD and 800 of the coin to be secured per year.
+
+
+[13-Sep-18 02:09 AM] Deleted User#0000
+I think this will depend on how many there are really.
+
+
+[13-Sep-18 02:09 AM] Deleted User#0000
+as in does it have a cost burden on kmd to dPoW others?
+
+
+[13-Sep-18 02:09 AM] Deleted User#0000
+If we have to secure every single coin that is compatble... the amout of servers and KMD needed would be insane
+
+
+[13-Sep-18 02:10 AM] Deleted User#0000
+Or regardless we notarise to Btc and will always cost the same on our end
+
+
+[13-Sep-18 02:10 AM] Deleted User#0000
+The only problem at the moment is that all coins are usig the same key and wallet, IMO and experiance the 3rd party coins, really need to use a diffrent notary key.
+
+
+[13-Sep-18 02:10 AM] Deleted User#0000
+if we can do that, there is really no limit to how many can be noarized for very little cost.
+
+
+[13-Sep-18 02:11 AM] Deleted User#0000
+KMD blocks are quite empty still.
+
+
+[13-Sep-18 02:11 AM] Deleted User#0000
+you can fit a lot of notarizations in there
+
+
+[13-Sep-18 02:11 AM] sφldat#8733
+and do you have already a solution in view ?
+
+
+[13-Sep-18 02:12 AM] Deleted User#0000
+I have a few ideas and am working on it, but getting it to work is proving difficult. We identidied the cause and the possible fix with all failed notarizations ysterday after months of thinking and testing on my part.
+
+{Reactions}
+😍 (2) 
+
+[13-Sep-18 02:15 AM] sφldat#8733
+Great news! dPoW for all
+
+
+[13-Sep-18 02:17 AM] Deleted User#0000
+Mostly the issues we are running into with STAKED are due to the MoMoM stuff, which dPoW does not actually need. Once I get this finished then I can check out if dPoW works easily with a second set of pubkeys.
+
+{Reactions}
+👌 (2) 
+
+[13-Sep-18 02:18 AM] jl777c#5810
+it will work just fine
+
+
+[13-Sep-18 02:18 AM] jl777c#5810
+like testnet notaries
+
+{Reactions}
+🤔 (2) 
+
+[13-Sep-18 02:18 AM] Deleted User#0000
+it seems to work, the issue is with my notaries.
+
+
+[13-Sep-18 02:19 AM] Deleted User#0000
+just loaded all my own up so others dont make mistakes by not follwoing my instructions. 😄
+
+
+[13-Sep-18 08:30 AM] dukeleto#7326
+yes, I am talking with EMC2 and a few other coins about dpow and working on this document to give some public docs: https://github.com/leto/mastering_komodo_dpow/blob/master/mastering_komodo_dpow.md
+
+{Embed}
+https://github.com/leto/mastering_komodo_dpow/blob/master/mastering_komodo_dpow.md
+leto/mastering_komodo_dpow
+Mastering Komodo Delayed Proof-of-Work. Contribute to leto/mastering_komodo_dpow development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/lcamaiqfGRT5SU8siXS61L2Rl4ej_oWAHAXE5zxwNlw/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/30298
+
+{Reactions}
+Komodo 
+
+[13-Sep-18 08:31 AM] dukeleto#7326
+@sφldat where does "800 of the coin" come from? I am trying to be specific when coins ask me the real costs of dpow
+
+
+[13-Sep-18 08:56 AM] sφldat#8733
+@dukeleto from here: https://komodo-platform.readthedocs.io/en/latest/komodo/create-Komodo-Assetchain.html
+
+
+[13-Sep-18 09:04 AM] dukeleto#7326
+@sφldat so my next question is, how is that 800 COIN used? Is it purely for txfees, does it get paid to James like the 300KMD, etc...
+
+
+[13-Sep-18 09:06 AM] sφldat#8733
+@PTYX maybe ?
+
+
+[13-Sep-18 09:07 AM] dukeleto#7326
+these questions are coming up as more coins approach us about double spend attack prevention via dpow
+
+
+[13-Sep-18 09:08 AM] sφldat#8733
+yes it is important to be precise with regard to new coins that want this protection
+
+
+[13-Sep-18 09:22 AM] jl777c#5810
+it should be 300KMD + 300COIN, the costs would be the same for both coins
+
+
+[13-Sep-18 09:23 AM] dukeleto#7326
+the 800 didn't quite make sense to me, that makes more sense for txfees in KMD + COIN
+
+
+[13-Sep-18 09:24 AM] jl777c#5810
+probably a typo that got a life of its own
+
+
+[13-Sep-18 09:24 AM] dukeleto#7326
+notary nodes will be running full nodes of COIN and need to make transactions
+
+
+[13-Sep-18 09:25 AM] dukeleto#7326
+many projects are asking if they need to run their own notary nodes, they don't quite understand what KMD provides, so I am trying to explain it all in the "master kmd dpow" document
+
+
+[13-Sep-18 09:26 AM] dukeleto#7326
+this will hopefully prevent them wanting to implement dpow in ways that James already realized wouldn't work, and avoiding wasted time
+
+
+[13-Sep-18 09:27 AM] PTYX#6840
+We are sticking with 300 so it's not from us.
+
+
+[13-Sep-18 09:30 AM] dukeleto#7326
+we still need one more piece to really deliver "double spend attack prevention", and that is an API to query to answer the question "has this txid of COIN been notarized to KMD/BTC?"
+
+
+[13-Sep-18 09:31 AM] dukeleto#7326
+it's being worked on, James set a bounty. Without that, exchanges can't use and won't see the benefit of notarization data. And they are the ones forcing coins to implement this stuff, and making coins pay them back for double spends that happen on their exchanges(!)
+
+
+[13-Sep-18 09:46 AM] Cryptoon#3362
+Good stuff @dukeleto & all people working on it. Only reassures me in my view that kmd really is one of the, if not the best project out there.
+
+{Reactions}
+😎 (3) 
+
+[13-Sep-18 10:21 AM] SHossain#0007
+Thanks @sφldat i have updated the link which should be built shortly
+
+
+[13-Sep-18 10:31 AM] SHossain#0007
+@sφldat please use this link https://docs.komodoplatform.com/komodo/create-Komodo-Assetchain.html
+this has the updated info.
+
+{Reactions}
+👍 
+
+[21-Oct-18 03:10 PM] Cryptosi.eth#4286
+Hi there, where can I get more information about the 'crowdfunding platform'?
+
+
+[21-Oct-18 04:01 PM] polycryptoblog#1173
+@Cryptosi.eth   Basically you can use BarterDEX to facilitate the offering if you are using an assetchain as the coin
+
+
+[21-Oct-18 04:11 PM] Cryptosi.eth#4286
+Oh i see
+
+
+[21-Oct-18 04:12 PM] Cryptosi.eth#4286
+Thanks @polycryptoblog
+
+
+[25-Oct-18 09:30 AM] lily#1010
+hello
+
+
+[25-Oct-18 02:10 PM] DG#6934
+hi
+
+
+[30-Oct-18 12:14 AM] bubu#1031
+@lily hello
+
+
+[02-Nov-18 07:02 PM] raspal#7511
+Hello! I am raspal from Cointigo, a crypto over SMS platform. Where users can transact crypto without smartphones or internet! Could anybody help me getting KMD listed on our platform?
+
+{Reactions}
+Komodo 
+
+[02-Nov-18 11:26 PM] polycryptoblog#1173
+@raspal  yes,  let me take a look at your service will send you a DM later today
+
+{Reactions}
+👌 (3) 
+
+[13-Nov-18 08:04 AM] Malti#3948
+GUTS on ETH is experienceing heavy issues with scalability and are looking for a new chain to move to
+
+
+[13-Nov-18 08:04 AM] Malti#3948
+might be a good lead?
+
+
+[13-Nov-18 08:05 AM] Malti#3948
+GUTS is a blockchain that is focusing on issueing tickets for concrets etc
+
+
+[13-Nov-18 12:19 PM] Regnar#6164
+@Malti what's the website for them?
+
+
+[13-Nov-18 12:21 PM] Malti#3948
+https://guts.tickets
+
+
+[13-Nov-18 12:22 PM] Malti#3948
+We’ve investigated them and some colleagues had a call with the team where they said they were looking for Ethereum alternatives as they need to issue 100k tickets in 2019 (at least). With ETH this is waaay to expensive
+
+
+[13-Nov-18 12:24 PM] Regnar#6164
+ohh okay the token is GET but the project is GUTS got it
+
+
+[13-Nov-18 12:25 PM] Malti#3948
+They are looking into hyperledger buuut this would cause a whole new set of troubles as it is permissioned
+
+
+[13-Nov-18 12:27 PM] Regnar#6164
+yea makes sense.
+
+
+[13-Nov-18 12:27 PM] Regnar#6164
+@PTYX ^^^
+
+
+[13-Nov-18 01:16 PM] PTYX#6840
+Qtum is a viable option if you're looking at an improvement on erc20
+
+{Reactions}
+😐 (2) 😅 
+
+[13-Nov-18 01:45 PM] Cryptoon#3362
+we are in kmd channel bro 😄
+
+
+[17-Nov-18 04:46 PM] TonyL#3577
+Oh saw Kasper from Guts on one of cryptomeetups in BKK. There was a feeling that he did not fully understand why he came 😂  Especially when guy from Thai government asked him like a: "Do you know that any form of tokens is forbidden in Thai"?
+
+
+[17-Nov-18 04:49 PM] TonyL#3577
+@Malti I think it's possible to issue tickets as form of assetsCC tokens and even maybe create custom cryptoconditions smart contract contract for ticketing. Almost zero fees + dPOW protection - Komodo should be a good option for them
+
+
+[18-Nov-18 07:43 AM] PTYX#6840
+@Cryptoon i have to be honest with the client
+
+
+[18-Nov-18 07:44 AM] PTYX#6840
+I misunderstood though. I assumed they had already launched on eth.
+
+
+[18-Nov-18 07:44 AM] PTYX#6840
+I've sent the GUTS CEO a PM 🙂
+
+
+[19-Nov-18 01:53 AM] Malti#3948
+Nice @PTYX keep us updated!
+
+
+[21-Nov-18 05:15 AM] kriptek#7720
+Is the notarized hash to bitcoin or dPoW “expensive” for new Komodo platform coins?
+
+
+[21-Nov-18 05:28 AM] Deleted User#0000
+No
+
+
+[21-Nov-18 05:28 AM] Deleted User#0000
+Not really
+
+
+[22-Nov-18 08:19 AM] Malti#3948
+330 kmd per year no?
+
+
+[22-Nov-18 08:41 AM] polycryptoblog#1173
+365 and 365 of the coin being notarized .  Also there is costs for integration,  but komodo assetchains have a severely reduced cost opposed to non kmd chains
+
+
+[22-Nov-18 06:16 PM] PTYX#6840
+No it's actually ~$2500  a year plus 365 KMD/365 Of the coin being notarized as per the new pricing plans. Is that correct @Audo ?
+
+
+[22-Nov-18 06:20 PM] PTYX#6840
+I'm not sure if the information has been released in a marketing fashion but I was given confirmation that the pricing was changed. That's what we have been communicating to our clients. Also, the price will slowly increase as more projects are added until a maximum cost is reached. The plan is to increase each time a new chain is added until we reach 100 chains. This will encourage projects to get added to dpow  asap.
+
+
+[22-Nov-18 06:21 PM] polycryptoblog#1173
+"Also the costs for integration" = fiatamount
+
+
+[22-Nov-18 06:23 PM] PTYX#6840
+There are already 2 projects in the pipeline that should be added in the next weeks. It's first come first serve. So if a project is added today, their price will stay the same for their anual renewal. It's in their best interest to be an early adopter of dpow. And Chainzilla is planning on strongly promoting dpow once the ico campaign is finished.
+
+
+[22-Nov-18 10:22 PM] Deleted User#0000
+We need to stop adding coins to KMD notaries ... I have almost finished a second layer system, hopefully we get to test it well enough for KMDLABS so we cna use it ... this will drive down costs for dPoW a fair bit, and stop sacrificing KMD's security. We should not have hundreds of coins, ont he main KMD notaries... its just a bad idea.
+
+{Reactions}
+💪 
+
+[23-Nov-18 12:46 AM] jl777c#5810
+maybe notaries need to make a second set of pubkeys
+
+{Reactions}
+💯 (2) ☝ 
+
+[23-Nov-18 12:50 AM] Cryptoon#3362
+elevator pitch on what KMDLABS is?
+
+
+[23-Nov-18 03:10 AM] Audo#5667
+It's STAKED rebranded. @Alright knows more 😃
+
+
+[23-Nov-18 03:11 AM] Alright#0419
+@Cryptoon it's a coin to incentivize testing smart contracts. Plan to be a resource that the whole ecosystem can use to iron out bugs in smart contracts before deploying them on production chains
+
+
+[23-Nov-18 03:59 AM] Cryptoon#3362
+And who incentivizes? What gives LABS a value? It will be kind of pegged back to kmd then?
+
+
+[23-Nov-18 04:00 AM] Alright#0419
+You can earn LABS by finding bugs in smart contracts, staking, mining or running a notary. We set up a system to where we can add contracts on the fly without the need for a hard fork. A contract dev can spin up a chain(only cost is notarization cost), people can test this chain, if a bug is found they will make a bounty claim. If enough notaries sign off on this bounty claim, they get the coins
+
+
+[23-Nov-18 04:01 AM] Alright#0419
+So contract dev can start a chain and have people test it for basically no cost the them
+
+
+[23-Nov-18 04:02 AM] Alright#0419
+here's a elevator pitch I typed up previously
+
+
+[23-Nov-18 04:02 AM] Alright#0419
+we'll have a website up with more info next week
+
+
+[23-Nov-18 04:02 AM] Alright#0419
+```
+Purpose of STAKED is to give crypto condition contract devs a place to have their contracts tested. There is a problem in that a coin dev cannot just implement the first iteration of a new contract on a production coin as each bug could mean a hard fork.(think KMDICE the last couple weeks) What STAKED allows a dev to do is spin up a STAKED chain that is fungible with all other STAKED chains. They can have custom consensus rules or contracts. Testers can then be rewarded by finding bugs in these contracts. If there is a bug in the contract, they simply kill the chain, update the contract and start another chain.
+
+STAKED will be the only asset chain with "opt-in contracts", meaning contracts are not compulsory consensus rules. In order to implement a contract on a typical assetchain, all nodes must update. On STAKED however, you simply add the contract to a new chain. If a user wants to use the contract, they sync the chain and transfer coins to it. If user isn't interested in the contract, they can simply ignore it. 
+```
+
+
+[23-Nov-18 04:03 AM] Alright#0419
+replace STAKED with KMDLabs 😛
+
+
+[23-Nov-18 04:05 AM] Cryptoon#3362
+Ok, the reason/need for a kmdlabs chain is clear, but what will give it value, as devs/testers will need to be incentivized to do testing?
+
+
+[23-Nov-18 04:06 AM] Alright#0419
+Couple interesting projects have cropped up on it already. @Deleted User created something called a "streamer" chain, which can be used to stream arbitrary files to a pemissioned chain that is then dpow'd to KMD. This allows for uncensorable streaming and if one copy of the chain exists, it can be proved that it is authentic. @smkhound is working on "DragonHound" which is a way for him to track his dog via GPS and post coordinates via oracles.
+
+
+[23-Nov-18 04:07 AM] Alright#0419
+I made the trollbox proof of concept as well, but that's not LABS specific. It's on chain real time chat. Think immutable decentralized discord.
+
+
+[23-Nov-18 04:08 AM] Cryptoon#3362
+Hmm or people will need to buy kmdlabs to offer the reward to testers
+
+
+[23-Nov-18 04:08 AM] Alright#0419
+I'm not sure I have a clear cut answer for that @Cryptoon. If you just look at how much progress we've made in the past couple months, I think you would agree that it will have value
+
+
+[23-Nov-18 04:08 AM] Cryptoon#3362
+so buy/sell is in equilibrium
+
+
+[23-Nov-18 04:09 AM] Alright#0419
+They need to fund notaries with LABS
+
+
+[23-Nov-18 04:09 AM] Alright#0419
+That's it. Notaries can choose how much LABS they want before they begin to notarize someone's chain
+
+
+[23-Nov-18 04:09 AM] Deleted User#0000
+It will have value...  as its PoS (people love getting more coins) and it also directs heaps of contracts (that would likely all have their own coin like KMDICE) to ahve a single curency
+
+
+[23-Nov-18 04:10 AM] Cryptoon#3362
+Devil's advocate will ask if this does not give notaries too much power to decide whether or not something is tested enough or whatever
+
+
+[23-Nov-18 04:10 AM] Deleted User#0000
+and the BR is only 9 with 1 going to notary nodes.
+
+
+[23-Nov-18 04:10 AM] Deleted User#0000
+there is nothing stopping someon (devs or anyone else) just starting another set of notary nodes to compete with is id we fo a bad job, por try and charge to much
+
+
+[23-Nov-18 04:11 AM] Cryptoon#3362
+can there be more sets of NN? As I thought NN pubkeys were hardcoded
+
+
+[23-Nov-18 04:12 AM] Alright#0419
+LABS is likely to have bleeding edge contracts before any other chain
+
+
+[23-Nov-18 04:12 AM] Alright#0419
+as we can add them on a whim unlike all other chains
+
+
+[23-Nov-18 04:12 AM] Deleted User#0000
+They are but I made it so you can have as many set of them as you like and stilll keep compatibility with KMD
+
+
+[23-Nov-18 04:12 AM] Cryptoon#3362
+Also, maybe as a last remark, is it a good idea to have inflation on the chain with staking, as this will diminish the value somewhat depending on the reward plan.
+
+
+[23-Nov-18 04:12 AM] Deleted User#0000
+could ahve 1000 sets of notary nodes ewach notarising a single chain, if you wanted to
+
+
+[23-Nov-18 04:13 AM] Deleted User#0000
+the idea is that, we have the knowhow and the community to provide the best/cheapest service over someone forking our code.
+
+
+[23-Nov-18 04:13 AM] Cryptoon#3362
+Let's say you offer 1M LABS to test whatever, and it takes 6 months for the contract to complete, but meanwhile the 1M labs has diminished in value because of staking rewards
+
+
+[23-Nov-18 04:13 AM] Cryptoon#3362
+devs will be incentivized less
+
+
+[23-Nov-18 04:13 AM] Cryptoon#3362
+because of this
+
+
+[23-Nov-18 04:14 AM] Cryptoon#3362
+Sorry for the questions, just the first things that pop up in my head, and I'm sure others will probably have similar questions, best to think about it ahead of launching everyhting
+
+
+[23-Nov-18 04:16 AM] Alright#0419
+Again, only cost to contract dev is paying notaries
+
+
+[23-Nov-18 04:16 AM] Alright#0419
+the bug bounties come from thin air and are part of the emissions themselves
+
+
+[23-Nov-18 04:17 AM] Alright#0419
+nothing to stop them from adding additional bounties to attract more testers, but it's not necessary
+
+
+[23-Nov-18 04:17 AM] Cryptoon#3362
+Ok, but again, that was my main question, what gives it value?
+
+
+[23-Nov-18 04:17 AM] Cryptoon#3362
+Why would someone pay kmd/btc/xxx for LABS?
+
+
+[23-Nov-18 04:18 AM] Cryptoon#3362
+Ok you can stake it for more LABS, but what does it matter if LABS itself doesnt really have value as it's created from thin air
+
+
+[23-Nov-18 04:18 AM] Cryptoon#3362
+Unless the notaries buy the LABS back to pay out later again etc
+
+
+[23-Nov-18 04:19 AM] Cryptoon#3362
+I'm probably missing something, but for now it doesnt really make sense to me, I'll think about it some more and come back if I have more questions
+
+
+[23-Nov-18 04:19 AM] Alright#0419
+You have a valid point. We're just having a hard time articulating our vision here
+
+
+[23-Nov-18 04:20 AM] Alright#0419
+Most of the mechanisms for it is not set in stone. Feel free to make suggestions
+
+
+[23-Nov-18 04:20 AM] Cryptoon#3362
+Yeah I think that's the main thing. Important to think about a reason why LABS would have value.
+
+
+[23-Nov-18 04:21 AM] Alright#0419
+We see it as a vital resource for contract devs. Something we *need* as an ecosystem. We're still hashing out the specifics of emissions, incentives, general game theory
+
+
+[23-Nov-18 04:21 AM] Cryptoon#3362
+My gut feeling would be to make it 1M premine locked up somehow, that can be bought with kmd or whatever by people that want something tested
+
+
+[23-Nov-18 04:21 AM] Cryptoon#3362
+That way the devs being paid in LABS know it is backed by something
+
+
+[23-Nov-18 04:22 AM] Cryptoon#3362
+And will be incentivized that way to do the tests/work
+
+
+[23-Nov-18 04:22 AM] Alright#0419
+I don't quite understand
+
+
+[23-Nov-18 04:22 AM] Alright#0419
+please stop by #kmdlabs and explain your ideas
+
+
+[23-Nov-18 04:23 AM] Alright#0419
+Think about what gives BTC value. Work, yes?
+
+
+[23-Nov-18 04:30 AM] Cryptoon#3362
+posted in kmdlabs
+
+
+[23-Nov-18 04:32 AM] smkhound#7640
+I one thing thought LABS would do was allow incentivised testing, with bounties paid for bug fix etc. 
+Project seeking testing buys some LABS for paying bounties, and users earn LABS for testing whatever they want tested
+
+
+[23-Nov-18 04:33 AM] Cryptoon#3362
+Yeah if a project needed to buy LABS then my arguments are invalid, but alright said the LABS rewards would be created from thin air
+
+
+[23-Nov-18 04:34 AM] Cryptoon#3362
+What BTC gives value is someone asking 10.000 of them for a pizza.
+
+
+[23-Nov-18 04:34 AM] Cryptoon#3362
+If nobody is offering anything for the LABS they earn, then it doesnt matter
+
+
+[23-Nov-18 04:45 AM] Alright#0419
+Contract devs still needs LABS to pay notaries
+
+
+[23-Nov-18 04:45 AM] Alright#0419
+that's what you seem to not understand
+
+
+[23-Nov-18 04:47 AM] CrisF#3405
+Ahh, a bit quieter here.
+
+
+[23-Nov-18 05:16 AM] CrisF#3405
+Incentivized testing is only a feature of what KMDLabs offers. And the PoC for that proved it works very well.
+Projects needing specific plans for incentivized tests can set them up with us. There is a risk of 'loosing' money, but testing software generally isn't free at that level anyhow.
+
+
+[23-Nov-18 05:18 AM] CrisF#3405
+Of course there is also the possibility of gain too.
+
+
+[23-Nov-18 05:25 AM] Deleted User#0000
+Its a lot about keeping devs making stuff together as well, colabaration, as they all share the same coin, rather than having a new token for evey contract, this allows things to happen much faster than usual, as have already been proven by what we have done already.
+
+
+[23-Nov-18 05:27 AM] CrisF#3405
+Also the people using the test cluster aren't and probably won't only be devs looking to profit. Of course there is that possibility. 
+Many of the people now are there to learn through there testing.
+
+
+[23-Nov-18 05:28 AM] CrisF#3405
+As for the testers, not all and probably not most are there for a salary or even a big score.  I was there to learn, help and maybe as a very long shot get some valuable coins back.
+Many people have projects, ideas, or in some cases just dreams, that they need a place to work on. KMDLabs gives them that place. The ease of use and network of support makes that very much easier than doing by themselves.
+
+
+[23-Nov-18 06:14 AM] jl777c#5810
+LABS represents testing time. time is money, therefore LABS has value
+
+
+[23-Nov-18 06:14 AM] jl777c#5810
+dont overthink it
+
+{Reactions}
+👍 (2) 
+
+[10-Dec-18 10:08 AM] TonyL#3577
+I'm imaging @jl777c like this when reading such answers  😃
+
+{Attachments}
+https://cdn.discordapp.com/attachments/466623354971881502/521750152684240907/unknown.png
+
+{Reactions}
+rum (2) 
+
+[10-Dec-18 10:10 AM] TonyL#3577
+Hmm this chats reorg made me think that old messages are new 😊
+
+
+[10-Dec-18 04:35 PM] Mylo#8306
+Yeah LABS has saves time.  Everything you do saves the newbie blockchain  🐒  operator from starting from zero.  Just like Ubuntu took Debian’s testing repo and accelerated the Debian release process.  Check history from Debian Sid to the following releases.
+
+When a dApp team knows front end coding and some of the crypto conditions logic but not vin/vout details, they’re not going to know blockchain ops, mining pools, coin migrations etc.
+
+Getting a product to market or productization of an idea needs agility and flexibility.  LABS gives this to the ecosystem.
+
+{Reactions}
+💯 (3) 
+
+[10-Dec-18 04:35 PM] Mylo#8306
+*saves-time value
+
+
+[20-Dec-18 09:47 AM] yavuz#3665
+Hi there, who can I get in touch with in regards to jobs at Komodo?
+
+
+[20-Dec-18 10:13 AM] ComputerGenie#7004
+https://komodoplatform.com/careers/
+
+{Embed}
+https://komodoplatform.com/careers/
+Careers - Komodo
+
+
+[20-Dec-18 12:26 PM] Audo#5667
+@yavuz , you can contact @jusoaresf
+
+
+[20-Dec-18 01:55 PM] yavuz#3665
+Thank you @Audo
+
+
+[21-Dec-18 07:19 AM] FabØ#8941
+hey @polycryptoblog
+meta & Ludom advised to rich you about business dev matter as we are aiming to focus on developing and growing community and usage of our service on Komodo
+We found very efficient to combine our effort
+
+
+[21-Dec-18 07:20 AM] polycryptoblog#1173
+Hey @FabØ  ,  sure I can help
+
+
+[21-Dec-18 07:20 AM] FabØ#8941
+brillant
+
+
+[21-Dec-18 07:21 AM] FabØ#8941
+should we do that in DM or here?
+
+
+[21-Dec-18 07:21 AM] polycryptoblog#1173
+DM is fine
+
+
+[21-Dec-18 07:21 AM] FabØ#8941
+terrific thanks
+
+
+[01-Jan-19 09:37 AM] Seko#7408
+Hello guys...
+I'm trying to compare a PoS-based crypto currency with Pirate.
+
+PoS is protected against 51 % attacks.  In addition, PoS could become more interesting in the future for environmentally friendly reasons.  Even Ethereum is working on a hybrid version.  I am asking myself how Komodo wants to solve this problem?  Hybrid with the help of Veruscoin?  Or is it something you don't even think about?
+
+
+[01-Jan-19 09:47 AM] jl777c#5810
+PoS has some other issues than 51% attack, though dPoW likely solves most of them
+
+
+[01-Jan-19 10:14 AM] Seko#7408
+Where are the advantages of dPoW in compare to PoS? And what about the environmental idea?
+
+
+[01-Jan-19 10:24 AM] jl777c#5810
+you cant compare dPoW to PoS
+
+
+[01-Jan-19 10:24 AM] jl777c#5810
+dPoW works with whatever existing consensus mechanism
+
+
+[01-Jan-19 10:25 AM] jl777c#5810
+weakness of PoS is not external reference
+
+
+[01-Jan-19 10:25 AM] jl777c#5810
+dPoW is all about external reference
+
+
+[01-Jan-19 10:25 AM] jl777c#5810
+you need to at least understand a bit about PoS weakness to understand
+
+
+[01-Jan-19 10:27 AM] jl777c#5810
+https://medium.com/@robertgreenfieldiv/vulnerability-proof-of-work-vs-proof-of-stake-f0c44807d18c
+
+{Embed}
+https://medium.com/@robertgreenfieldiv/vulnerability-proof-of-work-vs-proof-of-stake-f0c44807d18c
+Vulnerability: Proof of Work vs. Proof of Stake – Robert Greenfi...
+With all the talk about the future Proof of Stake version of Ethereum and the ever-splitting nature of Bitcoin due to developer community…
+https://images-ext-1.discordapp.net/external/WPUR8lrVVLUMs0Rt-rm4dw8HN1DXemkLovrbf23rkeE/https/cdn-images-1.medium.com/max/1200/1%2An42DjCnRZ3JWTkbQ1ItGpw.png
+
+
+[01-Jan-19 10:27 AM] jl777c#5810
+seems a decent comparison
+
+{Reactions}
+🤝 
+
+[01-Jan-19 10:31 AM] jl777c#5810
+well, i guess it ignores the 51% attack for PoW, i guess it goes without saying
+
+
+[01-Jan-19 06:41 PM] Mylo#8306
+If consensus is a layer of concrete on the sidewalk/pavement, and your layer of concrete is as thick as your community invollved (PoW or PoS), there is still one layer of concrete.
+
+One layer of concrete is pretty easy to drill into and make a hole for a person to squeeze into.
+
+dPoW adds 2 more concrete layers (KMD & BTC), and an important timing layer.
+
+Try drilling into 3 layers of concrete, of different grades.  You need different drill bits to go through different harder concrete.
+
+The KMD & BTC layers also have steel mesh to re-inforce and strengthen it.
+Your drill needs to be good enough to drill through 3 layers of concrete, be wide enough for the  person to climb into.
+
+The drill holes are filled by very quickly drying cement, almost as soon as someone tries drilling into it - because the cement auto-repairs as time moves forwards (blocks are made).
+
+{Reactions}
+🙏 (2) ❤ 
+
+[01-Jan-19 06:42 PM] Mylo#8306
+*involved (typo)
+
+
+[06-Jan-19 04:58 PM] Cranky#9935
+Version 1.3.0.0 of Credits is now released. This is again a mandatory update. The code will  fork from block 550,000. Can I please ask that BarterDEX update the Credits' code?
+All new binaries can be downloaded from https://github.com/CRDS/Credits/releases/tag/v1.3.0.0
+
+{Embed}
+https://github.com/CRDS/Credits/releases/tag/v1.3.0.0
+CRDS/Credits
+Credits(CRDS) - An Evolving Currency For An Evolving Society - CRDS/Credits
+https://images-ext-1.discordapp.net/external/dkuwS-CNviwBLtI6EmYq31DwE0GQoGZrn2im8CrtQgE/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/30072730
+
+
+[06-Jan-19 04:58 PM] Cranky#9935
+Tried to PM @Diesmaster but the message bounced.
+
+
+[06-Jan-19 05:22 PM] Regnar#6164
+I think there be a pinned message for this channel to explain what it is all about.
+
+
+[06-Jan-19 05:46 PM] Regnar#6164
+But this seems business related, FDA is testing a permissioned blockchain for healthcare providers to share access to sensitive information. It started with 4 hospitals (not sure where it's at now) but they are using the consulting firm Booz Allen Hamilton to develop a solution. Seems they are using Ethereum but adding privacy features (I believe off-chain)
+<https://gcn.com/articles/2018/06/22/fda-blockchain-ehr-sharing.aspx>
+
+Here's Booz Allen Hamilton's white paper in regards to the chain.
+<https://blockchainhealthcaretoday.com/index.php/journal/article/view/13/17>
+
+TLDR: Building permissioned blockchain that provides 3 tiers of information access, a descriptor(public), summary (permissioned), and full access (permissioned). They said "special purpose software designed to work along side the blockchain must be implemented to facilitate additional layers of encryption that enforce the privacy of content embedded within transaction data"
+Also that "the data owner may revoke access to a piece of shared data with a guarantee that even a receiver’s private key together with the raw blockchain transaction data would not be sufficient to obtain data access"
+
+@n2okpride and @Bitcoin Benny, thoughts on this for a business opportunity/use case for Komodo? Seems the privacy aspect could be something Komodo could do well.
+
+
+[06-Jan-19 06:01 PM] Regnar#6164
+Marek Cyran - Chief Scientist - Booz Allen Hamilton (Author of that white paper)
+LinkedIn: <https://www.linkedin.com/in/marek-cyran-82018011/> 
+email : Cyran_Marek2@bah.com
+
+Lauren Neal - Principal Strategy Innovations Group - Booz Allen Hamilton (On that project)
+LinkedIn: <https://www.linkedin.com/in/laurenberrymanneal/>
+
+We should reach out to these people just to make a connection, talk with them about the types of things they see their clients needing from blockchain and what is missing from projects like Ethereum. What they have to do to get around the limitations they are seeing on chain, and we can attempt to develop solutions, or might even already have the solutions (zk-snarks for privacy, language agnostic for contracts, etc) in order to make Komodo a more attractive platform. And then we can be on their minds when they look to implement another Blockchain for their clients.
+
+
+[06-Jan-19 06:06 PM] cipi#4502
+@Cranky thanks for the info
+i tried to compile the new wallet, but it fails
+could you implement this https://github.com/bitcoin/bitcoin/pull/11847/files , so it compiles with libboost 1.67?
+
+{Embed}
+https://github.com/bitcoin/bitcoin/pull/11847/files
+Make boost::multi_index comparators const by sdaftuar · Pull Requ...
+This fixes compatibility with boost 1.66.
+Fixes #11837
+https://images-ext-2.discordapp.net/external/pclsZWgFotcv5_inr883qCi_L29tAzm8dAmQAZoMeQg/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/7463573
+
+
+[08-Jan-19 01:51 PM] Cranky#9935
+@cipi We've made the update to our code, will hopefully compile now
+
+
+[08-Jan-19 03:05 PM] cipi#4502
+yes, it does, thanks a lot
+i stopped the old daemon and started the new one, but i get
+```creditsd: chainparams.cpp:175: CMainParams::CMainParams(): Assertion `consensus.hashGenesisBlock == uint256S("0x0000dea5d2c92cf3f1dce5031cc2b368b2a5e3ebea73ea1278fef673d10b1345")' failed.
+Aborted```
+do i need to resync?
+
+
+[09-Jan-19 03:44 PM] Cranky#9935
+Yes you’ll need to stop and delete the old chain. You can download the latest bootstrap to save time syncing using our guide https://crds.co/documents/credits-bootstrap-instructions.pdf
+
+
+[09-Jan-19 03:55 PM] Cranky#9935
+I suspect the version you had was 1.1.0
+
+
+[09-Jan-19 04:42 PM] cipi#4502
+hmmm, does not matter what i do, i get the error even with empty datadir
+```creditsd: chainparams.cpp:175: CMainParams::CMainParams(): Assertion `consensus.hashGenesisBlock == uint256S("0x0000dea5d2c92cf3f1dce5031cc2b368b2a5e3ebea73ea1278fef673d10b1345")' failed.
+Aborted```
+
+
+[09-Jan-19 05:21 PM] Cranky#9935
+Ok, I thought I have seen this before and I have. Here is a closed task I had in the Credits Discord channel -
+
+
+[09-Jan-19 05:21 PM] Cranky#9935
+```
+#19 Resolve an issue with the genesis block hash which is preventing compilation of Credits on some systems.
+
+creditsd: chainparams.cpp:173: CMainParams::CMainParams(): Assertion `consensus.hashGenesisBlock == uint256S("0x0000dea5d2c92cf3f1dce5031cc2b368b2a5e3ebea73ea1278fef673d10b1345")'
+failed.
+Only single user (BarterDEX reporting this issue. Suspect previous blockchain data present). Bounty removed.
+Closing. BarterDEX have confirmed it as a non-issue. They were using a replacement library for malloc (faster, more efficient) and that seemed to cause the problem
+```
+
+
+[09-Jan-19 08:56 PM] cipi#4502
+thanks, it works now... updated my build instructions to exclude malloc-replacement for CRDS
+
+
+[10-Jan-19 03:29 PM] Cranky#9935
+Thanks @cipi I’ll make a note for future releases
+
+
+[12-Jan-19 04:29 AM] Out of Gravity#7982
+Hello Komodo team,
+
+
+[12-Jan-19 04:33 AM] Out of Gravity#7982
+I am the lead Dev. manager at plaak and would like to introduce you guys our new credit card sized cold wallet
+Https://vergewallet.plaak.com
+
+- Cold wallet 
+- paper display 
+- long battery life 
+- on card finger print biometrics scanner
+- secured encrypted chip 
+
+We have partnered with Verge, COLX, bitcoin zero and others in order to promote adoption of blockchain and crypto currency 
+
+If you guys would love to know more we could have a mutually beneficial partnership :)
+
+
+[12-Jan-19 07:21 PM] polycryptoblog#1173
+@Out of Gravity  please send a message to partners@komodoplatform.com and we will take a look and review your offer
+
+
+[13-Jan-19 01:07 AM] Out of Gravity#7982
+Sure thing
+
+
+[13-Jan-19 05:33 PM] Mylo#8306
+looks cool!
+
+
+[14-Jan-19 03:58 AM] Anastasiya#1350
+Hello #team-business-dev, 
+I'd like to ask if you may be interested to expand Komodo software development team with Ukrainian engineers? If you are consider such opportunity - I'll be glad to speak with you and tell you more
+
+
+[14-Jan-19 06:08 AM] Cryptoon#3362
+If you are interested in this position please email us at jobs@komodoplatform.com
+
+
+[14-Jan-19 06:08 AM] Cryptoon#3362
+@Anastasiya
+
+
+[16-Jan-19 03:05 PM] Erik | Covalent#0059
+Hi Komodo, I  am not sure if this is a BD or a marketing support question so I will post here.
+
+
+[16-Jan-19 03:06 PM] Erik | Covalent#0059
+We are running a crypto -> giftcard platform, and have users asking for Komodo integration. We considering doing the integration but are wondering if we could get additional support.
+
+
+[16-Jan-19 03:07 PM] Erik | Covalent#0059
+There are additional ideas, and thoughts, but this is low hanging fruit for now.
+
+
+[16-Jan-19 03:27 PM] Erik | Covalent#0059
+Here is a link to the live site: https://giftcards.bidali.com/
+
+{Embed}
+https://giftcards.bidali.com/
+Giftcards by Bidali — Buy giftcards with cryptocurrencies
+Exchange your cryptocurrency for electronic gift cards from over 100 top brands.
+https://images-ext-2.discordapp.net/external/lnL84edn_8EWHQx63PSEVcFJouFK21xR-CNSQOoZx0E/https/giftcards.bidali.com/images/social/twitter_card_image_800x418.png
+
+
+[16-Jan-19 03:29 PM] polycryptoblog#1173
+@Erik | Covalent   sure,  you mean technical support?
+
+
+[16-Jan-19 03:30 PM] Erik | Covalent#0059
+Well we have the dev power to do the integration. We are just wondering if the rest of the community wants this, and if it is worth the time.
+
+
+[16-Jan-19 03:31 PM] polycryptoblog#1173
+Yes of course we would like an integration to purchase gift cards with Komodo,  I dont think there is an any argument against that
+
+{Reactions}
+💪 (2) 👍 
+
+[16-Jan-19 03:32 PM] Erik | Covalent#0059
+Great!
+
+
+[16-Jan-19 03:32 PM] Erik | Covalent#0059
+We have done this with a few other coins who have helped with the marketing support to get awareness out.
+
+
+[16-Jan-19 03:32 PM] Erik | Covalent#0059
+That is more what we are looking for.
+
+
+[16-Jan-19 03:34 PM] polycryptoblog#1173
+You are free to post it on our Reddit,  once reviews about usage come in  we can see about  displaying it other places.
+
+
+[16-Jan-19 03:43 PM] Erik | Covalent#0059
+Are you referring to general UX or more along the lines of Komodo spending?
+
+
+[16-Jan-19 03:43 PM] polycryptoblog#1173
+people using your site to buy cards and their experience with it
+
+
+[16-Jan-19 03:44 PM] Erik | Covalent#0059
+We have had lots of satisfied customers. Would it help if we sent more testimonials?
+
+
+[16-Jan-19 03:47 PM] polycryptoblog#1173
+Im sure we will hear it from customers,   gift cards tend to be a hot market.   Cant promote something noone has first hand experience with.   Do the integration, post about it on Reddit,  people will try it out, if its good,  word will spread other places
+
+
+[16-Jan-19 03:47 PM] Erik | Covalent#0059
+That is the answer I was looking for.
+
+
+[16-Jan-19 03:47 PM] Erik | Covalent#0059
+Thanks a lot.
+
+
+[16-Jan-19 03:47 PM] polycryptoblog#1173
+Np
+
+{Reactions}
+yassinheart 
+
+[18-Jan-19 09:32 AM] Jaylou#8892
+Hello All, the KMD Ecosystem has any process for fund raising for ideas ?
+
+
+[18-Jan-19 09:44 AM] jl777c#5810
+would be via this discord to get people interested in your idea
+
+
+[22-Jan-19 05:16 PM] apthorns#0148
+Hey, so I’m creating a website builder where users can create an account and can build a modern website without knowing how to code... but unlike wix or wordpress it’s going to be modern and more customizable. Not as expensive either. Basically i’m focusing on people that need websites to showcase their portfolio, web galleries/blogs (starting up). Is there a way I can implement KMD into this project I’m working on?
+
+
+[22-Jan-19 10:11 PM] HoangInvestor#3472
+Hi team
+
+
+[22-Jan-19 10:12 PM] HoangInvestor#3472
+I want list a ERC20 token on BarterDEX
+
+
+[23-Jan-19 02:18 AM] cipi#4502
+@HoangInvestor send some tokens to 0x4e623B150b847dA59f064f7C7FCc9F787DaE2229 so i can do a test swap
+a logo is also needed, in case the testswap works
+
+
+[23-Jan-19 04:35 AM] idrtis#7552
+I understand sapling addresses are pretty efficient and removing z-addressing might be the proper way to move forward swiftly. However, in my mind being backward compatible and knowing that my funds are safe in the ecosystem  for the years ahead are quite more important. There seems to be a tradeoff here. Isnt this a big decision to remove these addresses? Some people will lose their funds for sure. Or some people might think twice to leave their funds in KMD if they wont be able to check KMD news for a while. Was there any alternative solutions? What was their pro cons?
+
+
+[23-Jan-19 04:36 AM] idrtis#7552
+Im not sure whether this is the corret channel to ask
+
+
+[23-Jan-19 04:37 AM] ComputerGenie#7004
+@idrtis z-addressing isn't being removed entirely, but moved to a different chain (which will be cross-chain fungible if I'm not mistaken)
+
+{Reactions}
+👆🏽 
+
+[23-Jan-19 04:39 AM] idrtis#7552
+ok I seem to not know some vital info. Thank you
+
+
+[23-Jan-19 04:40 AM] SHossain#0007
+> Some people will lose their funds for sure.
+Completely inaccurate. No one will be losing KMD over this as long as they have their privkey safe. And, there are only about 80K funds left in sprout address. Users still have 3 weeks time to move them to transparent address.
+
+
+[23-Jan-19 04:43 AM] idrtis#7552
+Thanks for the info
+
+
+[23-Jan-19 04:43 AM] idrtis#7552
+I ll read in more detail
+
+
+[23-Jan-19 04:50 AM] idrtis#7552
+I might misremember but I believe I have read some talks here about burning those coins
+
+
+[23-Jan-19 04:56 AM] ComputerGenie#7004
+afaik, there's been no discussion of ever burning KMD (maybe you're thinking of PIRATE?)
+
+{Reactions}
+👆🏽 
+
+[23-Jan-19 04:57 AM] jl777c#5810
+any locked KMD will always be recoverable. PIRATE is a different coin and its community will decide
+
+
+[23-Jan-19 08:03 AM] HoangInvestor#3472
+@cipi ok Cipi
+
+
+[23-Jan-19 08:09 AM] HoangInvestor#3472
+Done. Check pm @cipi
+
+
+[30-Jan-19 02:20 AM] Nikolay Sadonin#5680
+Hello!
+
+
+[30-Jan-19 02:21 AM] Nikolay Sadonin#5680
+am from Ternion Exchange (crypto/crypto crypto/fiat).
+Do you have interest in listing?
+
+
+[30-Jan-19 02:27 AM] CryptoNinjaa#5350
+I dont speak for the team here but at $35,000 to list seems really expensive for an exchange that is not currently live. Did the 5 coins you have listed already pay 35k?
+
+
+[30-Jan-19 02:29 AM] CryptoNinjaa#5350
+Imo listing Komodo as starting pair for free would benefit you as komodo has a very large community.
+
+{Reactions}
+💯 (8) Komodo (4) 
+
+[01-Feb-19 05:02 AM] FabØ#8941
+Hi team, I would very much interested by integrating a TipBot on OCU channel, could you guys point me the person who could help me with that?
+
+
+[01-Feb-19 05:07 AM] Cryptoon#3362
+I think @FishyGuts knows who
+
+
+[01-Feb-19 05:10 AM] FishyGuts#5085
+@FabØ Do you want the existing KMD / ARRR bots or do you want your own?  
+If it is your own, contact @sclear and let him know Pirate sent ya!
+
+
+[01-Feb-19 06:06 AM] FabØ#8941
+Thanks @FishyGuts terrific we could put both ARRR for pirates and privacy guys and KSB for fiat guys
+
+
+[01-Feb-19 06:07 AM] FabØ#8941
+Such a pirate idea 😉
+
+
+[01-Feb-19 06:17 AM] FabØ#8941
+Thanks @Cryptoon helpful as usual
+
+
+[01-Feb-19 06:55 AM] Cryptoon#3362
+np, glad to be of assistance
+
+
+[01-Feb-19 09:12 AM] CarterZYZ#4045
+Hi admin, I want to talk about coin listing cooperation. May I ask who or which email should I contact? Thanks a lot.
+
+
+[04-Feb-19 09:23 PM] DG#6934
+Since Komodo is being reviewed by an ranking list  in China ...I think that it could be a good approach to do some translated content for this market. 😉
+
+
+[04-Feb-19 11:18 PM] polycryptoblog#1173
+@CarterZYZ  partners@komodoplatform.com
+
+
+[11-Feb-19 01:21 AM] Wolf of RES#8148
+Hiya! @polycryptoblog  everyone! 😃 Introduced myself before in #💬┃general  I am involved with https://resistance(dot)io (  exchange, ResDEX and contacting you on their behalf. I have reached out to individual projects within KMD ecosystem before but thought it best to interact with you guys directly.
+
+We wish to position ourselves as 'One Stop exchange' for all privacy coins. For liquidity provision we have partnered with HUOBI & XRP market-makers. As a DEX we do not plan to charge listing fee for KMD or its asset chains. 
+
+Happy to give contact information so we can discuss about this more with a developer from team, perhaps jl777?  Looking forward to cooperating! 
+
+------
+Short tldr;  ResDEX uses instant atomic swaps (within 30 sec trades at the moment) for decentralized trading (using RES as collateral) and zk-Snarks for Privacy.
+TOR routing is supported natively as well on ResDEX.  RES coin itself is CPU mineable through yespower algo (rewards split between 30% Proof of Research, 30% Proof of Work, 30% Masternodes & 10% for development)  and anyone can check out working prototype for POR through https://respool.io/
+
+P.S Would partners@komodoplatform. com be the best way to reach out to you guys? : )
+
+{Embed}
+https://respool.io/
+respool.io
+This is a mining pool for the cryptocurrency Resistance.
+
+
+[11-Feb-19 01:22 AM] polycryptoblog#1173
+Yes
+
+
+[11-Feb-19 01:23 AM] polycryptoblog#1173
+Send the information to partners@komodoplatform.com I will go through all the information and get back to you to discuss further
+
+
+[11-Feb-19 01:31 AM] Wolf of RES#8148
+Awesome! Thanks for quick response Poly! Will contact you through there. Looking forward to discussing!
+
+
+[11-Feb-19 01:33 AM] Wolf of RES#8148
+As an added question @polycryptoblog  we are also interested in listing multiple sub-chains (that obviously support atomic swap (probably rules out ARRR  :/ ) ). If possible; can you send me leads for them or suggest best possible way to reach out? 
+
+I would assume that every project within KMD ecosystem would have its own requirements for listing and point of contact?
+
+
+[11-Feb-19 01:36 AM] polycryptoblog#1173
+The ecosystem section of this discord has all the projects associated .  I do not think anyone will object to a listing on an exchange  if it’s free.
+
+
+[11-Feb-19 03:18 AM] Wolf of RES#8148
+Yea I thought so as well! Thank you for all assistance @polycryptoblog  , will be keeping you updated! 
+P.S You can also tune in to our exchange demo scheduled today to get idea about interface etc. Here's the tweet for it !  (hope I am not being too intrusive by sharing link)
+
+https://twitter.com/paperstreetvc/status/1093721794228469761
+
+{Embed}
+Paperstreet (Techstars '19) (@paperstreetvc)
+https://twitter.com/paperstreetvc/status/1093721794228469761
+Join us Monday for a ResDEX demo & video AMA w/Anthony Khamsei, CEO, Resistance
+
+📌 - Serious investors only
+🗝️ - Request access at https://t.co/LIyD7Lfuh0
+🗓️ - Monday, 2/11 @ 4:00pm EST
+
+ResDEX is an anonymous decentralized exchange supported by the Resistance...
+https://images-ext-2.discordapp.net/external/xm8AShOmNgP9jYRNLV2iLy9NCuB0GqhCClhcf1DKkAM/https/pbs.twimg.com/media/Dy2pduMXgAATAtx.jpg%3Alarge
+Twitter
+
+
+[12-Feb-19 02:23 PM] crypto999#4866
+@Wolf of RES I notice your DEX, which is built on MM1, offers Instant Swaps. Is the collateral address independent or still under third party control (Komodo used wallets which they had control over for this mode)?
+
+
+[12-Feb-19 02:26 PM] crypto999#4866
+And if independent can you expand on how that was achieved, as there are a host of variables that make it problematic...
+
+
+[13-Feb-19 02:58 AM] Wolf of RES#8148
+@crypto999  Masternodes will be used to secure the collateral. Will outline roles for masternodes more in our governance document which we are drafting at the moment. 
+
+To ask your opinion what problems do you foresee ?
+
+
+[13-Feb-19 10:14 AM] crypto999#4866
+A secure decentralized custody solution with autonomous refund and penalization is pretty impressive. Look forward to reading more!
+
+
+[15-Feb-19 07:43 AM] Cryptoon#3362
+http://www.elevatedreturns.com
+
+{Embed}
+admin
+http://www.elevatedreturns.com
+Home
+Building a Digital Financial Asset Ecosystem 
+
+"Digitalization of Financial Instruments is inevitable. 
+
+We are pioneering this migration " Learn More      contact us 
+Interested in learning more? Contact us today.
+https://images-ext-2.discordapp.net/external/kQhcVHxBeRWFDXGoxoYPy4aLk47P-QjkKuNJN8oMsNw/http/43.255.154.93/~tb9ywe2que42/wp-content/uploads/2017/10/logoret2.png
+
+
+[15-Feb-19 07:43 AM] Cryptoon#3362
+Read an article on the belgian financial times on these guys
+
+
+[15-Feb-19 07:44 AM] Cryptoon#3362
+looking to tokenize assets
+
+
+[15-Feb-19 07:44 AM] Cryptoon#3362
+might be interesting to reach out?
+
+
+[15-Feb-19 07:53 AM] Cryptoon#3362
+https://www.tijd.be/ondernemen/financiele-diensten-verzekeringen/belgische-new-yorker-verkoopt-massaal-vastgoed-via-cryptomunt/10098284.html
+
+{Embed}
+https://www.tijd.be/ondernemen/financiele-diensten-verzekeringen/belgische-new-yorker-verkoopt-massaal-vastgoed-via-cryptomunt/10098284.html
+Belgische New Yorker verkoopt massaal vastgoed via cryptomunt
+Stephane De Baets wil voor 1 miljard dollar aan vastgoedprojecten verkopen via digitale 'tokens', een ontluikende techniek uit de wereld van blockchain en cryptomunten.
+https://images-ext-2.discordapp.net/external/jeXNm-wNPddqjpTrZCUDMEGvoiF_-sObfkPogzT9nQU/%3Fiid%3Ddc%3A141402665%26context%3DONLINE%26ratio%3D16%2F9%26width%3D640%26u%3D1550241436000/https/images.tijd.be/view
+
+
+[15-Feb-19 07:53 AM] Cryptoon#3362
+Article in dutch
+
+
+[15-Feb-19 07:53 AM] Cryptoon#3362
+Talks that they are currently built on ETH
+
+
+[15-Feb-19 07:53 AM] Cryptoon#3362
+Aspen coins
+
+
+[15-Feb-19 07:53 AM] Cryptoon#3362
+But they will be switching to Tezos
+
+
+[15-Feb-19 07:54 AM] Cryptoon#3362
+Unless I am mistaken Tezos isnt operational yet, so might be a good idea to reach out anyway
+
+
+[16-Feb-19 06:23 PM] Mylo#8306
+Thanks @Cryptoon sent to a Dutch colleague
+
+
+[17-Feb-19 04:46 AM] Cryptoon#3362
+let me know if he wants the full article, I have a subscription 😃
+
+
+[17-Feb-19 06:44 AM] ZECRYPTO#0304
+Hello Im from DIGYCODE Sold4t contact us today
+
+
+[17-Feb-19 02:13 PM] polycryptoblog#1173
+@ZECRYPTO  hello, welcome to komodoplatform .  I am interested in learning more about digycode can you send me more information to partners@komodoplatform.com
+
+
+[18-Feb-19 01:51 AM] Mylo#8306
+@Cryptoon yes he knows of settlemint.   they are well known in belgium.  we'll see if we can get a contract with them.  they have some good ideas.  kmd is definitely a platform they can move to with what they want to do.
+
+
+[18-Feb-19 01:55 AM] Cryptoon#3362
+I spoke to the CTO of settlemint somewhere last year
+
+
+[18-Feb-19 01:55 AM] Cryptoon#3362
+went to some talks with @Malti
+
+{Reactions}
+👍 
+
+[20-Feb-19 10:14 PM] Leslie|CoinTiger_Listing#4091
+Hi, all, who should I talk to for listing cooperation?
+
+
+[20-Feb-19 11:15 PM] polycryptoblog#1173
+partners@komodoplatform.com
+
+
+[02-Mar-19 02:21 AM] wil#2080
+@Malti
+Kasper from Guts was in a Dutch broadcast yesterday. He said that they had choosen for Ethereum because that was the only one with a smart contract at that time. Whether they experienced limits on Ethereum, the answer was yes and no.
+
+He told that there are indeed better blockchains at the moment, but that they do not want to choose a blockchain too early. They do not want to focus on Komodo or another one yet. Komodo, because of the high transactions would possible be a good reason he said, but they first want to look at how they can use the blockchain. Which applications are needed and only then see which chain fits the best for them.
+
+He said: Why choose Komodo, consider because of the high transaction could be a reason but do we need it or can we do it smarter.
+
+He really needs to do some homework I think! 😀
+
+
+[05-Mar-19 02:59 PM] yorklab#7270
+This could be very useful info for some here:
+
+https://www.forbes.com/sites/caitlinlong/2019/03/04/what-do-wyomings-new-blockchain-laws-mean/#10a2bcc65fde
+
+{Embed}
+https://www.forbes.com/sites/caitlinlong/2019/03/04/what-do-wyomings-new-blockchain-laws-mean/
+What Do Wyoming's 13 New Blockchain Laws Mean?
+Wyoming has now enacted a total of 13 blockchain-enabling laws, making it the only US state to provide a comprehensive, welcoming legal framework that enables blockchain technology to flourish. By providing legal protections to direct owners, digital assets are likely to star...
+https://images-ext-1.discordapp.net/external/opa6fXfcHKvTeUOT8Xy60pCJvxVOXtMa4M5tolHJhyo/https/thumbor.forbes.com/thumbor/600x315/https%253A%252F%252Fspecials-images.forbesimg.com%252Fdam%252Fimageserve%252F927046354%252F960x0.jpg%253Ffit%253Dscale
+
+
+[10-Apr-19 01:51 AM] Crabby Paddy#6239
+@buyETH  maybe you should use dPoW 😃 youd know what that is if you did any research on Komodo and our “staking” as well
+
+
+[10-Apr-19 02:17 AM] TwilightPunkster K64#7533
+That's a lot of copy paste white space that is a sore to my eyes
+
+
+[10-Apr-19 02:18 AM] jl777c#5810
+seems like spam
+
+
+[10-Apr-19 02:19 AM] polycryptoblog#1173
+Gone
+
+
+[18-Apr-19 04:12 PM] Oliver Westbrook#7752
+Who should I discuss VerusPay with? I’ve implemented KMD into the plugin and am in testing mode now, would love to connect with some WooCommerce beta testers
+
+
+[18-Apr-19 04:14 PM] Oliver Westbrook#7752
+Also have a price API some may like, includes KMD support.  e.g. https://veruspay.io/api/?ticker=kmd&currency=usd
+
+
+[18-Apr-19 11:11 PM] Mylo#8306
+@Oliver Westbrook can install it on https://komodo-cakeshop.com to test if that's what you're asking about?  i can setup a new subdomain or put it on another domain like https://cakeshop.dev or something
+
+{Embed}
+Komodo Cakeshop
+https://komodo-cakeshop.com
+Cakeshop Turnkey Blockchain – Turnkey Blockchain Cakeshop Using ...
+Cakeshop is a turnkey blockchain installer using the multi-chain Komodo blockchain ecosystem software.
+
+
+[18-Apr-19 11:11 PM] Mylo#8306
+vote for cakeshop in the elections too btw 😄
+
+
+[19-Apr-19 08:21 AM] Oliver Westbrook#7752
+Awesome, I'll check that out.  I am asking more who to speak with regarding announcing and releasing to the Komodo community.
+
+
+[19-Apr-19 09:36 AM] polycryptoblog#1173
+@Oliver Westbrook   If it is ready ,  let the marketing team know
+
+
+[22-Apr-19 10:42 AM] Oliver Westbrook#7752
+Okay, it's just about ready, I need to create Komodo-specific install scripts
+
+
+[25-Apr-19 05:01 PM] FlyingDutchman#5213
+when are the blockchain-as-a-service product and the full rebrand officially launching?
+
+
+[25-Apr-19 06:02 PM] polycryptoblog#1173
+In the future
+
+
+[01-May-19 11:08 PM] buyETH#9333
+Hi! This is Andy from APIS Project.
+
+
+[01-May-19 11:13 PM] CHMEX#0686
+Hello Hello
+
+
+[01-May-19 11:22 PM] buyETH#9333
+APIS is blockchain project from Singapore and South Korea. 
+
+We are running APIS Platform ( https://apis.mn/ ) which provides easy and affordable blockchain incentive system ( Masternode & POS & DPoS ).
+
+{Embed}
+akshaoslwj1120
+https://apis.mn/
+APIS.MN
+https://images-ext-1.discordapp.net/external/bUhQSK33YSQ8CYGSR9I1SPZo3o37SYD1_eic9LP44Mk/https/storage.googleapis.com/apis-mn-images/mnImage/APIS/ogp_image.png
+
+
+[01-May-19 11:23 PM] buyETH#9333
+We are trying to make a node mediation service for KMD, Can I ask how can we talk about more details?
+
+
+[02-May-19 12:14 AM] polycryptoblog#1173
+@buyETH   KMD does not have Masternodes , PoS or DPoS,  however chains created through Komodo can have this ( or similar function ),  if you could send an email to partners@komodoplatform.com , I can fill you in on what we offer and we can discuss best how to collaborate
+
+
+[02-May-19 12:50 AM] buyETH#9333
+Thanks a lot.
+
+
+[06-May-19 08:16 PM] AALEXJ#5233
+https://arcade.city/
+
+{Embed}
+https://arcade.city/
+Arcade City: Connect freely.
+Unstoppable ridesharing - and the realgame of peer-to-peer everything
+https://images-ext-1.discordapp.net/external/0-72gLOz69PddavteFEcF-cNc9aoVc10hS4OFddaH7M/https/arcade.city/img/promo2.png
+
+
+[06-May-19 08:16 PM] AALEXJ#5233
+https://www.youtube.com/watch?v=YrZQF4aIXqQ
+
+{Embed}
+Arcade City
+https://www.youtube.com/watch?v=YrZQF4aIXqQ
+Arcade City: The Five-Minute Intro
+https://images-ext-1.discordapp.net/external/zxAefIBsseXjvNqs7-xCLiOofap-kL5G6VovXg0M9Gg/https/i.ytimg.com/vi/YrZQF4aIXqQ/maxresdefault.jpg
+
+
+[06-May-19 08:18 PM] AALEXJ#5233
+gamification of peer to peer economy sounds like an interesting idea
+
+
+[06-May-19 08:23 PM] AALEXJ#5233
+Shame they used facebook for login, which is a non starter and in complete contradiction to what the platform is trying to achieve.
+
+
+[06-May-19 08:50 PM] AALEXJ#5233
+They have an ethereum based token
+
+
+[06-May-19 08:50 PM] AALEXJ#5233
+Another platform, on EOS:
+https://eva.coop/
+
+{Embed}
+https://eva.coop/
+Eva coop
+Eva is a cooperative ride-sharing application based on blockchain.
+https://images-ext-2.discordapp.net/external/Cr_kWHsp7Z6C3qQsOIssh9TvjId0b3z-vCHVJgtnesU/http/eva.coop/img/eva_share_img.png
+
+
+[06-May-19 08:54 PM] AALEXJ#5233
+Maybe should have asked this in marketing, but are there any efforts to try and poach projects to get them onto the platform?(in a general sense)
+
+
+[06-May-19 08:56 PM] polycryptoblog#1173
+Yes
+
+
+[06-May-19 08:58 PM] AALEXJ#5233
+Are you guys aware of anyone building something similar on komodo as yet? Less of a ride sharing company and more of a peer to peer app
+
+
+[06-May-19 09:11 PM] polycryptoblog#1173
+As for p2p apps,  utrum is working on his prediction stuff, RedFOX is working on some games , Marmara is working on a p2p credit system,   There is atomicdex as well which is all p2p swaps.
+
+
+[06-May-19 09:14 PM] polycryptoblog#1173
+Don’t think anyone is doing p2p services like ridesharing in the ecosystem yet.  Services based around a crypto have their challenges
+
+
+[12-Sep-19 08:26 PM] polycryptoblog#1173
+If the multiple-signature wallet provider restricts its role to creating un-hosted
+wallets that require adding a second authorization key to the wallet owner’s private
+key in order to validate and complete transactions, the provider is not a money
+transmitter because it does not accept and transmit value.56
+56. 31 CFR § 1010.100(ff)(5)(ii)(A).
+ On the other hand, if the
+person combines the services of a multiple-signature wallet provider and a hosted
+wallet provider, that person will then qualify as a money transmitter. Likewise,
+if the value is represented as an entry in the accounts of the provider, the owner
+does not interact with the payment system directly, or the provider maintains
+total independent control of the value, the provider will also qualify as a money
+transmitter, regardless of the label the person applies to itself or its activities.
+
+
+[13-Sep-19 12:09 AM] jl777c#5810
+it seems pegs CC msig is ok, according to the above as it is using the decentralized blockchain and it isnt a wallet service
+
+
+[29-Sep-19 05:04 AM] artik123#2884
+https://youtu.be/YhGO2Cwcrl8?t=977 maybe it's the next logical step for komodo pegging...
+
+{Embed}
+CoinDesk
+https://youtu.be/YhGO2Cwcrl8?t=977
+Invest: Asia 2019: Fast Money: Why the Markets Love Stablecoins
+Created in the vacuum left by bitcoin and banking services, allowed to flourish by traders for years, stablecoins are finding new ways to push the crypto ind...
+https://images-ext-1.discordapp.net/external/uGdlAjOWBjsYoVjbVIyMn61t4ElXnNKM_ZTGMmuuBsQ/https/i.ytimg.com/vi/YhGO2Cwcrl8/maxresdefault.jpg
+
+
+==============================================================
+Exported 488 message(s)
+==============================================================
