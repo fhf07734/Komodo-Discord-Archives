@@ -1,0 +1,178 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / intern-meeting7
+==============================================================
+
+[18-Aug-20 09:37 AM] Jcharming#2693
+@polycryptoblog & @PTYX  share introductions and stories of being OG's  
+Some highlights: 
+
+The goal with Antara is to be somewhat the Wordpress of smart contracts for blockchains.  
+KMD is decentralized as an organization and able to be more resistant to 
+-----------------------------------------------------------------------------------------
+What do either of you think are some of the primary things KMD is lacking right now which we can keep in mind as we find things to become passionate about to offer the community here?  
+
+@PTYX   What the project does really need right now is projects, or clients to get them interested in the other services we have.  Which will be mainly atomicdex based. 
+- increasing visibility and liquidity of atomicdex
+
+@grewalsatinder offers help for making videos if we'd like to reach out and have a passion for pursuing that
+making library API's in our own favorite languages. 
+small proof of concept applications: example is a student level application 
+
+@Audo suggests a dev hangout coming up as an option.  
+
+@polycryptoblog offers insight into a fundamental difference between CC contracts and Ethereum contracts.  
+ETH - all logic is contained to that contract, there is no tie to consensus  
+KMD - there is a requirement for consensus  to validate the contract conditions, this was done intentionally to provide higher levels of security
+
+regarding what we can do as interns to keep in mind 2 things come to mind 
+- merchant outreach and getting merchants to use KMD as a payment protocol  
+- launching games (suggests to be cautious and take into consideration any legal ramifications)
+harnessing revenue streams
+-------------------------------------------------------------------------------------------------------------
+
+
+[18-Aug-20 09:43 AM] Jcharming#2693
+Questions to leave for Business team at a later time.  
+
+In an effort to help us understand and then later disseminate this difference, can you fabricate an example to clarify the difference between these fundamental differences? 
+
+There was a mention of work with fiat gateways, combined with the atomicDEX this sounds like it can start offering a full onboarding and trading solution.  Can I get some elaboration on the fiat gateway solutions that was commented on?
+
+
+[18-Aug-20 09:55 AM] Jcharming#2693
+--------------------------------------------------------------------------------------
+@Artakush Shares an example of an incentivized community development platform called HIVE.  
+A focus on community building through gamification is an idea that can be taken away from this platform.  Gamified tasks and learning modules are tangible examples of this idea which are implemented.   
+Shares clicktrackprofit as a theme for a way of thinking about development and a favored resource to check out for ideas.  
+Incentives for completing profiles, making content, completing tutorials and/or participating in the community are useful concepts here especially while exploring the upcoming onboarding process.  
+Torum has a gamification approach for social media which fits this theme as well.  
+
+@Churro comments on agreeing with this incentivize process, and suggests an atomicDEX referral system as a way to add some of this to the KMD system
+---------------------------------------------------------------------------------------------
+
+
+[18-Aug-20 10:01 AM] polycryptoblog#1173
+1) 
+> 1)  Fees :  for certain applications are prohibitively expensive with gas model 2) It allows non-Turing complete chains to utilize Turing complete logic.  3). Language agnostic   : not limited to utilizing Solidity or other uncommon language 4)  portability:  non-KMD based chains can utilize kmd style smart contracts 5) single currency to utilize the system and not multiple currencies 6)  Activatable: plugin like  7)  Consensus level logic vs interpreted logic . ( All nodes must do the contract   Example : DTO 8) Security:  contracts must still abide by consensus rules unlike Ethereum contracts which has rules not tied to consensus.  https://komodoplatform.com/limitations-of-smart-contract-platforms/
+
+{Embed}
+Daniel
+https://komodoplatform.com/limitations-of-smart-contract-platforms/
+Smart Contract Platforms: The Design & Its Limitations
+Smart contract platforms make adopting blockchain easy but are they really the best way to build a blockchain-based app or game? Learn more here.
+https://images-ext-2.discordapp.net/external/4enW5uctW7KHXtgtWrvTGMxSWBA7G4nGzNd_HujFbUE/https/komodoplatform.com/wp-content/uploads/2019/07/limitations-of-smart-contract-platforms-jpg.jpg
+
+
+[18-Aug-20 10:02 AM] polycryptoblog#1173
+"As most smart contracts on the first generation of blockchain platforms are balance-based, a bug in a smart contract leaves all addresses associated with that contract exposed. If hackers find a vulnerability and are able to exploit it, they can drain the funds from every single address that ever transacted with the flawed smart contract."
+
+
+[18-Aug-20 10:04 AM] Artakush#4285
+https://www.youtube.com/watch?v=oqO4vblnQdo
+
+{Embed}
+Appics Official
+https://www.youtube.com/watch?v=oqO4vblnQdo
+Legendary MC Redman represents APPICS | Next Generation Social Media.
+APPICS is a next level social media application based on blockchain technology.
+
+Join the Movement: 
+www.appics.com
+https://t.me/appics_official
+https://www.instagram.com/appics.offi...
+https://www.facebook.com/appics.official
+www.steemit.com/@appics
+https://images-ext-2.discordapp.net/external/JVNNlp4tp2EJ-06kzYovzBvls_sEFUmPVG5PkRpqh04/https/i.ytimg.com/vi/oqO4vblnQdo/maxresdefault.jpg
+
+
+[18-Aug-20 10:06 AM] Jcharming#2693
+@Jack. 
+Discord 
+Started as a gamer platform, however has since evolved to be used by a wider range of communities.
+Discord captured value to users of a wider range, in this sense value is being used as: 
+Value = content + convenient 
+Telegram Tie in options
+
+Harmony protocol shared as an example of a community that is championing content sharing for the community.  
+
+Howdoo is an example of decentralized social media which can offer community engagement solutions.  
+Censorship free/resistant theme, with a native token.  
+#komodocommunity 
+A tie in or tool that reaches an additional audience and lets our community engage in a different way by producing content that can then be integrated back with the main communities. 
+Mobile companion with Desktop Interface 
+However the mobile is the stronger app.
+Request to come back and do a full review at a later date when released.  
+
+Comments on using these kind of resources for targeting specific learners, like visual learners.   Drawing out in depth topics for engagement of the community on a different level which could include setting up developer shares.  
+
+----------------------------------------------------------------------------------------------
+
+
+[18-Aug-20 10:09 AM] polycryptoblog#1173
+indacoin.com , netcoins.ca  -- indacoin powers changelly and other big EU based projects.  netcoins.ca is Canada based, the originally had US integration but had to stop it do to legal issues.    I am working on getting a fiat gateway for US people.   We also have something with Bidali, so will be able to buy gift cards via app too.  looking for more 3rd party integrations as well
+
+
+[18-Aug-20 10:11 AM] Artakush#4285
+"|
+
+
+[18-Aug-20 10:20 AM] Jcharming#2693
+@sakata  
+Prometeus is targeting bringing a twitter style of community and communication to a blockchain application.  
+Currently in beta stage, and there is an incentivization process.  
+Tech is based on the bittorrent file system using arweave which is an archive concept.  
+
+There are some companies taking part including Binance for example, this could be a useful social media outlet for KMD.  
+Suggestion to getting an organizations face on projects as soon as possible, which reflects positively on KMD.  
+Decentralized solution to micro-blogging.  
+A place where KMD can increase it's social media presence.
+
+@Artakush Recommendation to check out restream.io as a solution for single push to multiple platform options.  
+--------------------------------------------------------------------------------------
+
+
+[18-Aug-20 10:28 AM] joe_land1#1088
+srry but imma gotta hop off
+
+
+[18-Aug-20 10:33 AM] Jcharming#2693
+@grewalsatinder shared an account of previous experiences and how in the early days the spirit was different, and that this internship program is something they see as existing in a similar vein.  
+@polycryptoblog adds comment on the division of the team and community as something that wasn't a thing of praise that it happened.  
+@grewalsatinder adds comment that finding things that are within our skill ranges as participants is a huge part of the development here.  
+That words through actions of how we wind up participating is a huge part of this development.
+
+{Reactions}
+👍 (2) 
+
+[18-Aug-20 10:34 AM] Artakush#4285
+@Jcharming  I want my "Shablagoo" recorded on documents 😄
+
+{Reactions}
+💯 (2) 😆 
+
+[18-Aug-20 10:35 AM] grewalsatinder#9653
+@Jcharming you must be top at your class whenever you studied. Your notes are great and quick! 😅
+
+{Reactions}
+👀 🙇‍♂️ 
+
+[18-Aug-20 10:36 AM] Jack.#4200
+Internet dropped sorry guys
+
+
+[19-Aug-20 03:03 AM] Artakush#4285
+https://www.torum.com/signup?referral_code=artakush <<<<------- Torum Invite Link for anyone who wants to try it. Sadly it must be referal. tried to make a clean invite, but they do not allow it 😐
+
+{Embed}
+https://www.torum.com/signup?referral_code=artakush
+Torum - Connecting Worldwide Cryptocurrency Enthusiasts
+TORUM is a crypto-centric social media platform that is designed to connect cryptocurrency enthusiasts and blockchain technologists around the world.
+https://images-ext-2.discordapp.net/external/-HvanELtarvurOv4YAa5n7S6aQA9bK9O251F0au7gKg/https/torum-bucket.s3.us-east-2.amazonaws.com/embedded/torum-500px.png
+
+{Reactions}
+🍉 (2) 
+
+==============================================================
+Exported 16 message(s)
+==============================================================

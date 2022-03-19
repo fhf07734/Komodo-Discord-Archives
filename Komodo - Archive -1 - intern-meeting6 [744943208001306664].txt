@@ -1,0 +1,220 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / intern-meeting6
+==============================================================
+
+[17-Aug-20 09:00 AM] joe_land1#1088
+@Jack. can’t talk cooking breakfast
+
+
+[17-Aug-20 09:01 AM] joe_land1#1088
+No, college essays going up my ass
+
+{Reactions}
+💩 (2) 
+
+[17-Aug-20 09:04 AM] joe_land1#1088
+Dang me too
+
+
+[17-Aug-20 09:04 AM] joe_land1#1088
+Ya boi shaved of 20 lbs in a year from eating well
+
+
+[17-Aug-20 09:04 AM] Jcharming#2693
+woo woo
+
+
+[17-Aug-20 09:05 AM] joe_land1#1088
+But seriously
+
+
+[17-Aug-20 09:05 AM] joe_land1#1088
+It’s so hard to cut out sugar
+
+
+[17-Aug-20 09:05 AM] joe_land1#1088
+It’s so addicting
+
+
+[17-Aug-20 09:06 AM] joe_land1#1088
+I prefer the joe technique: work 20 and rest 40
+
+
+[17-Aug-20 09:07 AM] joe_land1#1088
+So that’s why ur making us talk
+
+
+[17-Aug-20 09:07 AM] joe_land1#1088
+🤣
+
+
+[17-Aug-20 09:07 AM] Jcharming#2693
+
+{Attachments}
+https://cdn.discordapp.com/attachments/744943208001306664/744950583731159061/unknown.png
+
+
+[17-Aug-20 09:10 AM] Jcharming#2693
+Tuesday - Business team joining for us to ask any business questions on.  
+Thursday - Marketing team joining for us to ask marketing.
+
+
+[17-Aug-20 09:21 AM] Jcharming#2693
+@Jack. 
+Discord 
+Started as a gamer platform, however has since evolved to be used by a wider range of communities.  
+Discord captured value to users of a wider range, in this sense value is being used as: 
+*Value = content + convenient* 
+Telegram Tie in options
+
+Howdoo
+Censorship free/resistant theme, with a native token.  
+A tie in or tool that reaches an additional audience and lets our community engage in a different way by producing content that can then be integrated back with the main communities. 
+Mobile companion with Desktop Interface 
+However the mobile is the stronger app.  
+Request to come back and do a full review at a later date.
+
+
+[17-Aug-20 09:23 AM] joe_land1#1088
+@CryptoJesus ur mic died
+
+
+[17-Aug-20 09:26 AM] Jcharming#2693
+@CryptoJesus 
+What other communities want. 
+What they have. 
+
+
+Priorities for coin? 
+Exchanges
+Suggestions is to list on more priority exchanges.  
+
+
+DeFi is the new buzz, is KMD involved? 
+It is, however there is not communication.  Has limited pairings and engagement.  
+KMD can explore partnerships with LINK and other communities not just to tout it's DeFi, but also to be able to advertise it's ability to make stablecoins and other DeFi related projects.  
+
+Telegram?
+KMD does have it, however it's not well advertised.  
+Suggestion is to give this higher visibility.  
+
+Hosted projects? 
+KMD is doing it, however we can emphasize it.  
+
+Concluding notes: 
+KMD really has a draw from OG users, however has poor engagement on hype with newer people.  
+This is a target demographic which is the lowest hanging fruit for the KMD project which is not being harvested.  
+
+__Discussion__ 
+Telegram & Twitter could be better supported and more active from the KMD team.
+Led to commentary regarding KMD and marketing style how it's possible that KMD marketing doesn't give as much space to topical concepts in the hypesphere as it could and instead it tends to be analytical in it's approach and winds up being a bit disclusionary.
+
+
+[17-Aug-20 09:44 AM] Jcharming#2693
+@Churro 
+Library 
+A decentralized youtube/video streaming service.  
+
+Regarding the community.
+The discord channel is very organized and explained with simplicity.  
++The onboarding process is a positive and structured experience. 
++Minimum channels with no need to scroll.
++Positive thoughtful community interaction, which shows up in the general thread. 
++Support channel shows consistent replies, and response rate is both immediate and full.  
+
+Library (LBRY) 
++ Well organized in the way that a user can see important information on a quick scan. 
++ Economics work well for incentivizing users including taking back coins if later supporting a user isn't something one is interested in doing.  
+- Takes a while to upload a video
+- Sometimes there are bugs when uploading 
+
+What makes LBRY great? 
+Consistent in generating a presence. 
+Good energy, lots of fun. 
+Simplicity. The team has done a great job explaining their products, reaching OG, techs, middleman, & newbs. 
+
+__Discussion__
+*How does the hangout work with voice channel, etc?*
+When there are special events there is a creation of channels and voice hangouts specifically for those events to allocate a space for them.  
+The general hangout appears to be more driven by the the community.  
+
+*Concerning the people that utilize the hangout, is it because of the type of people?  streamers, producers etc?* 
+Some of them are comfortable with this, others are people that are made to feel welcome and comfortable to stop by and say hello.  
+
+Suggestion to focus on a theme for a voice channel as LBRY targets a group of people that have a common interest.
+
+
+[17-Aug-20 09:44 AM] Jcharming#2693
+@joe_land1 comments that there is a barrier for entry on voice as it's more personal, and can make for a daunting experience.   There is only an idea of knowing what kind of people you 'could' be interacting with, without knowing exactly what kind of group you're going to be engaging with.  
+Risk of saying hi > than reward of taking a chance to get involved.
+
+
+[17-Aug-20 10:18 AM] Jcharming#2693
+@Jcharming 
+Zenkit which is a project management toolkit set which can be utilized to promote community engagement. 
+
+Highlights
+Multi-person Control
+Comment section in Kanban Cards
+Calendar View
+Live Feed Side Bar > Comments Feed 
+Coming Conversations add-on
+
+
+[17-Aug-20 10:27 AM] Jcharming#2693
+@joe_land1 
+Showing another discord server and commenting on the differences between DogeCash server which has a great community, and KMD server which has a disparity in reflection of this.  
+Focusing on more of the 'person to person' aspect.  
+In this sense community is about people learning about each other and less about the project itself in the sense.  
+The idea of a community is that people come back for the people.  
+Suggestion that KMD doesn't really have a personality aspect.  And as a result it is more about the tech, and less about the person/people behind the tech.  
+
+Poses a great question.   What happens when you take the tech away?   What are we left with? 
+KMD has a great following, has one of the best dev teams, and some of the best tech.  However the discussion within the community is somewhat lacking.  
+
+Comments on the structure of KMD and how there are a ton of channels all tech related.  
+
+__Discussion__ 
+@Audo comments on how this presentation is a great example of why the desire to launch a community development project needed to be launched and spurred on.  
+
+What's the easiest, one thing, lowest hanging fruit, most reward for least effort thing that can be done to bring KMD more into a community space?  
+A.  Cut the # channels.   With more channels there's less engagement in any single channel.  The channels are set up to be topic headings and it creates a fragmented state.
+
+
+[17-Aug-20 10:32 AM] CryptoJesus#3041
+I need to leave guys. Talk to you tomorrow
+
+
+[17-Aug-20 10:33 AM] joe_land1#1088
+@CryptoJesus cya later
+
+
+[17-Aug-20 10:37 AM] Jcharming#2693
+Comment on creating games as an excuse for people to get together.   Where the channel that is related to this game is a place where people can come together to talk about it, however it's not enforced that this is what must be talked about.  it's just creating a space(channel) and excuse(game) for people to come together.
+
+
+[17-Aug-20 10:40 AM] Jcharming#2693
+@Churro suggestion on picking projects that target different audiences for our internship projects.  
+One of the visions for what is to come out of the internship projects that comes to mind.
+
+
+[17-Aug-20 10:44 AM] Jcharming#2693
+In the meta sense we may become @Audo ourselves one day, we may be looking at us being the next generation of those that step up.  It's possible we may be getting setup for not a small participation, but instead to fill the daunting void that is the KMD community which needs people to step up into.
+
+
+[17-Aug-20 10:47 AM] Churro#4832
+Facts on facts @Jcharming
+
+{Reactions}
+🍴 
+
+[17-Aug-20 12:53 PM] joe_land1#1088
+I call dibs on shitposting
+
+{Reactions}
+👀 
+
+==============================================================
+Exported 27 message(s)
+==============================================================

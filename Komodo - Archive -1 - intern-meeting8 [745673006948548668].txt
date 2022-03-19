@@ -1,0 +1,344 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / intern-meeting8
+==============================================================
+
+[19-Aug-20 08:58 AM] Audo#5667
+I'll join in few min!
+
+
+[19-Aug-20 08:59 AM] sakata#4279
+nw 😛
+
+
+[19-Aug-20 09:27 AM] Jcharming#2693
+@Audo led a wrap-up over the previous chapter we've come to cover since the start of the internship and set some thing we can expect while moving forward in the internship the coming weeks.  
+
+@sakata equihash community and Bitcoin community has an interest in us because of the dPOW,  there is a DEFI community which we haven't tapped, and consider the dAPP community.
+
+
+[19-Aug-20 09:28 AM] Jcharming#2693
+@CryptoJesus Mining pools are a set of community that has an interest
+
+
+[19-Aug-20 09:32 AM] Jcharming#2693
+@Artakush ideas on gamification represents a community of interest itself , and content creators as a community that can be captured
+
+
+[19-Aug-20 09:33 AM] Jcharming#2693
+@Churro  comments on learning communities and those that are seeking knowledge over blockchain as a whole, many that are newbies
+Interns ourselves are representative of that group some
+
+
+[19-Aug-20 09:34 AM] sakata#4279
+If we are marketing AtomicDEX as an interoperability engine, there's a whole new array of opportunity for interest (mostly an extension of dapps)
+
+
+[19-Aug-20 09:35 AM] Jcharming#2693
+@joe_land1 comments that for gamers may have a niche community, but not in the mainstream.  So small community of interest?
+@Artakush makes a case for gamer interest for games that are accessible and where blockchain is something that happens as part of the process but isn't up in their faces.  @joe_land1 adds that the mainstream capture just isn't happening atm bc there just isn't as heavy of interest in learning, and it doesn't sound like the mainstream community wouldn't be against incentives, but it wouldn't matter if it was blockchain incentives or other.
+
+
+[19-Aug-20 09:39 AM] joe_land1#1088
+I think an exampel could be the cs go market. Ppl participate in the cs go market cuz they like skins, want to make money, or the steam economy is just an interesting place. It's similar to crypto kinda, but you dont NEED a blockchain to do it, so ppl willl just stay with wut thye know
+
+{Reactions}
+🍴 
+
+[19-Aug-20 09:55 AM] Jcharming#2693
+@CryptoJesus giveaways for KMD if they hold it they have incentive to be a part of the community.  
+
+@Jcharming AtomicDEX and CC both have a very strong opportunity to be exploited in creating a community of activity. 
+How about incentivizing milestones or activity not for KMD for crypto but instead doing KMD for active platforms loot crates and redeemable gift certificates.  
+
+@Artakush tech incentives for tech savey, content incentives for content creators.  
+If AtomicDEX can setup swaps for anything, then lets set-up swaps and giveaways for redeemable content that people want.  
+Work with @CryptoJesus idea that step 1 is come for the KMD giveaway. step 2 is if you don't want the KMD you can trade it for redeemable memberships, amazon gift cards, or content on your favorite platform.
+
+
+[19-Aug-20 09:56 AM] Jcharming#2693
+@joe_land1 speaks on meshing the economics with the tech side to proliferate the ideas of blockchain and the tech regardless if it's directly about KMD or not
+
+
+[19-Aug-20 09:58 AM] sakata#4279
+think we're in the wrong channel 🙂
+
+
+[19-Aug-20 09:58 AM] Jcharming#2693
+hype as one of the options to look into.  Hype 1000 people and capture 1%
+
+
+[19-Aug-20 09:58 AM] joe_land1#1088
+nah this is right one
+
+
+[19-Aug-20 09:58 AM] Jcharming#2693
+Yea our voice channel is in the community hangout
+
+
+[19-Aug-20 09:58 AM] sakata#4279
+internship-voice normally i think
+
+
+[19-Aug-20 09:58 AM] Jcharming#2693
+but it's kind of cool that other people are stopping by,
+
+
+[19-Aug-20 09:59 AM] sakata#4279
+for sure
+
+
+[19-Aug-20 09:59 AM] Jcharming#2693
+aren't we trying to make a community?
+
+
+[19-Aug-20 09:59 AM] Jcharming#2693
+lol
+
+
+[19-Aug-20 09:59 AM] Jcharming#2693
+accidental involvement
+
+
+[19-Aug-20 10:00 AM] joe_land1#1088
+brb.
+
+
+[19-Aug-20 10:02 AM] joe_land1#1088
+back
+
+
+[19-Aug-20 10:08 AM] Jcharming#2693
+@Jcharming suggests that atomicDEX *is* one of our 'physical spaces' that we can meet up as a community.  Enabling chat functions and a way to communicate with eachother could be a big deal, even if it's just a troll box. 
+
+Oink suggests online and virtual meetings gives great feedback over the idea that since (unknowingly to him) we the internship accidently loaded into the community hangout voice channel, it's a thing that if it happens on a weekly basis people will just join in and talk about community.  
+This is all under the guise of having a topic every week to talk about, that's a great way to get ideas from the community.
+
+
+[19-Aug-20 10:10 AM] Jcharming#2693
+COVID19 as a marketing oppertunity
+
+
+[19-Aug-20 10:28 AM] Jcharming#2693
+Lots of great ideas, Audo is making a better list of comments on the streamed document, please reference that for further.
+
+
+[19-Aug-20 10:31 AM] Jack.#4200
+Sorry for my absence today guys I got stuck in traffic after climbing
+
+
+[19-Aug-20 10:32 AM] Audo#5667
+https://docs.google.com/document/d/1UIbVBIl7zzZydq6C3E3jHgjfOwPacf1uOO6QE2WL6Uk/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/document/d/1UIbVBIl7zzZydq6C3E3jHgjfOwPacf1uOO6QE2WL6Uk/edit?usp=sharing
+August Week 3 – The Last Discovery Meetings
+August Week 3 – The Last Discovery Meetings  Review & Summary, Final Theory Concepts       Where Are We? Phase A: The Big Picture (4 weeks) Focus on discovery and getting to know each other better. We analyze the general situation and brainstorm solutions. Phase B: Project For...
+https://images-ext-2.discordapp.net/external/19DRlwwOYUsNCKwKDf-CEACxrmcD__2-WBYja7IiZQ0/https/lh4.googleusercontent.com/61DzmHuOEKgT6bQkZLKS_RsJjCnyifIfLUcvE6WPAPEYTmEUXRX9FrFMLP8DLtHCTqwEXFL6Tw%3Dw1200-h630-p
+
+
+[19-Aug-20 10:32 AM] Churro#4832
+It would be cool once we share our ideas to the community maybe we can have them choose which areas we should focus on so that way we have a good direction that includes everyone
+
+{Reactions}
+💯 (2) 
+
+[19-Aug-20 10:32 AM] Jcharming#2693
+climbing > most things 
+I feel ya @Jack.
+
+{Reactions}
+💯 
+
+[19-Aug-20 10:32 AM] Audo#5667
+@Jcharming I think our note taking compliments each other really well. You caputre a lot of details I miss
+
+
+[19-Aug-20 10:33 AM] Jcharming#2693
+perfect I"ll keep up with it then in the future.
+
+
+[19-Aug-20 10:33 AM] Jack.#4200
+Always need to send it 😂
+
+{Reactions}
+😂 
+
+[19-Aug-20 10:33 AM] Audo#5667
+no problem @Jack. ! I recorded the meeting so you can catch-up 😄
+
+
+[19-Aug-20 10:34 AM] Jcharming#2693
+http://gph.is/2AxB2hE
+
+{Embed}
+https://giphy.com/gifs/mrw-time-qOhzfrkMzQO8U
+https://images-ext-2.discordapp.net/external/3jAMw0klWMC-b_Dque05a-PfTDVaOmy7do_morAQQXQ/%3Fcid%3D73b8f7b1dd392cf41ba577fc64dbd842a92b9b1df5e0e077%26rid%3Dgiphy_s.gif/https/media1.giphy.com/media/qOhzfrkMzQO8U/giphy_s.gif
+
+{Reactions}
+😂 
+
+[19-Aug-20 10:34 AM] Audo#5667
+good idea @Churro ! We should ask for feedback and further ideas too
+
+{Reactions}
+💯 
+
+[19-Aug-20 10:34 AM] Churro#4832
+yupp
+
+
+[19-Aug-20 10:35 AM] Artakush#4285
+;DDDDD
+
+
+[19-Aug-20 10:35 AM] Jcharming#2693
+We could run with that, maybe post internship? @Churro  and do a once a week open chat with the community where we just show up in channel and talk about ideas like or even get @Audo  to lead something if possible.
+
+{Reactions}
+📈 (2) 
+
+[19-Aug-20 10:35 AM] Artakush#4285
+I think that will be established at the community hangout after we present the key notes
+
+
+[19-Aug-20 10:36 AM] Artakush#4285
+Let's not forget to do the laundry
+
+
+[19-Aug-20 10:36 AM] Artakush#4285
+https://www.youtube.com/watch?v=1okqvhq7ZaI
+
+{Embed}
+xdannyxbrownxVEVO
+https://www.youtube.com/watch?v=1okqvhq7ZaI
+Danny Brown - Dirty Laundry
+Official Video for Dirty Laundry by Danny Brown
+uknowhatimsayin¿ out now on WARP | https://uknowhatimsayin.com
+Pre-Order Vinyl, CD & Merch (out Nov 22nd) at https://dannybrown.warp.net
+
+Video directed by Simon Cahn
+Track produced by Q-Tip
+
+Pre-Order / Pre-Save ‘uknowhatimsayin...
+https://images-ext-2.discordapp.net/external/QxHHZGyrDocbf4I60L-epfZcjpsPGSqeWP-se-EyHOg/https/i.ytimg.com/vi/1okqvhq7ZaI/maxresdefault.jpg
+
+{Reactions}
+😂 
+
+[19-Aug-20 10:36 AM] Artakush#4285
+uknowwhatimsayin
+
+
+[19-Aug-20 10:37 AM] Jcharming#2693
+imafeelya
+
+{Reactions}
+💪 (2) 😅 (2) 
+
+[19-Aug-20 10:39 AM] Jcharming#2693
+https://www.youtube.com/watch?v=ocGiulPm3IU
+feel?
+
+{Embed}
+LilDickyVEVO
+https://www.youtube.com/watch?v=ocGiulPm3IU
+Lil Dicky - Lemme Freak (Official Video)
+For the single, "Lemme Freak".  Available Now!
+iTunes: http://tinyurl.com/mefjtcb
+
+http://lildicky.com/
+https://www.facebook.com/LilDickyRap
+https://twitter.com/lildickytweets
+
+Directed by Tony Yacenda
+Produced by Jim Cummings
+www.woodheadentertainment.com
+www.tonyyacenda.com
+...
+https://images-ext-2.discordapp.net/external/SManKbkja1ZHU073oRp6KJZC1yedA4z86IWPaaLNg9g/https/i.ytimg.com/vi/ocGiulPm3IU/maxresdefault.jpg
+
+
+[19-Aug-20 10:39 AM] Churro#4832
+@Jcharming maybe but because we have so many ideas and directions, it would be nice to hear what everyone else in the community thinks so that everyone is on the same page lol
+
+
+[19-Aug-20 10:39 AM] Artakush#4285
+ah yeah ;D
+
+
+[19-Aug-20 10:39 AM] Jcharming#2693
+> @Jcharming maybe but because we have so many ideas and directions, it would be nice to hear what everyone else in the community thinks so that everyone is on the same page lol
+@Churro word, I like it too
+
+
+[19-Aug-20 10:40 AM] Churro#4832
+@Artakush thts the heat 💯
+
+
+[19-Aug-20 10:40 AM] Jcharming#2693
+Everything has the feel to me right now of deep into explore phase with a group and some of us are starting to sniff around for traction on a specific direction to take off on.  It's dope
+
+{Reactions}
+💯 
+
+[19-Aug-20 10:40 AM] Artakush#4285
+Danny Brown is the man ;D
+
+
+[19-Aug-20 10:41 AM] Artakush#4285
+could not agree more
+
+
+[19-Aug-20 10:41 AM] Churro#4832
+yea mannnn
+
+
+[19-Aug-20 10:41 AM] Churro#4832
+lol that guy has 1M views
+
+
+[19-Aug-20 10:42 AM] Artakush#4285
+easy, he is hustling for a long time
+
+
+[19-Aug-20 10:42 AM] Artakush#4285
+just got new teeth
+
+
+[19-Aug-20 10:42 AM] Artakush#4285
+😄
+
+
+[19-Aug-20 10:42 AM] Churro#4832
+LMAOO
+
+
+[19-Aug-20 10:42 AM] Artakush#4285
+i know sum of you into beats and raps, we should have our own room for this stuff ;d bars fo dayz
+
+
+[19-Aug-20 10:46 AM] Jcharming#2693
+word, I should've dropped this one of his instead.  beats and raps <https://www.youtube.com/watch?v=LlU4FuIJT2k>
+
+
+[19-Aug-20 10:50 AM] Churro#4832
+yea im down for a rap battle 😂
+
+
+[19-Aug-20 10:54 AM] Jack.#4200
+> no problem @Jack. ! I recorded the meeting so you can catch-up 😄
+@Audo  brilliant 👌🏻
+
+
+[19-Aug-20 02:05 PM] joe_land1#1088
+maybe meet in vr chat lol
+
+
+[19-Aug-20 02:05 PM] joe_land1#1088
+theres desktop verison
+
+
+==============================================================
+Exported 64 message(s)
+==============================================================

@@ -1,0 +1,130 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / intern-meeting3
+==============================================================
+
+[12-Aug-20 09:05 AM] joe_land1#1088
+first
+
+{Reactions}
+😂 
+
+[12-Aug-20 09:05 AM] Jcharming#2693
+dammit
+
+
+[12-Aug-20 09:06 AM] Churro#4832
+😂😂
+
+
+[12-Aug-20 09:50 AM] Audo#5667
+open form for community to give feedback
+
+
+[12-Aug-20 09:54 AM] Audo#5667
+"what's your question about Komodo?" simple form
+
+
+[12-Aug-20 09:57 AM] Audo#5667
+good system for portal
+
+
+[12-Aug-20 10:01 AM] Audo#5667
+concern: too many points of entry
+
+
+[12-Aug-20 10:17 AM] Jcharming#2693
+**10 mins review over previous meeting content**
+Seven community principles concepts
+
+
+**Today's topic**
+Get coins on the dex, which means making videos to help people becomes MM.
+
+@sakata The idea of making liquidity for DEX, making a wrapped BTC or other token (alt like DOGE) to help provide liquidity in a temporary manner to coins that don't have volume.  This brings more to the DEX and brings more use case to the KMD coin which gets two birds stoned at the same time.
+  
+@Audo rewarding users for using swaps and getting tiers of KMD rewards (the 5.1% annual) 
+Also and more pheasibly @Audo is commenting on rewarding users for swaps that they have been doing and using the wallet for.  
+
+@sakata incentivizing small crowd funding sources, this is an oppertunity to be DeFi MM, which captilzes on several ideas.  
+
+@Churro comments on being able to staking other coins inside the the atomicDEX wallet, and suggestions by @sakata come out to talk about writing scripts that can pull API from other wallets so if nothing else a user could view their rewards from various coins and use atomicDEX and wallet as an alt/aggregator manager.
+
+
+[12-Aug-20 10:17 AM] Jcharming#2693
+On the topic of community building 
+@Jack. makes comments on providing better ways to disseminate easy to digest and access information.  Built on this there is a follow up request for a google form that is continually left open for users to post questions and feedback.  
+This can become a sundry list for topics to tackle one at a time and provide content over to make more accessible or a clearer path.   
+This is an actionable topic that has high reward and low effort to complete. 
+
+@sakata incentivize major KMD actors to answer questions for newbies.  Create situations where advanced users can help newbies and help them surmount challenges to find answers and make clear paths.  
+There can be clear lines for unanswered questions to tea
+Incentivized stack overflow? Followup: How to incentivate questions?  A:?  Make games or other things from yesterday meeting, these are things that people can grab onto and want to come ask quetions about 'how to build' 
+
+On the topics of Community needs to provide value to it's members.
+@sakata comments on making the Komodo webpage more beginner friendly creating a drop down box to ask the user what level they are and then present the appropriate info.  This idea can be used for any application dispersion information.  
+
+@Jack.  Just have things like the webpage be a single page.  
+Although these was a rebuttle about 'going to far into simple'   
+It's a great representation of the idea that if something seems annoyingly painfully simple to us as 'more advanced' users than it is actually just right for newbies.  
+
+
+
+
+
+
+**Request**
+What are other use cases for KMD?
+
+
+[12-Aug-20 10:23 AM] Audo#5667
+Today's doc: https://docs.google.com/document/d/1P76LknlursWPfiUss_4EVZ8u8mJ2IRK7uPm-LKGRTgQ/edit?usp=sharing
+
+(editing enabled!)
+
+{Embed}
+https://docs.google.com/document/d/1P76LknlursWPfiUss_4EVZ8u8mJ2IRK7uPm-LKGRTgQ/edit?usp=sharing
+#3 Wednesday Meeting
+Wednesday Meeting: Community Purpose & Benefits  KMD Overview Characteristics Low Mining Inflation (1.3 % annual inflation from mining) Active user rewards (5.1 % per year when claimed monthly) Always mixed with staking (technically it is not staking) Not everyone is collectin...
+https://images-ext-1.discordapp.net/external/2MyV7B3iMB6FAEDm6NtKtMvyf10kH-B878l7jIuUgfU/https/lh6.googleusercontent.com/QMg2YCc1jnTdljUUu340bg1y_PReko9-q0IaKOR3sxtXoRfglWLdP1UXQD5-W1JbkGOJ5_suWQ%3Dw1200-h630-p
+
+
+[12-Aug-20 10:23 AM] joe_land1#1088
+imma gotta hop off
+
+
+[12-Aug-20 10:23 AM] Audo#5667
+talk to you tomorrow @joe_land1 !
+
+
+[12-Aug-20 10:23 AM] joe_land1#1088
+👍
+
+
+[12-Aug-20 10:32 AM] Jcharming#2693
+**Post meeting notes**
+@Jcharming comments about using wrapped tokens to build MM defi pools using cryptocondtions. 
+
+@sakata The melon protocol, dhedge, and the ideas of making decentralized portfolios.  And assigning a token to those and use the atomicDEX to onload people as the adex provides a nice space for people to onboard and offboard as close as we can get to a p2p or 'localbtc' feel.  
+Comments on layer 2 and layer 3 solutions and leveraging the interop of the KMD smartchains and the ease of launching chains.
+
+
+[12-Aug-20 10:36 AM] Churro#4832
+These ideas are 🔥🔥
+
+
+[12-Aug-20 10:44 AM] sakata#4279
+@Jcharming Your notetaking is surreal, big respect 🙂 Sorry if I dragged the call out today everyone, I will focus on discussing exterior ideas after the 1hr is up!
+
+{Reactions}
+🔥 (2) 
+
+[12-Aug-20 10:45 AM] Audo#5667
+I am very glad there are tons of discussion & ideas! Running out of time is a good problem to have 🙂
+
+{Reactions}
+2561_feelsevilman (2) 💯 (2) 🍉 (2) 🍴 
+
+==============================================================
+Exported 17 message(s)
+==============================================================

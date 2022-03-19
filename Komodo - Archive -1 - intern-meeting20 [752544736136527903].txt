@@ -1,0 +1,447 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / intern-meeting20
+==============================================================
+
+[07-Sep-20 08:12 AM] Audo#5667
+Slyris on #🤝│dex-desktop :
+
+> As promised, a little surprise concerning the progress of the week: Redesign of the wallet page to switch to an asynchronous model. Asynchronous rewards claiming and unlimited transaction history with scrolling that fetch as you go.
+> 
+> The send button also becomes asynchronous, next step are notifications when your balance changes (incoming / outgoing coins).
+
+See the video: https://discordapp.com/channels/412898016371015680/705374203972419616/751895085615939594
+
+☝️ here's content for a potential Social media blast & campaign. Also if you guys are up for it we can edit the video to include some light music. 
+
+@deleted-role let me know if you or some of you would like to take this task. If not, our marketing team will tweet about it this week.
+
+{Reactions}
+👀 
+
+[07-Sep-20 08:12 AM] Audo#5667
+and btw, it's meeting time! I'll be afk 3 min.
+
+
+[07-Sep-20 08:40 AM] Audo#5667
+@CryptoJesus thinking of Twitter content ideas that:
+ - Promote AtomicDEX
+ - Get community involvement (ask community what they would like to see)
+
+Further Ideas & directions:
+ - AtomicDEX infographic contest (launched on Twitter)
+ - Weekly updates series on SM (provide regular dev updates on SM)
+
+@CryptoJesus's goal is to get the first Twitter content ready for review by Tuesday.
+
+{Reactions}
+👍 
+
+[07-Sep-20 08:47 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/752544736136527903/752555547148156938/unknown.png
+
+{Reactions}
+🍉 
+
+[07-Sep-20 08:47 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/752544736136527903/752555662638317668/unknown.png
+
+{Reactions}
+🍉 
+
+[07-Sep-20 08:48 AM] Audo#5667
+☝️ those are our current banner templates we can use.
+
+
+[07-Sep-20 08:56 AM] Audo#5667
+I keep disconnecting. The wifi signal drops off frequently.
+
+
+[07-Sep-20 08:57 AM] Audo#5667
+I'll try something. I'll be back in 5 min for the @deleted-role meeting. I have some ideas to bounce with you @sakata
+
+
+[07-Sep-20 08:57 AM] sakata#4279
+> I'll try something. I'll be back in 5 min for the @deleted-role meeting. I have some ideas to bounce with you @sakata
+@Audo no problem
+
+
+[07-Sep-20 09:25 AM] joe_land1#1088
+i think my main concern was mentioed my poly
+
+
+[07-Sep-20 09:26 AM] joe_land1#1088
+making sure that people undestand whats happening
+
+
+[07-Sep-20 09:26 AM] joe_land1#1088
+because saying many differnet things could cause more confusion
+
+
+[07-Sep-20 09:27 AM] joe_land1#1088
+because the resources on komodo should be good to encourage ppl to come in
+
+
+[07-Sep-20 09:27 AM] joe_land1#1088
+if no one understands, itll just be one huge clusterfuck
+
+
+[07-Sep-20 09:32 AM] joe_land1#1088
+yeah, governance can help  a loot
+
+
+[07-Sep-20 09:32 AM] joe_land1#1088
+cuz ppl will discuss n shit
+
+
+[07-Sep-20 09:32 AM] sakata#4279
+we can call it aristotle or something
+
+
+[07-Sep-20 09:32 AM] sakata#4279
+or plato
+
+
+[07-Sep-20 09:38 AM] joe_land1#1088
+@Jcharming u have a server?
+
+
+[07-Sep-20 09:38 AM] joe_land1#1088
+ah ic
+
+
+[07-Sep-20 09:38 AM] joe_land1#1088
+prob good if i should join
+
+
+[07-Sep-20 09:38 AM] joe_land1#1088
+could see how we would play with the bot
+
+
+[07-Sep-20 09:39 AM] joe_land1#1088
+YAG is pretty good
+
+
+[07-Sep-20 09:39 AM] joe_land1#1088
+yeah role reactions pretty 👌
+
+
+[07-Sep-20 09:39 AM] joe_land1#1088
+yeeeeeeeeeeeeeeeeee
+
+{Reactions}
+🥳 (2) 
+
+[07-Sep-20 09:39 AM] joe_land1#1088
+we was talkin aboot that
+
+
+[07-Sep-20 09:40 AM] joe_land1#1088
+yep
+
+
+[07-Sep-20 09:41 AM] joe_land1#1088
+perms r a bitch tho
+
+
+[07-Sep-20 09:41 AM] joe_land1#1088
+heads up lol
+
+
+[07-Sep-20 09:45 AM] joe_land1#1088
+@Jcharming do you want me to send u my server structure+ notes later?
+
+
+[07-Sep-20 09:45 AM] joe_land1#1088
+yeah
+
+
+[07-Sep-20 09:45 AM] joe_land1#1088
+not done yet
+
+
+[07-Sep-20 09:45 AM] joe_land1#1088
+and my comments r like
+
+
+[07-Sep-20 09:45 AM] joe_land1#1088
+"shit name, fix, idk"
+
+{Reactions}
+PeepoThink 
+
+[07-Sep-20 09:46 AM] joe_land1#1088
+so dont judge
+
+
+[07-Sep-20 09:46 AM] joe_land1#1088
+stop making fun of my fetishes
+
+
+[07-Sep-20 09:46 AM] joe_land1#1088
+wait wut
+
+
+[07-Sep-20 09:47 AM] joe_land1#1088
+also, whats happening with the houses/activities
+
+
+[07-Sep-20 09:47 AM] joe_land1#1088
+i was thinking of implementing something, but whats the whole picture>
+
+
+[07-Sep-20 09:47 AM] joe_land1#1088
+?
+
+
+[07-Sep-20 09:47 AM] Jcharming#2693
+I don't know if we know the whole structure yet @sakata  I think is championing this part
+
+
+[07-Sep-20 09:48 AM] joe_land1#1088
+ic
+
+
+[07-Sep-20 09:48 AM] joe_land1#1088
+so ill just put some filler there
+
+
+[07-Sep-20 09:48 AM] joe_land1#1088
+for now
+
+
+[07-Sep-20 09:48 AM] Jcharming#2693
+Who has been talking about starting up community dicsussions over these topics. 
+
+Combination focus group and feedback info
+
+
+[07-Sep-20 09:49 AM] sakata#4279
+all of my thoughts are here https://docs.google.com/presentation/d/1q-oN03xoZemQqHyXbpUxt5YbSaIP9wnBG3i26HmuU_8/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/presentation/d/1q-oN03xoZemQqHyXbpUxt5YbSaIP9wnBG3i26HmuU_8/edit?usp=sharing
+KMD Community
+Community Formation “Komodo isn’t just code; it’s a home - a place to belong” An outline for a potential hierarchy & structure for a community within Komodo
+https://images-ext-2.discordapp.net/external/ValxgPeEM07vQKRVRhM3vtQH6FOGO_j1G39xb3c2ZhE/https/lh5.googleusercontent.com/fUkks6ETk5OJVbiVflmPcMa4G27Bsa1wjFTqdOVBOM1mmgE8J9Qz19-irID389_QV2jjfyqJxw%3Dw1200-h630-p
+
+
+[07-Sep-20 09:49 AM] sakata#4279
+finished btw
+
+
+[07-Sep-20 09:49 AM] joe_land1#1088
+@sakata spicy
+
+
+[07-Sep-20 09:49 AM] sakata#4279
+> @sakata spicy
+@joe_land1 extra chilly mb
+
+
+[07-Sep-20 09:50 AM] joe_land1#1088
+i got 3/4 depending on how you count
+
+
+[07-Sep-20 09:50 AM] joe_land1#1088
+👍
+
+
+[07-Sep-20 09:51 AM] joe_land1#1088
+5 is prob the max before it becomes to omuch
+
+
+[07-Sep-20 09:52 AM] joe_land1#1088
+yeah
+
+
+[07-Sep-20 09:52 AM] joe_land1#1088
+information overload
+
+
+[07-Sep-20 09:52 AM] joe_land1#1088
+analysis peralisis
+
+{Reactions}
+😂 
+
+[07-Sep-20 10:01 AM] joe_land1#1088
+bipedal sheep paper
+
+
+[07-Sep-20 10:01 AM] joe_land1#1088
+https://tenor.com/view/puppet-awkward-looking-what-side-eye-gif-15476992
+
+{Embed}
+https://tenor.com/view/puppet-awkward-looking-what-side-eye-gif-15476992
+https://images-ext-2.discordapp.net/external/J3viMQSpFHuNKg84YkS4-aLiMdQKLgkzF9zbmIsXu0s/https/media.tenor.co/images/bc88d5acef586c537052baefbe146634/tenor.png
+
+
+[07-Sep-20 10:02 AM] joe_land1#1088
+ew
+
+
+[07-Sep-20 10:02 AM] joe_land1#1088
+thats ugly
+
+
+[07-Sep-20 10:02 AM] joe_land1#1088
+wtf
+
+
+[07-Sep-20 10:02 AM] joe_land1#1088
+thats like puke with extra colors
+
+
+[07-Sep-20 10:03 AM] joe_land1#1088
+imo the color is good unity
+
+
+[07-Sep-20 10:03 AM] joe_land1#1088
+maybe make sure that the image is different
+
+
+[07-Sep-20 10:03 AM] joe_land1#1088
+im thinking from a presentation standpoint
+
+
+[07-Sep-20 10:04 AM] joe_land1#1088
+like itll be good to hold the same color for just looking together
+
+
+[07-Sep-20 10:04 AM] joe_land1#1088
+but
+
+
+[07-Sep-20 10:04 AM] joe_land1#1088
+have differnt logo
+
+
+[07-Sep-20 10:05 AM] joe_land1#1088
+just my opinion
+
+
+[07-Sep-20 10:05 AM] joe_land1#1088
+i like the top one
+
+
+[07-Sep-20 10:05 AM] joe_land1#1088
+trhe dark version
+
+
+[07-Sep-20 10:05 AM] joe_land1#1088
+except that 2nd bubble doesnt look good
+
+
+[07-Sep-20 10:06 AM] joe_land1#1088
+imo
+
+
+[07-Sep-20 10:06 AM] joe_land1#1088
+cuts through
+
+
+[07-Sep-20 10:06 AM] joe_land1#1088
+yeee
+
+
+[07-Sep-20 10:06 AM] joe_land1#1088
+easy on the eyes
+
+{Reactions}
+AtomicDEX 
+
+[07-Sep-20 10:07 AM] Jcharming#2693
+Order for approval of new discord launch process: 
+
+1)  Complete test server creation with reaction roles and stock cat/channels 
+
+2) Complete community discussions in order to correctly name categories and channels in new Komodo discord experience.  
+Import these community suggests after vet into the test server for the soft opening. 
+
+3) Submit to Komodo team for review and commentary
+3a) If there are change requests then complete then adjust  
+
+4) Submit to @Audo for ultimate approval
+
+5) Begin structuring the how-to process for moving over community to new server.
+
+{Reactions}
+👌 
+
+[07-Sep-20 10:09 AM] joe_land1#1088
+i think imma hop off
+
+
+[07-Sep-20 10:09 AM] joe_land1#1088
+i got homework to do
+
+
+[07-Sep-20 10:09 AM] joe_land1#1088
+lol
+
+
+[07-Sep-20 10:09 AM] joe_land1#1088
+thanks, u2 audo
+
+{Reactions}
+🙏 
+
+[07-Sep-20 10:09 AM] joe_land1#1088
+granted its not hw for u
+
+
+[07-Sep-20 10:09 AM] joe_land1#1088
+but a job
+
+
+[07-Sep-20 10:13 PM] gcharang#6833
+> how-to process for moving over community to new server
+
+I don't know *why* we want to move the community to a new server, but I don't think its a good idea. we will lose so much info and important chats that happened here. we shouldn't do it unless it is absolutely necessary imo
+@Jcharming
+
+
+[07-Sep-20 10:58 PM] Jcharming#2693
+@gcharang There should be a clarification here to help give context to what you're reading, because I am in complete agreement.   
+The notes I leave in this channel for each meeting are personal shorthand notes to help provide a line for what was discussed. 
+
+In this note that you are referencing
+> how-to process for moving over community to new server
+
+The 'new' server only means the 'new version', 'new format', or 'new structure' of what the Komodo server will take on.  
+These notes are not meant to reference any actual migration as the goal is to keep in-tact all channels and information and not interrupt workflow during with the ideas presented here.  
+
+I agree that moving the community to an actual *new server* is not a good idea.  These notes are only meant to be footnotes referencing the restructure process that is going to be built and presented to @Audo  and the Komodo team.  All communication during meetings is targeted at referencing this.   
+
+To elaborate 5) without context of being present at meeting conversation should read more like this. 
+
+5) Begin generating clear plan of the process for implementation of new channel structure and onboarding process, leading to eventual revamp of Komodo server.  
+Be sure that information for this move and revamp clearly shows how it will be implemented with minimal workflow/usage interruption, and without causing the removal of any members of the community during completion.
+
+
+[07-Sep-20 11:00 PM] Jcharming#2693
+@gcharang I hope that helps to clear up what must have originally been a confusing scan of the meeting notes.  @Audo o has more information on what is to come I know, and I actually appreciate the feedback above.  I'm sure if anyone else scans these notes they had a similar concern and set of questions in mind.
+
+
+[07-Sep-20 11:02 PM] gcharang#6833
+> The 'new' server only means the 'new version', 'new format', or 'new structure' of what the Komodo server will take on
+yup, got it. thought that was the case but had to make sure 😆 
+
+> 5) Begin generating clear plan of the process for implementation of new channel structure and onboarding process, leading to eventual revamp of Komodo server.
+thats a great idea
+
+{Reactions}
+KMD (2) AtomicDEX (2) 🦉 (2) 
+
+[08-Sep-20 01:03 AM] Audo#5667
+I want to mention also that we are not looking to delete any existing channels
+
+
+==============================================================
+Exported 87 message(s)
+==============================================================
