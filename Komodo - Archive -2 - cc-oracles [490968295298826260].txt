@@ -1,0 +1,5676 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-oracles
+Topic: This channel is for discussion and announcements surrounding the oracles crypto condition contract. Please feel free to answer any questions, technical or non-technical. The oracles contract can be used for converting off-chain data into on-chain data. It has vast set of use cases as dapps and other contracts can trigger actions based on what is written to an oracle. Please see the channel's pinned messages for examples of how it is currently being used. Alright#0419 will be happy to answer any questions you may have when they are available.
+==============================================================
+
+[16-Sep-18 01:10 PM] jspook16#3059 (pinned)
+https://github.com/KomodoPlatform/Mastering_CryptoConditions
+
+{Embed}
+https://github.com/KomodoPlatform/Mastering_CryptoConditions
+KomodoPlatform/Mastering_CryptoConditions
+How to write utxo based CryptoConditions contracts for KMD chains - by jl777 - KomodoPlatform/Mastering_CryptoConditions
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[16-Sep-18 01:13 PM] jspook16#3059
+I'm reposting some useful info. @jl777c stated that the Oracles CC makes the KV functionality obsolete. There was a convo in #💬┃general about possibly using KV for a simple messaging platform that could be picked up by any wallets/dexs. @PTYX @Alright @Deleted User @sergipcm @Deleted User
+
+{Reactions}
+👀 
+
+[16-Sep-18 01:13 PM] Alright#0419
+the POC we did wasn't secure *at all*
+
+
+[16-Sep-18 01:14 PM] Alright#0419
+but a trollbox really doesn't need to be
+
+
+[16-Sep-18 01:14 PM] jspook16#3059
+@Alright stated he and someone else have created one before with KV; and that the messages could be read as soon as they were in the mempool
+
+
+[16-Sep-18 01:14 PM] Alright#0419
+you could impersonate people for example
+
+
+[16-Sep-18 01:14 PM] jspook16#3059
+yeah thats what i was thinking....something trollbox-y
+
+
+[16-Sep-18 01:14 PM] jspook16#3059
+by using the same key?
+
+
+[16-Sep-18 01:14 PM] jl777c#5810
+you cant impersonate pubkey
+
+
+[16-Sep-18 01:15 PM] jspook16#3059
+I was thinking the pubkey would be the key we'd use
+
+
+[16-Sep-18 01:15 PM] jspook16#3059
+at least for integration in agama or komodo related wallets/dexes
+
+
+[16-Sep-18 01:16 PM] Alright#0419
+if you start a chain for it, I'll show you how we were doing it sometime this week
+
+
+[16-Sep-18 01:17 PM] Alright#0419
+make the chain worthless, giant block rewards
+
+
+[16-Sep-18 01:18 PM] jspook16#3059
+I've got LIZ (Lizzie) running.....
+
+
+[16-Sep-18 01:18 PM] jspook16#3059
+/src/komodod -ac_name=LIZ -ac_supply=100000000 -ac_reward=10000000000 -ac_halving=250000 -ac_end=3000000 -ac_staked=50 -addnode=70.119.217.80:52927 -gen -genproclimit=0
+
+
+[16-Sep-18 01:20 PM] Alright#0419
+there use to be prints in the stdout when KV transactions hit your node's mempool, we were grepping those
+
+
+[16-Sep-18 01:20 PM] Alright#0419
+it shows the full value
+
+
+[16-Sep-18 01:20 PM] Alright#0419
+will have to put those prints back in or something similar
+
+
+[16-Sep-18 01:21 PM] jspook16#3059
+oh i see....im gonna do some testing, see if can replicate
+
+
+[16-Sep-18 01:24 PM] SHossain#0007
+Pinned a message.
+
+
+[16-Sep-18 01:26 PM] jspook16#3059
+so the message isnt really coming from the asset chain right? it sounds like the backend could be tweaked to send from anywhere......it just wouldnt be documented in the chain
+
+
+[16-Sep-18 01:26 PM] jspook16#3059
+@Alright
+
+
+[16-Sep-18 01:27 PM] Alright#0419
+not sure I understand what you mean
+
+
+[16-Sep-18 01:27 PM] Alright#0419
+the message is in the OP_RETURN of a transaction
+
+
+[16-Sep-18 01:27 PM] Alright#0419
+and you can read that message as soon as that transaction enters your mempool
+
+
+[16-Sep-18 01:27 PM] Alright#0419
+which is relatively quickly, would be plenty fast for a trollbox
+
+
+[16-Sep-18 01:28 PM] Alright#0419
+so you can read a message from someone and reply back and forth without any of the transactions being confirmed yet
+
+
+[16-Sep-18 01:30 PM] jspook16#3059
+so I understand that part..... did you use a server to get the "message" broadcast?
+
+
+[16-Sep-18 01:31 PM] Alright#0419
+you just use a normal komodod node for both receiving and sending messages
+
+
+[16-Sep-18 01:32 PM] Alright#0419
+then a script to grep those prints from stdout
+
+
+[16-Sep-18 01:32 PM] jspook16#3059
+I see the stdout where I create the kvupdate. I dont see the stdout on what would be the receiving side
+
+
+[16-Sep-18 01:33 PM] jspook16#3059
+or maybe im not following that part
+
+
+[16-Sep-18 01:40 PM] jspook16#3059
+Im gonna play around with it. If i can get something working ill look into seeing if oracles cc would be better suited
+
+
+[16-Sep-18 02:13 PM] jspook16#3059
+I tried enabling mempool in -debug options (receiving end), no joy
+
+
+[16-Sep-18 02:30 PM] jspook16#3059
+so close lol....i can get the transaction from mempool but i cant get the info where the message would be
+
+
+[16-Sep-18 02:30 PM] jspook16#3059
+i need mempool training..
+
+
+[16-Sep-18 02:41 PM] jspook16#3059
+..and im not on the latest branch that has cc enabled so i cant really test oracles yet. But i think that would present the same problem...the delay for the block to confirm
+
+
+[16-Sep-18 03:02 PM] Alright#0419
+I think it's a good usecase for KV still
+
+
+[16-Sep-18 03:02 PM] jspook16#3059
+yeah i think so i just can extract the payload from mempool on the receiving end
+
+
+[16-Sep-18 03:03 PM] jspook16#3059
+i see the transaction, i can decode it but it doesnt have the KV in it
+
+
+[16-Sep-18 03:04 PM] jspook16#3059
+maybe im looking in the wrong place. can i get op_return from a transaction in mempool?
+
+
+[16-Sep-18 03:05 PM] Alright#0419
+https://github.com/jl777/komodo/commit/62d82abc4c431b9d4f95ee1218c682f9b910389d
+
+{Embed}
+https://github.com/jl777/komodo/commit/62d82abc4c431b9d4f95ee1218c682f9b910389d
+-print · jl777/komodo@62d82ab
+https://images-ext-1.discordapp.net/external/auDSZ7eLIqbPui1Im3X2Jr_UCM3F6Kpn3qdIKcJWxBA/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/5962559
+
+
+[16-Sep-18 03:05 PM] Alright#0419
+uncomment those prints and rebuild
+
+
+[16-Sep-18 03:05 PM] jspook16#3059
+Oh ok. That will print it out in stdout right?
+
+
+[16-Sep-18 03:05 PM] Alright#0419
+all 3 of them
+
+
+[16-Sep-18 03:05 PM] Alright#0419
+yes
+
+
+[16-Sep-18 03:06 PM] jspook16#3059
+dude thank you
+
+
+[16-Sep-18 03:56 PM] jspook16#3059
+@Alright I made the changes but i still dont see it show up on the stdout of the receiveing side. I'll keep poking around. Thanks
+
+
+[16-Sep-18 03:57 PM] Alright#0419
+Hmmm, maybe they are the wrong prints
+
+
+[16-Sep-18 03:57 PM] Alright#0419
+can you show me what it is printing please
+
+
+[16-Sep-18 04:00 PM] jspook16#3059
+umm how do i paste a screen shot? lol
+
+
+[16-Sep-18 04:03 PM] jspook16#3059
+i may not have those privileges..
+
+
+[16-Sep-18 04:05 PM] jspook16#3059
+I can see the stdout on the side where kvupdate is done. However nothing happens on the other komodo instance where I would be "receiving"
+
+
+[16-Sep-18 04:10 PM] Alright#0419
+you'd need to upload the screen shot elsewhere and post a link
+
+
+[16-Sep-18 04:10 PM] Alright#0419
+just copy and paste it between 3 back tics
+
+
+[16-Sep-18 04:10 PM] Alright#0419
+```
+like this
+```
+
+
+[16-Sep-18 04:13 PM] jspook16#3059
+i pm'ed it
+
+
+[16-Sep-18 04:13 PM] jspook16#3059
+thats the image on the sending side which i would expect to also how up on the node that would be the receiving side but nothing shows up on the receiving end
+
+
+[16-Sep-18 04:14 PM] Alright#0419
+oh uhh
+
+
+[16-Sep-18 04:14 PM] Alright#0419
+the stdout in the terminal windows where you started the daemon
+
+
+[16-Sep-18 04:14 PM] Alright#0419
+pipe that to a file then you can grep that file
+
+
+[16-Sep-18 04:14 PM] jspook16#3059
+yeah thats the same windown...im running it in the background
+
+
+[16-Sep-18 04:15 PM] Alright#0419
+don't start it with & at the end or whatever the equivalent is on windows
+
+
+[16-Sep-18 04:15 PM] Alright#0419
+the terminal window you run komodod.exe from should be giving you the prints
+
+
+[16-Sep-18 04:15 PM] jspook16#3059
+ok let me restart it without &
+
+
+[16-Sep-18 04:54 PM] jspook16#3059
+Ok so just posting some info: I was unable to get stdout working for KV so at the moment i cant retrieve the message before the block is mined (meaning about 1 min delay). I will continue to see if I can re-enable KV stdout (in the long run this may not be the best solution) and I will also see if there is a way to retrieve the message from the mempool manually (which there has to be since it was enabled in stdout at one point)
+
+
+[16-Sep-18 05:20 PM] jspook16#3059
+A little more info. I am able to retrieve the txid from mempool and get op_return with getrawtransaction. I can see the message in there (in hex). .... just need to figure out if its always in the same place or what to look for when retrieving just the message portion.
+
+
+[16-Sep-18 05:37 PM] jspook16#3059
+or i may be doing this the hard way....possibly I could use something else to get the message portion
+
+
+[16-Sep-18 05:37 PM] jspook16#3059
+but there is hope
+
+
+[16-Sep-18 05:55 PM] Alright#0419
+grepping the old prints was really simple
+
+
+[16-Sep-18 05:55 PM] Alright#0419
+definitely a better way to do that, but checking every single tx as it enters the mempool with getrawtransaction doesn't seem much better
+
+
+[16-Sep-18 05:59 PM] Deleted User#0000
+If we can find the prints, I can make it pipe those directly to a file like I did with iguana for failed notarizations logs
+
+
+[16-Sep-18 05:59 PM] Deleted User#0000
+Then the troll box can just tail the file every few seconds
+
+
+[16-Sep-18 05:59 PM] Deleted User#0000
+Seems quite a simple solution
+
+
+[16-Sep-18 06:49 PM] Deleted User#0000
+jaut add`-ac_troll` parameter to AC parameters to activate it.
+
+
+[16-Sep-18 07:07 PM] jspook16#3059
+Do I have to rebuild?
+
+
+[16-Sep-18 07:08 PM] jspook16#3059
+By the way thanks for chiming in.
+
+
+[16-Sep-18 08:13 PM] jspook16#3059
+I will work on this during the week
+
+
+[16-Sep-18 08:27 PM] Deleted User#0000
+I would say I would need to fork komodo at first to a new branch
+
+
+[16-Sep-18 08:27 PM] Deleted User#0000
+I will ahve a go at this in a little while, if I can find the correct prints.
+
+
+[16-Sep-18 08:34 PM] jspook16#3059
+If you do, can you pin a message with the link. I may not get back for a couple days
+
+{Reactions}
+👍 (2) 
+
+[17-Sep-18 01:02 PM] Alright#0419
+@jspook16 were they the correct prints?
+
+
+[17-Sep-18 01:58 PM] jspook16#3059
+I tried the last ones you sent me but they didn't work either.
+
+
+[18-Sep-18 09:03 AM] Alright#0419
+sorry @jspook16 I'll take a look today
+
+
+[18-Sep-18 09:03 AM] Alright#0419
+tag me if you respond btw, would have found it for you yesterday, but I just saw that message
+
+
+[22-Sep-18 08:01 PM] jspook16#3059
+@Alright if you get a chance to look for this. I've skimmed a bit but i can't tell what is what yet
+
+
+[22-Sep-18 08:01 PM] jspook16#3059
+I should have at least a half day tomorrow to get this going
+
+
+[28-Sep-18 01:51 PM] Deleted User#0000
+It's just amzing that on all KMD fields working very well and there will be progress in future...keep up
+
+
+[28-Sep-18 06:12 PM] Deleted User#0000
+@Deleted User  Its not that hard to make something work well, when you take all the bugs out 😉
+
+{Reactions}
+pirate 
+
+[14-Oct-18 10:53 AM] sergipcm#2275
+going back to KV thing, I have read once CC stuff but I think my mind is yet not prepared for such complex information xd
+
+
+[14-Oct-18 10:55 AM] sergipcm#2275
+Im trying to workout a kind of delegated identity verification which doesnt exposes the user docs to services but user is able to offer a proof of his identity via KV/ipfs scheme. Pretty basic, I dont like complicated stuff
+
+
+[14-Oct-18 10:59 AM] sergipcm#2275
+also for notary services I think KV thing can get practical... let me draw a basic scheme
+
+
+[14-Oct-18 11:28 AM] sergipcm#2275
+mmm said nothing I guess same can be achieved by simple text into a tx signature
+
+
+[29-Oct-18 06:11 PM] siu#3920
+@sergipcm https://github.com/chainmakers/chainmaker/tree/master/data
+
+{Embed}
+https://github.com/chainmakers/chainmaker/tree/master/data
+chainmakers/chainmaker
+Blockchain infrastructure development. Contribute to chainmakers/chainmaker development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/0Ge3wNvy3GdgH7O50WD_rhZGuESIZPoIE-nCVAftxJc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/35841643
+
+
+[29-Oct-18 06:12 PM] siu#3920
+I did a script to upload and download gpg encrypted messages to a blockchain using KV
+
+
+[05-Nov-18 07:00 AM] sergipcm#2275
+cool will check
+
+
+[11-Dec-18 09:38 AM] sm0key99#0791
+anyone got example of  making an rpc calls to oracle from java/python?
+
+
+[11-Dec-18 09:51 AM] TonyL#3577
+@sm0key99 https://github.com/tonymorony/ChannelsCC-GUI/blob/master/lib/rpclib.py#L86 Python example
+
+{Embed}
+https://github.com/tonymorony/ChannelsCC-GUI/blob/master/lib/rpclib.py
+tonymorony/ChannelsCC-GUI
+Sample GUI for ChannelsCC. Contribute to tonymorony/ChannelsCC-GUI development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[11-Dec-18 09:52 AM] TonyL#3577
+https://github.com/tonymorony/cryptoconditions_tui/blob/master/tuilib.py#L102 Usage example in terminal user interface
+
+{Embed}
+https://github.com/tonymorony/cryptoconditions_tui/blob/master/tuilib.py
+tonymorony/cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[11-Dec-18 09:53 AM] TonyL#3577
+https://github.com/tonymorony/trollbox_gui/blob/master/chatlib.py#L88 Here you can find examples of usage in messenger GUI based on oraclesCC
+
+{Embed}
+https://github.com/tonymorony/trollbox_gui/blob/master/chatlib.py
+tonymorony/trollbox_gui
+My plays with Python Kivy GUI framework and Stakedchain OraclesCC chat concept - tonymorony/trollbox_gui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[11-Dec-18 09:54 AM] TonyL#3577
+Big part of the non-gui code for oracles messenger I've took here: https://github.com/StakedChain/trollbox 
+(made by @Alright )
+
+{Embed}
+https://github.com/StakedChain/trollbox
+StakedChain/trollbox
+On chain real time chat for KMD assetchains. Contribute to StakedChain/trollbox development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/HhyWP-0Sd5I4jG6OLRR8Z4upEFZlVyxGwgtl6Aqq9hw/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/42953759
+
+
+[11-Dec-18 10:18 AM] sm0key99#0791
+Thanks @TonyL
+
+{Reactions}
+👍 (2) 
+
+[11-Dec-18 10:24 AM] TonyL#3577
+Glad to help 👍
+
+
+[19-Dec-18 10:10 AM] gcharang#6833
+./komodo-cli -ac_name=ACOIN oraclesinfo 6d048262e4c9fd3211b720528f8b14f49340dd9f4f3d9210dcdc23c080e3cd1e
+
+```json
+{
+  "result": "success",
+  "txid": "69d28d9e2ff8946402bd5d8b277e340d38e966ffdbcd5b9a595bd9b00cbd9aa6",
+  "name": "creator-2",
+  "description": "Creator",
+  "format": "L",
+  "marker": "RQBqnfmJ7S9PNWwvqGHmh227aNpQwoD58p",
+  "registered": [
+    {
+      "publisher": "03336ca9db27cb6e882830e20dc525884e27dc94d557a5e68b972a5cbf9e8c62a8",
+      "baton": "RJ2dozmkrjz62JgLCj3CQdiYjthFouAjK7",
+      "batontxid": "6ae572e213615ee125d1eefd9bde9048c20054b559a55d99005cdef0ac9e4abd",
+      "lifetime": "0.00000000",
+      "funds": "0.00000000",
+      "datafee": "5.00000000"
+    },
+    {
+      "publisher": "03336ca9db27cb6e882830e20dc525884e27dc94d557a5e68b972a5cbf9e8c62a8",
+      "baton": "RJ2dozmkrjz62JgLCj3CQdiYjthFouAjK7",
+      "batontxid": "6ae572e213615ee125d1eefd9bde9048c20054b559a55d99005cdef0ac9e4abd",
+      "lifetime": "0.00000000",
+      "funds": "0.00000000",
+      "datafee": "1.00000000"
+    },
+    {
+      "publisher": "03336ca9db27cb6e882830e20dc525884e27dc94d557a5e68b972a5cbf9e8c62a8",
+      "baton": "RJ2dozmkrjz62JgLCj3CQdiYjthFouAjK7",
+      "batontxid": "6ae572e213615ee125d1eefd9bde9048c20054b559a55d99005cdef0ac9e4abd",
+      "lifetime": "0.00000000",
+      "funds": "0.00000000",
+      "datafee": "10.00000000"
+    }
+  ]
+}
+```
+
+
+[19-Dec-18 10:13 AM] gcharang#6833
+@jl777c what happens if someone does 
+`./komodo-cli -ac_name=ACOIN oraclessubscribe 6d048262e4c9fd3211b720528f8b14f49340dd9f4f3d9210dcdc23c080e3cd1e 03336ca9db27cb6e882830e20dc525884e27dc94d557a5e68b972a5cbf9e8c62a8 50`
+And there are 3 differnt oracle plans with different datafee for the same oracle by the same pubkey
+
+
+[19-Dec-18 10:15 AM] jl777c#5810
+the most recent datafee from a publisher for a specific oracle is the current price
+
+
+[19-Dec-18 10:15 AM] gcharang#6833
+Got it.
+
+
+[01-Jan-19 07:59 PM] CrisF#3405
+Hi,
+We have a project just starting up in #kmdlabs involving oracles.
+Logging for the upcoming Migration Stress Test.  Stats for the Labs cluster following that.
+Anyone interested is welcome to join in.  Good chance to gain experience and it would be a big help.
+Drop in and say Hi #kmdlabs and check out the project here: https://kmdlabs.cc/p/logging_stats_project
+🔥
+
+
+[02-Jan-19 03:14 AM] TonyL#3577
+Hi @CrisF I'm making a separate simple TUI for oracles (most of the functionality was implemented in gateways TUI, so just split things mostly) and want to add support of files upload/download (as binary) and text publish/read.
+If some automation of external data publishing on oracle needed - I'm glad to help and implement it in current TUI.
+I'm very sorry, but not understood from pad you've shared what actually needs to be implemented
+
+
+[02-Jan-19 03:25 AM] CrisF#3405
+That's awesome, thanks @TonyL !
+
+
+[02-Jan-19 03:26 AM] CrisF#3405
+We're just collecting ideas on what is needed at the moment.
+
+
+[02-Jan-19 03:27 AM] CrisF#3405
+I'll put it together and let you know.
+
+
+[02-Jan-19 03:27 AM] CrisF#3405
+And I'll have some questions for you too 😉
+
+
+[02-Jan-19 03:27 AM] TonyL#3577
+Great, will be happy to contribute
+
+
+[02-Jan-19 03:28 AM] TonyL#3577
+Feel free to contact me in case of any questions you might have
+
+{Reactions}
+🙏 
+
+[02-Jan-19 03:28 AM] TonyL#3577
+😃
+
+
+[02-Jan-19 06:41 AM] TonyL#3577
+@jl777c Could you please advise on what is valid data input for `D` oracle type?
+I've tried:
+``` ./komodo-cli -ac_name=TONY7 oraclesdata 5464ccf162a76ba4494cd7ba8a4c11f2be116ad957681692340b98c6cf3700ba 00010001```
+But getting an empty sample:
+```./komodo-cli -ac_name=TONY7 oraclessamples 5464ccf162a76ba4494cd7ba8a4c11f2be116ad957681692340b98c6cf3700ba 5b68267a8e0231dc7fd07008e307d9e364e4ca6c2b191848c630003c322f7551 5
+{
+  "result": "success",
+  "samples": [
+    [
+    ],
+    [
+    ],
+    [
+    ],
+    [
+    ]
+  ]
+}
+```
+
+
+[02-Jan-19 06:42 AM] TonyL#3577
+Made a simple converter which converting file to binary: let's say text file with `Hello world!` text to ```1001000011001010110110001101100011011110010000001110111011011110111001001101100011001000010000100001010``` now idea is to put this binary into oracle somehow
+
+
+[02-Jan-19 06:45 AM] jl777c#5810
+'D' of 0001 is 256 bytes
+
+
+[02-Jan-19 06:45 AM] jl777c#5810
+since the total string is not right length it is ignored
+
+
+[02-Jan-19 06:46 AM] jl777c#5810
+'d' would have a single byte datalen
+
+
+[02-Jan-19 06:46 AM] jl777c#5810
+little endian
+
+
+[02-Jan-19 06:46 AM] TonyL#3577
+I've tried also `10001000`
+
+
+[02-Jan-19 06:50 AM] jl777c#5810
+have you tried 'd'
+
+
+[02-Jan-19 06:50 AM] TonyL#3577
+`d` type is broken
+
+
+[02-Jan-19 06:51 AM] jl777c#5810
+if 'd' is broken, maybe 'D' is broken too?
+
+
+[02-Jan-19 06:51 AM] jl777c#5810
+how is 'd' broken?
+
+
+[02-Jan-19 06:54 AM] Mihailo#5902
+d and D use the same part of code to put data, just 'd' has one byte length at first byte, and 'D' uses 2 bytes.
+
+
+[02-Jan-19 06:54 AM] Mihailo#5902
+So if D works then d works too 😉
+
+
+[02-Jan-19 06:54 AM] Mihailo#5902
+And same as 's' and 'S'
+
+
+[02-Jan-19 06:54 AM] TonyL#3577
+Creating `d` type oracle to re-check issue
+
+
+[02-Jan-19 06:54 AM] Mihailo#5902
+Have you put the length bytes prior to data?
+
+
+[02-Jan-19 06:56 AM] Mihailo#5902
+'d': [length][data]
+'D': [length_LSB][length_MSB][data]
+
+
+[02-Jan-19 06:57 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY7 oraclesdata 0c2a272f23ecb3d00cf48498481137603d698114be53f6b59b1350cdd0102ac6 1000```
+```./komodo-cli -ac_name=TONY7 oraclessamples 0c2a272f23ecb3d00cf48498481137603d698114be53f6b59b1350cdd0102ac6 2e799bc67d3265823cbc376bebb34cae0265668ce5835ca2eabaf5a739097c2f 1
+{
+  "result": "success",
+  "samples": [
+    [
+    ]
+  ]
+```
+
+
+[02-Jan-19 06:57 AM] Mihailo#5902
+let me try
+
+
+[02-Jan-19 07:00 AM] TonyL#3577
+For this one I got 0 by some reason:
+```./komodo-cli -ac_name=TONY7 oraclesdata 0c2a272f23ecb3d00cf48498481137603d698114be53f6b59b1350cdd0102ac6 0100```
+```./komodo-cli -ac_name=TONY7 oraclessamples 0c2a272f23ecb3d00cf48498481137603d698114be53f6b59b1350cdd0102ac6 d9686176a34c010959aefaf3a39c7315a602f339b7e2bfb0935c6b75cd3a2f08 1
+{
+  "result": "success",
+  "samples": [
+    [
+      "0"
+    ]
+  ]
+}
+```
+
+
+[02-Jan-19 07:00 AM] Mihailo#5902
+Well that is ok
+
+
+[02-Jan-19 07:00 AM] TonyL#3577
+Oh right
+
+
+[02-Jan-19 07:00 AM] Mihailo#5902
+you set 0100 - 01 length, 00 data
+
+
+[02-Jan-19 07:00 AM] TonyL#3577
+00
+
+
+[02-Jan-19 07:02 AM] jl777c#5810
+found bug!
+
+
+[02-Jan-19 07:02 AM] jl777c#5810
+fixing
+
+
+[02-Jan-19 07:02 AM] TonyL#3577
+But shouldn't length be 10 since it's little endian?
+
+
+[02-Jan-19 07:02 AM] Mihailo#5902
+I got 0 also but posted 0101 😛
+
+
+[02-Jan-19 07:03 AM] TonyL#3577
+Oh for little endian and big endian 1 is same
+
+
+[02-Jan-19 07:03 AM] jl777c#5810
+pushed fix, it isnt consensus changing
+
+
+[02-Jan-19 07:03 AM] jl777c#5810
+just update and it should display correctly
+
+
+[02-Jan-19 07:03 AM] Mihailo#5902
+little endian is about bytes, the first byte is the with least weight and the second is with more weight than first one.
+
+
+[02-Jan-19 07:04 AM] Mihailo#5902
+aabb will result in bbaa
+
+
+[02-Jan-19 07:04 AM] jl777c#5810
+the output string construction was truncating the string at str[i] = 0
+
+
+[02-Jan-19 07:04 AM] jl777c#5810
+instead of str[i<<1] = 0
+
+
+[02-Jan-19 07:04 AM] Mihailo#5902
+Ah, I see it 😛
+
+
+[02-Jan-19 07:04 AM] Mihailo#5902
+in both S and D
+
+
+[02-Jan-19 07:05 AM] jl777c#5810
+printing %02x, needs to be <<= 1
+
+
+[02-Jan-19 07:05 AM] jl777c#5810
+'s' is ok without doubling
+
+
+[02-Jan-19 07:05 AM] Mihailo#5902
+Ah, yes.
+
+
+[02-Jan-19 07:11 AM] TonyL#3577
+```DPIC -o cryptoconditions/src/.libs/utils.o
+cryptoconditions/src/utils.c:25:10: fatal error: cryptoconditions.h: No such file or directory
+ #include "cryptoconditions.h"
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+Makefile:2424: recipe for target 'cryptoconditions/src/utils.lo' failed
+make[2]: *** [cryptoconditions/src/utils.lo] Error 1
+make[2]: *** Waiting for unfinished jobs....
+```
+
+
+[02-Jan-19 07:11 AM] TonyL#3577
+Latest FSM seems not building on my side
+
+
+[02-Jan-19 07:12 AM] TonyL#3577
+@jl777c
+
+
+[02-Jan-19 07:14 AM] Mihailo#5902
+@TonyL building fine on my side. Try ../zcutil/build.sh
+
+
+[02-Jan-19 07:15 AM] TonyL#3577
+That's how I build it 😃 Tried on two nodes - failed on both, strange
+
+
+[02-Jan-19 07:15 AM] Mihailo#5902
+git status? Are you on latest FSM
+
+
+[02-Jan-19 07:16 AM] TonyL#3577
+Did you try to build with latest merge ~10 minutes ago?
+
+
+[02-Jan-19 07:16 AM] Mihailo#5902
+Yes
+
+
+[02-Jan-19 07:16 AM] TonyL#3577
+```git log -1
+commit f7b88823c774cd2b66359e6f5d92085be2808a70 (HEAD -> FSM, origin/FSM)
+Merge: 7aceb8810 398cc6640
+Author: jl777 <jl777@users.noreply.github.com>
+Date:   Wed Jan 2 04:03:14 2019 -1100
+
+    Merge pull request #1135 from jl777/jl777
+    
+    Fix oracles 'd' and 'D'
+```
+
+
+[02-Jan-19 07:17 AM] Mihailo#5902
+Hmmm, wait I just got error for OCTET_STRING. Trying again...
+
+
+[02-Jan-19 07:17 AM] Mihailo#5902
+Some times you need to issue build several times.
+
+
+[02-Jan-19 07:17 AM] jl777c#5810
+when in double make clean and build.sh (multiple times) from ~/komodo
+
+
+[02-Jan-19 07:18 AM] Mihailo#5902
+Ha, now I have same error
+
+
+[02-Jan-19 07:18 AM] jl777c#5810
+any build issues have nothing to do with the 'd'/'D' fix
+
+
+[02-Jan-19 07:19 AM] jl777c#5810
+there has been a lot of changes so maybe a build.sh is needed
+
+
+[02-Jan-19 07:19 AM] Mihailo#5902
+Yeah, but some prior changes on FSM could.
+
+
+[02-Jan-19 07:19 AM] TonyL#3577
+```cryptoconditions/src/asn/SimpleSha256Condition.h:14:10: fatal error: OCTET_STRING.h: No such file or directory
+ #include <OCTET_STRING.h>
+          ^~~~~~~~~~~~~~~~
+compilation terminated.
+Makefile:2408: recipe for target 'cryptoconditions/src/cryptoconditions.o' failed
+make[2]: *** [cryptoconditions/src/cryptoconditions.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+libtool: compile:  /root/latest_FSM/komodo/depends/x86_64-unknown-linux-gnu/share/../native/bin/ccache gcc -m64 -DHAVE_CONFIG_H -I. -I../src/config -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -I/root/latest_FSM/komodo/depends/x86_64-unknown-linux-gnu/share/../include/libsnark -I/root/latest_FSM/komodo/depends/x86_64-unknown-linux-gnu/share/../include/ -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -DMULTICORE -pipe -O1 -MT cryptoconditions/src/cryptoconditions.lo -MD -MP -MF cryptoconditions/src/.deps/cryptoconditions.Tpo -c cryptoconditions/src/cryptoconditions.c  -fPIC -DPIC -o cryptoconditions/src/.libs/cryptoconditions.o
+In file included from cryptoconditions/src/asn/Condition.h:14:0,
+                 from cryptoconditions/src/cryptoconditions.c:17:
+cryptoconditions/src/asn/SimpleSha256Condition.h:14:10: fatal error: OCTET_STRING.h: No such file or directory
+ #include <OCTET_STRING.h>
+          ^~~~~~~~~~~~~~~~
+```
+
+
+[02-Jan-19 07:19 AM] Mihailo#5902
+I just rebased
+
+
+[02-Jan-19 07:19 AM] TonyL#3577
+You had this one @Mihailo ?
+
+
+[02-Jan-19 07:19 AM] jl777c#5810
+OCTET string missing just means do build.sh again, and again, till it works
+
+
+[02-Jan-19 07:19 AM] Mihailo#5902
+Yeah, and now I have that and yours together
+
+
+[02-Jan-19 07:19 AM] Mihailo#5902
+Just try several times the build
+
+
+[02-Jan-19 07:20 AM] Mihailo#5902
+And first make clean
+
+
+[02-Jan-19 07:20 AM] TonyL#3577
+Trying yep
+
+
+[02-Jan-19 07:20 AM] TonyL#3577
+Cleaning and building
+
+
+[02-Jan-19 07:20 AM] Mihailo#5902
+Just one clean, and then build several times. until it passes
+
+
+[02-Jan-19 07:20 AM] TonyL#3577
+Is build now RNG based partially? 😃
+
+
+[02-Jan-19 07:21 AM] jl777c#5810
+yes
+
+
+[02-Jan-19 07:21 AM] jl777c#5810
+seems to be order of dependency arriving fully
+
+{Reactions}
+👌 
+
+[02-Jan-19 07:22 AM] TonyL#3577
+Built it after few tries 👍
+
+
+[02-Jan-19 07:23 AM] Mihailo#5902
+me too
+
+
+[02-Jan-19 07:24 AM] jl777c#5810
+once it builds, just make is needed
+
+
+[02-Jan-19 07:25 AM] Mihailo#5902
+@jl777c @TonyL It seems that if you pass different length data then set in oraclesdata the oraclessamples just ignore it and display as empty. Should we maybe make a sane check for data length in oraclesdata?
+Like this one should fail `komodo-cli -ac_name=MSIG oraclesdata 96ff722c057bdc5afeb918e8bf2a10a495b5427e08f7cce156e5bede04033b98 030111`
+
+
+[02-Jan-19 07:26 AM] Mihailo#5902
+As there are only two bytes supplied.
+
+
+[02-Jan-19 07:27 AM] TonyL#3577
+Shouldn't this one fail because 3 is not valid for binary?
+
+
+[02-Jan-19 07:27 AM] jl777c#5810
+its hex, not binary
+
+
+[02-Jan-19 07:27 AM] TonyL#3577
+oh
+
+
+[02-Jan-19 07:27 AM] jl777c#5810
+and more error checking is certainly needed
+
+
+[02-Jan-19 07:27 AM] jl777c#5810
+not sure if we want to make it a consensus issue though as that will break existing usages
+
+
+[02-Jan-19 07:28 AM] TonyL#3577
+Validation will help a lot I think
+
+
+[02-Jan-19 07:28 AM] Mihailo#5902
+The length is hex, and also I'm not sure if there is data check to be binary so we could add it
+
+
+[02-Jan-19 07:29 AM] jl777c#5810
+lets add more error checking to the rpc call
+
+
+[02-Jan-19 07:29 AM] jl777c#5810
+that way it wont affect consensus, but practically speaking it achieves the goal
+
+
+[02-Jan-19 07:29 AM] Mihailo#5902
+Ok
+
+
+[02-Jan-19 07:30 AM] Mihailo#5902
+But also, what is the difference with S format as you can use it to store binary represented data also... If validation do not forbid other data...
+
+
+[02-Jan-19 07:31 AM] jl777c#5810
+only printable chars, 7 bits
+
+
+[02-Jan-19 07:32 AM] jl777c#5810
+actually a bit less than 7 bits
+
+
+[02-Jan-19 07:33 AM] jl777c#5810
+but it is convenient
+
+
+[02-Jan-19 07:40 AM] Mihailo#5902
+Hmmm, I'm trying to understand now D format but seem to be confused.
+So the S(s) format is hex data stored: 0123456789abcdef...
+D(d) should be binary so for example 1111 will be stored like this in bytes (because of %02x): 01010101
+
+
+[02-Jan-19 07:44 AM] Mihailo#5902
+Ah, sorry. It will not be stored like that. It is stored in opret normal 1111. But why `sprintf(&str[i<<1],"%02x",data[offset++]);`?
+
+
+[02-Jan-19 07:46 AM] jl777c#5810
+str[0] gets 2 bytes for hex at data[offset]
+
+
+[02-Jan-19 07:46 AM] jl777c#5810
+string is 1:1 bytes
+
+
+[02-Jan-19 07:51 AM] Mihailo#5902
+Little bit confusing the packing of data in oracles :P
+I realize now that two digits are stored in one byte...
+So in case of 1111 it will be sotred in two bytes 11|11. Then when extracted it will be like this in str:
+str[0]=1 and str[1]=1 (because %02x will print to str[0] and str[1])
+str[2]=1 and str[3]=1
+
+
+[02-Jan-19 07:53 AM] jl777c#5810
+yes
+
+
+[02-Jan-19 07:54 AM] jl777c#5810
+sprintf -> &str[i<<1] that is the key
+
+
+[02-Jan-19 07:54 AM] Mihailo#5902
+But what about S(s) format? str[i]=data[offset++]; So one char will be equal one byte which stores to hex digits (aa for example)?
+
+
+[02-Jan-19 07:54 AM] Mihailo#5902
+And this will not be printable...
+
+
+[02-Jan-19 07:54 AM] jl777c#5810
+but you cant put 0xaa in ascii
+
+
+[02-Jan-19 07:55 AM] jl777c#5810
+well maybe with some sort of \ escaping its possible
+
+
+[02-Jan-19 07:55 AM] Mihailo#5902
+Yes you can, but what will be the print of samples?
+
+
+[02-Jan-19 07:55 AM] jl777c#5810
+however such non-ascii prints
+
+
+[02-Jan-19 07:55 AM] jl777c#5810
+we might want to make sure all strings only have printable chars
+
+
+[02-Jan-19 07:56 AM] jl777c#5810
+or change the output to emit nonprintable in some sane way
+
+
+[02-Jan-19 08:02 AM] Mihailo#5902
+I just posted to s format 03aabbcc and I'm getting:
+`error: couldn't parse reply from server` for oraclesamples
+
+
+[02-Jan-19 08:03 AM] jl777c#5810
+crashed?
+
+
+[02-Jan-19 08:04 AM] Mihailo#5902
+No, just printig this
+
+
+[02-Jan-19 08:04 AM] jl777c#5810
+probably it made unprintable string
+
+
+[02-Jan-19 08:04 AM] Mihailo#5902
+And then I posted regular data but it still cannot print...
+
+
+[02-Jan-19 08:04 AM] Mihailo#5902
+Yes
+
+
+[02-Jan-19 08:07 AM] jl777c#5810
+oraclesamples output for string needs to generate error for unprintable
+
+
+[02-Jan-19 08:11 AM] Mihailo#5902
+I just realised we need to describe S(s) and D(d) formats little bit better.
+S is for storing string data that needs to be converted in ascii codes values in hex char by char so for "test" it needs to be `74657374` (0x74 0x65 0x73 0x74)
+D is for stroing any data as binary(hex) (not just binary digits 0 and 1), so you can store `01aa34b74c` and it will be stored as `01aa34b74c` (01|aa|34|b7|4c as 5 bytes)
+
+
+[02-Jan-19 08:12 AM] jl777c#5810
+yes that is correct
+
+
+[02-Jan-19 08:12 AM] Mihailo#5902
+@TonyL D is not just for binary digits 😉
+
+
+[02-Jan-19 08:12 AM] jl777c#5810
+binary data
+
+
+[02-Jan-19 08:12 AM] Mihailo#5902
+Yep
+
+
+[02-Jan-19 08:12 AM] jl777c#5810
+as in raw data
+
+
+[02-Jan-19 08:13 AM] Mihailo#5902
+In a hurry I confused myself as binary for binary digits 😛
+
+
+[02-Jan-19 08:13 AM] jl777c#5810
+not binary format
+
+
+[02-Jan-19 08:13 AM] jl777c#5810
+hex string to define it but it gets mapped to binary bits
+
+
+[02-Jan-19 08:18 AM] Mihailo#5902
+Ok, so the changes for oracles RPC should be:
+- data should match specified length otherwise return error
+- S(s) format to be limited to printable chars (ASCII 32-127) ????
+- D(d) format to be limited to hex chars (0-9, a-f) ???
+
+
+[02-Jan-19 08:18 AM] jl777c#5810
+yes
+
+
+[02-Jan-19 08:19 AM] Mihailo#5902
+And I think oraclessamples should ignore non prinatble strings, as if someone posts manually bad tx it will break oraclesamples...
+
+
+[02-Jan-19 08:19 AM] jl777c#5810
+ok
+
+
+[02-Jan-19 08:19 AM] Mihailo#5902
+As we are not changing validation
+
+
+[02-Jan-19 08:20 AM] jl777c#5810
+yes, this will just filter things at rpc level, but someone can make invalid data entries if they want
+
+
+[02-Jan-19 08:23 AM] Mihailo#5902
+Ok, I'm on it.
+
+
+[02-Jan-19 09:25 AM] Mihailo#5902
+@jl777c  S(s) and D(d) formats cannot be combined with orher formats?
+
+
+[02-Jan-19 09:27 AM] jl777c#5810
+they should be able to
+
+
+[02-Jan-19 09:27 AM] Mihailo#5902
+Ok then
+
+
+[02-Jan-19 01:36 PM] Mihailo#5902
+@TonyL  I see you have added check for oracles format in create. By the way it is done now, it is not possible to combine formats except Ihh that you made exception.
+
+
+[02-Jan-19 01:38 PM] jl777c#5810
+this is in oraclescreate?
+
+
+[02-Jan-19 01:38 PM] Mihailo#5902
+Yes, in rpcwallet.cpp
+
+
+[02-Jan-19 01:39 PM] jl777c#5810
+but any sort of format string should be allowed
+
+
+[02-Jan-19 01:40 PM] Mihailo#5902
+Well I think there was problem as oraclescreate was accepting anything as format even invalid chars so he wanted to limit it. But it should just be checked if the chars from format string are valid formats...
+
+
+[02-Jan-19 01:40 PM] jl777c#5810
+yes, i missed that such a change was made. sorr
+
+
+[02-Jan-19 01:41 PM] jl777c#5810
+needs to be any valid format char in the string
+
+
+[02-Jan-19 01:41 PM] Mihailo#5902
+Np, I'll change it now when I add sanity checks to oracles
+
+
+[02-Jan-19 02:26 PM] Alright#0419
+@Mihailo @jl777c might be misunderstanding this convo, but I believe it's already limited to the 13 defined formats
+
+
+[02-Jan-19 02:27 PM] Alright#0419
+I was playing around with it the other day force adding additional garbage formats to see if anything would go wrong. You can broadcast an oraclescreate with any format, it'll show the custom format in oraclesinfo, but you can't really do anything with it
+
+
+[02-Jan-19 02:27 PM] Alright#0419
+you need to edit the code itself to create a tx with any format other than the 13 defined ones
+
+
+[02-Jan-19 02:29 PM] Mihailo#5902
+Yes it is limited to 13 defined formats but only one format, S or s or t or c ... But you cannot say Stc or tttccc
+
+
+[02-Jan-19 02:29 PM] Alright#0419
+to be frank, I don't understand the need for any format other than S
+
+
+[02-Jan-19 02:29 PM] Alright#0419
+everything can be done with S format alone as far as I can tell
+
+
+[02-Jan-19 02:30 PM] Mihailo#5902
+I would say differently, no other than D. As in D you can represent anything. S is limitied only to ASCII chars so for text...
+
+
+[02-Jan-19 02:31 PM] Alright#0419
+you can represent hex with S although I guess that uses twice as much data because it's doing hex -> ascii -> hex?
+
+
+[02-Jan-19 02:32 PM] Mihailo#5902
+Yes
+
+
+[02-Jan-19 02:32 PM] Alright#0419
+Am I understanding that correctly? I wrote scripts to make any arbitrary data work with S and have been using that for everything since
+
+
+[02-Jan-19 02:32 PM] Mihailo#5902
+So D is the ultimate format 😉
+
+{Reactions}
+😄 
+
+[02-Jan-19 02:32 PM] Alright#0419
+noted
+
+
+[02-Jan-19 06:20 PM] Mylo#8306
+for convenience & correctness probably.   if you are only saving numbers in a string-only oracle data format, then it removes the possibliity of a string->numberWithDecimals casting problem in whatever language a dapp developer uses.
+
+if you are going to force dapp developers to convert to bytes, then it just adds a bit of complexity for "weekend coders" like myself or noobs to make errors or a barrier.
+
+maybe.
+
+
+[02-Jan-19 06:23 PM] Mylo#8306
+and validation is a key feature of blockchains.   so if data invalidation can creep in at a higher level, may as well not have a BC
+
+
+[02-Jan-19 09:49 PM] TonyL#3577
+@Mihailo It was possible to input anything as format when I made this check. I've discussed it's with JL when made 😀
+
+
+[02-Jan-19 09:53 PM] jl777c#5810
+i didnt realize you would limit the total possible formats to single items
+
+
+[02-Jan-19 09:57 PM] TonyL#3577
+Hmm actually I've asked should I hardcode types or not - you said like a binary type cover everything and if I know any other useful formats I should propose some and this list most probably will not be changed often
+
+
+[02-Jan-19 09:59 PM] TonyL#3577
+Oh got it - I just implemented it wrong I guess
+
+
+[02-Jan-19 11:00 PM] jl777c#5810
+needed to scan each letter of format string and error if any are not supported
+
+
+[03-Jan-19 02:14 AM] TonyL#3577
+Oh, seems I had big confusion regards this binary types 😆 
+Thanks for clarification @Mihailo
+
+
+[03-Jan-19 02:21 AM] Mihailo#5902
+@TonyL Np, and don't worry about format checks, you just got it wrong 😉
+
+{Reactions}
+👌 
+
+[03-Jan-19 04:42 AM] TonyL#3577
+https://s3.us-east-2.amazonaws.com/tonyl777/upload_file_to_oracle.gif
+Kinda simple oracle file uploader 😃
+
+{Embed}
+https://s3.us-east-2.amazonaws.com/tonyl777/upload_file_to_oracle.gif
+https://images-ext-1.discordapp.net/external/9AqEOMu1DZjfefUlcjcU_iNlqHAaLDIDmc4NcobcbQ4/https/s3.us-east-2.amazonaws.com/tonyl777/upload_file_to_oracle.gif
+
+{Reactions}
+👍 
+
+[03-Jan-19 05:14 AM] Mihailo#5902
+Try it with 64k file 😛
+
+
+[03-Jan-19 05:25 AM] TonyL#3577
+Chunking is under development 😃 Used `d` type for version used in this gif
+If file is > 256 bytes in hex it's saying now "File is too big - develop new version"
+
+
+[03-Jan-19 05:43 AM] TonyL#3577
+Thanks @Deleted User ! Thats the main idea - make things simple for understanding by demonstration
+
+{Reactions}
+👍 (2) 
+
+[03-Jan-19 05:44 AM] TonyL#3577
+http://kmd.solutions/ preparing content for my secret educating project 😃
+
+{Embed}
+user
+http://kmd.solutions//
+Welcome!
+
+
+[03-Jan-19 06:40 AM] TonyL#3577
+```For example, if the datapoint is comprised of a 4byte timestamp and an 8byte number the format string would be: "IL"```
+Read carefully trough Mastering Cryptoconditions Oracles chapter, realised now how terrible was my RPC check, oh 🙀
+I just not understood that it's possible to combine different types when wrote this check
+
+
+[03-Jan-19 06:43 AM] TonyL#3577
+Hmm, can I create let's say `DDD` oracle - and what is the limitation for single oracle data elements amount?  🤔
+
+
+[03-Jan-19 07:16 AM] Mihailo#5902
+I don't know what is the limitation of OP_RETURN vout, but I think there should be no multiple S or D formats. There is check for format string size in oraclescreate but it is very big `format.size() > 4096`.
+
+
+[03-Jan-19 07:16 AM] Mihailo#5902
+I thought about S and D also an I think we should probably limit on S or one D per oracle
+
+
+[03-Jan-19 10:39 AM] jl777c#5810
+10000 bytes total
+
+
+[03-Jan-19 06:54 PM] Mylo#8306
+what is this slow typing tech demo?  :trollface: 
+and nano?  :trollface: :trollface: 
+
+that's awesome, thanks @TonyL @Mihailo for your collab on manual hex demos.
+
+what use cases does this create (with automation etc. in a dapp)?
+- a step in a key approval processes etc.
+
+
+[03-Jan-19 06:55 PM] Mylo#8306
+i'd like to republish the gif on kmd website next week if that's cool.
+
+
+[03-Jan-19 07:21 PM] TonyL#3577
+@Mylo Can make a special geek edition gif with vi and turbotype if needed 😂 :trollface: 
+Immutable documents, code on blockchain, binaries on blockchain. You can put something as encoded cookie file for safety maybe to be sure that it's immutable 🤔 
+I just dump file as binary hex, and calculate it's length in bytes to suite the oracle data format. So it may be any file - not only text one as in example on gif.
+Sure, maybe I'll have more interesting one with larger file before next week - next app goal is to upload and download `komodod` 😃
+
+
+[03-Jan-19 07:33 PM] Mylo#8306
+can you have say 5,000,000 oracles storing small documents (proof of ownership/authenticity) on a blockchain?  have you hit any performance degradation when more than XX oracles exist on a chain?
+
+or is there a different way to store 5,000,0000 records on 1 oracle and an index number with tx of upload?
+
+
+[03-Jan-19 07:34 PM] TonyL#3577
+Hmm I didn't create such a big amount - but now I'm creating separate oracle for each file so It's easy to make such test
+
+
+[03-Jan-19 07:35 PM] TonyL#3577
+Just oracleslist needs to be cached
+
+
+[03-Jan-19 07:35 PM] Mylo#8306
+does 1 oracle act as a registry that can contain json data that a dapp can search.
+
+oh cool, yeah see how you go.  `coinsupply` has a behaviour where if you do 50000 blocks, it takes a few seconds but if you do all of the blocks at once it takes a loooong time.  be good to know these types of things.
+
+
+[03-Jan-19 07:36 PM] Mylo#8306
+leave it with `nano`, it shows you're human 😄
+
+{Reactions}
+😃 
+
+[03-Jan-19 07:37 PM] TonyL#3577
+Hmm NoSQL DB on oracle 🤔
+
+
+[03-Jan-19 07:37 PM] TonyL#3577
+But it's public. But we can encrypt data
+
+
+[03-Jan-19 07:38 PM] TonyL#3577
+JSON we also can put as hex for compression
+
+
+[03-Jan-19 07:38 PM] TonyL#3577
+Just make a note in description or name that it's JSON which we need
+
+
+[03-Jan-19 07:39 PM] Mylo#8306
+also if you create 1000 oracles at block 2000 then another 1000 oracles at block 2100.  does that have same performance as 1000 oracles block 2000, 200 oracles block 2500, 600 oracles block 4000, 200 oracles block 5000.
+
+
+[03-Jan-19 07:40 PM] Mylo#8306
+idk the underlying mechanics of 'cost'
+
+
+[03-Jan-19 07:41 PM] Mylo#8306
+and if you query oracle that was created 5000 blocks ago, does it respond as quickly as a recently created oracle.
+
+
+[03-Jan-19 07:44 PM] TonyL#3577
+It's interesting thing to check (old oracles). As I remember @Deleted User tried oracles with heavy load (uploaded big files in chunks) and performance was good
+
+
+[03-Jan-19 07:46 PM] Mylo#8306
+yes but i dont trust blackjoker, i trust you :trollface:
+
+{Reactions}
+😃 😥 😂 
+
+[03-Jan-19 08:05 PM] TonyL#3577
+Will do some performance stress tests as soon as uploader/downloader will be feature full - it will allow us to describe use-cases directions with current functionality I guess. Thanks for an interesting questions raising@Mylo !
+
+{Reactions}
+🙏 
+
+[03-Jan-19 08:32 PM] Deleted User#0000
+Oracles are pretty fast, what can be slow is if there is lots of Oracle tx in a single block. My streamer didn't use oracles. Just the raw data in op return
+
+{Reactions}
+👍 (2) 
+
+[03-Jan-19 10:14 PM] jl777c#5810
+txid lookup is what takes the time
+
+
+[03-Jan-19 10:14 PM] jl777c#5810
+then iterating backwards using the txid vin as linked list
+
+
+[03-Jan-19 10:15 PM] jl777c#5810
+total number of oracles wont matter, the nunber of simultaneous access would
+
+
+[04-Jan-19 10:59 PM] TonyL#3577
+Hmm can't publish 63999 bytes data (https://paste.ubuntu.com/p/H3b4FZ3sff/) to D type oracle.
+Getting an error ```datasize 64001 is too big
+{'result': 'error', 'error': 'datasize 64001 is too big'}```
+
+
+[04-Jan-19 11:00 PM] TonyL#3577
+Shouldn't it fit 65536 bytes?
+
+
+[04-Jan-19 11:03 PM] TonyL#3577
+Took all the latest oracles changes when tested my app:
+```git log -1
+commit 76d120fa72e307112423cff793077ec6be16d38b (HEAD -> FSM, origin/FSM)
+Merge: b1dc77875 8089c2a86
+Author: jl777 <jl777@users.noreply.github.com>
+Date:   Thu Jan 3 07:08:22 2019 -1100
+
+    Merge pull request #1139 from Mixa84/FSM
+    
+    Oracles data and format check and decodeccopret```
+
+
+[04-Jan-19 11:12 PM] TonyL#3577
+https://github.com/jl777/komodo/blob/master/src/cc/oracles.cpp#L799 I wonder this check may be a reason
+
+{Embed}
+https://github.com/jl777/komodo/blob/master/src/cc/oracles.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[04-Jan-19 11:58 PM] jl777c#5810
+when i said max size was 10000 for OPRETURN, that meant that 10000 is the most that will fit in an opreturn
+
+
+[04-Jan-19 11:59 PM] jl777c#5810
+yes that prevents making horrible oversized things
+
+
+[04-Jan-19 11:59 PM] jl777c#5810
+just because it is 16 bits doesnt mean you can max out the bits
+
+
+[04-Jan-19 11:59 PM] jl777c#5810
+using that logic, any 64 bit param would mean you can use (1<<64) -1
+
+
+[05-Jan-19 12:01 AM] TonyL#3577
+I see
+
+
+[05-Jan-19 12:13 AM] TonyL#3577
+8 KB file published to D 👌 
+Will split data on 8 KB chunks so
+
+
+[05-Jan-19 03:51 AM] TonyL#3577
+If I'm ensuring the sequence with which `oraclesdata` transactions getting to mempool is it enough to be sure that  `oraclesdata` sequence in oracle will be in same order in which I'm sending it? 
+Making kinda protocol for broadcast - not sure if data chunk number encoding in data overkill or not 🤔  For now monitoring mempool seems to be enough - but maybe there is some other factors might happen in production - like a mempools synchronisation over the nodes
+
+
+[05-Jan-19 03:52 AM] TonyL#3577
+800 KB file succesfully published in one block :3040_kingpeepo: (actually 2 blocks needed - one on oracle creation/preparation - second on uploading itself)
+
+
+[05-Jan-19 06:45 AM] jl777c#5810
+it should only be able to be mined in sequence, or at least all tx in a block would be referring to other tx in a block. otherwise it would be invalid input
+
+
+[05-Jan-19 08:11 AM] Deleted User#0000
+with my experiance .. if your making a heap of txns that are dependant.. you need to mine them too... otherwise they dont propagate the mempoool
+
+
+[05-Jan-19 04:04 PM] Mylo#8306
+Out of order packets in (VoIP/video) network terminology is called jitter.  That kind of software uses a jitter buffer to reassemble/reorder packets into correct order.   Just an fyi
+
+
+[05-Jan-19 05:51 PM] TonyL#3577
+😃 Downloader coming
+
+{Attachments}
+https://cdn.discordapp.com/attachments/490968295298826260/531288715327438848/unknown.png
+
+{Reactions}
+💪 (3) 👍 
+
+[05-Jan-19 06:06 PM] Mylo#8306
+i'll put a cpl hours into cakeshop gui to get a webbased oracle interface started too.  searching what oracles have oraclessamples gets a bit boring after the first 20 😃
+
+{Reactions}
+🔥 
+
+[05-Jan-19 06:07 PM] Mylo#8306
+and someone can port tony's file stuff to it maybe
+
+
+[05-Jan-19 06:16 PM] TonyL#3577
+Cakeshop is cool stuff 👍  Forked it a while ago to contribute when will be a little bit more familiar with JS 😃
+
+
+[05-Jan-19 09:11 PM] Mylo#8306
+ah i haven't touched it for 10 weeks or so, yeah it's fun 😃
+
+
+[05-Jan-19 09:11 PM] Mylo#8306
+so you're probably still even with master!!
+
+{Reactions}
+👌 
+
+[05-Jan-19 11:08 PM] smkhound#7640
+https://twitter.com/smk_cartografix/status/1081809392192839680
+
+{Embed}
+smk762 (@smk_cartografix)
+https://twitter.com/smk_cartografix/status/1081809392192839680
+If you're interesting in developing a dApp, I've just posted a guide for working with @KomodoPlatform Oracles cryptoconditions (utxo based smart contract) at https://t.co/4XA8rTKmpu
+Twitter
+
+{Reactions}
+💯 
+
+[05-Jan-19 11:13 PM] Mylo#8306
+lol at universities facing credit crunch 😄
+
+{Reactions}
+👍 
+
+[05-Jan-19 11:14 PM] Mylo#8306
+check out chips discord marketing channel @smkhound  there's a poker game gui in angular that you might be interested in looking at??
+
+
+[05-Jan-19 11:29 PM] smkhound#7640
+I'm interested, though have a few projects on the go so been staying back until I could give it proper focus.
+
+
+[06-Jan-19 01:21 AM] KomodoWorld#8282
+@smkhound I posted it in r/cryptotechnology
+
+
+[06-Jan-19 01:21 AM] KomodoWorld#8282
+https://www.reddit.com/r/CryptoTechnology/comments/ad461e/a_stepbystep_example_of_working_with_a_crypto/
+
+{Embed}
+https://www.reddit.com/r/CryptoTechnology/comments/ad461e/a_stepbystep_example_of_working_with_a_crypto/
+r/CryptoTechnology - A step-by-step example of working with a Cryp...
+1 vote and 0 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/w--0s7LhB7oTFKUnOoC2djfsXoHIVsLgAW3R6bNLLgA/%3Fauto%3Dwebp%26s%3D94e64ed2dd0d40b49f3edc379342a6d2b19cc9c2/https/external-preview.redd.it/zx9Yz36vJcGZnvMGgBn5Po9sOKQyenYcCI0_Cise-SY.jpg
+
+{Reactions}
+✌ (2) 
+
+[06-Jan-19 01:38 AM] CMaurice#1685
+that's great, had been wondering what that length and hex stuffs in the Python was
+
+
+[06-Jan-19 01:42 AM] CMaurice#1685
+Oh, heh, thought I was in #kmdlabs
+
+{Reactions}
+😄 (2) 
+
+[06-Jan-19 03:39 AM] Mylo#8306
+same same but different 😄
+
+
+[07-Jan-19 06:30 AM] TonyL#3577
+@Mylo https://s3.us-east-2.amazonaws.com/tonyl777/download_from_oracle.gif part two 😃
+
+{Embed}
+https://s3.us-east-2.amazonaws.com/tonyl777/download_from_oracle.gif
+https://images-ext-2.discordapp.net/external/VHlUqc16S63c5wOtAJ2DxWz-l0FUVIKqmUPjP0KQ-RU/https/s3.us-east-2.amazonaws.com/tonyl777/download_from_oracle.gif
+
+{Reactions}
+👍🏽 (7) 😎 (6) shexy (4) 
+
+[07-Jan-19 06:37 AM] grewalsatinder#9653
+that is so cool!! 😎
+
+
+[07-Jan-19 06:44 AM] TonyL#3577
+Thanks! Can store something on own chain now 😃
+
+{Reactions}
+rum 
+
+[07-Jan-19 07:28 AM] Mylo#8306
+prove it 🥁 ta boom tish
+
+
+[07-Jan-19 07:28 AM] Mylo#8306
+that's cool.   thx will include tomrrow
+
+
+[07-Jan-19 07:40 AM] TonyL#3577
+Cool 👍 Multi chunk files seems to upload/download without issues so prototype kinda feature complete 😃 (can be found here https://github.com/tonymorony/GatewaysCC-TUI/blob/master/oracles_cc_tui.py)
+
+
+[07-Jan-19 09:19 AM] Mylo#8306
+thanks @TonyL
+
+
+[07-Jan-19 11:09 AM] Mylo#8306
+added initial oracles stuff to cakeshop.  will use it later this week for that demo.  here's the commit - some random user/pass combos in there.   https://github.com/imylomylo/komodo-cakeshop/commit/85f95ed009bcc997bfa126ab1adb42b8b233e3ab
+
+{Embed}
+https://github.com/imylomylo/komodo-cakeshop/commit/85f95ed009bcc997bfa126ab1adb42b8b233e3ab
+adding oracles to cakeshop · imylomylo/komodo-cakeshop@85f95ed
+https://images-ext-2.discordapp.net/external/wTjZ6bAVoE1BsD9VFkdJMIvireR0-X_ryt1VDmdTcEU/%3Fs%3D200%26v%3D4/https/avatars1.githubusercontent.com/u/19399102
+
+
+[08-Jan-19 10:42 AM] Mark81#4505
+!kmdtip thunder all @TonyL
+
+
+[08-Jan-19 10:42 AM] KMD TipBot#0077
+:cloud_lightning: @Asterix has been thunderstruck with 4.69130126 KMD!
+
+
+[08-Jan-19 10:44 AM] Mark81#4505
+Shit!
+
+
+[08-Jan-19 10:45 AM] TonyL#3577
+Appreciate your intention much @Mark81  🙂
+
+
+[08-Jan-19 10:45 AM] Mark81#4505
+Next time man! You're doing good work! Appreciate a lot that!
+
+{Reactions}
+Komodo 
+
+[08-Jan-19 10:46 AM] TonyL#3577
+Thanks for a good words mate! 👍
+
+
+[08-Jan-19 03:02 PM] Alright#0419
+@Mylo @TonyL do you know the overhead for uploading files to an oracle?
+
+
+[08-Jan-19 03:02 PM] Alright#0419
+I was thinking if it's significant, it might be better to use the full OP_RETURN without the contract at all
+
+
+[08-Jan-19 04:20 PM] Mylo#8306
+no idea, something we'll check out.   also do you know if a file in an oracle is saved on a node in pruned mode?
+
+
+[08-Jan-19 04:23 PM] Alright#0419
+don't believe it would be. I'm not familiar with what "pruned mode" is, but I think it would prune all OP_RETURNs
+
+
+[08-Jan-19 04:23 PM] Mylo#8306
+yep it does.
+
+
+[08-Jan-19 09:38 PM] TonyL#3577
+@Alright
+txfee for oraclescreate
+txfee for oraclesregister
+txfee for oraclessubscribe/s (+ topup on sum of chunks * datafee on this change) 
+txfee + datafee for each oraclesdata
+
+
+[08-Jan-19 09:38 PM] Alright#0419
+so what I mean is if you upload a 100kb file
+
+
+[08-Jan-19 09:38 PM] Alright#0419
+how much space does that actually use on the chain
+
+
+[08-Jan-19 09:39 PM] TonyL#3577
+Ah, I though you're asking how much is it cost
+
+
+[08-Jan-19 09:40 PM] TonyL#3577
+I'm not totally sure
+
+
+[08-Jan-19 11:14 PM] Mylo#8306
+google: location services blockchain oracle and kmd has 3rd result on my screen.   points to yesterday's tech tuesday https://komodoplatform.com/tt2019-2-microtransaction-lightning-poker-location-services/
+
+{Embed}
+https://komodoplatform.com/tt2019-2-microtransaction-lightning-poker-location-services/
+Tech Tuesday Development Update - 2019 Week 2: Microtransaction Li...
+Komodo Platform is starting a weekly briefing on the progress the Komodo Dev Team is making. It's called Tech Tuesday Update. Here's another update!
+https://images-ext-1.discordapp.net/external/5mM-oiRXPZqjXgvgfZbbafJQt6TUjYRR-YWovzFebXc/https/komodoplatform.com/wp-content/uploads/2018/09/tech-tuesday-update.jpg
+
+{Reactions}
+🚀 (2) 
+
+[08-Jan-19 11:55 PM] Deleted User#0000
+using just the OP_RETURN like I did in the streamer make 10% more space. Thats putting a txd and a int32 at the start for identificatino purpousess....if using an oracle isnt much mroe than that, oracle is better as you can locate it inothe chain faster.
+
+
+[09-Jan-19 12:00 AM] Mylo#8306
+different use case
+
+
+[09-Jan-19 12:00 AM] Mylo#8306
+but yea
+
+
+[09-Jan-19 12:00 AM] Mylo#8306
+i believe ya
+
+
+[09-Jan-19 12:01 AM] jl777c#5810
+oracles put less data as overhead
+
+
+[09-Jan-19 12:09 AM] Deleted User#0000
+by 10% more I mean if you make a chain with only a file in it... the raw blockchain is 10% bigger in total... not sure how a raw op_return can be bigger than an oracle?
+
+
+[09-Jan-19 12:10 AM] jl777c#5810
+oracle uses vin for indexing
+
+
+[09-Jan-19 12:10 AM] Deleted User#0000
+so oracle has whole op_return used aswell?
+
+
+[09-Jan-19 12:11 AM] jl777c#5810
+oh, it does add some txids, so adds 64 bytes
+
+{Reactions}
+👍 
+
+[09-Jan-19 12:11 AM] jl777c#5810
+but compared to 8kb it is small percentage
+
+
+[09-Jan-19 12:12 AM] Deleted User#0000
+streamer was only 1 txid ... so liekly they are much the same.
+
+
+[09-Jan-19 12:12 AM] Deleted User#0000
+streamer has no index though.... hard to find files in current state
+
+
+[09-Jan-19 12:13 AM] Deleted User#0000
+`LEAVE_CRITICAL_SECTION(cs_main);`
+btw found you can do this, I am testing a new fix to the miner... under very heavy load it has been locking up for me.
+
+
+[28-Jan-19 09:14 AM] benohanlon#7045
+great channel topic here @Alright 😃
+
+
+[28-Jan-19 09:57 AM] Alright#0419
+@benohanlon will have to post some examples and pin them
+
+
+[28-Jan-19 09:57 AM] Alright#0419
+sometime today, guess I can show off dragonhound and trollbox
+
+
+[28-Jan-19 09:57 AM] Alright#0419
+and tony's file uploader
+
+
+[30-Jan-19 01:50 AM] smkhound#7640
+Drgaonhound is still very much in beta, and pending database migrations after recent updates. I"ll let you know once it's back up and ready for testing.
+
+
+[30-Jan-19 10:13 AM] Alright#0419
+Well that slipped my mind, let me just drop some links for now
+
+
+[30-Jan-19 10:14 AM] Alright#0419
+@TonyL could you share a link to oracles file uploader if you have one
+
+
+[30-Jan-19 10:16 AM] TonyL#3577
+@Alright https://github.com/tonymorony/GatewaysCC-TUI/blob/master/oracles_cc_tui.py
+
+{Embed}
+https://github.com/tonymorony/GatewaysCC-TUI/blob/master/oracles_cc_tui.py
+tonymorony/GatewaysCC-TUI
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/GatewaysCC-TUI
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+{Reactions}
+👍 
+
+[30-Jan-19 10:16 AM] Alright#0419
+thanks, is that more of a unified TUI?
+
+
+[30-Jan-19 10:16 AM] Alright#0419
+like no just gateways that is
+
+
+[30-Jan-19 10:17 AM] TonyL#3577
+Oh yes, repo name is outdated as well as readme
+
+
+[30-Jan-19 10:17 AM] TonyL#3577
+It have a lot of stuff inside now - MarmaraTUI, also branch with AWS certificates uploading into oracle 😃
+
+
+[30-Jan-19 10:18 AM] Alright#0419 (pinned)
+If you create something based on Oracles CC, please let me know. I will keep this list updated as a reference.
+```
+On chain real time chat:
+https://github.com/KMDLabs/trollbox
+https://github.com/tonymorony/OraclesCC_Chat-GUI
+
+Simple file uploader/downloader:
+https://github.com/tonymorony/komodo_cryptoconditions_tui/blob/master/oracles_cc_tui.py
+
+Simple bash scripts to push/fetch jsons on chain
+https://github.com/KMDLabs/StakedNotary/blob/master/oraclepush.sh
+https://github.com/KMDLabs/StakedNotary/blob/master/oraclefetch.sh
+```
+
+{Reactions}
+🚀 
+
+[30-Jan-19 10:19 AM] Alright#0419
+that look good to you? Anything to add or change, @TonyL ?
+
+
+[30-Jan-19 10:20 AM] TonyL#3577
+Let me rename repo please
+
+
+[30-Jan-19 10:21 AM] Alright#0419
+Pinned a message.
+
+
+[30-Jan-19 10:22 AM] TonyL#3577
+https://github.com/tonymorony/komodo_cryptoconditions_tui/blob/master/oracles_cc_tui.py @Alright
+
+{Embed}
+https://github.com/tonymorony/komodo_cryptoconditions_tui/blob/master/oracles_cc_tui.py
+tonymorony/komodo_cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/komodo_cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[30-Jan-19 10:22 AM] TonyL#3577
+It's quite confusing to use oracle TUI from repo which calling gateways TUI 😆
+
+
+[30-Jan-19 10:23 AM] Alright#0419
+feel like we're definitely missing examples, just can't think of them right now
+
+
+[06-Feb-19 10:45 PM] gcharang#6833
+The format of oraclessubscribe is: `oraclessubscribe oracletxid publisher amount`
+
+1)The amount can be anything greater than datafee correct? 
+2)Say datafee is 10 COINS and the amount 1000 COINS is used to subscribe, the publisher will be able to publish 100 times. Is it correct?
+3) What happens if the amount used to subscribe is 1001 COINS, I mean 1 COIN will be leftover, If the same pubkey does oraclessubscribe with 9 COINS, will the publisher able to publish once?
+
+
+[06-Feb-19 10:55 PM] jl777c#5810
+unless bugs, it should work that way
+
+
+[07-Feb-19 03:23 AM] Mihailo#5902
+@gcharang Yes, Only for 3) I would have to check...
+
+
+[07-Feb-19 04:26 AM] gcharang#6833
+Thanks, one more question:
+If the datafee is 10 COINS as above, but pubkeyA subscribes with 1 COIN and pubkeyB subscribes with 9 COINS. will the publisher be able to publish then?
+
+
+[07-Feb-19 05:22 AM] jl777c#5810
+yes, funds are paid to the publisher pubkey CC address
+
+{Reactions}
+👍 
+
+[20-Feb-19 06:12 PM] Bryan_Beus#6442
+I found this mistake in the `oraclesdata` method today and I don't know what information is missing:
+
+Look for the `===`
+
+```
+Data is submitted using the hexstr property. The first portion of the hexstr property must include ===; this sets the string length for the rest of the data. The second portion of the hexstr property is the data itself.
+```
+
+Can anyone here please tell me what the first part of the hexstr property should include?
+
+
+[20-Feb-19 08:26 PM] gcharang#6833
+Its in this section: https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-oracles.html#oraclesdata
+afaik it should be the `data type`
+
+lets wait for @Alright or @TonyL to answer this @Bryan_Beus
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-oracles.html
+Smart Contract: Oracles | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[21-Feb-19 12:53 AM] Alright#0419
+@gcharang @Bryan_Beus 
+`Data is submitted using the hexstr property. The first portion of the hexstr property must include ===; this sets the string length for the rest of the data. The second portion of the hexstr property is the data itself.`
+I'm not sure what this means by `The first portion of the hexstr property must include ===`
+
+
+[21-Feb-19 12:54 AM] Alright#0419
+the first or first and second bytes must be the length of the data in hex
+
+
+[21-Feb-19 12:56 AM] gcharang#6833
+thanks @Alright 
+can you explain step by step how the data should be submitted like an example:
+
+need to submit data of type `s -> < 256 char string` : the data is : `Hello world`
+
+
+[21-Feb-19 12:57 AM] Alright#0419
+Couple minutes
+
+
+[21-Feb-19 12:57 AM] gcharang#6833
+thanks
+
+
+[21-Feb-19 12:57 AM] Alright#0419
+I can give you a script that will do it for you
+
+
+[21-Feb-19 12:58 AM] Alright#0419
+s will be first byte only because data must be less than 256 char
+
+
+[21-Feb-19 01:00 AM] gcharang#6833
+this is something I don't understand, so to add an explanation and How to to the docs, I need to understand it properly, i.e., how to format the data and to include its length in the submitted data. 
+
+Give me the script and any other resources that will help me understanding this
+
+
+[21-Feb-19 01:00 AM] Mihailo#5902
+First byte should be length of data, and then the data should be hex representation of string
+
+
+[21-Feb-19 01:02 AM] Mihailo#5902
+This should be the value for `teststring` data: 0a74657374737472696e67
+
+
+[21-Feb-19 01:02 AM] Mihailo#5902
+0a is length
+
+
+[21-Feb-19 01:02 AM] gcharang#6833
+"Hello world" is 11 chars: so first byte should be `<11> in hex`?
+
+
+[21-Feb-19 01:02 AM] Mihailo#5902
+and folowing is teststring in hex
+
+
+[21-Feb-19 01:03 AM] Mihailo#5902
+first byte should be 0b 😉
+
+
+[21-Feb-19 01:03 AM] gcharang#6833
+ah got it.
+
+
+[21-Feb-19 01:04 AM] gcharang#6833
+Will there be a case where first 2 bytes denote the length?
+
+
+[21-Feb-19 01:04 AM] Mihailo#5902
+Yes, that is for S format
+
+
+[21-Feb-19 01:04 AM] Mihailo#5902
+And D format
+
+
+[21-Feb-19 01:04 AM] Mihailo#5902
+s and d are for one byte length, and S and D for two byte length
+
+
+[21-Feb-19 01:05 AM] Alright#0419
+Little endian
+
+
+[21-Feb-19 01:05 AM] Mihailo#5902
+Yes
+
+
+[21-Feb-19 01:09 AM] gcharang#6833
+I just looked up hex representations for t,e,s,t,.... and  endianness
+t=74
+e=65
+s=73 ...... and so on. So writing them in the exact order that we read is little endian, and reverse order is big endian?
+
+
+[21-Feb-19 01:10 AM] Mihailo#5902
+little endian is just for lenght bytes, then you add data as it is
+
+
+[21-Feb-19 01:10 AM] Mihailo#5902
+So only when you have two bytes for length you will put 0a0074657374737472696e67
+
+
+[21-Feb-19 01:13 AM] gcharang#6833
+so the order changes byte by byte? and are we using big endian ness for anyother data type in cc?
+
+
+[21-Feb-19 01:13 AM] gcharang#6833
+anyother data type -- where the user who is using rpc need to deal with
+
+
+[21-Feb-19 01:14 AM] jl777c#5810
+i dont use bigendian
+
+
+[21-Feb-19 01:14 AM] jl777c#5810
+almost all things are little endian
+
+
+[21-Feb-19 01:14 AM] Alright#0419
+```
+#!/usr/bin/env python3
+import sys
+import codecs
+import time
+import readline
+
+
+while True:
+    message = input("Type message: ")
+    #convert message to hex
+    rawhex = codecs.encode(message).hex()
+
+    #get length in bytes of hex in decimal
+    bytelen = int(len(rawhex) / int(2))
+    hexlen = format(bytelen, 'x')
+
+    #get length in big endian hex
+    if bytelen < 16:
+        bigend = "000" + str(hexlen)
+    elif bytelen < 256:
+        bigend = "00" + str(hexlen)
+    elif bytelen < 4096:
+        bigend = "0" + str(hexlen)
+    elif bytelen < 65536:
+        bigend = str(hexlen)
+    else:
+        print("message too large, must be less than 65536 characters")
+        continue
+
+    #convert big endian length to little endian, append rawhex to little endian length
+    lilend = bigend[2] + bigend[3] + bigend[0] + bigend[1]
+    fullhex = lilend + rawhex
+
+    print(fullhex)
+```
+
+{Reactions}
+👍 
+
+[21-Feb-19 01:15 AM] Alright#0419
+this is for S oracle^
+
+
+[21-Feb-19 01:15 AM] Mihailo#5902
+No, just the length is little endian. When you have one byte length then it is just that byte 0a (no endian ness). And when you have two byt length then it is little endian 0a00. Data is given in order it is written. There is no endian ness for data.
+
+{Reactions}
+👍 
+
+[21-Feb-19 01:15 AM] gcharang#6833
+Got it mihailo
+
+
+[21-Feb-19 01:15 AM] jl777c#5810
+also just because you can specific up to 65535 in 2 bytes, doesnt mean you can go past the 10000 byte limit
+
+
+[21-Feb-19 01:16 AM] gcharang#6833
+"10000 byte limit" -- is it for all cc txns or all transactions?
+
+
+[21-Feb-19 01:17 AM] Alright#0419
+10kb limit is on OP_RETURN itself I believe
+
+
+[21-Feb-19 01:17 AM] Alright#0419
+so actual oracle limit is a bit smaller
+
+
+[21-Feb-19 01:17 AM] Mihailo#5902
+I think it is good to split it in 8k chunks
+
+
+[21-Feb-19 01:18 AM] gcharang#6833
+noted @Mihailo .
+k is 1000 or 1024? sorry for the noob questions 😅
+
+
+[21-Feb-19 01:20 AM] Mihailo#5902
+K for kilobyte - t is 1024. So 8192 will fit in 10000 limit and will be good round nubmber for chunk
+
+
+[21-Feb-19 01:20 AM] Alright#0419
+probably worth noting in the doc that d and D are almost always better to use than s and S
+
+
+[21-Feb-19 01:21 AM] Alright#0419
+the only benefit of s/S is that it will show human readable text in `oraclessamples` output
+
+{Reactions}
+👌 (2) 
+
+[21-Feb-19 01:21 AM] Mihailo#5902
+Yes, it is for raw data.
+
+
+[21-Feb-19 01:21 AM] Alright#0419
+but it essentially uses twice as much space on the chain
+
+
+[21-Feb-19 01:21 AM] Mihailo#5902
+Correct
+
+
+[21-Feb-19 01:22 AM] gcharang#6833
+thanks guys. Will add all these to the doc and come back if I have more questions
+
+
+[21-Feb-19 01:22 AM] Mihailo#5902
+👍
+
+
+[21-Feb-19 10:23 AM] gcharang#6833
+for s/S types are the characters to be considered ASCII?
+
+
+[22-Feb-19 05:03 AM] Alright#0419
+@gcharang when you do `oraclessamples`, it will try to decode the hex stored as ASCII
+
+
+[22-Feb-19 05:05 AM] gcharang#6833
+so `oraclessamples`  treats each byte after the length bytes as a single ascii character?
+
+
+[22-Feb-19 05:05 AM] gcharang#6833
+@Alright
+
+
+[22-Feb-19 05:05 AM] Alright#0419
+yes
+
+{Reactions}
+👍 
+
+[22-Feb-19 05:06 AM] Alright#0419
+or well
+
+
+[22-Feb-19 05:06 AM] Alright#0419
+multi byte unicode characters should work as well
+
+
+[22-Feb-19 05:06 AM] Alright#0419
+so no?
+
+{Reactions}
+🤔 
+
+[22-Feb-19 05:07 AM] gcharang#6833
+how will the code know to consider between `multi byte unicode characters` and `single byte ascii`?
+
+
+[22-Feb-19 05:07 AM] Alright#0419
+it just does? 🤷
+
+
+[22-Feb-19 05:07 AM] Alright#0419
+question for jl I'd say
+
+
+[22-Feb-19 05:08 AM] gcharang#6833
+for s/S types are the characters to be considered ASCII? @jl777c
+
+
+[22-Feb-19 05:10 AM] Alright#0419
+not sure that's the best question to ask
+
+
+[22-Feb-19 05:10 AM] Alright#0419
+the answer to that is *yes*
+
+
+[22-Feb-19 05:10 AM] Alright#0419
+but it's not byte by byte because multi-byte unicode characters work
+
+
+[22-Feb-19 05:11 AM] jl777c#5810
+s/S is displayed as ascii
+
+
+[22-Feb-19 05:11 AM] jl777c#5810
+d/D is displayed as hex so it could be anything
+
+
+[22-Feb-19 05:11 AM] jl777c#5810
+not sure how multibyte unicode works, if it does, it is accidental
+
+
+[22-Feb-19 05:11 AM] gcharang#6833
+if unicode characters are submitted to s/S type oracle, the display will be gibberish?
+
+
+[22-Feb-19 05:11 AM] Alright#0419
+it does 🤣
+
+
+[22-Feb-19 05:12 AM] Alright#0419
+display works
+
+
+[22-Feb-19 05:12 AM] Alright#0419
+it "just works"
+
+{Reactions}
+😂 
+
+[22-Feb-19 05:12 AM] jl777c#5810
+int32_t oracle_parse_data_format(std::vector<uint8_t> data,std::string format)
+
+
+[22-Feb-19 05:13 AM] jl777c#5810
+for (i=0; i<slen; i++)
+                    str[i] = data[offset++];
+                str[i] = 0;
+
+
+[22-Feb-19 05:14 AM] jl777c#5810
+i just get a null string of specified length and null terminate it. then sprintf the resulting string
+
+
+[26-Feb-19 08:30 AM] dukeleto#7326
+I plan to enable oracle CC on the new HUSH AC, anything I need to know? What is the difference if the chain launches on `dev` branch vs `FSM` currently?
+
+
+[26-Feb-19 08:31 AM] jl777c#5810
+FSM is bleeding edge
+dev is cutting edge
+beta is usually stable
+master is updated only for critical bugs or consensus changes
+
+
+[26-Feb-19 11:20 AM] Alright#0419
+@dukeleto I believe the only practical difference between dev and FSM right now is all the new cclib CCs
+
+
+[26-Feb-19 11:21 AM] Alright#0419
+no difference for oracles
+
+
+[26-Feb-19 11:47 PM] dukeleto#7326
+groovy, thanks
+
+
+[27-Feb-19 02:37 AM] Mihailo#5902
+Oracles haven't been changed for sometime, so dve and FSM should be same.
+
+{Reactions}
+👍 
+
+[08-Mar-19 02:53 AM] jusoaresf#3291
+couldn't we do...
+```python
+#get length in big endian hex
+    if bytelen < 65536:
+        bigend = ("000"+str(hexlen))[-4:]
+    else:
+        print("message too large, must be less than 65536 characters")
+```
+instead of
+
+```python
+#get length in big endian hex
+    if bytelen < 16:
+        bigend = "000" + str(hexlen)
+    elif bytelen < 256:
+        bigend = "00" + str(hexlen)
+    elif bytelen < 4096:
+        bigend = "0" + str(hexlen)
+    elif bytelen < 65536:
+        bigend = str(hexlen)
+    else:
+        print("message too large, must be less than 65536 characters")
+``` 
+and save a few comparisons for lengthy content?
+
+
+[22-Mar-19 06:18 AM] grewalsatinder#9653
+grewalsatinderToday at 2:15 AM
+example scenario:
+- data of N bytes to sell.
+- the seller can't be always online/connected to transmit data over blockchain.
+- the data is once shared/put on blockchain (in OP_RETURN??) and each buyer has to pay to get the encrypted data.
+
+I'm unclear on this encryption/decryption part.
+will the data be encrypted with single decryption key to decrypt or is it possible that each buyer uses their own decryption key for this encrypted data?
+is there a solution to this already?
+
+
+[22-Mar-19 06:20 AM] Alright#0419
+is it possible for seller to encrypt some data knowing only the buyer's pubkey that only the buyer can decrypt?
+
+
+[22-Mar-19 06:20 AM] Alright#0419
+I've been thinking about this. It requires a key to be exchanged elsewhere, yes?
+
+
+[22-Mar-19 06:21 AM] jl777c#5810
+that is all you need
+
+
+[22-Mar-19 06:21 AM] grewalsatinder#9653
+I was thinking from the same point of view from a website. the kinda same experience, where seller doesn't know any buyer prior to putting the data to sell on the website.
+
+
+[22-Mar-19 06:21 AM] jl777c#5810
+the seller would describe the data, then register as a publisher
+
+
+[22-Mar-19 06:22 AM] jl777c#5810
+then people would fund the oracle for a onetime payment, the publisher would see that payment and publish encrypted data to the buyers pubkey
+
+
+[22-Mar-19 06:22 AM] jl777c#5810
+using curve25519 there is easy way to encrypt, pretty sure secp256k1 can do the same
+
+
+[22-Mar-19 06:24 AM] jl777c#5810
+https://medium.com/@dealancer/how-to-using-bitcoin-key-pairs-to-for-encrypted-messaging-a0a980e627b1
+
+{Embed}
+https://medium.com/@dealancer/how-to-using-bitcoin-key-pairs-to-for-encrypted-messaging-a0a980e627b1
+How-to: using Bitcoin key pairs to for encrypted messaging
+In my previous post, I have described an idea of building an anonymous messenger for Bitcoin users. Now it is a time to prove that it will…
+
+
+[22-Mar-19 06:26 AM] grewalsatinder#9653
+thanks, gonna quick read it 🙂 👍
+
+
+[22-Mar-19 06:29 AM] Alright#0419
+awesome, I can use this for trollbox pms
+
+
+[22-Mar-19 06:30 AM] jl777c#5810
+it took me one google search to find this
+
+
+[22-Mar-19 06:30 AM] grewalsatinder#9653
+I was thinking of a Nextflix like application using this concept 😛
+
+
+[22-Mar-19 06:31 AM] grewalsatinder#9653
+bloackjok3r already done the streaming, was only trying to understand partially
+
+
+[22-Mar-19 06:37 AM] grewalsatinder#9653
+read the link.
+So if the buyers need to decrypt the data, the seller needs their `pubkeys`.
+In an example of a movie app, It will be instead a Cinema or MutiPlex like app, where the viewers first buy the ticket, then sit through the session to watch the movie.
+
+
+[22-Mar-19 06:37 AM] grewalsatinder#9653
+The movie is played for the next viewer set again, for N sessions.
+
+
+[22-Mar-19 06:38 AM] grewalsatinder#9653
+It just doesn't stay in the Cinema forever to view unlike Netflix etc.
+
+
+[22-Mar-19 06:39 AM] grewalsatinder#9653
+So, that concept I understand is possible to make based on this understanding.
+```Let’s say, Alice wants to send Bob an encrypted text Greetings form Alice!. All she needs to know is Bob’s Bitcoin address and her own WIF (wallet import format) key. Bob will decrypt this text knowing Alice’s Bitcoin address and his own WIF key.
+
+They will use ECDH algorithm to obtain a shared secret, which will be used for 256-bit symmetric AES encryption. Note that ECDH(public key A, private key B) = ECDH(public key B, private key A) = shared secret.```
+
+
+[22-Mar-19 06:39 AM] grewalsatinder#9653
+If it's a Medium.com like blogs, that looks odd.
+It won't be a blog anymore then 🤔
+
+
+[22-Mar-19 06:40 AM] grewalsatinder#9653
+a blog's intro posted in publicly plain text and the rest of the blog posted in a pay to decrypt text.....
+
+
+[22-Mar-19 06:42 AM] grewalsatinder#9653
+hmm.... in that case it is more like a patreon.com like model 😃
+
+
+[22-Mar-19 06:43 AM] grewalsatinder#9653
+the subscribers subscribe to the creator and the content posted by creator is viewable only by the subscribers
+
+
+[22-Mar-19 06:44 AM] jl777c#5810
+the subscriber made a payment
+
+
+[22-Mar-19 06:45 AM] jl777c#5810
+that discloses their pubkey
+
+
+[22-Mar-19 06:45 AM] jl777c#5810
+not sure what the problem is
+
+
+[22-Mar-19 07:02 AM] grewalsatinder#9653
+website:
+- seller post data.
+- without knowing any info of the buyers.
+- buyer pays, and gets the data.
+
+In case of website:
+- the buyer doesn't has to always be present.
+- don't have to re-post the data again. But I guess this point is not true exactly, in case the inventory is all sold, and then seller has to update it. But if it's just some digital data bytes, it is a one time task for seller.
+
+The same model does not apply to Blockchain as I understood.
+- Seller has to know the buyer's info. prior to posting the data to sell. Like `pubkey`
+- Seller posts the encrypted data. Only the buyers who's pubkey was known to buyer can decrypt the data.
+- Another set of buyers wait for the seller to post the data again to get the same data posted by the seller so they can decrypt it.
+
+
+[22-Mar-19 07:04 AM] jl777c#5810
+if you are encrypting each copy, then you cant publish until somebody pays and you can get their pubkey from the payment
+
+
+[22-Mar-19 07:05 AM] jl777c#5810
+buyer pays oracle, publisher encrypts data to the buyer and collects the datafee
+
+
+[22-Mar-19 07:05 AM] jl777c#5810
+you are making it a LOT more complex
+
+
+[22-Mar-19 07:05 AM] jl777c#5810
+it can be literally transactional and noninteractive
+
+
+[22-Mar-19 07:05 AM] jl777c#5810
+buyer pays
+
+
+[22-Mar-19 07:05 AM] jl777c#5810
+by paying buyer spends funds and reveals his pubkey
+
+
+[22-Mar-19 07:06 AM] jl777c#5810
+seller sees the payment and to collect the funds must publish, so extracts the buyers pubkey and encrypts, publishes and collects datafee
+
+
+[22-Mar-19 07:08 AM] grewalsatinder#9653
+yes, these steps are clear, thanks for making more clearer 🙂
+
+
+[22-Mar-19 07:08 AM] grewalsatinder#9653
+so in website it's initiator is Seller, were in blockchain it's the Buyer.
+
+
+[22-Mar-19 07:09 AM] grewalsatinder#9653
+Or I miss something in between again I guess
+
+
+[22-Mar-19 07:09 AM] grewalsatinder#9653
+How does seller post what data he/she's selling?
+
+
+[22-Mar-19 07:09 AM] grewalsatinder#9653
+I just need to test the oraclesCC for once 😦
+
+
+[22-Mar-19 07:10 AM] grewalsatinder#9653
+will make me think clearly, better...
+
+
+[22-Mar-19 07:12 AM] jl777c#5810
+please read the docs on oracles before asking such basic questions
+
+
+[22-Mar-19 07:12 AM] grewalsatinder#9653
+okay 👍
+
+
+[08-Apr-19 05:45 PM] Exile13#4458
+Hey all! I'm the project manager for hempcoin now, my interest is using the blockchain to help farmers track their data more efficiently. I am teaching myself coding to be of assistance to the community, alright mentioned that oracles were the way to demonstrate this action.
+
+{Reactions}
+👌 
+
+[08-Apr-19 05:46 PM] Exile13#4458
+I've been following you all since August, helping with pirate and kmdlabs
+
+
+[08-Apr-19 05:53 PM] Exile13#4458
+My question is, how can i be of service to you and the community to help facilitate THC to be able to track this data for our users?
+
+
+[08-Apr-19 05:55 PM] Exile13#4458
+Is this request something I would have to create on my own after forking from kmd? Or is it a part of the code that can be manipulated beforehand?
+
+
+[08-Apr-19 06:04 PM] Exile13#4458
+i guess forking may be the incorrect term
+
+
+[08-Apr-19 07:32 PM] Alright#0419
+@Exile13 look at the pinned messages here for some examples of oracles
+
+
+[08-Apr-19 07:33 PM] Alright#0419
+there is @smkhound 's project http://oracle.earth/ as well
+
+
+[08-Apr-19 07:33 PM] Alright#0419
+https://developers.komodoplatform.com/basic-docs/customconsensus/oracles.html
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/customconsensus/oracles.html
+Oracles | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[08-Apr-19 07:34 PM] smkhound#7640 (pinned)
+https://blog.komodoplatform.com/anatomy-of-an-oracle-c6c2245b0196
+
+{Embed}
+https://blog.komodoplatform.com/anatomy-of-an-oracle-c6c2245b0196
+Anatomy of an Oracle
+In 2018, Komodo Platform added cryptoconditions to thier codebase, and lots of testing has taken place leading to a new suite of dApps…
+https://images-ext-1.discordapp.net/external/WUHku7UV2Qh1iVBHwdBH2EcqBt7UllFZhuO3aR1J2Lk/https/cdn-images-1.medium.com/max/1200/0%2ANkfuMX1aJPguJyCA.jpg
+
+
+[08-Apr-19 07:49 PM] Exile13#4458
+ooooh thank you!! im about to eat dinner and im jump right in!!
+
+
+[08-Apr-19 07:49 PM] Exile13#4458
+@smkhound HI!!
+
+{Reactions}
+👋 
+
+[08-Apr-19 07:50 PM] Exile13#4458
+thats pretty awesome project you did for your pup
+
+
+[08-Apr-19 07:51 PM] smkhound#7640
+His antics have motivated me a fair bit lol
+
+{Reactions}
+😅 
+
+[08-Apr-19 08:57 PM] Alright#0419
+Pinned a message.
+
+
+[09-Apr-19 04:04 AM] smkhound#7640
+@Alright  you can pin http://oracle.earth too
+it might go down here and there when LABs updates as it uses those daemons and chains. If anone sees it showing errors let me know, can normally get it up again quickly, but might have to rebuild some daemons.
+
+
+[18-Apr-19 03:10 PM] TonyL#3577
+It seems that `oracleslist` not working on latest FSM
+
+Created oracle:
+```./komodo-cli -ac_name=IMPORTGW oraclescreate KMD testing Ihh
+{
+  "result": "success",
+  "hex": "0400008085202f89022d70729c19d1c76f23bcf2b69542648cdcdb2db407ceb9523f7e19d7ecc1240200000000484730440220176d1b20f161428ab37eacc0d95246aa8a6a6d4248ced1adc333fb08b28510e0022015325ea4cbbde5bb9c9e7c7e0b15a4cbe525f0d252a36b1034a7336ebcaa10fe01ffffffff2fd6ca7dc3a151d35a5a686ec2d655820e40292f17093b79240085cb49768c280000000049483045022100a045e1ff16d453ebcd1d1ff05e05c18e22b61e2e1105e585117cecc77aa8963b02204e63433331ab48669aef8cdb8d5421491de44690761aada213b99619ce32957201ffffffff0210270000000000002321038c1d42db6a45a57eccb8981b078fb7857b9b496293fe299d2b8d120ac5b5691aac0000000000000000146a12ec43034b4d44034968680774657374696e67000000005f0000000000000000000000000000"
+}
+```
+```./komodo-cli -ac_name=IMPORTGW sendrawtransaction hex^^
+df9170e2a9530d7a7846d6bdb2701fa01822c1b8346d47301ae83ad41f187a81```
+
+
+[18-Apr-19 03:11 PM] TonyL#3577
+After tx is mined:
+```./komodo-cli -ac_name=IMPORTGW oracleslist
+[
+]
+```
+but oraclesinfo returns information:
+```./komodo-cli -ac_name=IMPORTGW oraclesinfo df9170e2a9530d7a7846d6bdb2701fa01822c1b8346d47301ae83ad41f187a81
+{
+  "result": "success",
+  "txid": "df9170e2a9530d7a7846d6bdb2701fa01822c1b8346d47301ae83ad41f187a81",
+  "name": "KMD",
+  "description": "testing",
+  "format": "Ihh",
+  "marker": "RDkHqoFBVXGQA7m7d3WhVpusFKaTncmH8P",
+  "registered": [
+  ]
+}
+```
+
+
+[18-Apr-19 03:15 PM] TonyL#3577
+Also was able to register as a publisher:
+```./komodo-cli -ac_name=IMPORTGW oraclesinfo df9170e2a9530d7a7846d6bdb2701fa01822c1b8346d47301ae83ad41f187a81
+{
+  "result": "success",
+  "txid": "df9170e2a9530d7a7846d6bdb2701fa01822c1b8346d47301ae83ad41f187a81",
+  "name": "KMD",
+  "description": "testing",
+  "format": "Ihh",
+  "marker": "RDkHqoFBVXGQA7m7d3WhVpusFKaTncmH8P",
+  "registered": [
+    {
+      "publisher": "03c15a33e8aa922abc592bc86ccc8ff4a6233fa5cb275c88fcf0b5e22aab924e6a",
+      "baton": "RPFxe4vQ7hdESNsqVKLYuYo2WU5SUT4XFL",
+      "batontxid": "521b355fc94cac0e3550430f3e1b1e87c8ba75689d749ae19c255bba49f8d4c9",
+      "lifetime": "0.00000000",
+      "funds": "0.00000000",
+      "datafee": "0.00010000"
+    }
+  ]
+}
+```
+
+
+[18-Apr-19 03:15 PM] TonyL#3577
+But cant subscribe:
+```./komodo-cli -ac_name=IMPORTGW oraclessubscribe df9170e2a9530d7a7846d6bdb2701fa01822c1b8346d47301ae83ad41f187a81 03c15a33e8aa922abc592bc86ccc8ff4a6233fa5cb275c88fcf0b5e22aab924e6a 1
+error adding normal inputs
+{
+  "result": "error",
+  "error": "error adding normal inputs"
+}
+```
+
+Chain params:
+`./komodod -ac_supply=1000 -ac_name=IMPORTGW -ac_cc=2 -printtoconsole -dns=0 -dnsseed=0 -listenonion=0 -port=23231 -ac_import=KMD -debug=importgateway-2 -addnode=159.69.45.70 -pubkey=03c14efac328e46de5d2647ae4319f7fd1f59029b824f8318e7dd17e5e5ef0b8d2 -daemon`
+
+
+[18-Apr-19 03:18 PM] TonyL#3577
+Could you please try to create/register/subscribe oracle and check oracleslist on your side on latest FSM when you'll have a chance? @smkhound
+
+{Reactions}
+👍 
+
+[18-Apr-19 08:46 PM] Deleted User#0000
+Try to reindex
+
+
+[18-Apr-19 08:46 PM] Deleted User#0000
+Should fix it, changes were made to database
+
+
+[19-Apr-19 02:00 AM] TonyL#3577
+It's freh chain started from scratch on this version
+
+
+[19-Apr-19 02:01 AM] smkhound#7640
+low rewards :troll_hurt:
+
+
+[19-Apr-19 02:02 AM] smkhound#7640
+managed to create and register
+
+
+[19-Apr-19 02:03 AM] TonyL#3577
+But I had problems with list and subscribe
+
+
+[19-Apr-19 02:04 AM] smkhound#7640
+yeah list is empty for me too
+
+
+[19-Apr-19 02:04 AM] smkhound#7640
+but can get info if txid known
+
+
+[19-Apr-19 02:04 AM] smkhound#7640
+just sent subscribe, waiting for tx to clear
+
+
+[19-Apr-19 02:07 AM] smkhound#7640
+subscribed ok.
+
+
+[19-Apr-19 02:07 AM] smkhound#7640
+```smk762@smk762-1:~/komodo/src$ ./komodo-cli -ac_name=IMPORTGW oraclesinfo 410c76359e07ca0b2083eba7d059c2dcd54505f6105deb3034697b56b12b63c6
+{
+  "result": "success",
+  "txid": "410c76359e07ca0b2083eba7d059c2dcd54505f6105deb3034697b56b12b63c6",
+  "name": "testName",
+  "description": "testDesc",
+  "format": "S",
+  "marker": "RTN4veg2MgEkUdbFCZT3Eh3NndGW3nKzED",
+  "registered": [
+    {
+      "publisher": "031b2f82da4ba5ae210d50679a50727966074a090a4d1a996e89af8a2f95ec5bd8",
+      "baton": "RSRABzJwC1EixNarUQj34v31a8zLmEU85t",
+      "batontxid": "82720090a02ffe45285ac5249936ce9f8cbc865437bd8bc115335b1d5377182a",
+      "lifetime": "0.00100000",
+      "funds": "0.00100000",
+      "datafee": "0.00010000"
+    }
+  ]
+}
+smk762@smk762-1:~/komodo/src$ ./komodo-cli -ac_name=IMPORTGW oracleslist
+[
+]
+```
+
+
+[19-Apr-19 02:07 AM] smkhound#7640
+list still empty
+
+
+[19-Apr-19 02:07 AM] jl777c#5810
+@Mihailo
+
+
+[19-Apr-19 02:09 AM] Mihailo#5902
+Ok, I'll check it out. I also thought it was the index problem.. .
+
+
+[19-Apr-19 02:10 AM] jl777c#5810
+the new keyindex could have led to changes that breaks any CC, so we need to at least run the automated test for all of them
+
+
+[19-Apr-19 02:16 AM] Mihailo#5902
+```cpp
+SetCCtxids(addressIndex,cp->normaladdr,true);
+```
+
+
+[19-Apr-19 02:16 AM] Mihailo#5902
+This is the problem, it need to be false 😉
+
+
+[19-Apr-19 02:16 AM] jl777c#5810
+PR please
+
+
+[19-Apr-19 02:17 AM] jl777c#5810
+can you look at all the SetCCtxids and SetCCutxos in the oracles and gateways
+
+
+[19-Apr-19 02:17 AM] Mihailo#5902
+👍
+
+
+[19-Apr-19 02:17 AM] jl777c#5810
+i tried to get them all right, but failed
+
+
+[19-Apr-19 02:17 AM] Mihailo#5902
+I've looked for SetCCunspents, but forgot about SetCCtxids and utxos
+
+
+[19-Apr-19 02:18 AM] jl777c#5810
+i guess it is SetCCunspents
+
+
+[19-Apr-19 02:18 AM] jl777c#5810
+a few other helper functions are also using the SetCCtxids, but i think i got all of those
+
+
+[19-Apr-19 02:21 AM] Mihailo#5902
+gateways and oracles are fine on SetCCtxids!
+
+
+[19-Apr-19 02:22 AM] jl777c#5810
+ok, so a PR then!
+
+
+[19-Apr-19 02:24 AM] Mihailo#5902
+https://github.com/jl777/komodo/pull/1440
+
+{Embed}
+https://github.com/jl777/komodo/pull/1440
+Fix oracleslist on SetCCtxids by Mixa84 · Pull Request #1440 · j...
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[19-Apr-19 02:26 AM] smkhound#7640
+write and read ok
+
+
+[19-Apr-19 06:10 AM] TonyL#3577
+oracleslist is fixed on latest FSM:
+```./komodo-cli -ac_name=IMPORTGW oracleslist
+[
+  "92ce3f5d1b14dff3ab37b6511f307ff63129996f5a81f816ea9bc7d33cda8ebf",
+  "df9170e2a9530d7a7846d6bdb2701fa01822c1b8346d47301ae83ad41f187a81",
+  "410c76359e07ca0b2083eba7d059c2dcd54505f6105deb3034697b56b12b63c6"
+]
+```
+
+
+[19-Apr-19 06:50 AM] TonyL#3577
+@jl777c @Mihailo can't compile `oraclefeed` on latest FSM:
+```gcc cc/dapps/oraclefeed.c -o oraclefeed
+/tmp/cclaHyD0.o: In function `parse_number':
+oraclefeed.c:(.text+0x5d8): undefined reference to `pow'
+/tmp/cclaHyD0.o: In function `print_number':
+oraclefeed.c:(.text+0x6e0): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+```
+
+
+[19-Apr-19 06:51 AM] jl777c#5810
+add -lm
+
+
+[19-Apr-19 06:51 AM] jl777c#5810
+gcc cc/dapps/oraclefeed.c -o oraclefeed -lm
+
+{Reactions}
+👌 
+
+[19-Apr-19 06:51 AM] jl777c#5810
+you compiled fine
+
+
+[19-Apr-19 06:51 AM] TonyL#3577
+Oh ok
+
+
+[19-Apr-19 06:52 AM] jl777c#5810
+it is linker error
+
+
+[19-Apr-19 06:52 AM] TonyL#3577
+`gcc cc/dapps/oraclefeed.c -o oraclefeed -lm` now have binary
+
+
+[19-Apr-19 06:52 AM] jl777c#5810
+pow and floor are in libm
+
+
+[19-Apr-19 06:52 AM] TonyL#3577
+Was a good idea to google errors first before bothering, sry
+
+
+[20-Apr-19 12:06 AM] Mylo#8306
+`CCflag` - does this  indicate whether a UTXO is a CC-utxo (true) or normal-UTXO (false)?
+
+
+[20-Apr-19 12:21 AM] jl777c#5810
+yes
+
+{Reactions}
+👍 
+
+[01-May-19 03:21 PM] Exile13#4458
+Im interested in supply chain management on the blockchain! :) 
+With the migration to kmd happening soon, the timetable for oracles actually tracking data for hempcoin is becoming more of a reality. How can I help to create this?
+
+
+[01-May-19 03:27 PM] TonyL#3577
+Am I understand correct that you want to send data from GPS and store it in oracle / get it from it?
+If yes - @smkhound is the biggest expert on this matter because he have experience of GPS tracking connection with OraclesCC in his dragonhound project where he tracking his dog. (in general any dog tracking is possible as I understand but his dog is like a QA 😃 )
+
+
+[01-May-19 03:29 PM] Exile13#4458
+Hahahaha ya! Im running staked in kmdlabs I see the hound chain lol :)
+
+
+[01-May-19 04:08 PM] Exile13#4458
+Or is it dragon? Or both? Lol
+
+{Reactions}
+🐉 (2) 🐶 (2) 
+
+[10-May-19 01:26 AM] TonyL#3577
+@Alright Reproduced this issue with oraclessamples on jl777: https://paste.ubuntu.com/p/K7R8rxsXj2/ (wrote some comments between steps)
+
+
+[10-May-19 01:27 AM] TonyL#3577
+Actually its breaking when you register second time. I think it was there for a long time, just additional indicator such as txid and `0` param which allows to check all samples making tracking easier
+
+
+[10-May-19 01:40 AM] TonyL#3577
+Used other txfee: https://paste.ubuntu.com/p/q8hwmbghMX/ so I think issue now isolated. Problem is that on each new oraclesregister creating new publisher and batontxid in oraclesinfo changing to this oraclesregister txid and previous samples "losing" because oraclessamples for this baton return nothing
+
+
+[10-May-19 01:40 AM] TonyL#3577
+CC [@Mihailo]
+
+
+[10-May-19 01:42 AM] TonyL#3577
+@Alright So actually because of such oraclesCC bug in your voting TUI now possible to "change" vote each time when you oraclesregister + oraclesdata again
+
+
+[10-May-19 01:43 AM] Mihailo#5902
+@TonyL @Alright I'll get on it right now.
+
+{Reactions}
+🙌 
+
+[10-May-19 01:47 AM] Mihailo#5902
+@TonyL @Alright The thing is that when you register it is creating new baton and not connecting to existing one so there is no way to find previous samples. But I'm not sure if it is supposed to work like that... And the bug can be that when you do oraclesinfo it shows you two registers with same baton, there it should show baton for each register and then you can get samples for one or the other... As there could be data that publisher wants to publish at different cost so he could do both. @jl777c ???
+
+
+[10-May-19 01:50 AM] TonyL#3577
+According to "Mastering cryptoconditions" there was such idea initially:
+```A data publisher needs to register a datafee and their pubkey for a specific oracletxid. datafee needs to be at least as big as a txfee. Using oraclesregister the current datafee can be updated so a publisher can adapt to market conditions.```
+
+
+[10-May-19 01:50 AM] Mihailo#5902
+It is just a question if there should be both datafees or only one at the time.
+
+
+[10-May-19 01:51 AM] TonyL#3577
+So register just should overwrite datafee, not sure if path to previous data should be lost - I wonder only datafee need to adjust on next registers after first one
+
+
+[10-May-19 01:51 AM] Mihailo#5902
+If only one is current, then when doing second register previous baton should be connected. If both are active than each needs to have its own baton.
+
+
+[10-May-19 01:52 AM] TonyL#3577
+And in oraclesinfo should be overwriting of publisher entry rather than appending.
+Because actually `oraclesdata` not allows you to choose between different datafee publishers or something like that - it have only oracletxid and datahex as params. So from it follows that by design each pubkey should have only single publisher in oracle - not multiple
+
+
+[10-May-19 01:53 AM] Mihailo#5902
+Yes, lets see what @jl777c had in mind.
+
+{Reactions}
+👌 
+
+[10-May-19 02:10 AM] Mihailo#5902
+Another thing is that oraclessamples is made in that way that it is looking just for oraclesdata txs. So when it reaches register it will stop there....
+
+
+[10-May-19 04:26 AM] Alright#0419
+I do think this was introduced after the inception of oracles CC
+
+
+[10-May-19 04:26 AM] Mihailo#5902
+I think this was made like this initially
+
+
+[10-May-19 04:26 AM] Alright#0419
+never had the problem while we were testing trollbox, maybe the underlying bug was always there, but the behavior to trigger it changed?
+
+
+[10-May-19 04:27 AM] Alright#0419
+ie maybe when registering, it never used the new baton from new register?
+
+
+[10-May-19 04:28 AM] Mihailo#5902
+Or it always used new one, but there was never any data before last register...
+
+
+[10-May-19 04:29 AM] Alright#0419
+there are quite a few chains in production with oracles CC, changing behavior of oraclesregister to make sure there is only ever a single baton is a hard fork. Probably best to fork it with the NN hardfork or shortly after if we have to hard fork it
+
+
+[10-May-19 04:30 AM] Alright#0419
+maybe it can be fixed rpc side though, ie ignore any new batons, don't show them in oraclesinfo
+
+
+[10-May-19 04:32 AM] Mihailo#5902
+I would propose we do not make a change, but basically show batons for each register, so you can get all data if oyu want by iterating all registers from oraclesinfo and calling oraclssamples for each baton.
+
+
+[10-May-19 04:33 AM] Alright#0419
+I think that works, have to make sure oraclesdata will use the correct baton though
+
+
+[10-May-19 04:33 AM] Mihailo#5902
+It works, but for two registers of the same pubkey it shows latest baton in both
+
+
+[10-May-19 04:34 AM] Mihailo#5902
+for two different publishers it shows different batons, but for the same pubkey it will show same one in each register
+
+
+[10-May-19 04:34 AM] Alright#0419
+isn't that the behavior right now?
+
+
+[10-May-19 04:34 AM] Alright#0419
+not sure I understand
+
+
+[10-May-19 04:35 AM] Alright#0419
+the problem is that oraclesinfo "forgets" about the other set of batons
+
+
+[10-May-19 04:35 AM] Mihailo#5902
+```"registered": [
+    {
+      "publisher": "02475d5476bb98181180b457177fae43e41a31388b3708dcaf6a04e4142784cf4f",
+      "baton": "RUbBwtHuc5HCYY5CctrpSJ9MeHJHh1TZXZ",
+      "batontxid": "1443ea8e4e6962ffeecb067004fef9fc0c4bbc06789bb88fad38678f9ced1a09",
+      "lifetime": "2.00000000",
+      "funds": "0.99980000",
+      "datafee": "0.00010000"
+    },
+    {
+      "publisher": "02475d5476bb98181180b457177fae43e41a31388b3708dcaf6a04e4142784cf4f",
+      "baton": "RUbBwtHuc5HCYY5CctrpSJ9MeHJHh1TZXZ",
+      "batontxid": "1443ea8e4e6962ffeecb067004fef9fc0c4bbc06789bb88fad38678f9ced1a09",
+      "lifetime": "2.00000000",
+      "funds": "0.99980000",
+      "datafee": "0.00010000"
+    }
+  ]```
+
+
+[10-May-19 04:36 AM] Mihailo#5902
+Same publisher, two registers but shows same baton. I propose that we show the baton for first register until that one was used, and then for 2nd....
+
+
+[10-May-19 04:36 AM] Alright#0419
+now that I think of it, yes this always existed
+
+
+[10-May-19 04:36 AM] Alright#0419
+Was why I was having so much trouble with chat history 😂
+
+
+[10-May-19 04:36 AM] Alright#0419
+that just clicked in my head 😂
+
+
+[10-May-19 04:36 AM] Alright#0419
+yes
+
+
+[10-May-19 04:36 AM] Alright#0419
+what you're saying makes sense
+
+
+[10-May-19 04:36 AM] Mihailo#5902
+Or either, show one (the latest) but we need to spend previous baton when making new one and connecti ti in opret so when making oraclessamples to show all data
+
+
+[10-May-19 04:37 AM] Mihailo#5902
+But this is hardfork change
+
+
+[10-May-19 04:37 AM] Alright#0419
+well the whole ecosystem is hard forking in about a month
+
+
+[10-May-19 04:37 AM] Mihailo#5902
+Or maybe not 🤔
+
+
+[10-May-19 04:37 AM] Alright#0419
+so we could use that to our advantage
+
+
+[10-May-19 04:37 AM] Alright#0419
+after elections we'll be pushing "update before June ~15th"
+
+
+[10-May-19 04:38 AM] Alright#0419
+if we need to hard fork oracles, we should get the code included in the repo prior to us pushing that messaging
+
+
+[10-May-19 04:38 AM] Mihailo#5902
+Lets see what @jl777c thinks....
+
+
+[10-May-19 04:38 AM] Mihailo#5902
+Maybe he has some insight we are missing
+
+
+[10-May-19 04:41 AM] Alright#0419
+if hard forking can give us objectively better functionality(not saying it will), I think we should do it. Piggy back on the election hard fork
+
+
+[10-May-19 04:42 AM] Alright#0419
+but again, I don't think it's necessary. If oraclesinfo can show all sets of batons, the problem goes away(I think)
+
+
+[10-May-19 04:44 AM] Mihailo#5902
+Or I can change oraclessamples to go deep to the first register, this would'nt be hardfork change
+
+
+[10-May-19 04:44 AM] Alright#0419
+so only ever show a single set of batons?
+
+
+[10-May-19 04:44 AM] Alright#0419
+not sure I understand
+
+
+[10-May-19 04:45 AM] Mihailo#5902
+Yes, just latest baton and go through all. Let me check if it is doable
+
+
+[10-May-19 04:45 AM] Alright#0419
+requires changes to oraclesdata to make sure that baton is used
+
+
+[10-May-19 04:46 AM] Alright#0419
+also takes away functionality of being able to change data fee
+
+
+[10-May-19 04:46 AM] Mihailo#5902
+No, but when oraclessamples reaches oracleregister it requires to know previous tx before register, so probably not....
+
+
+[10-May-19 04:46 AM] Alright#0419
+I don't think the changing data fee is all that important tbh, could just reference a new pubkey with the very last oraclesdata to change data fee
+
+
+[10-May-19 04:47 AM] Alright#0419
+"I've increased my price. You can find me at <pubkey> now."
+
+
+[10-May-19 06:04 AM] jl777c#5810
+i totally forgot all the details of oracles CC
+
+
+[10-May-19 06:05 AM] jl777c#5810
+plz fix it if it is broken
+
+
+[10-May-19 06:05 AM] jl777c#5810
+dont hardfork existing chains
+
+
+[10-May-19 06:05 AM] jl777c#5810
+maybe it can be just non-consensus rpc calls to fix
+
+
+[10-May-19 06:05 AM] jl777c#5810
+or new variants if it will break installed base
+
+
+[10-May-19 06:05 AM] jl777c#5810
+i cannot forsee all edge cases ahead of time
+
+
+[10-May-19 07:03 AM] Alright#0419
+ok so I thought if I got all baton txids from baton addr shown in oraclesinfo, I'd be able to use oraclessamples on each and have it return all valuess
+
+
+[10-May-19 07:03 AM] Alright#0419
+this doesn't seem to be the case, seems it's more an issue with oraclessamples than anything else
+
+
+[10-May-19 07:09 AM] Alright#0419
+@TonyL there are two txs you made on the 20vs22 oracle that oraclessamples can't seem to decode
+
+
+[10-May-19 07:10 AM] Alright#0419
+hold on, can get the txids
+
+
+[10-May-19 07:10 AM] Alright#0419
+did you do anything wonky for those two?
+
+
+[10-May-19 07:10 AM] Alright#0419
+Oh maybe the hex length was just messed up on them?
+
+
+[10-May-19 07:13 AM] Alright#0419
+```
+{'result': 'success', 'samples': []}
+08db4f0bb698f8178e09714034d98633ba462ca500aa10fcfab4fc498b67b2a4
+{'result': 'success', 'samples': []}
+897f267d0bf2804467ebcaf2c884c05120d939a6d72c8e2f701d6eb1060346c1
+
+```
+these two
+
+
+[10-May-19 07:22 AM] TonyL#3577
+I'm not sure what are these transactions. Maybe I've sent some incorrect data hex in these.
+
+For  "I want 666 nodes" I have baton which no match any of two above: 
+```./komodo-cli -ac_name=CFEKORC oraclessamples 68c78190c91f45d7dacff72281226a075a9a14f0ea60efd4edda15c6edea947a 8c6cdb43722ba32c8928507876f9a5e641957e196c3eee99ee9883e445c65dd0 3
+{
+  "result": "success",
+  "samples": [
+    [
+      "I want 666 nodes",
+      "8c6cdb43722ba32c8928507876f9a5e641957e196c3eee99ee9883e445c65dd0"
+    ]
+  ]
+}```
+
+ Not sure about other "I want 777 nodes" message txid
+
+
+[10-May-19 07:34 AM] Alright#0419
+I'm working on a work around for NNvote dapp right now, is definitely convoluted as it iterates over all txids from baton addr, but it should work
+
+
+[10-May-19 07:34 AM] Alright#0419
+proves that it can be fixed via rpc
+
+
+[11-May-19 05:08 AM] Alright#0419
+https://github.com/KMDLabs/StakedNotary/commit/ffcafc047a6cd5685e46ea069bdc0f23263d50bb
+@Mihailo don't think this is all that helpful in fixing it, but it proves that it can be fixed via RPC I believe. I'm basically just checking oraclessamples on each EVAL_ORACLES 'D' tx to the baton address
+
+{Embed}
+https://github.com/KMDLabs/StakedNotary/commit/ffcafc047a6cd5685e46ea069bdc0f23263d50bb
+work around for oraclessamples bug, proper deadline checks · KMDL...
+https://images-ext-1.discordapp.net/external/uTWl7BcDupz-qCmNhX62uCC9US7pdeX13CjFcQmiris/https/camo.githubusercontent.com/c995d8eec52c0bef59483512665f6d8088e77a55/68747470733a2f2f322e67726176617461722e636f6d2f6176617461722f61383661636533323063626634346236303464386435633565633435643737373f643d68747470732533412532462532466769746875622e6769746875626173736574732e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d323030
+
+
+[11-May-19 05:08 AM] Alright#0419
+and it works
+
+
+[11-May-19 05:09 AM] Alright#0419
+not sure how it currently tracks samples, but maybe something similar can be done via rpc.
+
+
+[11-May-19 05:09 AM] Alright#0419
+ie, check all txids to baton address
+
+
+[11-May-19 05:11 AM] Alright#0419
+Ah I just realized that's flawed as I could likely hack oraclesdata to use someone else's baton address 🤔
+
+
+[11-May-19 05:12 AM] Mihailo#5902
+I will show latest baton for each register in oraclesinfo, and then you can issue oraclessamples with correct baton to see all data for that baton.
+
+
+[11-May-19 05:13 AM] Alright#0419
+sounds good 👍
+
+
+[11-May-19 05:13 AM] Alright#0419
+just needed something in the mean time for that vote dapp
+
+
+[11-May-19 05:15 AM] Mihailo#5902
+Hmm, I could maybe even pass all txs that goes to baton address as you said and show data that way...
+
+
+[11-May-19 05:17 AM] Mihailo#5902
+But still, I'll probably get on it at monday
+
+
+[13-May-19 06:31 AM] Mihailo#5902
+@Alright @TonyL @jl777c I have made a fix for oracles so that oraclessamples now display all data from one publisher, never mind how many registers he done. The input for oraclesamples is baton address instead of latest baton txid. Also, I changed the display in oraclesinfo to show only one (latest) register per publisher.
+
+{Reactions}
+🔥 
+
+[13-May-19 06:31 AM] Mihailo#5902
+@Alright Can you test my branch?
+https://github.com/Mixa84/komodo/tree/oraclesfix
+
+{Embed}
+https://github.com/Mixa84/komodo/tree/oraclesfix
+Mixa84/komodo
+Komodo. Contribute to Mixa84/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+
+[13-May-19 06:32 AM] Mihailo#5902
+If it is ok, I'll make PR!
+
+
+[13-May-19 06:35 AM] TonyL#3577
+Is it possible by such design to get old data samples after second+ registration?
+
+
+[13-May-19 06:35 AM] Mihailo#5902
+Yes
+
+{Reactions}
+🔥 
+
+[13-May-19 06:36 AM] Mihailo#5902
+As all data posted have baton sent to batonaddress. So with SetCCtxids I can get all txs sent to this address, and that is all data ever sent
+
+
+[13-May-19 07:50 AM] Alright#0419
+@Mihailo Awesome 😃 I'll try to get to it today, but if I can't, won't be able to play with it until Thursday or so
+
+
+[13-May-19 07:51 AM] Mihailo#5902
+Ok, just checkout on some oracles the samples to see if you are getting it. We can merge it to FSM later ;)
+
+
+[13-May-19 10:41 AM] Mihailo#5902
+@Alright It may print double txs for each data, have to check tomorrow.
+
+
+[14-May-19 12:55 AM] Mihailo#5902
+@Alright made the fix.
+
+
+[14-May-19 02:05 AM] TonyL#3577
+@Mihailo oraclessamples attempt crashed daemon on my side (backtrace can be found in paste): https://paste.ubuntu.com/p/xmqkC82rQJ/
+
+
+[14-May-19 02:05 AM] TonyL#3577
+I'm on latest oraclesfix branch
+```git log -1
+commit 268431dd43dbc07c183a4142bf1c3c8cf2562b44 (HEAD -> oraclesfix, origin/oraclesfix)
+Date:   Tue May 14 09:55:43 2019 +0200
+
+    Fix
+```
+
+
+[14-May-19 02:18 AM] Mihailo#5902
+Aha, ok. My bad
+
+
+[14-May-19 02:22 AM] Mihailo#5902
+@TonyL BTW, you don't supply baton txid any more but baton address...
+
+
+[14-May-19 02:22 AM] Mihailo#5902
+Fix pushed.
+
+
+[14-May-19 02:41 AM] TonyL#3577
+Oh right, ok
+
+
+[14-May-19 03:08 AM] TonyL#3577
+👍 
+```./komodo-cli -ac_name=TEST123 oraclessamples 11db784ea5e1a18d20d3307adeed2e8427590b63a56b16d08469a2ca334dc409 RVpsmnvRvC5GXj4RsiRDrE7r2eRQud9Tqn 0
+{
+  "result": "success",
+  "samples": [
+    [
+      "Anton",
+      "fe1eff922165ba622a7db808db2becd14f4c6dc79bac61fd6b98fa943c1ce8b3"
+    ]
+  ]
+}
+```
+
+{Reactions}
+👍 
+
+[14-May-19 03:13 AM] TonyL#3577
+On oraclesregister with different datafee publisher data overwrited:
+```./komodo-cli -ac_name=TEST123 oraclesinfo 11db784ea5e1a18d20d3307adeed2e8427590b63a56b16d08469a2ca334dc409
+{
+  "result": "success",
+  "txid": "11db784ea5e1a18d20d3307adeed2e8427590b63a56b16d08469a2ca334dc409",
+  "name": "Test",
+  "description": "Testing",
+  "format": "s",
+  "marker": "REESjBF4Bd4pzX21oYoFWrhbEuPBc4fDgG",
+  "registered": [
+    {
+      "publisher": "0358ac4197709f7a5518592652a7ae9e53058d15f210e3323feb03afb20e9236f2",
+      "baton": "RVpsmnvRvC5GXj4RsiRDrE7r2eRQud9Tqn",
+      "batontxid": "374da54647d7b0a535ec9ab606e7e2fa83e55a6c42732a5e87a3b2a820dc941b",
+      "lifetime": "1.00000000",
+      "funds": "0.99990000",
+      "datafee": "0.00020000"
+    }
+  ]
+}
+```
+
+
+[14-May-19 03:13 AM] TonyL#3577
+Let's try to send new data now and see how much funds reduce 😃
+
+
+[14-May-19 03:14 AM] TonyL#3577
+```    {
+      "publisher": "0358ac4197709f7a5518592652a7ae9e53058d15f210e3323feb03afb20e9236f2",
+      "baton": "RVpsmnvRvC5GXj4RsiRDrE7r2eRQud9Tqn",
+      "batontxid": "e2db1a7311baca24c8fe2c214d6877297861268d785e2ccee94ce50e3428a6ee",
+      "lifetime": "1.00000000",
+      "funds": "0.99970000",
+      "datafee": "0.00020000"
+    }
+``` 
+Reduced 0.0002 as expected
+
+
+[14-May-19 03:15 AM] Mihailo#5902
+👏
+
+
+[14-May-19 03:15 AM] TonyL#3577
+``` ./komodo-cli -ac_name=TEST123 oraclessamples 11db784ea5e1a18d20d3307adeed2e8427590b63a56b16d08469a2ca334dc409 RVpsmnvRvC5GXj4RsiRDrE7r2eRQud9Tqn 0
+{
+  "result": "success",
+  "samples": [
+    [
+      "Anton",
+      "e2db1a7311baca24c8fe2c214d6877297861268d785e2ccee94ce50e3428a6ee"
+    ],
+    [
+      "Anton",
+      "fe1eff922165ba622a7db808db2becd14f4c6dc79bac61fd6b98fa943c1ce8b3"
+    ]
+  ]
+}
+```
+
+
+[14-May-19 03:15 AM] TonyL#3577
+And my previous sample remained as well
+
+
+[14-May-19 03:15 AM] TonyL#3577
+Great job @Mihailo 🎉
+
+
+[14-May-19 03:17 AM] TonyL#3577
+Help for oraclessamples needs to be corrected a littlebit (batonutxo -> batonaddress), can PR if needed
+```./komodo-cli -ac_name=TEST123 oraclessamples
+error code: -1
+error message:
+oraclessamples oracletxid batonutxo num
+```
+
+
+[14-May-19 03:17 AM] Mihailo#5902
+Ah yes 😉
+
+
+[14-May-19 03:17 AM] Mihailo#5902
+Do it 😉
+
+
+[14-May-19 03:17 AM] Mihailo#5902
+Or no, I will
+
+{Reactions}
+👌 
+
+[14-May-19 03:17 AM] Mihailo#5902
+It is easier for me
+
+
+[14-May-19 03:18 AM] Mihailo#5902
+Fixed
+
+{Reactions}
+🔥 
+
+[14-May-19 03:20 AM] TonyL#3577
+Case when register with same datafee  as before didn't create publisher duplicate as well
+
+
+[14-May-19 03:21 AM] Mihailo#5902
+Well, it did create another register, but it is showing just latest register 😉
+
+
+[14-May-19 03:23 AM] TonyL#3577
+Yep, batontxid changed to latest register txid
+
+
+[14-May-19 03:23 AM] TonyL#3577
+But samples are in place 😃
+
+
+[14-May-19 03:24 AM] Mihailo#5902
+Yes, because samples are not get by baton txid, but all samples to that address!
+
+{Reactions}
+💪 
+
+[14-May-19 03:25 AM] TonyL#3577
+How is the order maintained with such connection to address?
+
+
+[14-May-19 03:26 AM] Mihailo#5902
+It goes from latest tx to the beginning
+
+
+[14-May-19 03:26 AM] Mihailo#5902
+I hope ;)
+
+{Reactions}
+😃 
+
+[15-May-19 07:35 PM] Mylo#8306
+i'm getting an empty array with `oracleslist` every time.    do you need some evidence or can you replicate without it?
+
+
+[18-May-19 07:34 AM] TonyL#3577
+Oh, missed this message. Are you on latest FSM @Mylo ?
+
+
+[18-May-19 09:24 AM] Alright#0419
+@Mihailo testing this now, could you make oraclessamples aware of oraclesdata still in the mempool please?
+
+
+[18-May-19 09:25 AM] Alright#0419
+the trollbox dapp relied on that, don't think it's possible to do with your changes
+
+
+[18-May-19 09:28 AM] Alright#0419
+otherwise, it seems to work as intended
+oraclesinfo only ever shows a single entry for each publisher 
+oraclessamples is able to fetch all samples regardless of baton situation
+
+
+[18-May-19 09:29 AM] Alright#0419
+Although I've found another underlying problem because of this. If a publisher was actually being paid to publish data, they can re-register with a higher data fee and empty the funds. I brought this up before though, not sure it needs fixing or what, just pointing out that it's possible
+
+
+[18-May-19 09:30 AM] Alright#0419
+it's not a huge "bug" as a publisher could just publish a bunch of garbage data with the lower data fee anyway, this just allows them to do it all at once
+
+
+[18-May-19 11:13 AM] Alright#0419
+I can oraclesregister using `-pubkey` for a pubkey i don't own, this changes the oraclesinfo output
+
+
+[18-May-19 11:13 AM] Alright#0419
+can make oraclessamples "disappear" kind of
+
+
+[18-May-19 11:14 AM] jl777c#5810
+that seems a bug
+
+
+[18-May-19 11:14 AM] Alright#0419
+Oh it changes datafee as well
+
+
+[18-May-19 11:15 AM] Alright#0419
+so someone else can register your pubkey with a different datafee then next oraclesdata you do, your node uses the datafee they set
+
+
+[18-May-19 11:16 AM] jl777c#5810
+a worse bug, we need to require vin from the pubkey is spent for register
+
+
+[18-May-19 11:41 AM] TonyL#3577
+I checked such behaviour before latest oracle update (wanted to "hack" votes app) and it printed that address for my pubkey not in wallet on tx broadcast. So bug appeared after latest change it seems
+
+
+[18-May-19 11:58 AM] Alright#0419
+You could always register for a pubkey you didn't own. I remember testing this months ago and thinking it had no negative effect because you couldn't oraclessamples for a pubkey you didn't own
+
+
+[18-May-19 11:59 AM] Alright#0419
+not sure if it always changed baton address and baton txid for real publisher info in oraclesinfo though
+
+
+[18-May-19 12:36 PM] TonyL#3577
+Yes, I think you're right and it worked like this before. Re-checked now on latest FSM https://paste.ubuntu.com/p/C5D38nMcKN/
+
+Actually I think when I checked it first time I got error on oraclesdata call, not on register:
+```./komodo-cli -ac_name=ORCTEST1 oraclesdata c2c3f84e8b3911dc34af29c5e80c3a73e2e6fcad08c64e4fb9825aaa48655d99 00000
+privkey for the -pubkey= address is not in the wallet, importprivkey!
+warning: couldnt find baton utxo RCNsqEvYpPCRHKGkzqHvRqE1MUAmGGjqix
+privkey for the -pubkey= address is not in the wallet, importprivkey!
+vini.1 has CC signing error address.(RB976ifvH1PdUGrk1adMQk7M9N5T8KCBPS)
+{
+  "result": "error",
+  "error": "couldnt publish data with oracle txid"
+}
+``` 
+and did not pay much attention that was able to broadcast oraclesregister for other pubkey
+
+
+[18-May-19 12:38 PM] jl777c#5810
+we need to do more than rpc error checks, needs to be a consensus change
+
+
+[18-May-19 12:38 PM] jl777c#5810
+make it timestamp activated
+
+
+[18-May-19 12:38 PM] jl777c#5810
+so existing oracle registers wont break
+
+
+[22-May-19 04:20 AM] Mihailo#5902
+@Alright @TonyL Can you check the fix for oracles on my branch https://github.com/Mixa84/komodo/tree/oraclesfix
+The fix consists of pubkey spoofing check so you can only register for pubkey you own. Before register now there is another tx - oraclefund, which funds pubkeys oracles CC address with 10k sat and then on register it spends that amount to pubkeys normal address ( so it is back to the user). Also I've added oraclessamples to show mempool data.
+
+{Embed}
+https://github.com/Mixa84/komodo/tree/oraclesfix
+Mixa84/komodo
+Komodo. Contribute to Mixa84/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+{Reactions}
+👍 
+
+[22-May-19 04:22 AM] Mihailo#5902
+BTW, the I didn't check before but oraclessamples seem to show uncomplete data? I have Ihh format and one data loks like this `47db1400ed4ffb3b28f91f1ff182f8d9452810e8f8c1f816c34e80c8ea0f14fa000000007d5bdc6fc72f4f487542b68124551100b978d0d683b9e06a7b58a432bd6f701e` but in samples it show like this `1e706fbd32a4587b6ae0b983d6d078b90011552481b64275484f2fc76fdc5b7d`
+
+
+[22-May-19 04:28 AM] Alright#0419
+Can get to it in a couple hours
+
+
+[22-May-19 04:28 AM] Alright#0419
+not sure about incomplete data, will check it out as well
+
+
+[22-May-19 09:13 AM] Alright#0419
+just getting to this, going to leave notes as I go 
+oraclesfund rpc response is not json
+
+
+[22-May-19 10:17 AM] Alright#0419
+I'm confused how spending the funcid 'F' utxo is passing validation without 'F' being defined in the switch statement
+
+
+[22-May-19 10:19 AM] jl777c#5810
+how many CC vins do 'F' tx have
+
+
+[22-May-19 10:19 AM] Alright#0419
+register spends the CC utxo from 'F'
+
+
+[22-May-19 10:19 AM] Alright#0419
+Ahhhh
+
+
+[22-May-19 01:36 PM] Alright#0419
+ok everything seems to work as expected, didn't test the timestamp activation, will do it tomorrow
+
+
+[22-May-19 02:08 PM] TonyL#3577
+As Alright said oraclesfund returns both output and error not as JSON:
+
+```./komodo-cli -ac_name=ORC oraclesfund a
+error adding normal inputs
+
+./komodo-cli -ac_name=ORC oraclesfund a1cc08ef19761dc4b4009dad6de864a0918024cf384ae709914669e3f7bee03a
+0400008085202f89010cc3cc5f83e19b56077d141b064a661c790dbab0108e3c46870d2d38c8577274000000004847304402201862f2f466c29b1edcaffaa5554405e9f314681a236e736b4bf76cb90e3f5c8b02204ced84c1710f439c3683546a1d9a776ae898c952afc258723f6fc0d90044292801ffffffff031027000000000000302ea22c8020474889529bc3519c828debd44f0014177bdcf29295a59b2930186ea9e7cefe568103120c008203000401cce051724e18090000232102bd33f2f1fcc8eaeeeefd630778506b09a0ac4693c324ffef615cdf8a843b1365ac00000000000000004f6a4c4cec463ae0bef7e369469109e74a38cf248091a064e86dad9d00b4c41d7619ef08cca12102bd33f2f1fcc8eaeeeefd630778506b09a0ac4693c324ffef615cdf8a843b13651027000000000000000000001a01000000000000000000000000001```
+
+
+[23-May-19 02:34 AM] Mihailo#5902
+@Alright I haven't yet set the timestamp as we didn't agree when it is going to activate (or I missed it). I just put some timestamp that already passed so I could test.
+
+
+[23-May-19 02:34 AM] Mihailo#5902
+@jl777c When should the timestamp for oracle fix be?
+
+
+[23-May-19 02:35 AM] Mihailo#5902
+@TonyL @Alright I don't have the problem with oraclesfund, what are the steps to reproduce?
+
+
+[23-May-19 02:36 AM] jl777c#5810
+once it works. then make the timestamp activate july 15th 0:00 UTC
+
+{Reactions}
+👍 
+
+[23-May-19 03:20 AM] Alright#0419
+@Mihailo it's not a problem with the actual functionality. It's just that it doesn't respond with a json
+
+
+[23-May-19 03:20 AM] Alright#0419
+and yea I saw the timestamp, I'll push it forward and test that it activates smoothly
+
+
+[23-May-19 03:28 AM] Mihailo#5902
+@Alright 
+```
+komodo-cli -ac_name=GW oraclesfund 6fc9d9de6a61d7bab84f1b921eeed2dfc5a4bd55153bf4d2b2baebc825d9abc0
+
+0400008085202f8901c466bd34197c8cfdf357acc79968022fbf7979b8ab18973c49d7b378bfa3cddd0200000049483045022100a4a25ea63d2429b01360974942def30670c4a0eb878e49d1c0b8df682092257c022014b5cf4576b30342091f085cf2c1209d4194428c9147fc585e039e65e4eab7a601ffffffff021027000000000000302ea22c80204c630c7012900189cbcfeead643d8d086b8f2e026fad1edeef07d68454d38cb58103120c008203000401cc00000000000000004f6a4c4cec46c0abd925c8ebbab2d2f43b1555bda4c5dfd2ee1e921b4fb8bad7616aded9c96f2102bb88d83284e01589458049b37840582a8fcb1c56dcfd324327186f17c5bcde63102700000000000000000000240500000000000000000000000000
+```
+
+
+[23-May-19 03:28 AM] Mihailo#5902
+Ah, I see it now!
+
+
+[23-May-19 03:31 AM] Mihailo#5902
+Fixed!
+
+
+[23-May-19 09:44 AM] Mylo#8306
+thanks for your efforts on oracles - i'm gonna run through a cpl samples  fri/sat on FSMbranch
+
+
+[23-May-19 09:55 AM] TonyL#3577
+Please note that oracles flow changed a little bit (you have to oraclesfund before register), and these changes are in Mihailo's repo only. Also structure of oraclessamples output was changed for better scalability by Alright and this change is in James repo already
+
+{Reactions}
+treasure 
+
+[23-May-19 09:57 AM] TonyL#3577
+I hope that @smkhound will retest it and track that all changes reflected in oracles/gateways flow docs  🙏
+
+
+[23-May-19 09:59 AM] Mylo#8306
+ok.  thanks for heads up.
+
+
+[23-May-19 07:29 PM] Alright#0419
+changes to the docs are on my todo list
+
+
+[23-May-19 07:29 PM] Alright#0419
+want to have it up prior to end of month as we're merging everything up to master then
+
+{Reactions}
+👌 (2) ⛑ 
+
+[23-May-19 08:28 PM] Alright#0419
+@Mihailo is it possible for oraclesregister to spend oraclesfund utxos from mempool?
+
+
+[23-May-19 08:28 PM] Alright#0419
+any limitation there? It doesn't right now, would really help if it could
+
+
+[24-May-19 03:04 AM] smkhound#7640
+```{
+  "result": "success",
+  "OraclesCCAddress": "REt2C4ZMnX8YYX1DRpffNA4hECZTFm39e3",
+  "OraclesCCBalance": 0.00000000,
+  "OraclesNormalAddress": "RHkFKzn1csxA3fWzAsxsLWohoCgBbirXb5",
+  "OraclesNormalBalance": 0.01250000,
+  "OraclesCCTokensAddress": "RWGhAG1qPRRxCxtewLixKX6GseGZQWVQ9E",
+  "PubkeyCCaddress(Oracles)": "RJMz8TmLiTdNwN1eRCMxrv9xkghN9cfW32",
+  "PubkeyCCbalance(Oracles)": 0.00000000,
+  "myCCAddress(Oracles)": "RJMz8TmLiTdNwN1eRCMxrv9xkghN9cfW32",
+  "myCCbalance(Oracles)": 0.00000000,
+  "myaddress": "REp6bobAfJz9EmzGQsc1wiYe9W1XJ1w34S",
+  "mybalance": 5000.00000000
+}
+```
+Apologies if this seems overly pedantic, but should the capitalisation be consistent?
+ie. with `address/Address` and `balance/Balance`
+
+
+[24-May-19 03:05 AM] jl777c#5810
+yes, but to change it now will break all existing JSON parsingz
+
+
+[24-May-19 03:05 AM] smkhound#7640
+fair enough, thought that might be an issue
+
+
+[24-May-19 03:11 AM] Mihailo#5902
+@Alright I can make it, just as long it does not create some incosistent state...
+
+
+[24-May-19 03:13 AM] jl777c#5810
+it is a non-consensus change, so just allowing the register to use the most recent utxo, like baton should be harmless
+
+
+[24-May-19 03:20 AM] Alright#0419
+happy to test if you do it
+
+
+[24-May-19 03:20 AM] Alright#0419
+it helps a lot with dapps, not having to wait a conf
+
+
+[24-May-19 03:32 AM] smkhound#7640
+with doc, I got this so far. Pls confirm and suggest for `OraclesNormalAddress` and `OraclesCCTokensAddress`
+
+
+[24-May-19 03:32 AM] smkhound#7640
+```| result           |  whether the method executed successfully |
+| OraclesCCAddress |  taking the contract's EVAL code as a modifier, this is the public address that corresponds to the contract's privkey |
+| OraclesCCBalance |  Amount of funds held in the `OracleCCAddress` |
+| OraclesNormalAddress |
+| OraclesNormalBalance | 
+| OraclesCCTokensAddress |
+| PubkeyCCaddress(Oracles) | taking the contract's EVAL code as a modifier, this is the CC address from the pubkey supplied as the parameter |
+| PubkeyCCbalance(Oracles) |  amount of funds held in the `PubkeyCCaddress` |
+| myCCAddress(Oracles) | taking the contract's EVAL code as a modifier, this is the CC address from the pubkey of the user |
+| myCCbalance(Oracles) |  amount of funds held in the `myCCAddress` |
+| myaddress |  the public address of the pubkey used to launch the daemon |
+| mybalance |  amount of funds held in the `myaddress` |```
+
+
+[24-May-19 03:35 AM] smkhound#7640
+does `OraclesCCTokensAddress` need a `OraclesCCTokensBalance` output?
+
+
+[24-May-19 03:38 AM] Mihailo#5902
+Yes, this one won't create problems as you are spending your inputs so we can make it to spend from mempool (I was thinking if something happens in reorg or something, but seems it will be safe)
+
+
+[24-May-19 04:34 AM] Mihailo#5902
+@Alright Mempool spending oraclesfund fixed. Please test 😉
+
+
+[24-May-19 04:35 AM] Alright#0419
+:+1: awesome ty
+
+
+[24-May-19 04:40 AM] Mihailo#5902
+You're welcome
+
+
+[24-May-19 04:49 AM] Mihailo#5902
+@Alright @TonyL I would suggest to test if we fixed every aspect of spoofing pubkey in register. Try registering with fake pubkey or something else....
+
+
+[24-May-19 04:50 AM] Alright#0419
+yea tested it quite a bit, couldn't find any holes
+
+
+[24-May-19 04:50 AM] Mihailo#5902
+👏
+
+
+[24-May-19 04:50 AM] Alright#0419
+you can fund other people's pubkey, they can use these utxos to register
+
+
+[24-May-19 04:50 AM] Alright#0419
+doesn't matter though
+
+
+[24-May-19 04:50 AM] Alright#0419
+tried to gunk up the CC address with garbage, so a register wouldn't work properly
+
+
+[24-May-19 04:51 AM] Alright#0419
+doens't have any effect, it always spends the correct utxo
+
+
+[24-May-19 04:51 AM] Mihailo#5902
+Great!
+
+
+[24-May-19 04:51 AM] Mihailo#5902
+That is the benefit of utxo mechanism 😉
+
+{Reactions}
+🔥 
+
+[24-May-19 04:52 AM] Alright#0419
+think the validation was overkill tbh 😁
+
+
+[24-May-19 04:52 AM] Alright#0419
+because you need the key to spend it anyway
+
+
+[24-May-19 04:53 AM] Mihailo#5902
+No, the validation was not overkill as you need to spend your input but then you could set another pubkey for the vouts....
+
+
+[24-May-19 04:53 AM] Mihailo#5902
+Or maybe you are right.... 🤔
+
+
+[24-May-19 04:53 AM] Alright#0419
+the existing validation for register was solid enough I think
+
+
+[24-May-19 04:54 AM] Alright#0419
+I tried for days to send a register to someone else's baton address
+
+
+[24-May-19 04:54 AM] Mihailo#5902
+Validation for register was not existant, as register did not spend any CC vout
+
+
+[24-May-19 04:54 AM] Alright#0419
+lol no worries, good work
+
+
+[24-May-19 04:54 AM] Mihailo#5902
+But basically you could build the tx manually where you will register for somebody else! That's the thing
+
+
+[24-May-19 04:54 AM] Alright#0419
+hmm no, I was trying to send oraclessamples to someone else's baton address
+
+
+[24-May-19 04:55 AM] Alright#0419
+baton violation 😛
+
+
+[24-May-19 04:55 AM] Alright#0419
+that's a good check
+
+
+[24-May-19 04:55 AM] Mihailo#5902
+mtx.vout.push_back(MakeCC1vout(cp->evalcode,txfee,batonpk));
+If you create a tx manually (without RPC) that sends this vout to someone else baton, but for this you need to have his private key so basically not possible.
+
+
+[24-May-19 04:56 AM] Mihailo#5902
+The thing is that validation will prevent for some inconsistency in opret!
+
+
+[24-May-19 04:56 AM] Mihailo#5902
+If you use RPC everything will be fine, and if you manually try to create, it will prevent that you put worng pubkey in opret, which could potentially make some problem in future!
+
+
+[24-May-19 04:57 AM] Alright#0419
+yea I found that oracletxid in op_return didn't really do anything?
+
+
+[24-May-19 04:57 AM] Alright#0419
+is that expected?
+
+
+[24-May-19 04:57 AM] Alright#0419
+I can change it and it has no effect, everything works as normal
+
+
+[24-May-19 04:58 AM] Mihailo#5902
+oracletxid in opret should point to which oracle that tx belongs. For example now when I add oraclefund inputs in register I match by oracletxid from opret!
+
+
+[24-May-19 04:59 AM] Alright#0419
+yes what I'm saying is that I can oraclesfund to someone else's pubkey with a garbage oracletxid in op_return
+
+
+[24-May-19 04:59 AM] Mihailo#5902
+In oracledata if you put wrong  oracletxid it probably won't add another oracledata...
+
+
+[24-May-19 04:59 AM] Mihailo#5902
+```cpp
+if (funcid=='D' && DecodeOraclesData(vintx.vout[numvouts].scriptPubKey,tmporacletxid,tmpbatontxid,tmppk,data)==0)
+                    fprintf(stderr,"invalid oraclesdata transaction \n");
+                else if (tmporacletxid==oracletxid)
+                {  ```
+
+
+[24-May-19 04:59 AM] Alright#0419
+then when they oraclesregister, they spend it, but it doesn't have any negative effect from what I can tell
+
+
+[24-May-19 05:00 AM] Alright#0419
+the only thing I could think of that would break it is is I could send garbage to the CC address and register try to spend this garbage and fail
+
+
+[24-May-19 05:00 AM] Mihailo#5902
+I think not, if you add garbage oracletxid in oraclesfund, it won't work for oraclesregister
+
+
+[24-May-19 05:00 AM] Alright#0419
+couldn't do it
+
+
+[24-May-19 05:00 AM] Alright#0419
+it does
+
+
+[24-May-19 05:00 AM] Mihailo#5902
+Try now 😉
+
+
+[24-May-19 05:00 AM] Alright#0419
+you just change it?
+
+
+[24-May-19 05:00 AM] Alright#0419
+Oh oh
+
+
+[24-May-19 05:00 AM] Mihailo#5902
+No, but I changed something else that could affect it!
+
+
+[24-May-19 05:01 AM] Alright#0419
+I need to try it again, I was really just testing that it worked as expected with no HAX
+
+
+[24-May-19 05:01 AM] Alright#0419
+need to try HAX again and take proper notes
+
+
+[24-May-19 07:25 AM] smkhound#7640
+I keep getting this error running test on oracle RPCs
+```CC Eval EVAL_ORACLES Invalid: vin.3 is CC for oraclesregister or pubkey not same as vin pubkey, register must be done from owner of pubkey that registers to oracle!! spending tx e0915b54b98a1a0d8386ea1df90cc36cae14ae20c73332f960724964f415d563
+DEBUG:BitcoinRPC:<-- {"result":null,"error":{"code":-26,"message":"16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"},"id":196}
+```
+its in a loop for each format string 
+`valid_formats = ["s", "S", "d", "D", "c", "C", "t", "T", "i", "I", "l", "L", "h", "Ihh"]`
+normally gets about halfway through, so pubkey is correct. Doesnt crash consistently on any specific format, but tends to get to at least "i"
+
+
+[24-May-19 09:49 AM] TonyL#3577
+Can you try to do the same manually?  There was strange behaviour of tests on channelsCC (you can find in #cc-channels) not reproducable on usual chain, so I'm started to sync there is some regtest specifics.
+
+{Reactions}
+👍 
+
+[24-May-19 07:08 PM] smkhound#7640
+I"m assuming it's trying to spend a utxo that was already used for an earlier tx. will try adding some sleeps or reflowing the loops
+
+
+[24-May-19 10:59 PM] smkhound#7640
+loop reflow seems to have resolved the issue
+
+
+[24-May-19 11:01 PM] smkhound#7640
+anyone able to offer a short desciption of these items and their purpose from `oraclesaddress`?
+`| OraclesNormalAddress |`
+`| OraclesNormalBalance | `
+`| OraclesCCTokensAddress |`
+
+
+[25-May-19 12:31 AM] smkhound#7640
+got tests completing, but `Ihh` output isnt what I'd expect. 
+```
+        # Ihh type
+        result = rpc.oraclesdata(globals()["oracle_{}".format("Ihh")], "ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000ffffffff")
+        assert_success(result)
+        # baton
+        oraclesdata_Ihh = self.send_and_mine(result["hex"], rpc)
+        info = rpc.oraclesinfo(globals()["oracle_{}".format("Ihh")])
+        batonaddr = info['registered'][0]['baton']
+        result = rpc.oraclessamples(globals()["oracle_{}".format("Ihh")], batonaddr, "1")
+        #assert_equal("['4294967295', 'ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000', 'ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000']", str(result["samples"][0]['data']), "Data match")
+        assert_equal("ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000", str(result["samples"][0]['data']), "Data match")
+```
+
+
+[25-May-19 12:32 AM] smkhound#7640
+original `assert_equal` has 3 items, output only gves the second one
+
+
+[25-May-19 12:33 AM] smkhound#7640
+which is not same as the `oraclesdata` input (though that is assumed expected)
+
+
+[25-May-19 12:39 AM] smkhound#7640
+https://pastebin.com/tfNWuj20 <--- console readout of input/output for `Ihh` test
+
+{Embed}
+https://pastebin.com/tfNWuj20
+DEBUG:BitcoinRPC:-325-> oraclesdata ["8d8161527a3425ee28c032ab9b12...
+https://images-ext-1.discordapp.net/external/lZwHlcJYEP_-CeL744a7RSWVnhrIifPJgiIcmKkDuJY/https/pastebin.com/i/facebook.png
+
+
+[25-May-19 12:40 AM] TonyL#3577
+please don't change expected results in tests
+
+
+[25-May-19 12:40 AM] TonyL#3577
+if output not match expected result it means that error is somewhere
+
+
+[25-May-19 12:40 AM] smkhound#7640
+kept the old one commented out, just to see if it's work without the other bits
+
+
+[25-May-19 12:41 AM] smkhound#7640
+also has to remove the `u` before output, but was gonna work towards letting it back in
+
+
+[25-May-19 12:41 AM] TonyL#3577
+If tests will do only what program say there is no any reasons in tests at all
+
+
+[25-May-19 12:42 AM] TonyL#3577
+Moreover Mihailo reported about similar issue with Ihh type above, maybe there is a problem with types combining
+
+
+[25-May-19 12:44 AM] smkhound#7640
+cool. Does the `u` matter for `assert_equal`?
+Had to change oraclessamples code, because didnt like using batontxis, looks like it wants baton address now.
+
+
+[25-May-19 12:44 AM] TonyL#3577
+oraclessamples output changed so maybe it return not unicode now
+
+
+[25-May-19 12:45 AM] smkhound#7640
+cool, wont work on retoring the `u` then
+
+{Reactions}
+👍 
+
+[25-May-19 12:45 AM] TonyL#3577
+before there was `u` because it returned unicode
+
+
+[25-May-19 12:45 AM] TonyL#3577
+Please keep in mind that end goal is not to make tests pass but to use tests to find problems in software
+
+
+[25-May-19 12:46 AM] TonyL#3577
+So if program output not matches expected logical output - maybe problem is not in test condition but in program
+
+
+[25-May-19 12:46 AM] smkhound#7640
+lol, yeah.
+
+
+[25-May-19 12:46 AM] smkhound#7640
+I'll report what goes wrong
+
+{Reactions}
+🙌 
+
+[25-May-19 12:48 AM] smkhound#7640
+I changed loop to get past the `bad pubkey` error. Suspect issue is allocated utxo spent before loop got to it - so error message assumed misleading, because pubkey is correct.
+
+
+[25-May-19 12:49 AM] TonyL#3577
+So if Ihh returning now except of this:
+```#assert_equal("['4294967295', 'ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000', 'ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000']"``` 
+this ```assert_equal("ffffffff00000000ffffffff00000000ffffffff00000000ffffffff00000000", str(result["samples"][0]['data']), "Data match")```
+
+
+[25-May-19 12:49 AM] smkhound#7640
+Changed `oraclessamples` params to match what it wants now
+
+
+[25-May-19 12:49 AM] TonyL#3577
+It's definetly a bug
+
+
+[25-May-19 12:49 AM] TonyL#3577
+Ihh should return I, h and h
+
+
+[25-May-19 12:49 AM] smkhound#7640
+looks like only returning `h` 🤷
+
+
+[25-May-19 12:52 AM] smkhound#7640
+the `bad pubkey` error was not always happening, and not on same format every time, so I think that is not bug in CC, just because of test script doing too much too quickly and trying to spend allocated utxos which already spent in earlier format loop.
+
+
+[25-May-19 12:52 AM] smkhound#7640
+bug in error message being strange, but not in how CC works
+
+
+[25-May-19 12:54 AM] TonyL#3577
+Yep, I think same problem was with channels - tests executed calls too fast
+
+
+[25-May-19 11:57 PM] smkhound#7640
+Curious about the `oraclesfund` RPC. Not yet in docs. 
+Takes oracleTXID as single parameter. No "funds"?
+Cant register until "funded". Value is not specified, but I did notice:
+On oraclescreate, `OraclesNormalBalance` gains 0.001
+On oraclesfund, `myCCbalance(Oracles)` gains 0.001 (repeatable)
+I assume this is automatic and the value is static. Please confirm?
+
+
+[26-May-19 01:57 AM] Alright#0419
+oraclesfund sends a static amount to your CC address
+
+
+[26-May-19 01:57 AM] Alright#0419
+which oraclesregister will then spend
+
+
+[26-May-19 01:58 AM] Alright#0419
+purpose of doing that is to trigger CC validation on oraclesregister inputs from what I understand
+
+
+[26-May-19 01:59 AM] Alright#0419
+really don't think you should use regtest for unit tests btw
+
+
+[26-May-19 01:59 AM] Alright#0419
+I *really* don't trust that regtest has the same exact behavior as a real chain
+
+
+[26-May-19 02:00 AM] Alright#0419
+`-testnode=1` with a quick block time would be more suitable imo
+
+
+[26-May-19 02:21 AM] gcharang#6833
+and if you need two seperate wallets for testing,
+you can use: https://github.com/gcharang/create-assetchain
+for starting  a chain with two daemons on the same node
+
+{Embed}
+https://github.com/gcharang/create-assetchain
+gcharang/create-assetchain
+Simple scripts to create a Komodo assetchain using a single node for testing - gcharang/create-assetchain
+https://images-ext-2.discordapp.net/external/XjUnfLh_ll_5ZLNrsZgRQXP1rXaDVUgpLibKLCYGLLw/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/21151592
+
+{Reactions}
+🍻 
+
+[26-May-19 06:08 AM] smkhound#7640
+I'm also manually testing on a custom chain, same params as CFEKORKL across two nodes using oraclefix branch of mixa84 repo
+
+
+[26-May-19 06:19 AM] smkhound#7640
+fwiw, added message to hex converter at http://oracle.earth/oracles_data/
+to make manual testing a bit easier
+rest of site is down for updates tho
+
+
+[26-May-19 09:18 AM] TonyL#3577
+So, is there issue with combined datatypes? @smkhound
+
+
+[26-May-19 03:58 PM] TonyL#3577
+`you can use: https://github.com/gcharang/create-assetchain
+for starting  a chain with two daemons on the same node`
+
+Regtest framework doing quite same thing btw:
+https://github.com/tonymorony/komodo/blob/FSM/qa/rpc-tests/test_framework/test_framework.py#L202
+
+It should be not very hard to switch to non-regtest chain, but tests will take much more time and will much harder to tests new tests  😃
+
+{Embed}
+https://github.com/tonymorony/komodo/blob/FSM/qa/rpc-tests/test_framework/test_framework.py
+tonymorony/komodo
+Komodo. Contribute to tonymorony/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[26-May-19 08:00 PM] Mylo#8306
+https://vimeo.com/332420851
+
+
+[26-May-19 08:00 PM] Mylo#8306
+text based menu control of blockchain creation like @gcharang all-in-one
+
+
+[26-May-19 08:03 PM] Mylo#8306
+it does tokens, rewards and when oracles is tested oracles.  full dev tool 😃
+
+{Reactions}
+💪 (3) 
+
+[26-May-19 08:31 PM] smkhound#7640
+@TonyL still working on manual confirmation, but I believe so. Keep getting `
+{
+  "result": "error",
+  "error": "data does not match length or content format specification"
+}` but I think thats my fault, not bug.
+
+
+[26-May-19 11:04 PM] gcharang#6833
+thats great mylo
+
+
+[27-May-19 01:10 AM] smkhound#7640
+k, confirmed my fault on the above - bad hex.
+
+
+[27-May-19 01:15 AM] smkhound#7640
+found a misleading error message:
+when attempting to `oraclesdata` with nonregistered pubkey:
+```{
+  "result": "error",
+  "error": "datafee 0.00000000 is illegal"
+}
+```
+
+
+[27-May-19 02:57 AM] Mihailo#5902
+@TonyL @Alright @smkhound As I mentioned before, I noticed something is wrong with oraclessamples as the data for Ihh was too short, and seems it is just returning single hash
+
+
+[27-May-19 02:58 AM] TonyL#3577
+Yes, I think combined types data displaying is broken
+
+
+[27-May-19 02:58 AM] jl777c#5810
+we need to find and fix all these "little" issues for the hardupdate
+
+
+[27-May-19 02:59 AM] Mihailo#5902
+I'm on it now
+
+
+[27-May-19 02:59 AM] smkhound#7640
+```smk762@cctest163:~/mixa84/komodo/src$ ./komodo-cli -ac_name=TESTORCL oraclessamples 1f23c40cd5290a8a34425336b22ec84b05e6304a9315fdb3ec76df260a348fc3 RVerJvoYsXp3avQ3xxe54EhajZgn5xidKB 1
+{
+  "result": "success",
+  "samples": [
+    {
+      "data": "This is the third bit",
+      "txid": "71d65c21f49f57ec44712f9a59c2a5dab31172267ba514510c97390e08eed366"
+    }
+  ]
+}
+```
+
+{Reactions}
+👍 
+
+[27-May-19 03:00 AM] smkhound#7640
+from `sss` oracle
+
+
+[27-May-19 03:00 AM] smkhound#7640
+so last `s` value returned
+
+
+[27-May-19 03:01 AM] smkhound#7640
+anything else needed to test, or wait for next commit?
+
+
+[27-May-19 03:03 AM] TonyL#3577
+are all other tests except of `Ihh` data type passing?
+
+
+[27-May-19 03:04 AM] smkhound#7640
+yep, in the autotest. didnt do all manually tho
+
+
+[27-May-19 03:07 AM] smkhound#7640
+will do a few manually now, to get right length prefixes for hex conversion page
+
+
+[27-May-19 03:07 AM] smkhound#7640
+dont anticipate any problems tho
+
+
+[27-May-19 03:08 AM] TonyL#3577
+great, please adjust dev docs for latest oracles update when you'll have time
+
+
+[27-May-19 03:10 AM] smkhound#7640
+already made some changes, but have a few extra blanks to fill in
+
+{Reactions}
+🔥 
+
+[27-May-19 03:10 AM] Mylo#8306
+yes, we'll need to update the dev docs as well.
+
+
+[27-May-19 03:10 AM] smkhound#7640
+thats what I'm working on 😃
+
+
+[27-May-19 03:11 AM] Mylo#8306
+excellent.
+
+
+[27-May-19 03:21 AM] Mihailo#5902
+@Alright I found your changes made to print only the last one, commits e5907e31a6c0ceb8368e8af260c6ae903207100b and 5c77b99a66dc1305adcc9c02bb335695c21f457f, I fixed it and now it shows it like this:
+```{
+  "result": "success",
+  "samples": [
+    {
+      "data": [
+        "1366855",
+        "00000000fa140feac8804ec316f8c1f8e8102845d9f882f11f1ff9283bfb4fed",
+        "1e706fbd32a4587b6ae0b983d6d078b90011552481b64275484f2fc76fdc5b7d"
+      ],
+      "txid": "f9765c07c20568cb3472056163226006dec2e393579a77dc99b90ccb1d5a4eae"
+    }
+  ]
+}
+```
+
+
+[27-May-19 03:22 AM] Mihailo#5902
+@TonyL Is this display format ok or should I adapt it to something else (maybe because of tests or ...)
+
+
+[27-May-19 03:24 AM] TonyL#3577
+I think it's good, sure. Actually data was list like this before 😃
+
+
+[27-May-19 03:24 AM] Mihailo#5902
+Yes!
+
+
+[27-May-19 03:24 AM] Mihailo#5902
+Just checking if it is ok 😉
+
+
+[27-May-19 03:25 AM] Mihailo#5902
+I also put txid first and then data...
+
+
+[27-May-19 03:34 AM] Mihailo#5902
+Fix pushed to https://github.com/Mixa84/komodo/tree/oraclesfix
+
+{Embed}
+https://github.com/Mixa84/komodo/tree/oraclesfix
+Mixa84/komodo
+Komodo. Contribute to Mixa84/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+{Reactions}
+treasure 
+
+[27-May-19 03:53 AM] smkhound#7640
+```smk762@cctest163:~/mixa84/komodo/src$ ./komodo-cli -ac_name=TESTORCL oraclessamples 1f23c40cd5290a8a34425336b22ec84b05e6304a9315fdb3ec76df260a348fc3 RVerJvoYsXp3avQ3xxe54EhajZgn5xidKB 6
+{
+  "result": "success",
+  "samples": [
+    {
+      "txid": "71d65c21f49f57ec44712f9a59c2a5dab31172267ba514510c97390e08eed366",
+      "data": [
+        "This is the first bit",
+        "This is the second bit",
+        "This is the third bit"
+      ]
+    }
+  ]
+}
+```
+🎯
+
+{Reactions}
+👌 🔥 
+
+[27-May-19 05:52 AM] Alright#0419
+@Mihailo wasn't aware combined data types worked like that 🤔
+
+
+[27-May-19 05:52 AM] Alright#0419
+sorry if I broke it 😅
+
+{Reactions}
+👍 
+
+[27-May-19 05:53 AM] Alright#0419
+@smkhound 
+```
+    {
+      "txid": "71d65c21f49f57ec44712f9a59c2a5dab31172267ba514510c97390e08eed366",
+      "data": [
+        "This is the first bit",
+        "This is the second bit",
+        "This is the third bit"
+      ]
+    }
+```
+how do you create a sample like this?
+
+
+[27-May-19 05:54 AM] smkhound#7640
+data format `sss`
+
+
+[27-May-19 05:55 AM] smkhound#7640
+when adding hex, concatenate the individual hex like `hexlenDATAhexlenDATAhexlenDATA`
+
+
+[27-May-19 07:52 AM] smkhound#7640
+only thing I dont have a definition for in docs now is `OraclesCCTokensAddress`
+
+
+[27-May-19 07:52 AM] smkhound#7640
+draft here -https://github.com/smk762/developer-docs/blob/master/docs/basic-docs/cryptoconditions/cc-oracles.md
+
+{Embed}
+https://github.com/smk762/developer-docs/blob/master/docs/basic-docs/cryptoconditions/cc-oracles.md
+smk762/developer-docs
+Contribute to smk762/developer-docs development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6xcX3Z50JaMIMuZ9mAXOpQv_L8FfDr-TLGFP0GMRbbU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/35845239
+
+
+[27-May-19 07:54 AM] Mihailo#5902
+name_of_ccCCTokensAddress for every CC is the global CC address where tokens are stored. Not every CC use tokens so for some this is irrelevant....
+
+{Reactions}
+👍 
+
+[28-May-19 05:33 AM] smkhound#7640
+for the little endian number formats, is it integer only?
+
+
+[28-May-19 05:34 AM] Mihailo#5902
+How do you mean?
+
+
+[28-May-19 05:40 AM] smkhound#7640
+like type 't', I understand the range limit, just wondering if a float can be converted and stored also
+
+
+[28-May-19 05:40 AM] smkhound#7640
+autotests are all integer
+
+
+[28-May-19 05:41 AM] smkhound#7640
+sorry if stupid question 😄
+
+
+[28-May-19 05:42 AM] Mihailo#5902
+You can store whatever you like in that x bytes but it will be returned as integer 😉
+
+
+[28-May-19 05:43 AM] Mihailo#5902
+So if you want, you can process it later from integer to whatever you like.
+
+
+[28-May-19 05:43 AM] smkhound#7640
+cool, so float better stored as 's/S'
+
+
+[28-May-19 05:44 AM] Mihailo#5902
+BTW, now looking at oraclesamples and I'm not sure it will work with number formats...
+
+
+[28-May-19 05:45 AM] Mihailo#5902
+Never mind, it works...
+
+
+[28-May-19 05:45 AM] smkhound#7640
+yeah, I was testing earlier to get http://oracle.earth/oracles_data/ converter working with those formats, so far so good
+
+
+[28-May-19 05:45 AM] Mihailo#5902
+Basically all four formats will be printed in string like this: `sprintf(str,"%lld",(long long)val);`
+
+
+[28-May-19 05:46 AM] smkhound#7640
+didnt try float tho, glad I asked first
+
+
+[28-May-19 05:46 AM] Mihailo#5902
+Or `sprintf(str,"%llu",(long long)uval);` for unsigned....
+
+
+[28-May-19 05:46 AM] Mihailo#5902
+So it will be integer representation
+
+
+[28-May-19 05:46 AM] smkhound#7640
+havnet tested signed yet, about to try that
+
+
+[28-May-19 05:47 AM] smkhound#7640
+autotests have it working tho
+
+
+[28-May-19 05:47 AM] smkhound#7640
+just need to make sure my conversion script is sane
+
+
+[28-May-19 06:45 AM] Mihailo#5902
+@jl777c @TonyL @Alright @smkhound 
+I've made a PR of oracles changes. Please make complete test to check if it does not break anything. First test with current timestamp does oracles works as they did up to now. Nothing should change (except oraclesamples that were changed to take baton address instead of txid). Then change PUBKEY_SPOOFING_FIX_ACTIVATION to timestamp before now (for example 1558359845) to see how it will work after July 15th, and check existing oracle with fix activated if nothing breaks (data, subscribe, new registers....)
+https://github.com/jl777/komodo/pull/1507
+
+{Embed}
+https://github.com/jl777/komodo/pull/1507
+Oracles pubkey spoofing in register tx fix by Mixa84 · Pull Reque...
+Fix activation on July 15th 2019 00:00
+Added oraclesfund tx to fund Oracles CC address of pubkey that will register, and spend it in register tx
+oraclessamples gets baton address as input instead o...
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Reactions}
+👍 (2) 📝 🙏 
+
+[29-May-19 01:43 AM] smkhound#7640
+https://github.com/jl777/komodo/pull/1509
+Tests updated and succesful (if PUBKEY_SPOOFING_FIX_ACTIVATION value in oracles.cpp is set to before now)
+
+{Embed}
+https://github.com/jl777/komodo/pull/1509
+Update cryptoconditions_oracles.py by smk762 · Pull Request #1509...
+-change tests to use baton address instead of baton utxo
+-update samples results reference index
+-add test for oraclesfund
+-modify test loop flow to avoid spent utxo errors.
+Note: Successful test r...
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Reactions}
+🔥 👍 
+
+[29-May-19 01:49 AM] Mihailo#5902
+👏 👏 👏
+
+
+[29-May-19 02:00 AM] TonyL#3577
+@smkhound could you please also do some basic manual tests?
+
+
+[29-May-19 02:01 AM] TonyL#3577
+Just to be sure that it working fine on non-regtest stuff too
+
+
+[29-May-19 02:01 AM] smkhound#7640
+done a few, but not the whole suite. yet to do a multiformat, will do now
+
+
+[29-May-19 02:02 AM] TonyL#3577
+great, cool 🚀
+
+
+[29-May-19 02:03 AM] Mihailo#5902
+It would be very good to test existing oracle when fix activates if nothing breaks at that moment...
+
+{Reactions}
+💯 👍 
+
+[29-May-19 06:34 AM] smkhound#7640
+tested multiformat pre and post activation, samples returned after activation fine, no `oracelsfund` required on the pre-activation oracle after activation. ran a few other maual tests, no issues found. Only thing worth mention but not at all a problem was that `oraclesfund` could be repeated after already being done.
+
+
+[29-May-19 06:35 AM] smkhound#7640
+so activation appears to have no ill effect on pre activation oracles or the data they hold within
+
+{Reactions}
+🔥 
+
+[06-Jun-19 05:26 PM] Mylo#8306
+Which branch has the new stuff?
+
+
+[06-Jun-19 07:50 PM] smkhound#7640
+FSM, but using timestamp for activation. Need to edit ~/komodo/src/cc.oracles.cpp
+
+
+[06-Jun-19 07:50 PM] smkhound#7640
+change `#define PUBKEY_SPOOFING_FIX_ACTIVATION 1558455503
+` to a timestamp in past, then rebuild
+
+
+[06-Jun-19 11:08 PM] Mylo#8306
+is "using timestamps" necessary?
+
+
+[06-Jun-19 11:09 PM] Mylo#8306
+if i'm launching a new smart chain, do i care about this?   or is this for backwards compat with existing launched FSM branches?
+
+
+[06-Jun-19 11:51 PM] smkhound#7640
+The changes will be applied at the July 15th hardfork timestamp. 
+There is a new RPC `oraclesfund` after the hardfork which needs to be run before you can subscribe/register
+
+
+[06-Jun-19 11:52 PM] smkhound#7640
+The other change is that `oraclesdata` will use `baton`, which is a registered publisher's R-address, instead of the `batonutxo` which is currently used
+
+
+[06-Jun-19 11:52 PM] smkhound#7640
+so if you want to test the changes, you need to build with a modified timestamp so it is activated.
+
+
+[06-Jun-19 11:53 PM] Mylo#8306
+understood.  thanks.
+
+{Reactions}
+👍 
+
+[07-Jun-19 01:52 PM] B. Gültekin Çetiner#0626
+Is there a full list of functions to be used for oracles?
+
+
+[07-Jun-19 01:53 PM] jl777c#5810
+kmd.io
+
+{Reactions}
+👍 
+
+[17-Jun-19 08:27 PM] smkhound#7640
+what would be the best way to retrieve historical samples in oracles after `oraclesamples` uses `baton` instead of `batonutxo`?
+with `batonutxo`, you can find the latest using `oraclesinfo`, and get x number of datapoints back. You can also use an old `batonutxo` to find samples from a specific batonutxo back. 
+it seems that `baton` defaults to the latest entry. If I want samples for a time period, is there a recommended way to retrieve just that, without also filtering out everything that happened since then?
+
+
+[17-Jun-19 11:34 PM] jl777c#5810
+record the latest baton at specific time periods, encode the sample number in the data also
+
+
+[18-Jun-19 12:19 AM] Mihailo#5902
+@smkhound I noticed similar problem few days ago, that you cannot fetch specific data tx as with oraclesamples you would need to get all data and then iterate through it. So we added oraclesample RPC that returns data from single data tx. When I made it I was thinking do we need also to fetch number of txs but decided to implement single tx. If it is very convenient to have fetching x txs from specific tx we can add it easily...
+
+
+[18-Jun-19 12:22 AM] smkhound#7640
+great, I'll test that out. I can see lookback from tx being handy, but I can work with single sample at the moment. I assume getting a list of tx related to the oracle baton address shouldnt be too difficult? from there can just loop over a subset of the list
+
+
+[18-Jun-19 12:22 AM] smkhound#7640
+pls let me know when ready to test out which branch / repo etc and I can add that RPC to our autotests & docs
+
+
+[22-Jun-19 01:28 AM] smkhound#7640
+Would it be difficult to add a "utxo count" output to `oraclesinfo`
+to send multiple `oraclesdata` in same block, oracle needs more than one utxo (e.g. 10utxo by running `oraclessubscribe` 10 times).
+utxo count output can show what its rate capacity per block is.
+
+Also wondering if/how oracle response may be affected by the cumulative transactions it has been involved in. With addresses in wallet.dat, we can use `cleanwallettransactions` to speed up RPCs that communicate with wallet. 
+Are oracle baton addresses similarly affected or able to be cleaned?
+
+
+[22-Jun-19 12:12 PM] TonyL#3577
+Such data points amount indication sounds like an useful addition
+
+
+[25-Jun-19 02:38 AM] Mihailo#5902
+I think we can show utxo count easily, let me just check are there any difficulties...
+
+{Reactions}
+yassinkomodo 
+
+[11-Jul-19 10:40 AM] FishyGuts#5085
+`An oracle is to blame
+Essentially, oracles are used in blockchains to verify real word information and then report back the finding to the blockchain, triggering an implementation of smart contracts. In this case, a Synthetix oracle, responsible for providing external data to Synthetix’s smart contracts, transmitted false data on June 25, which a bot took advantage of.`
+
+
+[11-Jul-19 10:41 AM] FishyGuts#5085
+https://cointelegraph.com/news/sophisticated-trading-bot-exploits-synthetix-oracle-funds-recovered
+
+{Embed}
+https://cointelegraph.com/news/sophisticated-trading-bot-exploits-synthetix-oracle-funds-recovered
+Sophisticated Trading Bot Exploits Synthetix Oracle, Funds Recovered
+A trading bot has stolen over $1 billion from synthetic asset platform Synthetix, but the error was quickly fixed, with no users affected...
+https://images-ext-2.discordapp.net/external/tOxF29_bqtxCKbS8oO7WMNe0Zbyg_lloyCx8Zu7b1lk/https/images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9iMDY3MWU3OTk1MGM5MDhhMTQ3MzdhMTRhZjE2MjhkMS5qcGc%3D.jpg
+
+
+[05-Sep-19 01:52 AM] Mylo#8306
+https://blog.makerdao.com/introducing-oracles-v2-and-defi-feeds/
+
+{Embed}
+Coulter
+https://blog.makerdao.com/introducing-oracles-v2-and-defi-feeds/
+Introducing Oracles V2 and DeFi Feeds
+This blog post introduces exciting changes to the Oracles infrastructure and Oracles governance. The aim of this post is to provide a stepping stone for MKR Governors that lays a foundation for discussing the Oracle proposals on the MakerDAO Governance Calls.
+https://images-ext-1.discordapp.net/external/QKgK8giAaAORjbJeuzyxpUguBmGELOxxjIjdClAwv0s/https/blog.makerdao.com/wp-content/uploads/2019/04/NewBanners-03-1024x512.png
+
+
+[16-Sep-19 07:52 AM] redp1ll#3268
+When trying to sendrawtransaction after oraclesregister I get following return:
+
+
+[16-Sep-19 07:52 AM] redp1ll#3268
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)
+
+
+[16-Sep-19 07:53 AM] redp1ll#3268
+CC Eval EVAL_ORACLES Invalid: vin.3 is CC for oraclesregister or pubkey not same as vin pubkey, register must be done from owner of pubkey that registers to oracle!! spending tx d4889e941eda1b4609c4ff1d7ec1ac4f98819ee82b36dd393424f7c17b373acb
+
+
+[16-Sep-19 07:53 AM] redp1ll#3268
+How are the pubkeys not the same?
+
+
+[16-Sep-19 07:53 AM] Mihailo#5902
+@redp1ll You must do a register from a node that is ran with -pubkey= as the one you want to register!
+
+
+[16-Sep-19 07:54 AM] Mihailo#5902
+Also you must do oralcesfund first on order to prove that you are the owner of pubkey.
+
+
+[16-Sep-19 07:56 AM] Mihailo#5902
+This was done in order to prevent others to register a pubkey that they do not own!
+
+
+[16-Sep-19 08:07 AM] redp1ll#3268
+@Mihailo I'm running the 2 node setup on one machine with different .conf files and run both nodes with -pubkey= option. I did the oraclesfund before that too
+
+
+[16-Sep-19 08:08 AM] redp1ll#3268
+Any idea what I'm doing wrong?
+
+
+[16-Sep-19 08:15 AM] Mihailo#5902
+Can you paste here the command lines for running nodes, and the oraclesregister command and on which node you ran it?
+
+
+[16-Sep-19 08:18 AM] redp1ll#3268
+Sure one sec
+
+
+[16-Sep-19 08:18 AM] redp1ll#3268
+./komodod -ac_name=LEW -ac_supply=100000 atadir=/home/redp1ll/coinData/LEW -addnode=localhost -ac_cc=1 -pubkey=02338fb71f2c71c7f0eb242bf6eb361e9a87ed121875f43b8396df8aff29d1bd19
+
+
+[16-Sep-19 08:18 AM] redp1ll#3268
+./komodod -ac_name=LEW -ac_supply=100000 ac_cc=1 -pubkey=02338fb71f2c71c7f0eb242bf6eb361e9a87ed121875f43b8396df8aff29d1bd19
+
+
+[16-Sep-19 08:19 AM] redp1ll#3268
+./komodo-cli -ac_name=LEW oraclesregister a17411b7d8fce50b2d2f697371060eddbd7da527d7f3870cddf98580067cf5cb 10000
+
+
+[16-Sep-19 08:19 AM] Mihailo#5902
+I see that you are using the same pubkey on both nodes, so I suppose that they do not have private keys for that pubkey on both?
+
+
+[16-Sep-19 08:22 AM] Mihailo#5902
+Usually you ran the node with pubkey which you have in your wallte on that node. You can run the node with some other pubkey, but then you are not able to sign transaction which need privatekey for that pubkey on that node.
+
+
+[16-Sep-19 08:22 AM] redp1ll#3268
+I actually importprivkey for both nodes
+
+
+[16-Sep-19 08:22 AM] Mihailo#5902
+Aha, ok. I just supposed you didn't importprivkeys
+
+
+[16-Sep-19 08:23 AM] Mihailo#5902
+Hmm, let me try at myside.
+
+
+[16-Sep-19 08:23 AM] redp1ll#3268
+Thanks a lot, really appreciate it
+
+
+[16-Sep-19 08:53 AM] Mihailo#5902
+@redp1ll I was able to fund/register on a setup with 2 local nodes ran with same pubkey and both having privatekey for that pubkey
+
+
+[16-Sep-19 08:54 AM] Mihailo#5902
+Are you sure you imported privkey correctly
+
+
+[16-Sep-19 08:55 AM] redp1ll#3268
+hmmm yes i think so
+
+
+[16-Sep-19 08:56 AM] redp1ll#3268
+./komodo-cli -ac_name=LEW -datadir=/home/redp1ll/coinData/LEW -addnode=localhost validateaddress RSBQFTVcmmPdZ1M6SWQjgZazPTH8pKwYHG
+{
+  "isvalid": true,
+  "address": "RSBQFTVcmmPdZ1M6SWQjgZazPTH8pKwYHG",
+  "scriptPubKey": "76a914b961cd7fcdf2ef98806e8114b1b9b550076891c088ac",
+  "segid": 19,
+  "ismine": true,
+  "iswatchonly": false,
+  "isscript": false,
+  "pubkey": "02338fb71f2c71c7f0eb242bf6eb361e9a87ed121875f43b8396df8aff29d1bd19",
+  "iscompressed": true,
+  "account": ""
+}
+redp1ll@ubuntu:~/Desktop/komodo/src$ ./komodo-cli -ac_name=LEW -datadir=/home/redp1ll/coinData/LEW -addnode=localhost dumpprivkey RSBQFTVcmmPdZ1M6SWQjgZazPTH8pKwYHG
+
+
+[16-Sep-19 08:56 AM] Mihailo#5902
+This is on the node where you are running oracles register?
+
+
+[16-Sep-19 08:58 AM] redp1ll#3268
+yes, oraclefund works but not register.
+
+
+[16-Sep-19 08:58 AM] redp1ll#3268
+well i tried it on both nodes with the same result
+
+
+[16-Sep-19 08:59 AM] Mihailo#5902
+Can you give me the hex of oraclesfund and oraclesregister, you can send it in dm
+
+
+[16-Sep-19 08:59 AM] redp1ll#3268
+sure!
+
+
+[29-Sep-19 10:41 PM] smkhound#7640
+I've hit an issue when reindexing one of my chains
+`CC Eval EVAL_ORACLES Invalid: unexpected OraclesValidate for register spending tx 3cb077f66c9b56a56ce8f586cd6af7b6ef9e7b6c51c42ca8a12b6945b5db903f
+`
+once this happens, it wont progress to next block. Is there a way to fix or overcome this?
+
+
+[30-Sep-19 12:18 AM] Mihailo#5902
+@smkhound Hmmm, it may be the fix for pubkey spoofing. But it is time activated. Can you give more details on register tx, when is the block in which is that tx and etc.
+
+
+[30-Sep-19 12:28 AM] smkhound#7640
+https://pastebin.com/yWgJ9q94
+
+{Embed}
+https://pastebin.com/yWgJ9q94
+[JSON] Launch Params:     komodod -addnode=45.77.192.213 -addnode=...
+https://images-ext-1.discordapp.net/external/lZwHlcJYEP_-CeL744a7RSWVnhrIifPJgiIcmKkDuJY/https/pastebin.com/i/facebook.png
+
+
+[30-Sep-19 12:29 AM] smkhound#7640
+I can run the chain by using a bootstrap from another node, but was trying to reindex to get addressindex/spentindex up for explorer.
+
+
+[30-Sep-19 12:31 AM] smkhound#7640
+if its not an easyfix, I can kill the chain and start again, I think I'm the only one running it unless someone in LABs still is also. Working on an oracles_export script now to migrate existing data if it comes to that (it holds all data for display on https://oracle.earth/).
+
+
+[30-Sep-19 02:43 AM] Mihailo#5902
+Hmmm, some how that refister tx is spending CC vout and there was no spending of CC vout in register until the spoofing fix. The date of the block is June 14th but the fix starts at July 15th.
+
+
+[30-Sep-19 02:43 AM] Mihailo#5902
+I`ll sync the chain to see the tx itself
+
+
+[30-Sep-19 02:44 AM] Mihailo#5902
+@smkhound Or if you can paste me the decoded tx that fails would be even better.
+
+
+[30-Sep-19 02:48 AM] Mihailo#5902
+Hmmm, I have synced the chain. I see the tx. Let me check
+
+
+[30-Sep-19 02:55 AM] Mihailo#5902
+@smkhound This is strange. The tx seems to be oraclesfund tx, but it is in time when spoofing fix is not active. Still I don't know yet how it complained about unexpected oraclesvalidate for register!
+
+
+[30-Sep-19 02:55 AM] Mihailo#5902
+Are you sure the time is correct on nodes running that chain?
+
+
+[30-Sep-19 02:58 AM] smkhound#7640
+yeah time is correct. Could my fault for tesing the oraclesfund rpc before spoofing fix activation (I recall changing the activation time at some stage to prepare for the change, but thought it was on a different chain). I'll see if I can get decoded tx, though I might not have that wallet active anymore
+
+
+[30-Sep-19 02:59 AM] Mihailo#5902
+Even if you tested fund before it shouldn't complain. I'm totaly confused how the CC validation is triggered when there is no CC input spent @jl777c
+
+
+[30-Sep-19 03:01 AM] Mihailo#5902
+Ah, no. It is a problem of spending tx 3cb077f66c9b56a56ce8f586cd6af7b6ef9e7b6c51c42ca8a12b6945b5db903f, so it is probably register that is failing...
+
+
+[30-Sep-19 03:02 AM] Mihailo#5902
+@smkhound Could be the problem that you did fund and register before the fix active. But we should also prevent that the chain is stuck...
+
+
+[30-Sep-19 03:03 AM] smkhound#7640
+Most likely cause is premature activation, testing rpc, then changing activation back to actual.
+
+
+[30-Sep-19 03:03 AM] Mihailo#5902
+Yes, that is it.
+
+
+[30-Sep-19 03:06 AM] Mihailo#5902
+I've commented the else in oraclesregister validation and it passes
+
+
+[30-Sep-19 03:07 AM] Mihailo#5902
+So basically this shouldn't happen, but for example if anybody was sending the fund and register before the fix activation (for example he creates the tx manually) it could break the sync of the chain.
+
+
+[30-Sep-19 03:07 AM] Mihailo#5902
+@jl777c This is very unlikely but should we do something about this?
+
+
+[30-Sep-19 03:08 AM] smkhound#7640
+decoded tx - https://pastebin.com/g94Jvrgn
+
+{Embed}
+https://pastebin.com/g94Jvrgn
+[JSON] ~/komodo/src/komodo-cli -ac_name=ORACLEARTH getrawtransacti...
+https://images-ext-1.discordapp.net/external/lZwHlcJYEP_-CeL744a7RSWVnhrIifPJgiIcmKkDuJY/https/pastebin.com/i/facebook.png
+
+
+[30-Sep-19 03:08 AM] Mihailo#5902
+I've got it already, thnx.
+
+
+[30-Sep-19 03:09 AM] smkhound#7640
+I'm halfway through a migration script, and its a rare situation so unlikely to affect production chains
+
+
+[30-Sep-19 03:09 AM] Mihailo#5902
+YEs
+
+
+[30-Sep-19 03:23 AM] jl777c#5810
+if it can be worked around, that seems sufficient
+
+
+[30-Sep-19 03:25 AM] Mihailo#5902
+You can comment the else part in register validation and it will pass. But without code change it cannot be worked around.
+
+
+[30-Sep-19 03:34 AM] jl777c#5810
+i mean, is this specific oracle so important? can a new one be made as a replacement
+
+
+[30-Sep-19 03:36 AM] Mihailo#5902
+No, the problem is if someone made and oracle with fund/register tx before the pubkey spoofing fix was activated (this could only be done when moving the time activation or manually creating a tx), then it will stuck the chain sync. But this is very unlikely that someone has done on production chain!
+
+
+[30-Sep-19 03:48 AM] jl777c#5810
+ok, so can we ignore this? it seems it cant be done anymore and is only for legacy instances?
+
+
+[30-Sep-19 03:50 AM] Mihailo#5902
+Yes, I think we can ignore it. Just wanted to check with you 😉
+
+
+[24-Oct-19 07:27 AM] CrisF#3405
+Hi, I have a non-tech general question about Oracles (in general).
+I've been to some conferences and presentations, and met quite a few seemingly smart people recently.  They all seem to be waiting for, or recently developed an oracle.
+We tested this in Labs over 1 year ago.  Seems quite old.
+What am I missing?
+
+
+[24-Oct-19 07:30 AM] Mihailo#5902
+Maybe decentralized oracle, or solution for oracle data validation?
+
+
+[24-Oct-19 07:46 AM] CrisF#3405
+Ahh, I'll look into those.  Thanks a lot, @Mihailo 🙇
+
+
+[24-Oct-19 10:02 AM] gcharang#6833
+we have a decentralized oracle too; based on making miners submit the data and nodes validate it
+we are using it in Prices-cc I think
+
+
+[02-Nov-19 06:33 AM] CrisF#3405
+Hi @Sarahz, I saw you asking about oracles in #🎰┃ask-jl777.  This channel is a good place to ask more about them. @smkhound knows a lot about them and wrote a good article here: `https://blog.komodoplatform.com/anatomy-of-an-oracle-c6c2245b0196` .  The pinned 📌 messages ☝ also have some information.
+Please ask if you have any questions 😄
+
+
+[02-Nov-19 06:34 AM] Sarahz#0662
+@CrisF ok ty and sorry
+
+
+[02-Nov-19 06:34 AM] CrisF#3405
+why sorry?
+
+
+[02-Nov-19 06:34 AM] Sarahz#0662
+Wrong chan for ask oracle
+
+
+[02-Nov-19 06:35 AM] CrisF#3405
+Oh, didn't mean that.  Good to ask jl777 👍 I just wanted to point out more info.
+
+
+[02-Nov-19 06:35 AM] Sarahz#0662
+Oracles will be implemented in smartchain komodo maybe he is in the roadmap ?
+
+
+[02-Nov-19 06:36 AM] CrisF#3405
+Oracles are already here.  Have been used for quite a long time.
+
+
+[02-Nov-19 06:36 AM] Sarahz#0662
+Oh ok
+
+
+[02-Nov-19 06:36 AM] Sarahz#0662
+Idk
+
+
+[02-Nov-19 06:38 AM] CrisF#3405
+If you go here: `https://docs.komodoplatform.com/` and search oracles you will find info on how to set them up.
+
+
+[02-Nov-19 06:38 AM] Sarahz#0662
+Ok thanks for information
+
+
+[02-Nov-19 06:39 AM] CrisF#3405
+The cc-* channels on the left are channels for the different Antara Modules where you can ask questions and search.
+
+
+[02-Nov-19 06:40 AM] CrisF#3405
+Please ask if you have any questions.  Many people here will be happy to help.
+
+
+[02-Nov-19 07:06 AM] CrisF#3405 (pinned)
+jl777 Medium articles on Oracles:
+```https://medium.com/@jameslee777/oracles-cc-to-create-a-datafee-based-market-for-data-providers-69cd39cc0949
+
+https://medium.com/@jameslee777/decentralized-trustless-oracles-dto-by-piggybacking-on-timestamp-consensus-rules-2adce34d67b6```
+
+
+[02-Nov-19 07:08 AM] CrisF#3405
+Those ☝ are 2 of jl777's articles on oracles, @Sarahz.
+
+
+[03-Nov-19 02:29 PM] Regnar#6164
+```- Oracles
+  - Live demo of Oracles CC module - [http://oracle.earth/](http://oracle.earth/)
+  - GPS tracking a wandering hound with Particle.io via Komodo cryptoconditions oracles, displayed on Leaflet. Source code: [https://github.com/smk762/Dragonhound](https://github.com/smk762/Dragonhound)
+   - [https://www.dragonhound.tech/](https://www.dragonhound.tech/)
+  - Oracle Creator via Browser - [https://oracle.earth/create_oracle/](https://oracle.earth/create_oracle/)
+  - List of Active Oracles - [https://oracle.earth/oracles_list/](https://oracle.earth/oracles_list/)
+  - Oracles CC TUI in Python - [https://github.com/tonymorony/komodo-cctools-python/blob/master/oracles_cc_tui.py](https://github.com/tonymorony/komodo-cctools-python/blob/master/oracles_cc_tui.py)```
+
+Hey all, if you have any proof of concepts, or built something cool for Oracles CC, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and add this to the Komodo docs page. TUIs are good too!
+
+
+[04-Nov-19 08:05 AM] Alright#0419
+couple dapps in the pinned message here, @Regnar 
+LABS uses oracles CC pretty extensively. Have a NN voting dapp and the LABS NN lottery dapp, among others
+
+{Reactions}
+👍 labs 
+
+[07-Nov-19 12:15 AM] TonyL#3577
+@Mihailo Found an interesting edge case. If you'll try to create oracle of `s` type with description > 4096 symbols daemon will deadly hangs and only kill/restart helps
+Example of such call: https://paste.ubuntu.com/p/HM9kpFq7Xm/
+What is interesting that if you'll try with data type lets say `L` - it'll work fine (```{
+  "result": "error",
+  "error": "oracles description must be <= 4096 characters"
+}
+```)
+happy coincidence that in description test was `s` type 😅
+(tested on latest FSM)
+
+
+[07-Nov-19 12:27 AM] TonyL#3577
+And one more edge case. After such call (too long oracle name):
+```./komodo-cli -ac_name=TONYL oraclescreate sdsadsafdsafwaerewafesafewarfewarwavsfdsafdsfdsaf test s
+{
+  "result": "error",
+  "error": "oracles name must not be empty and up to 32 characters"
+}
+```
+my next RPC call hangs the daemon and I never get a response and have to kill it
+
+
+[07-Nov-19 12:28 AM] Mihailo#5902
+Nice, I'll check it out!
+
+{Reactions}
+🔥 
+
+[07-Nov-19 01:31 AM] Mihailo#5902
+Ok, found the problem.
+
+
+[07-Nov-19 01:58 AM] Mihailo#5902
+PRed the fix to FSM!
+
+{Reactions}
+🚀 (2) 
+
+[07-Nov-19 02:04 AM] Mihailo#5902
+It seems that some other RPCs have the same problem. As we introduced different locking mechanism to support remote rpc call on nSPV there must be changes in rpc checks for parametars validity.
+
+
+[07-Nov-19 02:05 AM] Mihailo#5902
+@dimxy When we changed from LOCK2 to ENTER_CRITICAL_SECTION and LEAVE_CRITICAL_SECTION, there must be no returns or exception throws in between those two.
+
+
+[07-Nov-19 02:08 AM] Mihailo#5902
+The advantage of using LOCK2 was that it was working until the end of the block and you could have all the returns and throws after it.
+
+
+[07-Nov-19 02:08 AM] dimxy#2587
+no returns, otherwise it remains in the locked state
+
+
+[07-Nov-19 02:09 AM] Mihailo#5902
+Now we need to leave cs beofre each return/throws or have none of them until leave cs.
+
+
+[07-Nov-19 02:09 AM] dimxy#2587
+it is like begin and end, if there is a 'begin' then it must be a 'end'
+
+
+[07-Nov-19 02:10 AM] Mihailo#5902
+Yes I know, just saying that I missed the returns and throws because there was a lot of RPCs I changed and basically I went through them fast and copy/paste  stuff.
+
+
+[07-Nov-19 02:12 AM] dimxy#2587
+I just thought we could use lambdas and use one time a lambda with LOCK2 and second time without it
+
+
+[07-Nov-19 02:12 AM] TonyL#3577
+I hope that  today-tomorrow I’ll finish with rpc unit tests rework and it’s integration into CI process so we’ll catch such things on PRs opening
+
+{Reactions}
+👍 
+
+[07-Nov-19 02:14 AM] Mihailo#5902
+I would like that we have some kind of CI checks as there is a lot various stuff we are working on and cannot remember everything that might be affected
+
+{Reactions}
+💯 
+
+[07-Nov-19 02:16 AM] TonyL#3577
+Yeah things you guys creating are more and more complex and beautiful each time so better defense needed
+
+
+[15-Dec-19 12:50 PM] passcombo.com 🏴☠🍋#0622
+hi I found entire another project is only dedicated to what seems only a module in KMD
+
+
+[15-Dec-19 12:50 PM] passcombo.com 🏴☠🍋#0622
+how it compares cc-oracles to Chainlink development ?
+
+
+[15-Dec-19 12:58 PM] TonyL#3577
+Hi! https://eth-usd-aggregator.chain.link/ we can do such thing with multiple price feeds with oraclefeed dAPP + oracleCC and can write any offchain data on chain (pricesCC is a good example). For me it looks like only a module/direction in KMD but maybe I'm missing something in their tech understanding
+
+{Embed}
+https://eth-usd-aggregator.chain.link/
+Chainlink Reference Data
+Chainlink Reference Data
+
+{Reactions}
+👍 
+
+[15-Dec-19 09:22 PM] jl777c#5810
+it would take a dedicated team to productize oracles-CC to create the data marketplace
+
+{Reactions}
+✅ 
+
+[11-Jan-20 08:19 AM] sergipcm#2275
+updating myself on latest developments on each CC
+
+
+[11-Jan-20 08:20 AM] sergipcm#2275
+Seems that if NN's could offer multiple price feeds utility of NN's would increase and this data would be ready to consume for anyone who wants to build into it using KMD tech
+
+
+[11-Jan-20 08:21 AM] sergipcm#2275
+just an idea, but I suspect that not everyone wanting to build on KMD wants to build everything from scratch, meaning that if they find pieces in place already working they will get to MPV/prod much faster
+
+
+[11-Jan-20 08:22 AM] sergipcm#2275
+most NN's have already dedicated teams behind, coordinating them to set up price feeds shouldnt be very hard
+
+
+[11-Jan-20 08:26 AM] sergipcm#2275
+offering the data ready to consume would help put visibility on KMD tech, I agree with @TonyL there
+
+
+[21-Feb-20 04:34 PM] ph03nix#3115
+https://twitter.com/JonSnowisLink/status/1230936621115043842
+
+{Embed}
+JuanSnow (@JonSnowisLink)
+https://twitter.com/JonSnowisLink/status/1230936621115043842
+The XAG/USD Chainlink price feed was incorrect for over 6 hours yesterday. Someone made $6.8k in profit  due to this error.  
+
+https://t.co/yP9Kr6iEr2
+
+ @chainlink @synthetix_io
+#Chainlink #LINK #Synthetix #SNX
+https://images-ext-2.discordapp.net/external/ZhfK92cL0OZHyF9YDGM9McL_t-HDmsoaFHd6q3vsimU/https/pbs.twimg.com/media/ERUqNCvU8AIYXti.jpg%3Alarge
+Twitter
+
+{Embed}
+https://twitter.com/JonSnowisLink/status/1230936621115043842
+https://images-ext-2.discordapp.net/external/pOZ7FUXaMkFYx8cFpPItJ4ZAnmB-zVLti6XKGCbwc_I/https/pbs.twimg.com/media/ERUqN5HVUAIVx2p.png%3Alarge
+
+{Embed}
+https://twitter.com/JonSnowisLink/status/1230936621115043842
+https://images-ext-2.discordapp.net/external/_aw6OsCDaNthr9vOF0lir4Ef6nXRnDz_vUHsPg29Uow/https/pbs.twimg.com/media/ERUqObgUwAAry8l.png%3Alarge
+
+
+[22-Feb-20 12:16 AM] jl777c#5810
+aggregated oracles are not secure and are subject to attack. with a lot of complexity (and possibility of implementation bugs) you might be able to get it to where it is decent up to the value of your collateral, but once the amount at stake becomes more than the collateral is worth... then how can the collateral offer protections.
+
+
+[22-Feb-20 12:17 AM] jl777c#5810
+to make it simple, if someone has $100K on the line with their collateral/reputation, but can make $3 mil on a flash loan + oracle price change, we need to trust that they wont take the $3 mil in profits, ie. aggregated oracles devolve into trusted oracle
+
+
+[09-Jul-20 02:39 AM] Mylo#8306
+when does oracles performance start degrading?
+a) creating thousands of oracles with only one or two data updates
+b) creating a few oracles with thousands of updates
+c) neither
+d) both
+
+
+[09-Jul-20 02:40 AM] Mylo#8306
+i'll have a better question next week after some testing.
+cheers
+
+
+[09-Jul-20 05:13 AM] jl777c#5810
+b) might start to bog down if you need to find older data
+
+
+[09-Jul-20 05:14 AM] Mihailo#5902
+b) would definitely impact, but I think also a) as we have markers to oracles global address which impacts all oracles.
+
+
+[09-Jul-20 05:14 AM] jl777c#5810
+a) will be fast, as long as you know the oracle you want. searching through thousands of oracles would be a bottleneck, but that is needed just once if it is saved
+
+
+[09-Jul-20 05:14 AM] Mihailo#5902
+But not thousands, more like 100k.
+
+
+[09-Jul-20 05:15 AM] Mihailo#5902
+@jl777c a) would be faster but still if you have 100k oracles when iterating through unspents it will fetch all marker txs and check oracletxid to match one that is searched.
+
+
+[09-Jul-20 05:16 AM] jl777c#5810
+you cant provide the oracletxid to bypass this searching?
+
+
+[09-Jul-20 05:18 AM] Mihailo#5902
+You can, but it will still take some time:
+```cpp
+    GetCCaddress(cp,coinaddr,pk);
+    SetCCunspents(unspentOutputs,coinaddr,true);
+    //fprintf(stderr,"addoracleinputs from (%s)\n",coinaddr);
+    for (std::vector<std::pair<CAddressUnspentKey, CAddressUnspentValue> >::const_iterator it=unspentOutputs.begin(); it!=unspentOutputs.end(); it++)
+    {
+        txid = it->first.txhash;
+        vout = (int32_t)it->first.index;
+        //char str[65]; fprintf(stderr,"oracle check %s/v%d\n",uint256_str(str,txid),vout);
+        if ( myGetTransaction(txid,vintx,hashBlock) != 0 && (numvouts=vintx.vout.size()-1)>0)
+        {
+            if ((funcid=DecodeOraclesOpRet(vintx.vout[numvouts].scriptPubKey,tmporacletxid,tmppk,tmpnum))!=0 && (funcid=='S' || funcid=='D'))
+            {
+                if (funcid=='D' && ValidateCCtx(vintx,cp) && DecodeOraclesData(vintx.vout[numvouts].scriptPubKey,tmporacletxid,tmpbatontxid,tmppk,data)==0)
+                    fprintf(stderr,"invalid oraclesdata transaction \n");
+                else if (tmporacletxid==oracletxid)
+                {  
+                   ...
+```
+
+
+[09-Jul-20 05:19 AM] jl777c#5810
+i guess at some point, a hashmap could be made to find the oracletxid that matches and search just those
+
+
+[09-Jul-20 05:19 AM] Mihailo#5902
+I have made different version of SetCCtxids which can be filtered by plantxid, funcid amount...
+
+
+[09-Jul-20 05:19 AM] Mihailo#5902
+But for unspents I haven't yet made it. SetCCtxids has more data than unspents usually.
+
+
+[09-Jul-20 05:20 AM] Mihailo#5902
+`SetCCtxids(txids,batonaddr,true,EVAL_ORACLESV2,CC_MARKER_VALUE,reforacletxid,'D');`
+
+
+[09-Jul-20 05:21 AM] Mihailo#5902
+And this is only for NSPV, as that impact it more than on full node.
+
+
+[09-Jul-20 06:40 AM] Mylo#8306
+thanks for the details, i was hoping it was (b) that would degrade fastest, (a) is usable for me with oraclesv1. maybe we hit 100k oracles in >2 years but the project will have evolved in scope beyond relying on oracles.
+
+i see `EVAL_ORACLESV2` , are these some of the performance options/improvements in development?  hashmap or filter by funcid is handy nonetheless.
+
+With custom antara development, say my CUSTOMMYLO antara module exists. is the global marker tx problem still going to exist?
+is a hashmap implementation as a "default function" worth considering for any future module performance?
+
+
+[09-Jul-20 06:41 AM] Mylo#8306
+*default data structure (inherited)
+
+
+[12-Jul-20 09:24 PM] Mylo#8306
+Maybe I should look at an Oracle tx index? That would enable millions of oracletxids to exist
+
+
+[13-Jul-20 12:37 AM] jl777c#5810
+yes, for performant solution at scale, a DB of some sort is needed to remove the bottlenecks
+
+
+[13-Jul-20 12:38 AM] jl777c#5810
+it is like BTC utxo, without a DB it would just slow down to a crawl (think a rescan for each operation).
+
+
+[13-Jul-20 03:57 AM] Mihailo#5902
+@Mylo Combination of partial a) and b) will be the same as a) or b). If you make 10 oracles with 10k txs it will be the same ad 1 oracle with 100k txs.
+
+
+[13-Jul-20 03:58 AM] Mihailo#5902
+Oracles V2 is based on CCv2 and this is not a completely different CC mechanism, but improved CC for more rigid validation so we could enforce for example expensive markers in order to prevent spam on marker addresses and to validate all CC txs and not just the ones with spent CC vout. This way we get more control and prevent bad stuff from happening.
+
+
+[13-Jul-20 03:59 AM] Mihailo#5902
+Ofc, the problem with a lot of txs existing is still an issue, but as JL menitoned we are considering a DB solution for that but this is all in early stages right now.
+
+
+[13-Jul-20 06:03 AM] ejuliano#8606
+would there need to be a tx fee for every instance of an oracle communicating with the blockchain/cc?  i think there does for ethereum (correct me if i'm wrong)....how about for komodo?
+
+
+[13-Jul-20 06:06 AM] Mylo#8306
+@ejuliano I am only early stage of testing Oracle based solution. I'm not paying attention for answering those questions yet.
+
+{Reactions}
+👍 
+
+[13-Jul-20 06:06 AM] ejuliano#8606
+ok thank you
+
+
+[13-Jul-20 06:20 AM] Mylo#8306
+@Mihailo ok got it re combo a/b.
+I am 100% sure I need performant CC using the txdb. Thanks for feedback @@jl777c  - i read through txdb.cpp looking at simplest index, will have questions in the next week for your ask channel.
+
+We understand the performance limitation for v1 of our solution. I've run it by project owners, there's an understanding. I dont expect 100k purchase orders (PO) in this business case in 1st year.
+Atm each PO creates an oracletxid.
+
+What would be cool is if I was able to create an Oracle with sendmany.
+
+Use case:
+
+1. Data from existing system is hashed.
+2. Hash of (1) is privkey to an address.
+3. An amount of coin is sent to address in (2). This tx links the data from (1) to the blockchain.
+4. The tx in (3) is a sendmany including a oraclescreate tx.  This way from the external system knowing the txid of the sendmany they can check the hash of the data is correct for that address in (3) & the data in this oracletxid is correct once published
+
+
+[13-Jul-20 06:26 AM] Mylo#8306
+Ah...sendrawtransaction into a sendmany. Is that even possible?
+
+
+[13-Jul-20 06:27 AM] Mylo#8306
+Or I can just create the raw tx with what I need as outlined above and send it?
+
+
+[14-Jul-20 12:19 AM] jl777c#5810
+you can create a rawtransaction with many outputs, as long as it is a valid tx
+
+
+[14-Jul-20 12:29 AM] Mylo#8306
+Great, will learn.
+
+
+[14-Jul-20 12:29 AM] Mylo#8306
+Thanks
+
+
+[21-Jul-20 09:30 AM] FishyGuts#5085
+https://twitter.com/2ndOldest/status/1285297637759963137?s=20
+
+{Embed}
+FishyGuts (@2ndOldest)
+https://twitter.com/2ndOldest/status/1285297637759963137?s=20
+@HavenXHV @chainlink Have you considered using multiple oracles to help ensure the inability to game the oracle systems??
+
+https://t.co/JrrJ5XI3jB
+Twitter
+
+
+[21-Jul-20 09:30 AM] FishyGuts#5085
+XHV dev responds that they are looking into it. 
+Good time to collaborate for CC-oracles and dPoW for cryptos first decentralized stablecoin?
+
+
+[21-Jul-20 09:31 AM] FishyGuts#5085
+https://twitter.com/2ndOldest/status/1285582198268022784?s=20
+
+{Embed}
+FishyGuts (@2ndOldest)
+https://twitter.com/2ndOldest/status/1285582198268022784?s=20
+@touthilagavathy @cryptodweab @HavenXHV @chainlink It’s not been done to my knowledge.
+The simple thesis: If one protocol is able to be gamed for financial gains, for various reasons, then using 2 or more other sources of Oracle data would be harder to game.
+The burden to inf...
+Twitter
+
+
+[21-Jul-20 09:35 AM] grewalsatinder#9653
+@Audo @moneystacks ^^
+
+
+[21-Jul-20 09:40 AM] FishyGuts#5085
+I could be wrong but in my mind, ,dPoWing the first decentralized crypto is immensely important... if there is ever a problem with that, it sets ALL of crypto back.
+
+
+[21-Jul-20 09:40 AM] FishyGuts#5085
+In addition, it's a great way to get the link marines on the side of the dragon brigade.
+
+
+[21-Jul-20 11:27 PM] Mylo#8306
+Yeah band protocol is the next chainlink. Projects start to use link and band.  There is another new one called witnet as well that is trying to do the DTO thing kmd does.
+
+Band protocol started on cosmos when the SDK was immature, launched on eth, and are now on cosmos since SDK is at V0.8
+
+
+[30-Jul-20 09:35 AM] Laotsuit#0872
+Hi everyone, I need to understand how on my own chain, I can have an oracle update 10 unique token values that are on the chain.. I have read the documentation and I dont see any way to have a token that can have its price updated from an outside source, on any regularly occurring basis.  I have a team of 3 guys that I am paying to help me build this but we all have experience in Ethereum, so far.. none of us have figured out how to make this happen.. Thanks in advance for your insights..
+
+
+[30-Jul-20 11:25 AM] daemonfox#6136
+Someone was talking about this in another channel recently...
+
+
+[30-Jul-20 11:25 AM] daemonfox#6136
+That you take the previous token tx and the new additional data tx and link them daisy chain in the next block
+
+
+[30-Jul-20 11:25 AM] daemonfox#6136
+rinse repeat
+
+
+[30-Jul-20 11:28 AM] daemonfox#6136
+in fact @Laotsuit scroll up here... there is a lot of recent chat about db optimization of oracle txes
+
+
+[30-Jul-20 07:06 PM] Mylo#8306
+https://komodoplatform.com/tt2019-14-oracles-prediction-market-feeds/ different to cc-oracles.
+
+Cc-oracles is like trusted data feed by a publisher. Simply run external process calling oraclesdata to update with latest data.
+
+Workflow is  oraclescreate oraclesfund oraclesregister.
+
+To get updates, another pubkey uses oraclessubscribe and oraclessamples. 
+
+To publish updates oraclesdata
+
+{Embed}
+mylo
+https://komodoplatform.com/tt2019-14-oracles-prediction-market-feeds/
+Tech Tuesday Development Update - 2019 Week 14: Decentralized Trust...
+Komodo Platform is starting a weekly briefing on the progress the Komodo Dev Team is making. It's called Tech Tuesday Update. Here's another update!
+https://images-ext-2.discordapp.net/external/8XMvu7yonJg4inDzBZjwlnSf7vjp0DQ-ruYtMI10sZg/https/komodoplatform.com/wp-content/uploads/2019/08/tech-tuesday-banner-v2.jpg
+
+
+[30-Jul-20 07:07 PM] Mylo#8306
+In cc-oracles you determine the data structure/protocol , oracles is for raw bytes basically.
+
+
+[30-Jul-20 07:08 PM] Mylo#8306
+For price update, simple key:value data
+
+
+[30-Jul-20 11:48 PM] jl777c#5810
+use tokenbid and tokenask with updated prices (from anywhere including oracles) if you want the price changing for trading purposes
+
+
+[07-Sep-20 02:49 PM] bogybogy#3962
+Hy
+
+
+[07-Sep-20 02:49 PM] bogybogy#3962
+I got a question,I find this on Reddit and makes me hard to believe the guys from emurgo can be so well prepared so they find solution for oracles
+
+
+[07-Sep-20 02:50 PM] bogybogy#3962
+Will be k if I will post something here write by them pls
+
+
+[07-Sep-20 02:51 PM] bogybogy#3962 (pinned)
+- Because oracle pool datapoints can be used by anyone on the chain after they are produced, that means everyone on the blockchain has an incentive to submit funds to said oracle pool to keep the datafeed going. Thanks to the UTXO model, this can be very done very easily in a passive manner where dApps require users to create an extra output UTXO in their tx which goes to an oracle pool and contains a very small amount of funds (ex. $0.05 equivalent). These tiny amounts are barely felt by the users, yet they accumulate quickly and provide a steady stream of funds for the oracle pool to ensure it continues to run smoothly. Thus oracle pools provide us with a whole new experience, where users passively fund oracle pools and thereby produce datafeeds that essentially become a public good.
+
+- Because oracle pools have longevity and are easy to fund, the blockchain ecosystem can focus on building key permanent oracle pools with incentives/disincentives in place, together with baked-in governance for parameters + entry into the oracle pool (which aids in ensuring sybil attack resistance by actors involved). Thus we can create trustworthy oracle datafeeds that anyone on the blockchain can use. This is a vastly different vision than what ChainLink is attempting to build, and in my opinion much more exciting. Our approach is more targeted/opinionated, and together with the extended UTXO model, provides a number of benefits that are completely novel.
+
+
+[07-Sep-20 02:51 PM] bogybogy#3962
+Appreciate
+
+{Reactions}
+⭐ (2) 
+
+[07-Sep-20 02:59 PM] bogybogy#3962
+Appreciate
+
+
+[07-Sep-20 09:45 PM] Mylo#8306
+@bogybogy 
+https://komodoplatform.com/tt2019-14-oracles-prediction-market-feeds/
+
+
+[07-Sep-20 09:46 PM] Mylo#8306
+oh i already linked to it earlier.
+yes, so in a multi-chain ecosystem - a similar oracle-pool economy can be built with the tech that has been created.
+
+
+[07-Sep-20 09:46 PM] Mylo#8306
+it would need further work to do what you describe, but the basic building blocks are there
+
+
+[08-Sep-20 08:03 AM] Mylo#8306
+Pinned a message.
+
+
+[08-Sep-20 08:08 AM] Mylo#8306
+https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md
+
+{Embed}
+https://github.com/Emurgo/Emurgo-Research/blob/master/oracles/Oracle-Pools.md
+Emurgo/Emurgo-Research
+Emurgo research made publicly available for the betterment of the open source and blockchain ecosystems. - Emurgo/Emurgo-Research
+https://images-ext-1.discordapp.net/external/Wg0j9L8NNKGNDKW0M1atW7IGSPDmoc7C0Qda8-8lmnY/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/36142236
+
+
+[19-Sep-20 02:20 PM] ph03nix#3115
+https://medium.com/api3/api3-decentralized-apis-for-the-decentralized-web-d711f47190ac
+
+{Embed}
+https://medium.com/api3/api3-decentralized-apis-for-the-decentralized-web-d711f47190ac
+API3 — Decentralized APIs for the Decentralized Web
+To start, I would like to thank all of the API3 partners for their help in realizing API3, as well as our whole team for their effort in…
+https://images-ext-2.discordapp.net/external/5zzyywXmZJK7uXEfprkXVSUk3evha8m0zVfp2-i4Cgg/https/miro.medium.com/max/1200/1%2A72NacgC7GYvrP_vaS9VbRw.png
+
+
+[13-Jan-21 12:28 AM] Mylo#8306
+does anyone have resources on how to use zk/viewing keys?
+
+specifically, i'd like to know how to use zk for data that will be stored in an oraclesCC data feed
+
+cc: #dev-privacy
+
+
+[15-Sep-21 06:37 PM] Mylo#8306
+```
+you can find many call examples in cc-oracles  also you can check https://github.com/KomodoPlatform/komodo/blob/master/qa/pytest_komodo/cc_modules/test_oracles.py this CC test for ref
+https://github.com/tonymorony/komodo-cctools-python/blob/master/lib/tuilib.py#L636 here is some code for file uploader/downloader with oracles usage
+you can trigger this code by this tui https://github.com/tonymorony/komodo-cctools-python/blob/master/oracles_cc_tui.py , not sure tho if it's fully compatible with current oraclesCC since not touched this code for a two years :slight_smile:
+```
+
+
+[15-Sep-21 06:38 PM] Mylo#8306
+from tony in #🎰┃ask-jl777 https://discord.com/channels/412898016371015680/455851625915875338/887728596246999050
+
+
+==============================================================
+Exported 1,110 message(s)
+==============================================================

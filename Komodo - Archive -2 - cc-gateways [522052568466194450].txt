@@ -1,0 +1,3212 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-gateways
+Topic: https://developers.komodoplatform.com
+==============================================================
+
+[24-Dec-18 12:36 AM] TonyL#3577
+@Mihailo I know you're off today so just left it here for future :)
+Finishing GW TUI re-writing so re-tested usual 1 of 1 gateway today on latest FSM and wasn't able to `gatewaysclaim` gatewaysdeposit transaction.
+```./komodo-cli -ac_name=TONY7 gatewaysclaim 0062c761d57475de2c5869863b9cace01841da44c0bca1bcf74ee41ecd4828d8 KMD 8ad3dd7c48bb1003e8a1cefa5ec6d9fbf870750b7ab796e0c0c8a52bde4e624b 02d32977951ab4cceee504f822b5482780f1a54f3876d7fae9ddc638767c6df3fc 0.1
+invalid Gateways deposittxid 8ad3dd7c48bb1003e8a1cefa5ec6d9fbf870750b7ab796e0c0c8a52bde4e624b 0.00000000 != 0.10000000
+{
+  "result": "error",
+  "error": "couldnt gatewaysclaim"
+}
+```
+Here is this `gatewaysdeposit` transaction in details: https://paste.ubuntu.com/p/X8XxHnhXZc/
+And my KMD deposit: https://kmdexplorer.io/tx/caba646ec1750c537c896bc0966b6e0fec4dfc2fd8295c7b469639a106b4d899
+
+Duplicated as issue in your repo also
+
+{Reactions}
+👍 (2) 
+
+[25-Dec-18 03:06 AM] Mihailo#5902
+@TonyL We have major changes on gateways so I think you need to test it after we finish it. BTW, can you always post the daemon output when you get error as there is also some relevant data so we can locate the bug.
+
+{Reactions}
+👌 
+
+[25-Dec-18 04:31 AM] TonyL#3577
+@Mihailo Yes, saw information about these major changes after reported an issue above. Will not test prior to update/re-work
+In general I'm trying to include daemon printouts where I get it (as in case above)
+
+
+[25-Dec-18 04:34 AM] TonyL#3577
+In reported issue with channels daemon output included as well
+
+
+[25-Dec-18 04:41 AM] TonyL#3577
+Please let me know if any other information needed from my side
+
+
+[25-Dec-18 04:42 AM] TonyL#3577
+^^ Wanted to post it in #dev-modules @Mihailo  but missed channels 😃
+
+{Reactions}
+👍 
+
+[28-Jan-19 04:59 AM] Mihailo#5902
+@TonyL I have made a PR of new Gateways. They work with new tokens now, and there is no need to do tokenconvert like before (just remove that step). The withdraws are serialized right now as there is issue with parallel withdraws so only one withdraw will be able to be created at a time (until it is finished).
+
+
+[28-Jan-19 04:59 AM] Mihailo#5902
+https://github.com/jl777/komodo/pull/1221
+
+{Embed}
+https://github.com/jl777/komodo/pull/1221
+Gateways with new TokensCC by Mixa84 · Pull Request #1221 · jl77...
+Adapting Gateways to new Tokens
+Making withdraws serialized until solution for parallel is made
+Fixing FinalizeCCTx to return error if not possible to sign vin
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+
+[28-Jan-19 05:00 AM] Mihailo#5902
+It would be good to make a test to see if something is broken.
+
+
+[28-Jan-19 05:00 AM] Mihailo#5902
+And I will start on validation of Gateways.
+
+
+[28-Jan-19 05:01 AM] Mihailo#5902
+I have used your TUI for Gateways and it works fine, both creation and usage.
+
+{Reactions}
+👍 
+
+[28-Jan-19 05:03 AM] TonyL#3577
+@Mihailo Great! Missed gateways fun a lot 😃
+
+
+[28-Jan-19 05:03 AM] Mihailo#5902
+Hahahah, it will be fun. I promise 🤘
+
+{Reactions}
+👍 😀 
+
+[31-Jan-19 09:49 AM] Mihailo#5902
+@TonyL @jl777c  I have submitted Gateways with validation turned on. https://github.com/jl777/komodo/pull/1226
+It would be good to do a run of each 1of1 and multisig so we can see if there are some major bugs...
+
+{Embed}
+https://github.com/jl777/komodo/pull/1226
+Gateways validation (#16) by Mixa84 · Pull Request #1226 · jl777...
+Validation implemented and enabled
+Fixed partial sign spending marker
+OracleFeed fixes
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+
+[31-Jan-19 09:49 AM] Mihailo#5902
+I have done testing of multisig 2of3 and 3of3. And it seems to be working 😉
+
+
+[31-Jan-19 09:51 AM] Mihailo#5902
+NOTE: Do not forget to complie with -DTESTMODE (both Komodo and OracleFeed) as bind,deposit and withdraw need to be notarized/confrimed so that you don't need to wait 100 confs 😉
+
+
+[31-Jan-19 09:51 AM] Mihailo#5902
+@TonyL You can remove tokenconvert from TUI for now as we don't need it now...
+
+
+[31-Jan-19 09:54 AM] Mihailo#5902
+NOTE2: Also do not forget to first import private keys from asset chain to KMD chain for oraclefeed nodes!
+
+
+[31-Jan-19 10:02 AM] TonyL#3577
+Great, will go ahead with gateways testing tomorrow and will deprecate tokencovert from TUI as well, thanks @Mihailo !
+
+
+[31-Jan-19 10:03 AM] Mihailo#5902
+Np
+
+
+[31-Jan-19 10:03 AM] Mihailo#5902
+If you need any assistance ping me freely, as I also forgot few things when not working with gateways for some period 😉
+
+{Reactions}
+👌 
+
+[01-Feb-19 01:38 AM] TonyL#3577
+Deprecated `tokenconvert` from TUI
+Testing 1of1 first: deposit worked fine
+```./komodo-cli -ac_name=GWISBACK tokenbalance 165f6fe4fd0426a94f1b120732160e8f2b17a09e1dfae7d4ebd62e048b50894a
+{
+  "result": "success",
+  "CCaddress": "RCAQcrb5VpjAG9DAyr94ynVgzkYhczWNLS",
+  "tokenid": "165f6fe4fd0426a94f1b120732160e8f2b17a09e1dfae7d4ebd62e048b50894a",
+  "balance": 10000000
+}
+```
+
+
+[01-Feb-19 01:42 AM] TonyL#3577
+[7] Execute gateways withdrawal
+```>> 7
+Input your gateway bind txid: 6c5b50c5de51030cd5aec3ee7cd1d50a2a609f9287c1e09ea2fd4b2737c1ddb8
+Input your external coin ticker (e.g. KMD): KMD
+Input pubkey to which you want to withdraw: 02554fb8a367cdb896ab6566c9f2aac62de70e5d643d2b6c19f01d65712da589db
+Input amount of withdrawal: 0.1
+.TokensExactAmounts() vin i=1 tokenoshis=100000000
+.TokensExactAmounts() vout i=0 tokenoshis=10000000
+.TokensExactAmounts() vout i=1 tokenoshis=90000000
+AddTokenInputs() adding input nValue=10000000
+TokensValidate (t) evalcode=0xf2
+..TokensExactAmounts() vin i=1 tokenoshis=100000000
+..TokensExactAmounts() vout i=0 tokenoshis=10000000
+..TokensExactAmounts() vout i=1 tokenoshis=90000000
+TokensExactAmounts() vin i=1 tokenoshis=10000000
+TokensExactAmounts() vout i=1 tokenoshis=10000000
+token transfer preliminarily validated 0.10000000 -> 0.10000000 (-1 -1)
+e40a56ac854c7ceb829e22ca25b76f6686770b559255de92381affc2fc0f5e3e
+Press [Enter] to continue...TokensValidate (t) evalcode=0xf2
+..TokensExactAmounts() vin i=1 tokenoshis=100000000
+..TokensExactAmounts() vout i=0 tokenoshis=10000000
+..TokensExactAmounts() vout i=1 tokenoshis=90000000
+TokensExactAmounts() vin i=1 tokenoshis=10000000
+TokensExactAmounts() vout i=1 tokenoshis=10000000
+token transfer preliminarily validated 0.10000000 -> 0.10000000 (-1 -1)
+CC Eval EVAL_GATEWAYS Invalid: invalid gatewayscompletesigning OP_RETURN data! spending tx e40a56ac854c7ceb829e22ca25b76f6686770b559255de92381affc2fc0f5e3e
+```
+
+
+[01-Feb-19 01:44 AM] TonyL#3577
+Don't have tokens anymore:
+```./komodo-cli -ac_name=GWISBACK tokenbalance 165f6fe4fd0426a94f1b120732160e8f2b17a09e1dfae7d4ebd62e048b50894a
+{
+  "result": "success",
+  "CCaddress": "RCAQcrb5VpjAG9DAyr94ynVgzkYhczWNLS",
+  "tokenid": "165f6fe4fd0426a94f1b120732160e8f2b17a09e1dfae7d4ebd62e048b50894a",
+  "balance": 0
+}
+```
+
+
+[01-Feb-19 01:45 AM] TonyL#3577
+And KMD don't have as well 😃
+
+
+[01-Feb-19 01:46 AM] Mihailo#5902
+@TonyL This happened when broadcasting withdraw or ?
+
+
+[01-Feb-19 01:47 AM] TonyL#3577
+@Mihailo `gatewayswithdraw` broadcasting yep
+
+
+[01-Feb-19 01:47 AM] Mihailo#5902
+Hmmmm, very strange
+
+
+[01-Feb-19 01:48 AM] TonyL#3577
+```CC Eval EVAL_GATEWAYS Invalid: invalid gatewayscompletesigning OP_RETURN data! spending tx e40a56ac854c7ceb829e22ca25b76f6686770b559255de92381affc2fc0f5e3e```
+Do you need `getrawtransaction 1` of e40a56ac854c7ceb829e22ca25b76f6686770b559255de92381affc2fc0f5e3e ?
+
+
+[01-Feb-19 01:49 AM] Mihailo#5902
+Not sure what would I see. As withdraw tx does not trigger validation, and this print is only when validating completesinging tx or markdone tx. So not sure how this happened
+
+
+[01-Feb-19 01:51 AM] Mihailo#5902
+Can you do decodeccopret with hex of that tx?
+
+
+[01-Feb-19 01:53 AM] TonyL#3577
+```./komodo-cli -ac_name=GWISBACK getrawtransaction e40a56ac854c7ceb829e22ca25b76f6686770b559255de92381affc2fc0f5e3e
+0400008085202f89020de79185cc3b8218a5b049982f8a25309337019122684080ea0be4a2ba4410590000000049483045022100bbf4dcf57ce365a45920d23c3bb05442df6b0a144cd6e6ec136da801ee8932f30220333015506da6fda3a123411a1e683392bba42af70d5d9284490cab92b8f4953001ffffffff4bdcf34a32a6d2c2482a6ac73e4abc3d3f874db844436e6a013e022e7fd4a8bb000000007b4c79a276a072a26ba067a565802103ec341bcf976d99c6c98636dc875c4c02e029b3e3fe5f5c4b93e413e5a18dd0cd81403742f1a6a4488ed4ad70bfda7023f885101eb84cc9d32f909aa497bf9c9fd74837e39c0d41e2a044da54cb1ba4d2002656972b7de9a5378f45e6dc3601f82caea100af038001f2a10001ffffffff041027000000000000302ea22c802091abda62a548f9c7f5beb19d16f01714ae3d4e526f3266fc8d347d6123f3d77b8103120c008203000401cc8096980000000000302ea22c8020bed294e15cd2e327d2f1e6bcf55e2ebe571b7bc2e672363950ca680c8b89226381032210008203000401cce051724e18090000232103ec341bcf976d99c6c98636dc875c4c02e029b3e3fe5f5c4b93e413e5a18dd0cdac0000000000000000996a4c96f274165f6fe4fd0426a94f1b120732160e8f2b17a09e1dfae7d4ebd62e048b50894a012103ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb4050f157b8ddc137274bfda29ee0c187929f602a0ad5d17ceec3aed50c0351dec5505b6c034b4d442102554fb8a367cdb896ab6566c9f2aac62de70e5d643d2b6c19f01d65712da589db809698000000000000000000960000000000000000000000000000```
+
+
+[01-Feb-19 01:53 AM] TonyL#3577
+``` ./komodo-cli -ac_name=GWISBACK decodeccopret 0400008085202f89020de79185cc3b8218a5b049982f8a25309337019122684080ea0be4a2ba4410590000000049483045022100bbf4dcf57ce365a45920d23c3bb05442df6b0a144cd6e6ec136da801ee8932f30220333015506da6fda3a123411a1e683392bba42af70d5d9284490cab92b8f4953001ffffffff4bdcf34a32a6d2c2482a6ac73e4abc3d3f874db844436e6a013e022e7fd4a8bb000000007b4c79a276a072a26ba067a565802103ec341bcf976d99c6c98636dc875c4c02e029b3e3fe5f5c4b93e413e5a18dd0cd81403742f1a6a4488ed4ad70bfda7023f885101eb84cc9d32f909aa497bf9c9fd74837e39c0d41e2a044da54cb1ba4d2002656972b7de9a5378f45e6dc3601f82caea100af038001f2a10001ffffffff041027000000000000302ea22c802091abda62a548f9c7f5beb19d16f01714ae3d4e526f3266fc8d347d6123f3d77b8103120c008203000401cc8096980000000000302ea22c8020bed294e15cd2e327d2f1e6bcf55e2ebe571b7bc2e672363950ca680c8b89226381032210008203000401cce051724e18090000232103ec341bcf976d99c6c98636dc875c4c02e029b3e3fe5f5c4b93e413e5a18dd0cdac0000000000000000996a4c96f274165f6fe4fd0426a94f1b120732160e8f2b17a09e1dfae7d4ebd62e048b50894a012103ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb4050f157b8ddc137274bfda29ee0c187929f602a0ad5d17ceec3aed50c0351dec5505b6c034b4d442102554fb8a367cdb896ab6566c9f2aac62de70e5d643d2b6c19f01d65712da589db809698000000000000000000960000000000000000000000000000
+error code: -5
+error message:
+No information available about transaction```
+
+
+[01-Feb-19 01:54 AM] TonyL#3577
+oh sorry
+
+
+[01-Feb-19 01:54 AM] TonyL#3577
+```./komodo-cli -ac_name=GWISBACK decodeccopret e40a56ac854c7ceb829e22ca25b76f6686770b559255de92381affc2fc0f5e3e
+{
+  "result": "success",
+  "eval_code": "EVAL_TOKENS",
+  "function": "t"
+}
+```
+
+
+[01-Feb-19 01:54 AM] Mihailo#5902
+Ah, did not made support for dual opret...
+
+
+[01-Feb-19 01:55 AM] TonyL#3577
+Yay, found bug 😃
+
+
+[01-Feb-19 01:56 AM] Mihailo#5902
+Hmmm, I'm still shocked how this validation happened.
+
+
+[01-Feb-19 01:58 AM] TonyL#3577
+https://paste.ubuntu.com/p/D5PnkWn4Mm/
+
+
+[01-Feb-19 01:58 AM] TonyL#3577
+I've saved some prints to notepad during the process - maybe it can help
+
+
+[01-Feb-19 01:59 AM] TonyL#3577
+bind, gatewaysdeposit and gatewayswithdraw
+
+
+[01-Feb-19 02:00 AM] TonyL#3577
+Deposit: https://kmdexplorer.io/tx/34a53cb0ad8a162ac275d1372190cdc6b409a747d8546baa58b78029b61fb68d
+
+
+[01-Feb-19 02:01 AM] Mihailo#5902
+Ah, this print may be confusing me. It seems withdraw started and it failed on completesigning. Do you have the output of oraclefeed?
+
+
+[01-Feb-19 02:02 AM] TonyL#3577
+```KMD ht.1209475 <- 83741200136ece8d3e15aecd0bb4d78bb847a78907acd827bdd1726e106daf3c020000000960c60911255b3ff91c2539cff24a2864aca5b70b55c10de317e825729e4244
+broadcast GWISBACK txid.(f238806e4bbdaf2408e22e4da90271a4bdd8ea9ab403a2b054c7cd8170b1bdf9)
+#WITHDRAW (e40a56ac854c7ceb829e22ca25b76f6686770b559255de92381affc2fc0f5e3e) complete signing tx sent - f238806e4bbdaf2408e22e4da90271a4bdd8ea9ab403a2b054c7cd8170b1bdf9
+broadcast GWISBACK txid.(aa00a516b707b7a33b9415247c2807c496f0db943028fc92b303a75e736da32c)
+KMD ht.1209476 <- 84741200ed1ac28545f6259061e80f2b0742c60336e2c0d1d1ae16b0509a13956d032c003e9e99b5e09ffd74c02734dec2bc4b861867393806900327fe3e8455a1ab2ef1
+broadcast GWISBACK txid.(9e10c30254cff30e72aca87c570fa0fd4445253fb9e4eecb29addc8acbc30a40)
+KMD ht.1209477 <- 85741200a38c5d5198b18a953186edc66c790b5a8fbb466f326b7d4494965e2b0ac9fd08cb21487957e2b0a2ec99eed18efc97fda3a12e7f52d8c345e84bcd249703733c
+```
+
+
+[01-Feb-19 02:02 AM] Mihailo#5902
+Yep, withdraw started and it failed on complete signing
+
+
+[01-Feb-19 02:02 AM] Mihailo#5902
+Ok, let me check
+
+{Reactions}
+👌 
+
+[01-Feb-19 02:10 AM] Mihailo#5902
+@TonyL Sorry, can you do one more thing, do decodeccopret f238806e4bbdaf2408e22e4da90271a4bdd8ea9ab403a2b054c7cd8170b1bdf9
+
+
+[01-Feb-19 02:11 AM] TonyL#3577
+```./komodo-cli -ac_name=GWISBACK decodeccopret f238806e4bbdaf2408e22e4da90271a4bdd8ea9ab403a2b054c7cd8170b1bdf9
+error code: -5
+error message:
+No information available about transaction
+```
+
+
+[01-Feb-19 02:11 AM] Mihailo#5902
+ah, yes it failed validation
+
+
+[01-Feb-19 02:12 AM] Mihailo#5902
+Ok, will change this RPC to accept hex
+
+
+[01-Feb-19 02:19 AM] Mihailo#5902
+@TonyL I have done successful signing on 1of1 gateway. Can you check do you have the latest code on that node? Have you compiled komodod and also oraclefeed.
+
+
+[01-Feb-19 02:23 AM] TonyL#3577
+Yes, one of the nodes was not actual, re-testing
+
+
+[01-Feb-19 02:24 AM] Mihailo#5902
+👍
+
+
+[01-Feb-19 02:24 AM] Mihailo#5902
+Happens to me too 😉
+
+
+[01-Feb-19 02:26 AM] TonyL#3577
+Forgot that gateways needs concentration like in movies where hero deactivating bomb on the last seconds, sorry 🙂
+
+
+[01-Feb-19 02:26 AM] Mihailo#5902
+😃
+
+
+[01-Feb-19 02:40 AM] jl777c#5810
+the red wire!
+
+
+[01-Feb-19 02:40 AM] jl777c#5810
+no, the blue
+
+{Reactions}
+😄 
+
+[01-Feb-19 02:40 AM] TonyL#3577
+💥
+
+
+[01-Feb-19 02:51 AM] TonyL#3577
+@Mihailo Is it expected that second gateway which I created from the same node have the same `deposit` address as the first one - forgot this moment?
+
+
+[01-Feb-19 02:52 AM] TonyL#3577
+```./komodo-cli -ac_name=GWISBACK gatewaysinfo fe544be19938b80181e2b2db56d59f10c26f0f8f26cd254d02caa23dd469752d | grep deposit
+  "deposit": "RESKRSpp4UdeKoD5WF747Tp8cuuWL8bNJ7",```
+``` ./komodo-cli -ac_name=GWISBACK gatewaysinfo 6c5b50c5de51030cd5aec3ee7cd1d50a2a609f9287c1e09ea2fd4b2737c1ddb8 | grep deposit
+  "deposit": "RESKRSpp4UdeKoD5WF747Tp8cuuWL8bNJ7",```
+
+
+[01-Feb-19 02:53 AM] Mihailo#5902
+If the same pubkey is used then yes.
+
+
+[01-Feb-19 02:54 AM] Mihailo#5902
+The deposit address is formed from gateway pubkeys. If you supply same pubkey(s) than it will be the same address
+
+{Reactions}
+👌 
+
+[01-Feb-19 03:16 AM] TonyL#3577
+Ensured that all daemons are proper and now for a new gateway got error on gateways claim:
+```Input your gateway bind txid: fe544be19938b80181e2b2db56d59f10c26f0f8f26cd254d02caa23dd469752d
+Input your external coin ticker (e.g. KMD): KMD
+Input your gatewaysdeposit txid: 2016915ac07d259fc10038b12713a35b3943e91921993fb70359e38c330463f7
+Input pubkey which claim deposit: 0325de0a53c48254bc00942493d91ff50a55479f553d0d76ba16bba690c882245e
+Input amount of your deposit: 0.1
+'hex'
+{'result': 'error', 'error': 'couldnt gatewaysclaim'}```
+```{'result': 'error', 'error': 'couldnt gatewaysclaim'}```
+```invalid Gateways deposittxid 2016915ac07d259fc10038b12713a35b3943e91921993fb70359e38c330463f7 0.00000000 != 0.10000000```
+I think it's better to start new chain
+
+
+[01-Feb-19 03:17 AM] Mihailo#5902
+You do not need new chain, you can just start with new gateway/oracle/token. Or even new deposit and claim if you did not deposit all tokens amount
+
+
+[01-Feb-19 03:17 AM] TonyL#3577
+I've made a new gateway and new deposit but can't claim at the moment
+
+
+[01-Feb-19 03:18 AM] Mihailo#5902
+is your deposit txi id correct?
+
+
+[01-Feb-19 03:19 AM] TonyL#3577
+Yes
+
+
+[01-Feb-19 03:19 AM] Mihailo#5902
+Wait
+
+
+[01-Feb-19 03:19 AM] Mihailo#5902
+The problem is in claim I think.
+
+
+[01-Feb-19 03:19 AM] Mihailo#5902
+You can only make a claim from node which pubkey is the claiming pubkey
+
+
+[01-Feb-19 03:20 AM] Mihailo#5902
+So that's why it returned 0.00000000 != 0.10000000
+
+
+[01-Feb-19 03:20 AM] Mihailo#5902
+As I said, it is easy to forget some things when not using gateways for some time 😉
+
+
+[01-Feb-19 03:23 AM] TonyL#3577
+So when I send KMD deposit transaction I need to use address generated from `-pubkey=` pubkey?
+
+
+[01-Feb-19 03:23 AM] Mihailo#5902
+Yep
+
+
+[01-Feb-19 03:24 AM] TonyL#3577
+Because now I understand how I get the problem - I've used this time address from `getnewaddress` to send KMD deposit
+
+
+[01-Feb-19 03:24 AM] Mihailo#5902
+You can just set the node pubkey  for that address
+
+
+[01-Feb-19 03:24 AM] Mihailo#5902
+And then do the claim
+
+
+[01-Feb-19 03:24 AM] Mihailo#5902
+Don't need to do another deposit 😉
+
+
+[01-Feb-19 03:24 AM] TonyL#3577
+Can restart daemon aha aha hmm
+
+
+[01-Feb-19 03:25 AM] Mihailo#5902
+Yep 😉
+
+
+[01-Feb-19 03:25 AM] TonyL#3577
+So gateway user have to note address from which he extracted `-pubkey=`
+
+
+[01-Feb-19 03:26 AM] Mihailo#5902
+Users doing claim or withdraw have to do it from node which have their pubkey set.
+
+
+[01-Feb-19 03:27 AM] Mihailo#5902
+Or at least the tokens have to go to/from those addresses, does not have to be users address. It can be some dApp which will transfer tokens then to/from users address.
+
+
+[01-Feb-19 03:28 AM] TonyL#3577
+```Succesfully claimed! Claim transaction id: 543cb20b02d31754d1f6f59495828cd135da49c4becf2c422ab6727cefdc3126``` yay. Thank you for help! @Mihailo
+
+{Reactions}
+👍🏿 
+
+[01-Feb-19 03:29 AM] TonyL#3577
+```./komodo-cli -ac_name=GWISBACK tokenbalance caab603532d5ac2252689146e1f3224e5b2a4c6fba97e268dc6b46d8ef6f2014
+.TokensExactAmounts() vin i=1 tokenoshis=100000000
+.TokensExactAmounts() vout i=0 tokenoshis=10000000
+.TokensExactAmounts() vout i=1 tokenoshis=90000000
+AddTokenInputs() adding input nValue=10000000
+{
+  "result": "success",
+  "CCaddress": "RQFzHymAiGizxRnHadZFibpMU8hKatmRUi",
+  "tokenid": "caab603532d5ac2252689146e1f3224e5b2a4c6fba97e268dc6b46d8ef6f2014",
+  "balance": 10000000
+}
+```
+Tokens on balance - let's try to withdraw again 😃
+
+
+[01-Feb-19 03:29 AM] Mihailo#5902
+The blue wire, remember 😉
+
+
+[01-Feb-19 03:31 AM] TonyL#3577
+```#WITHDRAW (22a71aaa7b5fe359184b7e006f8413219ca072067c5103ce08f027eb71c80559) complete signing tx sent - f560c3834ac2afb6cf68250c5654359ca8b52a7ea6316bbeb9108d7aca31859a
+broadcast GWISBACK txid.(18c2e21d53d49b759b55651cdeac84c68ecec00473f734dc07c2d0296688bc0c)```
+
+
+[01-Feb-19 03:32 AM] Mihailo#5902
+Ok, and now KMD broadcast!
+
+
+[01-Feb-19 03:33 AM] TonyL#3577
+https://kmdexplorer.io/tx/f769fdd62e5fc58d25a990b414d2f9e0b0ae0b61ce22489180ac56f3076a89c2
+
+
+[01-Feb-19 03:33 AM] TonyL#3577
+Yahoo
+
+{Reactions}
+Komodo 
+
+[01-Feb-19 03:40 AM] TonyL#3577
+Great, will continue with 2of3 and 3of3 tonight
+
+
+[01-Feb-19 03:42 AM] TonyL#3577
+After these manual tests have to try automate/semi-automate it anyway or it'll be not possible to test non-standart/non-correct situations in case of update (will take too much time)
+
+
+[01-Feb-19 03:43 AM] Mihailo#5902
+Just remember to import privkeys for every feed node on KMD daemon on that node.
+
+
+[01-Feb-19 03:44 AM] Mihailo#5902
+Yes I think it can be automated....
+
+
+[01-Feb-19 03:44 AM] TonyL#3577
+Yep already did it - oh on one node I've changed `pubkey=` so need to dump and import privkey for new address. Gimmick!
+
+
+[01-Feb-19 04:19 AM] Mihailo#5902
+But you have not changed the pubkey in gateways? Basically you feed nodes have to have pubkeys that are set in gateways, and for those pubkeys you need to import private keys on KMD.
+
+
+[01-Feb-19 04:20 AM] Mihailo#5902
+For testing I always use another node on which I claim tokens and leave feed nodes to just do oraclefeed! This way there is no confusion and errors. Withdraw is done to KMD pubkey so it does not matter where, it can be any pubkey.
+
+
+[01-Feb-19 04:22 AM] Mihailo#5902
+Try to keep the nodes which have pubkey set in gateway clean!
+
+
+[01-Feb-19 04:59 AM] Mihailo#5902
+@TonyL I have modified decodeccopret to accept scriptPubKey hex and to support dual oprets with token. If you ever need to see what is the funcid and eval code of some tx opret.
+
+{Reactions}
+🙌 
+
+[01-Feb-19 11:33 AM] TonyL#3577
+@Mihailo For 2 of 3 deposit worked smooth, withdrawal  as well: ```#WITHDRAW (8b666f069fac22dd54a21db3f336d2b86da6815e7487a072f938b24167295865) complete signing tx (2of3) sent - f7c5f9c05665d7e679a1c920b438831948b8306f4010f1f37e5e7783f7756351
+broadcast GWISBACK txid.(2325ab8bbee02e062b3d6e53ae0fd2130fa3d7ec9ed668dd0137c8c15965dbb6)
+```
+https://kmdexplorer.io/address/bHsrFraaJZtRTruEztx9i87x4C82hnnw6x
+
+
+[01-Feb-19 11:35 AM] TonyL#3577
+From which factors it depends which nodes oraclefeed sign transaction first?
+From one of the nodes I get sign immediately:
+```KMD ht.1210056 <- c8761200b8917184e08a898d0125f71322f85ab2b887923b27b9a39ca1fa53e864cffb0aa7e36337c912a0f1e981585d639d38dd1990d687f8b09710dd05393fa7b99666
+broadcast GWISBACK txid.(2fad40690a899cc8318023e70ee28c7cdc6c6e1fcc058e6b1daec3d01b1738ad)
+#WITHDRAW (8b666f069fac22dd54a21db3f336d2b86da6815e7487a072f938b24167295865) partial tx (1/2of3) sent - 2fad40690a899cc8318023e70ee28c7cdc6c6e1fcc058e6b1daec3d01b1738ad
+broadcast GWISBACK txid.(cf9fc8a0d49cf1055644f09b23a400f1e7ba3dcdbb92aab26dc5325ff69447e4)
+KMD ht.1210057 <- c976120079dbdef86ddd0b6824b70d688626c7196b973da2ac495e47c5e6397e469c230e5b4566b7bdfb24e2a6e641399cbaae30eddca32d6efad47b783780525a1d33b9```
+On second from other two in 2 blocks:
+```KMD ht.1210059 <- cb76120025f52807b0ccbf1145b8c4dd43904f97962702b6bd9a2b6936ea6dca020000002075fb7888776e13aec83c3edee466a5920b1f62dff7a90d8eee76babf766ca2
+broadcast GWISBACK txid.(f7c5f9c05665d7e679a1c920b438831948b8306f4010f1f37e5e7783f7756351)
+#WITHDRAW (8b666f069fac22dd54a21db3f336d2b86da6815e7487a072f938b24167295865) complete signing tx (2of3) sent - f7c5f9c05665d7e679a1c920b438831948b8306f4010f1f37e5e7783f7756351
+broadcast GWISBACK txid.(2325ab8bbee02e062b3d6e53ae0fd2130fa3d7ec9ed668dd0137c8c15965dbb6)```
+
+
+[01-Feb-19 11:42 AM] Mihailo#5902
+No factors, random. And signing happens only when there is a KMD block to feed and there are enough utxos to publish. When not then it is waiting for new block.
+
+
+[01-Feb-19 11:43 AM] Mihailo#5902
+I have a very strange bug in oraclefeed, it crashes with sigabrt.
+
+
+[01-Feb-19 11:52 AM] TonyL#3577
+Hmm on my side it works smooth on 3 nodes for almost 200 blocks
+
+
+[01-Feb-19 11:59 AM] Mihailo#5902
+I think it has to do with tx created on KMD. It has two vins.
+
+
+[02-Feb-19 07:12 AM] TonyL#3577
+Hmm testing 3of3. ```#WITHDRAW (a7c45ae33bf477c92408c9fd55779a7afd2148ee12b2f9e50ba0b3e9637d4cbc) partial tx (3/3of3) sent - 87bd3a7bb07dbc4247e049252774070921897bf8c3c4f99158f498ad4aa36fe4```
+Have all 3 signatures ~15 minutes ago but not have withdrawal itself yet
+
+
+[02-Feb-19 07:12 AM] TonyL#3577
+```./komodo-cli -ac_name=GWISBACK gatewayspendingwithdraws 9bb292530244876f3100810561df866b416a5dd498cd86e54293bebc4000710a KMD
+{
+  "coin": "KMD",
+  "pending": [
+    {
+      "withdrawtxid": "a7c45ae33bf477c92408c9fd55779a7afd2148ee12b2f9e50ba0b3e9637d4cbc",
+      "withdrawtxidaddr": "RGP9VbM1QEtwuca3XUzYSC2jTu8MYJqKwd",
+      "withdrawaddr": "RELwMZDihD9n22dissX21ZrEERN9VV4qWd",
+      "amount": "0.10000000",
+      "confirmed_or_notarized": true,
+      "number_of_signs": 3,
+      "last_txid": "87bd3a7bb07dbc4247e049252774070921897bf8c3c4f99158f498ad4aa36fe4",
+      "hex": "0400008085202f8901ed3770226a72f879ac28da3f5a5f963f17f05ecc0e274b7f9bbdc510e1fdd7b901000000fdfd000047304402207cf2a34f2621500c177d3c331445be82c98337acc30c28e85a59b08b3d32ed9f02202f298cf64411a3e6665d979f06330c41942b2e0d48fc1a3fa2d7e56d3845f0af0147304402204274f7c68ee800bd6b06e60e2ceee8ae4b13dd26198521557e548de8d3382185022017365b42c577d4da3bc386d96c789179d20b18e3249f239cee57be2bb01c9f9201004c69532103ec341bcf976d99c6c98636dc875c4c02e029b3e3fe5f5c4b93e413e5a18dd0cd21030651dd3b286571c3830fedd7dfa6de9a2e2bd8c2a1bf8c6f165a801ebeb3c1bd2103b895f1875391502bc96350a764bde0ab08d4e2895fa30ba4cc2e252cbe7ec5ad53aeffffffff0260489800000000001976a914378e0093b996c0a650d3046833a81f766ef1fa3488ac10270000000000001976a9144de937f017d2d10ae7050d54fc4eba28c9cb003d88ac00000000867b12000000000000000000000000"
+    }
+  ],
+  "queueflag": 0
+}
+```
+
+
+[02-Feb-19 07:13 AM] TonyL#3577
+```"withdrawaddr": "RELwMZDihD9n22dissX21ZrEERN9VV4qWd```
+But I've wanted to withdraw to other address and used other pubkey
+
+
+[02-Feb-19 07:13 AM] TonyL#3577
+```./komodo-cli getaccountaddress ""
+RQHf9AGeQUHHVmVg1ira4eCM5StgDvxaJJ```
+```./komodo-cli validateaddress RQHf9AGeQUHHVmVg1ira4eCM5StgDvxaJJ
+{
+  "isvalid": true,
+  "address": "RQHf9AGeQUHHVmVg1ira4eCM5StgDvxaJJ",
+  "scriptPubKey": "76a914a4a07a48f5a5898ad9cee26148b20d4c09624aec88ac",
+  "segid": 47,
+  "ismine": true,
+  "iswatchonly": false,
+  "isscript": false,
+  "pubkey": "024000b1d670c908506bcde994e5fa36db1f19c88b2f5b8ac6261bf2881b4a2e49",
+  "iscompressed": true,
+  "account": ""
+}
+```
+
+
+[02-Feb-19 07:13 AM] TonyL#3577
+Used this `024000b1d670c908506bcde994e5fa36db1f19c88b2f5b8ac6261bf2881b4a2e49` one as pubkey to which I want to withdrawal
+
+
+[02-Feb-19 07:19 AM] TonyL#3577
+@Mihailo Ahh and `oraclefeed` crashed on all three nodes on some point
+```
+corrupted size vs. prev_size
+double free or corruption (out)
+Aborted (core dumped)```
+
+
+[02-Feb-19 07:20 AM] TonyL#3577
+Since it's happened for me only on 3of3 - maybe it's specific for this case. Will try it again but this time run `oraclefeed` with gdb to get a trace in case of crash
+
+
+[02-Feb-19 07:20 AM] Mihailo#5902
+Yep that is the bug I have also
+
+
+[02-Feb-19 07:21 AM] TonyL#3577
+Do you have it for 3of3 case only or for other cases as well?
+
+
+[02-Feb-19 07:21 AM] TonyL#3577
+If you remember for sure
+
+
+[02-Feb-19 08:07 AM] Mihailo#5902
+I also saw it in 3of3 but don't know if it happens somewhere else ...
+
+{Reactions}
+👌 
+
+[02-Feb-19 08:25 AM] TonyL#3577
+Crashed daemon somehow by `gatewaysbind`, trying to reproduce
+
+
+[02-Feb-19 08:29 AM] TonyL#3577
+For sure second time when I started with gdb it not crashed with same input :troll_compadre:
+
+
+[02-Feb-19 08:32 AM] Deleted User#0000
+reminds me of teh crash with thousands of imp[ort txs in a block... days to fix 😅
+
+{Reactions}
+5684_Peepo_Goteem 
+
+[02-Feb-19 08:48 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052568466194450/541298760031010849/unknown.png
+
+
+[02-Feb-19 09:02 AM] TonyL#3577
+Confirmations/notarisations RPC validation is missing for gatewaysclaim:
+Gateways claim generates hex
+```
+{'result': 'success', 'hex': 'hex'}```
+But until two confirmations there is error on broadcasting:
+```sendrawtransaction: 16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element) (code -26)```
+After two confirmations (since it's a test mode) transaction broadcasting fine.
+
+Not a big issue for sure - just noted
+
+
+[02-Feb-19 09:13 AM] TonyL#3577
+```
+[7] Execute gateways withdrawal
+Input your gateway bind txid: 55544ec0c943b6929190ab4a1bdb2f3a289ac013b4bbc1c6f174c8ce0b791e72
+Input your external coin ticker (e.g. KMD): KMD
+Input pubkey to which you want to withdraw: 024000b1d670c908506bcde994e5fa36db1f19c88b2f5b8ac6261bf2881b4a2e49
+Input amount of withdrawal: 0.05
+.TokensExactAmounts() vin i=1 tokenoshis=100000000
+.TokensExactAmounts() vout i=0 tokenoshis=5000000
+.TokensExactAmounts() vout i=1 tokenoshis=95000000
+AddTokenInputs() adding input nValue=5000000
+TokensValidate (t) evalcode=0xf2
+..TokensExactAmounts() vin i=1 tokenoshis=100000000
+..TokensExactAmounts() vout i=0 tokenoshis=5000000
+..TokensExactAmounts() vout i=1 tokenoshis=95000000
+TokensExactAmounts() vin i=1 tokenoshis=5000000
+TokensExactAmounts() vout i=1 tokenoshis=10000000
+TokenExactAmounts() found unequal token cc inputs=5000000 vs cc outputs=10000000 for txid=f608b2b40c8f1740dd121134ab7b2345015179d2ddcd34db5bd072e7bb14847b and this is not the create tx
+CC Eval EVAL_TOKENS Invalid: tokens cc inputs != cc outputs spending tx 8a74ee46af8ad49e1f62b55fe696938f928424c2b0f43ed8429611722a8a9970
+sendrawtransaction: 16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element) (code -26)```
+
+
+[02-Feb-19 09:14 AM] TonyL#3577
+This time I've deposited 0.05 KMD (in all other tests I used 0.1 KMD) and trying to withdraw:
+I have tokens ```./komodo-cli -ac_name=GWISBACK tokenbalance 49be33e04bc33a542d656b95cfde567c019c94fef5ae1c6952b706d9d0b1a991
+{
+  "result": "success",
+  "CCaddress": "RJBgB8KkmCS6fjnZCnsqKQyMWSMkAtpiTa",
+  "tokenid": "49be33e04bc33a542d656b95cfde567c019c94fef5ae1c6952b706d9d0b1a991",
+  "balance": 5000000
+}```
+Token, oracle and gateway are brand new and this deposit was a first transaction for this gateway
+
+
+[02-Feb-19 09:17 AM] TonyL#3577
+```./komodo-cli -ac_name=GWISBACK gatewaysinfo 55544ec0c943b6929190ab4a1bdb2f3a289ac013b4bbc1c6f174c8ce0b791e72
+{
+  "result": "success",
+  "name": "Gateways",
+  "M": 3,
+  "N": 3,
+  "pubkeys": [
+    "030651dd3b286571c3830fedd7dfa6de9a2e2bd8c2a1bf8c6f165a801ebeb3c1bd",
+    "03ec341bcf976d99c6c98636dc875c4c02e029b3e3fe5f5c4b93e413e5a18dd0cd",
+    "03b895f1875391502bc96350a764bde0ab08d4e2895fa30ba4cc2e252cbe7ec5ad"
+  ],
+  "coin": "KMD",
+  "oracletxid": "07e5706a231521362dd401e7e00775df4d4cc9c982cda7ad2759ef77532f96de",
+  "taddr": 0,
+  "prefix": 60,
+  "prefix2": 85,
+  "deposit": "bNztvdYD2S4ajtHf4VLdCzwV4WSeF19hGN",
+  "tokenid": "49be33e04bc33a542d656b95cfde567c019c94fef5ae1c6952b706d9d0b1a991",
+  "totalsupply": "1.00000000",
+  "remaining": "0.95000000",
+  "issued": "0.05000000"
+}
+```
+
+
+[02-Feb-19 09:20 AM] TonyL#3577
+Same call in cli not TUI (to get hex):
+```./komodo-cli -ac_name=GWISBACK gatewayswithdraw 55544ec0c943b6929190ab4a1bdb2f3a289ac013b4bbc1c6f174c8ce0b791e72 KMD 024000b1d670c908506bcde994e5fa36db1f19c88b2f5b8ac6261bf2881b4a2e49 0.05
+{
+  "result": "success",
+  "hex": "0400008085202f8902014ada9242f1af1e16310d0fc0bacb403628fd0ce8b9042b6048ebeac8dacf46000000004847304402205e4b8dc7d1fa9cf3dd8af3132cc091dc98dd435ecd702b0a5876a316956adb1902202ab79756184168b47dfa40bfce91f9bfbffdaae3c583b3e92968c518059f023901ffffffff70998a2a72119642d83ef4b0c22484928f9396e65fb5621f9ed48aaf46ee748a000000007b4c79a276a072a26ba067a5658021039eec2081bbe883ce2ceff764935c139ca0ba52fc87ad4b441344e521213e7d968140633cda6aeea80f43978f87edf562adde09d79149664fc254892ff6dc810ea45b6dce750025362b6dbba65b3aed5a14e77a95f77f6830bc32fa6de76a2ffe72dda100af038001f2a10001ffffffff041027000000000000302ea22c802091abda62a548f9c7f5beb19d16f01714ae3d4e526f3266fc8d347d6123f3d77b8103120c008203000401cc8096980000000000302ea22c8020bed294e15cd2e327d2f1e6bcf55e2ebe571b7bc2e672363950ca680c8b89226381032210008203000401cca006264e180900002321039eec2081bbe883ce2ceff764935c139ca0ba52fc87ad4b441344e521213e7d96ac0000000000000000996a4c96f27449be33e04bc33a542d656b95cfde567c019c94fef5ae1c6952b706d9d0b1a991012103ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb4050f157721e790bcec874f1c6c1bbb413c09a283a2fdb1b4aab909192b643c9c04e5455034b4d442102554fb8a367cdb896ab6566c9f2aac62de70e5d643d2b6c19f01d65712da589db809698000000000000000000c20700000000000000000000000000"
+}
+```
+
+
+[02-Feb-19 09:20 AM] TonyL#3577
+And ```error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)``` with same prints as above on broadcasting
+
+
+[02-Feb-19 09:21 AM] TonyL#3577
+```  "vout": [
+    {
+      "value": 0.00010000,
+      "valueZat": 10000,
+      "n": 0,
+      "scriptPubKey": {
+        "asm": "a22c802091abda62a548f9c7f5beb19d16f01714ae3d4e526f3266fc8d347d6123f3d77b8103120c008203000401 OP_CHECKCRYPTOCONDITION",
+        "hex": "2ea22c802091abda62a548f9c7f5beb19d16f01714ae3d4e526f3266fc8d347d6123f3d77b8103120c008203000401cc",
+        "reqSigs": 1,
+        "type": "cryptocondition",
+        "addresses": [
+          "RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33"
+        ]
+      }
+    },
+    {
+      "value": 0.10000000,
+      "valueZat": 10000000,
+      "n": 1,
+      "scriptPubKey": {
+        "asm": "a22c8020bed294e15cd2e327d2f1e6bcf55e2ebe571b7bc2e672363950ca680c8b89226381032210008203000401 OP_CHECKCRYPTOCONDITION",
+        "hex": "2ea22c8020bed294e15cd2e327d2f1e6bcf55e2ebe571b7bc2e672363950ca680c8b89226381032210008203000401cc",
+        "reqSigs": 1,
+        "type": "cryptocondition",
+        "addresses": [
+          "RSDw91hbCKkkNct6XtPRbq389eu2xKgHUC"
+        ]
+      }```
+
+
+[02-Feb-19 09:22 AM] TonyL#3577
+By some reason vout of hex generated by gatewayswithdraw is 0.1 while I'm trying to withdraw only 0.05. This seems like a scary bug @Mihailo
+
+
+[02-Feb-19 09:28 AM] TonyL#3577
+I not grabbed this commit yet.: https://github.com/jl777/komodo/commit/6fc97c61e33c0d01c47d26d66acf0ec9dae8a3df  Can it affect this part?
+
+{Embed}
+https://github.com/jl777/komodo/commit/6fc97c61e33c0d01c47d26d66acf0ec9dae8a3df
+Add support for dual opret with Token opret. · jl777/komodo@6fc97c6
+https://images-ext-1.discordapp.net/external/7D6HPYjbZ1uVXTF6oThYArvmOonYNOqiEQIK76rAxzA/%3Fs%3D200%26v%3D4/https/avatars1.githubusercontent.com/u/39563265
+
+
+[02-Feb-19 09:48 AM] Mihailo#5902
+I think I have not added check for conf/notarization in any RPC, so deposit,claim and withdraw need to check it.
+
+
+[02-Feb-19 09:52 AM] Mihailo#5902
+This is unusual 😛 I have to reproduce it to see what is happening... Why is vout 0.1 if you entered 0.05
+
+
+[02-Feb-19 09:55 AM] Mihailo#5902
+@TonyL, haa found it. My bad, what a bug. I was using same variable for amount when iterating utxos so it owerwrited it 😮
+
+
+[02-Feb-19 09:56 AM] TonyL#3577
+Nice! Yeah, scary bug. I guess we not found it before because tested only same amounts
+
+
+[02-Feb-19 09:57 AM] TonyL#3577
+First time I changed amount in my tests and voila  😃
+
+
+[02-Feb-19 10:21 AM] Mihailo#5902
+YEp 😛
+
+
+[02-Feb-19 10:22 AM] Mihailo#5902
+And this part of the code I added recently so it was not actual beofre
+
+
+[02-Feb-19 10:23 AM] Mihailo#5902
+As we had to serialize withdraws for now because of the problem when having parallel withdraws.
+
+
+[02-Feb-19 10:55 AM] Mihailo#5902
+Fixed, now to trace that SIGABRT bug.
+
+
+[02-Feb-19 10:59 AM] TonyL#3577
+Great, hope I'll able to withdraw with fix implemented 😃
+
+
+[02-Feb-19 04:31 PM] TonyL#3577
+Run `oraclefeed` with gdb this time and oraclefeed crashed again in some time after 3rd signature for 3of3 case was made (payment wasn't made).
+Backtraces a little bit different:
+1 node
+```
+spentheight.2291 valuein 0.0002 vs 0.0003 error
+loadfile null size.(/tmp/oraclefeed.sendrawtransaction)
+error broadcasting tx on GWISBACKbroadcast GWISBACK txid.(dbd8c8d83feeba5814824afb46f990007f8a19eddb38a2ea6e8a3fae2cf056ca)
+KMD ht.1211783 <- 877d1200ae347ac21a6406dcb08f33ec7852d4931b909e330cee55a314182b75dbb63e01c955497bac6cb28c9564d369f30ffe14863fc31a95ae5bebc9a88b13ca4a01cd
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000555555555360 in cJSON_Delete ()
+(gdb) backtrace
+#0  0x0000555555555360 in cJSON_Delete ()
+#1  0x0000555555555394 in cJSON_Delete ()
+#2  0x0000555555555394 in cJSON_Delete ()
+#3  0x0000555555555394 in cJSON_Delete ()
+#4  0x0000555555555394 in cJSON_Delete ()
+#5  0x0000555555559d7d in free_json ()
+#6  0x000055555555db0b in update_gatewayspending ()
+#7  0x000055555555e84e in main ()```
+2 node
+```Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff76daef2 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+(gdb) unexpected null pwallet in RelayWalletTransaction
+(gdb) backtrace
+#0  0x00007ffff76daef2 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+#1  0x00007ffff76dd0fc in malloc () from /lib/x86_64-linux-gnu/libc.so.6
+#2  0x0000555555555182 in cJSON_mallocstr ()
+#3  0x0000555555555aa7 in parse_string ()
+#4  0x0000555555556ae8 in parse_object ()
+#5  0x0000555555556352 in parse_value ()
+#6  0x000055555555650b in parse_array ()
+#7  0x0000555555556332 in parse_value ()
+#8  0x0000555555556c57 in parse_object ()
+#9  0x0000555555556352 in parse_value ()
+#10 0x0000555555556111 in cJSON_ParseWithOpts ()
+#11 0x00005555555561a8 in cJSON_Parse ()
+#12 0x000055555555ac13 in get_komodocli ()
+#13 0x000055555555c4f6 in addsignature ()
+#14 0x000055555555d763 in update_gatewayspending ()
+#15 0x000055555555e84e in main ()```
+
+
+[02-Feb-19 04:31 PM] TonyL#3577
+3 node
+```Program received signal SIGSEGV, Segmentation fault.
+0x00005555555575ac in cJSON_GetObjectItem ()
+(gdb) backtrace
+#0  0x00005555555575ac in cJSON_GetObjectItem ()
+#1  0x0000555555559791 in jobj ()
+#2  0x000055555555c51c in addsignature ()
+#3  0x000055555555d763 in update_gatewayspending ()
+#4  0x000055555555e84e in main ()```
+
+
+[02-Feb-19 04:34 PM] TonyL#3577
+I'm almost sure that this crash happening only on withdrawal in 3of3 case (from cases which we tested) when there is all 3 signatures (but it never making KMD withdrawal transaction). 2of3 withdrawal works fine
+
+
+[03-Feb-19 01:22 AM] Mihailo#5902
+👍 This gives me more clues 😉
+
+{Reactions}
+👍 
+
+[04-Feb-19 09:10 AM] Mihailo#5902
+@TonyL Fixed crashing bug, also done various fixes. Make it a run on 3of3 to see how it goes. I noticed some race condition when two feed nodes want to sign tx in same time, but it works correctly there is just some print in oraclefeed about unable to broadcast tx.
+https://github.com/jl777/komodo/pull/1230
+
+{Embed}
+https://github.com/jl777/komodo/pull/1230
+Gateways fixes (#17) by Mixa84 · Pull Request #1230 · jl777/komodo
+Oraclefeed crash fix
+Wrong amount bug
+Switching to LogPrint in Gateways for filtering debug output
+Adding CCerror to all RPCs
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+
+[04-Feb-19 09:11 AM] Mihailo#5902
+Reminder: Recompile komodo and oraclefeed on all nodes
+
+
+[05-Feb-19 01:00 AM] Mihailo#5902
+@TonyL We could also try together for example 6of6 or more... We can use all our test nodes we have to try bigger setups.
+
+
+[08-Feb-19 04:49 AM] TonyL#3577
+Hi @Mihailo I'll back on Monday and can go ahead with it.
+I'm thinking to test it using AWS infrastructure (prebuilt snapshot with daemon and synced blockchain) to spin nodes fast + nodes preparation script with asserts which will make wallets different, setup pubkeys, import privkey from assetchain to Komodo chain and other stuff. Point is to make any nodes amount infrastructure we need fast and automate.
+
+{Reactions}
+💯 
+
+[08-Feb-19 04:53 AM] jl777c#5810
+@ca333 chainlizard spin up of gateways is a brilliant idea
+
+{Reactions}
+💯 
+
+[08-Feb-19 04:54 AM] Mihailo#5902
+@TonyL 👍 Ping me if you need anything!
+
+{Reactions}
+👌 
+
+[08-Feb-19 04:56 AM] ca333#0333
+yes this is indeed a genius idea @jl777c - added to feature list and will be implemented. thanks for the hint!
+
+
+[11-Feb-19 07:40 AM] Mihailo#5902
+@jl777c @TonyL Added support for other bitcoin protocol coins to be used on gateways, not just KMD. I tested it with 1of1 gateways and deposit and withdraw works. Some RPCs have changed so TUI update needed. Also there are two new RPCs to be able to get external chain address for given pubkey (needed for deposit) and to dump private key from KMD node in format of external chain so it can be imported in external chain node.
+https://github.com/jl777/komodo/pull/1239
+
+{Embed}
+https://github.com/jl777/komodo/pull/1239
+Multi coin support for GatewaysCC (#18) by Mixa84 · Pull Request ...
+Added support for other cions
+New RPC for getting address for a pubkey on external chain and for dumping private key in external chain format
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+{Reactions}
+🚀 (4) 3040_kingpeepo Komodo (2) 
+
+[11-Feb-19 07:52 AM] TonyL#3577
+Great news @Mihailo ! Will wrap my head over it when finish with rogue TUI. Is there any list of actual RPC calls / args?
+
+
+[11-Feb-19 07:55 AM] TonyL#3577
+I've started automation a little today: 
+https://gist.github.com/tonymorony/ef78e1bda31713d13fa19745eeb97622 to prepare latest FSM node (using it to make node from which making disk snapshot)
+https://gist.github.com/tonymorony/b0b2128f4fa5587b9c8f48bf931f5e92 this one preparing other stuff to use node as a gateways node (not totally finished)
+
+{Embed}
+https://gist.github.com/tonymorony/ef78e1bda31713d13fa19745eeb97622
+FSM node prepare
+GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+{Embed}
+https://gist.github.com/tonymorony/b0b2128f4fa5587b9c8f48bf931f5e92
+Preparing node to work as gateway node
+GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[11-Feb-19 08:00 AM] TonyL#3577
+Hmm now there is a lot of use-cases to test - different M N + different coins. So gonna automate routine for time and mental health saving 😃
+
+{Reactions}
+👍 
+
+[11-Feb-19 08:04 AM] Mihailo#5902
+I think we need to test different M and N and some of it on different coins. There should be same behaviour for some M and N combination regardless of coin as different coins have just different withdraw and deposit addresses.
+
+{Reactions}
+👌 
+
+[15-Feb-19 11:24 PM] Mylo#8306
+when you say different "coins" do you mean non-KMD ecosystem?
+
+
+[16-Feb-19 04:50 AM] TonyL#3577
+@Mihailo ```Some RPCs have changed so TUI update needed.``` Could you please point what changes are, so I'll update RPC calls documentation here: https://docs.google.com/spreadsheets/d/1l0dWEPcrv9zE11_TD-XrX_HIYV0VLpadCJN6hvaZERc/edit#gid=211514340 ?
+```Also there are two new RPCs```
+Could you please advice on these RPC names and arguments needs to be given?
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1l0dWEPcrv9zE11_TD-XrX_HIYV0VLpadCJN6hvaZERc/edit
+Smart Contract Test Plan
+cclib Rogue
+
+Rogue Contract
+Available RPC calls,What does this Call do?,Example Test Command,Example Expected Output
+cclib newgame 17 \"[,]\",Creating new game. Buy-in argument using for multiplayer games. It's forming game pot and last player standing or first who do highlan...
+https://images-ext-2.discordapp.net/external/QZIWn2gC2YrS-VtzZN9auV-B7hhTp1IBFxoo9o3BBOo/https/lh4.googleusercontent.com/jG0EwoRG0GKTwPpnAwZivN2UkcMWt-qr3QUTPsmy2nz8nNGRLIBXezodcKzZoKg9bFwJDQ%3Dw1200-h630-p
+
+
+[16-Feb-19 06:06 AM] Alright#0419
+is someone spamming chain?
+
+
+[16-Feb-19 06:07 AM] Alright#0419
+http://rogue.explorer.dexstats.info/
+
+{Embed}
+http://rogue.explorer.dexstats.info/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[16-Feb-19 06:07 AM] Alright#0419
+what is going on there?
+
+
+[16-Feb-19 06:07 AM] Alright#0419
+oh it's resyncing?
+
+
+[16-Feb-19 06:08 AM] SHossain#0007
+i DM'd CHMEX
+
+
+[16-Feb-19 06:08 AM] SHossain#0007
+seems stuck
+
+
+[16-Feb-19 06:10 AM] Alright#0419
+wrong channel
+
+
+[16-Feb-19 06:10 AM] Alright#0419
+whoops
+
+
+[16-Feb-19 07:22 AM] Mihailo#5902
+@TonyL Added few parameters in bind, you can see it in rpc help, and there are two new rpcs for generating external chain address for a pubkey needed for deposit, and exporting private key in format of external chain for importing it for withdrawal
+
+
+[16-Feb-19 07:22 AM] Mihailo#5902
+I think that is it
+
+
+[26-Feb-19 03:35 PM] TonyL#3577
+@Mihailo ```./komodo-cli -ac_name=GWTEST3 gatewaysbind
+gatewaysbind tokenid oracletxid coin tokensupply M N pubkey(s) pubtype p2shtype wiftype [taddr]```
+```
+ ./komodo-cli -ac_name=GWTEST3 gatewaysbind eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc d3349f94510654d69ecd8d5ee267bf851bfcddae4324774218160b0de241c185 KMD 100000000 1 1 037defd3c07a5ab2ced41d73c0d53c87b18447b50d5b89097f08f2d4de3e6948e6 60 85 188
+error code: -1
+error message:
+JSON value is not a string as expected
+```
+It seems I'm doing something wrong.
+
+Could you please provide one working example?
+
+
+[26-Feb-19 03:39 PM] Alright#0419
+@TonyL the last arg must be deposit address
+
+
+[26-Feb-19 03:39 PM] Alright#0419
+the help info makes it seem optional, but from what i can tell, it isn't
+
+
+[26-Feb-19 03:39 PM] TonyL#3577
+Oh it's in [] I thought it's optional
+
+
+[26-Feb-19 03:39 PM] TonyL#3577
+So now I can set any deposit address I want? And in case of multisignature gateway - manual multisignature address creation is needed?
+
+
+[26-Feb-19 03:41 PM] TonyL#3577
+```./komodo-cli -ac_name=GWTEST3 gatewaysbind eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc d3349f94510654d69ecd8d5ee267bf851bfcddae4324774218160b0de241c185 KMD 100000000 1 1 037defd3c07a5ab2ced41d73c0d53c87b18447b50d5b89097f08f2d4de3e6948e6 60 85 188 R9HqJ5Q17Gt9XjKAoWpxZp6imLGXzjPNyQ
+{
+  "result": "error",
+  "error": "Gateway bind.KMD (eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc) globaladdr.RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33 totalsupply 1.00000000 != fullsupply 0.00010000"
+}
+```
+
+
+[26-Feb-19 03:43 PM] TonyL#3577
+🤔 I specified whole supply, maybe it because of changes in AssetsCC
+```./komodo-cli -ac_name=GWTEST3  tokeninfo eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc
+{
+  "result": "success",
+  "tokenid": "eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc",
+  "owner": "037defd3c07a5ab2ced41d73c0d53c87b18447b50d5b89097f08f2d4de3e6948e6",
+  "name": "KMD",
+  "supply": 100000000,
+  "description": "Testing"
+}
+```
+
+
+[26-Feb-19 03:51 PM] TonyL#3577
+out of curiosity adjusted input params to error message and get other error:
+``` ./komodo-cli -ac_name=GWTEST3 gatewaysbind eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc d3349f94510654d69ecd8d5ee267bf851bfcddae4324774218160b0de241c185 KMD 10000 1 1 037defd3c07a5ab2ced41d73c0d53c87b18447b50d5b89097f08f2d4de3e6948e6 60 85 188 R9HqJ5Q17Gt9XjKAoWpxZp6imLGXzjPNyQ
+error code: -1
+error message:
+illegal M or N > 15 or tokensupply or invalid tokenid```
+
+
+[26-Feb-19 11:44 PM] jl777c#5810
+@Mihailo
+
+
+[27-Feb-19 02:36 AM] Mihailo#5902
+taddr should be optional... It is not deposit address
+
+
+[27-Feb-19 02:36 AM] Mihailo#5902
+Let me check
+
+
+[27-Feb-19 03:22 AM] Mihailo#5902
+Small mistake, fixed. https://github.com/jl777/komodo/pull/1289
+
+{Embed}
+https://github.com/jl777/komodo/pull/1289
+Fix gatewaysbind by Mixa84 · Pull Request #1289 · jl777/komodo
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+
+[27-Feb-19 07:09 AM] Mihailo#5902
+BTW, taddr is 2nd byte of pubtype for chains that have 2 byte pubtype
+
+
+[27-Feb-19 11:27 AM] TonyL#3577
+@Mihailo can call gatewaysbind without taddr now, but other issue is still here:
+```./komodo-cli -ac_name=GWTEST3 gatewaysbind eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc d3349f94510654d69ecd8d5ee267bf851bfcddae4324774218160b0de241c185 KMD 100000000 1 1 037defd3c07a5ab2ced41d73c0d53c87b18447b50d5b89097f08f2d4de3e6948e6 60 85 188 
+{
+  "result": "error",
+  "error": "Gateway bind.KMD (eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc) globaladdr.RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33 totalsupply 1.00000000 != fullsupply 0.00010000"
+}
+```
+
+
+[27-Feb-19 11:31 AM] TonyL#3577
+If I remember correct @dimxy changed structure of vouts for tokens, so maybe at the moment gateways searching for total supply in not correct one
+
+
+[27-Feb-19 11:31 AM] TonyL#3577
+```./komodo-cli -ac_name=GWTEST3  tokeninfo eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc
+{
+  "result": "success",
+  "tokenid": "eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc",
+  "owner": "037defd3c07a5ab2ced41d73c0d53c87b18447b50d5b89097f08f2d4de3e6948e6",
+  "name": "KMD",
+  "supply": 100000000,
+  "description": "Testing"
+}```
+
+
+[27-Feb-19 11:35 AM] Mihailo#5902
+Oh, didn't know that vout structure is changed....
+
+
+[27-Feb-19 11:35 AM] Mihailo#5902
+Can you do tokenbalance?
+
+
+[27-Feb-19 11:37 AM] TonyL#3577
+@Mihailo 
+```./komodo-cli -ac_name=GWTEST3 tokenbalance eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc
+{
+  "result": "success",
+  "CCaddress": "RG1HL1kV6MkeSURAKcc63qVkViSR6v9mZ1",
+  "tokenid": "eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc",
+  "balance": 100000000
+}```
+```
+
+
+[27-Feb-19 11:38 AM] Mihailo#5902
+Ok so probably it is vout order. I'll fix it for tomorrow.
+
+{Reactions}
+👍 
+
+[27-Feb-19 11:46 AM] dimxy#2587
+yes I changed the vout order for 'c' tx (to adapt it for rogue_game):
+Now
+vout0 - marker
+vout1 - value
+(previously it was in backward order)
+
+
+[28-Feb-19 10:06 AM] Mihailo#5902
+@TonyL I forgot this morning about gateways problem, so I fixed it now.
+https://github.com/jl777/komodo/pull/1296
+
+{Embed}
+https://github.com/jl777/komodo/pull/1296
+Fix token vout number for Gateways by Mixa84 · Pull Request #1296...
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+
+[28-Feb-19 10:28 PM] TonyL#3577
+@Mihailo Succesfully binded 👍 
+```./komodo-cli -ac_name=GWTEST3 gatewaysinfo 299e4644967a2ecfa5140cc73c315464d116dac901c1e200fe20577c82bd089d
+{
+  "result": "success",
+  "name": "Gateways",
+  "pubkey": "037defd3c07a5ab2ced41d73c0d53c87b18447b50d5b89097f08f2d4de3e6948e6",
+  "coin": "KMD",
+  "oracletxid": "d3349f94510654d69ecd8d5ee267bf851bfcddae4324774218160b0de241c185",
+  "taddr": 0,
+  "prefix": 60,
+  "prefix2": 85,
+  "deposit": "R9R6jxDbncpEjk19VL9SVPQNktmhjksjmq",
+  "tokenid": "eefa162f14584a10d651474b177ad613c71c13e7fd590b9877d1da6180866dcc",
+  "totalsupply": "1.00000000",
+  "remaining": "0.00000000",
+  "issued": "1.00000000"
+}
+```
+
+{Reactions}
+👏 
+
+[03-Mar-19 09:54 PM] TonyL#3577
+@Mihailo 1 of 1 deposit/withdrawal worked like a charm for me: https://gist.github.com/tonymorony/dec8d1212707d3d817b984eaca680896
+Nice prints now from oraclefeed :shexy:
+
+{Embed}
+https://gist.github.com/tonymorony/dec8d1212707d3d817b984eaca680896
+gateways test 1of1
+GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+{Reactions}
+👍 👏 
+
+[05-Mar-19 09:10 AM] Mylo#8306
+@TonyL are you using a test chain and then locking up some KMD onto it with a gatewayCC?
+
+
+[05-Mar-19 09:10 AM] Mylo#8306
+(is this the right way to describe it?)
+
+
+[05-Mar-19 09:11 AM] Mihailo#5902
+We were testing usually with depositing KMD on KMD chain and gateway is created on AC.
+
+{Reactions}
+➕ 
+
+[05-Mar-19 09:12 AM] Mihailo#5902
+You lock KMD on deposit address, and get KMD token on AC in the same amount.
+
+
+[05-Mar-19 09:13 AM] Mylo#8306
+ok thanks mihailo
+
+{Reactions}
+yassinkomodo 
+
+[07-Mar-19 07:37 PM] TonyL#3577
+https://github.com/tonymorony/komodo_cryptoconditions_tui/blob/master/scripts/kmd_1of1gw_creation.py made 1of1 gw auto-creaiton script (to use just need to copy script to src with komodod, and copy tuilib.py to src/lib/tuilib.py and set desired ac on line 7 - will make it as cli arg in next revision)
+CC: @smkhound
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052568466194450/553421110780362754/unknown.png
+
+{Embed}
+https://github.com/tonymorony/komodo_cryptoconditions_tui/blob/master/scripts/kmd_1of1gw_creation.py
+tonymorony/komodo_cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/komodo_cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+{Reactions}
+yassinkomodo 👌 (3) 
+
+[07-Mar-19 07:38 PM] TonyL#3577
+It taking 2 blocks (~2 minutes) to have 1of1 GW up and running
+
+
+[10-Mar-19 12:31 AM] smkhound#7640
+@Mihailo Test log today, had issues with gatewaysbind
+
+
+[10-Mar-19 12:31 AM] smkhound#7640
+https://pastebin.com/qnAaVZrN
+
+{Embed}
+https://pastebin.com/qnAaVZrN
+gateways test - Pastebin.com
+https://images-ext-1.discordapp.net/external/lZwHlcJYEP_-CeL744a7RSWVnhrIifPJgiIcmKkDuJY/https/pastebin.com/i/facebook.png
+
+
+[10-Mar-19 12:32 AM] smkhound#7640
+``` "result": "error",
+  "error": "couldnt gatewaysbind"``
+
+
+[10-Mar-19 12:36 AM] Mihailo#5902
+Can you check tokenbalance from that node where are you trying bind?
+
+
+[10-Mar-19 12:37 AM] smkhound#7640
+```smk762@pool:~/komodo$ komodo-cli -ac_name=GWST tokeninfo b4e3fe456286339d3796e45726e700dcbd2839a6a74dc3ea87b5da5bc9cefe27
+{
+  "result": "success",
+  "tokenid": "b4e3fe456286339d3796e45726e700dcbd2839a6a74dc3ea87b5da5bc9cefe27",
+  "owner": "03d14cc6bba8802e08bef9c1079b590d8af05f0f759cdf7119a460478d740d2142",
+  "name": "KMD",
+  "supply": 100000000,
+  "description": "manualtest"
+}
+smk762@pool:~/komodo$ komodo-cli -ac_name=GWST tokenbalance b4e3fe456286339d3796e45726e700dcbd2839a6a74dc3ea87b5da5bc9cefe27
+{
+  "result": "success",
+  "CCaddress": "RXNDLfPwvoVLxcBssxwE4rSEw5EMN9PS1q",
+  "tokenid": "b4e3fe456286339d3796e45726e700dcbd2839a6a74dc3ea87b5da5bc9cefe27",
+  "balance": 100000000
+}
+```
+
+
+[10-Mar-19 12:38 AM] TonyL#3577
+Reproduced on my side also (latest FSM), before on a little out-dated (built from FSM with commits around March 6) daemon it worked fine
+```Gateway bind.KMD (b4e3fe456286339d3796e45726e700dcbd2839a6a74dc3ea87b5da5bc9cefe27) destaddr.RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33 globaladdr.RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33 token balance 0.00000000 != 1.00000000```
+
+
+[10-Mar-19 01:10 AM] jl777c#5810
+seems like we have some conflicting commits going on if that is the case. we need to do a full regression test to make sure nothing else has broken
+
+
+[10-Mar-19 01:10 AM] jl777c#5810
+for all the CC
+
+
+[10-Mar-19 01:23 AM] TonyL#3577
+Tests passing - seems nothing really bad happened (in regtest mode at least)
+
+
+[10-Mar-19 01:30 AM] TonyL#3577
+Just interesting - we had issue with same prints in september (tokenconvert was in flow this time)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052568466194450/554234509441105920/unknown.png
+
+
+[10-Mar-19 01:53 AM] Mihailo#5902
+@dimxy has anything been changed with tokens recently?
+
+
+[10-Mar-19 01:53 AM] Mihailo#5902
+I cannot check this now, will do it in couple of hours
+
+
+[10-Mar-19 03:04 AM] TonyL#3577
+Hmm created new chain on latest jl777 (trying to isolate it now)
+On mining node (no any daemon prints):
+```./komodo-cli -ac_name=TONYL1 tokencreate KMD 1 Test
+{
+  "result": "error",
+  "error": "cant find normal inputs"
+}
+``` 
+
+On non mining node with 0 balance:
+```./komodo-cli -ac_name=TONYL1 tokencreate KMD 1 Test
+{
+  "result": "success",
+  "hex": "0400008085202f89010076d70be60d9c883f17a64137c44145c020a42132be06c642550aeedbcfb5d40000000048473044022073b6636d08613ac586e16ae2689d53aede718551ad92ed81753812c1549f8aa802200ef4d4d50375e088d1854ee5a11d5914c3a386efb5102518fbc63365f475046901ffffffff041027000000000000302ea22c8020432de388aabcb6b4e3326351d1d815cee8be9a8d37b055cd1c0cf8782e5c50c08103120c008203000401cc00e1f50500000000302ea22c8020e91003cc1cc20451e4b37b4f864089229791a8454e296b3c3b22ccc5b353d19c8103120c008203000401cce0707c48180900002321020b154d089c5e9aa070bbd4b21d15ee6275a0fa31b82842edd23fc40c9c812214ac00000000000000002f6a2df26321020b154d089c5e9aa070bbd4b21d15ee6275a0fa31b82842edd23fc40c9c812214034b4d44045465737400000000650000000000000000000000000000"
+}
+```
+
+
+[10-Mar-19 05:02 AM] Mihailo#5902
+@smkhound I think you are not on latest FSM, looking at your printout I cannot see those in the code so it must be some older version.
+Pull latest FSM and try, and also now the printout has a debug category so start the KMD daemon with -debug=gatewayscc to get gateways print
+
+{Reactions}
+👌 
+
+[10-Mar-19 05:04 AM] Mihailo#5902
+@smkhound I see in the end that you are on FSM and it seems on latest commit. But please rebuild the daemon it may be on some older code...
+`make clean; make -j8'
+
+{Reactions}
+♻ 
+
+[10-Mar-19 05:15 AM] smkhound#7640
+I think I rm -rf'd to set that one up, but will give it a shot
+
+
+[11-Mar-19 06:01 AM] smkhound#7640
+tried again on two different nodes. Reused test chain from yesterday. pulled and make'd fsm repo in new folders. same error
+
+
+[11-Mar-19 06:02 AM] smkhound#7640
+```{
+  "result": "error",
+  "error": "couldnt gatewaysbind"
+}```
+```
+set taddr, prefix, prefix2 for kmd
+Gateway bind.kmd (a38b75b38bcc5a55664f916da7d34623086eb896161663d48b799512955694d4) destaddr.RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33 globaladdr.RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33 token balance 0.00000000 != 1.00000000```
+
+
+[11-Mar-19 06:02 AM] smkhound#7640
+will try again tomorrow on completely frsh vps, on fresh chain.
+
+
+[11-Mar-19 07:21 AM] TonyL#3577
+I setup fresh chain on latest FSM with only my nodes in it and binded 1of1 GW succesfully @smkhound :
+https://paste.ubuntu.com/p/nDG3fYqSf6/
+
+
+[11-Mar-19 07:23 AM] TonyL#3577
+I did it from node which not mine (transferred coins from mining node to it)
+
+
+[11-Mar-19 07:26 AM] TonyL#3577
+I rebuilt daemons without `CONFIGURE_FLAGS='CPPFLAGS=-DTESTMODE' flag
+
+
+[11-Mar-19 07:28 AM] TonyL#3577
+Will try now to do the same but with daemons built with such flag
+
+
+[11-Mar-19 07:42 AM] TonyL#3577
+https://paste.ubuntu.com/p/PcW6gSMBzX/ binded fine as well
+
+{Reactions}
+👍 
+
+[11-Mar-19 08:24 AM] smkhound#7640
+will update once mine is up and running with fresh chain
+
+
+[12-Mar-19 03:42 AM] Mihailo#5902
+@smkhound You're definitevly on wrong version. Perhaps some other komodod is in your path and it is using that one intead of latest. Try to rebuild the source and start it with ./komodod from komodo source dir.
+
+
+[12-Mar-19 03:43 AM] smkhound#7640
+just about to start again, new VPS, FMS built zcash params almost downloaded
+
+
+[12-Mar-19 03:45 AM] smkhound#7640
+apologies for confusion, was using established VPS with LABS chains on, but used different folder for FSM, and ./komodod from fsm/src folder so thought it should work
+
+
+[12-Mar-19 03:47 AM] Mihailo#5902
+Well, the chain should not affect it if you are starting from beginning. Probably the VPS was using some other daemon from path... It should be fine now on new VPS, but basically there is no need to make everything fresh, you should be able just to use latest FSM and start daemon from there...
+
+
+[12-Mar-19 03:51 AM] smkhound#7640
+is it safe to use older vps to mine new chain on launch?
+
+
+[12-Mar-19 03:52 AM] Mihailo#5902
+You can use any VPS you want, but you must be on same version of KMD daemon on that node
+
+
+[12-Mar-19 03:53 AM] smkhound#7640
+k, might be cause of issue before... will maintain 2 completely clean vps for testing just in case.
+
+
+[12-Mar-19 03:54 AM] Mihailo#5902
+When you broadcast the tx, if the two nodes differently validate the tx one may reject it. And then you have fork....
+
+
+[12-Mar-19 03:55 AM] smkhound#7640
+had symlinks to komodod on other vps, thought was running ./ in FSM maybe did it wrong
+
+
+[12-Mar-19 03:57 AM] TonyL#3577
+I advice to not use symlinks for komodod on testing machines because usually many different komodods needed
+
+
+[12-Mar-19 03:58 AM] smkhound#7640
+_today I learned...._ 🎓
+
+
+[12-Mar-19 03:58 AM] TonyL#3577
+Aliases - real power 😀
+
+{Reactions}
+realpirate 
+
+[12-Mar-19 06:15 AM] smkhound#7640
+pebak confirmed
+
+
+[12-Mar-19 06:15 AM] smkhound#7640
+```./komodo-cli -ac_name=WTFCC gatewaysinfo 360393c740744a3cc87a77b7bba7f7e0e5b016e3292ffdf178994eeaef9ad58e
+{
+  "result": "success",
+  "name": "Gateways",
+  "pubkey": "034f7517f50ab0941042be15ba1f2d4c97faf3b1689a63f619b71e857a2e94a8d2",
+  "coin": "KMD",
+  "oracletxid": "4dd6baf56b4089a4ebd2506276ab5745e1f9cd291a97faf8cab1b5d07cf61877",
+  "taddr": 0,
+  "prefix": 60,
+  "prefix2": 85,
+  "deposit": "R9b9xouRfGRLqDNDc6ns6rLhV9aDACdAhG",
+  "tokenid": "59b2d51f9fe63f77be4dc77a3ac8ec8722093a3613b63ca6433029c64bddf774",
+  "totalsupply": "1.00000000",
+  "remaining": "1.00000000",
+  "issued": "0.00000000"
+}
+```
+
+
+[12-Mar-19 06:19 AM] TonyL#3577
+WTF - means World Taekwondo Federation I hope 😃
+
+{Reactions}
+🥋 
+
+[12-Mar-19 06:31 AM] TonyL#3577
+@smkhound When you'll have a chance - please test deposit/withdrawals and we can proceed to multisignature cases
+
+
+[12-Mar-19 06:32 AM] smkhound#7640
+yep, doing that bit now. been adding utxos to oracle, almost ready to continue
+
+
+[12-Mar-19 07:14 AM] smkhound#7640
+got down to gatewaysdeposit, and hit this 
+```error code: -26
+error message:
+16: tx-overwinter-expired
+```
+
+
+[12-Mar-19 07:15 AM] smkhound#7640
+docs are using z_sendmany and z_getoperationstatus. Maybe I should not have.
+
+
+[12-Mar-19 07:20 AM] smkhound#7640
+line 772 and 784 on https://github.com/KomodoPlatform/developer-docs/blob/master/docs/basic-docs/cryptoconditions/cc-gateways.md
+
+{Embed}
+https://github.com/KomodoPlatform/developer-docs/blob/master/docs/basic-docs/cryptoconditions/cc-gateways.md
+KomodoPlatform/developer-docs
+Contribute to KomodoPlatform/developer-docs development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[12-Mar-19 07:21 AM] smkhound#7640
+Also missing a comma between the z_sendmany destination adresses json on line 772.
+ I'm done for the night, wil try again tommorow 💤
+
+
+[12-Mar-19 07:34 AM] Mihailo#5902
+@BOOMER  This usually happens when TX is created and broadcasted later but the default number of blocks when it expires passes. I think it is 60 by default. Did you get this on broadcasting gatewatsdeposit?
+
+
+[12-Mar-19 07:58 AM] smkhound#7640
+yep. running through manually so was a delay, though not that long surely
+
+
+[12-Mar-19 07:58 AM] smkhound#7640
+```  "blockhash": "07a19dee9d76cdf16ba1fe5f11a0bbc0dca02e15701a4a5303d459ddca3f8ac6",
+  "height": 1265684,
+  "confirmations": 1,
+  "rawconfirmations": 6,
+  "time": 1552398840,
+  "blocktime": 1552398840
+}
+```
+
+
+[12-Mar-19 07:58 AM] smkhound#7640
+at time of sendmany
+
+
+[12-Mar-19 07:59 AM] smkhound#7640
+```smk762@pool:~/komodo/src$ ./komodo-cli getinfo | jq '.blocks'
+1265691
+smk762@pool:~/komodo/src$ ./komodo-cli gettxoutproof '["c9f```
+
+
+[12-Mar-19 07:59 AM] smkhound#7640
+at next step, 16 blk later
+
+
+[12-Mar-19 07:59 AM] smkhound#7640
+```
+1265745
+smk762@pool:~/komodo/src$ 
+
+```
+
+
+[12-Mar-19 07:59 AM] smkhound#7640
+now
+
+
+[12-Mar-19 08:00 AM] Mihailo#5902
+The KMD tx has nothing to do with it...
+
+
+[12-Mar-19 08:00 AM] Mihailo#5902
+On which tx you have overwinter?
+
+
+[12-Mar-19 08:00 AM] jorian#4555
+wtfcc is just ccftw backwards
+
+{Reactions}
+😄 
+
+[12-Mar-19 08:00 AM] smkhound#7640
+my bas, false alrm
+
+
+[12-Mar-19 08:01 AM] smkhound#7640
+*bad *alarm
+
+
+[12-Mar-19 08:01 AM] smkhound#7640
+sentraw to kmd, not wtfcc 😩
+
+
+[12-Mar-19 08:02 AM] Mihailo#5902
+Don't worry, I had so many false alarms until I got gateways fully. They are complex and very fragile 😉
+
+
+[12-Mar-19 08:03 AM] smkhound#7640
+yeah... I need some good sleep...
+
+
+[12-Mar-19 08:04 AM] smkhound#7640
+docs took a bit of work to figure out what each param was in the full guide. command strings not explicit. Might update some bits to make it easier to follow.
+
+
+[12-Mar-19 08:04 AM] smkhound#7640
+had to scroll around to see what hash was what
+
+
+[12-Mar-19 08:06 AM] Mihailo#5902
+Best doc to use is this: https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-gateways.html#gatewayscc-tutorial-and-overview
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-gateways.html
+Contract Module: Gateways | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[12-Mar-19 08:06 AM] Mihailo#5902
+I think it is the most recently updated
+
+
+[12-Mar-19 06:54 PM] smkhound#7640
+thanks, that the one I was looking at, but the full example section. The bit above is mare detailed 👍
+
+
+[13-Mar-19 05:10 AM] smkhound#7640
+does this mean I did it?
+```./komodo-cli -ac_name=WTFCC gatewaysinfo 360393c740744a3cc87a77b7bba7f7e0e5b016e3292ffdf178994eeaef9ad58e
+{
+  "result": "success",
+  "name": "Gateways",
+  "pubkey": "034f7517f50ab0941042be15ba1f2d4c97faf3b1689a63f619b71e857a2e94a8d2",
+  "coin": "KMD",
+  "oracletxid": "4dd6baf56b4089a4ebd2506276ab5745e1f9cd291a97faf8cab1b5d07cf61877",
+  "taddr": 0,
+  "prefix": 60,
+  "prefix2": 85,
+  "deposit": "R9b9xouRfGRLqDNDc6ns6rLhV9aDACdAhG",
+  "tokenid": "59b2d51f9fe63f77be4dc77a3ac8ec8722093a3613b63ca6433029c64bddf774",
+  "totalsupply": "1.00000000",
+  "remaining": "0.90000000",
+  "issued": "0.10000000"
+}
+```
+
+
+[13-Mar-19 05:13 AM] TonyL#3577
+@smkhound Check `tokenbalance` also for `tokenid`
+
+
+[13-Mar-19 05:14 AM] TonyL#3577
+If you have the tokens - it means you did it
+
+
+[13-Mar-19 05:14 AM] smkhound#7640
+``` ./komodo-cli -ac_name=WTFCC gatewayswithdraw 360393c740744a3cc87a77b7bba7f7e0e5b016e3292ffdf178994eeaef9ad58e KMD 03bf7d3739ba826c95bf7fbb6d9987af65383db92b3a6d193aaac149efdb0a53f3 0.01
+{
+  "result": "success",
+  "hex": "0400008085202f890200736aa9690e7e3e863725867ffdb99d50a990bd4e3545c687ef3b3bb889ea7a0000000049483045022100ac42faf58bb033b983de679f03702dffdbb5aab159b670320351ca7713361e1a022076f64d844df3ecce48b4045689f9747032e5a36a287ca2326cde38c125b3d9ac01ffffffff917d3e2fb40bb50797b419e381827d65c383abbba4925598d7a8e1d01049ab5f000000007b4c79a276a072a26ba067a565802103bf7d3739ba826c95bf7fbb6d9987af65383db92b3a6d193aaac149efdb0a53f381409ecc5c23ca4bdf61dc0ba08a5ae582fbdfb5580c2769d90ee413f27498866cbc3fb69d7109cc4fa97c35fa3501811a3a26cf9ab05309162ef7831af592d4701ba100af038001f2a10001ffffffff051027000000000000302ea22c802091abda62a548f9c7f5beb19d16f01714ae3d4e526f3266fc8d347d6123f3d77b8103120c008203000401cc40420f0000000000302ea22c8020bed294e15cd2e327d2f1e6bcf55e2ebe571b7bc2e672363950ca680c8b89226381032210008203000401cc4054890000000000302ea22c802066241eeef033a0ba86996beac93e58db4b222ccfa01b86239f4ae2ab0dcde4518103120c008203000401ccf078724e18090000232103bf7d3739ba826c95bf7fbb6d9987af65383db92b3a6d193aaac149efdb0a53f3ac00000000000000009a6a4c97f27459b2d51f9fe63f77be4dc77a3ac8ec8722093a3613b63ca6433029c64bddf774012103ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb401350f1578ed59aefea4e9978f1fd2f29e316b0e5e0f7a7bbb7777ac83c4a7440c7930336034b4d442103bf7d3739ba826c95bf7fbb6d9987af65383db92b3a6d193aaac149efdb0a53f340420f000000000000000000c70500000000000000000000000000"
+}
+```
+
+
+[13-Mar-19 05:22 AM] smkhound#7640
+Looks like it worked 😃
+
+{Reactions}
+yassinkomodo 
+
+[13-Mar-19 05:22 AM] Mihailo#5902
+So, I finally made gateways work like a charm (for now) 😛
+
+{Reactions}
+💎 💪 (2) 
+
+[13-Mar-19 05:23 AM] smkhound#7640
+I feel like a kid who managed to ride a bike without falling off for a change. 😂
+
+
+[13-Mar-19 05:23 AM] Mihailo#5902
+Without helper wheels 😛
+
+
+[13-Mar-19 05:23 AM] smkhound#7640
+I'm gonna do it a few more times to get the hang of it.
+
+
+[13-Mar-19 05:23 AM] smkhound#7640
+and make some notes on the way so I dont forget...
+
+
+[13-Mar-19 05:24 AM] Mihailo#5902
+After that, I suggest you try multisig gateways. There will be more stuff to learn, and ofc more stuff to go wrong 😛
+
+
+[13-Mar-19 05:25 AM] smkhound#7640
+tbh, some bits werent working and then they did, and I wasn't sure why lol. could be waiting for confs, but I switched around pubkeys a bit too.
+
+
+[13-Mar-19 05:25 AM] smkhound#7640
+made it work, but keen to make sure I know *how and why* it works
+
+
+[13-Mar-19 05:26 AM] TonyL#3577
+@smkhound Did you receive KMD back on withdrawal?
+
+
+[13-Mar-19 05:26 AM] smkhound#7640
+thanks for your patience so far 💂
+
+
+[13-Mar-19 05:26 AM] smkhound#7640
+yep
+
+{Reactions}
+👏 (2) 
+
+[13-Mar-19 05:27 AM] smkhound#7640
+feelsgoodman :awthanks:
+
+
+[16-Mar-19 11:12 PM] smkhound#7640
+spotted a strangeness in tokensCC
+
+
+[16-Mar-19 11:12 PM] smkhound#7640
+```smk762@smk762-2:~/komodo/src$ ./komodo-cli -ac_name=ALKEMY tokenbalance 46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56 ""
+{
+  "result": "success",
+  "CCaddress": "RAMvUfoyURBRxAdVeTMHxn3giJZCFWeha2",
+  "tokenid": "46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56",
+  "balance": 0
+}
+smk762@smk762-2:~/komodo/src$ ./komodo-cli -ac_name=ALKEMY tokenbalance 46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56 
+{
+  "result": "success",
+  "CCaddress": "RJSjqUvdVagJ8FaNzr3seEFnXdWsJ4JJeV",
+  "tokenid": "46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56",
+  "balance": 10000000
+}
+```
+
+
+[16-Mar-19 11:13 PM] smkhound#7640
+pubkey not given as a param returns different address/balance to if pubkey param is `""`
+
+
+[16-Mar-19 11:15 PM] smkhound#7640
+if pubkey param given, returns same address with either quoted or unquoted
+
+
+[16-Mar-19 11:15 PM] smkhound#7640
+``` ./komodo-cli -ac_name=ALKEMY tokenbalance 46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56  0329d94e36ab60fbbdf053cf55707c969b3ce0d3a19adc28b584cafbf91364f3e4
+{
+  "result": "success",
+  "CCaddress": "RJSjqUvdVagJ8FaNzr3seEFnXdWsJ4JJeV",
+  "tokenid": "46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56",
+  "balance": 10000000
+}
+smk762@smk762-2:~/komodo/src$ ./komodo-cli -ac_name=ALKEMY tokenbalance 46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56  "0329d94e36ab60fbbdf053cf55707c969b3ce0d3a19adc28b584cafbf91364f3e4"
+{
+  "result": "success",
+  "CCaddress": "RJSjqUvdVagJ8FaNzr3seEFnXdWsJ4JJeV",
+  "tokenid": "46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56",
+  "balance": 10000000
+}
+```
+
+
+[16-Mar-19 11:16 PM] smkhound#7640
+also same as if no pubkey given, so odd one out is empty quotes
+
+
+[16-Mar-19 11:20 PM] smkhound#7640
+if invalid pubkey, returns same as empty quotes, whether quoted or not
+
+
+[16-Mar-19 11:20 PM] smkhound#7640
+```smk762@smk762-2:~/komodo/src$ ./komodo-cli -ac_name=ALKEMY tokenbalance 46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56 any_otherstring
+{
+  "result": "success",
+  "CCaddress": "RAMvUfoyURBRxAdVeTMHxn3giJZCFWeha2",
+  "tokenid": "46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56",
+  "balance": 0
+}
+smk762@smk762-2:~/komodo/src$ ./komodo-cli -ac_name=ALKEMY tokenbalance 46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56 "any_otherstring"
+{
+  "result": "success",
+  "CCaddress": "RAMvUfoyURBRxAdVeTMHxn3giJZCFWeha2",
+  "tokenid": "46aee0b733f14f7d57b46e6712769a79921e7235f784f3795a09ed3bcb575d56",
+  "balance": 0
+}
+```
+
+
+[16-Mar-19 11:22 PM] smkhound#7640
+is this expected behavior? if so please enlighten me 👽
+
+
+[17-Mar-19 12:54 AM] jl777c#5810
+no args defaults to the -pubkey
+
+
+[17-Mar-19 12:54 AM] jl777c#5810
+having an arg means it uses what is passed in as a pubkey, in this case 0000000000... 00000 is my guess
+
+
+[17-Mar-19 12:55 AM] jl777c#5810
+the code has different behavior based on number of parameters
+
+
+[17-Mar-19 12:55 AM] jl777c#5810
+if there is a parameter, it parses it
+
+{Reactions}
+👍 
+
+[18-Mar-19 05:44 AM] smkhound#7640
+@Mihailo the claimvout value usind in gateways deposit -  in docs it says, `on the first use, this value should be 0`.
+Does this value increment for subsequent uses?
+
+
+[18-Mar-19 05:59 AM] Mihailo#5902
+@@smkhound No, that is wrongly said. It will always be 0.
+
+{Reactions}
+👍 
+
+[18-Mar-19 06:03 AM] TonyL#3577
+Btw if it const - why is it using as call argument?
+
+
+[18-Mar-19 06:41 AM] Mihailo#5902
+@TonyL  @smkhound Well, I've just looked at the code. It could be variable, but we made it to be 0 and the marker to be the vout.1 in the docs and always used it like that. So you can put any vout, and the sentence `on the first use, this value shoule be 0` was meant when you start using gateways, until you figure out everything lets keep this at 0 😉
+
+
+[18-Mar-19 06:43 AM] Mihailo#5902
+Even better, the tx where you deposit the funds in the gateways address can be full of any vouts you like (so you can send more funds to toher addresses). It is only important to have one vout to gateways address, and one vout to pubkey where the tokens will show and that's it.
+
+
+[18-Mar-19 06:43 AM] smkhound#7640
+cool, I was just wondering if it was a variable, then looking for wherre to find what ist value would be
+
+
+[18-Mar-19 06:43 AM] smkhound#7640
+so if scripting later, had the right value
+
+
+[18-Mar-19 06:43 AM] Mihailo#5902
+That's why it was left as an parameter. You need to supply what is the number of vout to the pubkey.
+
+{Reactions}
+👌 
+
+[18-Mar-19 06:44 AM] Mihailo#5902
+`{"address":"addressOfPubkeyForTokenizedKmd","amount":0.0001}` - this vout
+
+
+[18-Mar-19 06:46 AM] smkhound#7640
+so get that from here -
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052568466194450/557198068215185433/unknown.png
+
+{Reactions}
+👍 
+
+[18-Mar-19 07:02 AM] smkhound#7640
+subscribing to oracles with 3 different pubkeys, relaunching daemon with fresh wallet for each (but initial wallet held all 3). Seeing strange values comparing `lifetime` and `funds`
+
+
+[18-Mar-19 07:02 AM] smkhound#7640
+```  "registered": [
+    {
+      "publisher": "03805717bf0dfd3dba0c68d9d842927b78d307198e174aa5f206a4a3f08816307d",
+      "baton": "RUFjUBdhzBKbHrvDtqz8ruQG3Yd5nz24pL",
+      "batontxid": "e8a2471ac53487b456fe82ac9644f41c7eb4e03498f621ebb05597070a38a256",
+      "lifetime": "0.00000000",
+      "funds": "70.00000000",
+      "datafee": "0.00010000"
+    },
+    {
+      "publisher": "020e7821c4e680e936f5636fc8c38e6007beac980664c785d3b78f0dc2ae30cc39",
+      "baton": "RPjsbY3k3PsCXiv4Jf9sYjjfHwgE3niJ9K",
+      "batontxid": "a5201cbfa29971996e7b3d86695c8d0a8caa22c9be359fc6714df66f72d3756f",
+      "lifetime": "110.00000000",
+      "funds": "110.00000000",
+      "datafee": "0.00010000"
+    },
+    {
+      "publisher": "03a1be9712a517a9f88f99b0410a7be2cfd6b6e43c331b17b75e67f4f8a25fe5f9",
+      "baton": "RUiBRaEBC3sV6vqpPrNyPex3yazxBQjgTL",
+      "batontxid": "7d03185e83fb6b32c9fa335b5567f8fc9d0fe0b4203aa29d6d74ff97e18575a2",
+      "lifetime": "40.00000000",
+      "funds": "180.00000000",
+      "datafee": "0.00010000"
+    }
+  ]
+}
+```
+
+
+[18-Mar-19 07:03 AM] smkhound#7640
+shouldnt `lifetime > funds`?
+
+
+[18-Mar-19 07:04 AM] Mihailo#5902
+As I remember there was a bug with oraclesinfo sometime before, let me check to see how it works.
+
+{Reactions}
+👍 
+
+[18-Mar-19 07:07 AM] Mihailo#5902
+I know that funds will show 0 when you send enough oracles data to cover all the number of subscribes you did. But when the oraclesdata txs are mined then it returns to normal.
+
+
+[19-Mar-19 02:34 AM] smkhound#7640
+2of2 created - https://pastebin.com/kfjdWrNq
+will test usage later tonight
+
+{Embed}
+https://pastebin.com/kfjdWrNq
+gw-2of2 - Pastebin.com
+https://images-ext-1.discordapp.net/external/lZwHlcJYEP_-CeL744a7RSWVnhrIifPJgiIcmKkDuJY/https/pastebin.com/i/facebook.png
+
+{Reactions}
+👍 
+
+[19-Mar-19 02:34 AM] smkhound#7640
+created a 3of3 last night, but didnt have neough nodes to run all the oraclefeeds simultneously
+
+
+[19-Mar-19 02:35 AM] Mihailo#5902
+Try also 2of3 😉
+
+{Reactions}
+👍 
+
+[19-Mar-19 02:35 AM] Mihailo#5902
+And don't forget to import private keys for every node that is running oraclefeed in KMD daemon.
+
+
+[19-Mar-19 06:36 AM] smkhound#7640
+deposit and claim - https://pastebin.com/MkPjuxu6
+
+{Embed}
+https://pastebin.com/MkPjuxu6
+GW-2of2-deposit-claim - Pastebin.com
+https://images-ext-1.discordapp.net/external/lZwHlcJYEP_-CeL744a7RSWVnhrIifPJgiIcmKkDuJY/https/pastebin.com/i/facebook.png
+
+
+[19-Mar-19 06:36 AM] smkhound#7640
+bit of a problem on wirthdraw tho...
+
+
+[19-Mar-19 06:37 AM] smkhound#7640
+GATEWAYINFO 
+```./komodo-cli -ac_name=ALKEMY gatewaysinfo a35a2f457aa38d5b8880338fdc17b5cc5b0206c8ad45b9d7be9dae22df711b66
+{
+  "result": "success",
+  "name": "Gateways",
+  "M": 2,
+  "N": 2,
+  "pubkeys": [
+    "0329d94e36ab60fbbdf053cf55707c969b3ce0d3a19adc28b584cafbf91364f3e4",
+    "03805717bf0dfd3dba0c68d9d842927b78d307198e174aa5f206a4a3f08816307d"
+  ],
+  "coin": "KMD",
+  "oracletxid": "83d70e107e06e0da48a3a736faadc4b3274b340c4d990b0f94748dd295642049",
+  "taddr": 0,
+  "prefix": 60,
+  "prefix2": 85,
+  "deposit": "bNUfoPvCLZ76571BWMsxNu7JumbQe8pDme",
+  "tokenid": "af647ec23efa33ca06705b5e34ec4d2e0ffd55b1c9ab2d10e4f9827983217c50",
+  "totalsupply": "1000.00000000",
+  "remaining": "999.90000000",
+  "issued": "0.10000000"
+}
+```
+
+
+[19-Mar-19 06:37 AM] smkhound#7640
+`"deposit": "bNUfoPvCLZ76571BWMsxNu7JumbQe8pDme",`
+
+
+[19-Mar-19 06:38 AM] smkhound#7640
+Guide says to dumpprivkey of `gwdepositaddr`
+
+
+[19-Mar-19 06:39 AM] smkhound#7640
+```./komodo-cli dumpprivkey -ac_name=ALKEMY dumpprivkey bNUfoPvCLZ76571BWMsxNu7JumbQe8pDme
+error code: -3
+error message:
+Address does not refer to a key```
+```./komodo-cli dumpprivkey bNUfoPvCLZ76571BWMsxNu7JumbQe8pDme
+error code: -3
+error message:
+Address does not refer to a key```
+
+
+[19-Mar-19 06:39 AM] Mihailo#5902
+In multisig scenario, you need to dumppriv key of every every pubkey which was added when binding the gateway
+
+
+[19-Mar-19 06:39 AM] smkhound#7640
+makes sense
+
+
+[19-Mar-19 06:39 AM] Mihailo#5902
+And import it in KMD daemon on that node
+
+
+[19-Mar-19 06:40 AM] smkhound#7640
+so dump all, import into a common node = acces
+
+
+[19-Mar-19 06:40 AM] Mihailo#5902
+In single pubkey scenario that sentence makes sense.
+
+
+[19-Mar-19 06:40 AM] Mihailo#5902
+No, dump each on its node and import on same node.
+
+
+[19-Mar-19 06:40 AM] Mihailo#5902
+So node1 dump privkey and import in KMD daemon on node1, then node2 ...
+
+
+[19-Mar-19 06:41 AM] smkhound#7640
+ah, in that case, already done
+
+
+[19-Mar-19 06:41 AM] Mihailo#5902
+You need to have 2 daemons on each node that will run oraclefeed.
+
+
+[19-Mar-19 06:42 AM] smkhound#7640
+done. 3 nodes. the two sigpubs running KMD and ALKEMY, both running oraclefeed
+
+
+[19-Mar-19 06:42 AM] smkhound#7640
+third node was user, differnt pubkey, spent kmd, got tokens
+
+
+[19-Mar-19 06:42 AM] Mihailo#5902
+Good.
+
+
+[19-Mar-19 07:03 AM] smkhound#7640
+so user 3 withdrew ok.  no multisig needed on that tho....
+
+
+[19-Mar-19 07:05 AM] smkhound#7640
+assume multisig is to close contract?
+
+
+[19-Mar-19 07:22 AM] Mihailo#5902
+Multisig is an address type. Where it is generated from more than one private key.
+
+
+[19-Mar-19 07:23 AM] Mihailo#5902
+So if you have gateways with more than 1 pubkey (N>1) than it is using miltisig address. But you do not have to do anything, as oraclefeed does all the job for withdraw!
+
+
+[19-Mar-19 10:25 AM] smkhound#7640
+awse, thanks for confirmation
+
+
+[19-Mar-19 10:26 AM] smkhound#7640
+so running the feed = signing the tx
+
+{Reactions}
+👍 
+
+[26-Mar-19 07:37 AM] Mihailo#5902
+@jl777c @TonyL I have improved GatewaysCC validation to prevent spending funds from global CC address and to constrain more vin/vouts. Please run some tests, but I think everything works as before.
+https://github.com/jl777/komodo/pull/1357
+
+{Embed}
+https://github.com/jl777/komodo/pull/1357
+Correct GatewaysCC validation to check spending from global CC add...
+Add additional vin/vout check
+Check that marker spending from global CC address is only for a marker value
+Set fixed marker values instead of depending on txfee
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+{Reactions}
+👌 
+
+[26-Mar-19 01:26 PM] TonyL#3577
+@smkhound Could you please re-test gateways on latest FSM?
+
+{Reactions}
+👍 
+
+[27-Mar-19 11:02 AM] TonyL#3577
+Quite strange - on my side oraclfeed not starting to oraclize heights:
+```./oraclefeed TONYL14 42b73cb1acffde5e9d1354ff53bc4e0c89f5306a4e86f9da63d1ca6892ba140d 42b73cb1acffde5e9d1354ff53bc4e0c89f5306a4e86f9da63d1ca6892ba140d Ihh 801fba644f098244c46a975ed93752765b64167b6fe2878df836c8bea9f2951c
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   670  100   670    0     0  30454      0 --:--:-- --:--:-- --:--:-- 30454
+BTC/USD 4033.8000
+Powered by CoinDesk (https://www.coindesk.com/price/) 4033.80000000
+must supply reference coin
+coin.KMD vs KMD
+set refcoin RUTdjGPgbuo6SMgpVf8AobfuW1yuwJjntE <- KMD [./komodo-cli] M.1 of N.1
+```
+And nothing happens from this state (no errors messages, no crash, no oraclization prints)
+
+
+[27-Mar-19 11:02 AM] TonyL#3577
+```./komodo-cli -ac_name=TONYL14 gatewaysinfo 801fba644f098244c46a975ed93752765b64167b6fe2878df836c8bea9f2951c
+{
+  "result": "success",
+  "name": "Gateways",
+  "pubkey": "02820c7189ca38341c12a11009c898143d24ce7ca8332b280405ca102d16f2fd3d",
+  "coin": "KMD",
+  "oracletxid": "42b73cb1acffde5e9d1354ff53bc4e0c89f5306a4e86f9da63d1ca6892ba140d",
+  "taddr": 0,
+  "prefix": 60,
+  "prefix2": 85,
+  "deposit": "RUTdjGPgbuo6SMgpVf8AobfuW1yuwJjntE",
+  "tokenid": "f406e2d0154ae776e62001617514cc62f3318c997b376202878b9c7bd9f4c32a",
+  "totalsupply": "1.00000000",
+  "remaining": "1.00000000",
+  "issued": "0.00000000"
+}
+```
+
+
+[27-Mar-19 11:02 AM] TonyL#3577
+```./komodo-cli -ac_name=TONYL14 oraclesinfo 42b73cb1acffde5e9d1354ff53bc4e0c89f5306a4e86f9da63d1ca6892ba140d
+{
+  "result": "success",
+  "txid": "42b73cb1acffde5e9d1354ff53bc4e0c89f5306a4e86f9da63d1ca6892ba140d",
+  "name": "KMD",
+  "description": "Testing",
+  "format": "Ihh",
+  "marker": "RFW1SYzeEG2bgzfSuykAaBTP48RWVjfiBh",
+  "registered": [
+    {
+      "publisher": "02820c7189ca38341c12a11009c898143d24ce7ca8332b280405ca102d16f2fd3d",
+      "baton": "RV4ek7NZqFTofyD8vDbbpy42dPLRZK4qMp",
+      "batontxid": "303881b4d8eec45f936f95bd054c061c6bac0c2db9c4171eab6ab3855d56669b",
+      "lifetime": "100.00000000",
+      "funds": "100.00000000",
+      "datafee": "0.00010000"
+    }
+  ]
+}
+```
+
+
+[27-Mar-19 11:03 AM] TonyL#3577
+Will try to create from other node now
+
+
+[27-Mar-19 11:26 AM] TonyL#3577
+Hmm on other node oraclizations started
+
+
+[27-Mar-19 11:29 AM] TonyL#3577
+Ahh, on other node in `komodo.conf` was not allowed rpc from localhost
+
+
+[27-Mar-19 11:55 AM] TonyL#3577
+Can't execute gatewaysdeposit:
+```
+Input your gateway bind txid: b1e7a8acca939e4e6ad21b993e5c22de42b9b458d174bff844e4c2d9495a418d
+Input your external coin ticker (e.g. KMD): KMD
+Input your deposit txid: af93966f501a5285dffd43735ab8f7e746a3b9fafd0af042750d4d05cbc27567
+Input pubkey which claim deposit: 02820c7189ca38341c12a11009c898143d24ce7ca8332b280405ca102d16f2fd3d
+Input amount of your deposit: 0.05
+{'result': 'error', 'error': 'deposittxid didnt validate'}```
+
+KMD deposit transaction: https://kmdexplorer.io/tx/af93966f501a5285dffd43735ab8f7e746a3b9fafd0af042750d4d05cbc27567 is in block 1287437
+
+This height is oraclized: 
+```KMD ht.1287437 <- 0da513002141527a739379e410e0b709e2c356b0546c0a7c1fcaff9d93e655debd69ea010c520491d4c7cf668894cf73cab89174fd6305486d1f2461188c34d57bd4fbc4
+broadcast TONYL14 txid.(bef12000fa50c4076527989a4b7be2eb26066ef91a7354ff9a3da41713d8467b)
+```
+
+
+[27-Mar-19 11:57 AM] TonyL#3577
+Height data sample recorded to binded oracle:
+```./komodo-cli -ac_name=TONYL14 oraclessamples 9814004a5841a84b64a8fa2e900dd0aba4dd0213d3e0d78e731e66f6ebead2ec 453d90f44f4e4295bac415ee1a1f82872db0711736676447a57e4dda9285700a 10
+...
+    [
+      "1287437",
+      "01ea69bdde55e6939dffca1f7c0a6c54b056c3e209b7e010e47993737a524121",
+      "c4fbd47bd5348c1861241f6d480563fd7491b8ca73cf948866cfc7d49104520c"
+    ],
+...
+```
+
+
+[27-Mar-19 11:58 AM] TonyL#3577
+@smkhound Reported about same problem when did it manually - exact behaviour reproduced with calls execution via TUI. Will try to prepare manual call now - maybe komdod will print something helpful
+
+
+[27-Mar-19 12:04 PM] TonyL#3577
+https://paste.ubuntu.com/p/3FVDJhxkZf/ manual call, no any prints from komodod
+
+
+[27-Mar-19 12:05 PM] TonyL#3577
+@Mihailo It seems that gatewaysdeposit not work atm (we trying simple 1of1 case)
+
+
+[27-Mar-19 12:13 PM] Mihailo#5902
+Ok, I'll take a look at it. i've tried 2of3 and everything worked like a charm, from deposit to withdraw.
+
+
+[27-Mar-19 12:18 PM] Mihailo#5902
+@TonyL can you start the daemon with -debug=gatewayscc-2 and give me the log from daemon after executing gatewaysdeposit
+
+
+[27-Mar-19 12:19 PM] TonyL#3577
+Sure, let me try
+
+
+[27-Mar-19 12:21 PM] TonyL#3577
+```2019-03-27 19:21:18 cointxid.af93966f501a5285dffd43735ab8f7e746a3b9fafd0af042750d4d05cbc27567 m.1 of n.1
+2019-03-27 19:21:18 claimaddr.RVYfuA6wvWxMgtrHCaWaDADDpfSPCrAkaC != destpubaddr.RUTdjGPgbuo6SMgpVf8AobfuW1yuwJjntE
+2019-03-27 19:21:18 deposittxid didnt validate
+```
+
+
+[27-Mar-19 12:21 PM] TonyL#3577
+Hmmm
+
+
+[27-Mar-19 12:24 PM] TonyL#3577
+According to the log it seems that I've missmatched address/pubkey on some step - useful param `-debug=gatewayscc-2`
+
+
+[27-Mar-19 12:26 PM] TonyL#3577
+Hmm changed pubkey and now got ```error code: -26
+error message:
+16: bad-txns-vout-negative
+```
+
+
+[27-Mar-19 12:27 PM] TonyL#3577
+https://paste.ubuntu.com/p/JdDwjNbjZg/ on this hex broadcasting
+
+
+[27-Mar-19 12:29 PM] TonyL#3577
+```  "vout": [
+    {
+      "value": 0.00010000,
+      "valueZat": 10000,
+      "n": 0,
+      "scriptPubKey": {
+        "asm": "a22c8020457f5aca9179868ee43801279010fae25cbe5bf9738929104557988c81a2c21f8103120c008203000401 OP_CHECKCRYPTOCONDITION",
+        "hex": "2ea22c8020457f5aca9179868ee43801279010fae25cbe5bf9738929104557988c81a2c21f8103120c008203000401cc",
+        "reqSigs": 1,
+        "type": "cryptocondition",
+        "addresses": [
+          "RWQiKdysPAkSwEXusKtLoCvNvXXF4TDbXa"
+        ]
+      }
+    },
+    {
+      "value": 0.00010000,
+      "valueZat": 10000,
+      "n": 1,
+      "scriptPubKey": {
+        "asm": "026775c2cb054d0d7542f00afdfab9a346e7f7b85a7343fddf85521a506f9693af OP_CHECKSIG",
+        "hex": "21026775c2cb054d0d7542f00afdfab9a346e7f7b85a7343fddf85521a506f9693afac",
+        "reqSigs": 1,
+        "type": "pubkey",
+        "addresses": [
+          "RBCe3iJ7mpm6G6NJMRfRKABiBysBePWw9s"
+        ]
+      }
+    },
+    {
+      "value": 899898.97860000,
+      "valueZat": 89989897860000,
+      "n": 2,
+      "scriptPubKey": {
+        "asm": "033b539c6cbcd80d9a113a91271b66bf3911b23aa63ed57683fb482878e84e5410 OP_CHECKSIG",
+        "hex": "21033b539c6cbcd80d9a113a91271b66bf3911b23aa63ed57683fb482878e84e5410ac",
+        "reqSigs": 1,
+        "type": "pubkey",
+        "addresses": [
+          "RVYfuA6wvWxMgtrHCaWaDADDpfSPCrAkaC"
+        ]
+      }
+    },
+    {
+      "value": 0.00000000,
+      "valueZat": 0,
+      "n": 3,
+      "scriptPubKey": {
+        "asm": "OP_RETURN```
+
+
+[27-Mar-19 12:36 PM] TonyL#3577
+In debug.log:
+```2019-03-27 19:35:41 set txid
+2019-03-27 19:35:41 cointxid.af93966f501a5285dffd43735ab8f7e746a3b9fafd0af042750d4d05cbc27567 m.1 of n.1
+2019-03-27 19:35:41 verified proof for cointxid in merkleroot
+2019-03-27 19:35:59 ERROR: CheckTransaction(): txout.scriptPubKey.size() too big
+2019-03-27 19:35:59 ERROR: AcceptToMemoryPool: CheckTransaction failed
+```
+
+
+[27-Mar-19 02:02 PM] Mihailo#5902
+I cannot see complete opret vout from here. First time I see this error, scriptPubKey.size() too big
+
+
+[27-Mar-19 02:16 PM] TonyL#3577
+Decode: https://paste.ubuntu.com/p/srvKWCwMq8/ of hex which was generated by this: https://paste.ubuntu.com/p/JdDwjNbjZg/ call
+
+
+[27-Mar-19 05:26 PM] Deleted User#0000
+Op return is too big... We get same on imports if burn tx has lots of vins....
+
+
+[27-Mar-19 05:40 PM] TonyL#3577
+Oh, maybe it was not the best idea to deposit into gateway from staked NN KMD wallet. I thought that KMD tx to gateway deposit address should be just KMD transaction
+
+
+[27-Mar-19 05:43 PM] TonyL#3577
+Hex of my kmd deposit tx is 12464 characters long
+
+
+[27-Mar-19 07:28 PM] Deleted User#0000
+Either way there needs to be some checks of these OP_return things for ALL CC contracts to stop you getting so far when its clearly oversized... Maybe gateway can be undone, but some contracts cannot such as export.import leaving the coins lost due to a step failing from oversized OP_RETURN
+
+
+[27-Mar-19 07:30 PM] Deleted User#0000
+I  had spme iodeas about this for imports, but until tokens migrate is finalised there isnt much point excploring them. Hopefully I can make the test some what standard... I worked out how to pretty easily add a "size" param to each tx hex that is sent, so its just a matter of logging this with your TUI sripts and trying to work out how much data is added at each step... then limiting the one before from end step back to beginning
+
+{Reactions}
+labs 
+
+[28-Mar-19 01:04 AM] Mihailo#5902
+Yes, this will be the problem with big external deposit tx. I don't know if we could encode just the neccessary vouts and not the whole tx...
+
+
+[28-Mar-19 02:35 AM] smkhound#7640
+just managed to `gatewaysdeposit` with a   `"result": "success"` 🍾
+
+
+[28-Mar-19 02:52 AM] jl777c#5810
+i think it might be a good idea to consolidate things before going crosschain, so there are a limited number of vins (1 or 2). no sense to support massive numbers of vins for crosschain things
+
+
+[28-Mar-19 03:02 AM] smkhound#7640
+gateways claim successful
+```./komodo-cli -ac_name=ALKEMY tokenbalance d41f3eee496ce024c3ade239279bf32d8f801f73db347a682659819b20089e8c 03805717bf0dfd3dba0c68d9d842927b78d307198e174aa5f206a4a3f08816307d
+{
+  "result": "success",
+  "CCaddress": "RQiDse53Lp4Zkx5satX79XGazAVkEryJPd",
+  "tokenid": "d41f3eee496ce024c3ade239279bf32d8f801f73db347a682659819b20089e8c",
+  "balance": 10000000
+}
+```
+
+
+[28-Mar-19 03:17 AM] smkhound#7640
+oraclefeed
+
+
+[28-Mar-19 03:17 AM] smkhound#7640
+```### SIGNING withdraw 5772f9cbdba71465c3a1103755fa20cfc9a51847f985e84d68d2238934cab9a2 1of1
+broadcast ALKEMY txid.(e17260150346c3cf41f3e9a0b0a53f06f525c31ab164dc03622efe0b3430707c)
+KMD ht.1288372 <- b4a81300fe667135ec729735809ffe6023a88b61b3840a796d3b7ae2f1eb519e5a7ad00e971ff511a64e3afa20b65ed8bcf311f318da096c0a24e1fc0b657ed7b2f51f72
+broadcast ALKEMY txid.(fdcf3b06cd63514fc68c2fc68e040c7f8d5acc4a8637d7746ed9395aefc91402)
+KMD ht.1288373 <- b5a81300c38578d4522ab7d5c39f8628b22596ba98e457e038db260159d51a8000000000220a0ea62f96220c3ef0fb69b11d9d38b21d3ddb14e0c57aa2e7c2afe4303d68
+broadcast KMD txid.(680ed05a68fe6eddd1833dec4e44a4250fe29033e6dba35638b50cf0a4eeb922)
+### WITHDRAW 0.10000000 KMD sent to RSD3nF93eG3VL9VynvqtnTNjYnJRJMv3Ts
+broadcast ALKEMY txid.(d3b2fd1a58fb17fe1d321fb8dc56baea7dc3a356d168adfc50ca0fb3d4872d2b)
+### MARKDONE withdraw 5772f9cbdba71465c3a1103755fa20cfc9a51847f985e84d68d2238934cab9a2
+```
+
+{Reactions}
+👍 (2) 
+
+[19-Apr-19 09:12 AM] TonyL#3577
+@Mihailo Can't pass trough `importgatewaydeposit`: https://paste.ubuntu.com/p/FMkXhwn73h/
+
+Desired height oraclized:
+```broadcast IMPORTGW txid.(0e46ac3cb568b38427dab4a50dfc7b12cb22db34de5d97982768542c1b41ae62)
+KMD ht.1320147 <- d3241400ef9353275e3e94ab41cb546523e4037a110ab9b2a3900cd1102faaba000000001a479252f92b50389e3da1ff490346b3ed4eeeb1a46fc1392dee44781cb51334
+broadcast IMPORTGW txid.(29bdbbb6ca916c22c67a228f5b18f9303363f76511ced6c77ebfd71edca4e8c9)
+KMD ht.1320148 <- d4241400cf634f196292e5f7880700c099c1e611e3aeaf6aaa354b08769dc7a200000000f6241c16747a377cbbe9e46f9f3d609bc7a47bcdc8b2021b1bc12811de27b5e8
+broadcast IMPORTGW txid.(f0606fc6acc3422c5c2912004e74841782d96ef8e5def331577e2ff8d813bf8b)
+KMD ht.1320149 <- d524140017a41d58576eddcec39f31f785e613ffde618f7b007f940968a344f40000000020023a111869167b1517d52f94e5af5a2148c5996a599dd8e189c7523773457e
+broadcast IMPORTGW txid.(116b8a9761277672b572b32b28d982e5c40543d8ee4505e8e7baf10e9f696ad8)
+KMD ht.1320150 <- d6241400930e01c40d7b07308ab1339cd6fa391c43e34fb04499bc3bd7ae942301000000f3432bab15fcb6ef6e7d9211ffe14628b77f5e8d2a2e01f0f2952157a866f910
+broadcast IMPORTGW txid.(f931bccefb5685f25d1080c2530b07e9765631d8747dce1a5bfbb5cf8fabddd5)
+KMD ht.1320151 <- d7241400152663d73b060bb689deee9e6ca7f1b696d783a718dd2cbe5af120060100000019442b893213b42949421c048e2b8f61cccd7ae6782667ed3eafc7a5ce3f9a0c
+broadcast IMPORTGW txid.(7652c763fc69d676e3d9b0900d64eb54b5a9b2cfdfc401d3df976a496075b774)
+KMD ht.1320152 <- d8241400b1d1384346674b8eb66c7481fa6061fc3490b8e2ddddc1bf8285e12b010000002c609da252c4ca12ce67f82d5c7a174afb4e38def11596ecb0ecc7d25cc2c9af
+broadcast IMPORTGW txid.(1d67ee22646d522297db49a060979f5e5adcbc268d3e7fdd7bdae2266da5e79e)
+```
+
+
+[19-Apr-19 09:13 AM] Mihailo#5902
+@TonyL  Give me the output from the daemon (if you started with -debug=importgateway-2)
+
+
+[19-Apr-19 09:13 AM] TonyL#3577
+It's available above by link (just huge to paste it here so saving outputs to such pastes)
+
+
+[19-Apr-19 09:14 AM] Mihailo#5902
+Hmmm I see, but is this with daemon output also?
+
+
+[19-Apr-19 09:14 AM] Mihailo#5902
+Ah wait
+
+
+[19-Apr-19 09:14 AM] Mihailo#5902
+I think I know
+
+
+[19-Apr-19 09:14 AM] Mihailo#5902
+The claim vout should be 1 or 2...
+
+
+[19-Apr-19 09:15 AM] Mihailo#5902
+The one where you sent 10k to pubkey
+
+
+[19-Apr-19 09:15 AM] Mihailo#5902
+Show me vouts on KMD tx
+
+
+[19-Apr-19 09:16 AM] TonyL#3577
+Oh yes, it's vout1
+
+
+[19-Apr-19 09:16 AM] TonyL#3577
+```  "vout": [
+    {
+      "value": 0.00010000,
+      "interest": 0.00000000,
+      "valueSat": 10000,
+      "n": 0,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 ffb38f39deb15d43c152994027e21c13a416e19b OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a914ffb38f39deb15d43c152994027e21c13a416e19b88ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "RYbDVShpQiZXwMBPRg9YJzhQf43jUuJvRA"
+        ]
+      }
+    },
+    {
+      "value": 0.05000000,
+      "interest": 0.00000000,
+      "valueSat": 5000000,
+      "n": 1,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 da102e059241639439ce7ae5a840284ca7703770 OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a914da102e059241639439ce7ae5a840284ca770377088ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "RVACmXRgmVvN5FN4S5kBm12KXKog4SQHHU"
+        ]
+      }
+    },
+    {
+      "value": 0.89960000,
+      "interest": 0.00000000,
+      "valueSat": 89960000,
+      "n": 2,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 b0de491da77a176b48763547d2b3741e028aad46 OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a914b0de491da77a176b48763547d2b3741e028aad4688ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "RRQPHxEPwKyFgrUajog9u4ktxhzfhMBzXm"
+        ]
+      }
+    }
+```
+
+
+[19-Apr-19 09:16 AM] TonyL#3577
+Btw not found "depositamount" parameter in importgateways
+
+
+[19-Apr-19 09:17 AM] Mihailo#5902
+Ah, yes. No amount currently in RPC.
+
+
+[19-Apr-19 09:17 AM] Mihailo#5902
+Ok, so 0 vout should be good.
+
+
+[19-Apr-19 09:18 AM] Mihailo#5902
+This error is usally when amount does not match
+
+
+[19-Apr-19 09:19 AM] TonyL#3577
+```burntxid.781f0ec209a03f394a875ad401fd5723b670f37c1e23c0cef2dfd02064c28d92 m.1 of n.1
+claimaddr.RVACmXRgmVvN5FN4S5kBm12KXKog4SQHHU != destpubaddr.RYbDVShpQiZXwMBPRg9YJzhQf43jUuJvRA
+burntxid didnt validate!
+``` with vout1 I'm getting address mismatch error
+
+
+[19-Apr-19 09:19 AM] Mihailo#5902
+Ok, got it. I reversed the vouts in importgateway.
+
+
+[19-Apr-19 09:19 AM] Mihailo#5902
+The funds should go first, and then the vout to pubkye
+
+
+[19-Apr-19 09:20 AM] TonyL#3577
+Ah, vout0 is amount sent to claimer, vout1 is amount sent to gateway deposit address
+
+
+[19-Apr-19 09:20 AM] Mihailo#5902
+So KMD tx should be different.
+
+
+[19-Apr-19 09:20 AM] Mihailo#5902
+I can change that to be consistent
+
+
+[19-Apr-19 09:20 AM] TonyL#3577
+Would be great if you can change so I'll be able to easily adopt TUI for importgateways
+
+
+[19-Apr-19 09:20 AM] Mihailo#5902
+👍
+
+
+[19-Apr-19 09:21 AM] Mihailo#5902
+Or I can add amount param so it will be consistent with gateways
+
+{Reactions}
+👍 
+
+[19-Apr-19 09:34 AM] TonyL#3577
+Sent tx with reversed recepeients/amounts, will see if it work in such case 😃
+
+
+[19-Apr-19 09:34 AM] Mihailo#5902
+😉
+
+
+[19-Apr-19 09:43 AM] Mihailo#5902
+Amount added here
+https://github.com/jl777/komodo/pull/1441
+
+{Embed}
+https://github.com/jl777/komodo/pull/1441
+Add -earlytxid param and check -ac_end,-ac_supply and -ac_perc. (#...
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[19-Apr-19 09:49 AM] TonyL#3577
+Success this time, yay
+
+
+[19-Apr-19 09:49 AM] jl777c#5810
+merged
+
+
+[19-Apr-19 09:49 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052568466194450/568840604922937359/unknown.png
+
+
+[19-Apr-19 09:50 AM] TonyL#3577
+Very compressed screenshot ^^ hmm
+
+{Reactions}
+😂 
+
+[19-Apr-19 09:51 AM] TonyL#3577
+Just wanted to show this monsterhex 😃
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052568466194450/568841045916385284/unknown.png
+
+
+[19-Apr-19 10:08 AM] TonyL#3577
+`./komodo-cli -ac_name=IMPORTGW getrawtransaction 08e43d13dda5d7dd76269872b6e9b28c1cb376c9594b2bb2c6f5192de83fa6fa 1
+error: couldn't parse reply from server
+` hmm interesting (it's importgatewaydeposit txid)
+
+
+[19-Apr-19 10:08 AM] TonyL#3577
+But can get just hex by `./komodo-cli -ac_name=IMPORTGW getrawtransaction 08e43d13dda5d7dd76269872b6e9b28c1cb376c9594b2bb2c6f5192de83fa6fa` and then decoderawtransaction
+
+
+[19-Apr-19 10:09 AM] TonyL#3577
+vout with amount which match my KMD deposit amount was sent to my address, so I assume deposit working
+```  "vout": [
+    {
+      "value": 0.05000000,
+      "valueZat": 5000000,
+      "n": 0,
+      "scriptPubKey": {
+        "asm": "03c14efac328e46de5d2647ae4319f7fd1f59029b824f8318e7dd17e5e5ef0b8d2 OP_CHECKSIG",
+        "hex": "2103c14efac328e46de5d2647ae4319f7fd1f59029b824f8318e7dd17e5e5ef0b8d2ac",
+        "reqSigs": 1,
+        "type": "pubkey",
+        "addresses": [
+          "RYbDVShpQiZXwMBPRg9YJzhQf43jUuJvRA"
+        ]
+      }
+```
+
+
+[19-Apr-19 10:11 AM] TonyL#3577
+@Mihailo For what these two calls? :
+```importgatewaymarkdone completesigningtx coin
+importgatewayspartialsign txidaddr refcoin hex```
+
+
+[19-Apr-19 10:13 AM] TonyL#3577
+```./komodo-cli -ac_name=IMPORTGW importgatewayprocessed e6c98b7a6a008e6fdca6f3605d65ec332514d569580cfe40f6c8dda4ce1a9063 KMD
+{
+  "coin": "KMD",
+  "processed": [
+  ],
+  "queueflag": 0
+}
+```
+
+`importgatewayprocessed` not showing anything
+
+
+[19-Apr-19 10:13 AM] TonyL#3577
+```./komodo-cli -ac_name=IMPORTGW importgatewaypendingdeposits e6c98b7a6a008e6fdca6f3605d65ec332514d569580cfe40f6c8dda4ce1a9063 KMD
+{
+  "coin": "KMD",
+  "pending": [
+  ]
+}
+```
+And `importgatewaypendingdeposits` not showing anything too, so it's like a my succesful deposit not in both completed and pending (If I understood correct purpose of these calls)
+
+
+[19-Apr-19 10:16 AM] TonyL#3577
+`### SIGNING withdraw 16bf143ab25c174e29f5bbe27fd6e738f5e8d206204ca579f47f92d3f944d262 1of1`
+
+
+[19-Apr-19 10:20 AM] TonyL#3577
+```### WITHDRAW 0.05000000 KMD sent to RRQPHxEPwKyFgrUajog9u4ktxhzfhMBzXm
+### MARKDONE withdraw 16bf143ab25c174e29f5bbe27fd6e738f5e8d206204ca579f47f92d3f944d262
+``` :3040_kingpeepo:
+
+
+[19-Apr-19 10:21 AM] TonyL#3577
+https://kmdexplorer.io/tx/29cd1284307b57bce27bd766778a08b013a963c0e2d2fa5586f4606cd412a9f3
+
+
+[19-Apr-19 10:23 AM] TonyL#3577
+Still nothing in `importgatewayprocessed` but maybe it's for something else
+
+In general it seems that both deposit and withdrawal of KMD on assetchain worked smooth in case of 1of1 GW
+
+
+[19-Apr-19 10:25 AM] TonyL#3577
+Expected not allowed me to withdraw more than I deposited:
+```./komodo-cli -ac_name=IMPORTGW importgatewaywithdraw e6c98b7a6a008e6fdca6f3605d65ec332514d569580cfe40f6c8dda4ce1a9063 KMD 03dd8fb8dbd2f6dfbb4bc903bea4f87127023665a7ad2246a84bfe11600ad37d96 0.02
+{
+  "result": "error",
+  "error": "cant find enough normal inputs"
+}
+```
+
+
+[19-Apr-19 10:25 AM] TonyL#3577
+But for 0.01 generated hex - so maybe it left some dust
+ ```./komodo-cli -ac_name=IMPORTGW importgatewaywithdraw e6c98b7a6a008e6fdca6f3605d65ec332514d569580cfe40f6c8dda4ce1a9063 KMD 03dd8fb8dbd2f6dfbb4bc903bea4f87127023665a7ad2246a84bfe11600ad37d96 0.01
+{
+  "result": "success",
+  "hex": "0400008085202f893303e91c012ac988c48cc47b2c5dd17f6e6964de6bb67e3dfc2bc97e28a5d73df1000000004847304402205c478f0cd33e89ff9ce6549d621c94dbd27323c95c59c4c13f7b014fa9955cc202200a2cc94d1ff4376fddf196f98124919e0f4f70b4b6d9c40c86836178e3b607bf01ffffffff610e049236f93c632fa7e3bedff9e392495e978cd3ae24503e73b4969d0b88280000000048473044022078bee64e23987f17229d75a2790cbf2963c819bcc7cd56b1c7fe19fbc42c0c0c02204a766546c935d1c05ab9be002bc5ffe1365b6007bf504ca4309441a4a1dc0bd901ffffffff60be0b8768cfc61b6494144c27b86127c61b4c78b85de2049584f13064bd72250000000049483045022100f89f486ab29ba37ff601007fb60d8e1b2dec03239badf6995ba6f70dd0ff1bc002204e94293959813dba6ac4dfa7c9ec56ddff6b373b4ea93853cfc863fc7e8f55ae01ffffffff60ab45de9cd49a8a7ff7cf635f0be790468ebd40d9fd0c8e9f7c7648f557d4c9000000004847304402200a37372b0bc31a9ef954af0968c04ace0f623bb9e3b6cbacb7b5dd2066055906022005540ff2b00e59ebbc63027784c66d55b088c01e64fa22575832f4c2c8c46b9101ffffffff5e09f557d02fe0397a493d5132ea95c794096650d7e510c136c14ea09a3d29ed000000004847304402200df537ec295a28de2582b93f88be1.....```
+
+
+[19-Apr-19 10:26 AM] TonyL#3577
+It not looks good that I get hex for 0.01 there, I wonder it's some edge case with calculations - I deposited 0.05 and withdrawn 0.05
+
+
+[19-Apr-19 10:31 AM] jl777c#5810
+does the hex confirm
+
+
+[19-Apr-19 10:45 AM] Mihailo#5902
+All those calls are for oraclefeed, so they are working fine.
+
+
+[19-Apr-19 10:46 AM] Mihailo#5902
+This error with not enough normal inputs meajs you have no balance for txfee I think.
+
+
+[19-Apr-19 10:46 AM] Mihailo#5902
+I'm in a car now and I have to check out when I get back home
+
+{Reactions}
+👌 
+
+[19-Apr-19 11:08 AM] TonyL#3577
+`does the hex confirm`  - tx broadcasted, waiting now if it will be confirmed by oraclefeed
+
+
+[19-Apr-19 11:09 AM] TonyL#3577
+```broadcast KMD txid.(7387614873d68fa268b360788b9da05c3443baeb30d71798e402eee120de93bb)
+### WITHDRAW 0.01000000 KMD sent to RRQPHxEPwKyFgrUajog9u4ktxhzfhMBzXm
+broadcast IMPORTGW txid.(6349fc93e9052051651d745f0996e8128cf23eb942f47f74088c307bdaa1a9b2)
+### MARKDONE withdraw d71b3bef7ade1979166158c99297905e84b2e1483bb95e3cb415e2f1bbb99e5a
+```
+
+
+[19-Apr-19 11:09 AM] TonyL#3577
+Broadcasted one more 0.01
+
+
+[19-Apr-19 11:11 AM] jl777c#5810
+not good if there are no more funds in msig
+
+
+[19-Apr-19 11:11 AM] jl777c#5810
+needs to check there are enough funds to payout
+
+
+[19-Apr-19 11:11 AM] TonyL#3577
+There are funds  actually
+
+
+[19-Apr-19 11:12 AM] TonyL#3577
+But I made "importgatewaysdeposit" only for one tx with 0.05 amount
+
+
+[19-Apr-19 11:12 AM] TonyL#3577
+Then withdrawn these 0.05
+
+
+[19-Apr-19 11:12 AM] TonyL#3577
+And now withdrawn 0.01 more
+
+
+[19-Apr-19 11:12 AM] TonyL#3577
+*0.02 more already
+
+
+[19-Apr-19 11:13 AM] jl777c#5810
+didnt you use up 0.05 of tokens on the withdraw?
+
+
+[19-Apr-19 11:13 AM] jl777c#5810
+where are they coming from
+
+
+[19-Apr-19 11:13 AM] TonyL#3577
+There are no tokens - only coins
+
+
+[19-Apr-19 11:13 AM] TonyL#3577
+Maybe it should work 1:1 all the time, I dont know
+
+
+[19-Apr-19 11:13 AM] jl777c#5810
+oh, this is sidechain?
+
+
+[19-Apr-19 11:13 AM] TonyL#3577
+I thought that if I deposited 0.05 I can withdraw only 0.05
+
+
+[19-Apr-19 11:14 AM] TonyL#3577
+Yup, importgateway
+
+
+[19-Apr-19 11:14 AM] jl777c#5810
+if a sidechain, the coins are 1:1
+
+
+[19-Apr-19 11:15 AM] TonyL#3577
+Strange so that I was able to withdraw 3 times by 0.01 already:
+```./komodo-cli -ac_name=IMPORTGW importgatewaywithdraw e6c98b7a6a008e6fdca6f3605d65ec332514d569580cfe40f6c8dda4ce1a9063 KMD 03dd8fb8dbd2f6dfbb4bc903bea4f87127023665a7ad2246a84bfe11600ad37d96 0.01
+{
+  "result": "success",
+  "hex": "```
+
+But for 0.02 getting error:
+```./komodo-cli -ac_name=IMPORTGW importgatewaywithdraw e6c98b7a6a008e6fdca6f3605d65ec332514d569580cfe40f6c8dda4ce1a9063 KMD 03dd8fb8dbd2f6dfbb4bc903bea4f87127023665a7ad2246a84bfe11600ad37d96 0.02
+{
+  "result": "error",
+  "error": "cant find enough normal inputs"
+}
+```
+
+
+[19-Apr-19 11:16 AM] TonyL#3577
+https://kmdexplorer.io/address/RVACmXRgmVvN5FN4S5kBm12KXKog4SQHHU and GW deposit address still have 0.18 KMD balance
+
+
+[19-Apr-19 11:19 AM] jl777c#5810
+then you can withdraw up to 0.18 more
+
+
+[19-Apr-19 11:20 AM] jl777c#5810
+for sidechains, we will need to deposit extra coins to the msig address to compensate for whatever coins are used or got issued
+
+
+[19-Apr-19 11:58 AM] Mihailo#5902
+You can withdraw as much as you have coins and there is funds in deposit address.
+
+
+[19-Apr-19 11:59 AM] Mihailo#5902
+But you should not have more coins than deposited. Those starting coins should be in oracle publisher funds.
+
+
+[19-Apr-19 12:03 PM] Mihailo#5902
+I think I haven't made the check if there is enough funds in depodit address as in regular  gateway we have tokens released as they are deposited so it is 1:1 and here we have some additional coins so it could happen that there is withdraw of more than in deposit address but that should be checked if possible...
+
+
+[19-Apr-19 12:57 PM] TonyL#3577
+I think just something not good with mining node (I'm not able to subscribe on oracle from it with same error about normal inputs)
+From not mining node generating transaction for any sum
+
+
+[19-Apr-19 12:58 PM] TonyL#3577
+But can also generate withdrawal transaction with amount more than gateway deposit address balance
+
+
+[19-Apr-19 01:08 PM] Mihailo#5902
+And minimg node have some balance?
+
+
+[19-Apr-19 01:12 PM] TonyL#3577
+Yes, it have
+
+
+[19-Apr-19 01:12 PM] Mihailo#5902
+Hmmm
+
+
+[19-Apr-19 01:14 PM] TonyL#3577
+Oh it's just too little
+
+
+[19-Apr-19 01:14 PM] TonyL#3577
+Because default reward is very little
+
+
+[19-Apr-19 01:15 PM] TonyL#3577
+Sorry for confusion as usual - everything seems to work fine 😃
+Only problem which I can see for now is a possibility to generate withdraw tx with amount > than funds amount on gw deposit wallet
+
+
+[19-Apr-19 01:16 PM] TonyL#3577
+Can try to broadcast such tx to see what will happen
+
+
+[20-Apr-19 03:11 AM] Mihailo#5902
+Well usually users won't have more coins than imported, but I can see if I can make some check.
+
+
+[22-Apr-19 02:37 AM] Mihailo#5902
+@TonyL, it is very difficult to check or trace how much there is in deposited address. Either I need to track how much it was deposited/withdrawn so every withdraw tx should keep the balance in opret for example, or there should be some connection with external daemon to check how much there is in deposited address.
+Basically when it is set correctly, users will have only imported coins. Initial coins should be burnt or kept by the creator of chain so that they are not mixed with imported coins.
+
+{Reactions}
+👌 
+
+[22-Apr-19 02:37 AM] jl777c#5810
+why not getaddressbalance?
+
+
+[22-Apr-19 02:38 AM] Mihailo#5902
+How do you mean? This deposit address is on external chain...
+
+
+[22-Apr-19 02:38 AM] jl777c#5810
+ooops
+
+
+[22-Apr-19 02:38 AM] Mihailo#5902
+😛
+
+
+[22-Apr-19 02:38 AM] jl777c#5810
+sorry, didnt realize the context
+
+
+[22-Apr-19 02:38 AM] jl777c#5810
+i guess only komodo chains have such handy things
+
+
+[22-Apr-19 02:39 AM] jl777c#5810
+seems we need to rely on the 1:1 correlation between deposits, coins, withdraws
+
+
+[22-Apr-19 02:39 AM] jl777c#5810
+so adding a reserve to the multisig that matches whatever coins were needed to be created
+
+
+[22-Apr-19 02:40 AM] Mihailo#5902
+Yes, that would be a good way. Except for BTC :D, would'nt want to put 10BTC in reserve 😛
+
+
+[22-Apr-19 02:41 AM] Mihailo#5902
+Import tx is a free tx, right? No txfee?
+
+
+[22-Apr-19 02:41 AM] jl777c#5810
+up to the consensus rules
+
+
+[22-Apr-19 02:41 AM] jl777c#5810
+can burn whatever excess or deposit matching
+
+
+[22-Apr-19 02:42 AM] Mihailo#5902
+Yep
+
+
+[22-Apr-19 02:43 AM] Mihailo#5902
+I'm thinking about people that will import coins, they do not have to have some coins in order to import as there is no fee?
+
+
+[22-Apr-19 02:46 AM] jl777c#5810
+if a zerofee doesnt work, we should make it work
+
+
+[22-Apr-19 02:49 AM] Mihailo#5902
+No, it was working so far. I'm just checking the logic.
+
+
+[22-Apr-19 02:50 AM] Mihailo#5902
+So when the setup of sidechain is done, all other coins should either be burnt or kept on a side or the deposit for them must be done.
+
+
+[18-Jul-19 02:14 AM] Malti#3948
+is this the cc channel for the fiat gateway to the dex?
+
+
+[18-Jul-19 02:16 AM] Mihailo#5902
+No. The gateways CC is for making a gateway from external chains like (BTC,KMD,LTC...) to a Komodo asset chain. You can deposit 1 BTC on Bitcoin blockchain, and get 1 BTCT token on asset chain.
+
+{Reactions}
+👍 
+
+[30-Aug-19 05:42 PM] CrisF#3405
+Hi,
+I'm looking into how to tokenize physical objects for trading with the goal of creating a testcase demo.  I'm stepping quite far out of my depth and would appreciate any help with the noob questions I'll have.
+
+{Reactions}
+🆒 
+
+[30-Aug-19 05:45 PM] CrisF#3405
+Here's the first,
+Fungible or non-fungible?  In the (example) case where I wanted to tokenize my house.
+
+
+[30-Aug-19 05:51 PM] Alright#0419
+@CrisF do you have two fungible houses? :troll:
+
+{Reactions}
+👍 
+
+[30-Aug-19 05:51 PM] Alright#0419
+just google "fungible" if you don't know what it means
+
+
+[30-Aug-19 05:51 PM] Alright#0419
+in the case of a house, if it's split over multiple tokens somehow, those tokens are "fungible" with each other
+
+
+[30-Aug-19 05:52 PM] Alright#0419
+if it's a single token, it's "non-fungible" as there is no other
+
+
+[30-Aug-19 05:54 PM] CrisF#3405
+Yeah, I googled it.  
+So it is the total asset that is non-fungible.
+
+
+[30-Aug-19 05:55 PM] CrisF#3405
+I was thinking of the case that I split the house into many tokens, like shares in the house.
+
+
+[30-Aug-19 05:56 PM] CrisF#3405
+(There's going to be really noob questions like these!)
+
+
+[30-Aug-19 05:59 PM] Alright#0419
+if there are 5 tokens to that represent 1/5 of a house each, those 5 tokens are fungible with each other
+
+
+[30-Aug-19 06:01 PM] CrisF#3405
+That's what I was thinking.  So I'm not sure whether to chose fungible or non-fungible when creating the token.
+
+
+[30-Aug-19 06:01 PM] CrisF#3405
+I would like the individual tokens to be fungible with each other.
+
+
+[31-Aug-19 01:46 PM] polycryptoblog#1173
+Timeshares lol
+
+{Reactions}
+troll_hardcore (2) 
+
+[02-Sep-19 01:48 AM] Mihailo#5902
+Blockchain timeshares 😄
+
+
+[13-Oct-19 05:08 AM] johnwhitestar#1227
+I'd like to ask, the gateways are based on multisig, right?
+
+
+[13-Oct-19 06:10 AM] smkhound#7640
+https://developers.komodoplatform.com/basic-docs/antara/antara-api/gateways.html#gatewaysbind
+
+
+[13-Oct-19 12:58 PM] johnwhitestar#1227
+@smkhound Thank you for the documentation. I've already read it, and what I understood is that the gateways are based on multisig, i.e. that one can withdraw from a gateway only if the owner/owners of the gateway let him to. Have I understood right?
+
+
+[13-Oct-19 04:55 PM] smkhound#7640
+Correct, though you can set one up and be ins owner, and the validation process is handled by an oraclefeed automatically (which must be kept running) for both deposits and withdrawls. It can be tricky to get your head around, but there is a walkthrough on the dev docs site.
+
+
+[15-Oct-19 09:03 AM] Mihailo#5902
+@johnwhitestar Yes, gateway can be multisig but it also can be single signature. The point with multisig is to make the deposit and withdraw as decentralized as possible. The idea for some gateways that will be ran on KMD asset chains is that notary nodes (which are trusted as they do the dPoW) also run oraclefeed which is responsible for posting external chain block data and responsible for withdraws. For example it will be gateway with 7of15 signatures necessary for withdraw or even more.
+
+
+[15-Oct-19 09:05 AM] Mihailo#5902
+Single signature gateways is basically centralized as you are puting trust in one point that can become corrupted, and you are throwing away all the point of blockchain. But probably there will be cases for single sig gateways.
+
+
+[15-Oct-19 11:20 AM] johnwhitestar#1227
+@Mihailo I'm specifically interested in decentralized solution. I'm thinking to create "smart tokens" based on KMD for a currency I'm quite involved in. So that currency would acquire off-chain KMD CC functionality. For that reason I'd need a gateway from and into KMD for that currency. But of course if it's just me who guaranties that gateway it's doesn't look out serious. Can I use KMD notaries for that purpose then, right? So there are automated 15 signatures to guaranty withdrawals from the gateway, am I understanding it right?
+
+
+[15-Oct-19 11:45 AM] johnwhitestar#1227
+Is there a test-chain to try my ideas on it without polluting the main chain. Are there also other KMD based chains to be used for my purpose?
+
+
+[15-Oct-19 11:46 AM] johnwhitestar#1227
+What are the costs involved if I use notaries to guaranty gateway withdrawals?
+
+
+[15-Oct-19 11:46 AM] phm87#7395
+some "test coins" with dpow are on kmdlabs, @CrisF  is already playing with some of them
+
+
+[15-Oct-19 11:47 AM] johnwhitestar#1227
+thank you @phm87  but is KMDlabs a kind of test net for KMD or it has its own test chain instead?
+
+
+[15-Oct-19 12:04 PM] johnwhitestar#1227
+@CrisF seems like we are following similar paths, maybe we should consider cooperating 🙂
+
+
+[15-Oct-19 12:59 PM] phm87#7395
+No, KMDLabs is not a testnet for KMD but some KMD stuff are tested on KMDLabs. In #kmdlabs channel, you'll have more details. LABS is the coin of KMDLabs, LABS is notarized on KMD and other chains tested at the moment are also notarized. It is possible to ask (and maybe pay a little sth) to add a new coin during a testing period. KMDLabs is for testing, not for long term dpow: there is the official NN network for this
+
+
+[15-Oct-19 01:00 PM] phm87#7395
+About testnet, we can launch assetchains/smartchains easily for any random purposes
+
+
+[16-Oct-19 02:30 AM] CrisF#3405
+Hi guys,
+Sorry for the slow reply.
+Yes, I'm trying this out and have done some basic testing to learn how it works.
+My interest in it is to gain knowledge to pass along to a project that has asked me about it.
+I'm keen to test further.
+Things are extremely busy here atm so I won't be able to get back to it until at least Friday (if I survive, haha)
+
+
+[16-Oct-19 02:30 AM] CrisF#3405
+@johnwhitestar @phm87
+
+
+[16-Oct-19 02:31 AM] phm87#7395
+I also have many ongoing things and projects so few availability
+
+
+[16-Oct-19 02:35 AM] CrisF#3405
+A Labs chain should a good simulation although the hard fork is coming at the end of the month. Any suggestions @Alright ☝  (re: johnwhitestar#1227 's question)
+
+
+[03-Nov-19 02:20 PM] Regnar#6164
+```- Gateways
+  - Gateways CC Creation TUI in Python - [https://github.com/tonymorony/komodo-cctools-python/blob/master/gateways_creation_tui.py](https://github.com/tonymorony/komodo-cctools-python/blob/master/gateways_creation_tui.py)
+  - Gateways CC Usage TUI in Python - [https://github.com/tonymorony/komodo-cctools-python/blob/master/gateways_usage_tui.py](https://github.com/tonymorony/komodo-cctools-python/blob/master/gateways_usage_tui.py)```
+
+Hey all, if you have any proof of concepts, or built something cool for Gateways CC, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and add this to the Komodo docs page. TUIs are good too!
+
+{Reactions}
+👍 (2) 
+
+[15-Nov-20 06:35 PM] nultinator#8234
+When the gateways module is used with tokens and an oracle to connect a smart chain to an external chain, does the external chain need to also be a smart chain?
+
+
+[15-Nov-20 07:24 PM] grewalsatinder#9653
+The external chain could be any other chain, example BTC, DOGE, LTC etc
+
+
+[15-Nov-20 07:42 PM] nultinator#8234
+Thank you. You guys here at kmd really do an awesome job.
+
+
+[15-Nov-20 07:44 PM] nultinator#8234
+Also, can the gateway connect to an eth wallet or is it uxto only?
+
+
+[15-Nov-20 07:49 PM] grewalsatinder#9653
+go through these 2 links:
+https://developers.komodoplatform.com/basic-docs/antara/antara-api/gateways.html#introduction
+
+
+[15-Nov-20 07:49 PM] grewalsatinder#9653
+https://github.com/dimxy/komodo/wiki/%27Prices%27-module-configuration-notes
+
+
+[15-Nov-20 07:54 PM] nultinator#8234
+Much appreciated
+
+{Reactions}
+👍 
+
+==============================================================
+Exported 519 message(s)
+==============================================================

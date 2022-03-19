@@ -1,0 +1,1679 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-faucet
+Topic: https://developers.komodoplatform.com
+==============================================================
+
+[15-Dec-18 05:51 AM] gcharang#6833
+theres only one default faucet in any chain correct? anybody can fund it and new pubkeys can get coins from it.
+
+
+[15-Dec-18 06:12 AM] jl777c#5810
+correct
+
+
+[15-Dec-18 06:50 AM] gcharang#6833
+Ok. Is there any PoW done when `faucetget` is issued?
+
+
+[15-Dec-18 06:57 AM] jl777c#5810
+yes, txpow
+
+
+[17-Dec-18 06:31 AM] gcharang#6833
+This is the output of faucetaddress RPC:
+```json
+{
+  "result": "success",
+  "FaucetCCaddress": "R9zHrofhRbub7ER77B7NrVch3A63R39GuC",
+  "Faucetmarker": "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk",
+  "GatewaysPubkey": "03ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb40",
+  "FaucetCCassets": "RF2p5LgEBpUzUgUyFSUDa8ZBnr2wxE87do",
+  "CCaddress": "RReGLfH2MTrkeLSepkVy5vnQPE29g7KofS",
+  "myCCaddress": "RReGLfH2MTrkeLSepkVy5vnQPE29g7KofS",
+  "myaddress": "RJYiWn3FRCSSLf9Pe5RJcbrKQYosaMburP"
+}
+```
+
+
+[17-Dec-18 06:32 AM] gcharang#6833
+What is "FaucetCCassets" and "Faucetmarker" ?
+
+
+[17-Dec-18 06:34 AM] jl777c#5810
+internal addresses
+
+
+[17-Dec-18 06:35 AM] gcharang#6833
+No need to explain them in docs?
+
+
+[17-Dec-18 06:35 AM] gcharang#6833
+I mean won't a dapp developer using RPC interface find them useful?
+
+
+[17-Dec-18 06:35 AM] jl777c#5810
+just say they are used internall
+
+
+[17-Dec-18 06:36 AM] jl777c#5810
+it is just using a standard template to print assets CC addresses and marker addresses, only really useful for gateways and a few other CC
+
+
+[17-Dec-18 06:37 AM] gcharang#6833
+ahh got it. Any difference between `myCCaddress` and `CCaddress` ? Will they be different for some cc?
+
+
+[17-Dec-18 06:37 AM] jl777c#5810
+for CC that use nonstandard 1of1 CC, like channels, likely it will be different
+
+
+[17-Dec-18 06:48 AM] gcharang#6833
+Got it.
+
+
+[30-Dec-18 09:32 PM] TonyL#3577
+FYI: This chat is not for Discord tip bot but for questions regards `Faucet` CryptoConditions consensus module.
+Channel for discord bot conversations is #🤑┃tip-bot
+
+
+[26-Jan-19 06:15 PM] grewalsatinder#9653
+testing faucet API
+
+
+[26-Jan-19 06:16 PM] grewalsatinder#9653
+```satinders-MBP-2:~ satinder$ txsclcc getnewaddress
+RC1H4H33Uc9AMoC2Zba4EbV9NR6xxq8UD2
+satinders-MBP-2:~ satinder$ txsclcc listaddressgroupings
+[
+  [
+    [
+      "RAhsSqt1kaCz8JVNqDiDNFSVeYTubrLDSz",
+      300.00000000,
+      ""
+    ]
+  ]
+]
+satinders-MBP-2:~ satinder$ txsclcc validateaddress RC1H4H33Uc9AMoC2Zba4EbV9NR6xxq8UD2
+{
+  "isvalid": true,
+  "address": "RC1H4H33Uc9AMoC2Zba4EbV9NR6xxq8UD2",
+  "scriptPubKey": "76a9141de5e0bf9978096e4420683281105388c1cc13fa88ac",
+  "segid": 25,
+  "ismine": true,
+  "iswatchonly": false,
+  "isscript": false,
+  "pubkey": "033245af84ec5fbff0562c874fe32f027d12f4f0e49f26152721fec490c2be5095",
+  "iscompressed": true,
+  "account": ""
+} ```
+
+
+[26-Jan-19 06:16 PM] grewalsatinder#9653
+```
+satinders-MBP-2:~ satinder$ txsclcc faucetaddress "033245af84ec5fbff0562c874fe32f027d12f4f0e49f26152721fec490c2be5095"
+{
+  "result": "success",
+  "FaucetCCaddress": "R9zHrofhRbub7ER77B7NrVch3A63R39GuC",
+  "Faucetmarker": "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk",
+  "GatewaysPubkey": "03ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb40",
+  "FaucetCCassets": "RDgSnT3X4JKHoQ8q6gFWxN3LRT6ZkdQMXL",
+  "CCaddress": "RPWaziFnHHnXtwiCgUToUDrCRdAQpu3qHD",
+  "myCCaddress": "RCqqTRRow7WUu9zAGMWBdmvRdPMJMLBfYL",
+  "myaddress": "RAhsSqt1kaCz8JVNqDiDNFSVeYTubrLDSz"
+}
+satinders-MBP-2:~ satinder$ txsclcc getinfo
+{
+  "version": 2001526,
+  "protocolversion": 170007,
+  "KMDversion": "0.3.3b",
+  "notarized": 86704,
+  "prevMoMheight": 86704,
+  "notarizedhash": "0147f23a9ff2cfbc2ad7582d5abd5194912a4783fe92a8324e9ffb490fd7b41b",
+  "notarizedtxid": "f8ef99084777a6f123cd0b44023c68262c553f7c29683defeb1a7c4918f871fc",
+  "notarizedtxid_height": "mempool",
+  "KMDnotarized_height": 0,
+  "notarized_confirms": 0,
+  "walletversion": 60000,
+  "balance": 300.00000000,
+  "blocks": 86724,
+  "longestchain": 86724,
+  "timeoffset": 0,
+  "tiptime": 1548555136,
+  "connections": 1,
+  "proxy": "",
+  "difficulty": 11.69833574358123,
+  "testnet": false,
+  "keypoololdest": 1548509045,
+  "keypoolsize": 101,
+  "paytxfee": 0.00000000,
+  "relayfee": 0.00000100,
+  "errors": "",
+  "pubkey": "02fbccd779e492bcf3b12707c1461ea857b4e2ee0ad990f13059c02189bd5d8eda",
+  "CCid": 2,
+  "name": "TXSCLCC",
+  "sapling": 25089,
+  "p2pport": 51797,
+  "rpcport": 51798,
+  "magic": 838813297,
+  "premine": 0,
+  "reward": "2500000000",
+  "halving": "210000",
+  "decay": "0",
+  "endsubsidy": "0"
+}
+satinders-MBP-2:~ satinder$```
+
+
+[26-Jan-19 06:16 PM] grewalsatinder#9653
+I'm running the daemon with this pubkey `02fbccd779e492bcf3b12707c1461ea857b4e2ee0ad990f13059c02189bd5d8eda`
+
+
+[26-Jan-19 06:16 PM] grewalsatinder#9653
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-faucet.html#faucetaddress
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-faucet.html
+Contract Module: Faucet | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[26-Jan-19 06:16 PM] grewalsatinder#9653
+this says the command parameter `pubkey` is optional for `faucetaddress` method
+
+
+[26-Jan-19 06:17 PM] grewalsatinder#9653
+I was expecting if given the `pubkey`different to the one which is in daemon start, it will give me the CC address from that pubkey
+
+
+[26-Jan-19 06:18 PM] grewalsatinder#9653
+but I still get the same CC address for the `pubkey` used in daemon start, instead of getting the address for the `pubkey` from newly generated address.
+
+
+[26-Jan-19 06:18 PM] grewalsatinder#9653
+Is that expected behavior ?
+
+
+[26-Jan-19 06:43 PM] Deleted User#0000
+You cant change -pubkey once it is set.
+
+
+[26-Jan-19 07:18 PM] grewalsatinder#9653
+Don't want to change -pubkey
+Want to get different address if faucet command is used with different pubkey
+
+
+[26-Jan-19 09:27 PM] Mylo#8306
+yes it reads a bit differently to the behaviour.   I'm just doing some maint and will repeat.
+
+
+[26-Jan-19 10:15 PM] Deleted User#0000
+You cant cange the poubkey... ALL CC contracts use the -pubkey... if somehting says thats not the case then the document is wrong
+
+
+[27-Jan-19 12:47 AM] Mylo#8306
+@grewalsatinder there is only 1 faucet on the chain.  so you can't have another faucet address from what i understand.
+
+
+[27-Jan-19 12:47 AM] Mylo#8306
+it's like a singleton
+
+
+[27-Jan-19 12:47 AM] Mylo#8306
+i might be wrong.
+
+
+[27-Jan-19 02:09 AM] Mihailo#5902
+@grewalsatinder The faucet address is a global CC address. So per chain you will have only one faucet address.
+
+
+[27-Jan-19 02:51 AM] grewalsatinder#9653
+@Mihailo Is your answer for this API call?
+```faucetaddress
+
+faucetaddress [pubkey]
+
+The faucetaddress method returns the CC address information for the specified pubkey. If no pubkey is provided, the method returns information for the pubkey used to launch the daemon.```
+
+
+[27-Jan-19 02:52 AM] grewalsatinder#9653
+```Arguments:
+Structure     Type     Description
+pubkey     (string, optional)     the desired pubkey; the method uses the pubkey used to launch the daemon if no pubkey is provided
+```
+
+
+[27-Jan-19 02:54 AM] grewalsatinder#9653
+I was only looking at this answer:
+```myaddress     (string)     the unmodified public address of the pubkey used to launch the chain```
+
+
+[27-Jan-19 02:54 AM] grewalsatinder#9653
+launched chain with this address's pubkey : `RAhsSqt1kaCz8JVNqDiDNFSVeYTubrLDSz`
+
+
+[27-Jan-19 02:55 AM] grewalsatinder#9653
+so without supplying pubkey to `faucetaddress` I get `myaddress` as `RAhsSqt1kaCz8JVNqDiDNFSVeYTubrLDSz` in answer.
+
+
+[27-Jan-19 02:55 AM] grewalsatinder#9653
+which is expected result
+
+
+[27-Jan-19 02:55 AM] grewalsatinder#9653
+I re-read the help doc again to see If I misunderstood anything.
+
+
+[27-Jan-19 02:57 AM] grewalsatinder#9653
+I get the point that if the chain is launched with the `-pubkey` that address is set for the chain to be used like the default address for:
+- change address
+- using the `-pubkey` pubkey to generate the CC address, the `myaddres` for the end user to recieve the funds to, or whatever the user is using that `myaddress` for that whatever X CC.
+
+
+[27-Jan-19 02:58 AM] grewalsatinder#9653
+Re-reading cleared that the faucet will only send the funds just **once** and no more, if the address pubkey supplied to the daemon has no funds in it.
+
+
+[27-Jan-19 02:59 AM] grewalsatinder#9653
+what if I want to use the **other** address?
+
+
+[27-Jan-19 03:00 AM] grewalsatinder#9653
+The option is:
+getnewaddress
+validateaddress, get pubkey,
+restart daemon with that pubkey
+faucetaddress to get the `myCCaddress` for that pubkey
+
+
+[27-Jan-19 03:00 AM] jl777c#5810
+there is no way for the blockchain to know if an address is "other" for you
+
+
+[27-Jan-19 03:00 AM] grewalsatinder#9653
+I thought this restart was not needed.
+
+
+[27-Jan-19 03:00 AM] jl777c#5810
+it looks at activity in an address to decide if it should allow faucetget
+
+
+[27-Jan-19 03:01 AM] TonyL#3577
+I've just tried to generate new address and change pubkey param
+
+
+[27-Jan-19 03:02 AM] TonyL#3577
+`myaddress` in faucetaddress changed to new one
+
+
+[27-Jan-19 03:02 AM] TonyL#3577
+```-pubkey=03f5312a0f06c281cb11d34a2a77fe66a8e3e74e23169bf12bf2eaa21c28d9e505
+```
+For this pubkey I get ```  "myaddress": "RV3dpmH95Y6QmPNcFRJTXMrLPZQ89keTky"```
+
+
+[27-Jan-19 03:02 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY11 validateaddress RV3dpmH95Y6QmPNcFRJTXMrLPZQ89keTky
+{
+ "isvalid": true,
+ "address": "RV3dpmH95Y6QmPNcFRJTXMrLPZQ89keTky",
+ "scriptPubKey": "76a914d8d22f00a5b868bfae3a0d868dad11ffbd48eefd88ac",
+ "segid": 14,
+ "ismine": true,
+ "iswatchonly": false,
+ "isscript": false,
+ "pubkey": "03f5312a0f06c281cb11d34a2a77fe66a8e3e74e23169bf12bf2eaa21c28d9e505",
+ "iscompressed": true,
+ "account": ""
+}```
+
+
+[27-Jan-19 03:03 AM] TonyL#3577
+Then I get new address
+```./komodo-cli -ac_name=TONY11 getnewaddress
+RSjeEtHimVPv913AE1WQSWeY2uJpwoERVK
+```
+```./komodo-cli -ac_name=TONY11 validateaddress RSjeEtHimVPv913AE1WQSWeY2uJpwoERVK
+{
+  "isvalid": true,
+  "address": "RSjeEtHimVPv913AE1WQSWeY2uJpwoERVK",
+  "scriptPubKey": "76a914bf7acab8ad593206d04b987eeb24869aaee44fc088ac",
+  "segid": 4,
+  "ismine": true,
+  "iswatchonly": false,
+  "isscript": false,
+  "pubkey": "024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56",
+  "iscompressed": true,
+  "account": ""
+}
+```
+
+
+[27-Jan-19 03:03 AM] TonyL#3577
+Stopped daemon
+```  ./komodo-cli -ac_name=TONY11 stop
+TONY11 server stopping
+```
+
+
+[27-Jan-19 03:03 AM] TonyL#3577
+Started with new pubkey:
+```-pubkey=024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56```
+
+
+[27-Jan-19 03:04 AM] TonyL#3577
+And get in `faucetaddress`:
+```"myaddress": "RSjeEtHimVPv913AE1WQSWeY2uJpwoERVK"```
+
+
+[27-Jan-19 03:04 AM] TonyL#3577
+So everything seems to work as expected
+
+
+[27-Jan-19 03:05 AM] grewalsatinder#9653
+@TonyL yep, that is expected behavior, as I understood.
+
+
+[27-Jan-19 03:05 AM] grewalsatinder#9653
+```satinders-MacBook-Pro-2:~ satinder$ ps aux | grep komodod
+satinder         20596  54.4  2.4  4780660 395508   ??  SNs  12:01am   0:15.44 komodod -daemon -ac_name=TXSCLCC -ac_supply=0 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=54.36.126.42 -addnode=94.130.224.11 -pubkey=02fbccd779e492bcf3b12707c1461ea857b4e2ee0ad990f13059c02189bd5d8eda
+satinder         20605   0.0  0.0  4268036    796 s002  S+   12:01am   0:00.00 grep komodod
+satinders-MacBook-Pro-2:~ satinder$ txsclcc validateaddress RAhsSqt1kaCz8JVNqDiDNFSVeYTubrLDSz
+{
+  "isvalid": true,
+  "address": "RAhsSqt1kaCz8JVNqDiDNFSVeYTubrLDSz",
+  "scriptPubKey": "76a9140fa2f8ac68d801d2c13648fac269f96ec53fdeaa88ac",
+  "segid": 21,
+  "ismine": true,
+  "iswatchonly": false,
+  "isscript": false,
+  "pubkey": "02fbccd779e492bcf3b12707c1461ea857b4e2ee0ad990f13059c02189bd5d8eda",
+  "iscompressed": true,
+  "account": ""
+}
+satinders-MacBook-Pro-2:~ satinder$ 
+satinders-MacBook-Pro-2:~ satinder$ txsclcc faucetaddress 
+{
+  "result": "success",
+  "FaucetCCaddress": "R9zHrofhRbub7ER77B7NrVch3A63R39GuC",
+  "Faucetmarker": "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk",
+  "GatewaysPubkey": "03ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb40",
+  "FaucetCCassets": "RXeCwa6SVubZ7NbANDT3JNc9PzcwXm5Gwu",
+  "myCCaddress": "RCqqTRRow7WUu9zAGMWBdmvRdPMJMLBfYL",
+  "myaddress": "RAhsSqt1kaCz8JVNqDiDNFSVeYTubrLDSz"
+}
+
+```
+
+
+[27-Jan-19 03:05 AM] grewalsatinder#9653
+```"myCCaddress": "RCqqTRRow7WUu9zAGMWBdmvRdPMJMLBfYL",```
+
+
+[27-Jan-19 03:06 AM] grewalsatinder#9653
+Which is correct, as it's using the pubkey from daemon launch
+
+
+[27-Jan-19 03:06 AM] grewalsatinder#9653
+the `myCCaddress`
+
+
+[27-Jan-19 03:06 AM] grewalsatinder#9653
+```satinders-MacBook-Pro-2:~ satinder$ txsclcc validateaddress RC1H4H33Uc9AMoC2Zba4EbV9NR6xxq8UD2
+{
+  "isvalid": true,
+  "address": "RC1H4H33Uc9AMoC2Zba4EbV9NR6xxq8UD2",
+  "scriptPubKey": "76a9141de5e0bf9978096e4420683281105388c1cc13fa88ac",
+  "segid": 25,
+  "ismine": true,
+  "iswatchonly": false,
+  "isscript": false,
+  "pubkey": "033245af84ec5fbff0562c874fe32f027d12f4f0e49f26152721fec490c2be5095",
+  "iscompressed": true,
+  "account": ""
+}
+satinders-MacBook-Pro-2:~ satinder$ txsclcc faucetaddress 033245af84ec5fbff0562c874fe32f027d12f4f0e49f26152721fec490c2be5095
+{
+  "result": "success",
+  "FaucetCCaddress": "R9zHrofhRbub7ER77B7NrVch3A63R39GuC",
+  "Faucetmarker": "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk",
+  "GatewaysPubkey": "03ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb40",
+  "FaucetCCassets": "RDgSnT3X4JKHoQ8q6gFWxN3LRT6ZkdQMXL",
+  "CCaddress": "RPWaziFnHHnXtwiCgUToUDrCRdAQpu3qHD",
+  "myCCaddress": "RCqqTRRow7WUu9zAGMWBdmvRdPMJMLBfYL",
+  "myaddress": "RAhsSqt1kaCz8JVNqDiDNFSVeYTubrLDSz"
+}
+
+
+
+"myCCaddress": "RCqqTRRow7WUu9zAGMWBdmvRdPMJMLBfYL",```
+
+
+[27-Jan-19 03:06 AM] grewalsatinder#9653
+```"myCCaddress": "RCqqTRRow7WUu9zAGMWBdmvRdPMJMLBfYL",```
+
+
+[27-Jan-19 03:07 AM] grewalsatinder#9653
+That is what I was trying, I thought I'll get different `myCCaddress`. Understood I'll need to restart daemon to get that new `myCCaddress`
+
+
+[27-Jan-19 03:07 AM] TonyL#3577
+Oh so point is not `myaddress` but `myCCaddress`
+
+
+[27-Jan-19 03:07 AM] grewalsatinder#9653
+Why does daemon restart is needed for getting new `myCCaddress` ?
+
+
+[27-Jan-19 03:08 AM] grewalsatinder#9653
+@tony yes mate
+
+
+[27-Jan-19 03:09 AM] grewalsatinder#9653
+Let me try and test the daemon without staring it with any `-pubkey` param
+
+
+[27-Jan-19 03:12 AM] Alright#0419
+pretty sure supplying it a pubkey works if `-pubkey` is not set
+
+
+[27-Jan-19 03:12 AM] grewalsatinder#9653
+tested
+
+
+[27-Jan-19 03:12 AM] grewalsatinder#9653
+```satinders-MacBook-Pro-2:~ satinder$ txsclcc faucetaddress 
+error code: -1
+error message:
+to use CC contracts, you need to launch daemon with valid -pubkey= for an address in your wallet. ERR=-1
+
+satinders-MacBook-Pro-2:~ satinder$ txsclcc faucetaddress 033245af84ec5fbff0562c874fe32f027d12f4f0e49f26152721fec490c2be5095
+error code: -1
+error message:
+to use CC contracts, you need to launch daemon with valid -pubkey= for an address in your wallet. ERR=-1
+
+satinders-MacBook-Pro-2:~ satinder$ 
+```
+
+
+[27-Jan-19 03:12 AM] grewalsatinder#9653
+😄
+
+
+[27-Jan-19 03:12 AM] Alright#0419
+but yes @grewalsatinder has a point
+
+
+[27-Jan-19 03:12 AM] TonyL#3577
+`myCCaddress` generating for pubkey from -pubkey param and evalcode as I understand
+
+
+[27-Jan-19 03:12 AM] Alright#0419
+it should either not have any arguments or should work for the pubkey you provide it
+
+
+[27-Jan-19 03:13 AM] TonyL#3577
+So in your example above you're using daemon with same `-pubkey` param
+
+
+[27-Jan-19 03:13 AM] TonyL#3577
+And getting the same `myCCaddress` output
+
+
+[27-Jan-19 03:13 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY11 faucetaddress
+{
+  "result": "success",
+  "FaucetCCaddress": "R9zHrofhRbub7ER77B7NrVch3A63R39GuC",
+  "Faucetmarker": "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk",
+  "GatewaysPubkey": "03ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb40",
+  "FaucetCCassets": "RXeCwa6SVubZ7NbANDT3JNc9PzcwXm5Gwu",
+  "myCCaddress": "REZHv8XpwsgigrUixDdstMwxMdcUD3a7f5",
+  "myaddress": "RV3dpmH95Y6QmPNcFRJTXMrLPZQ89keTky"
+}```
+```./komodo-cli -ac_name=TONY11 faucetaddress
+{
+  "result": "success",
+  "FaucetCCaddress": "R9zHrofhRbub7ER77B7NrVch3A63R39GuC",
+  "Faucetmarker": "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk",
+  "GatewaysPubkey": "03ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb40",
+  "FaucetCCassets": "RXeCwa6SVubZ7NbANDT3JNc9PzcwXm5Gwu",
+  "myCCaddress": "RLMzcnKo1snCGhrnwjX1PXC3QAdR15PEn8",
+  "myaddress": "RSjeEtHimVPv913AE1WQSWeY2uJpwoERVK"
+}
+```
+
+
+[27-Jan-19 03:14 AM] TonyL#3577
+For daemons started with different pubkeys
+
+
+[27-Jan-19 03:14 AM] TonyL#3577
+But you've used some `pubkey` as faucetaddress argument - I'm not totally sure which addresses it should show in this case
+
+
+[27-Jan-19 03:15 AM] grewalsatinder#9653
+@TonyL my point is, if there is an option in the command to supply the `pubkey` it should give me the `myCCaddress` for that pubkey, that was what I was expecting.
+
+
+[27-Jan-19 03:15 AM] grewalsatinder#9653
+didn't understand the need for the option if the pubkey has to be supplied to daemon at start
+
+
+[27-Jan-19 03:15 AM] grewalsatinder#9653
+in that case supplying pubkey to the client command is not needed at all.
+
+
+[27-Jan-19 03:16 AM] grewalsatinder#9653
+if needed, then that supplied pubkey's `myCCaddress` is expected to be used
+
+
+[27-Jan-19 03:16 AM] grewalsatinder#9653
+unless my understanding is not clear or there is some misunderstanding
+
+
+[27-Jan-19 03:16 AM] grewalsatinder#9653
+felt confused, so trying to clear things
+
+
+[27-Jan-19 03:16 AM] Alright#0419
+it should either not have any arguments or should work for the pubkey you provide it
+
+
+[27-Jan-19 03:17 AM] Alright#0419
+or am I crazy? I think it's clear it's a bug or unimplemented feature
+
+
+[27-Jan-19 03:17 AM] Deleted User#0000
+should not have any arguments
+
+
+[27-Jan-19 03:17 AM] Deleted User#0000
+if pubkey is not set
+
+
+[27-Jan-19 03:17 AM] Deleted User#0000
+it should tell you its not set
+
+
+[27-Jan-19 03:17 AM] grewalsatinder#9653
+@Alright yep, you and me are on same page... I think 😅
+
+
+[27-Jan-19 03:18 AM] TonyL#3577
+Hmm channelsCC's `channelsadress` works only with pubkey provided
+
+
+[27-Jan-19 03:18 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY11 channelsaddress
+error code: -1
+error message:
+channelsaddress destpubkey
+```
+
+
+[27-Jan-19 03:18 AM] Deleted User#0000
+so its a bug with faucvet address then
+
+
+[27-Jan-19 03:18 AM] Alright#0419
+Yea I think I've used it with providing pubkey before
+
+
+[27-Jan-19 03:19 AM] Alright#0419
+at least other CC address commands
+
+
+[27-Jan-19 03:19 AM] Deleted User#0000
+to me, I think it shoulkd only return when pubke is set... as ALL the other RPCs are like that.
+
+
+[27-Jan-19 03:20 AM] TonyL#3577
+@Deleted User Do you mean `-pubkey` as daemon argument or as RPC call argument?
+
+
+[27-Jan-19 03:21 AM] Deleted User#0000
+as deamon argument
+
+
+[27-Jan-19 03:21 AM] TonyL#3577
+If you not set `-pubkey` as daemon argument it will return error
+
+
+[27-Jan-19 03:21 AM] Deleted User#0000
+if -pubkey has not been set it retunrs error
+
+
+[27-Jan-19 03:21 AM] Deleted User#0000
+and takes NO arguments...
+
+
+[27-Jan-19 03:21 AM] Deleted User#0000
+just retunrs yours
+
+
+[27-Jan-19 03:22 AM] TonyL#3577
+It's debug call mostly as I understand so I guess it's useful for CC developers since there is such pubkey option
+
+{Reactions}
+👍 
+
+[27-Jan-19 03:23 AM] grewalsatinder#9653
+So is that understanding is correct that ALL CC will only work with the single `myCCaddress` which is generated using `-pubkey` param at the starting of daemon?
+
+
+[27-Jan-19 03:23 AM] grewalsatinder#9653
+if need using different address, has to restart with different `-pubkey` ?
+
+
+[27-Jan-19 03:24 AM] jl777c#5810
+yes
+
+
+[27-Jan-19 03:24 AM] TonyL#3577
+It should work like this since `myCCaddress` generating for `-pubkey`
+
+
+[27-Jan-19 03:24 AM] jl777c#5810
+each pubkey generates dozens of related addresses, becomes unmanageable to have to juggle more than one pubkey
+
+
+[27-Jan-19 03:26 AM] grewalsatinder#9653
+okay, so to make things not complex the session from daemon start to daemon stop only is restricted to use the address from that single `-pubkey` supplied to daemon.
+
+
+[27-Jan-19 03:28 AM] grewalsatinder#9653
+or is there more reason to supply `-pubkey`? I mean what is the reason it is a daemon param and not an RPC command to activate/supply the `pubkey` to activate for the daemon?
+
+
+[27-Jan-19 03:28 AM] grewalsatinder#9653
+I know @Deleted User made an API, which is considered dangerous to use 😄
+
+
+[27-Jan-19 03:29 AM] TonyL#3577
+`-pubkey` is your identification card / passport for the CCs usage world 😃
+
+
+[27-Jan-19 03:29 AM] Deleted User#0000
+It can only set it once.. I have used it for many things though. The pool software I made uses it and so does the staking script. Hasnt been any issues.
+
+
+[27-Jan-19 03:29 AM] TonyL#3577
+To cross the border with new passport you have to go out of country first
+
+
+[27-Jan-19 03:31 AM] grewalsatinder#9653
+```satinders-MacBook-Pro-2:~ satinder$ txsclcc faucetaddress 033245af84ec5fbff0562c874fe32f027d12f4f0e49f26152721fec490c2be5095
+error code: -1
+error message:
+to use CC contracts, you need to launch daemon with valid -pubkey= for an address in your wallet. ERR=-1
+
+```
+
+```satinders-MacBook-Pro-2:~ satinder$ txsclcc setpubkey 033245af84ec5fbff0562c874fe32f027d12f4f0e49f26152721fec490c2be5095
+error: couldn't connect to server: EOF reached (code 1)
+(make sure server is running and you are connecting to the correct RPC port)
+satinders-MacBook-Pro-2:~ satinder$ ```
+
+
+[27-Jan-19 03:31 AM] grewalsatinder#9653
+@Deleted User
+
+
+[27-Jan-19 03:31 AM] grewalsatinder#9653
+I did not had the `-pubkey` set on startup of daemon
+
+
+[27-Jan-19 03:32 AM] grewalsatinder#9653
+is my steps not correct?
+
+
+[27-Jan-19 03:32 AM] Deleted User#0000
+It wont let you set it if it is set... Need backtrace
+
+
+[27-Jan-19 03:32 AM] Deleted User#0000
+yeah you just call it
+
+
+[27-Jan-19 03:32 AM] Deleted User#0000
+nothing special
+
+
+[27-Jan-19 03:32 AM] Deleted User#0000
+It has lots of error checks
+
+
+[27-Jan-19 03:32 AM] grewalsatinder#9653
+@TonyL nice analogy... 😉 👍
+
+{Reactions}
+Komodo 
+
+[27-Jan-19 03:34 AM] grewalsatinder#9653
+@Deleted User 
+>It wont let you set it if it is set...
+where ? I did not set it at daemon start. daemon started without `-pubkey`.
+how do I debug on mac ?
+
+
+[27-Jan-19 03:34 AM] TonyL#3577
+```gdb -args ./komodod ...```
+
+
+[27-Jan-19 03:35 AM] Deleted User#0000
+if the -pubkey is already set it *should* be returning an error. If it was not set it should retun a  address and the pubkey and isMine /true/false
+
+
+[27-Jan-19 03:35 AM] grewalsatinder#9653
+`gdb` okay, let me try
+
+
+[27-Jan-19 03:35 AM] Deleted User#0000
+it should nto crash... seems a MAC thing maybe?
+
+
+[27-Jan-19 03:35 AM] grewalsatinder#9653
+possible
+
+
+[27-Jan-19 03:36 AM] grewalsatinder#9653
+anyway, it's not something urgent, installing gdb, if can do something about it anyway
+
+
+[27-Jan-19 03:36 AM] Deleted User#0000
+if you can get a backtrrace that would be helpful, cleary soemthing there is wrong
+
+
+[27-Jan-19 03:36 AM] grewalsatinder#9653
+true
+
+
+[27-Jan-19 03:50 AM] grewalsatinder#9653
+```satinders-MacBook-Pro-2:~ satinder$ cd /Applications/Agama.app/Contents/Resources/app/assets/bin/osx/
+satinders-MacBook-Pro-2:osx satinder$ 
+satinders-MacBook-Pro-2:osx satinder$ gdb -args ./komodod -daemon -ac_name=TXSCLCC -ac_supply=0 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=54.36.126.42 -addnode=94.130.224.11
+GNU gdb (GDB) 8.2.1```
+
+
+[27-Jan-19 03:51 AM] grewalsatinder#9653
+```For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./komodod...
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/depends/x86_64-apple-darwin15.6.0/lib/librustzcash.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/./leveldb/libleveldb.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/./leveldb/libmemenv.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/crypto/libbitcoin_crypto.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/crypto/libverus_crypto.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/crypto/libverus_portable_crypto.a"
+
+warning: `/Users/psycrypt/Desktop/kmd_beta/src/komodod-bitcoind.o': can't open to read symbols: No such file or directory.
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/libbitcoin_common.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/libbitcoin_server.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/libbitcoin_util.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/libbitcoin_wallet.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/libbitcoin_zmq.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/libzcash.a"
+
+warning: Could not open OSO archive file "/Users/psycrypt/Desktop/kmd_beta/src/univalue/.libs/libunivalue.a"
+(no debugging symbols found)...done.```
+
+
+[27-Jan-19 03:51 AM] grewalsatinder#9653
+```(gdb) start
+Temporary breakpoint 1 at 0x100884610 (5 locations)
+Starting program: /Applications/Agama.app/Contents/Resources/app/assets/bin/osx/komodod -daemon -ac_name=TXSCLCC -ac_supply=0 -ac_reward=2500000000 -ac_halving=210000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=54.36.126.42 -addnode=94.130.224.11
+Unable to find Mach task port for process-id 49902: (os/kern) failure (0x5).
+ (please check gdb is codesigned - see taskgated(8))
+(gdb) ```
+
+
+[27-Jan-19 03:52 AM] grewalsatinder#9653
+`/Users/psycrypt/`
+
+
+[27-Jan-19 03:52 AM] grewalsatinder#9653
+this user does not exists on my laptop
+
+
+[27-Jan-19 03:52 AM] grewalsatinder#9653
+@Deleted User
+
+
+[27-Jan-19 03:53 AM] grewalsatinder#9653
+@ca333
+
+
+[27-Jan-19 03:53 AM] grewalsatinder#9653
+is that anything to concern about?
+
+
+[27-Jan-19 03:53 AM] Deleted User#0000
+your using precomiled binaries?
+
+
+[27-Jan-19 03:53 AM] grewalsatinder#9653
+yes
+
+
+[27-Jan-19 03:53 AM] Deleted User#0000
+in this case I dont think it will work
+
+
+[27-Jan-19 03:53 AM] Deleted User#0000
+😦
+
+
+[27-Jan-19 03:54 AM] grewalsatinder#9653
+fair enough mate
+
+
+[27-Jan-19 03:54 AM] grewalsatinder#9653
+will try the compiled one
+
+
+[27-Jan-19 03:54 AM] grewalsatinder#9653
+so far didn't needed compiled one since was only doing base API set
+
+
+[27-Jan-19 03:54 AM] grewalsatinder#9653
+now that I'm on to CC, fair point to use compiled daemon
+
+
+[27-Jan-19 03:55 AM] grewalsatinder#9653
+@ca333  for that `/Users/psycrypt/` notifications in gdb, is that of any concern? or ignorable ?
+
+
+[27-Jan-19 04:14 AM] grewalsatinder#9653
+thanks for clearing things up guys, will continue on it day after tomorrow.
+have cricket match to see in Tauranga in the morning... 😎 😁
+
+
+[27-Jan-19 04:14 AM] grewalsatinder#9653
+_ I'm only going to cheer ppl with frns, don't understand the rules of Cricket_ 😄
+
+{Reactions}
+😂 (2) 
+
+[27-Jan-19 04:23 AM] Deleted User#0000
+hit ball 😄
+
+
+[27-Jan-19 04:23 AM] Deleted User#0000
+Not person
+
+{Reactions}
+troll_king 
+
+[27-Jan-19 04:51 AM] ca333#0333
+yeah like blackjok3r pointed out it wont work with the precompiled bins - if you have any issue building it let us know.
+
+
+[27-Jan-19 04:52 AM] ca333#0333
+and psycrypt is a testuser from our OSX VM - nothing to be concerned about. my bins are all clean.
+
+
+[27-Jan-19 05:17 AM] grewalsatinder#9653
+Cool 👍
+
+
+[28-Jan-19 05:45 AM] Mihailo#5902
+@jl777c @grewalsatinder I have refactored [cc]address function little bit. Hope it have more sense now:
+```
+komodo-cli -ac_name=MSIG faucetaddress
+{
+  "result": "success",
+  "FaucetCCAddress": "R9zHrofhRbub7ER77B7NrVch3A63R39GuC",
+  "FaucetNormalAddress": "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk",
+  "FaucetCCTokensAddress": "RKaT8VfRSsu4qWL2kfW3PCzejrzJxi1TcJ",
+  "myAddress": "RYG9Re8fF79BHhnefZer8h2RKPD18y8zeu",
+  "myCCAddress(Faucet)": "R9f9y2J1Cqm6hw5e1ZJfkpPckppU1GT2Qq"
+}
+```
+
+
+[28-Jan-19 05:45 AM] Mihailo#5902
+Also
+```
+komodo-cli -ac_name=MSIG channelsaddress 03c6931e7d213a20d0746fd1d90e84fab1915175782691ba6a1938139513a9d844
+{
+  "result": "success",
+  "ChannelsCCAddress": "RQy3rwX8sP9oDm3c39vGKA6H315cgtPLfr",
+  "ChannelsNormalAddress": "RQUuT8zmkvDfXqECH4m3VD3SsHZAfnoh1v",
+  "ChannelsCC1of2Address": "RLept2zEWvZd61smR5ZZu3aBEY5L3AgBMF",
+  "ChannelsCC1of2TokensAddress": "RDHFvqBy5SDmVCYaXUqoMyo6etbTc6Jz2a",
+  "myAddress": "RYG9Re8fF79BHhnefZer8h2RKPD18y8zeu",
+  "myCCAddress(Channels)": "RG1U9bHLYsK2xLUKbW6MjQoGyDaDFT1FqN",
+  "PubkeyCCaddress(Channels)": "RSiZoSRa9r1uhmAh8VVp2dtGPJAfKRkWin"
+}
+```
+
+
+[28-Jan-19 05:46 AM] Mihailo#5902
+```
+komodo-cli -ac_name=MSIG gatewaysaddress
+{
+  "result": "success",
+  "GatewaysCCAddress": "RKWpoK6vTRtq5b9qrRBodLkCzeURHeEk33",
+  "GatewaysNormalAddress": "RGJKV97ZN1wBfunuMt1tebiiHENNEq73Yh",
+  "GatewaysPubkey": "03ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb40",
+  "GatewaysCCTokensAddress": "RSDw91hbCKkkNct6XtPRbq389eu2xKgHUC",
+  "myAddress": "RYG9Re8fF79BHhnefZer8h2RKPD18y8zeu",
+  "myCCAddress(Gateways)": "RDcY4hcaYgFp76ubHvDmownY3bV3dJrJuj"
+}
+```
+
+
+[28-Jan-19 05:47 AM] TonyL#3577
+Tests adjustment time 😃
+
+
+[28-Jan-19 05:47 AM] Mihailo#5902
+Have not merge it yet 😉 Let see if there are remarks 😛
+
+{Reactions}
+👌 
+
+[28-Jan-19 05:59 AM] Mihailo#5902
+For channels and heir pubkey is required to show 1of2 addresses, for others it is optional and just shows CC address of pubkey for thet CC contract
+
+
+[28-Jan-19 06:03 AM] Mihailo#5902
+I also added [CC]TokensAddress to show where Tokens are stored if used in CC. Not all CCs use tokens but they could get support in the future...
+
+
+[28-Jan-19 09:13 AM] benohanlon#7045
+best docs or information for me to include in the channel topic for this channel? Other than https://github.com/KomodoPlatform/Mastering_CryptoConditions?
+
+{Embed}
+https://github.com/KomodoPlatform/Mastering_CryptoConditions?
+KomodoPlatform/Mastering_CryptoConditions
+How to write utxo based CryptoConditions contracts for KMD chains - by jl777 - KomodoPlatform/Mastering_CryptoConditions
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[28-Jan-19 09:17 AM] Mihailo#5902
+https://docs.komodoplatform.com/home-cc.html ?
+
+
+[28-Jan-19 09:23 AM] benohanlon#7045
+thanks @Mihailo 😃 you're the MVP
+
+
+[28-Jan-19 09:33 AM] Mihailo#5902
+Basically you can put it in every topic of cc channel. They are not all up to date and not finished but hopefuly there will be all documentation on CC!
+
+
+[28-Jan-19 09:39 AM] Mihailo#5902
+@benohanlon Or maybe this even better: https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-faucet.html#faucetaddress
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-faucet.html
+Contract Module: Faucet | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[28-Jan-19 09:39 AM] Mihailo#5902
+@Bryan_Beus Where will be main documentation for CC??
+
+
+[28-Jan-19 09:43 AM] Bryan_Beus#6442
+@Mihailo 
+
+developers.komodoplatform.com is for newcomers to the Komodo ecosystem.
+
+For now, it has only what a newcomer needs to get started, and nothing more.
+
+docs.komodoplatform.com is where everything else goes. 
+
+There's too much documentation for me to manage it all alone. I have other tasks that I'm responsible for, and I don't have that much bandwidth. 
+
+So, docs.komodoplatform.com is just a bin for people who are accustomed to Komodo and don't need any hand holding.
+
+
+[28-Jan-19 09:43 AM] Bryan_Beus#6442
+@Mihailo 
+
+If you add a new CC, I will need to put docs on it in developers.kp
+
+
+[28-Jan-19 09:44 AM] Bryan_Beus#6442
+Those are useful for newcomers.
+
+
+[28-Jan-19 09:44 AM] Mihailo#5902
+Np, just wanted to know where will the main docs be for CC!
+
+
+[28-Jan-19 09:44 AM] Bryan_Beus#6442
+developers.kp
+
+
+[28-Jan-19 09:44 AM] Bryan_Beus#6442
+Please make yourself a branch in the github repo, add whatever you want, and ping me when you are ready.
+
+Or, even better, do a PR, like you suggested for FSM branch.
+
+
+[28-Jan-19 09:44 AM] Bryan_Beus#6442
+Those are far easier to manage.
+
+
+[28-Jan-19 09:45 AM] Mihailo#5902
+@Bryan_Beus I don't have any docs right now, @benohanlon asked what to put in channel topic in Discord so I gave him docs.kp but remebered there is also developers.kp 😉
+
+
+[28-Jan-19 09:46 AM] Bryan_Beus#6442
+gotcha
+
+
+[28-Jan-19 01:12 PM] TonyL#3577
+@Mihailo Changing all `a` to `A` in words `address` in `%ccname%address` output keys is a revenge for my JSONs unhappiness I guess 😂
+
+
+[28-Jan-19 01:13 PM] Mihailo#5902
+😂 😂 😂
+
+
+[28-Jan-19 01:14 PM] Mihailo#5902
+No, just I have a habbit when writting multiple words together to make uopercase of first letter
+
+
+[28-Jan-19 01:15 PM] TonyL#3577
+Oh yes, just kidding - enlarging letters in tests now :)
+Is `%CCNAME%marker` a `%CCNAME%NormalAddress` now?
+
+
+[28-Jan-19 01:15 PM] Mihailo#5902
+And you should parse text when comparing to all to lower or all to upper. That way your compare i case insesitive.
+
+
+[28-Jan-19 01:16 PM] Mihailo#5902
+Yes
+
+
+[28-Jan-19 01:16 PM] Mihailo#5902
+I changed that as it does not have to be just a marker to normal address.
+
+{Reactions}
+👌 
+
+[28-Jan-19 01:17 PM] Mihailo#5902
+Better naming is CCGlobalAddress and NormalGlobalAddress
+
+
+[28-Jan-19 01:26 PM] TonyL#3577
+Not sure if I get about parsing
+
+
+[28-Jan-19 01:29 PM] TonyL#3577
+I can pop `result` key and iterate over all others to not hardcode keys (this test checks that R addresses were generated for each field) if there is no risk to miss some 'key' and assume that only addresses will be stored in values (if keys are hardcoded test will detect it)
+
+
+[28-Jan-19 09:36 PM] grewalsatinder#9653
+@Mihailo That's good to show CC name in key. But I think instead of bracket an undrrscore would be much better. 🤔
+
+
+[28-Jan-19 11:07 PM] Mihailo#5902
+I can do underscore, but I put brackets as it is just an optional descriptor...
+
+
+[28-Jan-19 11:28 PM] Mihailo#5902
+@TonyL For parsing I meant whenever you are comparing some text somewhere it is good to do for example lower case for that text and then compare with lower case constant. This way you are avoiding difference in case. Unless it is case sensitive and there can be same text with different case.
+
+
+[29-Jan-19 02:14 AM] grewalsatinder#9653
+Yes mate, I get it's just optional descriptor. But coding Js for sometime I feel `underscore` `_` will suit better for `JSON` key.
+
+
+[29-Jan-19 02:23 AM] Mihailo#5902
+@grewalsatinder Np, I'll change it in some next iteration
+
+
+[29-Jan-19 02:23 AM] grewalsatinder#9653
+thanks @Mihailo 🙂 👍
+
+
+[29-Jan-19 09:05 PM] grewalsatinder#9653
+the output of `faucetinfo` gives result like this:
+```{"result":{"result":"success","name":"Faucet","funding":"0.00000000"},"error":null,"id":"curltest"}```
+
+
+[29-Jan-19 09:05 PM] grewalsatinder#9653
+The type of `funding` value is recognised as `string`
+
+
+[29-Jan-19 09:06 PM] grewalsatinder#9653
+I think it should be `float`
+
+
+[29-Jan-19 09:06 PM] grewalsatinder#9653
+@Mihailo
+
+
+[29-Jan-19 09:13 PM] grewalsatinder#9653
+Also, I see the `faucetfund` method accepts value in `string` instead of `int` or `float`
+
+
+[29-Jan-19 09:14 PM] grewalsatinder#9653
+```satinders-MacBook-Pro-2:~ satinder$ curl --user user595114601:passf2f63defd133ab1d6b907ce251b67ed86408ce2b9d0279ac5acd0c78465df7dc09 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "faucetfund", "params": [2] }' -H 'content-type: text/plain;' http://127.0.0.1:51798/
+{"result":null,"error":{"code":-1,"message":"JSON value is not a string as expected"},"id":"curltest"}
+
+satinders-MacBook-Pro-2:~ satinder$ curl --user user595114601:passf2f63defd133ab1d6b907ce251b67ed86408ce2b9d0279ac5acd0c78465df7dc09 --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "faucetfund", "params": ["2"] }' -H 'content-type: text/plain;' http://127.0.0.1:51798/
+{"result":{"result":"success","hex":"0400008085202f8901167b86ccf6a887a52a66aad356f6e340ced215dec21cf174e59bfc7f2dc9e0e40000000049483045022100c4d0082c1cea98ce1a2e6e94de7dc1b41eaab1364c935bbbcd8cce8b20bf90ed02205c9dd41e3953ceb0ec8c1022c0c6d84d16b445a97d0ad2036819cb817b315a2d01ffffffff0200c2eb0b00000000302ea22c8020e029c511da55523565835887e412e5a0c9b920801b007000df45e545f25028248103120c008203000401ccf00f178900000000232102fbccd779e492bcf3b12707c1461ea857b4e2ee0ad990f13059c02189bd5d8edaac00000000576401000000000000000000000000"},"error":null,"id":"curltest"}```
+
+
+[29-Jan-19 09:31 PM] grewalsatinder#9653
+@SHossain hey mate, need explorer link of TXSCLL chain
+
+
+[29-Jan-19 09:31 PM] grewalsatinder#9653
+do we have it?
+
+
+[29-Jan-19 09:40 PM] grewalsatinder#9653
+did `faucetfund` and got hex value, which I sent with `sendrawtransaction`. the txid it gave doesn't decode:
+```$ txsclcc sendrawtransaction 0400008085202f8901167b86ccf6a887a52a66aad356f6e340ced215dec21cf174e59bfc7f2dc9e0e40000000049483045022100c4d0082c1cea98ce1a2e6e94de7dc1b41eaab1364c935bbbcd8cce8b20bf90ed02205c9dd41e3953ceb0ec8c1022c0c6d84d16b445a97d0ad2036819cb817b315a2d01ffffffff0200c2eb0b00000000302ea22c8020e029c511da55523565835887e412e5a0c9b920801b007000df45e545f25028248103120c008203000401ccf00f178900000000232102fbccd779e492bcf3b12707c1461ea857b4e2ee0ad990f13059c02189bd5d8edaac00000000576401000000000000000000000000
+58a15cab5b14b6eab6daa9fd79f5bf69b5072593ebcfe06fe058ff2aebcbf0b2
+satinders-MacBook-Pro-2:~ satinder$ txsclcc decoderawtransaction 58a15cab5b14b6eab6daa9fd79f5bf69b5072593ebcfe06fe058ff2aebcbf0b2
+error code: -22
+error message:
+TX decode failed
+```
+
+
+[29-Jan-19 09:40 PM] grewalsatinder#9653
+tried the command with and without `""` for txid
+
+
+[29-Jan-19 09:41 PM] grewalsatinder#9653
+faucetinfo shows the balance anyway
+```$ go run faucetinfo.go 
+fctifo value {{success Faucet 2.00000000} {0 } kmdgo}
+-------
+{success Faucet 2.00000000}
+Result:  success
+Name:  Faucet
+Funding:  2.00000000
+```
+
+
+[29-Jan-19 09:43 PM] grewalsatinder#9653
+`faucetget` gave the hex which I tried sending with `sendrawtransaction` and it also gives this error which I'm not exactly sure what to do with:
+```
+Result:  success
+Hex:  0400008085202f8901b2f0cbeb2aff58e06fe0cfeb932507b569bff579fda9dab6eab6145bab5ca158000000007b4c79a276a072a26ba067a565802103682b255c40d0cde8faee381a1a50bbb89980ff24539cb8518e294d3a63cefe1281408964b72636b1d2ebdb4a1bb1c034b13ccd45053b757f801de1c084552aa4c2d003830860d1b7f1cfa7ae66c45a049407ad4f86fa2e0281b6306fd8a9624b1a96a100af038001e4a10001ffffffff037004530b00000000302ea22c8020e029c511da55523565835887e412e5a0c9b920801b007000df45e545f25028248103120c008203000401cc8
+096980000000000232102fbccd779e492bcf3b12707c1461ea857b4e2ee0ad990f13059c02189bd5d8edaac0000000000000000086a06e44732617d0a000000006b6401000000000000000000000000```
+
+
+[29-Jan-19 09:43 PM] grewalsatinder#9653
+```$ txsclcc sendrawtransaction 0400008085202f8901b2f0cbeb2aff58e06fe0cfeb932507b569bff579fda9dab6eab6145bab5ca158000000007b4c79a276a072a26ba067a565802103682b255c40d0cde8faee381a1a50bbb89980ff24539cb8518e294d3a63cefe1281408964b72636b1d2ebdb4a1bb1c034b13ccd45053b757f801de1c084552aa4c2d003830860d1b7f1cfa7ae66c45a049407ad4f86fa2e0281b6306fd8a9624b1a96a100af038001e4a10001ffffffff037004530b00000000302ea22c8020e029c511da55523565835887e412e5a0c9b920801b007000df45e545f25028248103120c008203000401cc8096980000000000232102fbccd779e492bcf3b12707c1461ea857b4e2ee0ad990f13059c02189bd5d8edaac0000000000000000086a06e44732617d0a000000006b6401000000000000000000000000
+error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)
+satinders-MacBook-Pro-2:~ satinder$ 
+```
+
+
+[29-Jan-19 09:43 PM] grewalsatinder#9653
+```error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)```
+
+
+[29-Jan-19 09:44 PM] grewalsatinder#9653
+I'm still trying to compile `komodod` on osx, just been trying these command with bundled `komodod` with `Agama` Wallet
+
+
+[29-Jan-19 09:44 PM] grewalsatinder#9653
+Agama v0.3.4b-beta
+
+
+[29-Jan-19 09:45 PM] grewalsatinder#9653
+@ca333 in case you know anything about it mate
+
+
+[30-Jan-19 01:27 AM] TonyL#3577
+@grewalsatinder Maybe you wanted to do `getrawtransaction` for transaction id instead of `decoderawtransaction` ?
+
+
+[30-Jan-19 01:27 AM] jl777c#5810
+by convention the CC params are strings
+
+{Reactions}
+👆 
+
+[30-Jan-19 01:28 AM] TonyL#3577
+As I know `decoderawtransaction` needs rawtx as param to decode but you trying to use txid instead
+
+
+[30-Jan-19 01:30 AM] TonyL#3577
+@jl777c oh thats why MaramaraTUI works not correct now - before some params accepted as int, now RPC waiting for strings on these places
+
+
+[30-Jan-19 01:31 AM] TonyL#3577
+Hope this convention will be everywhere because usually I'm investigating experimentally need it string or int (even in some CCs calls part of numbers can be accepted as int but part of numbers it waiting as string)
+
+
+[30-Jan-19 01:32 AM] jl777c#5810
+it has always been this way
+
+
+[30-Jan-19 01:32 AM] TonyL#3577
+I'll report about such cases in future
+
+
+[30-Jan-19 01:32 AM] jl777c#5810
+usually you can just put numbers and it becomes a string at the rpc interface and I convert it back into a number
+
+
+[30-Jan-19 02:58 AM] grewalsatinder#9653
+@TonyL cool, if it's `getrawtransaction` then I guess the dev docs needs update/correction:
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-faucet.html#faucetget
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-faucet.html
+Contract Module: Faucet | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[30-Jan-19 02:58 AM] grewalsatinder#9653
+@Mylo @Bryan_Beus
+
+
+[30-Jan-19 03:00 AM] grewalsatinder#9653
+alright, in that case I don't need update my kmdgo code. it's flexible enough to accept string or int or float.
+
+{Reactions}
+👌 
+
+[30-Jan-19 03:04 AM] TonyL#3577
+@grewalsatinder but in dev docs rawhex using as param
+
+
+[30-Jan-19 03:04 AM] TonyL#3577
+```./komodo-cli -ac_name=HELLOWORLD decoderawtransaction 01000000010941cea65a560aeae02f0d49770965490bd99eeac4185f25075685da58e99d40000000007b4c79a276a072a26ba067a565802103682b255c40d0cde8faee381a1a50bbb89980ff24539cb8518e294d3a63cefe128140150ad95012ad8fae990096787d75d563977cef914e812e9dc8b6236243ac5f0050b3af4f2675ad433dcff4be16d113fb9a46357ee60682ed5d76c60f9ccffe8ea100af038001e4a10001ffffffff02b077a43018090000302ea22c8020e029c511da55523565835887e412e5a0c9b920801b007000df45e545f25028248103120c008203000401cc00e1f50500000000232103fe754763c176e1339a3f62ee6b9484720e17ee4646b65a119e9f6370c7004abcac00000000
+```
+
+
+[30-Jan-19 03:04 AM] TonyL#3577
+On the step3
+
+
+[30-Jan-19 03:39 AM] grewalsatinder#9653
+oh! I did not realize that.... hehe 😁
+
+
+[30-Jan-19 03:39 AM] grewalsatinder#9653
+yes, you are correct mate 👍
+
+
+[30-Jan-19 03:39 AM] grewalsatinder#9653
+thanks for pointing :p
+
+
+[30-Jan-19 03:44 AM] TonyL#3577
+Glad to help! :Komodo:
+
+
+[30-Jan-19 09:43 AM] Bryan_Beus#6442
+@TonyL 
+@grewalsatinder 
+
+What do you need changed in the docs?
+
+(I'm only focused on developers.komodoplatform.com)
+
+
+[30-Jan-19 03:49 PM] grewalsatinder#9653
+Nothing mate, it was some confusion on my part
+
+
+[29-May-19 08:38 PM] gcharang#6833
+If the pubkey that funded the faucet does faucetget, output is:
+```
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)
+```
+can this error be caught and proper message written out?
+
+or better yet, before doing the txn-pow, check if the pubkey is eligible to recieve funds from the faucet?
+
+
+[29-May-19 09:46 PM] Alright#0419
+@gcharang it's because the address is not brand new, not because it funded faucetget
+
+
+[29-May-19 09:46 PM] Alright#0419
+I think it's like if address has more than 3 transactions, it will fail
+
+
+[29-May-19 09:54 PM] gcharang#6833
+Got it
+
+
+[21-Aug-19 11:02 PM] nille#9011
+good morning everyone ☕
+
+
+[03-Nov-19 02:18 PM] Regnar#6164
+```- Faucet
+  - Live Faucet Using PoW to prevent spamming - [https://www.atomicexplorer.com/#/faucet/rick](https://www.atomicexplorer.com/#/faucet/rick)```
+
+Hey all, if you have any proof of concepts, or built something cool for Faucet CC, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and add this to the Komodo docs page. TUIs are good too!
+
+{Reactions}
+💎 
+
+[13-Nov-19 09:03 AM] Cleverscan#6447
+/start
+
+
+[13-Nov-19 09:04 AM] Cleverscan#6447
+France
+
+
+[13-Nov-19 09:23 AM] phm87#7395
+@Cleverscan  go to #🤗┃start-here and clic on the 🇫🇷 icon then you'll have access to the #french discord (où on parle français)
+
+
+[13-Nov-19 09:24 AM] Oszy#5734
+https://discordapp.com/channels/412898016371015680/448496811271782416/643842443607015424
+
+
+[27-Feb-20 01:42 AM] Well Done#8264
+good morning
+
+
+[28-Feb-20 09:53 PM] Pikku Myy#6259
+Good morning mates!
+
+
+[29-Feb-20 07:27 AM] Alright#0419
+How goes it @Well Done @Pikku Myy
+
+{Reactions}
+❤️ (2) 
+
+[29-Feb-20 08:55 AM] Well Done#8264
+Its weekend , i think nice🙂 @Alright hope you are fine too . greatings and happy weekend to you🖖
+
+
+[01-Mar-20 04:18 AM] AhmedDhaif#7195
+Good morning everybody and happy week-end my friends
+
+
+[05-Mar-20 02:27 AM] Well Done#8264
+hello all
+
+
+[15-Apr-20 03:16 PM] newbiegenie#2986
+hello
+
+
+[22-Apr-20 05:07 AM] Witek#2513
+Hello
+
+
+[23-Apr-20 01:39 AM] Witek#2513
+Good morning everybody. 🙂 Hope you all are fine:)
+
+
+[23-Apr-20 03:41 AM] newbiegenie#2986
+good morning mate
+
+
+[23-Apr-20 05:11 AM] Witek#2513
+Hello again 🙂
+
+
+[23-Apr-20 05:27 AM] SHossain#0007
+hello
+
+
+[24-Apr-20 12:45 AM] Witek#2513
+@SHossain have a good day, bro.
+
+
+[09-May-20 12:12 PM] PsycheNate#5898
+$bals
+
+
+[09-May-20 12:13 PM] PsycheNate#5898
+!bals
+
+
+[10-May-20 02:05 AM] Oszy#5734
+go to #🤑┃tip-bot
+
+
+[19-Jun-20 02:08 AM] xxxencryptacion#3788
+Hello! If we mint our own Smart Contract side-chain on KMD (Which we will)
+
+
+[19-Jun-20 02:08 AM] xxxencryptacion#3788
+Are there ways to have our app integrate KMD web-based  wallets ?
+
+
+[19-Jun-20 02:09 AM] xxxencryptacion#3788
+And then encourage users to join our Dapp by dripping some tokens faucet style ?
+
+
+[19-Jun-20 02:10 AM] xxxencryptacion#3788
+The app we are making is a decentralized financial analysis for the mass for cryptocurrencies, we should have all relevant financials statistics available under the sun
+
+
+[19-Jun-20 02:10 AM] xxxencryptacion#3788
+like Blockfolio, except that we are using IPFS storage to manage client data - and then we overlay user crypto assets with relevant (timely) stats like ROR prices  etc
+
+
+[19-Jun-20 02:11 AM] xxxencryptacion#3788
+But (2) I want to build like a gambling app, enabling each user to wager on the future price of any crypto, by length and final outcome
+
+
+[19-Jun-20 02:11 AM] xxxencryptacion#3788
+And give users tokens via faucet so they can go ahead and play 🙂
+
+
+[19-Jun-20 02:13 AM] xxxencryptacion#3788
+I have confiedecen our dev team can pull off setting up Antara Module, running a successful chain, mind tokens, but would like to know little more about a turnin language so we can actually program a contract for each cryptocurrency ticker i.e. BTC, XMR, BCH, XLM, etc
+
+
+[19-Jun-20 02:13 AM] xxxencryptacion#3788
+Similar like you have with DraftKings.com, a super popular sports fantasy game.
+
+
+[19-Jun-20 02:14 AM] xxxencryptacion#3788
+We would create a crypto fantasy game is the best way to describe it - except that P&L would be also settled in our own tokens, and P&L not shared among users
+
+{Reactions}
+treasure 
+
+[19-Jun-20 02:14 AM] xxxencryptacion#3788
+But each contract would be launched disparately, and is mutually exclusive
+
+
+[19-Jun-20 02:15 AM] xxxencryptacion#3788
+And (3) would need a software wallet to embed right into our app
+
+
+[19-Jun-20 02:15 AM] xxxencryptacion#3788
+supporting KMD and KMD based tokens if it is possible #askingforafriend
+
+
+[19-Jun-20 02:18 AM] xxxencryptacion#3788
+I have now finished the mathematical concept of the smart contract, and it works in Excel LOL
+
+
+[19-Jun-20 11:24 PM] phm87#7395
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-faucet.html#faucetget found this link that may help you
+
+{Reactions}
+👍 
+
+[20-Jun-20 12:22 PM] xxxencryptacion#3788
+yes been reading the website for KMD developers like a hawk! just looking for software wallet now to embedd
+
+
+[20-Jun-20 12:24 PM] xxxencryptacion#3788
+We are going to give a new meaning to DRIP 🙂 I was begging people like LATOKEN to collaborate, but thanks to KOMODO we could build everything ourselves
+
+
+[20-Jun-20 12:25 PM] xxxencryptacion#3788
+It is mind numbering, how these resources are so organized, well articulated and presented 🙂 Hvala!
+
+{Reactions}
+💯 
+
+[29-Jun-20 07:27 AM] Regnar#6164
+@PTYX might be able to help you out with wallet information and is a Komodo team member.
+
+{Reactions}
+🙌 
+
+[29-Jun-20 07:33 AM] PTYX#6840
+Thanks for the heads up
+
+
+[29-Jun-20 07:34 AM] PTYX#6840
+If you have any questions feel free to DM me @xxxencryptacion
+
+{Reactions}
+🦾 
+
+[29-Jun-20 07:34 AM] PTYX#6840
+I'd be happy to guide you in the right direction
+
+{Reactions}
+🚀 
+
+[09-Jul-20 01:03 PM] Liteliger#9342
+Created a video of KMD faucets out there https://www.youtube.com/watch?v=AWGkuoo7hRE&t=12s
+
+{Embed}
+LiteLiger
+https://www.youtube.com/watch?v=AWGkuoo7hRE&start=12s
+Top 5 Komodo Faucets
+Hey this time ill be presenting you some really good #Komodo Faucets to grind at. You can also find list of places to buy and stake Komodo currently at with their interesting DPOW mechanism that they have built. Donations are always appreciated too, more KMD i get more videos ...
+https://images-ext-2.discordapp.net/external/8WrDCyRztAfUjKbs6TTZoTSGgFGt0IxxAObKSmp3X6c/https/i.ytimg.com/vi/AWGkuoo7hRE/maxresdefault.jpg
+
+{Reactions}
+👍 (4) KMD (4) 
+
+[09-Jul-20 07:12 PM] grewalsatinder#9653
+@Liteliger nice work!
+
+
+[10-Jul-20 12:22 AM] Oszy#5734
+like the thumbnail ahahah
+
+
+[25-Oct-20 09:16 AM] tobaz#3449
+Hi @grewalsatinder
+
+
+[25-Oct-20 09:16 AM] tobaz#3449
+Am new here where will I get drops or rain
+
+
+[25-Oct-20 05:40 PM] grewalsatinder#9653
+@tobaz I don’t know
+
+
+[25-Oct-20 07:22 PM] alkimi#1111
+I suppose the tip-bot channel? As well as those mentioned in the video @Liteliger just posted.
+Unless I misunderstand the question, those are the faucets
+
+
+[11-Nov-20 10:46 AM] Ronald#9634
+Hello
+
+{Reactions}
+🚀 
+
+[18-Nov-20 04:00 PM] xxxencryptacion#3788
+What are the best faucet methods for KMD 🙂
+
+
+[18-Nov-20 04:01 PM] xxxencryptacion#3788
+I am asking if you can set up list of addresses, in python or something and issue token distributions in equitable amounts, or fixed by wallet address
+
+
+[18-Nov-20 04:01 PM] xxxencryptacion#3788
+#askingforafriend 😋
+
+
+[18-Nov-20 04:04 PM] xxxencryptacion#3788
+The faucet antara mod would suffice LD
+
+
+[07-Jan-21 12:49 PM] TankMan#9285
+Anything new and fun here ?
+
+
+[04-Mar-21 09:08 PM] Tylor zkFS#8280
+#Komodo #dogedex
+
+
+[22-Mar-21 08:36 AM] Mylo#8306
+can the faucet send to a z-address?
+
+
+[22-Mar-21 08:55 AM] lightspeed393#5403
+As is I don't think so, but not positive. It doesn't ask you to specify an address to receive, it just sends to the address of the pubkey you're using.
+
+
+[22-Mar-21 08:58 AM] Mylo#8306
+that makes sense if it's p2pk or p2pkh
+
+
+[22-Mar-21 08:58 AM] Mylo#8306
+thanks
+
+
+[17-Apr-21 11:49 PM] cem#6032
+good morning
+
+
+[26-Apr-21 01:57 PM] veggieburger#1498
+#🤑┃tip-bot
+
+
+[30-Apr-21 10:44 PM] lightspeed393#5403
+can someone explain the fascination with trying to use tipbots here when everyone above has already tried and it says "please use #🤑┃tip-bot"
+
+
+[30-Apr-21 11:03 PM] phm87#7395
+On most of discord servers, bots. Here, I don't know
+
+
+[09-Jun-21 10:22 AM] Parabatai/$ARRR#9222
+@lightspeed393 my question would be if this is t the Chan for the faucet then what is the purpose here?
+
+
+[09-Jun-21 11:22 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+#🤑┃tip-bot  is for tip bot communication.
+
+Cc-faucet refers to a crypto condition
+https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html#introduction
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html
+Faucet
+The Faucet Antara Module enables anyone to fund an on-chain faucet on any chain where modules are enabled. A Smart Chain may have only one on-chain faucet.
+https://images-ext-2.discordapp.net/external/JRuH6_LDrjOGd6HbRckiIc9OBFcyJGE1c7DjCukFvtA/https/developers.komodoplatform.com/start-here-pics/Dev_Docs_Introduction_small.png
+
+
+==============================================================
+Exported 304 message(s)
+==============================================================

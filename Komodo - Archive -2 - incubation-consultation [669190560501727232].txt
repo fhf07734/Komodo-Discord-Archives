@@ -1,0 +1,123 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / incubation-consultation
+==============================================================
+
+[23-Jan-20 08:24 PM] Portal-Bridge#0000
+New post on the board **Incubation & Consultation**
+
+{Embed}
+Joe2x4
+https://community.komodoplatform.com/post/5e2a1132f3843a64efa22d4d
+:speech_balloon: New Discussion
+**Minecraft Antara Smartchain NFT mod** 
+This discussion is a continuation of a conversation on discord about a Minecraft NFT mod for kmd ecosystem.
+
+
+[26-Jan-20 02:25 AM] Portal-Bridge#0000
+New post related to the Topic:  "KMDLabs" was posted on the board **Incubation & Consultation**
+
+{Embed}
+CrisF
+https://community.komodoplatform.com/post/5e2d6928161adf170a0b9b06
+:link: New Quick Post
+**KMDLabs** KMDLabs provides a fully scalable and customizable test bed for testing and developing your Komodo (KMD) based Smart Chains and Antara Modules, and offers an incentivized test ne......[continue reading on the portal](https://community.komodoplatform.com/post/5e2d6928161adf170a0b9b06)
+
+
+[28-Jan-20 01:12 AM] Portal-Bridge#0000
+New post related to the Topic:  "# KMDLabs" was posted on the board **Incubation & Consultation**
+
+{Embed}
+CrisF
+https://community.komodoplatform.com/post/5e2ffb0fa82c1248639e8560
+:link: New Quick Post
+**KMDLabs** May be old now but might still save a few dollars setting up a test server. ```300$ https://cloud.google.com/free 300$ https://www.oracle.com/ca-en/cloud/free 200$ https://www.ib......[continue reading on the portal](https://community.komodoplatform.com/post/5e2ffb0fa82c1248639e8560)
+
+
+[02-Feb-20 12:09 AM] Portal-Bridge#0000
+New Question was posted on the board **Incubation & Consultation**
+
+{Embed}
+B. Gültekin Çetiner
+https://community.komodoplatform.com/question/5e3683b5482ed326a3e321f8
+:grey_question: New Question
+**What is the greatest problem that Marmara Credit Loops (MCL) try to solve?**
+
+
+[02-Feb-20 08:45 AM] Portal-Bridge#0000
+New answer to the [Question: "What is the greatest problem that Marmara Credit Loops (MCL) try to solve?"](https://community.komodoplatform.com/question/5e3683b5482ed326a3e321f8) was posted on the board **Incubation & Consultation**
+
+{Embed}
+Paro
+https://community.komodoplatform.com/answer/5e368587c5c39f2d24f32eec
+Marmara Credit Loops: A Blockchain Solution to Nonredemption problem in Post-dated Cheques
+
+
+[08-Feb-20 09:44 AM] Portal-Bridge#0000
+
+{Embed}
+Anonymous User asked a Question
+https://community.komodoplatform.com/question/5e3ef378205df530322d8598
+:question: Answer Anonymous's Question on the **Incubation & Consultation** board
+**In the App and service whether #KOMODO plans to add new functions or features that are useful in the real world ?**
+
+
+[08-Feb-20 09:46 AM] Portal-Bridge#0000
+
+{Embed}
+Lukman Hakim  asked a Question
+https://community.komodoplatform.com/question/5e3ef40c5b39b73070ec1eb9
+:question: Answer Lukman's Question on the **Incubation & Consultation** board
+**In the App and service whether #KOMODO plans to add new functions or features that are useful in the real world ?**
+
+
+[08-Feb-20 06:19 PM] Portal-Bridge#0000
+
+{Embed}
+Jason Brown answered a question
+https://community.komodoplatform.com/answer/5e3f6aebf5cbd2221b27a4c3
+:sunrise_over_mountains: Read Jason's answer on the **Incubation & Consultation** board
+The [Question: "In the App and service whether #KOMODO plans to add new functions or features that are useful in the real world ?"](https://community.komodoplatform.com/question/5e3ef40c5b39b73070ec1eb9) was asked by [Lukman Hakim ](https://community.komodoplatform.com/user/5e3e4d5f1ab91f114b2f3092)
+
+
+[08-Feb-20 08:23 PM] Portal-Bridge#0000
+
+{Embed}
+John R answered a question
+https://community.komodoplatform.com/answer/5e3f88d68fde260ff0c48817
+:sunrise_over_mountains: Read John's answer on the **Incubation & Consultation** board
+The [Question: "In the App and service whether #KOMODO plans to add new functions or features that are useful in the real world ?"](https://community.komodoplatform.com/question/5e3ef40c5b39b73070ec1eb9) was asked by [Lukman Hakim ](https://community.komodoplatform.com/user/5e3e4d5f1ab91f114b2f3092)
+
+
+[10-Feb-20 06:49 AM] Portal-Bridge#0000
+
+{Embed}
+Kyle Tan started a Discussion
+https://community.komodoplatform.com/post/5e416d8f51d9ff5aed5aea4c
+:speech_balloon: Join the conversation on the **Incubation & Consultation** board
+**I'm interested in cross border payments. I think that a lot of what blockchain aims to solve is related to cutting out the middleman. I'm interested in learning how KMD can grow the pie in this aspect.**
+
+
+[01-Nov-20 12:18 PM] Sudoba#9452
+Are there any affiliate/partner programs with Komodo platform?
+
+{Reactions}
+🦾 
+
+[01-Nov-20 12:19 PM] Sudoba#9452
+What I am looking is a reselling of KMD vouchers/gift cards
+
+
+[01-Nov-20 12:21 PM] Sudoba#9452
+Also if I make a Antara module is there a program for incubation to support its development by other people besides ourselves ?
+
+
+[20-Feb-21 01:48 PM] PTYX#6840
+We're working on a referral program
+
+{Reactions}
+3040_kingpeepo 
+
+==============================================================
+Exported 14 message(s)
+==============================================================

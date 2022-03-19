@@ -1,0 +1,3692 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-musig
+Topic: ./komodod -ac_name=MUSIG -ac_supply=100000 -ac_reward=10000000 -pubkey=<yourpub> -ac_cclib=sudoku -ac_cc=2 -addnode=5.9.102.210 &
+faucet is funded, do faucetget and sendrawtransaction
+==============================================================
+
+[22-Feb-19 01:35 AM] gcharang#6833
+```bash
+git clone https://github.com/jl777/komodo
+cd komodo
+git checkout jl777
+cd src/cc
+./makecclib
+cd ../..
+./zcutil/build.sh -j$(nproc)
+```
+
+
+[22-Feb-19 01:35 AM] gcharang#6833
+@jl777c are these the correct build instructions for the first time?
+
+
+[22-Feb-19 01:36 AM] jl777c#5810
+yes, but you might need to build komodod at least once before makecclib will work
+
+
+[22-Feb-19 01:43 AM] gcharang#6833 (pinned)
+Build instructions:
+```bash
+git clone https://github.com/jl777/komodo
+cd komodo
+git checkout jl777
+./zcutil/fetch-params.sh
+./zcutil/build.sh -j$(nproc)
+```
+then
+```bash
+cd src/cc
+./makecclib
+cd ../..
+make -j$(nproc)
+```
+Chain params:
+```
+./komodod -ac_name=MUSIG -ac_supply=100000 -ac_reward=10000000 -pubkey=<yourpub> -ac_cclib=sudoku -ac_cc=2 -addnode=5.9.102.210 &
+```
+Get funds to test:
+```bash
+./komodo-cli -ac_name=MUSIG faucetget
+# copy the hex in the response
+./komodo-cli -ac_name=MUSIG sendrawtransaction <hex copied from the above response>
+```
+RPC are in the comments of the file: https://github.com/jl777/komodo/blob/jl777/src/cc/musig.cpp
+There are comments in the following files that describe musig:
+https://github.com/jl777/komodo/blob/jl777/src/secp256k1/include/secp256k1_musig.h
+https://github.com/jl777/komodo/blob/jl777/src/secp256k1/src/modules/musig/example.c
+
+Documentation for musig : https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-musig.html
+A working example: create combined pubkey, send funds to it, spend the funds: https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-musig.html#full-example
+
+{Embed}
+https://github.com/jl777/komodo/blob/jl777/src/cc/musig.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Embed}
+https://github.com/jl777/komodo/blob/jl777/src/secp256k1/include/secp256k1_musig.h
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Embed}
+https://github.com/jl777/komodo/blob/jl777/src/secp256k1/src/modules/musig/example.c
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-musig.html
+Contract Module: MuSig | Komodo Documentation
+Documentation for developers building on Komodo
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-musig.html
+Contract Module: MuSig | Komodo Documentation
+Documentation for developers building on Komodo
+
+{Reactions}
+treasure 
+
+[22-Feb-19 01:44 AM] gcharang#6833
+Pinned a message.
+
+
+[22-Feb-19 04:52 AM] siu#3920
+hello
+
+
+[22-Feb-19 04:52 AM] siu#3920
+will start testing this now.
+
+
+[22-Feb-19 04:58 AM] jl777c#5810
+I got as far as making a combined signature, but it didnt validate. so if you get a different result let me know. the crypto library is self-testing properly so it must be a bug in the code or my manual rpc
+
+
+[22-Feb-19 05:20 AM] CHMEX#0686 (pinned)
+if you need: http://musig.explorer.dexstats.info/
+
+{Embed}
+http://musig.explorer.dexstats.info/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[22-Feb-19 05:51 AM] gcharang#6833
+@jl777c should rogue,sudoku and musig be treated diffrently from the initial contracts like faucet,reward,dice etc., in the documementation? 
+The difference I can see is that rogue,sudoku and musig are dynamic modules and are loaded using -ac_cclib
+where as the contracts faucet,reward,dice etc., are available through -ac_cc
+
+The main question is: is it temporary that both kind of contracts exist and are there plans to convert the -ac_cc contracts to -ac_cclib type?
+
+
+[22-Feb-19 05:52 AM] jl777c#5810
+there are built in contracts and dynamic
+
+
+[22-Feb-19 05:53 AM] jl777c#5810
+likely there will always be this difference
+
+
+[22-Feb-19 05:53 AM] jl777c#5810
+things like gateways would want to be built in
+
+
+[22-Feb-19 05:53 AM] jl777c#5810
+things like specific games, dynamic
+
+
+[22-Feb-19 05:53 AM] gcharang#6833
+Understood
+
+
+[22-Feb-19 05:58 AM] siu#3920
+``` change script: 2102aff51dad774a1c612dc82e63f85f07b992b665836b0f0efbcb26ee679f4f4848ac
+```
+
+where can i find this change script specified in the guide?
+
+
+[22-Feb-19 05:58 AM] siu#3920
+i did a send. and all i ok
+
+
+[22-Feb-19 05:58 AM] siu#3920
+http://musig.explorer.dexstats.info/tx/74a3ac1dc2cc01916f9b8e9e59d4e08d61220d7da4534805baf79d7c0f2e8597
+
+
+[22-Feb-19 05:59 AM] siu#3920
+@jl777c
+
+
+[22-Feb-19 06:00 AM] jl777c#5810
+if you did any payment to one of your addresses, find the vout hex
+
+
+[22-Feb-19 06:00 AM] jl777c#5810
+for Rwxx... 023ef3d3bf277dcf3c363e41d7a3adfa72b8659c148e108079a268e22717fa9a88
+
+
+[22-Feb-19 06:01 AM] jl777c#5810
+explorer, + for details, output scrpt
+
+
+[22-Feb-19 06:02 AM] siu#3920
+scriptpubkey
+
+
+[22-Feb-19 06:02 AM] siu#3920
+ok
+
+
+[22-Feb-19 06:07 AM] siu#3920
+In the case of my test, all pubkeys for the signature are in the same node, is this something i should not do?
+
+
+[22-Feb-19 06:08 AM] jl777c#5810
+it is designed for one pubkey per node
+
+
+[22-Feb-19 06:09 AM] siu#3920
+🤦 need to import the second pubkey to another node then
+
+
+[22-Feb-19 06:12 AM] gcharang#6833
+@jl777c 
+```
+first make a combined pk
+```
+`pk` is pubkey?
+
+
+[22-Feb-19 06:13 AM] siu#3920
+yes
+
+
+[22-Feb-19 06:13 AM] siu#3920
+multisig pubkey
+
+{Reactions}
+👍 
+
+[22-Feb-19 08:56 AM] gcharang#6833
+Documentation for musig in construction: https://developers.komodoplatform.com/basic-docs/cryptoconditions/dynamic/cc-musig.html please report any errors you find and suggest improvements.
+Still need to add explanations for the RPC and examples
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/dynamic/cc-musig.html
+Module: MuSig (In Development) | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[22-Feb-19 08:56 AM] siu#3920
+@jl777c  ```./makecclib 
+In file included from ../amount.h:24:0,
+                 from ../primitives/transaction.h:24,
+                 from ../primitives/block.h:24,
+                 from cclib.cpp:19:
+../serialize.h:41:10: fatal error: boost/optional.hpp: No such file or directory
+ #include <boost/optional.hpp>
+          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+``` in a new docker image for testing
+
+
+[22-Feb-19 08:59 AM] jl777c#5810
+install boost
+
+
+[22-Feb-19 09:02 AM] siu#3920
+ok
+
+
+[22-Feb-19 09:08 AM] siu#3920
+```In file included from ../wallet/walletdb.h:25:0,
+                 from ../cc/../wallet/wallet.h:38,
+                 from ../cc/CCinclude.h:48,
+                 from cclib.cpp:24:
+../wallet/db.h:36:10: fatal error: db_cxx.h: No such file or directory
+ #include <db_cxx.h>
+```
+
+
+[22-Feb-19 09:08 AM] siu#3920
+libdb?
+
+
+[22-Feb-19 09:15 AM] jl777c#5810
+does komodod build on that system?
+
+
+[22-Feb-19 09:26 AM] siu#3920
+yes
+
+
+[22-Feb-19 09:29 AM] siu#3920
+``` make -j2 V=1
+Making all in src
+make[1]: Entering directory '/root/komodo/src'
+make[2]: Entering directory '/root/komodo/src'
+make  -C secp256k1 libsecp256k1.la OPTFLAGS="-O2 -march=x86-64 -g "
+make[3]: Entering directory '/root/komodo/src/secp256k1'
+make[3]: Leaving directory '/root/komodo/src/secp256k1'
+make  -C cryptoconditions libcryptoconditions_core.la OPTFLAGS="-O2 -march=x86-64 -g "
+make[3]: Entering directory '/root/komodo/src/cryptoconditions'
+make[3]: 'libcryptoconditions_core.la' is up to date.
+make[3]: Leaving directory '/root/komodo/src/cryptoconditions'
+make[2]: Leaving directory '/root/komodo/src'
+make[1]: Leaving directory '/root/komodo/src'
+Making all in doc/man
+make[1]: Entering directory '/root/komodo/doc/man'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/root/komodo/doc/man'
+make[1]: Entering directory '/root/komodo'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/root/komodo'
+```
+
+
+[22-Feb-19 09:29 AM] siu#3920
+outcome from ./zcutil/build.sh
+
+
+[22-Feb-19 09:30 AM] siu#3920
+also, ./makerogue works: ```make: 'rogue' is up to date.
+rogue build SUCCESSFUL
+
+Linux
+make: Nothing to be done for 'all'.
+ROGUE BUILD SUCCESSFUL
+```
+
+
+[22-Feb-19 09:31 AM] siu#3920
+but ./makecclib: ```~/komodo/src/cc# ./makecclib 
+In file included from ../wallet/walletdb.h:25:0,
+                 from ../cc/../wallet/wallet.h:38,
+                 from ../cc/CCinclude.h:48,
+                 from cclib.cpp:24:
+../wallet/db.h:36:10: fatal error: db_cxx.h: No such file or directory
+ #include <db_cxx.h>
+          ^~~~~~~~~~
+compilation terminated.
+```
+
+
+[22-Feb-19 09:32 AM] siu#3920
+@jl777c
+
+
+[22-Feb-19 09:32 AM] jl777c#5810
+then use makerogue
+
+
+[22-Feb-19 09:32 AM] jl777c#5810
+just remove the ENABLE_ROGUE part
+
+
+[22-Feb-19 09:32 AM] siu#3920
+ok
+
+
+[22-Feb-19 09:45 AM] siu#3920
+my bad... sorry... it didnt work.
+
+
+[22-Feb-19 09:52 AM] jl777c#5810
+so you cant build SUDOKU chain... were you able to before?
+
+
+[22-Feb-19 09:52 AM] siu#3920
+in my personal computer i can, but in this docker image im creating to have a second musig node, it doesnt work
+
+
+[22-Feb-19 09:52 AM] siu#3920
+im installing libdb4.8 now to see if this is the issue
+
+
+[22-Feb-19 09:52 AM] TonyL#3577
+I'll share SUDOKU ubuntu bundle in few mins
+
+
+[22-Feb-19 09:53 AM] siu#3920
+i have the same issue with libdb4.8 too ```./makecclib 
+In file included from ../wallet/walletdb.h:25:0,
+                 from ../cc/../wallet/wallet.h:38,
+                 from ../cc/CCinclude.h:48,
+                 from cclib.cpp:24:
+../wallet/db.h:36:10: fatal error: db_cxx.h: No such file or directory
+ #include <db_cxx.h>
+          ^~~~~~~~~~
+compilation terminated.
+```
+
+
+[22-Feb-19 09:53 AM] jl777c#5810
+people say docker is just like a normal VPS, but in reality it seems to always have problems
+
+
+[22-Feb-19 09:53 AM] jl777c#5810
+so these are docker issues
+
+
+[22-Feb-19 09:54 AM] siu#3920
+yes, it should be.
+
+
+[22-Feb-19 09:54 AM] siu#3920
+i guess ill test on anormal vps then
+
+
+[22-Feb-19 09:54 AM] siu#3920
+too much time lost here
+
+
+[22-Feb-19 10:39 AM] siu#3920
+finally!
+
+
+[22-Feb-19 10:40 AM] siu#3920
+i was missing leveldb 🤦
+
+
+[22-Feb-19 11:18 AM] siu#3920
+ok, i got to the commitment part
+
+
+[22-Feb-19 11:25 AM] siu#3920
+but the nonce sharing part doesnt seem to be working: ```./komodo-cli -ac_name=MUSIG cclib nonce 18 \"[%228028483fb20e18cb2f9f26526ce39bf25dca8983792c43d2f1b7b3cb4bc62a86%22,1,%22026a5e09767b69cb6d4c0ee255bd32520eb1be9aeb36b71cf691b3b35882458772%22]\"
+{
+  "added_index": 1,
+  "status": "error",
+  "error": "error setting nonce"
+}
+```
+
+
+[22-Feb-19 11:26 AM] siu#3920
+```./komodo-cli -ac_name=MUSIG cclib nonce 18 \"[%228028483fb20e18cb2f9f26526ce39bf25dca8983792c43d2f1b7b3cb4bc62a86%22,0,%2202770bde5a023a9f62d05f09e1a852b5f0af42117e3d2f6c3cd755f41635c4b7cd%22]\"
+{
+  "added_index": 0,
+  "status": "error",
+  "error": "error setting nonce"
+}
+```
+
+
+[22-Feb-19 11:26 AM] siu#3920
+there is no way i can make it work here.
+
+
+[22-Feb-19 11:26 AM] TonyL#3577
+Don't have such daemon yet - but just as idea - what if try to use %221%22 as second arg?
+
+
+[22-Feb-19 11:27 AM] siu#3920
+```./komodo-cli -ac_name=MUSIG cclib nonce 18 \"[%228028483fb20e18cb2f9f26526ce39bf25dca8983792c43d2f1b7b3cb4bc62a86%22,0,%22026a5e09767b69cb6d4c0ee255bd32520eb1be9aeb36b71cf691b3b35882458772%22]\"
+{
+  "added_index": 0,
+  "status": "error",
+  "error": "error setting nonce"
+}
+```
+
+
+[22-Feb-19 11:27 AM] siu#3920
+hmm, let me try that... the guide doesnt add it, but ill try it now
+
+
+[22-Feb-19 11:28 AM] siu#3920
+nope, that doesnt do it either
+
+
+[22-Feb-19 11:28 AM] siu#3920
+```./komodo-cli -ac_name=MUSIG cclib nonce 18 \"[%228028483fb20e18cb2f9f26526ce39bf25dca8983792c43d2f1b7b3cb4bc62a86%22,%220%22,%22026a5e09767b69cb6d4c0ee255bd32520eb1be9aeb36b71cf691b3b35882458772%22]\"
+{
+  "added_index": 0,
+  "status": "error",
+  "error": "error setting nonce"
+}
+```
+
+
+[22-Feb-19 11:29 AM] TonyL#3577
+Building daemon to try on my side
+
+
+[22-Feb-19 11:29 AM] siu#3920
+im off for now. scrambled to ge everything done and got stuck here, but i need to move.
+
+
+[22-Feb-19 11:29 AM] siu#3920
+Ill keep monitoring the chat though.
+
+
+[22-Feb-19 11:30 AM] siu#3920
+@TonyL let me know if you get the nonce part to work
+
+{Reactions}
+👌 
+
+[22-Feb-19 11:51 AM] jl777c#5810
+why not to follow the example?
+
+
+[22-Feb-19 11:51 AM] jl777c#5810
+./c cclib nonce 18 \"[%225be117f3c5ce87e7dc6882c24b8231e0652ee82054bf7b9f94aef1f45e055cba%22,0,%220261671b0a6de416938cf035c98f8af37c6ca88bbbd1bcce693d709d4919b010e1%22]\"
+
+
+[22-Feb-19 11:52 AM] jl777c#5810
+on node 0, use 1, on node 1 use 0
+
+
+[22-Feb-19 12:14 PM] TonyL#3577
+@jl777c https://github.com/jl777/komodo/blob/jl777/src/cc/musig.cpp#L33 which call should I execute on this step (after send)? (seems there is only output of call)
+And how to get the change script?
+
+{Embed}
+https://github.com/jl777/komodo/blob/jl777/src/cc/musig.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[22-Feb-19 12:16 PM] TonyL#3577
+https://github.com/jl777/komodo/blob/jl777/src/cc/musig.cpp#L29 as I can see change script persists in hex on this stage
+
+{Embed}
+https://github.com/jl777/komodo/blob/jl777/src/cc/musig.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[22-Feb-19 12:19 PM] TonyL#3577
+Oh sorry it's vout, not RPC call output on L34
+
+
+[22-Feb-19 12:20 PM] jl777c#5810
+just do a getrawtransaction for any tx that pays to your address. the scriptPubKey hex is the script
+
+{Reactions}
+👍 
+
+[22-Feb-19 12:57 PM] TonyL#3577
+```./komodo-cli -ac_name=MUSIG cclib nonce 18 \"[%225be117f3c5ce87e7dc6882c24b8231e0652ee82054bf7b9f94aef1f45e055cba%22,1,%2202e5fe62e5d717420db394d7ee3f7a582c2b18b6762c6575510be4faaac7ffc169%22]\"
+{
+  "status": "error",
+  "error": "pkhash doesnt match session pkhash"
+}
+```
+Mistaken in place where exchanged nonces - used 1 in both calls 😦
+
+
+[22-Feb-19 12:58 PM] TonyL#3577
+What is the best way to start process from "clean sheet" ? I wonder new session might help
+
+
+[22-Feb-19 01:03 PM] TonyL#3577
+```./komodo-cli -ac_name=MUSIG cclib nonce 18 \"[%22b8d60ea48994385b8e7038b5586b2475211225e0c6e66173aaedcd8f437c3945%22,1,%2202176ea9b7740264544422d44fed59cc472495e54b21ccf6877cca4ee3bfbea162%22]\"
+{
+  "added_index": 1,
+  "myind": 0,
+  "partialsig": "0538d67c7e8c97ff3dfada55c4dcf4dd47a9e4c9b1813e90bfe12ca1d3cbbcb9",
+  "result": "success"
+}
+``` yay
+
+
+[22-Feb-19 01:11 PM] TonyL#3577
+@jl777c I've called `nonce` succesfully from first node, but on second node daemon crashing on nonce exchange attempt:
+```./komodo-cli -ac_name=MUSIG cclib nonce 18 \"[%22b8d60ea48994385b8e7038b5586b2475211225e0c6e66173aaedcd8f437c3945%22,0,%2203e5463b110330e15ccc5377de92678fe998760b01ea99caa89194fb3ef9d40923%22]\"```
+```
+Thread 9 "zcash-httpworke" received signal SIGSEGV, Segmentation fault.
+[Switching to Thread 0x7fffd903a700 (LWP 3344)]
+__memcmp_avx2_movbe () at ../sysdeps/x86_64/multiarch/memcmp-avx2-movbe.S:68
+68      ../sysdeps/x86_64/multiarch/memcmp-avx2-movbe.S: No such file or directory.```
+
+
+[22-Feb-19 01:12 PM] TonyL#3577
+Ahh maybe it's because to second node I've only downloaded komodod komodo-cli and komodo-tx from first node but some other files needed
+
+
+[22-Feb-19 01:16 PM] TonyL#3577
+@siu https://paste.ubuntu.com/p/hXx69NPfDb/ issued nonce call succesfully - it just crashed on second node with backtrace above, tomorrow will build daemon on this node from scratch and try again
+
+
+[22-Feb-19 01:18 PM] siu#3920
+I did the 0 and 1 tries. But it didnt work for me on any of the combinations, will try again to see.
+
+
+[22-Feb-19 01:19 PM] TonyL#3577
+Maybe you've mistaken somewhere on previous steps (I did it twice when tried)
+No need to try combinations - it's messages rebroadcast: to node 0 you broadcast message from node 1, to node 1 you broadcast message from node 0
+
+
+[22-Feb-19 01:20 PM] TonyL#3577
+So in calls (I mean messages exchange, not session opening) on node0 it's always will be 1, in calls on node1 it'll be 0
+
+
+[22-Feb-19 01:24 PM] siu#3920
+Maybe it needs a specific turn? Node 0 first than 1?
+
+
+[22-Feb-19 01:25 PM] TonyL#3577
+I'm not sure if exchange order in session matters. I've followed example when tested (called on first node then on second node)
+
+
+[22-Feb-19 01:27 PM] jl777c#5810
+you need libcc.so
+
+{Reactions}
+😊 
+
+[22-Feb-19 01:47 PM] siu#3920
+@jl777c does pubkey order when creating the multisig matter like in normal multisig?
+
+
+[22-Feb-19 01:54 PM] jl777c#5810
+yes
+
+
+[22-Feb-19 02:02 PM] siu#3920
+Ok, might have been that. Need to check. Thanks.
+
+
+[22-Feb-19 10:49 PM] Deleted User#0000
+`910635bf69a047fc90567a83ff12e47b753f470658b6d0855ec96e07e7349a8a`
+sucessful spend made
+
+
+[22-Feb-19 11:06 PM] gcharang#6833
+```
+gcharang@qa-gcharang1:~/komodo$ cd src/cc
+gcharang@qa-gcharang1:~/komodo/src/cc$ ./makecclib 
+gcharang@qa-gcharang1:~/komodo/src/cc$ cd ../..
+gcharang@qa-gcharang1:~/komodo$ make -j$(nproc)
+Making all in src
+make[1]: Entering directory '/home/gcharang/komodo/src'
+make[2]: Entering directory '/home/gcharang/komodo/src'
+  CXXLD    komodo-test
+  CXXLD    komodod
+libcc.so: In function `__static_initialization_and_destruction_0(int, int)':
+cclib.cpp:(.text+0x1621d): undefined reference to `boost::system::system_category()'
+collect2: error: ld returned 1 exit status
+libcc.so: In function `__static_initialization_and_destruction_0(int, int)':
+cclib.cpp:(.text+0x1621d): undefined reference to `boost::system::system_category()'
+collect2: error: ld returned 1 exit status
+Makefile:2210: recipe for target 'komodod' failed
+make[2]: *** [komodod] Error 1
+make[2]: *** Waiting for unfinished jobs....
+Makefile:2202: recipe for target 'komodo-test' failed
+make[2]: *** [komodo-test] Error 1
+make[2]: Leaving directory '/home/gcharang/komodo/src'
+Makefile:4992: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory '/home/gcharang/komodo/src'
+Makefile:659: recipe for target 'all-recursive' failed
+make: *** [all-recursive] Error 1
+```
+Any help?
+
+
+[22-Feb-19 11:15 PM] jl777c#5810
+does komodod build normally?
+
+
+[22-Feb-19 11:16 PM] jl777c#5810
+it could be the Makefile_rogue works better, but of course that builds the rogue version of libcc.so. How would you modify that to make the MUSIG version of libcc.so?
+
+
+[22-Feb-19 11:20 PM] gcharang#6833
+yes `./zcutil/build.sh` worked normally
+
+
+[22-Feb-19 11:26 PM] jl777c#5810
+look at cc/Makefile_rogue. change it to build sudoku
+
+
+[22-Feb-19 11:26 PM] jl777c#5810
+just change all occurance of "rogue" to "sudoku"
+
+
+[22-Feb-19 11:27 PM] jl777c#5810
+and remove all  -DBUILD_ROGUE
+
+
+[22-Feb-19 11:27 PM] gcharang#6833
+Will try
+
+
+[22-Feb-19 11:34 PM] Deleted User#0000
+I had to revert boost to 1.66 to make it build
+
+
+[22-Feb-19 11:34 PM] Deleted User#0000
+I tried fresh clone and a few other things, but it refused to build with 1.69
+
+
+[22-Feb-19 11:46 PM] gcharang#6833
+@Deleted User 
+```
+gcharang@qa-gcharang1:~/komodo/src/cc$ dpkg -s libboost-dev | grep 'Version'
+Version: 1.58.0.1ubuntu1
+```
+mine was 1.58, will update
+
+
+[22-Feb-19 11:47 PM] Deleted User#0000
+no its a dep in the packages ...
+
+
+[22-Feb-19 11:47 PM] Deleted User#0000
+https://github.com/blackjok3rtt/komodo/commit/fb462bf7de0248b4c4ce6b17f7faba60891b8a14
+
+{Embed}
+https://github.com/blackjok3rtt/komodo/commit/fb462bf7de0248b4c4ce6b17f7faba60891b8a14
+update boost · blackjok3rtt/komodo@fb462bf
+https://images-ext-1.discordapp.net/external/odO1GEZjXVfb1MMXFakEV1Oz4dmaW1GhG6vDNkq6dxQ/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/10762374
+
+{Reactions}
+👍 
+
+[22-Feb-19 11:47 PM] Deleted User#0000
+I reverted that change
+
+
+[22-Feb-19 11:47 PM] jl777c#5810
+now we have it working with 2 pubkeys, the next step is to get a way to test large numbers and hopefully if we do this via scripts to be able to have others use the scripts. The idea is to make musig a chain that devs use to experiment with cutting edge tech
+
+
+[23-Feb-19 12:05 AM] gcharang#6833
+thanks @Deleted User  its building after reverting this change: https://github.com/blackjok3rtt/komodo/commit/fb462bf7de0248b4c4ce6b17f7faba60891b8a14
+
+{Embed}
+https://github.com/blackjok3rtt/komodo/commit/fb462bf7de0248b4c4ce6b17f7faba60891b8a14
+update boost · blackjok3rtt/komodo@fb462bf
+https://images-ext-1.discordapp.net/external/odO1GEZjXVfb1MMXFakEV1Oz4dmaW1GhG6vDNkq6dxQ/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/10762374
+
+
+[23-Feb-19 12:46 AM] gcharang#6833
+@jl777c I understand right now, the daemon can be built with only one of the dynamic modules: rogue or musig, but if in the future daemon is built with both modules present, can `-ac_cclib` take both the modules rogue,musig as parameters and start a chain?
+
+
+[23-Feb-19 12:50 AM] jl777c#5810
+@josephnicholas GMT+8 look at this!
+cclib keypair 19
+{
+  "pubkey": "0afb65560088f40b4deda47bb7ab18c8a4d5f8e66fbc8bbba465e0d517e756ef058cee3fd95a9d18f9be86f56a8b865a3517deb5c713ef9d4dc04c0eba85eeb4c19e9f3ccae0225cdd18456c38ff82ffe25dd2463258049b01fa8da62be209c7ff3ce37a7b6100f886eaba7edde140d55f45ef8552ce92b36d5a9d6a7be291334be1fa8956f1252dbca2a819fa...5bec6e12ff907d5",
+  "privkey": "0afb65560088f40b4deda47bb...be5ca23dee075bc586c23aecc3a9926e587cb5448bd0e122316f89918a012356b55f6f92f5d93eb089da7e252e99e3e490c05207de41daf27e80eeab9",
+  "result": "success"
+}
+
+{Reactions}
+yassinkomodo 
+
+[23-Feb-19 12:50 AM] jl777c#5810
+evalcode 19 is EVAL_DILITHIUM
+
+
+[23-Feb-19 12:51 AM] jl777c#5810
+@gcharang the idea is that there is a libcc dynamic lib that has all the CC you want in it. there needs to be a sane build process to make this. unfortunately i dont really do build process, i just write code so someone else will need to make it a sane process. the important thing is that N different CC can be bundled into a single libcc
+
+
+[23-Feb-19 12:53 AM] gcharang#6833
+Got it, can `-ac_cclib` take multiple modules as parameters and the chain have all the specifies modules enabled?
+
+
+[23-Feb-19 12:56 AM] jl777c#5810
+the idea is that there is a libcc dynamic lib that has all the CC you want in it
+
+
+[23-Feb-19 12:56 AM] jl777c#5810
+did you understand that part?
+
+
+[23-Feb-19 12:56 AM] jl777c#5810
+so make a single libcc with all the CC you want in it. why would you need to specify multiple modules?
+
+
+[23-Feb-19 01:00 AM] gcharang#6833
+oh , these modules in the libcc will be available along with faucet,dice, rewards just through `-ac_cc`?
+
+
+[23-Feb-19 01:00 AM] jl777c#5810
+all the build in CC and the ones in the libcc are available
+
+
+[23-Feb-19 01:01 AM] gcharang#6833
+Got it
+
+
+[23-Feb-19 01:01 AM] jl777c#5810
+you can even limit which of the built in ones are available with -ac_ccenable=evalcode0,evalcode1,...
+
+
+[23-Feb-19 01:02 AM] jl777c#5810
+in which case only the specified evalcodes are available
+
+
+[23-Feb-19 01:02 AM] jl777c#5810
+plus whatever ones are in libcc if ac_cclib was there
+
+
+[23-Feb-19 01:02 AM] jl777c#5810
+there is not much "smarts" to what is available or not
+
+
+[23-Feb-19 01:02 AM] jl777c#5810
+if it is there and not disabled, it is there
+
+
+[23-Feb-19 01:02 AM] jl777c#5810
+if it isnt there or is disabled, it cant be used
+
+
+[23-Feb-19 01:03 AM] jl777c#5810
+chain creation needs to make sure the specific CC available are the ones they want
+
+{Reactions}
+👍 
+
+[23-Feb-19 01:59 AM] Mylo#8306
+So cool
+
+
+[23-Feb-19 02:16 AM] Deleted User#0000
+Almost finished with modified daemon to sign unlimited keys on a single daemon. My cclib compiles. Time add to to my python script to loop X pubkeys. Was actually quite simple, that is provided I can manage to chanmge the -pubkey in runtime without crashing it...
+
+
+[23-Feb-19 03:04 AM] gcharang#6833
+@jl777c 
+Response for `cclibinfo`
+```
+    {
+      "evalcode": 18,
+      "funcid": "P",
+      "name": "musig",
+      "method": "combine",
+      "help": "pubkeys ...",
+      "params_required": 2,
+      "params_max": 999999999
+    },
+```
+- whats the description of ` "funcid"`? 
+- is it always going to be a character? 
+- How is it useful for a RPC user?
+
+
+[23-Feb-19 04:08 AM] gcharang#6833
+@jl777c 
+
+Command:
+
+```bash
+./komodo-cli -ac_name=MUSIG cclibaddress 18 0225f1cbbda1a0c406bb8f6dc7a589d88b2f9e28cd4fdb3f59139f8aff1f5d270a
+```
+
+Response:
+
+```json
+{
+  "result": "success",
+  "CClibCCAddress": "RKWS7jxyjPX9iaJttk8iMKf1AumanKypez",
+  "CCbalance": 2.0977,
+  "CClibNormalAddress": "RQHYfxb21ow4Xppt2H9x7k5XMhk7PMbKCc",
+  "CClibCCTokensAddress": "RVjvG3or8b8asoYBJua9p97pf3RSpaEhRG",
+  "myAddress": "RUfCUd3UryKJ49baQvSuAs42wakNunvvfT",
+  "myCCAddress(CClib)": "RPYCYEtS7GAt1W9LvJWXHsndozaA8yy4H9",
+  "PubkeyCCaddress(CClib)": "RPYCYEtS7GAt1W9LvJWXHsndozaA8yy4H9",
+  "myCCaddress": "RPYCYEtS7GAt1W9LvJWXHsndozaA8yy4H9",
+  "myCCbalance": 0.0,
+  "myaddress": "RUfCUd3UryKJ49baQvSuAs42wakNunvvfT",
+  "mybalance": 94.60081561
+}
+```
+What are: `PubkeyCCaddress(CClib)`, `CClibCCTokensAddress`
+What is the difference between `myCCAddress(CClib)` and `myCCAddress`
+
+
+[23-Feb-19 05:31 AM] grewalsatinder#9653
+Pinned a message.
+
+
+[23-Feb-19 05:37 AM] siu#3920
+```./komodo-cli -ac_name=MUSIG cclib combine 18 '["03733107e080036b5c1149dfd5b021f0298f99ece570af0b26c658fe4e1b91886f","021d8a1f5d574b0d878bee392347549728a23facb1178eb5e4c86abe70a9a859e9"]'
+error code: -1
+error message:
+no -ac_cclib= specified
+```
+
+
+[23-Feb-19 05:38 AM] siu#3920
+is there some work being done or something?
+
+
+[23-Feb-19 05:38 AM] siu#3920
+```{
+  "result": "success",
+  "CClib": "sudoku",
+```
+
+
+[23-Feb-19 05:38 AM] siu#3920
+afaik im in the correct setup
+
+
+[23-Feb-19 05:38 AM] siu#3920
+This is the chain im running: ```./komodod -ac_name=MUSIG -ac_supply=100000 -ac_reward=10000000 -pubkey=023ef3d3bf277dcf3c363e41d7a3adfa72b8659c148e108079a268e22717fa9a88 -ac_cclib=sudoku -ac_cc=2 -addnode=5.9.102.210 &
+```
+
+
+[23-Feb-19 05:39 AM] TonyL#3577
+"Sudoku" cclib is what you need for musig
+
+
+[23-Feb-19 05:40 AM] TonyL#3577
+Just ensure that you have musig calls in cclibinfo
+
+
+[23-Feb-19 05:40 AM] siu#3920
+```   {
+      "evalcode": 18,
+      "funcid": "C",
+      "name": "musig",
+      "method": "calcmsg",
+      "help": "sendtxid scriptPubKey",
+      "params_required": 2,
+      "params_max": 2
+    },
+    {
+      "evalcode": 18,
+      "funcid": "P",
+      "name": "musig",
+      "method": "combine",
+      "help": "pubkeys ...",
+      "params_required": 2,
+      "params_max": 999999999
+    },
+    {
+      "evalcode": 18,
+      "funcid": "R",
+      "name": "musig",
+      "method": "session",
+      "help": "myindex,numsigners,combined_pk,pkhash,msg32",
+      "params_required": 5,
+      "params_max": 5
+    },
+    {
+      "evalcode": 18,
+      "funcid": "H",
+      "name": "musig",
+      "method": "commit",
+      "help": "pkhash,ind,commitment",
+      "params_required": 3,
+      "params_max": 3
+    },
+    {
+      "evalcode": 18,
+      "funcid": "N",
+      "name": "musig",
+      "method": "nonce",
+      "help": "pkhash,ind,nonce",
+      "params_required": 3,
+      "params_max": 3
+    },
+    {
+      "evalcode": 18,
+      "funcid": "S",
+      "name": "musig",
+      "method": "partialsig",
+      "help": "pkhash,ind,partialsig",
+      "params_required": 3,
+      "params_max": 3
+    },
+    {
+      "evalcode": 18,
+      "funcid": "V",
+      "name": "musig",
+      "method": "verify",
+      "help": "msg sig pubkey",
+      "params_required": 3,
+      "params_max": 3
+    },
+    {
+      "evalcode": 18,
+      "funcid": "x",
+      "name": "musig",
+      "method": "send",
+      "help": "combined_pk amount",
+      "params_required": 2,
+      "params_max": 2
+    },```
+
+
+[23-Feb-19 05:40 AM] siu#3920
+all there
+
+
+[23-Feb-19 05:41 AM] siu#3920
+i did notice format chainged in the guide
+
+
+[23-Feb-19 05:41 AM] siu#3920
+now there is no %22
+
+
+[23-Feb-19 05:44 AM] grewalsatinder#9653
+>What are: PubkeyCCaddress(CClib), CClibCCTokensAddress
+
+Not sure of this question.
+
+>What is the difference between myCCAddress(CClib) and myCCAddress
+
+CCAddress is the address calculated from the EVAL code from the specific CC
+
+
+[23-Feb-19 05:45 AM] grewalsatinder#9653
+CC address of yours would be different to normal KMD/Assetchain Address, but it'd be specific to your own `pubkey`'s
+
+
+[23-Feb-19 05:45 AM] grewalsatinder#9653
+You need to start your CC enabled chain with a `pubkey` on daemon start.
+
+
+[23-Feb-19 05:45 AM] grewalsatinder#9653
+Or at least setpubkey for that CC chain if it's already started
+
+
+[23-Feb-19 05:46 AM] grewalsatinder#9653
+So, you get the CCAddress for that same pubkey,
+
+
+[23-Feb-19 05:46 AM] grewalsatinder#9653
+I guess that's the description, unless it needs correction.
+
+
+[23-Feb-19 05:47 AM] jl777c#5810
+CCaddress calls are always the same as all the other CC
+
+
+[23-Feb-19 05:50 AM] Deleted User#0000
+Very close to unlimited signers working here. 😄 taken a while longer than I thaught it would.
+
+
+[23-Feb-19 05:51 AM] Deleted User#0000
+multi sig signing, but with almsot unlimited signers. Very cool .... but very difficult to use
+
+
+[23-Feb-19 05:51 AM] Deleted User#0000
+at least right now
+
+
+[23-Feb-19 05:51 AM] jl777c#5810
+https://cointelegraph.com/news/blockstream-publishes-schnorr-based-test-code-for-bitcoin-blockchain-upgrade
+
+{Embed}
+https://cointelegraph.com/news/blockstream-publishes-schnorr-based-test-code-for-bitcoin-blockchain-upgrade
+Blockstream Publishes Schnorr-Based Test Code for Bitcoin Blockcha...
+Tech firm Blockstream has released the Schnorr-based multi-signature scheme MuSig designed to address Bitcoin blockchain privacy.
+https://images-ext-2.discordapp.net/external/uSOxCv0kad2uu6hZPPPFvt7_tQHD2WsGTGFXFqaUUeo/https/images.cointelegraph.com/images/740_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy84YmIxYTg3MGMxYmFjMTA5YzMyMWI5YWMwMDJhOTYyMi5qcGc%3D.jpg
+
+
+[23-Feb-19 05:52 AM] jl777c#5810
+right now it does NofN multisig, as long as N is less than 4 billion
+
+
+[23-Feb-19 05:53 AM] siu#3920
+one of my nodes was able to do combine, the other could not 🤦
+
+
+[23-Feb-19 05:54 AM] siu#3920
+4billion signers??? 😮
+
+
+[23-Feb-19 05:56 AM] Deleted User#0000
+I cant see that being realyl possible to do... unless im not doing this properly...
+
+
+[23-Feb-19 05:56 AM] jl777c#5810
+would need a lot of RAM and a lot of time
+
+
+[23-Feb-19 05:57 AM] Deleted User#0000
+yes lol... Question, what I am doing here is using 4 keys, each uses its own MUSIG struct, each of the steps commit, nonce, partialsig, I am sending the return from each struct to all the otehr structs. I assume this is what its supposed to do, so that all structs are filled of the same data?
+
+
+[23-Feb-19 05:58 AM] jl777c#5810
+yes
+
+
+[23-Feb-19 05:58 AM] jl777c#5810
+for all but the combine sig step, all nodes need to get all data
+
+
+[23-Feb-19 05:58 AM] Deleted User#0000
+good its crashing on combined sig step. retrying with gdb
+
+
+[23-Feb-19 07:07 AM] Deleted User#0000
+Having a lot of trouble getting past the combining of nonce's
+
+
+[23-Feb-19 07:13 AM] jl777c#5810
+you made the combined pubkey?
+
+
+[23-Feb-19 07:13 AM] jl777c#5810
+the session is the tricky one. maybe the idea of spawning a bunch of nodes is the way to go?
+
+
+[23-Feb-19 07:15 AM] Deleted User#0000
+Im not sure its the way I am doing it that is the problem
+
+
+[23-Feb-19 07:15 AM] Deleted User#0000
+It seems to work just fine
+
+
+[23-Feb-19 07:16 AM] Deleted User#0000
+Its crashing when tryiing to combine nonce here:
+`if ( secp256k1_musig_set_nonce(ctx,&MUSIG[myind]->signer_data[i],&MUSIG[myind]->nonces[i]) == 0 )`
+
+
+[23-Feb-19 07:17 AM] Deleted User#0000
+Seems to be that it doesnt have all of them, so I made it only proceed to this step on the last index, but that causes this to happen:
+`error combining nonces`
+
+
+[23-Feb-19 07:18 AM] jl777c#5810
+MUSIG[] is an array of pointers? all allocated?
+
+
+[23-Feb-19 07:18 AM] jl777c#5810
+and all filled out with session
+
+
+[23-Feb-19 07:19 AM] Deleted User#0000
+yes. It creates the commitments, and the nonce fine... Once thing I did find a bit strange on the nonce creation that the first call is the only return of nonce.
+
+
+[23-Feb-19 07:19 AM] Deleted User#0000
+I used a vectror of pointers, and just push_back them in order...
+
+
+[23-Feb-19 07:20 AM] Deleted User#0000
+then restart daemon to try again
+
+
+[23-Feb-19 07:20 AM] Deleted User#0000
+Its rotating through the structs fine...
+
+
+[23-Feb-19 07:20 AM] Deleted User#0000
+```COMMIT: number of MUSIG structs.4 using struct.0 addedindex.1
+COMMIT: number of MUSIG structs.4 using struct.0 addedindex.2
+COMMIT: number of MUSIG structs.4 using struct.0 addedindex.3
+COMMIT: number of MUSIG structs.4 using struct.1 addedindex.0
+COMMIT: number of MUSIG structs.4 using struct.1 addedindex.2
+COMMIT: number of MUSIG structs.4 using struct.1 addedindex.3
+COMMIT: number of MUSIG structs.4 using struct.2 addedindex.0
+COMMIT: number of MUSIG structs.4 using struct.2 addedindex.1
+COMMIT: number of MUSIG structs.4 using struct.2 addedindex.3
+COMMIT: number of MUSIG structs.4 using struct.3 addedindex.0
+COMMIT: number of MUSIG structs.4 using struct.3 addedindex.1
+COMMIT: number of MUSIG structs.4 using struct.3 addedindex.2
+```
+
+
+[23-Feb-19 07:21 AM] jl777c#5810
+if all the commitments are made, then a node will be able to reveal the nonce
+
+
+[23-Feb-19 07:22 AM] Deleted User#0000
+nonce is revealed once so I saved those in the python script
+
+
+[23-Feb-19 07:22 AM] Deleted User#0000
+its breaking when I try to use the nonces
+
+
+[23-Feb-19 07:22 AM] jl777c#5810
+you cant start a new session once you start the process
+
+
+[23-Feb-19 07:22 AM] Deleted User#0000
+Im not
+
+
+[23-Feb-19 07:23 AM] Deleted User#0000
+it starts a session.. I think... I assume the session is confined to the musig_struct
+
+
+[23-Feb-19 07:23 AM] jl777c#5810
+the way I had it there was only one MUSIG dataset, you need to make it allow multiple
+
+
+[23-Feb-19 07:24 AM] Deleted User#0000
+https://github.com/blackjok3rtt/komodo/commit/1b5d9b5032f41422113868eca35d182c07529f7e
+
+{Embed}
+https://github.com/blackjok3rtt/komodo/commit/1b5d9b5032f41422113868eca35d182c07529f7e
+show · blackjok3rtt/komodo@1b5d9b5
+https://images-ext-2.discordapp.net/external/lu64DQK93KlyiFHOc2R5yqOF7xkNx4h_y9OO2TTLCZA/%3Fs%3D200%26v%3D4/https/avatars1.githubusercontent.com/u/30971146
+
+
+[23-Feb-19 07:26 AM] Deleted User#0000
+What happens is the nonce is returned on the first commitment... so like 
+the first node MUSIG[0] you add the commitment from MUSIG[1] adn the nonce is returned immediatly
+
+
+[23-Feb-19 07:26 AM] Deleted User#0000
+then when adding MUSIG[2] and MUSIG[3] it does not return a nonce.
+
+
+[23-Feb-19 07:26 AM] Deleted User#0000
+then when I try top use that nonce its fails
+
+
+[23-Feb-19 07:27 AM] jl777c#5810
+sprintf(&str[i<<1],"%02x",MUSIG[myind]->nonce_commitments[MUSIG[myind]->myind*32 + i]);
+there is no need to do MUSIG[myind]->myind to get myind
+
+
+[23-Feb-19 07:28 AM] jl777c#5810
+it seems you are not setting the nonces for most of the MUSIG ptrs
+
+
+[23-Feb-19 07:28 AM] jl777c#5810
+each MUSIG ptr needs to get all the other nonces
+
+
+[23-Feb-19 07:28 AM] jl777c#5810
+for (i=0; i<MUSIG->num; i++)
+->         if ( ind != MUSIG[myind]->num-1 )
+?
+
+
+[23-Feb-19 07:29 AM] Deleted User#0000
+stopped it crashing, but didnt work
+
+
+[23-Feb-19 07:29 AM] Deleted User#0000
+idea was to only combine once they were all there
+
+
+[23-Feb-19 07:29 AM] Deleted User#0000
+but that doesnt work. I think the problem is the step before
+
+
+[23-Feb-19 07:29 AM] Deleted User#0000
+because it return nonce as soon as it has just a single commitment
+
+
+[23-Feb-19 07:30 AM] Deleted User#0000
+I thaught it needed all of them?
+
+
+[23-Feb-19 07:30 AM] jl777c#5810
+yes
+
+
+[23-Feb-19 07:30 AM] Deleted User#0000
+maybe I need to jkust try 3 nodes manually
+
+
+[23-Feb-19 07:30 AM] jl777c#5810
+all MUSIG need all commitments to generate a nonce
+
+
+[23-Feb-19 07:30 AM] jl777c#5810
+and all MUSIG need all nonces
+
+
+[23-Feb-19 07:30 AM] Deleted User#0000
+well its not working tha way
+
+
+[23-Feb-19 07:30 AM] Deleted User#0000
+it taking its own comitment
+
+
+[23-Feb-19 07:30 AM] Deleted User#0000
+and as soona s you add on
+
+
+[23-Feb-19 07:30 AM] Deleted User#0000
+it returns a nonce
+
+
+[23-Feb-19 07:30 AM] Deleted User#0000
+my code shouldnt have changed anything there
+
+
+[23-Feb-19 07:31 AM] jl777c#5810
+well I assumed it returned an error if there werent enough commitments to return a nonce
+
+
+[23-Feb-19 07:31 AM] Deleted User#0000
+no it doesnt...
+
+
+[23-Feb-19 07:31 AM] jl777c#5810
+maybe manually is the next step to do?
+
+
+[23-Feb-19 07:31 AM] Deleted User#0000
+or well to be mroe specific, it just doenst check they are all there, and just returns one as soon as you combine 2 commitments
+
+
+[23-Feb-19 07:32 AM] Deleted User#0000
+then when you try to add more, it seemingly ignores them. They are added, but I dont think they are being used
+
+
+[23-Feb-19 07:33 AM] Deleted User#0000
+Yes I tguess I will need to try with 3 nodes without my changes, unless I can figure this out.
+
+
+[23-Feb-19 07:33 AM] Deleted User#0000
+I think it will act the same way.
+
+
+[23-Feb-19 07:50 AM] Deleted User#0000
+I got it working
+
+
+[23-Feb-19 07:54 AM] jl777c#5810
+what was the trick?
+
+
+[23-Feb-19 08:04 AM] Deleted User#0000
+```if ( ind != MUSIG[myind]->num-1 )
+        {
+            fprintf(stderr, "ind.%i MUSIG[myind]->num.%i\n", ind, MUSIG[myind]->num);
+            return(cclib_error(result,"need rest of nonce's to continue"));
+        }```
+Put this on every step
+
+
+[23-Feb-19 08:05 AM] Deleted User#0000
+thats really not going to be a solution for actual seperate nodes though maybe? Because I am doing everyhting in an exact order its easier to control
+
+
+[23-Feb-19 08:08 AM] jl777c#5810
+for separate nodes, the way I had it should work
+
+
+[23-Feb-19 08:08 AM] jl777c#5810
+the issues are having multiple session data structurs
+
+
+[23-Feb-19 08:12 AM] Deleted User#0000
+I am not so sure, I will test that at a later time. The problem is that its returning that nonce as soon as you call `commit` the veryt first time. So it wroks fine for only 2 nodes, but going any higher thatn that it breaks, and returns a nonce before ti has all the commitments.
+
+
+[23-Feb-19 08:16 AM] jl777c#5810
+oh, maybe we need to track how many commitments it has and only ask for nonce after it has all of them?
+
+
+[23-Feb-19 08:16 AM] jl777c#5810
+if it only works for 2 pubkeys, its pretty worthless
+
+
+[23-Feb-19 08:16 AM] Deleted User#0000
+yes. I will have a think about this, its getting late but I want to get a spend with large number working. gald I figured this out today. 😃
+
+
+[23-Feb-19 08:18 AM] Deleted User#0000
+`6528185628d489d2517ccdeb7099ab699bc2a8ce2f096d751351d7c0f29f2752` 
+After losing about 35 coins, due to it failing. Finally have one with 4 signers 😄
+
+
+[23-Feb-19 08:18 AM] Deleted User#0000
+will try 100 now
+
+
+[23-Feb-19 08:22 AM] jl777c#5810
+100 could well be a world record as far as I know
+
+
+[23-Feb-19 08:22 AM] Deleted User#0000
+💯  DONE! `baa2c83cf40c7b1fd4dd24a3a52b7a6e5583f8ddb3aa3bd390b25be7e3a34b94`
+
+{Reactions}
+🔥 (4) 
+
+[23-Feb-19 08:22 AM] Deleted User#0000
+another world record haha
+
+
+[23-Feb-19 08:23 AM] Deleted User#0000
+no reason even 5000 would not work
+
+
+[23-Feb-19 08:23 AM] Deleted User#0000
+10000 not sure where it would start to break, have to monitor ram use here.
+
+
+[23-Feb-19 08:29 AM] Deleted User#0000
+5000 is using 3GB of ram
+
+
+[23-Feb-19 08:30 AM] gcharang#6833
+now on each signing node, a session needs to be created:
+ 5 args: ind, numsigners, combined_pk, pkhash, message to be signed
+./komodo-cli -ac_name=MUSIG cclib session 18 '[]' -- for this command, the values : 
+```
+ numsigners, combined_pk, pkhash, message to be signed
+```
+same on both nodes or different?
+
+
+[23-Feb-19 08:32 AM] gcharang#6833
+@Deleted User ^
+
+
+[23-Feb-19 08:33 AM] Deleted User#0000
+index increments with pubkey the rest are the same.
+
+
+[23-Feb-19 08:33 AM] gcharang#6833
+The example you submitted here: https://github.com/jl777/komodo/blob/145d05a62586760e74c3d3422c104107c583510f/src/cc/musig.cpp#L86
+used different values, so I was a little confused
+
+{Embed}
+https://github.com/jl777/komodo/blob/145d05a62586760e74c3d3422c104107c583510f/src/cc/musig.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[23-Feb-19 08:34 AM] Deleted User#0000
+like how I did the single node here is it generate a list of pubkeys, and the index for each pubkey is the number the pubkey is in the list
+Prety sure that example is wrong sorry
+
+
+[23-Feb-19 08:34 AM] Deleted User#0000
+my terminal was a mess of commands. Must have copy pasted the wrong one
+
+
+[23-Feb-19 08:35 AM] gcharang#6833
+No problem. I saw jl's example from yesterday so was able to recognise this lol
+
+
+[23-Feb-19 08:42 AM] Deleted User#0000
+wow 5000 is taking a long time, I hope it doesnt run out fo ram here 😅  4.5GB now
+
+
+[23-Feb-19 08:48 AM] jl777c#5810
+i guess we need to post the pubkeys being combined to prove it is 5000 combined as it wont appear onchain
+
+
+[23-Feb-19 08:48 AM] jl777c#5810
+so some webpage that proves this world record and we can get some PR
+
+
+[23-Feb-19 09:05 AM] Mylo#8306
+post to a gist on gitlab 5k sigs
+
+
+[23-Feb-19 09:05 AM] Mylo#8306
+Github
+
+
+[23-Feb-19 09:05 AM] jl777c#5810
+it is just one sig 64 bytes
+
+
+[23-Feb-19 09:06 AM] jl777c#5810
+5000 partial sigs of 32 bytes each
+
+
+[23-Feb-19 09:06 AM] Deleted User#0000
+I have a list.json with all the keys. and the combined .. but I dont know if 5000 is going to finish, its extremly slow.
+
+
+[23-Feb-19 09:06 AM] jl777c#5810
+5000 pubkeys
+
+
+[23-Feb-19 09:06 AM] gcharang#6833
+@Deleted User 
+both nodes gave same `combinedsigs` and `verify` gave success on both nodes, but:
+`spend` is giving me:
+```
+{
+  "msg": "78175fde3928fe43f849e1f1f335b6c37532e42d583199cb96836b5305217a9a",
+  "combined_pk": "03d31479e789014a96ba6dd60d50210045aa8292fe693f293d44615929f04cf57a",
+  "combinedsig": "dd85984aff4d0cf43b5ccb17c873f217915e733d12b5fdd3c97536fd5d89235cdd25b30d0b40d5b5ef4af6f3044fefdcfc0e0132e54765b1e716a9cdccb5c7e8",
+  "status": "error",
+  "error": "musig didnt validate"
+}
+```
+
+
+[23-Feb-19 09:07 AM] Deleted User#0000
+umm... that was the first bug I had to fix are you updated ?
+
+
+[23-Feb-19 09:07 AM] gcharang#6833
+no didn't update from yesterday 😓
+
+
+[23-Feb-19 09:08 AM] Deleted User#0000
+https://github.com/blackjok3rtt/komodo/commit/b6990f5f5ef7fc5a40251583873c9cda76620bb4
+I pushed my verison with the script top run it... I think on a large server with lots of ram and plenty of time, should be able to do huge numbers opf keys
+
+{Embed}
+https://github.com/blackjok3rtt/komodo/commit/b6990f5f5ef7fc5a40251583873c9cda76620bb4
+working single node multi sign · blackjok3rtt/komodo@b6990f5
+https://images-ext-2.discordapp.net/external/lu64DQK93KlyiFHOc2R5yqOF7xkNx4h_y9OO2TTLCZA/%3Fs%3D200%26v%3D4/https/avatars1.githubusercontent.com/u/30971146
+
+
+[23-Feb-19 09:08 AM] Mylo#8306
+I just provisioned a new 64GB machine to replace a 16GB machine with NVMe drives for labs and stuff.
+You can use that before I set it up too much, still waiting for /29 - so you can use that for a few days then I nuke it??
+
+
+[23-Feb-19 09:08 AM] gcharang#6833
+Will update and try again
+
+
+[23-Feb-19 09:09 AM] Deleted User#0000
+sure, its getting late, but just to install komodo and start the script. I need to see hwo much ram 5000 uses (hopefully its not more than 9GB)  then we can use your server to do the largest possible.
+
+
+[23-Feb-19 09:10 AM] Mylo#8306
+Ok I’ll wake up early and install kmd.  I think I’m 2 hours ahead of you.  Will DM u in morning
+
+
+[23-Feb-19 09:10 AM] Mylo#8306
+jl777 branch
+
+
+[23-Feb-19 09:10 AM] Deleted User#0000
+cool man, its 1am here lol... yes jl777 branch on my repo. the script is on /src/ called `musigtest.py`
+
+
+[23-Feb-19 09:10 AM] Deleted User#0000
+but I can do it if you need.
+
+
+[23-Feb-19 09:11 AM] Mylo#8306
+Ok 👌 I’ll try maybe but DM u login deets in AM.
+
+{Reactions}
+👍 
+
+[23-Feb-19 09:13 AM] gcharang#6833
+I will post the finished doc in about an hour if anyone needs
+
+{Reactions}
+🔥 👌 
+
+[23-Feb-19 09:15 AM] Deleted User#0000
+script is super easy, press y and tye a number of kesy then hit enter and wait 😄
+
+
+[23-Feb-19 09:15 AM] Mylo#8306
+💤 soon for me, will catch up in morning
+
+
+[23-Feb-19 09:15 AM] Mylo#8306
+Haha
+
+
+[23-Feb-19 09:16 AM] Deleted User#0000
+yes good idea. might just leave this running
+
+
+[23-Feb-19 09:16 AM] Deleted User#0000
+and go sleep
+
+
+[23-Feb-19 10:40 AM] gcharang#6833
+finally! my first musig spend transaction: 332373cd0e4cbdddd3916e827a408ba4a175eb5039cc5a43725a50b83cb74e52
+
+
+[23-Feb-19 10:48 AM] jl777c#5810
+good news!
+
+
+[23-Feb-19 12:18 PM] gcharang#6833
+Doc is updated with an example and explanations for various things: https://developers.komodoplatform.com/basic-docs/cryptoconditions/dynamic/cc-musig.html#a-complete-example
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/dynamic/cc-musig.html
+Module: MuSig (In Development) | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[23-Feb-19 08:00 PM] Mylo#8306
+docs are great @gcharang thx heaps
+
+
+[23-Feb-19 08:05 PM] Deleted User#0000
+Done a 1000 pubkey spend here. 2.5GB ram used.
+
+
+[23-Feb-19 08:06 PM] Deleted User#0000
+`7b44fd1c3d94456b076ce6c110f3bb37aaeff45330ec03c4e1be0cab583b257e`
+
+
+[23-Feb-19 08:07 PM] Deleted User#0000
+
+{Attachments}
+https://cdn.discordapp.com/attachments/548408393069756417/549079932018622475/list.json
+
+
+[23-Feb-19 08:07 PM] Deleted User#0000
+list of pubkeys.
+
+
+[23-Feb-19 08:08 PM] Deleted User#0000
+Test can be reporduced by anyone by just using the `musigtest.py` to import list.json and generate the same combinedkey.
+
+
+[23-Feb-19 08:08 PM] Deleted User#0000
+Mylo is trying a 5500 test on a larger system. Might take a fair while.
+
+
+[23-Feb-19 08:12 PM] Mylo#8306
+14.5% of the mem (64GB) taken, 9.3GB RAM.  5550 sigs.
+
+
+[23-Feb-19 08:15 PM] Mylo#8306
+going to the beach.  i'll have to get the blockchainworldrecord.com site updated and set it up for permanance 😄
+
+
+[23-Feb-19 08:19 PM] Mylo#8306
+spot price of 384GB RAM systems is 10c/hr - maybe we can try that later in the week
+
+{Reactions}
+🔥 
+
+[23-Feb-19 10:16 PM] Mylo#8306
+37% of mem, 24GB still chugging along it seems.
+
+{Reactions}
+😄 
+
+[23-Feb-19 11:52 PM] grewalsatinder#9653
+anyone attempted to compile and test musig on mac?
+
+
+[23-Feb-19 11:52 PM] grewalsatinder#9653
+I compiled musig cclib komodo on ubuntu vm
+
+
+[23-Feb-19 11:52 PM] grewalsatinder#9653
+now compiling on mac
+
+
+[23-Feb-19 11:53 PM] grewalsatinder#9653
+anyway, compiled with my modified makelibcc script
+
+
+[23-Feb-19 11:53 PM] grewalsatinder#9653
+now compiling kmd
+
+
+[23-Feb-19 11:54 PM] grewalsatinder#9653
+@Deleted User I thought I need two nodes to test musig
+
+
+[23-Feb-19 11:54 PM] Deleted User#0000
+The jl777 repo needs 2 nodes (and currentl tdoes nto work with more than 2)
+
+
+[23-Feb-19 11:54 PM] grewalsatinder#9653
+so I can just do getnewaddress and use it's pubkey to test musig?
+
+
+[23-Feb-19 11:55 PM] Deleted User#0000
+if you sue my repo and the script I modified the daemon to be able to simulate unlimded daemons
+
+
+[23-Feb-19 11:55 PM] grewalsatinder#9653
+how you testing with 1000?
+
+
+[23-Feb-19 11:55 PM] grewalsatinder#9653
+oh you are using wizard powers of yours 😄
+
+
+[23-Feb-19 11:55 PM] grewalsatinder#9653
+nice!
+
+
+[23-Feb-19 11:55 PM] Deleted User#0000
+I created the MUSIG struct as a vector of sctructs and just simulate unlimited daemons.. its limited by ram. Mylo is runnign at est with 5500 pubkeys atm on 64GB ram server 😄
+
+
+[23-Feb-19 11:56 PM] grewalsatinder#9653
+very cool!
+
+
+[23-Feb-19 11:56 PM] Deleted User#0000
+simple as mine some coins, start script. press `y` and type number of pubkeys and wait... I think 5500 pubkeys is something like `90750000` RPC calls 😂
+
+
+[23-Feb-19 11:57 PM] Deleted User#0000
+really not practical, but allows to set another record unlikely to be beated for any time soon lol
+
+
+[23-Feb-19 11:57 PM] grewalsatinder#9653
+komodod doesn't compile from jl777 repo on mac, and I guess the chances from jl777/jl777 branch are not in komodoplatform/komodo/jl777 branch...
+so, I'll just test things with linux vm
+
+
+[23-Feb-19 11:57 PM] grewalsatinder#9653
+don't want to spend time torubleshooting mac issues
+
+
+[23-Feb-19 11:58 PM] Deleted User#0000
+yes I used ubuntu 16.04 VM's here to test 2 nodes
+
+
+[23-Feb-19 11:58 PM] Deleted User#0000
+jl777 branch and repo on latest works, but only with 2 nodes
+
+
+[23-Feb-19 11:59 PM] Deleted User#0000
+it gets extemlly complicated with more than 2, and the daemon has a bug where you will get stuck after the `commit` step
+
+
+[23-Feb-19 11:59 PM] grewalsatinder#9653
+I want to test, so that I can make it included in my kmdgo package 🙂
+
+
+[24-Feb-19 12:00 AM] grewalsatinder#9653
+testing also makes things clearer and gives more ideas how it can be used in different usecases
+
+
+[24-Feb-19 12:00 AM] Deleted User#0000
+cool. its reasonably easy for 2 nodes... I had some trouble early on, but the example and gcharngs docs will clear those up well.
+
+
+[24-Feb-19 12:00 AM] grewalsatinder#9653
+also I have not been involved in testing for much long, so trying to do it
+
+{Reactions}
+👍 
+
+[24-Feb-19 12:00 AM] grewalsatinder#9653
+test is a lot of fun, that I missed, while busy learning go language
+
+
+[24-Feb-19 12:01 AM] Deleted User#0000
+me either really, so much time on labs, got pretty good at C++/C in that time though.
+
+
+[24-Feb-19 12:01 AM] Deleted User#0000
+Its good to be able to test and also debug it, so james has more time to write more contracts 😄
+
+
+[24-Feb-19 12:01 AM] grewalsatinder#9653
+testing is what got me so much involved in SuperNET at the first place that I quit my day job! 😄
+
+
+[24-Feb-19 12:02 AM] Deleted User#0000
+yeah... Havent worked a "real job" for so long now, it would be difficult to go back to it lol
+
+
+[24-Feb-19 12:02 AM] grewalsatinder#9653
+agree mate
+
+
+[24-Feb-19 12:02 AM] grewalsatinder#9653
+isn't it possible to just copy the cclib.cpp file to the komodoplatform repo which compiles on mac?
+
+
+[24-Feb-19 12:03 AM] grewalsatinder#9653
+oh... I guess it wont' be just that simple
+
+
+[24-Feb-19 12:03 AM] grewalsatinder#9653
+there are more dependency files
+
+
+[24-Feb-19 12:03 AM] grewalsatinder#9653
+alright, making more vm then
+
+
+[24-Feb-19 12:06 AM] jl777c#5810
+is there a bug fix needed to handle more than 3 pubkeys in the jl777 repo?
+
+
+[24-Feb-19 12:12 AM] Deleted User#0000
+I think so yes.
+
+
+[24-Feb-19 12:13 AM] Deleted User#0000
+my repo's fix doesnt seem like a good way to go about it for multiple nodes.
+
+
+[24-Feb-19 12:14 AM] Deleted User#0000
+the steps `commit`, `nonce` and `partialsig` where the data is swapped between all nodes, needs to make sure that all the data is in there before creating the next hash.
+
+
+[24-Feb-19 12:14 AM] Deleted User#0000
+I did it by sending each lot of data in exact order and only generateing hash on the last node.
+
+
+[24-Feb-19 12:14 AM] Deleted User#0000
+not sure in real world thats practical...
+
+
+[24-Feb-19 12:15 AM] Deleted User#0000
+It should just check to make sure all feilds are populated somehow.
+
+
+[24-Feb-19 12:21 AM] jl777c#5810
+is that restriction for nonce only, or also partial sigs?
+
+
+[24-Feb-19 12:22 AM] jl777c#5810
+I can add a counter at the required steps and only do the combine after all are there
+
+
+[24-Feb-19 12:27 AM] Deleted User#0000
+I ended up adding it for all 3 of those steps, not 100% sure if it needs it for all, but I know 100% that it works when used for all.
+
+
+[24-Feb-19 12:27 AM] Deleted User#0000
+to generate nonce, you need all commits. Pretty sure to generate partialsig you need all nonce, and to generate the combined sig, you need all partial sig.
+
+
+[24-Feb-19 12:28 AM] Deleted User#0000
+it doesnt check this currently and as such gives wrong outputs.
+
+
+[24-Feb-19 12:38 AM] jl777c#5810
+ok, I will add this
+
+{Reactions}
+👍 
+
+[24-Feb-19 01:41 AM] grewalsatinder#9653
+I found my node 1 got komodod died after command `commit`
+
+
+[24-Feb-19 01:41 AM] grewalsatinder#9653
+didn't had it run with gdb, started it again
+
+
+[24-Feb-19 01:42 AM] grewalsatinder#9653
+I just execute `commit` command agian or start from `session` command ?
+
+
+[24-Feb-19 01:46 AM] grewalsatinder#9653
+started from session again
+
+
+[24-Feb-19 01:48 AM] grewalsatinder#9653
+okay, executed nonce command on node 1 and it died just by executing it.
+
+
+[24-Feb-19 01:48 AM] grewalsatinder#9653
+found git pull had updates
+
+
+[24-Feb-19 01:48 AM] grewalsatinder#9653
+gonna compile that again
+
+
+[24-Feb-19 02:11 AM] grewalsatinder#9653
+trying to start komodod with gdb, and get this:
+
+
+[24-Feb-19 02:11 AM] grewalsatinder#9653
+```(gdb) start
+Temporary breakpoint 1 at 0x7b6ae: main. (5 locations)
+Starting program: /home/satinder/jl777/komodo/src/komodod -ac_name=MUSIG -ac_supply=100000 -ac_reward=10000000 -pubkey=03b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5de -ac_cclib=sudoku -ac_cc=2 -addnode=5.9.102.210
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff14a4700 (LWP 42822)]
+
+Thread 1 "komodod" hit Temporary breakpoint 1, main (argc=8, argv=0x7fffffffdf88) at bitcoind.cpp:249
+249    {
+(gdb) 
+```
+
+
+[24-Feb-19 02:11 AM] grewalsatinder#9653
+komodod need fixing or something I need to change in my command?
+
+
+[24-Feb-19 02:11 AM] grewalsatinder#9653
+without that gdb , it works
+
+
+[24-Feb-19 02:11 AM] jl777c#5810
+remove breakpoint
+
+
+[24-Feb-19 02:12 AM] grewalsatinder#9653
+not clear, change command? or edit code?
+
+
+[24-Feb-19 02:13 AM] jl777c#5810
+Thread 1 "komodod" hit Temporary breakpoint 1, main (argc=8, argv=0x7fffffffdf88) at bitcoind.cpp:249
+
+
+[24-Feb-19 02:13 AM] jl777c#5810
+it seems you have some breakpoints somehow
+
+
+[24-Feb-19 02:13 AM] jl777c#5810
+clear them or maybe continue or something like that
+
+
+[24-Feb-19 02:15 AM] grewalsatinder#9653
+```int main(int argc, char* argv[])
+{
+    SetupEnvironment();
+
+    // Connect bitcoind signal handlers
+    noui_connect();
+
+    return (AppInit(argc, argv) ? EXIT_SUCCESS : EXIT_FAILURE);
+}```
+this is from bitcoind.cpp:249
+
+
+[24-Feb-19 02:15 AM] grewalsatinder#9653
+I'm n00b for C/C++, will need help plz
+
+
+[24-Feb-19 02:16 AM] grewalsatinder#9653
+@Deleted User
+
+
+[24-Feb-19 02:18 AM] grewalsatinder#9653
+started the daemon like normal, gonna try the commands from session onward again
+
+
+[24-Feb-19 02:23 AM] grewalsatinder#9653
+```$ musig-cli cclib nonce 18 '["fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850",0,"029fe919fec162e5346accf2ab82b1512123f74bc56ff4447e7f6df40adacbb274"]'
+error: couldn't connect to server: EOF reached (code 1)
+(make sure server is running and you are connecting to the correct RPC port)
+```
+```satinder@ubuntu:~/jl777/komodo/src$ [libsecp256k1] illegal argument: !secp256k1_fe_is_zero(&ge->x)
+
+```
+
+
+[24-Feb-19 02:24 AM] grewalsatinder#9653
+I think I did something wrong.....
+
+
+[24-Feb-19 02:25 AM] grewalsatinder#9653
+I used 0 on node 1
+
+
+[24-Feb-19 02:25 AM] grewalsatinder#9653
+the example commands says 1
+
+
+[24-Feb-19 02:26 AM] Deleted User#0000
+Yes thats the bug I encountered
+
+
+[24-Feb-19 02:26 AM] Deleted User#0000
+your trying to do something when it doesnt have the required data
+
+
+[24-Feb-19 02:26 AM] Deleted User#0000
+instead of erroring out, it just crashes
+
+
+[24-Feb-19 02:27 AM] Deleted User#0000
+I couldnt figure out how to check if the data was there or not so worked around the issue, with executing the commands in an excact specified order using a python script
+
+
+[24-Feb-19 02:28 AM] Deleted User#0000
+You need to really pay attention to what order things are done. One tip I will give you is that the 3 steps to trade data are all the same RPC call, so just use the absh history and change the single hash, along with the name of the cclib call.
+
+
+[24-Feb-19 02:29 AM] grewalsatinder#9653
+okay, this time it gave at least errro instead of crashing komodod
+
+
+[24-Feb-19 02:29 AM] grewalsatinder#9653
+```$ musig-cli cclib nonce 18 '["fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850",1,"0206e0a0528cd7d9218f0c1999394c242058d793e89147edfe0576f9d93d55ae21"]'
+{
+  "added_index": 1,
+  "status": "error",
+  "error": "error setting nonce"
+}
+```
+
+
+[24-Feb-19 02:29 AM] grewalsatinder#9653
+changed 0 to 1, as per examples for node 1 command
+
+
+[24-Feb-19 02:31 AM] grewalsatinder#9653
+I'm not using script, just manually copy/pasting commands in VM after editing it on my host sublime editor 😛
+
+
+[24-Feb-19 02:32 AM] Deleted User#0000
+Yeah, I did that the first time. its took me 4-5 goes and nearly a whole day just to get 1 sucessful spend 😅
+
+
+[24-Feb-19 02:32 AM] grewalsatinder#9653
+😄
+
+
+[24-Feb-19 02:32 AM] grewalsatinder#9653
+yea, it's my first time right now with these API calls 😛
+
+
+[24-Feb-19 02:32 AM] Deleted User#0000
+one fixed bug and made script did  a spend of 100 pubkeys in a couple of minutes.
+
+
+[24-Feb-19 02:46 AM] jl777c#5810
+dilithium support is almost complete.there is detailed comments explaining how to do a dilithium signing at the end of the dilithium algo code and before the dilithium CC code in dilithium.c
+everything other than the actual spend is working
+
+
+[24-Feb-19 02:47 AM] jl777c#5810
+https://pq-crystals.org/
+
+
+[24-Feb-19 02:47 AM] grewalsatinder#9653
+re-read and confirmed that my command is correct and the result is same
+
+
+[24-Feb-19 02:47 AM] grewalsatinder#9653
+error and status
+
+
+[24-Feb-19 02:47 AM] jl777c#5810
+"based on hard problems over module lattices, are designed to withstand attacks by large quantum computers, and have been submitted to the NIST post-quantum cryptography project."
+
+
+[24-Feb-19 02:52 AM] jl777c#5810
+OK, added guards so that you can now do the commit, nonce, partial in any order as long as you are not duplicating for the same ind
+
+{Reactions}
+👌 
+
+[24-Feb-19 02:54 AM] grewalsatinder#9653
+🤔 I was doing nonce after session -> commit -> nonce.
+
+
+[24-Feb-19 02:54 AM] grewalsatinder#9653
+gonnna compile with any updates and try again
+
+
+[24-Feb-19 02:55 AM] jl777c#5810
+session, commit, commit, commit..., then nonce, nonce, nonce, ...
+
+
+[24-Feb-19 02:55 AM] jl777c#5810
+all nodes need all commits to be able to generate a nonce
+
+
+[24-Feb-19 02:56 AM] jl777c#5810
+need all nonces to be able to do a partial sig
+
+
+[24-Feb-19 02:56 AM] jl777c#5810
+need all partial sigs to be able to do a combined sig
+
+
+[24-Feb-19 02:56 AM] jl777c#5810
+think multisig in three stages. all participants need to do each stage until you can start the next stage
+
+
+[24-Feb-19 02:57 AM] jl777c#5810
+the dilithium is much easier, as it is the normal keypair model
+
+
+[24-Feb-19 03:00 AM] grewalsatinder#9653
+yep, was doing the same.
+I execute command one node 1 till command `calcmsg`
+
+after than, execute command `session` on node 1, and save the `commitment` output
+then execute `session` on node 2, and save the `commitment` output in text file
+
+then make the `commit` command based on the previous output and execute on node 1, and save the `nonce` output
+and make the `commit` command based on previous session output and execute on node 2, and save the `nonce` output
+
+and then execute `nonce` command on node 1 and there I got that error and status outputs.
+
+
+[24-Feb-19 03:00 AM] grewalsatinder#9653
+compiling updates right now
+
+
+[24-Feb-19 03:02 AM] jl777c#5810
+node 1 needs the data from node 2
+
+
+[24-Feb-19 03:02 AM] jl777c#5810
+node 2 need the data from node 1
+
+
+[24-Feb-19 03:03 AM] grewalsatinder#9653
+is that okay, if I execute and confirm here before I execute next command?
+
+
+[24-Feb-19 03:05 AM] grewalsatinder#9653
+already have address and pubkeys from both nodes.
+```
+node 1 pubkey: 03b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5de
+node 2 pubkey: 02f04b469d52bc83d87663458ed0f2875bf81be93b0aa6e15e127ddd78c442d674
+```
+
+
+[24-Feb-19 03:06 AM] grewalsatinder#9653
+compiled latest changes using makecclib and then make in src on both nodes
+
+
+[24-Feb-19 03:06 AM] grewalsatinder#9653
+had komodod stopped while compiling
+
+
+[24-Feb-19 03:06 AM] grewalsatinder#9653
+started komodod with the `pubkey` of both nodes of their own
+
+
+[24-Feb-19 03:07 AM] grewalsatinder#9653
+executing combine command on node 1
+
+
+[24-Feb-19 03:07 AM] grewalsatinder#9653
+```musig-cli cclib combine 18 '["03b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5de","02f04b469d52bc83d87663458ed0f2875bf81be93b0aa6e15e127ddd78c442d674"]'```
+
+
+[24-Feb-19 03:08 AM] grewalsatinder#9653
+```{
+  "pkhash": "fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850",
+  "combined_pk": "02d5851912f810ec10e8ec4db9a78306cb62dad110548a3e20e24efd42aab8f841",
+  "result": "success"
+}```
+
+
+[24-Feb-19 03:08 AM] grewalsatinder#9653
+saved this in my nodes editor:
+```pkhash: fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850
+combined_pk: 02d5851912f810ec10e8ec4db9a78306cb62dad110548a3e20e24efd42aab8f841```
+
+
+[24-Feb-19 03:09 AM] grewalsatinder#9653
+sending 0.001 coin as I only got 0.1 coins from faucetget
+
+
+[24-Feb-19 03:09 AM] grewalsatinder#9653
+sending from node 1
+
+
+[24-Feb-19 03:09 AM] grewalsatinder#9653
+```musig-cli -ac_name=MUSIG  cclib send 18 '["02d5851912f810ec10e8ec4db9a78306cb62dad110548a3e20e24efd42aab8f841",0.001]'```
+
+
+[24-Feb-19 03:10 AM] grewalsatinder#9653
+```{
+  "hex": "0400008085202f890126b0b7cc029e65bb0be6288e9ccc8f381b3b72f391b3b986471da9aacfa27f870100000049483045022100ad691cf425eb3f855f56398d2df3f88b0fcf11426a80a75cdcdac076d38ca7c3022013cc36fffd1652c307ab08bcd2a96960e87f012a354e6845f1752b7156dac42a01ffffffff03b0ad010000000000302ea22c8020c71ddb3aac7f9b9e4bdacf032aaa8b8e4433c4ff9f8a43cebb9c1f5da96928a48103120c008203000401cc00ed940000000000232103b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5deac0000000000000000266a2412782102d5851912f810ec10e8ec4db9a78306cb62dad110548a3e20e24efd42aab8f841000000003c0c00000000000000000000000000",
+  "txid": "bd0242b36f7bebd5e346dda9bcd726fe661e418b1c09c10d0bb9b9b3e58320d2",
+  "result": "success"
+}```
+
+
+[24-Feb-19 03:10 AM] grewalsatinder#9653
+doing sendrawtransaction now
+
+
+[24-Feb-19 03:10 AM] grewalsatinder#9653
+```$ musig-cli -ac_name=MUSIG  sendrawtransaction 0400008085202f890126b0b7cc029e65bb0be6288e9ccc8f381b3b72f391b3b986471da9aacfa27f870100000049483045022100ad691cf425eb3f855f56398d2df3f88b0fcf11426a80a75cdcdac076d38ca7c3022013cc36fffd1652c307ab08bcd2a96960e87f012a354e6845f1752b7156dac42a01ffffffff03b0ad010000000000302ea22c8020c71ddb3aac7f9b9e4bdacf032aaa8b8e4433c4ff9f8a43cebb9c1f5da96928a48103120c008203000401cc00ed940000000000232103b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5deac0000000000000000266a2412782102d5851912f810ec10e8ec4db9a78306cb62dad110548a3e20e24efd42aab8f841000000003c0c00000000000000000000000000
+bd0242b36f7bebd5e346dda9bcd726fe661e418b1c09c10d0bb9b9b3e58320d2
+```
+
+
+[24-Feb-19 03:12 AM] grewalsatinder#9653
+```satinder@ubuntu:~$ musig-cli getrawtransaction bd0242b36f7bebd5e346dda9bcd726fe661e418b1c09c10d0bb9b9b3e58320d2 1```
+```,
+    {
+      "value": 0.09760000,
+      "valueSat": 9760000,
+      "n": 1,
+      "scriptPubKey": {
+        "asm": "03b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5de OP_CHECKSIG",
+        "hex": "2103b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5deac",
+        "reqSigs": 1,
+        "type": "pubkey",
+        "addresses": [
+          "RFBTa1km458aXCfU4yFpBQnAdCiDixAwEZ"
+        ]
+      }
+    },
+```
+
+
+[24-Feb-19 03:12 AM] grewalsatinder#9653
+selected this from`vout` with `type` `pubkey`
+
+
+[24-Feb-19 03:16 AM] grewalsatinder#9653
+```change_script: 2103b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5deac
+sendtxid: 877fa2cfaaa91d4786b9b391f3723b1b388fcc9c8e28e60bbb659e02ccb7b026```
+
+
+[24-Feb-19 03:16 AM] grewalsatinder#9653
+executing calcmsg on node 1
+
+
+[24-Feb-19 03:17 AM] grewalsatinder#9653
+```musig-cli cclib calcmsg 18 '["877fa2cfaaa91d4786b9b391f3723b1b388fcc9c8e28e60bbb659e02ccb7b026","2103b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5deac"]'```
+
+
+[24-Feb-19 03:17 AM] grewalsatinder#9653
+```{
+  "msg": "82e2b389ff09cc699dc4b75b48754b0c43df91b7e0d58383e7be39d5a2d05456",
+  "result": "success"
+}
+```
+
+
+[24-Feb-19 03:18 AM] grewalsatinder#9653
+session command values for node 1
+
+
+[24-Feb-19 03:18 AM] grewalsatinder#9653
+```Node 1:
+index: 0
+number of signers: 2
+combined_pk: 02d5851912f810ec10e8ec4db9a78306cb62dad110548a3e20e24efd42aab8f841
+pkhash: fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850
+msg: 82e2b389ff09cc699dc4b75b48754b0c43df91b7e0d58383e7be39d5a2d05456```
+
+
+[24-Feb-19 03:18 AM] grewalsatinder#9653
+command for node 1
+
+
+[24-Feb-19 03:18 AM] grewalsatinder#9653
+```musig-cli cclib session 18 '[0,2,"02d5851912f810ec10e8ec4db9a78306cb62dad110548a3e20e24efd42aab8f841","fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850","82e2b389ff09cc699dc4b75b48754b0c43df91b7e0d58383e7be39d5a2d05456"]'```
+
+
+[24-Feb-19 03:18 AM] grewalsatinder#9653
+output from node 1:
+```{
+  "myind": 0,
+  "numsigners": 2,
+  "commitment": "ce1e362f795a9400ba22122526b30af94009c28e532338d720abfb481ebb56c3",
+  "result": "success"
+}
+```
+
+
+[24-Feb-19 03:19 AM] grewalsatinder#9653
+session command values for node 2
+
+
+[24-Feb-19 03:19 AM] grewalsatinder#9653
+```index: 1
+number of signers: 2
+combined_pk: 02d5851912f810ec10e8ec4db9a78306cb62dad110548a3e20e24efd42aab8f841
+pkhash: fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850
+msg: 82e2b389ff09cc699dc4b75b48754b0c43df91b7e0d58383e7be39d5a2d05456```
+
+
+[24-Feb-19 03:20 AM] grewalsatinder#9653
+output from node 2:
+```{
+  "myind": 1,
+  "numsigners": 2,
+  "commitment": "d282d9e50dcd9f6e890f08e632f287d807a042a463f9e3ebcad0193a6006d277",
+  "result": "success"
+}```
+
+
+[24-Feb-19 03:21 AM] grewalsatinder#9653
+```Node 1 commitment: ce1e362f795a9400ba22122526b30af94009c28e532338d720abfb481ebb56c3
+Node 2 commitment: d282d9e50dcd9f6e890f08e632f287d807a042a463f9e3ebcad0193a6006d277
+```
+
+
+[24-Feb-19 03:21 AM] grewalsatinder#9653
+Do I wait before going for command `commit` ?
+
+
+[24-Feb-19 03:23 AM] grewalsatinder#9653
+commit command values for node 1
+```pkhash: fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850
+index: 0
+Node 1 commitment: ce1e362f795a9400ba22122526b30af94009c28e532338d720abfb481ebb56c3
+```
+
+
+[24-Feb-19 03:23 AM] grewalsatinder#9653
+executing command on node 1
+
+
+[24-Feb-19 03:23 AM] grewalsatinder#9653
+```musig-cli cclib commit 18 '["fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850",0,"ce1e362f795a9400ba22122526b30af94009c28e532338d720abfb481ebb56c3"]'```
+
+
+[24-Feb-19 03:23 AM] grewalsatinder#9653
+output from node 1
+```{
+  "added_index": 0,
+  "myind": 0,
+  "nonce": "0328e06123a049f9d61e6306482076f54a9873d7f2553918143346bcd20e9f6ac2",
+  "result": "success"
+}
+```
+
+
+[24-Feb-19 03:24 AM] grewalsatinder#9653
+commit command values for node 2
+```pkhash: fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850
+index: 1
+Node 2 commitment: d282d9e50dcd9f6e890f08e632f287d807a042a463f9e3ebcad0193a6006d277```
+
+
+[24-Feb-19 03:24 AM] grewalsatinder#9653
+executing command on node 2
+```musig-cli cclib commit 18 '["fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850",1,"d282d9e50dcd9f6e890f08e632f287d807a042a463f9e3ebcad0193a6006d277"]'```
+
+
+[24-Feb-19 03:25 AM] grewalsatinder#9653
+output from node 2
+```{
+  "added_index": 1,
+  "myind": 1,
+  "nonce": "02bd627a19233c064619db116d8c06e5d3123473a1745bd06b39ada681ac03e35a",
+  "result": "success"
+}
+```
+
+
+[24-Feb-19 03:26 AM] grewalsatinder#9653
+```Node 1 nonce: 0328e06123a049f9d61e6306482076f54a9873d7f2553918143346bcd20e9f6ac2
+Node 2 nonce: 02bd627a19233c064619db116d8c06e5d3123473a1745bd06b39ada681ac03e35a```
+
+
+[24-Feb-19 03:26 AM] grewalsatinder#9653
+going to execute nonce commands now
+
+
+[24-Feb-19 03:27 AM] grewalsatinder#9653
+nonce command values for node 1
+
+
+[24-Feb-19 03:27 AM] grewalsatinder#9653
+```pkhash: fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850
+index: 1
+Node 1 nonce: 0328e06123a049f9d61e6306482076f54a9873d7f2553918143346bcd20e9f6ac2```
+
+
+[24-Feb-19 03:27 AM] grewalsatinder#9653
+executing this command on node 1
+```musig-cli cclib nonce 18 '["fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850",1,"0328e06123a049f9d61e6306482076f54a9873d7f2553918143346bcd20e9f6ac2"]'```
+
+
+[24-Feb-19 03:28 AM] grewalsatinder#9653
+last time I was at this command it gave error of this:
+```{
+  "added_index": 1,
+  "status": "error",
+  "error": "error setting nonce"
+}```
+
+
+[24-Feb-19 03:28 AM] grewalsatinder#9653
+let's see if this time it works
+
+
+[24-Feb-19 03:28 AM] grewalsatinder#9653
+just made sure komodod is running before executing command and executed it
+
+
+[24-Feb-19 03:28 AM] grewalsatinder#9653
+this is the output
+
+
+[24-Feb-19 03:28 AM] grewalsatinder#9653
+```satinder@ubuntu:~/jl777/komodo$ ps aux | grep komodod
+satinder  44130  0.3  2.2 1288752 100176 ?      SLsl 03:04   0:05 /home/satinder/jl777/komodo/src/komodod -ac_name=MUSIG -ac_supply=100000 -ac_reward=10000000 -pubkey=03b4e12dbf7345f476b5e1217534a70bf0f4f28b234fa8f0f427c282449051d5de -ac_cclib=sudoku -ac_cc=2 -addnode=5.9.102.210 -daemon
+satinder  44292  0.0  0.0  21536  1004 pts/3    R+   03:28   0:00 grep --color=auto komodod
+satinder@ubuntu:~/jl777/komodo$ 
+satinder@ubuntu:~/jl777/komodo$ musig-cli cclib nonce 18 '["fdc05d65d1de360fe09ffb53fd51b4e52f4138860e0f49bff03654c39749a850",1,"0328e06123a049f9d61e6306482076f54a9873d7f2553918143346bcd20e9f6ac2"]'
+{
+  "added_index": 1,
+  "status": "error",
+  "error": "error setting nonce"
+}
+satinder@ubuntu:~/jl777/komodo$ 
+```
+
+
+[24-Feb-19 03:29 AM] grewalsatinder#9653
+so far I don't see any updates in jl777 branch
+
+
+[24-Feb-19 03:29 AM] grewalsatinder#9653
+```satinder@satinder-vm:~/jl777/komodo$ git branch
+* jl777
+  master
+satinder@satinder-vm:~/jl777/komodo$ git pull
+Already up to date.
+```
+
+
+[24-Feb-19 03:29 AM] grewalsatinder#9653
+```satinder@ubuntu:~/jl777/komodo$ git branch
+* jl777
+  master
+satinder@ubuntu:~/jl777/komodo$ git pull
+Already up to date.
+```
+
+
+[24-Feb-19 03:29 AM] grewalsatinder#9653
+on both nodes
+
+
+[24-Feb-19 03:48 AM] grewalsatinder#9653
+started testing dilithium using instructions from .c file
+
+
+[24-Feb-19 03:49 AM] grewalsatinder#9653
+@jl777c is that okay to share the outputs here as I execute commands?
+
+
+[24-Feb-19 03:53 AM] grewalsatinder#9653
+same nodes and same pubkeys for both nodes.
+
+
+[24-Feb-19 03:53 AM] grewalsatinder#9653
+```Node 1:
+string value: grewal
+
+satinder@ubuntu:~/jl777/komodo$ musig-cli cclib register 19 \"[%22grewal%22]\"```
+
+
+[24-Feb-19 03:54 AM] grewalsatinder#9653
+Output:
+```
+  "handle": "grewal",
+  "warning": "test mode using privkey for -pubkey, only for testing. there is no point using quantum secure signing if you are using a privkey with a known secp256k1 pubkey!!",
+  "pkaddr": "PDbbtPWt1BgXyD4eK2fHdKPhDHjRTQvsUY",
+  "skaddr": "Sfq7SiNT2CWFrgTHNFruAve1rbHYVskmmr",
+  "hex": "0400008 .... 28f2218de78ade",
+  "result": "success"
+}```
+
+
+[24-Feb-19 03:54 AM] grewalsatinder#9653
+```musig-cli sendrawtransaction 0400008 .... 28f2218de78ade```
+
+
+[24-Feb-19 03:54 AM] grewalsatinder#9653
+```txid: ef555ad6a067b3fce23e484a02d27a879628c18abb43a6453e28f2218de78ade```
+
+
+[24-Feb-19 04:43 AM] grewalsatinder#9653
+made dilithium tx
+
+
+[24-Feb-19 04:43 AM] grewalsatinder#9653
+http://musig.explorer.dexstats.info/tx/be4ff0d165d6770af38b8a66f9373c617eb3c4008832cc017d3e1006195c5637
+
+{Reactions}
+👍 
+
+[24-Feb-19 04:50 AM] grewalsatinder#9653
+verified the size of hex is 289 bytes
+
+
+[24-Feb-19 04:50 AM] grewalsatinder#9653
+```notice how small the tx is! 289 bytes as it is sent to the destpubtxid, which in turn contains the handle, pub33 and bigpub. the handle is used for error check, pub33 is used to make the destination CC address, so the normal CC signing needs to be passed in addition to the spend restrictions for dilithium.```
+
+
+[24-Feb-19 04:51 AM] grewalsatinder#9653
+what commands I use to see the handle, pub33 and bigpub ?
+
+
+[24-Feb-19 04:53 AM] grewalsatinder#9653
+full test notes so far
+
+
+[24-Feb-19 04:53 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/548408393069756417/549212381935566864/dilithum_cc_testing_24Feb2019.txt
+
+
+[24-Feb-19 05:17 AM] grewalsatinder#9653
+will try/test musig some other time. going back to my rogue work. 🙂
+
+
+[24-Feb-19 05:22 AM] Deleted User#0000
+wonder how mylos 5500 sig test went 🤔
+
+
+[24-Feb-19 07:29 AM] jl777c#5810
+keypair without any params shows the big pubkey
+
+
+[24-Feb-19 07:29 AM] jl777c#5810
+pub33 is your -pubkey= parameter if you didnt specify an external or "rand" privkey
+
+
+[24-Feb-19 07:29 AM] jl777c#5810
+handle is not shown, it is used for an error check so you need to track it externally
+
+
+[24-Feb-19 10:05 AM] jl777c#5810
+@CHMEX I pushed a hardforking update that supports dilithium validation. i had things configured to be more strict (instead of less strict), so as soon as someone broadcasts a valid dilithium spend, it will fork the chain. jl777 branch
+
+
+[24-Feb-19 10:20 AM] CHMEX#0686
+Explorer is updated now
+
+
+[24-Feb-19 10:20 AM] jl777c#5810
+thanks!
+
+
+[24-Feb-19 10:39 AM] CHMEX#0686
+I'm mining it now looks the the other miner forked
+
+
+[24-Feb-19 10:47 AM] jl777c#5810
+explorer is on a fork, my two nodes are well ahead of it
+
+
+[24-Feb-19 10:47 AM] jl777c#5810
+maybe you can resync?
+
+
+[24-Feb-19 10:51 AM] CHMEX#0686
+ok will do
+
+
+[24-Feb-19 10:51 AM] jl777c#5810
+thanks. not sure why the http://musig.explorer.dexstats.info/tx/3eceee71818cbdbd07eb93486765d4637464faa138fc51846d479b0f6fc2cc5f isnt confirming on your node
+
+
+[24-Feb-19 10:52 AM] CHMEX#0686
+the  cclib sudoku is correct right?
+
+
+[24-Feb-19 10:55 AM] CHMEX#0686
+hmm maybe the chain is reked.
+doesnt go past 1429
+CC Eval 0x12 Invalid: mismatched -ac_cclib vs CClib_name spending tx 5ce74037a153ee210413b48d4e88638b99825a2de1a1f1aa0d36ebf93019824c
+
+
+[24-Feb-19 10:57 AM] jl777c#5810
+kcli -ac_name=MUSIG stop; git pull; cd cc; ./makecclib; cd ..;make;./musig
+
+
+[24-Feb-19 10:57 AM] jl777c#5810
+makecclib from cc dir, then rebuild komodod
+
+
+[24-Feb-19 11:06 AM] CHMEX#0686
+thanks now its also confirmed on the explorer node
+
+
+[24-Feb-19 07:22 PM] Mark81#4505
+Is quantum resistant transactions archieved with musig by forking chain on every transaction?
+
+
+[24-Feb-19 07:50 PM] Deleted User#0000
+no its a diffrent signing.. musig and the quantum resitant are diffrent CC's
+
+
+[24-Feb-19 07:50 PM] Deleted User#0000
+musig just allows very large amounts of signers to multi sig. I did 1000 pubkey spend already a few days ago
+
+
+[24-Feb-19 07:50 PM] Deleted User#0000
+@Mylo  start a 5500 pubkey one, but maybe it was too many even for a 64GB of ram machine.
+
+
+[24-Feb-19 09:02 PM] Mylo#8306
+98% mem used.   
+i got 
+```
+Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade. (code -2
+```
+on a smaller 200 one to test it.
+I'm rebooting machine and starting with a much smaller size and maybe put some monitoring on it, quickly.
+
+
+[24-Feb-19 09:39 PM] Deleted User#0000
+I thjink they hard forked the chain dude
+
+
+[24-Feb-19 09:39 PM] Deleted User#0000
+so we cant do this now
+
+
+[24-Feb-19 09:40 PM] Deleted User#0000
+😦
+
+
+[24-Feb-19 09:40 PM] Deleted User#0000
+my modified deamon is no longer compatible with that MUSIG chain
+
+
+[24-Feb-19 09:40 PM] Deleted User#0000
+you will need to launch a new chain with it
+
+
+[24-Feb-19 09:40 PM] Deleted User#0000
+not even going to try merging that... too hard
+
+
+[24-Feb-19 09:47 PM] jl777c#5810
+dilithium forked the chain
+
+
+[24-Feb-19 09:48 PM] jl777c#5810
+if you merge in just the dilithium parts and not the musig.cpp, most all should just work. i think one function was renamed and moved for parsing args
+
+
+[24-Feb-19 09:50 PM] Deleted User#0000
+I might be able to do what I just did to mrege the rogue fix, and just copy the musig.cpp on top of it... buit not sure
+
+
+[24-Feb-19 09:50 PM] Deleted User#0000
+its easier jiust to amke a new chain.... looks like its NxN the more keys you do
+
+
+[24-Feb-19 09:50 PM] Deleted User#0000
+like 1000 is nothing but 5000 is too many even for 64gb ram server
+
+
+[24-Feb-19 09:51 PM] Deleted User#0000
+I have a PRE to make for staker fixes also which wasn what I was going to do next that could take a fair while
+
+
+[24-Feb-19 09:52 PM] jl777c#5810
+the session call has a parameter that is pointer to memory scratchpad, but they dont describe how much RAM is needed. it crashed when I send in a scratchpad pointer, so i just use null. they say that uses an inefficient memory allocation. to get really high numbers probably that needs to be changed
+
+{Reactions}
+👍 
+
+[24-Feb-19 09:53 PM] jl777c#5810
+just do a diff of musig.cpp from my branch to yours, it should just mostly be your changes
+
+
+[24-Feb-19 09:53 PM] jl777c#5810
+i couldnt have made that many changes to musig.cpp in a few days
+
+
+[24-Feb-19 09:54 PM] Deleted User#0000
+it merged the other way horribly... I just copied your entire file ontop of it to remove my changes... will look at it in a minute
+
+
+[24-Feb-19 09:55 PM] jl777c#5810
+maybe a PR of your changes to jl777 is a good idea? that way people can use the scripts to do large combined pubkeys using the main MUSIG chain
+
+
+[24-Feb-19 09:55 PM] Deleted User#0000
+if it doesnt break the existing stuff sure can do
+
+
+[24-Feb-19 09:56 PM] Deleted User#0000
+I had to change the RPC calls thats all
+
+
+[24-Feb-19 09:56 PM] Deleted User#0000
+add myind to the 3 relavent calls
+
+
+[24-Feb-19 09:57 PM] jl777c#5810
+it can just be the last parameter and default to myind if not there
+
+
+[24-Feb-19 10:10 PM] Deleted User#0000
+hmm I did it as param 1, shouldnt be too ahrd to change to last.
+
+
+[24-Feb-19 10:11 PM] jl777c#5810
+in general, optional params should be the last
+
+
+[24-Feb-19 10:14 PM] Deleted User#0000
+was only concerned with making it work as fast as possible the other day. wasnt done anywhere near close to properly
+
+
+[24-Feb-19 10:14 PM] Deleted User#0000
+will do this right now before starting on anything else. wont take that long
+
+
+[24-Feb-19 10:16 PM] jl777c#5810
+yes, that is the best way. first iteration is fast and dirty
+
+
+[24-Feb-19 10:16 PM] jl777c#5810
+then second one is like you know what you are doing, as you do
+
+
+[24-Feb-19 10:17 PM] jl777c#5810
+this is why a lot of coders cant do the trailblazing. they need to understand everything to make the first step, but when you are starting in a totally new place, it is more efficient to stumble about learning how it really works
+
+{Reactions}
+💯 
+
+[24-Feb-19 10:17 PM] jl777c#5810
+like this annoying issue of broken results if called without all the data, or the crash if using external scratchpad
+
+
+[24-Feb-19 10:19 PM] Deleted User#0000
+yeah sometimes it feels like beating your head against a wall...
+
+
+[24-Feb-19 10:19 PM] Deleted User#0000
+ok will start on this now... need to think about how best to do it. Hopefully only takes a few hours.
+
+
+[24-Feb-19 10:31 PM] gcharang#6833
+building latest musig. Error:
+```
+checking for Berkeley DB C++ headers... no
+configure: error: libdb_cxx headers missing, Bitcoin Core requires this library for wallet functionality (--disable-wallet to disable wallet functionality)
+Makefile:556: recipe for target 'config.status' failed
+make: *** [config.status] Error 1
+```
+Any help?
+
+
+[24-Feb-19 10:32 PM] Deleted User#0000
+frech clone is only way i found to fix that.
+
+
+[24-Feb-19 10:32 PM] Deleted User#0000
+oh wait
+
+
+[24-Feb-19 10:33 PM] Deleted User#0000
+build komodod first
+
+
+[24-Feb-19 10:33 PM] Deleted User#0000
+then makecclib
+
+
+[24-Feb-19 10:33 PM] Deleted User#0000
+then build komodod again
+
+
+[24-Feb-19 10:33 PM] Deleted User#0000
+😃
+
+
+[24-Feb-19 10:33 PM] Deleted User#0000
+maybe? maybe this is something else than what im thinking it is
+
+
+[24-Feb-19 10:41 PM] jl777c#5810
+yes, that sequence is usually what is needed
+
+
+[24-Feb-19 10:42 PM] jl777c#5810
+configure: error: libdb_cxx headers missing, Bitcoin Core requires this library for wallet functionality (--disable-wallet to disable wallet functionality)
+that error means to run build.sh again
+
+
+[24-Feb-19 10:42 PM] jl777c#5810
+we arent end users, are we? we cant expect all the builds to just magically work as things are updated left and right
+
+
+[24-Feb-19 10:43 PM] jl777c#5810
+so if things are not building, then figure out how to solve it. if you cant do that, you need to wait the months it takes for builds to automagically work in all configs
+
+
+[24-Feb-19 10:44 PM] jl777c#5810
+to be on the cutting edge means to not get stopped by simple issues, or even complex ones
+
+
+[24-Feb-19 10:45 PM] gcharang#6833
+Well, I googled about the error, most suggestions were to change the version of berkely db to 4.8 and download it from bitcoin core's ppa. Tried that too. Still didn't work. So asked here
+
+
+[24-Feb-19 10:45 PM] jl777c#5810
+this error is always happening with the komodo builds, you never saw that before?
+
+
+[24-Feb-19 10:46 PM] jl777c#5810
+whenever the makefile change, it seems to get all confused. in any case using build.sh is not any magical deep understanding required
+
+
+[24-Feb-19 10:47 PM] gcharang#6833
+didn't see this particular error before. I knew to run build.sh again for an error that had `all recursive failed` or something likethat. 
+Will run build.sh again next time if I run into build errors 👍
+
+
+[24-Feb-19 10:48 PM] jl777c#5810
+yes, any build error, run build.sh
+
+
+[24-Feb-19 10:48 PM] jl777c#5810
+if still a problem make clean and build.sh, that seems to be needed sometimes
+
+
+[24-Feb-19 10:48 PM] jl777c#5810
+in extreme cases a fresh clone
+
+
+[24-Feb-19 10:48 PM] jl777c#5810
+so there are three levels of using build.sh if normal make doesnt work
+
+{Reactions}
+👍 
+
+[24-Feb-19 11:37 PM] Deleted User#0000
+@grewalsatinder  I think I found the bug you were encountering yesterday. When i'm finished this PR it should be safe to test again. 😃
+
+
+[24-Feb-19 11:54 PM] grewalsatinder#9653
+@Deleted User awesome!
+waiting!
+
+
+[24-Feb-19 11:54 PM] grewalsatinder#9653
+😃
+
+
+[24-Feb-19 11:54 PM] Deleted User#0000
+yeah its one thing to make it work on a single node, but to make it work on a single node OR multiple is proviong quite difficult... its crashign it that exact place everyt single time for me atm, but not able to fix ti so far
+
+
+[24-Feb-19 11:58 PM] Deleted User#0000
+tbh I'm not sure how I even got it to work in the first place... im doing the same thing here and its not working 😂
+
+
+[25-Feb-19 12:03 AM] Deleted User#0000
+I think I worked it out 😃
+
+
+[25-Feb-19 01:02 AM] Deleted User#0000
+`777544930008856e3b6f131470413f5d682ecb8010e2fbe2ebdbeea7b66ce3dd`
+
+
+[25-Feb-19 01:16 AM] Deleted User#0000
+https://github.com/jl777/komodo/pull/1282
+@jl777c  
+If you could test this for 2/3 nodes @grewalsatinder  that would be helpful. I think it works. Definatly works on a single node, however the free of memory is not working, and requires a daemon restart to free the memory used before you can do another combine send and spend.
+
+{Embed}
+https://github.com/jl777/komodo/pull/1282
+Update to musig.cpp to enable use of single node. by blackjok3rtt ...
+Should also fix crash on nonce step for multiple nodes. Should work for multiple nodes, but needs to be tested.
+https://images-ext-2.discordapp.net/external/H9TDr69kM7mmxGBcENY3FInyORgkC6up-3NZ7sRUihU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/30971146
+
+
+[25-Feb-19 01:17 AM] Deleted User#0000
+To use the `musigtest.py`, just start the daemon without -pubkey. Then run the script inside `komodo/src` once you have some coins, either mine or faucetget. Changed script to take less than 1 coin sends aswell, and added much more helpful prints so you can see what is happening.
+
+
+[25-Feb-19 01:18 AM] Deleted User#0000
+Above 2000 pubkeys doesnt seem to play very nice, seems to take far too much ram.
+
+
+[25-Feb-19 02:22 AM] Deleted User#0000
+One thing I noticed while doing this, its possible to change pubkey in runtime, at least with this. For MUSIG chain you can change pubkey as many times as you like.
+
+
+[25-Feb-19 03:01 AM] grewalsatinder#9653
+great! will test after rest 🙂
+
+
+[25-Feb-19 03:01 AM] grewalsatinder#9653
+thanks!
+
+
+[25-Feb-19 06:12 AM] gcharang#6833
+In the response for cclibinfo
+```json    
+{
+      "evalcode": 18,
+      "funcid": "P",
+      "name": "musig",
+      "method": "combine",
+      "help": "pubkeys ...",
+      "params_required": 2,
+      "params_max": 999999999
+    }
+```
+
+- whats the description of "funcid"? 
+- is it always going to be a character? 
+@jl777c
+
+
+[25-Feb-19 06:12 AM] jl777c#5810
+yes, for rpc that dont generate a tx, just a mneumonic. for tx, it is the funcid in the opreturn
+
+
+[25-Feb-19 06:14 AM] gcharang#6833
+Is there any use for someone using the rpc interface ?
+
+
+[25-Feb-19 06:20 AM] jl777c#5810
+not that I can think of
+
+
+[25-Feb-19 06:21 AM] gcharang#6833
+thanks
+
+
+[25-Feb-19 06:37 AM] gcharang#6833
+@jl777c are the below statements true?
+```md
+- The node that broadcasts it's `hex` of the spend transaction receives the funds in the multisig address.
+- If both nodes broadcast their `hex` of the spend transaction, which ever transaction confirms first, the corresponding node gets credited with the spend.
+```
+
+
+[25-Feb-19 06:45 AM] jl777c#5810
+no
+
+
+[25-Feb-19 06:45 AM] jl777c#5810
+neither are true
+
+
+[25-Feb-19 06:45 AM] jl777c#5810
+well maybe it is
+
+
+[25-Feb-19 06:45 AM] jl777c#5810
+it depends on the details of the spend
+
+
+[25-Feb-19 06:46 AM] jl777c#5810
+i guess using the spend rpc, yes it would be the case. but the idea is that all signers will verify the tx that is being signed
+
+
+[25-Feb-19 06:54 AM] gcharang#6833
+@jl777c  Ok. So they are currently true for someone using the RPC.
+I am guessing the `calcmsg` RPC will be modified in the future to include a `recipient pubkey`?
+
+
+[25-Feb-19 07:13 AM] jl777c#5810
+you pass in the destination scriptPubKey already
+
+
+[25-Feb-19 07:41 AM] gcharang#6833
+@jl777c as I understand it, the scriptPubKey that is being passed in, belongs to the vout that returns change to the sender. 
+And I am not sure how this scriptPubKey is being used right now
+
+
+[25-Feb-19 07:43 AM] jl777c#5810
+that is where the funds are sent
+
+
+[25-Feb-19 05:01 PM] Deleted User#0000
+that confused me for ages... why it was using the change scriptPubKey ... its the destination of the spennd, took a while to work that one out lol
+
+
+[25-Feb-19 10:47 PM] jl777c#5810
+i just wanted a scriptPubKey that I would be able to spend
+
+
+[25-Feb-19 10:47 PM] jl777c#5810
+doesnt have to be the change
+
+
+[25-Feb-19 10:48 PM] jl777c#5810
+can be any scriptPubKey, it is just the destination for funds
+
+
+[25-Feb-19 11:35 PM] Deleted User#0000
+yes might be a good thing to put in docs. Has anyone tested musig since my PR yesterday?
+
+
+[27-Feb-19 05:29 AM] gcharang#6833
+@jl777c what is `pk_hash`?
+In the source, I have found
+```
+pk_hash: The 32-byte hash of the original public keys
+```
+does that mean the original pubkeys are concatenated and hashed? to get a 32 byte hash?
+
+
+[27-Feb-19 05:32 AM] jl777c#5810
+yes, it identifies a specific set of pubkeys for the in-memory data structure
+
+
+[27-Feb-19 05:42 AM] gcharang#6833
+Got it.
+
+
+[27-Feb-19 06:59 AM] gcharang#6833
+@jl777c if the signers wanted to spend to <pubkeyA>, the calcmessage method will be:
+```
+./komodo-cli -ac_name=MUSIG  cclib calcmsg 18 '["sendtxid1","21<<pubkeyA>>ac"]'
+ ```
+Is that so?
+
+
+[27-Feb-19 07:01 AM] jl777c#5810
+yes
+
+
+[27-Feb-19 07:01 AM] gcharang#6833
+and they will spend only the amount added through the txid: `sendtxid1`?
+
+
+[27-Feb-19 07:02 AM] jl777c#5810
+it will only spend the sendtxid/vout0
+
+
+[27-Feb-19 07:04 AM] gcharang#6833
+can the musig address be funded using the `sendtoaddress` rpc, i.e., convert `combined_pk` to address format and use `sendtoaddress`? @jl777c
+
+
+[27-Feb-19 07:05 AM] jl777c#5810
+no
+
+
+[27-Feb-19 07:05 AM] jl777c#5810
+the musig send must be used
+
+
+[27-Feb-19 07:06 AM] gcharang#6833
+Ok
+
+
+[27-Feb-19 07:06 AM] jl777c#5810
+ultimately such would be possible, but not anytime soon
+
+
+[27-Feb-19 07:06 AM] gcharang#6833
+Got it.
+
+
+[27-Feb-19 07:51 PM] josephnicholas GMT+8#5904
+Hi @grewalsatinder I am testing some dilithium workflow, how would I generate a random 32 bytes? Should it be generated based on the asset chain right?
+
+
+[27-Feb-19 07:51 PM] josephnicholas GMT+8#5904
+THanks
+
+
+[27-Feb-19 07:52 PM] josephnicholas GMT+8#5904
+I am stuck on the signing part
+
+
+[27-Feb-19 07:53 PM] grewalsatinder#9653
+any 32 bytes data which is a hex is fine
+
+
+[27-Feb-19 07:53 PM] grewalsatinder#9653
+for testing, I just used a privkey of an address
+
+
+[27-Feb-19 07:54 PM] grewalsatinder#9653
+used my own kmdgo go test code to generate that privkey, but a new tester can probably try using some online website to generate random 32 byte hex string
+
+
+[27-Feb-19 07:54 PM] grewalsatinder#9653
+the example shows a hex string
+
+
+[27-Feb-19 08:03 PM] Alright#0419
+@grewalsatinder @josephnicholas GMT+8 have either of you been able to successfully broadcast a dilithium spend tx?
+
+
+[27-Feb-19 08:03 PM] Alright#0419
+can't get it to work, not sure what I'm doing wrong
+
+
+[27-Feb-19 08:04 PM] grewalsatinder#9653
+At the time I tested spend feature was pending 
+Didn't try again, got busy
+
+
+[27-Feb-19 08:04 PM] grewalsatinder#9653
+My test txt file must here in chat log
+
+
+[28-Feb-19 06:07 AM] gcharang#6833
+If there are 3 signers and
+-  **node1** produces  `nonce13` using `commitment3` from **node3**
+-  **node1** produces  `nonce12` using `commitment2` from **node2**
+so it will send back `nonce13` to **node3** and `nonce12` to  **node2**. thats it correct? **node2** won't need  `nonce13` ? @jl777c
+
+
+[28-Feb-19 06:11 AM] gcharang#6833
+@jl777c is the `spend` method updated to spend to the `scriptPubkey` provided or is it spending to the pubkey of it's own node right now?
+
+
+[28-Feb-19 06:35 AM] Deleted User#0000
+every node needs every nonce
+
+
+[28-Feb-19 06:36 AM] Deleted User#0000
+if you know any python look at the `musigtest.py` I think its resasonably easy to follow
+
+
+[28-Feb-19 06:36 AM] Deleted User#0000
+for each node, it loops all nodes and gives them the nonce it has. same for the next 3 steps
+
+
+[28-Feb-19 06:47 AM] gcharang#6833
+so does node2 run both these commands and another 2 with ind:2
+```
+./komodo-cli -ac_name=MUSIG cclib nonce 18 '["pkhash",0,"nonce produced by n0 using commit from n2"]'
+```
+and
+```
+./komodo-cli -ac_name=MUSIG cclib nonce 18 '["pkhash",0,"nonce produced by n0 using commit from n3"]'
+```
+notice both the above commands have ind: 0
+
+
+[28-Feb-19 06:47 AM] gcharang#6833
+@Deleted User ^
+
+
+[28-Feb-19 06:50 AM] Deleted User#0000
+```i = 0
+nonces = []
+for pubkey in pubkeys:
+    ret = rpc.setpubkey(pubkey)
+    n = 0
+    for commitment in commitments:
+        tmp = str([pkhash, n, commitment, i])
+        ret = rpc.cclib("commit", "18", tmp)
+        try:
+            nonces.append(ret['nonce'])
+        except:
+            x = 1
+        n = n + 1
+i = i + 1```
+
+
+[28-Feb-19 06:50 AM] Deleted User#0000
+I think so. each node has to send everything to all other nodes
+
+
+[28-Feb-19 06:51 AM] Deleted User#0000
+except itself... but for the script I disabled the need to skip yourself. for simplicity
+
+
+[28-Feb-19 08:06 AM] josephnicholas GMT+8#5904
+Hi, after doing `sendrawtransaction` to broadcast my tx, how do I verify if it is successful?
+
+
+[28-Feb-19 08:07 AM] josephnicholas GMT+8#5904
+After I broadcast the transaction it seems to be not showing on the explorer
+
+
+[28-Feb-19 08:24 AM] gcharang#6833
+`./komodo-cli -ac_name=MUSIG getrawtransaction <txid> 1`
+
+
+[28-Feb-19 08:25 AM] gcharang#6833
+@josephnicholas GMT+8 at the bottom of the response for the above command, there is`rawconfirmations`
+
+
+[28-Feb-19 08:26 AM] josephnicholas GMT+8#5904
+@gcharang thanks, but I should be mining also right so that there will confirmations?
+
+
+[28-Feb-19 08:27 AM] gcharang#6833
+yes you should be mining for txns to be confirmed.
+
+
+[28-Feb-19 08:27 AM] gcharang#6833
+But if you are using MUSIG chain, some one is already mining it so you don't need to @josephnicholas GMT+8
+
+
+[28-Feb-19 08:28 AM] josephnicholas GMT+8#5904
+Yes, I am trying to create my own chain locally with 2 computers, but they dont seem to connect, thats why I can't mine
+
+
+[28-Feb-19 08:29 AM] gcharang#6833
+ah! easist setup is to use vps with static ip.
+
+
+[28-Feb-19 08:30 AM] josephnicholas GMT+8#5904
+Yeah, but one question, how do I change my config so that I can connect to specific port? Since as far as I can see my nodes have diff p2pport that's why it won't connect
+
+
+[28-Feb-19 08:38 AM] josephnicholas GMT+8#5904
+even with 6 confirmations it can't be seen in the explorer.
+
+
+[28-Feb-19 08:38 AM] gcharang#6833
+Is the explorer on the same node showing the confs?
+
+
+[28-Feb-19 08:41 AM] gcharang#6833
+Also, I know how to change rpcport, but afaik the p2pport is default. @josephnicholas GMT+8 
+I would recommend you do `getinfo` call on both nodes and compare if 
+```
+  "p2pport": 33924,
+  "rpcport": 33925,
+  "magic": 103274924,
+```
+are same on both nodes
+
+
+[28-Feb-19 08:42 AM] gcharang#6833
+if "magic" is different, then they are different chains and won't talk to each other
+
+
+[28-Feb-19 08:42 AM] josephnicholas GMT+8#5904
+Oh no. So how do I create a chain that have same p2p port?
+
+
+[28-Feb-19 08:44 AM] gcharang#6833
+"magic": is the more important number, if thats the same, then others will be correct.
+https://developers.komodoplatform.com/basic-docs/installations/creating-asset-chains.html#creating-a-new-asset-chain
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/installations/creating-asset-chains.html
+Building a Komodo Asset Chain | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[28-Feb-19 08:44 AM] gcharang#6833
+have you seen this doc?
+
+
+[28-Feb-19 08:44 AM] josephnicholas GMT+8#5904
+No, I will read
+
+
+[28-Feb-19 08:45 AM] gcharang#6833
+that has most of the info and tips. Feel free to ask here if there are any further troubles. Someone will answer
+
+
+[28-Feb-19 08:59 AM] josephnicholas GMT+8#5904
+Thanks @gcharang
+
+{Reactions}
+👍 
+
+[28-Feb-19 09:05 AM] gcharang#6833
+@Deleted User what does `str()` do in https://raw.githubusercontent.com/jl777/komodo/jl777/src/musigtest.py
+
+
+[28-Feb-19 09:06 AM] Deleted User#0000
+it converts the output to a string.. seems without that daemon returned error
+
+
+[28-Feb-19 09:07 AM] gcharang#6833
+@Deleted User `tmp = str([i, len(pubkeys), combinedpk, pkhash, msg, i])`whats the purpose of  the `i` after `msg`?
+
+
+[28-Feb-19 09:08 AM] Deleted User#0000
+that is for using 1 node to simulate many.
+
+
+[28-Feb-19 09:08 AM] gcharang#6833
+you modified the rpc call?
+
+
+[28-Feb-19 09:08 AM] Deleted User#0000
+if its not there.. then it does nothing.. or at least thats how it should work
+
+
+[28-Feb-19 09:08 AM] gcharang#6833
+ah got it
+
+
+[01-Mar-19 10:17 PM] josephnicholas GMT+8#5904
+@jl777c there is a variable error in `desttxid`
+```dilithium.c: In function ‘int64_t dilithium_inputs(CCcontract_info*, CMutableTransaction&, CPubKey, uint256, int64_t, int32_t, char*)’:
+dilithium.c:3297:211: error: ‘desttxid’ was not declared in this scope
+ t[numvouts-1].scriptPubKey) == 'Q' || dilithium_sendopretdecode(checktxid,vintx.vout[numvouts-1].scriptPubKey) == 'x') && desttxid == checktxid )
+```
+
+
+[01-Mar-19 10:46 PM] jl777c#5810
+pushed fix
+
+
+[01-Mar-19 11:04 PM] josephnicholas GMT+8#5904
+Thanks
+
+
+[03-Mar-19 12:00 AM] jl777c#5810
+@CHMEX it seems musig explorer needs an update
+
+
+[03-Mar-19 01:18 AM] CHMEX#0686
+musig is back and updated
+
+
+[04-Mar-19 03:41 AM] jl777c#5810
+added handle uniqueness to latest MUSIG
+
+{Reactions}
+👍 
+
+[04-Mar-19 11:46 AM] Alright#0419
+@CHMEX musig explorer is forked
+
+
+[04-Mar-19 11:46 AM] Alright#0419
+I had nodes do the same, I had to resync after rebuilding libcc.so and komodod
+
+
+[04-Mar-19 01:44 PM] CHMEX#0686
+resynching now hope it wil make it...
+
+
+[04-Mar-19 01:44 PM] CHMEX#0686
+off to bed...
+
+
+[12-Mar-19 09:13 AM] gcharang#6833
+@Deleted User 
+testing musig on the latest jl777 branch.
+```bash
+./komodo-cli -ac_name=MUSIG1 cclib nonce 18 '["8897e150bfb07d3f967ffadb4b0f3c84ea73a94c0d715c4b7e6d9c816c5113a9",1,"03035897a2bb653805490a88b5a90821403ce29f355fb0093690746082f6a0a618"]'
+{
+  "added_index": 1,
+  "status": "not enough nonces",
+  "result": "success"
+}
+```
+any thing I might have done wrong?
+
+
+[12-Mar-19 06:39 PM] Deleted User#0000
+it doesnt have enough nonces ?
+
+
+[12-Mar-19 06:40 PM] Deleted User#0000
+@gcharang  Its also possible that I broke it when I merged the single node test in.
+
+
+[12-Mar-19 06:42 PM] Deleted User#0000
+what you need to do is ` "added_index": 1,` needs to be added for ALL nodes, for single node this *should* mean you dont need to add yourself. 
+That said I had to chagne that for single node simulation, so that was skipped, maybe it is applying to multi node aswell, although its should not. I will have a look at it soon. 
+There was a nasty bug with the noncstep and I had to make it extremly strict about proceeding or it would crashe the daemon evey time.
+
+
+[12-Mar-19 10:11 PM] gcharang#6833
+I was only testing with 2 nodes so this may not have affected it?
+
+
+[12-Mar-19 10:16 PM] Deleted User#0000
+well.. like I said it could be a bug
+
+
+[12-Mar-19 10:16 PM] Deleted User#0000
+try sending the nonce to yourself
+
+
+[12-Mar-19 10:17 PM] Deleted User#0000
+like so all nonce are sent to all nodes, even to them self
+
+
+[12-Mar-19 10:17 PM] Deleted User#0000
+if that works its a bug on my end
+
+
+[12-Mar-19 11:33 PM] gcharang#6833
+will try
+
+
+[13-Mar-19 01:49 AM] gcharang#6833
+@Deleted User 
+I tried adding the commitment produced on the same node to itself, but that too errored.
+You will have to take a look at the code sometime
+
+{Reactions}
+👍 
+
+[13-Mar-19 05:17 AM] sφldat#8733
+https://twitter.com/airratchet/status/1105792022051471360
+
+{Embed}
+Schafer Geb. Scheier Lydia (@airratchet)
+https://twitter.com/airratchet/status/1105792022051471360
+I find this on github @KomodoPlatform 's dev: https://t.co/e5sA73yQQ9 … It's only on sidechain, or you will be implement this on #main network? Quantum Resistant?  SUPERCOP? #KOMODO #KMD
+Twitter
+
+
+[13-Mar-19 05:18 AM] sφldat#8733
+https://twitter.com/airratchet/status/1105794844100837376
+
+{Embed}
+Schafer Geb. Scheier Lydia (@airratchet)
+https://twitter.com/airratchet/status/1105794844100837376
+And this... https://t.co/7TnXYHmtzs … - The whole world is thinking how to connect the blockchain and the real world in #IoT , and you already have an #oracle and you are silent? 🙂 #komodo #kmd @KomodoPlatform
+Twitter
+
+
+[14-Mar-19 12:06 PM] Alright#0419
+```
+komodo-cli -ac_name=MUSIG cclib keypair 19 "[%22rand%22]"
+error: couldn't parse reply from server
+komodo-cli -ac_name=MUSIG cclib handleinfo 19 "[%22wrk%22]"
+error: couldn't parse reply from server
+```
+Suddenly getting this on one of my machines after rebuilding to latest jl777 branch. Isn't happening on any other machine with seemingly the same build. Has anyone ever seen this before? I don't see any relevant changes to jl777 branch that would have affected this
+
+
+[14-Mar-19 12:06 PM] Alright#0419
+normal commands such as `getinfo` work fine, seems to be isolated to this specific machine and cclib method
+
+
+[14-Mar-19 12:10 PM] Alright#0419
+rebuilding fixed it, strange as I used the same exact script to rebuild all nodes and only this node had a problem
+
+
+[14-Mar-19 12:23 PM] Alright#0419
+ubuntu 18.04
+
+
+[14-Mar-19 12:29 PM] Alright#0419
+what is "it"?
+
+
+[17-Mar-19 08:53 PM] Deleted User#0000
+@gcharang  
+https://github.com/jl777/komodo/pull/1336
+I think this fixes musig. If you have a change to test it after it gets merged.
+
+{Embed}
+https://github.com/jl777/komodo/pull/1336
+Fix sendmany bug for Alright  by blackjok3rtt · Pull Request #133...
+sendmany was using the first value seen for all multiple address's. This make's it use the amount specified, while still allowing to send multiple utxo to the same address.
+https://images-ext-2.discordapp.net/external/H9TDr69kM7mmxGBcENY3FInyORgkC6up-3NZ7sRUihU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/30971146
+
+
+[17-Mar-19 10:11 PM] gcharang#6833
+will do
+
+
+[18-Mar-19 02:37 AM] gcharang#6833
+@Deleted User daemon crashed on adding nonce from the other node
+
+
+[18-Mar-19 02:37 AM] Deleted User#0000
+😡
+
+
+[18-Mar-19 02:38 AM] Deleted User#0000
+I dont really understand why it does that ... The problem is that it must have all nonce before moving past, but it seems if its strict enough ... then it can never pass., as soon as you remvoe that limit then it crashes
+
+
+[18-Mar-19 02:38 AM] gcharang#6833
+have you taken a look at this spec: https://github.com/ElementsProject/secp256k1-zkp/blob/secp256k1-zkp/src/modules/musig/musig.md#signing-participant ?
+
+{Embed}
+https://github.com/ElementsProject/secp256k1-zkp/blob/secp256k1-zkp/src/modules/musig/musig.md
+ElementsProject/secp256k1-zkp
+Experimental fork of libsecp256k1 with support for pedersen commitments and range proofs. - ElementsProject/secp256k1-zkp
+https://images-ext-1.discordapp.net/external/CDyju7lgsKnBIbLuaFv8vINGmRZcKK0_8PdZW8jebvI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/12729539
+
+
+[18-Mar-19 02:38 AM] Deleted User#0000
+maybe the check there needs to be diffrent, and actuall check the nonnces rather than just counting them
+
+
+[18-Mar-19 02:38 AM] Deleted User#0000
+Dont need to ... I had it working with over 2000 keys
+
+
+[18-Mar-19 02:39 AM] Deleted User#0000
+as long as 100% of nonce are in each memporyt struct it works without crashing
+
+
+[18-Mar-19 02:39 AM] Deleted User#0000
+My script does this, but its only on a singel node and therefor uselsss
+
+
+[18-Mar-19 02:41 AM] Deleted User#0000
+can you edit this line so it has the debug print?
+https://github.com/jl777/komodo/blob/d8d7463ea05274a28a00dc193cfc39c19296ba60/src/cc/musig.cpp#L590
+
+{Embed}
+https://github.com/jl777/komodo/blob/d8d7463ea05274a28a00dc193cfc39c19296ba60/src/cc/musig.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[18-Mar-19 02:41 AM] Deleted User#0000
+what you need to know, is that its added both indexes...
+
+
+[18-Mar-19 02:41 AM] Deleted User#0000
+if they are both there, then it should not crash.
+
+
+[18-Mar-19 02:42 AM] gcharang#6833
+One thing that became clear to me after looking at the above doc is:
+when there are 3 nodes
+node1 produces only one nonce after both the commitments from the other nodes are added
+I used to think it will produce a nonce for each commitment added
+
+
+[18-Mar-19 02:42 AM] gcharang#6833
+will change that line and run it again
+
+
+[18-Mar-19 02:42 AM] Deleted User#0000
+no on every step it MUST have every single hash generated by every node
+
+
+[18-Mar-19 02:42 AM] Deleted User#0000
+The python script shows how I acheived this `musigtest.py`
+
+
+[18-Mar-19 02:43 AM] Deleted User#0000
+but it only works on a single node
+
+
+[18-Mar-19 02:43 AM] gcharang#6833
+it will have them but it produces a hash only after data from all the other nodes is added to it
+
+
+[18-Mar-19 02:43 AM] Deleted User#0000
+yes and the code doesnt check very well that they are all there... its works until nonce step
+
+
+[18-Mar-19 02:43 AM] Deleted User#0000
+then crashes if all data isnt avalible
+
+
+[18-Mar-19 02:44 AM] Deleted User#0000
+really stumped me... we added checks to not let it pass unless every hash is there, but it seems somehow it stil l lets you proceed. 
+I think maybe, we need to just force that a node must send its own hash to itself liek I did in my script...
+
+
+[18-Mar-19 02:44 AM] Deleted User#0000
+Or the counter needs to actually check the hashes are there rather than just counting how many you added, because user error will just crashiit every time otherwise
+
+
+[18-Mar-19 02:46 AM] gcharang#6833
+I was testing it with only 2 nodes.
+added nonce from second node and it crashed so no user error in this case
+
+
+[18-Mar-19 02:53 AM] Deleted User#0000
+I dont really understand how it does it tbh ... it will still crash is the steps beforehand didn assign everything
+
+
+[18-Mar-19 02:54 AM] Deleted User#0000
+We need a proper check on each stage that checks the actual hashes are there, not just counting them.
+
+
+[18-Mar-19 02:54 AM] Deleted User#0000
+But I dont know how to make that.
+
+
+[18-Mar-19 03:11 AM] gcharang#6833
+@Deleted User 
+here's the error:
+```bash
+NONCE: struct_size.1 using_struct.0 added_index.1 numnounces.2 num.2
+[libsecp256k1] illegal argument: !secp256k1_fe_is_zero(&ge->x)
+fish: “./komodod -ac_name=MUSIG6 -ac_s…” terminated by signal SIGABRT (Abort)
+```
+
+
+[18-Mar-19 04:20 PM] Bryan_Beus#6442
+CC MuSig is now added to the developers.komodoplatform.com tech docs:
+
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-musig.html#introduction
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cc-musig.html
+Contract Module: MuSig | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[09-Apr-19 08:43 AM] gcharang#6833
+@Alright 
+`makecclib` has been updated
+I am not able to figure out how to specify the dynamic module to be built during the `komodod` build process
+
+
+[09-Apr-19 09:05 AM] jl777c#5810
+copy the libcc.so that you want into ~/komodo/src and relink komodod
+
+
+[09-Apr-19 09:05 AM] jl777c#5810
+it builds with whatever libcc.so it finds there
+
+
+[09-Apr-19 09:06 AM] gcharang#6833
+thanks
+
+
+[11-Apr-19 03:17 AM] gcharang#6833
+@jl777c 
+I am documenting the rpc for dilithium,
+```json
+    {
+      "evalcode": 19,
+      "funcid": "S",
+      "name": "dilithium",
+      "method": "sign",
+      "help": "msg [hexseed]",
+      "params_required": 1,
+      "params_max": 2
+    },
+```
+for the `sign` rpc, are there any restrictions on what msg can be?
+For the command,:
+```bash
+./komodo-cli -ac_name=MUSIG cclib sign 19 '["Quantum Resistance is awesome!","a70a8e7d2281beaf0762a11590fb566d7af32325ae4252609149de37658e2eb5"]'
+```
+I am getting 
+```json
+{
+  "status": "error",
+  "error": "couldnt parse message to sign"
+}
+```
+
+
+[11-Apr-19 04:29 AM] Alright#0419
+it's a debug rpc for the most part
+
+
+[11-Apr-19 04:29 AM] Alright#0419
+it doesn't actually seem to have a purpose other than to check that underlying dilithium features are working
+
+
+[11-Apr-19 04:31 AM] Alright#0419
+did you try something like 
+`./komodo-cli -ac_name=MUSIG cclib sign 19 "[%22Quantum Resistance is awesome!%22,%22a70a8e7d2281beaf0762a11590fb566d7af32325ae4252609149de37658e2eb5%22]'"`
+?
+
+
+[11-Apr-19 04:39 AM] gcharang#6833
+@Alright yeah this %22 format didn't work either
+
+
+[11-Apr-19 04:40 AM] Alright#0419
+I'm not sure I ever tested signing with a specific key, only the test mode signing with 1 arg
+
+
+[11-Apr-19 04:40 AM] Alright#0419
+does that work for you?
+
+
+[11-Apr-19 04:40 AM] Alright#0419
+`./komodo-cli -ac_name=MUSIG cclib sign 19 "[%22Quantum Resistance is awesome!%22]"`
+
+
+[11-Apr-19 04:41 AM] gcharang#6833
+No, this too doesn't work
+
+
+[11-Apr-19 04:41 AM] Alright#0419
+moment, let me look at notes
+
+
+[11-Apr-19 04:43 AM] Alright#0419
+Ah it doesn't work on arbitrary strings, forgot about this
+
+
+[11-Apr-19 04:43 AM] Alright#0419
+think it needs to be 32 bytes of hex
+
+
+[11-Apr-19 04:43 AM] Alright#0419
+again it's just a debug rpc, never actually used
+
+
+[11-Apr-19 04:44 AM] gcharang#6833
+Ah got it, thats why it has been saying  `couldnt parse message to sign` will try with a 32 byte string
+
+
+[11-Apr-19 04:57 AM] gcharang#6833
+thanks alright, thats working
+
+
+[11-Apr-19 06:54 AM] gcharang#6833
+@Alright i've added the rpc to dilithium doc: https://docs.komodoplatform.com/basic-docs/customconsensus/dilithium.html
+
+I haven't changed much from your content.
+Just added rpc from this line: https://github.com/KomodoPlatform/Documentation/blob/master/docs/basic-docs/customconsensus/dilithium.md#L1657
+
+{Embed}
+https://docs.komodoplatform.com/basic-docs/customconsensus/dilithium.html
+Dilithium | Komodo Documentation
+Documentation for developers building on Komodo
+
+{Embed}
+https://github.com/KomodoPlatform/Documentation/blob/master/docs/basic-docs/customconsensus/dilithium.md
+KomodoPlatform/Documentation
+Contribute to KomodoPlatform/Documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[03-Nov-19 02:28 PM] Regnar#6164
+```- Musig
+  - Insert Musig CC proof of concept here - [link]```
+
+Hey all, if you have any proof of concepts, or built something cool for Musig CC, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and add this to the Komodo docs page. TUIs are good too!
+
+
+[03-Nov-20 10:49 AM] Surfer007#0709
+@Regnar 1 year later....
+
+{Reactions}
+🥳 (3) 
+
+[03-Nov-20 11:04 AM] Regnar#6164
+haha yea, sometimes channels get broken into too small of niches.
+
+
+==============================================================
+Exported 699 message(s)
+==============================================================

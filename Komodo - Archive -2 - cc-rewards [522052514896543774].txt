@@ -1,0 +1,2436 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-rewards
+Topic: https://developers.komodoplatform.com
+==============================================================
+
+[11-Dec-18 09:55 AM] Llama#1330
+I know that Equaliser is working on getting rewards out
+
+
+[11-Dec-18 11:04 AM] Cryptoon#3362
+Who is coding those contracts?
+
+
+[11-Dec-18 11:14 AM] TonyL#3577
+@Cryptoon Rewards CC is one of the initial CC consensus modules (aka CC contracts) on Komodo platform developed by @jl777c
+
+
+[11-Dec-18 11:18 AM] TonyL#3577
+Actually all current working modules are developed by JL except of ChannelsCC which is a brilliant job of @Mihailo
+
+
+[11-Dec-18 11:19 AM] Cryptoon#3362
+Ahaa, was more asking who is editing the cc's for them
+
+
+[11-Dec-18 11:19 AM] Cryptoon#3362
+I assume it's not just plug and play and you still need a dev to code them?
+
+
+[11-Dec-18 11:20 AM] TonyL#3577
+It depends of your needs - if current one is suits your needs you can just activate it on your asset chain and use it by RPC calls
+
+
+[11-Dec-18 11:20 AM] TonyL#3577
+If you need some conceptual/consensus customisation - in this case source code rework needed
+
+
+[11-Dec-18 11:23 AM] TonyL#3577
+In general as a dAPP developer you can use CC module just as a magic box (you have  human readable RPC calls with predicted and expected outputs and may dont care mostly what going on on vins/vouts level)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052514896543774/522131213830455297/unknown.png
+
+
+[11-Dec-18 11:23 AM] TonyL#3577
+Not sure tbh what Equaliser do ☺
+
+
+[12-Dec-18 02:16 AM] Cryptoon#3362
+They want masternodes iirc
+
+
+[12-Dec-18 02:17 AM] jl777c#5810
+why do they want masternodes? to actually add a second layer of priviledged nodes, or to just lock funds and get rewards?
+
+
+[12-Dec-18 02:44 AM] Cryptoon#3362
+the latter I think
+
+
+[12-Dec-18 02:44 AM] Cryptoon#3362
+support price perhaps
+
+
+[12-Dec-18 03:00 AM] jl777c#5810
+then rewards CC does what is needed
+
+
+[27-Feb-19 08:50 AM] dukeleto#7326
+Hush plans to enable the rewards CC, please let me know if there are any consensus changes coming soon
+
+{Reactions}
+🆒 
+
+[27-Feb-19 12:39 PM] Alright#0419
+@dukeleto how would you fund rewards plans?
+
+
+[27-Feb-19 12:41 PM] Alright#0419
+I think rewards is solid, but I imagine any significant bugs that would be found would be hard forks. Hate to sound like a shill, but probably worth while to wait and run some incentivized tests with it on LABS. Either that or do some thorough testing of it yourself
+
+
+[27-Feb-19 12:42 PM] Alright#0419
+have you considered using two fungible momom chains?
+
+
+[27-Feb-19 12:42 PM] Alright#0419
+one that will hard fork as often as needed, one that will rarely hardfork
+
+
+[28-Feb-19 12:12 AM] dukeleto#7326
+given the above, maybe Rewards is just a nice-to-have for Hush, it's not our focus. haven't thought of multiple chains, the main reason Hush is becoming an AC is for sapling, so if any CC stuff makes it harder/more work, it will be left for a future upgrade
+
+
+[26-Mar-19 02:23 AM] Deleted User#0000
+Found a pretty bad bug with rewards
+
+
+[26-Mar-19 02:24 AM] Deleted User#0000
+Im not sure why its been done, but the recover funds is not working at all... if for any reason imputs are not found, and this could be for many reasons... Then its just returning the locked funds
+
+
+[26-Mar-19 02:25 AM] Deleted User#0000
+It needs to actaully check all teh conditions are met before releasing this recover thing... IMO recover shouldnt be there... doesnt seem like it was designed to have it. Doesnt seem any simple fix.
+
+
+[26-Mar-19 02:25 AM] Deleted User#0000
+Seems rewards would need a major redesign to fix this problem.
+
+
+[26-Mar-19 02:27 AM] jl777c#5810
+what do you mean? which tx, which case
+
+
+[26-Mar-19 02:29 AM] Deleted User#0000
+at any time it cannot find inputs it just does the recover transaction. This means its skipping minseconds checks and many other things
+
+
+[26-Mar-19 02:29 AM] Deleted User#0000
+I cant fix the validation properly...
+
+
+[26-Mar-19 02:29 AM] Deleted User#0000
+because the RPC is wrong
+
+
+[26-Mar-19 02:30 AM] jl777c#5810
+what is the recover transaction?
+
+
+[26-Mar-19 02:30 AM] jl777c#5810
+you mean unlock?
+
+
+[26-Mar-19 02:30 AM] Deleted User#0000
+I dont really understand why it is there
+
+
+[26-Mar-19 02:30 AM] jl777c#5810
+please be more specific and dont jump to conclusions
+
+
+[26-Mar-19 02:30 AM] Deleted User#0000
+it seems that if there are not enogh inputs to pay the reward, weather that be becasuse not locked long enough ... or they actually are not there  it will just send a recover tx.
+
+
+[26-Mar-19 02:31 AM] jl777c#5810
+what line of code?
+
+
+[26-Mar-19 02:31 AM] Deleted User#0000
+it needs to at the very least make sure the minimum requirments are met before sending this tx, but the checks for these requirments are deeper inisde other  loops with no easy way of returning an error to stop this tx being sent
+
+
+[26-Mar-19 02:32 AM] jl777c#5810
+but it is rpc level, so even if the code is changed, anybody could issue the same tx
+
+
+[26-Mar-19 02:32 AM] Deleted User#0000
+which is why I dont understand why there is a secondary validation for this... its skipping all teh requirement checks
+
+
+[26-Mar-19 02:32 AM] Deleted User#0000
+it needs to check all these first ... then bail out
+
+
+[26-Mar-19 02:32 AM] Deleted User#0000
+not bail before its checked them
+
+
+[26-Mar-19 02:33 AM] jl777c#5810
+so it is just not adding the reward as a "better to recover the funds, than nothing at all"
+
+
+[26-Mar-19 02:33 AM] jl777c#5810
+what line of code is skipping the validation?
+
+
+[26-Mar-19 02:34 AM] Deleted User#0000
+its not one line of code
+
+
+[26-Mar-19 02:34 AM] Deleted User#0000
+its the whole thing
+
+
+[26-Mar-19 02:34 AM] Deleted User#0000
+lol
+
+
+[26-Mar-19 02:34 AM] jl777c#5810
+the fix i suggested was for the case where there are no rewards, that the destination address needs to sign a vin
+
+
+[26-Mar-19 02:34 AM] Deleted User#0000
+`if ( (inputs= AddRewardsInputs(ignore,0,cp,mtx,rewardspk,reward+txfee,30,sbits,fundingtxid)) >= reward+txfee )`
+`else`
+```// This should be checking that minseconds has passed... looks like clear bug!
+                    firstmtx.vout.push_back(CTxOut(amount-txfee,scriptPubKey));
+                    //CCerror = "cant find enough rewards inputs";
+                    fprintf(stderr,"not enough rewards funds to payout %.8f, recover mode tx\n",(double)(reward+txfee)/COIN);
+                    return(FinalizeCCTx(-1LL,cp,firstmtx,mypk,txfee,EncodeRewardsOpRet('U',sbits,fundingtxid)));```
+
+
+[26-Mar-19 02:35 AM] jl777c#5810
+that way, some random third party cant close out existing rewards
+
+
+[26-Mar-19 02:35 AM] Deleted User#0000
+I think it just needs to not be there ...
+
+
+[26-Mar-19 02:35 AM] Deleted User#0000
+doesnt make a lot of sense
+
+
+[26-Mar-19 02:35 AM] jl777c#5810
+the rewards calc is done above
+
+
+[26-Mar-19 02:36 AM] jl777c#5810
+if the reward was more than txfee, then and only then does it try this
+
+
+[26-Mar-19 02:36 AM] jl777c#5810
+if the rewards inputs are not therem then the rewards fund is depleted and it is reasonable to just recover the funds
+
+
+[26-Mar-19 02:37 AM] jl777c#5810
+so in the recover case, add a normal vin and have the validation make sure the destination pubkey has a vin, not sure why you are freaking out over this
+
+
+[26-Mar-19 02:37 AM] Deleted User#0000
+no but it wont find any inputs if minseconds hasnt passed
+
+
+[26-Mar-19 02:37 AM] Deleted User#0000
+so then it sends the funds out.... when they are not allwoed to be released
+
+
+[26-Mar-19 02:37 AM] Deleted User#0000
+Does that make sense?
+
+
+[26-Mar-19 02:37 AM] jl777c#5810
+the rewards calc would be 0
+
+
+[26-Mar-19 02:37 AM] jl777c#5810
+it wouldnt go into that if statement
+
+
+[26-Mar-19 02:38 AM] Deleted User#0000
+but the validation isnt checking it... I thaught this was what Alright was going on about how he was able to steal funds...
+
+
+[26-Mar-19 02:38 AM] jl777c#5810
+yes, we need to add validation
+
+
+[26-Mar-19 02:38 AM] Deleted User#0000
+both need to check the same thing... this recover tx isnt right
+
+
+[26-Mar-19 02:39 AM] jl777c#5810
+make sure minseconds has passed and add a destpubkey vin to the recover tx and make sure that is there
+
+
+[26-Mar-19 02:39 AM] jl777c#5810
+how is this impossible to fix??
+
+
+[26-Mar-19 02:39 AM] Deleted User#0000
+maybe it is not, but I couldnt see any simple way.
+
+
+[26-Mar-19 02:40 AM] jl777c#5810
+and where is it bypassing all the checks, in the validation 'U' case it sure seems to go through all the validation steps
+
+
+[26-Mar-19 02:42 AM] Deleted User#0000
+line 277 returns true before everything is checked
+
+
+[26-Mar-19 02:42 AM] jl777c#5810
+ok, so add check for minseconds and vin signed by destination pubkey
+
+
+[26-Mar-19 02:42 AM] jl777c#5810
+wouldnt that work>
+
+
+[26-Mar-19 02:42 AM] jl777c#5810
+?
+
+
+[26-Mar-19 02:43 AM] jl777c#5810
+if minseconds has passed and the receiver is willing to recover funds without rewards, let them
+
+
+[26-Mar-19 02:43 AM] Deleted User#0000
+maybe, if I can work out hwo to do that ... it seems those checks are inside rewards calc ... but there is no reward in this tx
+
+
+[26-Mar-19 02:44 AM] jl777c#5810
+just move the reward = RewardsCalc(amount,tx.vin[0].prevout.hash,APR,minseconds,maxseconds,mindeposit) to above the recover if statement
+
+
+[26-Mar-19 02:44 AM] jl777c#5810
+why wont that work?
+
+
+[26-Mar-19 02:44 AM] Deleted User#0000
+that would work?
+
+
+[26-Mar-19 02:45 AM] jl777c#5810
+amount is the principal amount in vout[0], isnt it?
+
+
+[26-Mar-19 02:45 AM] Deleted User#0000
+yes
+
+
+[26-Mar-19 02:45 AM] jl777c#5810
+RewardsCalc only needs that to calculate reward, right?
+
+
+[26-Mar-19 02:45 AM] jl777c#5810
+but you dont even need to know the reward, you just need to know minseconds
+
+
+[26-Mar-19 02:46 AM] jl777c#5810
+which is part of the plan, which is known
+
+
+[26-Mar-19 02:46 AM] jl777c#5810
+confused by your confusion
+
+
+[26-Mar-19 02:46 AM] Deleted User#0000
+yes ... but what is minseconds calcuated from, CCduration of each vin I guess?
+
+
+[26-Mar-19 02:47 AM] jl777c#5810
+minseconds is baked into the rewards plan on plan creation? at least that is what i remember, but it was a long time ago i wrote it
+
+
+[26-Mar-19 02:47 AM] Deleted User#0000
+I mean what I need to compare minseconds to
+
+
+[26-Mar-19 02:47 AM] jl777c#5810
+minseconds is already set!
+
+
+[26-Mar-19 02:47 AM] Deleted User#0000
+minseconds is there yes ... but what is it that compares to...
+
+
+[26-Mar-19 02:47 AM] jl777c#5810
+elapsed time is returned by CCduration()
+
+
+[26-Mar-19 02:48 AM] Deleted User#0000
+against what tx?
+
+
+[26-Mar-19 02:48 AM] Deleted User#0000
+each vin?
+
+
+[26-Mar-19 02:48 AM] jl777c#5810
+yes and if the youngest vin is old enough, then it is fine
+
+
+[26-Mar-19 02:48 AM] jl777c#5810
+all vins must be minseconds old
+
+
+[26-Mar-19 02:49 AM] jl777c#5810
+there also needs to be a normal vin signed by the destination, this fixes alrights "dos" attack
+
+
+[26-Mar-19 02:49 AM] jl777c#5810
+and recover is needed, even if it is nearly impossible to implement
+
+
+[26-Mar-19 02:49 AM] Deleted User#0000
+yes I understand that part, you dont want any one releaseing funds without rewards apart from the person who locked them
+
+
+[26-Mar-19 02:49 AM] jl777c#5810
+otherwise, if the plan funds every run out, all funds get locked
+
+
+[26-Mar-19 02:50 AM] jl777c#5810
+and even, the point of view that if you want to unlock all your coins without any reward, maybe it is possible at anytime
+
+
+[26-Mar-19 02:50 AM] jl777c#5810
+if the minseconds check is impossible to do
+
+
+[26-Mar-19 02:51 AM] Deleted User#0000
+I guess if you just want them back with no reward and nobody else can do it it may be ok to just ignore minseconds
+
+
+[26-Mar-19 02:51 AM] jl777c#5810
+i can go either way on it.
+
+
+[26-Mar-19 02:51 AM] Deleted User#0000
+Do we know if the globabl txfee fix works yet ? I assume its ok, but had no way to test it
+
+
+[26-Mar-19 02:51 AM] jl777c#5810
+it should work
+
+
+[26-Mar-19 02:52 AM] jl777c#5810
+it seems "Seems rewards would need a major redesign to fix this problem." was not correct then as just adding a normal vin and validating it is there is just adding a missing validation
+
+
+[26-Mar-19 02:52 AM] jl777c#5810
+so please before making such alarmist statements, make sure you are correct, or you become the one that cries wolf
+
+{Reactions}
+👍 
+
+[26-Mar-19 02:54 AM] jl777c#5810
+CC have total control over the inputs and outputs. and arbitrary C code that validates, it is extremely unlikely that even a gross design flaw cannot be fixed and most things are just missing validations. now without the normal vin, it would indeed be impossible, but we are allowed to modify the tx in question
+
+
+[26-Mar-19 02:54 AM] jl777c#5810
+CC is still new to you and I remember at first, I had those moments too, when I thought it just wont work in a CC
+
+
+[26-Mar-19 02:54 AM] jl777c#5810
+but so far, always, there has been a solution, to the point where entire rogue gameplay is fed into validation
+
+
+[26-Mar-19 02:55 AM] jl777c#5810
+and i am also fiddling with realtime user events that will go into the validation, so over time I went from not really understanding what CC can do, to where I am now, where my assumption is that CC can do it, just a matter to figure out how
+
+
+[26-Mar-19 02:58 AM] jl777c#5810
+once I started thinking of validation as "what do I need to add to the tx in order to be able to validate efficiently" things became easier. dont view the tx as unchangeable
+
+
+[26-Mar-19 02:59 AM] jl777c#5810
+like when we found we needed the txidpk in the payments CC validation, it wasnt there and there was no opreturn... so we just make a new vout with txidpk in it
+
+
+[26-Mar-19 02:59 AM] Deleted User#0000
+I think I thaught becuse it was such an old CC we cant change these thigns as it would hard fork it... if that is not the case then its not such a problem. I will try and fix it
+
+
+[26-Mar-19 02:59 AM] jl777c#5810
+the rpc generated tx have two masters, the actual functionality and the validation
+
+
+[26-Mar-19 02:59 AM] jl777c#5810
+avoiding hardfork is nice too, but I am not aware of any mainnet usage of rewards CC yet
+
+{Reactions}
+shexy 
+
+[26-Mar-19 03:00 AM] jl777c#5810
+my guess is if you add the vin validation, all the current chains will sync
+
+
+[26-Mar-19 03:00 AM] jl777c#5810
+unless alright messed with something other than test chains
+
+
+[26-Mar-19 03:01 AM] Alright#0419
+is mindeposit check on recover mode not possible?
+
+
+[26-Mar-19 03:02 AM] Alright#0419
+It kind of defeats the purpose of locking coins in the first place if you can unlock them whenever
+
+
+[26-Mar-19 03:02 AM] Deleted User#0000
+doesnt seem easy no ... but as long as its being unlocked by the person who locked it then that doesnt really amtter does it? as they dont get any rewards
+
+
+[26-Mar-19 03:02 AM] Alright#0419
+the reward is from locking coins, if you can unlock them at any time, what is the risk in locking them?
+
+
+[26-Mar-19 03:03 AM] Alright#0419
+I see this as "having faith" in the project, you get some rewards. Show that you won't dump your coins for the next n days and you're rewarded
+
+
+[26-Mar-19 03:03 AM] Deleted User#0000
+you can withdraw coins from a master node ata any time.  was this not to emulate a masternode?
+
+
+[26-Mar-19 03:03 AM] Alright#0419
+MNs has steady payouts though
+
+
+[26-Mar-19 03:03 AM] Alright#0419
+idk, it just seems weird that you can unlock coins prior to their minimum unlock date
+
+
+[26-Mar-19 03:04 AM] Alright#0419
+there is no risk in locking coins, I thought that was the whole point
+
+
+[26-Mar-19 03:04 AM] Deleted User#0000
+I agree, but it seems extremly difficult to prevent while still having the recover possible
+
+
+[26-Mar-19 03:04 AM] Alright#0419
+What makes a normal unlock different?
+
+
+[26-Mar-19 03:04 AM] Alright#0419
+in that you can check min deposit time
+
+
+[26-Mar-19 03:04 AM] Deleted User#0000
+maybe it is possible ... will ppl actaulyl use this though it could take me a while to work that out...
+
+
+[26-Mar-19 03:05 AM] Deleted User#0000
+also need to figure out how its checking it... as going gettransactions on every bin then CCduration seems inefficiant
+
+
+[26-Mar-19 03:05 AM] Deleted User#0000
+but maybe its already doing this
+
+
+[26-Mar-19 03:05 AM] jl777c#5810
+but minseconds can be honored
+
+
+[26-Mar-19 03:05 AM] jl777c#5810
+why not?
+
+
+[26-Mar-19 03:05 AM] jl777c#5810
+CCduration on all 3 vins wont take long at all
+
+
+[26-Mar-19 03:06 AM] Deleted User#0000
+maybe I can move rewards calc up higher safey and use a flag pointer
+
+
+[26-Mar-19 03:06 AM] Deleted User#0000
+if any vin does not meet return false
+
+
+[26-Mar-19 03:06 AM] jl777c#5810
+yes, something like that. on a scale of 1 to 10, about 3 in difficulty level to fix this cleanly
+
+
+[26-Mar-19 03:06 AM] Deleted User#0000
+if it is only on validation side that is required I think it will be ok
+
+
+[26-Mar-19 03:07 AM] Deleted User#0000
+I must have misread the RPC .. if the rpc is indeed doing this already then its pretty simple
+
+
+[26-Mar-19 03:07 AM] jl777c#5810
+so once locked, funds wont be able to be unlocked until minimum time
+
+
+[26-Mar-19 03:07 AM] jl777c#5810
+the rpc can be bypassed by evil hacker
+
+
+[26-Mar-19 03:07 AM] jl777c#5810
+validation needs to validate rpc created tx and not validate things that bypass the rpc
+
+
+[26-Mar-19 03:07 AM] Deleted User#0000
+I read it as, no avalible inputs automatically unlock with no reward ... but clearly I was wrong
+
+
+[26-Mar-19 03:07 AM] jl777c#5810
+unless it is still following the rules properly
+
+
+[26-Mar-19 03:08 AM] jl777c#5810
+well, the rpc protected against that, but the hacker could have done exactly that
+
+{Reactions}
+👍 
+
+[26-Mar-19 03:09 AM] jl777c#5810
+at validation time the availability of rewards funds could change, so it cant use that as a test
+
+
+[26-Mar-19 03:09 AM] jl777c#5810
+i guess we need to decide how this will be fixed and update the docs appropriately
+
+
+[26-Mar-19 03:09 AM] Deleted User#0000
+I think I need to workout how to actually test it, and make a test chain and just mess with it...
+
+
+[26-Mar-19 03:09 AM] jl777c#5810
+it was a very annoying bug as a blocknotify script could have scanned each lock as they are made and instantly unlock it
+
+
+[26-Mar-19 03:10 AM] jl777c#5810
+no reason anybody would do that, but once made it would always be there, so this cant be ignored
+
+
+[26-Mar-19 03:10 AM] Deleted User#0000
+I dont think it will be that hard to fix but I struggle without being able to make prints and see what is going on
+
+
+[26-Mar-19 03:10 AM] jl777c#5810
+plus the evil miner sucking out all the funds with big txfee
+
+
+[26-Mar-19 03:10 AM] jl777c#5810
+i like printouts too
+
+
+[26-Mar-19 03:10 AM] jl777c#5810
+why cant you add prints?
+
+
+[26-Mar-19 03:11 AM] Deleted User#0000
+I need to work out how to test with it, after tea I will make a test chain and try and replicate the issue here
+
+
+[26-Mar-19 03:11 AM] Deleted User#0000
+that should help move things along faster
+
+
+[26-Mar-19 03:12 AM] jl777c#5810
+ok, so this is under control?
+
+
+[26-Mar-19 03:12 AM] jl777c#5810
+what about payments CC, are there any bugs with it?
+
+
+[26-Mar-19 03:12 AM] Alright#0419
+easy way to test would be with PAY, invalidate block 5017 on PAY, change code to fix txfee bug, reconsider 5017
+
+
+[26-Mar-19 03:12 AM] Alright#0419
+should reject 5018
+
+
+[26-Mar-19 03:13 AM] Alright#0419
+then a couple blocks before that there is unlocks prior to minimum deposit
+
+
+[26-Mar-19 03:13 AM] Alright#0419
+do the same with that
+
+
+[26-Mar-19 03:13 AM] Deleted User#0000
+not sure about payments, it seemed to work for me
+
+
+[26-Mar-19 03:14 AM] Deleted User#0000
+might need the global txfee fix
+
+
+[26-Mar-19 03:14 AM] jl777c#5810
+evil miner txfee bug is fixed?
+
+
+[26-Mar-19 03:14 AM] Deleted User#0000
+the code that prevents rewards doing it should work for any CC
+
+
+[26-Mar-19 03:14 AM] Deleted User#0000
+it enforces the txfee cannot be larger than 10k sat on any tx
+
+
+[26-Mar-19 03:15 AM] Deleted User#0000
+that is provided the coins view can be relied upon... I think it can as connectblock uses it
+
+
+[26-Mar-19 03:15 AM] jl777c#5810
+ok, when you make pull request for rewards, you can add the payments CC fix too
+
+
+[26-Mar-19 03:15 AM] Deleted User#0000
+no worries, hopefully I can test the miner fee thing with what Alright said above.
+
+
+[26-Mar-19 03:16 AM] Deleted User#0000
+if it works there it shuld work anywhere., maybe it can be a util function for any TX.
+
+
+[26-Mar-19 03:16 AM] jl777c#5810
+yes, always good to make new and useful util functions
+
+
+[26-Mar-19 03:27 AM] Deleted User#0000
+lol cant even sync PAY
+
+
+[26-Mar-19 03:31 AM] Deleted User#0000
+```valueout.899990000 vs valuein.1000000000 txfee.10000
+CC Eval EVAL_REWARDS Invalid: alright is stealing your money spending tx 4453a79ed9ab38c37d53ad90db52465773b7736d75daf9dab3a15cb334c15753``` 
+@Alright  looks fine here. are those amounts correct to you if you remeber?
+
+
+[26-Mar-19 03:32 AM] Alright#0419
+it was 10 locked coins, stole 1
+
+
+[26-Mar-19 03:32 AM] Alright#0419
+so 0.0001 from the rewardslock txfee
+
+
+[26-Mar-19 03:32 AM] Alright#0419
+then 0.0001 + 1 for rewardsunlock i think
+
+
+[26-Mar-19 03:32 AM] Alright#0419
+I think that's correct
+
+
+[26-Mar-19 03:33 AM] Alright#0419
+value in was 9.9999 I think?
+
+
+[26-Mar-19 03:33 AM] Alright#0419
+could be wrong, just look at it
+
+
+[26-Mar-19 03:33 AM] Deleted User#0000
+the code is pretty simple ... going to make it into a function then. So you just pass it a pointer to a tx, and if the tx fee isnt 10ksat it juse returns false... that way works for every CC with minimal changes
+
+
+[26-Mar-19 03:34 AM] Alright#0419
+it doesn't need to happen on every single CC tx
+
+
+[26-Mar-19 03:34 AM] Alright#0419
+just CC txs that spend from global CC address
+
+
+[26-Mar-19 03:34 AM] Alright#0419
+not being able to set txfee might be a limitation in the future
+
+
+[26-Mar-19 03:34 AM] Alright#0419
+so we should do it only where we *need* to
+
+
+[26-Mar-19 03:35 AM] Deleted User#0000
+yeah understood... but as a function it makes it much easier to use, that is provided its correct. Its up to the person making the CC to decide if they need to enforce the fixed tx fee. I think in places it will be unavoidable to do it.
+
+
+[26-Mar-19 03:42 AM] Alright#0419
+it's unavoidable if tx spends from global CC address
+
+
+[26-Mar-19 03:42 AM] Alright#0419
+unnecessary if it doesn't
+
+
+[26-Mar-19 03:42 AM] Alright#0419
+can't think of any situation where it would be needed other than when spending from global CC address
+
+
+[26-Mar-19 03:56 AM] Deleted User#0000
+your sure on that 100%? So for payments it only needs to check this, if there is a vin from global address?
+
+
+[26-Mar-19 03:56 AM] Deleted User#0000
+not if itse being spent from the txidpk?
+
+
+[26-Mar-19 04:00 AM] Alright#0419
+if you're ever spending money that doesn't belong to you, txfee must be static 10k sats
+
+
+[26-Mar-19 04:00 AM] Deleted User#0000
+maybe for payments then it needs to be all the time then I think. Guess you will need to try and break it to be sure.,
+
+
+[26-Mar-19 04:00 AM] Alright#0419
+paymentsrelease, definitely
+
+
+[26-Mar-19 04:00 AM] Deleted User#0000
+ok cool
+
+
+[26-Mar-19 04:01 AM] Alright#0419
+would be cool to set default mining behavior to prioritize txs that spend from global CC address
+
+
+[26-Mar-19 04:02 AM] Alright#0419
+not necessary right now, but we might need it in the future if a chain has full blocks
+
+
+[26-Mar-19 04:02 AM] Deleted User#0000
+might slow it down a fair bit as there can be a lot of those
+
+
+[26-Mar-19 04:02 AM] Alright#0419
+Yep, guess you want to just make more chains before you hit full blocks
+
+
+[26-Mar-19 04:02 AM] Deleted User#0000
+checking every single tx against that list seems like it would bog down fast, unless there was some tricky way to do it
+
+
+[26-Mar-19 04:03 AM] Deleted User#0000
+ok well it seems I have a catch all for miner stealing CC funds.
+
+
+[26-Mar-19 04:03 AM] Deleted User#0000
+simple bool function
+
+
+[26-Mar-19 04:03 AM] Deleted User#0000
+`if ( !CheckTxFee(tx, PAYMENTS_TXFEE, chainActive.LastTip()->GetHeight(), chainActive.LastTip()->nTime) )`
+`return eval->Invalid("txfee is too high");`
+
+
+[26-Mar-19 04:03 AM] Deleted User#0000
+works just as expected 😄
+
+
+[26-Mar-19 04:05 AM] Alright#0419
+comment that while you're at it? 🙏
+
+
+[26-Mar-19 04:05 AM] Deleted User#0000
+pretty self explanitory man
+
+
+[26-Mar-19 04:05 AM] Alright#0419
+in particular `// validation for recover mode rewardsunlock` at least
+
+
+[26-Mar-19 04:05 AM] Deleted User#0000
+the is a commetned out printf inside that function that gives you theb values for debugging
+
+
+[26-Mar-19 04:05 AM] Alright#0419
+and `// validation for rewardsunlock`
+
+
+[26-Mar-19 04:06 AM] Alright#0419
+had no idea what that was when I was first looking at it
+
+
+[26-Mar-19 04:06 AM] Alright#0419
+the recover mode validation
+
+
+[26-Mar-19 04:06 AM] Deleted User#0000
+oh ok yeah. I think this is for all rewards tx not just recover.
+
+
+[26-Mar-19 04:06 AM] Deleted User#0000
+in any case I get ya. will do
+
+
+[26-Mar-19 04:07 AM] Alright#0419
+recover mode has entirely separate validation unless you put the checks before the recover mode if
+
+
+[26-Mar-19 04:07 AM] Deleted User#0000
+this new check is before
+
+
+[26-Mar-19 04:07 AM] Deleted User#0000
+now need to add the extra vout
+
+
+[26-Mar-19 04:08 AM] Deleted User#0000
+to prevent anyone claiming... minrelease I think also should be easy, unless I cannot safly call rewards calc earlier
+
+
+[26-Mar-19 05:50 AM] Deleted User#0000
+I think I made it work, at least half way there... It appears it lets me just keep claiming it over and and over though lol... free money
+
+
+[26-Mar-19 05:51 AM] Deleted User#0000
+yeah something seems quite wrong here lol... Its let me claim the entrie rewards balance to a single p[ubkey even though I added them from 2 diffrent ones... Or at least I think I did 🤔
+
+
+[26-Mar-19 06:01 AM] Deleted User#0000
+@Alright  
+https://github.com/blackjok3rtt/komodo/commit/8e6f5a6a2dd9e45b90c7d4d7d603f0901a157941
+Can you please test this? I thiunk there is still something else wrong with it. Maybe I screwed up the test of it? It appears that it will let anyone just take all the funds in the plan, provided they locked at least some.
+
+{Embed}
+https://github.com/blackjok3rtt/komodo/commit/8e6f5a6a2dd9e45b90c7d4d7d603f0901a157941
+initial commit for backup release tx needs testing, i think it hal...
+…orks.
+https://images-ext-2.discordapp.net/external/lu64DQK93KlyiFHOc2R5yqOF7xkNx4h_y9OO2TTLCZA/%3Fs%3D200%26v%3D4/https/avatars1.githubusercontent.com/u/30971146
+
+
+[26-Mar-19 06:01 AM] Deleted User#0000
+Not sure why as I really dont know how the rewards CC works
+
+
+[26-Mar-19 06:01 AM] Deleted User#0000
+Not sure if it was already like that or what.
+
+
+[26-Mar-19 06:02 AM] Deleted User#0000
+Cant use the PAY chain as this branch no longer syncs it.
+
+
+[26-Mar-19 06:04 AM] jl777c#5810
+all the locked utxo needs to be validated it is for the same dest pubkey
+
+
+[26-Mar-19 06:04 AM] jl777c#5810
+but since we are doing just one utxo at a time, it seems hard to mix them?
+
+
+[26-Mar-19 06:07 AM] Deleted User#0000
+I dont know I think because I was only using a single node to make the plan and also lock funds, I think it let me calim the funding also
+
+
+[26-Mar-19 06:08 AM] Deleted User#0000
+I really need someone who knows what they are doing to test this
+
+
+[26-Mar-19 06:08 AM] Deleted User#0000
+I think I also solved minrelease issuse too about to push it
+
+
+[26-Mar-19 06:08 AM] TonyL#3577
+In unittests I'm trying to claim "not mine" rewards from other node and it throw error
+
+
+[26-Mar-19 06:08 AM] TonyL#3577
+If it's a clue
+
+
+[26-Mar-19 06:09 AM] TonyL#3577
+Have to recheck this matter because made long time ago
+
+
+[26-Mar-19 06:10 AM] Deleted User#0000
+yeah maybe those tests were already broken with recover tx, as it was fairly broken to begin with.
+
+
+[26-Mar-19 06:10 AM] Deleted User#0000
+not sure, as I say not familiar with how rewards works exactly...
+
+
+[26-Mar-19 06:11 AM] Deleted User#0000
+https://github.com/blackjok3rtt/komodo/commit/4e9f443e4a20fa1cf635541c6f0b6886802c36fb 
+Also this, I think is safe enough.... It seems that it should be ok ... again really not sure
+
+{Embed}
+https://github.com/blackjok3rtt/komodo/commit/4e9f443e4a20fa1cf635541c6f0b6886802c36fb
+fix minrelease recover transaction · blackjok3rtt/komodo@4e9f443
+https://images-ext-2.discordapp.net/external/lu64DQK93KlyiFHOc2R5yqOF7xkNx4h_y9OO2TTLCZA/%3Fs%3D200%26v%3D4/https/avatars1.githubusercontent.com/u/30971146
+
+
+[26-Mar-19 06:12 AM] Deleted User#0000
+I know for a fact that claiming with a pubkey that I didnt use to lock, or fund any plans would not let me do it, which was what I was asked to do... but it seems maybe something else was/is broken
+
+
+[26-Mar-19 06:32 AM] TonyL#3577
+Just checked - current unit tests for rewards not covering much.  It's only creating rewards plan, then trying to unlock it from same node and excepting error because rewards amount less than txfee.
+
+{Reactions}
+😂 
+
+[26-Mar-19 06:33 AM] Deleted User#0000
+well I tried to start a chain but I cant build my repo/branch right now... `ccache` or something is refusing to DL with build.sh
+
+
+[26-Mar-19 06:34 AM] Deleted User#0000
+submitted PR hopefully someone tests it while im asleep and I can fix whatever is left tmorrow
+
+
+[26-Mar-19 06:34 AM] TonyL#3577
+What is the exact problem at the moment?
+
+
+[26-Mar-19 06:34 AM] Deleted User#0000
+I dont really know tbh ... There was 2 problems:
+
+
+[26-Mar-19 06:35 AM] Deleted User#0000
+1) miner could change tx fee and steal all the funds from global CC address, this problem is fixed.
+
+
+[26-Mar-19 06:35 AM] Deleted User#0000
+2) you could lock funds and then there were not enough funcding to claim the reward
+
+
+[26-Mar-19 06:36 AM] Deleted User#0000
+This allowed anyone to just keep on unlockign all funds, no amtter if they locked them or the minrelease had passed
+
+
+[26-Mar-19 06:36 AM] Deleted User#0000
+just constantly unlock as soon as funds were locked
+
+
+[26-Mar-19 06:36 AM] TonyL#3577
+Ah, sabotage
+
+
+[26-Mar-19 06:36 AM] Deleted User#0000
+I have made it so that now only if you unlock funds you locked (pubkey limited) that you can unlock and it *should* respect minrelease seconds now
+
+
+[26-Mar-19 06:37 AM] Deleted User#0000
+but that im not 100% on, as the RPC takes min days not seconds ...
+
+
+[26-Mar-19 06:37 AM] Deleted User#0000
+so it was quite hard to test
+
+
+[26-Mar-19 06:38 AM] TonyL#3577
+Ok, nice point to retest it and update unit-tests 😃 Just realised that they were written when framework was only with single node
+
+
+[26-Mar-19 06:38 AM] TonyL#3577
+```        assert_equal(result['minseconds'], 0)
+assert_equal(result['maxseconds'], 864000)```
+
+
+[26-Mar-19 06:38 AM] TonyL#3577
+Hmm I wonder it's seconds
+
+
+[26-Mar-19 06:38 AM] Deleted User#0000
+I did only put 0 for min pretty sure RPC help says days
+
+
+[26-Mar-19 06:38 AM] Deleted User#0000
+but internally its seconds
+
+
+[26-Mar-19 06:38 AM] Deleted User#0000
+like to create the plan its in days not seconds
+
+
+[26-Mar-19 06:39 AM] TonyL#3577
+Ah I see
+
+
+[26-Mar-19 06:39 AM] TonyL#3577
+mindays maxdays on funding creation yes
+
+{Reactions}
+👍 
+
+[26-Mar-19 06:49 AM] jl777c#5810
+days in rpc, seconds in opreturn
+
+
+[27-Mar-19 12:19 PM] TonyL#3577
+https://paste.ubuntu.com/p/3Ft8JTrcyv/ cant unlock now from any node after locking
+
+
+[27-Mar-19 12:32 PM] TonyL#3577
+Typo in last call (rewardsplan duplicated)
+Actual call is:
+```./komodo-cli -ac_name=TONYL14 rewardsunlock TONYL a0ae12ac1d50801873e33ea0dd2c2331346e87005079f7793ba9bed4159edaec e5f92fc2d9c2e2b52c02671c9a92acf9a021e5c9d9b0206629934719f8be8273
+{
+  "result": "error",
+  "error": "reward 0 is <= the transaction fee"
+}
+```
+
+
+[27-Mar-19 12:33 PM] TonyL#3577
+But when reward is claimable - it was done by design as I remember that anybody can unlock it
+
+
+[27-Mar-19 12:34 PM] TonyL#3577
+```One twist that makes it a bit unexpected is that anybody should be able to unlock the funds that were locked, as long as it ends up in the locking address. The reason for this is that SPV servers want to be supported and while locking can be done via normal sendrawtransaction, it requires a native node to do the unlocking. By allowing anybody to be able to unlock, then there can be a special node that unlocks all locked funds when they are ready. This way, from the user's point of view, they lock the funds and after it is matured, it reappears in their wallet.```
+
+
+[27-Mar-19 12:34 PM] TonyL#3577
+https://github.com/KomodoPlatform/Mastering_CryptoConditions/blob/master/all_chapters.md#chapter-7---rewards-example
+
+{Embed}
+https://github.com/KomodoPlatform/Mastering_CryptoConditions/blob/master/all_chapters.md
+KomodoPlatform/Mastering_CryptoConditions
+How to write utxo based CryptoConditions contracts for KMD chains - by jl777 - KomodoPlatform/Mastering_CryptoConditions
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[27-Mar-19 12:37 PM] TonyL#3577
+```This allowed anyone to just keep on unlockign all funds, no amtter if they locked them or the minrelease had passed
+just constantly unlock as soon as funds were locked```
+If it worked like this - now it seems fixed
+
+
+[27-Mar-19 07:12 PM] Alright#0419
+@TonyL need to hack the tx creation code to do it
+
+
+[27-Mar-19 07:12 PM] Alright#0419
+Haven't had a chance to try joker's new code, will try it tomorrow
+
+{Reactions}
+3040_kingpeepo 
+
+[28-Mar-19 12:15 AM] jl777c#5810
+so there is a bug in new rewards?
+
+
+[28-Mar-19 12:26 AM] Deleted User#0000
+old bug
+
+
+[28-Mar-19 12:26 AM] Deleted User#0000
+it never checked if minrelease had passed at all in validation
+
+
+[28-Mar-19 12:27 AM] Deleted User#0000
+just unlocked with 0 rewards
+
+
+[28-Mar-19 12:28 AM] Deleted User#0000
+`CC Eval EVAL_REWARDS Invalid: no elegible rewards spending tx 3f13dfdd13a9119f57b101d445c8264b436dac0808853bd2bcc1ddde8f30b529` 
+moved some things around so that it now does this if the reward is calcualted as 0.
+
+
+[28-Mar-19 12:28 AM] Deleted User#0000
+Also should have the effect of recover tx not being able to be done unlesss there is a reward actually avalible
+
+
+[28-Mar-19 12:28 AM] jl777c#5810
+ok, so the mainstream functionality is still working and new errors are actually valid errors
+
+
+[28-Mar-19 12:29 AM] Deleted User#0000
+how it used minrelease wa a ccduration, for calcualting how mcuh rewards are there, and if the minrelese was not met, then it returned 0.
+
+
+[28-Mar-19 12:29 AM] Deleted User#0000
+but validation did not check that reward was zero and invalidate
+
+
+[28-Mar-19 12:29 AM] Deleted User#0000
+it just allowed reward to be zero
+
+
+[28-Mar-19 12:30 AM] Deleted User#0000
+so you could unlock the plan before minrelease time... This is what I was saying the other day, but I worked out how to fix it.
+
+
+[28-Mar-19 12:30 AM] Deleted User#0000
+Unless it of course broken something else
+
+
+[28-Mar-19 12:31 AM] jl777c#5810
+just making sure nothing that should be working broke, i didnt understand tonyL bug
+
+
+[28-Mar-19 12:31 AM] Deleted User#0000
+Alright is testing it at the moment I pushed some more fixes to my repo. Havent heard back from him yet, but the block he said contained the erronous tx in it will not validate with my fixes.
+
+
+[28-Mar-19 12:32 AM] Deleted User#0000
+Likely any chain with rewards CC will hard fork from this I would say we need to be careful
+
+
+[28-Mar-19 12:34 AM] jl777c#5810
+yes, we need to do a resync test
+
+
+[28-Mar-19 12:34 AM] jl777c#5810
+and maybe timestamp activate the fix
+
+
+[28-Mar-19 12:34 AM] jl777c#5810
+i like the idea of timestamp activating such risky consensus changes
+
+
+[28-Mar-19 12:45 AM] Deleted User#0000
+yes its a good idea. I used a timestamp activation for LABS notary era's seems to work ok... BUt Ithink the sapling code is safer to use than my hack of invalidating all blocks until the time from future time is past.
+
+
+[28-Mar-19 12:47 AM] jl777c#5810
+if the blocktimestamp is used against a future activation timestamp, that seems safe enough. the problem with sapling was that it couldnt go on and off and on again without making all sorts of problems, so I had to latch it
+
+
+[28-Mar-19 12:47 AM] jl777c#5810
+as long as we update the field before the fix activates, then it is not a problem
+
+{Reactions}
+👍 
+
+[28-Mar-19 01:24 AM] Alright#0419
+0 rewards validation works
+
+
+[28-Mar-19 01:24 AM] Alright#0419
+checking that recover mode only works from locker now
+
+
+[28-Mar-19 01:28 AM] Alright#0419
+@Deleted User I think `no elegible rewards` if breaks recover mode entirely
+
+
+[28-Mar-19 01:28 AM] Alright#0419
+also there is a typo there
+
+
+[28-Mar-19 01:28 AM] Alright#0419
+eligible*
+
+
+[28-Mar-19 01:29 AM] Deleted User#0000
+that might happen
+
+
+[28-Mar-19 01:30 AM] Deleted User#0000
+it may need a diffrent way to flag minrelease
+
+
+[28-Mar-19 01:30 AM] Deleted User#0000
+closed PR
+
+
+[28-Mar-19 01:35 AM] Deleted User#0000
+no
+
+
+[28-Mar-19 01:35 AM] Deleted User#0000
+its fine ... reward calc doesnt actually look for utxos... its only checking duration
+
+
+[28-Mar-19 01:35 AM] Deleted User#0000
+You will need to wait until duration has passed minrelease to claim your recover
+
+
+[28-Mar-19 01:35 AM] Deleted User#0000
+@Alright
+
+
+[28-Mar-19 01:36 AM] Deleted User#0000
+leaving PR closed as it will take at least a day for you to lock coins long enough to test it.
+
+
+[28-Mar-19 01:37 AM] Alright#0419
+I made a plan with 0 minrelease
+
+
+[28-Mar-19 01:38 AM] Alright#0419
+Can recover mode *only* work if there is not enough funding?
+
+
+[28-Mar-19 01:38 AM] Alright#0419
+doesn't seem to work like that
+
+
+[28-Mar-19 01:52 AM] Deleted User#0000
+That's how it should work... But like I've said a bunch of times its not working as its supposed to at all
+
+
+[28-Mar-19 01:54 AM] Deleted User#0000
+What should be happening is that if there is no funding available recover is used... But it should not let u recover or claim reward unless minrelease has passed. If there is no reward avalible then u cannot claim
+
+
+[28-Mar-19 06:05 AM] TonyL#3577
+` i didnt understand tonyL bug` 
+I not found/reported any bug - just tried to understand what working not correct now.
+Didn't know that transaction should be generated not by standart RPC call.
+
+
+[19-Apr-19 10:30 AM] quantumfinance#9369
+how do i use this dapp?
+
+
+[19-Apr-19 10:32 AM] jl777c#5810
+make a rewards plan, get funding txid
+
+
+[19-Apr-19 10:32 AM] jl777c#5810
+send funds to it
+
+
+[19-Apr-19 10:32 AM] jl777c#5810
+that pays the rewards
+
+
+[19-Apr-19 10:32 AM] jl777c#5810
+then people lock funds to get rewards
+
+
+[19-Apr-19 10:39 AM] quantumfinance#9369
+thanks, ill try not very good wth command line
+
+
+[19-Apr-19 10:40 AM] jl777c#5810
+pick a chain with CC enabled
+
+
+[19-Apr-19 10:43 AM] quantumfinance#9369
+is there tutorial for this ?
+
+
+[19-Apr-19 10:44 AM] jl777c#5810
+https://developers.komodoplatform.com/basic-docs/customconsensus/rewards.html
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/customconsensus/rewards.html
+Rewards |
+Documentation for developers building on Komodo
+
+{Reactions}
+👌 
+
+[20-Apr-19 08:10 PM] Exile13#4458
+Hello!
+
+
+[20-Apr-19 08:10 PM] Exile13#4458
+if i am not the one created the cc_rewards on a specific chain, will my pubkey be able to access the `rewardsinfo`?
+
+
+[20-Apr-19 08:13 PM] Exile13#4458
+or am i using the wrong key probably
+
+
+[20-Apr-19 08:45 PM] Deleted User#0000
+rewardsinfo will show all the time as long as some -pubkey is set
+
+
+[20-Apr-19 08:46 PM] Exile13#4458
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE rewardsinfo 76a914f4b60e6a407011458ab8cce0d994b0530b05e40788ac
+{
+  "result": "error",
+  "error": "cant find fundingtxid"
+}
+`
+
+
+[20-Apr-19 08:46 PM] Deleted User#0000
+wrong key
+
+
+[20-Apr-19 08:46 PM] Exile13#4458
+thats the pubkey i created
+
+
+[20-Apr-19 08:46 PM] Deleted User#0000
+thats not a txid
+
+
+[20-Apr-19 08:46 PM] Exile13#4458
+oh
+
+
+[20-Apr-19 08:48 PM] Exile13#4458
+noob question, whats the difference between putting (.) and not having (.) in front of /komodo
+
+
+[20-Apr-19 08:50 PM] Deleted User#0000
+you only need a ./ if you ahvent symkinked the daemon
+
+
+[20-Apr-19 08:50 PM] Deleted User#0000
+generally if tesing its better not to synlink it, because you may have multiple diffrent daemons to use
+
+
+[20-Apr-19 08:51 PM] TonyL#3577
+. in front of /komodo means current directory
+
+
+[20-Apr-19 08:52 PM] TonyL#3577
+It's same as you want to copy something to current directory you have to use `cp file .`
+
+
+[20-Apr-19 08:55 PM] TonyL#3577
+If you can execute it without declaring path to executable - it means that it in some location which in your user PATH variable
+
+
+[20-Apr-19 08:56 PM] Exile13#4458
+i appreciate you
+
+
+[20-Apr-19 08:56 PM] Exile13#4458
+i dont understand all that honestly
+
+
+[20-Apr-19 08:56 PM] TonyL#3577
+For example users usually making symlink as jok3r said to some dir which is in PATH variable
+
+
+[20-Apr-19 08:57 PM] Exile13#4458
+will research more
+
+
+[20-Apr-19 08:57 PM] Exile13#4458
+brains bulging
+
+
+[20-Apr-19 08:57 PM] Exile13#4458
+how do i get a txid?
+
+
+[20-Apr-19 08:57 PM] Exile13#4458
+i just created a chian
+
+
+[20-Apr-19 08:58 PM] TonyL#3577
+You have to create rewards plan first
+
+
+[20-Apr-19 08:58 PM] TonyL#3577
+Did you read the doc which James shared above?
+
+
+[20-Apr-19 08:58 PM] Deleted User#0000
+if your trying to do this:
+```start chain mine block 1, stop mining. 
+create rewards plan and fund it with the premine, mine a block
+./komodo-cli -ac_name=TEST rewardscreatefunding test 1000 10 0 10 10
+
+do rewards add funding and get the script pubkey and op_return from this tx (no need to send it)
+    scriptPubKey: 2ea22c802065686d47a4049c2c845a71895a915eb84c04445896eec5dc0be40df0b31372da8103120c008203000401cc
+    OP_RETURN:    6a2ae541746573740000000061e7063fa8f99ef92a47e4aebf7ea28c59aeadaf3c1784312de64e4bcb3666f1
+
+create txidopreturn for this payment:
+    ./komodo-cli -ac_name=TEST paymentstxidopret '[50,"2ea22c802065686d47a4049c2c845a71895a915eb84c04445896eec5dc0be40df0b31372da8103120c008203000401cc","6a2ae541746573740000000061e7063fa8f99ef92a47e4aebf7ea28c59aeadaf3c1784312de64e4bcb3666f1"]'
+        
+        
+create the txidopret for the founders reward(s) pubkeys:
+    ./komodo-cli -ac_name=TEST paymentstxidopret '[50,"76a9146bf5dd9f679c87a3f83ea176f82148d26653c04388ac"]'
+        
+    
+create payments plan:
+    ./komodo-cli -ac_name=TEST paymentscreate '[0,0,"273d193e5d09928e471926827dcac1f06c4801bdaa5524a84b17a00f4eaf8d38","81264daf7874b2041802ac681e49618413313cc2f29b47d47bd8e63dc2a06cad"]'
+        5d536f54332db09f2be04593c54f764cf569e225f4d8df5155658c679e663682
+
+paymentsfund: 
+        //send normal path
+    ./komodo-cli -ac_name=TEST paymentsfund '["5d536f54332db09f2be04593c54f764cf569e225f4d8df5155658c679e663682",1000]'
+        // send opret path not sure we need this any more!
+    ./komodo-cli -ac_name=TEST paymentsfund '["5d536f54332db09f2be04593c54f764cf569e225f4d8df5155658c679e663682",1000,1]'
+
+payments release:
+    ./komodo-cli -ac_name=TEST paymentsrelease '["5d536f54332db09f2be04593c54f764cf569e225f4d8df5155658c679e663682",500]'```
+
+
+[20-Apr-19 08:58 PM] Deleted User#0000
+its not really possible yet, there is one part missing
+
+
+[20-Apr-19 08:59 PM] Exile13#4458
+yes thats what im scrolling through
+
+
+[20-Apr-19 08:59 PM] TonyL#3577
+What is this @Deleted User ?
+
+
+[20-Apr-19 08:59 PM] Deleted User#0000
+These are my own notes for the createion if THC coin. as I am making the paymetns CC that enables it to work
+
+
+[20-Apr-19 08:59 PM] Deleted User#0000
+We still have no concensus enforce way to pay the coinbase to the payments CC
+
+
+[20-Apr-19 09:00 PM] TonyL#3577
+But exile want to use rewards CC
+
+
+[20-Apr-19 09:00 PM] Deleted User#0000
+HE needs payments CC to pay rewards CC
+
+
+[20-Apr-19 09:00 PM] Deleted User#0000
+as its funded from a split of the founders reward ... mind bending stuff..
+
+
+[20-Apr-19 09:00 PM] Exile13#4458
+yes
+
+
+[20-Apr-19 09:01 PM] Deleted User#0000
+I am about to start on the coinbase solution today. But Alright went offline on me and hasnt tested something else that he reported as issue
+
+
+[20-Apr-19 09:01 PM] TonyL#3577
+Oh ok, I even dunno how payments CC works :)
+
+
+[20-Apr-19 09:01 PM] TonyL#3577
+Is it specific case or paymentsCC needed for rewardaCC permanently now?
+
+
+[20-Apr-19 09:02 PM] Deleted User#0000
+haha right now its pretty simple. It takes CC1of2 vout used to fund and pays defined scriptpubekys.
+
+
+[20-Apr-19 09:02 PM] Exile13#4458
+is this
+`./komodo-cli -ac_name=TEST rewardscreatefunding test 1000 10 0 10 10`
+where you created the txid
+
+
+[20-Apr-19 09:02 PM] Deleted User#0000
+It is only for THC coin.
+
+{Reactions}
+👌 
+
+[20-Apr-19 09:02 PM] TonyL#3577
+Yes, then have to broadcast hex
+
+
+[20-Apr-19 09:02 PM] Deleted User#0000
+you can create a rewards plan, and mine the entire coinbase to iit np
+
+
+[20-Apr-19 09:02 PM] TonyL#3577
+And will get txid
+
+
+[20-Apr-19 09:02 PM] Exile13#4458
+what are those argruents at the end?
+
+
+[20-Apr-19 09:02 PM] Deleted User#0000
+but they wanted also a founders payment... so Payments CC was needed to sit in the middle to facilitate this
+
+
+[20-Apr-19 09:03 PM] Deleted User#0000
+do the RPC with no argumetns
+
+
+[20-Apr-19 09:03 PM] Deleted User#0000
+it will print help
+
+
+[20-Apr-19 09:03 PM] Exile13#4458
+just
+`./komodo-cli -ac_name=TEST rewardscreatefunding test` ?
+
+
+[20-Apr-19 09:03 PM] TonyL#3577
+https://developers.komodoplatform.com/basic-docs/customconsensus/rewards.html
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/customconsensus/rewards.html
+Rewards |
+Documentation for developers building on Komodo
+
+{Reactions}
+shexy 
+
+[20-Apr-19 09:03 PM] Deleted User#0000
+not even test
+
+
+[20-Apr-19 09:03 PM] Exile13#4458
+k
+
+
+[20-Apr-19 09:03 PM] Exile13#4458
+ty
+
+
+[20-Apr-19 09:03 PM] Exile13#4458
+yes i have taht
+
+
+[20-Apr-19 09:06 PM] Exile13#4458
+i bet a tech guy would understand taht talking about it means to put in line as a command, but it was not obvious im sorry im not that smart technically, i am resourceful though
+
+
+[20-Apr-19 09:09 PM] Exile13#4458
+ok the createfunding returned
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE rewardscreatefunding
+error code: -1
+error message:
+rewardscreatefunding name amount APR mindays maxdays mindeposit
+`
+so im going to assign those values arbitrarily
+
+
+[20-Apr-19 09:15 PM] Deleted User#0000
+yes, ideally you need to figure out what the best params to use will be, as some % of the block reward is going to this plan. Dont know the specifics of what it is they wanted myself. Im just trying to get the mined coins safly to to the plan wihout letting anyone steal them along the way.
+
+
+[20-Apr-19 09:22 PM] Exile13#4458
+syntax error?
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE rewardscreatefunding 50K 5 5 45 90 50000
+{
+  "result": "error",
+  "error": "couldnt create rewards funding transaction"
+}
+`
+
+
+[20-Apr-19 09:23 PM] Exile13#4458
+im going to try to test with coin current soin supply i think
+
+
+[20-Apr-19 09:23 PM] Deleted User#0000
+I think you missed the name
+
+
+[20-Apr-19 09:24 PM] Exile13#4458
+50k
+
+
+[20-Apr-19 09:24 PM] Exile13#4458
+or i have to argue name
+
+
+[20-Apr-19 09:24 PM] Deleted User#0000
+can you call it that?
+
+
+[20-Apr-19 09:24 PM] Exile13#4458
+-name
+
+
+[20-Apr-19 09:24 PM] Exile13#4458
+idk
+
+
+[20-Apr-19 09:24 PM] Deleted User#0000
+no idea
+
+
+[20-Apr-19 09:24 PM] Exile13#4458
+lol
+
+
+[20-Apr-19 09:25 PM] Deleted User#0000
+its just some text
+
+
+[20-Apr-19 09:25 PM] Deleted User#0000
+I think max 8 letters long
+
+
+[20-Apr-19 09:25 PM] Deleted User#0000
+sao 50K should work I think
+
+
+[20-Apr-19 09:25 PM] Exile13#4458
+it has to be leters
+
+
+[20-Apr-19 09:25 PM] Exile13#4458
+oh
+
+
+[20-Apr-19 09:25 PM] Deleted User#0000
+maybe fiftyk
+
+
+[20-Apr-19 09:25 PM] Exile13#4458
+k
+
+
+[20-Apr-19 09:25 PM] Deleted User#0000
+see if that works lol
+
+
+[20-Apr-19 09:25 PM] Deleted User#0000
+wortha  try
+
+
+[20-Apr-19 09:25 PM] Exile13#4458
+err
+
+
+[20-Apr-19 09:25 PM] Deleted User#0000
+there may be more helpful errors on stdout where you started the daemon
+
+
+[20-Apr-19 09:26 PM] Exile13#4458
+i got y shots
+
+
+[20-Apr-19 09:26 PM] Deleted User#0000
+so where you started ./komodod
+
+
+[20-Apr-19 09:26 PM] Exile13#4458
+just `stdout`?
+
+
+[20-Apr-19 09:27 PM] TonyL#3577
+@Deleted User https://github.com/jl777/komodo/blob/FSM/qa/rpc-tests/cryptoconditions_rewards.py 8 symbols limitation on plan name yup
+
+{Embed}
+https://github.com/jl777/komodo/blob/FSM/qa/rpc-tests/cryptoconditions_rewards.py
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Reactions}
+👍 
+
+[20-Apr-19 09:28 PM] Exile13#4458
+ah so the () and ,  are needed
+
+
+[20-Apr-19 09:30 PM] Exile13#4458
+nope
+
+
+[20-Apr-19 09:44 PM] Exile13#4458
+idk
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE rewardscreatefunding TEST 5 5 45 90 50000
+{
+  "result": "error",
+  "error": "couldnt create rewards funding transaction"
+}
+`
+
+
+[20-Apr-19 09:45 PM] Exile13#4458
+ah found it
+`If you create a plan with mindeposit: 10000, make sure to also add 10000 of your coin and the transaction fees using the rewardsaddfunding call after creating the plan. The rewards contract won't allow locking of funds greater than the amount already locked in a single transaction as it needs to assure that it will have the required funds to pay.
+`
+
+
+[20-Apr-19 09:46 PM] Exile13#4458
+need food send money
+
+
+[20-Apr-19 09:58 PM] Exile13#4458
+got it
+
+
+[20-Apr-19 09:58 PM] Exile13#4458
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE rewardscreatefunding 25K 5 5 45 90 25000
+{
+  "result": "success",
+  "hex": "0400008085202f89010010a763ce23301a092dcdc1ceb015ab72b0099acc54645ef34b337bc770ddf50000000049483045022100dca2600e388e929bb3ee1face32a20edb348efc5a75217f85e9e3ac17a3e4e2b02202169a4a6f49590a8a6b4cad2ecad6f073fc7320cc39d37cdfa126a63bcfcf41101ffffffff040065cd1d00000000302ea22c802065686d47a4049c2c845a71895a915eb84c04445896eec5dc0be40df0b31372da8103120c008203000401cc1027000000000000232103da60379d924c2c30ac290d2a86c2ead128cb7bd571f69211cb95356e2dcc5eb9ace034a92a170000000200ac00000000000000002c6a2ae54632354b00000000000065cd1d0000000080533b000000000000a776000000000000a89c134602000000000000c00100000000000000000000000000"
+}
+`
+
+
+[20-Apr-19 10:00 PM] Exile13#4458
+so on THC the cc_payments would fund cc_rewards
+
+
+[20-Apr-19 10:04 PM] Deleted User#0000
+yes, there has to be something in it. But the paymetnsCC will pay some % of the founders fee to the rewards plan.
+
+
+[20-Apr-19 10:04 PM] Deleted User#0000
+people can then lock their coins in the plan, and claim some of the mined coins, after the conditions have been met.
+
+
+[20-Apr-19 10:14 PM] Exile13#4458
+where do i find this? `fundingtxid(string) the txid of the transaction that created and funded this contract`
+
+
+[20-Apr-19 10:14 PM] Exile13#4458
+do i have to ues taht hex ^^
+
+
+[20-Apr-19 10:15 PM] Exile13#4458
+or `getaddresstxids`
+
+
+[20-Apr-19 10:17 PM] Deleted User#0000
+you need to send the hex with sendrawtransaction
+
+
+[20-Apr-19 10:17 PM] Deleted User#0000
+the return of that call will give you the txid
+
+
+[20-Apr-19 10:18 PM] Deleted User#0000
+this txid ifentifies the rewards plan. Everything will need to use it
+
+
+[20-Apr-19 10:18 PM] Exile13#4458
+ok
+
+
+[20-Apr-19 10:23 PM] Exile13#4458
+where am i sending it to
+
+
+[20-Apr-19 10:24 PM] Exile13#4458
+myself?
+
+
+[20-Apr-19 10:24 PM] Deleted User#0000
+its a raw transaction, it contains the places to send to already
+
+
+[20-Apr-19 10:25 PM] Deleted User#0000
+`komodo-cli -ac_name=EXILE sendrawtransaction 0400008085202f89010010a763ce23301a092dcdc1ceb015ab72b0099acc54645ef34b337bc770ddf50000000049483045022100dca2600e388e929bb3ee1face32a20edb348efc5a75217f85e9e3ac17a3e4e2b02202169a4a6f49590a8a6b4cad2ecad6f073fc7320cc39d37cdfa126a63bcfcf41101ffffffff040065cd1d00000000302ea22c802065686d47a4049c2c845a71895a915eb84c04445896eec5dc0be40df0b31372da8103120c008203000401cc1027000000000000232103da60379d924c2c30ac290d2a86c2ead128cb7bd571f69211cb95356e2dcc5eb9ace034a92a170000000200ac00000000000000002c6a2ae54632354b00000000000065cd1d0000000080533b000000000000a776000000000000a89c134602000000000000c00100000000000000000000000000`
+
+
+[20-Apr-19 10:25 PM] Deleted User#0000
+you can also `decoderawtransaction` to see where it pays to etc.
+
+
+[20-Apr-19 10:25 PM] Exile13#4458
+really jsut send the hex
+
+
+[20-Apr-19 10:25 PM] Exile13#4458
+whoa
+
+
+[20-Apr-19 10:26 PM] Deleted User#0000
+A lot of the newer ccs do that automatically... I guess we can add that to rewards at some pouint to make it easier to use 😃
+
+
+[20-Apr-19 10:26 PM] Deleted User#0000
+dpends though a GUI would likely want to confirm the tx beofre sending it
+
+
+[20-Apr-19 10:27 PM] Exile13#4458
+error code: -26
+error message:
+16: tx-overwinter-expired
+
+
+[20-Apr-19 10:27 PM] Deleted User#0000
+did send it fast enough
+
+
+[20-Apr-19 10:27 PM] Deleted User#0000
+just do rewards create again. press up key a few times and enter, then use the new hex
+
+
+[20-Apr-19 10:31 PM] Exile13#4458
+i think i got it, i did `decoderawtransaction` and returned `e17b29b04618b830eccdad3803963c9e89f6ba17d74a2951bf7728868f07d850`
+
+
+[20-Apr-19 10:31 PM] Deleted User#0000
+if you dont send it though its not on the chain
+
+
+[20-Apr-19 10:31 PM] Deleted User#0000
+have to send the tx for the plan to exist
+
+
+[20-Apr-19 10:31 PM] Deleted User#0000
+but yes tahts what your looking for
+
+
+[20-Apr-19 10:31 PM] Exile13#4458
+oh
+
+
+[20-Apr-19 10:32 PM] Exile13#4458
+so i just pinged the creation of it
+
+
+[20-Apr-19 10:33 PM] Deleted User#0000
+yeah kind of, rewards doesnt send anything automatically... as it never got used for anything. We can easily add that, but you dont want to make mistakes with things if you odnt know what your doing so I think manually sending at first is better until you know how it works. 😃
+
+
+[20-Apr-19 10:33 PM] Exile13#4458
+yessr
+
+
+[20-Apr-19 10:39 PM] Exile13#4458
+says my server isnt running
+
+
+[20-Apr-19 10:39 PM] Exile13#4458
+*lies*
+
+
+[20-Apr-19 10:39 PM] Deleted User#0000
+you crashed it ?
+
+
+[20-Apr-19 10:40 PM] Exile13#4458
+boom
+
+
+[20-Apr-19 10:40 PM] Exile13#4458
+no
+
+
+[20-Apr-19 10:40 PM] Exile13#4458
+idk
+
+
+[20-Apr-19 10:40 PM] Exile13#4458
+maybe
+
+
+[20-Apr-19 10:40 PM] Deleted User#0000
+maybe it did I dont know. I havent really tested rewards. What branch are you using?
+
+
+[20-Apr-19 10:40 PM] Exile13#4458
+jl777
+
+
+[20-Apr-19 10:40 PM] Deleted User#0000
+should be ok for rewards...
+
+
+[20-Apr-19 10:41 PM] Exile13#4458
+im going to take a break
+
+
+[20-Apr-19 10:41 PM] Deleted User#0000
+ps aux | grep EXILE
+
+
+[20-Apr-19 10:41 PM] Exile13#4458
+i REALLY appreciate you
+
+
+[20-Apr-19 10:41 PM] Deleted User#0000
+np
+
+
+[20-Apr-19 10:41 PM] Deleted User#0000
+all start somewhere.
+
+
+[20-Apr-19 10:41 PM] Exile13#4458
+`exile13@TIDE13:~/komodo/src$ ps aux | grep EXILE
+exile13   6886  0.4  0.7 1361196 92360 pts/0   SLl+ 22:26   0:04 ./komodod -ac_name=EXILE -ac_supply=1000000 -ac_reward=100000000000 -ac_cc=2 -pubkey=76a914f4b60e6a407011458ab8cce0d994b0530b05e40788ac -ac_sapling=1 -addnode=195.201.137.5 -addnode=195.201.20.230
+exile13   7063  0.0  0.0  14428  1040 pts/1    S+   22:41   0:00 grep --color=auto EXILE
+`
+
+
+[20-Apr-19 10:42 PM] Deleted User#0000
+hmmm... wel its not crashed, thats a good sign
+
+
+[20-Apr-19 10:42 PM] Exile13#4458
+im a friday the 13th baby
+
+
+[20-Apr-19 10:42 PM] Exile13#4458
+boo!
+
+
+[20-Apr-19 10:42 PM] Exile13#4458
+ill bbs
+
+
+[20-Apr-19 10:42 PM] Exile13#4458
+LOVE
+
+
+[20-Apr-19 10:42 PM] Deleted User#0000
+ok
+
+
+[20-Apr-19 11:50 PM] Exile13#4458
+I'll be back in the morning fresh
+
+
+[21-Apr-19 12:55 AM] Exile13#4458
+error code: -26
+error message:
+64: scriptpubkey
+
+
+[21-Apr-19 12:55 AM] Exile13#4458
+back at it, whataburger juiced me ^
+
+
+[21-Apr-19 01:48 AM] Exile13#4458
+@Deleted User ty heres the whole thing copied
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE sendrawtransaction 0400008085202f89010010a763ce23301a092dcdc1ceb015ab72b0099acc54645ef34b337bc770ddf500000000494830450221008d95f5584a665d129b5bcf42b3276aca3b097e7f0194511aa978b043c080a61802204670026c6c49b748f40606a1cbff6841300418f336634cb6b8156df399aff7d101ffffffff040065cd1d00000000302ea22c802065686d47a4049c2c845a71895a915eb84c04445896eec5dc0be40df0b31372da8103120c008203000401cc1027000000000000232103da60379d924c2c30ac290d2a86c2ead128cb7bd571f69211cb95356e2dcc5eb9ace034a92a170000000200ac00000000000000002c6a2ae546354b0000000000000065cd1d0000000080533b000000000000a77600000000000088526a7400000000000000830200000000000000000000000000
+error code: -26
+error message:
+64: scriptpubkey`
+
+
+[21-Apr-19 01:49 AM] Exile13#4458
+and to get the hex i ran
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE rewardscreatefunding 5K 5 5 45 90 5000
+{
+  "result": "success",
+  "hex": "0400008085202f89010010a763ce23301a092dcdc1ceb015ab72b0099acc54645ef34b337bc770ddf500000000494830450221008d95f5584a665d129b5bcf42b3276aca3b097e7f0194511aa978b043c080a61802204670026c6c49b748f40606a1cbff6841300418f336634cb6b8156df399aff7d101ffffffff040065cd1d00000000302ea22c802065686d47a4049c2c845a71895a915eb84c04445896eec5dc0be40df0b31372da8103120c008203000401cc1027000000000000232103da60379d924c2c30ac290d2a86c2ead128cb7bd571f69211cb95356e2dcc5eb9ace034a92a170000000200ac00000000000000002c6a2ae546354b0000000000000065cd1d0000000080533b000000000000a77600000000000088526a7400000000000000830200000000000000000000000000"
+}
+`
+
+
+[21-Apr-19 01:49 AM] Deleted User#0000
+kk will look at it soon
+
+
+[21-Apr-19 01:50 AM] Exile13#4458
+np
+
+
+[21-Apr-19 01:50 AM] Exile13#4458
+i appreciate you
+
+
+[21-Apr-19 01:58 AM] Deleted User#0000
+the last vout which is your change is not returning to any pubkey...
+
+
+[21-Apr-19 01:58 AM] Deleted User#0000
+This is very strange tbh
+
+
+[21-Apr-19 01:58 AM] Deleted User#0000
+`komodo-cli -ac_name=EXILE setpubkey`try that paste output
+
+
+[21-Apr-19 01:59 AM] Exile13#4458
+ok
+
+
+[21-Apr-19 02:00 AM] Exile13#4458
+just like that? no(.) in front of komodo?
+
+
+[21-Apr-19 02:00 AM] Deleted User#0000
+umm yeah ./
+
+
+[21-Apr-19 02:00 AM] Exile13#4458
+😃
+
+
+[21-Apr-19 02:00 AM] Deleted User#0000
+sorry
+
+
+[21-Apr-19 02:00 AM] Exile13#4458
+noob
+
+
+[21-Apr-19 02:00 AM] Exile13#4458
+<
+
+
+[21-Apr-19 02:01 AM] Exile13#4458
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE setpubkey
+error code: -1
+error message:
+setpubkey
+
+Sets the -pubkey if the daemon was not started with it, if it was already set, it returns the pubkey, and its Raddress.
+
+Arguments:
+1. "pubkey"         (string) pubkey to set.
+
+Result:
+  {
+    "pubkey" : "pubkey",     (string) The pubkey
+    "ismine" : "true/false",     (bool)
+    "R-address" : "R address",     (string) The pubkey
+  }
+
+Examples:
+> komodo-cli setpubkey 02f7597468703c1c5c8465dd6d43acaae697df9df30bed21494d193412a1ea193e
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "setpubkey", "params": [02f7597468703c1c5c8465dd6d43acaae697df9df30bed21494d193412a1ea193e] }' -H 'content-type: text/plain;' http://127.0.0.1:7771/`
+
+
+[21-Apr-19 02:01 AM] Exile13#4458
+daemon is running
+
+
+[21-Apr-19 02:01 AM] Deleted User#0000
+wait lol... I screwed that up.
+
+
+[21-Apr-19 02:02 AM] Deleted User#0000
+`76a914f4b60e6a407011458ab8cce0d994b0530b05e40788ac`
+
+
+[21-Apr-19 02:02 AM] Deleted User#0000
+ahah I founmd it
+
+
+[21-Apr-19 02:02 AM] Deleted User#0000
+this isnt a pubkey
+
+
+[21-Apr-19 02:02 AM] Deleted User#0000
+its a scriptPubKey diffrent things :abusedsmily:
+
+
+[21-Apr-19 02:02 AM] Exile13#4458
+i used the wrong one
+
+
+[21-Apr-19 02:03 AM] Exile13#4458
+did i do it
+
+
+[21-Apr-19 02:03 AM] Exile13#4458
+(urkle)
+
+
+[21-Apr-19 02:03 AM] Deleted User#0000
+`02525e193bacfef3492165ac8a7781af9f8668d564de3f4b81a7195fe8d705cc1e` should look like this
+
+
+[21-Apr-19 02:06 AM] Exile13#4458
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE validateaddress RXb73pKtz5HjgHtuMRw5jPsqUeRKaF9u2f
+{
+  "isvalid": true,
+  "address": "RXb73pKtz5HjgHtuMRw5jPsqUeRKaF9u2f",
+  "scriptPubKey": "76a914f4b60e6a407011458ab8cce0d994b0530b05e40788ac",
+  "segid": 19,
+  "ismine": true,
+  "iswatchonly": false,
+  "isscript": false,
+  "pubkey": "03a7d9483fe6bccb7ff194aa3c25e488f61ae7c834bcadb3118bf56b6f8c49266c",
+  "iscompressed": true,
+  "account": ""
+}`
+
+
+[21-Apr-19 02:06 AM] Exile13#4458
+this one?
+`03a7d9483fe6bccb7ff194aa3c25e488f61ae7c834bcadb3118bf56b6f8c49266c`
+
+
+[21-Apr-19 02:06 AM] Deleted User#0000
+yep
+
+
+[21-Apr-19 02:06 AM] Deleted User#0000
+😃
+
+
+[21-Apr-19 02:06 AM] Exile13#4458
+whoo
+
+
+[21-Apr-19 02:07 AM] Exile13#4458
+can only set pubkey once, so restart
+
+
+[21-Apr-19 02:07 AM] Deleted User#0000
+yep
+
+
+[21-Apr-19 02:07 AM] Exile13#4458
+why can it only be set once
+
+
+[21-Apr-19 02:10 AM] Deleted User#0000
+it can cause memory corruption issues and undefined behaviour
+
+
+[21-Apr-19 02:13 AM] Exile13#4458
+dont put the wrench on the carraige
+
+
+[21-Apr-19 02:14 AM] Exile13#4458
+i started and stopp the daemon with cntrl^C, still saying theres a pubkey
+
+
+[21-Apr-19 02:15 AM] jl777c#5810
+you did what?
+
+
+[21-Apr-19 02:15 AM] jl777c#5810
+ctrl C is a hardkill, possible to corrupt your DB and you will need to rescan or even resync
+
+
+[21-Apr-19 02:15 AM] Exile13#4458
+really
+
+
+[21-Apr-19 02:16 AM] Exile13#4458
+never doing taht again
+
+
+[21-Apr-19 02:16 AM] Exile13#4458
+ty
+
+
+[21-Apr-19 02:16 AM] jl777c#5810
+stop with stop command
+
+
+[21-Apr-19 02:16 AM] jl777c#5810
+only if it is locked up, then try a kill -15
+
+
+[21-Apr-19 02:16 AM] jl777c#5810
+if that doesnt work, then likely it is stuck doing whatever and not in the part that will corrupt DB (usually), then you are forced to kill -9
+
+
+[21-Apr-19 02:17 AM] jl777c#5810
+at that point it is either corrupted or not
+
+
+[21-Apr-19 02:17 AM] Exile13#4458
+ok
+
+
+[21-Apr-19 02:17 AM] Exile13#4458
+ya when i ran the correct stop it yelled at me
+
+
+[21-Apr-19 02:17 AM] Exile13#4458
+you must of wrote that
+
+
+[21-Apr-19 02:18 AM] Exile13#4458
+researchig rescanning
+
+
+[21-Apr-19 03:55 AM] Exile13#4458
+is the result from broadcasting the HEX value in a `sendrawtransaction` the txid?
+
+
+[21-Apr-19 03:56 AM] Exile13#4458
+i got a response this time
+
+
+[21-Apr-19 03:56 AM] Exile13#4458
+no error
+
+
+[21-Apr-19 03:57 AM] jl777c#5810
+yes
+
+
+[21-Apr-19 03:57 AM] Exile13#4458
+oh sweet
+
+
+[21-Apr-19 03:58 AM] Exile13#4458
+i was going to start looking through the respose from `decoderawtransaction`
+
+
+[21-Apr-19 03:58 AM] Exile13#4458
+those probably represent diffent things
+
+
+[21-Apr-19 04:03 AM] Exile13#4458
+got it funded!
+
+
+[21-Apr-19 04:10 AM] Exile13#4458
+`exile13@TIDE13:~/komodo/src$ ./komodo-cli -ac_name=EXILE rewardsinfo 010090956d5ad06a00a6afb87bb4b6250e7e5510e7f62a4532ef85e7f6ae0f7e
+{
+  "result": "success",
+  "fundingtxid": "010090956d5ad06a00a6afb87bb4b6250e7e5510e7f62a4532ef85e7f6ae0f7e",
+  "name": "TEST",
+  "sbits": 1414743380,
+  "APR": "5.00000000",
+  "minseconds": 3888000,
+  "maxseconds": 7776000,
+  "mindeposit": "5000.00000000",
+  "funding": "100000.00000000",
+  "locked": "0.00000000"`
+
+
+[21-Apr-19 04:10 AM] Exile13#4458
+now to lock
+
+
+[21-Apr-19 04:19 AM] Exile13#4458
+locked!
+
+
+[29-May-19 08:32 PM] PTYX#6840
+Is the lottery module something that's available in CC yet?
+
+
+[30-May-19 12:20 AM] Deleted User#0000
+Not sure loto is working or not, but I did work out how to make it very easily using future MoMoM hashes.
+
+
+[30-May-19 08:01 AM] PTYX#6840
+I was playing with the idea of adding a section in chameleon so that users could input 0.1 KMD and get a "ticket".  Then when the pot reaches a certain amount it does a random payout.
+
+
+[30-May-19 08:01 AM] PTYX#6840
+I don't know how feasible that is though at the moment with the CC. I'd like it to be KMD based.
+
+{Reactions}
+💯 (3) 
+
+[11-Jun-19 07:17 AM] Mylo#8306
+what's the smallest mindays locktime for rewards?   1 day is pretty long for testing.  does it accept values lower than 1?
+
+
+[11-Jun-19 08:11 AM] Deleted User#0000
+0
+
+
+[11-Jun-19 08:11 AM] Deleted User#0000
+you could edit source code to set some smaller amount, because internally its in seconds
+
+
+[11-Jun-19 08:46 AM] Mylo#8306
+ok - sounds like a plan thanks
+
+
+[28-Jul-19 04:44 PM] Exile13#4458
+In THC, @Exile13 this lock send my 100k coins to RTsRBYL1HSvMoE3qtBJkyiswdVaWkm8YTK, is it correct?
+
+
+[28-Jul-19 04:47 PM] Exile13#4458
+Our locking mechanism ^
+
+
+[28-Jul-19 04:48 PM] Exile13#4458
+Help @Team  Admin
+
+
+[28-Jul-19 04:48 PM] Exile13#4458
+Thank you
+
+
+[28-Jul-19 04:51 PM] Exile13#4458
+https://discord.gg/BjJYPt7
+
+
+[28-Jul-19 04:51 PM] Exile13#4458
+Pinned in the support channel
+
+
+[03-Nov-19 02:34 PM] Regnar#6164
+```- Rewards
+  - Insert Rewards CC proof of concept here - [link]```
+
+Hey all, if you have any proof of concepts, or built something cool for Rewards CC, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and add this to the Komodo docs page. TUIs are good and also if you have a coin using it!
+
+
+[04-Nov-19 08:05 AM] Alright#0419
+THC uses it in production @Regnar
+
+{Reactions}
+👍 
+
+[28-Feb-20 10:30 AM] Deleted User#0000
+Bonjour,je n'arrive plus à réclamer mes récompenses Komodo sur ma clé usb Ledger.Je l'ai Bootloader, remis à zéro,désinstaller le portefeuilles de ma Ledger puis réinstaller et rien ne marche mème aprés toutes c'est manipulations.Voici le message d'erreur: FAILED TO SIGN WITH LEDGER DEVICE U2F DEVICE INELIGIBLE.Si quelqu'un peut m'aider se serait cool:).
+
+
+[28-Feb-20 11:27 AM] Regnar#6164
+@Deleted User go to this link and try your ledger versions on the left
+
+https://dexstats.info/
+
+{Embed}
+https://dexstats.info/
+Dexstats Dashboard - AtomicDEX Orderbooks, BarterDEX and Komodo ECO...
+Key Data and Statistics for BarterDEX now AtomicDEX, KMD and the Komodo Eco System.
+
+
+[29-Nov-20 10:06 AM] Deleted User#0000
+Bonjour, j'essaye de réclamer mes récompenses komodo avec la clé Ledger nano x sur" dex stats. info"est cela me  dit"unable to reset the device". Si une personne peut m'aider se serait simpa😁
+
+
+[29-Nov-20 09:55 PM] gcharang#6833
+please use #dev-hw-wallets
+
+
+[30-Nov-20 12:17 AM] Deleted User#0000
+D'accord cela ne m'a pas aidé car je ne vais pas prendre de risques à les sortir de la clé ledger tant pis 'alors qu' avec la ledger on peut staké d'autres monnaie
+
+
+[30-Nov-20 01:11 AM] Deleted User#0000
+Je faisais du staking komodo avec ma ledger nano s j'ai basculé sur nano x et sa ne marche pas avec dexstats.info donc j'ai renvoyé sur  ma nano s et cela fonctionne je viens d'essayer . Si quelqu'un peut voir le problème pour les récompense sur Ledger nano X se serait super. Merci.
+
+
+[06-Dec-20 04:49 AM] Strob#3417
+Je vien d'essayer de claimer avec une nano x et ça n'a pas fonctionné non plus sur https://pbca26.github.io/
+
+
+[06-Dec-20 05:20 AM] Strob#3417
+Je viens d'essayer avec le desktop app and ça a fonctionné avec le nano x.
+
+
+[06-Dec-20 05:20 AM] Strob#3417
+https://github.com/pbca26/hw-kmd-wallet/releases/tag/v0.1.9
+
+{Embed}
+https://github.com/pbca26/hw-kmd-wallet/releases/tag/v0.1.9
+Release HW KMD Rewards Claim Electron App v0.1.9 · pbca26/hw-kmd-wa...
+This is experimental and unfinished software. Use at your own risk! No warranty for any kind of damage!
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software...
+https://images-ext-1.discordapp.net/external/eAyZeHiy4WW9wZ48j56fGdLeddChc61iEXHM6kAeHvs/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/7769879
+
+
+[06-Dec-20 09:07 AM] gcharang#6833
+👆
+
+
+[06-Dec-20 11:22 AM] Deleted User#0000
+D'accord merci c'c'est simpa d'avoir regardé. Cordialement.
+
+
+[15-Dec-20 09:17 AM] Mihailo#5902
+https://tenor.com/view/facepalm-really-stressed-mad-angry-gif-16109475
+
+{Embed}
+https://tenor.com/view/facepalm-really-stressed-mad-angry-gif-16109475
+https://images-ext-1.discordapp.net/external/VbAOHwuG_Rzrn8L-eaGWBGOI6R4RwhjhsuxXVTdM9rk/https/media.tenor.co/images/06d20df5508d8c2888ee1a1e80d5f392/tenor.png
+
+{Reactions}
+😆 (3) 
+
+[15-Dec-20 11:02 AM] ph03nix#3115
+wen rewards :troll:
+
+
+[17-Dec-20 04:33 AM] ARRR TipBot#1743
+:tools: I am currently in maintenance mode and cannot interact with the public. Regular maintenance underway, ETA 1h. Thank you for your patience.
+
+
+[17-Dec-20 04:33 AM] Bucktooth#1834
+Bruh
+
+
+[01-Jan-21 06:27 AM] Alright#0419
+wonder who keeps sending them here? Are they bots?
+
+{Reactions}
+🤷‍♂️ (2) 
+
+==============================================================
+Exported 548 message(s)
+==============================================================

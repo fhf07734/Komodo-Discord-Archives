@@ -1,0 +1,2004 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-gui
+Topic: https://developers.komodoplatform.com
+==============================================================
+
+[17-Sep-18 12:21 PM] jl777c#5810
+@siu @pbca26
+
+
+[17-Sep-18 12:23 PM] siu#3920
+nice! thanks!
+
+
+[17-Sep-18 12:23 PM] pbca26#5430
+https://github.com/bigchaindb/js-crypto-conditions
+i found this lib
+need @libscott to validate if it's good to use
+
+{Embed}
+https://github.com/bigchaindb/js-crypto-conditions
+bigchaindb/js-crypto-conditions
+Implementation of Interledger condition validation and fulfillment - bigchaindb/js-crypto-conditions
+https://images-ext-2.discordapp.net/external/wWw1QkW8NA9DQfbDb770ULUC0u5vcsUjqIj0K2OAPxc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/17097586
+
+
+[17-Sep-18 12:25 PM] pbca26#5430
+what else do we need to sign cc txs?
+
+
+[17-Sep-18 12:28 PM] siu#3920
+This channel is to clear doubts for dev working on CC guis. @grewalsatinder
+
+
+[17-Sep-18 06:02 PM] grewalsatinder#9653
+Thanks for tagging 
+M working on it
+Just slower and quiter
+
+
+[17-Sep-18 06:02 PM] grewalsatinder#9653
+🙏🏼🙂
+
+
+[17-Sep-18 06:16 PM] siu#3920
+;)
+
+
+[17-Sep-18 09:02 PM] Mylo#8306
+Ah nice chan, I’ll post my current work today on better connection
+
+{Reactions}
+👌 
+
+[18-Sep-18 11:14 PM] dukeleto#7326
+wow, a CC gui? Am I dreaming?
+
+{Reactions}
+shexy (2) 🙏 
+
+[19-Sep-18 12:02 AM] sφldat#8733
+🎩 
+🕶
+
+
+[19-Sep-18 01:46 AM] Mylo#8306
+Yes unibright is an innovative leader in the field.  They have PoC with more than one platform.
+
+
+[21-Sep-18 03:38 PM] BlackJesus#6161
+PoC?
+
+
+[21-Sep-18 05:23 PM] PTYX#6840
+who is unibright
+
+
+[22-Sep-18 01:28 AM] Mylo#8306
+Proof of concept.  Unibright dot io
+
+
+[08-Oct-18 03:44 AM] TonyL#3577
+If I want to make some web GUI have I use an Electrum?  
+I've read that JSON-RPC isn't safe to use for a web-apps
+
+
+[08-Oct-18 03:47 AM] grewalsatinder#9653
+for CC GUI? I think the good start would be with native
+
+
+[08-Oct-18 03:48 AM] grewalsatinder#9653
+the current apps like Agama and BarterDEX and HyperDEX are made using combination of Electron + Node.js + HTML/CSS/Js/ReactJs
+
+
+[08-Oct-18 03:48 AM] grewalsatinder#9653
+Electron bundles these as a desktop app to be cross os compatible
+
+
+[08-Oct-18 03:49 AM] grewalsatinder#9653
+right now I think Anything which is making some new users/testers let use CC is worth it
+
+
+[08-Oct-18 03:49 AM] grewalsatinder#9653
+even TUI of yours is great @TonyL
+
+
+[08-Oct-18 03:49 AM] CHMEX#0686
+I have not done it but I believe if you sign the trx localy you can post it to an explorer or node that accepts such signed transactions.
+
+
+[08-Oct-18 03:49 AM] grewalsatinder#9653
+keep extending and expanding it
+
+
+[08-Oct-18 03:50 AM] TonyL#3577
+@grewalsatinder yes, for CC - wanted to roll some dices
+
+
+[08-Oct-18 03:50 AM] grewalsatinder#9653
+@CHMEX yes, possible to make SPV based CC GUI apps since that's the logic basically, sending signed tx
+
+
+[08-Oct-18 03:51 AM] grewalsatinder#9653
+@TonyL since you are good with python, maybe you can find something which can be used to GUI your python app 🤔
+
+
+[08-Oct-18 03:51 AM] grewalsatinder#9653
+I think you can make a QT like GUI for python apps....
+
+
+[08-Oct-18 03:52 AM] grewalsatinder#9653
+https://stackoverflow.com/questions/1355918/creating-gui-with-python-in-linux#1355923
+
+{Embed}
+https://stackoverflow.com/questions/1355918/creating-gui-with-python-in-linux
+Creating GUI with Python in Linux
+Quick question.
+
+I'm using Linux and I want to try making a GUI with Python. I've heard about something like Qt, GTK+ and PyGTK but I don't know what they are exactly and what the difference betwee...
+https://images-ext-1.discordapp.net/external/dP07hBXxuorGcvXU609uJ_e6ZgPlIdBxqG8OjQQiAyY/%3Fv%3D73d79a89bded/https/cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon%402.png
+
+
+[08-Oct-18 03:53 AM] TonyL#3577
+I saw Agama-web repo - wondered to use it particularly 😃  Oh I don't think I'm good) Thank you! I'll try. Anyway lib which creating for TUI can be used for GUI as a backend logic
+
+
+[08-Oct-18 04:02 AM] Mylo#8306
+@TonyL lmk which API calls you want to make, i'll show you one solution.  i'll need to write them into the komodo-rpc-lib and then you proxy the request from browser to a node with CORS anywhere project running in front of.
+
+
+[08-Oct-18 04:05 AM] TonyL#3577
+@Mylo Ok, great! Atm I think it'll be just all dice CC calls such as a `dicelist` `diceinfo` `dicefund` `diceaddfunds` `dicebet` `dicefinish` `dicestatus`
+
+
+[08-Oct-18 04:05 AM] Mylo#8306
+ok dice, https://github.com/imylomylo/komodo-rpc-lib/blob/master/src/dice/index.js just needs params passed in.  not too much work.
+
+{Embed}
+https://github.com/imylomylo/komodo-rpc-lib/blob/master/src/dice/index.js
+imylomylo/komodo-rpc-lib
+ES6 komodo platform rpc for use in gui or nodejs. Contribute to imylomylo/komodo-rpc-lib development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[08-Oct-18 04:06 AM] TonyL#3577
+Cool!
+
+
+[08-Oct-18 04:07 AM] Mylo#8306
+but it is JS.  if you want to make equivalent py thing, we can test out how to do it in py.  using electrum has many advantages that the wallet devs will be able to tell you about, which i'm ignorant of because i like full node power 😃
+
+
+[08-Oct-18 04:08 AM] TonyL#3577
+I know JS ~ on the same level as I knew Python 1 month ago (syntax, classes, methods and etc.)
+Will be nice kickoff to enlarge the knowledge
+
+
+[08-Oct-18 04:10 AM] Mylo#8306
+ok - i'll prep some docs for setting up the env.
+1.  docker net on local host to run two nodes to mine ACs on single machine
+2. install CORS-anywhere
+3. basic js in browser
+@Bryan_Beus will be interested in this too.
+
+
+[08-Oct-18 04:11 AM] Mylo#8306
+if you need something to do, just build a basic gui. with html if you want.
+or have a crack at this https://github.com/imylomylo/komodo-cakeshop
+
+{Embed}
+https://github.com/imylomylo/komodo-cakeshop
+imylomylo/komodo-cakeshop
+Contribute to imylomylo/komodo-cakeshop development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[08-Oct-18 04:12 AM] Mylo#8306
+to make changes on one of those pages for something to test comms etc. can be done and we have some basic stuff to play around with in 24 hours
+
+
+[08-Oct-18 04:13 AM] TonyL#3577
+Thanks a lot! Looks like more than enough info and your work to start make cool stuff 😃 
+Will work on it during free time this week and post here if will have some non-googleble  questions or results
+
+
+[08-Oct-18 04:20 AM] Mylo#8306
+ok - install docker on your machine if you haven't.   then do a `docker pull imylomylo/jl777-komodo-dev:latest` it's about a 2GB d/l .   i'll start from zero on a VPS for instructions.  in the meantime.
+
+
+[08-Oct-18 05:31 AM] TonyL#3577
+@Mylo Ok! By some reason I don't have an access to all my VPS atm but I'll do this preparation as soon as this issue will be resolved
+
+
+[08-Oct-18 05:32 AM] Mylo#8306
+no probs 😃
+
+
+[08-Oct-18 05:58 AM] TonyL#3577
+Status: Downloaded newer image for imylomylo/jl777-komodo-dev:latest 
+My server is ready to serve 😃
+
+
+[08-Oct-18 07:36 AM] Mylo#8306
+haha ok.
+```
+git clone https://github.com/imylomylo/docker-komodo-smartcontracts.git
+cd docker-komodo-smartcontracts/src
+make run
+```
+You'll be dropped into a container.
+That repo 👆  has two directories.
+ 1.  src/  has the Makefile to simplify repetitive commands it's just docker commands.
+ 2. node/ directory.  this gets mounted at ~/.komodo inside the container.
+
+Your username in the container is `user` and the password is `pass`.  You have sudo access so you can `sudo su -` and then look at network stuff like `ifconfig` or `netstat  -ptan` etc.
+
+
+[08-Oct-18 07:42 AM] Mylo#8306
+You can `screen -S kmd` and type `komodod &` and it will start in `regtest` mode because that is the setting in `~/.komodo/komodo.conf`.
+`^a d` will detach from that session.   alternatively you can ssh to your container.
+in `regtest` mode you can do stuff like `komodo-cli generate 5` and will mine 5 blocks.
+
+Enough about regtest mode.
+
+Kill the container by `exit` and you get dropped back to your shell.
+
+To create your own AC (network), comment out `regtest=1` in node/komodo.conf  (if you start a KMD daemon now it will connect to mainnet).
+
+What you want is your own network in docker.  The `Makefile` has a `make` target called `acnet`.  So now you can:  `make acnet` then `make runacnet` for 1 container.  Then do it again for another container on the same docker network `make acnet` <-- probably in another terminal window.
+
+If you `sudo ifconfig` in each, you get their ip address.
+SSH server is not started by default atm.  so in each you will need to `/etc/init.d/ssh start` and then you can ssh to their docker network addresses, something like `172.19.0.2` and `172.19.0.3` from memory will be the first addresses on DHCP range.
+
+Create your AC in each of those.
+
+
+[08-Oct-18 07:43 AM] Mylo#8306
+The dockerfile has been made in a way that you can access ~/.komodo back in your normal working environment (the cloned github repo) - WARNING ❗ ❗
+
+{Reactions}
+treasure 
+
+[09-Oct-18 08:34 AM] TonyL#3577
+@Mylo 
+```~/docker-komodo-smartcontracts/src # make run
+docker run -it -e LOCAL_USER_ID=1000 --mount src=/root/docker-komodo-smartcontracts/src/../node,target=/home/user/.komodo,type=bind --mount src=/home/root/.zcash-params,target=/home/user/.zcash-params,type=bind imylomylo/jl777-komodo-dev
+docker: Error response from daemon: invalid mount config for type "bind": bind mount source path does not exist: /home/root/.zcash-params.
+See 'docker run --help'.
+Makefile:17: recipe for target 'run' failed
+make: *** [run] Error 125
+```
+Is it because I ran it under `root` ?
+
+
+[09-Oct-18 08:43 AM] Mylo#8306
+haha yes.   if you edit the makefile, anywhere you see `/home/${USER}` make it look like `/${USER}` if you must use full power-up mode.
+
+
+[09-Oct-18 08:44 AM] Mylo#8306
+and it assumes you have /root/.zcash-params downloaded
+
+
+[09-Oct-18 08:44 AM] Mylo#8306
+@TonyL 👆
+
+
+[09-Oct-18 08:50 AM] TonyL#3577
+Oh I see, thank you! @Mylo 
+ `./zcutil/fetch-params.sh`which is in all guides for Komodo compiling seems to use $HOME env variable instead of $USER for ./zcash-params downloading.
+Maybe will be useful for some super compatibility (if user set some exotic homedir for example or lamer like I which to lazy to use not root in test environments)
+```
+#!/bin/bash
+
+set -eu
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    PARAMS_DIR="$HOME/Library/Application Support/ZcashParams"
+else
+    PARAMS_DIR="$HOME/.zcash-params"
+fi
+```
+
+
+[09-Oct-18 08:52 AM] Mylo#8306
+cool just look at the docker command in the makefile.  it just mounts the dir to the container
+
+{Reactions}
+👌 
+
+[09-Oct-18 09:20 AM] TonyL#3577
+```apt-get install make
+mkdir ~/.zcash-params
+cd ~/.zcash-params
+wget  https://z.cash/downloads/sprout-proving.key
+wget https://z.cash/downloads/sprout-verifying.key```
+Here ^^ is some additional steps if someone will follow on fresh machine
+
+
+[09-Oct-18 09:26 AM] Mylo#8306
+thank you sir, should have mentioned in you in commit but forgot - i'm sure there'll be more 😃 @TonyL  https://github.com/imylomylo/docker-komodo-smartcontracts/commit/84dfc8d7b91b5a73bba051e0eb60bdef60a20285
+
+{Embed}
+https://github.com/imylomylo/docker-komodo-smartcontracts/commit/84dfc8d7b91b5a73bba051e0eb60bdef60a20285
+fresh install machine get zcash-param notes · imylomylo/docker-ko...
+https://images-ext-2.discordapp.net/external/wTjZ6bAVoE1BsD9VFkdJMIvireR0-X_ryt1VDmdTcEU/%3Fs%3D200%26v%3D4/https/avatars1.githubusercontent.com/u/19399102
+
+
+[09-Oct-18 09:27 AM] TonyL#3577
+Happy to contribute! 😃
+
+
+[09-Oct-18 11:01 PM] TonyL#3577
+@Mylo ```So now you can:  make acnet then make runacnet for 1 container.  Then do it again for another container on the same docker network make acnet <-- probably in another terminal window.```
+
+For me for second one worked ` make runacnet` but not `make acnet` 
+
+For second `make acnet` get an error:
+```~/docker-komodo-smartcontracts/src$ make acnet
+docker network create acnet
+Error response from daemon: network with name acnet already exists
+Makefile:23: recipe for target 'acnet' failed
+make: *** [acnet] Error 1
+```
+
+Have my two docker instances now inside one network 🙌 Will try to make AC now
+
+
+[09-Oct-18 11:10 PM] TonyL#3577
+Started AC on node1: ` inet addr:172.18.0.2  Bcast:172.18.255.255  Mask:255.255.0.0` 
+```komodod -ac_name=DOCKER1 -ac_supply=1000 -ac_reward=10000000000000 -ac_cc=1 -gen &```
+But when trying to start it on node2: ` inet addr:172.18.0.3  Bcast:172.18.255.255  Mask:255.255.0.0`
+```komodod -ac_name=DOCKER1 -ac_supply=1000 -ac_reward=10000000000000 -ac_cc=1 -addnode=172.18.0.2 &
+[1] 52
+user@e8ac80dbd390:/$ end.0 blocks, reward 100000.00000000 halving.0 blocks, decay.0 perc 0.0000% ac_pub=[00...]
+error creating (DOCKER1_7776)
+call komodo_args.(komodod) NOTARY_PUBKEY.()
+>>>>>>>>>> DOCKER1: p2p.44082 rpc.44083 magic.20dd126a 551359082 1000 coins
+initialized DOCKER1 at 1539151676
+Error: Cannot obtain a lock on data directory /home/user/.komodo/DOCKER1. Komodo is probably already running.```
+
+
+[09-Oct-18 11:21 PM] Mylo#8306
+ok you know what this error is?
+kmd is trying to get a lock on a directory that already has a lock on it.
+so to get around this, you specify at komodod startup -datadir=~/.komodo/node2_ac (and maybe with -conf=~/.komodo/node2_ac/thefile.conf)
+First mkdir ~/.komodo/node2_ac
+Some things the daemon isn't ready for automatically fixing itself, so you need to know how to help it @TonyL  😃
+
+
+[09-Oct-18 11:22 PM] TonyL#3577
+Yes, know what error is 😃 Will do this workaround
+
+{Reactions}
+👍 
+
+[09-Oct-18 11:22 PM] Mylo#8306
+tl;dr; daemon  hasn't been written to run same AC twice (or more) on one shared volume.  so you need to pass in datadir
+
+
+[09-Oct-18 11:23 PM] TonyL#3577
+Didn't know it's possible to set datadir on daemon startup. Thanks!
+
+
+[09-Oct-18 11:24 PM] Mylo#8306
+yeah you get good tips when you do silly things like this from the core devs 😉
+
+
+[09-Oct-18 11:24 PM] Mylo#8306
+other option are in komodod -help or --help
+
+
+[09-Oct-18 11:27 PM] Mylo#8306
+you might need to cp config file manually into the datadir, can't remember.
+
+
+[09-Oct-18 11:43 PM] TonyL#3577
+Yes, was able to start daemon this way (created directory and config file). Btw it's not worked with non obsolete path. : 
+```komodod -ac_name=DOCKER1 -ac_supply=1000 -ac_reward=10000000000000 -ac_cc=1 -datadir=/home/user/.komodo/node1 -conf=/home/user/.komodo/node1/komodo.conf -addnode=172.18.0.2```
+
+
+[09-Oct-18 11:44 PM] TonyL#3577
+Seems it worked correct because all needed files were created
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491327477558542336/499472185434439681/unknown.png
+
+
+[09-Oct-18 11:44 PM] TonyL#3577
+But calls to RPC not working now:
+```komodo-cli -ac_name=DOCKER1 getinfo
+error: couldn't connect to server: unknown (code -1)
+(make sure server is running and you are connecting to the correct RPC port)```
+Investigating
+
+
+[09-Oct-18 11:46 PM] Mylo#8306
+hmmmm....are you in the docker container calling that or back in your host?
+
+
+[09-Oct-18 11:47 PM] TonyL#3577
+I'm in container
+
+
+[09-Oct-18 11:48 PM] Mylo#8306
+did you put a config file there after starting komodod?
+
+
+[09-Oct-18 11:48 PM] TonyL#3577
+I've copied config file before starting daemon
+
+
+[09-Oct-18 11:49 PM] Mylo#8306
+ok - let me check be a few mins, need to find correct host
+
+
+[09-Oct-18 11:49 PM] TonyL#3577
+```user@e8ac80dbd390:~/.komodo/node1$ cat komodo.conf 
+rpcuser=user
+rpcpassword=pass
+txindex=1
+bind=0.0.0.0
+rpcbind=127.0.0.1
+rpcbind=172.17.0.2
+rpcbind=172.17.0.1
+#rpcbind=xx.xx.xx.xx
+rpcallowip=0.0.0.0/0
+rpcport=7772
+regtest=1
+debug=rpc
+txindex=1
+spentindex=1
+addressindex=1```
+Tried to change port from 7771 to 7772 also
+
+
+[09-Oct-18 11:49 PM] TonyL#3577
+Oh I see where problem is
+
+
+[09-Oct-18 11:50 PM] Mylo#8306
+ip?
+
+
+[09-Oct-18 11:50 PM] TonyL#3577
+```rpcbind=172.17.0.2
+rpcbind=172.17.0.1```
+But this node IP is 0.3 So just copying not enough
+
+
+[09-Oct-18 11:50 PM] Mylo#8306
+lol cool
+
+
+[09-Oct-18 11:55 PM] Mylo#8306
+that error above `make acnet`, yes my bad on the instructions.   only need to `make acnet` once to create the docker network.  once created, you create two containers with `make runacnet` x 2 ✅
+
+{Reactions}
+👍 
+
+[09-Oct-18 11:57 PM] TonyL#3577
+No luck with RPC calls on second node yet. But daemon seems started correct because on first node ` "connections": 1` in getinfo for AC
+
+
+[09-Oct-18 11:57 PM] Mylo#8306
+hmmmmm....how's mining, should be creating blocks though
+
+
+[09-Oct-18 11:57 PM] TonyL#3577
+`"blocks": 6`
+
+
+[09-Oct-18 11:58 PM] Mylo#8306
+`sudo netstat -ptan` on the node you can't RPC on
+
+
+[09-Oct-18 11:58 PM] TonyL#3577
+```Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:53452           0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:17779           0.0.0.0:*               LISTEN      -               
+tcp        0      0 127.0.0.11:44147        0.0.0.0:*               LISTEN      -               
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      50/sshd         
+tcp        0      0 127.0.0.1:7771          0.0.0.0:*               LISTEN      -               
+tcp        0      0 127.0.0.1:7772          0.0.0.0:*               LISTEN      -               
+tcp        0      0 172.18.0.3:60952        172.18.0.2:53452        ESTABLISHED -               
+tcp6       0      0 :::22                   :::*                    LISTEN      50/sshd  ```
+
+
+[10-Oct-18 12:01 AM] Mylo#8306
+seems to be two KMD running, 7771 and 7772 on same host?   is this netstat output from container?
+
+
+[10-Oct-18 12:01 AM] Mylo#8306
+or host
+
+
+[10-Oct-18 12:01 AM] Mylo#8306
+i've nearly caught up
+
+
+[10-Oct-18 12:02 AM] TonyL#3577
+It's from container
+
+
+[10-Oct-18 12:02 AM] TonyL#3577
+There are 2 komodod now
+
+
+[10-Oct-18 12:02 AM] TonyL#3577
+7771 is for most actual AC, 7772 just have to kill
+
+
+[10-Oct-18 12:16 AM] Mylo#8306
+on 2nd node, `komodo-cli -conf=/home/user/.komodo/DOCKER1_node2/DOCKER1.conf -ac_name=DOCKER1 getinfo`
+
+
+[10-Oct-18 12:17 AM] Mylo#8306
+I started mine with ` komodod -datadir=/home/user/.komodo/DOCKER1_node2 -ac_name=DOCKER1 -ac_supply=1000 -ac_reward=10000000000000 -ac_cc=1 -addnode=172.18.0.2 &`
+
+
+[10-Oct-18 12:19 AM] TonyL#3577
+Oh have to call RPC with `-conf=` declaration
+
+
+[10-Oct-18 12:20 AM] Mylo#8306
+OK i better make clearer instructions :D
+this was the easy part!
+The rest, is an npm install something, start it <--- no probs
+The last bit before GUI/browser talking i need to make clear instructions to not waste your time.  I might make a coffee if that's ok and then spend it writing instructions/testing.  Maybe another hour, say 2 hours because you know - errors.
+
+
+[10-Oct-18 12:20 AM] Mylo#8306
+?
+
+
+[10-Oct-18 12:22 AM] TonyL#3577
+Sure. I'm wasting your time as well this way. 
+Coffee sounds as good idea, gonna make some as well and work on TUI  meanwhile 😃
+
+
+[10-Oct-18 12:22 AM] Deleted User#0000
+Yes ☕
+
+
+[10-Oct-18 12:23 AM] Deleted User#0000
+Bulletproof right 😃
+
+
+[10-Oct-18 12:23 AM] TonyL#3577
+Good morning/day/evening @Deleted User  !
+
+
+[10-Oct-18 12:23 AM] Deleted User#0000
+afternoon here 😄
+
+
+[10-Oct-18 12:23 AM] TonyL#3577
+Haha I'm totally missed 😃
+
+
+[10-Oct-18 12:24 AM] Mylo#8306
+923am - not wasting time.  the komodo-rpc-lib in js needs writing and dev-testing anyway...dev docs. and cc need guis.  we'll have one my lunchtime working, maybe afternoon tea.
+
+
+[10-Oct-18 12:24 AM] Deleted User#0000
+Do you have link to your TUI so i can have a look at it please? I am about to start on a chat program for STAKEDTROLL maybe that wil give me son inspiration
+
+
+[10-Oct-18 12:24 AM] Mylo#8306
+go away with your STAKEDTROLL :trollface:
+
+
+[10-Oct-18 12:25 AM] TonyL#3577
+@Deleted User https://github.com/tonymorony/cryptoconditions_tui
+
+{Embed}
+https://github.com/tonymorony/cryptoconditions_tui
+tonymorony/cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[10-Oct-18 12:26 AM] TonyL#3577
+Here also some methods in `tui_modules.py` which not using in `gateways_cc_cli.py` but I've used them before for oracles and tokens
+
+
+[10-Oct-18 12:26 AM] TonyL#3577
+https://github.com/esotericnonsense/bitcoind-ncurses2 btw I found this one few days ago
+
+{Embed}
+https://github.com/esotericnonsense/bitcoind-ncurses2
+esotericnonsense/bitcoind-ncurses2
+Python ncurses front-end for bitcoind using asyncio. - esotericnonsense/bitcoind-ncurses2
+https://images-ext-1.discordapp.net/external/3GdE2oW11DiPjuz9G2pskjiEljIS5NYj78hGwxL6Gvg/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/7999704
+
+
+[10-Oct-18 12:27 AM] TonyL#3577
+Learning now how to build really good TUIs 😂
+
+
+[10-Oct-18 12:29 AM] Deleted User#0000
+awesome ... yeah really want to get some skills in these aswell. I think they will really make people want to join in on STAKED more..
+
+
+[10-Oct-18 12:31 AM] TonyL#3577
+Thats was my goal beside of functionality demonstration - to show that CC logic is so crystal and awesome that even 0 programming skills guy can make some dAPP on top
+
+
+[10-Oct-18 12:32 AM] TonyL#3577
+@Deleted User If it'll be on Python I will be happy to contribute
+
+{Reactions}
+👌 
+
+[10-Oct-18 12:32 AM] Deleted User#0000
+I have mostly been using bash, but I think python is definatly a better way to go.
+
+
+[10-Oct-18 12:33 AM] Deleted User#0000
+whiich is why I wanted to have a look at yours before I start making anything
+
+
+[10-Oct-18 12:33 AM] TonyL#3577
+Please note that I'm almost not handling exceptions atm 😃
+
+
+[10-Oct-18 12:34 AM] Deleted User#0000
+thats fine, so far on staked stuff because of Alrights wish to use automation, I have been busy writing hundreds of lines of error checks. 😂  fun fun
+
+{Reactions}
+trollface 
+
+[10-Oct-18 12:35 AM] Deleted User#0000
+run though in head anything that has ever gone wrong  when working on notary node, and scripting it to handle the situation, very hard to test it works...
+
+
+[10-Oct-18 12:36 AM] TonyL#3577
+Yeah, if error somewhere in the middle of flow troubleshooting can eat tons of time
+
+
+[10-Oct-18 12:40 AM] Deleted User#0000
+oh yeah... spent the last few days debugging hre, getting much better at it.
+
+
+[11-Oct-18 04:54 PM] Deleted User#0000
+Will look at it too. Only bash scripting here but I really want to learn python.
+
+
+[11-Oct-18 08:05 PM] Deleted User#0000
+python definatly seems easier over all.
+
+
+[11-Oct-18 08:05 PM] Deleted User#0000
+but bash is much better at some things... for staked, I used a combination of both, it looks messy but its very simple.
+
+
+[11-Oct-18 10:30 PM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491327477558542336/500178436623564821/12-30-17-3c27dcbaeb5b7823f0d52b42718f3e84b684893f9072067c450ca546ccbc1001.jpg
+
+{Reactions}
+🐍 😂 
+
+[12-Oct-18 02:30 AM] Mylo#8306
+@TonyL suggestion for your TUI
+Convert `subprocess from check_output` to xmlrpc client and your TUI will be available to remote servers
+https://docs.python.org/3/library/xmlrpc.client.html
+
+
+[12-Oct-18 02:31 AM] TonyL#3577
+@Mylo Thanks! Will have a look
+
+
+[12-Oct-18 02:32 AM] Mylo#8306
+This even better, does all the work for you https://pypi.org/project/json-rpc/
+
+{Embed}
+https://pypi.org/project/json-rpc
+json-rpc
+JSON-RPC transport implementation
+https://images-ext-1.discordapp.net/external/mkkMBJwpPT2O_qDQMPbZQJ0Sd4WyBTPkF4lttjc-9As/https/pypi.org/static/images/twitter.c0030826.jpg
+
+{Reactions}
+🤔 
+
+[12-Oct-18 02:33 AM] TonyL#3577
+I usually rape check_output() by decode() and rstrip() and then do json.loads() to work as with dictionary
+
+
+[12-Oct-18 02:35 AM] TonyL#3577
+@Mylo So if I'll implement this my TUI will make RPC calls to komodod and remote servers will able to make RPC calls to my TUI? Like a interlayer
+
+
+[12-Oct-18 02:52 AM] Mylo#8306
+Yes.  Like TUI will be useful from host -> docker as well.
+Further, in the case of @Deleted User TROLL chat chain, if you were to have a config TUI section (e.g. press 1 to configure, enter host, enter port, enter user, enter pass) he could run XX TUI processes in his tmux fantasy land and chat to himself to his hearts content across nodes 😛
+
+
+[12-Oct-18 02:55 AM] Mylo#8306
+By removing the need to be “on localhost” calling sub-process stuff and making it all within your py process and json network comms, you can then also think about making stuff with https://kivy.org/#home
+
+I would create a small test.py script, use a json-rpc library with `getinfo` to make sure you can do it to localhost.   Then try from localhost -> docker.   Then convert TUI to that method, maybe in a new branch.  `git checkout -b networkcomms` whilst in dev
+
+{Embed}
+https://kivy.org/
+Kivy: Cross-platform Python Framework for NUI
+Open source Python framework for rapid development of applications
+        that make use of innovative user interfaces, such as multi-touch apps.
+https://images-ext-1.discordapp.net/external/aXFRm1db-eegpviXOwXCfO4oKYn_TLnnLL4gb1c1DxU/http/kivy.org/logos/kivy-logo-black-256.png
+
+{Reactions}
+shexy (2) 
+
+[12-Oct-18 03:02 AM] TonyL#3577
+Cool, all new functions for my "library" I wrote to be not demand on from where input coming (TUI actually just implementation of this "library" with keyboard args input). So it should be scalable and easy to change for needed args receiving by RPC, or somewhere else). Can go ahead with RPC integration as soon as finish with gatewaysCC multisig testing process
+
+
+[12-Oct-18 03:15 AM] Mylo#8306
+Yes best way to make stuff you probably know MVC pattern (model view controller).  As a GUI, one of the kivy featured projects looks like this.   I would guess they have a good separation-of-concerns making GUI separate from any logic being an academic application for researchers - it looks good from the menu, it may give you an easy head start to making TUI a GUI - even with sub-process if you didn’t want to do the network comms part.  https://trifusion.readthedocs.io/en/latest/limitations.html
+
+
+[12-Oct-18 03:15 AM] Mylo#8306
+If anything it might give you hints
+
+
+[12-Oct-18 03:16 AM] TonyL#3577
+I've played with Yii framework few years ago, can imagine what MVC is but it's need full time concentration to make usable product ohh
+
+
+[12-Oct-18 03:22 AM] Mylo#8306
+Only need to get the ball rolling, komodo just needs to get balls rolling - more balls rolling and better versions of pretty balls rolling will happen.
+
+
+[12-Oct-18 03:23 AM] TonyL#3577
+This is basically what I am capable of since I'm not a developer 😃
+
+
+[12-Oct-18 03:23 AM] TonyL#3577
+Rolling balls, scratching balls... 😂
+
+
+[12-Oct-18 03:25 AM] Deleted User#0000
+Guessing u til it works 😂
+
+{Reactions}
+😂 
+
+[12-Oct-18 03:29 AM] Mylo#8306
+Hehe yes.  But it’s a very necessary part in the development cycle, quick iterations.
+MVC,
+Model = database
+View = GUI
+Controller = your library
+
+Blockchain, View, Tony’s Library.   Same application architecture, your library is what komodo-rpc-lib is in JavaScript when done with json-rpc.
+
+At the moment python in the browser is not popular but it looks like steps in making python->WASM (web assembly) is already happening.
+
+The more generalized rpc-libs in different languages the more availability to developers to make applications.  Js, python.   Splitting python workload across a few community members and the 200+ komodo RPC methods will be done.
+
+{Reactions}
+🙌 
+
+[12-Oct-18 03:38 AM] Mylo#8306
+Also the beauty is with a komodo-rpc-lib-js & komodo-rpc-lib-py they are compatible with VRSC.  Taking to the next step, because kmd rpc has more than other coins, the libraries can be used for other coins (with some configuration modification).  And re-using james’ bitmask calculations, where:
+KMD = 1
+VRSC = 2
+ZEC= 4
+HUSH = 8
+EMC2 = 16
+
+A method in the rpc library with a compatibility value of “3” could be called for a KMD/VRSC application.   If a different method (say MoMoM) has a value of 27, then all but ZEC supports this method call for a GUI application to use.
+```
+0001 1011 <— from R to L (right to left), KMD, VRSC, ZEC, HUSH, EMC2 
+```
+
+
+[12-Oct-18 03:39 AM] Mylo#8306
+Use the bits as switches (on/off) for support.  Assign each bit to a coin.  Whether it can be used with the method.
+
+
+[12-Oct-18 03:41 AM] Mylo#8306
+!kmdtip @TonyL 0.01 test
+
+
+[12-Oct-18 03:41 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+@Mylo (Mylo(KomodoPioneers)#8306)
+You tipped @TonyL **0.01 KMD**
+
+
+[12-Oct-18 03:41 AM] Mylo#8306
+Lol
+
+
+[12-Oct-18 03:42 AM] TonyL#3577
+@Mylo 🍻
+
+
+[12-Oct-18 07:06 AM] Mylo#8306
+@Bryan_Beus read up a bit and that's the gist of what we are doing in both js and python.  fill in the gaps where you want/can - the js code has stubbed out methods waiting for implementation.  the python stuff needs porting from sub-process (spawning an external command) to network commands.   and we're off to the races!
+
+
+[12-Oct-18 07:07 AM] Mylo#8306
+from tony's penguin meme onwards.
+
+
+[12-Oct-18 07:09 AM] Mylo#8306
+this part needs to be swapped out for network comms https://github.com/tonymorony/cryptoconditions_tui/blob/master/tui_modules.py#L6
+
+{Embed}
+https://github.com/tonymorony/cryptoconditions_tui/blob/master/tui_modules.py
+tonymorony/cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[12-Oct-18 07:09 AM] Mylo#8306
+e.g. on line 20 https://github.com/tonymorony/cryptoconditions_tui/blob/master/tui_modules.py#L20
+
+{Embed}
+https://github.com/tonymorony/cryptoconditions_tui/blob/master/tui_modules.py
+tonymorony/cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[12-Oct-18 07:10 AM] Mylo#8306
+this calls "check_output" where instead it could be rpc.sendrawtransaction()
+
+
+[12-Oct-18 07:10 AM] Mylo#8306
+passing in the details
+
+
+[12-Oct-18 07:11 AM] Mylo#8306
+and the equivalent js one in es6.   https://github.com/imylomylo/komodo-rpc-lib/blob/master/src/rawtransactions/index.js#L68
+
+{Embed}
+https://github.com/imylomylo/komodo-rpc-lib/blob/master/src/rawtransactions/index.js
+imylomylo/komodo-rpc-lib
+ES6 komodo platform rpc for use in gui or nodejs. Contribute to imylomylo/komodo-rpc-lib development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[12-Oct-18 07:13 AM] Mylo#8306
+`getinfo` is already done...no arguments to pass in as an example https://github.com/imylomylo/komodo-rpc-lib/blob/master/src/control/index.js#L59
+
+{Embed}
+https://github.com/imylomylo/komodo-rpc-lib/blob/master/src/control/index.js
+imylomylo/komodo-rpc-lib
+ES6 komodo platform rpc for use in gui or nodejs. Contribute to imylomylo/komodo-rpc-lib development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[12-Oct-18 07:13 AM] Mylo#8306
+that's the pattern repeated for stuff that doesn't have any arguments.   for stuff that does, just a matter of passing it in, and `resolve(resp)` it.
+
+
+[12-Oct-18 07:14 AM] Mylo#8306
+the same thing will happen with tony's python lib.   stub out the entire set of commands, then implement them.
+
+
+[12-Oct-18 07:15 AM] Mylo#8306
+all the @api annotations in the getinfo file are the things that get compiled for apidocs
+
+
+[12-Oct-18 07:24 AM] Bryan_Beus#6442
+reading through
+
+{Reactions}
+👍 
+
+[12-Oct-18 08:27 AM] Mylo#8306
+@TonyL working python3 json rpc with authentication.  will save you a bit of mucking around
+
+https://gist.github.com/imylomylo/7bfcd4a44082386421da0082b9ebc77a
+
+{Embed}
+https://gist.github.com/imylomylo/7bfcd4a44082386421da0082b9ebc77a
+python3 json kmd
+python3 json kmd. GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[12-Oct-18 08:30 AM] Mylo#8306
+@Deleted User or @patchkez can you help tony if he has some questions on python code organisation pls
+
+{Reactions}
+👍 (2) 
+
+[12-Oct-18 08:49 AM] TonyL#3577
+Thanks @Mylo ! Will go ahead tomorrow
+
+
+[14-Oct-18 12:31 AM] TonyL#3577
+Hi @Mylo ! Your gist worked for me with some additional dependencies before execute ` pip3 install "jsonrpcclient[requests]"`
+ ```sudo apt-get install python3-setuptools 
+pip3 install wheel```
+
+Have same error with schema validation. Looks like it's not python problem but validation when matching with this schema http://json-schema.org/draft-04/schema
+
+As I understand Komodo RPC uses JSON-RPC 1.0 interface while this lib works only with JSON-RPC 2.0 and matching with this schema 
+
+Tried to disable schema verification:
+`response = client.send('{"jsonrpc": "1.0", "method": "getinfo", "id": 1, "params": []}', verify=False,  headers={"content-type": "application/json-rpc"})` but same error
+
+Gonna search for another rpc lib
+
+
+[14-Oct-18 12:48 AM] TonyL#3577
+https://github.com/jgarzik/python-bitcoinrpc
+https://gist.github.com/tonymorony/886d411663b8612f0ae4077e73ad6e94
+Found this lib working for me
+
+{Embed}
+https://github.com/jgarzik/python-bitcoinrpc
+jgarzik/python-bitcoinrpc
+Python interface to bitcoin's JSON-RPC API. Contribute to jgarzik/python-bitcoinrpc development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/no9icYQLLdB4Hga7VeDTBHJ0jRyP06r4PG2mErjaDqM/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/494411
+
+{Embed}
+https://gist.github.com/tonymorony/886d411663b8612f0ae4077e73ad6e94
+bitcoin-cli rpc lib
+bitcoin-cli rpc lib. GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[14-Oct-18 04:20 AM] Mylo#8306
+```
+rpc_connection = AuthServiceProxy("http://%s:%s@127.0.0.1:56212"%("user3150903419", "passe8fe2d8aa38c4e6faca129c6f3a6261a605e72a76eff36f2a5897dc7a03c2878b9"))
+get_info = rpc_connection.getinfo()
+```
+that's awesome.  ok, have a test with one of the methods that you need to pass in variables as well, then i think you can go to the races 🏇
+
+{Reactions}
+🏎 
+
+[14-Oct-18 04:34 AM] TonyL#3577
+```
+oracleinfo = rpc_connection.oraclesinfo("b4a8df531ebcbca78669a0a13ce4eb109276172a0c5df6e53c36ee9b527bd221")```
+```print(oracleinfo)
+{'result': 'success', 'txid': 'b4a8df531ebcbca78669a0a13ce4eb109276172a0c5df6e53c36ee9b527bd221', 'name': 'Alright', 'description': 'test', 'format': 'S', 'marker': 'RCHrEcMk8SZCYejwTzjrMiPh9AoUmgZgMP', 'registered': [{'publisher': '02648d4edd56fd12b09bf9483e7b40407cce83ecdeb3ebd26b480ff5f5e8493baf', 'baton': 'RBYorBDPZjUjym59qmK3pt56peBfyCqGTC', 'batontxid': 'e7e2160b811b1f656aa80ed7e0d2a18c7e0598b8b14a2c51889763493113da57', 'lifetime': '0.00000000', 'funds': '10198.90000000', 'datafee': '0.00010000'}, {'publisher': '02648d4edd56fd12b09bf9483e7b40407cce83ecdeb3ebd26b480ff5f5e8493baf', 'baton': 'RBYorBDPZjUjym59qmK3pt56peBfyCqGTC', 'batontxid': 'e7e2160b811b1f656aa80ed7e0d2a18c7e0598b8b14a2c51889763493113da57', 'lifetime': '0.00000000', 'funds': '10198.90000000', 'datafee': '1.00000000'}]}```
+Seems I'm in a game 😃
+
+{Reactions}
+🎉 
+
+[14-Oct-18 04:39 AM] Mylo#8306
+try !localhost
+
+
+[14-Oct-18 04:41 AM] TonyL#3577
+@Mylo I have to allow client IP in .conf in `rpcallowip` param ?
+
+
+[14-Oct-18 04:41 AM] Mylo#8306
+yes
+
+
+[14-Oct-18 04:42 AM] Mylo#8306
+`rpcallowip=0.0.0.0/0` that for now, uncomplicated
+
+
+[14-Oct-18 04:42 AM] Mylo#8306
+totally insecure
+
+
+[14-Oct-18 04:42 AM] TonyL#3577
+Yeah, doors are open for anyone )
+
+
+[14-Oct-18 04:43 AM] TonyL#3577
+Anyway it's testnet
+
+
+[14-Oct-18 04:43 AM] Mylo#8306
+this is how the docker network testing started
+
+
+[14-Oct-18 04:43 AM] Mylo#8306
+at least it was local
+
+
+[14-Oct-18 04:48 AM] TonyL#3577
+Connected from one node to another by external IP - can execute calls no prob
+
+
+[14-Oct-18 04:49 AM] TonyL#3577
+For security reasons will not spoil calls here 😂
+
+
+[14-Oct-18 04:50 AM] Mylo#8306
+cool - i best get back to coding the js libs sometime this week now that there is a some python stuff floating about 😛
+
+
+[14-Oct-18 04:52 AM] TonyL#3577
+I'll try to make some python CC desktop GUI next week with this lib usage ( I remember you've shared cool framework for it). For Dice CC probably
+
+
+[14-Oct-18 04:55 AM] Mylo#8306
+yeah dice will be my first target in the cakeshop demo.   dice samples CC usage of RNG, challenge response.   having py & js accessibility for tech tuesday updates in the future will allow devs to play around with it through nov/dec/jan til launch on the different CCs.  we want more dev activity at the application level.  these libs will allow better exposure 😃
+
+{Reactions}
+🚀 
+
+[14-Oct-18 04:55 AM] Mylo#8306
+thanks for playing along with your TUI and beyond!
+
+
+[14-Oct-18 04:56 AM] TonyL#3577
+Thanks for supporting of my enthusiasm! 🙌
+
+{Reactions}
+Komodo 
+
+[14-Oct-18 04:56 AM] Mylo#8306
+same can be re-done with iguana/marketmaker too 😄
+
+{Reactions}
+🤕 
+
+[14-Oct-18 04:58 AM] TonyL#3577
+Iguana and marketmaker are blackboxes for me for now 😃
+
+
+[14-Oct-18 04:59 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491327477558542336/501001071620128773/unknown.png
+
+
+[14-Oct-18 05:00 AM] Mylo#8306
+I prefer CC stuff, more innovative thinking for me rather than fintech focus.
+
+
+[14-Oct-18 05:01 AM] Mylo#8306
+But for creating a library, might be useful for making better trading apps for ppl that like that 💩
+
+{Reactions}
+😃 
+
+[15-Oct-18 02:47 PM] CMaurice#1685
+Just an idea that the .rst rpc doc files could be parsed to create a UI
+
+
+[15-Oct-18 02:48 PM] CMaurice#1685
+also could be the basis for a fuzzing tool for testing CC
+
+
+[16-Oct-18 12:58 AM] Mylo#8306
+Link?
+
+
+[16-Oct-18 02:22 AM] CMaurice#1685
+Unsure if that's a request for me @Mylo  but a .rst file (e.g. https://raw.githubusercontent.com/KomodoPlatform/Documentation/master/docs/source/cc/contracts/tokens/rpc/tokencancelask.rst ) can be parsed with docutils in Python
+
+
+[16-Oct-18 07:21 AM] TonyL#3577
+@Mylo Kivy framework seems supercool 
+Also connected RPC lib, but have to think now about auth part since I've just hardcoded RPC connection details for now
+
+{Attachments}
+https://cdn.discordapp.com/attachments/491327477558542336/501761715973783574/unknown.png
+
+{Reactions}
+👏 
+
+[16-Oct-18 07:24 AM] TonyL#3577
+If there will be some SPV mode it would be powerful -  this framework allows to build app for Android, MacOS, Windows and Linux with fully compatible code
+
+
+[16-Oct-18 08:05 AM] grewalsatinder#9653
+Nice start mate! 🙂 👍
+
+{Reactions}
+🙌 
+
+[16-Oct-18 08:06 AM] TonyL#3577
+Thanks @grewalsatinder Kinda Hello World :))
+
+
+[16-Oct-18 08:08 AM] grewalsatinder#9653
+yep, a first step is important one.... glad to see you progressing ahead 🙂
+
+{Reactions}
+👍 
+
+[17-Oct-18 12:20 AM] TonyL#3577
+@Deleted User @patchkez 
+I want to make Python RPC library similar to this https://github.com/imylomylo/komodo-rpc-lib on top of this one https://github.com/jgarzik/python-bitcoinrpc
+And thinking now regards code organisation to make it really usable.
+What is the best practice to include this  https://github.com/jgarzik/python-bitcoinrpc library to mine and how better place my modules for different stuff?
+I wonder maybe there is some PEP recommendations for such stuff.
+Thank you in advance!
+
+{Embed}
+https://github.com/imylomylo/komodo-rpc-lib
+imylomylo/komodo-rpc-lib
+ES6 komodo platform rpc for use in gui or nodejs. Contribute to imylomylo/komodo-rpc-lib development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+{Embed}
+https://github.com/jgarzik/python-bitcoinrpc
+jgarzik/python-bitcoinrpc
+Python interface to bitcoin's JSON-RPC API. Contribute to jgarzik/python-bitcoinrpc development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/no9icYQLLdB4Hga7VeDTBHJ0jRyP06r4PG2mErjaDqM/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/494411
+
+
+[17-Oct-18 12:52 AM] patchkez#5349
+@TonyL Have a look on https://github.com/petertodd/python-bitcoinlib which does not support only rpc but also other tools, e.g. for wallet, signing messages...
+
+{Embed}
+https://github.com/petertodd/python-bitcoinlib
+petertodd/python-bitcoinlib
+Python2/3 library providing an easy interface to the Bitcoin data structures and protocol. - petertodd/python-bitcoinlib
+https://images-ext-2.discordapp.net/external/7I2ycjWymX24t1cz-6V6Eqa0ELxTg-Vm6OqA4Vfz8Q8/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/7042
+
+
+[17-Oct-18 12:58 AM] TonyL#3577
+Thanks @patchkez will try this one
+
+
+[17-Oct-18 12:59 AM] patchkez#5349
+@TonyL I am not so good in object programming, but I would try to import python-bitcoinlib as a module into your project and override classes with changes specific for KMD
+
+
+[17-Oct-18 01:00 AM] patchkez#5349
+that way, you can consume python-bitcoinlib with all new improvements he introduces and do not have to cherry pick his commits into your repo
+
+
+[17-Oct-18 01:00 AM] patchkez#5349
+maybe @Deleted User has other ideas
+
+
+[17-Oct-18 01:03 AM] Mylo#8306
+Looks like I might learn some python this year!
+
+{Reactions}
+💯 (2) 🐍 (2) 
+
+[17-Oct-18 01:04 AM] TonyL#3577
+https://github.com/jgarzik/python-bitcoinlib/blob/master/bitcoin/rpc.py#L83 @patchkez yeah, looks like there is a wide amount of places which should be adopted for Komodo
+
+{Embed}
+https://github.com/jgarzik/python-bitcoinlib/blob/master/bitcoin/rpc.py
+jgarzik/python-bitcoinlib
+Bitcoin library. Contribute to jgarzik/python-bitcoinlib development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/no9icYQLLdB4Hga7VeDTBHJ0jRyP06r4PG2mErjaDqM/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/494411
+
+
+[17-Oct-18 01:04 AM] TonyL#3577
+Oh it's previous lib, not woke up yet lol
+
+
+[17-Oct-18 01:06 AM] patchkez#5349
+yeah, I am sleepy too, more coffee is needed 😃
+
+{Reactions}
+☕ (2) 
+
+[17-Oct-18 01:06 AM] TonyL#3577
+https://github.com/petertodd/python-bitcoinlib/blob/master/bitcoin/rpc.py#L159 I meant this one actually
+
+{Embed}
+https://github.com/petertodd/python-bitcoinlib/blob/master/bitcoin/rpc.py
+petertodd/python-bitcoinlib
+Python2/3 library providing an easy interface to the Bitcoin data structures and protocol. - petertodd/python-bitcoinlib
+https://images-ext-2.discordapp.net/external/7I2ycjWymX24t1cz-6V6Eqa0ELxTg-Vm6OqA4Vfz8Q8/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/7042
+
+
+[17-Oct-18 01:07 AM] TonyL#3577
+Not sure if my skills will be enough if porting to komodo will be not only bitcoin -> komodo words changing 😃
+
+
+[17-Oct-18 01:07 AM] Deleted User#0000
+late arvo here, already too much coffee ... and still tired... stayed up too late last night writing code, but I got it working... usually happens next day get nothing done LOL
+
+{Reactions}
+☕ 
+
+[17-Oct-18 01:08 AM] TonyL#3577
+Next day debug and write comments 😃
+
+
+[17-Oct-18 01:15 AM] TonyL#3577
+https://docs.python-guide.org/writing/structure/ will start from this point I guess
+
+{Embed}
+https://docs.python-guide.org/writing/structure
+Structuring Your Project — The Hitchhiker's Guide to Python
+https://images-ext-1.discordapp.net/external/b2CJcrFbwLgj6iRKOHvkEthc8KXOAct-KgZlIX-3Jw8/https/docs.python-guide.org/_static/social-card.jpg
+
+
+[17-Oct-18 01:15 AM] Deleted User#0000
+spent the day playing with 2yr old and finishing ryzen workstation. been meaning to get that done for weeks 😂
+
+
+[17-Oct-18 01:18 AM] snowdamn#2414
+teach 'em young 😇
+
+
+[17-Oct-18 01:19 AM] TonyL#3577
+Maybe 2yr already can learn some scratch programming 🤔
+
+
+[17-Oct-18 01:42 AM] TonyL#3577
+@Deleted User Should be my flow be a: fork this library, re-write code to be compatible with Komodo, write my rpc-lib in the same repo ?
+Or have I to create new repo, import this library as a module and override classes with changes for Komodo as @patchkez adviced?
+Confused a little bit regards this flow since never build something with 3rd party modules
+
+
+[17-Oct-18 01:49 AM] TonyL#3577
+I have to make it work with asset chains on user demand hmm
+
+
+[17-Oct-18 12:00 PM] TonyL#3577
+Hmm, seems not very flexible if use with tons of assetchains created by users what crypto-conditions assumes
+
+
+[17-Oct-18 12:00 PM] TonyL#3577
+Have to parse configs on fly I think
+
+
+[17-Oct-18 12:01 PM] TonyL#3577
+Yep, thanks! Just habit of thinking out loud 😃
+
+
+[17-Oct-18 03:25 PM] Mylo#8306
+what happened to remote TUI?  now it looks like i need a config file in my python dreams
+
+
+[17-Oct-18 03:35 PM] Mylo#8306
+check what you're doing - looks like it's getting a lot more complex than just talking to RPC which just uses strings and numbers.
+
+for instance, dumpprivkey using RPC returns a string. 
+
+WIth pter todd's python library, wants to return a bitcoin.base58.CBase58Data or something i don't even want to know is compatible with some library i don't really want to maintain as a dApp developer.  https://github.com/petertodd/python-bitcoinlib/blob/master/bitcoin/wallet.py#L237
+
+I just want to talk RPC to komodo interface over network.   simple auth, function(params) returns simple data of strings and numbers.
+
+{Embed}
+https://github.com/petertodd/python-bitcoinlib/blob/master/bitcoin/wallet.py
+petertodd/python-bitcoinlib
+Python2/3 library providing an easy interface to the Bitcoin data structures and protocol. - petertodd/python-bitcoinlib
+https://images-ext-2.discordapp.net/external/7I2ycjWymX24t1cz-6V6Eqa0ELxTg-Vm6OqA4Vfz8Q8/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/7042
+
+
+[17-Oct-18 03:35 PM] Mylo#8306
+you want to build a simple wrapper for RPC
+
+
+[17-Oct-18 03:38 PM] Mylo#8306
+e.g. https://github.com/peercoin/peercoin_rpc/blob/master/peercoin_rpc/peercoin_rpc.py
+
+{Embed}
+https://github.com/peercoin/peercoin_rpc/blob/master/peercoin_rpc/peercoin_rpc.py
+peercoin/peercoin_rpc
+Python JSON-RPC API wrapper for Peercoin. Contribute to peercoin/peercoin_rpc development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ph6mZJs7clbvnQfqjiRYXlzpzi82ih7376j6Mpanp9U/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/6033326
+
+
+[17-Oct-18 03:39 PM] Mylo#8306
+remove the need to read a file, you just want to configure RPC "on the fly" because the different ACs that will want to use oracles etc.
+
+Other projects don't have this "on the fly" talk to ACs, which you identified as a problem configuring for each AC.
+
+That's my 2c.
+
+
+[17-Oct-18 03:44 PM] Mylo#8306
+https://gist.github.com/imylomylo/be68888807952c90a8fd3a970d5e2f2b
+
+{Embed}
+https://gist.github.com/imylomylo/be68888807952c90a8fd3a970d5e2f2b
+Using peercoin_rpc
+Using peercoin_rpc. GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[17-Oct-18 03:46 PM] Mylo#8306
+Peercoin rpc only supports these methods https://github.com/peercoin/peercoin_rpc/blob/master/peercoin_rpc/peercoin_rpc.py so just expand on them for KMD RPC stuff.
+
+Fork it and just put in your oractelist method.  it should work no dramas
+
+{Embed}
+https://github.com/peercoin/peercoin_rpc/blob/master/peercoin_rpc/peercoin_rpc.py
+peercoin/peercoin_rpc
+Python JSON-RPC API wrapper for Peercoin. Contribute to peercoin/peercoin_rpc development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ph6mZJs7clbvnQfqjiRYXlzpzi82ih7376j6Mpanp9U/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/6033326
+
+
+[17-Oct-18 06:28 PM] Deleted User#0000
+You can use komodo-cli to fetch the rpcport... Or you can read the .conf file to extract all needed data... I'm not so sure how easy it in in python but I have bash scripts where all I need to give it is the name of the ac... And everything works out of the boz
+
+
+[17-Oct-18 06:29 PM] Deleted User#0000
+For a lot ofy stuff ATM, I'm using bash scripts to pass python scripts data or vice versa...
+
+
+[17-Oct-18 06:29 PM] Deleted User#0000
+There seems to be no other simple wat to do it, and using already working code saves endless time.
+
+
+[17-Oct-18 09:52 PM] Mylo#8306
+yes simple wrapper to RPC in every language is preferable without reading a .conf file, just passing in user, pass, host:port.   it has less baggage than everything else for a 1st step of developer tools.
+
+
+[17-Oct-18 10:10 PM] Mylo#8306
+nothing.  just don't hard code the path to remain flexible.
+
+
+[17-Oct-18 10:11 PM] Mylo#8306
+is my request.  it will add unnecessary support questions
+
+
+[17-Oct-18 10:12 PM] Mylo#8306
+time wasted for developers if it needs to be in ~/.komodo/ACNAME/ACNAME.conf or equiv in other OSes
+
+
+[17-Oct-18 10:12 PM] Mylo#8306
+But for remote TUI, all is needed is pass in user/pass.
+
+
+[17-Oct-18 10:15 PM] Mylo#8306
+the dApp devs can store their credentials. dictating where to store a config file by hard-coding the location limits the flexibility.  a web developer does not have access to the file system, has to pass in config params.
+
+{Reactions}
+👍 
+
+[17-Oct-18 10:29 PM] Deleted User#0000
+If your using a devoplemt chain, why not have the RPC/USER pass passed to the daemon on start, and have it write those to the file intead of random ones ?
+
+
+[17-Oct-18 10:30 PM] Deleted User#0000
+then you can use whatever you want, and know it will be correct
+
+
+[26-Oct-18 02:45 AM] Mylo#8306
+@TonyL @gcharang @Alright this was linked at the bottom of that npyscreen project in #dev-modules http://urwid.org/tutorial/index.html
+It looks like an easy port from current TUI to urwid based TUI ?
+
+
+[26-Oct-18 07:05 AM] TonyL#3577
+@Mylo Yeah, played with this one a little bit as well, for me it seems same complexity as npyscreen but less functionality
+
+
+[26-Oct-18 09:22 AM] grewalsatinder#9653
+@TonyL hey mate, you made tokens contract test script too?
+
+
+[26-Oct-18 09:25 AM] grewalsatinder#9653
+need your logic help for tokenlist and tokeninfo saving in tmp/cache so that I don't query tokenlist/tokeninfo muultiple times so frequently.
+
+
+[26-Oct-18 09:25 AM] grewalsatinder#9653
+know already what I need to do from last conversation. just want to take a look at existing work.
+
+
+[26-Oct-18 09:34 AM] TonyL#3577
+@grewalsatinder Hey mate! https://github.com/jl777/komodo/blob/master/qa/rpc-tests/cryptoconditions.py#L283 here are tokenCC auto-tests
+In gateways TUI I've only used tokencreate and tokenlist to printout list on screen
+
+Not sure how it'll be on JS but in python to save tokenlist to file is like a 
+```
+tokenlist = rpc.tokenlist()
+with open(newfile, 'a') as file:
+    for token in tokenlist
+    file.writelines(token + "\n")
+```
+
+{Embed}
+https://github.com/jl777/komodo/blob/master/qa/rpc-tests/cryptoconditions.py
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[26-Oct-18 09:38 AM] TonyL#3577
+Maybe store this file on server side with some updatable "tokens_amount" param?
+
+
+[26-Oct-18 09:39 AM] TonyL#3577
+And from client side you'll check every X minutes if tokens_amount on client side < than tokens_amount on server side
+If it's differ server give to client needed amount of lines and you append it to cache - should work since tokenids ordered in tokenlist (new ones append to the end)
+
+
+[26-Oct-18 09:40 AM] TonyL#3577
+So user will need to get only additional lines, not whole file
+
+
+[26-Oct-18 09:40 AM] grewalsatinder#9653
+Not in Js, m doing it in Go lang 🙂
+
+
+[26-Oct-18 09:40 AM] grewalsatinder#9653
+Thanks will check and try after rest
+
+{Reactions}
+👍 
+
+[26-Oct-18 09:45 AM] grewalsatinder#9653
+One quick suggestion I need is if I store and keep updated value of tokenlist in a  separate key, and each tokeninfo in a separate tokenhash as key
+
+
+[26-Oct-18 09:45 AM] grewalsatinder#9653
+I'm jusing key/value db
+
+
+[26-Oct-18 09:49 AM] grewalsatinder#9653
+I can do two ways:
+- query tokenlist > update key `tokenlist` with it's array.
+ - loop query this tokenlist array and store the info as a object under each hash array in this existing key.
+ like
+```{
+  "tokenlist": [
+    {"hash1": "tokeninfo_as_value_to_it"},
+    {"hash2": "tokeninfo_as_value_to_it"},
+    {"hash3": "tokeninfo_as_value_to_it"},
+  ]
+}```
+
+
+[26-Oct-18 09:49 AM] grewalsatinder#9653
+or just save each separately.
+
+
+[26-Oct-18 09:51 AM] grewalsatinder#9653
+```{
+  "tokenlist": [
+    "hash1",
+    "hash2",
+    "hash3"
+  ]
+}
+
+{"hash1": "token_info_here"}
+
+{"hash2": "token_info_here"}
+
+{"hash3": "token_info_here"}```
+
+
+[26-Oct-18 09:51 AM] grewalsatinder#9653
+On second thought, I guess the second approach should be better 🤔
+
+
+[26-Oct-18 09:51 AM] grewalsatinder#9653
+lil easy to manage
+
+
+[26-Oct-18 09:54 AM] Alright#0419
+https://github.com/StakedChain/trollbox
+
+{Embed}
+https://github.com/StakedChain/trollbox
+StakedChain/trollbox
+On chain real time chat for KMD assetchains. Contribute to StakedChain/trollbox development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/HhyWP-0Sd5I4jG6OLRR8Z4upEFZlVyxGwgtl6Aqq9hw/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/42953759
+
+{Reactions}
+👍 
+
+[26-Oct-18 09:54 AM] Alright#0419
+is ready-ish
+
+
+[26-Oct-18 09:54 AM] Alright#0419
+would appreciate some testing if anyone has time. I can hop on a chat with you
+
+
+[26-Oct-18 09:59 AM] Alright#0419
+history doesn't quite work yet, wouldn't try to use it yet
+
+
+[26-Oct-18 10:17 AM] Alright#0419
+I'm going to keep building this up with more and more rpc commands
+
+
+[26-Oct-18 10:17 AM] Alright#0419
+https://github.com/StakedChain/trollbox/blob/master/getconf.py
+
+{Embed}
+https://github.com/StakedChain/trollbox/blob/master/getconf.py
+StakedChain/trollbox
+On chain real time chat for KMD assetchains. Contribute to StakedChain/trollbox development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/HhyWP-0Sd5I4jG6OLRR8Z4upEFZlVyxGwgtl6Aqq9hw/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/42953759
+
+
+[26-Oct-18 10:47 AM] TonyL#3577
+@grewalsatinder I guess more effective will be get tokeinfo for needed tokenid by demand. Hmm but depends of displaying logic for sure 😃
+
+
+[26-Oct-18 12:01 PM] grewalsatinder#9653
+🧐 for that I have to rethink the UI display part
+
+
+[26-Oct-18 12:02 PM] grewalsatinder#9653
+I guess a token subscription part will do  it
+
+
+[26-Oct-18 12:02 PM] grewalsatinder#9653
+User will search and subscribe to that token list
+
+
+[26-Oct-18 12:02 PM] grewalsatinder#9653
+Just like the old NXT days
+
+
+[26-Oct-18 12:03 PM] grewalsatinder#9653
+The ideal way I wanted to see it was to display the list with name, supply etc in a pages table views
+
+
+[26-Oct-18 12:03 PM] grewalsatinder#9653
+Click on the token and open further orders etc
+
+
+[26-Oct-18 12:04 PM] grewalsatinder#9653
+That’s why I was thinking storing it in local cache data
+
+
+[01-Nov-18 11:43 AM] siu#3920
+Any updates on cc guis?
+
+
+[01-Nov-18 12:34 PM] TonyL#3577
+@siu I'm working on gui for oracles CC chat atm - posted latest update in #kmdlabs today
+
+
+[01-Nov-18 01:49 PM] siu#3920
+great!
+
+
+[01-Nov-18 01:49 PM] siu#3920
+Anyone knows if a electrum integration is being worked and who is working it? Would like to keep in touch with people doing such projects.
+
+
+[01-Nov-18 02:26 PM] grewalsatinder#9653
+M so slow progressing it doesn’t feel fair I even say I’m working on cc gui
+
+
+[01-Nov-18 02:27 PM] grewalsatinder#9653
+Reason being I’m stubbornly only doing in golang + reactjs
+Learning and making as I’m progressing.
+
+
+[01-Nov-18 02:30 PM] siu#3920
+you can do it!!!
+
+
+[01-Nov-18 04:04 PM] grewalsatinder#9653
+Thanks mate 
+Need such motivation 
+😃🙏🏼😀🙃
+
+
+[01-Nov-18 04:24 PM] siu#3920
+let me know if you need any testing or have something to figure out
+
+
+[01-Nov-18 05:22 PM] grewalsatinder#9653
+Sure will do
+
+
+[01-Nov-18 05:23 PM] grewalsatinder#9653
+With golang and reactjs it’s going to be same electron app type experience 
+Totally portable app
+
+
+[02-Nov-18 04:18 AM] jl777c#5810
+maybe a faucet app is a good place to start?
+
+
+[02-Nov-18 05:13 AM] siu#3920
+i was thinking that rewards cc would be the simplest to integrate in a GUI (but im no coder)
+
+
+[02-Nov-18 05:14 AM] siu#3920
+since the function is to lock coins and later unlock them, doenst seem like it needs a lot of interfaces developed.
+
+
+[02-Nov-18 05:24 AM] jl777c#5810
+faucet is easier
+
+
+[02-Nov-18 05:24 AM] jl777c#5810
+if only faucetget is supported
+
+
+[02-Nov-18 08:54 AM] TonyL#3577
+https://drive.google.com/file/d/1qcQuUVxuEcmXeTg_l9irBr-CMOJb_Iz2/view?usp=sharing getting and displaying sent message from oracle instantly!
+
+Will improve UX a little, test in conversations, create doc how to test it and publish for open testing - in a 2-3 days probably
+
+{Embed}
+https://drive.google.com/file/d/1qcQuUVxuEcmXeTg_l9irBr-CMOJb_Iz2/view?usp=sharing
+test.mp4
+
+
+[02-Nov-18 08:56 AM] Alright#0419
+😃
+
+
+[02-Nov-18 08:57 AM] Alright#0419
+can help you with some of the functions hopefully
+
+
+[02-Nov-18 08:57 AM] Alright#0419
+are you caching data yet?
+
+
+[02-Nov-18 08:57 AM] Alright#0419
+it would be useful to cache the kvsearch responses instead of making the calls every loop
+
+
+[02-Nov-18 08:57 AM] TonyL#3577
+Not yet - that's why it's loading 10 seconds on start (getting list of rooms)
+
+
+[02-Nov-18 08:58 AM] TonyL#3577
+Also needed some user friendly way for RPC details settings - now RPC connection details are hardcoded
+
+
+[02-Nov-18 08:58 AM] TonyL#3577
+Also as I remember now I pulling messages only for the first publisher in oracle publsishers list
+
+
+[02-Nov-18 08:59 AM] TonyL#3577
+Also scroll broken in both rooms and messages boxes
+
+
+[02-Nov-18 09:01 AM] TonyL#3577
+@Alright kvsearch for nickname parsing?
+
+
+[02-Nov-18 09:02 AM] Alright#0419
+yes
+
+
+[02-Nov-18 09:02 AM] Alright#0419
+use my method for getting rpc creds
+
+
+[02-Nov-18 09:02 AM] Alright#0419
+it just asks user for chain name
+
+
+[02-Nov-18 09:05 AM] TonyL#3577
+https://github.com/tonymorony/trollbox_gui/blob/master/main.py#L35 place about which I'm worrying most 😃
+
+{Embed}
+https://github.com/tonymorony/trollbox_gui/blob/master/main.py
+tonymorony/trollbox_gui
+My plays with Python Kivy GUI framework and Stakedchain OraclesCC chat concept - tonymorony/trollbox_gui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[02-Nov-18 09:07 AM] Alright#0419
+going to work with joker to make it event based
+
+
+[02-Nov-18 09:07 AM] Alright#0419
+polling is *bad*
+
+
+[02-Nov-18 09:07 AM] TonyL#3577
+There is some global batonid and I'm checking if it changed
+
+
+[02-Nov-18 09:07 AM] Alright#0419
+polling was only done to show that it's a viable concept really
+
+
+[02-Nov-18 09:07 AM] TonyL#3577
+And messages are storying just in array
+
+
+[02-Nov-18 09:07 AM] Alright#0419
+global batonid?
+
+
+[02-Nov-18 09:09 AM] TonyL#3577
+Yeah, when I switch room in rooms list changing param `active_room_id =`
+And app every 0.5 seconds grabbing oraclesdata with depth 1 for the current batontxid
+If batontxid is the same as previous it's not displaying message (not adding to array with messages actually)
+
+
+[02-Nov-18 09:10 AM] TonyL#3577
+For multiply people conversation I have to grab it for all publishers in room, correct?
+
+
+[02-Nov-18 09:10 AM] Alright#0419
+yep
+
+
+[02-Nov-18 09:10 AM] Alright#0419
+the current receive script does that
+
+
+[02-Nov-18 09:10 AM] TonyL#3577
+Aha, so now I can talk with only one publisher
+
+
+[02-Nov-18 09:11 AM] Alright#0419
+have to consider that there may be dupes of pubkeys in oracleslist btw
+
+
+[02-Nov-18 09:11 AM] Alright#0419
+if a pubkey registers multiple times
+
+
+[02-Nov-18 09:11 AM] TonyL#3577
+As I remeber I've stucked when tried to implement trollbox `receive.py`
+
+
+[02-Nov-18 09:12 AM] TonyL#3577
+Have to re-check it to grab messages for all publishers and parse nickname
+
+
+[02-Nov-18 09:14 AM] Alright#0419
+can help you if you're stuck on something in particular
+
+{Reactions}
+👍 
+
+[02-Nov-18 09:14 AM] Alright#0419
+the comments explain what it's doing I hope
+
+
+[02-Nov-18 09:50 AM] TonyL#3577
+There is much stuff to do to make this chat GUI really useful. If someone want to collaborate and contribute - feel free to buzz me. I'll be glad to answer on questions regards current code and framework/libs used
+
+
+[02-Dec-18 02:23 AM] B. Gültekin Çetiner#0626
+Is there any Delphi developer? Can we make some GUI samples for Delphi developers?
+
+
+[03-Dec-18 02:17 AM] Mylo#8306
+GUI samples of what @B. Gültekin Çetiner ?  
+
+GUI samples in Delphi or GUI samples in any language for a Delphi programmer to understand what to do from Delphi (transposing from one sample Lang to Delphi)?
+
+
+[03-Dec-18 02:18 AM] Mylo#8306
+Latter is being worked on currently in JavaScript and python but not a priority at the current week with sapling update.
+
+
+[03-Dec-18 01:02 PM] B. Gültekin Çetiner#0626
+@Mylo  Thanks very much. It was for using CC functionalities from a Delphi program. No need to hurry.
+
+
+[04-Dec-18 05:30 AM] Mylo#8306
+For now @B. Gültekin Çetiner get your dev to look at using this for Delphi https://stackoverflow.com/questions/6590956/communication-with-rpc-service-using-indy-http-client-and-superobject-delphi-htt but use port 7771 kmd instead of 8332 btc
+
+{Embed}
+https://stackoverflow.com/questions/6590956/communication-with-rpc-service-using-indy-http-client-and-superobject-delphi-htt
+communication with rpc service using indy HTTP client and Superobj...
+Ok im stumped the following code gives me a http 400 error which tells me there is something wrong with the submitted data but i cant figure out what!:(
+
+the client is set to encode URL (Ive tried ...
+https://images-ext-1.discordapp.net/external/dP07hBXxuorGcvXU609uJ_e6ZgPlIdBxqG8OjQQiAyY/%3Fv%3D73d79a89bded/https/cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon%402.png
+
+
+[04-Dec-18 05:31 AM] Mylo#8306
+If they can do a ‘getinfo‘ all they’ll need to do is understand the flow of a crypto condition
+
+
+[04-Dec-18 05:32 AM] Mylo#8306
+Eg this is the flow for creating a dice table for diceCC dealer https://github.com/imylomylo/use-case-markdown-skeleton/blob/master/use-case-dice-table-setup.md
+
+{Embed}
+https://github.com/imylomylo/use-case-markdown-skeleton/blob/master/use-case-dice-table-setup.md
+imylomylo/use-case-markdown-skeleton
+A skeleton for making use case documentation in markdown (which is handy for SCM like github, gitlab or various CMS). - imylomylo/use-case-markdown-skeleton
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[04-Dec-18 05:35 AM] Mylo#8306
+And call the diceCC RPC calls instead of getinfo.
+Eg here are my notes from @smkhound text interface scripts https://gist.github.com/imylomylo/32da17f537e2b74b36cadac6245c87b0
+
+{Embed}
+https://gist.github.com/imylomylo/32da17f537e2b74b36cadac6245c87b0
+Dice flow
+Dice flow . GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[04-Dec-18 05:37 AM] Mylo#8306
+Eg here is where we get a list of all dice tables, with `dicelist` https://github.com/imylomylo/komodo-cakeshop/blob/master/src/components/AppContractDice.vue#L66
+
+{Embed}
+https://github.com/imylomylo/komodo-cakeshop/blob/master/src/components/AppContractDice.vue
+imylomylo/komodo-cakeshop
+Contribute to imylomylo/komodo-cakeshop development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[04-Dec-18 05:39 AM] Mylo#8306
+Thanks for asking, these are the initial steps for a developer we want to get started in 10mins, when it is published.  Delphi is quite the unusual request 😀
+
+{Reactions}
+🙂 
+
+[04-Dec-18 07:28 AM] B. Gültekin Çetiner#0626
+Thanks a lot @Mylo 🙂
+
+
+[23-Dec-18 10:40 PM] TonyL#3577
+https://github.com/tonymorony/ChannelsCC-GUI Made a big update for ChannelsCC GUI prototype
+
+{Embed}
+https://github.com/tonymorony/ChannelsCC-GUI
+tonymorony/ChannelsCC-GUI
+Sample GUI for ChannelsCC. Contribute to tonymorony/ChannelsCC-GUI development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+{Reactions}
+👍 (5) Komodo (3) 
+
+[24-Dec-18 12:03 AM] Mylo#8306
+just before xmas and other festivals!!
+
+{Reactions}
+🤶 (2) 
+
+[27-Dec-18 01:57 AM] TonyL#3577
+https://github.com/tonymorony/DiceCC-GUI/releases/tag/0.0.1 packaged DiceCC game application mock to .exe for 64-bit Windows
+Worked on my moms PC where Python was never installed - so maybe will work for someone else 😃
+
+{Embed}
+https://github.com/tonymorony/DiceCC-GUI/releases/tag/0.0.1
+tonymorony/DiceCC-GUI
+Sample GUI for DiceCC. Contribute to tonymorony/DiceCC-GUI development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[28-Dec-18 10:52 AM] siu#3920
+any updates about how is it going for CC on electrum libs?
+
+
+[02-Jan-19 07:37 AM] TonyL#3577
+There is nothing specific for CC in deals with Electrums I think since just RPC calls using
+
+
+[02-Jan-19 07:38 AM] TonyL#3577
+Hmm I think something similar to Ethereum's MetaMask extension might help to build a bridge between CCs and Webapps
+
+
+[02-Jan-19 09:32 AM] Alright#0419
+@TonyL @siu I'm not very familiar with electrum. Does it support just sending raw hex?
+
+
+[02-Jan-19 09:32 AM] Alright#0419
+or will it flip out if we try to use a cryptocondition vin/vout
+
+
+[02-Jan-19 09:33 AM] jl777c#5810
+there is a sendrawtransaction ability
+
+
+[02-Jan-19 09:33 AM] jl777c#5810
+but the problem is to be able to properly sign CC vout
+
+
+[02-Jan-19 09:35 AM] Alright#0419
+so signing the cc vins/vouts is the only major hurdle?
+
+
+[02-Jan-19 09:36 AM] jl777c#5810
+yes
+
+
+[02-Jan-19 09:36 AM] Alright#0419
+I was going to start playing with python to see if I can't use an explorer API to build then send faucetgets as a proof of concept. If I'm able to get that working, will electrum "just work"
+
+
+[02-Jan-19 09:37 AM] jl777c#5810
+if you have a properly signed tx, then sure it will work
+
+
+[02-Jan-19 09:48 AM] siu#3920
+🎉
+
+
+[05-Jan-19 02:53 AM] jusoaresf#3291
+@siu can you help with setting up an electrum server for testing with cc s?
+
+
+[05-Jan-19 04:46 AM] siu#3920
+Sure
+
+
+[08-Jan-19 07:12 AM] siu#3920
+@jusoaresf please DM me regarding the electrum server.
+
+
+[11-Jan-19 02:47 PM] grewalsatinder#9653
+I was thinking if there can be someone who creates the HTML/CSS/Js or even just makes the UX part in tools like invision app
+and that UX part can be adopted in the GUI application by community devs.
+
+
+[11-Jan-19 02:48 PM] grewalsatinder#9653
+I am not good with UX, but as I'm reaching to create the UI part of tokens DEX, I wish to have some good UX for such UI
+
+
+[11-Jan-19 02:48 PM] grewalsatinder#9653
+the UX part strategy doesn't need the backend at first, it is a strategic design and action flow of user inputs
+
+
+[11-Jan-19 02:49 PM] grewalsatinder#9653
+if someone can do that for us, it will be great help
+
+
+[11-Jan-19 02:50 PM] grewalsatinder#9653
+@Meyse I see your KMDICE UI image, that looks really great
+
+
+[11-Jan-19 02:51 PM] grewalsatinder#9653
+would you be in interested to make the UX/UI for a Tokens DEX app ?
+
+
+[12-Jan-19 07:11 PM] Mylo#8306
+yeah meyse might be helpful for such a task 😃
+
+{Reactions}
+💯 
+
+[12-Jan-19 07:11 PM] Mylo#8306
+🙏
+
+
+[12-Jan-19 07:50 PM] Meyse#0952
+We already connected 👌
+
+{Reactions}
+🙂 
+
+[03-May-19 07:38 PM] quantumfinance#9369
+can someone help me isntall dependecnies?>
+
+
+[03-May-19 07:38 PM] quantumfinance#9369
+when i run the script it asks me for a random password whch i never sert
+
+
+[05-May-19 01:31 PM] PHBA2061 | VietStaking Validator#2530
+@quantumfinance  you `sudo apt-get install ...` then it asked you for a password ?
+
+{Reactions}
+😆 
+
+[05-May-19 02:48 PM] PTYX#6840
+Is the token DEX app different than barterdex?
+
+
+[05-May-19 02:59 PM] Alright#0419
+token DEX is on chain orderbooks
+
+
+[05-May-19 02:59 PM] Alright#0419
+yes @PTYX
+
+{Reactions}
+👍 
+
+[04-Nov-19 04:36 AM] Regnar#6164
+Hey all, if you have any proof of concepts, built a cool (or not so cool) GUI or even a TUI using  CCs, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and maybe inspire some people.
+
+Here's my current PR for the 3rd party resource Docs page, feel free to check it out and let me know if I missed anything, or if you want to add something you've been working on, or even just threw together. Ideally I'd like to have a GUI or TUI for every CC, and if possible a proof of concept using the CC for something.
+
+<https://github.com/KomodoPlatform/Documentation/pull/28/commits/f907c8105e9a016f25c345644bd53c0f0f151b5e>
+
+
+[04-May-20 07:43 AM] Psalm6figs#0481
+Keep up the good work guys
+
+
+==============================================================
+Exported 359 message(s)
+==============================================================

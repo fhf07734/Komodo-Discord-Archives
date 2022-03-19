@@ -1,0 +1,3980 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-assets
+Topic: https://developers.komodoplatform.com
+==============================================================
+
+[18-Dec-18 02:52 AM] Adli#5025
+Hi guys,  are there more informations than the official doc on the token CC features : https://docs.komodoplatform.com/cc/contracts/tokens/rpc-index.html or is there an existing project that us this CC. As I understand, it work like colored coin on Bitcoin (openassets and co), but I'm not sure ! 😃
+
+
+[18-Dec-18 03:06 AM] jl777c#5810
+yes you can issue tokens
+
+
+[18-Dec-18 03:06 AM] jl777c#5810
+tokenaddress [pubkey]
+tokenask numtokens tokenid price
+tokenbalance tokenid [pubkey]
+tokenbid numtokens tokenid price
+tokencancelask tokenid asktxid
+tokencancelbid tokenid bidtxid
+tokenconvert evalcode tokenid pubkey amount
+tokencreate name supply description
+tokenfillask tokenid asktxid fillunits
+tokenfillbid tokenid bidtxid fillamount
+tokeninfo tokenid
+tokenlist
+tokenorders [tokenid]
+tokentransfer tokenid destpubkey amount
+
+
+[18-Dec-18 03:07 AM] jl777c#5810
+those are the rpc calls, it has DEX functionality also
+
+
+[18-Dec-18 03:07 AM] jl777c#5810
+there are some test scripts, but those and the C code are all the docs that exist
+
+
+[18-Dec-18 08:26 AM] TonyL#3577
+https://github.com/tonymorony/cryptoconditions_tui/blob/master/lib/tuilib.py#L66 
+https://github.com/tonymorony/cryptoconditions_tui/blob/master/lib/rpclib.py#L28
+Here are few examples of assetsCC RPC calls usage on Python
+
+{Embed}
+https://github.com/tonymorony/cryptoconditions_tui/blob/master/lib/tuilib.py
+tonymorony/cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+{Embed}
+https://github.com/tonymorony/cryptoconditions_tui/blob/master/lib/rpclib.py
+tonymorony/cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[19-Dec-18 04:42 AM] Adli#5025
+Thanks guys
+
+
+[11-Jan-19 03:13 PM] grewalsatinder#9653
+@Meyse can also hang out in this channel to ask about assets CC queries
+
+
+[15-Jan-19 05:34 PM] Mylo#8306
+@Mihailo @dimxy hi 👋 
+I hear there’s some updates to assetsCC happening soon.
+Will they be testable at end of month?  I want to write a tutorial for an article around the time of a conference mid feb.
+
+Just wanted to know if RPC methods will be similar
+
+
+[15-Jan-19 09:07 PM] jl777c#5810
+pretty sure the rpc methods will be the same, the changes were internal, unless i missed external facing changes
+
+
+[15-Jan-19 09:30 PM] Mylo#8306
+cool thanks
+
+
+[15-Jan-19 10:13 PM] dimxy#2587
+hi, 
+yes I hope the updates will be ready before the end of Jan
+
+{Reactions}
+👍 
+
+[16-Jan-19 02:53 AM] Mihailo#5902
+And I think RPC is 100% same.
+
+
+[20-Jan-19 06:14 AM] dimxy#2587
+@Mylo  just to let you know that we merged assets into FSM and it is being tested now.
+
+{Reactions}
+👍 
+
+[20-Jan-19 02:56 PM] Mylo#8306
+Ok thanks @dimxy I’ll watch this week
+
+
+[28-Jan-19 03:11 AM] TonyL#3577
+After one of the latest (but already after tokens/assets CC split) updates it's possible to generate `tokencancelbid` and `tokencancelbid` for "not my" orders cancelling   (before there was an error on transaction generation stage so tests detected it) @dimxy
+
+
+[28-Jan-19 03:11 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY11 tokencancelbid 1a595897440e330697c1ba2b062eef6bc58bb2d0bea143b564f10cc83ebd4e52 a3032943e8063423d10c7dc1766fe126fc09282de31f6c1498c54a416a008178
+{
+  "result": "success",
+  "hex": "0400008085202f8902b5c33638653795b034682a7ddbc2b4998b31ebf2810a0e5ebd163a53fce3bdc40100000049483045022100daf1b6fe8f4c7967864a71c0f91db210fd3eda4a0fb61f427158824f2ef1c45f02207cf683b962e8ee8092cad79a1c14955dd394739d6395cfb781f988094bc11eda01ffffffff7881006a414ac598146c1fe32d2809fc26e16f76c17d0cd1233406e8432903a3000000007b4c79a276a072a26ba067a565802102adf84e0e075cf90868bd4e3d34a03420e034719649c41f371fc70d8e33aa27028140221bca1f97d3e4162b17ffe6b97cafa9129a6b964d1773d955331c81352895e74095a68e464dd604424b2d1858dab2e162fcaf1db2c34ba090bc631541309fc6a100af038001e3a10001ffffffff0400e87648170000002321024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56ac10270000000000002321024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56acd06e0b54020000002321024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56ac0000000000000000286a26f2741a595897440e330697c1ba2b062eef6bc58bb2d0bea143b564f10cc83ebd4e520002e36f00000000171700000000000000000000000000"
+}
+```
+```./komodo-cli -ac_name=TONY11 sendrawtransaction hex
+AssetValidate (o)
+AssetValidateCCvin got 1000.00000000 to origaddr.(RBy3t5TKegaLZjK8b1ueTqCDHVeUKPRDiH)
+constrain vout error: check addr RBy3t5TKegaLZjK8b1ueTqCDHVeUKPRDiH vs script addr RSjeEtHimVPv913AE1WQSWeY2uJpwoERVK
+CC Eval EVAL_ASSETS Invalid: invalid refund for cancelbuy spending tx a3032943e8063423d10c7dc1766fe126fc09282de31f6c1498c54a416a008178
+error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)```
+
+
+[28-Jan-19 03:12 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY11 tokencancelask 1a595897440e330697c1ba2b062eef6bc58bb2d0bea143b564f10cc83ebd4e52 a3032943e8063423d10c7dc1766fe126fc09282de31f6c1498c54a416a008178
+{
+  "result": "success",
+  "hex": "0400008085202f8902b5c33638653795b034682a7ddbc2b4998b31ebf2810a0e5ebd163a53fce3bdc40100000048473044022036d7dbbe4b235a72908e9266aeda564618797043f4467fd0287b530615c7051b022055c284aab84bb78b6c3e0d8db6714674433f505e26a3419146e8c5fde92a08df01ffffffff7881006a414ac598146c1fe32d2809fc26e16f76c17d0cd1233406e8432903a3000000007b4c79a276a072a26ba067a565802102adf84e0e075cf90868bd4e3d34a03420e034719649c41f371fc70d8e33aa2702814058efed734b8d688b130c2a5d7e105583ca6bfea0cbbcadb6eeda84e07dfa193a6669cfdff299cf05fa2fda34978d604b685b7b21439c4bbf04e4cedc0ba1fa58a100af038001e3a10001ffffffff0400e8764817000000302ea22c80206dfaa572f684de7fac4bfec1798405898785d4a8d13c4113c460ee98338d0e518103120c008203000401cc10270000000000002321024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56acd06e0b54020000002321024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56ac00000000000000004a6a48f2741a595897440e330697c1ba2b062eef6bc58bb2d0bea143b564f10cc83ebd4e520121024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e5602e37800000000191700000000000000000000000000"
+}
+```
+```./komodo-cli -ac_name=TONY11 sendrawtransaction  hex
+AssetValidate (x)
+AssetCalcAmounts() vout i=0 assetoshis=100000000000
+AssetValidateCCvin cc addr RGKRjeTBw4LYFotSDLT6RWzMHbhXri6BG6 is not dual token-evalcode=0xe3 asset unspendable addr RTWtxY7GTBZ3zL8jfzyWWz1fveF3KXKBF8
+CC Eval EVAL_ASSETS Invalid: invalid vin AssetsCCaddr spending tx a3032943e8063423d10c7dc1766fe126fc09282de31f6c1498c54a416a008178
+error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)```
+
+
+[28-Jan-19 03:14 AM] TonyL#3577
+Also it's possible to generate bid/ask cancel transaction for non existent tokenid / order
+Stdout was not happy but result `success` anyway and I get hex
+```DecodeAssetOpRet() incorrect opret or no asset's payload funcId=99 vopretExtra.size()=0
+CC signing error: vini.1 has unknown CC address.(RNgGZRPUVnUJur5GZXZ1zXr5TQHRajvB9d)
+{
+  "result": "success",
+ "hex": "0400008085202f8902b5c33638653795b034682a7ddbc2b4998b31.....```
+
+{Reactions}
+👌 
+
+[28-Jan-19 03:30 AM] dimxy#2587
+@Mihailo  Seems there is "continue" instead of "return ("") in FinalizeCCTx, after "CC signing error: vini.%d has unknown CC address.(%s)\n"?
+
+
+[28-Jan-19 03:31 AM] Mihailo#5902
+@dimxy, I have fixed that but it may be that in all branches we worked on it was lost...
+
+
+[28-Jan-19 03:32 AM] Mihailo#5902
+Let me check
+
+
+[28-Jan-19 03:33 AM] Mihailo#5902
+```cpp
+else
+                {
+                    fprintf(stderr,"CC signing error: vini.%d has unknown CC address.(%s)\n",i,destaddr);
+                    return("");
+                }```
+
+
+[28-Jan-19 03:35 AM] Mihailo#5902
+@TonyL As I see it is not possible to cancel ask/bid that is not yours. But you are saying that RPC function is passing and it should not? Because it is failing on broadcast...
+
+
+[28-Jan-19 03:37 AM] TonyL#3577
+@Mihailo It's not possible to cancel (error on broadcast as shown above) but possible to generate such tx now
+
+
+[28-Jan-19 03:38 AM] TonyL#3577
+P.S. I'm testing on jl777/FSM
+```git log -1
+commit d4b0c5ee3bd70f71ad333c5bdbafa9706eb72ec5 (HEAD -> FSM, origin/FSM)
+Merge: 76024c356 134534b38
+Author: jl777 <jl777@users.noreply.github.com>
+Date:   Sun Jan 27 04:57:12 2019 -1100
+
+    Merge pull request #1215 from dimxy/heir-json-issues
+    
+    Heir json issues
+```
+
+
+[28-Jan-19 03:39 AM] Mihailo#5902
+Ok, let me check
+
+
+[28-Jan-19 03:41 AM] Mihailo#5902
+@dimxy Someone seems to change FinalizeCCTx
+
+
+[28-Jan-19 03:41 AM] Mihailo#5902
+```cpp
+else
+                {
+                    flag = 0;
+                    if ( pubkeys != NULL_pubkeys )
+                    {
+                        char coinaddr[64];
+                        GetCCaddress1of2(cp,coinaddr,globalpk,pubkeys[i]);
+                        //fprintf(stderr,"%s + %s -> %s vs %s\n",HexStr(globalpk).c_str(),HexStr(pubkeys[i]).c_str(),coinaddr,destaddr);
+                        if ( strcmp(destaddr,coinaddr) == 0 )
+                        {
+                            privkey = cp->CCpriv;
+                            if ( othercond4 != 0 )
+                                cc_free(othercond4);
+                            othercond4 = MakeCCcond1of2(cp->evalcode,globalpk,pubkeys[i]);
+                            cond = othercond4;
+                            flag = 1;
+                        }
+                    }
+                    if ( flag == 0 )
+                    {
+                        fprintf(stderr,"CC signing error: vini.%d has unknown CC address.(%s)\n",i,destaddr);
+                        continue;
+                    }
+}```
+
+
+[28-Jan-19 03:41 AM] Mihailo#5902
+The continue is the problem
+
+
+[28-Jan-19 03:42 AM] Mylo#8306
+side note: i like this kind of code snippet discussion more than hex/json
+
+{Reactions}
+😄 (3) 💔 
+
+[28-Jan-19 03:47 AM] TonyL#3577
+So only me in JPF 😂
+
+
+[28-Jan-19 03:47 AM] Mihailo#5902
+@dimxy @TonyL  @jl777c  It seems JL broke it :P
+https://github.com/jl777/komodo/commit/8aa8284e61a8a9213166b3730dff78e1b4e883f9#diff-f0bcdad0d1deed114eddc23381e5660f
+
+{Embed}
+https://github.com/jl777/komodo/commit/8aa8284e61a8a9213166b3730dff78e1b4e883f9
+Merge branch 'FSM' into jl777 · jl777/komodo@8aa8284
+# Conflicts:
+#	src/cc/CCtx.cpp
+https://images-ext-1.discordapp.net/external/auDSZ7eLIqbPui1Im3X2Jr_UCM3F6Kpn3qdIKcJWxBA/%3Fs%3D200%26v%3D4/https/avatars0.githubusercontent.com/u/5962559
+
+{Reactions}
+troll_king 
+
+[28-Jan-19 03:47 AM] TonyL#3577
+JSONs protection foundation 😃
+
+
+[28-Jan-19 03:55 AM] Mihailo#5902
+@jl777c What is the purpose of pubkeys in FinalizeCCTx?
+
+
+[28-Jan-19 05:21 AM] jl777c#5810
+it is to allow passing in a vector of pubkeys (one for each vin) and having it automatically check for 1of2 addresses
+
+
+[28-Jan-19 05:24 AM] Mihailo#5902
+Cool, and in which CC is the use case?
+
+
+[28-Jan-19 05:25 AM] jl777c#5810
+marmara
+
+
+[28-Jan-19 05:25 AM] jl777c#5810
+it needs to be able to spend from potentially hundreds of different 1of2 CC addrs using the global address, but it needs to have an address to compare to
+
+
+[28-Jan-19 05:26 AM] jl777c#5810
+maybe i didnt understand the control flow that was needed when i added it
+
+
+[28-Jan-19 05:27 AM] Mihailo#5902
+Ok, don't know how MarmaraCC works 😉
+
+
+[28-Jan-19 05:29 AM] jl777c#5810
+it is still evolving, but i needed that functionality and I guess I added it in incorrectly
+
+
+[28-Jan-19 05:30 AM] Mihailo#5902
+Np, you didn't added it incorrectly just when merging you pulled in old line of code 😉
+
+
+[28-Jan-19 05:34 AM] jl777c#5810
+so its broken now, or is it fixed with latest?
+
+
+[28-Jan-19 05:34 AM] Mihailo#5902
+I fixed it with last PR.
+
+
+[05-Feb-19 01:49 AM] Lumbi#8378
+*We can only see a short distance ahead, but we can see plenty there that needs to be done.*
+-Alan Turing
+
+{Reactions}
+🍃 abusedsmily 
+
+[12-Feb-19 01:08 AM] TonyL#3577
+Placed order for my rogue warrior and can see it if specify tokenid:
+```./komodo-cli -ac_name=ROGUE tokenorders 63c19b3338fa0aad49f9ea3e0ff91f820d058177bfffefc912614ee0b4fec718
+[
+  {
+    "funcid": "s",
+    "txid": "50531a3def1c4bfe10041463911b324339176ed563cb25c25124ada141b8a99d",
+    "vout": 0,
+    "amount": "1",
+    "askamount": "1",
+    "origaddress": "RTp2Mfb2S2UMDiLSfPkdUJEyLP5QLzrtxB",
+    "tokenid": "63c19b3338fa0aad49f9ea3e0ff91f820d058177bfffefc912614ee0b4fec718",
+    "totalrequired": "1000.00000000",
+    "price": "1000.00000000"
+  }
+]
+```
+But if call `tokenorders` without arguments I'm getting empty list:
+```./komodo-cli -ac_name=ROGUE tokenorders
+[
+]
+```
+
+
+[12-Feb-19 01:09 AM] TonyL#3577
+As I remember before `tokenorders` displayed all tokenorders available on chain so it's probably a bug @dimxy @jl777c
+
+
+[12-Feb-19 01:12 AM] dimxy#2587
+i'll check this, thanks @TonyL
+
+{Reactions}
+👍 (2) 
+
+[04-Mar-19 12:41 PM] jorian#4555
+```SetBidFillamounts() total.4 - paid.2, remaining 200000000 <- 200000000 (400000000 - 200000000)
+ValidateAssetRemainder() orig 400000000 total 4, recv 200000000 paid 2,recvunitprice 1.00000000 >= 1.00000000 unitprice, new unitprice 1.00000000
+FillBuyOffer() remaining 2 -> origpubkey
+vout.4 is CC
+CC Eval EVAL_ASSETS Invalid: invalid CC vout spending tx fa0c5fb7f16680faa7f1720c6863364d1d72dc2e305f4e75c2699dae8bf3dc17
+2019-03-04 20:40:27 ERROR: CScriptCheck(): 13919c88cb330c0aad3dd0b62c24dc2e4164557f42674d5c59912b5e251d79ce:1 VerifySignature failed: Script evaluated without error but finished with a false/empty top stack element
+2019-03-04 20:40:27 ERROR: AcceptToMemoryPool: BUG! PLEASE REPORT THIS! ConnectInputs failed against MANDATORY but not STANDARD flags 13919c88cb330c0aad3dd0b62c24dc2e4164557f42674d5c59912b5e251d79ce```
+
+
+[04-Mar-19 12:41 PM] jorian#4555
+if it says to report this, i'll report it. tried to tokenfillbid
+
+
+[04-Mar-19 12:41 PM] jorian#4555
+i did an ask, which went fine
+
+
+[04-Mar-19 12:42 PM] jorian#4555
+```0100000004010759fef4fe7a857ee9b942aedbc86d7f251208a3fc0082447f41aca7ce0e710000000049483045022100b4d675955d33705bdc6319a1f7650350c14c897de74b8cbecbfd6cc59e56f3ce022027ee8f05bd6f8c8d96fefd4dbf07c103f99b3f346ebca37a45689b24d8b20ec601ffffffff17dcf38bae9d69c2754e5f302edc721d4d3663680c72f1a7fa8066f1b75f0cfa000000007b4c79a276a072a26ba067a565802102adf84e0e075cf90868bd4e3d34a03420e034719649c41f371fc70d8e33aa2702814048ac574c13a74282afc8ddb4093a8b0f359a50fa4513a0ecc4a76249bef2d84e283ff1ef0bbe7d5722a3a95cda5ff2cd02673a5eac224c721b0c97eb08ecaaafa100af038001e3a10001ffffffffde74ca471e81f582e3f17dc8e807f1ed2ee55565af796d85662920c9cd624350000000007b4c79a276a072a26ba067a5658021021ace038644cb4c982ac1965b94d30482ff487b4ef3d2f16afd01960302c3805d814080c9ad0e857d9edbe08ac3fc9ac1482c11663cdfef69c23f64817757763fc9bc1b801a63e6a363bb4685c8774123c3a43848a03d850589c1a5c54e721062baf3a100af038001f2a10001ffffffff1c4798a3c77cf670fac6923ca14a2cbb7f0d3d038b8162c8dfcb881d3c1f267f0000000048473044022031272293e67d24dc810760c625b853a53e5e554cb80f4f76eb3201835997e388022066375ae04be9e1a1b0480d65858d08721aca83e928185a7a62d38a263b77db8e01ffffffff0600c2eb0b00000000302ea22c80201ab400e039122028345520ba041ac3e6ec81ad28d8415e78d760d55f41097dd58103120c008203000401cc00c2eb0b000000002321021ace038644cb4c982ac1965b94d30482ff487b4ef3d2f16afd01960302c3805dac0200000000000000302ea22c8020220f7a14be81b871bd97763d3a16b7b4329b608ab550ebc788e19ddc65db34c08103120c008203000401cc1027000000000000302ea22c80204619f8fc50db2542a404f82c36415a11305d0f1054f5902375a75034b5baea518103120c008203000401cc1200000000000000302ea22c8020a77a18a295c85dcc6b55108849b32be44aebee352c5379635d480459e6a2aabf8103120c008203000401cc0000000000000000766a4c73f27437880fed049e03375b3d915c0079379d96bd4e3346ca333412d51daf4138e0e20121039ca0fb115e496d3019eda775589b4b839c1fa4132424b737668d8360f8769e82122ce342020000000000000021039ca0fb115e496d3019eda775589b4b839c1fa4132424b737668d8360f8769e8200000000```
+
+
+[04-Mar-19 12:45 PM] Alright#0419
+@jorian can you give the steps it takes to reproduce this?
+
+
+[04-Mar-19 12:49 PM] jorian#4555
+was about to do it. so TLDR: i set up my own chain, nothing fancy: `-ac_supply=5000` and `-ac_cc=9898`. mined the supply on node 2, sent a part to node 1, where i put up a bid for a new token i created on node 2. on this node, i created the token on addy A, and on the same node created a new address/pubkey where i sent a part of the tokens to, in order to sell them to node 1.
+FSM branch
+
+
+[04-Mar-19 12:49 PM] jorian#4555
+that is not working
+
+
+[04-Mar-19 12:49 PM] jorian#4555
+happened to me twice now
+
+
+[04-Mar-19 12:52 PM] jorian#4555
+(btw, is it cc-assets or cc-tokens?)
+
+
+[04-Mar-19 07:58 PM] Mylo#8306
+@TwilightPunkster K64 this is the dev channel for the token dex.  Any questions can be answered by the dev & testers likely.
+
+{Reactions}
+👍 
+
+[05-Mar-19 08:36 AM] Mihailo#5902
+@jorian Can you give me command for tokenask and tokenbid, and also token balance for those nodes?
+
+
+[06-Mar-19 12:14 AM] TonyL#3577
+@Mihailo @dimxy I'm getting:
+```vout.4 is CC
+CC Eval EVAL_ASSETS Invalid: invalid CC vout spending tx b7216baee1fc126395685eeaa90ab08c6249a4d1a5ba096a75bd3e3c93c1ce63
+error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)``` when trying to fill own bid  (https://paste.ubuntu.com/p/dkxb9ywMxG/) 
+
+Checking other cases
+
+
+[06-Mar-19 12:16 AM] dimxy#2587
+Hi,
+Is there any komodod output?
+
+
+[06-Mar-19 12:18 AM] TonyL#3577
+Both RPC and komodod stdout which I get are in paste
+
+
+[06-Mar-19 12:19 AM] TonyL#3577
+Hmm same for bid/fillbid between two nodes: ```vout.4 is CC
+CC Eval EVAL_ASSETS Invalid: invalid CC vout spending tx c0fdfb32b47718de9cff9a55524bc1d916a3a9048e87cc54c46dbc10733422d5
+error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)
+```
+
+
+[06-Mar-19 12:21 AM] dimxy#2587
+is this FSM branch?
+
+
+[06-Mar-19 12:22 AM] TonyL#3577
+Yes, im on latest FSM
+
+
+[06-Mar-19 12:24 AM] dimxy#2587
+ok I will check
+
+{Reactions}
+🙌 
+
+[06-Mar-19 12:44 AM] dimxy#2587
+@Mihailo  this is PreventCC function which does not take into account that it could be cc change in tokens in vout.4.
+And it is set that vout.4+ are not cc vouts.  Do we need this PreventCC call at the bottom as we already checked all vouts?
+
+
+[06-Mar-19 01:02 AM] jorian#4555
+I had the same bug then
+
+
+[06-Mar-19 01:14 AM] Mihailo#5902
+@dimxy we don't neccessary need PreventCC if we checked all vins/vouts...
+
+
+[06-Mar-19 01:24 AM] dimxy#2587
+then I'll comment it
+
+
+[06-Mar-19 03:38 AM] dimxy#2587
+@TonyL the tokenfillbid fix is in the FSM
+
+{Reactions}
+👌 
+
+[06-Mar-19 04:37 AM] TonyL#3577
+@dimxy Is it expected that tokenaddress started to return `assets` addresses?
+```tokenaddress []
+DEBUG:BitcoinRPC:<-14- {"myCCaddress": "RCRsm3VBXz8kKTsYaXKpy7pSEzrtNNQGJC", "AssetsCCassets": "RViQsd1oSZps2geT38b76YFpA9JfH1BpJt", "GatewaysPubkey": "03ea9c062b9652d8eff34879b504eda0717895d27597aaeb60347d65eed96ccb40", "result": "success", "AssetsCCaddress": "RGKRjeTBw4LYFotSDLT6RWzMHbhXri6BG6", "myaddress": "RWPg8B91kfK5UtUN7z6s6TeV9cHSGtVY8D", "Assetsmarker": "RFYE2yL3KknWdHK6uNhvWacYsCUtwzjY3u"}
+```
+
+
+[06-Mar-19 04:47 AM] dimxy#2587
+no, this should output assetsaddres rpc
+
+
+[06-Mar-19 04:48 AM] Mihailo#5902
+I have tokenaddress normal:
+```
+komodo-cli -ac_name=GW tokenaddress
+{
+  "result": "success",
+  "TokensCCAddress": "RAMvUfoyURBRxAdVeTMHxn3giJZCFWeha2",
+  "CCbalance": 0.00010000,
+  "TokensNormalAddress": "RCNgAngYAdrfzujYyPgfbjCGNVQZzCgTad",
+  "myAddress": "RVHLGTE3aFGwqpUVsoHJiJGs9pmsnd3fNB",
+  "myCCAddress(Tokens)": "RT6xSdyBue4ccwSZKfYf2XHUx8rPxhjdjc",
+  "myCCaddress": "RT6xSdyBue4ccwSZKfYf2XHUx8rPxhjdjc",
+  "myCCbalance": 2100.28500000,
+  "myaddress": "RVHLGTE3aFGwqpUVsoHJiJGs9pmsnd3fNB",
+  "mybalance": 95279.98680000
+}
+```
+
+
+[06-Mar-19 04:49 AM] dimxy#2587
+@TonyL  seems you run it not by komodo-cli?
+
+
+[06-Mar-19 04:52 AM] Mihailo#5902
+I think he is using curl for RPC
+
+
+[06-Mar-19 04:55 AM] dimxy#2587
+Maybe this is some older code. I could not see strings like 'Assetsmarker' in the latest code
+
+
+[06-Mar-19 05:04 AM] TonyL#3577
+It's output of call from test framework - hmm maybe I messed with daemons
+
+
+[06-Mar-19 05:18 AM] TonyL#3577
+Oh yes, just wrong daemon, sorry
+
+
+[06-Mar-19 05:25 AM] TonyL#3577
+tokenfillbid seems to work correct now @dimxy 👍
+
+{Reactions}
+👍 
+
+[06-Mar-19 06:32 AM] jorian#4555
+thanks guys
+
+{Reactions}
+Komodo (2) 
+
+[06-Mar-19 03:56 PM] TwilightPunkster K64#7533
+from the docs:
+```./komodo-cli -ac_name=HELLOWORLD tokencreate TAK 10 "Testing phase."```
+Does the *TAK* part require to be 3/4 chars or can it be any size?
+
+
+[06-Mar-19 03:59 PM] TwilightPunkster K64#7533
+My horrible intentions:
+```./komodo-cli -ac_name=GOTTA_LOVE_ELMO tokencreate gle272718 10 "{ street: 'sesame', color: 'red', size: 'short }" ```
+
+
+[06-Mar-19 04:38 PM] TonyL#3577
+Limitation for name is 32 chars.  For description should be 4096 chars limitation
+ @TwilightPunkster K64
+
+{Reactions}
+❤ 
+
+[06-Mar-19 04:40 PM] TwilightPunkster K64#7533
+@TonyL awesome
+
+{Reactions}
+👍 
+
+[08-Mar-19 06:06 PM] Mylo#8306
+@dimxy 
+```
+Limitation for name is 32 chars.  For description should be 4096 chars limitation
+ ```
+Where are these limits set?
+I couldn't see in header or cpp file
+
+
+[08-Mar-19 06:15 PM] Mylo#8306
+Or assetscore
+
+
+[08-Mar-19 06:22 PM] Alright#0419
+@Mylo are you looking for the actual technical limit or just the rpc errors it throws?
+
+
+[08-Mar-19 06:23 PM] Alright#0419
+https://github.com/jl777/komodo/blob/6ef61a1aa9de6902245f8a030e6fc5d09c15de3c/src/wallet/rpcwallet.cpp#L7291 this is the rpc error check
+
+{Embed}
+https://github.com/jl777/komodo/blob/6ef61a1aa9de6902245f8a030e6fc5d09c15de3c/src/wallet/rpcwallet.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[08-Mar-19 08:19 PM] Mylo#8306
+@Alright thanks, exactly what i was looking for - where the limit is placed, how it is done etc.
+because atm the dev docs don't provide that, which would cause some degree of rage-fury at the workstation 😃
+
+
+[08-Mar-19 08:20 PM] Alright#0419
+looking at this again, I think this may need to be changed
+```
+    if (params.size() == 4)    {
+        nonfungibleData = ParseHex(params[3].get_str());
+        if (nonfungibleData.size() > 10000) // opret limit
+        {
+            ERR_RESULT("Non-fungible data must be <= 10000");
+            return(result);
+}```
+
+
+[08-Mar-19 08:22 PM] Alright#0419
+@Mihailo @dimxy this is just checking that the non-fungible data is less than 10000
+
+
+[08-Mar-19 08:22 PM] Alright#0419
+the non-fungible data is not the only thing stored in OP_RETURN, so in reality this limit is a little bit less than 10000, yes?
+
+
+[08-Mar-19 08:24 PM] Mylo#8306
+ouch....  what about using constants ?
+
+
+[08-Mar-19 09:33 PM] dimxy#2587
+constants are great.
+As to non-fungible data size, we could not define its exact limit, because it is floating as there may be different data kinds in the opret.  Together they all will be limited by the total opret size 10000. 
+So here we just checking in advance that non-fungible data size is not too big
+
+
+[08-Mar-19 11:47 PM] Mylo#8306
+ok.  wouldn't a komodo_defs.h `OPRETURN_MAXSIZE=10000` still be better, to save an inadvertant vim/rushed/late-night typo of 10000 vs 1000 vs 100000, and across any future CCs (plus establish a best practise)?   txfee is 10000 through that file a fair few times.
+
+Just asking, i'd be happy to do it if it is useful?
+
+
+[08-Mar-19 11:49 PM] Mylo#8306
+the comment //opret limit wouldn't need to be there either.
+If an ac would want larger opreturn, they could modify in komodo_defs much easier (presuming the codebase adopts it in the future).
+
+
+[08-Mar-19 11:49 PM] jl777c#5810
+yes it would be better, i think it is a defined variable somewhere
+
+
+[09-Mar-19 12:44 AM] Mylo#8306
+https://github.com/jl777/komodo/blob/6ef61a1aa9de6902245f8a030e6fc5d09c15de3c/src/komodo_defs.h#L25 thx to @Alright for finding.   weird name
+
+{Embed}
+https://github.com/jl777/komodo/blob/6ef61a1aa9de6902245f8a030e6fc5d09c15de3c/src/komodo_defs.h
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Reactions}
+👍 
+
+[12-Mar-19 06:35 PM] Bryan_Beus#6442
+@dimxy 
+
+When you're available, I would appreciate your help creating documentation for CC Assets. 
+
+If you're curious to know what CC documentation looks like when finished, so as to get idea of what we need for this module, take a look at any of the modules here: 
+
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cryptoconditions-instructions.html
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/cryptoconditions/cryptoconditions-instructions.html
+Crypto Conditions Instructions | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[12-Mar-19 06:35 PM] Bryan_Beus#6442
+Thank you
+
+
+[12-Mar-19 10:56 PM] dimxy#2587
+Hello @Bryan_Beus 
+I'm now finishing the documentation for the migration rpc.
+And of course, I'll be happy to help you with the documentation for CC assets in the nearest time.
+
+
+[13-Mar-19 03:29 PM] Bryan_Beus#6442
+Sounds great!
+
+
+[13-Mar-19 03:29 PM] Bryan_Beus#6442
+@dimxy
+
+
+[13-Mar-19 03:30 PM] Bryan_Beus#6442
+I'm not familiar with the migration rpc. Is that something that we need to add to developers.komodoplatform.com ?
+
+
+[13-Mar-19 08:37 PM] dimxy#2587
+Yes this is a rpc for migration coins between chains. I believe it should be added to the developers doc.
+
+
+[13-Mar-19 09:34 PM] gcharang#6833
+I think they will go here: https://github.com/KomodoPlatform/developer-docs/blob/dev/docs/basic-docs/komodo-api/crosschain.md @Bryan_Beus
+
+{Embed}
+https://github.com/KomodoPlatform/developer-docs/blob/dev/docs/basic-docs/komodo-api/crosschain.md
+KomodoPlatform/developer-docs
+Contribute to KomodoPlatform/developer-docs development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[14-Mar-19 10:14 PM] Bryan_Beus#6442
+excellent.
+
+And thank you for setting up a wireframe, @gcharang
+
+
+[05-May-19 08:04 AM] akiii#2220
+Hi guys i don’t find how to create a fungible token can anyone help me ?
+
+
+[05-May-19 10:27 AM] jorian#4555
+@akiii there's a link on top of this channel, which after some clicking will lead you to this: https://developers.komodoplatform.com/basic-docs/customconsensus/tokens.html
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/customconsensus/tokens.html
+Tokens | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[12-May-19 06:54 AM] Mylo#8306
+not sure if it's a bug in the documentation or in the RPC call
+
+`komodo-cli .... tokencreate TOKA 0.0001 "short description"` works
+
+but using curl need to wrap the supply (number) in a string https://gist.github.com/imylomylo/b983a89e78cf65abe98a229c1267698a#error
+
+{Embed}
+https://gist.github.com/imylomylo/b983a89e78cf65abe98a229c1267698a
+rpc tokens
+rpc tokens. GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+
+[12-May-19 06:54 AM] Mylo#8306
+(need to hide this photo, it's when i looked young pre-komodo 😛 )
+
+
+[12-May-19 08:14 AM] TonyL#3577
+In python client I wrap supply by `"` as well
+Should be a bug in documentation (RPC args should be a string - bug in the RPC should be if RPC arg is not string)
+
+
+[12-May-19 08:29 AM] Alright#0419
+I've ran into quite a few examples of this behavior
+
+
+[12-May-19 08:30 AM] Alright#0419
+never really thought about it, just worked around it when rpc tells me it expected a string
+
+
+[12-May-19 08:30 AM] Alright#0419
+not all args are strings
+
+
+[12-May-19 08:35 AM] TonyL#3577
+I'm about CCs calls, not sure about others - there was huge inconsistency on some point and if I remember correct James proposed/recommended to use everywhere strings
+
+
+[12-May-19 08:36 AM] TonyL#3577
+Maybe some args where only int is expecting can accept int, not sure
+
+
+[12-May-19 12:15 PM] dimxy#2587
+I think this is because in this rpc call the rpc param client conversion feature in rpc/client.cpp is not used, so all params are considered as strings (and if needed, converted into numbers inside the rpc call. So for curl they are all strings).
+As I can see most of our cc rpc calls do not use client conversion either. If they do we could pass number params as numbers. The methods that use this  are listed in client.cpp.
+We may decide if we should use this conversion for all developers
+
+
+[12-May-19 12:19 PM] dimxy#2587
+Probably to make our docs consistent (where params are described as they are: number as numbers, strings as strings ) we should use the client conversion.
+
+
+[12-May-19 07:39 PM] Mylo#8306
+ah damn.  sounds a bit messy.  now i understand why @Bryan_Beus skipped the curl exampels for CC and stuck with the command line - CLI sounds like consistent behaviour to document.   curl commands - seem to be all strings.
+this will be quite annoying for the RPC wrapper developers, but once the wrappers are written, GUI devs wont have a problem.
+
+
+[12-May-19 07:41 PM] Mylo#8306
+```
+komodo-cli -regtest -ac_name=MYCOIN tokencreate TOKENF "0.0005" "token g"
+```
+this worked for me, using supply as a string for cli (& curl)
+
+
+[12-May-19 07:42 PM] Mylo#8306
+thanks for your inputs 👍
+
+
+[12-May-19 07:45 PM] Mylo#8306
+does response in curl also come back with repeated "result" in json.  `{ "result": { "result": "success", "hex": "......."}` or are my early morning eyes deceiving me?
+
+
+[12-May-19 08:21 PM] Bryan_Beus#6442
+In the docs, we should use whatever a developer would want to use during production.
+
+We used komodo-cli earlier, because with curl I kept running into bug issues and couldn't afford to wait. I believe dukeleto solved many, if not all, of the bugs I came across back then.
+
+
+[12-May-19 08:21 PM] Bryan_Beus#6442
+You guys tell me, is curl better than komodo-cli?
+
+
+[12-May-19 08:28 PM] Mylo#8306
+yeah curl for devs.   komodo-cli has done it's job for getting docs to where it is, but it's time curl took over 😃
+
+
+[12-May-19 08:29 PM] Mylo#8306
+a non-sidd question here:
+https://developers.komodoplatform.com/basic-docs/customconsensus/tokens.html#tokenorders
+what happened to `tokenorders` with no tokenid.    seems `tokenid` is required now.
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/customconsensus/tokens.html
+Tokens | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[12-May-19 09:01 PM] Mylo#8306
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/577344680610496518/unknown.png
+
+
+[12-May-19 09:01 PM] Mylo#8306
+you really have made a system for making a TokenDEX easy to build.
+
+
+[12-May-19 09:02 PM] Mylo#8306
+my commit history in komodo-in-a-box is testament.   i'll be making a short video and blog about it as well as docs.
+
+
+[13-May-19 06:56 AM] gcharang#6833
+@Mylo 
+as far as I observed, the cc related RPC have all args as strings
+In the older (btc based  etc.,) ones args that are numbers don't need quotes
+see second bullet in https://docs.komodoplatform.com/komodo/python-rpc-komodod.html#usage
+as dimxy said
+```
+12:45 AM] dimxy: I think this is because in this rpc call the rpc param client conversion feature in rpc/client.cpp is not used, so all params are considered as strings (and if needed, converted into numbers inside the rpc call. So for curl they are all strings).
+As I can see most of our cc rpc calls do not use client conversion either. If they do we could pass number params as numbers. The methods that use this  are listed in client.cpp.
+We may decide if we should use this conversion for all developers
+```
+
+{Embed}
+https://docs.komodoplatform.com/komodo/python-rpc-komodod.html
+Access komodod's JSON-RPC interface using Python | Komodo Document...
+Documentation for developers building on Komodo
+
+
+[13-May-19 06:59 AM] gcharang#6833
+also @Alright  was able to get `slick-rpc` (python btc rpc wrapper) to work with KMD
+https://docs.komodoplatform.com/komodo/python-rpc-komodod.html
+might be there are similar ones written for BTC in js or other languages that can be easily appropriated
+
+{Embed}
+https://docs.komodoplatform.com/komodo/python-rpc-komodod.html
+Access komodod's JSON-RPC interface using Python | Komodo Document...
+Documentation for developers building on Komodo
+
+{Reactions}
+💪 
+
+[13-May-19 07:09 AM] TonyL#3577
+Should do the same RPC proxy job:
+
+JS: https://github.com/bitpay/bitcoind-rpc
+GO: https://github.com/toorop/go-bitcoind
+PHP: https://github.com/denpamusic/php-bitcoinrpc
+...
+any_language + bitcoin rpc client
+
+{Embed}
+https://github.com/bitpay/bitcoind-rpc
+bitpay/bitcoind-rpc
+A client library to connect to Bitcoin Core RPC in JavaScript. - bitpay/bitcoind-rpc
+https://images-ext-1.discordapp.net/external/QwWJH0zWceEgVkILCQPvS6GT7e4rj3zlmfERs9zqD4I/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/2554930
+
+{Embed}
+https://github.com/toorop/go-bitcoind
+toorop/go-bitcoind
+A Golang client library wrapping the bitcoind JSON RPC API - toorop/go-bitcoind
+https://images-ext-2.discordapp.net/external/cHyhhKJUJhXhiqdP4FAX_oysB9LgO9z6A2-Azoz3fvY/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/514704
+
+{Embed}
+https://github.com/denpamusic/php-bitcoinrpc
+denpamusic/php-bitcoinrpc
+Fully unit-tested Bitcoin JSON-RPC client based on GuzzleHttp. - denpamusic/php-bitcoinrpc
+https://images-ext-2.discordapp.net/external/X-Z_-a0W7NEAGhGBxMzZukW3AWDkwcRpyK84LC8XRpE/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/16575433
+
+{Reactions}
+👍 
+
+[13-May-19 07:20 AM] TonyL#3577
+And there no any adjustment needed for `slick-rpc` client @gcharang since it's just usual client-server connection actually which wrap and send standartized JSON request and doing the same with response (it using pycurl and ujson).
+Initially I just input rpcpassword, rpcuser and port and started to make calls - no any adjustments needed
+
+
+[13-May-19 07:21 AM] TonyL#3577
+Actually it should work with any btc fork which using quite standart config and request/response scheme
+
+
+[13-May-19 07:22 AM] gcharang#6833
+yeah no adjustments needed, just input the rpcuser/pass and port to the function, as shown in the example in the doc
+
+
+[13-May-19 07:24 AM] gcharang#6833
+Pinned a message.
+
+
+[13-May-19 07:27 AM] TonyL#3577
+Oh you pinned - actually I've not checked if it works and/or works same way - just googled `programming_language + bitcoinrpc` and pasted first link
+But examples in readmes looks like it should work
+
+
+[13-May-19 07:35 AM] gcharang#6833
+It's ok, it is just so that it won't get lost
+later people familiar with the different languages should check if each of them will work
+
+{Reactions}
+👍 
+
+[14-May-19 07:20 AM] Mylo#8306
+```
+[
+  {
+    "funcid": "b",
+    "txid": "2758b5324767acb7058b87b937bdd50c1744ca940d790faa7b507e0019b30521",
+    "vout": 0,
+    "amount": "8.88000000",
+    "bidamount": "8.88000000",
+    "origaddress": "RSefAPkRsd2JcQ4pkPHUzF4z3ExaDC1sJQ",
+    "origtokenaddress": "RUK3ejSkNayJKYzANRzpC6yqxzaCMa6Hng",
+    "tokenid": "ecd8b4ff52604997629d73c8797fa5b028295f918fbcc807bf2fb8536294f389",
+    "totalrequired": 100,
+    "price": "0.08880000"
+  },
+  {
+    "funcid": "s",
+    "txid": "5411ecabc8f36485ecb6ee02843321bdfcbb9f4bdc63050356987a91958ff75a",
+    "vout": 0,
+    "amount": "1000",
+    "askamount": "1000",
+    "origaddress": "RR2tjpFKaF36u4JesWG1vWjkgt2Wa448Qb",
+    "origtokenaddress": "RBjnhNaqtSGym1PqpaQL3jY3XHgpH9qTRK",
+    "tokenid": "ecd8b4ff52604997629d73c8797fa5b028295f918fbcc807bf2fb8536294f389",
+    "totalrequired": "111.10000000",
+    "price": "0.11110000"
+  },
+  {
+    "funcid": "s",
+    "txid": "28bcd2e68c9c4c0bc64ff31da6dd49402157ed8bc56a3d4088ba16d599e9aef3",
+    "vout": 0,
+    "amount": "1000",
+    "askamount": "1000",
+    "origaddress": "RR2tjpFKaF36u4JesWG1vWjkgt2Wa448Qb",
+    "origtokenaddress": "RBjnhNaqtSGym1PqpaQL3jY3XHgpH9qTRK",
+    "tokenid": "ecd8b4ff52604997629d73c8797fa5b028295f918fbcc807bf2fb8536294f389",
+    "totalrequired": "99.98000000",
+    "price": "0.09998000"
+  }
+]
+```
+
+
+[14-May-19 07:20 AM] Mylo#8306
+this is my response from `tokenorders`
+
+
+[14-May-19 07:20 AM] Mylo#8306
+the buy is for 100 tokens @ 0.0888
+
+
+[14-May-19 07:20 AM] Mylo#8306
+the sells are for 1000 tokens @ 0.09998 and 0.1111
+
+
+[14-May-19 07:21 AM] Mylo#8306
+are the values in the response for `amount` `bidamount` `totalrequired` correct?
+
+
+[14-May-19 07:22 AM] Mylo#8306
+```
+komodod -ac_name=TOKENDEX -ac_supply=1000 -pubkey=<pubkey> -addnode=45.76.103.90 -ac_cc=2
+```
+
+
+[14-May-19 07:23 AM] TonyL#3577
+Looks like it's correct
+
+
+[14-May-19 07:23 AM] Mylo#8306
+phew
+
+
+[14-May-19 09:45 AM] gcharang#6833
+@Mylo there have been some changes to assets/tokens, I don't know if it will help the exact issue you are facing, but these are the docs in construction for now:
+https://github.com/dimxy/Documentation/blob/dimxy-tokens/docs/basic-docs/cryptoconditions/cc-tokens.md
+https://github.com/dimxy/Documentation/blob/dimxy-assets/docs/basic-docs/cryptoconditions/cc-assets.md
+
+{Embed}
+https://github.com/dimxy/Documentation/blob/dimxy-tokens/docs/basic-docs/cryptoconditions/cc-tokens.md
+dimxy/Documentation
+Contribute to dimxy/Documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/FG7_8N0jtCftKtsAk7K5U05eeO1dpQWPnEQ9A5NQLBI/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21120539
+
+{Embed}
+https://github.com/dimxy/Documentation/blob/dimxy-assets/docs/basic-docs/cryptoconditions/cc-assets.md
+dimxy/Documentation
+Contribute to dimxy/Documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/FG7_8N0jtCftKtsAk7K5U05eeO1dpQWPnEQ9A5NQLBI/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21120539
+
+
+[14-May-19 09:46 AM] Mylo#8306
+cheers will read over.
+
+
+[14-May-19 09:50 AM] TonyL#3577
+`case 1` offer to buy tokens with price 0.08880000 each for 8.88000000 max, so totalrequired 100 tokens to fill this order (8.88000000 / 0.08880000 = 100)
+`case 2` offer to sell 1000 tokens with 0.1111 price each so 0.11110000 * 1000 = 111.10000000
+case3 is the same as case2
+
+
+[14-May-19 09:50 AM] TonyL#3577
+@Mylo
+
+
+[14-May-19 09:51 AM] Mylo#8306
+yes.  why is amount on the buy 8.88 but on teh sell it's 1000?
+
+
+[14-May-19 09:51 AM] Mylo#8306
+is one coin one token, depending on if it's a buy or sell?
+
+
+[14-May-19 09:52 AM] Mylo#8306
+`amount` is confusing because it flips. . but docs don't describe it well enough (imo)
+
+
+[14-May-19 09:52 AM] dimxy#2587
+for buy you are actually 'selling' your coins for tokens that s why amount in coins
+for sell you selling your tokens for  coins - amount in tokens
+
+
+[14-May-19 09:52 AM] Mylo#8306
+ok that makes sense
+
+
+[14-May-19 09:52 AM] dimxy#2587
+(I had the same question when I first time saw it)😀
+
+{Reactions}
+😄 
+
+[14-May-19 09:53 AM] Mylo#8306
+docs are a bit vague
+
+
+[14-May-19 09:53 AM] Mylo#8306
+haha cool.
+
+
+[14-May-19 09:53 AM] Mylo#8306
+thanks for clarifying
+
+
+[14-May-19 09:53 AM] TonyL#3577
+Maybe add 1 more field under totalrequired where write is counting in "tokens" or "coins"
+
+
+[14-May-19 09:54 AM] TonyL#3577
+But it seems like a overkill tbh 😃
+
+
+[14-May-19 09:55 AM] Mylo#8306
+yeah overkill, just needs  those 2 sentences dimxy said above 😃
+
+
+[14-May-19 09:57 AM] dimxy#2587
+maybe add better clarification for this in the docs
+
+
+[14-May-19 10:04 AM] Mylo#8306
+yep.  those two sentences make sense thanks @dimxy 👍
+
+
+[14-May-19 10:11 AM] gcharang#6833
+Noted the confusion.
+will keep it in mind for the next update
+
+
+[23-May-19 07:20 AM] akiii#2220
+Hi guys can anyone help me to create a non fungible
+
+
+[23-May-19 07:20 AM] akiii#2220
+I don’t find in the documentation how to do
+
+
+[23-May-19 07:24 AM] TonyL#3577
+Hi @akiii 
+https://developers.komodoplatform.com/basic-docs/customconsensus/tokens.html
+Here you can find tokens documentation
+
+Actually make NFT is very simple, all you need is to create a token with supply 1, for it you have to use 1 satoshi as input (second argument of tokencreate call):
+```
+./komodo-cli -ac_name=HELLOWORLD tokencreate MYTOKEN 0.00000001 "My very own NFT token."```
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/customconsensus/tokens.html
+Tokens | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[23-May-19 07:26 AM] akiii#2220
+@TonyL but if i want for example create 100 MYTOKEN but all different description it is possible ?
+
+
+[23-May-19 07:27 AM] TonyL#3577
+Yes, it's possible to create token with any supply/description you want. But in case of supply > 1 it'll be not NFT
+
+
+[23-May-19 07:29 AM] TonyL#3577
+Just FYI, limitations are: 
+32 symbols for token name
+4096 for token description
+
+
+[23-May-19 07:29 AM] TonyL#3577
+So you can write metadata of NFT to description
+
+
+[23-May-19 07:30 AM] akiii#2220
+But for cryptokittie all character are a non fungible token
+
+
+[23-May-19 07:31 AM] akiii#2220
+But they can have the same name no ?
+
+
+[23-May-19 07:31 AM] akiii#2220
+With different power etc
+
+
+[23-May-19 07:33 AM] TonyL#3577
+You can just write needed information to token description:
+```./komodo-cli -ac_name=HELLOWORLD tokencreate KITTYTOKEN 0.00000001 "{
+"type": "Catassin"
+"name": "Meow Killa",
+"srength": 21,
+"superpower": "fluffy"
+}
+"```
+
+
+[23-May-19 07:34 AM] TonyL#3577
+And you can create as many KITTYTOKEN NFT as your dapp need
+
+
+[23-May-19 07:35 AM] akiii#2220
+Oh okay
+
+
+[23-May-19 07:36 AM] akiii#2220
+And how can you extract this description ?
+
+
+[23-May-19 07:37 AM] TonyL#3577
+`tokencreate` call will generate transaction hex as output. After you broadcast it by `sendrawtransaction hex` you'll get transaction id (we can call it token id)
+
+
+[23-May-19 07:37 AM] TonyL#3577
+And then you'll able to check information as:
+`./komodo-cli -ac_name=HELLOWORLD tokeninfo tokenid`
+
+
+[23-May-19 07:38 AM] TonyL#3577
+And you'll see something like a:
+```
+./komodo-cli -ac_name=HELLOWORLD tokeninfo 43850dfce744581ef44775086625745adecd628993c5ff4c1c786cfd21009add
+
+{
+  "result": "success",
+  "tokenid": "43850dfce744581ef44775086625745adecd628993c5ff4c1c786cfd21009add",
+  "owner": "03fe754763c176e1339a3f62ee6b9484720e17ee4646b65a119e9f6370c7004abc",
+  "name": "KITTYTOKEN",
+  "supply": "1",
+  "description": "{
+"type": "Catassin"
+"name": "Meow Killa",
+"srength": 21,
+"superpower": "fluffy"
+}"
+}
+```
+
+{Reactions}
+😸 
+
+[23-May-19 07:40 AM] TonyL#3577
+Then your app lets say can parse value of description key as you need
+
+
+[23-May-19 07:45 AM] akiii#2220
+Okay
+
+
+[23-May-19 07:46 AM] akiii#2220
+But how to terminal i can extract this
+
+
+[23-May-19 07:47 AM] TonyL#3577
+Not sure if I get your question. Could you please clarify?
+
+
+[23-May-19 07:48 AM] akiii#2220
+For example i create a dapp like cryptokittie how when a user grab a character i can show him the data of this character
+
+
+[23-May-19 07:50 AM] TonyL#3577
+Issue `tokeninfo` rpc call request with tokenid as argument, and show player needed data from response
+
+
+[23-May-19 07:51 AM] TonyL#3577
+In documentation which I shared above you can find curl examples
+
+
+[23-May-19 07:52 AM] TonyL#3577
+Exact implementation of interaction with RPC (we can call it blockchain API) depends of language which you'll use in your application
+
+
+[23-May-19 07:53 AM] TonyL#3577
+upd: Sorry for confusion, there is no curl examples in doc above
+
+
+[23-May-19 07:54 AM] TonyL#3577
+```curl --user myrpcuser:myrpcpassword --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "tokeninfo", "params": ["43850dfce744581ef44775086625745adecd628993c5ff4c1c786cfd21009add"] }' -H 'content-type: text/plain;' http://127.0.0.1:myrpcport/```
+
+
+[23-May-19 07:54 AM] TonyL#3577
+So here it is 😃
+
+
+[23-May-19 07:54 AM] akiii#2220
+Okay thank you very much for your help
+
+
+[23-May-19 07:56 AM] TonyL#3577
+You're most welcome! It's actually very easy to use tokensCC for NFTs in-app creation, please feel free to clarify if you'll have more questions
+
+
+[23-May-19 07:56 AM] akiii#2220
+Thank you 🥺
+
+
+[23-May-19 09:54 AM] Mylo#8306
+v.good @TonyL 👏
+
+
+[23-May-19 09:57 AM] TonyL#3577
+Meow 😃
+
+
+[23-Jun-19 08:31 PM] ERIC#3057
+Is there any mobile wallet can be used for the assets chain and the tokens  on the assets chain ?
+
+
+[02-Sep-19 12:03 AM] CrisF#3405
+Hi, I'm trying `tokenorders`.
+According to docs```If no tokenid is provided, it displays the on-chain orderbook for all available tokens.```(`https://docs.komodoplatform.com/basic-docs/antara/antara-api/assets.html#tokenorders`)
+But I'm getting```
+komodo-cli -ac_name=CFEKMYLO9 tokenorders
+error code: -1
+error message:
+no tokenid``` It works fine when I add the `tokenid`.
+Not sure if relevant, this is only token on chain (CFEKMYLO9).
+
+
+[03-Sep-19 04:35 AM] gcharang#6833
+@CrisF i'll test and update
+
+{Reactions}
+👍 
+
+[20-Sep-19 11:08 PM] CrisF#3405
+Hi, is it possible to create more than one kind of token from a single coin?  For example, if I create a CF chain, Could I make a CF1 andCF2 token?  Or would I need to make a CF1 chain and CF2 chain and tokenize both?
+
+
+[20-Sep-19 11:55 PM] CrisF#3405
+One more,  is it possible to increase the supply of tokens after initial creation?  For example, if I had an initial 1,000,000 token supply, could I add an additional 10,000 tokens later?
+
+
+[21-Sep-19 12:36 AM] dimxy#2587
+Hi,
+tokens are differentiated by their tokenid. Tokenid is unique for each created token . You may create many tokens with different tokenids.
+It is not currently possible to increase token amount for the same tokenid after the creation
+
+
+[21-Sep-19 12:52 AM] CrisF#3405
+Hi @dimxy ,
+Thanks.
+I wanted to create a token that could have tokens added as people bought them.
+
+
+[21-Sep-19 12:54 AM] CrisF#3405
+Can you think of anyway this would be possible using current Modules, cross-chain etc?
+
+
+[22-Sep-19 01:41 AM] dimxy#2587
+I think for this we need to modify the current Token module.
+I guess the token validation needs to be extended very much to prevent unauthorized token injection.
+The token rpc also would be changed as there may be both tokens that allow to increase the supply and those that do not. Also for NFTs I guess we should not allow this.
+
+
+[22-Sep-19 02:03 AM] jl777c#5810
+self-import could work for that
+
+
+[22-Sep-19 04:23 AM] phm87#7395
+Can we issue a new token type on a running chain ? I think about sth similar to erc20
+
+
+[22-Sep-19 04:24 AM] gcharang#6833
+if it has the tokens module enabled, yes
+just use tokencreate
+
+
+[22-Sep-19 05:00 AM] phm87#7395
+Thank you
+
+
+[23-Sep-19 03:16 AM] CrisF#3405
+Is it also the unique token ID that prevents fungible tokens from crosschain migrations?
+
+
+[23-Sep-19 03:18 AM] CrisF#3405
+DId a coin migration on CFEKMYLO and CFEKMYLO6 in Labs today.  I'll try a NFT migration next.
+
+{Reactions}
+👍 
+
+[23-Sep-19 03:19 AM] Mihailo#5902
+@jl777c I also thought of self-import. Then it would be coins, and not tkens but I think to @CrisF it doesn't matter?
+
+
+[23-Sep-19 03:19 AM] Mihailo#5902
+But with self-import you can generate coins as you like, so it is a question of trust to that coin as you can generate them by your will.
+
+
+[23-Sep-19 03:20 AM] Mihailo#5902
+But still, if you want to generate new coins/tokens when people buys them then you have a single point of issue so still people need to trust that point.
+
+
+[23-Sep-19 03:23 AM] CrisF#3405
+I'm actually asking for someone else.  They have asked if we are able to increase token supply, if a fund were added to for example.
+It seems key to their idea.
+
+
+[23-Sep-19 03:24 AM] Mihailo#5902
+@CrisF, you also have a solution to create maxtokens available and transfer them to point of sale, then when people buy them it will just be transfered to them.
+
+{Reactions}
+👍 
+
+[23-Sep-19 03:28 AM] gcharang#6833
+another solution:
+As the owner seems to have infinite printing power and is trusted,
+just name the first batch as TokenB1, once they are sold out and new ones are needed, create another batch and call them TokenB2
+and declare that TokenB1 and TokenB2 represent the same asset
+GUI can treat the two kinds as the same and end user won't know the difference
+@CrisF
+
+{Reactions}
+👍 
+
+[23-Sep-19 03:28 AM] CrisF#3405
+What is `self-import`?
+
+
+[23-Sep-19 03:29 AM] gcharang#6833
+<https://developers.komodoplatform.com/basic-docs/smart-chains/smart-chain-api/crosschain.html#selfimport>
+allows creation of any number of new coins on a smart chain by a trusted pubkey
+
+{Reactions}
+🙏 
+
+[23-Sep-19 03:31 AM] CrisF#3405
+Oh, I've been using that document today for the crosschain migration!  I didn't look down that far 🤦
+
+
+[23-Sep-19 03:39 AM] CrisF#3405
+The self-import seems very useful.  
+And a pubkey from a multi-sig address could be used, couldn't it?
+
+
+[23-Sep-19 03:57 AM] gcharang#6833
+@CrisF I don't think the current implementation supports multisig control for self import
+but it can be added
+
+@dimxy can you confirm?
+
+
+[23-Sep-19 04:18 AM] dimxy#2587
+I believe any pubkey could be used in self-import as the pubkey that creates coins
+and self-import does not support tokens, only coins
+
+
+[23-Sep-19 04:23 AM] gcharang#6833
+```
+./komodo-cli createmultisig 2 '["02dd22c272504af79b220ba37c12f777596eff4f54598e2db65be325a9393a3a26","032a73cd31fb86150c33f26312b665c21e5f9391829f29cf48aca03bbb4f9a2816"]'
+```
+```
+{
+  "address": "bEP3HK73CboW8tGN8obyHUQteBzYjFzgNm",
+  "redeemScript": "522102dd22c272504af79b220ba37c12f777596eff4f54598e2db65be325a9393a3a2621032a73cd31fb86150c33f26312b665c21e5f9391829f29cf48aca03bbb4f9a281652ae"
+}
+```
+I am not sure multisig addresses have pubkeys like the regular ones, atleast the pubkey isn't available through a rpc
+
+
+[23-Sep-19 04:25 AM] CrisF#3405
+Ahh...
+
+
+[23-Sep-19 04:25 AM] jl777c#5810
+multisig has multiple pubkeys, that is why it is multisig
+
+
+[23-Sep-19 04:27 AM] gcharang#6833
+may be the redeemscript can be used in place of pubkey to launch a chain and control the coins?
+
+
+[23-Sep-19 04:29 AM] jl777c#5810
+yes, that would be a way
+
+
+[23-Sep-19 04:29 AM] jl777c#5810
+using the ac_script idea
+
+{Reactions}
+👍 (2) 
+
+[23-Sep-19 04:58 AM] CrisF#3405
+I couldn't see in the docs, is it possible to have a `0` value for `as_perc`? Or would 1 be the smallest possible like below?
+
+```./komodod -ac_name=CFX -ac_founders=1 -ac_script=a9142706324daaac92c93420e985f55d88eaEXAMPLE -ac_perc=1```
+
+
+[23-Sep-19 05:00 AM] jl777c#5810
+1 is the smallest, it is a very small percentage 0.000001%
+
+
+[23-Sep-19 05:00 AM] CrisF#3405
+Thanks!
+
+
+[23-Sep-19 01:19 PM] Nacho Figx#4221
+Hello everybody, I am creating Crypto Art and selling it through Makersplace.com they are using Ethereum as a way of Non-Fungible Art registration, of course I would like to sell them in the Komodo Ecosystem instead, so is there any project going on now that I can look into?
+
+
+[23-Sep-19 01:20 PM] Nacho Figx#4221
+This is what I have on sale now https://makersplace.com/store/fig/
+
+
+[23-Sep-19 01:20 PM] Nacho Figx#4221
+If any of you would like to start this idea with me, get in touch.
+
+
+[23-Sep-19 01:21 PM] Nacho Figx#4221
+So basically is creating a site for Non-Fungible Assets using the Komodo Tech
+
+
+[24-Sep-19 03:15 AM] CrisF#3405
+Hi @Nacho Figx 👋
+I'm testing out Tokens now, but not sure of any projects that have been working on this yet that are beyond the stages that you are at.  Hopefully someone else will know of something.
+
+
+[24-Sep-19 04:38 AM] CrisF#3405
+Hi, I'm getting below error, although pubkey is imported```./komodo-cli -ac_name=CFEKMYLO tokenaddress
+error code: -1
+error message:
+to use CC contracts, you need to launch daemon with valid -pubkey= for an address in your wallet```
+
+
+[24-Sep-19 04:40 AM] CrisF#3405
+I would like to check whether a NFT migration from `CFEKMYLO6` has arrived.
+
+
+[24-Sep-19 04:41 AM] CrisF#3405
+Any ideas on why I'd be getting the above error?
+
+
+[24-Sep-19 04:42 AM] CrisF#3405
+I did a regular (non-token) migration on the same chains yesterday and the daemon hasn't been shut down since.
+
+
+[24-Sep-19 04:45 AM] gcharang#6833
+@CrisF try providing the pubkey as an argument
+
+
+[24-Sep-19 04:50 AM] CrisF#3405
+I tried that with the same result.
+
+
+[24-Sep-19 04:51 AM] CrisF#3405
+Also restarted `MYLO`, but didn't help.
+
+
+[24-Sep-19 11:13 AM] Mihailo#5902
+@CrisF you need to start Komodo daemon with -pubkey=<your_pub_key> parameter.
+
+
+[24-Sep-19 01:22 PM] CrisF#3405
+Hi @Mihailo, the chains were all started with -pubkey=<MYPUBKEY>.  That's why I'm not sure what is going wrong.
+
+
+[24-Sep-19 01:35 PM] Mihailo#5902
+And that pubkey must have pribate key in your wallet if you want to create cc txs
+
+
+[24-Sep-19 02:02 PM] CrisF#3405
+Yes, I have the same priv key imported in both chains.
+
+
+[24-Sep-19 02:04 PM] CrisF#3405
+Will the same pubkey create the same CC addresses?
+
+
+[24-Sep-19 02:05 PM] CrisF#3405
+I noticed this error on receiving chain after migrating a NFT to it.
+
+
+[25-Sep-19 03:26 AM] CrisF#3405
+Could this error be refering to a 'CCaddress', rather than a regular 'R' address? ```
+./komodo-cli -ac_name=CFEKMYLO tokenaddress
+error code: -1
+error message:
+to use CC contracts, you need to launch daemon with valid -pubkey= for an address in your wallet```
+
+
+[25-Sep-19 03:28 AM] CrisF#3405
+I am running both migration chain and KMD with the same pubkey and have the same 'R' address imported into both migration chain.
+
+
+[25-Sep-19 03:31 AM] CrisF#3405
+When I tried the NFT token migration I used one of the CC addresses. Afk atm and forget name of address I used.
+It was the address that had token balance in the sending chain.
+
+
+[25-Sep-19 03:32 AM] CrisF#3405
+I couldn't find a way to import a CCaddress, but read they were created by the pubkey running the chain.
+
+
+[25-Sep-19 04:55 AM] Mihailo#5902
+@CrisF  Can you do any CC tx now?
+
+
+[25-Sep-19 08:42 AM] CrisF#3405
+Not on the receiving chain (`CFEKMYLO`), @Mihailo.  Tried on tokens and some on faucet with same result.  This is after a CFEKMYLO restart.  
+CC is working on the sending chain, `CFEKMYLO6`.
+
+
+[25-Sep-19 08:42 AM] CrisF#3405
+```-ac_name=CFEKMYLO6 tokenbalance c12f85280f85d0cf4d16a24ab7295fa2baede364e7060e88202d9e92af9a6421
+{
+  "result": "success",
+  "CCaddress": "R9bDncozYCcEv8TpNcroiYsNDgkfcoHC3F",
+  "tokenid": "c12f85280f85d0cf4d16a24ab7295fa2baede364e7060e88202d9e92af9a6421",
+  "balance": 1
+}
+```
+
+
+[25-Sep-19 08:43 AM] CrisF#3405
+send chain `MYLO6` shows the NFT, so wasn't sent it appears.
+
+
+[25-Sep-19 08:44 AM] CrisF#3405
+I'll be afk for a while.
+
+
+[25-Sep-19 09:13 AM] Mihailo#5902
+@CrisF Well something is definitely wrong on CFEKMYLO. Can you give me daemon command?
+
+
+[25-Sep-19 01:26 PM] CrisF#3405
+Hi @Mihailo ,
+It's a KMDLabs chain,  so running with ```~/StakedNotary$ git log -1
+commit e1d04a38c84619c95bcbb7cb784394867b6dd08f (HEAD -> many_iguana, origin/many_iguana)
+Author: blackjok3rtt <30971146+blackjok3rtt@users.noreply.github.com>
+Date:   Mon Sep 9 14:56:52 2019 +0800
+
+    remove nSPV2 branch.
+
+    merged jl777 down to master
+```
+
+
+[25-Sep-19 01:27 PM] CrisF#3405
+Params:```./komodod -addnode=103.6.12.112 -addnode=149.28.8.219 -addnode=195.201.20.230 -addnode=80.240.17.222 -ac_ccenable=226,236 -ac_supply=999999 -ac_name=CFEKMYLO -ac_reward=800000000 -ac_sapling=1 -ac_cc=1337 -ac_cclib=labs -pubkey=0206aec16bfbd0a8f78338927069ab4ed33762fd02f1259927bbc63770f262a71f```
+
+
+[25-Sep-19 01:28 PM] CrisF#3405
+Sending chain params (`CFEKMYLO6`):```-addnode=103.6.12.112 -addnode=149.28.8.219 -addnode=195.201.20.230 -addnode=80.240.17.222 -ac_supply=7777 -ac_name=CFEKMYLO6 -ac_reward=7777 -ac_sapling=1 -ac_cc=1337```
+
+
+[25-Sep-19 03:02 PM] Mihailo#5902
+I'll take a look tomorrow. Thnx
+
+
+[25-Sep-19 04:15 PM] CrisF#3405
+Thanks!
+
+
+[26-Sep-19 02:02 AM] CrisF#3405
+Hi @Mihailo, @smkhound has solved it 💎 Tokens not enabled of `MYLO` ```smk762 - herpetographerToday at 8:46 AM
+same result here. MYLO6 returns 3 txids, MYLO returns pubkey error - confirmed it is set in htop. Also tested oracleslist which returns empty (not error).
+assetchains.json has 
+    "ac_ccenable": "226,236", 
+for CFEKMYLO. Safe to assume that tokens module is not activated on that chain. ```
+
+
+[26-Sep-19 02:04 AM] smkhound#7640
+nice to be the bloke with the answer every now and then 😄
+
+{Reactions}
+🚀 
+
+[26-Sep-19 02:07 AM] Mihailo#5902
+@CrisF Figured out what is wrong
+
+
+[26-Sep-19 02:08 AM] Mihailo#5902
+First, evalcode 226 is IMPORTCOIN and not TOKENS. Second, the [cc]address rpcs are checking for evalcode 0 is it enabled so it fails on it and retunrs that message.
+
+
+[26-Sep-19 02:09 AM] Mihailo#5902
+So you should start the cahin with -ac_ccenable=227,236 for tokens and oracles. And I need to change the [cc]address rpcs to work correctly
+
+
+[26-Sep-19 02:10 AM] Mihailo#5902
+Ha, didn't saw the message about SMK findings 😉
+
+{Reactions}
+😄 
+
+[26-Sep-19 02:17 AM] CrisF#3405
+Thanks for the help!
+I need the server for something else now, but will try the NFT migrate again on another chain over the weekend.
+
+
+[26-Sep-19 02:22 AM] Mihailo#5902
+@jl777c Should [cc]address rpc work even if some CC is not enabled?
+
+
+[26-Sep-19 02:23 AM] Mihailo#5902
+I thnik there is no need. If you didn't enable some CC on your chain, there is no need for you to know addresses of that CC
+
+
+[26-Sep-19 05:41 AM] jl777c#5810
+not sure it matters either way
+
+
+[27-Sep-19 12:31 AM] Mihailo#5902
+@CrisF BTW, the fix for address rpcs is merged into FSM
+
+
+[27-Sep-19 12:56 AM] CrisF#3405
+Great, thanks for the help with this @Mihailo! 
+When I've completed a NFT migration I'll  set up a FSM test chain to see that and test out `self-import`.
+I might be asking you more questions ;)
+
+
+[17-Oct-19 06:26 PM] Regnar#6164
+Hey all, I think I found a bug (or I'm doing this wrong)
+I'm getting errors when I run `tokenorders` without a tokenID.
+
+<https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html#tokenorders> 
+These docs say tokenID is optional, without tokenID is supposed to display all available orders, but I'm getting the error ```error code: -1
+error message:
+no tokenid```
+
+
+[17-Oct-19 06:27 PM] Regnar#6164
+And the example I'm trying to run
+<https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html#examples-8>
+
+
+[18-Oct-19 10:50 AM] gcharang#6833
+@dimxy is the above described behavior of tokenorders intentional?
+
+
+[18-Oct-19 12:06 PM] dimxy#2587
+Hi, thank you for this.
+Seems there is some extra check on the rpc-level that prevents running tokenorders without tokenid. I need to fix this
+
+{Reactions}
+👍 (2) 
+
+[19-Oct-19 09:19 AM] Regnar#6164
+so yes bug? cool! I helped 🤓
+
+{Reactions}
+🐛 
+
+[19-Oct-19 03:13 PM] CrisF#3405
+I think that this is the same as I had here:  https://discordapp.com/channels/412898016371015680/524538792644837376/617977979141619733
+
+{Reactions}
+🙃 
+
+[19-Oct-19 04:45 PM] Regnar#6164
+Yea it is... lol
+
+{Reactions}
+abusedsmily 
+
+[19-Oct-19 04:52 PM] CrisF#3405
+Next step for me is to add an image to the token.  I have the method, but haven't had the time.
+I had a question about the ability to, in Komodo, to do this.  
+Not quite sure if it is exactly what was desired as we didn't have much time to discuss the problem.
+@barv, @bartwr , this question came from KB.  I'm not quite sure if this is exactly what he was after but maybe you could confirm?  It might be one part of what he would like.
+
+
+[19-Oct-19 04:55 PM] CrisF#3405
+@Regnar, I'm working with chains in KMDLabs so it is good that you are working on `RICK`.  I'm not sure if the Labs chains are up to date with the latest FSM.  Maybe @Deleted User  could  confirm the status?
+
+
+[19-Oct-19 04:56 PM] Regnar#6164
+Yea I was mostly looking for a fairly common chain with TokensCC already on it and heard RICK had it.
+
+
+[19-Oct-19 04:56 PM] CrisF#3405
+Yeah, that is good.
+
+
+[19-Oct-19 04:57 PM] CrisF#3405
+I needed to test out migrations so and working in Labs.
+
+
+[19-Oct-19 04:58 PM] Regnar#6164
+also was messing around with Discord bot to make them and get info as well as an API to get token info and token list too. Localhost only right now
+
+{Reactions}
+💎 
+
+[19-Oct-19 05:00 PM] CrisF#3405
+I saw that, very cool!
+
+
+[19-Oct-19 05:03 PM] Regnar#6164
+kinda fun, plus I think I could pretty much make this work for any CC using RPCs.
+
+{Reactions}
+👀 
+
+[19-Oct-19 05:03 PM] Regnar#6164
+though is definitely a centralized solution
+
+
+[19-Oct-19 05:06 PM] Regnar#6164
+What other CCs are available on RICK? do you know where RICK code is?
+
+
+[19-Oct-19 05:09 PM] Deleted User#0000
+I can merge it down if you like @CrisF?
+
+
+[19-Oct-19 05:10 PM] Deleted User#0000
+people will complain that start.sh fails 3 times... but they just have to deal with it 😂
+
+{Reactions}
+abusedsmily 
+
+[19-Oct-19 05:12 PM] CrisF#3405
+It should be ok for now @Deleted User.  Those fixes aren't needed for testing the image in a token I think.
+
+
+[19-Oct-19 05:13 PM] CrisF#3405
+I can test on `RICK` if I need the latest FSM.
+
+
+[19-Oct-19 05:13 PM] Deleted User#0000
+may as well do it... Hasnt been done in a while. Will merge FSM to utxocache branch which will move CFEK chains to latest. LABS and KMD will stay as is for now. If it all works ok, I will merge back to master tomorrow.,
+
+
+[19-Oct-19 05:14 PM] CrisF#3405
+Cool, thanks.  Yeah, just CFEK sounds good 🙂
+
+
+[19-Oct-19 05:15 PM] CrisF#3405
+@Regnar, these are the `RICK` params.  I think all CCs are enabled.```-addnode=138.201.136.145 -addnode=95.217.44.58 -ac_supply=90000000000 -ac_staked=10 -ac_name=RICK -ac_reward=100000000 -ac_cc=3```
+
+
+[19-Oct-19 05:15 PM] Regnar#6164
+all of them 😄
+
+{Reactions}
+😁 
+
+[19-Oct-19 05:18 PM] CrisF#3405
+Hmm, ```-addnode=138.201.136.145 -addnode=95.217.44.58 -ac_supply=90000000000 -ac_staked=10 -ac_name=MORTY -ac_reward=100000000 -ac_cc=3
+```@Deleted User, with these params I should be able to migrate between RICK and Morty, right?
+
+
+[19-Oct-19 05:19 PM] Deleted User#0000
+no. the ac_cc must be over 100 to be fungible I'm pretty sure.
+
+
+[19-Oct-19 05:19 PM] Deleted User#0000
+If you need i will blow CFEKMYLO away and make you 2 new chains...
+
+
+[19-Oct-19 05:19 PM] Deleted User#0000
+with the correct params you need.
+
+
+[19-Oct-19 05:20 PM] CrisF#3405
+Ahh!  Thanks, that's why I chose to test CFEK.  Sorry ☕ hasn't totally kicked in 🤦
+
+
+[19-Oct-19 05:21 PM] CrisF#3405
+Cool, that would be good.  Not sure if anyone else is testing MYLO atm.  Mine can use any.
+
+
+[19-Oct-19 05:22 PM] Deleted User#0000
+lol I'm drinking my ☕  from yesterday lol... It was like 1.5L couldnt finish it 🤣
+
+{Reactions}
+😬 
+
+[19-Oct-19 05:22 PM] Deleted User#0000
+If im not mistaken, the CFEKMYLO chains do not have the correct eval codes enabled?
+
+
+[19-Oct-19 05:23 PM] CrisF#3405
+Some did (MYLO & MYLO6), MYLO9 didn't (gone now).
+
+
+[19-Oct-19 05:24 PM] Deleted User#0000
+ok so MYLO and MYLO6 work for what you need? Testing build now.
+
+
+[19-Oct-19 05:24 PM] CrisF#3405
+Yes, they are OK for this.
+
+
+[21-Oct-19 01:09 AM] PHBA2061 | VietStaking Validator#2530
+yesterday I started to play around with tokens, but on MORTY instead.
+was also thinking about adding images, I see 2 ways:
+-either adding the images url directly to the tokens description
+-or use an existing back-end API, extract images out of it based on the tokens ID.
+btw tokens that I created on MORTY are Pokémon, & I'll use a Pokémon api to attach images to them
+
+{Reactions}
+💥 (2) 
+
+[21-Oct-19 02:18 AM] gcharang#6833
+if you go with adding images via url, make sure to include a sha256 hash
+it should help detect tampering  
+
+I didn't quite get the second option?
+
+
+[21-Oct-19 03:28 AM] PHBA2061 | VietStaking Validator#2530
+for example this is the PIKACHU token that I created yesterday on MORTY:
+```
+komodo-cli -ac_name=MORTY tokeninfo "fc658af6364f80f76f7ef92e18303ebae91b8d076757c624c7653710a7887b29"
+{
+  "result": "success",
+  "tokenid": "fc658af6364f80f76f7ef92e18303ebae91b8d076757c624c7653710a7887b29",
+  "owner": "03f6bd15dba7e986f0c976ea19d8a9093cb7c989d499f1708a0386c5c5659e6c4e",
+  "name": "PIKACHU",
+  "supply": 6,
+  "description": "{\"id\":\"25\",\"name\":Pikachu}"
+}
+```
+for this example only id & name are stored on chain, from the id/name on chain, which can can get via `curl`, I can fetch it into an API like 
+```
+https://pokeapi.glitch.me/v1/pokemon/Pikachu
+```
+& retrieve additional data out of it, including images.
+ofc you have to decide which one to store on chain, which one to store off chain.
+
+
+[21-Oct-19 03:36 AM] gcharang#6833
+now I understand the second option
+anyway, including the hash in the description is a good idea
+like
+```json
+"{\"id\":\"25\",\"name\":Pikachu,\"hash\":\"6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b\"}"
+```
+
+
+[21-Oct-19 03:40 AM] CrisF#3405
+Hi @PHBA2061 | VietStaking Validator, With the second option, how would you wiew the image?
+
+
+[21-Oct-19 03:41 AM] PHBA2061 | VietStaking Validator#2530
+yeah including the hash makes sense
+
+
+[21-Oct-19 03:41 AM] gcharang#6833
+the gui dev should know which base url the token is using for images
+
+
+[21-Oct-19 03:44 AM] PHBA2061 | VietStaking Validator#2530
+@CrisF once you have the API (either setting 1 up yourself or in this case I use an existing API), you can make a simple API fetch with the pokémon name as parameter, then retrieve the image url return by the API, display it on the website. I think I'll be dev-ing a demo real soon
+
+
+[21-Oct-19 03:44 AM] CrisF#3405
+Would the GUI just read the data from the API and diplay the imageg from `"https://pokeres.bastionbot.org/images/pokemon/25.png"` (found in the API data)?
+
+
+[21-Oct-19 03:44 AM] CrisF#3405
+OOps
+
+
+[21-Oct-19 03:45 AM] CrisF#3405
+Very cool.  Is this something that is considered difficult?  (all dificult for me still 🙂 )
+
+
+[21-Oct-19 03:46 AM] PHBA2061 | VietStaking Validator#2530
+yeah all is difficult for me when I started learning too, as long as you don't give up midway, you'll be fine 😄
+
+{Reactions}
+💪 
+
+[21-Oct-19 03:47 AM] gcharang#6833
+@PHBA2061 | VietStaking Validator if you are looking to minimise space taken on the blockchain, you can also store the data as
+```
+'["25","Pikachu","6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"]'
+```
+no need to mention the keys: id, name, hash
+
+
+[21-Oct-19 03:47 AM] CrisF#3405
+`including the hash in the description`
+Is this the hash of the image?
+
+
+[21-Oct-19 03:48 AM] gcharang#6833
+> Is theis the hash of the image?
+yes
+if the image at the url is changed, it can be detected
+
+{Reactions}
+👍 
+
+[21-Oct-19 03:48 AM] PHBA2061 | VietStaking Validator#2530
+`no need to mention the keys: id, name, hash` agreed
+
+
+[21-Oct-19 03:50 AM] PHBA2061 | VietStaking Validator#2530
+the API call I post above is just 1 example with Pikachu as parameter, the full documentation of that API can be found here:
+<https://pokedevs.gitbook.io/pokedex/resources/pokemon#example-request>
+you can replace Pikachu by something else & give it a try
+
+
+[21-Oct-19 03:51 AM] PHBA2061 | VietStaking Validator#2530
+and these are just data returned by the API, how to represent those data is up to the front-end dev
+
+
+[21-Oct-19 03:56 AM] CrisF#3405
+What would be the main advantages / disadvantages between method 1 and 2?
+
+
+[21-Oct-19 03:59 AM] PHBA2061 | VietStaking Validator#2530
+method 1: in general if you store a value on chain, it's non modifiable, . method 2: the value is stored off chain, so it's modifiable, but if you store too many things on chain, the chain can be bloated. So you need to consider between storing on chain or off chain.
+
+{Reactions}
+🙏 
+
+[21-Oct-19 04:07 AM] CrisF#3405
+I'm very interested to see this in action :2561_feelsevilman:
+
+
+[21-Oct-19 04:08 AM] PHBA2061 | VietStaking Validator#2530
+me too 😄
+
+
+[21-Oct-19 04:20 AM] CrisF#3405
+Is this data (https://pokeapi.glitch.me/v1/pokemon/Pikachu) part of the API, or is it just data that the API connects the token to?
+
+
+[21-Oct-19 04:27 AM] PHBA2061 | VietStaking Validator#2530
+that is part of the API.
+
+
+[21-Oct-19 04:28 AM] CrisF#3405
+Thanks.  Those simple questions are very hard for me to find an answer to with google :abusedsmily:
+
+
+[21-Oct-19 04:31 AM] PHBA2061 | VietStaking Validator#2530
+yeah it might be confused at first but don't worry
+
+
+[21-Oct-19 04:32 AM] PHBA2061 | VietStaking Validator#2530
+<https://pokeapi.glitch.me/v1/pokemon/Pikachu> basically returned data about Pikachu stored on a centralized server run by someone
+
+{Reactions}
+🙏 
+
+[21-Oct-19 04:43 AM] CrisF#3405
+Thanks, I wasn't sure if the data itself, or server were part of the API. (Or if the API is only the link).
+
+
+[21-Oct-19 05:10 AM] PHBA2061 | VietStaking Validator#2530
+in short, the back-end server has some code running on it (imagine it's like komodo daemon), API are the set of instructions that allow you to interact with the back-end (like how you run `komodo-cli help` or `komodo-cli getbalance` to interact with komodo daemon, but in this case you interact with the back-end via `https://pokeapi.glitch.me/v1/pokemon/Pikachu` or `https://pokeapi.glitch.me/v1/pokemon/25` instead)
+
+
+[21-Oct-19 05:14 AM] CrisF#3405
+Thanks, @PHBA2061 | VietStaking Validator.  That's exactly what I wanted to know. 🙇
+
+{Reactions}
+👍 
+
+[23-Oct-19 12:20 AM] Win Innovation#6244
+on Token Antara module, i see the example of tokencreate, but can we "burn" the particular amount of token?
+
+
+[23-Oct-19 12:21 AM] jl777c#5810
+tokentransfer to all 0s pubkey
+
+
+[23-Oct-19 12:23 AM] Win Innovation#6244
+@jl777c thanks for quick reply. How do we find out this 0s pubkey in our chain? Sorry, I just started to learn komodo platform
+
+
+[23-Oct-19 12:39 AM] jl777c#5810
+i dont understand the question, you can just send the tokens to pubkey 0000000000000000...000000
+
+
+[23-Oct-19 12:40 AM] jl777c#5810
+it is an unspendable pubkey
+
+
+[23-Oct-19 12:40 AM] jl777c#5810
+as all 0s is an illegal secp256 field element
+
+
+[23-Oct-19 01:24 AM] Win Innovation#6244
+@jl777c cool. thanks!
+
+
+[23-Oct-19 05:54 AM] Regnar#6164
+If that becomes something popular, either using that 0 pubkey or even an RPC `tokenburn` (idk if an RPC would be necessary or wanted) but maybe `tokenlist` could then exclude those that have been burned?
+
+
+[23-Oct-19 06:03 AM] jl777c#5810
+these are all non-consensus things, easy enough to add. i would accept a PR for it
+
+{Reactions}
+👍 
+
+[23-Oct-19 10:14 PM] Win Innovation#6244
+Hi, i'm looking for  language wrappers in PHP or nodejs. Can you point me to the right repository please?
+
+
+[23-Oct-19 11:33 PM] jl777c#5810
+@gcharang or @TonyL should know
+
+
+[24-Oct-19 12:15 AM] Oszy#5734
+@Win Innovation 
+NodeJS: https://github.com/turinglabsorg/komodo-tip-bot/blob/master/core/komodo.js RPC Connection is at Line 82 
+Another basic: https://github.com/Hafsa-Fatima/Komodo-RPC-Node-Library
+
+PHP i don't know @webworker01 or @CHMEX  would know that most likely
+
+{Embed}
+https://github.com/turinglabsorg/komodo-tip-bot/blob/master/core/komodo.js
+turinglabsorg/komodo-tip-bot
+Multichannel tip bot for Komodo based Asset Chains - turinglabsorg/komodo-tip-bot
+https://images-ext-1.discordapp.net/external/GhN3xCHgtiRCahiBzzY4nQaLZtRkjWNevHbIpi1u1e8/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/14848252
+
+{Embed}
+https://github.com/Hafsa-Fatima/Komodo-RPC-Node-Library
+Hafsa-Fatima/Komodo-RPC-Node-Library
+Contribute to Hafsa-Fatima/Komodo-RPC-Node-Library development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/mYNbt7wcb3jG-QwV9yTdd1sTwzJlAraFhd5iKjW0V2k/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/43526549
+
+
+[24-Oct-19 01:44 AM] gcharang#6833
+@Win Innovation 
+php: https://packagist.org/packages/webworker01/komodophp
+nodejs: https://github.com/gcharang/node-komodo-rpc --> this is just a wrapper that sends curl commands to the daemon;
+
+{Embed}
+https://packagist.org/packages/webworker01/komodophp
+webworker01/komodophp - Packagist
+Library to interact with Komodo-based blockchains
+
+{Embed}
+https://github.com/gcharang/node-komodo-rpc
+gcharang/node-komodo-rpc
+nodejs json-rpc client for Komodo and Smart Chains, with Promises and support for multiple instances - gcharang/node-komodo-rpc
+https://images-ext-2.discordapp.net/external/XjUnfLh_ll_5ZLNrsZgRQXP1rXaDVUgpLibKLCYGLLw/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/21151592
+
+{Reactions}
+👍 (3) 
+
+[24-Oct-19 03:10 AM] Win Innovation#6244
+Thanks, everyone!
+
+
+[24-Oct-19 07:11 AM] CrisF#3405
+Hi @PHBA2061 | VietStaking Validator  @gcharang and everyone,
+Could IPFS (`https://ipfs.io/`) be used for images on tokens?
+
+
+[24-Oct-19 07:35 AM] PHBA2061 | VietStaking Validator#2530
+yes it can, here's an example of how to do it <https://www.youtube.com/watch?v=KkjAktAA4M4>
+
+
+[24-Oct-19 07:43 AM] CrisF#3405
+That's great news.  Thanks, @PHBA2061 | VietStaking Validator!
+
+
+[24-Oct-19 09:34 AM] PHBA2061 | VietStaking Validator#2530
+@gcharang I just tried your node-komodo-rpc wrapper, works perfectly on NodeJS, doesn't work on browser though (or is it just me ?) , got this kind of error
+<https://stackoverflow.com/questions/54040683/nuxt-module-not-found-error-cant-resolve-fs/54055517>
+According to this post `fs` is a NodeJS specific module & can't be used on browser
+
+
+[24-Oct-19 09:53 AM] gcharang#6833
+@PHBA2061 | VietStaking Validator I made it to work for nodejs i.e., on a server as a part of a larger application that needs to interact with the komodo daemon
+
+I can modify it to work in a browser though, let me look into it
+
+
+[24-Oct-19 10:02 AM] PHBA2061 | VietStaking Validator#2530
+take your time, I'll be trying something else <https://www.npmjs.com/package/bitcoind-rpc>, this appears to wokrs both on NodeJS & browsers, but I run into another issue, seems like browsers don't really like http requests in general & blocks them <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors> , have to find a solution to get around it 😅
+
+
+[24-Oct-19 10:05 AM] gcharang#6833
+@PHBA2061 | VietStaking Validator are you trying to create a web ui for the komodo daemon ?
+
+
+[24-Oct-19 10:06 AM] gcharang#6833
+modding this: <https://github.com/janoside/btc-rpc-explorer>
+should be more productive
+
+
+[24-Oct-19 10:10 AM] gcharang#6833
+it gives sth like this <https://btc-explorer.com/> based on info from the local daemon
+this project was in my list, a good candidate to modify for a antara modules GUI
+then nSPV came along and I kinda let it go
+
+
+[24-Oct-19 10:14 AM] PHBA2061 | VietStaking Validator#2530
+thanks, I'll take a look at it & see how they done it, what I'm doing creating a web UI that queries my tokens on CFEKMYLO6 or MORTY chain, then display it. I'm using Vue/Nuxt so it will be fast to make
+
+{Reactions}
+👍 (2) 
+
+[24-Oct-19 02:18 PM] Regnar#6164
+I'd be interested in learning more about that PHBA. I just have an API in Python Flask that queries RICK tokens
+
+
+[24-Oct-19 02:18 PM] Regnar#6164
+Local host only right now
+
+
+[24-Oct-19 02:22 PM] PHBA2061 | VietStaking Validator#2530
+hopefully I can release a simple demo in a few days
+
+{Reactions}
+👍 🔥 
+
+[26-Oct-19 02:32 AM] PHBA2061 | VietStaking Validator#2530
+it seems `tokentransfer` doesn't work properly on CFEKMYLO6, after  sending out any amount of tokens, the remaining token balance (return by `tokenbalance`) becomes 0 (after tx's confirmation).
+Or it could be `tokenbalance` that doesn't return the correct number
+
+
+[26-Oct-19 04:46 AM] CrisF#3405
+I'll try it now and see how it goes for me, @PHBA2061 | VietStaking Validator.
+
+
+[26-Oct-19 04:47 AM] CrisF#3405
+(Will take a bit of time to set up)
+
+
+[26-Oct-19 05:06 AM] PHBA2061 | VietStaking Validator#2530
+you can try sending to yourself
+
+
+[26-Oct-19 05:08 AM] CrisF#3405
+Shuffling around some VMs.  Will try ☝ soon.
+
+
+[26-Oct-19 05:15 AM] CrisF#3405
+*For KB* 👇``` Attaching Data to Tokens
+
+We can attach meta data to the tokens at their creation.
+
+The maximum size of data that can fit in a single Komodo transaction is 10000 bytes. This is enough to include all sorts of data, and even simple images.
+
+The developer is naturally free to use their imagination in the design of this data. For example, you can describe their purpose and add a json data structure that informs other software of the properties of this token.
+
+Advanced developers can even add functionality to allow the tokens to gain new data over time as they are passed through transactions.```
+
+
+[26-Oct-19 05:18 AM] PHBA2061 | VietStaking Validator#2530
+who is KB btw ?
+
+
+[26-Oct-19 05:19 AM] CrisF#3405
+He asked me about Tokens.  I don't know his Discord name if he is here.
+
+
+[26-Oct-19 05:19 AM] CrisF#3405
+I'm having trouble even creating a token atm.
+
+
+[26-Oct-19 05:19 AM] CrisF#3405
+```-ac_name=CFEKMYLO6 tokencreate PHMAT1 1 "Testing MYLO6 tokentransfer to confirm PHMAs results, or not."
+{
+  "result": "error",
+  "error": "some inputs signed not with -pubkey=pk"
+}
+```
+
+
+[26-Oct-19 05:20 AM] CrisF#3405
+```"pubkey": "02c93422beb352c071557788351d5e3b374653551c5019e094b3df4c70fe4d4fe8",
+  "CCid": 1337,
+  "name": "CFEKMYLO6",```
+
+
+[26-Oct-19 05:22 AM] PHBA2061 | VietStaking Validator#2530
+did you importprivkey ?
+
+
+[26-Oct-19 05:23 AM] PHBA2061 | VietStaking Validator#2530
+& try with lower amount, like 0.000001 ,  `1` will create 100,000,000 tokens
+
+
+[26-Oct-19 05:24 AM] CrisF#3405
+Yes, it's a new address.  I'll try less.
+
+
+[26-Oct-19 05:24 AM] PHBA2061 | VietStaking Validator#2530
+you'll some CFEKMYLO6 then
+
+
+[26-Oct-19 05:25 AM] CrisF#3405
+Same result with lower amount.
+
+
+[26-Oct-19 05:27 AM] CrisF#3405
+I have a lot of MYLO6
+
+
+[26-Oct-19 05:27 AM] PHBA2061 | VietStaking Validator#2530
+hm, is the pubkey/privkey pair correct ?
+
+
+[26-Oct-19 05:30 AM] CrisF#3405
+```-ac_name=CFEKMYLO6 validateaddress RUudFjVH9LMikVcE1tAV78AGnG7qiu1MxT
+{
+  "isvalid": true,
+  "address": "RUudFjVH9LMikVcE1tAV78AGnG7qiu1MxT",
+  "scriptPubKey": "76a914d74e616986e9908075c098ff310ebdcdd19d73f288ac",
+  "segid": 14,
+  "ismine": true,
+  "iswatchonly": false,
+  "isscript": false,
+  "pubkey": "02c93422beb352c071557788351d5e3b374653551c5019e094b3df4c70fe4d4fe8",
+  "iscompressed": true,
+  "account": ""
+}
+```
+
+
+[26-Oct-19 05:30 AM] CrisF#3405
+adress dumps priv key I copied.
+
+
+[26-Oct-19 05:31 AM] CrisF#3405
+Maybe need to update
+
+
+[26-Oct-19 05:32 AM] CrisF#3405
+`tokenlist` shows quite a fedw tokens.
+
+
+[26-Oct-19 05:34 AM] PHBA2061 | VietStaking Validator#2530
+yes, I created most of them
+
+
+[26-Oct-19 05:35 AM] PHBA2061 | VietStaking Validator#2530
+but since I had issues with tokentransfer on CFEKMYLO6, I switch to MORTY instead
+
+
+[26-Oct-19 05:36 AM] CrisF#3405
+Is MORTY working ok?
+
+
+[26-Oct-19 05:38 AM] PHBA2061 | VietStaking Validator#2530
+yes tokentransfer on MORTY works properly
+
+
+[26-Oct-19 05:39 AM] CrisF#3405
+Hmm, I wasn't able to create a token (☝) but I can get my token address.
+The balance of 3 seems to match the 3 MYLO6 I have.
+
+
+[26-Oct-19 05:39 AM] CrisF#3405
+```{
+  "result": "success",
+  "TokensCCAddress": "RAMvUfoyURBRxAdVeTMHxn3giJZCFWeha2",
+  "TokensCCBalance": 0.00140000,
+  "TokensNormalAddress": "RCNgAngYAdrfzujYyPgfbjCGNVQZzCgTad",
+  "TokensNormalBalance": 0.00000000,
+  "myCCAddress(Tokens)": "RLDfvSvnw7VDpDX4cSUPtdaSRWJFHE5uDq",
+  "myCCbalance(Tokens)": 0.00000000,
+  "myaddress": "RUudFjVH9LMikVcE1tAV78AGnG7qiu1MxT",
+  "mybalance": 3.00000000
+}
+```
+
+
+[26-Oct-19 05:40 AM] PHBA2061 | VietStaking Validator#2530
+probably there is some differences between komodod used in LABS vs the official komodod, idk
+
+
+[26-Oct-19 05:40 AM] CrisF#3405
+I'll update and see if that helps.  Then 💤
+
+
+[26-Oct-19 05:42 AM] PHBA2061 | VietStaking Validator#2530
+thanks; anyways I'll continue testing on MORTY
+
+
+[26-Oct-19 05:42 AM] CrisF#3405
+btw, KB is the second person who has asked me specifically about tokens on Komodo. 
+I was originally asking for a different project.  And to learn more so I could answer general questions more sensibly.
+
+
+[26-Oct-19 05:43 AM] CrisF#3405
+There has been a lot of talk here about tokenizing assets over the last few months.  Especially in the last few weeks with many ETH people over here for DEVCON.
+
+
+[26-Oct-19 05:45 AM] PHBA2061 | VietStaking Validator#2530
+I think in a day or 2 I can finish a not so ugly demo 😅
+
+{Reactions}
+👀 
+
+[26-Oct-19 05:46 AM] CrisF#3405
+🚀
+
+
+[26-Oct-19 05:54 AM] CrisF#3405
+Ahh, this server has phm87's version of komodo for tCHIPS testing.  Maybe that is what is happening.
+
+
+[26-Oct-19 05:55 AM] PHBA2061 | VietStaking Validator#2530
+I think so
+
+
+[26-Oct-19 06:52 AM] CrisF#3405
+Still the same pubkey error with Labs komodo :/
+
+
+[26-Oct-19 06:52 AM] CrisF#3405
+💤
+
+
+[26-Oct-19 08:50 PM] Deleted User#0000
+LABS and komodo are much the same, except some RPC calls. Token transfer never worked that well for me, when i tested it. NFT seemed to work fine though.
+
+
+[27-Oct-19 12:26 PM] dimxy#2587
+This  "error": "some inputs signed not with -pubkey=pk" means that token creator wallet has other privkey(s) in addition to -pubkey=pk.
+It is recommended that the tokencreator has only one pk in the wallet.
+Actually this check prevents that a token creator creates a token and puts some pubkey in the token opreturn data for which he does not have the privkey (making the token users believe that the token is really created by the one whose pubkey is in the token data)
+
+
+[27-Oct-19 02:11 PM] Deleted User#0000
+why not just filter the inputs so it only uses the correct ones?
+
+{Reactions}
+👀 
+
+[28-Oct-19 02:18 AM] CrisF#3405
+Thanks for the explanation, @dimxy.
+Is it possible to filter the inputs as Blackjok3r suggested, or should I make a new wallet with only the token pubkey in it?
+
+
+[28-Oct-19 02:41 AM] dimxy#2587
+Yes thank you and blackjok very much, in fact I have already done this ( just changed to AddNormalInputs2 which filters mypk inputs by design. Just have not pushed yet)
+
+{Reactions}
+shexy 3040_kingpeepo (2) 
+
+[28-Oct-19 04:51 AM] PHBA2061 | VietStaking Validator#2530
+this is the first iteration of an "not so ugly" web app that I write to demonstrate NFT on Komodo 😅 , tell me if you want a starter Pokémon   <https://github.com/NOCTLJRNE/Komodo-Pokemon.git>
+
+{Reactions}
+3040_kingpeepo (5) 
+
+[28-Oct-19 05:46 AM] TonyL#3577
+Pika Pika Pikachu
+
+{Reactions}
+😂 
+
+[31-Oct-19 08:03 PM] CrisF#3405
+😁 @PHBA2061 | VietStaking Validator
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/639660873849503745/Komodo_Pokemon.png
+
+
+[01-Nov-19 12:58 AM] PHBA2061 | VietStaking Validator#2530
+@CrisF nice ! Can you post your pubkey here or DM me ?
+
+
+[01-Nov-19 01:01 AM] CrisF#3405
+Hi @PHBA2061 | VietStaking Validator, pubkey is `03d3c1472a363829dfa9ef24625c40c3c5accef4cd6c6b7cd9120bad0f9f1123c7`
+
+
+[01-Nov-19 01:07 AM] PHBA2061 | VietStaking Validator#2530
+I send you 1 pokémon, it will automatically shows up when the next block confirms
+
+
+[01-Nov-19 01:12 AM] PHBA2061 | VietStaking Validator#2530
+it arrived I think
+
+
+[01-Nov-19 01:16 AM] CrisF#3405
+Cool!  It just showed up!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/639739516776611840/Screenshot_from_2019-11-01_17-15-14.png
+
+
+[01-Nov-19 01:23 AM] PHBA2061 | VietStaking Validator#2530
+if you click on VERIFY, it will sign&verify a message to prove that you actually own that pubkey, the number will then turn green
+
+
+[01-Nov-19 01:24 AM] CrisF#3405
+I did, and it changed to green.
+
+
+[01-Nov-19 01:25 AM] CrisF#3405
+I'm just found that Treecko in Tokenlist and checking balance.
+
+
+[01-Nov-19 01:25 AM] CrisF#3405
+`d8d83d73bed2acd693607076e4e097689c1de9f5c542dfdb177f459a6ee5154a`
+
+
+[01-Nov-19 01:26 AM] CrisF#3405
+tokenid ☝
+
+
+[01-Nov-19 01:29 AM] PHBA2061 | VietStaking Validator#2530
+yep, it's always a good idea to cross-check with komodo-cli to make sure what I display is true
+
+
+[01-Nov-19 01:29 AM] PHBA2061 | VietStaking Validator#2530
+I'm going to send you another pokémon
+
+
+[01-Nov-19 01:31 AM] CrisF#3405
+```{
+  "result": "success",
+  "CCaddress": "RBkmaRaa6LeyTRaiD1tYqQc9bEF6gvwLnu",
+  "tokenid": "d8d83d73bed2acd693607076e4e097689c1de9f5c542dfdb177f459a6ee5154a",
+  "balance": 1
+}
+```New one just showed up 🙂
+
+
+[01-Nov-19 01:32 AM] PHBA2061 | VietStaking Validator#2530
+& another 1
+
+
+[01-Nov-19 01:32 AM] CrisF#3405
+Didn't need to verify this time.  Already green and `Verify` button off.
+
+
+[01-Nov-19 01:32 AM] PHBA2061 | VietStaking Validator#2530
+yeah, once you verify you won't need to verify until you change your pubkey
+
+
+[01-Nov-19 01:34 AM] PHBA2061 | VietStaking Validator#2530
+now if you check tokeninfo of for example `komodo-cli -ac_name=MORTY tokeninfo d8d83d73bed2acd693607076e4e097689c1de9f5c542dfdb177f459a6ee5154a` you will see that the owner is `039fc98c764bc85aed97d690d7942a4fd1190b2fa4f5f4c5c8e0957fac5c6ede00` (it's me)
+
+{Reactions}
+☑ 
+
+[01-Nov-19 01:34 AM] PHBA2061 | VietStaking Validator#2530
+you can checking my balance by copy-pasting  my pubkey
+
+
+[01-Nov-19 01:35 AM] PHBA2061 | VietStaking Validator#2530
+the VERIFY button will be re-enabled again, but you won't be able  to verify since you don't have my privkey
+
+
+[01-Nov-19 01:35 AM] CrisF#3405
+3rd just came in.
+
+
+[01-Nov-19 01:37 AM] PHBA2061 | VietStaking Validator#2530
+yeah I sent you 3 starter pokémon, 1 each
+
+
+[01-Nov-19 01:39 AM] CrisF#3405
+```{
+  "result": "success",
+  "CCaddress": "RSXnsMvbyJn9z3BDJij1AuNunHE8KkUqS6",
+  "tokenid": "4cef23ac268b6193f18d4f5fa6c610e2ae80b37162675feae07fdffdbbe4cfdc",
+  "balance": 77
+}
+```
+
+
+[01-Nov-19 01:39 AM] CrisF#3405
+Your Torchics 👆
+
+
+[01-Nov-19 01:39 AM] CrisF#3405
+🐳
+
+
+[01-Nov-19 01:40 AM] CrisF#3405
+This is very cool!
+
+{Reactions}
+👍 (2) 
+
+[01-Nov-19 01:42 AM] CrisF#3405
+Check out what PHBA2061 made, @gcharang 😎
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/639746067893714944/Komodo-Pokemon3.png
+
+{Reactions}
+💯 (3) 🎉 
+
+[01-Nov-19 01:49 AM] CrisF#3405
+I only have 2 now.  Sent you one back. `24e7f03eb3edea67897a26895bdfc130404b6b78b6e0b36435bf456b42533c44`
+
+
+[01-Nov-19 01:53 AM] PHBA2061 | VietStaking Validator#2530
+next release I'll implement a send function on the interface
+
+
+[01-Nov-19 01:56 AM] PHBA2061 | VietStaking Validator#2530
+& thanks for spending time on testing  my app
+
+
+[01-Nov-19 01:58 AM] CrisF#3405
+Man, Thanks a lot for making it!!
+
+{Reactions}
+👍 
+
+[01-Nov-19 02:03 AM] CrisF#3405
+@jl777c @Mihailo @Regnar  Thanks for your help on Tokens before.  @PHBA2061 | VietStaking Validator has made a cool demonstration app ☝
+
+{Reactions}
+💯 
+
+[01-Nov-19 03:15 AM] dimxy#2587
+fixed tokenorders (now returns all orders if tokenid is omitted)
+fixed tokencreate (now adds normal inputs only from mypk, and not from any pk in the wallet)
+the fixes in the dev branch
+
+{Reactions}
+👍 
+
+[01-Nov-19 03:25 AM] CrisF#3405
+Thanks, @dimxy 💎
+
+{Reactions}
+👍 (2) 
+
+[01-Nov-19 05:31 AM] Regnar#6164
+This is super cool @PHBA2061 | VietStaking Validator!!
+
+{Reactions}
+👍 (2) 
+
+[01-Nov-19 05:41 AM] PHBA2061 | VietStaking Validator#2530
+thanks for the compliment !
+
+
+[01-Nov-19 05:50 AM] Regnar#6164
+I'm not super familiar with the tokens structure, but is there some way of knowing the difference between tokens based on origin? Like the creators pubkey? Like what happens if I make my own pokemon token and send it to my pubkey in the app, is there a way (not saying in the app right now, more in general) to test the origin of the token?
+
+
+[01-Nov-19 05:51 AM] Alright#0419
+token is referenced by the txid used to create it, can easily see the pubkey that did it
+
+{Reactions}
+👍 (2) 
+
+[01-Nov-19 05:51 AM] Alright#0419
+not sure how well that answers the question 🤷
+
+
+[01-Nov-19 05:53 AM] Regnar#6164
+Yea I was thinking if PHBA built an app and wanted to solely handle card issuing, is there a way to check tokens that are sent to a pubkey for the origin to make sure it is "official"
+
+
+[01-Nov-19 05:55 AM] Regnar#6164
+If they can check original pubkey then that works, just a way to make sure someone doesn't create a ton of the strongest cards and send them to a game
+
+
+[01-Nov-19 07:13 AM] PHBA2061 | VietStaking Validator#2530
+Alright was right,when using cli-command  like `tokeninfo` or `tokenbalance`, you have to provide the tx that created the token, which acts like the uniqe id of that token <https://developers.komodoplatform.com/basic-docs/antara/antara-api/tokens.html#tokeninfo>
+
+
+[01-Nov-19 01:11 PM] Regnar#6164
+Yea the `owner` response is what I was thinking. This way there could be multiple pokemon games and by creating a GUI that only displays specific Owner tokens, or only allows those in gameplay, you can prevent a situation where someone makes a bunch of a powerful card and floods the card market. Or you can leave it blank, or build a white list to accept tokens from multiple sources
+
+
+[01-Nov-19 01:11 PM] Regnar#6164
+Cool!
+
+
+[01-Nov-19 04:14 PM] CrisF#3405
+Is there a way that tokens could be shown on an explorer?
+
+
+[01-Nov-19 04:14 PM] phm87#7395
+we can adapt an existing explorer code
+
+{Reactions}
+👍 
+
+[01-Nov-19 04:15 PM] phm87#7395
+I don't know if we need an explorer with txindex or not ...
+
+
+[01-Nov-19 04:16 PM] phm87#7395
+explorers with txindex are better but the only one that I know is iquidus explorer and its source is really wonky and I had troubles to install it
+
+
+[01-Nov-19 04:17 PM] phm87#7395
+explorer without txindex makes sense if you want to show only the tokens from the token distributor (I imagine a pool to simplify)
+
+
+[01-Nov-19 04:18 PM] CrisF#3405
+Would each token ID require a separate explorer?
+
+
+[01-Nov-19 04:18 PM] phm87#7395
+there is one into yiimp in PHP that I can adapt. I won't give a try on iquidus because it was too painful with it
+
+
+[01-Nov-19 04:20 PM] phm87#7395
+I don't know enough tokens to tell you. What I can do is to set up a token distributor and try with and without your ID. I think that if you can have 10 ID's of tokens on the same nodes, then only one explorer for the 10 ID's is enough
+
+
+[01-Nov-19 04:21 PM] phm87#7395
+can you do tx with different token ID on the same running node ?
+
+
+[01-Nov-19 04:21 PM] phm87#7395
+(maybe we already have what you want with the display of pokemons per address created by PHBA2061)
+
+{Reactions}
+👍 
+
+[01-Nov-19 04:22 PM] CrisF#3405
+For example in PHBA's app, each character has it's own tokenid, would a meta-explorer showing all tokens (characters) inn an address be possible (`  "PubkeyCCaddress(Tokens)": "RBkmaRaa6LeyTRaiD1tYqQc9bEF6gvwLnu",
+`?)
+
+
+[01-Nov-19 04:23 PM] CrisF#3405
+`can you do tx with different token ID on the same running node`
+Yes, all the pokemon tokens are running on the same chain (MORTY).
+
+
+[01-Nov-19 04:28 PM] CrisF#3405
+There are many types of address.  Don't know if that makes it easier or harder.
+
+
+[01-Nov-19 04:28 PM] CrisF#3405
+```{
+  "result": "success",
+  "TokensCCAddress": "RAMvUfoyURBRxAdVeTMHxn3giJZCFWeha2",
+  "TokensCCBalance": 0.00100000,
+  "TokensNormalAddress": "RCNgAngYAdrfzujYyPgfbjCGNVQZzCgTad",
+  "TokensNormalBalance": 0.00000000,
+  "PubkeyCCaddress(Tokens)": "RBkmaRaa6LeyTRaiD1tYqQc9bEF6gvwLnu",
+  "PubkeyCCbalance(Tokens)": 0.00000000,
+  "myCCAddress(Tokens)": "RBkmaRaa6LeyTRaiD1tYqQc9bEF6gvwLnu",
+  "myCCbalance(Tokens)": 0.00000002,
+  "myaddress": "RFpJ9JQnHEXmJPr4aFW8qpeByxU6vx6SCG",
+  "mybalance": 7.00669000
+}
+```
+
+
+[01-Nov-19 04:31 PM] phm87#7395
+I'll have a look at this after finishing to test apow into chips. But I think that PHBA may adapt an explorer before I do anything ^^ (or CHMEX maybe as he likes explorers)
+
+
+[01-Nov-19 04:35 PM] CrisF#3405
+Cool, thank @phm87.  I imagine something like this will be needed in the future.
+
+
+[01-Nov-19 04:40 PM] CrisF#3405
+---
+
+
+[01-Nov-19 04:41 PM] CrisF#3405 (pinned)
+Info on Antara Module addresses: `https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/understanding-antara-addresses.html`
+
+
+[01-Nov-19 04:41 PM] CrisF#3405
+Pinned a message.
+
+
+[01-Nov-19 10:33 PM] jl777c#5810
+all cc smartchains have -addressindex enabled, this is basically the rpc calls the insight explorer uses. look at the addressindex rpc calls
+
+
+[02-Nov-19 01:03 AM] jl777c#5810
+you can just issue these rpc calls for the pages that display transactions for an address. there is no need for the explorer to have a DB, it is built into the komodod
+
+{Reactions}
+👍 
+
+[03-Nov-19 09:58 AM] CrisF#3405
+@Regnar @Crabby Paddy Let's move the talk here and out of #komodo-team .
+
+
+[03-Nov-19 09:59 AM] CrisF#3405
+```Yeah!  Next step?  Test out the NFT, cross-chain, marketplace?
+NFT should be easy.
+Marketplace more common than cross-chain so maybe there?
+Can do cross-chain as marketplace being worked on?
+Oh, guess we should move this to #cc-assets ...```
+
+{Reactions}
+👍 
+
+[03-Nov-19 09:59 AM] CrisF#3405
+Ahh, need to add explorers ☝ to the to do list.
+
+
+[03-Nov-19 10:15 AM] Regnar#6164
+I'll keep the docs talk in #komodo-team but yea NFT should be here
+
+{Reactions}
+👍 
+
+[03-Nov-19 10:51 AM] Regnar#6164
+Where is the dev branch located? I'm using `windows_0.4.0a` for RICK so `tokenorders` without tokenID is broken
+
+
+[03-Nov-19 10:51 AM] Regnar#6164
+is there even one for windows? 😅
+
+
+[03-Nov-19 11:06 AM] Regnar#6164
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/640627766806708231/unknown.png
+
+
+[03-Nov-19 11:06 AM] Regnar#6164
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/640627976266055711/unknown.png
+
+{Reactions}
+👍 🔥 
+
+[03-Nov-19 11:07 AM] Regnar#6164
+lol obviously not an actual exchange or anything but I did just make it in 10 minutes 😅
+
+
+[03-Nov-19 11:07 AM] Regnar#6164
+kind of more token info explorer as of now (localhost)
+
+
+[03-Nov-19 11:09 AM] Regnar#6164
+and if you can't tell html is not my strong suit
+
+
+[03-Nov-19 11:09 AM] PHBA2061 | VietStaking Validator#2530
+that's a good start with 10 minutes !
+
+
+[03-Nov-19 11:10 AM] Regnar#6164
+just reworking some of the Flask frameworks I had, and I already wrote up Python RPC wrappers for Tokens CC
+
+
+[03-Nov-19 11:10 AM] Regnar#6164
+I need the dev branch to run `tokenorders` so I can actually put orders in there
+
+
+[03-Nov-19 11:12 AM] Regnar#6164
+Also I'm unsure of this, but does token swapping actually mean token for token, or can you also do KMD for tokens?
+
+
+[03-Nov-19 11:14 AM] Regnar#6164
+oh I think I got it `The tokenbid method posts a public bid order. To fill the order, the parent chain's coin must be used.`
+
+
+[03-Nov-19 11:18 AM] PHBA2061 | VietStaking Validator#2530
+I haven't tried those ask/bid command yet
+
+
+[03-Nov-19 11:19 AM] PHBA2061 | VietStaking Validator#2530
+if you're on windows 10 may be you can try to run komodo under Windows Subsystem for Linux ?
+
+
+[03-Nov-19 11:22 AM] Regnar#6164
+Yea maybe. I have a raspberry pi I've been meaning to convert to 64 bit to run Komodod on. Maybe it's time I finally do that
+
+
+[03-Nov-19 11:28 AM] CrisF#3405
+@Regnar very cool! 🚀
+
+
+[03-Nov-19 11:29 AM] CrisF#3405
+`git checkout dev` for dev branch
+
+{Reactions}
+👍 
+
+[03-Nov-19 11:31 AM] CrisF#3405
+The token marketplace is for token swapping only I believe.
+
+
+[03-Nov-19 11:33 AM] Regnar#6164
+I'm a bit new to programming, still getting a grasp on git and working on actual projects instead of simple scripts. But I'll see if I can get the dev branch
+
+
+[03-Nov-19 11:35 AM] CrisF#3405
+`git checkout dev` then build. `git log -1` will show branch.
+
+
+[03-Nov-19 11:36 AM] CrisF#3405
+To get tokens back to coins I believe that `Gateways` is needed.  The next logical Module to make a demo GUI for?
+
+
+[03-Nov-19 11:39 AM] Regnar#6164
+Yea I think people are going to want to price in a single unit of account, of which KMD would be ideal
+
+
+[03-Nov-19 11:39 AM] Regnar#6164
+Obviously tokens to tokens is also important, just think KMD deserves to get some love too.
+
+
+[03-Nov-19 11:40 AM] Regnar#6164
+Yea gateways for KMD to KMDT, token DEX to swap KMDT, and withdraw as KMD
+
+
+[03-Nov-19 11:41 AM] CrisF#3405
+Yes, we'll be able to tokenize kmd for the token market.
+
+
+[03-Nov-19 11:42 AM] CrisF#3405
+I thought @TonyL had a TUI/gui for Gateways already.  Couldn't find it, but found his `Channels` GUI here `https://github.com/tonymorony/ChannelsCC-GUI`
+
+
+[03-Nov-19 11:42 AM] CrisF#3405
+That's another good one to add to the mix.
+
+
+[03-Nov-19 11:43 AM] CrisF#3405
+What do you think, get the marketplace up first?
+
+
+[03-Nov-19 11:44 AM] CrisF#3405
+(`Dice` GUI `https://github.com/tonymorony/DiceCC-GUI`)
+
+
+[03-Nov-19 11:57 AM] CrisF#3405
+Ahh, got them.  @Regnar Many TUIs in here `https://github.com/tonymorony/komodo-cctools-python`
+
+Hope that is helpful.
+
+Thanks TonyL 🙇
+
+{Reactions}
+👍 
+
+[03-Nov-19 12:20 PM] CrisF#3405 (pinned)
+I made a Trello for `Assets`.  Please join, add and modify as needed.  
+
+If it seems useful it can be used as a template for other Modules.
+
+https://trello.com/invite/b/tpEsu2j1/0d20021ce10c6b6282f02afc2a324edf/module-assets
+
+{Embed}
+https://trello.com/invite/b/tpEsu2j1/0d20021ce10c6b6282f02afc2a324edf/module-assets
+Trello
+Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.
+
+
+[03-Nov-19 12:35 PM] Regnar#6164
+Wow Tony is killing it
+
+
+[03-Nov-19 12:36 PM] CrisF#3405
+Yeah!  Now he's so busy with AtomicDEX.  Miss him, haha.
+
+
+[03-Nov-19 12:36 PM] CrisF#3405
+His `Prices` project is very interesting.
+
+
+[03-Nov-19 12:38 PM] CrisF#3405
+Hopefully we can get this frontend kind of thing sorted out and give him and the other Devs the chance to concentrate on the bigger picture.
+
+
+[03-Nov-19 12:42 PM] Regnar#6164
+yea I'm almost exclusively python, so front end stuff for me is pretty basic but that's all a proof of concept is anyway
+
+{Reactions}
+👍 
+
+[03-Nov-19 12:53 PM] Regnar#6164
+I split up Tony's github to put each link in the proper section
+
+
+[03-Nov-19 12:53 PM] Regnar#6164
+When my initial commit gets accepted (terminology? lol) I'll make a pr for the new update
+
+
+[03-Nov-19 12:56 PM] CrisF#3405
+Good stuff!
+
+
+[03-Nov-19 02:10 PM] Regnar#6164
+```- Assets
+  - Pokemon NFTs - [https://github.com/NOCTLJRNE/Komodo-Pokemon.git](https://github.com/NOCTLJRNE/Komodo-Pokemon.git)
+  - Assets CC TUI in Python - [https://github.com/tonymorony/komodo-cctools-python/blob/master/assets_cc_tui.py](https://github.com/tonymorony/komodo-cctools-python/blob/master/assets_cc_tui.py)```
+Hey all, if you have any proof of concepts, built something cool using Assets CC (Tokens) and want to put it here, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible
+
+
+[03-Nov-19 02:25 PM] CrisF#3405
+Nice.
+
+
+[03-Nov-19 02:26 PM] Regnar#6164
+Got a full list but I figured a lot of the people working on a single CC are checking the CC general channel
+
+
+[03-Nov-19 02:26 PM] CrisF#3405
+PHMA's weren't NFTs I think.
+
+
+[03-Nov-19 02:26 PM] Regnar#6164
+ah, yea you're right. I'll fix that on the next commit, hopefully I can add a bunch more at the same time
+
+{Reactions}
+👍 
+
+[03-Nov-19 05:40 PM] CrisF#3405
+Hi @johnwhitestar 👋
+We have started to put together some reference GUIs for Antara Modules.  Very early stages.
+PHBA2061 has made a Pokemon token ☝ and Regnar has added a lot of info to the resources document that is waiting on the PR to be accepted.
+There also now a Trello board for Tokens/Assets here:  https://trello.com/b/tpEsu2j1/module-assets
+Please add to it if you can.
+
+{Embed}
+https://trello.com/b/tpEsu2j1/module-assets
+Trello
+Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.
+
+
+[03-Nov-19 05:42 PM] CrisF#3405
+Would like to get working on Gateways after Assets.  Any input would be appreciated!
+
+
+[03-Nov-19 06:08 PM] Regnar#6164
+started messing with some HTML to make it prettier. Kinda procrastinating on getting the `tokenorders` working with the dev branch
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/640734017502707731/unknown.png
+
+
+[03-Nov-19 06:30 PM] CrisF#3405
+That looks good :)
+What is the first thing you need to do with the `tokenorders`?
+
+
+[03-Nov-19 06:33 PM] Regnar#6164
+Honestly I can probably write what I need just from the docs, seeing the response from tokenorders. But I won't be able to test that it displays right in html
+
+
+[03-Nov-19 06:36 PM] Regnar#6164
+<https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html#examples-8>
+
+
+[03-Nov-19 06:40 PM] CrisF#3405
+The docs for tokens and assets is quite complete.  Gateways, too.
+
+
+[03-Nov-19 06:40 PM] CrisF#3405
+(That's how I managed to test it, haha.)
+
+
+[03-Nov-19 06:55 PM] Regnar#6164
+yup I'll probably just use that
+
+
+[03-Nov-19 10:03 PM] johnwhitestar#1227
+@CrisF Thank you!
+
+{Reactions}
+KMD 👍 
+
+[04-Nov-19 12:06 AM] TonyL#3577
+` - Assets CC TUI in Python`  I've not finished it, however there were interesting cases with rogue characters token DEX implementation: https://github.com/tonymorony/komodo-cctools-python/blob/master/lib/tuilib.py#L1527 (from here till line 1915)
+
+{Embed}
+https://github.com/tonymorony/komodo-cctools-python/blob/master/lib/tuilib.py
+tonymorony/komodo-cctools-python
+Python libs and interfaces for Komodo cryptoconditions consensus modules - tonymorony/komodo-cctools-python
+https://images-ext-1.discordapp.net/external/Holp9AfaeFvGp5-FK21tFWPUG6Vhnnx7aN2SJk6LnTA/https/repository-images.githubusercontent.com/151382224/5007df00-6c99-11e9-8f36-dfd6d7e8d715
+
+
+[04-Nov-19 02:47 AM] CrisF#3405
+Awesome, thanks @TonyL!
+
+
+[04-Nov-19 02:55 AM] Oszy#5734
+@Mylo did you ever had / created a remote webgui for KMDice?
+
+
+[04-Nov-19 02:56 AM] Oszy#5734
+I recall you mentioning, even linking something back in the days, can't seem to find it
+
+
+[05-Nov-19 05:41 PM] Regnar#6164
+Yes this is a cheap imitation of a DEX 😅
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/641452120306089984/unknown.png
+
+{Reactions}
+👍 (2) 👌 (2) 
+
+[05-Nov-19 07:09 PM] grewalsatinder#9653
+doing good @Regnar 👍
+
+
+[05-Nov-19 07:10 PM] Regnar#6164
+lol I have zero clue how to do html stuff, I'm basically slapping things together and it's working lol
+
+
+[05-Nov-19 07:10 PM] grewalsatinder#9653
+that's exactly someone starts doing something mate
+
+{Reactions}
+labs 
+
+[05-Nov-19 07:11 PM] grewalsatinder#9653
+you'll learn a lot out of this curiosity and hit and try
+
+
+[05-Nov-19 07:11 PM] grewalsatinder#9653
+the next project you will do after leaning this will be much greater
+
+
+[05-Nov-19 07:12 PM] grewalsatinder#9653
+I'm just happy that someone feels the need of GUI and actually trying to fill that space with whatever they got.
+we can't have enough GUI devs 
+the more the better
+and CC showcase in GUI is much needed
+
+
+[05-Nov-19 07:15 PM] grewalsatinder#9653
+I'm just busy with current project for probably next 2-3 weeks.
+then I'll start my contribution on CC GUIs in Node.js + jQuery based work.
+
+
+[05-Nov-19 07:16 PM] Regnar#6164
+I don't mind GUI in python, which I've gotten pretty used to since I know a bit of it. the HTML stuff is a bit different but is important especially for localhost run browser apps
+
+
+[05-Nov-19 07:16 PM] grewalsatinder#9653
+I'll suggest you to start taking bits and peaces from bootstrap website and make the HTML layout
+
+
+[05-Nov-19 07:16 PM] grewalsatinder#9653
+https://getbootstrap.com/
+
+
+[05-Nov-19 07:17 PM] grewalsatinder#9653
+yes, that's been amazing work.
+
+
+[05-Nov-19 07:18 PM] grewalsatinder#9653
+🤔 we should have some list of 3rd party GUIs for Komodo Platform stuff 🤔
+
+
+[05-Nov-19 07:18 PM] grewalsatinder#9653
+can you please push such list and updates to my awesomekmd git repo?
+
+
+[05-Nov-19 07:18 PM] grewalsatinder#9653
+http://awesomekmd.com/
+
+
+[05-Nov-19 07:18 PM] Regnar#6164
+I figured since most are just proof of concepts, and not really full functioning GUIs, it was better to just show them in the proof of concept list
+
+
+[05-Nov-19 07:18 PM] Regnar#6164
+especially if it's showing CC capabilities
+
+
+[05-Nov-19 07:19 PM] Regnar#6164
+like the pokedex, which is awesome
+
+
+[05-Nov-19 07:19 PM] grewalsatinder#9653
+at this moment, PoC GUIs are much needed and important.
+
+
+[05-Nov-19 07:19 PM] Regnar#6164
+I'm going to PM you something, a bit long and out of place for here
+
+
+[05-Nov-19 07:19 PM] grewalsatinder#9653
+whatever GUIs we can get is better than having nothing
+
+
+[05-Nov-19 07:20 PM] grewalsatinder#9653
+I rember the CLI days of SuperNET and end users complaining of no GUIs so no development/prodctive work by James 🤦
+
+
+[05-Nov-19 07:26 PM] Regnar#6164
+I mean, a lot of people do see GUI work as "tangible" or something.
+
+
+[05-Nov-19 07:26 PM] Regnar#6164
+because they can SEE it and they imagine users and businesses using it to click buttons and boom blockchain stuff happens
+
+
+[05-Nov-19 07:42 PM] CrisF#3405
+That would be great if you could help out with GUI whenever you have the chance @grewalsatinder !
+
+
+[05-Nov-19 07:44 PM] grewalsatinder#9653
+@CrisF would love to mate. in 2-3 weeks max. I'll be on to CC GUIs 🙂
+
+{Reactions}
+🔥 KMD (2) 
+
+[06-Nov-19 01:43 AM] Mylo#8306
+@Oszy https://github.com/imylomylo/komodo-cakeshop/blob/master/src/components/AppDiceTable.vue
+Is old and crusty.
+
+Modernizing here, https://github.com/imylomylo/blockchain2020 will be ready next year - working on non-blockchain stuff for foreseeable future.
+
+{Embed}
+https://github.com/imylomylo/komodo-cakeshop/blob/master/src/components/AppDiceTable.vue
+imylomylo/komodo-cakeshop
+Komodo Cakeshop - Ecosystem Projects - PoC. Contribute to imylomylo/komodo-cakeshop development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+{Embed}
+https://github.com/imylomylo/blockchain2020
+imylomylo/blockchain2020
+A web sample of connecting to Komodo Smart Chains - the original work was called "Komodo Cakeshop" - imylomylo/blockchain2020
+https://images-ext-2.discordapp.net/external/Giz-m4wzAWrLCD-Iwf0ZSbwKPBk4UChopj2JoKLF0Yo/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/19399102
+
+{Reactions}
+👍 (2) 👆 
+
+[06-Nov-19 01:45 AM] Oszy#5734
+@CrisF ^^
+
+
+[06-Nov-19 01:48 AM] CrisF#3405
+Thanks guys!  @Regnar might be able to use that 🙂
+
+
+[06-Nov-19 01:49 AM] CrisF#3405
+@Mylo, could you please check out the Trello? https://trello.com/b/tpEsu2j1/module-assets
+
+{Embed}
+https://trello.com/b/tpEsu2j1/module-assets
+Trello
+Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process.
+
+
+[06-Nov-19 01:50 AM] CrisF#3405
+Your feedback would be appreciated!
+
+
+[06-Nov-19 01:54 AM] Mylo#8306
+https://komodoplatform.com/tt2019-20-build-asset-exchange-token-dex-example/
+
+{Embed}
+mylo
+https://komodoplatform.com/tt2019-20-build-asset-exchange-token-dex-example/
+Tech Tuesday Development Update - 2019 Week 20 Build an Asset Exch...
+Komodo Platform is starting a weekly briefing on the progress the Komodo Dev Team is making. It's called Tech Tuesday Update. Here's another update!
+https://images-ext-2.discordapp.net/external/8XMvu7yonJg4inDzBZjwlnSf7vjp0DQ-ruYtMI10sZg/https/komodoplatform.com/wp-content/uploads/2019/08/tech-tuesday-banner-v2.jpg
+
+
+[06-Nov-19 01:55 AM] Mylo#8306
+Src code for seeing workflow in bash for filling orders is in this docker https://github.com/Komodo-Cakeshop/komodo-in-a-box
+
+{Embed}
+https://github.com/Komodo-Cakeshop/komodo-in-a-box
+Komodo-Cakeshop/komodo-in-a-box
+Cakeshop-In-a-Box but komodo specific, Turnkey Blockchain Starter Kit. - Komodo-Cakeshop/komodo-in-a-box
+https://images-ext-2.discordapp.net/external/JpoXzzXQ4UN23-0fC_I0eSDzdJcEbB8QyMefYTwucDg/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/45069400
+
+{Reactions}
+💯 
+
+[06-Nov-19 01:56 AM] Mylo#8306
+And token tutorial docker image http://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/beginner-series-part-4.html
+
+{Embed}
+http://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/beginner-series-part-4.html
+Komodo Developer Documentation
+Documentation for developers building on the Komodo Platform
+https://images-ext-2.discordapp.net/external/JRuH6_LDrjOGd6HbRckiIc9OBFcyJGE1c7DjCukFvtA/https/developers.komodoplatform.com/start-here-pics/Dev_Docs_Introduction_small.png
+
+{Reactions}
+treasure (3) 
+
+[06-Nov-19 01:58 AM] Mylo#8306
+NFT cross chain was a goal of @dimxy ??  Re @CrisF trello board.  The notarization tx look up seemed to be working.  Was going to be tested in labs, but I’m no longer doing it for public demo project.
+
+
+[06-Nov-19 02:08 AM] CrisF#3405
+Thank @Mylo, great stuff.
+The token migration worked for me.  I'm hoping someone will try it with a token containing data (image) and confirm the results.  Good exp too 🙂
+
+
+[06-Nov-19 02:09 AM] Mylo#8306
+Ah that’s great to hear.  Be handy in an nSPV multi chain app
+
+{Reactions}
+🚀 
+
+[06-Nov-19 02:20 AM] dimxy#2587
+Yes token migration should work, if any problems plz let me know
+
+
+[06-Nov-19 02:25 AM] CrisF#3405
+It worked for me, thanks @dimxy.
+
+
+[06-Nov-19 02:33 AM] CrisF#3405
+I added that to the Resources card in the Trello, @Mylo .
+
+
+[06-Nov-19 05:01 AM] kitblake#2497
+Hi all! 👋 Thanks for the invite @CrisF 👌
+
+
+[06-Nov-19 05:03 AM] CrisF#3405
+Hey Kit!  Welcome 👋
+
+
+[06-Nov-19 05:04 AM] kitblake#2497
+Woah, lotta channels here. Sorry for the off-topic-ness
+
+
+[06-Nov-19 05:05 AM] CrisF#3405
+It can get busy at times, haha.
+
+
+[06-Nov-19 05:07 AM] CrisF#3405
+@PHBA2061 | VietStaking Validator made some Pokemon Tokens that might give an idea of what can be done so far. `https://discordapp.com/channels/412898016371015680/524538792644837376`
+
+
+[06-Nov-19 05:07 AM] CrisF#3405
+above that you'll find Q&A about using IPFS with tokens.
+
+
+[06-Nov-19 05:10 AM] CrisF#3405
+Please ask here if you have any more questions.  There are may who can answer better than I, including the Devs who may be able to modify things if you need (not sure on that 🤞)
+
+
+[06-Nov-19 12:07 PM] CrisF#3405
+4
+
+{Reactions}
+💯 
+
+[06-Nov-19 06:09 PM] Regnar#6164
+That token Docker walk through was basically how I built my apps lol
+
+
+[06-Nov-19 06:10 PM] Regnar#6164
+I have a TokensCC github bot I will put up on Github and on AwesomeKMD when it's done. Got quite a few bugs to work out though
+
+
+[06-Nov-19 10:41 PM] TonyL#3577
+Revamping CC tests to add into CI process, found a little inconsistency for asks/bids cancellation (latest FSM). 
+The case is:
+Creating bid and ask from node A. Then cancelling it from node B (which don't have "permission" to cancel it obv).
+In case with tokenbidcancel generating transaction which rejecting on the broadcast, in case of tokenaskcancel I'm getting error right on tx generation stage. Example can be found below:
+https://paste.ubuntu.com/p/XQ6FD7VqMn/
+@dimxy can we generate error on tx generation stage in both cases?
+
+
+[06-Nov-19 11:16 PM] dimxy#2587
+@TonyL Are you suggesting that in your test case tokencancelbid should generate an error (before the tx is sent), like tokencancelask?
+
+
+[06-Nov-19 11:17 PM] TonyL#3577
+Yes if there are no difficulties with such implementation @dimxy
+
+
+[07-Nov-19 12:18 AM] dimxy#2587
+In cc assets most of the errors are discovered on the validation stage while the rpc creation code itself is rather simple. So usually a transaction could be created but if it has an issue it will be found later, while the tx is validated
+
+
+[14-Nov-19 04:34 AM] PHBA2061 | VietStaking Validator#2530
+I'm testing token methods & notice that orders created by `tokenbid` method aren't shown in the array returned by `mytokenorders`, only orders created by `tokenask` are shown
+
+
+[14-Nov-19 03:19 PM] CrisF#3405
+Hmm, maybe @dimxy knows why ☝
+🤞
+
+
+[14-Nov-19 10:17 PM] dimxy#2587
+Yes only asks are included into mytokenorders rpc.
+(Maybe this is because we created this rpc as an ad-hoc method for some specific purpose. Let's add bids too)
+
+{Reactions}
+🙏 
+
+[15-Nov-19 12:27 AM] jl777c#5810
+yes
+
+
+[15-Nov-19 12:32 AM] PHBA2061 | VietStaking Validator#2530
+adding a new method  to check the amount of unconfirmed tokens balance (similar to `tokenbalance` ) shouldn't be too complicated right ?
+
+
+[15-Nov-19 12:51 AM] jl777c#5810
+you mean scanning the mempool?
+
+
+[15-Nov-19 01:07 AM] PHBA2061 | VietStaking Validator#2530
+I mean a method similar to `getunconfirmedbalance` , but for getting unconfirmed token balance, I don't know in details how `getunconfirmedbalance` is implemented though
+
+
+[15-Nov-19 01:12 AM] jl777c#5810
+it is possible, but very tricky as the addressindex is not updated with mempool
+
+{Reactions}
+👍 
+
+[15-Nov-19 01:12 AM] jl777c#5810
+best would be to scan mempool for affected tokens and mark it as pending, but it will be much easier to wait until the confirmation and addressindex updates
+
+
+[15-Nov-19 01:18 AM] PHBA2061 | VietStaking Validator#2530
+thanks for the answer !
+
+
+[15-Nov-19 07:59 PM] CrisF#3405
+Yes, thanks!  🙏
+
+
+[16-Nov-19 08:36 AM] PHBA2061 | VietStaking Validator#2530
+<https://github.com/NOCTLJRNE/Komodo-Pokemon/tree/dex>
+I just pushed some updates to my app:
+- get rid of the CORS problem, so you can run the app normally on the browser.
+- adding some functionalities like token transferring, ask/bid orders placing/filling (based on the existing RPC methods) which allow users to trade their tokens.
+- I placed some orders selling my Pokémon at 1 MORTY per token, anyone is welcome to buy it ... 😂
+- I didn't really focus on UX, so the app might be a bit messy.
+
+{Reactions}
+💯 (3) 
+
+[16-Nov-19 09:24 AM] gcharang#6833
+hey @PHBA2061 | VietStaking Validator 
+I did
+```
+git clone https://github.com/NOCTLJRNE/Komodo-Pokemon/
+cd Komodo-Pokemon
+git checkout dex
+npm install
+npm run dev
+```
+then visited  http://localhost:3000/pokedex
+it is showing these errors
+
+
+[16-Nov-19 09:24 AM] gcharang#6833
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/645313366965092383/Screenshot_from_2019-11-16_22-53-16.png
+
+
+[16-Nov-19 09:26 AM] gcharang#6833
+ignore me 
+forgot to read the updated instructions lol
+
+
+[16-Nov-19 09:30 AM] gcharang#6833
+just bought one 🙂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/645314802243338272/Screenshot_from_2019-11-16_23-00-19.png
+
+
+[16-Nov-19 09:41 AM] PHBA2061 | VietStaking Validator#2530
+@gcharang nice ! If you fed up with it, you can always dump it into my buy order 😂
+
+
+[16-Nov-19 09:44 AM] gcharang#6833
+yup, sold it and bought a mudkip!
+
+{Reactions}
+😂 (2) 
+
+[16-Nov-19 12:35 PM] Regnar#6164
+Definitely going to try and buy some tonight!
+
+
+[16-Nov-19 02:13 PM] polycryptoblog#1173
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/645386018400239616/image0.jpg
+
+{Reactions}
+🙈 (6) 🐙 (3) 
+
+[17-Nov-19 09:09 AM] Paro#7842
+http://prntscr.com/py6fzh
+
+{Embed}
+http://prntscr.com/py6fzh
+Screenshot
+Captured with Lightshot
+https://images-ext-2.discordapp.net/external/Ylj0Tt-eMoqk9ibxUn-s_F_f2J9PtVTvPzIP2PR45R4/https/image.prntscr.com/image/E51Y23zQR0290X_Wxt5JyQ.png
+
+
+[17-Nov-19 09:11 AM] Paro#7842
+can this cause error?
+
+
+[17-Nov-19 09:33 AM] PHBA2061 | VietStaking Validator#2530
+@Paro did you get that error after clicking on the VERIFY button ? Then it indicates that the pubkey in the "Public key" field doesn't match with the private key that you have on your daemon
+
+
+[17-Nov-19 09:45 AM] Paro#7842
+".komodo" completely erased. I created a new wallet and pubkey.
+
+
+[17-Nov-19 09:45 AM] Paro#7842
+I am trying.
+
+
+[17-Nov-19 09:50 AM] Paro#7842
+
+{Attachments}
+https://cdn.discordapp.com/attachments/524538792644837376/645682217271558153/Baslksz-1.png
+
+
+[17-Nov-19 09:52 AM] PHBA2061 | VietStaking Validator#2530
+try SUBMIT then VERIFY
+
+
+[17-Nov-19 09:54 AM] PHBA2061 | VietStaking Validator#2530
+also add this line rpcallowip=your_remote_ip and remove this line rpcbind=127.0.0.1 in .komodo/MORTY/MORTY.conf
+
+{Reactions}
+👏🏻 
+
+[17-Nov-19 09:54 AM] Paro#7842
+same again.
+
+
+[17-Nov-19 09:55 AM] PHBA2061 | VietStaking Validator#2530
+& restart the daemon after editing MORTY.conf
+
+
+[17-Nov-19 09:57 AM] Paro#7842
+```rpcuser=user2371348726
+rpcpassword=pass40f2e00c9e0195d970010d7e87d0bcb44f30b76919a9b3917476f6a730448ad7e5
+rpcport=16348
+server=1
+txindex=1
+rpcworkqueue=256
+rpcallowip=127.0.0.1
+```
+
+
+[17-Nov-19 09:59 AM] Paro#7842
+same again.
+
+
+[17-Nov-19 10:00 AM] Oszy#5734
+rpcallowip=your_remote_ip - 127.1 is not remote
+
+
+[17-Nov-19 10:01 AM] PHBA2061 | VietStaking Validator#2530
+do you run MORTY chain & the web app on the same PC or it's 2 differents PC
+
+
+[17-Nov-19 10:01 AM] Paro#7842
+the same computer.
+
+
+[17-Nov-19 10:02 AM] Paro#7842
+I'm using "vbox (Virtual Box)"
+
+
+[17-Nov-19 10:05 AM] Oszy#5734
+LAN is in bridge mode? same subnet?
+
+
+[17-Nov-19 10:06 AM] PHBA2061 | VietStaking Validator#2530
+do you run `npm run proxy` ?
+
+{Reactions}
+👏🏻 
+
+[17-Nov-19 10:06 AM] Paro#7842
+I think I understand the problem.I need to open out the "vbox" network
+
+
+[17-Nov-19 10:07 AM] Paro#7842
+never seen that. SRRY ^^
+
+
+[17-Nov-19 10:07 AM] Paro#7842
+"npm run proxy"
+
+
+[17-Nov-19 10:07 AM] Paro#7842
+work..
+
+
+[17-Nov-19 10:08 AM] Paro#7842
+http://prntscr.com/py74aw
+
+{Embed}
+http://prntscr.com/py74aw
+Screenshot
+Captured with Lightshot
+https://images-ext-2.discordapp.net/external/BvkVVpNB3O64US-kssoE9NlhPqPhFdOlXTpFN96xkto/https/image.prntscr.com/image/de97O8arShmOg5ADTs97QQ.png
+
+
+[17-Nov-19 10:09 AM] Paro#7842
+I was using it. "npm run start. im srry
+
+
+[17-Nov-19 10:09 AM] PHBA2061 | VietStaking Validator#2530
+yeah you have to do both `npm run start` in 1 termnal & `npm run proxy` in another
+
+
+[17-Nov-19 10:10 AM] PHBA2061 | VietStaking Validator#2530
+you don't have any Pokémon yet though, I'll send you some MORTY & let you decide which one to buy
+
+{Reactions}
+👏🏻 
+
+[17-Nov-19 10:10 AM] Paro#7842
+nice..
+
+
+[17-Nov-19 10:11 AM] PHBA2061 | VietStaking Validator#2530
+could you paste you R-address here
+
+
+[17-Nov-19 10:11 AM] Paro#7842
+RQcWgdUV3ACAvfHxus5eUQyK5ZCGrjSKd2
+
+
+[17-Nov-19 10:11 AM] Paro#7842
+wait sync 
+```  "blocks": 55008,
+  "longestchain": 158279,
+```
+
+
+[17-Nov-19 10:13 AM] PHBA2061 | VietStaking Validator#2530
+your balance will be updated once synced <https://morty.explorer.dexstats.info/address/RQcWgdUV3ACAvfHxus5eUQyK5ZCGrjSKd2>
+
+{Reactions}
+👏🏻 
+
+[17-Nov-19 11:19 AM] Paro#7842
+2 pokemon put on sale.
+
+{Reactions}
+👍 
+
+[17-Nov-19 11:57 AM] Paro#7842
+@PHBA2061 | VietStaking Validator Where is the css file?
+
+
+[17-Nov-19 12:15 PM] PHBA2061 | VietStaking Validator#2530
+I didn't make any css file, I built my app using these frameworks NuxtJS + Vuetify , the styling was done using Vuetify , everything was built into js files that you can find in `.nuxt\dist\client`
+
+{Reactions}
+👍🏻 
+
+[02-Dec-19 02:00 PM] CrisF#3405
+Hi, is a NFT just a UTXO?
+
+
+[02-Dec-19 03:04 PM] PHBA2061 | VietStaking Validator#2530
+yes, everything is utxo based, the difference between NFT utxo & a "normal" utxo is the scriptSig/scriptPubKey.
+try using `decoderawtransaction` on the hex value returned by `tokentransfer` / `sendtoaddress` for example, you'll see the difference.
+
+
+[02-Dec-19 06:29 PM] CrisF#3405
+Thanks, @PHBA2061 | VietStaking Validator. I'll check that out and will then probably ha e some more questions.
+
+{Reactions}
+👍 
+
+[02-Dec-19 09:23 PM] Mylo#8306
+@CrisF antara modules use a new “vout”, UTXO with different signing method.  Just like p2pk & p2sh differ, antara offers a new signing method to greatly expand the btc protocol.
+
+https://komodoplatform.com/tech-tuesday-update-7/
+
+2nd article on this page might explain
+
+{Embed}
+mylo
+https://komodoplatform.com/tech-tuesday-update-7/
+Tech Tuesday Update #7: A Summary Of Last Week's Development - Komodo
+Komodo Platform is starting a weekly briefing on the progress the Komodo Dev Team is making. It's called Tech Tuesday Update. Here's the first one.
+https://images-ext-2.discordapp.net/external/8XMvu7yonJg4inDzBZjwlnSf7vjp0DQ-ruYtMI10sZg/https/komodoplatform.com/wp-content/uploads/2019/08/tech-tuesday-banner-v2.jpg
+
+
+[02-Dec-19 09:25 PM] Mylo#8306
+Opcode, not signing.  Sorry wrong word came out 🙂
+
+
+[03-Dec-19 12:42 AM] CrisF#3405
+Thanks @Mylo !
+
+{Reactions}
+👌 
+
+[13-Dec-19 03:42 AM] Mylo#8306
+@PHBA2061 | VietStaking Validator 
+I had a go of Opensea on eth to create a storefront, like your Pokémon trading aspect.  If you have metamask or opera mobile with crypto wallet support, have a look.
+
+I’d be interested in whether you wanted to make an Opensea for all KMD ecosystem chains of the future?
+
+Opensea has libs to look over how they do things.  They got funding from coinbase & binance labs.
+
+Here’s a blog post of my experience with it: https://hybriddex.com/2019/12/create-storefront-opensea-howto/
+
+{Embed}
+HD Mylo
+https://hybriddex.com/2019/12/create-storefront-opensea-howto/
+Create A Storefront On OpenSea & Sell Items Guide - Hybrid DEX
+Create a storefront on OpenSea & Sell Items with this step-by-step guide. We created one using the Opera Browser with Crypto Wallet integration from an iPad
+https://images-ext-2.discordapp.net/external/p5oBbPuaLOsFSQsZvhlIu4JBzVnn_XSs-7ABWiB64Qo/https/hybriddex.com/wp-content/uploads/2019/12/opensea-storefront-create-sign-request-1024x768.png
+
+
+[13-Dec-19 03:42 AM] Mylo#8306
+The “how much does it cost” is all gas fees!
+
+
+[13-Dec-19 03:54 AM] PHBA2061 | VietStaking Validator#2530
+@Mylo Thank Mylo, I'll take a look at that
+I created Komodo-Pokémon just as a proof of concept, I still don't know if I really want to go on & make real products with it
+
+
+[13-Dec-19 05:52 PM] Mylo#8306
+I understand that feeling. Take a look around Opensea, it’s basically a hosted version and platform of what you have created.
+
+
+[14-Dec-19 06:54 PM] polycryptoblog#1173
+@PHBA2061 | VietStaking Validator @Mylo  would totally get behind an MTG storefront / trading  using FT’s / NFT’s
+
+
+[14-Dec-19 06:55 PM] polycryptoblog#1173
+Mtg finance is a thing believe it or not
+
+
+[14-Dec-19 06:55 PM] polycryptoblog#1173
+Mtg = magic the gathering
+
+
+[15-Dec-19 12:07 AM] PHBA2061 | VietStaking Validator#2530
+yeah me too, I love trading card games, & I own a few NFT on Ethereum. I've never played MTG though, just watch it on twitch a few times
+
+
+[15-Dec-19 05:16 AM] Mylo#8306
+@polycryptoblog cool man.  I have some py cloud stuff to do atm, same sorta at scale stuff, so mixing in rpc from kmd chains can be done imo.  I’m new to py so will be busy getting the hang of it.
+The volume of Opensea and some of the games is astonishing.  I’m not that kind of player 🙂 quake is like coffee when I’m back home
+
+
+[15-Dec-19 06:14 AM] Mylo#8306
+Wow, 585 ppl were watching a gwent livestream...
+
+
+[13-Jan-20 09:32 PM] Mylo#8306
+https://opensea.io/blog/guides/non-fungible-tokens/
+
+{Embed}
+Devin Finzer
+https://opensea.io/blog/guides/non-fungible-tokens/
+The NFT Bible: Everything you need to know about non-fungible toke...
+This post provides an in-depth overview of non-fungible tokens: from the history of the non-fungible token, the technical anatomy of an ERC721, to the current state of the market, to the exciting future for NFTs.
+https://images-ext-2.discordapp.net/external/kO3RSWNP2I4iRgS9G3o_1jUvlCPKgS1ZUdNy_8F-wkM/https/opensea.io/blog/wp-content/uploads/2020/01/the-nft-bible-illustration.png
+
+
+[13-Jan-20 09:33 PM] Mylo#8306
+Have not read it all yet, but for anyone interested in this space, seems to have interesting links and topics
+
+{Reactions}
+👍 (5) 
+
+[04-May-20 10:56 PM] CJ#6111
+noob question, can cc-assets be run directly from Komodo?  or do they need to be run from an asset chain?   just wondering essentially  if smart contracts work directly on the Komodo chain?
+
+
+[04-May-20 11:05 PM] polycryptoblog#1173
+Needs to be run on an assetchain,   In the future we will enable some CCs on the main chain.
+
+
+[04-May-20 11:05 PM] polycryptoblog#1173
+Not sure if assets will be one of them, seems better to put that on a sidechain
+
+
+[04-May-20 11:11 PM] CJ#6111
+@polycryptoblog   Thanks!
+
+
+[09-May-20 12:12 PM] PsycheNate#5898
+$bal
+
+
+[31-May-20 05:02 PM] Regnar#6164
+@raevinn hey 😄
+
+
+[31-May-20 05:03 PM] raevinn#1919
+hey 🙂
+
+
+[31-May-20 05:03 PM] Regnar#6164
+Here's Komodo Assets docs, these can be used for non-fungible tokens. Hold on I'll get you some other specific proof of concepts
+<https://docs.komodoplatform.com/basic-docs/antara/antara-api/assets.html#assets>
+
+
+[31-May-20 05:04 PM] Regnar#6164
+Here's a project being built by RedFox Labs (a Komodo ecosystem partner) called Kogs
+https://www.kogs.gg/
+
+{Embed}
+https://www.kogs.gg/
+KOGS.gg
+KOGS is a mobile-friendly blockchain game with 100% of its backend on the blockchain. Collect rare KOGs, complete sets, and win awesome prizes!
+
+
+[31-May-20 05:04 PM] raevinn#1919
+do you have the equivalent of NFC/ ERC 721 tokens?
+
+
+[31-May-20 05:04 PM] Regnar#6164
+Here's someone building Pokemon NFTs as a proof of concept
+<https://github.com/NOCTLJRNE/Komodo-Pokemon>
+
+
+[31-May-20 05:05 PM] raevinn#1919
+wow, KOGS looks great
+
+
+[31-May-20 05:05 PM] Regnar#6164
+Yea I don't know too much about them but it has been coming along from the progress I've seen
+
+
+[31-May-20 05:06 PM] raevinn#1919
+Awesome
+
+
+[31-May-20 05:06 PM] raevinn#1919
+You guys are much faster than ETH right?
+
+
+[31-May-20 05:06 PM] Regnar#6164
+Non fungibles can be done with Komodo Assets. It just depends how many tokens you decide to make, NFTs would obviously be single tokens, while Fungible would be more
+
+
+[31-May-20 05:06 PM] raevinn#1919
+I'm trying to think if it makes sense to go full dapp
+
+
+[31-May-20 05:06 PM] raevinn#1919
+or like, hybrid
+
+
+[31-May-20 05:07 PM] Regnar#6164
+well you should really read up on the differences and the types of functionality you'll need. Ethereum and Komodo are two different beasts. We have a lot of things that can do what Ethereum can do, but generally we have a different infrastructure type. For example Komodo believes in multichain solutions.
+
+
+[31-May-20 05:08 PM] raevinn#1919
+I see
+
+
+[31-May-20 05:08 PM] raevinn#1919
+I also believe in that 🙂
+
+
+[31-May-20 05:08 PM] raevinn#1919
+so I can do ETH + Komodo efts
+
+
+[31-May-20 05:08 PM] raevinn#1919
+NFTs
+
+
+[31-May-20 05:08 PM] raevinn#1919
+lol
+
+
+[31-May-20 05:09 PM] Regnar#6164
+so while all ERC20 and ERC721 tokens are on Ethereum and pay gas in ETH, Komodo believes in building your own chains and paying fees only in your own coin. We have dPoW to protect smaller chains from 51% attacks and have a ton of tools to build with. This also means you don't have to sync Ethereum's entire blockchain just to run your app.
+
+
+[31-May-20 05:09 PM] raevinn#1919
+Anyways, I've gotta head to bed
+
+
+[31-May-20 05:09 PM] raevinn#1919
+Thanks so much for this
+
+
+[31-May-20 05:09 PM] Regnar#6164
+alright. I would recommend reading through the docs and asking around here to make sure it's a good fit for what you want to do
+
+
+[31-May-20 05:09 PM] raevinn#1919
+will contact red fox labs
+
+
+[31-May-20 05:09 PM] raevinn#1919
+Will do
+
+
+[31-May-20 05:10 PM] Regnar#6164
+Good idea, we have 3 main ecosystem partners that specialize in building on Komodo. Red Fox Labs, Chainzilla, and Chainmakers You can find their contacts down near the bottom here <https://komodoplatform.com/>
+
+
+[01-Jun-20 02:55 AM] LocoMB#8593
+nice to see independent projects looking at Komodo and its the advantages  because of the deficits of stupid ETH..
+
+{Reactions}
+👍 (2) 
+
+[01-Jun-20 08:23 AM] Regnar#6164
+I think one of the biggest things to deal with is ETH gas prices. If your project relies on transactions of a token, it doesn't make sense to spend more on gas than the value of the tokens being moved. ETH will still have tokens that have some purpose, for example those that only really matter on who is holding it (not rely on usage or transactions) because the gas price doesn't matter for that.
+
+
+[26-Jun-20 06:48 PM] GISELX#8347
+@Regnar  Pokémon starter pack?! I would love to hold some! I’m an artists trying to make my way through tokenizing on different chains. Do any of you know a minting platform that would make it easy for a non-coder to accomplish? I have now minted Art NFTs on ETH, EOS, Enjin, WAX & even and NFTs holding DGX.
+
+
+[28-Jun-20 04:17 PM] Regnar#6164
+@Bitcoin Benny ^^ 
+
+@GISELX  Maybe look at Redfox's Kogs https://kogs.gg/
+
+{Embed}
+https://kogs.gg/
+KOGS.gg
+KOGS is a mobile-friendly blockchain game with 100% of its backend on the blockchain. Collect rare KOGs, complete sets, and win awesome prizes!
+
+
+[09-Aug-21 09:44 AM] AndE#1245
+hello I am AndE CEO of DATZ token SLP that changes the gaming economy and would like to know how can I add my token on this platform
+
+
+[09-Aug-21 04:23 PM] grewalsatinder#9653
+There is a dedicated project using KMD’s tokens/assets technology, https://tokel.io 
+#dev-tokel
+
+{Reactions}
+👍 (2) 
+
+[09-Aug-21 04:24 PM] grewalsatinder#9653
+If any questions just contact @jorian
+
+
+[11-Oct-21 12:16 AM] cryptosammy#3587
+is it possible to make a bid/ask exclusively for just two parties?
+
+
+[11-Oct-21 04:49 AM] NutellaLicka#4241
+If you wanted to sell to somebody specifically, you would have them bid on your token and specifically fill that bid.
+
+{Reactions}
+👍 
+
+[11-Oct-21 02:57 PM] cryptosammy#3587
+@NutellaLicka that makes perfect sense, however, would that bid not be placed in the DEX public order book?
+
+
+[11-Oct-21 03:15 PM] NutellaLicka#4241
+Yes, but only the token owner can accept that bid. This is a problem if the token isn't an NFT I suppose. There is no way for private DEX transactions using assets, or bid/asks that are only fillable by a certain publeys.
+
+
+[11-Oct-21 03:24 PM] cryptosammy#3587
+@NutellaLicka can you elaborate on how the token owner only can accept the bid? I thought that there must first be an ask request?
+
+
+[11-Oct-21 03:38 PM] NutellaLicka#4241
+Have a read of these docs. They explain how a trade can be initiated by the buyer (bid) or initiated by a seller (ask).
+
+https://docs.tokel.io/api/assets/#introduction
+
+{Embed}
+https://docs.tokel.io/api/assets/
+Assets (tokenDEX)
+The Assets Module provides basic decentralised exchange (DEX) functionality for trading tokens created using the Tokens module.
+
+{Reactions}
+❤️ 
+
+[11-Oct-21 03:39 PM] cryptosammy#3587
+@NutellaLicka what is biggest change between Komodo's default Assets CC compared to Tokel CC?
+
+
+[11-Oct-21 03:41 PM] NutellaLicka#4241
+I cant list all the changes off the top of my head sorry. Youll have to compare documentation
+
+
+[11-Oct-21 03:41 PM] NutellaLicka#4241
+There are many small changes
+
+
+[11-Oct-21 03:42 PM] cryptosammy#3587
+@NutellaLicka the top 3 with most impact?
+
+
+[11-Oct-21 07:32 PM] NutellaLicka#4241
+The majority of the changes are in the tokens module, but the assets module was adjusted to take into consideration the royalty %. That is the biggest change
+
+{Reactions}
+❤️ 
+
+[11-Oct-21 11:09 PM] cryptosammy#3587
+@NutellaLicka i get it now, Assets CC is the DEX module and Tokens CC is for the actual token. I am so stupid. All the API from Tokel though looks similar (not that its a problem)
+
+
+[11-Oct-21 11:09 PM] cryptosammy#3587
+thank you
+
+
+[11-Oct-21 11:11 PM] NutellaLicka#4241
+Yep, that's the one! There are a lot of use case crossovers but they are different 🙂
+
+
+[12-Oct-21 04:00 AM] cryptosammy#3587
+(f536c48cc1552ba3afa1cdcba23ea49559d9b970961050eb9e9013e34857166e) <- the result after the broadcast
+can someone do a fillask test or check the above orders in the orderbook?
+(testchain tokel)
+
+
+[12-Oct-21 10:01 PM] Mylo#8306
+thanks for the summary. been a while since i've looked at the old assetsCC 😄
+
+
+[12-Oct-21 10:02 PM] Mylo#8306
+old article: https://komodoplatform.com/en/blog/tt2019-20-build-asset-exchange-token-dex-example/
+
+{Embed}
+https://komodoplatform.com/en/blog/tt2019-20-build-asset-exchange-token-dex-example/
+Tech Tuesday Development Update - 2019 Week 20 Build an Asset Excha...
+Things move fast at Komodo Platform. That’s why the Komodo team has decided to release a weekly briefing to cover all of the progress the Dev Team is making.
+https://images-ext-2.discordapp.net/external/08cBomueG19KhEM6I4EqcadF4BXQ_aVPXtY4I0d9k64/https/komodoplatform.com/en/blog/content/images/2021/07/default_komodo_960x480-50-43.jpg
+
+{Reactions}
+💯 
+
+==============================================================
+Exported 729 message(s)
+==============================================================

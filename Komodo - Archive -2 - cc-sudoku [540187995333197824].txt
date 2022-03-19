@@ -1,0 +1,2314 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-sudoku
+Topic: FSM branch ./komodod -ac_name=SUDOKU -ac_supply=1000000 -pubkey=<yourpubkeyhere> -addnode=5.9.102.210 -gen -genproclimit=1 -ac_cclib=sudoku -ac_perc=10000000 -ac_reward=100000000 -ac_cc=60000 -ac_script=2ea22c80203d1579313abe7d8ea85f48c65ea66fc512c878c0d0e6f6d54036669de940febf8103120c008203000401cc &
+==============================================================
+
+[30-Jan-19 07:20 AM] SHossain#0007
+😍
+
+
+[30-Jan-19 07:20 AM] jl777c#5810
+https://github.com/tonymorony/Komodoku in general I think it's ready for a short internal testing
+
+{Embed}
+https://github.com/tonymorony/Komodoku
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+{Reactions}
+👍 
+
+[30-Jan-19 07:20 AM] jl777c#5810
+needs FSM branch and SUDOKU chain synced
+
+
+[30-Jan-19 07:21 AM] jl777c#5810
+when it is verified working, we can announce to general channel
+
+
+[30-Jan-19 07:21 AM] TonyL#3577
+Isn't needed branch a `jl777` ?
+
+
+[30-Jan-19 07:21 AM] jl777c#5810
+I just updated FSM
+
+{Reactions}
+👌 
+
+[30-Jan-19 07:22 AM] jl777c#5810
+that way as I make changes, FSM is stable
+
+
+[30-Jan-19 07:22 AM] SHossain#0007
+testing
+
+{Reactions}
+🙌 
+
+[30-Jan-19 07:22 AM] SHossain#0007
+building latest FSM
+
+
+[30-Jan-19 07:24 AM] TonyL#3577
+@SHossain Please note that all the status information is in console
+
+{Reactions}
+👍🏽 
+
+[30-Jan-19 07:34 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/540193031832338442/pip-error
+
+
+[30-Jan-19 07:34 AM] SHossain#0007
+@TonyL got this pip error ^^
+
+
+[30-Jan-19 07:37 AM] TonyL#3577
+@SHossain Please install this package `sudo apt-get install libgnutls28-dev`
+and try again
+
+
+[30-Jan-19 07:37 AM] SHossain#0007
+ok
+
+
+[30-Jan-19 07:40 AM] siu#3920
+💌
+
+
+[30-Jan-19 07:40 AM] SHossain#0007
+changed name of the repo?
+
+
+[30-Jan-19 07:43 AM] TonyL#3577
+Fixed, thanks!
+
+
+[30-Jan-19 07:44 AM] SHossain#0007
+```
+Puzzle ID: 9e47d53e09685b4d253cf19655eeba93c25aa7d69c825c3513e9eb721b2ff271
+Reward amount: 100.0
+```
+
+
+[30-Jan-19 07:44 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/540195589678170123/Screenshot_from_2019-01-30_15-43-02.png
+
+{Reactions}
+Komodo 👌 🤓 
+
+[30-Jan-19 07:44 AM] SHossain#0007
+time to solve this
+
+
+[30-Jan-19 07:45 AM] TonyL#3577
+Good luck!
+
+
+[30-Jan-19 07:45 AM] Mihailo#5902
+See you in few hours @SHossain  😄 😄 😄
+
+{Reactions}
+troll_compadre 
+
+[30-Jan-19 07:45 AM] SHossain#0007
+let's see
+
+
+[30-Jan-19 07:46 AM] SHossain#0007
+haven't started yet properly.
+
+
+[30-Jan-19 07:46 AM] SHossain#0007
+sending info to TonyL
+
+
+[30-Jan-19 07:46 AM] SHossain#0007
+on few things
+
+
+[30-Jan-19 07:46 AM] SHossain#0007
+timer started
+
+
+[30-Jan-19 07:49 AM] dukeleto#7326
+looks like i need to learn Sudoku
+
+
+[30-Jan-19 07:50 AM] jl777c#5810
+best to not burn too much time solving these, that is for the general public to do
+
+
+[30-Jan-19 07:50 AM] SHossain#0007
+ok
+
+
+[30-Jan-19 07:50 AM] jl777c#5810
+there is only the need to make sure that it works and the sudoku aspect of it is a blackbox using external code anyway
+
+
+[30-Jan-19 07:53 AM] TonyL#3577
+It's super legacy python2 external code back from 2010 😃
+
+
+[30-Jan-19 07:53 AM] jl777c#5810
+how hard is it to make an installer for this so end users can just install it?
+
+
+[30-Jan-19 07:55 AM] TonyL#3577
+Can use PyInstaller, shouldn't be super hard
+
+
+[30-Jan-19 07:56 AM] TonyL#3577
+https://github.com/tonymorony/DiceCC-GUI/releases/tag/0.0.1 to package this one for Windows I've spent whole day - but there was much more deps and it was my first experience
+
+{Embed}
+https://github.com/tonymorony/DiceCC-GUI/releases/tag/0.0.1
+tonymorony/DiceCC-GUI
+Sample GUI for DiceCC. Contribute to tonymorony/DiceCC-GUI development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[30-Jan-19 07:57 AM] gcharang#6833
+Including prebuilt komodo binary would be good I think
+
+
+[30-Jan-19 07:57 AM] SHossain#0007
+```
+{u'name': u'sudoku', u'hex': u'0400008085202f89022ec152f7c5a565dbab4d58b8c73d549281a28faff5a1283136c24f8aa75c5f21000000007b4c79a276a072a26ba067a56580210223b2b9d35fb6383bbbc0dd6668825c91713bc21081b9ce33df3d7edbafa883058140b367b1780942148c9f5413f28584a8548ed0665ebb151b97edebf03f0dbbf3ed4069886e116615f44ba89abde57d84a8fe36d761ae562c772aff95f26066789da100af03800111a10001ffffffff2ec152f7c5a565dbab4d58b8c73d549281a28faff5a1283136c24f8aa75c5f21010000007b4c79a276a072a26ba067a565802103710241c81262b8ba4b443edaf05f67e197e07cbee1b9a3ff24cea9531b7015aa8140276b66ac605c2379048396ad8442924e0aca0ec786b1c6b387f341a6121345987436c2c31ff2e9c74440b5de043cf838be46a2d54725f355cf19a0895fc2fe15a100af03800111a10001ffffffff0200e40b5402000000232103137a5a8b6ee17583a715171da100c59c9172fa8ae5fe25c44b936f43f31128bcac0000000000000000fd9f016a4d9b01115351383436373935323133393532313336373834373331383234353639323734363133393538313933353837343236363835393432313337353137343638333932343238333539363731333639323731383435fd44015c51c89c5c51c89e000000005c51c8a1000000005c51c8a35c51c8a5000000005c51c8a65c51c9400000000000000000000000005c51c8ba5c51c8bb5c51c8be5c51c8bf0000000000000000000000005c51c94e00000000000000005c51c95200000000000000005c51c8c15c51c8c3000000005c51c8c55c51c8c700000000000000005c51c8cb5c51c8cd5c51c8ce000000005c51c8d3000000005c51c8d65c51c8d8000000005c51c9175c51c9195c51c91c5c51c8de5c51c8df00000000000000005c51c8da5c51c8dc5c51c9125c51c9135c51c9145c51c8e200000000000000005c51c8ed5c51c8ee5c51c8f0000000005c51c90d5c51c90f000000005c51c8e45c51c8e65c51c8f25c51c8f45c51c8f65c51c9085c51c9095c51c90b5c51c8e85c51c8e95c51c8ea5c51c8f95c51c9005c51c902000000005c51c9045c51c90400000000730600000000000000000000000000', u'txid': u'215f5ca78a4fc2363128a1f5af8fa28192543dc7b8584dabdb65a5c5f752c12e', u'amount': 100.0, u'result': u'success', u'sudokuaddr': u'RLdQPTMv3o9dWXxLFeG4rAbf3m9RSRoKnJ', u'method': u'solution'}
+Solution accepted!
+5d18f08ef076be38c6c90b2dda6bbe9ce1a6b4ab303de38347b2b649dc3ae336
+```
+
+
+[30-Jan-19 07:58 AM] SHossain#0007
+got my 100 SUDOKU reward
+
+
+[30-Jan-19 07:58 AM] SHossain#0007
+so, it works !
+
+
+[30-Jan-19 07:58 AM] TonyL#3577
+Yay
+
+
+[30-Jan-19 07:58 AM] SHossain#0007
+i cheated
+
+{Reactions}
+👌 
+
+[30-Jan-19 08:02 AM] jl777c#5810
+ok, lets make end user installers so we can get less technical people testing this
+
+{Reactions}
+👍 💯 (2) 
+
+[30-Jan-19 08:07 AM] TonyL#3577
+Ok starting to work on Windows and MacOS binaries 👍 
+Thanks for idea @gcharang  It have sense to put daemon into package - because if user can build daemon he no need installer
+
+{Reactions}
+💯 
+
+[30-Jan-19 08:08 AM] TonyL#3577
+Will need to add more code for daemon starting with proper pubkey on program start, sync ensuring and stopping after program exit to make it easy to use
+
+
+[30-Jan-19 08:09 AM] jl777c#5810
+all that has already been done, no sense to reinvent the wheel
+
+
+[30-Jan-19 08:09 AM] jl777c#5810
+even if users need to do a few steps at first to get the komodod running, that is fine
+
+{Reactions}
+👌 
+
+[30-Jan-19 08:17 AM] ComputerGenie#7004
+@TonyL I have no pip and it errs if I install (or at least it appears to install) with pip3
+```Traceback (most recent call last):
+  File "Sudoku.py", line 22, in <module>
+    import sudoku_kmdlib
+  File "/home/computergenie/Komodoku/sudoku_kmdlib.py", line 5, in <module>
+    from slickrpc import Proxy
+ImportError: No module named slickrpc```
+
+
+[30-Jan-19 08:19 AM] TonyL#3577
+@ComputerGenie The code is python2 
+slick-bitcoinrpc for python2 pip is needed
+
+
+[30-Jan-19 08:20 AM] ComputerGenie#7004
+fek me, last time I tried to mess with more than 1 version of py it feked my whole system
+
+
+[30-Jan-19 08:20 AM] TonyL#3577
+Oh I have to make virtual env, thought legacy python is preinstalled everywhere
+
+
+[30-Jan-19 08:22 AM] ComputerGenie#7004
+`python2.7 is already the newest version (2.7.13-2+deb9u3).`
+
+
+[30-Jan-19 08:23 AM] ComputerGenie#7004
+so, how do I get not 3 pip?
+
+
+[30-Jan-19 08:23 AM] TonyL#3577
+sudo apt-get install python-pip
+
+
+[30-Jan-19 08:24 AM] ComputerGenie#7004
+_is skerd_
+
+
+[30-Jan-19 08:25 AM] TonyL#3577
+Did it help @ComputerGenie ?
+
+
+[30-Jan-19 08:25 AM] ComputerGenie#7004
+so far, but I haven't tried to use much of my OS yet 😛
+
+
+[30-Jan-19 08:26 AM] TonyL#3577
+Oh this old gremlin pygame should work easy even on Raspberri Pi (it's preinstalled in Rapsbian OS)
+
+
+[30-Jan-19 08:29 AM] ComputerGenie#7004
+OK, got it running
+
+{Reactions}
+unicorn (2) 
+
+[30-Jan-19 08:30 AM] ComputerGenie#7004
+is there a way to make it work with numpad?
+
+
+[30-Jan-19 08:32 AM] TonyL#3577
+Not from a box 😃  Have to research it
+
+
+[30-Jan-19 08:34 AM] SHossain#0007
+yes, numpad didn't work for me too
+
+
+[30-Jan-19 08:34 AM] gcharang#6833
+Just got it working
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/540208294426443776/Screenshot_from_2019-01-30_22-04-31.png
+
+{Reactions}
+👍 
+
+[30-Jan-19 08:35 AM] TonyL#3577
+If non working numpad is critical for UX and confusing - will research how to  add it - maybe it's quite easy
+
+
+[30-Jan-19 08:40 AM] ComputerGenie#7004
+_needs to go get some graph paper for this with no scratch numbers_
+
+
+[30-Jan-19 08:49 AM] gcharang#6833
+@TonyL add instruction to import privkey
+I too cheated but received 100 coins 😃
+
+
+[30-Jan-19 08:51 AM] TonyL#3577
+@gcharang Do you mean instruction how to get valid pubkey?
+
+
+[30-Jan-19 08:51 AM] TonyL#3577
+Yes, anticheating protection disabled from CC side during the testing
+
+
+[30-Jan-19 08:52 AM] gcharang#6833
+No if user is using pubkey from somewhere else, to import privkey to this chain
+
+
+[30-Jan-19 09:03 AM] dukeleto#7326
+@ComputerGenie pip2
+
+
+[30-Jan-19 09:04 AM] dukeleto#7326
+```
+$ ls -1 /usr/local/bin/pip*
+/usr/local/bin/pip
+/usr/local/bin/pip2
+/usr/local/bin/pip2.7
+/usr/local/bin/pip3
+/usr/local/bin/pip3.7
+```
+
+
+[30-Jan-19 09:06 AM] jorian#4555
+this is cool
+
+
+[30-Jan-19 09:07 AM] gtm#2812
+i'm running into the pip2 error, anyway to force it?
+
+
+[30-Jan-19 09:07 AM] ComputerGenie#7004
+manually solved:
+
+
+[30-Jan-19 09:07 AM] ComputerGenie#7004
+```Puzzle ID: b5ba3f9276b2a3a1abb22eb854d64fe2d2d5769adeba86c244ba6d379e5b369a
+Reward amount: 100.0
+[%22b5ba3f9276b2a3a1abb22eb854d64fe2d2d5769adeba86c244ba6d379e5b369a%22,%22834579261796142583512638479329751846147863952658924137273415698481396725965287314%22,1548867915,0,1548867919,0,0,1548867933,1548867944,1548867946,1548867948,1548867922,0,1548867924,1548867937,0,1548867941,1548867950,1548867951,0,1548867929,1548867930,0,1548867938,0,0,0,0,1548867955,0,1548867957,1548867960,1548867962,1548867963,0,1548867979,1548867980,0,1548867972,1548867973,0,1548867966,1548867967,0,1548867982,0,1548867984,1548867975,1548867976,0,1548867969,0,0,0,1548867986,1548867987,0,0,1548867990,1548867999,1548868001,1548868002,1548868016,1548868018,1548868023,1548867992,1548867994,0,1548868004,1548868006,1548868008,1548868025,1548868027,1548868028,1548867997,0,0,1548868009,1548868011,1548868013,1548868031,1548868032,1548868033]```
+
+
+[30-Jan-19 09:08 AM] ComputerGenie#7004
+```{u'name': u'sudoku', u'hex': u'0400008085202f89029a365b9e376dba44c286bade9a76d5d2e24fd654b82eb2aba1a3b276923fbab5000000007b4c79a276a072a26ba067a56580210223b2b9d35fb6383bbbc0dd6668825c91713bc21081b9ce33df3d7edbafa8830581407bc5db9797aaef39c7c4f878b1659643813566cf951a8d546146db7d5034938a7f3c855026e899202e603196a0416591e455264adcf44f83cd6fe4f607c30e71a100af03800111a10001ffffffff9a365b9e376dba44c286bade9a76d5d2e24fd654b82eb2aba1a3b276923fbab5010000007b4c79a276a072a26ba067a565802102c4d2e4633f2de89da9148cffe5688e4cd24ca7965bd12888dcee429a3c5e714d814017988ac23cae206486536e1017ece551f6597bbb5140538a72c1a17bdcb990ac316f73056d76b4d47410d919081d4f8bda5cc5d9bc8304cce0dd972a33f5e389a100af03800111a10001ffffffff0200e40b540200000023210324157dbba81c2e92fb57310151b4ed11f1d5e0a891644110b29604051d59c2b6ac0000000000000000fd9f016a4d9b01115351383334353739323631373936313432353833353132363338343739333239373531383436313437383633393532363538393234313337323733343135363938343831333936373235393635323837333134fd44015c51d94b000000005c51d94f00000000000000005c51d95d5c51d9685c51d96a5c51d96c5c51d952000000005c51d9545c51d961000000005c51d9655c51d96e5c51d96f000000005c51d9595c51d95a000000005c51d962000000000000000000000000000000005c51d973000000005c51d9755c51d9785c51d97a5c51d97b000000005c51d98b5c51d98c000000005c51d9845c51d985000000005c51d97e5c51d97f000000005c51d98e000000005c51d9905c51d9875c51d988000000005c51d9810000000000000000000000005c51d9925c51d99300000000000000005c51d9965c51d99f5c51d9a15c51d9a25c51d9b05c51d9b25c51d9b75c51d9985c51d99a000000005c51d9a45c51d9a65c51d9a85c51d9b95c51d9bb5c51d9bc5c51d99d00000000000000005c51d9a95c51d9ab5c51d9ad5c51d9bf5c51d9c05c51d9c100000000db0600000000000000000000000000', u'txid': u'b5ba3f9276b2a3a1abb22eb854d64fe2d2d5769adeba86c244ba6d379e5b369a', u'amount': 100.0, u'result': u'success', u'sudokuaddr': u'RHSQ3XbeuTM1YB7japjzhkztwt7SXvRD2N', u'method': u'solution'}
+Solution accepted!
+168b47e98e5f29c7cbd21a0a1ec223e3d6e3f4b4833ad8de18d1bb051ef04ba1
+```
+
+
+[30-Jan-19 09:08 AM] dukeleto#7326
+@gtm what are you trying to do?
+
+
+[30-Jan-19 09:10 AM] jorian#4555
+this is a new PoW
+
+
+[30-Jan-19 09:10 AM] jorian#4555
+😛
+
+
+[30-Jan-19 09:11 AM] ComputerGenie#7004
+or proof of cheat for some of you 🙄
+
+{Reactions}
+😂 
+
+[30-Jan-19 09:23 AM] gtm#2812
+@dukeleto  same problem as genie had above
+
+
+[30-Jan-19 09:32 AM] jorian#4555
+the game is using quite some cpu power
+
+
+[30-Jan-19 09:39 AM] jorian#4555
+and it's not mining, it's the python process
+
+
+[30-Jan-19 09:42 AM] umitkara48#6464
+How to find seed
+
+
+[30-Jan-19 09:44 AM] umitkara48#6464
+Anyone find
+
+
+[30-Jan-19 09:46 AM] Lennart#9331
+how to?
+
+
+[30-Jan-19 09:46 AM] ComputerGenie#7004
+`TonyLToday at 10:23 AM
+sudo apt-get install python-pip`
+@gtm
+
+
+[30-Jan-19 09:46 AM] jorian#4555
+python pip is a pita
+
+
+[30-Jan-19 09:47 AM] ComputerGenie#7004
+`the game is using quite some cpu power`
+less than 7% here
+
+
+[30-Jan-19 09:48 AM] jorian#4555
+how many cores?
+
+
+[30-Jan-19 09:48 AM] jorian#4555
+i have all my 4 cores constantly above 50%
+
+
+[30-Jan-19 09:48 AM] ComputerGenie#7004
+on the "Sudoku" or on the chain gen command?
+
+
+[30-Jan-19 09:49 AM] jorian#4555
+python process
+
+
+[30-Jan-19 09:49 AM] jorian#4555
+i disabled the gen
+
+
+[30-Jan-19 09:49 AM] SHossain#0007
+https://twitter.com/0xca333/status/1090664381866823681
+
+{Embed}
+ca333 (@0xca333)
+https://twitter.com/0xca333/status/1090664381866823681
+jl777 just released the initial version of the sudoku CC! We celebreate this with another #Cryptopuzzle! Solve the sudoku below to find the 'key for the seed' loaded with 77.7 KMD! Join our discord https://t.co/NSxSfLBLBt for more infos on sudoku CC and this riddle! #crack...
+https://images-ext-2.discordapp.net/external/QWq2ZYQ7v6x920bbBXAENmFobwdO8JszAAMBWy5xubw/https/pbs.twimg.com/media/DyLQwtqWkAE2HHz.jpg%3Alarge
+Twitter
+
+
+[30-Jan-19 09:50 AM] ComputerGenie#7004
+https://i.ibb.co/190nHCv/Screenshot-2019-01-30-11-49-37.png
+
+{Embed}
+https://i.ibb.co/190nHCv/Screenshot-2019-01-30-11-49-37.png
+https://images-ext-1.discordapp.net/external/XHtdHfC1wdNhQZMwY7D4uHiLLTUuUmBcMjmWwv8T2N8/https/i.ibb.co/190nHCv/Screenshot-2019-01-30-11-49-37.png
+
+
+[30-Jan-19 09:50 AM] TonyL#3577
+@jorian Wow, I've tested on very tiny one core VM and it worked smooth
+
+
+[30-Jan-19 09:50 AM] jorian#4555
+wierd
+
+
+[30-Jan-19 09:50 AM] jorian#4555
+maybe it's a shady python version
+
+
+[30-Jan-19 09:50 AM] jorian#4555
+who knows
+
+
+[30-Jan-19 09:50 AM] jorian#4555
+i first want to solve this sudoku, then i'll troubleshoot :abusedsmily:
+
+{Reactions}
+👍 
+
+[30-Jan-19 09:51 AM] ComputerGenie#7004
+has anyone else done a manual solve or all you feks cheated?
+
+
+[30-Jan-19 09:52 AM] jorian#4555
+i'm doing it manually
+
+
+[30-Jan-19 09:52 AM] jorian#4555
+what's the fun of cheating
+
+
+[30-Jan-19 09:54 AM] taco#7800
+Totally cheating what's the fun of doing it legit😂
+
+{Reactions}
+troll_thuglife 
+
+[30-Jan-19 09:55 AM] Marios#1594
+How do I start solving? Like is this online or do I send the solution via message to someone? Sorry first time using discord
+
+
+[30-Jan-19 09:55 AM] siu#3920
+You need to run the chain
+
+
+[30-Jan-19 09:59 AM] ComputerGenie#7004
+do these things have a timeout?
+
+
+[30-Jan-19 10:00 AM] ComputerGenie#7004
+```{u'name': u'sudoku', u'hex': u'0400008085202f8902b817a935b076be4db5d93401edee2f41d6d98406bd6c5707cf1d49e07ca9226a000000007b4c79a276a072a26ba067a56580210223b2b9d35fb6383bbbc0dd6668825c91713bc21081b9ce33df3d7edbafa883058140a6973caa6f102aadfff71836a1029df386d445d7c4bd1c006fac8a1f4c156c9423f05d5f4bbd48b35f918c656ea82790339d81e7a2cba766dc79b3433ca6e832a100af03800111a10001ffffffffb817a935b076be4db5d93401edee2f41d6d98406bd6c5707cf1d49e07ca9226a010000007b4c79a276a072a26ba067a565802103e0ec759c33abd295522a704ab8a240e1a3fb39b2c197b39df7c79a5c3180ce0e81400374ac79a37eb0e919fecafac8663af85f5cc68508966640b5670f95ee8b4ec2426ba3c26639acff3dccb6bf2c4eda4a9e45375a9baa20d86b485bf61b722578a100af03800111a10001ffffffff0200e40b540200000023210324157dbba81c2e92fb57310151b4ed11f1d5e0a891644110b29604051d59c2b6ac0000000000000000fd9f016a4d9b01115351333136323738343539393834353633373231373235313934383336323331383537393634383539363432313733343637393331323835363732343135333938313933373836353432353438333239363137fd44015c51e4fa5c51e4fb5c51e4fc5c51e5005c51e5015c51e503000000005c51e5065c51e508000000005c51e5225c51e5255c51e5165c51e5175c51e5195c51e50a000000005c51e50b000000005c51e5275c51e529000000005c51e51d5c51e51f5c51e50e5c51e511000000005c51e52b000000005c51e52c5c51e59b5c51e55e5c51e59a5c51e59700000000000000005c51e58c5c51e5635c51e58d5c51e5655c51e56800000000000000005c51e590000000005c51e56f5c51e5705c51e59e5c51e59f5c51e548000000005c51e5355c51e5a05c51e56c5c51e5745c51e5a30000000000000000000000005c51e577000000005c51e5a2000000005c51e53e000000005c51e551000000005c51e5a55c51e57b000000005c51e57c5c51e54e5c51e57f000000005c51e5a8000000005c51e5555c51e5a65c51e5835c51e55700000000000000000a0700000000000000000000000000', u'txid': u'6a22a97ce0491dcf07576cbd0684d9d6412feeed0134d9b54dbe76b035a917b8', u'amount': 100.0, u'result': u'success', u'sudokuaddr': u'RYFrGQYHCADZo1TWP5t5cNuuZLfBCCEkY5', u'method': u'solution'}
+Solution accepted!
+58e38a5f013da36e80dfcd52bda52bfeced22a2cfc87a1a4bb37038a670b7cdd
+```
+
+
+[30-Jan-19 10:00 AM] ComputerGenie#7004
+manual solve 2
+```[%226a22a97ce0491dcf07576cbd0684d9d6412feeed0134d9b54dbe76b035a917b8%22,%22316278459984563721725194836231857964859642173467931285672415398193786542548329617%22,1548870906,1548870907,1548870908,1548870912,1548870913,1548870915,0,1548870918,1548870920,0,1548870946,1548870949,1548870934,1548870935,1548870937,1548870922,0,1548870923,0,1548870951,1548870953,0,1548870941,1548870943,1548870926,1548870929,0,1548870955,0,1548870956,1548871067,1548871006,1548871066,1548871063,0,0,1548871052,1548871011,1548871053,1548871013,1548871016,0,0,1548871056,0,1548871023,1548871024,1548871070,1548871071,1548870984,0,1548870965,1548871072,1548871020,1548871028,1548871075,0,0,0,1548871031,0,1548871074,0,1548870974,0,1548870993,0,1548871077,1548871035,0,1548871036,1548870990,1548871039,0,1548871080,0,1548870997,1548871078,1548871043,1548870999,0]
+```
+
+
+[30-Jan-19 10:00 AM] Alright#0419
+what is the purpose of this CC? A PoC or a captcha-esque rate limiter?
+
+
+[30-Jan-19 10:00 AM] jorian#4555
+hoard SUDOKU and sell them for LABS
+
+
+[30-Jan-19 10:01 AM] Alright#0419
+do not buy SODOKU, this is a test coin
+
+
+[30-Jan-19 10:01 AM] Alright#0419
+WTB SODOKU
+
+
+[30-Jan-19 10:02 AM] and1"ヅblubbi Vote for NN19#5646
+WTS SODOKU
+
+
+[30-Jan-19 10:02 AM] Alright#0419
+that was very much a joke
+
+
+[30-Jan-19 10:03 AM] ComputerGenie#7004
+WTS 258 SUDOKU @ 38KMD each
+
+
+[30-Jan-19 10:03 AM] and1"ヅblubbi Vote for NN19#5646
+WTB
+
+
+[30-Jan-19 10:03 AM] jorian#4555
+sodoku or sudoku
+
+
+[30-Jan-19 10:04 AM] ComputerGenie#7004
+"sudoku"
+
+
+[30-Jan-19 10:04 AM] Alright#0419
+why is -ac_cc=60000
+
+
+[30-Jan-19 10:05 AM] ComputerGenie#7004
+because james said so?
+
+
+[30-Jan-19 10:05 AM] ComputerGenie#7004
+😛
+
+
+[30-Jan-19 10:06 AM] ComputerGenie#7004
+_wonders how much work it would take to port a puzzle to automated solver API and just maul the rewards_
+
+
+[30-Jan-19 10:13 AM] jorian#4555
+not much]
+
+
+[30-Jan-19 10:15 AM] SHossain#0007
+James will put some validation and time limit on that
+
+
+[30-Jan-19 10:18 AM] PureHate#9411
+https://ibb.co/YX5PJWV
+
+{Embed}
+https://ibb.co/YX5PJWV
+choducul
+Image choducul hosted in imgbb.com
+https://images-ext-1.discordapp.net/external/zFzZOWGYdlxLN9Twi9NhUEdyiTMyvYjgM4oMc_gwBkM/https/i.ibb.co/FXQmcWd/choducul.png
+
+
+[30-Jan-19 10:18 AM] PureHate#9411
+seriously i
+
+
+[30-Jan-19 10:18 AM] mox#5707
+3 mins too late
+
+
+[30-Jan-19 10:20 AM] PureHate#9411
+i know :p
+
+
+[30-Jan-19 10:20 AM] PureHate#9411
+mine is for 77 BTC
+
+
+[30-Jan-19 10:20 AM] mox#5707
+oww nice grats 😄
+
+
+[30-Jan-19 10:21 AM] SHossain#0007
+did someone already taken the bounty?
+
+
+[30-Jan-19 10:21 AM] SHossain#0007
+solving the puzzle is just the first step
+
+
+[30-Jan-19 10:21 AM] and1"ヅblubbi Vote for NN19#5646
+no
+
+
+[30-Jan-19 10:22 AM] Alright#0419
+Does this serve a practical purpose or simply serve as a PoC
+
+
+[30-Jan-19 10:22 AM] SHossain#0007
+the Sudoku CC?
+
+
+[30-Jan-19 10:22 AM] SHossain#0007
+or the puzzle?
+
+
+[30-Jan-19 10:23 AM] ComputerGenie#7004
+`solving the puzzle is just the first step`
+what's the 2nd?
+
+
+[30-Jan-19 10:23 AM] Alright#0419
+CC
+
+
+[30-Jan-19 10:24 AM] Alright#0419
+sitting here wondering what this is actually for
+
+
+[30-Jan-19 10:24 AM] ComputerGenie#7004
+for @SHossain to be cryptic and not answer questions? ¯\_(ツ)_/¯
+
+{Reactions}
+☝ 
+
+[30-Jan-19 10:24 AM] SHossain#0007
+PoC and fun
+
+
+[30-Jan-19 10:25 AM] Alright#0419
+and the ac_cc
+
+
+[30-Jan-19 10:25 AM] Alright#0419
+why is it 60000
+
+
+[30-Jan-19 10:26 AM] SHossain#0007
+@ComputerGenie i honestly don't know what is the next step. @ca333 knows. i instantly scanned the image and solved it in my phone but not sure what to do next, so i left it alone 😛
+
+
+[30-Jan-19 10:26 AM] ComputerGenie#7004
+cheating fek
+
+{Reactions}
+unicorn 
+
+[30-Jan-19 10:27 AM] SHossain#0007
+@Alright James can aswer about -ac_cc=60000. i guess it's just a far number that other chain might not use
+
+
+[30-Jan-19 10:28 AM] ComputerGenie#7004
+_combines Tony's app with https://github.com/guanidene/pySudokuSolver and goes back to work while waiting on someone to say dafuq "step 2" is...._
+
+{Embed}
+https://github.com/guanidene/pySudokuSolver
+guanidene/pySudokuSolver
+A small graphical application for solving any Sudoku puzzle, almost instantaneously (along with its solution) - guanidene/pySudokuSolver
+https://images-ext-2.discordapp.net/external/Tiq5ipaDFa07j9Bv6IDqu6TFsYNpSzStAdf9kTK9B_Y/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/1028181
+
+
+[30-Jan-19 10:30 AM] jorian#4555
+lol, alright is overthinking this way too much
+
+
+[30-Jan-19 10:32 AM] jorian#4555
+@TonyL definitely python. no idea why it takes so much cpu power for something so simple
+
+
+[30-Jan-19 10:32 AM] ComputerGenie#7004
+@jorian are you on a Pentium or something?
+
+
+[30-Jan-19 10:32 AM] jorian#4555
+not really
+
+
+[30-Jan-19 10:33 AM] ComputerGenie#7004
+>well, it was "top of the line" in 1997....
+
+
+[30-Jan-19 10:33 AM] ComputerGenie#7004
+:troll:
+
+
+[30-Jan-19 10:33 AM] jorian#4555
+i5-4590
+
+
+[30-Jan-19 10:34 AM] ComputerGenie#7004
+` Expected Discontinuance 07/14/2017 `
+Time to update 😛
+
+
+[30-Jan-19 10:34 AM] jorian#4555
+where is the bull 😛
+
+
+[30-Jan-19 10:34 AM] TonyL#3577
+Hmm interesting, code should do nothing in background
+
+
+[30-Jan-19 10:35 AM] TonyL#3577
+Maybe it's event handlers
+
+
+[30-Jan-19 10:35 AM] Alright#0419
+@TonyL did the cclib RPC command change
+
+
+[30-Jan-19 10:35 AM] Alright#0419
+what are you passing to `cclib` rpc?
+
+
+[30-Jan-19 10:38 AM] TonyL#3577
+I'm passing RPC arguments - it's quite same. For example to get list of pending puzzles: ``` pending_puzzles = rpc_connection.cclib("pending", "17")["pending"]
+```
+
+
+[30-Jan-19 10:40 AM] Alright#0419
+./komodo-cli -ac_name=CLIB cclib faucet2_fund "["10"]"
+this is what it use to be
+
+
+[30-Jan-19 10:40 AM] Alright#0419
+trying to figure out what the equivalent is now. I see that cclibinfo output changed and the methods are now separated from contract name
+
+
+[30-Jan-19 10:41 AM] Alright#0419
+`cclib "pending" "17"` ?
+
+
+[30-Jan-19 10:42 AM] TonyL#3577
+In cli it's `./komodo-cli -ac_name=SUDOKU cclib "pending" 17`
+
+
+[30-Jan-19 10:42 AM] Alright#0419
+I don't understand the list following where you called the function. Is that the response?
+
+
+[30-Jan-19 10:42 AM] TonyL#3577
+```./komodo-cli -ac_name=SUDOKU cclib "txidinfo" 17 \"5d13c1ad80daf37215c74809a36720c2ada90bacadb2e10bf0866092ce558432\"```
+17 is evalcode
+
+
+[30-Jan-19 10:42 AM] TonyL#3577
+Which list?
+
+
+[30-Jan-19 10:43 AM] Alright#0419
+rpc_connection.cclib("pending", "17")`["pending"]`
+
+
+[30-Jan-19 10:43 AM] TonyL#3577
+I'm taking the key "pending" from dictionary
+
+
+[30-Jan-19 10:43 AM] TonyL#3577
+```test = { "a" : 1, "b" : 2}
+test1 = test["b"]
+2```
+
+
+[30-Jan-19 10:44 AM] Alright#0419
+ah the result of the function is dict than "pending" is value?
+
+
+[30-Jan-19 10:44 AM] Alright#0419
+didn't realize you could do it like that
+
+
+[30-Jan-19 10:45 AM] TonyL#3577
+Yes it returning JSON and pending transactions are in `pending` key
+
+
+[30-Jan-19 10:46 AM] Alright#0419
+```
+blah = rpc_connection.cclib("pending", "17")
+pending_puzzles = blah["pending"]
+```
+
+
+[30-Jan-19 10:46 AM] Alright#0419
+same thing right?
+
+
+[30-Jan-19 10:46 AM] TonyL#3577
+Yep
+
+
+[30-Jan-19 10:47 AM] TonyL#3577
+Btw it's not so easy to connect automated solver even with current protection
+
+
+[30-Jan-19 10:49 AM] TonyL#3577
+There are tricky moments - especially when will be enabled full validation. That's why I have a dynamically updating dictionary where keys are cells numbers from 1 to 81 and values are timestamps from keyboard valid key input handler
+
+
+[30-Jan-19 10:51 AM] Alright#0419
+was excited to try to break the validation code until I saw it 😂
+
+{Reactions}
+😂 
+
+[30-Jan-19 10:56 AM] Alright#0419
+confused how it's adding CC vouts in the cb
+
+
+[30-Jan-19 10:56 AM] Alright#0419
+is that the purpose of ac_cc=60000 maybe?
+
+
+[30-Jan-19 10:57 AM] TonyL#3577
+Oh it's better to ask James 😃
+
+
+[30-Jan-19 11:10 AM] ComputerGenie#7004
+this could catch on with better board navigation and numpad usage
+
+
+[30-Jan-19 11:11 AM] ComputerGenie#7004
+mouse-click and hunt and peck becomes tedious after the 3rd puzzle
+
+
+[30-Jan-19 11:20 AM] TonyL#3577
+It's in my enhancements list - navigation logic I not touched at all so far. Forked code loops looks very scary
+
+
+[30-Jan-19 11:22 AM] TonyL#3577
+Btw it's easy to use custom backgrounds - just need to put 600x400 background.png
+
+
+[30-Jan-19 11:22 AM] TonyL#3577
+So possible to make CFEK super custom skin
+
+
+[30-Jan-19 12:32 PM] jl777c#5810
+I just picked 60000 for a clusterid
+
+
+[30-Jan-19 12:32 PM] jl777c#5810
+i added support for multiple evalcodes, so I needed something other than faucet2 and didnt want to be lame and make faucet3
+
+
+[30-Jan-19 12:32 PM] jl777c#5810
+so I combined a gamified blockchain and made SUDOKU.
+
+
+[30-Jan-19 12:33 PM] jl777c#5810
+with the timestamps, we should be able to get a decent captcha, but I need a few dozen actually human solve times to train the AI with, hundreds would be better
+
+
+[30-Jan-19 12:34 PM] TonyL#3577
+Maybe make some solving competion with screen streaming let's say on Twitch?
+
+
+[30-Jan-19 12:34 PM] jl777c#5810
+so when this is all working, it will be a gamified chain that is basically its own automated entity as it is an ac_perc chain, so as people solve puzzles new puzzles can be created. It will also create a database of sudoku solve timestamps to be useful for captcha pattern recognition
+
+
+[30-Jan-19 12:35 PM] jl777c#5810
+and the rich list will be the top sudoku solver list
+
+
+[30-Jan-19 12:35 PM] TonyL#3577
+To get more these human times
+
+
+[30-Jan-19 12:35 PM] jl777c#5810
+so it has the multifaceted purpose
+
+
+[30-Jan-19 12:36 PM] jl777c#5810
+I came up with another game I can put into the blockchain,but not sure yet if it will make sense.  I guess it can be a race for people to solve the same game, which turns what is otherwise a solitaire game into a multiplayer, even though there is no direct interaction
+
+
+[30-Jan-19 12:37 PM] jl777c#5810
+once all the sudoku are solved, then issuing a single one with multiple players turns it into a competitive race, but before we can have any much value to SUDOKU coins, we need the timestamp data
+
+
+[30-Jan-19 12:38 PM] jl777c#5810
+also, it serves as PR material as I could see some project raising 13 million USD, just to do a sudoku blockchain (2017), so it is funny that we achieve it in 2 days
+
+
+[30-Jan-19 12:38 PM] jl777c#5810
+any bugs?
+
+
+[30-Jan-19 12:38 PM] Alright#0419
+what is triggering the CC vout in coinbase
+
+
+[30-Jan-19 12:38 PM] Alright#0419
+I couldn't follow
+
+
+[30-Jan-19 12:38 PM] jl777c#5810
+triggering? it is an -ac_script chain
+
+
+[30-Jan-19 12:39 PM] jl777c#5810
+not sure if it is the first chain to ac_perc -> CC vout, that is another function
+
+
+[30-Jan-19 12:39 PM] jl777c#5810
+and I made it a clusterable chain just in case it became massively popular
+
+
+[30-Jan-19 12:40 PM] Alright#0419
+so ac_script will just work with any CC vout?
+
+
+[30-Jan-19 12:41 PM] Alright#0419
+`cclib gen 17`
+
+
+[30-Jan-19 12:41 PM] Alright#0419
+the `"amount"` value returned seems random
+
+
+[30-Jan-19 12:41 PM] Alright#0419
+what is it?
+
+
+[30-Jan-19 12:43 PM] jl777c#5810
+amount is based on the difficulty score for the generated sudoku
+
+
+[30-Jan-19 12:43 PM] jl777c#5810
+the ac_script is specifically for the evalcode 17 to the global pubkey
+
+
+[30-Jan-19 12:43 PM] Alright#0419
+and when it returns `not enough SUDOKO funds`, is this not enough funds in CC address or not enough in my address?
+
+
+[30-Jan-19 12:43 PM] jl777c#5810
+it uses global funds
+
+
+[30-Jan-19 12:44 PM] jl777c#5810
+so not enough funds means not enough global funds
+
+
+[30-Jan-19 12:44 PM] jl777c#5810
+anybody can create new sudoku using the global funds
+
+
+[30-Jan-19 12:44 PM] Alright#0419
+and `"srand"`, what is this?
+
+
+[30-Jan-19 12:44 PM] jl777c#5810
+for now you need to be nice, please dont make illegal rpc calls
+
+
+[30-Jan-19 12:44 PM] jl777c#5810
+srand is unix rng, read the docs
+
+
+[30-Jan-19 12:44 PM] Alright#0419
+yea, saw the validation code 😂
+
+
+[30-Jan-19 12:45 PM] jl777c#5810
+it is basically 1 day of coding and a few hours of bugfixing. couldnt fit in validation in that time
+
+
+[30-Jan-19 12:45 PM] jl777c#5810
+but now the adding of another evalcode is a matter to update a switch statement, well 2 of them, one for rpc another for validation
+
+
+[30-Jan-19 12:55 PM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/540273939360776227/5705741831.jpg
+
+
+[30-Jan-19 01:06 PM] jl777c#5810
+the idea is to use the GUI so it submits manual solve timestamps
+
+
+[30-Jan-19 01:19 PM] TonyL#3577
+Sudokus in Windows10 already 😃
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/540279910628065301/unknown.png
+
+
+[30-Jan-19 01:23 PM] Alright#0419
+hint: look at stdout
+
+{Reactions}
+PeepoThink 
+
+[30-Jan-19 01:26 PM] TonyL#3577
+Actually I'm connected to daemon on Linux VPS :troll_compadre:
+
+
+[30-Jan-19 01:45 PM] dukeleto#7326
+This shows various top people  in a "sudoku world record" solving in real time: https://youtu.be/xVamtr5BAFc?t=121
+
+{Embed}
+HALAS
+https://youtu.be/xVamtr5BAFc?t=121
+WSC & WPC 2018 - Sudoku world record
+https://images-ext-2.discordapp.net/external/SaR_2GDO2pniRyiP7238iqs_9yieSwY7nHngrcQDf8E/https/i.ytimg.com/vi/xVamtr5BAFc/maxresdefault.jpg
+
+
+[30-Jan-19 01:46 PM] dukeleto#7326
+it might be easier to manually extract rough data from that video and make sure submissions are not X% more than current world sudoku record by a human
+
+
+[30-Jan-19 01:54 PM] jl777c#5810
+genie solved one in about 2 minutes
+
+
+[30-Jan-19 01:54 PM] jl777c#5810
+i think it matters based on difficulty
+
+{Reactions}
+👆🏽 
+
+[30-Jan-19 02:03 PM] ComputerGenie#7004
+or that copy/pasting into 3 apps and all that clicking took too long :troll:
+
+
+[30-Jan-19 02:19 PM] ComputerGenie#7004
+`and make sure submissions are not X% more than current world sudoku record by a human`
+@dukeleto what's to stop them from just adding `sleep 55`?
+
+
+[30-Jan-19 02:38 PM] CryptoBert#4601
+Are people who are not developers able to solve this puzzle also? 😉
+
+
+[30-Jan-19 02:39 PM] ComputerGenie#7004
+@CryptoBert I solved 2 or 3 of them manually
+
+
+[30-Jan-19 02:40 PM] CryptoBert#4601
+I've got the sudoku. I think I have a clue what the heart/brain of Komodo is.. but then what? 😉
+
+
+[30-Jan-19 02:41 PM] Hamiltonian#7858
+things i've tried: using diagonals, rows top to bottom or columns left to right, tried excluding given numbers, converting to letters for patterns, finding 7th numbers for row or column, using fee as key for row or columns, location of 7th number in each square, also tried sha256 of all those answers, taking double sha256 of all the answers, making qr code of every square =>7 as black, converting to base 16, 32, 56 and 64, stepping through the solution with {10(j), 12(l), 7, 7, 7} steps and same for "dpow", writing numbers that would form a giant 7
+
+
+[30-Jan-19 02:42 PM] Hamiltonian#7858
+too tired now lol
+
+{Reactions}
+😂 (2) 👍 
+
+[30-Jan-19 02:44 PM] ComputerGenie#7004
+_was too lazy to try for the promo and assumed that @Decker solved it hours ago in the 1st 5 minutes_
+
+{Reactions}
+😆 
+
+[30-Jan-19 02:45 PM] Hamiltonian#7858
+well, the balance is still in the address so
+
+
+[30-Jan-19 02:45 PM] Hamiltonian#7858
+until someone transfers it, fair game afaik
+
+
+[30-Jan-19 02:45 PM] CryptoBert#4601
+Yep! https://www.kmdexplorer.io/address/RMwxXySEWXmGAtianHv79pUNWamwTVb2zB
+
+
+[30-Jan-19 02:45 PM] ComputerGenie#7004
+he rarely, if ever, takes the balance, he just solves shit because he can 😛
+
+{Reactions}
+💯 
+
+[30-Jan-19 02:46 PM] SHossain#0007
+you solved that puzzle @ComputerGenie ?
+
+
+[30-Jan-19 02:47 PM] ComputerGenie#7004
+@SHossain which one? the promo? no
+
+
+[30-Jan-19 02:47 PM] SHossain#0007
+the one ca333 posted
+
+
+[30-Jan-19 02:47 PM] ComputerGenie#7004
+nah, I'm too lazy to install agama 😛
+
+
+[30-Jan-19 02:48 PM] ComputerGenie#7004
+I guess I could use mm, but didn't think of that option till just now
+
+
+[30-Jan-19 02:49 PM] ComputerGenie#7004
+me and SPV aren't "friends" 😛
+
+
+[30-Jan-19 02:59 PM] CryptoBert#4601
+Even if I login with my own 'wallet seed' I have a connection error (trying to switch to another server?) so there's not even a chance of trying it with a possible seed... (assuming I could even solve this puzzle ; ) 😅
+
+
+[30-Jan-19 03:00 PM] Hamiltonian#7858
+I used portable agama pretty easily
+
+
+[30-Jan-19 03:01 PM] CryptoBert#4601
+Where can I get that? 🤔
+
+
+[30-Jan-19 03:01 PM] Hamiltonian#7858
+i dunno same place as other stuff
+
+
+[30-Jan-19 03:01 PM] CryptoBert#4601
+Haha, ok, tnx.. will look later! 😉
+
+
+[30-Jan-19 03:02 PM] CryptoBert#4601
+Owh I see. It's only windows/linux, not mac
+
+
+[30-Jan-19 03:26 PM] TonyL#3577
+https://github.com/tonymorony/Komodoku/releases/tag/v0.1 made binary for Windows to use just unzip and run `Sudoku.exe`
+But to test on the same machine Windows SUDOKU chain komodod daemon built from latest FSM needed
+
+{Embed}
+https://github.com/tonymorony/Komodoku/releases/tag/v0.1
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[30-Jan-19 03:26 PM] TonyL#3577
+I don't have such daemon yet, tested on special version which connecting to my ubuntu vps 😆
+
+
+[30-Jan-19 03:45 PM] Hamiltonian#7858
+I was trying to assemble a sha256 merkle tree from the solution to the puzzle to find the root but I don't have a good library for that so w/e
+
+
+[30-Jan-19 03:49 PM] ComputerGenie#7004
+If that is about the promo, I'm 99% certain it's not that involved a process
+
+
+[30-Jan-19 05:39 PM] gtm#2812
+@ComputerGenie  thanks, i tried that first but no dice. will look at it again in a bit.
+
+
+[30-Jan-19 11:43 PM] jorian#4555
+decker must be sleeping, bounty still there
+
+{Reactions}
+😂 
+
+[31-Jan-19 12:24 AM] pratapthorat9#7025
+Is Sudoku puzzle still continue
+
+
+[31-Jan-19 01:29 AM] polycryptoblog#1173
+https://github.com/tonymorony/Komodoku
+
+{Embed}
+https://github.com/tonymorony/Komodoku
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[31-Jan-19 04:53 AM] dukeleto#7326
+Komodoku is a good name
+
+{Reactions}
+Komodo 
+
+[31-Jan-19 04:55 AM] jl777c#5810
+yes
+
+
+[31-Jan-19 05:56 AM] jl777c#5810
+updated FSM branch with initial sudoku validation. cheating is still possible so please dont, yet. it looks like most of the solutions were by using solvers... need to get some actual human solve timestamps (using the gui) to calibrate the captcha
+
+
+[31-Jan-19 07:51 AM] TonyL#3577
+Just finished personal stuff - so there is quite easy installation on Ubuntu, binary for Windows is ready (but need somebody to confirm that it's works on fresh PC) 
+Starting to work on MacOS package
+
+
+[31-Jan-19 09:10 AM] jorian#4555
+if you buy the SUDOKU for 0.5 KMD, i'll solve some manually
+
+
+[31-Jan-19 09:21 AM] TonyL#3577
+Tried to fix dependencies on Mojave for a 1.5 hours, finished on article called `How to Wipe Your Mac and Reinstall macOS from Scratch`
+
+{Reactions}
+😂 (2) troll_hardcore (3) 
+
+[31-Jan-19 09:28 AM] jorian#4555
+what happened
+
+
+[31-Jan-19 09:28 AM] jorian#4555
+homebrew messed up?
+
+
+[31-Jan-19 09:31 AM] TonyL#3577
+Something wrong with ssl libs linking so can't make pycurl work:
+```import pycurl
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: pycurl: libcurl link-time ssl backend (none/other) is different from compile-time ssl backend (openssl)```
+
+
+[31-Jan-19 09:32 AM] TonyL#3577
+Tried tons of different workarounds, flags, linkings and re-installations - nothing helped yet
+
+
+[31-Jan-19 09:32 AM] jorian#4555
+ssl. mmh. have you tried ca333? maybe he can help
+
+
+[31-Jan-19 09:33 AM] jorian#4555
+since he is something of a security expert
+
+
+[31-Jan-19 09:33 AM] jorian#4555
+maybe he knows what it is
+
+
+[31-Jan-19 09:33 AM] TonyL#3577
+Still hope to won this fight 😂
+
+
+[31-Jan-19 10:02 AM] jorian#4555
+captcha failure, what's that mean
+
+
+[31-Jan-19 10:02 AM] TonyL#3577
+Are you cheating?
+
+
+[31-Jan-19 10:02 AM] SHossain#0007
+you are a robot :troll:
+
+
+[31-Jan-19 10:02 AM] jorian#4555
+eh no
+
+
+[31-Jan-19 10:02 AM] jorian#4555
+i was fast though, since every piece fell into its place
+
+
+[31-Jan-19 10:03 AM] jorian#4555
+meh
+
+
+[31-Jan-19 10:03 AM] jorian#4555
+oh i tried again now it accepted lol
+
+
+[31-Jan-19 11:06 AM] Decker#3767
+Is this correct task for Sudoku cryptopuzzle?
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/540608856527732769/DyLQwtqWkAE2HHz.png
+
+
+[31-Jan-19 11:07 AM] Decker#3767
+I solved it and have privkey, but seems a mistake somewhere ) Address is not equal to RMwxXySEWXmGAtianHv79pUNWamwTVb2zB ) May be i'm just took wrong task ? )
+
+
+[31-Jan-19 11:10 AM] Decker#3767
+Ah ... read hint from ca333: `Well its not thaaat easy - c'mon. However, it is not involving the sudoku client at all. Only the above sudoku puzzle, Agama and a little bit of analytical thinking is needed.` )
+
+
+[31-Jan-19 11:10 AM] Decker#3767
+I'm calculated privkey as in sudoku cc sources )
+
+
+[31-Jan-19 11:11 AM] Decker#3767
+That was a mistake ))
+
+{Reactions}
+🙁 
+
+[31-Jan-19 12:46 PM] TonyL#3577
+After 3 hours lol: `curl` package with deps installed with brew was a reason of all my latest problems such a komodod compiling with workarounds only and this pycurl python module linking
+
+
+[31-Jan-19 12:46 PM] TonyL#3577
+Built MacOS executable - testing
+
+
+[31-Jan-19 01:17 PM] TonyL#3577
+https://github.com/tonymorony/Komodoku/releases
+3 portable binaries available for testing: Windows, MacOS, Ubuntu 
+
+FSM branch komodod with synced SUDOKU chain and valid `-pubkey` param is needed for testing
+
+{Embed}
+https://github.com/tonymorony/Komodoku/releases
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[31-Jan-19 04:25 PM] Alright#0419
+@TonyL I don't think you can properly cross compile it yet unless something has changed in the last ~10 hours
+
+
+[31-Jan-19 04:29 PM] TonyL#3577
+Yes, cclib compiling only on Ubuntu atm
+
+
+[31-Jan-19 06:39 PM] grewalsatinder#9653
+yes, I get this error compiling komodo's jl777 branch:
+```Darwin
+Building cclib to src/
+clang -std=c++11 -arch x86_64 -I/usr/local/Cellar/gcc\@6/6.5.0/include/c++/6.5.0/ -I../../depends/x86_64-apple-darwin18.2.0/include -I../univalue/include -I../cryptoconditions/include -I../cryptoconditions/src -I../cryptoconditions/src/asn -I.. -I. -fPIC -c -Wl,-undefined -Wl,dynamic_lookup -dynamiclib -O0 -D _DEBUG -o ../libcc.dylib cclib.cpp 
+clang: warning: -Wl,-undefined: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -Wl,dynamic_lookup: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-dynamiclib' [-Wunused-command-line-argument]
+In file included from cclib.cpp:16:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h:44:
+In file included from /usr/local/Cellar/gcc@6/6.5.0/include/c++/6.5.0/stdlib.h:36:
+/usr/local/Cellar/gcc@6/6.5.0/include/c++/6.5.0/cstdlib:41:10: fatal error: 'bits/c++config.h' file not found
+#include <bits/c++config.h>
+         ^~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [../libcc.so] Error 1
+CCLIB BUILD FAILED
+```
+
+
+[31-Jan-19 06:39 PM] grewalsatinder#9653
+on Mojave
+
+
+[31-Jan-19 06:39 PM] grewalsatinder#9653
+@ca333
+
+
+[31-Jan-19 06:43 PM] grewalsatinder#9653
+with g++-6 it is this:
+```Darwin
+Building cclib to src/
+g++-6 -std=c++11 -arch x86_64 -I/usr/local/Cellar/gcc\@6/6.5.0/include/c++/6.5.0/ -I../../depends/x86_64-apple-darwin18.2.0/include -I../univalue/include -I../cryptoconditions/include -I../cryptoconditions/src -I../cryptoconditions/src/asn -I.. -I. -fPIC -c -Wl,-undefined -Wl,dynamic_lookup -dynamiclib -O0 -D _DEBUG -o ../libcc.dylib cclib.cpp 
+In file included from cclib.cpp:368:0:
+sudoku.cpp: In function 'UniValue sudoku_pending(uint64_t, CCcontract_info*, cJSON*)':
+sudoku.cpp:2804:48: error: call of overloaded 'Pair(const char [11], size_t)' is ambiguous
+     result.push_back(Pair("numpending",a.size()));
+                                                ^
+In file included from ../cc/CCinclude.h:49:0,
+                 from cclib.cpp:24:
+```
+
+
+[31-Jan-19 07:28 PM] ca333#0333
+@TonyL - i have a temp. fix in the cclib_dyn branch (for WIN only) - you can download latest CD bin here: https://gitlab.com/KomodoPlatform/komodo/-/jobs/152319654
+
+{Embed}
+https://gitlab.com/KomodoPlatform/komodo/-/jobs/152319654
+build:windows (#152319654) · Jobs · KomodoPlatform / komodo
+Komodo
+https://images-ext-2.discordapp.net/external/DkF5MVjV3dgiqhgp8J0ROWrKTz-fABDy9o5LuOXgYiQ/https/assets.gitlab-static.net/assets/gitlab_logo-7ae504fe4f68fdebb3c2034e36621930cd36ea87924c11ff65dbcb8ed50dca58.png
+
+{Reactions}
+👌 
+
+[31-Jan-19 07:29 PM] ca333#0333
+we are currently updating automake/libtools setup as aformentioned which is why i havent implemented those changes yet.
+
+
+[31-Jan-19 07:30 PM] ca333#0333
+@grewalsatinder can you ensure you have command-line-tools or xcode installed?
+
+
+[31-Jan-19 07:30 PM] ca333#0333
+i am getting gcc 6.5.0 and will try reproducing if so.
+
+
+[31-Jan-19 07:58 PM] grewalsatinder#9653
+yes xcode command line installed
+
+
+[31-Jan-19 07:58 PM] grewalsatinder#9653
+```satinders-MBP-2:KomodoOcean satinder$ xcode-select 
+xcode-select: error: no command option given
+Usage: xcode-select [options]
+
+Print or change the path to the active developer directory. This directory
+controls which tools are used for the Xcode command line tools (for example, 
+xcodebuild) as well as the BSD development commands (such as cc and make).
+
+Options:
+  -h, --help                  print this help message and exit
+  -p, --print-path            print the path of the active developer directory
+  -s <path>, --switch <path>  set the path for the active developer directory
+  --install                   open a dialog for installation of the command line developer tools
+  -v, --version               print the xcode-select version
+  -r, --reset                 reset to the default command line tools path
+satinders-MBP-2:KomodoOcean satinder$ xcode-select -v
+xcode-select version 2354.
+satinders-MBP-2:KomodoOcean satinder$ xcode-select --install
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+satinders-MBP-2:KomodoOcean satinder$ ```
+
+
+[31-Jan-19 07:58 PM] grewalsatinder#9653
+unless I'm checking something incorrect
+
+
+[31-Jan-19 07:58 PM] grewalsatinder#9653
+installing homebrew also installs xcode command line automatically as I know
+
+
+[01-Feb-19 03:08 PM] siu#3920
+i won!
+
+
+[01-Feb-19 03:08 PM] siu#3920
+is there a sudoku explorer?
+
+
+[01-Feb-19 03:11 PM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/541032817077780500/unknown.png
+
+
+[01-Feb-19 03:59 PM] Deleted User#0000
+@siu you won the riddle? Someone just did I'm curious what the answer was
+
+
+[01-Feb-19 04:01 PM] siu#3920
+O no, not the riddle. My father solved the  sudoku puzzle since he is a big sudoku fan
+
+
+[01-Feb-19 04:02 PM] siu#3920
+But after that i couldnt solve the privkey extraction part.
+
+
+[01-Feb-19 04:02 PM] siu#3920
+Never really even tried.
+
+
+[01-Feb-19 04:02 PM] siu#3920
+But i just started testing the chain and the game and it works really well
+
+
+[01-Feb-19 04:07 PM] Deleted User#0000
+Oh gotcha .
+
+
+[02-Feb-19 04:38 AM] TonyL#3577
+@siu great 👍 I guess it's Ubuntu. Did you use installation with deps (pip packages) or portable release?
+
+
+[02-Feb-19 04:39 AM] siu#3920
+i did the installation with pip
+
+
+[02-Feb-19 04:39 AM] siu#3920
+i had some issues with pip since i upgraded from 16.04 to 18.04 recently
+
+
+[02-Feb-19 04:39 AM] siu#3920
+but once i got that fixed, the app worked perfectly
+
+
+[02-Feb-19 04:39 AM] TonyL#3577
+https://github.com/tonymorony/Komodoku/releases there is a portable release for Ubuntu which nobody tested yet
+
+{Embed}
+https://github.com/tonymorony/Komodoku/releases
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[02-Feb-19 04:40 AM] siu#3920
+right now im banging my head on a really hard sudoku i got 😂
+
+
+[02-Feb-19 04:40 AM] siu#3920
+btw, this is the first time my dad actually wants me to set up a blockchain on his compiuter to use it
+
+{Reactions}
+🔥 (2) 
+
+[02-Feb-19 04:40 AM] TonyL#3577
+If you have a time - could you please `pip uninstall slick-bitcoinrpc pygame` and try portable? Just unzip and execute `Sudoku`
+
+
+[02-Feb-19 04:41 AM] siu#3920
+sure.
+
+{Reactions}
+👍 
+
+[02-Feb-19 04:44 AM] siu#3920
+something is still wrong with my pip install :/
+
+
+[02-Feb-19 04:44 AM] siu#3920
+```Traceback (most recent call last):
+  File "/home/siu/.local/bin/pip", line 7, in <module>
+    from pip._internal import main
+ImportError: No module named _internal
+```
+
+
+[02-Feb-19 04:46 AM] TonyL#3577
+https://github.com/pypa/pip/issues/5253 ^^
+
+{Embed}
+https://github.com/pypa/pip/issues/5253
+My pip is broken. _internal module cannot be imported. · Issue #5...
+Pip version: 8.1.1 Python version: 2.7.12 Operating system: Ubuntu 16.04 (64 bit) Description: my pip is broken. it cannot update. It also complains error when just type pip. What I've run: pip...
+https://images-ext-2.discordapp.net/external/g1p61BuahPnERGaf-5tI5JGVJx16rRMkoiGEHlHJc5E/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/3831847
+
+
+[02-Feb-19 04:46 AM] siu#3920
+yeah, im reading that
+
+
+[02-Feb-19 04:51 AM] siu#3920
+this did it: ```I just change the from pip._internal import main into from pip import main and Voila! Problem dismissed```
+
+{Reactions}
+👍 
+
+[02-Feb-19 04:53 AM] siu#3920
+failed: ```pygame 1.9.4
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Welcome to the Komodo SudokuCC
+Succesfully connected!
+
+Puzzle ID: 46c2ecf23c25700121bb59d9873d82d930e75aefc5c73e0394f546fd38f00328
+Reward amount: 100.0
+Traceback (most recent call last):
+  File "/home/tony/Sudokuportable/Komodoku/Sudoku.py", line 362, in <module>
+  File "/home/tony/Sudokuportable/Komodoku/Sudoku.py", line 359, in main
+  File "/home/tony/Sudokuportable/Komodoku/Sudoku.py", line 241, in __init__
+  File "/home/tony/Sudokuportable/Komodoku/Sudoku.py", line 248, in startNewGame
+  File "/home/tony/Sudokuportable/Komodoku/Sudoku.py", line 35, in __init__
+pygame.error: Couldn't open background.png
+[8904] Failed to execute script Sudoku
+```
+
+
+[02-Feb-19 04:55 AM] TonyL#3577
+Ohh maybe I forgot to put background.png - let me check please 😃
+
+
+[02-Feb-19 04:55 AM] siu#3920
+its there
+
+
+[02-Feb-19 04:55 AM] siu#3920
+/home/siu/Desktop/Sudoku/background.png
+
+
+[02-Feb-19 04:55 AM] TonyL#3577
+`File "/home/tony/Sudokuportable/Komodoku/Sudoku.py"` Seems problem is there
+
+
+[02-Feb-19 04:56 AM] siu#3920
+but i think the script is looking for your user name `tony`
+
+
+[02-Feb-19 04:56 AM] siu#3920
+i guess you need to use $HOME
+
+
+[02-Feb-19 04:57 AM] TonyL#3577
+It's on binary making tool side - I'm not hardcoding anything. Researching
+
+
+[02-Feb-19 04:57 AM] siu#3920
+ok
+
+
+[02-Feb-19 04:57 AM] siu#3920
+I will get AFK for an hour or so. Then ill be back and test more.
+
+{Reactions}
+👌 
+
+[02-Feb-19 04:58 AM] TonyL#3577
+Thanks! Will try to make new fixed binary prior this time
+
+
+[02-Feb-19 05:37 AM] TonyL#3577
+Solved this issue with paths. But  at the moment have other problem which looks harder to solve 😃 : 
+```Puzzle ID: da70b457f957caa51a8a8c1735e465eeffe344336704294ff2edb166982e3ffb
+Reward amount: 10000.0
+Fatal Python error: (pygame parachute) Segmentation Fault
+Aborted (core dumped)
+```
+
+
+[02-Feb-19 05:50 AM] jorian#4555
+10000 wow
+
+
+[02-Feb-19 05:50 AM] jorian#4555
+how many levels are there
+
+{Reactions}
+treasure 
+
+[02-Feb-19 05:51 AM] TonyL#3577
+Seems all issues are fixed (problem was standart pygame fonts) - uploading build which should work
+
+
+[02-Feb-19 05:55 AM] TonyL#3577
+@jorian I think 10000 is a highest I saw
+
+
+[02-Feb-19 05:57 AM] TonyL#3577
+@siu https://github.com/tonymorony/Komodoku/releases/tag/v0.1b could you please give a try to this one when you'll be around?
+
+{Embed}
+https://github.com/tonymorony/Komodoku/releases/tag/v0.1b
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[02-Feb-19 06:34 AM] siu#3920
+im back
+
+
+[02-Feb-19 06:34 AM] siu#3920
+downloading now
+
+
+[02-Feb-19 06:38 AM] siu#3920
+@TonyL there is an issue with the download link
+
+
+[02-Feb-19 06:38 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/541266100915142676/unknown.png
+
+
+[02-Feb-19 06:38 AM] TonyL#3577
+https://github.com/tonymorony/Komodoku/releases/download/v0.1b/SudokuCC_Ubuntu_0.1b.zip
+
+
+[02-Feb-19 06:38 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/541266224961814530/unknown.png
+
+
+[02-Feb-19 06:38 AM] siu#3920
+ok, thanks
+
+{Reactions}
+👍 
+
+[02-Feb-19 06:38 AM] TonyL#3577
+This one is with fix
+
+
+[02-Feb-19 06:40 AM] siu#3920
+got it working!
+
+{Reactions}
+💯 
+
+[02-Feb-19 06:40 AM] TonyL#3577
+Dooope
+
+
+[02-Feb-19 06:42 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/541267146941136906/unknown.png
+
+
+[02-Feb-19 06:42 AM] TonyL#3577
+Thanks a lot for testing! Will rebuild MacOS and Windows with latest code changes as soon as will make compatible daemon
+
+
+[02-Feb-19 06:43 AM] TonyL#3577
+Should work without any additional manipulations
+
+
+[02-Feb-19 06:43 AM] siu#3920
+daemon still doesnt run in windows?
+
+
+[02-Feb-19 06:44 AM] TonyL#3577
+There is ongoing work /enhancement of building process to make it work with dynamic libs (cclib targeted separation of dynamic and static libs)
+
+
+[02-Feb-19 06:45 AM] siu#3920
+awesome
+
+
+[02-Feb-19 06:46 AM] siu#3920
+these cc libs for different languages are super needed
+
+
+[02-Feb-19 06:55 AM] siu#3920
+i just noticed that there are no sudoku rpc calls in help
+
+
+[02-Feb-19 06:59 AM] TonyL#3577
+I guess there is no connection now between `help` and functions in cclib
+Anyway it's not possible to play Sudoku via cli calls (at least fair) because of captcha protection
+
+
+[02-Feb-19 07:00 AM] siu#3920
+oh
+
+
+[02-Feb-19 07:00 AM] siu#3920
+interesting
+
+
+[02-Feb-19 07:00 AM] TonyL#3577
+Result checking needs 81 timestamps as arguments and 81 numbers cells state line
+
+
+[02-Feb-19 07:00 AM] TonyL#3577
+And it should be ordered
+
+
+[02-Feb-19 07:00 AM] TonyL#3577
+So GUI handling all this stuff
+
+
+[02-Feb-19 07:01 AM] siu#3920
+so this is a completely new type of cc
+
+
+[02-Feb-19 07:01 AM] TonyL#3577
+It using faucet concepts / functions partially as I understand but this captcha concept is not used anywhere else
+
+
+[02-Feb-19 07:01 AM] siu#3920
+wow
+
+
+[02-Feb-19 07:02 AM] TonyL#3577
+And as for me this CC looks like a dAPP mostly since it have Sudoku generator embeed
+
+
+[02-Feb-19 07:02 AM] TonyL#3577
+And kinda app which sorting captcha stuff
+
+
+[02-Feb-19 07:02 AM] TonyL#3577
+So besides of transactions logic there is non transactions logic in this CC as well
+
+
+[02-Feb-19 07:07 AM] siu#3920
+this opens the doors for so many new things
+
+
+[02-Feb-19 07:15 AM] jl777c#5810
+cclibinfo
+
+
+[02-Feb-19 07:15 AM] siu#3920
+yes, i saw those are the evalcodes.
+
+
+[02-Feb-19 07:42 AM] siu#3920
+if i understand correctly sudoku.cc in cc folder is actually an old sudoku game... with parts of the code changed to interact with the blockchain?
+
+
+[02-Feb-19 07:48 AM] jl777c#5810
+i used existing sudoku code to make a sudoku enforced blockchain
+
+
+[02-Feb-19 07:52 AM] siu#3920
+so much can be done this way with different games
+
+
+[02-Feb-19 07:54 AM] SHossain#0007
+Falppy Bird
+
+
+[02-Feb-19 07:54 AM] SHossain#0007
+was a very addicted game
+
+
+[02-Feb-19 07:56 AM] siu#3920
+tetris
+
+
+[02-Feb-19 07:58 AM] SHossain#0007
+yeah, that's a good game too
+
+
+[02-Feb-19 09:47 AM] Mihailo#5902
+Flappyyyyyyyyyyyy 😃
+
+
+[04-Feb-19 09:39 AM] CHMEX#0686
+http://sudoku.explorer.dexstats.info/
+in case its needed at somepoint ping me when it need and update of daemon
+
+{Embed}
+http://sudoku.explorer.dexstats.info/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[04-Feb-19 12:01 PM] siu#3920
+🎉
+
+
+[14-Feb-19 12:28 AM] TonyL#3577
+https://github.com/tonymorony/Komodoku/releases published OSX portable and OSX latest FSM daemon 
+Size is suspiciously less 3 times than Ubuntu portable so would be great if someone without pre-installed deps test :)
+
+ @ca333 btw SUDOKU not syncing on beta branch so Windows is open question - tried to force cherry-pick last commits from beta-win to jl777/FSM and build but no luck
+
+{Embed}
+https://github.com/tonymorony/Komodoku/releases
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[14-Feb-19 01:19 AM] ca333#0333
+@TonyL thanks for the info. Have you tried launching just komodo on WIN to see if komodo net syncs/connects?
+
+
+[14-Feb-19 01:19 AM] ca333#0333
+lets try to find out if this is a sudoku related issue or general problem
+
+
+[14-Feb-19 01:26 AM] TonyL#3577
+@ca333 I've only tried to sync SUDOKU chain on OSX with beta branch komodod. It's stuck on some early block with error that I'm not in agreement with other peers. So I've rebuilt OSX on latest FSM and SUDOKU synced
+
+
+[14-Feb-19 01:27 AM] TonyL#3577
+On Windows not tried anything so far 😃  Let me try to build `beta_win` and check if it sync
+
+
+[14-Feb-19 01:45 AM] ca333#0333
+ok thanks @TonyL - if you need a different branch "WINifyied" let me know and i ll get you a temp`branch_win` up.
+
+{Reactions}
+👌 👍 
+
+[14-Feb-19 02:48 AM] TonyL#3577
+@ca333 built Windows from `beta_win` - have same problem with sync as on OSX beta:
+```CC Eval 0x11 Invalid: mismatched -ac_cclib vs CClib_name spending tx d34dda12e3eb9c4ae85a953065974b1e48301c0bcc4c40883f99bfdb81c08003
+CC Eval 0x11 Invalid: mismatched -ac_cclib vs CClib_name spending tx d34dda12e3eb9c4ae85a953065974b1e48301c0bcc4c40883f99bfdb81c08003
+CC Eval 0x11 Invalid: mismatched -ac_cclib vs CClib_name spending tx d34dda12e3eb9c4ae85a953065974b1e48301c0bcc4c40883f99bfdb81c08003
+CC Eval 0x11 Invalid: mismatched -ac_cclib vs CClib_name spending tx d34dda12e3eb9c4ae85a953065974b1e48301c0bcc4c40883f99bfdb81c08003```
+
+So I think  "WINifyied" `jl777/FSM` is needed to make it work 😃
+
+
+[14-Feb-19 02:58 AM] jl777c#5810
+mismatched libcc.so (dll?)
+
+
+[14-Feb-19 02:58 AM] jl777c#5810
+name returned by the cclib didnt match -ac_cclib= name
+
+
+[14-Feb-19 03:00 AM] TonyL#3577
+I guess beta branch don't have sudoku cclib yet - on MacOS I've got same error when tried to sync with komodod from beta branch, then rebuilt from `jl777/FSM` and it synced fine
+
+
+[14-Feb-19 03:02 AM] TonyL#3577
+https://github.com/KomodoPlatform/komodo/tree/beta/src/cc yep, no `sudoku.cpp` yet
+
+{Embed}
+https://github.com/KomodoPlatform/komodo/tree/beta/src/cc
+KomodoPlatform/komodo
+Komodo. Contribute to KomodoPlatform/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[14-Feb-19 03:02 AM] jl777c#5810
+I am keeping cclib out of beta and dev until we get it building for osx and win without major issues
+
+
+[14-Feb-19 03:04 AM] TonyL#3577
+Anyway now ROGUE is the hottest topic - I think it's not a big clue if people can't play sudoku on windows right now  😃 
+Ubuntu and MacOS portables should work fine
+
+
+[14-Feb-19 03:05 AM] TonyL#3577
+Ouch, reflexively wrote Windows from small letter
+
+
+[14-Feb-19 03:08 AM] ca333#0333
+will "winify" jl777 branch @TonyL - we will need it for rogue anyway
+
+{Reactions}
+🙌 
+
+[14-Feb-19 03:09 AM] ca333#0333
+i will do this later today and post you results into QA channel for a quick test
+
+
+[14-Feb-19 03:12 AM] jl777c#5810
+yes, if sudoku doesnt build, neither will rogue
+
+
+[14-Feb-19 03:12 AM] jl777c#5810
+and far more sudoku players than rogue
+
+
+[14-Feb-19 03:13 AM] TonyL#3577
+Visitors of Komodoku repo for all time 😃 ("release" page is counting)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/545563199181946890/unknown.png
+
+
+[21-Feb-19 03:00 AM] siu#3920
+hi @TonyL from this link https://github.com/tonymorony/Komodoku/releases, im having the same path errors as i had before: ```/home/siu/Desktop/Sudoku/Sudoku 
+pygame 1.9.4
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Welcome to the Komodo SudokuCC
+Succesfully connected!
+
+Traceback (most recent call last):
+  File "/home/tony/Sudokubuild123/Komodoku/Sudoku.py", line 362, in <module>
+  File "/home/tony/Sudokubuild123/Komodoku/Sudoku.py", line 359, in main
+  File "/home/tony/Sudokubuild123/Komodoku/Sudoku.py", line 241, in __init__
+  File "/home/tony/Sudokubuild123/Komodoku/Sudoku.py", line 244, in startNewGame
+  File "/home/tony/Sudokubuild123/Komodoku/Sudoku.py", line 252, in __loadPuzzle
+  File "/usr/lib/python2.7/random.py", line 277, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+IndexError: list index out of range
+[30817] Failed to execute script Sudoku
+```
+
+
+[21-Feb-19 06:55 AM] siu#3920
+Also, running it straight from the repo gives me this: ```python2.7 Sudoku.py 
+Welcome to the Komodo SudokuCC
+Succesfully connected!
+
+Traceback (most recent call last):
+  File "Sudoku.py", line 362, in <module>
+    main()
+  File "Sudoku.py", line 359, in main
+    newGame = Sudoku(puzzle_list, rpc_connection)
+  File "Sudoku.py", line 241, in __init__
+    self.startNewGame()
+  File "Sudoku.py", line 244, in startNewGame
+    self.__linePuzzle = self.__loadPuzzle(self.__puzzleFile)
+  File "Sudoku.py", line 252, in __loadPuzzle
+    self.__chosen_puzzle = random.choice(listName)
+  File "/usr/lib/python2.7/random.py", line 277, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+IndexError: list index out of range
+
+```
+
+
+[21-Feb-19 10:57 AM] TonyL#3577
+Hi @siu You tried 0.1b? Is it on Ubuntu or OSX? Is daemon synced fine and you able to call sudoku rpc calls?
+
+
+[21-Feb-19 10:58 AM] TonyL#3577
+It's not path error but seems problems in rpc calls
+
+
+[21-Feb-19 10:58 AM] jl777c#5810
+i had to make lots of changes for rogue and musig,maybe I broke sudoku
+
+
+[21-Feb-19 11:08 AM] siu#3920
+Yes, it was latest, but maybe i needed to recompile ./makecclib
+
+
+[22-Feb-19 01:39 AM] TonyL#3577
+@jl777c Is `./makecclib` is what what I need to use if I want Sudoku compatible daemon?
+
+
+[22-Feb-19 01:39 AM] jl777c#5810
+the libcc.so that is in the ~/komodo/src dir when komodod is built is the libcc.so that is inside the komodod
+
+
+[22-Feb-19 01:40 AM] jl777c#5810
+once this is understood, hopefully it will be easier to understand the various things going on
+
+
+[22-Feb-19 01:40 AM] jl777c#5810
+makecclib makes the sudoku libcc.so and overwrites whatever is in ~/komodo/src
+
+
+[22-Feb-19 01:40 AM] jl777c#5810
+same with the rogue
+
+
+[22-Feb-19 01:41 AM] TonyL#3577
+Yes, I understand it. Only issue is that now jl777/FSM branches ./zcutil/build.sh making rogue libcc
+
+
+[22-Feb-19 01:42 AM] TonyL#3577
+./makerogue execution is hardcoded
+
+
+[22-Feb-19 01:52 AM] jl777c#5810
+yes
+
+
+[22-Feb-19 01:53 AM] jl777c#5810
+once we get the dynamic libs actually dynamic, it will be much easier
+
+
+[22-Feb-19 01:53 AM] jl777c#5810
+just copy the libcc.so you want before starting komodod
+
+{Reactions}
+shexy 
+
+[22-Feb-19 03:10 AM] TonyL#3577
+https://github.com/tonymorony/Komodoku/releases/tag/v0.1b for OSX I've published compatible daemon ~3 weeks ago - there is a chance that it still works
+
+Will test today if Sudoku still works and make OSX/Ubuntu/Win Komodoku bundles (daemon + GUI) if it works
+
+{Embed}
+https://github.com/tonymorony/Komodoku/releases/tag/v0.1b
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[22-Feb-19 03:50 AM] TonyL#3577
+On OSX this "old" binary seems work fine.
+On Ubuntu built latest FSM now (just changed ./makerogue to ./makecclib in build.sh) - SUDOKU synced from scratch fine
+
+
+[22-Feb-19 06:58 AM] TonyL#3577
+Oh yes, new daemon need cclib args input with %22 %22, thats why it's working on old OSX daemon
+
+
+[22-Feb-19 06:59 AM] TonyL#3577
+Before it was like this:
+```./komodo-cli -ac_name=SUDOKU cclib txidinfo 17  "0aaa8fdc83aa9111b1f1d143ca7baf5730cd68c02f1422b3f8cf4186959db6ff"
+{
+  "result": "success",
+  "txid": "0000000000000000000000000000000000000000000000000000000000000000",
+  "result": "error",
+  "error": "couldnt find txid",
+  "name": "sudoku",
+  "method": "txidinfo"
+}
+```
+But now its like a:
+``` ./komodo-cli -ac_name=SUDOKU cclib txidinfo 17  "%220aaa8fdc83aa9111b1f1d143ca7baf5730cd68c02f1422b3f8cf4186959db6ff%22"
+{
+  "result": "success",
+  "txid": "0aaa8fdc83aa9111b1f1d143ca7baf5730cd68c02f1422b3f8cf4186959db6ff",
+  "result": "success",
+  "height": 766,
+  "sudokuaddr": "RAFVbQbZ5esSkktLQq9mdQWrvi7UBnzqwE",
+  "amount": 10.00000000,
+  "unsolved": "4--13--6---89--2--37-2--541--5-8-1-66---4-----1-7------8-------------3---------9-",
+  "name": "sudoku",
+  "method": "txidinfo"
+}
+```
+
+
+[22-Feb-19 07:00 AM] TonyL#3577
+Have to adopt Komodoku code a little bit to make compatible with new komodod
+
+
+[22-Feb-19 07:00 AM] jl777c#5810
+I standardiized with the rogue and musig params, those always give me big headaches
+
+
+[22-Feb-19 07:00 AM] TonyL#3577
+Great 👍
+
+
+[22-Feb-19 07:07 AM] jl777c#5810
+now it should be consistent for the libcc rpc
+
+
+[22-Feb-19 07:08 AM] TonyL#3577
+```arg_line = "[%22"+self.__chosen_puzzle+"%22,%22"+attemptLine+"%22"+timestampsline+"]"
+solution_info = self.__rpc_connection.cclib("solution", "17", '"%22' + arg_line + '%22"')```
+Hope I'm still broadcast solution in correct form 😃
+
+
+[22-Feb-19 07:08 AM] TonyL#3577
+Otherwise some time will be needed to wrap head
+
+
+[22-Feb-19 07:18 AM] TonyL#3577
+😢
+
+
+[22-Feb-19 07:26 AM] TonyL#3577
+Yay, Komodoku now supports latest komodod 😃 
+Will publish OSX and Ubuntu bundles soon
+
+{Attachments}
+https://cdn.discordapp.com/attachments/540187995333197824/548526028847448064/unknown.png
+
+
+[22-Feb-19 09:32 AM] siu#3920
+pardon my ignorance but, why and what use does the new arguments have? like %22 and 18 or 17 parameters.
+
+
+[22-Feb-19 09:36 AM] TonyL#3577
+%22 means " in James parser
+
+
+[22-Feb-19 09:37 AM] TonyL#3577
+17 or 18 it's evalcode
+
+
+[22-Feb-19 09:38 AM] TonyL#3577
+You can check which cclib calls your daemon supports with evalcodes and params in `cclibinfo` call output
+
+
+[22-Feb-19 09:58 AM] TonyL#3577 (pinned)
+https://github.com/tonymorony/Komodoku/releases/tag/0.1 Sudoku Ubuntu bundle (compatible daemon + Sudoku executable) is here
+OSX bundle coming soon
+
+{Embed}
+https://github.com/tonymorony/Komodoku/releases/tag/0.1
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[22-Feb-19 10:26 AM] TonyL#3577
+Pinned a message.
+
+
+[10-Mar-19 02:38 PM] Bryan_Beus#6442
+@TonyL 
+
+What documentation do we have available for cc-sudoku right now? I would like to get started on bringing this to developers.komodoplatform.com
+
+
+[10-Mar-19 08:42 PM] TonyL#3577
+@Bryan_Beus There is no documentation about cc-sudoku besides of comments in CC code (but it a little bit out of date). I'll document RPC calls as soon as possible.
+Installation guide for GUI can be found in GUI repo readme: https://github.com/tonymorony/Komodoku
+
+{Embed}
+https://github.com/tonymorony/Komodoku
+tonymorony/Komodoku
+Simple Komodo SudokuCC based blockchain game in Python - tonymorony/Komodoku
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[11-Mar-19 02:47 AM] TonyL#3577
+@Bryan_Beus added SUDOKU RPC calls to table: https://docs.google.com/spreadsheets/d/1l0dWEPcrv9zE11_TD-XrX_HIYV0VLpadCJN6hvaZERc/edit#gid=1797354468&range=1:8
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1l0dWEPcrv9zE11_TD-XrX_HIYV0VLpadCJN6hvaZERc/edit
+Smart Contract Test Plan
+cclib Sudoku
+
+Sudoku Contract
+Available RPC calls,What does this Call do?,Example Test Command,Example Expected Output
+cclib gen 17,Creating new Sudoku puzzle,./komodo-cli -ac_name=SUDOKU cclib gen 17,
+
+ -----------------------------------
+| 2 : 5 : 7 | 1 : 3 : 6 | 9 : 8 : 4 ...
+https://images-ext-2.discordapp.net/external/QZIWn2gC2YrS-VtzZN9auV-B7hhTp1IBFxoo9o3BBOo/https/lh4.googleusercontent.com/jG0EwoRG0GKTwPpnAwZivN2UkcMWt-qr3QUTPsmy2nz8nNGRLIBXezodcKzZoKg9bFwJDQ%3Dw1200-h630-p
+
+
+[11-Mar-19 10:56 AM] Bryan_Beus#6442
+Great, thank you.
+
+
+[11-Mar-19 04:26 PM] Bryan_Beus#6442
+@TonyL 
+
+It says in your instructions that we need to use the FSM branch of Komodo to build Sudoku. Is that correct?
+
+How does that correlate with building from the `jl777` branch for ROGUE?
+
+Do we need to have separate `komodod` installations for ROGUE and SUDOKU, and anything else?
+
+
+[11-Mar-19 10:26 PM] TonyL#3577
+Oh, when this instruction was written ROGUE doesn't exist yet.
+
+In general it's possible to build Sudoku compatible client from any branch, only difference is that daemon with sudoku cclib (same cclib as musig needs) instead of  roguecclib needed.
+Now by default rogue cclib building. Easiest way to build SUDOKU client on fresh installation is change string `./makerogue` to `./makecclib` in `zcutil/build.sh` /  `zcutil/build-mac.sh` / `zcutil/build-win.sh`
+
+```How does that correlate with building from the jl777 branch for ROGUE?```
+In #cc-rogue channel description information that ROGUE should be built from FSM branch so not sure why it's needed to be built from jl777. All CC stuff is recommended to build from FSM because it's more stable
+
+
+[11-Mar-19 10:34 PM] gcharang#6833
+@Bryan_Beus musig and sudoku are in the same cclib so the musig instructions will work for sudoku as it is
+
+
+[11-Mar-19 10:35 PM] Bryan_Beus#6442
+ok, so I'll rewrite the install instructions to mirror musig instead of rogue
+
+
+[11-Mar-19 10:35 PM] Bryan_Beus#6442
+thanks
+
+
+[03-Jul-19 09:28 PM] rainbro7#4735
+Any videos for games built on komodo?
+
+
+[03-Jul-19 10:08 PM] TonyL#3577
+https://www.youtube.com/watch?v=jP1oVGLrT6I
+
+{Embed}
+Kadan Stadelmann
+https://www.youtube.com/watch?v=jP1oVGLrT6I
+Komodo Rogue CC Gameplay
+This is the worlds first interactive blockchain game utilizing non-fungible token technology. It was all built using an amazing blockchain framework called t...
+https://images-ext-2.discordapp.net/external/aSFwsI_2GPl2WwQFRDceNOvff20s2PUUuNiOb4WsRMk/https/i.ytimg.com/vi/jP1oVGLrT6I/maxresdefault.jpg
+
+
+[03-Jul-19 10:09 PM] TonyL#3577
+@ronyi recorded a lot rogue gameplay also
+
+
+[03-Jul-19 10:10 PM] TonyL#3577
+https://www.youtube.com/watch?v=uFb_gpk4CrU
+
+{Embed}
+Gábor Ronyecz
+https://www.youtube.com/watch?v=uFb_gpk4CrU
+Komodo Rogue Up and Down Lvl. 1-26
+Game txid: af71791a78fb440925833617fb8200ecbdbfae1993d207f202dda7de8ceb72bd
+https://images-ext-1.discordapp.net/external/T91qzJpgambWKaUC26iRRSfwUslFN3wdhtw4MZEhME0/https/i.ytimg.com/vi/uFb_gpk4CrU/hqdefault.jpg
+
+
+[04-Jul-19 11:17 AM] rainbro7#4735
+Wow, that is great! What is a game tx id? How can I play?
+
+
+[03-Nov-19 02:34 PM] Regnar#6164
+```- Sudoku
+  - Sudoku Game GUI - [https://github.com/tonymorony/Komodoku](https://github.com/tonymorony/Komodoku)```
+
+Hey all, if you have any proof of concepts, or built something cool for Sudoku CC, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and add this to the Komodo docs page. TUIs are good!
+
+
+==============================================================
+Exported 458 message(s)
+==============================================================

@@ -1,0 +1,1526 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-games
+Topic: ./komodod -ac_name=GTEST -ac_cclib=gamescc -ac_supply=1000000 -pubkey=<pubkey> -addnode=5.9.102.210  -ac_reward=100000000 -ac_cc=2  &
+==============================================================
+
+[22-Mar-19 06:01 AM] jl777c#5810
+this is made by copying customcc.* and making a BUILD_GAMESCC #ifdefs
+
+
+[22-Mar-19 06:01 AM] jl777c#5810
+right now there is just two rpc calls, rng and rngnext
+
+
+[22-Mar-19 06:04 AM] jl777c#5810
+rng is passed in a blockhash and playerid (defaults to 0, max 254) and it returns the initial rng value (and last)
+you can then call rngnext with the prior rng, up to maxrng times
+
+{Reactions}
+🔥 
+
+[22-Mar-19 06:34 AM] TwilightPunkster K64#7533
+Awesome
+
+
+[22-Mar-19 06:35 AM] jl777c#5810
+./c cclib rng 17 \"[%229433dc3749aece1bd568f374a45da3b0bc6856990d7da3cd175399577940a775%22,250]\"
+{
+    "playerid": 250,
+    "seed": 1398876319979341887,
+    "rng": 14565767519458298868,
+    "lastrng": 15075236803740723044,
+    "maxrngs": 10000,
+    "result": "success"
+}
+ ./c cclib rngnext 17 \"[14565767519458298868]\"
+ {
+ "seed": 14565767519458297856,
+ "rng": 4253087318999719449,
+ "result": "success"
+ }
+ 
+ The idea is for a game to start with a near future blockhash, so the lobby gets players signed up until just prior to the designated height. then that blockhash can be used to create a stream of rngs.
+ 
+ the same initial rng can be used for all players, if the identical starting condition is required. up to 255 different initial rng can be derived from a single blockhash. (Actually any number is possible, for simplicity rng rpc limits to 255).
+ 
+ you will notice maxrngs and lastrng, the lastrng is the rng value that will happen after maxrng iterations of calling rngnext with the current rng. This allows making time based multiplayer games where all the nodes can validate all the other nodes rng, even without realtime synchronization of all user input events.
+ 
+ Every time period, all players would set their rng value to the lastrng value. The only thing to be careful of is it not exceed the maxrng calls to rngnext in a single time period. otherwise the same set of rng numbers will be repeated.
+
+{Reactions}
+💪 (2) Komodo (3) 
+
+[22-Mar-19 06:53 AM] siu#3920
+im confused here
+
+
+[22-Mar-19 06:54 AM] siu#3920
+so this is like a multiplayer rogue? im not understanding this.
+
+
+[22-Mar-19 06:54 AM] jl777c#5810
+?
+
+
+[22-Mar-19 06:54 AM] jl777c#5810
+it is just generating a deterministic set of rng
+
+
+[22-Mar-19 06:54 AM] jl777c#5810
+no game
+
+
+[22-Mar-19 06:55 AM] jl777c#5810
+most all games need rng
+
+
+[22-Mar-19 06:55 AM] siu#3920
+oh ok
+
+
+[22-Mar-19 06:55 AM] siu#3920
+so this is like a backend for building games
+
+
+[22-Mar-19 06:55 AM] jl777c#5810
+unless you are a gamedev, likely this will be too complex to understand
+
+
+[22-Mar-19 06:55 AM] siu#3920
+yeah, ok.
+
+
+[22-Mar-19 06:56 AM] siu#3920
+but good to know this exists
+
+
+[22-Mar-19 06:56 AM] jl777c#5810
+yes, abstracting the rogue techniques to generalize it so other games can be plugged into the same type of blockchaining
+
+
+[22-Mar-19 06:56 AM] jl777c#5810
+it is just born today, not full grown by any means
+
+
+[22-Mar-19 06:58 AM] siu#3920
+looks like james is in a long weekend coding bash
+
+
+[22-Mar-19 06:58 AM] siu#3920
+😂
+
+{Reactions}
+😂 
+
+[22-Mar-19 02:32 PM] jl777c#5810
+@Alright i got low level messages working, so now in realtime users will be committing to keystrokes prior to the keystrokes tx and in order to complete a bailout tx would need to get both confirmation from other nodes that they did commit to the keystrokes in realtime and also if anybody catches the bogus keystrokes, they can claim the bailout amount. dont have that logic yet, but that is the concept I am working toward
+
+
+[22-Mar-19 02:33 PM] jl777c#5810
+so some payment for attestors who attest that the keystrokes tx were realtime broadcast ahead of time and the ability for any contradictory keystroke to allow the claimant to get the gold/playerdata
+
+
+[22-Mar-19 02:34 PM] jl777c#5810
+once this works, no more keystrokes reorging (or even suppressing) as it will be timestamped and only allow for some small delay
+
+
+[22-Mar-19 02:35 PM] Alright#0419
+What do you mean by low level messages? A separate p2p network essentially?
+
+
+[22-Mar-19 02:36 PM] jl777c#5810
+no, i created a new p2p message the bitcoin protocol was doing called "events"
+
+
+[22-Mar-19 02:36 PM] jl777c#5810
+so it sends to 4 to 8 random peers
+
+
+[22-Mar-19 02:36 PM] Alright#0419
+Aha that is interesting 😀
+
+
+[22-Mar-19 02:37 PM] Alright#0419
+blockchain is a game server
+
+
+[22-Mar-19 02:37 PM] jl777c#5810
+doing this inside gamescc to get it working in isolation, maybe it will create a plug-in enabled interface that rogue dapp plugs into
+
+
+[22-Mar-19 02:37 PM] jl777c#5810
+yes, the blockchain as game server, lag is not bad on small networks
+
+{Reactions}
+🆒 (2) 
+
+[22-Mar-19 02:38 PM] jl777c#5810
+and even if it is 10 seconds, it is plenty fast for the purposes of validating pre-keystrokes tx events and to claim false keystrokes tx
+
+
+[22-Mar-19 02:38 PM] Alright#0419
+I want to explore 1 time use game chains. I think this would be perfect for them
+
+
+[22-Mar-19 02:38 PM] Alright#0419
+the ac_import=GATEWAY chain with block reward idea
+
+
+[22-Mar-19 02:39 PM] Alright#0419
+as soon as you transfer coins to it, you're immediately competing against everyone else who has coins on it for the block reward
+
+
+[22-Mar-19 02:40 PM] jl777c#5810
+so it is a sidechain, funded with external coins and gameplay wins coins?
+
+
+[22-Mar-19 02:41 PM] Alright#0419
+Ah I explained it once before. It's a bit strange to explain. Basically, you'd deposit some KMD to the gateway, receive some of the temporary coin in return. The chain itself would emit additional coins. When you go to withdraw, the exchange rate to KMD would be based on how many coins were emitted while you had coins on it
+
+
+[22-Mar-19 02:42 PM] Alright#0419
+So like if 2 people deposit 10 KMD each and the chain is emitting 1 coin per minute, 10 minutes later there is 30 of the gateway chain, but only 20 real KMD that can be withdrawed
+
+
+[22-Mar-19 02:42 PM] Alright#0419
+you would be competing with the other person for these 10 coins
+
+
+[22-Mar-19 02:43 PM] Alright#0419
+and the exchange rate would be 2/3
+
+
+[22-Mar-19 02:43 PM] Alright#0419
+when you go back to KMD
+
+
+[22-Mar-19 02:43 PM] jl777c#5810
+automated and variable exchange rate, so it starts worth 1:1 but it gets diluated based on chain emission
+
+
+[22-Mar-19 02:43 PM] Alright#0419
+yes
+
+
+[22-Mar-19 02:43 PM] jl777c#5810
+this would be a way to denominate gameplay in external currency
+
+
+[22-Mar-19 02:44 PM] jl777c#5810
+post your buyins, then based on ingame performance you split up the buyins
+
+
+[22-Mar-19 02:44 PM] jl777c#5810
+it is a gateway
+
+
+[22-Mar-19 03:13 PM] Alright#0419
+The objective in that example would be to earn >5 of the coins emitted. The nodes running the gateway could be the one doing these keystrokes checks
+
+
+[22-Mar-19 03:14 PM] Alright#0419
+I imagine doing 10 players would be about the same amount of work as doing 2
+
+
+[22-Mar-19 03:14 PM] Alright#0419
+the gateway itself could run it as a business, take some %
+
+
+[22-Mar-19 03:15 PM] jl777c#5810
+I think for the attestation it could be a small number of special nodes, but for the disputing a keystrokes, that should be fully decentralized
+
+
+[22-Mar-19 03:16 PM] jl777c#5810
+we just need to know that the keystrokes were being posted in realtime from the attestors
+
+
+[22-Mar-19 03:16 PM] Alright#0419
+Ah lol that just clicked
+
+
+[22-Mar-19 03:16 PM] jl777c#5810
+but all the nodes would need to validate what the attestors attest to, and the only way to do that trustlessly is if all nodes get the events
+
+
+[22-Mar-19 03:18 PM] Alright#0419
+hmmm, attestors could simply attest that they were submitting any keystrokes at all maybe? If all attestors say "this node didn't play this game in realtime" is that not enough?
+
+
+[22-Mar-19 03:18 PM] Alright#0419
+I guess it comes down to how attestors are selected
+
+
+[22-Mar-19 03:19 PM] Alright#0419
+i'm confusing myself, need to sleep on it 💤
+
+
+[22-Mar-19 03:20 PM] jl777c#5810
+does the network trust the attestors?
+
+
+[22-Mar-19 03:20 PM] jl777c#5810
+really it should be something all nodes already know, just a few need to be part of the final tx to attest to it
+
+
+[22-Mar-19 03:57 PM] jl777c#5810
+they arent segregated
+
+
+[22-Mar-19 03:57 PM] jl777c#5810
+actually they will be integrated into the transactions
+
+
+[22-Mar-19 03:58 PM] jl777c#5810
+the issue is making sure user events are fully reported and without errors, if those two things are validated by the network, then it seems cheating is simply not possible
+
+
+[22-Mar-19 03:58 PM] jl777c#5810
+using the "entire user events are replayed by the game engine" to determine the results method
+
+
+[22-Mar-19 03:59 PM] jl777c#5810
+and once cheating is not possible, then we can have money tournaments and know the winner won it with real gameplay (human or bot)
+
+{Reactions}
+🎷 
+
+[22-Mar-19 04:00 PM] jl777c#5810
+fully decentralized and trustless and cheatproof
+
+{Reactions}
+🆒 (3) 
+
+[22-Mar-19 04:01 PM] jl777c#5810
+for any game that can be made to have a deterministic gameplay starting with a RNG seed
+
+
+[22-Mar-19 08:01 PM] Mylo#8306
+cool.  seended city generator http://citygen.kmdice.komodo-cakeshop.com/
+
+
+[23-Mar-19 10:18 AM] blubbi#0643
+@Mylo  Whaaa da fa is dhat 😲
+
+
+[23-Mar-19 05:28 PM] Mylo#8306
+Sample seed stuff.  It does nothing but make a city.  For sample to show on web, seed stored in oracle then work always regenerate-able for ppl to validate
+
+
+[24-Mar-19 04:04 AM] ronyi#5719
+https://github.com/YoctoForBeaglebone/pacman4console
+
+{Embed}
+https://github.com/YoctoForBeaglebone/pacman4console
+YoctoForBeaglebone/pacman4console
+Console based PacMan Game. Contribute to YoctoForBeaglebone/pacman4console development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/O89aUCZa5i95vxAtKCNRNQIagf4m73loORvlQSzU-X4/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/11598243
+
+{Reactions}
+😍 
+
+[26-Mar-19 07:49 AM] TonyL#3577
+@jl777c daemon crashing when I'm starting to play tetris
+Backtrace: https://paste.ubuntu.com/p/8PgrJd7qNh/
+
+
+[26-Mar-19 07:52 AM] jl777c#5810
+exact rpc command used
+
+
+[26-Mar-19 07:55 AM] TonyL#3577
+Hmm I've not used any RPC commands - just started `./tetris`
+
+
+[26-Mar-19 07:55 AM] TonyL#3577
+Is tetris writing some log?
+
+
+[26-Mar-19 07:55 AM] jl777c#5810
+if works for me
+
+
+[26-Mar-19 07:55 AM] jl777c#5810
+do you have GTEST chain running?
+
+
+[26-Mar-19 07:56 AM] jl777c#5810
+and GTEST.conf in the dir you are running tetris from?
+
+
+[26-Mar-19 07:57 AM] TonyL#3577
+Yes
+
+
+[26-Mar-19 07:57 AM] TonyL#3577
+Without config in same folder tetris not starting
+
+
+[26-Mar-19 07:57 AM] jl777c#5810
+pull latest
+
+
+[26-Mar-19 07:58 AM] TonyL#3577
+Oh I found the issue - I'm on latest FSM on this PC, not jl777. Sorry
+
+
+[26-Mar-19 08:06 AM] TonyL#3577
+Built from jl777 - now can't move bricks by arrows
+
+
+[26-Mar-19 08:06 AM] TonyL#3577
+Tetris only response on space presses (changing block)
+
+
+[26-Mar-19 08:06 AM] jl777c#5810
+duplicated
+
+{Reactions}
+👌 
+
+[26-Mar-19 08:38 AM] jl777c#5810
+seems to work better
+
+
+[26-Mar-19 08:38 AM] jl777c#5810
+newgame, register works
+
+
+[26-Mar-19 08:38 AM] jl777c#5810
+even got a keystrokes tx confirmed, but its format will change
+
+
+[26-Mar-19 11:12 AM] jl777c#5810
+@TonyL its working much better. I was able to play a game after registering and then replaying it
+
+
+[26-Mar-19 11:13 AM] jl777c#5810
+next step is to get a deterministic result and since there is no playerdata, maybe at that point it is close to done
+
+
+[26-Mar-19 11:14 AM] jl777c#5810
+it is sending out each keystroke to the network, though that data isnt being used much yet
+
+
+[26-Mar-19 11:15 AM] jl777c#5810
+the codebase is much simplified, so by handling game specific things like playerdata all that is needed is the changing of the rng to support a new game
+
+
+[26-Mar-19 11:36 AM] TonyL#3577
+Sounds great! Will test asap
+
+
+[26-Mar-19 11:44 AM] jl777c#5810
+most important thing at first (other than not crashing) is if the game replay cc/tetris seed is identical
+
+
+[26-Mar-19 12:05 PM] TonyL#3577
+`CC Eval 0x11 Invalid: mismatched -ac_cclib vs CClib_name spending tx e0eee642d75290e68869a798fd2ed7d8d802d4dc2566e060159d1adb16653766
+`
+@jl777c Hmm I stuck on 
+```  "blocks": 334,
+  "longestchain": 600,
+```
+
+
+[26-Mar-19 12:24 PM] jl777c#5810
+mismatched -ac_cclib vs CClib_name
+
+
+[26-Mar-19 12:24 PM] jl777c#5810
+what appears on startup?
+
+
+[26-Mar-19 12:36 PM] TonyL#3577
+Trying to rebuild now , maybe I have to ./maketetris and then make in src?
+
+
+[26-Mar-19 12:37 PM] jl777c#5810
+./makegames
+
+
+[26-Mar-19 12:37 PM] jl777c#5810
+for the libcc
+
+
+[26-Mar-19 12:37 PM] jl777c#5810
+maketetris for the dapp
+
+
+[26-Mar-19 12:37 PM] TonyL#3577
+Ohh I see, just have to change makerogue to makegames so
+
+
+[26-Mar-19 12:43 PM] TonyL#3577
+```  "blocks": 646,
+  "longestchain": 646,
+``` 👍
+
+
+[26-Mar-19 12:46 PM] TonyL#3577
+Created game, registered
+
+
+[26-Mar-19 12:50 PM] TonyL#3577
+The screen is flickering very hard - maybe it's because I'm playing via ssh. Building on local machine now
+
+
+[26-Mar-19 12:53 PM] TonyL#3577
+On local PC it's flickering but not so hard
+
+
+[26-Mar-19 01:03 PM] TonyL#3577
+`You finished with 2100 points on level 2.`
+
+
+[26-Mar-19 01:04 PM] jl777c#5810
+if you can post extract rpc call I can debug it
+
+
+[26-Mar-19 01:04 PM] TonyL#3577
+In replay blocks just falling on middle
+
+
+[26-Mar-19 01:05 PM] TonyL#3577
+```./komodo-cli -ac_name=GTEST cclib extract 17 '["f7206d3690934f7c8df600dceb1d332debc0e2b13e0b877c980ec9576d7198ea","036a20ccce9b7caa5917cf7816e569fee8d216b81be3c1031987aadfeef4dfbc27"]'```
+
+
+[26-Mar-19 01:05 PM] jl777c#5810
+i need a non-zero points game
+
+
+[26-Mar-19 01:05 PM] TonyL#3577
+You finished with 2100 points on level 2.
+
+
+[26-Mar-19 01:05 PM] jl777c#5810
+will debug replay
+
+
+[26-Mar-19 01:05 PM] TonyL#3577
+In this game
+
+
+[26-Mar-19 01:05 PM] TonyL#3577
+But in replay blocks just falling on center
+
+
+[26-Mar-19 01:06 PM] TonyL#3577
+` "numkeys": 1076,`
+
+
+[26-Mar-19 01:06 PM] jl777c#5810
+i needed a non-zero points game
+will debug replay
+
+{Reactions}
+👌 
+
+[26-Mar-19 01:08 PM] TonyL#3577
+Do you need one more or this one is enough?
+
+
+[26-Mar-19 01:09 PM] jl777c#5810
+one is enough
+
+
+[26-Mar-19 01:54 PM] jl777c#5810
+@TonyL pushed fix. all rpc other than bailout and highlander should work
+
+
+[26-Mar-19 01:55 PM] jl777c#5810
+i think the rpc interface is close enough to rogue, the rogue TUI will work with tetris
+
+
+[26-Mar-19 02:06 PM] TonyL#3577
+Yes, it seems so - just have to change executable name from `rogue` to `tetris`
+
+
+[26-Mar-19 02:07 PM] TonyL#3577
+Will try it now 😃
+
+
+[26-Mar-19 02:09 PM] jl777c#5810
+also, bailout and highlander might actually work
+
+
+[26-Mar-19 02:19 PM] jl777c#5810
+cashout is set to points * level * 1000 satoshis
+
+
+[26-Mar-19 02:20 PM] jl777c#5810
+but maybe there is no need to multiply by level as higher levels pay more points
+
+
+[26-Mar-19 02:21 PM] TonyL#3577
+Changed `rogue` to `tetris` and `ROGUE` to `GTEST`  - checking if TUI will work 😃
+
+
+[26-Mar-19 02:24 PM] jl777c#5810
+it should make a keystrokes tx every level
+
+
+[26-Mar-19 02:30 PM] jl777c#5810
+i see many messages coming in!
+
+
+[26-Mar-19 02:31 PM] jl777c#5810
+I guess I need to add some sort of realtime replay
+
+
+[26-Mar-19 02:33 PM] TonyL#3577
+```Game over!
+You finished with 1560 points on level 2.
+756
+756
+Waiting for next block before bailout
+```
+
+
+[26-Mar-19 02:34 PM] jl777c#5810
+for now, I only tested to extract to make sure it matched the total
+
+
+[26-Mar-19 02:34 PM] TonyL#3577
+```Last keystroke not confirmed yet! Let's wait a little
+Last keystroke not confirmed yet! Let's wait a little
+Last keystroke not confirmed yet! Let's wait a little
+Last keystroke not confirmed yet! Let's wait a little
+Last keystroke confirmed!
+
+Extraction info:
+
+Current game state:
+Game txid: 4a9bdca3eb08f46e46e7557317e73311460c40e36f4e8066957ce87262a562fd
+Information about game saved on chain:  <- playerdata: gold.1560 hp.0 strength.0/0 level.0 exp.0 dl.2
+
+
+Do you want to make bailout now [y] or wait for one more block [n]? [y/n]: 
+```
+
+
+[26-Mar-19 02:34 PM] TonyL#3577
+So far so good
+
+
+[26-Mar-19 02:35 PM] TonyL#3577
+```[y/n]: y
+() found baton 113bf10386e929d3394f5c1f0d7681b185e4fdba6502bdf790dd07b06565aeb3 numkeys.1119 seed.699299491085328427 playerdata.0
+
+cashout 0.06240000 extracted  <- playerdata: gold.1560 hp.0 strength.0/0 level.0 exp.0 dl.2
+```
+
+
+[26-Mar-19 02:35 PM] jl777c#5810
+it made a tx?
+
+
+[26-Mar-19 02:35 PM] TonyL#3577
+I'm not sure yet tbh, TUI not printing it
+
+
+[26-Mar-19 02:35 PM] TonyL#3577
+```'confirmations'
+Bailout not on blockchain yet. Let's wait a little bit more
+```
+
+
+[26-Mar-19 02:36 PM] TonyL#3577
+```./komodo-cli -ac_name=GTEST getrawmempool
+[
+  "9e8bcf46058bcd4ab9ea3e74e4a1da44488541b45eb05b6e07e6cffa56c76219"
+]
+```
+
+
+[26-Mar-19 02:36 PM] TonyL#3577
+But have some tx in mempool
+
+
+[26-Mar-19 02:36 PM] jl777c#5810
+0.06240000 in vout2?
+
+
+[26-Mar-19 02:36 PM] jl777c#5810
+and is 1500 points a good game, no idea how to calibrate the payout
+
+
+[26-Mar-19 02:36 PM] TonyL#3577
+```    {
+      "value": 0.06240000,
+      "valueSat": 6240000,
+      "n": 2,
+      "scriptPubKey": {
+        "asm": "036a20ccce9b7caa5917cf7816e569fee8d216b81be3c1031987aadfeef4dfbc27 OP_CHECKSIG",
+        "hex": "21036a20ccce9b7caa5917cf7816e569fee8d216b81be3c1031987aadfeef4dfbc27ac",
+        "reqSigs": 1,
+        "type": "pubkey",
+        "addresses": [
+          "RKrdMJMGGkbmdk57mMZQnfoMhhDU7MSkUP"
+        ]
+      }
+```
+
+
+[26-Mar-19 02:36 PM] jl777c#5810
+spooky
+
+
+[26-Mar-19 02:37 PM] jl777c#5810
+it just worked?
+
+
+[26-Mar-19 02:37 PM] TonyL#3577
+Yes, it seems so 😃
+
+
+[26-Mar-19 02:37 PM] TonyL#3577
+`and is 1500 points a good game, no idea how to calibrate the payout` - 1500 it's not very hard actually
+
+
+[26-Mar-19 02:37 PM] jl777c#5810
+no validation yet, but good to know bailout worked. I wonder if multiplayer works
+
+
+[26-Mar-19 02:37 PM] TonyL#3577
+Like a 3-4 minutes game
+
+
+[26-Mar-19 02:38 PM] jl777c#5810
+ok, so payout might be ok
+
+
+[26-Mar-19 02:38 PM] TonyL#3577
+balance: 0.06309999
+
+
+[26-Mar-19 02:38 PM] TonyL#3577
+Balance increased
+
+
+[26-Mar-19 02:39 PM] jl777c#5810
+lets get multiplayer sorted. the gamesCC code base is almost the same as rogue, i just removed all rogue specifics (or most of it even though data structures is still using rogue stuff)
+
+
+[26-Mar-19 02:39 PM] jl777c#5810
+and if you are running another node, you might see a bunch of messages
+
+
+[26-Mar-19 02:39 PM] TonyL#3577
+Is player who earned more points winner in multiplayer?
+
+
+[26-Mar-19 02:39 PM] jl777c#5810
+yes, I guess that is what we need to do, will think about how to figure that out
+
+
+[26-Mar-19 02:40 PM] TonyL#3577
+Ok, because not much sense in "who bailout last" system in tetris 😃
+
+
+[26-Mar-19 02:40 PM] TonyL#3577
+Building second node
+
+
+[26-Mar-19 02:41 PM] TonyL#3577
+Or better will make second rogue node first from bootstrap and test rogue multiplayer
+
+
+[26-Mar-19 02:42 PM] TonyL#3577
+And tetris multiplayer can test when will be points coparison multiplayer system for it
+
+
+[26-Mar-19 02:42 PM] jl777c#5810
+maybe rogue can use that system too?
+
+
+[26-Mar-19 02:43 PM] jl777c#5810
+otherwise an immortal can race to the amulet and back out to win
+
+
+[26-Mar-19 02:43 PM] TonyL#3577
+I think rogue needs two gameplay modes
+
+
+[26-Mar-19 02:43 PM] TonyL#3577
+If players wants to race on immortals - it's "collectioner mode"
+
+
+[26-Mar-19 02:44 PM] TonyL#3577
+If players wants something sportsman-like - it's "competition mode" and only fresh warriors are allowed (other words registration with playertxid not allowed)
+
+
+[26-Mar-19 02:44 PM] jl777c#5810
+ok, that is really easy to do
+
+
+[26-Mar-19 02:44 PM] jl777c#5810
+and it matches tetris, which has no playerdata
+
+
+[26-Mar-19 02:46 PM] TonyL#3577
+Some points/best gold result I've proposed before and it can be an interesting game mode as well
+
+
+[26-Mar-19 02:46 PM] TonyL#3577
+Also timelimited ones
+
+
+[26-Mar-19 02:47 PM] TonyL#3577
+And I think I can print in realtime all players extracts and timer
+
+
+[26-Mar-19 02:47 PM] TonyL#3577
+It should be dramatic 😃
+
+
+[26-Mar-19 02:47 PM] TonyL#3577
+After block X keystrokes just stops to accept to extract
+
+
+[26-Mar-19 02:47 PM] jl777c#5810
+yes, the baseline is working much better now
+
+
+[26-Mar-19 02:49 PM] TonyL#3577
+Let's say you can choose timelimit ( in blocks to make easy) on multiplayer game creation - after this block keystrokes stops to accept and bailout based on extracts executed
+
+
+[26-Mar-19 02:49 PM] jl777c#5810
+all such changes wont be that hard, but now that rogue and tetris are running mostly the same code, it feels needed to make a games plugin and have rogue and tetris plugin to the same games CC
+
+
+[26-Mar-19 02:49 PM] TonyL#3577
+Player who have most gold on extract - winner
+
+
+[26-Mar-19 02:49 PM] jl777c#5810
+all such variations of who wins can then be added once to the games CC and all the games inherit
+
+
+[26-Mar-19 02:50 PM] TonyL#3577
+Cool, #cc-games opening new horizons  😃
+
+
+[26-Mar-19 02:53 PM] TonyL#3577
+Strange that cant enable mining on GTEST
+
+
+[26-Mar-19 02:53 PM] TonyL#3577
+```./komodo-cli -ac_name=GTEST setgenerate true
+root@ubuntu-16gb-nbg1-1 ~/latest_jl777/komodo/src # ./komodo-cli -ac_name=GTEST getmininginfo
+{
+  "blocks": 773,
+  "currentblocksize": 0,
+  "currentblocktx": 0,
+  "difficulty": 6.67768455240544,
+  "errors": "",
+  "genproclimit": 0,
+  "localsolps": 0,
+  "networksolps": 1,
+  "networkhashps": 1,
+  "pooledtx": 0,
+  "testnet": false,
+  "chain": "main",
+  "staking": false,
+  "generate": false,
+  "numthreads": 0
+}
+```
+
+
+[26-Mar-19 02:53 PM] TonyL#3577
+Tried on 3 nodes already
+
+
+[26-Mar-19 02:54 PM] jl777c#5810
+what if setgenerate true 1
+
+
+[26-Mar-19 02:54 PM] TonyL#3577
+Oh it worked I wonder
+`"generate": true,`
+
+
+[26-Mar-19 02:55 PM] TonyL#3577
+Is number means amount of threads?
+
+
+[26-Mar-19 02:55 PM] jl777c#5810
+yes
+
+
+[26-Mar-19 02:56 PM] jl777c#5810
+if not set, it should be maxthreads, but maybe on your node it isnt working
+
+
+[26-Mar-19 03:02 PM] TonyL#3577
+```./komodo-cli -ac_name=GTEST cclib newgame 17 '[2,0.1]'
+{
+  "name": "games",
+  "method": "newgame",
+  "maxplayers": 2,
+  "buyin": 0.10000000,
+  "type": "buyin",
+  "hex": "0400008085202f89011962c756facfe6076e5bb05eb441854844daa1e4743eeab94acd8b0546cf8b9e030000007b4c79a276a072a26ba067a56580210223b2b9d35fb6383bbbc0dd6668825c91713bc21081b9ce33df3d7edbafa88305814058e5e3961856e3ef5051facfb027ecf3e6437c4c78998f401646d69fb5a8e92136b05011d200730ce08a8bfdba1bd5b8943324d2c8f5bb52834cec7adc630b83a100af03800111a10001ffffffff081027000000000000302ea22c80203d1579313abe7d8ea85f48c65ea66fc512c878c0d0e6f6d54036669de940febf8103120c008203000401cc40420f0000000000302ea22c80208958791fdd38bdf532c97f1691fd231a3f1f5c0c3cd28b68d7383c8b1078828e81031210008203000401cc40420f0000000000302ea22c80208958791fdd38bdf532c97f1691fd231a3f1f5c0c3cd28b68d7383c8b1078828e81031210008203000401cc1027000000000000302ea22c80208958791fdd38bdf532c97f1691fd231a3f1f5c0c3cd28b68d7383c8b1078828e81031210008203000401cc1027000000000000302ea22c80208958791fdd38bdf532c97f1691fd231a3f1f5c0c3cd28b68d7383c8b1078828e81031210008203000401ccf8208c5302000000302ea22c80203d1579313abe7d8ea85f48c65ea66fc512c878c0d0e6f6d54036669de940febf8103120c008203000401cc1027000000000000232103e5841977ef37d9b7c71ddc18a9593d695fbbec7bd247b5ecb64f29099dd6fb71ac0000000000000000106a0e114780969800000000000200000000000000270300000000000000000000000000",
+  "txid": "8e97009330aa50a5136663a36265f95c3c609c922abd92b4d8bd8aca1d1caab3",
+  "result": "success"
+}
+```
+created multiplayer tetris game - will try to play
+
+
+[26-Mar-19 03:03 PM] jl777c#5810
+since GTEST isnt funding the tetris funds, i added a "fund" rpc that can be used by anybody to add more tetris funding
+
+{Reactions}
+🔥 
+
+[26-Mar-19 03:04 PM] jl777c#5810
+for multiplayer, the key is if "buyins" field is correct in gameinfo
+
+
+[26-Mar-19 03:05 PM] TonyL#3577
+```./komodo-cli -ac_name=GTEST cclib gameinfo 17 '["8e97009330aa50a5136663a36265f95c3c609c922abd92b4d8bd8aca1d1caab3"]'
+{
+  "name": "games",
+  "method": "info",
+  "gametxid": "8e97009330aa50a5136663a36265f95c3c609c922abd92b4d8bd8aca1d1caab3",
+  "result": "success",
+  "gameheight": 788,
+  "height": 788,
+  "start": 789,
+  "starthash": "01282ff1e61fe58abbc07c82e9115bdf2c7fcef9ca39d02fe047e03233429d1b",
+  "seed": 2326074238773140763,
+  "run": "./komodo-cli -ac_name=GTEST cclib register 17 \"[%228e97009330aa50a5136663a36265f95c3c609c922abd92b4d8bd8aca1d1caab3%22]\"",
+  "alive": 0,
+  "openslots": 2,
+  "numplayers": 0,
+  "maxplayers": 2,
+  "buyin": 0.10000000,
+  "seed": 2326074238773140763,
+  "players": [
+  ]
+}
+```
+
+
+[26-Mar-19 03:05 PM] TonyL#3577
+Will this key appers when somebody registers?
+
+
+[26-Mar-19 03:05 PM] TonyL#3577
+Oh was not on latest on this node
+
+
+[26-Mar-19 03:05 PM] TonyL#3577
+```  "buyins": 0.00000000,
+  "maxplayers": 2,
+  "buyin": 0.10000000,
+```
+
+
+[26-Mar-19 03:05 PM] TonyL#3577
+On other node
+
+
+[26-Mar-19 03:06 PM] jl777c#5810
+have the buyins happened ? (confirmed)
+
+
+[26-Mar-19 03:07 PM] TonyL#3577
+Not executed registration yet - will try now and check if buyin filed changing propretly
+
+
+[26-Mar-19 03:07 PM] TonyL#3577
+```  "buyins": 0.09990000,
+  "maxplayers": 2,
+  "buyin": 0.10000000,
+```
+
+
+[26-Mar-19 03:08 PM] TonyL#3577
+txfee reduced
+
+
+[26-Mar-19 03:08 PM] TonyL#3577
+I wonder I just have to pay 0.1001 instead of rough 0.1
+
+
+[26-Mar-19 03:09 PM] jl777c#5810
+maybe I need to boost the registration amount, but if you think about it, it is correct as you paid 0.1 to buyin
+
+
+[26-Mar-19 03:09 PM] jl777c#5810
+txfee was subtracted from it
+
+
+[26-Mar-19 03:09 PM] jl777c#5810
+seems ok to me, as long as it sees both
+
+
+[26-Mar-19 03:09 PM] TonyL#3577
+```      },
+      "value": 0.01000000,
+      "valueSat": 1000000,
+      "address": "RQk9qTT4ctveJsaVdDYjnNaoCiDvwA51vA",
+      "sequence": 4294967295
+    },
+```
+
+
+[26-Mar-19 03:10 PM] TonyL#3577
+Oh ok I see
+
+
+[26-Mar-19 03:11 PM] TonyL#3577
+Just thought it will looks more beatiful if it will collect from player buyin + txfee  😃
+Rebuilding node which not on latest and will try to register too
+
+
+[26-Mar-19 03:29 PM] TonyL#3577
+Buyins field looks fine after second registration:
+```  "numplayers": 2,
+  "buyins": 0.19980000,
+  "maxplayers": 2,
+```
+
+
+[26-Mar-19 03:36 PM] TonyL#3577
+Played short game and made bailout from one node and highlander from other one
+
+
+[26-Mar-19 03:37 PM] TonyL#3577
+It seems that buyins were transferred in highlander:
+```
+    {
+      "value": 0.19980000,
+      "valueSat": 19980000,
+      "n": 2,
+      "scriptPubKey": {
+        "asm": "03e5841977ef37d9b7c71ddc18a9593d695fbbec7bd247b5ecb64f29099dd6fb71 OP_CHECKSIG",
+        "hex": "2103e5841977ef37d9b7c71ddc18a9593d695fbbec7bd247b5ecb64f29099dd6fb71ac",
+        "reqSigs": 1,
+        "type": "pubkey",
+        "addresses": [
+          "RHALVxidYFXRK83b7djANpNcKp2jBvfaic"
+        ]
+      }
+```
+
+
+[26-Mar-19 03:38 PM] TonyL#3577
+Flags for players status changed correctly also in gameinfo
+
+
+[26-Mar-19 03:38 PM] TonyL#3577
+buyins field remained the same in gameinfo - but not sure if it should be 0 after succesful highlander
+```  "buyins": 0.19980000,
+  "maxplayers": 2,
+  "buyin": 0.10000000,
+```
+
+
+[26-Mar-19 03:40 PM] TonyL#3577
+Going to rest - tomorrow will make separate tetris TUI (have to adopt few places and not show not needed ones)
+
+
+[27-Mar-19 02:46 AM] jl777c#5810
+I make makecclib to build all the .so files and dapps
+
+
+[27-Mar-19 02:47 AM] jl777c#5810
+I also added support in games CC to support a different game. much easier to do it at the source level, so you just need to make game.c game.h game.cpp and change 2 #ifdefs to use the game.c and game.cpp, so each .so will have one game with this method
+
+
+[27-Mar-19 03:15 AM] jl777c#5810
+@TonyL I moved the game source code into games dir
+
+
+[27-Mar-19 03:15 AM] jl777c#5810
+cc/makecclib should build all dapps and .so files
+
+
+[27-Mar-19 03:16 AM] TonyL#3577
+All dapps with rogue included?
+
+
+[27-Mar-19 03:17 AM] jl777c#5810
+yes
+
+
+[27-Mar-19 03:17 AM] jl777c#5810
+oh, rogue is not changes
+
+
+[27-Mar-19 03:17 AM] jl777c#5810
+just the tetris and new games will be in games dir
+
+
+[27-Mar-19 03:18 AM] TonyL#3577
+Got it, so tetris and prices for now
+
+
+[27-Mar-19 03:18 AM] jl777c#5810
+yes, and new games CC games should go in games dir
+
+
+[27-Mar-19 03:18 AM] jl777c#5810
+build controlled by -DBUILD_<game>
+
+
+[27-Mar-19 03:20 AM] TonyL#3577
+Hmm before `makecclib` built "sudoku" cclib. What is the way to build sudoku cclib (SudokuCC and Dilithium ) at the moment?
+
+
+[27-Mar-19 03:21 AM] jl777c#5810
+fixed
+
+
+[27-Mar-19 03:44 AM] TonyL#3577
+Hmm strange, used only makecclib in build.sh (and it built `tetris` dapp in cc/games)
+But have rogue cclib
+```./komodo-cli -ac_name=GTEST cclibinfo
+{
+  "result": "success",
+  "CClib": "rogue",```
+
+
+[27-Mar-19 03:46 AM] TonyL#3577
+Deleted/cleaned everything and trying again
+
+
+[27-Mar-19 03:48 AM] TonyL#3577
+```Linux
+Building cclib to src/
+LINUX
+gcc -Wno-write-strings -DBUILD_ROGUE -std=c++11 -I../../depends/x86_64-unknown-linux-gnu/include -I../univalue/include -I../cryptoconditions/include -I../cryptoconditions/src -I../cryptoconditions/src/asn -I.. -I. -fPIC -shared -O0 -D _DEBUG -o librogue.so -c cclib.cpp
+In file included from cclib.cpp:668:
+rogue/rogue.c: In function ‘int32_t rogue_progress(rogue_state*, int32_t, uint64_t, char*, int32_t)’:
+rogue/rogue.c:163:1: warning: no return statement in function returning non-void [-Wreturn-type]
+```
+Oh it building rogue first
+
+
+[27-Mar-19 03:50 AM] TonyL#3577
+Yes, anyway have only `rogue` methods in cclibinfo
+
+
+[27-Mar-19 03:54 AM] TonyL#3577
+Aha, to make games cclib I have to execute `cc/makegames`
+```{
+  "result": "success",
+  "CClib": "gamescc",
+```
+
+
+[27-Mar-19 03:55 AM] TonyL#3577
+So if I want to make rogue daemon - I have just run `makecclib`
+If  I want games - `makecclib` + `makegames`
+
+
+[27-Mar-19 03:59 AM] TonyL#3577
+Lool, tetris warriors
+
+{Attachments}
+https://cdn.discordapp.com/attachments/558636232624701452/560417709448232971/unknown.png
+
+
+[27-Mar-19 04:01 AM] ronyi#5719
+😄
+
+
+[27-Mar-19 04:03 AM] TonyL#3577
+```Game over!
+You finished with 1240 points on level 0.
+```
+
+```Extraction info:
+Current game state:
+Game txid: 9f7c46a705f5d21ad99440d8119d5facafd39ace4dc7589b92c9b74b8506df56
+Information about game saved on chain:  <- playerdata: gold.1240 hp.0 strength.0/0 level.0 exp.0 dl.0
+```
+
+
+[27-Mar-19 04:04 AM] TonyL#3577
+```(TonyL) found baton 64e66b0b129dfcb17692f3121722f96538e97042eefb2e127d560ce77fa1b1c7 numkeys.468 seed.1458973450462142945 playerdata.0
+
+cashout 0.00000000 extracted  <- playerdata: gold.1240 hp.0 strength.0/0 level.0 exp.0 dl.0
+``` ouch
+
+
+[27-Mar-19 04:04 AM] TonyL#3577
+level0 it's level1 (starting level actually). I wonder it's multiply to 0 so cashout 0 gold
+
+
+[27-Mar-19 04:05 AM] jl777c#5810
+i will fix that, makecclib should build all things, been fiddling with it
+
+
+[27-Mar-19 04:06 AM] jl777c#5810
+pushed version with different tetris cashout, since it already gives more points for levels, I just mult points by 10000
+
+
+[27-Mar-19 04:21 AM] TonyL#3577
+```i will fix that, makecclib should build all things, been fiddling with it```
+It looks like it build all things but linking to daemon rogue cclib
+
+Hmm my tetris should contain fix - quite strange that it's 0 again
+```Game over!
+You finished with 260 points on level 0.
+cashout 0.00000000 extracted  <- playerdata: gold.260 hp.0 strength.0/0 level.0 exp.0 dl.0
+```
+
+
+[27-Mar-19 04:26 AM] jl777c#5810
+makecclib does not rebuild komodod
+
+
+[27-Mar-19 04:26 AM] jl777c#5810
+you need to make a script that copies the appropriate .so file to libcc.so and rebuild komodod
+
+{Reactions}
+👍 
+
+[27-Mar-19 06:48 AM] TonyL#3577
+https://github.com/tonymorony/komodo_cryptoconditions_tui/blob/master/tetris_tui.py ok, pretty simple Tetris TUI (have to put TUI files to src folder because it looking for game in ./cc/games/tetris)
+
+{Embed}
+https://github.com/tonymorony/komodo_cryptoconditions_tui/blob/master/tetris_tui.py
+tonymorony/komodo_cryptoconditions_tui
+Terminal user interfaces for Komodo CryptoConditions smart-contracts - tonymorony/komodo_cryptoconditions_tui
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[27-Mar-19 06:49 AM] TonyL#3577
+It printing "warriors" and asking to choose some - have to rewrite newgame code to adjust for game specifics
+
+
+[27-Mar-19 06:49 AM] TonyL#3577
+At the moment code for rogue is quite monolyth (not assumed when write that there will be more games with same RPC mechanics) - so just don't choose any player 😃
+
+
+[27-Mar-19 06:52 AM] TonyL#3577
+It took 2 minutes to make Tetris TUI from Rogue TUI, thanks James 🙏 😃
+
+
+[27-Mar-19 07:07 AM] TonyL#3577
+```Game over!
+You finished with 320 points on level 0.
+```
+```cashout 0.03200000 extracted  <- playerdata: gold.320 hp.0 strength.0/0 level.0 exp.0 dl.0```
+
+
+[27-Mar-19 07:07 AM] TonyL#3577
+Calculating fine now 😃
+
+
+[27-Mar-19 07:30 AM] TonyL#3577
+My best score so far:
+```Game over!
+You finished with 5420 points on level 4.
+``` 😃
+
+
+[27-Mar-19 07:30 AM] TonyL#3577
+`./komodo-cli -ac_name=GTEST cclib extract 17 "['40f7b85fd4a4eef9308cca87fe6a264f8770ff058bb1d6e818e632316dac7492']"`
+In extract:
+```  "extracted": " <- playerdata: gold.4220 hp.0 strength.0/0 level.0 exp.0 dl.4",
+```
+
+
+[27-Mar-19 07:31 AM] TonyL#3577
+Aha, last keystroke from keystrokes.log isn't on chain and mempool is clean:
+```./komodo-cli -ac_name=GTEST getrawtransaction baaf72cbeac9b21b26d9088a09b64097a29ad2158f3b59f37a903f63a5059d2e 1
+error code: -5
+error message:
+No information available about transaction
+```
+
+
+[27-Mar-19 07:32 AM] TonyL#3577
+Broadcasted it manually
+
+
+[27-Mar-19 07:32 AM] TonyL#3577
+```  "extracted": " <- playerdata: gold.5420 hp.0 strength.0/0 level.0 exp.0 dl.4",```
+Progress added
+
+
+[27-Mar-19 07:34 AM] jl777c#5810
+same issues as rogue
+
+
+[27-Mar-19 07:35 AM] TonyL#3577
+Oh yes, looks the same because baton is ```"batontxid":"0000000000000000000000000000000000000000000000000000000000000000"``` in keystrokes.log
+
+
+[27-Mar-19 07:36 AM] TonyL#3577
+Only rogue not accepted progress when I've broadcasted such failed keystrokes manually - but now tetris accepted it
+
+
+[27-Mar-19 09:40 AM] jl777c#5810
+@TonyL maybe it makes sense to make a pull request for TUI into tui folders, ie. ~/komodo/src/cc/rogue/tui, cc/games/tetristui
+
+
+[27-Mar-19 09:43 AM] TonyL#3577
+@jl777c Will do 👍
+
+
+[27-Mar-19 09:51 AM] TonyL#3577
+All TUIs using functions from same module `lib/tuilib.py` and also using `lib/logo.txt` as loading logo
+Can I create some subfolder like a`tuilib` in `src/cc` or put these files to `src/cc` ?
+
+
+[27-Mar-19 09:53 AM] TonyL#3577
+In general this file just 91KB I can just create lib/tuilib.py inside each TUI folder - just will be harder to maintain
+
+
+[27-Mar-19 10:08 AM] jl777c#5810
+maybe it is better to make a komodo/src/tui folder with a subfolder for each variant and it can share tui/lib
+
+{Reactions}
+👍 (2) 
+
+[28-Mar-19 09:48 AM] TonyL#3577
+```Game over!
+You finished with 9920 points on level 4.```
+
+```Extraction info:
+
+Current game state:
+Game txid: f16cc33c20c08e81a938eee41de17871dc5ba5e11954a5adabfb84cdcf9bdc97
+Information about game saved on chain:  <- playerdata: gold.9920 hp.0 strength.0/0 level.0 exp.0 dl.4
+```
+
+
+[28-Mar-19 09:48 AM] TonyL#3577
+Longest so far
+
+
+[28-Mar-19 09:53 AM] TonyL#3577
+https://github.com/jl777/komodo/pull/1362 TUIs 😃
+
+{Embed}
+https://github.com/jl777/komodo/pull/1362
+Added python TUIs  by tonymorony · Pull Request #1362 · jl777/komodo
+Since each TUI is just single file which calling functions from tuilib module - just placed them in src/tui without subfolders
+License file just copied from my repo - not sure how it should looks like
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[28-Mar-19 10:06 AM] TonyL#3577
+Can add Komodoku GUI somewhere also if needed - it's quite feature complete and lightweight (just 400kb or so)
+
+
+[28-Mar-19 10:36 AM] jl777c#5810
+yes, maybe we need a gui folder, so src/gui/komodou
+
+
+[28-Mar-19 10:44 AM] TonyL#3577
+https://github.com/jl777/komodo/pull/1363
+
+{Embed}
+https://github.com/jl777/komodo/pull/1363
+Added Komodoku GUI by tonymorony · Pull Request #1363 · jl777/komodo
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[28-Mar-19 10:49 AM] TonyL#3577
+Python code precetage rised from 7% to 7.7% 😃
+
+{Attachments}
+https://cdn.discordapp.com/attachments/558636232624701452/560883209685172234/unknown.png
+
+{Reactions}
+2561_feelsevilman (2) 
+
+[28-Mar-19 10:50 AM] TonyL#3577
+Everywhere sevens. Coincidence? I do not think so 😂
+
+
+[28-Mar-19 12:52 PM] TonyL#3577
+Quite reliable so far
+
+```You finished with 9400 points on level 6.
+
+Current game state:
+Game txid: aacf2a132b0debf13051f1f3eb6234e5a9f9baf10f5e5120d77afeb281939320
+Information about game saved on chain:  <- playerdata: gold.9400 hp.0 strength.0/0 level.0 exp.0 dl.6
+```
+
+
+[28-Mar-19 12:55 PM] TonyL#3577
+Hmm interesting that before in game before `You finished with 9920 points on level 4.`
+But now just 9400 on level 6 (level 6 means more lines I wonder).
+Not sure how points calculating in game - maybe there is some bonus for combos
+
+
+[28-Mar-19 12:58 PM] jl777c#5810
+the scoring code is not much at all, in fact, all of tetris code is just several hundred lines
+
+
+[28-Mar-19 12:58 PM] TonyL#3577
+hehe
+
+{Attachments}
+https://cdn.discordapp.com/attachments/558636232624701452/560915604534460452/unknown.png
+
+
+[28-Mar-19 01:10 PM] TonyL#3577
+```
+Game over!
+You finished with 9760 points on level 5.
+Information about game saved on chain:  <- playerdata: gold.7180 hp.0 strength.0/0 level.0 exp.0 dl.4
+```
+Aha, last keystroke zero baton issue (seems it's only issue we have so far) with print `FinalizeCCTx couldnt find 0000000000000000000000000000000000000000000000000000000000000000`
+
+I think I can fix it from TUI side - will just search zero baton ones in keystrokes.log and rebroadcast (if there are few - I'll just make delay between broadcasts 20 seconds)
+
+
+[28-Mar-19 01:14 PM] TonyL#3577
+Hmm in this game not last one have zero baton in log but next-to-last
+
+
+[28-Mar-19 01:19 PM] TonyL#3577
+Was able to broadcast this next-to-last keystroke but progress wasn't added (because it's not in order I wonder)
+
+
+[28-Mar-19 05:48 PM] TonyL#3577
+Setup tetris games blaster on my node - it'll keep amount of pending singpleplayer games >= 100
+
+Changed TUI a little bit also - for tetris it choosing random game from pending list now (same approach as sudoku).
+
+Tetris games much shorter and more dynamic than rogue - so trying to cut waitings as much as possible.
+So now it waiting 2 times: until registration tx is mined and next block before bailout execution
+
+https://github.com/jl777/komodo/pull/1364
+Also removed warriors choice possibility and for tetris forcing registration without playertxid argument
+
+{Embed}
+https://github.com/jl777/komodo/pull/1364
+tetris tweaks by tonymorony · Pull Request #1364 · jl777/komodo
+choosing random game from pending list for singleplayer
+cut some unnecessary for tetris waiting
+not showing warriors list in tetris and not allowing to choose it
+https://images-ext-2.discordapp.net/external/IULxymVak7WPV8PZwfkPCOyLSBf6KKjfvRL8wa24Vjc/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/24797699
+
+
+[28-Mar-19 05:50 PM] TonyL#3577
+Ah and also bad news - it seems that tetris can cause addiction same as rogue lol
+
+{Reactions}
+😂 (5) ❤ (2) 
+
+[03-Apr-19 06:48 AM] quantumfinance#9369
+what is this game?
+
+
+[03-Apr-19 05:01 PM] TonyL#3577
+CC Games is like a framework for games connecting with blockchain (abstracted mechanics which was initially implemented in rogue). At the moment working game on it is Tetris - bricks falling, lines filling - depends of you score you getting coins on bailout
+
+
+[04-Apr-19 12:30 AM] TwilightPunkster K64#7533
+Loving it.
+
+
+[24-Apr-19 10:20 AM] FishyGuts#5085
+@here who is interested in testing and building k64 CCs?
+
+
+[24-Apr-19 10:20 AM] FishyGuts#5085
+We’ve been kicking around ideas for K64 or KMD bounties for this.
+
+
+[24-Apr-19 10:21 AM] FishyGuts#5085
+We’ve got a list of open source repos to work in that will be announced soon.  Looking to harness the power of you sexy beasts to make this KMD Games dream a reality. 👍
+
+
+[27-Apr-19 05:49 AM] Mylo#8306
+no bandwidth (or enough CC skills) atm
+
+
+[13-Jul-19 12:24 PM] rainbro7#4735
+Will CC game be able to solve the cheating problem? Or do we need verifiable hardware for that?
+
+
+[13-Jul-19 12:27 PM] jl777c#5810
+for games that cant be played by AI, cheating can be prevented
+
+
+[13-Jul-19 12:54 PM] rainbro7#4735
+It would be interesting to have a captcha like mechanism built into gameplay to prevent ai. If a simple game like Tetris is created, people can still cheat. Also, im sure there is something better than captcha that can be used. I see blockchain games with crypto integrations as a breeding ground for AI players :(
+
+
+[19-Sep-19 09:23 AM] xeonrider#3120
+hi is anyone making games with antara?
+
+
+[20-Sep-19 03:07 PM] hyperDEX#6586
+@xeonrider there is a gaming SDK in the works
+
+
+[26-Sep-19 01:19 PM] Oszy#5734
+https://github.com/KomodoPlatform/antara-gaming-sdk/tree/0.0.1
+
+{Embed}
+https://github.com/KomodoPlatform/antara-gaming-sdk/tree/0.0.1
+KomodoPlatform/antara-gaming-sdk
+Antara Gaming Software Development Kit. Contribute to KomodoPlatform/antara-gaming-sdk development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[30-Sep-19 08:54 AM] Moises#1910
+good afternoon how are you all
+
+
+[29-Oct-19 03:54 AM] jl777c#5810 (pinned)
+https://medium.com/@jameslee777/multichain-decentralized-cashier-for-gaming-110297ced95f
+
+{Embed}
+https://medium.com/@jameslee777/multichain-decentralized-cashier-for-gaming-110297ced95f
+Multichain decentralized cashier for gaming
+It has taken many years to finally be able to put together a fully decentralized system for one of the most demanding usecases, realtime…
+
+
+[29-Oct-19 09:39 PM] grewalsatinder#9653
+Pinned a message.
+
+
+[04-Nov-19 10:48 AM] Deleted User#0000
+When do we get a 1 arm bandit with a 777 jackpot?
+
+
+[05-Nov-19 07:52 PM] ph03nix#3115
+https://medium.com/blockadegames/using-ipfs-distributed-file-storage-for-game-asset-metadata-aac4478e3063
+
+{Embed}
+https://medium.com/blockadegames/using-ipfs-distributed-file-storage-for-game-asset-metadata-aac4478e3063
+Using IPFS Distributed File Storage for Game Asset Metadata
+Overview
+https://images-ext-2.discordapp.net/external/mpE6VkrOCMI8hw07HgKOEofytm-zPMUZoaW-yQcN2as/https/miro.medium.com/max/1200/1%2ArXk52hYALeMGA-bzRFbmPw.png
+
+
+[26-Nov-19 12:44 PM] Tylor zkFS#8280
+if KV is being dumped then where to store game data? IPFS? or hmmm maybe OP_RETURN metadata on same chain? or another cluster? quantifying answer now.. be back in a few months
+
+
+[26-Nov-19 12:59 PM] Tylor zkFS#8280
+PoS stake chain A- Cashier on chain B - Game state on chain C or A - mining rewards and game wins back to chain A - burning chain B coins-all recorded on chain C.......or A??
+
+
+[26-Nov-19 10:25 PM] gcharang#6833
+@Tylor zkFS Oracles : <https://developers.komodoplatform.com/basic-docs/antara/antara-api/oracles.html>
+
+
+[26-Nov-19 10:25 PM] gcharang#6833
+^ replacement for kv
+
+
+[27-Dec-19 07:33 AM] Tylor zkFS#8280
+Anywhere to find the cashier info ? Anybody running cashier nudes?  I cant find the "house" node info anymore...I am going to need 2 or more chains for what I am building
+
+
+==============================================================
+Exported 296 message(s)
+==============================================================

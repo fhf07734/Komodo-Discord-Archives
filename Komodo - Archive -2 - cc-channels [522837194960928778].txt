@@ -1,0 +1,1090 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-channels
+Topic: https://developers.komodoplatform.com
+==============================================================
+
+[21-Dec-18 03:30 PM] TonyL#3577
+https://docs.google.com/spreadsheets/d/1l0dWEPcrv9zE11_TD-XrX_HIYV0VLpadCJN6hvaZERc/edit#gid=55258823 New `channelslist` call was added 
+`channelsinfo` not displaying list of channels anymore. Changes are reflected in document above on `channels` page
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1l0dWEPcrv9zE11_TD-XrX_HIYV0VLpadCJN6hvaZERc/edit
+Smart Contract Test Plan
+Faucet
+
+
+ Faucet Contract
+ Available RPC calls, What does this Call do?, Example Test Command, Example Expected Output, What to Check, Comments, Testing Result
+ faucetaddress[ pubkey], Will display central faucet address and your faucet contract address for your pubkey.
+ pubk...
+https://images-ext-2.discordapp.net/external/QZIWn2gC2YrS-VtzZN9auV-B7hhTp1IBFxoo9o3BBOo/https/lh4.googleusercontent.com/jG0EwoRG0GKTwPpnAwZivN2UkcMWt-qr3QUTPsmy2nz8nNGRLIBXezodcKzZoKg9bFwJDQ%3Dw1200-h630-p
+
+
+[22-Dec-18 09:59 AM] Mihailo#5902
+@TonyL Sorry that I did not notify anybody, I found a bug in channels and fixed it and also changed channelsinfo to be JSON format, and moved list of channels to channellist!
+
+
+[22-Dec-18 10:00 AM] TonyL#3577
+@Mihailo Sure, no problem 👍  I've found it as soon as continued to work on ChannelsCC GUI 😃
+
+
+[22-Dec-18 10:03 AM] Mihailo#5902
+👍
+
+
+[19-Jan-19 04:52 AM] TonyL#3577
+@Mihailo I'm making a channel between nodes A and B. Then broadcasting  one `channelspayment` transaction but not mine it to reveal secret of this transaction.
+After it I'm stopping daemon on node A, waiting for some time and then trying to generate channelspayment transaction on node B using a secret from channelsinfo for not mined payment but getting: ```invalid secret supplied
+ {"result": "error", "error": "couldnt create channelspayment transaction"}```
+Am I missing something?
+
+
+[19-Jan-19 04:53 AM] jl777c#5810
+that should work...
+
+
+[19-Jan-19 04:53 AM] jl777c#5810
+seems a bug!
+
+
+[19-Jan-19 05:03 AM] TonyL#3577
+I've ensured that node B see this transaction from node A in mempool, also ensured that node B see a secret in channelsinfo. Mining was disabled on both nodes (only nodes in chain).
+After Node A stopping Node B still see this channelspayment in mempool
+
+
+[19-Jan-19 05:03 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY10 channelsinfo bdc11caed9b119885142e79a06c6f00b1bc65b21d378bd4707bc12c0564233ab
+{
+  "result": "success",
+  "Channel CC address": "RSLwFb2Sg137zNGZBiRQqXqqdmioEJvNhY",
+  "Destination address": "REGx42d3QriW89Q2c7fT4dDydz1qfE2cNA",
+  "Number of payments": 10,
+  "Denomination (satoshi)": "1000000",
+  "Amount (satoshi)": "10000000",
+  "Transactions": [
+    {
+      "Open": "bdc11caed9b119885142e79a06c6f00b1bc65b21d378bd4707bc12c0564233ab"
+    },
+    {
+      "Payment": "b18242e8865e3547f63d90e5a01b6d3914e096eccc0a73ecadc8f892395dd8bc",
+      "Number of payments": 1,
+      "Amount": 1000000,
+      "Destination": "REGx42d3QriW89Q2c7fT4dDydz1qfE2cNA",
+      "Secret": "453d5561f901589ae03dcd1a9710bf41659f0d33202fbecf2bc9a4e15072403a",
+      "Payments left": 9
+    }
+  ]
+}```
+
+
+[19-Jan-19 05:03 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY10 getrawmempool
+[
+  "b18242e8865e3547f63d90e5a01b6d3914e096eccc0a73ecadc8f892395dd8bc"
+]
+```
+
+
+[19-Jan-19 05:03 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY10 channelspayment bdc11caed9b119885142e79a06c6f00b1bc65b21d378bd4707bc12c0564233ab 1000000 453d5561f901589ae03dcd1a9710bf41659f0d33202fbecf2bc9a4e15072403a
+invalid secret supplied
+{
+  "result": "error",
+  "error": "couldnt create channelspayment transaction"
+}
+```
+
+
+[19-Jan-19 05:04 AM] jl777c#5810
+is there a different rpc for receiver to make a payment?
+
+
+[19-Jan-19 05:04 AM] jl777c#5810
+once in the local mempool, the external node going offline better not be able to affect your local mempool
+
+
+[19-Jan-19 05:06 AM] TonyL#3577
+There is only one RPC call for channel payment as I know
+Seems I've missed at least one commit which has changes for channels.cpp, let me rebuild and check again
+
+
+[19-Jan-19 05:33 AM] TonyL#3577
+Same behaviour on very latest FSM commit ```git log -1
+commit d13264a169cb6a22d94008ba966ec6ea453b1950 (HEAD -> FSM, origin/FSM)
+Merge: bfccd586f 5a4fd8b15
+Author: jl777 <jl777@users.noreply.github.com>
+Date:   Fri Jan 18 00:02:41 2019 -1100
+
+    Merge pull request #1185 from tonymorony/FSM
+    
+    fixed existing token tests```
+
+
+[20-Jan-19 12:20 AM] TonyL#3577
+Also seems `channelsclose` is not work on this version:
+```./komodo-cli -ac_name=TONY10 channelsinfo f08e8e1bd5f0f43b58ad1bb25400082586a5379827a79f0c9c9f7ebfa57b3230
+{
+  "result": "success",
+  "Channel CC address": "RXnotNMC9pLcvXvaPg5zjjcg4gNJf8Hw1C",
+  "Destination address": "REGx42d3QriW89Q2c7fT4dDydz1qfE2cNA",
+  "Number of payments": 10,
+  "Denomination (satoshi)": "1000000",
+  "Amount (satoshi)": "10000000",
+  "Transactions": [
+    {
+      "Open": "f08e8e1bd5f0f43b58ad1bb25400082586a5379827a79f0c9c9f7ebfa57b3230"
+    },
+    {
+      "Payment": "8c6cb28bee0ef16001749b07f2a53c3c626d25de4921b0073875f3ac50b12030",
+      "Number of payments": 1,
+      "Amount": 1000000,
+      "Destination": "REGx42d3QriW89Q2c7fT4dDydz1qfE2cNA",
+      "Secret": "62931dd8e118a4e79df345c7ae2113b69865b2ae3aa03c7854d10915b135b9ab",
+      "Payments left": 9
+    }
+  ]
+}
+```
+
+
+[20-Jan-19 12:20 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY10 channelsclose f08e8e1bd5f0f43b58ad1bb25400082586a5379827a79f0c9c9f7ebfa57b3230
+{
+  "result": "success",
+  "hex": "0400008085202f8903040448a56c31bb7e4d05650eb40e7ec159e0425ae8cd758264e58d4edd55a659000000004847304402207bf2fb5dbd2f586337766ab43348d4880130f2566e61154e334f582d4f79050102205b8a4bb0022724597dfb391cccd95af3dabc1a05f81fcb9311209872904d956101ffffffff3020b150acf3753807b02149de256d623c3ca5f2079b740160f10eee8bb26c8c00000000a74ca5a281a1a0819ca28194a067a56580210287fb1878a131ec908088d703dd654144b5017c5cf30b5c9ba7b7f150342d10ad814003d46c89d2ea41c18568304701624e50f41f3ff0828d0e94e915148d14dc601b30472ce7576e10171da8a1602d146124eaab8ace252ea558f990a36eb98a0612a129a527802060296c301dc359dda3af358b40fbfbec4405c6f35a3a4151bab2c54d3f77ec608103020000af038001eba10001ffffffff3020b150acf3753807b02149de256d623c3ca5f2079b740160f10eee8bb26c8c010000007b4c79a276a072a26ba067a56580210287fb1878a131ec908088d703dd654144b5017c5cf30b5c9ba7b7f150342d10ad814066483ce6b094993f4b443d397a445b324fae80471799e381f4b67b0b8a9d19f6188de54fcd281fd384287a943455a0106ae2a2b6b9724450eee0a97b1734922ca100af038001eba10001ffffffff05302d890000000000302ea22c8020fc207461303543d37647e26ead37952d3a302c81fe1ad806fa831d0c11d8eea281031210008203000401cc1027000000000000302ea22c8020ff15b12dd6e8de39a97e0d199c46a2c64d639de58883f1c21477f56044c2f4f08103120c008203000401cc1027000000000000302ea22c802055c9c4271c5a8387f6b747af92a59d8a7e4cd60ec834fb558737e27fe7a6e9928103120c008203000401ccf078724e1809000023210287fb1878a131ec908088d703dd654144b5017c5cf30b5c9ba7b7f150342d10adac0000000000000000956a4c92eb4330327ba5bf7e9f9c0c9fa7279837a58625080054b21bad583bf4f0d51b8e8ef0210287fb1878a131ec908088d703dd654144b5017c5cf30b5c9ba7b7f150342d10ad21032b6702a8a83b64962e6aee1c0c47751564ca4620ca469c925c19bd1cb451c5aa0800000040420f0000000000000000000000000000000000000000000000000000000000000000000000000000000000a80100000000000000000000000000"
+}
+```
+
+
+[20-Jan-19 12:20 AM] TonyL#3577
+On broadcast:
+```inputs 9000000 vs outputs 8990000
+CC Eval EVAL_CHANNELS Invalid: invalid channel inputs vs. outputs! spending tx 8c6cb28bee0ef16001749b07f2a53c3c626d25de4921b0073875f3ac50b12030
+error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)```
+
+
+[20-Jan-19 12:21 AM] TonyL#3577
+Detected by auto-tests which passed before and re-checked manually
+
+
+[21-Jan-19 01:47 AM] Mihailo#5902
+@TonyL The problem is that you made node B see the payment in meme pool. You must create a payment on node A that is totaly disconnected from the network, then when you see the secret you stop node A, start node B and make a payment. If the payment from node A is in mempool on node B then it is a existing payment and you won't be able to make it again, it must be a new payment.
+
+
+[21-Jan-19 01:49 AM] Mihailo#5902
+The case when you see the payment in your mempool and see the secret is when the chain reorgs and the payment is gone. But you are trying to test it without chain reorg so you must make it that the payment does not exist in node B!
+
+
+[21-Jan-19 01:50 AM] Mihailo#5902
+For the channelclose, it hsould work. I had some fix regarding this I think. Let me check.
+
+
+[21-Jan-19 01:53 AM] TonyL#3577
+Oh, It's clear now - will try this way, thanks👍
+
+
+[21-Jan-19 01:53 AM] Mihailo#5902
+Ok, my bad for channelsclose. Will fix it now.
+
+{Reactions}
+👍 
+
+[21-Jan-19 02:29 AM] Mihailo#5902
+@TonyL https://github.com/jl777/komodo/pull/1192
+
+{Embed}
+https://github.com/jl777/komodo/pull/1192
+Channel close fix. Adding CCError print to all Channel RPCs. by Mi...
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+{Reactions}
+🙌 
+
+[21-Jan-19 02:29 AM] Mihailo#5902
+Now you will have all errors in RPC for channels 😉
+
+
+[21-Jan-19 02:40 AM] TonyL#3577
+Great! Will go ahead with re-test 😃
+
+
+[21-Jan-19 04:53 AM] jl777c#5810
+merged
+
+{Reactions}
+👌 
+
+[21-Jan-19 05:44 AM] TonyL#3577
+`channelsclose` is fine now
+
+
+[21-Jan-19 05:44 AM] TonyL#3577
+Making more tests for channels
+
+
+[21-Jan-19 06:53 AM] TonyL#3577
+Disconnected node A from network (banned node B and ensured that both nodes A and B have connections: 0)
+Then revealed secret by transaction initiation on node A (ensured that secret is not available for node B), then initiated `channelspayment` from node B and it's worked fine 👍
+
+{Reactions}
+👌 
+
+[21-Jan-19 07:40 AM] TonyL#3577
+```komodod: txmempool.cpp:619: void CTxMemPool::check(const CCoinsViewCache*) const: Assertion `coins && coins->IsAvailable(txin.prevout.n)' failed.```
+Have problems with nodes syncing back after such case in tests
+
+
+[21-Jan-19 07:40 AM] TonyL#3577
+Gonna try on non-regtest chain now
+
+
+[21-Jan-19 07:41 AM] Mihailo#5902
+I also had some wierd problem when testing, when I issued a payment on one node it added input from a tx that seems to be non-existent when I tried to broadcast it... Something strange is going on 😉
+
+{Reactions}
+PeepoThink 
+
+[21-Jan-19 07:43 AM] TonyL#3577
+In test framework daemon just crashed with this error above after I connected node A back to the network.
+Will try to collect better backtrace If it's repeatable on non-regtest chain
+
+
+[21-Jan-19 11:49 AM] TonyL#3577
+Seems my problem actual in the `regtest` mode only - in usual mode cant reproduce it so far.
+ In `regtest` getting ```komodod: txmempool.cpp:619: void CTxMemPool::check(const CCoinsViewCache*) const: Assertion `coins && coins->IsAvailable(txin.prevout.n)' failed.
+``` as soon as both nodes with different `channelspayment` transactions in mempool are online and I'm trying to generate a new block
+
+
+[22-Jan-19 02:23 AM] Mihailo#5902
+Well, this should be investigated... Did you try this witout regtest mode, and what happenes when both nodes are online?
+
+
+[22-Jan-19 02:49 AM] TonyL#3577
+Yes I've tried this without regtest mode - in such case payment succeed.
+Transaction from node B (transaction which created with revealed secret as an argument) mine as actual and transaction from node A mempool (secret revealing transaction) disappear
+
+
+[22-Jan-19 03:14 AM] Mihailo#5902
+Ok, never tried this if it happens that both sender and receiver some how publish payment - what would happen.
+
+
+[22-Jan-19 03:22 AM] TonyL#3577
+Node A is offline and publish `channelspayment` transaction to mempool for secret revealing
+Node B publishing transaction with `channelspayment` to mempool  with secret usage
+And then I'm not generating any blocks on node B and put node A back online
+
+
+[22-Jan-19 03:26 AM] Mihailo#5902
+👍
+
+
+[01-Mar-19 09:44 AM] criptolady#5350
+Hiii!!!! I need admin
+
+
+[03-Mar-19 07:59 AM] TonyL#3577
+@smkhound Started to repair CCs auto-tests and it detected problem with `channelslist` call, which reproducing on usual non-regtest FSM daemon as well:
+```./komodo-cli -ac_name=GWTEST3 channelslist
+error code: -1
+error message:
+to use CC contracts, you need to launch daemon with valid -pubkey= for an address in your wallet```
+other channels calls seems to work correct
+@Mihailo
+
+
+[03-Mar-19 08:04 AM] Mihailo#5902
+Hmmm, I'll check it out but it shouldn't give this error if it is ran with -pubkey...
+
+
+[03-Mar-19 11:18 AM] Mihailo#5902
+@TonyL Sombody set eval code in channelslist RPC to EVAL_MARMARA so it entered iin some if like the CC is disabled. Fixed!
+
+{Reactions}
+👍 
+
+[03-Mar-19 11:18 AM] Mihailo#5902
+https://github.com/jl777/komodo/pull/1309
+
+{Embed}
+https://github.com/jl777/komodo/pull/1309
+Fix channelslist RPC. by Mixa84 · Pull Request #1309 · jl777/komodo
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+
+[03-Mar-19 11:19 AM] jl777c#5810
+ooops! that somebody i am sure was me. I put in eval codes into all those function calls and must have gotten that one wrong
+
+
+[03-Mar-19 11:19 AM] Mihailo#5902
+Np 😉
+
+
+[03-Mar-19 11:20 AM] Mihailo#5902
+BTW, I see that you had a big merge in FSM recently. I know I'm boring, but could you merge it with squash commit, so that we can track changes and read git log easier? 😉
+
+
+[03-Mar-19 11:22 AM] jl777c#5810
+no idea how to do that
+
+
+[03-Mar-19 11:23 AM] jl777c#5810
+I just use a git GUI with basic functionality and whenever i do anything else, i totally mess things up and create a days worth of cleanup work
+
+
+[03-Mar-19 11:24 AM] Mihailo#5902
+just make a PR on your branch first (and choose squash and merge), you can do it all in github, and then you make PR on FSM with just one comit now. So basically you add one additional step when merging.
+
+
+[03-Mar-19 11:25 AM] jl777c#5810
+it did come from jl777
+
+
+[03-Mar-19 11:26 AM] Mihailo#5902
+Ok, then you can just do squash merge to FSM.
+https://user-images.githubusercontent.com/1924134/31062559-73849c00-a6f9-11e7-8853-bfa7c9f52e4a.png
+
+{Embed}
+https://user-images.githubusercontent.com/1924134/31062559-73849c00-a6f9-11e7-8853-bfa7c9f52e4a.png
+https://images-ext-2.discordapp.net/external/bODDt6b0Lnb1fqsd_Gg47jmFCBF7XXpkAzcg23j6GK0/https/user-images.githubusercontent.com/1924134/31062559-73849c00-a6f9-11e7-8853-bfa7c9f52e4a.png
+
+
+[03-Mar-19 11:27 AM] Mihailo#5902
+So when you make PR and you click merge, just select Squash and merge. This way this will enter in FSM as one commit.
+
+
+[03-Mar-19 11:30 AM] jl777c#5810
+I dont get that option
+
+
+[03-Mar-19 11:39 AM] Mihailo#5902
+Really...
+
+
+[03-Mar-19 11:39 AM] jl777c#5810
+aha! there is a dropdown to select it
+
+
+[03-Mar-19 11:39 AM] Mihailo#5902
+Yes
+
+
+[03-Mar-19 11:40 AM] jl777c#5810
+so just squash and merge from jl777 into FSM?
+
+
+[03-Mar-19 11:40 AM] Mihailo#5902
+Yep 😛
+
+
+[03-Mar-19 11:40 AM] Mihailo#5902
+I have another step because I don't have permission to push to your repo so I need to PR from my branch to FSM, and than FSM to your FSM.
+
+
+[03-Mar-19 11:40 AM] Mihailo#5902
+But you can do it in one step 😉
+
+
+[03-Mar-19 11:41 AM] jl777c#5810
+i will try to remember this next time
+
+
+[03-Mar-19 11:41 AM] Mihailo#5902
+👍
+
+{Reactions}
+😄 
+
+[03-Mar-19 08:21 PM] Deleted User#0000
+That merge I tink may have been mine aswell... I thaught that by just doing it in a single PR it had all changes in once place. Thanks for showing me this too. I will make sure to use it next time I need to push a large merge up.
+
+{Reactions}
+👍 
+
+[04-Mar-19 03:08 AM] Mihailo#5902
+For small (few commit merges) it is ok to not sqaush it, especially if they have reasonable commit message, but for a lot of small ones changing only few lines it is better to squash
+
+
+[05-Mar-19 11:15 PM] TonyL#3577
+ChannelsCC returns now two keys witt same values:
+``` "myaddress": "RWPg8B91kfK5UtUN7z6s6TeV9cHSGtVY8D", "myAddress": 
+"RWPg8B91kfK5UtUN7z6s6TeV9cHSGtVY8D"```
+Hmm  TokenCC too
+
+
+[05-Mar-19 11:16 PM] TonyL#3577
+I'll left in tests myAddress 😃
+
+
+[06-Mar-19 04:39 AM] Mihailo#5902
+is this from channelsaddres and tokensaddress rpcs?
+
+
+[06-Mar-19 04:39 AM] Mihailo#5902
+Because they all call the same function, so I think someone modified the function and maybe added some redundant data
+
+
+[06-Mar-19 04:42 AM] TonyL#3577
+Yes, from these calls
+
+
+[06-Mar-19 04:42 AM] Mihailo#5902
+Let me check
+
+
+[06-Mar-19 04:45 AM] Mihailo#5902
+It just redundant data, maybe @jl777c can remove it in a commit directly to FSM so that I dont need to make PR... rpcwallet.cpp line 5396
+
+
+[06-Mar-19 04:47 AM] TonyL#3577
+Oh ok, just reporting about suspicious things to not miss something scary 😃
+
+
+[06-Mar-19 04:48 AM] Mihailo#5902
+👍
+
+
+[06-Mar-19 05:13 AM] jl777c#5810
+removed
+
+{Reactions}
+👌 
+
+[13-Mar-19 09:04 AM] gcharang#6833
+Command:
+
+```bash
+./komodo-cli -ac_name=HELLOWORLD channelsaddress 0225f1cbbda1a0c406bb8f6dc7a589d88b2f9e28cd4fdb3f59139f8aff1f5d270a
+```
+
+Response:
+
+```json
+{
+  "result": "success",
+  "ChannelsCCAddress": "RQy3rwX8sP9oDm3c39vGKA6H315cgtPLfr",
+  "CCbalance": 0.0,
+  "ChannelsNormalAddress": "RQUuT8zmkvDfXqECH4m3VD3SsHZAfnoh1v",
+  "ChannelsCC1of2Address": "RW5qo7cPFuap1cifuFWMHurvmBU7drn9cv",
+  "ChannelsCC1of2TokensAddress": "RNjxnUR9QScLiRzo841DjCG5w5FbVbATMy",
+  "myAddress": "RJYiWn3FRCSSLf9Pe5RJcbrKQYosaMburP",
+  "myCCAddress(Channels)": "R9coADhfQwsbF8V1HVskZoYCuSw5FH8RsS",
+  "PubkeyCCaddress(Channels)": "RFiRURHbjQNDunGC3SmiNcpt89BRbqvBQb",
+  "myCCaddress": "R9coADhfQwsbF8V1HVskZoYCuSw5FH8RsS",
+  "myCCbalance": 0.0,
+  "myaddress": "RJYiWn3FRCSSLf9Pe5RJcbrKQYosaMburP",
+  "mybalance": 9.9387
+}
+```
+
+
+[13-Mar-19 09:09 AM] gcharang#6833
+|CCbalance                   | (numeric) | the unspent amount in the ChannelsCCaddress
+
+| myCCAddress(Channels)       | (string)  | taking the contract's EVAL code as a modifier, this is the CC address from the `pubkey` supplied as the argument  
+
+@Mihailo can you tell me if these descriptions are correct? specifically  ``pubkey` supplied as the argument ` part in  myCCAddress(Channels)
+
+
+[13-Mar-19 09:13 AM] gcharang#6833
+Also
+what are the descriptions for:
+1) PubkeyCCaddress(Channels)
+2) ChannelsCC1of2Address
+3) ChannelsCC1of2TokensAddress
+
+
+[13-Mar-19 09:28 AM] Mihailo#5902
+myCCAddress(Channels) is just a duplicate of myCCaddress. I think it was removed recently.
+
+1) is the CC address of the pubkey supplied in channelsaddress command
+2) This is the channel address where funds are stored when channel is opened (if using coins)
+3) This is the channel address where funds are stored when channel is opened (if using tokens)
+
+
+[13-Mar-19 09:30 AM] Mihailo#5902
+And the ChannlesNormalAddress is the global address of Channel CC, but regular address - not CC. Every CC has one global CC address and one global normal address, and many used them but in cas of channels as it is between two pubkeys the global address is not used.
+
+
+[13-Mar-19 09:31 AM] gcharang#6833
+thanks, I am using the KMDLabs daemon, it might not be uptodate with jl777
+
+
+[13-Mar-19 09:32 AM] gcharang#6833
+myCCAddress is the CC address of the pubkey used to start the daemon correct? @Mihailo
+
+
+[13-Mar-19 09:33 AM] Mihailo#5902
+@gcharang Yes
+
+{Reactions}
+👍 
+
+[13-Mar-19 09:34 AM] Mihailo#5902
+It seems it is not removed. I will fix it
+
+
+[13-Mar-19 10:51 PM] gcharang#6833
+@Mihailo as I understand it, the pubkey supplied in the `channelsaddress` method should be a destination pubkey. If a user supplies the same pubkey that was used to start the daemon, then the keys 
+ ChannelsCC1of2Address
+ ChannelsCC1of2TokensAddress
+will be meaningless right?
+
+
+[14-Mar-19 02:48 AM] Mihailo#5902
+Yes, you usually supply destination pubkey as the Channel address is made from 2 pubkeys so you need the other one. But you can supply any pubkey you want, you will get the 1of2 address between the pubkey used to start the daemon and the given pubkey
+
+
+[14-Mar-19 03:03 AM] gcharang#6833
+Thanks. 
+What happens to the 1of2 addresses when the pubkey in the argument is same as the node's pubkey, can a channel be opened from a pubkey to itself ?
+
+
+[14-Mar-19 03:16 AM] Mihailo#5902
+I haven't tried but I think it can be used. Basically, CC address will be created from two same pubkeys, and only you will be able to spend it 😉 You can try it for fun 😛
+
+{Reactions}
+👍 
+
+[28-Mar-19 08:00 AM] Mihailo#5902
+@TonyL I have improved ChannelsCC validation so quick pass of the test would be good 😉 (if you need to check daemon log for channels start with -debug=channelscc-2)
+https://github.com/jl777/komodo/pull/1360
+
+{Embed}
+https://github.com/jl777/komodo/pull/1360
+Updated ChannelsCC validation (#20) by Mixa84 · Pull Request #136...
+More constrained vins/vouts
+Fixed CC marker value
+Added validation of ChannelsOpen in all tx
+Switched to LOGSTREAM for logging
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+{Reactions}
+👌 
+
+[28-Mar-19 08:22 AM] TonyL#3577
+Tests falied on `channelspayment`  https://paste.ubuntu.com/p/tBkpzGt6wX/
+```constrain vout error nValue 0.00800000 vs 0.00700000
+CC Eval EVAL_CHANNELS Invalid: vout.0 is CC or invalid CC change amount for channelpayment! spending tx 0a47c5287169f1544ee545a7d5b8cb6d4869bf259f9202c5cee6e0c216e6f7b6
+DEBUG:BitcoinRPC:<-- {"result":null,"error":{"code":-26,"message":"16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)"},"id":34}
+
+JSONRPC error: 16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element)
+```
+Will investigate now and try to reproduce manually
+
+
+[28-Mar-19 09:01 AM] TonyL#3577
+Reproduced manually: https://paste.ubuntu.com/p/4fzpjgj7Jd/
+Issue is that not possible to send second channel payment after first one (in same channel)
+
+
+[28-Mar-19 09:03 AM] TonyL#3577
+```constrain vout error nValue 0.00800000 vs 0.00700000
+CC Eval EVAL_CHANNELS Invalid: vout.0 is CC or invalid CC change amount for channelpayment! spending tx 4ecf84cea40edad4cf69adccb9474e503e37e83cc638ff59531b37d2e50aea9e
+error code: -26
+error message:
+16: mandatory-script-verify-flag-failed (Script evaluated without error but finished with a false/empty top stack element```
+
+It's misscalculating vouts - like a caclulating from full channel capacity on second payment instead of calculation of capacity minus first payment amount
+
+
+[28-Mar-19 09:11 AM] Mihailo#5902
+@TonyL Great, I did only one payment when testing and then close. This is what the tests are for ;)
+
+{Reactions}
+👍 
+
+[28-Mar-19 09:13 AM] TonyL#3577
+Oh yes, tests quite helpful thing 😃 Hope soon we will have it in CI/CD so will see if something is wrong right after commit to FSM
+
+
+[28-Mar-19 09:42 AM] Mihailo#5902
+Fix ;)
+https://github.com/jl777/komodo/pull/1361
+
+{Embed}
+https://github.com/jl777/komodo/pull/1361
+Fix CC change calculation for channelspayment by Mixa84 · Pull Re...
+https://images-ext-2.discordapp.net/external/5PP5Rc1dp6Lo2v8nwnTvQmRdaXpEf9xjHeMr0XyppBs/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/39563265
+
+{Reactions}
+👍 
+
+[28-Mar-19 09:51 AM] TonyL#3577
+Will re-test now 😃
+
+
+[28-Mar-19 10:09 AM] TonyL#3577
+:3040_kingpeepo: 
+```Tests successful
+--- Success: cryptoconditions_channels.py ---```
+
+
+[28-Mar-19 10:10 AM] TonyL#3577
+ChannelsCC covered tests best from all CCs imo so I assume that it should work fine now
+
+
+[28-Mar-19 10:12 AM] TonyL#3577
+At least on usual RPC calls level - I'm not creating some evil transactions or changing source code in tests.
+It would be great I think if such non-standart things can be added to test framework
+
+
+[28-Mar-19 09:59 PM] Deleted User#0000
+Dont really need to, the validation just needs to be good enough that these evil transactions cant pass it.
+
+
+[19-May-19 07:48 AM] TonyL#3577
+https://paste.ubuntu.com/p/Mz7WTCSSrq/ channelsCC tests failing with some scary errors, investigating
+
+
+[19-May-19 09:21 AM] TonyL#3577
+Looks like some tests problem, was not able to reproduce manually on non regtest chain, and tests also passed fine after machine reboot
+
+
+[19-May-19 12:08 PM] Alright#0419
+@TonyL you can use `-testnode=1` for running a single network node now
+
+
+[19-May-19 12:09 PM] Alright#0419
+never trusted that regtest would have the same exact behavior as a real chain
+
+
+[19-May-19 12:10 PM] Alright#0419
+those errors probably aren't insignificant btw. Seems the daemon built transactions that did not pass consensus rules, it should really never do that
+
+
+[19-May-19 12:10 PM] TonyL#3577
+Yep, I've tested it on usual chain and it looks fine
+
+
+[19-May-19 12:10 PM] Alright#0419
+if it is your tests causing it, try to figure out which values do it, so we can prevent people from doing it via rpc
+
+
+[19-May-19 12:11 PM] TonyL#3577
+It's very normal RPC calls actually
+
+
+[19-May-19 12:11 PM] Alright#0419
+not familiar enough with channels to see the problem with these
+
+
+[19-May-19 12:11 PM] TonyL#3577
+I'm trying on real chains with same params and it's fine
+
+
+[19-May-19 12:11 PM] Alright#0419
+but `decoderawtransaction` on them maybe, try to compare them to ones that did work and see what is different
+
+
+[19-May-19 12:12 PM] Alright#0419
+I don't think that's just a regtest fluke is what I'm saying
+
+
+[19-May-19 01:06 PM] Alright#0419
+@TonyL do you still have that chain?
+
+
+[19-May-19 01:06 PM] TonyL#3577
+Which one?
+
+
+[19-May-19 01:07 PM] Alright#0419
+the one with channels errors
+
+
+[19-May-19 01:07 PM] TonyL#3577
+It's regtest chain, actually it's not exists
+
+
+[19-May-19 01:07 PM] TonyL#3577
+Temp chain creating on tests execution which flushing after tests finishing
+
+
+[19-May-19 01:07 PM] Alright#0419
+Was just looking at the txs and the code for those errors
+
+
+[19-May-19 01:07 PM] Alright#0419
+something wrong with the vin on the second one, wanted to look at the tx
+
+
+[19-May-19 01:07 PM] Alright#0419
+no worries
+
+
+[19-May-19 01:08 PM] TonyL#3577
+Strange is that after PC reboot it's making same calls fine, thats why I'm thinking it's some tests specific problem
+
+
+[19-May-19 01:09 PM] Alright#0419
+if you do reproduce(no worries if not), please keep the chain
+
+
+[19-May-19 01:09 PM] Alright#0419
+would like to look at it
+
+{Reactions}
+👍 
+
+[19-Oct-19 02:00 AM] CrisF#3405
+Hi, Could `Channels` be considered the same as 0conf in terms of usage?
+
+
+[19-Oct-19 02:01 AM] gcharang#6833
+it is more like lightning without routing problems, but needs a similar commitment of funds towards a receiver
+
+can be used as a replacement for 0conf
+
+
+[19-Oct-19 02:03 AM] gcharang#6833
+and there is no sending to a third person through a person you have a channel open with
+there is only sender and receiver, there is no bidirectional flow of funds @CrisF
+
+
+[19-Oct-19 02:05 AM] gcharang#6833
+if you think you will pay your local restaurant 100 KMD in the next month, you can open a channel with them for that amount
+after that txn is notarised, you can make payments of any value < 100 KMD to them, that can be considered final the instant the txn hits the mempool
+
+
+[19-Oct-19 02:07 AM] gcharang#6833
+the same channel can be closed and all the remaining coins recovered at any time, will take one notarisation for a channel close too
+
+{Reactions}
+🙏 
+
+[19-Oct-19 02:14 AM] CrisF#3405
+Do you know if there is any other equivalent to 0conf available to use @gcharang?
+
+
+[19-Oct-19 02:17 AM] CrisF#3405
+I'm actually looking for a 0conf kind of speed transaction to use with tokens.
+
+
+[19-Oct-19 02:28 AM] gcharang#6833
+I don't think 0conf exists for tokens rn
+maybe channels can be updated to include tokens support, I'm not sure
+
+
+[19-Oct-19 02:33 AM] CrisF#3405
+Ok, thanks @gcharang !
+I tested tokens for a very short time when it was first developed.  Amazed at the speed.
+I'm not sure if `Channels` will suit the project that was asking, but will pass along info on it.
+Not sure how many usecases there would be for 0conf speed tokens, but imagine that there would be some.
+
+
+[19-Oct-19 06:20 AM] Mihailo#5902
+Channels already support tokens
+
+
+[19-Oct-19 06:21 AM] gcharang#6833
+oh, then I need to update the docs
+wasn't aware of it
+@CrisF ^
+
+{Reactions}
+🔥 
+
+[19-Oct-19 06:25 AM] gcharang#6833
+@Mihailo which branch/repo is it available in?
+
+
+[19-Oct-19 06:26 AM] Mihailo#5902
+FSM
+
+
+[19-Oct-19 06:26 AM] Mihailo#5902
+Probably even in master...
+
+
+[19-Oct-19 06:27 AM] gcharang#6833
+I can't see it in jl777/dev
+```bash
+./komodo-cli -ac_name=RICK help | grep channels                                 
+
+channelsaddress pubkey
+channelsclose opentxid
+channelsinfo [opentxid]
+channelsinfo
+channelsopen destpubkey numpayments payment
+channelspayment opentxid amount [secret]
+channelsrefund opentxid closetxid
+```
+the help output should be different with tokens support correct?
+@Mihailo
+
+
+[19-Oct-19 06:28 AM] gcharang#6833
+building FSM now
+
+
+[19-Oct-19 06:31 AM] Mihailo#5902
+It is there, but it seems it is not in rpc help
+
+
+[19-Oct-19 06:32 AM] CrisF#3405
+Thanks for letting me know.
+
+
+[19-Oct-19 06:33 AM] Mihailo#5902
+Pushed the fix for rcp help
+
+
+[19-Oct-19 06:33 AM] Mihailo#5902
+in channelsopen the last param is optional - tokenid
+
+{Reactions}
+👍 🙏 
+
+[19-Oct-19 06:34 AM] CrisF#3405
+The project has a point card app that is can be used form receiving, trading and using points.
+
+
+[19-Oct-19 06:35 AM] CrisF#3405
+They are using 0conf on BCH at the moment.
+
+
+[19-Oct-19 06:36 AM] CrisF#3405
+Not sure if `channels` will work in the same way.
+
+
+[19-Oct-19 06:38 AM] gcharang#6833
+it isn't as straight forward as 0conf @CrisF 
+but the usage will be quite similar
+the only addition is pre allocation of funds towards a receiver, which will take the time of one notarisation
+
+they will also get on chain orderbook and trade with a Smartchain
+
+
+[19-Oct-19 06:39 AM] gcharang#6833
+if they manage to integrate gateways, they can even trade real crypto for these points on chain
+
+
+[19-Oct-19 06:41 AM] gcharang#6833
+they can even make the base coin very scarce (no public mining) and allocate it to registered customers -- this will restrict the number of transactions a person can do
+
+
+[19-Oct-19 06:42 AM] CrisF#3405
+Thanks!  I'll let them know and see what they think.
+
+{Reactions}
+👍 
+
+[19-Oct-19 08:43 AM] gcharang#6833
+@Mihailo 
+`channelspayment open_tx_id payment_amount (secret)`
+how is the `secret` used ?
+
+
+[19-Oct-19 08:45 AM] Mihailo#5902
+Secret is used only when destination issues the payment to itself from the channel. The cases for that is that the payment reached mempool but for some reason haven't been mined and it is gone. So the destination can makenpayment tx and supply the secret from the initial payment.
+
+
+[19-Oct-19 08:47 AM] gcharang#6833
+got it
+
+
+[19-Oct-19 09:00 AM] gcharang#6833
+@Mihailo there seems to be a double entry for a payment done 
+```json
+{
+  "result": "success",
+  "Channel CC address": "RVEZbEwMBQBdryswcWhtwWY5sYJTiEJ5SG",
+  "Destination address": "RM9n6rts1CBKX4oXziLp1WBBgEUjKKWHb3",
+  "Number of payments": 1000,
+  "Denomination (satoshi)": "10000000",
+  "Amount (satoshi)": "10000000000",
+  "Transactions": [
+    {
+      "Open": "04ed7f0d7c90036bad2822ea32564e38cc517f2ac86c8c53a031543e7d8235d0"
+    },
+    {
+      "Payment": "d16b372eff7de8e0b2fa44bf74d13784c4f1ab45b64296b7e36f74950f892fad",
+      "Number of payments": 21,
+      "Amount": 210000000,
+      "Destination": "RM9n6rts1CBKX4oXziLp1WBBgEUjKKWHb3",
+      "Secret": "570fd06eb542eb0dcb163c42467860194a0a998dfccee047724067f5aab7490e",
+      "Payments left": 979
+    },
+    {
+      "Payment": "d16b372eff7de8e0b2fa44bf74d13784c4f1ab45b64296b7e36f74950f892fad",
+      "Number of payments": 21,
+      "Amount": 210000000,
+      "Destination": "RM9n6rts1CBKX4oXziLp1WBBgEUjKKWHb3",
+      "Secret": "570fd06eb542eb0dcb163c42467860194a0a998dfccee047724067f5aab7490e",
+      "Payments left": 979
+    }
+  ]
+}
+```
+
+
+[19-Oct-19 09:00 AM] gcharang#6833
+for the channelsinfo call
+
+
+[19-Oct-19 09:17 AM] Mihailo#5902
+I'll take a look
+
+{Reactions}
+👍 
+
+[03-Nov-19 02:12 PM] Regnar#6164
+```- Assets
+  - Pokemon NFTs - [https://github.com/NOCTLJRNE/Komodo-Pokemon.git](https://github.com/NOCTLJRNE/Komodo-Pokemon.git)
+  - Assets CC TUI in Python - [https://github.com/tonymorony/komodo-cctools-python/blob/master/assets_cc_tui.py](https://github.com/tonymorony/komodo-cctools-python/blob/master/assets_cc_tui.py)```
+
+Hey all, if you have any proof of concepts or built something cool using Channels CC, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and add this to the Komodo docs page. Here's just a sample of #cc-assets
+
+
+[07-Nov-19 03:29 AM] TonyL#3577
+@Mihailo looks like similar hang as for oraclescreate happens with `channelspayment` call
+```        # trying to make 0 channel payment
+        result = rpc.channelspayment(channel_txid, "0")
+        assert_error(result)
+    
+        # trying to make negative channel payment
+>       result = rpc.channelspayment(channel_txid, "-1")
+```
+and then hang
+
+
+[07-Nov-19 03:29 AM] TonyL#3577
+will try to reproduce manually now
+
+
+[07-Nov-19 03:39 AM] TonyL#3577
+reproduced manually
+
+
+[07-Nov-19 03:39 AM] TonyL#3577
+```./komodo-cli -ac_name=TONYL channelspayment 15aa84e05b5953fd837e4e6ae4aeb1f1ceaefd0d0f6fc65f492ba40f13d4a7df 0
+{
+  "result": "error",
+  "error": "invalid payment amount, must be greater than 0"
+}
+./komodo-cli -ac_name=TONYL channelspayment 15aa84e05b5953fd837e4e6ae4aeb1f1ceaefd0d0f6fc65f492ba40f13d4a7df -1
+```
+hang, so looks like exactly same thingy as for oracles
+
+
+[07-Nov-19 03:44 AM] jl777c#5810
+@Mihailo @dimxy do you know how to fix all these related hangs? we are putting together a release candidate, so we need all such hangs fixed. hopefully you can find and fix in code
+
+
+[07-Nov-19 03:52 AM] dimxy#2587
+@Mihailo seems this is the similar problem with lock ?
+
+
+[07-Nov-19 03:53 AM] jl777c#5810
+i think all the recently changed rpc calls needs to be checked
+
+
+[07-Nov-19 03:54 AM] jl777c#5810
+the ones changes for nspv or otherwise
+
+
+[07-Nov-19 04:08 AM] Mihailo#5902
+Yes, I will fix them today
+
+
+[07-Nov-19 05:54 AM] Mihailo#5902
+@TonyL @jl777c @dimxy I made PR that should resolve all RPCs that have new locking mechanism and tehre should not be any blocking now.
+
+{Reactions}
+👍 (3) 
+
+[18-Nov-19 02:53 PM] PHBA2061 | VietStaking Validator#2530
+@gcharang <https://developers.komodoplatform.com/basic-docs/antara/antara-api/channels.html#channelspayment> I think the arguments tables of `channelspayment` & `channelsrefund` are not correct, it isn't up to date with <https://docs.komodoplatform.com/basic-docs/antara/antara-api/channels.html#channelspayment>
+
+
+[19-Nov-19 01:17 AM] gcharang#6833
+@PHBA2061 | VietStaking Validator thanks for the report!
+the changes are currently in a PR which should be reviewd and merged in this week
+
+{Reactions}
+👍 
+
+[29-Jan-20 01:29 AM] mercadinaut#9107
+Hi, Is there a plan to upgrade the VerusHash option for Komodo-Antara smart chains (ac_adaptivepow) from v1.0 to the current version 2.3 now used within Verus?
+
+
+[29-Jan-20 04:39 AM] Mihailo#5902
+I think better channel for this would be #dev-modules as all CC related discussions will be done there soon. I don't have any insight on aPoW updates so somebody else can answer this. Perhaps @jl777c
+
+
+[29-Jan-20 07:50 AM] gcharang#6833
+I just want to add that apow is completely different from the ability to choose different hashing algos. the one that can enable verushash is ac_algo
+
+
+[02-Feb-20 11:55 AM] tolken#2655
+Are channels more or less usable or is more Dev needed? It seems like it’s an under the radar feature of KMD that potentially puts lightning to shame.
+
+
+[02-Feb-20 07:56 PM] jl777c#5810
+it requires setting up point to point channels. so it isnt a pay to centralized hub model
+
+
+[02-Feb-20 07:56 PM] jl777c#5810
+i am not aware of any issues with it
+
+
+[03-Feb-20 04:17 AM] Mihailo#5902
+It should be usable normally, but as it is not used in production so far, some bugs could happen and if you find it you should report here so we can fix it right away.
+
+
+[09-Feb-20 07:35 AM] jl777c#5810
+@Mihailo i want to use channels for low value things, is there a way we can specify in the channel open (or some other call), that 1 confirmation is all we need?
+
+
+[09-Feb-20 07:37 AM] Mihailo#5902
+I have made TESTMODE flags for those things. If you export cppflags DTESTMODE and compile komodo with it it will work like that. But we don't have a way to specify it in open or etc.
+
+
+[09-Feb-20 07:38 AM] Mihailo#5902
+If it is needed I can modify it.
+
+
+[09-Feb-20 07:38 AM] Mihailo#5902
+@jl777c
+
+
+[09-Feb-20 07:39 AM] TonyL#3577
+DTESTMODE require 2 confirmations if I remember correct
+
+
+[09-Feb-20 07:40 AM] jl777c#5810
+yes, please add this as a runtime option so it will work with the mainstream daemons after it is updated
+
+
+[09-Feb-20 07:40 AM] jl777c#5810
+there is no need to wait for notarization for a $1 channel, maybe not even a single confirmation, so if possible even allow mempool appearance to be good enough. i understand that if it never confirms or gets reorged, it could be funds that are lost
+
+
+[09-Feb-20 07:45 AM] Mihailo#5902
+Ok, should we limit some amount of funds for which this could work. As for higher amounts we shouldn't allow without confirmations.
+
+
+[09-Feb-20 07:46 AM] jl777c#5810
+there is no way to determine the value of the coins...
+
+
+[09-Feb-20 07:46 AM] jl777c#5810
+just make it require a specific extra parameter, so if it is being passed in, the user is forfeiting confirmation or notarization protection
+
+
+[09-Feb-20 07:47 AM] jl777c#5810
+there is not much value in speed if we have to wait for notarization for a one off channel
+
+
+[09-Feb-20 07:47 AM] Mihailo#5902
+👍
+
+{Reactions}
+🙂 
+
+==============================================================
+Exported 190 message(s)
+==============================================================

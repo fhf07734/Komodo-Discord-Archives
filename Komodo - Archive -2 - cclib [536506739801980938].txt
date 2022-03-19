@@ -1,0 +1,835 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cclib
+Topic: https://developers.komodoplatform.com
+==============================================================
+
+[20-Jan-19 03:38 AM] grewalsatinder#9653
+😃 :Komodo: :shexy: 😎
+
+{Reactions}
+☝ 
+
+[23-Jan-19 12:35 PM] butthole.finance#0577
+@jl777c question about this new call, -ac_cclib=<name>. while designing the user experience for chainlizard, one of our thoughts was that someone can create multiple clusters and name them before they even create a chain, since creating a cluster (i.e. 'purpose') first is more intuitive than creating a chain then choosing an un-named cluster by integer.
+
+is this essentially what this allows? that is my assumption from @Mylo's tech tuesdays, but i wanted to confirm.
+
+
+[23-Jan-19 03:36 PM] Mylo#8306
+**Edit for wrongness**:
+- Clustering comes from -ac_cc=XXX   which is just an id shared by the cluster.
+- ~~The -ac_cclib=<name> is used for a filename to load. ~~
+
+~~Maybe <filename> would have been a better description?~~
+@butthole.finance 👆
+
+
+[23-Jan-19 03:44 PM] Mylo#8306
+That name has your "dynamic loadable library".  What I call "mycustomlib" is different to ca's "mycustomlib" because we both load them at chain start up on totally different chains, presuming we are working indepdently on separate stuff.
+
+To further illustrate:
+
+- I've created a single chain and enabled crypto conditions and started it with -ac_cclib=MyloGameLibrary set of crypto conditions.
+- I've then created another single chain, enabled crypto conditions and started it with -ac_cclib=BetterGameLibrary set of crypto conditions.
+- I've made MyloGameLibrary come with a set of 5 specific game library conditions.
+- The BetterGameLibrary includes the 5 from MyloGameLibrary plus an additional 10 that enables extra in-game functionality.
+
+The cluster id is just an identifier (but has to be a number), it could be randomly made up - as long as all the chains in the cluster share the same random number.
+
+
+[23-Jan-19 03:46 PM] Alright#0419
+ac_cclib is not the file name, rather how the cc is defined in cclib.so
+
+
+[23-Jan-19 03:47 PM] Alright#0419
+https://github.com/jl777/komodo/blob/af8f3f4938471b5af94a2df144ad1b2ef8b22465/src/cc/cclib.cpp#L44
+
+{Embed}
+https://github.com/jl777/komodo/blob/af8f3f4938471b5af94a2df144ad1b2ef8b22465/src/cc/cclib.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[23-Jan-19 03:47 PM] Mylo#8306
+ah damn...i jumped the gun pre-coffee.
+
+
+[23-Jan-19 03:47 PM] Alright#0419
+`ac_cclib=faucet2`
+
+{Reactions}
+🙏 
+
+[23-Jan-19 03:49 PM] Mylo#8306
+`The name specified in -ac_cclib must match the name inside cclib.cpp` <-- from tech tuesday 🤦
+
+
+[24-Jan-19 06:53 AM] butthole.finance#0577
+@Mylo i'm still a little confused on ac_cclib. i understand ac_cc integer and setting that, but for a user, setting an integer doesn't really make much sense. it would make more sense for them to set a purpose for a cluster which they then assign an integer, or the app sets it for them after they choose whether it should be fungible (>100) or interoperable (<100)
+
+
+[24-Jan-19 06:55 AM] butthole.finance#0577
+from what @Alright is saying, it sounds like the ac_cclib should do that?
+
+
+[24-Jan-19 06:58 AM] butthole.finance#0577
+or maybe i'm completely off base here.
+
+
+[24-Jan-19 07:03 AM] jl777c#5810
+cclib allows to create a custom CC has nothing to do with clusterid
+
+
+[24-Jan-19 04:39 PM] Mylo#8306
+@butthole.finance will DM you for voice chat details.
+depends on app workflow and if there's state (db) saved before and after launch of the chain project.
+if you are creating a table, and ppl can plan stuff, then hit <the button> to start the chain(s), then at runtime it could just decide on a clusterid if required.
+
+
+[24-Jan-19 09:46 PM] butthole.finance#0577
+@jl777c  ah sorry, i was confused since -ac_cc refers to clusters, i just assumed anything ac_cc were related
+
+
+[24-Jan-19 11:39 PM] jl777c#5810
+-ac_cc < 100 is not a cluster
+
+
+[24-Jan-19 11:39 PM] jl777c#5810
+and CC is certainly more than just about clusters
+
+
+[27-Jan-19 03:14 AM] Alright#0419
+what is the current status of cclib
+
+
+[27-Jan-19 03:14 AM] Alright#0419
+I'm wondering if it's possible to use with hardcoded EVAL codes
+
+
+[27-Jan-19 03:15 AM] Alright#0419
+As in I'd like to use it to test the hardcoded CCs without rebuilding full daemon to test each edit
+
+
+[27-Jan-19 03:20 AM] jl777c#5810
+support for mapping hardcoded CC into cclib would need to be supported
+
+
+[27-Jan-19 03:20 AM] jl777c#5810
+seems tricky
+
+
+[27-Jan-19 03:23 AM] Alright#0419
+will this be the default way of adding new CCs or will we still continue to add hardcoded ones?
+
+
+[27-Jan-19 03:23 AM] Alright#0419
+I rather like that all the RPC stuff is in the CC code itself rather than scattered around the daemon
+
+
+[27-Jan-19 03:23 AM] jl777c#5810
+i think both ways
+
+
+[27-Jan-19 03:28 AM] Alright#0419
+pros and cons of each?
+
+
+[27-Jan-19 03:32 AM] jl777c#5810
+yes
+
+
+[27-Jan-19 03:32 AM] jl777c#5810
+six reasons for one, half a dozen for the other
+
+{Reactions}
+😄 (2) 
+
+[27-Jan-19 03:46 AM] Alright#0419
+sorry, what are the pros and cons of each
+
+
+[27-Jan-19 03:46 AM] jl777c#5810
+pro for hardcoded is that it is hardcoded
+
+
+[27-Jan-19 03:46 AM] jl777c#5810
+pro for cclib is that it is flexible
+
+
+[27-Jan-19 03:47 AM] jl777c#5810
+con for hardocoded is that it isnt flexible
+
+
+[27-Jan-19 03:47 AM] jl777c#5810
+con for cclib is that it isnt hardcoded
+
+
+[27-Jan-19 03:47 AM] jl777c#5810
+seems very hard to decide which is better
+
+{Reactions}
+😂 (2) 😆 
+
+[27-Jan-19 06:59 PM] dukeleto#7326
+each way may be less friction for different workflows, @Alright
+
+
+[28-Jan-19 03:32 AM] Mylo#8306
+horses for courses
+
+
+[28-Jan-19 03:33 AM] Mylo#8306
+cclib with rpc sounds nice and contained for 3rd party extensions
+
+
+[28-Jan-19 11:33 PM] dukeleto#7326
+just like you have a city bicycle and a mountain bicycle and all the appropriate gear for each, there are no bad conditions, just unprepared people
+
+
+[29-Jan-19 11:03 AM] Mylo#8306
+Letoism 🚲
+
+{Reactions}
+treasure 
+
+[01-Feb-19 12:24 AM] TonyL#3577
+How to properly distribute binaries for cclib support: should I attach libs to binary? How to mass update users in case of libraries change? 🤔
+
+
+[01-Feb-19 12:53 AM] jl777c#5810
+for now it is statically linked, so it is all in komodod
+
+{Reactions}
+👌 
+
+[01-Feb-19 12:53 AM] jl777c#5810
+but yes ultimately, you could update just with the libcc.o
+
+
+[16-Feb-19 11:25 AM] jl777c#5810
+libcc.so is currently statically linked so you need to relink komodod, but work is being done so it can be dynamically loaded
+
+
+[16-Feb-19 11:26 AM] jl777c#5810
+then it just needs to be in the same dir as komodod and it will update CC to whatever is in the libcc.so
+
+
+[16-Feb-19 11:55 AM] jl777c#5810
+make a copy of cclib.cpp
+
+
+[16-Feb-19 11:55 AM] jl777c#5810
+edit the table that defines rpc calls
+
+
+[16-Feb-19 11:55 AM] jl777c#5810
+add one that is "hello"
+
+
+[16-Feb-19 11:55 AM] jl777c#5810
+build the libcc.so and put it in ~/komodo/src and rebuild
+
+
+[16-Feb-19 11:55 AM] jl777c#5810
+now cclibinfo will show the hello rpc call
+
+
+[16-Feb-19 11:56 AM] jl777c#5810
+cclib hello 17 will invoke it
+
+
+[16-Feb-19 11:57 AM] jl777c#5810
+yes, it is the evalcode, must be >= 16 < 128
+
+
+[17-Feb-19 04:06 AM] jl777c#5810
+FSM
+
+{Reactions}
+👍 
+
+[17-Feb-19 04:32 AM] dukeleto#7326
+cclib stuff compiles on mac now, it's in jl777, not sure if it's in FSM yet
+
+
+[18-Feb-19 10:56 AM] jl777c#5810
+it is
+
+
+[25-Feb-19 04:41 AM] jl777c#5810
+rawhex = FinalizeCCTx(-1LL,cp,tmpmtx,mypk,txfee,CScript() << OP_RETURN << E_MARSHAL(ss << (uint8_t)EVAL_FAUCET2 << (uint8_t)'G' << j));
+
+
+[25-Feb-19 04:41 AM] jl777c#5810
+just the nonce used
+
+
+[04-Mar-19 04:41 PM] Bryan_Beus#6442
+Anyone around right now who is familiar with cclib?
+
+I am trying to get the documentation ready for developers.komodoplatform.com
+
+
+[04-Mar-19 04:41 PM] Bryan_Beus#6442
+Have a few questions
+
+
+[04-Mar-19 04:41 PM] Bryan_Beus#6442
+Specifically, I'm working on the first command:
+
+```
+## cclib
+
+**cclib method [evalcode] [json_params]**
+
+The `cclib` method allows the user to interact with the dynamic CryptoConditions module associated with `evalcode`.
+
+Each `evalcode` module can have unique `json_params` inputs, as well as unique responses.
+
+### Arguments:
+
+| Name        | Type             | Description                                         |
+| ----------- | ---------------- | --------------------------------------------------- |
+| method      | (string)         | the name of the method                                  |
+| evalcode    | (decimal number) | the `EVALCODE` of the module of interest        |
+| json_params | (array)          | the parameters to be supplied to the method, provided as an array |
+
+### Response:
+
+| Name        | Type             | Description                                         |
+| ----------- | ---------------- | --------------------------------------------------- |
+| (each `EVALCODE` is unique ||| 
+```
+
+
+[04-Mar-19 04:46 PM] Bryan_Beus#6442
+This raw documentation was prepared by someone else, and I have questions about it.
+
+In this line here:
+
+```
+**cclib method [evalcode] [json_params]**
+```
+
+The prepared of the raw docs suggests that evalcode is given as an array, or, perhaps the preparer thought that EVALCODE was optional, and put `[evalcode]` in brackets thinking that it was supposed to be `(evalcode)` in parens. 
+
+I'm not sure. 
+
+From the description of the `cclib` method or rpc, it would seem that each execution of `cclib` will have an EVALCODE -- and only one EVALCODE.
+
+Also, the term `method` is not descriptive. Is this referring to an idea that for each EVALCODE there can be unique methods plugged in here?
+
+I would think that this line would be written like this:
+
+```
+**cclib insert_method insert_evalcode [json_params]**
+```
+
+Also, one more thing: I need an explicit example for the `cclib` rpc, specifically to alleviate any of this kind of confusion. 
+
+Any help is appreciated. Thank you!
+
+
+[04-Mar-19 04:54 PM] Alright#0419
+`./komodo-cli -ac_name=ROGUE cclib extract 17 \"[%22a963899fce66e303f8dc30faaee1e4550c93f612e3bdf53fc755c064974ebc2c%22,%22031d6340665e4be675e6b39093152b6169e546ac6885c39058c4c60afee529d491%22]\"`
+
+
+[04-Mar-19 04:55 PM] Alright#0419
+most things are required to be wrapped in `%22`
+
+
+[04-Mar-19 05:21 PM] Bryan_Beus#6442
+Excellent, thank you. Working on adding in info.
+
+
+[04-Mar-19 05:30 PM] Bryan_Beus#6442
+@Alright 
+
+What do you think about this?
+
+```
+## cclib
+
+**cclib insert_method insert_evalcode \"[%22json_params%22]\"**
+
+The `cclib` method allows the user to interact with the dynamic CryptoConditions module associated with `evalcode`.
+
+Each `evalcode` module has unique methods and json parameters associated, as well as unique responses.
+
+Inside the `[]` brackets of the array, the json parameters must be wrapped with the characters `%22`.
+
+### Arguments:
+
+| Name        | Type             | Description                                         |
+| ----------- | ---------------- | --------------------------------------------------- |
+| method      | (string)         | the unique name of the method                                  |
+| evalcode    | (decimal number) | the `EVALCODE` of the module of interest        |
+| json_params | (array)          | the parameters to be supplied to the method, provided as an array |
+
+### Response:
+
+| Name        | Type             | Description                                         |
+| ----------- | ---------------- | --------------------------------------------------- |
+| (each `EVALCODE` is unique) |||
+```
+
+
+[04-Mar-19 05:31 PM] Alright#0419
+`cclibinfo <evalcode>` will give you a full list
+
+
+[04-Mar-19 05:31 PM] Alright#0419
+probably worth mentioning
+
+
+[04-Mar-19 05:32 PM] Bryan_Beus#6442
+Can I get the output from that example command you gave?
+
+
+[04-Mar-19 05:33 PM] Bryan_Beus#6442
+I'm putting a link to the `cclibinfo` method. It's in the same doc.
+
+
+[04-Mar-19 05:35 PM] Bryan_Beus#6442
+@Alright
+
+
+[04-Mar-19 05:35 PM] Bryan_Beus#6442
+```
+## cclib
+
+**cclib insert_method insert_evalcode \"[%22json_params%22]\"**
+
+The `cclib` method allows the user to interact with the dynamic CryptoConditions module associated with `evalcode`.
+
+Each `evalcode` module has unique methods and json parameters associated, as well as unique responses.
+
+Inside the `[]` brackets of the array, the json parameters must be wrapped with the characters `%22`.
+
+::: tip
+The [cclibinfo](../komodo-api/cclib.html#cclibinfo) method returns a complete list of available methods and their parameters for each unique `evalcode`.
+:::
+
+### Arguments:
+
+| Name        | Type             | Description                                         |
+| ----------- | ---------------- | --------------------------------------------------- |
+| method      | (string)         | the unique name of the method                                  |
+| evalcode    | (decimal number) | the `EVALCODE` of the module of interest        |
+| json_params | (array)          | the parameters to be supplied to the method, provided as an array |
+
+### Response:
+
+| Name        | Type             | Description                                         |
+| ----------- | ---------------- | --------------------------------------------------- |
+| (each `EVALCODE` is unique) |||
+
+#### :pushpin: Examples:
+
+Command:
+
+```bash
+./komodo-cli -ac_name=ROGUE cclib extract 17 \"[%22a963899fce66e303f8dc30faaee1e4550c93f612e3bdf53fc755c064974ebc2c%22,%22031d6340665e4be675e6b39093152b6169e546ac6885c39058c4c60afee529d491%22]\"
+```
+```
+
+
+[04-Mar-19 06:00 PM] Bryan_Beus#6442
+@Alright 
+
+Also, in the `cclibinfo` method, there is a returned value, `funcid`.
+
+This is the description provided:
+
+```
+| funcid          | (character)      | for methods that generate a transaction, the `funcid` value is the `"funcid in the"` `opreturn`; for methods that do not generate a transaction, the `funcid` value is a mneumonic |
+```
+
+
+[04-Mar-19 06:00 PM] Bryan_Beus#6442
+I can't fully make sense of it.
+
+
+[04-Mar-19 06:01 PM] Bryan_Beus#6442
+What is the `"funcid in the "` `opreturn`?
+
+
+[04-Mar-19 06:02 PM] Bryan_Beus#6442
+and what is the `mnemonic` referring to?
+
+What does it remind the user of?
+
+
+[04-Mar-19 06:05 PM] Alright#0419
+every tx that spends CC utxos will have a a function id in the OP_RETURN
+
+
+[04-Mar-19 06:05 PM] Alright#0419
+it determines which function will be used to validate it
+
+
+[04-Mar-19 06:12 PM] Bryan_Beus#6442
+@Alright 
+
+Have you prepared any content, by chance, for the `-ac_cclib` launch parameter?
+
+
+[04-Mar-19 07:13 PM] Deleted User#0000
+@Deleted User  `what is %22 for?`
+No idea I used `"` and wrapped it all in single quotes testing musig, and had no problems. Maybe the %22 is just to pass the JSON though a bash script?
+
+
+[04-Mar-19 09:48 PM] jl777c#5810
+yes
+
+
+[04-Mar-19 09:48 PM] jl777c#5810
+needed something that always parsed through whatever means used
+
+{Reactions}
+👍 
+
+[04-Mar-19 10:30 PM] Deleted User#0000
+yes but you MUST use `komodo-cli -ac_name=MUSIG`  cant use a bash script to shorten the command.
+
+
+[04-Mar-19 10:32 PM] Deleted User#0000
+I found that to be easier to read and work with and I just use loads of terminals each with one command then press up and copy paste in the hashes... far easier than typing it every time and worrying about json syntax.
+
+
+[05-Mar-19 07:16 AM] Alright#0419
+@Bryan_Beus what do we need exactly? They will mostly be specific to the CC
+
+
+[05-Mar-19 07:16 AM] Alright#0419
+a doc for musig/dilithium is going to look different than a doc for ROGUE
+
+
+[05-Mar-19 01:33 PM] Bryan_Beus#6442
+@Alright 
+
+For cclib, I just need the example output for the example in the `cclib` call.
+
+#### 📌 Examples:
+
+Command:
+
+```bash
+./komodo-cli -ac_name=ROGUE cclib extract 17 \"[%22a963899fce66e303f8dc30faaee1e4550c93f612e3bdf53fc755c064974ebc2c%22,%22031d6340665e4be675e6b39093152b6169e546ac6885c39058c4c60afee529d491%22]\"
+```
+
+
+[05-Mar-19 01:33 PM] Bryan_Beus#6442
+I need to insert:
+
+Response:
+
+```
+terminal response here
+```
+
+
+[05-Mar-19 01:34 PM] Bryan_Beus#6442
+We just need an example to show what the function is generally referring to.
+
+
+[05-Mar-19 01:34 PM] Bryan_Beus#6442
+We don't need to document every method.
+
+
+[17-Mar-19 07:37 PM] Alright#0419
+`curl $user:$pass@127.0.0.1:54651 --data '{"method": "cclib", "params": ["func0","17", "1"]}'`
+
+
+[04-Apr-19 06:29 PM] Mylo#8306
+```
+#include <mysql/mysql.h>
+#include <stdio.h>
+#include <stdlib.h>
+```
+then add to your gcc command
+```
+-I/usr/local/include/mysql -L/usr/local/lib/mysql -lmysqlclient
+```
+
+Have not tested yet, will be doing so over weekend or next week (likely)
+
+
+[04-Apr-19 06:30 PM] Mylo#8306
+To the whole daemon or just to your cclib?
+
+
+[09-Apr-19 11:43 PM] jl777c#5810
+what blockchain variables can it access? how do you pass in arguments? is nesting supported?
+
+
+[10-Apr-19 04:37 AM] jl777c#5810
+if there is a way to expose all the functions in the cc dir, that would be really nice.
+
+
+[10-Apr-19 04:38 AM] jl777c#5810
+with JS wrappers to all the useful C functions, then the JS scripts can become very useful
+
+
+[10-Apr-19 04:38 AM] jl777c#5810
+the other idea i had was using the opreturn as a way to pass in parameters, so that is up to 8kb of parameters
+
+
+[10-Apr-19 04:39 AM] jl777c#5810
+and the output would be some standard type, which in turn could be used as inputs to another JS function
+
+
+[10-Apr-19 04:39 AM] jl777c#5810
+so a library of JS code can be made and 8kb of JS code reduced to a txid of where it is
+
+
+[10-Apr-19 04:39 AM] jl777c#5810
+kind of like defining a specific txid to be a specific JS function
+
+
+[10-Apr-19 04:40 AM] jl777c#5810
+oh, maybe there can be an include functionality, that includes a bunch of "files" which are actually txids
+
+
+[10-Apr-19 04:40 AM] jl777c#5810
+the idea is to have a set of highly optimized opreturn JS code into a txid based library of functions
+
+
+[10-Apr-19 04:43 AM] jl777c#5810
+so i guess with such a mechanism, people can write CC contracts using JS and all during runtime
+
+
+[10-Apr-19 04:46 AM] jl777c#5810
+the text.js file cant be a local file for consensus, so just need to push it through opreturns
+
+
+[10-Apr-19 05:06 AM] Mylo#8306
+freaking awesome.  nice work @Deleted User
+
+
+[11-Apr-19 07:47 PM] Mylo#8306
+yep, already browsing options and documentation to accelerate understanding to implement
+
+
+[11-Apr-19 07:48 PM] Mylo#8306
+i won't be deliverying any.  no time to to take on such a project with small market of cc devs atm.
+
+
+[11-Apr-19 07:48 PM] Mylo#8306
+need to concentrate on the training artefacts (docs/diagrams) first.
+
+
+[16-May-19 10:37 AM] jl777c#5810
+to mine too, as there are no limits to what can be in it
+
+{Reactions}
+😮 
+
+[20-May-19 06:11 PM] Mylo#8306
+@mrlynch how do you include a go program in a c++ program?
+
+
+[20-May-19 06:12 PM] Mylo#8306
+or c.
+
+
+[20-May-19 06:12 PM] Mylo#8306
+something like:
+```
+#include <mysql/mysql.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+then add to your gcc command
+
+-I/usr/local/include/mysql -L/usr/local/lib/mysql -lmysqlclient
+```
+?
+
+
+[20-May-19 06:14 PM] Mylo#8306
+maybe i'm asking the wrong (exact!) question, but i'd like to be able to include golang inside  c/c++ and access the internals of komodo.
+
+
+[20-May-19 06:14 PM] Mylo#8306
+from go
+
+
+[20-May-19 06:17 PM] mrlynch#5735
+oh.. you mean a wrapper in go?
+
+
+[20-May-19 06:18 PM] mrlynch#5735
+@grewalsatinder is working on it ..checkout kmdgo in his repo
+
+
+[20-May-19 06:18 PM] mrlynch#5735
+https://github.com/satindergrewal/kmdgo
+
+{Embed}
+https://github.com/satindergrewal/kmdgo
+satindergrewal/kmdgo
+Go package for Komodo Platform API. Contribute to satindergrewal/kmdgo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/71iBcuotcNOabCT-SIJNXqFke8SwwPrGxFH-18wojo8/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/12998093
+
+
+[20-May-19 06:19 PM] Mylo#8306
+@mrlynch no not a go wrapper.
+
+
+[20-May-19 06:19 PM] Mylo#8306
+embed golang inside the kmd daemon.
+
+
+[20-May-19 06:20 PM] Mylo#8306
+cclib is a dynamc library.
+
+
+[20-May-19 06:20 PM] Mylo#8306
+we can pile anything into cclib.
+
+
+[20-May-19 06:20 PM] Mylo#8306
+emmanuel is working on js runtime into cclib.   this way, a consensus rules can be written in js.
+
+
+[20-May-19 06:21 PM] Mylo#8306
+so by embedding golang into cclib, consensus rules can be written in go
+
+
+[20-May-19 06:22 PM] Mylo#8306
+hope that makes sense...e.g. cc-dice could be written in go, and other games like that.
+
+
+[20-May-19 06:23 PM] mrlynch#5735
+oh.. i don't know.. haven't reached that lvl yet
+
+
+[20-May-19 06:23 PM] mrlynch#5735
+you over estimate my abilities 😂
+
+
+[20-May-19 06:23 PM] mrlynch#5735
+still a guppy
+
+
+[20-May-19 06:23 PM] Mylo#8306
+haha ok - well...on your travels thru docs/interwebs, can you be mindful of it.   if can be done, i'll learn go 😄
+
+
+[20-May-19 06:24 PM] Mylo#8306
+cheers
+
+
+[20-May-19 06:26 PM] mrlynch#5735
+i deffinitely will.. there are so many things i need/want to learn, it's easy to lose track of
+
+
+[20-May-19 06:42 PM] Mylo#8306
+something to test when more time.
+
+
+[20-May-19 06:43 PM] Mylo#8306
+does it both ways go->C and C->go
+
+
+[20-May-19 06:43 PM] Mylo#8306
+hard to tell if the data structures will be visible.
+
+
+[20-May-19 06:49 PM] Mylo#8306
+removed old link.  ^^ those comments relate to old link.
+this one is more recent and uses structs of C
+https://karthikkaranth.me/blog/calling-c-code-from-go/
+
+{Embed}
+https://karthikkaranth.me/blog/calling-c-code-from-go/
+Calling C code from go | Karthik Karanth
+A tutorial on how to call functions written in C from a go project
+
+
+[20-May-19 06:49 PM] Mylo#8306
+may be useful in the future.
+
+
+[20-May-19 06:52 PM] grewalsatinder#9653
+Yes, I only looked at using C C++ in golang code
+Cclib is a lib file, I guess we can call C funcs in Go code and make a cclib of our own
+I don't know about calling go code from C cclib, but pretty sure its similar way.
+
+
+[20-May-19 06:53 PM] grewalsatinder#9653
+I will check on it
+Thanks for giving me some short target to focus on
+
+{Reactions}
+💪 
+
+[13-Jun-19 11:42 AM] jl777c#5810
+could the code be put into a file to work around all the things that want to parse things using different escape rules?
+
+
+[13-Jun-19 02:25 PM] dimxy#2587
+I tried to parse both strings calling the parser directly from komodod
+```
+std::string str1 = "{\"method\": \"cclib\", \"params\": [\"func0\", \"17\", \"{\"key\": \"striiiiiing\"}\"]}";
+std::string str2 = "{\"method\": \"cclib\", \"params\": [\"func0\", \"17\", {\"key\": \"striiiiiing\"}]}";
+```
+so the str1 could not be parsed and str2 was parsed okay. Seems the parser works correctly. It is somewhere else that requires quotes for objects
+
+
+[14-Jun-19 02:16 AM] dimxy#2587
+well, I found how to add the support for parsing VOBJ (with no quotes requirement) in the cclib rpc - made it in my repo.
+I can do a PR. 
+Are PRs accepted this time?
+
+
+[14-Jun-19 02:29 AM] Deleted User#0000
+no
+
+
+[14-Jun-19 02:34 AM] jl777c#5810
+PR can be submitted, but until the update is done to master, code freeze is in effect
+
+
+[14-Jun-19 02:37 AM] dimxy#2587
+okay, not a critical issue...
+
+
+[16-Aug-19 07:04 AM] Mylo#8306
+If I wanted to add compression using a c library to data being stored in an oracle, how would I do it using cclib?
+
+
+[16-Aug-19 07:08 AM] jl777c#5810
+it seems you would not need cclib for that, just compress the data before storing it in the oracle
+
+
+[16-Aug-19 03:54 PM] Mylo#8306
+Ok yes probably easier to put it in the client side application.
+
+
+[20-Dec-20 02:49 PM] Mihailo#5902
+https://tenor.com/view/star-trek-patrick-stewart-captain-jean-luc-picard-face-palm-disappointed-gif-4780258
+
+{Embed}
+https://tenor.com/view/star-trek-patrick-stewart-captain-jean-luc-picard-face-palm-disappointed-gif-4780258
+https://images-ext-1.discordapp.net/external/ac9kJFap50E3XTw0OOG2lJfKICTf47dQmr5kn0IQYlc/https/media.tenor.co/images/370ada718ac3cfdd06e430d4fcd7b28f/raw
+
+
+[30-Apr-21 10:42 PM] tomy456#9830
+https://discordapp.com/channels/444621794964537354/449638035999686677/837782620527394846
+
+
+[30-Apr-21 10:42 PM] tomy456#9830
+improved CC
+
+
+[01-May-21 04:25 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+This is a good read. Thanks for posting👆
+
+
+==============================================================
+Exported 148 message(s)
+==============================================================

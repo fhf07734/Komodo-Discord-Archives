@@ -1,0 +1,1534 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / cc-heir
+Topic: https://developers.komodoplatform.com
+==============================================================
+
+[20-Jan-19 12:46 AM] Crabby Paddy#6239
+What’s this 👀
+
+
+[20-Jan-19 01:27 AM] Alright#0419
+@Crabby Paddy https://github.com/dimxy/Documentation/blob/patch-1/docs/source/cc/contracts/heir/introduction.rst
+
+{Embed}
+https://github.com/dimxy/Documentation/blob/patch-1/docs/source/cc/contracts/heir/introduction.rst
+dimxy/Documentation
+Developer and End user documentation. Contribute to dimxy/Documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/FG7_8N0jtCftKtsAk7K5U05eeO1dpQWPnEQ9A5NQLBI/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21120539
+
+
+[20-Jan-19 02:33 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY10 heirinfo e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844
+Add1of2AddressInputs() using 1of2addr=RXqGs41bnMwcvzMGCUjfrAE2pKKhxwN9oT unspentOutputs.size()=3
+Add1of2AddressInputs() txid=c8b1564a323730937b240cc1cdd8cd2046914c27b9e86af392e2966f79f02423
+Add1of2AddressInputs() satoshis=63855552
+Add1of2AddressInputs() txid=e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844
+Add1of2AddressInputs() satoshis=63855553
+Add1of2AddressInputs() txid=df8f684d1e6f392c773d2beb1a4ce653e3621c7cc04addc8abbdcaa0cb918cc2
+Add1of2AddressInputs() satoshis=629555520000000
+HeirInfo() duration=0 inactivityTime=600 numblocks=0
+{
+  "fundingtxid": "e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844",
+  "name": "IAMDED",
+  "owner": "0287fb1878a131ec908088d703dd654144b5017c5cf30b5c9ba7b7f150342d10ad",
+  "heir": "032b6702a8a83b64962e6aee1c0c47751564ca4620ca469c925c19bd1cb451c5aa",
+  "funding total in coins": "6.29556e+06",
+  "funding available in coins": "6.29556e+06",
+  "inactivity time setting": "600",
+  "spending allowed for the heir": "false",
+  "result": "success"
+}
+```
+6 million reflected in scientific representation in heirinfo
+
+
+[20-Jan-19 02:35 AM] TonyL#3577
+Is there any way to check how much time is left before I can claim inheritance?
+```"inactivity time setting": "600",```
+In `heirinfo` seems to be static
+
+
+[20-Jan-19 02:36 AM] Alright#0419
+it is meant to be static, dimxy said he may be able to add timestamp that it's counting down from
+
+
+[20-Jan-19 02:36 AM] Alright#0419
+that number is just the number you set when you created it
+
+
+[20-Jan-19 02:36 AM] TonyL#3577
+I see
+
+
+[20-Jan-19 02:37 AM] Alright#0419
+`IAMDED` 😂
+
+{Reactions}
+😆 (2) 
+
+[20-Jan-19 02:38 AM] TonyL#3577
+So is this param is the way to detect that funds are available to claim ` "spending allowed for the heir": "false"` ?
+
+
+[20-Jan-19 02:38 AM] Alright#0419
+yes
+
+
+[20-Jan-19 02:38 AM] Alright#0419
+once True, heir can do `heirclaim`
+
+
+[20-Jan-19 02:39 AM] TonyL#3577
+Ok, waiting for 10 minutes until I'm officially ded according to the heir plan 😃
+
+
+[20-Jan-19 02:41 AM] TonyL#3577
+``` "spending allowed for the heir": "true",``` param is switched
+
+
+[20-Jan-19 02:50 AM] TonyL#3577
+Something strange is happened after I've claimed full sum from heir node:
+There is no heirplan anymore
+```./komodo-cli -ac_name=TONY10 heirinfo e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844536936334
+{
+  "result": "error",
+  "error": "could not find heir cc plan for this txid (no initial tx)"
+}
+```
+Coins reduced from heirplan creation node but not appeared on heir node
+
+
+[20-Jan-19 02:51 AM] Alright#0419
+can you post `getrawtransaction <txid> 2` for the heirclaim tx
+
+
+[20-Jan-19 02:52 AM] TonyL#3577
+https://paste.ubuntu.com/p/3WhQCFj7YT/
+
+
+[20-Jan-19 02:53 AM] TonyL#3577
+Initially I've created a plan with  this funding 0.63855552 (because didn't know that denomination is in satoshies) then added more to make it ```6.29556e+06```
+
+
+[20-Jan-19 02:53 AM] TonyL#3577
+Then claimed 6295560
+
+
+[20-Jan-19 02:58 AM] Alright#0419
+so it looks like you did claim the full amount
+
+
+[20-Jan-19 02:58 AM] Alright#0419
+but it sent change to the CC address when it shouldn't have?
+
+
+[20-Jan-19 03:08 AM] TonyL#3577
+``` "vout": [
+    {
+      "value": 0.06295560,
+      "valueSat": 6295560,```
+
+
+[20-Jan-19 03:09 AM] TonyL#3577
+I wonder that some bad thing with powers happened
+
+
+[20-Jan-19 03:09 AM] Alright#0419
+looking at the code it seems it will always pay change to cc address
+
+
+[20-Jan-19 03:09 AM] TonyL#3577
+Since I've supposed to claim 6295560 coins not satoshies
+
+
+[20-Jan-19 03:12 AM] Alright#0419
+https://github.com/jl777/komodo/blob/b4e0b6bca4676407145b640f48101846ade1ee57/src/cc/heir.cpp#L650
+is `inputs` here sum of CC inputs or all inputs?
+
+{Embed}
+https://github.com/jl777/komodo/blob/b4e0b6bca4676407145b640f48101846ade1ee57/src/cc/heir.cpp
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[20-Jan-19 03:13 AM] TonyL#3577
+```Add1of2AddressInputs() satoshis=63855552```
+```Add1of2AddressInputs() satoshis=629555520000000
+```
+```"funding total in coins": "6.29556e+06",```
+
+```
+ "vout": [
+    {
+      "value": 0.06295560,
+      "valueSat": 6295560,```
+
+
+[20-Jan-19 03:20 AM] TonyL#3577
+Ah I think it's just my mistake since I've called:
+``` ./komodo-cli -ac_name=TONY10 heirclaim 0 6295560 e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844```
+What is equal to `0.06295560` 
+This number ` "6.29556e+06"` need to multiply twice to get sum in satoshies: first time on 10^6 and second time on 10^8
+
+
+[20-Jan-19 03:21 AM] jl777c#5810
+6.29 ^ +06 is 6.3 million
+
+
+[20-Jan-19 03:21 AM] jl777c#5810
+or 0.063
+
+
+[20-Jan-19 03:21 AM] jl777c#5810
+you just need to convert the scientific notation to %0.8
+
+
+[20-Jan-19 03:21 AM] TonyL#3577
+So questions now are: where is the change and why plan is not available anymore when I've claimed only little part - is it by design?
+
+
+[20-Jan-19 03:22 AM] TonyL#3577
+`"6.29556e+06"` I've converted it to 6295560 but also have to convert from coins to satoshies since heir doing all calculations in it
+
+
+[20-Jan-19 03:22 AM] Alright#0419
+you did claim the full amount, but the change from your inputs went back to a CC address when it shouldn't have
+
+
+[20-Jan-19 03:23 AM] TonyL#3577
+Hmm how I claimed full amount if more than 6 million of coins were locked:
+ "funding total in coins": "6.29556e+06"
+But I've claimed only 0.063 coins
+
+
+[20-Jan-19 03:24 AM] jl777c#5810
+likely in satoshis
+
+
+[20-Jan-19 03:24 AM] TonyL#3577
+There were two inputs in heir:
+
+```Add1of2AddressInputs() satoshis=63855552
+
+Add1of2AddressInputs() satoshis=629555520000000
+```
+First on 0.638 coin
+Second 62955552 coins
+
+
+[20-Jan-19 03:25 AM] TonyL#3577
+I've claimed `6295560` satoshies =  0.06295560 coins
+
+
+[20-Jan-19 03:25 AM] TonyL#3577
+And after it plan is not available anymore and I don't have my 6 million coins back
+
+
+[20-Jan-19 03:26 AM] Alright#0419
+Ah didn't realize you locked that many, thought you just meant the print was showing it in coins instead of sats
+
+
+[20-Jan-19 03:26 AM] TonyL#3577
+No, I've naturally locked 6 million coins 😃
+
+
+[20-Jan-19 03:26 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY10 heiradd 0 629555520000000 e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844```
+
+
+[20-Jan-19 03:27 AM] TonyL#3577
+I'm a billionaire on this chain 😂
+
+
+[20-Jan-19 03:29 AM] Alright#0419
+Can I sync it and check it out?
+
+
+[20-Jan-19 03:30 AM] TonyL#3577
+Sure: ```./komodod -ac_name=TONY10 -ac_supply=5555555 -ac_reward=10000000000000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=159.69.45.70 -pubkey=pubkey --daemon```
+
+
+[20-Jan-19 03:30 AM] Alright#0419
+ac_cc=<anything> activates the indexes btw
+
+
+[20-Jan-19 03:31 AM] Alright#0419
+you don't need `-addressindex=1 -spentindex=1`
+
+{Reactions}
+👌 (2) 
+
+[20-Jan-19 03:31 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY10 heirfund 0 63855553.37469674 IAMDED 032b6702a8a83b64962e6aee1c0c47751564ca4620ca469c925c19bd1cb451c5aa 600
+```
+```./komodo-cli -ac_name=TONY10 heiradd 0 63855552 e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844```
+```./komodo-cli -ac_name=TONY10 heiradd 0 629555520000000 e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844```
+
+
+[20-Jan-19 03:31 AM] TonyL#3577
+And after flag changed from other node:
+```./komodo-cli -ac_name=TONY10 heirclaim 0 6295560 e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844```
+
+
+[20-Jan-19 03:32 AM] TonyL#3577
+That what I did 😃 After it my plan is not available anymore and I not get my coins back
+
+
+[20-Jan-19 03:33 AM] jl777c#5810
+@dimxy seems some bugs here?
+
+
+[20-Jan-19 03:34 AM] dimxy#2587
+seems yes, I'm now researching Alright 's yesterday heirclaim 0 0 issue
+
+
+[20-Jan-19 03:41 AM] Alright#0419
+@TonyL what branch are you using for that chain?
+
+
+[20-Jan-19 03:41 AM] Alright#0419
+```
+CC Eval EVAL_CHANNELS Invalid: channelOpen is not yet confirmed(notarised)! spending tx 45ab1cfe11fd07de20d4cc86b3ce124cec2910c6e52e2fb4ada737f3769b8af5
+CC Eval EVAL_CHANNELS Invalid: channelOpen is not yet confirmed(notarised)! spending tx 45ab1cfe11fd07de20d4cc86b3ce124cec2910c6e52e2fb4ada737f3769b8af5
+
+2019-01-20 11:39:11 UpdateTip: new best=004afe605bcd909987a90fb4f338d7bd51cca6343c10ac85c9789263add83c8e  height=155  log2_work=12.682995  log2_stake=-inf  tx=159  date=2019-01-19 09:39:26 progress=0.225291  cache=0.0MiB(156tx)
+2019-01-20 11:39:11 ERROR: CScriptCheck(): 512cdd362e3e7f6c4e8a48a4564dbad39d51a54cee495e0468db2c21777c59ba:2 VerifySignature failed: Script evaluated without error but finished with a false/empty top stack element
+2019-01-20 11:39:11 ERROR: CScriptCheck(): 512cdd362e3e7f6c4e8a48a4564dbad39d51a54cee495e0468db2c21777c59ba:1 VerifySignature failed: Script evaluated without error but finished with a false/empty top stack element
+2019-01-20 11:39:11 Misbehaving: 159.69.45.70:57076 (0 -> 100)
+2019-01-20 11:39:11 InvalidChainFound: invalid block=0366adc5b7ad96065fd14fbce28712a04df1cbd5beafb3a94b2c4a8fbe4b4c1f  height=156  log2_work=12.698271  log2_stake=-inf  date=2019-01-19 09:40:20
+```
+on latest jl777 branch
+
+
+[20-Jan-19 03:42 AM] Alright#0419
+Should I try to quantify what's going on with this heir's thing or are you already on it?
+
+
+[20-Jan-19 03:52 AM] TonyL#3577
+I'm using latest FSM
+
+
+[20-Jan-19 03:53 AM] TonyL#3577
+It was built with `CONFIGURE_FLAGS='CPPFLAGS=-DTESTMODE'` for channels testing
+
+
+[20-Jan-19 03:53 AM] TonyL#3577
+That's why you see this message
+
+
+[20-Jan-19 03:55 AM] Alright#0419
+What does the flag do?
+
+
+[20-Jan-19 03:56 AM] TonyL#3577
+Have to wait 2 confirmations instead of 101 for channels transactions (I've pinned Mihailo message in #dev-modules )
+
+
+[20-Jan-19 06:50 AM] dimxy#2587
+BTW heirxxx funcs accept amount in satoshis both for tokens and coins 
+(I forgot to changed it for coins when combined heirfund and heirfundtokens -> heirfund etc)
+
+
+[22-Jan-19 03:01 AM] dimxy#2587
+@TonyL  hi,  I could not recreate it when heir plan is lost after claiming full amount. 
+Maybe it is better to connect to your chain?
+
+
+[22-Jan-19 03:11 AM] TonyL#3577
+@dimxy Hi! 
+```./komodod -ac_name=TONY10 -ac_supply=5555555 -ac_reward=10000000000000 -ac_cc=2 -addressindex=1 -spentindex=1 -addnode=159.69.45.70 -addnode=159.69.201.122 -pubkey=pubkey ```
+
+Heir plan txid is: `e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844`
+
+
+[22-Jan-19 03:12 AM] TonyL#3577
+I lost plan when claimed not full amount, plan was funded on 6 million coins and I've claimed less than 1 coin
+
+
+[22-Jan-19 03:13 AM] TonyL#3577
+There is a message above with calls I made
+
+
+[22-Jan-19 03:13 AM] dimxy#2587
+@TonyL  ok, thanks
+
+{Reactions}
+👍 
+
+[22-Jan-19 03:21 AM] dimxy#2587
+@TonyL  I can see heirinfo for this txid:
+{
+  "fundingtxid": "e2156011f3022ced7dc3ca935f72ae0d769de950eb2b6d1d215fb71eff212844",
+  "name": "IAMDED",
+  "owner": "0287fb1878a131ec908088d703dd654144b5017c5cf30b5c9ba7b7f150342d10ad",
+  "heir": "032b6702a8a83b64962e6aee1c0c47751564ca4620ca469c925c19bd1cb451c5aa",
+  "funding total in coins": "6.29556e+06",
+  "funding available in coins": "6.29556e+06",
+  "inactivity time setting, sec": "600",
+  "spending allowed for the heir": "true",
+  "result": "success"
+}
+
+
+[22-Jan-19 03:21 AM] dimxy#2587
+maybe txid broken
+
+
+[22-Jan-19 03:23 AM] TonyL#3577
+Hmm can see it now as well
+
+
+[22-Jan-19 03:24 AM] TonyL#3577
+I guess I've just checked wrong txid before
+
+
+[22-Jan-19 03:24 AM] TonyL#3577
+😳
+
+
+[22-Jan-19 03:25 AM] TonyL#3577
+I'm sorry for confusion @dimxy
+
+
+[22-Jan-19 03:27 AM] dimxy#2587
+ok, NP.
+I'll push the heir corrections today. And i'm going to change marker type (cause it is bad now). So it would not find previous heir plans
+
+
+[22-Jan-19 03:29 AM] TonyL#3577
+I have to spin the new chain for re-test so. Will start to cover RPC calls by tests in parallel with manual testing
+
+
+[22-Jan-19 03:30 AM] TonyL#3577
+Is it better to test after marker type changing?
+
+
+[22-Jan-19 03:30 AM] dimxy#2587
+i think yes
+
+{Reactions}
+👌 
+
+[22-Jan-19 03:40 AM] jl777c#5810
+can we not use scientific notation? we should standardize on %0.8f for coins prints
+
+{Reactions}
+👍 
+
+[23-Jan-19 11:00 PM] dimxy#2587
+the corrections for Heir cc is in the FSM branch already
+
+
+[24-Jan-19 12:33 AM] TonyL#3577
+Great, start testing 👍
+
+
+[24-Jan-19 02:44 AM] TonyL#3577
+https://docs.google.com/spreadsheets/d/1l0dWEPcrv9zE11_TD-XrX_HIYV0VLpadCJN6hvaZERc/edit#gid=211514340 added heir calls to this table. Basic case which was made for these calls coverage worked fine
+
+{Embed}
+https://docs.google.com/spreadsheets/d/1l0dWEPcrv9zE11_TD-XrX_HIYV0VLpadCJN6hvaZERc/edit
+Smart Contract Test Plan
+Faucet
+
+
+Faucet Contract
+Available RPC calls,What does this Call do?,Example Test Command,Example Expected Output,What to Check,Comments,Testing Result
+faucetaddress [pubkey],Will display central faucet address and your faucet contract address for your pubkey.
+pubkey starts w...
+https://images-ext-2.discordapp.net/external/QZIWn2gC2YrS-VtzZN9auV-B7hhTp1IBFxoo9o3BBOo/https/lh4.googleusercontent.com/jG0EwoRG0GKTwPpnAwZivN2UkcMWt-qr3QUTPsmy2nz8nNGRLIBXezodcKzZoKg9bFwJDQ%3Dw1200-h630-p
+
+{Reactions}
+shexy 
+
+[24-Jan-19 03:38 AM] TonyL#3577
+```./komodo-cli -ac_name=TONY11 heirlist
+{
+  "result": "success",
+  "fundingtxid": "d3093ee919149b864d1f29586c32e2c08c10bd2554a40b2f5750e103eb33af82",
+  "fundingtxid": "905ed2baadbbe12a9c757338e4d485f90c31015bfec5d470d6008566da6d209d"
+}
+```
+
+
+[24-Jan-19 03:38 AM] TonyL#3577
+JSON keys (`fundingtxid`) are duplicating in heirlist if create more than one heirplan
+
+
+[24-Jan-19 03:49 AM] jl777c#5810
+maybe it needs to be an array?
+
+
+[24-Jan-19 03:51 AM] TonyL#3577
+heirplans: [ txid1, txid2, txid3, ... txidn]
+will be great
+
+
+[24-Jan-19 03:52 AM] TonyL#3577
+I'm not sure about other languages but Python don't like duplicate keys at all 😃
+
+
+[24-Jan-19 05:04 AM] TonyL#3577
+Also heir calls returns RPC errors not in JSON at the moment:
+```./komodo-cli -ac_name=TONY11 heirfund -1 -1 sdfsdf fsdfsdf 100
+error code: -1
+error message:
+incorrect txfee param```
+
+
+[24-Jan-19 05:12 AM] TonyL#3577
+10/10 😂
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052545447985153/537983118217445383/unknown.png
+
+{Reactions}
+😄 (6) 💇 (3) 🐇 (2) 
+
+[25-Jan-19 02:45 AM] dimxy#2587
+ok, i'll correct the issues with json
+
+{Reactions}
+🙌 
+
+[25-Jan-19 06:50 AM] dukeleto#7326
+the heir CC is very exciting stuff. I have been thinking about solving the same exact problem, in a different way, via the memo field. I think both can be married together, where you can store "real" + "notarized by a human notary" will+testament directly in a blockchain via memo fields or OP_RETURN and have that integrated with a heir CC. Kind of like a bridge from the physical world to the blockchain
+
+
+[25-Jan-19 06:50 AM] dukeleto#7326
+for instance, you might want to give the executor of a physical will access to a heir CC, or tell them how to use the funds/etc
+
+
+[25-Jan-19 07:27 AM] Mihailo#5902
+I think there could be one more field in opret when you add funds for a memo string and you can say for each funds what to do with them
+
+
+[25-Jan-19 07:45 AM] dimxy#2587
+Is there a limit for OP_RETURN length?
+
+
+[25-Jan-19 07:54 AM] jl777c#5810
+10000 bytes
+
+
+[25-Jan-19 08:11 AM] dimxy#2587
+would it be enough to store real world docs?
+
+
+[25-Jan-19 08:15 AM] jl777c#5810
+maybe spread across many opreturns
+
+
+[25-Jan-19 08:24 AM] TonyL#3577
+I'm slicing data on chunks which fit OP_RETURN CC limitation  (8Kb chunks) and broadcast 800kb (it's a limitation just from head and can be changed) per block (100 chunks) in oracles file uploader
+
+
+[25-Jan-19 08:25 AM] TonyL#3577
+If it will be not in oracle probably can use few bytes less in data chunk and in first few bytes encode chunk number / some additional info
+
+
+[25-Jan-19 08:38 AM] dimxy#2587
+or, maybe store not the payload itself but its hash?
+
+
+[25-Jan-19 08:46 AM] TonyL#3577
+Store only control sum hash?
+
+
+[25-Jan-19 08:46 AM] TonyL#3577
+It sounds interesting
+
+
+[25-Jan-19 08:47 AM] TonyL#3577
+Possible to use as metadata and store main file on S3
+
+
+[25-Jan-19 08:47 AM] TonyL#3577
+Upload file to AWS S3 bucket -> triggers lambda functions and metadata + hash writing to oracle
+
+
+[25-Jan-19 08:55 AM] Deleted User#0000
+Yes, hash to OP_RETURN is all thats needed... I created streamer that can upload file of any size into OP_RETURN .... but its not really suefl for most things... just place hash of file on BTC or any  dPOW coin.
+
+
+[25-Jan-19 09:25 AM] dukeleto#7326
+i have stored a 1MB file in memo fields directly on ZEC mainnet, with amount=0 and fee=0, just sayin' 😈
+
+
+[25-Jan-19 09:25 AM] dukeleto#7326
+all in 1 xtn that almost filled a block
+
+
+[26-Jan-19 04:55 AM] siu#3920
+I want to learn to use this
+
+
+[26-Jan-19 04:55 AM] siu#3920
+but i see only one rpc command
+
+
+[26-Jan-19 04:55 AM] siu#3920
+```heiraddress func txid amount [destpubkey]
+```
+
+
+[26-Jan-19 05:04 AM] jl777c#5810
+help | grep heir shows half a dozen
+
+
+[26-Jan-19 05:04 AM] dimxy#2587
+Hi,
+this is some doc for Heir cc https://github.com/dimxy/Documentation/blob/patch-1/docs/source/cc/contracts/heir/introduction.rst
+
+{Embed}
+https://github.com/dimxy/Documentation/blob/patch-1/docs/source/cc/contracts/heir/introduction.rst
+dimxy/Documentation
+Developer and End user documentation. Contribute to dimxy/Documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/FG7_8N0jtCftKtsAk7K5U05eeO1dpQWPnEQ9A5NQLBI/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21120539
+
+
+[26-Jan-19 05:05 AM] siu#3920
+i must be in the wrong branch then
+
+
+[26-Jan-19 05:05 AM] siu#3920
+which branch is better for testing this?
+
+
+[26-Jan-19 05:08 AM] dimxy#2587
+the latest is in the FSM
+
+
+[26-Jan-19 05:14 AM] siu#3920
+thanks
+
+
+[26-Jan-19 07:38 AM] dimxy#2587
+@jl777c  what about the output variable names in heirinfo? Now they are called like 'owner inactivity time, sec', 'spending allowed for the heir',... (with spaces). Probably not very good names for rpc. Maybe, better to make them shorter and with no spaces?
+
+
+[26-Jan-19 07:55 AM] jl777c#5810
+yes
+
+
+[27-Jan-19 06:37 AM] dimxy#2587
+There is a question about the suggestion to heir cc by @dukeleto to add a memo field.
+Seems, just to add this memo with the owner's will is not enough because it is not clear for the Heir cc how to fulfill  the conditions in this memo. Now Heir cc contract unconditionally allows to spend the funds for the heir, if inactivity time is passed.
+If we want to add some real world will, seems, we need who would execute its conditions. That is, we probably need 3-rd person, an executor of the will. He should add his signed permission to spend funds from our 1of2 cryptocondition where the funds are.
+
+
+[27-Jan-19 06:54 AM] jl777c#5810
+it seems to create a lot of unsolved issues and require trusted arbiter
+
+
+[27-Jan-19 07:03 AM] dimxy#2587
+Evidently yes, as it is going to be a connection to the real world (outside the blockchain)
+
+
+[27-Jan-19 07:05 AM] dimxy#2587
+I added this memo field to the new fix and marked it as 'for future use'
+
+
+[27-Jan-19 07:11 AM] dukeleto#7326
+@dimxy i see heir CC + memo field data being used together, to bridge the gap from "blockchain smart contract" to "signed + human notarized PDF of a will" (which stands up in court)
+
+
+[27-Jan-19 07:13 AM] dukeleto#7326
+no legal precedent for heir CC, means it needs help to be considered "real". tying together a legal will with a heir CC, i think makes it much stronger
+
+
+[27-Jan-19 07:13 AM] dukeleto#7326
+the will can specify exactly what the heir CC is, and give instructions to the heir on how to use it, solve all the "icky" real-world problems that heir CC internals avoid
+
+
+[27-Jan-19 07:17 AM] dukeleto#7326
+to clarify, my idea is that memo fields + heir CC's get tied together at a higher level, up the stack, not changing the heir CC to use memo fields directly
+
+
+[27-Jan-19 07:18 AM] dukeleto#7326
+@radix42 you might have some opinion re: the above ^^^
+
+
+[27-Jan-19 08:04 AM] TonyL#3577
+Great, adjusting tests for latest PR
+
+
+[27-Jan-19 08:57 AM] TonyL#3577
+@dimxy ```"OwnerRemainderTokens": "0"``` What this param should reflect? It's 0 before and after claiming
+
+
+[27-Jan-19 09:10 AM] dimxy#2587
+@TonyL  it shows if the owner has some 'unconverted' tokens on his balance. If you did heirfund for all the created token amount then it should be 0. That is, tokenbalance would show the same value
+
+{Reactions}
+👌 
+
+[28-Jan-19 01:15 AM] TonyL#3577
+Updated heir seems fine so far @dimxy 
+Params errors still returns not in JSON:
+```./komodo-cli -ac_name=TONY11 heirfund -1 100 test 024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56 100
+error code: -1
+error message:
+incorrect txfee param
+```
+```./komodo-cli -ac_name=TONY11 heirfund 0 100 test 024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56 0
+error code: -1
+error message:
+incorrect inactivity time param```
+And so on
+
+
+[28-Jan-19 01:15 AM] TonyL#3577
+As example for diceCC:
+```./komodo-cli -ac_name=TONY11 dicefund test 10000 0 0 0 0
+{
+  "result": "error",
+  "error": "invalid parameter error"
+}
+```
+As I remember there is some errors returning solution defined in rpc code which using by other CCs (https://github.com/tonymorony/komodo/commit/ab3ae964e16f4a89e1606723cd784e9463ccacf7)
+
+
+[28-Jan-19 01:18 AM] TonyL#3577
+Little issue I found on params validation stage.
+Negative txfee retrurns error:
+```./komodo-cli -ac_name=TONY11 heirfund -1 100 test 024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56 100
+error code: -1
+error message:
+incorrect txfee param```
+Random text input as txfee accepts (creating tx with default txfee so it not seems a big issue, but anyway I think it's not good that text input accepting in this field):
+```
+ ./komodo-cli -ac_name=TONY11 heirfund tony 100 test 
+024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56 100
+{
+  "result": "success",
+  "hextx": "0400008085202f8902005d879a7df2e82d1abb675025e01f41311ddc763ddcd6ac9ed5e7bea4c3e935000000004847304402207d74535a687a83046f6e3a707ad700ef41349edc3c91bc1b36f97f8c68817d96022057e909ba21cd8831a8661a510d7078d74fd074718148a541129c448d7886532501ffffffff00627587d37acad0ad84b7fc8c20a0131f5b76505dd11baf1c9caef17e4476fe0000000049483045022100ab082dcd6487f2d11be505fdd912382dd54f77f0c9d9a2ce5dc154cf90c9d6500220435a1a9e2e299054c931521491fd7bb266735a82f4a3f2d9a3d393ad57e102b201ffffffff0500e40b5402000000302ea22c8020bd33702483a051e3011fa0ba68b49cb28c449beb8e63b2942b9545cd55e9fe8081031210008203000401cc1027000000000000302ea22c8020286b36b233cc03c91652560f4ecf9404bcf10b61033916d67edf4a216c92cf758103120c008203000401cc00bc66fa1509000023210340a8b7f0368762d69532b2c8c250d42c5442b756a64d68db17fa88df742089a1ace051724e1809000023210340a8b7f0368762d69532b2c8c250d42c5442b756a64d68db17fa88df742089a1ac0000000000000000566a4c53ea46210340a8b7f0368762d69532b2c8c250d42c5442b756a64d68db17fa88df742089a121024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e566400000000000000047465737400000000b21600000000000000000000000000"
+}
+```
+
+
+[28-Jan-19 04:09 AM] dimxy#2587
+strange, i corrected all this
+
+
+[28-Jan-19 04:10 AM] dimxy#2587
+checking..  
+
+I PR'ed the json changes into FSM. Seems they are there
+
+
+[28-Jan-19 04:12 AM] Mihailo#5902
+As I see that merge from JL is resolving conflicts. It may be that when resolving conflicts, he brought the old version. I'm always confused when solving conflicts in git, which is new version and which old one !
+
+{Reactions}
+💯 ➕ 
+
+[28-Jan-19 04:14 AM] TonyL#3577
+```git log -1
+commit d4b0c5ee3bd70f71ad333c5bdbafa9706eb72ec5 (HEAD -> FSM, origin/FSM)
+Merge: 76024c356 134534b38
+Author: jl777 <jl777@users.noreply.github.com>
+Date:   Sun Jan 27 04:57:12 2019 -1100
+
+    Merge pull request #1215 from dimxy/heir-json-issues
+    
+    Heir json issues
+```
+@dimxy Hmm, I'm testing FSM with this merge
+
+
+[28-Jan-19 04:18 AM] Mihailo#5902
+@dimxy, who's gonna push that fix for continue?
+
+
+[28-Jan-19 04:19 AM] dimxy#2587
+maybe you?
+
+
+[28-Jan-19 04:20 AM] dimxy#2587
+😃
+
+
+[28-Jan-19 04:20 AM] Mihailo#5902
+Np, I thought maybe someone have some PR to make and just to change this...
+
+
+[28-Jan-19 04:23 AM] dimxy#2587
+I did PR yesterday
+
+
+[28-Jan-19 04:23 AM] Mihailo#5902
+Ok, done
+
+
+[28-Jan-19 04:26 AM] dimxy#2587
+@TonyL  So you dont see this code in rpcwallet.cpp in heirfund() func?
+7385          if (txfee < 0) {
+7386        result.push_back(Pair("result", "error"));
+7387        result.push_back(Pair("error", "incorrect txfee"));
+7388        return result;    
+7389    }
+
+
+[28-Jan-19 04:31 AM] TonyL#3577
+Hmm, I see this code @dimxy
+
+
+[28-Jan-19 04:32 AM] TonyL#3577
+Let me try to rebuild one more time on my side
+
+
+[28-Jan-19 04:39 AM] TonyL#3577
+@dimxy Built again to ensure that I did it - same behaviour as described above
+
+
+[28-Jan-19 04:42 AM] TonyL#3577
+@dimxy ```./komodo-cli -ac_name=TONY11 heirfund -1 100 test 024f4f2b781c247b3609ba777a222d93d44182466c01dad3f2aa0def2be8f69e56 100 test
+{
+  "result": "error",
+  "error": "incorrect txfee"
+}
+``` false alarm again :/
+
+
+[28-Jan-19 04:44 AM] TonyL#3577
+Seems daemon used komodod from other folder, noticed it when was able to call without new `memo` param
+
+
+[28-Jan-19 04:44 AM] TonyL#3577
+2 false alarms for @dimxy for 2 days, seems it's time for vacation 😂
+
+{Reactions}
+👍 
+
+[28-Jan-19 04:45 AM] Deleted User#0000
+Wrong terminal window :troll_cool:
+
+{Reactions}
+troll_compadre 😀 
+
+[28-Jan-19 04:53 AM] TonyL#3577
+https://github.com/tonymorony/komodo/commit/7bd8f456c30bb2bcb500ea77e6687e8ce8deb3fb I even adjusted tests for this PR merge yesterday and tried it on the same daemon so gimmicks weren't expected 😂
+
+{Embed}
+https://github.com/tonymorony/komodo/commit/7bd8f456c30bb2bcb500ea77e6687e8ce8deb3fb
+tests adjusted for heirCC json enhancement · tonymorony/komodo@7b...
+https://images-ext-1.discordapp.net/external/_FZ-6atALXBjBvMLVC1JBeWG05jXc2w_TXrppH7V6kE/%3Fs%3D200%26v%3D4/https/avatars3.githubusercontent.com/u/24797699
+
+
+[28-Jan-19 04:59 AM] dimxy#2587
+BTW about the 'memo' param: I added it as a first try just to OP_RETURN. So it is limited by 10000 b and I added some recommendations for its content (that is, if the 'will' is too big  the put the url on it and its hash).
+https://github.com/dimxy/Documentation/blob/patch-1/docs/source/cc/contracts/heir/introduction.rst
+Waiting for additional ideas (provide more space, add third person 'will executor',...) @dukeleto
+
+{Embed}
+https://github.com/dimxy/Documentation/blob/patch-1/docs/source/cc/contracts/heir/introduction.rst
+dimxy/Documentation
+Developer and End user documentation. Contribute to dimxy/Documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/FG7_8N0jtCftKtsAk7K5U05eeO1dpQWPnEQ9A5NQLBI/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21120539
+
+
+[28-Jan-19 05:04 AM] dukeleto#7326
+@Mihailo `git merge -Xtheirs` or `git merge -Xours` will either resolve all conflicts with the other branch, or your current branch's changes. Sometimes it's what you want
+
+
+[28-Jan-19 05:05 AM] dukeleto#7326
+-X lets you tell git a "merge strategy"
+
+
+[28-Jan-19 05:06 AM] Mihailo#5902
+@dukeleto  Thnx. I usually use VSCode to see the changes and resolve conflicts. But I always stop and check with myself which changes are mine 😛
+
+
+[28-Jan-19 05:06 AM] dukeleto#7326
+the github merge conflict web tool is pretty decent too
+
+
+[28-Jan-19 05:07 AM] dukeleto#7326
+@dimxy cool, it just makes sense to allow using that extra data. ~10KB is enough for a textual representation of a will, with perhaps a URL + hash to a signed PDF version
+
+{Reactions}
+👍 
+
+[28-Jan-19 11:17 AM] Bryan_Beus#6442
+@jl777c 
+
+I'm updating channel topics at the moment, and need the best location to link to for cc-heir documentation.
+
+What's the best spot?
+
+Can I put @dimxy's post up there?
+
+https://github.com/dimxy/Documentation/blob/patch-1/docs/source/cc/contracts/heir/introduction.rst
+
+(I haven't met you before, @dimxy, hello!)
+
+{Embed}
+https://github.com/dimxy/Documentation/blob/patch-1/docs/source/cc/contracts/heir/introduction.rst
+dimxy/Documentation
+Developer and End user documentation. Contribute to dimxy/Documentation development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/FG7_8N0jtCftKtsAk7K5U05eeO1dpQWPnEQ9A5NQLBI/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21120539
+
+
+[28-Jan-19 11:20 AM] dimxy#2587
+Hello @Bryan_Beus!   BTW gcharang told me there is a docs migration is going on into the new docs format. So my heir doc seems needs to be migrated to it too
+
+
+[28-Jan-19 11:20 AM] Bryan_Beus#6442
+@dimxy 
+
+Are you a team member, btw?
+
+
+[28-Jan-19 11:21 AM] dimxy#2587
+i think so😀
+
+
+[28-Jan-19 12:49 PM] jl777c#5810
+yes he is
+
+
+[28-Jan-19 01:18 PM] Mihailo#5902
+@dimxy You think good 😂 😎
+
+{Reactions}
+😀 (2) 
+
+[28-Jan-19 01:22 PM] SHossain#0007
+all team member has a `Team` role assigned to them
+
+{Reactions}
+Komodo 
+
+[02-Feb-19 10:43 AM] Regnar#6164
+https://twitter.com/Regnar__/status/1091767381221928960
+
+{Embed}
+Regnar (@Regnar__)
+https://twitter.com/Regnar__/status/1091767381221928960
+@LamboLlama Yea there's a cryptocondition contract developed by @KomodoPlatform called CC Heir. Here's the article on how it works. https://t.co/2zFrzmA5Ql
+and they have a discord channel dedicated to it too
+Twitter
+
+
+[18-Feb-19 05:38 AM] gcharang#6833
+@dimxy I am going through the heir doc now,
+```
+After the inactivity time has passed, both the heir and owner may freely claim available funds. This is achieved by that that after the first heir spending, a special flag is set depicting that spending is allowed for the heir from now on, whether the owner adds more funds or spends them.
+```
+Can you explain who sets the special flag ? miners or the heir when he submits the claim transaction?
+
+
+[18-Feb-19 05:46 AM] dimxy#2587
+the heir sets this flag when he successfully claims funds first time  (after inactivity time passed)
+
+
+[18-Feb-19 06:38 AM] gcharang#6833
+Got it.
+
+
+[18-Feb-19 07:27 AM] gcharang#6833
+```
+When using Heir contract on a private chain, to make funds available for the heir, you should wait for inactivity time and add any arbitrary transaction to the chain (for the duration between owner tx and chain tip to be calculated correctly).
+```
+"you should wait" --  here is it the heir?
+
+
+[18-Feb-19 07:29 AM] gcharang#6833
+@dimxy are private funds be able to use in inheritance? If not what is the difference here from a purely public chain?
+
+
+[18-Feb-19 07:33 AM] dimxy#2587
+well I suggest removing this (this is just for testing), sorry, overlooked
+
+
+[18-Feb-19 07:37 AM] gcharang#6833
+So, there are no special/extra things to be done by anyone for the heir contract in a private chain that are not needed in a public chain?
+
+
+[18-Feb-19 07:38 AM] gcharang#6833
+I mean is there any difference in the usage of the contract on a chain where private transactions are possible VS a pure Public chain?
+
+
+[18-Feb-19 07:38 AM] gcharang#6833
+@dimxy
+
+
+[18-Feb-19 07:44 AM] dimxy#2587
+I used the name 'private' chain incorrectly, I meant 'test chains'
+There is no differences in using heir cc on various chains
+The difference might be in that on KMD chain heir cc will be used with coins, on asset chain it will be used with tokens. It supports both
+
+
+[18-Feb-19 07:46 AM] gcharang#6833
+Ah, got it. Will just delete the note.
+
+
+[18-Feb-19 07:48 AM] gcharang#6833
+Is this statement true:
+```
+The `heiradd` rpc call warns the user that he is making a donation to the fund if he is neither the **owner** nor the **heir**
+```
+
+
+[18-Feb-19 07:54 AM] gcharang#6833
+```
+The `heiradd` rpc call doesn't allow addition of funds from both owner and non-owner inputs in a single transaction. In any case such fund additions will be considered as donations too.
+```
+So the rpc call doesn't allow it, but if someone creates a raw transaction manually to include both owner and non-owner inputs in the fund transaction, will the other nodes reject it? @dimxy I mean does such a txn break consensus rules?
+
+
+[18-Feb-19 07:56 AM] jl777c#5810
+how can someone else spend funds out of owner address?
+
+
+[18-Feb-19 07:57 AM] gcharang#6833
+If the wallet has utxo of both owner pubkey and and another pubkey then can't a txn be constructed that adds funds from both to the heir fund?
+
+
+[18-Feb-19 07:59 AM] dimxy#2587
+Yes, here it states about if someone manages to create a tx with both owner inputs and other inputs (having both keys)
+
+
+[18-Feb-19 07:59 AM] dimxy#2587
+Is it an artifical situation?
+
+
+[18-Feb-19 08:00 AM] jl777c#5810
+only the owner would be able to do that
+
+
+[18-Feb-19 08:00 AM] jl777c#5810
+unless he is hacked
+
+
+[18-Feb-19 08:00 AM] jl777c#5810
+but if this tx is rejected anyway, what is the issue?
+
+
+[18-Feb-19 08:00 AM] gcharang#6833
+I am asking if it is rejected
+
+
+[18-Feb-19 08:01 AM] gcharang#6833
+I mean is it rejected now according to the heir contract
+
+
+[18-Feb-19 08:02 AM] dimxy#2587
+Such tx would not be rejected now and it would be considered as donations to the heir fund (if it is created bypassing the rpc)
+
+
+[18-Feb-19 08:03 AM] dimxy#2587
+we are speaking about normal inputs BTW
+
+
+[18-Feb-19 08:03 AM] gcharang#6833
+Got it.  So such a txn won't reset the countdown to inactivity period?
+
+
+[18-Feb-19 08:04 AM] dimxy#2587
+yes donations won't reset the inactivity countdown
+
+
+[18-Feb-19 08:04 AM] dimxy#2587
+only owner tx will do that
+
+
+[18-Feb-19 08:06 AM] gcharang#6833
+Got it. btw @dimxy after I have gone through the doc, can you please go through it again to check if everything is accurate?
+
+
+[18-Feb-19 08:07 AM] dimxy#2587
+yes of course, 
+is it on the dev branch?
+
+
+[18-Feb-19 08:07 AM] gcharang#6833
+No not now. I will ping you after I am done. Its currently in a branch named `gcharang` . I am still editing it
+
+
+[18-Feb-19 08:07 AM] dimxy#2587
+okay
+
+
+[18-Feb-19 06:04 PM] Alright#0419
+@dimxy does jl's branch have latest Heir code?
+
+
+[18-Feb-19 07:57 PM] dimxy#2587
+I PRed heir  to the FSM branch.
+But it is merged into JL777 also
+
+
+[19-Feb-19 02:55 AM] gcharang#6833
+```
+./komodo-cli -ac_name=TESTAC heirfund 0 5 MyDogHeir 037736c263991316c6a23397a982a1f8c18ae8642e944448162a93a824c31f9299 100 'http://billionaire.com/mywill md5=5385639869'
+```
+Does the txfee= 0 mean it will use default txn fee of  10000 satoshis? @dimxy
+
+
+[19-Feb-19 02:56 AM] dimxy#2587
+yes, txfee=0  is 10000
+
+
+[19-Feb-19 02:57 AM] gcharang#6833
+thanks
+
+
+[19-Feb-19 02:58 AM] Mihailo#5902
+@dimxy why do we have txfee as parameter to rpc call? I don't seems to recall that other have it...
+
+
+[19-Feb-19 03:00 AM] dimxy#2587
+We may remove it in the next heir fix
+
+
+[19-Feb-19 03:03 AM] jl777c#5810
+it is usually hidden param
+
+
+[19-Feb-19 03:03 AM] jl777c#5810
+probably best that way
+
+
+[19-Feb-19 03:03 AM] Mihailo#5902
+No, just checking if we need to have this param, as I don't have it in my cc rpc calls
+
+
+[19-Feb-19 05:24 AM] gcharang#6833
+@dimxy 
+```
+| fundingtxid           | (string)  |txid of this heir funding plan creation tx, used as a handler to it
+```
+can you explain what ` used as a handler` means?
+
+
+[19-Feb-19 05:29 AM] dimxy#2587
+'reference' maybe better
+
+
+[19-Feb-19 05:33 AM] gcharang#6833
+Got it.
+
+
+[19-Feb-19 06:06 AM] gcharang#6833
+@dimxy 
+```
+komodo-cli -ac_name=CFEKDIMXY1 heiraddress 
+```
+without `pubkey` as an argument throws an error. Is it expected behaviour? Some of the other CC for the address RPC, will use the pubkey that was used to start the daemon with to calculate the addresses
+
+
+[19-Feb-19 06:10 AM] dimxy#2587
+I think yes it is expected behaviour because without hear pubkey we cannot output funds 1of2 address
+
+
+[19-Feb-19 06:12 AM] gcharang#6833
+So, in a daemon started with owner pubkey, we need to use the command
+```
+komodo-cli -ac_name=CFEKDIMXY1 heiraddress <heir's pubkey>
+```
+correct?
+
+
+[19-Feb-19 06:13 AM] dimxy#2587
+yes, the param of heiraddress is heir's pubkey, and the daemon's pubkey would be the owner pubkey
+
+
+[19-Feb-19 06:17 AM] gcharang#6833
+```json
+{
+  "result": "success",
+  "HeirCCAddress": "RDVHcSekmXgeYBqRupNTmqo3Rn8QRXNduy",
+  "CCbalance": 0.00010000,
+  "HeirNormalAddress": "RTPwUjKYECcGn6Y4KYChLhgaht1RSU4jwf",
+  "HeirCC`1of2`Address": "RCiaNQq9yVb5biyEy8xWrAJCjjvQ9oW8rn",
+  "HeirCC`1of2`TokensAddress": "RGKHD8UaTU2avj6LdmuSgpuaukk6XY4fss",
+  "myAddress": "REXP3kgaa5wbio76aqnTJDb8CQJHBiZy2b",
+  "myCCAddress(Heir)": "RTF9g6SRzbgZXTT7arGZrmTeNKuLoGYyZA",
+  "PubkeyCCaddress(Heir)": "RTF9g6SRzbgZXTT7arGZrmTeNKuLoGYyZA",
+  "myCCaddress": "RTF9g6SRzbgZXTT7arGZrmTeNKuLoGYyZA",
+  "myCCbalance": 0.00000000,
+  "myaddress": "REXP3kgaa5wbio76aqnTJDb8CQJHBiZy2b",
+  "mybalance": 296.99950000
+}
+```
+can you tell me what `myCCbalance` is?
+
+
+[19-Feb-19 06:17 AM] gcharang#6833
+@dimxy
+
+
+[19-Feb-19 06:23 AM] dimxy#2587
+Most of the output of heiraddress is formed  by a commonly used function. 
+I need to see what it does
+
+
+[19-Feb-19 06:24 AM] dimxy#2587
+I can even see duplications  like 'myAddress' and 'myaddress'
+
+
+[19-Feb-19 06:24 AM] gcharang#6833
+for tokens: 
+```
+myCCaddress    (string)    taking the token contract's EVAL code as a modifier, this is the CC address from the pubkey of the user
+```
+but here there are 2 pubkeys so i am a bit confused
+
+
+[19-Feb-19 06:26 AM] dimxy#2587
+here it should be 'funds owner' or 'owner' as we defined what is 'owner' in the beginning of the doc
+
+
+[19-Feb-19 06:27 AM] dimxy#2587
+no
+
+
+[19-Feb-19 06:27 AM] gcharang#6833
+"myCCAddress(Heir)" and "myCCaddress" seem to be the same
+
+
+[19-Feb-19 06:28 AM] dimxy#2587
+yes, i'm going to see how this function  gets those values
+
+
+[19-Feb-19 06:29 AM] gcharang#6833
+ok. I will leave this `heiraddress` part for later
+
+
+[19-Feb-19 07:04 AM] gcharang#6833
+@dimxy 
+I have gone through the heir-cc doc and made some edits. I will add to the `heiraddress` section once I get more clarification from you. Its correct as it is but missing some of the confusing keys like `myccaddress` and `myccbalance`
+
+Its here: https://github.com/KomodoPlatform/developer-docs/blob/gcharang/docs/basic-docs/cryptoconditions/cc-heir.md
+
+repo: https://github.com/KomodoPlatform/developer-docs/
+branch: gcharang
+
+When you have some time, please go through it and suggest corrections to me here in discord or as a PR to the `gcharang` branch, whichever suits you better.
+
+{Embed}
+https://github.com/KomodoPlatform/developer-docs/blob/gcharang/docs/basic-docs/cryptoconditions/cc-heir.md
+KomodoPlatform/developer-docs
+Contribute to KomodoPlatform/developer-docs development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Embed}
+https://github.com/KomodoPlatform/developer-docs/
+KomodoPlatform/developer-docs
+Contribute to KomodoPlatform/developer-docs development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[19-Feb-19 07:15 AM] dimxy#2587
+Yes, of course I'll go through the doc
+
+
+[19-Feb-19 12:21 PM] dukeleto#7326
+y'all have been doing amazing work, the heir documentation is great! I haven't seen it before
+
+{Reactions}
+😃 (2) 
+
+[19-Feb-19 10:57 PM] dimxy#2587
+@gcharang  I went through your heir docs version.  It is great, I liked it!
+
+Some notes about heiraddress:
+My understanding is that for heir cc contract only following addresses are relevant:
+HeirCCAddress        (string)        taking the contract's EVAL code as a modifier, this is the public address that corresponds to the heir contract's privkey. It is used internally for special marker storage
+HeirCC1of2Address    (string)        address for storing funds in coins spendable by owner and heir (funds address)
+HeirCC1of2TokensAddress    (string)    address for storing funds in tokens spendable by owner and heir (token funds address)
+MyAddress                            user normal address to withdraw funds in coins from heir cc funds address    <--- this is for any user who wants to use heir cc (owner or heir) 
+MyTokenAddress                        user address to withdraw funds in tokens from heir cc token funds address    <--- not present now, should be added
+
+And I'm not sure if we need to output any balances here. Seems this heiraddress function purpose is to give some info about contracts addresses to use them in other rpc methods
+
+
+[20-Feb-19 12:12 AM] gcharang#6833
+@dimxy 
+MyTokenAddress is not present in the response from `./komodo-cli -ac_name=TESTAC heiraddress <pubkey>`
+is it going to be added in the future?
+
+
+[20-Feb-19 12:13 AM] dimxy#2587
+yes, I m going to add it
+
+
+[20-Feb-19 12:14 AM] gcharang#6833
+Got it. The doc will be published in the developers.komodoplatform.com by the end of this week. Many thanks
+
+{Reactions}
+👍 (2) treasure 
+
+[27-Feb-19 08:53 AM] dukeleto#7326
+I would very much like the Heir CC to be enabled in Hush, and I see that new improvements are still flowing in, which is great to see. Can anyone estimate if more consensus changes are coming soon, or is it mostly RPC-layer stuff that will be changing?
+
+{Reactions}
+🆒 
+
+[04-Mar-19 12:04 AM] Mylo#8306
+@dukeleto will HUSH be a src level fork or an assetchain?
+
+
+[04-Mar-19 04:37 AM] dukeleto#7326
+@Mylo both
+
+
+[04-Mar-19 04:37 AM] dukeleto#7326
+https://github.com/MyHush/hush3 is the new HUSH-ac-and-fork
+
+{Embed}
+https://github.com/MyHush/hush3
+MyHush/hush3
+HUSH fork of KMD. Contribute to MyHush/hush3 development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/4gOX1fKM3QTa9jA_3FPIPM25wLL4gEO1nxlUEoeFbQ0/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/26923909
+
+
+[23-Mar-19 10:40 PM] Mylo#8306
+is this working?  can it be demonstrated to somone?
+
+
+[24-Mar-19 01:03 AM] TonyL#3577
+@Mylo Tests passing fine so I assume it's working atm
+
+{Reactions}
+👍 
+
+[22-Apr-19 04:33 AM] dukeleto#7326
+Heir CC is live on HUSH3 mainnet, tho i haven't played with it yet
+
+
+[23-Apr-19 11:43 AM] dimxy#2587
+If any questions about heir cc please feel free to ask me @dukeleto
+
+
+[24-Apr-19 04:20 AM] dukeleto#7326
+@dimxy i would like to create some docs/examples for how to use Heir CC on HUSH and I would be willing to pay a bounty
+
+
+[24-Apr-19 04:20 AM] dukeleto#7326
+I haven't had time to play with any CCs on Hush yet
+
+
+[24-Apr-19 04:24 AM] jl777c#5810
+did you look at developers.komodoplatform.com ? i remember seeing heir
+
+
+[24-Apr-19 04:54 AM] dimxy#2587
+yes there is  rpc description for heir cc:
+https://developers.komodoplatform.com/basic-docs/customconsensus/heir.html
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/customconsensus/heir.html
+Heir |
+Documentation for developers building on Komodo
+
+
+[01-May-19 01:15 AM] Mylo#8306
+
+{Attachments}
+https://cdn.discordapp.com/attachments/522052545447985153/573059884069945367/heirCC-with-labels.png
+
+{Reactions}
+👍 (4) 
+
+[01-May-19 01:15 AM] Mylo#8306
+the not sexy version
+
+
+[01-May-19 08:22 AM] dukeleto#7326
+whoa, that is cool
+
+
+[01-May-19 08:23 AM] dukeleto#7326
+@Mylo can i use that diagram in a tweet, with proper attribution to you? Are you on teh twitterz?
+
+
+[01-May-19 08:23 AM] Mylo#8306
+Can you a heaps prettier one in 10mins
+
+
+[01-May-19 08:24 AM] Mylo#8306
+It got a massive makeover from our graphics person
+
+
+[01-May-19 08:25 AM] Mylo#8306
+Twitter barred me for being too rad.  imylomylo on it though
+
+
+[03-Nov-19 02:23 PM] Regnar#6164
+```- Heir
+  - Insert Heir CC proof of concept here - [link]```
+
+Hey all, if you have any proof of concepts, or built something cool for Heir CC, please let me know. The goal is to build out a list of concepts using CCs to help show other developers what is possible and add this to the Komodo docs page. TUIs are good too!
+
+
+[11-Nov-19 05:53 PM] TonyL#3577
+Hmm what if add possibility to add not only coins heir but encoded information as well, as soon as heir time heir pubkey can decode it. I can record info where to find some data lets say (such as privkeys, where I store funds and etc). Like a data heir
+
+{Reactions}
+✅ (3) 👍 
+
+[19-Nov-19 07:19 AM] TonyL#3577
+@gcharang txfee param was removed for all heirCC calls. Could you please update the doc: https://developers.komodoplatform.com/basic-docs/antara/antara-api/heir.html#heir ?
+
+
+[19-Nov-19 07:20 AM] gcharang#6833
+will do!
+
+
+[19-Nov-19 08:34 AM] gcharang#6833
+@TonyL hey, I have the latest jl777/FSM daemon running
+it looks like only heirclaim had the txfee param removed?
+```bash
+./c1 help | grep heir                                                                       
+heiradd txfee funds fundingtxid
+heiraddress pubkey
+heirclaim funds fundingtxid
+heirfund txfee funds heirname heirpubkey inactivitytime memo [tokenid]
+heirinfo fundingtxid
+heirlist
+```
+should I be looking at some other branch?
+
+
+[19-Nov-19 08:42 AM] TonyL#3577
+yes @gcharang it's in other branch at the moment. @dimxy working on heir patch atm and it'll be available in FSM then
+
+
+[19-Nov-19 08:43 AM] gcharang#6833
+ok, will wait for it
+
+
+[19-Nov-19 08:22 PM] Regnar#6164
+There was a discussion about Tipbots giving coins to random people on Twitter and how it would be great if they could take those coins back if the person doesn't touch them in N amount of time. I was thinking this could be something Heir CC could do.
+
+`Should the owner fail to interact with the 1of2 Antara address for a specified period of time (inactivitytime), the address automatically unlocks to the second key. This second key is owned by the heir. Once unlocked, both the creator and the heir may freely spend funds from the address.`
+
+In this example the first key would be the person being tipped, and the second key would be the Tipbot itself. We set the date to 1 month (or w.e.) So a tip is made to someone and if they don't interact with the wallet or withdraw the funds, the second key unlocks `the heir` and they bring the tokens back to the tipper.
+
+
+[19-Nov-19 08:29 PM] Regnar#6164
+If this is even possible (setting yourself as an heir in an outbound transaction) obviously this could be bad if wallets send these types of transactions as "Payments" for something, only to reverse it if/when the Heir key opens up. So hopefully there is a way to check for Heirs, if a transaction has an heir, wallets could automate sending the transaction to themselves or something. There might also need to be a minimum time for Heirs so that it doesn't reverse the very next block.
+
+
+[20-Nov-19 05:03 AM] Regnar#6164
+@turinglabs was reading the posts in #komodo-team, maybe this would be something for future ideas ^^
+
+{Reactions}
+👌 
+
+[20-Nov-19 05:05 AM] Regnar#6164
+My understanding is it uses Antara addresses so it likely wont be an issue for people receiving these as payments, since it would be different type of transaction/address then typical KMD transactions
+
+
+[21-Nov-19 01:54 AM] TonyL#3577
+@gcharang fyi now it merged into FSM: https://github.com/jl777/komodo/pull/1756
+
+{Embed}
+https://github.com/jl777/komodo/pull/1756
+heir cc fixes by dimxy · Pull Request #1756 · jl777/komodo
+fixed heirclaim incorrect param parse
+changed atof to ParseFixedPoint
+removed txfee from heir rpc
+removed two calls to AddNormalinputs to enable spending from single utxo
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+{Reactions}
+👍 
+
+[21-Nov-19 05:51 AM] dukeleto#7326
+@jl777c what is the risk to HUSH of merging in that Heir CC fix? heir CC is active on hush mainnet
+
+
+[21-Nov-19 05:54 AM] jl777c#5810
+i think it only changed the rpc calls and not the consensus, but @dimxy should confirm if it is backward compatible with existing heir CC or not. i sure hope it is
+
+
+[21-Nov-19 05:55 AM] dukeleto#7326
+@jl777c is there a way to tell how many active CCs are on a chain? We have a few CCs active on Hush mainnet, but I have no idea if they are being used at all
+
+
+[21-Nov-19 05:55 AM] dukeleto#7326
+specifically, is there a way I can tell if there are Heir CCs existing on Hush mainnet?
+
+
+[21-Nov-19 05:56 AM] dukeleto#7326
+it seems that a node could keep track of this, but might not be doing this currently
+
+
+[21-Nov-19 05:57 AM] jl777c#5810
+would need to scan all CC tx
+
+
+[21-Nov-19 05:58 AM] dimxy#2587
+the heir cc fix is fully compatible with previous versions (its purpose is to fix broken rpc heirclaim, what seems occurred in merging, and removed txfee param from rpc as it was requested)
+
+
+[21-Nov-19 05:59 AM] dukeleto#7326
+@dimxy thanks for clarification
+
+
+[21-Nov-19 05:59 AM] dimxy#2587
+to check if heir txns exist you might call heirlist
+
+
+[21-Nov-19 06:00 AM] dukeleto#7326
+```
+$ ./hush-cli heirlist
+[
+]
+```
+
+
+[21-Nov-19 06:00 AM] dukeleto#7326
+that just shows my own, i imagine
+
+
+[21-Nov-19 06:00 AM] dukeleto#7326
+```
+$ ./hush-cli heirlist help
+error code: -1
+error message:
+heirlist
+```
+
+
+[21-Nov-19 06:00 AM] dukeleto#7326
+also, heirlist help could be filled out a bit 🙂
+
+
+[21-Nov-19 06:02 AM] dukeleto#7326
+@jl777c just like an addressindex, there could be a CCindex which the node stores data about CC xtns it sees during syncing, right? Not sure it's needed, but I am just trying to understand more. What if we wanted to show off how many CC's of teach type were being used in all smart chains, on a real-time-ish website ?
+
+
+[21-Nov-19 06:02 AM] jl777c#5810
+you could do a special rpc call that iterates through the DB with the CC flag set
+
+
+[21-Nov-19 06:03 AM] dukeleto#7326
+ok, that makes sense to my broken brain, which has fixed stuff at the DB layer
+
+
+[21-Nov-19 06:19 AM] jl777c#5810
+i think the snapshot rpc call is very close to what you want
+
+
+[21-Nov-19 06:19 AM] jl777c#5810
+it currently iterates through all the non-CC addresses
+
+
+[21-Nov-19 06:19 AM] jl777c#5810
+change the flag to get the CC addresses with non-zero balance. then by looking at the exact type of CC vout, you should be able to determine which CC it is for
+
+
+[21-Nov-19 09:16 AM] dukeleto#7326
+that sounds like a fun RPC to write, or maybe just an optional arg to the `getsnapshot` RPC, which I have some history with
+
+
+==============================================================
+Exported 279 message(s)
+==============================================================
