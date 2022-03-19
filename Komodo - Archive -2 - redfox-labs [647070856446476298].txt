@@ -1,0 +1,2883 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / redfox-labs
+==============================================================
+
+[21-Nov-19 06:46 AM] YaKorshun#1655
+hello, please my pool add from explorer
+
+
+[21-Nov-19 06:47 AM] YaKorshun#1655
+wallet: RCznAiWriFmhNyVxAK88a4pjJZZRdEZv3s
+url: http://mnshare.info
+hex: 6d6e73686172652e696e666f
+
+{Embed}
+http://mnshare.info
+MNSHARE Mining solo and pplns pool
+MNshare mining pool long, reosc. pplns and solo pool...
+https://images-ext-2.discordapp.net/external/jjV2Q_c1VqLZOqdEjF58gjxC1fiyKiyvg81gkmJPVQI/http/mnshare.info/img/mnshare-100-100.png
+
+
+[21-Nov-19 06:49 AM] ComputerGenie#7004
+🤔
+
+
+[21-Nov-19 07:26 AM] CHMEX#0686
+Added if I undersood correctly
+
+
+[28-Nov-19 06:59 PM] Tylor zkFS#8280
+🤔
+
+
+[28-Nov-19 07:47 PM] ComputerGenie#7004
+MNSHARE removed this coin as fast as they added it 😕
+
+
+[28-Nov-19 09:35 PM] CHMEX#0686
+Also all the others only hush is there atm
+
+
+[16-Dec-19 01:29 PM] Zagor#9032
+where did agama mobile wallet go?
+
+
+[16-Dec-19 01:29 PM] Zagor#9032
+it deleted from my mobile phone and i cannot find it in android market anymore, i had lots of redox coins in it
+
+
+[16-Dec-19 02:28 PM] Oszy#5734
+https://github.com/VerusCoin/Verus-Mobile/releases
+
+{Embed}
+https://github.com/VerusCoin/Verus-Mobile/releases
+VerusCoin/Verus-Mobile
+The iOS/Android Verus Mobile cryptocurrency wallet. - VerusCoin/Verus-Mobile
+https://images-ext-2.discordapp.net/external/ics999Prx3ZVXBmBBxXT-2M7Vz7hQRqCfv8JUX38JJs/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/38958958
+
+
+[16-Dec-19 09:54 PM] Zagor#9032
+so i put that secret words from agama wallet in it and it will work? @Oszy
+
+
+[16-Dec-19 11:02 PM] Oszy#5734
+yes
+
+
+[17-Dec-19 11:15 AM] ! zpool.ca | crackers#9719
+http://zpool.ca/ ⛏️ ⚒️
+
+Hi, 
+We've added RedFOX (RFOX) to http://zpool.ca/ equihash. See below for connection details.
+
+Fee only: 1.15% or less
+BTC payouts are processed once a day for balances above 0.0025
+Payouts for all other currencies are made automatically every 4 hours for balances above 0.05 and balances more than 0.0125 are included in one of the payouts each day.
+
+- Sample configurations -
+To mine and get paid in RFOX:
+```-a equihash -o stratum+tcp://equihash.mine.zpool.ca:2142 -u RFOX_ADDRESS -p c=RFOX,zap=RFOX``` 
+Exchange to BTC:
+```-a equihash -o stratum+tcp://equihash.mine.zpool.ca:2142 -u BTC_ADDRESS -p c=BTC```
+Exchange to BTC but mine only RFOX:
+```-a equihash -o stratum+tcp://equihash.mine.zpool.ca:2142 -u BTC_ADDRESS -p c=BTC,zap=RFOX```
+
+All of our ports are NiceHash friendly, no need to specify any extra details
+
+We also provide stratum servers in:
+Europe: `equihash.eu.mine.zpool.ca:2142`
+South East Asia: `equihash.sea.mine.zpool.ca:2142`
+Japan: `equihash.jp.mine.zpool.ca:2142`
+
+Need hashpower? zpool’s sister provides hash rental services: http://hashtap.ca/
+
+==============================
+
+Support: https://discord.gg/n45n6Jj 
+Twitter: https://twitter.com/_zpool_
+
+{Embed}
+http://zpool.ca/
+zpool - the miners multipool
+zpool: the miners multipool paying bitcoin for alt coins
+
+{Embed}
+https://twitter.com/_zpool_
+zpool (@_zpool_)
+http://zpool.ca - the miners multipool. Paying out BTC and 300+ altcoins.
+
+http://www.hashtap.ca - Exotic hash rentals and more
+Tweets
+3074
+Followers
+7843
+https://images-ext-1.discordapp.net/external/alx3w7u7HOFeMR_h5y3wwuRSg7f9n5GJXZ40gUJfFL4/https/pbs.twimg.com/profile_images/1082741210148569088/2R8gP2rx_normal.jpg
+Twitter
+
+{Reactions}
+🎉 (2) 😍 (2) 
+
+[17-Dec-19 12:08 PM] ComputerGenie#7004
+😕
+
+
+[17-Dec-19 02:24 PM] Tylor zkFS#8280
+not legit?
+
+{Reactions}
+🤔 
+
+[17-Dec-19 02:27 PM] ComputerGenie#7004
+the pool is a legit pool
+
+
+[17-Dec-19 02:27 PM] ComputerGenie#7004
+it's actually one of the 1st pools I mined in when I started mining
+
+
+[17-Dec-19 02:29 PM] ComputerGenie#7004
+I'm just confused as to "why now?" 8 months after most interest in it died down
+Was there an announcement for RFOX that I missed?
+
+
+[17-Dec-19 02:38 PM] Tylor zkFS#8280
+dont  know  -  I  did talk with  him/them on Linkd in  - he  said  they have  some  things  they  are  working  on  that is very cutting  edge with larger  corporations  -  they  do not use Discord  ATM
+
+
+[17-Dec-19 02:49 PM] Tylor zkFS#8280
+https://www.linkedin.com/in/bitcoinbenny/
+
+
+[18-Dec-19 03:31 PM] Mylo#8306
+Cashbak&reward app I read on twitter
+
+
+[18-Dec-19 06:28 PM] Tylor zkFS#8280
+https://redfoxlabs.io/redfox-labs-to-release-reward-and-cashback-app/
+
+
+[31-Dec-19 08:33 AM] j01059329821#9871
+Hi
+
+{Reactions}
+👋🏽 
+
+[08-Jan-20 03:09 AM] Mixic 🐬#3188
+https://twitter.com/RusKomodo/status/1214864245315325952?s=20
+
+{Embed}
+Komodo Platform RUS (@RusKomodo)
+https://twitter.com/RusKomodo/status/1214864245315325952?s=20
+✨RedFOX Labs Сегодня и Будущее…
+
+🌐Что представляет собой компания #RedFOXLabs сегодня и какие шаги предпринимаются для развития высоко технологического буд...
+https://images-ext-2.discordapp.net/external/K348wqKUQVYbRw6LSNgzd6pcVjMWFNHEYXYblhSwn4E/https/pbs.twimg.com/media/ENwQlIrXsAIVK9Y.png%3Alarge
+Twitter
+
+
+[10-Feb-20 10:29 PM] Machgielis#2406
+The wait is finally over! We're now accepting registrations for KOGS at https://t.co/WM4FS9j5H8 
+
+By registering now, you will be given a s tarter pack of limited first edition KOGS which are unavailable through a public sale.
+
+{Embed}
+https://t.co/WM4FS9j5H8
+KOGS.gg
+KOGS is a mobile-friendly blockchain game with 100% of its backend on the blockchain. Collect rare KOGs, complete sets, and win awesome prizes!
+
+
+[10-Feb-20 10:30 PM] Machgielis#2406
+No noise for this?
+
+
+[11-Feb-20 12:48 AM] scubapanda#2485
+Sign up to fill a KYC form? Would be fair to state the requirements in advance.
+
+
+[11-Feb-20 04:25 AM] Machgielis#2406
+I think theyre trying to get exposure for komodo. Seems you need to do this stuff to be legit these days. Fair point though.
+
+
+[13-Feb-20 11:59 PM] Mixic 🐬#3188
+https://twitter.com/RusKomodo/status/1228225876627640320?s=19
+
+
+[08-Jul-20 11:10 AM] FtrSaroth#2069
+https://twitter.com/pepe_designer/status/1280879013746085888
+
+{Embed}
+Rare Designer (@pepe_designer)
+https://twitter.com/pepe_designer/status/1280879013746085888
+WOW!🎉🤩
+
+I am excited to announce that I will be working with the  @KOGS_GG project, and work alongside @Arclegger🤯
+
+Soon, a series of NFTs dedicated to Cyberpunk / Darkwave.🔥💀
+
+more info: https://t.co/aQAp6jkfgF
+
+#cryptoart #NFTs #Venture #Blockchain #Builder #NFTCollection
+https://images-ext-1.discordapp.net/external/CNXfJyDapsb146Kd0j8jzSzQjDgAcGggFu9eebKWGSs/https/pbs.twimg.com/media/EcaYCCDWsAAPcAF.jpg%3Alarge
+Twitter
+
+{Reactions}
+👍 (5) 
+
+[13-Oct-20 08:23 PM] jspook16#3059
+any updates on RedFox?
+
+
+[13-Oct-20 11:38 PM] Deltazulu#2710
+https://discordapp.com/channels/412898016371015680/428673045767520260/765189614805057536
+
+
+[15-Oct-20 03:18 AM] Catalyst#8405
+guys is the wallet under maintenance on the https://p2pb2b.io/ web? and any time line when it be back to normal?
+
+
+[15-Oct-20 03:19 AM] Catalyst#8405
+i am well aware the my Redfox's are gone as they are telling me to do kyc if i want to 
+ withdraw them  😢
+
+
+[15-Oct-20 03:41 AM] Catalyst#8405
+another revelation a few months back i used to trade on the said exchange. now wallet is down and when i try to do KYC it says my country is not allowed. WTAF
+
+
+[15-Oct-20 04:28 AM] cipi#4502
+same here... sent RFOX to p2pb2b, but can't withdraw them because of KYC... these are the kind of shady exchanges that let you send the coins, but not withdrawing them... another one is coineal... lost RFOX there too... i guess they will stay there till the end of time
+
+
+[15-Oct-20 07:18 PM] jspook16#3059
+I have rfox in mobile wallet. Do i need to do anything for the snapshot or post snapshot?
+
+
+[16-Oct-20 07:40 AM] Catalyst#8405
+@jspook16  Snapshot had happened i guess and the airdrop is on 25th of this  month. I  think you're safe as you have yours on wallet but the same can't be said about exchanges.
+
+
+[16-Oct-20 12:05 PM] jspook16#3059
+@Catalyst thanks for the info
+
+
+[16-Oct-20 02:46 PM] Tylor zkFS#8280
+> same here... sent RFOX to p2pb2b, but can't withdraw them because of KYC... these are the kind of shady exchanges that let you send the coins, but not withdrawing them... another one is coineal... lost RFOX there too... i guess they will stay there till the end of time
+@cipi  - have someone else move them for you??
+
+
+[16-Oct-20 02:58 PM] cipi#4502
+you mean sell my login credentials? hmmm....
+
+
+[16-Oct-20 03:04 PM] Catalyst#8405
+> @cipi  - have someone else move them for you??
+@Tylor zkFS and how do you suggest one do that?
+
+
+[16-Oct-20 03:06 PM] cipi#4502
+maybe
+1. find a buyer
+2. buyer tells his mail address
+3. i change mail address in CEX to his
+4. i send him login credentials, including 2fa
+
+
+[16-Oct-20 03:07 PM] cipi#4502
+but buyer would need to do KYC to withdraw the RFOX from there
+
+
+[16-Oct-20 03:10 PM] cipi#4502
+btw, it's 11000 RFOX on p2pb2b and 5000 RFOX on coineal
+
+
+[16-Oct-20 03:17 PM] cipi#4502
+will sell for 70% of latest price from https://www.coingecko.com/en/coins/redfox-labs 🙂
+
+
+[16-Oct-20 03:34 PM] Tylor zkFS#8280
+create fake mail address - spoof IP and Geolocation? do it yourself?
+
+
+[16-Oct-20 03:34 PM] Tylor zkFS#8280
+i dont know -- thought you had friends
+
+
+[16-Oct-20 04:54 PM] cipi#4502
+not enough, you need KYC to withdraw
+using tor anyway
+
+
+[19-Oct-20 10:08 AM] jspook16#3059
+I traded some kmd for rfox oct 12 on mobile dex. I didn't realize this might be an issue. Am I out of luck?
+
+
+[20-Oct-20 05:54 PM] jspook16#3059
+Well i think im shafted. It was significant trade for me too..
+
+
+[20-Oct-20 10:35 PM] banksy35#0477
+Hi jspook16 if you watch this video, Bitcoin Benny mention's the snapshot had been taken on the the 12th.  If I understand correctly, you bought rfox on AtomicDex after the snapshot and I don't blame you if you did as how would you know if you didn't see this video?  I also noticed in AtomicDEX some trader's were selling red fox cheap after the snapshot.  I think you should contact red fox and explain what happened. I feel sorry for you and I to have been shafted many times in life, not only in the crypto world.
+
+
+[20-Oct-20 10:35 PM] banksy35#0477
+https://www.youtube.com/watch?v=IYnglxDrnkk
+
+{Embed}
+RedFOX Labs
+https://www.youtube.com/watch?v=IYnglxDrnkk
+RedFOX Labs | RFOX Swap Announcement | 2020
+ATTENTION all $RFOX holders. A snapshot has taken place for upcoming swap. Please watch the video below for further details. The swap will take place on the 25th of October on https://www.liquid.com/ for those off-exchange we have a solution thanks to https://veruscoin.io/
+
+Pl...
+https://images-ext-2.discordapp.net/external/Jts5GUMV5yGffUwkcFrP7uLKpENJP8BMf-AyE1HJ3Gs/https/i.ytimg.com/vi/IYnglxDrnkk/maxresdefault.jpg
+
+
+[21-Oct-20 02:29 AM] ca333#0333
+I am certain Benny/RFOX will accept and honour your swap @jspook16 - just contact them and explain situation. And if he/RFOX do not accept which i do not expect, please do let me know instantly and i will take care of it personally.
+
+{Reactions}
+3040_kingpeepo (2) 
+
+[21-Oct-20 03:16 AM] Oszy#5734
+Yes, talk to Benny, i am in the same boat, was away and someone dumped it on me after the snapshot.
+
+
+[21-Oct-20 05:32 AM] jspook16#3059
+Thank you guys. I am in contact with @BitcoinBenny now
+
+
+[25-Oct-20 11:35 AM] P.Washington#7860
+hello I have rfox on atomicdex, I have had for a few months   anyone info on what i should do to claim?
+
+
+[25-Oct-20 12:49 PM] Oszy#5734
+https://www.redfoxlabs.io/rfox
+@P.Washington you can claim in verus mobile wallet
+
+
+[25-Oct-20 01:51 PM] RNI#2666
+why isn't rfox in the "add coin" list?
+wanted to use that claim button but rfox is not available
+
+
+[25-Oct-20 01:52 PM] RNI#2666
+on verus mobile wallet
+
+
+[25-Oct-20 01:52 PM] Oszy#5734
+need the latest (released 3 days ago)  . are you on android or ios?
+
+
+[25-Oct-20 01:55 PM] RNI#2666
+hi. downloaded latest version
+
+
+[25-Oct-20 01:55 PM] RNI#2666
+android
+
+
+[25-Oct-20 01:57 PM] Oszy#5734
+should be there then. i have iOS but i was able to add RFOX and i see the new ERC20 address
+
+
+[25-Oct-20 02:06 PM] RNI#2666
+you are right. i downlaoded the wrong version. but now my rfox balance shows 0
+
+
+[25-Oct-20 02:57 PM] Ldot#0681
+Hi.. i currently have my RFOX stored on my Agama Wallet, will this affect me negatively in relation to the snapshot???
+
+
+[25-Oct-20 03:40 PM] Oszy#5734
+> you are right. i downlaoded the wrong version. but now my rfox balance shows 0
+@RNI  hit send then claim
+
+
+[25-Oct-20 03:40 PM] Oszy#5734
+> Hi.. i currently have my RFOX stored on my Agama Wallet, will this affect me negatively in relation to the snapshot???
+@Ldot  snapshot was done long ago
+
+
+[25-Oct-20 04:57 PM] daemonfox#6136
+im gonna have to say...
+
+
+[25-Oct-20 04:57 PM] daemonfox#6136
+ETH fees to CLAIM is bullshit
+
+
+[25-Oct-20 04:58 PM] Tylor zkFS#8280
+You need to export the seed/wif somehow if its in
+
+
+[25-Oct-20 04:58 PM] Tylor zkFS#8280
+A regular wallet with no seed @Oszy
+
+
+[25-Oct-20 04:59 PM] Tylor zkFS#8280
+Umm -- something like that
+
+
+[25-Oct-20 04:59 PM] daemonfox#6136
+AGAMA and aDEX mobile support showing you your passphrase words
+
+
+[25-Oct-20 04:59 PM] daemonfox#6136
+Using them in the new Verus mobile imports that same address and all funds attached to it
+
+
+[25-Oct-20 05:00 PM] daemonfox#6136
+Same with a WIF
+
+
+[25-Oct-20 05:00 PM] daemonfox#6136
+Both work fine
+
+
+[25-Oct-20 05:01 PM] Tylor zkFS#8280
+How much was the eth fee?
+
+
+[25-Oct-20 05:01 PM] Tylor zkFS#8280
+I didn't calculate
+
+
+[25-Oct-20 05:01 PM] daemonfox#6136
+0.001518
+
+
+[25-Oct-20 05:01 PM] Tylor zkFS#8280
+Per transaction?
+
+
+[25-Oct-20 05:01 PM] daemonfox#6136
+per claim id expect yes
+
+
+[25-Oct-20 05:01 PM] daemonfox#6136
+Each claimant is apparently responsible to foot their own claim fees
+
+
+[25-Oct-20 05:02 PM] Tylor zkFS#8280
+.065 dollar
+
+
+[25-Oct-20 05:03 PM] Tylor zkFS#8280
+.062
+
+
+[25-Oct-20 05:03 PM] daemonfox#6136
+one less zero there
+
+
+[25-Oct-20 05:03 PM] Tylor zkFS#8280
+62 cents?
+
+
+[25-Oct-20 05:04 PM] daemonfox#6136
+yes
+
+
+[25-Oct-20 05:04 PM] daemonfox#6136
+but thats not my issue
+
+
+[25-Oct-20 05:04 PM] daemonfox#6136
+my issues is the 62 or more cents to SEND eth to this wallet in the first palce
+
+
+[25-Oct-20 05:04 PM] Tylor zkFS#8280
+Who gets it?
+
+
+[25-Oct-20 05:04 PM] daemonfox#6136
+Miners
+
+
+[25-Oct-20 05:04 PM] daemonfox#6136
+its just the fee
+
+
+[25-Oct-20 05:04 PM] daemonfox#6136
+but then I pay the claim fee too
+
+
+[25-Oct-20 05:04 PM] daemonfox#6136
+and then to move them out of the wallet... another fee
+
+
+[25-Oct-20 05:04 PM] daemonfox#6136
+BS
+
+
+[25-Oct-20 05:05 PM] Tylor zkFS#8280
+Hopefully it quadruples in price
+
+
+[25-Oct-20 05:05 PM] phm87#7395
+few weeks ago, fees were higher on Eth, around 20$ to move some ethereum and about 200$ to interract with smart contacts (claim earned coins from LP e.g.)
+
+
+[25-Oct-20 05:06 PM] alkimi#1111
+That's common with most contacts, otherwise the contract has to figure out where to get all that monies and keep track, then if the price drops it'll need a massive fund to cover that
+
+
+[25-Oct-20 05:06 PM] daemonfox#6136
+yes i cleaned up with my 1080tis and Radeons
+
+
+[25-Oct-20 05:07 PM] alkimi#1111
+But yeah, the fees are nuts, surely there's a solution
+
+
+[25-Oct-20 05:07 PM] daemonfox#6136
+Nope
+
+
+[25-Oct-20 05:07 PM] daemonfox#6136
+They chose to move to ETH
+
+
+[25-Oct-20 05:07 PM] daemonfox#6136
+knowing damn well the TPS isnt there
+
+
+[25-Oct-20 05:07 PM] daemonfox#6136
+and the fees skyrocketing were
+
+
+[25-Oct-20 05:07 PM] daemonfox#6136
+I wish them the best but these RFOX may just rot
+
+
+[25-Oct-20 05:08 PM] Tylor zkFS#8280
+Better for NFTs?
+
+
+[25-Oct-20 05:08 PM] daemonfox#6136
+as in mine lol
+
+
+[25-Oct-20 05:08 PM] daemonfox#6136
+The only thing better on ETH is user adoption and end user tools being a bit more polished, friendly and documented
+
+
+[25-Oct-20 05:14 PM] alkimi#1111
+We watched it evolve from nothing in no time, that can happen again easily, if there's adoption, but it's like trying to create a global YouTube phenomenon on purpose. Who knows what will drive the masses to give up whatever came first, it's kinda inevitable tho
+
+
+[25-Oct-20 05:18 PM] actionslacks#4072
+It's a good thing I still have some eth after all these years or I couldn't even move these. This bs combined with the fact that I have to wait hours to btc around rn shows me that none of the "crypto luminaries" are interested in enabling actual usage. what a fucking joke.
+
+
+[25-Oct-20 05:19 PM] daemonfox#6136
+I mean... other than ETH and BTC swaps... aDEX on KMD chains has been as slick as can be
+
+{Reactions}
+👍 (2) 
+
+[25-Oct-20 05:20 PM] Tylor zkFS#8280
+I feel like I am in group therapy
+
+
+[25-Oct-20 05:20 PM] daemonfox#6136
+If some ot these "founders" would stop being snobs and add jl's code...
+
+
+[25-Oct-20 05:21 PM] daemonfox#6136
+BTC and ETH would have gotten over some of this BS by now
+
+
+[25-Oct-20 05:23 PM] Tylor zkFS#8280
+@actionslacks  wants to help build that thing @daemonfox -- figure out how to pay DEVs soon please
+
+
+[25-Oct-20 05:24 PM] daemonfox#6136
+lol
+
+
+[25-Oct-20 05:26 PM] actionslacks#4072
+any noob coming into crypto now is gonna wait an hour for their btc and pay fees on eth transfers that would make western union blush. feels like general priorities are misallocated
+
+
+[25-Oct-20 05:27 PM] alkimi#1111
+money talks, bull💩  walks
+they're like zombies, totally unaware of any other course of action, so getting the mainstream to go where you want, without needing more capital than everyone else, is going to be a weird game that will be reminiscent of the old familiar banking game
+
+
+[25-Oct-20 05:28 PM] alkimi#1111
+seems like at least half the population actually believes that the most profitable course of action must also somehow be the best and most fair
+
+
+[25-Oct-20 05:29 PM] daemonfox#6136
+That last part...
+
+
+[25-Oct-20 05:29 PM] daemonfox#6136
+Thats called Rugged capitalism
+
+
+[25-Oct-20 05:29 PM] daemonfox#6136
+Where how much money something generates is more important than any other impacts
+
+
+[25-Oct-20 05:31 PM] actionslacks#4072
+banks aren't capitalism. maybe in the wild west they were. banks are full on stalin flavored communism now
+
+
+[25-Oct-20 05:31 PM] daemonfox#6136
+You mean Corporate Welfare?
+
+
+[25-Oct-20 05:31 PM] daemonfox#6136
+nah
+
+
+[25-Oct-20 05:31 PM] daemonfox#6136
+lol
+
+
+[25-Oct-20 05:32 PM] daemonfox#6136
+We just about to bail out airlines aAGIN ove rhere...
+
+
+[25-Oct-20 05:32 PM] actionslacks#4072
+at least crypto has forced them to compete somewhat. I can transfer money to my friends with my phone now
+
+
+[25-Oct-20 05:32 PM] daemonfox#6136
+but squabbling over giving citizens some pocket change while force unemployed
+
+
+[25-Oct-20 05:33 PM] daemonfox#6136
+Canada has had instant email money transfers for some time now
+
+
+[25-Oct-20 05:33 PM] daemonfox#6136
+Sad
+
+
+[25-Oct-20 05:34 PM] actionslacks#4072
+I wonder if venmo and the like use blockchains. seems like they didn't come out until after bitcoin.
+
+
+[25-Oct-20 05:36 PM] actionslacks#4072
+if they do, they sure as hell aren't telling anyone.
+
+
+[25-Oct-20 05:49 PM] Tylor zkFS#8280
+I still have my old redfox in my old wallet
+
+
+[25-Oct-20 05:50 PM] Tylor zkFS#8280
+Can I send to another address and claim again?
+
+{Reactions}
+troll_hmm 
+
+[25-Oct-20 05:50 PM] Tylor zkFS#8280
+🤔
+
+
+[25-Oct-20 07:17 PM] alkimi#1111
+America is just realizing that we're just realizing that what we've been calling progress and small victories has merely been our government tossing us a little taste of what everyone else has already had for awhile, we're in a bit of a shock right now but eventually we'll forget our 'super-power' delusion and then figure out how to join the real fight
+
+
+[25-Oct-20 08:31 PM] actionslacks#4072
+America is the apple of the globalist' eye. For a reason.
+
+
+[25-Oct-20 08:40 PM] actionslacks#4072
+The sooner you can subvert the constitution, New World Order
+
+
+[25-Oct-20 08:41 PM] actionslacks#4072
+There is no free speech in the EU, And there are no guns... Redfox rules.
+
+
+[25-Oct-20 09:29 PM] BlackJesus#6161
+Yeah, so to claim your redfox you need eth in your wallet for the send button to light up?
+
+
+[25-Oct-20 09:41 PM] BlackJesus#6161
+That was not the case
+
+
+[25-Oct-20 10:00 PM] BlackJesus#6161
+mobile worked
+
+
+[25-Oct-20 10:00 PM] BlackJesus#6161
+desktop does not.
+
+
+[25-Oct-20 11:32 PM] RNI#2666
+my rfox balance shows 0 rfox in verus mobile but dexstats shows right amount...
+
+
+[26-Oct-20 01:19 AM] actionslacks#4072
+Well they cant pinpoint your location if you're not pinging a mobile device, silly.
+
+
+[26-Oct-20 01:21 AM] actionslacks#4072
+I'll claim in desktop gui if available. gas fees are retarded. sorry no one rolled out the red carpet for rfox but wtf. Wax is a fucking erc-20 joke
+
+
+[26-Oct-20 01:24 AM] actionslacks#4072
+also fuck everyone
+
+
+[26-Oct-20 01:24 AM] actionslacks#4072
+and I love you all
+
+
+[26-Oct-20 01:27 AM] actionslacks#4072
+And I cant wait to mega dump bags on everyone. Been waiting so long
+
+
+[26-Oct-20 03:04 AM] Cryptoon#3362
+they litterally said the reason for a switch of rfox to erc20 was to tap into the liquidity
+
+
+[26-Oct-20 03:04 AM] Cryptoon#3362
+I really think the main reason is to dump on uniswap rtards
+
+
+[26-Oct-20 03:05 AM] Cryptoon#3362
+easier to dump a couple million on noobs when there is more liquidity then when there is just 100k volume a day
+
+
+[26-Oct-20 03:40 AM] Deleted User#0000
+So you think rfox is scam?
+
+
+[26-Oct-20 03:46 AM] jansako#3330
+You do not have to be a scam to want to raise money or cash out some... I do not know the distribution so it could be either or both.
+
+
+[26-Oct-20 03:47 AM] jansako#3330
+Otherwise all companies that go public would be scams 🙂
+
+
+[26-Oct-20 04:21 AM] Tylor zkFS#8280
+hit send @RNI
+
+
+[26-Oct-20 04:48 AM] Cryptoon#3362
+I think the real reason for switching to erc20 isnt the one they are claiming it to be
+
+
+[26-Oct-20 06:03 AM] BitcoinBenny#4908
+> And I cant wait to mega dump bags on everyone. Been waiting so long
+@actionslacks Happy to buy your 'bags' from you. @Cryptoon I'm sure you have a very informed opinion based on, and substantiated through data, and meticulous research, being an active member of the community and following so closely. Would love to hear your theory.
+
+
+[26-Oct-20 07:16 AM] Cryptoon#3362
+as you are already funded, then what other reasons are there to NEED more liquidity in this part of the startup?
+
+
+[26-Oct-20 07:28 AM] BitcoinBenny#4908
+This is why you struggle so much. The liquidity isnt for us, its for the holders. My 8 year old son understands this. Priceless that you think its for the project though. I would say and to quote yourself....
+
+
+[26-Oct-20 07:29 AM] BitcoinBenny#4908
+"Please dont spread blatant misinformation"
+
+
+[26-Oct-20 07:29 AM] Cryptoon#3362
+Why would you think I struggle?
+
+
+[26-Oct-20 07:29 AM] BitcoinBenny#4908
+Read above
+
+
+[26-Oct-20 07:30 AM] BitcoinBenny#4908
+Read your whole conversation. Your opinions, your statements. Its pretty embarassing
+
+
+[26-Oct-20 07:30 AM] Cryptoon#3362
+Ok then, if that is your opinion...
+
+
+[26-Oct-20 07:30 AM] Cryptoon#3362
+Not really sure how that answers the question why holders would need liquidity in this part of the startup
+
+
+[26-Oct-20 07:31 AM] Cryptoon#3362
+let's compare it to a listed company in startup phase, or even pre-ipo
+
+
+[26-Oct-20 07:31 AM] Cryptoon#3362
+pre-ipo shareholders dont give a damn about liquidity as they know project is still being built and dont want to, nor do they expect to exit any time soon
+
+
+[26-Oct-20 07:31 AM] Cryptoon#3362
+in this stage the shares are as illiquid as they come
+
+
+[26-Oct-20 07:32 AM] Cryptoon#3362
+later after ipo, and usually after the company produced something the need for more liquidity comes as some of the vested shareholders might want to liquidate some of their holdings
+
+
+[26-Oct-20 07:32 AM] Cryptoon#3362
+but imo, rfox isnt in that stage yet?
+
+
+[26-Oct-20 07:33 AM] Cryptoon#3362
+so dont really understand why holders would want to/nor need to divest already before meaningfull achievements/cashflow have been made/realized
+
+
+[26-Oct-20 07:34 AM] BitcoinBenny#4908
+You need to read about our model. Study the meaning of liquidity and then lets talk again.
+
+
+[26-Oct-20 07:37 AM] BitcoinBenny#4908
+Also token holders arent shareholders.... actually i have to go back way too far to even start this conversation. The above statements, strong opinions and then explaining you dont understand means its pointless. You are free to think what you like. Spread misinformation despite personally warning others not to do it and just watch from a far distance as I assume you have been doing. I will let the actions speak.
+
+
+[26-Oct-20 07:38 AM] Cryptoon#3362
+in the sense of the investing part are token holders/ shareholders very comparable
+
+
+[26-Oct-20 07:53 AM] BitcoinBenny#4908
+No. Not in the slightest.
+
+
+[26-Oct-20 07:57 AM] BitcoinBenny#4908
+https://celebrusadvisory.com/the-read-difference-between-shares-and-tokens/
+
+
+[26-Oct-20 07:57 AM] BitcoinBenny#4908
+The chart here is a good start in understanding the differences
+
+
+[26-Oct-20 08:00 AM] daemonfox#6136
+> This is why you struggle so much. The liquidity isnt for us, its for the holders. My 8 year old son understands this. Priceless that you think its for the project though. I would say and to quote yourself....
+@BitcoinBenny please have your 8 yr old explain why users needed the liquidity?
+
+
+[26-Oct-20 08:00 AM] daemonfox#6136
+Its a choice to exchange not a need...
+
+
+[26-Oct-20 08:01 AM] daemonfox#6136
+So im still stuck on why those of us who didnt need liquidity still have to fork over ETH to claim
+
+
+[26-Oct-20 08:01 AM] daemonfox#6136
+Thats a problem
+
+
+[26-Oct-20 08:03 AM] daemonfox#6136
+I mined my coins on RFOX, didn;t exchange anything for them
+
+
+[26-Oct-20 08:09 AM] BitcoinBenny#4908
+https://www.google.com/amp/s/cointelegraph.com/news/if-blockchain-is-the-door-to-the-future-of-finance-liquidity-is-the-key/amp
+
+{Embed}
+https://www.google.com/amp/s/cointelegraph.com/news/if-blockchain-is-the-door-to-the-future-of-finance-liquidity-is-the-key/amp
+If Blockchain Is the Door to the Future of Finance, Liquidity Is th...
+Liquidity should be seen as the primary indicator of the overall health of markets and exchanges — and also as a crucial factor for economic trading
+https://images-ext-1.discordapp.net/external/AK3CcgdA0XmLyxtFMY-oUnCnsF6SCP_zipCWDiq266I/https/s3.cointelegraph.com/storage/uploads/view/63458290276b1884ba8dad99a7ccfecf.jpg
+
+
+[26-Oct-20 08:12 AM] BitcoinBenny#4908
+Here is a good start re liquidity. The single biggest complaint so far from tokenholders is a lack of liquidity, brought about by access, exposure and integration.
+
+
+[26-Oct-20 08:13 AM] BitcoinBenny#4908
+Again, the chart above explains the key differences.
+
+
+[26-Oct-20 08:16 AM] BitcoinBenny#4908
+Without liquidity projects cant survive and tokenholders lose out. We have proven that and rectified it.
+
+
+[26-Oct-20 08:43 AM] jansako#3330
+Having available liquidity creates the potential for large (non-fake) volumes which increases exposure and also allows people exposed to the project to buy some which leads to more exposure, more volumes etc. etc. A self-propagating spiral if ~~handled~~ supported correctly by the marketing and even better if backed up by a real useful product (in the broadest sense of the word)
+
+
+[26-Oct-20 09:10 AM] BitcoinBenny#4908
+We have KOGs and the game is nearing completion now and all set for a december release. Our ecommerce streaming app has been ready for a while now but we need to focus on the gaming release first. We also have the virtual spaces and some bigger partnerships to roll out. So we can definitely showcase products
+
+
+[26-Oct-20 09:33 AM] daemonfox#6136
+> Without liquidity projects cant survive and tokenholders lose out. We have proven that and rectified it.
+@BitcoinBenny I dont think this means what you think it means...
+
+
+[26-Oct-20 09:36 AM] daemonfox#6136
+You moved from an independent chain of miners to a token of a mined chain. It seems a trade for ease of access for a loss of choice.
+
+
+[26-Oct-20 09:38 AM] daemonfox#6136
+You weren't a token until today...
+
+
+[26-Oct-20 09:38 AM] BitcoinBenny#4908
+> You moved from an independent chain of miners to a token of a mined chain. It seems a trade for ease of access for a loss of choice.
+@daemonfox it may not be what it seems.
+
+
+[26-Oct-20 09:39 AM] BitcoinBenny#4908
+> You weren't a token until today...
+@daemonfox yes. Fully understand the difference
+
+
+[26-Oct-20 09:41 AM] daemonfox#6136
+It's just unfortunate... the cost of a platform migration should have been solely on RFOX not its end users.
+
+
+[26-Oct-20 02:17 PM] Ldot#0681
+Hi All, Can RFOX be moved from the Verus Wallet into the ledger Nano X?
+
+
+[26-Oct-20 03:00 PM] Cryptosaurus | $ARRR#2742
+No claim button is showing on mobile wallet for me.. Do I miss something ?
+
+
+[26-Oct-20 03:50 PM] bishop#9773
+What version wallet are you using?
+
+
+[26-Oct-20 04:20 PM] Tylor zkFS#8280
+Update - press send
+
+
+[26-Oct-20 10:15 PM] Cryptosaurus | $ARRR#2742
+0.2.0-beta
+
+The send button just stays "send"
+
+
+[27-Oct-20 12:57 AM] Oszy#5734
+You will only see that claim button if you had RFOX in your same wallet prior the snapshot.
+
+
+[27-Oct-20 01:56 AM] Ldot#0681
+Does anyone know if RFOX can be moved from the Verus Wallet into the ledger Nano X?
+
+
+[27-Oct-20 02:10 AM] jansako#3330
+First you have to claim it through Verus Mobile. Once you do, you can move it. I used to use MEW (My Ether Wallet) for these custom tokens, it unlocks with your Ledger Nano...
+
+
+[27-Oct-20 11:32 AM] Cryptosaurus | $ARRR#2742
+> You will only see that claim button if you had RFOX in your same wallet prior the snapshot.
+@Oszy 
+
+I had some small amount, not touched since september..
+
+
+[27-Oct-20 11:32 AM] Cryptosaurus | $ARRR#2742
+*have, it is still showing in my wallet
+
+
+[27-Oct-20 11:35 AM] Cryptosaurus | $ARRR#2742
+Is there maybe a minimum amout for the swap?
+
+
+[27-Oct-20 11:58 AM] Oszy#5734
+I heard 1000 somewhere
+
+
+[27-Oct-20 12:45 PM] jansako#3330
+1000 'new' or 'old'?
+
+
+[27-Oct-20 01:53 PM] Oszy#5734
+Dont know :/
+
+
+[27-Oct-20 10:38 PM] BitcoinBenny#4908
+We lowered it down to 100 of the old. You need the latest Verus mobile and go to send. OR wait for the desktop wallet
+
+
+[28-Oct-20 02:28 AM] BitcoinBenny#4908
+@Oszy @jspook16 check DMs
+
+{Reactions}
+👍🏻 (2) 💯 (2) 
+
+[28-Oct-20 02:35 AM] jansako#3330
+@BitcoinBenny did you ping the wrong person (jspook)? Just checking...
+
+
+[28-Oct-20 08:07 AM] BitcoinBenny#4908
+no. Right person. Thanks for checking though
+
+
+[28-Oct-20 09:52 AM] coolermaster#4963
+What happened to RFOX recently? I have had 340 appear in an exchange I had forgotten I was even signed up 2 why is this?
+
+
+[28-Oct-20 10:48 AM] jansako#3330
+switched to ERC-20 & issued tokens x10
+
+
+[28-Oct-20 01:07 PM] coolermaster#4963
+thanks for the reply @jansako does that affect block reward also?
+
+
+[28-Oct-20 01:18 PM] jansako#3330
+Yeah, it is now an ERC-token, no idea if/how those are mined, but for sure not on the KMD chain. Leave that one die...
+
+
+[28-Oct-20 01:19 PM] coolermaster#4963
+so no longer equihash algo? someone is mining old chain if this is the case lol
+
+
+[28-Oct-20 01:21 PM] coolermaster#4963
+so many coins hard to keep up with them all
+
+
+[28-Oct-20 01:33 PM] Cryptosaurus | $ARRR#2742
+@BitcoinBenny why 100? I have an adress with 92 🙂 i think a lot of small amounts wander around..
+
+
+[30-Oct-20 03:44 AM] coolermaster#4963
+so any rfox in atomic dex wallet is now useless???
+
+
+[30-Oct-20 03:45 AM] coolermaster#4963
+shame they jumped ship for eth! i hate eth!
+
+
+[30-Oct-20 03:50 AM] cipi#4502
+https://blockchair.com/ethereum
+`Average transaction fee: $1.85` in the last 24h... contract calls will likely cost more... and the txfees are nearly at the lowest level in the last 3 months
+
+
+[30-Oct-20 03:52 AM] coolermaster#4963
+money grabbing! eth sucks! btc cheaper lol
+
+
+[30-Oct-20 03:53 AM] cipi#4502
+unfortunately BTC is even more expensive atm, `Average transaction fee: $12.24`
+
+
+[30-Oct-20 03:55 AM] coolermaster#4963
+wow wtf? and still alts at major lows...... must be their time soon???
+
+
+[30-Oct-20 03:55 AM] cipi#4502
+that's why we have KMD assetchains... txfee ~ 0 🙂
+
+
+[30-Oct-20 03:57 AM] coolermaster#4963
+will this thread get deleted as rfox left you for eth? lol
+
+
+[30-Oct-20 03:57 AM] coolermaster#4963
+kick in the balls for kmd
+
+
+[30-Oct-20 04:07 AM] Oszy#5734
+🤔
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/771691626112221184/screenshot-info.uniswap.org-2020.10.30-11_06_44.png
+
+
+[30-Oct-20 01:57 PM] jansako#3330
+Not much else to do with our new RedFox unless you want to KYC...
+
+
+[30-Oct-20 02:03 PM] Oszy#5734
+Uniswap doesnt need kyc
+
+
+[01-Nov-20 05:29 AM] coolermaster#4963
+So i have some rfox on atomic dex wallet but the address from the exchange is not recognized, is this a wallet or exchange problem or somehing to do with the swap??
+
+
+[01-Nov-20 06:05 AM] Oszy#5734
+It’s two completely different protocols now.
+
+
+[01-Nov-20 10:54 AM] coolermaster#4963
+Makes no sense
+
+
+[01-Nov-20 10:55 AM] coolermaster#4963
+Why??
+
+
+[01-Nov-20 10:56 AM] coolermaster#4963
+So what can i do with rfox in dex wallet?????
+
+
+[01-Nov-20 10:56 AM] coolermaster#4963
+Why can i see people still mining it??
+
+
+[01-Nov-20 11:01 AM] coolermaster#4963
+Nevermind swapped it all out for sweet fa bit better than this shit coin
+
+
+[01-Nov-20 11:39 AM] alkimi#1111
+Served its purpose then, yes?
+
+
+[01-Nov-20 11:42 AM] alkimi#1111
+So is atomic dex just another dex now? No longer supporting any komodo chains? Because they're going for kyc to appease those... 'strict' ***cough*** countries?
+
+
+[01-Nov-20 08:52 PM] gcharang#6833
+> No longer supporting any komodo chains?
+atomicdex supports komodo smart chains. but rfox migrated their coins to erc20 tokens
+
+
+[01-Nov-20 10:18 PM] alkimi#1111
+oh okay, roger that. Thought I was missing something
+
+
+[19-Feb-21 12:04 AM] ph03nix#3115
+:komodopog:
+
+{Reactions}
+komodopog (2) 
+
+[19-Feb-21 12:54 AM] Cryptoon#3362
+Bump
+
+
+[19-Feb-21 12:54 AM] Cryptoon#3362
+Why doesnt it work for all adresses?
+
+
+[19-Feb-21 12:56 AM] Cryptoon#3362
+Boom
+
+{Reactions}
+☝️ Check 
+
+[19-Feb-21 12:56 AM] Cryptoon#3362
+Struggling so much
+
+
+[19-Feb-21 12:23 PM] jspook16#3059
+What has happened?!
+
+
+[19-Feb-21 12:27 PM] actionslacks#4072
+shit got real, bennie zuck'd jl
+
+
+[19-Feb-21 12:28 PM] actionslacks#4072
+out of a few mil worth of rfox
+
+
+[19-Feb-21 02:01 PM] grewalsatinder#9653
+that's good anology, zuckerberg'd
+
+
+[19-Feb-21 02:06 PM] tolken#2655
+Keep in mind, the swap wasn’t to everyone. The criteria was simple though, anything above a certain amount of rfox, which the addresses in question obviously fall within that margin. So this analysis/comparison of course needs to filters appropriately.
+
+
+[19-Feb-21 02:07 PM] Chadwinc#0075
+He purposefully left out those addresses. That’s the shocking part.
+
+
+[19-Feb-21 02:09 PM] tolken#2655
+Benny’s response is bullshit though - if those funds weren’t Komodos or, ‘dev’ funds that Rfox controlled, why would they omit them? Or, they could have burned the funds before hand. There’s just no reason to do that. If there was a legitimate reason to exclude those addresses, it would be an easy explanation.
+
+
+[19-Feb-21 02:10 PM] Chadwinc#0075
+To be honest it sounds like sour grapes and this was his way at getting back at KMD.
+
+
+[19-Feb-21 02:10 PM] tolken#2655
+Benny (paraphrasing) “its false. I went over this already in a previous video (which I won’t cite) and its beneath me to respond, talk to our lawyers”
+
+
+[19-Feb-21 02:10 PM] actionslacks#4072
+well jl is obviously a very private person and if he didn't feel it was necessary I doubt he would have said anything about it.
+
+
+[19-Feb-21 02:11 PM] actionslacks#4072
+so it must have been a pretty severe diss
+
+
+[19-Feb-21 02:12 PM] tolken#2655
+Well, if this went to court, it would be very easy to demonstrate who controls the keys. JL777 wouldn’t have to show up personally. Someone else could represent him, demonstrate control over the account etc.
+
+
+[19-Feb-21 02:13 PM] Chadwinc#0075
+I don’t think there can be any reasonable explanation for purposefully omitting those addresses with significant amounts of RFOX from the token swap.
+
+
+[19-Feb-21 02:14 PM] tolken#2655
+Agreed, although his ‘fans’ just see $$$ signs at this point,  no logic works when people are blinded by greed. A few attempts on telegram to bring discussion, but quickly just get deflected/ignored.
+
+
+[19-Feb-21 02:14 PM] Chadwinc#0075
+It was done with malicious intent
+
+
+[19-Feb-21 02:17 PM] Chadwinc#0075
+I feel obliged as a Kmd holder to stand up for JL. I just don’t know what the best way is for the community to do that.
+
+
+[19-Feb-21 02:22 PM] Chadwinc#0075
+I have been a KMD supporter from the Monaize days and although I have lost a lot a money I keep supporting KMD as, unlike other crypto projects, I believe the team has the best intentions and JL encapsulates that. To hear that he has been done in like that is very upsetting.
+
+
+[19-Feb-21 02:23 PM] Chadwinc#0075
+But I know that in the end good always prevails.
+
+{Reactions}
+😤 (2) KMD 🚀 (2) AtomicDEX 
+
+[19-Feb-21 02:35 PM] actionslacks#4072
+Now that benny has backed himself into a corner rfox could die on the vine waiting for eth 2.0 as better solutions roll out courtesy of this ecosystem. We just have to roll with the punches and carry on.
+
+
+[19-Feb-21 03:53 PM] Crabby Paddy#6239
+@Corellian Engineering did you have info for Australia
+
+
+[19-Feb-21 03:53 PM] Crabby Paddy#6239
+I’m a sn and kmd holder, if you got info and the process isn’t too involved ie interview with coppas and jax, I’ll file one asap
+
+
+[19-Feb-21 03:57 PM] tolken#2655
+@actionslacks backed himself into corner in terms of credibility sure, but he’s a smart guy. They aren’t using Eth for anything other than Rfox and Kogs box sets at the moment, so they appear to have a reasonable game plan for scaling and liquidity. Eos for the Kogs ‘on chain’ gaming.
+
+
+[19-Feb-21 04:58 PM] VJ#1796
+@ca333 Would it not be better to give us the facts that we can present to the authorities?
+
+
+[19-Feb-21 11:43 PM] Corellian Engineering#8439
+I just saw this website crabby, I think it is a good place to start
+
+
+[19-Feb-21 11:43 PM] Corellian Engineering#8439
+https://www.counterfraud.gov.au/find-where-report-fraud
+
+{Embed}
+https://www.counterfraud.gov.au/find-where-report-fraud
+Find where to report fraud
+Report fraud if you are victim of fraud, witness fraud or suspect fraud.
+https://images-ext-1.discordapp.net/external/ifS8N4wtZ1v93wHO4MkDGh7e1g-fSeajGUnwUyOigps/%3Fitok%3DoinR90g3/https/www.counterfraud.gov.au/sites/default/files/styles/full_wide_lg/public/2020-05/icon_5-report_fraud.png
+
+
+[19-Feb-21 11:44 PM] Corellian Engineering#8439
+I think we should report it with Australian Authorities.  At least it's on record.
+
+
+[19-Feb-21 11:45 PM] Corellian Engineering#8439
+If he did the dodgy on JL777, who know's what else he has been up to.
+
+
+[19-Feb-21 11:45 PM] Corellian Engineering#8439
+I might start doing some investigation.
+
+
+[20-Feb-21 02:22 AM] Crabby Paddy#6239
+https://asic.gov.au/complain
+
+
+[20-Feb-21 09:04 AM] digital bullion#8223
+Anyone got a copy of their original blackpaper that stated that Zexo holders would get an allocation of Rfox relative to their holdings? Might be a supportive document in showing they mislead their investors to coerse them to invest and then reneg upon their agreements.
+
+
+[20-Feb-21 09:05 AM] digital bullion#8223
+I think I have it on my old phone. See if I can find it.
+
+
+[20-Feb-21 10:09 AM] digital bullion#8223
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/812747703758094346/download.png
+
+
+[20-Feb-21 10:10 AM] digital bullion#8223
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/812748062824464404/download-3.png
+https://cdn.discordapp.com/attachments/647070856446476298/812748063114002432/download-2.png
+https://cdn.discordapp.com/attachments/647070856446476298/812748063411273768/download-1.png
+
+
+[20-Feb-21 10:23 AM] digital bullion#8223
+Seems like they allocated themselves a new treasury fund at the time of the swap equal to the amount of new RFOX tokens Supernet would be owed if they honoured the swap.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/812751377288921118/20210221_052223.jpg
+
+
+[20-Feb-21 10:25 AM] digital bullion#8223
+Might not mean anything. Interesting though.
+
+
+[20-Feb-21 10:25 AM] digital bullion#8223
+I think it is terribly low the way this has been handled, by Rfox and Ben.
+
+
+[20-Feb-21 10:30 AM] digital bullion#8223
+One hell of a listing fee Rfox will be up for if they ever want to be relisted on Atomicdex 🤣
+
+
+[20-Feb-21 11:11 AM] lightspeed393#5403
+I just noticed that bcmonster.com still has a RFOX pool up and someone's mining the old chain: http://rfox.bcmonster.com
+
+
+[20-Feb-21 12:35 PM] VJ#1796
+Here is the link to the full doc.
+
+https://docsend.com/view/a2kfkrmgcmwvs2rq
+
+{Embed}
+https://docsend.com/view/a2kfkrmgcmwvs2rq
+REDFOXLABS_BLACKPAPER 2.0
+https://images-ext-1.discordapp.net/external/xbvoXRE_IErEj5CIgT0KXVtnDoOs6TTPEm20x8Dh1UA/https/docsend.com/view/a2kfkrmgcmwvs2rq/preview
+
+
+[20-Feb-21 06:59 PM] BenHammer#8115
+Any update on Bitcoin Scemmy?
+
+
+[20-Feb-21 07:25 PM] Corellian Engineering#8439
+I honestly don't think Benny can win a Legal challenge.
+
+
+[20-Feb-21 07:26 PM] Corellian Engineering#8439
+What Basis can he say he was entitled to exclude supernet from the coin swap.  He's own greed?  That's not a good enough answer.
+
+
+[20-Feb-21 07:28 PM] Corellian Engineering#8439
+Also, he said he has talked to he's legal team.  He's legal team is probably funded from the coins he stole from supernet.
+
+
+[20-Feb-21 07:29 PM] Corellian Engineering#8439
+I'm embarrassed to call him a countryman of mine.
+
+
+[20-Feb-21 08:00 PM] PTYX#6840
+He actually said after that he never said it was going to be dealt with legally. He back tracked on that
+
+
+[20-Feb-21 08:02 PM] lightspeed393#5403
+jeeze that guy acts like people can't screenshot
+
+
+[20-Feb-21 08:02 PM] PTYX#6840
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/812896972251725834/20210220_230213.jpg
+
+
+[20-Feb-21 08:03 PM] PTYX#6840
+He's been prepping the flock to refuse to talk to anyone outside of his circle basically
+
+
+[20-Feb-21 08:04 PM] PTYX#6840
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/812897397319401532/20210220_230333.jpg
+
+
+[20-Feb-21 08:04 PM] PTYX#6840
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/812897429434138654/20210220_230320.jpg
+
+
+[20-Feb-21 08:04 PM] lightspeed393#5403
+He can't afford to lose focus or his scams come falling down
+
+
+[20-Feb-21 08:05 PM] PTYX#6840
+I found this old article that claimed he never worked as a c level executive
+
+
+[20-Feb-21 08:05 PM] PTYX#6840
+https://medium.com/@CryptoRalph/redfox-labs-review-397ac0a74291
+
+{Embed}
+https://medium.com/@CryptoRalph/redfox-labs-review-397ac0a74291
+RedFox Labs review
+Full disclosure: This is my first review, so it’s probably gonna suck.
+https://images-ext-2.discordapp.net/external/EBiZll9pK_G0ZrpWmprySlgPNJBpbppguUkMse6M4k0/https/miro.medium.com/max/973/1%2ADFJ7XmqSUp8qUyjQFIRllA.png
+
+
+[20-Feb-21 08:05 PM] Corellian Engineering#8439
+He is acting like the USSR covering up Chernobyl.  Amateur.
+
+
+[20-Feb-21 08:06 PM] Corellian Engineering#8439
+I would have said, we are in talks, etc, etc
+
+
+[20-Feb-21 08:07 PM] PTYX#6840
+The price of rfox if propped up by people not selling
+
+
+[20-Feb-21 08:08 PM] PTYX#6840
+Volume if low compared to thr pricey movements. It will just take one whale to bring it down
+
+
+[20-Feb-21 08:08 PM] PTYX#6840
+As long as the price is in green it's in his communities best interest to not believe he's a scammer.
+
+
+[20-Feb-21 08:19 PM] Corellian Engineering#8439
+Yeah, they have their blinkers on.  A lot of us are invested in KMD and RFOX, like many and I used to hold Benny in high regard.  But, looking at the facts, it just looks like he has done a 'Dog act' and Benny addressing the issue in this manner is very concerning.  I'd be interested to see if there are any KMD and RFOX holder's who see what RFOX has done as ethical? I doubt it.
+
+
+[20-Feb-21 08:20 PM] Corellian Engineering#8439
+I sold all my RFOX yesterday and am currently in the process of selling my KOGS's.
+
+{Reactions}
+💯 (4) 
+
+[20-Feb-21 08:33 PM] grewalsatinder#9653
+for any content you found online of redfox, make sure to make a way back machine backup of that page
+
+
+[20-Feb-21 08:44 PM] Corellian Engineering#8439
+I have a screen shot of their coin swap support page, it says 'there is no time limit for the swap', in case they start playing the 'time has run out for a swap' card.
+
+
+[20-Feb-21 08:46 PM] Corellian Engineering#8439
+Also, I did my coin swap yesterday, so it is still working for those not blocked from the snapshot.
+
+{Reactions}
+komodopog 
+
+[21-Feb-21 03:43 AM] Crabby Paddy#6239
+Hey Benny if you read this, I hope you prepare yourself properly 
+
+🧼🧎‍♂️🧍🏿‍♂️🧍🏿‍♂️🧍🏿‍♂️🧍🏿‍♂️🧍🏿‍♂️🧍🏿‍♂️
+
+
+[21-Feb-21 03:43 AM] Crabby Paddy#6239
+:komodopog: :komodopog: :komodopog:
+
+
+[21-Feb-21 03:44 AM] Crabby Paddy#6239
+:troll_compadre:
+
+
+[21-Feb-21 04:05 AM] Cryptoon#3362
+they should be able to make good on the promises they made to the team
+
+
+[21-Feb-21 04:05 AM] Cryptoon#3362
+with the amount they cashed from uniswap
+
+
+[21-Feb-21 04:08 AM] br#7886
+has komodo taken any action yet against benny? 
+Note: I’m asking purely out of genuine interest about komodo and the founding team
+
+
+[21-Feb-21 04:26 AM] Corellian Engineering#8439
+https://news.bitcoin.com/top-10-biggest-bitcoin-villains-date/
+
+{Embed}
+https://news.bitcoin.com/top-10-biggest-bitcoin-villains-date/
+Top 10 Biggest Bitcoin Villains to Date
+Bitcoin.com presents the ten most popular and well-known villains (in no particular order) that have had a negative influence on the image of Bitcoin.
+https://images-ext-1.discordapp.net/external/rl3L2w2LbjPxdPw6eGOzYqKPDWiBMLgh0wn1W87dUZI/https/news.bitcoin.com/wp-content/uploads/2016/04/dath.jpg
+
+
+[21-Feb-21 04:26 AM] Corellian Engineering#8439
+Top 10 Villains of crypto.  Bitcoin Benny can easily make this list.
+
+
+[21-Feb-21 04:27 AM] Corellian Engineering#8439
+We should tip off Chico Crypto, I'm sure he would love this news scoop.
+
+
+[21-Feb-21 04:31 AM] Corellian Engineering#8439
+Actually, in that list there is a guy who scammed the Doge coin community with a trading platform in 2014.
+
+
+[21-Feb-21 04:37 AM] Cryptoon#3362
+I think @ca333 is looking into that
+
+
+[21-Feb-21 08:54 AM] actionslacks#4072
+ben fairbank is still listed as GM of kmd on coinpaprika.
+
+
+[21-Feb-21 09:15 AM] lightspeed393#5403
+That definitely should be removed. ^^ cc @ca333
+
+
+[22-Feb-21 08:17 AM] PTYX#6840
+I'm not sure that we will update until something meaningful happens.
+
+
+[22-Feb-21 08:22 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+https://imgflip.com/i/4z0d6i
+
+{Embed}
+https://imgflip.com/i/4z0d6i
+Imgflip
+https://images-ext-1.discordapp.net/external/bUCQ3GResUijwQks8zXaTCnI0Af8qxZ7DL3J7PEMBU8/https/i.imgflip.com/4z0d6i.jpg
+
+{Reactions}
+troll_lol 😂 (4) 
+
+[22-Feb-21 08:30 AM] PTYX#6840
+they're gonna have to switch to BSC soon
+
+
+[22-Feb-21 08:30 AM] PTYX#6840
+gas fees are crazy on eth
+
+
+[22-Feb-21 11:32 AM] ComputerGenie#7004
+I love that for like 2 years 0 feks were given about this coin and now all the sudden that it has value as a token there are more posts per day than there were per quarter
+
+
+[22-Feb-21 11:34 AM] ComputerGenie#7004
+RFOX coin: $0.02 - 0 feks given
+RFOX token: $0.02 - 0 feks given
+RFOX token: $0.03 - 0 feks given
+RFOX token: $0.10 - 0 feks given
+RFOX token: $0.16 - many feks given
+
+
+[22-Feb-21 12:59 PM] lightspeed393#5403
+I think people just care since jl777 mentioned them not honoring the swap for his 3 large addresses
+
+
+[22-Feb-21 01:07 PM] webworker01#3884
+i'd assume it'd just be happy days otherwise
+
+
+[22-Feb-21 01:07 PM] webworker01#3884
+i was able to decode the snapshot and the addresses are not in there
+
+{Reactions}
+❗ (4) 
+
+[22-Feb-21 01:34 PM] Cryptoon#3362
+Concerning...
+
+
+[22-Feb-21 02:15 PM] webworker01#3884
+i will release my source code that i used to decode directly from eth blockchain
+
+
+[22-Feb-21 02:15 PM] webworker01#3884
+just need a bit more info before i do, meantime i updated the readme in my repo with exactly how the snapshot and swap works
+
+{Reactions}
+👌 (2) 👍 
+
+[22-Feb-21 02:25 PM] Meyse#0952
+Link?
+
+
+[22-Feb-21 02:52 PM] webworker01#3884
+https://github.com/webworker01/decoderfox
+
+{Reactions}
+👍 
+
+[22-Feb-21 03:19 PM] PTYX#6840
+for those years supernet had the rfox in their wallets, the issue i think is that after the migration they weren't allocated
+
+
+[22-Feb-21 03:20 PM] PTYX#6840
+obviously, if it was at 0.01 cent it wouldn't matter as much.
+
+
+[22-Feb-21 03:20 PM] PTYX#6840
+it's quite a large sum though for supernet
+
+
+[22-Feb-21 03:56 PM] ComputerGenie#7004
+I'm just saying that they "weren't allocated" in Oct and no one cared; now, here it is almost March and suddenly people care and are talking about donations for a legal team
+
+
+[22-Feb-21 03:58 PM] ComputerGenie#7004
+before 3 days ago, there was exactly 0 comments in this channel since Nov
+
+
+[22-Feb-21 05:44 PM] Corellian Engineering#8439
+We did have lots of discussion's with Benny in the trading channel about moving to Ethereum and the KOG's game etc.  He came on and bullshitted us all.  We gave him the benefit of the doubt and got burnt.
+
+
+[22-Feb-21 05:55 PM] Corellian Engineering#8439
+Many of us were concerned, but, Benny assured us it was to help Komodo, by getting a bigger audience.  If you look at his conversation with Cryptoon in this channel, he bullies people who question him. He also did this in the trading channel  Again we had no reason to suspect how evil Benny is and the masterplan of greed he was conjouring.
+
+
+[22-Feb-21 06:01 PM] Corellian Engineering#8439
+He is Mark Zuckerberg with a gun and balaclava.
+
+
+[22-Feb-21 06:11 PM] Corellian Engineering#8439
+I suggested  donations for a legal team and I 100 per cent stand by my comment.  Obviously, nothing against you it's a valid question.
+
+
+[22-Feb-21 07:03 PM] ComputerGenie#7004
+I'm fairly sure that with the millions and millions in the komodo war chest there's 0 need or utility in community "donations" to legally combat a one-off bad investment choice
+
+
+[24-Feb-21 12:40 AM] Pumtchak#0362
+https://twitter.com/bennydoda01/status/1364484888640909317?s=20
+
+{Embed}
+Bitcoin Benny (@bennydoda01)
+https://twitter.com/bennydoda01/status/1364484888640909317?s=20
+So many projects out there that work so hard and dont get the attention they deserve. One being @hackenclub. We have always found them to be extremely competent, they deliver on time and they take their job very seriously. Who do you think goes under the radar for their work?
+Twitter
+
+{Reactions}
+👍 
+
+[24-Feb-21 12:40 AM] Pumtchak#0362
+lets remember benny who's work he's building on !
+
+
+[24-Feb-21 10:44 AM] webworker01#3884 (pinned)
+https://github.com/webworker01/decoderfox
+Snapshot here: https://github.com/webworker01/decoderfox/blob/main/output.txt
+
+{Reactions}
+👍 (5) shexy 💯 
+
+[24-Feb-21 08:04 PM] gcharang#6833
+Pinned a message.
+
+
+[25-Feb-21 02:22 AM] Cryptoon#3362
+https://twitter.com/jacobstoon/status/1364882987125465088?s=21
+
+{Embed}
+CrypToon (@Jacobstoon)
+https://twitter.com/jacobstoon/status/1364882987125465088?s=21
+@kaefergeneral @daemonfox69 @bennydoda01 @hackenclub The blockchain doesnt lie. Several pre-snapshot adresses have been purposely omitted from the swap. This is plain theft by redfox team (Benny). $RFOX
+Twitter
+
+
+[25-Feb-21 02:22 AM] Cryptoon#3362
+I’m getting blocked in 3... 2... 1...
+
+
+[25-Feb-21 02:46 AM] Cryptoon#3362
+https://rfox.explorer.dexstats.info/address/RXYFbvU7ud89EXTXdkiyriG7zSEW7E8qKH
+
+
+[25-Feb-21 02:46 AM] Cryptoon#3362
+this was supernet address right?
+
+
+[25-Feb-21 06:06 AM] Cryptoon#3362
+https://rfox.explorer.dexstats.info/address/RGmQVJvYTsWAxE6KjgCenFYmyVhkAgsZmC
+
+
+[25-Feb-21 06:06 AM] Cryptoon#3362
+This was original sn addy?
+
+
+[25-Feb-21 06:21 AM] Cryptoon#3362
+snapshot height they took was august 17th somewhere
+
+
+[25-Feb-21 06:21 AM] Cryptoon#3362
+2020
+
+
+[25-Feb-21 06:21 AM] Cryptoon#3362
+pretty weird they only announce it on october 12th 2020
+
+
+[25-Feb-21 06:21 AM] Cryptoon#3362
+blockheight 11127543
+
+
+[25-Feb-21 06:25 AM] Cryptoon#3362
+anyway, easy to see the original sn addy was not included in the ETH contract
+
+
+[25-Feb-21 07:59 AM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/814526953205268500/unknown.png
+
+
+[25-Feb-21 07:59 AM] daemonfox#6136
+https://twitter.com/kaefergeneral/status/1364965446441717766
+
+{Embed}
+Kaefergeneral (@kaefergeneral)
+https://twitter.com/kaefergeneral/status/1364965446441717766
+@CorellianI @daemonfox69 @bennydoda01 @hackenclub Yea, and it takes about two minutes to establish, that the funds held by SuperNET were not own by them, but they just acted as an escrow for RFOX. 🤦‍♂️ 
+Something you could know if you were following actively... or would doublecheck your 'facts'.
+Twitter
+
+
+[25-Feb-21 08:32 AM] daemonfox#6136
+This is ETH height of contract.
+
+
+[25-Feb-21 08:43 AM] actionslacks#4072
+Benny is still probably enjoying some random research cred from being listed as kmd gm https://coinpaprika.com/person/ben-fairbank/
+
+{Embed}
+https://coinpaprika.com/person/ben-fairbank/
+Ben Fairbank Research Platform | Coin Market Overview | Coinpaprika
+Ben Fairbank - General Manager @ Komodo - Twitter | Github | Linkedin | Other
+
+
+[25-Feb-21 09:19 AM] Cryptoon#3362
+ahhhh
+
+
+[25-Feb-21 09:33 AM] Cryptoon#3362
+so then their snapshot also didnt take into account the team funds
+
+
+[25-Feb-21 12:41 PM] VJ#1796
+If this was the original address before splitting it then everything he said is null.
+
+
+[25-Feb-21 12:43 PM] VJ#1796
+Need the team to confirm though?
+
+
+[26-Feb-21 12:31 AM] Cryptoon#3362
+Yeah webworker also confirmed
+
+
+[26-Feb-21 12:31 AM] Cryptoon#3362
+In any case that original address should have been eligeble for a swap anyway and they omitted that adress
+
+
+[26-Feb-21 12:32 AM] Cryptoon#3362
+So everything he says is just digging their own grave
+
+
+[26-Feb-21 12:41 PM] tolken#2655
+I truly hope this goes somewhere, I’m so sick of crooks hurting good people. I don’t feel too confident in it when Benny is sitting on a war chest of stolen funds.  But, fingers crossed.
+
+
+[26-Feb-21 07:28 PM] tolken#2655
+Suiting up: https://www.redfoxlabs.io/redfox-labs-appoints-harly-zappino-and-neo-legal-as-official-counsel
+
+
+[26-Feb-21 08:06 PM] Komodefi#5638
+$180 million market capitalization? these guys are idiots.
+
+
+[27-Feb-21 01:03 AM] 9oklp#8901
+Weird tweet
+https://twitter.com/redfoxlabs_io/status/1365568107322822664?s=19
+
+{Embed}
+REDFOX_LABS (@redfoxlabs_io)
+https://twitter.com/redfoxlabs_io/status/1365568107322822664?s=19
+RedFOX Labs appoints Harly Zappino and NEO Legal as official Legal Counsel. 
+
+Read more 📍https://t.co/reREDG46PZ
+
+#Blockchain #Cryptocurrency #CryptoNews
+https://images-ext-2.discordapp.net/external/_b4WJpIMnxL7tScswKyJ2tsBBP-0EYsrVMLXa6EOsNc/%3Fformat%3Dpng%26name%3D600x314/https/pbs.twimg.com/card_img/1365510361076559872/S29H2A3s
+Twitter
+
+
+[27-Feb-21 01:14 AM] 𝙊𝙞𝙣𝙠#3612
+*We did nothing wrong, so we'll hire a big law firm and announce it like it's big news.
+That'll teach people not to disagree with our decisions....*
+:troll:
+
+{Reactions}
+💯 (5) abusedsmily 
+
+[27-Feb-21 05:19 AM] BenHammer#8115
+Yeah isn't that a very weird thing to announce? Doesn't seem to matter though, for the fanboys even if they announced they murdered someone it will seem like good news.
+
+
+[27-Feb-21 05:46 AM] grewalsatinder#9653
+hunting, killing, and eating for animals is absolutely legal. :troll:
+
+
+[15-Mar-21 02:38 PM] Tylor zkFS#8280
+Give me permission to post images please @Admin
+
+
+[15-Mar-21 02:39 PM] Tylor zkFS#8280
+I'm worthy
+
+
+[15-Mar-21 02:44 PM] Walter83#3669
+@Tylor zkFS  you can use imgbb.com to upload pictures and post link here
+
+
+[15-Mar-21 02:46 PM] Tylor zkFS#8280
+too much work -- i need small admin privilege - <<<< not a troll
+
+
+[15-Mar-21 02:46 PM] Tylor zkFS#8280
+#kmdkrazy been here a minute
+
+{Reactions}
+🦾 
+
+[15-Mar-21 04:45 PM] ComputerGenie#7004
+> <<<< not a troll
+but wanting to post images in a dead, meaningless channel (and can't be assed to take the 1.8 seconds to copy a link to them)
+
+
+[15-Mar-21 04:45 PM] ComputerGenie#7004
+👌🏽
+
+
+[16-Mar-21 06:18 PM] Tylor zkFS#8280
+It was a conversation....no worries ... I found out Benny is replying with copy and paste answers
+
+
+[16-Mar-21 09:15 PM] ComputerGenie#7004
+not sure how a random post 16 days after the last post makes "a conversation"
+
+
+[17-Mar-21 05:45 AM] Tylor zkFS#8280
+The post was a conversation I attempted to have with Ben Fairbanks on LinkedIn
+
+
+[18-Mar-21 12:11 AM] Walter83#3669
+@ca333   any news about redfox? What does lawyer say?
+
+
+[30-Mar-21 01:34 AM] Danno#0948
+What’s the story with this? I see jL777c also mentioned SuperNET were acting as escrow for RFOX. 
+
+Can anyone explain?
+
+
+[30-Mar-21 04:17 AM] daemonfox#6136
+Ask him to link his source if it only takes two minutes. @Danno they have zero credibility and wont provide anything except excuses.
+
+
+[30-Mar-21 05:24 AM] Danno#0948
+Your on Twitter saying this 
+“That is a bold faced lie. Nowhere EVER is it stated that was an escrow”
+
+But here in discord jL777c has actually stated that SuperNET is acting as escrow for RFOX. 
+
+I see now that I pointed it out your now mentioning two other accounts and the escrow so clearly you knew about the escrow, but again jL777c is in here saying ignore the other accounts just focus on the account with 35mil in it. 
+
+A lot just doesn’t seem to stack up.....
+
+
+[30-Mar-21 05:24 AM] webworker01#3884
+daemonfox is not komodo team
+
+
+[30-Mar-21 05:24 AM] webworker01#3884
+let them work it out
+
+
+[30-Mar-21 05:28 AM] daemonfox#6136
+THAT as in THAT ENTIRE ADDRESS
+
+
+[30-Mar-21 05:29 AM] daemonfox#6136
+If it doesnt stack up ASK BENNY TO EXPLAIN IT ALL. He refuses every time.
+
+
+[30-Mar-21 06:18 AM] Danno#0948
+I have.
+
+
+[30-Mar-21 06:19 AM] daemonfox#6136
+And?
+
+
+[30-Mar-21 06:21 AM] daemonfox#6136
+His excuse for excluding an address from the migration even though it contained way more than the agreed upon escrow amount?
+
+
+[30-Mar-21 06:22 AM] daemonfox#6136
+and that he used that moment to seize it all instead of completing an agreed upon escrow?
+
+
+[30-Mar-21 06:22 AM] daemonfox#6136
+Has he given a single public reason or details as to why it was done that way?
+
+
+[30-Mar-21 06:22 AM] daemonfox#6136
+No
+
+
+[30-Mar-21 06:22 AM] daemonfox#6136
+He has not.
+
+
+[30-Mar-21 06:22 AM] Danno#0948
+Are you part of the Komodo team?
+
+
+[30-Mar-21 06:23 AM] daemonfox#6136
+are you a part of RFOX team?
+
+
+[30-Mar-21 06:23 AM] Danno#0948
+Nope
+
+
+[30-Mar-21 06:24 AM] daemonfox#6136
+Then ask yourself why RFOX team doesnt come give public details but KMD is.
+
+
+[30-Mar-21 06:25 AM] daemonfox#6136
+jl made his points public while Benny is hiding everything he can
+
+
+[30-Mar-21 06:30 AM] daemonfox#6136
+and the kicker... pretty much all of us have been booted and banned from all RFOX channels for efven asking about this. No one from RFOX is banned here or on twitter etc.
+
+
+[30-Mar-21 06:30 AM] daemonfox#6136
+Benny can come talk to jl and the public anytime.
+
+
+[30-Mar-21 06:39 AM] Danno#0948
+If you aren’t on the team you aren’t getting the full story. 
+
+I’ve grilled Benny on lots of things to do with RFOX that I’ve been skeptical on even this topic multiple times, still havn’t been booted. I have seen how you guys have approached this though, I’d boot ya too 🤣 
+
+But in all seriousness I’m assuming the Komodo team is taking it to court so the real story will come out eventually.
+
+{Reactions}
+komodopog (2) 
+
+[30-Mar-21 06:40 AM] daemonfox#6136
+and i am ok at leaving it there
+
+
+[30-Mar-21 06:40 AM] daemonfox#6136
+We can be aggressive, me for sure.
+
+
+[30-Mar-21 06:40 AM] daemonfox#6136
+Blockchain doesnt lie, only ppl do.
+
+
+[30-Mar-21 06:41 AM] daemonfox#6136
+And jl has a history of being reputable while I witnessed the body trail Benny has left behind.
+
+
+[30-Mar-21 06:42 AM] daemonfox#6136
+Also, you can clearly see my designations in KMD via Discord tags.
+
+
+[30-Mar-21 06:43 AM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/647070856446476298/826451469539606578/unknown.png
+
+
+[30-Mar-21 06:43 AM] daemonfox#6136
+I adore transparency
+
+
+[30-Mar-21 08:20 AM] jl777c#5810
+the funds that were stolen had nothing to do with the funds that were escrowed. the 35 million coins were paid to the komodo team for developing the RFOX blockchain. those were the coins that were stolen
+
+
+[30-Mar-21 09:21 AM] Walter83#3669
+@jl777c any news regarding progress with lawyer?
+
+
+[30-Mar-21 09:45 AM] daemonfox#6136
+@Danno See above and invite Benny and team here anytime.
+
+
+[30-Mar-21 10:37 AM] Danno#0948
+Not sure why I’d want to do that. 
+
+Its between the Komodo team, lawyers and RFOX team, I’m simply questioning some things I’ve read.
+
+
+[30-Mar-21 10:38 AM] daemonfox#6136
+just pointing out one team will gladly, publicly enter chat where all can see and the other continues to shy away from doing so where they could be exposed and not in control of the narrative.
+
+
+[30-Mar-21 10:58 AM] Danno#0948
+To cop a shitload of abuse like on other platforms? 
+
+Honestly this is the first time I’ve been able to ask questions myself on the topic without being attacked for questioning things, you acknowledge that aggressiveness above.
+
+
+[30-Mar-21 11:10 AM] Danno#0948
+Sounds like you have a solid legal angle to fight it on then, wouldn’t be to hard to prove this in court, surely there’s a paper/email trail of the agreement you guys had?
+
+
+[30-Mar-21 11:15 AM] actionslacks#4072
+Once Benny’s trail of bodies gets exhumed rfox will likely lose some of it’s shine in the eyes of investors, making the dispute a moot point.
+
+
+[30-Mar-21 11:53 AM] daemonfox#6136
+If its all true does he and do they not deserve every ounce of this vigor?
+
+
+[30-Mar-21 12:22 PM] Danno#0948
+But that’s just it “If”.
+
+
+[30-Mar-21 01:23 PM] daemonfox#6136
+Pretty thin if...
+
+
+[30-Mar-21 01:24 PM] daemonfox#6136
+Address of 35M RFOX exists before snapshot, not Benny's key, jl's key. Not escrow funds.
+
+
+[30-Mar-21 01:24 PM] daemonfox#6136
+Address publicly shown to be left out of contract for migration, doesn;t exist.
+
+
+[30-Mar-21 01:24 PM] daemonfox#6136
+Chosen to be left out and not publicly notified anywhere.
+
+
+[30-Mar-21 01:25 PM] daemonfox#6136
+Benny is claiming those were escrow, jl had no reason not to honor the escrow agreement then after snapshot if that were true.
+
+
+[30-Mar-21 01:25 PM] daemonfox#6136
+But its not, the 35M is not what Benny claims, they are stolen and there is yet to be any reputable explanation as to why any of it happened.
+
+
+[30-Mar-21 01:26 PM] daemonfox#6136
+If escrow, agreement was broken clearly when not handled by the escrow holder. As it wasn;t part of the escrow, it is just unexplained theft.
+
+{Reactions}
+💯 (2) 
+
+[31-Mar-21 11:20 PM] tolken#2655
+Would be an epic trial. I hope it gets a fair day in court, not going to look good for Benny.
+
+
+[01-Apr-21 12:19 AM] Cryptoon#3362
+nice rundown @daemonfox
+
+
+[01-Apr-21 08:07 AM] actionslacks#4072
+Jl’s reputation speaks for itself, and after all of the work he’s done on multiple different projects in this space over many years, there has never been any public controversy until rfox.
+
+
+[01-Apr-21 09:38 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+👆 Truth
+
+What pisses me off the most is this bullshut action by benny has upset jl and he is not as active anymore. This action has hurt us all.
+
+
+[02-Apr-21 09:27 AM] Danno#0948
+Has anyone seen this before and have they looked into it? 
+
+Not saying it’s true so don’t shoot the messenger it’s just something I’ve seen and have no idea how to look into it myself. I wonder if the truth to all this is somewhere in the middle and we just aren’t getting the full story behind why a wallet wasn’t honoured during the swap.
+
+“Why did the dev funds never get accessed and the day after you announce the snapshot, move to supernet (10M) and the Komodo teams personal wallets? Why would redfox development funds be allocated to the Komodo team members? 
+Why did they then claim that they helped fund you and they bought tokens, and yet the tokens they are claiming came from ‘dev funds’ and only after the announcement was made?”
+
+
+[02-Apr-21 09:40 AM] actionslacks#4072
+Honestly this channel should just be removed. You can ask the teams behind iota, decred, syscoin, siacoin, any of the nxt alumni, and probably multiple other projects jl may have helped in a private capacity whether or not they ever had any dispute. You would probably hear nothing but great things from all of the people who have benefitted from jl’s investment/expertise. There is no ‘middle ground’ and the only person with the burden of proof is benny. I sold my rfox and never looked back.
+
+
+[02-Apr-21 10:21 AM] Danno#0948
+My thoughts too re channel being removed, mainly because if this is an official channel for Komodo it’s not a great look (unprofessional to have a whole channel dedicated to criticism of another project).
+
+But does there need to be a burden of proof on one party when transactions on the blockchain are transparent, has anyone looked into what I wrote above? I’d imagine it would be easy to see for someone that knows what they are looking at.
+
+
+[02-Apr-21 10:38 AM] actionslacks#4072
+The damage is done, you can keep coming to this discord, as an rfox advocate? But the die is cast. Benny has effectively ruined his reputation in the eyes of this community. If you have some genuine curiosity, as it seems you may. It would probably be best served by seeking the opinion of those who have no vested interest in either camp. Like the projects I already mentioned. Cheers.
+
+
+[02-Apr-21 12:00 PM] Danno#0948
+I came here after being harassed, abused and called a shill when I questioned accusations on a post elsewhere. 
+
+I was told by this person all the proof was in this thread and they gave me an invite.
+
+I’m not about to put my head in the sand and ignore things when it comes to my investment hence coming here reading all the above and asking questions about a few things that I’ve seen and things that just don’t add up.
+
+
+[03-Apr-21 12:17 AM] Crabby Paddy#6239
+@Danno this channel wasn’t made just to talk down on redfox
+
+
+[03-Apr-21 12:17 AM] Crabby Paddy#6239
+This was the channel where redfox was born in the first place
+
+{Reactions}
+💯 (4) 
+
+[03-Apr-21 12:45 AM] Danno#0948
+Yep I’m aware of that but it is what it’s become.
+
+
+[03-Apr-21 01:38 AM] Walter83#3669
+So when someone steal your money its not okey to make it public?
+
+
+[03-Apr-21 01:39 AM] Walter83#3669
+Especially when you support this someone with your time and money
+
+
+[03-Apr-21 01:39 AM] Walter83#3669
+Everybody can see what happened or doesnt happened on blockchain
+
+{Reactions}
+💯 (3) 
+
+[03-Apr-21 01:41 AM] Walter83#3669
+Benny never give an explanation...he delete comments and ban you....thats a sign of hide something
+
+
+[03-Apr-21 01:41 AM] grewalsatinder#9653
+Which block height RFox used to take snapshot?
+
+
+[03-Apr-21 01:42 AM] Walter83#3669
+I really hope that benny  gets what he deserves
+
+
+[03-Apr-21 02:19 AM] Crabby Paddy#6239
+He will. Waiting for court case :awthanks:
+
+
+[03-Apr-21 02:19 AM] Danno#0948
+I was replying to the comment above mine. 
+
+But I guess it comes down to how professional you are and the perception you want to put out there about yourself. At the end of the day you have no control over other’s actions but you do control yours 🤷
+
+
+[03-Apr-21 02:22 AM] Danno#0948
+Is there a court case? Reading through  comments there seems to be no legal proceedings. All I’ve seen is jl mention they will help fund it if someone else wants to do it.
+
+
+[03-Apr-21 02:45 AM] Corellian Engineering#8439
+Being honest and transparent and letting your community comment on matters is professional.  Covering up things, bullying and removing user's with valid questions as does Bitcoin Benny is unprofessional.
+
+{Reactions}
+👍 (4) 💯 (2) 
+
+[03-Apr-21 02:45 AM] Corellian Engineering#8439
+I'm still with the Komodo community because of their values.  I have sold all my RFOX.
+
+
+[03-Apr-21 03:45 AM] Danno#0948
+Not sure but it would be nice to know. 
+
+I’ve seen different dates mentioned.
+
+
+[03-Apr-21 04:50 AM] grewalsatinder#9653
+since it's a public information. It's odd there is no straight answer to it.
+blockchain snapshot is based on block height and not based on date and time.
+Would be nice and appreciate if this little information can be gathered by someone and relayed.
+Can you do it?
+
+
+[03-Apr-21 07:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+```https://rfox.explorer.dexstats.info/address/RXYFbvU7ud89EXTXdkiyriG7zSEW7E8qKH
+this was supernet address right?
+
+https://rfox.explorer.dexstats.info/address/RGmQVJvYTsWAxE6KjgCenFYmyVhkAgsZmC
+This was original sn addy?
+
+snapshot height they took was august 17th somewhere
+pretty weird they only announce it on october 12th 2020
+blockheight 11127543
+anyway, easy to see the original sn addy was not included in the ETH contract
+<Cryptoon>
+```
+
+```
+https://github.com/webworker01/decoderfox
+Snapshot here: https://github.com/webworker01/decoderfox/blob/main/output.txt
+```
+
+
+[03-Apr-21 07:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is this pinned comment not it?
+
+
+[03-Apr-21 02:08 PM] Danno#0948
+The block height mentioned is not from the 12th or the snapshot but looks like it’s from the date the ERC20 token went live. 
+
+Not sure where the August 17 snapshot date mentioned came from. On the redfox labs site it says snapshot on the 12th but I’ve also heard the 9th and the fifth, would be nice to know when the actual snapshot took place.
+
+
+[03-Apr-21 02:24 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@Cryptoon
+
+
+[04-Apr-21 01:44 AM] Heno1974#6038
+I was disappointed with rfox
+it is not possible to switch from rfox R to eth (1000 rfox)
+
+
+[04-Apr-21 01:44 AM] Heno1974#6038
+😩
+
+
+[04-Apr-21 05:21 AM] Danno#0948
+You needed over 1000 RFOX for the swap
+
+
+[04-Apr-21 05:23 AM] Heno1974#6038
+is the exchange still alive?
+how to exchange?
+
+
+[04-Apr-21 06:50 PM] Danno#0948
+Not sure, the swap happened way back in October last year. I think it’s going to depend on where you have your RFOX 
+
+https://www.redfoxlabs.io/how-to-swap-rfox-coins-for-rfox-tokens-in-the-verus-mobile-wallet
+
+
+[05-Apr-21 02:21 AM] Heno1974#6038
+redfox versus old valet is at address r
+
+
+[05-Apr-21 02:28 AM] Heno1974#6038
+as I did as described but it doesn't appear in the new walet under the send button in the old redfox
+
+
+[05-Apr-21 02:29 AM] Heno1974#6038
+😩
+
+
+[05-Apr-21 03:42 AM] Cryptoon#3362
+I was looking manually through the explorer
+
+
+[05-Apr-21 03:42 AM] Cryptoon#3362
+to look for the correct blockheight and which date it actually was
+
+
+[05-Apr-21 03:42 AM] Cryptoon#3362
+because I only found the blockheight en not the date it was supposed to be
+
+
+[05-Apr-21 09:31 AM] Heno1974#6038
+@Danno  https://rfox.explorer.dexstats.info/address/RWPyVwpoqsmf99DybUUvxti6ZAv5eKNYYj
+
+
+[06-Apr-21 06:23 AM] Danno#0948
+You would need to contact someone on the redfox team to find out if you can still do the swap. There’s a contact link on the website I shared above.
+
+
+[06-Apr-21 08:52 AM] Heno1974#6038
+@Danno  I can't find the contact link
+
+
+[07-Apr-21 05:24 AM] Danno#0948
+It’s in the menu on the redfox labs site.
+
+
+[12-Apr-21 07:20 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+WTF? https://github.com/KomodoPlatform/NotaryNodes/tree/master/season5/candidates/fairbanksy. Trolling? Lol we live in Bizzaro clown world.
+
+{Reactions}
+💯 🤣 
+
+[12-Apr-21 10:47 AM] Cryptoon#3362
+what the shit
+
+
+[13-Apr-21 09:06 PM] fairBanksy#4474
+Yes, we live in a Bizzaro clown world, where dishonest guys like Ben Fairbank treat honest people like jl777 very badly, and become rich & powerful!! Is there anything we can do, or do we just take it on the chin?
+
+
+[13-Apr-21 09:08 PM] fairBanksy#4474
+Is Ben Fairbank an "interesting" person, like Paris Hilton or Prince Harry?
+
+
+[13-Apr-21 09:10 PM] fairBanksy#4474
+Could his bald head become just as "infamous" as Carlos Matos' ?
+
+
+[13-Apr-21 09:16 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Ben Un-fairbanks is a fast talking con man with a soon approaching date with the Vietnamese authorities. Interesting that he choose to gamble with his life knowing that the penalty for fraud is death.
+
+{Reactions}
+2561_feelsevilman 
+
+[13-Apr-21 09:18 PM] fairBanksy#4474
+https://twitter.com/BFairbanksy/status/1382186370563645440?s=20
+
+{Embed}
+Ben FairBANKSY (@BFairbanksy)
+https://twitter.com/BFairbanksy/status/1382186370563645440?s=20
+https://t.co/kFNr3tnrEF
+https://images-ext-1.discordapp.net/external/KN2Ye0cJE5oNADNdFGhjpEdHHGOJ0juUPqGDLYl2E8U/https/pbs.twimg.com/media/Ey6DJ_tUYAEnLl1.jpg%3Alarge
+Twitter
+
+
+[13-Apr-21 09:19 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+He he.
+
+
+[13-Apr-21 09:20 PM] fairBanksy#4474
+Good "art" is ALWAYS in the eye of the beholder!!
+
+
+[13-Apr-21 09:21 PM] fairBanksy#4474
+So is "celebrity"
+
+
+[13-Apr-21 09:26 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Opensea Ben Fairbanks NFT collection. Take a journey of fraud, deceit, and erectile dysfunction.
+
+
+[13-Apr-21 09:27 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Own the first DM where Ben conned the KMD team
+
+
+[13-Apr-21 09:31 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Trade the many promises of Red Fox
+
+
+[13-Apr-21 09:31 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Be a part of Ben's inability to get it up.
+
+
+[13-Apr-21 09:32 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+All of this and more is captured in stunning details in the Ben Fairbanks NFT collection.
+
+
+[13-Apr-21 09:33 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Critics are calling it brave and stunning.
+
+
+[13-Apr-21 09:44 PM] fairBanksy#4474
+The Ben Fairbank & SuperNET story has a lot of potential for memes & NFT art, BF is a good muse, his head is very photogenic!
+
+
+[14-Apr-21 02:57 AM] Crabby Paddy#6239
+What’s actually happening in Vietnam with the trial or court if there is any
+
+
+[14-Apr-21 02:57 AM] Crabby Paddy#6239
+I’d love to get one of my friends to go and record :2561_feelsevilman:
+
+
+[15-Apr-21 08:15 PM] fairBanksy#4474
+https://twitter.com/BFairbanksy/status/1382861068255461377?s=20
+
+{Embed}
+Ben FairBANKSY (@BFairbanksy)
+https://twitter.com/BFairbanksy/status/1382861068255461377?s=20
+https://t.co/6tLbdEJ5zu
+Twitter
+
+
+[15-Apr-21 08:22 PM] fairBanksy#4474
+https://twitter.com/BFairbanksy/status/1382896988832681984?s=20
+
+{Embed}
+Ben FairBANKSY (@BFairbanksy)
+https://twitter.com/BFairbanksy/status/1382896988832681984?s=20
+https://t.co/kvgw8ZcUTh
+https://images-ext-1.discordapp.net/external/IlOcT29kjl3Ob_m1Hx7IX7gZCD_E--IZRr54GyavRII/https/pbs.twimg.com/media/EzEJeGZVkAEbfbc.png%3Alarge
+Twitter
+
+
+[15-Apr-21 08:27 PM] fairBanksy#4474
+https://twitter.com/BFairbanksy/status/1382898220959817734?s=20
+
+{Embed}
+Ben FairBANKSY (@BFairbanksy)
+https://twitter.com/BFairbanksy/status/1382898220959817734?s=20
+https://t.co/yOaN7y5ydg
+Twitter
+
+
+[15-Apr-21 09:04 PM] fairBanksy#4474
+https://twitter.com/BFairbanksy/status/1382907693833220098?s=20
+
+{Embed}
+Ben FairBANKSY (@BFairbanksy)
+https://twitter.com/BFairbanksy/status/1382907693833220098?s=20
+https://t.co/MC0gdWfzya
+https://images-ext-1.discordapp.net/external/B_m10q8h8nm0i4Riu_AG6HPlarP4-LmfbYvJk2cuCak/https/pbs.twimg.com/media/EzETMI7VUAA0OgH.jpg%3Alarge
+Twitter
+
+{Reactions}
+😆 
+
+[16-Apr-21 12:08 AM] Coneyboy9#9043
+what happened here???
+
+
+[16-Apr-21 12:09 AM] Coneyboy9#9043
+what the hell have i missed? can someone please ellaborate ? i own kmd and redfox what the hell has happened
+
+
+[16-Apr-21 12:28 AM] Walter83#3669
+Sell your redfox and buy kmd
+
+
+[16-Apr-21 12:29 AM] Walter83#3669
+Benny scam the kmd team and steal millions of money
+
+
+[16-Apr-21 12:29 AM] Coneyboy9#9043
+what the fuck. when did this happen?
+
+
+[16-Apr-21 12:29 AM] Coneyboy9#9043
+do you have a link or anything to it?
+
+
+[16-Apr-21 12:29 AM] Coneyboy9#9043
+i thought he was one of the good guys in crypto
+
+
+[16-Apr-21 12:29 AM] Walter83#3669
+Lol
+
+
+[16-Apr-21 12:30 AM] Coneyboy9#9043
+i been following him since 2017 how the fuck havent i heard about this
+
+
+[16-Apr-21 12:30 AM] Walter83#3669
+Benny never was a symphatetic person
+
+
+[16-Apr-21 12:30 AM] Coneyboy9#9043
+i have my redfox on my verus wallet i tried sending it to kucoin to change it but something isnt working
+
+
+[16-Apr-21 12:30 AM] Coneyboy9#9043
+im nervous as fuck now
+
+
+[16-Apr-21 12:31 AM] Walter83#3669
+There was a long discussion about this scam in  askjl777 channel some time ago
+
+
+[16-Apr-21 12:52 AM] Corellian Engineering#8439
+https://tenor.com/view/seinfeld-reactions-gif-4463398
+
+{Embed}
+https://tenor.com/view/seinfeld-reactions-gif-4463398
+Seinfeld
+https://images-ext-1.discordapp.net/external/UHRBKR7Vgyl0ta4U4GWVB8XXdlGNTVN0TCr6jBHcicg/https/media.tenor.co/images/7f6866214fa4d5212c0003842d0d9842/raw
+
+
+[16-Apr-21 12:52 AM] Corellian Engineering#8439
+Bitcoin Benny is a very bad man
+
+
+[16-Apr-21 12:56 AM] gcharang#6833
+there was a swap of rfox coins from smartchain to  ERC20  and they didn't honor jl777's swap. your's might be honored though
+
+
+[16-Apr-21 12:57 AM] Coneyboy9#9043
+i have changed mine already to the erc20 token
+
+
+[16-Apr-21 12:58 AM] Coneyboy9#9043
+its just not showing up in transactions
+
+
+[16-Apr-21 12:58 AM] Coneyboy9#9043
+and the number isnt actually leaving my wallet either. so maybe its just the gas from ethereum
+
+
+[16-Apr-21 05:18 AM] daemonfox#6136
+Yes you need ETH
+
+
+[16-Apr-21 05:18 AM] daemonfox#6136
+To swap it.
+
+
+[19-Apr-21 03:52 AM] chenhaohuo#4650
+how to Swap agama wallet RFOX Coins for RFOX Tokens?
+
+
+[19-Apr-21 04:09 AM] chenhaohuo#4650
+how to Swap agama wallet RFOX Coins for RFOX Tokens?
+
+
+[19-Apr-21 04:10 AM] chenhaohuo#4650
+RWi919SLfmj7WPofG2uQkGGWPJQbGbSiT6
+
+
+[19-Apr-21 04:18 AM] gcharang#6833
+please visit their website and contact them on their support channels or social media
+
+
+[19-Apr-21 04:22 AM] chenhaohuo#4650
+redrfox labs?
+
+
+[19-Apr-21 04:42 AM] gcharang#6833
+https://twitter.com/redfoxlabs_io
+https://www.redfoxlabs.io/rfox
+
+{Embed}
+https://twitter.com/redfoxlabs_io
+REDFOX_LABS (@redfoxlabs_io)
+VN based venture builder that creates internet companies for the emerging markets of Southeast Asia. $RFOX #ERC20
+https://t.co/P8mAfD6qo7…
+https://t.co/5RnvX1uDF1
+Tweets
+1058
+Followers
+12563
+https://images-ext-1.discordapp.net/external/6UuRP4K57q0H8OZEEO3EWSGLEbbe0XJJ2j6ja1H0mOs/https/pbs.twimg.com/profile_images/1337710513032073216/hhLsN2pC_normal.png
+Twitter
+
+
+[20-Apr-21 10:20 PM] fairBanksy#4474
+100 Ben Fairbank memes!!
+https://twitter.com/BFairbanksy/status/1384728016652169217?s=20
+
+{Embed}
+Ben FairBANKSY (@BFairbanksy)
+https://twitter.com/BFairbanksy/status/1384728016652169217?s=20
+https://t.co/7jDk0u9TnM
+https://images-ext-1.discordapp.net/external/6ZYYjObmyK88IWPooZZKcDLvlKCAbQrgksPauSWf_o8/https/pbs.twimg.com/media/EzeKxzlVIAMu3bQ.png%3Alarge
+Twitter
+
+{Reactions}
+🤩 (2) 
+
+[07-May-21 01:07 PM] tolken#2655
+Benny’s “don’t blink, we haven’t even started” seem to have lost their impact. He says that like every announcement anymore. I find it a bit laughable that they haven’t even shipped the proof of concept ‘Kogs’ and so the natural next step is the ‘metaverse’
+
+
+[07-May-21 01:08 PM] tolken#2655
+If you haven’t even started yet, maybe you should start...
+
+
+[08-May-21 06:06 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Fast talking, over promising. The world is full of these assholes. I recommend identifying these individuals immediately and stay away. Your life will be so much better.
+
+{Reactions}
+🦾 (2) 
+
+[19-May-21 12:00 PM] Cllechoux#3720
+Congrats on your partnership with pancake!!!
+
+
+[19-May-21 02:51 PM] 𝙊𝙞𝙣𝙠#3612
+I'm curious how they going to mess with Pancake....
+
+
+[20-May-21 10:16 PM] jspook16#3059
+Redbox farm on pancake. Wonder how they got that
+
+
+[20-May-21 10:45 PM] Marx1001#5313
+By giving money to CZ. 😂
+
+
+[21-May-21 07:25 AM] jspook16#3059
+Yeah probably
+
+
+[23-May-21 01:45 PM] laras#4981
+redfox bad?
+
+
+[24-May-21 06:08 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Yes
+
+
+[26-May-21 10:09 AM] laras#4981
+good i did not buy any then? 😄
+
+
+[09-Jul-21 07:06 AM] Corellian Engineering#8439
+Red Fox burn't 15.4 million token's - that like almost half they stole from Komodo
+
+{Reactions}
+😠 
+
+[16-Jul-21 11:35 PM] jspook16#3059
+For legal issues?
+
+
+[21-Jul-21 08:20 PM] Corellian Engineering#8439
+hahaha - The scammer Alex might be out scammed.
+
+
+[22-Jul-21 12:10 AM] Komodefi#5638
+No honor among thieves
+
+{Reactions}
+☝️ (2) 💯 (2) 
+
+[22-Jul-21 02:45 AM] Mylo#8306
+Novagratz got interested because redfox had a working blockchain game built by komodo team. Dimxy did amazing work.
+
+{Reactions}
+💯 (3) 👆 🤦‍♂️ 
+
+[22-Jul-21 03:38 AM] Corellian Engineering#8439
+A million RFOX at 4 cents, is only $40,000 now, lol.  Plus Alex made fun of his wife to Richard.  He literally pissed of everyone, and earlier he was pissing off the Cardano community by throwing mud at Charles.  Something wrong with that boy!
+
+
+[22-Jul-21 05:10 AM] Corellian Engineering#8439
+yep, he is finished!!!
+
+
+[22-Jul-21 05:10 AM] Corellian Engineering#8439
+Next on the list - Bitcoin Benny!
+
+
+[22-Jul-21 05:11 AM] Corellian Engineering#8439
+I think there is a good chance this will bring down Bitcoin Benny as well
+
+
+[22-Jul-21 05:24 AM] Corellian Engineering#8439
+https://www.youtube.com/watch?v=oV6Jr5wUB0M
+
+{Embed}
+Crypto Tips
+https://www.youtube.com/watch?v=oV6Jr5wUB0M
+Popular Crypto Youtuber FAIL
+Sign Up Here for the CT Club! https://patreon.com/cryptotips
+Get My Free Newsletter: https://learningcrypto.com
+
+Tweets:
+#1: https://twitter.com/RichardHeartWin/status/1416781658934611970/photo/4 
+#2: https://twitter.com/RichardHeartWin/status/1416783024386097152/photo/4 
+#3: https://twitter.com/RichardHeartWin/status/1416781662906724358/photo/1...
+https://images-ext-1.discordapp.net/external/EycP-jp1vflRn66GsqgmEBujqifqQ3JSHEG3lH2uC5c/https/i.ytimg.com/vi/oV6Jr5wUB0M/maxresdefault.jpg
+
+
+[22-Jul-21 05:24 AM] Corellian Engineering#8439
+Alex story  starting to get coverage, lol
+
+
+[22-Jul-21 05:39 AM] Corellian Engineering#8439
+Alex scammed Bitboy Crypto!!!
+
+
+[22-Jul-21 05:39 AM] Corellian Engineering#8439
+https://twitter.com/Bitboy_Crypto/status/1418185837741846529
+
+{Embed}
+Ben Armstrong (@Bitboy_Crypto)
+https://twitter.com/Bitboy_Crypto/status/1418185837741846529
+A lot of stuff is coming out and it’s clear a lot of people have been scammed. I’ve been holding this back, but tbh I now think it’s necessary for people to know the truth. 
+
+Alex asked me for a 5 BTC loan back in early March. I gave it to him as a friend. Big mistake. https://t.co/hvKfczyNzG
+https://images-ext-1.discordapp.net/external/C0xIwUNRZa_jpKFlmPPHLAiOzB-e85VT-FbXbhz81A0/https/pbs.twimg.com/media/E65oVRaXIAcadcP.jpg%3Alarge
+Twitter
+
+{Embed}
+https://twitter.com/Bitboy_Crypto/status/1418185837741846529
+https://images-ext-1.discordapp.net/external/3JOiRi1wFQnSB6InYwPhWcJYs73fQ-sl1zoFddnlPaU/https/pbs.twimg.com/media/E65oVRmWYAAmlIN.jpg%3Alarge
+
+{Embed}
+https://twitter.com/Bitboy_Crypto/status/1418185837741846529
+https://images-ext-2.discordapp.net/external/wmfkZdpAWo69zd95CWuMGdE7Lt-baq7RfRkdSCITpcM/https/pbs.twimg.com/media/E65oVRsXoAQlOI7.jpg%3Alarge
+
+{Embed}
+https://twitter.com/Bitboy_Crypto/status/1418185837741846529
+https://images-ext-2.discordapp.net/external/ul3hAyGnRybfIMOEHxlEQEsYn6YoHsm2aNNd4tDxO5w/https/pbs.twimg.com/media/E65oVSHXsAE0pYX.jpg%3Alarge
+
+
+[22-Jul-21 06:12 AM] Corellian Engineering#8439
+yes, both men have trouble with greed.  Bitcoin Benny scammed for greed.  AS scammed for greed/gambling addiction by the looks of it.
+
+
+[22-Jul-21 06:23 AM] Corellian Engineering#8439
+I wonder if we can get Richard Heart to out Bitcoin Benny/Red Fox
+
+
+[22-Jul-21 06:23 AM] Corellian Engineering#8439
+I'll send him a message
+
+
+[22-Jul-21 03:01 PM] tolken#2655
+I have a little rfox left, but glad I’m mostly out of that mess. Sad.
+
+
+[22-Jul-21 03:02 PM] tolken#2655
+Ben…. Where there’s smoke….
+
+
+[22-Jul-21 06:05 PM] BlackJesus#6161
+He's out there living his vietnam dream.
+
+
+[22-Jul-21 06:05 PM] BlackJesus#6161
+When his coin goes to zero that's going to be really hard to do :X. Vietnam is cool as long as you have money. If you're broke and a foreigner there's literally nothing for you.
+
+
+[23-Jul-21 11:05 PM] Corellian Engineering#8439
+does anyone know how this chat was sourced?
+
+
+[24-Jul-21 01:15 AM] Cryptoon#3362
+they already long secured the bag
+
+
+[24-Jul-21 01:15 AM] Cryptoon#3362
+when it went 1000x last year or so
+
+
+[24-Jul-21 01:16 AM] Cryptoon#3362
+ok no, only 30x but still
+
+
+[24-Jul-21 01:16 AM] Cryptoon#3362
+cant imagine them not dumping a bunch on noobs
+
+
+[24-Jul-21 01:17 AM] Cryptoon#3362
+they had 400M marketcap at one point, easy to dump a couple million in fiat
+
+
+[25-Jul-21 03:51 AM] Cryptoon#3362
+https://twitter.com/sittinonaledger/status/1419246353964748802?s=21
+
+{Embed}
+SOAL (@SittinOnALedger)
+https://twitter.com/sittinonaledger/status/1419246353964748802?s=21
+@CryptoCobain so is RFOX the fake project or have they just caught up in the crosshairs of a bitch fight between @AlexSaundersAU and @RichardHeartWin?
+Twitter
+
+
+[27-Jul-21 01:33 AM] Corellian Engineering#8439
+https://twitter.com/roryhighside/status/1419828353364750337
+
+{Embed}
+Rory (@roryhighside)
+https://twitter.com/roryhighside/status/1419828353364750337
+Oct 25th, 2020: $RFOX Tokenswap from Komodo to #Eth ERC-20
+
+Deployer Contract: https://t.co/7a2sr8x6KA
+
+Alex’s 14 million Tokens: https://t.co/SWJx493Cr0
+https://images-ext-2.discordapp.net/external/Ib3j3P0xHC-GBSK0yF5x0-T3FQU_Ne_bdBPzBDA46Hc/%3Fformat%3Djpg%26name%3D144x144_2/https/pbs.twimg.com/card_img/1417426326407979009/vbYDSIo7
+Twitter
+
+
+[27-Jul-21 02:00 AM] Corellian Engineering#8439
+On the day of the infamous swap where Komodo had 33 million RFOX stolen.   Alex Saunders's Received 14 million RFOX tokens!!!!!
+
+
+[27-Jul-21 02:00 AM] Corellian Engineering#8439
+Many of us predicted this a few months ago.
+
+
+[27-Jul-21 02:01 AM] Corellian Engineering#8439
+But makes sense now. To scam RFOX to Alex's community, he had to first steal from Komodo.
+
+
+[27-Jul-21 02:02 AM] Corellian Engineering#8439
+This has to be enough evidence for legal action against RFOX/Bitcoin Benny.
+
+{Reactions}
+troll_hardcore (2) 
+
+[27-Jul-21 05:00 PM] rustytwilight#5920
+I'm afraid those evidence are not enough to sue him
+
+
+[27-Jul-21 06:57 PM] Mark81#4505
+i wouldn't wanna be on Alex shoes right now. He always looked to be nice guy on his videos and level headed on opinions. i would say even trustworthy. but this again shows why you cant trust no one.
+
+
+[27-Jul-21 09:17 PM] Corellian Engineering#8439
+So you are allowed to exclude anyone form a coin swap and that's legal?
+
+
+[27-Jul-21 09:25 PM] rustytwilight#5920
+I mean cryptos are still not regulated in most countries, Vietnam is one of them
+
+
+[27-Jul-21 09:26 PM] Corellian Engineering#8439
+yes, good point, but the law mostly runs on what the reasonable man would do.  Not sure about Vietnam, a much harder task.
+
+
+[27-Jul-21 09:29 PM] Corellian Engineering#8439
+Like what will the law say to the 10's of millions stolen from Alex's community who have been frauded, sorry crypto not regulated, that doesn't makes sense to me
+
+
+[02-Aug-21 12:46 PM] PTYX#6840
+https://twitter.com/DarkForestCap/status/1422247749597253633?s=19
+
+{Embed}
+Dark Forest Capital (@DarkForestCap)
+https://twitter.com/DarkForestCap/status/1422247749597253633?s=19
+7/ Also note that $RFOX is being removed from the index this month. 
+
+With liquidity draining to BSC it risks our ability to scale $MVI. We took action to exclude it now before losing the ability to do so in future.
+
+Full rebalance details are here: https://t.co/cOj0Q3Bt2L
+https://images-ext-1.discordapp.net/external/cmCOY6sXb5qNFGIrCDTJ8bjSkX-cMnhjJVMFHFpZZBw/%3Fformat%3Dpng%26name%3D144x144_2/https/pbs.twimg.com/card_img/1422245226257829891/-PIYNMuE
+Twitter
+
+{Reactions}
+DogeCool (2) 
+
+[02-Aug-21 10:59 PM] Corellian Engineering#8439
+https://www.youtube.com/watch?v=Es2n9A1Jglw
+
+{Embed}
+What Happened To Common Sense
+https://www.youtube.com/watch?v=Es2n9A1Jglw
+Alex Saunders of Nuggets News is Being Accused of Scamming his Foll...
+Alex Saunders recently appeared on Richard Heart's YouTube channel where he referred to HEX as a scam which prompted Richard to release private messages between him and Alex.
+
+After the release of these messages, Alex's followers came forward with their own messages and indicated that Alex allegedly owed them millions for investing in a project ...
+https://images-ext-1.discordapp.net/external/SPxCje-kEOgp1iOwHGmG9HIWjnVkdMEFyfw-wcpp3FA/https/i.ytimg.com/vi/Es2n9A1Jglw/maxresdefault.jpg
+
+
+[02-Aug-21 11:03 PM] Corellian Engineering#8439
+(38:50) is one of the funniest/craziest/saddest thing I have seen in crypto.  Alex Saunders (former pharmacist) trying to scam a project he came up with.  The 'design' looks like a high school student did it.  And the manner in which he was able to lie about economist signing off on it and development team is shocking and funny at the same time.  By all account's he scammed millions off his group, with a 30 minute bullshit concept!
+
+
+[16-Oct-21 03:00 AM] Corellian Engineering#8439
+https://twitter.com/RichardHeartWin/status/1449106655329804291
+
+{Embed}
+Richard Heart raised $27M for SENS.org. Founded: (@RichardHeartWin)
+https://twitter.com/RichardHeartWin/status/1449106655329804291
+https://t.co/2XwPWYGDmO
+Likes
+461
+https://images-ext-2.discordapp.net/external/gNo4AbO3SMNi7pHUSHdYjJOkjusrGTy6H_DfQ6vBB1A/https/pbs.twimg.com/media/FBxC0q1XEAMz8rF.jpg%3Alarge
+Twitter
+
+
+[16-Oct-21 03:01 AM] Corellian Engineering#8439
+This answers a few questions on whether scammers can be charged even though crypto isnt regulated
+
+
+[16-Oct-21 03:01 AM] Corellian Engineering#8439
+An Australian court as ordered Alex Saunders to pay a follower $500,000 that he scammed
+
+
+[16-Oct-21 03:02 AM] Corellian Engineering#8439
+Unfortunately - I dont think Alex has the funds
+
+
+[16-Oct-21 03:05 AM] Corellian Engineering#8439
+Australia might be a good place to take Bitcoin Benny to court
+
+
+[16-Oct-21 03:06 AM] Corellian Engineering#8439
+He would still have his Australian citizen ship
+
+
+==============================================================
+Exported 593 message(s)
+==============================================================

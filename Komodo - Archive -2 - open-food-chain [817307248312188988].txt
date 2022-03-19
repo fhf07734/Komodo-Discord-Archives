@@ -1,0 +1,168 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / open-food-chain
+==============================================================
+
+[05-Mar-21 12:14 AM] barv#0867
+Welcome to the Open-Food-Chain channel. The first food provenance chain we built with Komodo tech will launch public as Juicychain. Check https://juicychain.org for information.
+
+{Reactions}
+👍 (12) 👀 (3) 🍊 (2) 
+
+[05-Mar-21 12:59 AM] barv#0867
+In this channel we will keep you up to date. Juicychain is in private beta and will hit production (and public beta) soon. Meanwhile work is done on soy and fish / fish feed. With Juicychain big European industry players (Refresco & Eckes Granini) are on board. The project is an industry initiative, not owned by one or few corporates like this was mostly the case in the past.
+
+{Reactions}
+💫 (5) 👴 
+
+[05-Mar-21 02:47 AM] Mylo#8306
+https://kudobox.co/q/M8-E44YF--q41xno4TLtFp/
+
+{Embed}
+https://kudobox.co/q/M8-E44YF--q41xno4TLtFp/
+My Kudo
+This card was created on Kudobox.co
+https://images-ext-1.discordapp.net/external/m4Ru6TUS8ZQ6RwZ9wqItJSzAuQBbGyq-A1QSlO9rYhs/https/kudobox.co/kudos/M8-E44YF--q41xno4TLtFp.png
+
+
+[05-Mar-21 03:27 AM] Jurjen#9294
+@barv this might be interesting too for tea. Are best practices shared how to setup such as initiative with multiple players and Komodo?
+
+
+[05-Mar-21 06:53 AM] barv#0867
+Hi @Jurjen , certainly. We should get on a call 🙂
+
+
+[30-Mar-21 10:55 AM] phm87#7395
+Hello @barv & @Mylo 
+Do you think that open-food-chain/juicychain would accept donations from future NN operators ? (asking for a friend)
+
+
+[30-Mar-21 06:28 PM] Mylo#8306
+Good question!!?!!
+
+
+[31-Mar-21 03:16 AM] phm87#7395
+Individuals may accept any income but for companies, it can be difficult to declare and define donations from NN in accounting
+
+
+[04-Apr-21 12:51 PM] phm87#7395
+I was brainstorming on this ... if it can be difficult that open-food-chain/juicychain accepts directly NN donations (for fiscal and accounting reasons), maybe it is possible to create a multisig between individuals, aim of funds received would be to support the fan club of open-food-chain/juicychain. Sorry to brainstorm here
+
+
+[04-Apr-21 08:39 PM] Mylo#8306
+All good
+
+
+[04-Apr-21 08:39 PM] Mylo#8306
+openfood is an open source project
+
+
+[04-Apr-21 08:40 PM] Mylo#8306
+juicychain is an implementation & managed service of the openfood project
+
+
+[04-Apr-21 08:40 PM] Mylo#8306
+anyone (a business or an auditing NGO) can participate in the juicychain by using openfood to connect and do what they need
+
+
+[04-Apr-21 08:41 PM] Mylo#8306
+so....in my opinion, openfood can receive donations for community bounties based on freely available capabilities/functions that are common to any supply-chain based workflow/project
+
+
+[04-Apr-21 08:42 PM] Mylo#8306
+but maybe that multisig idea is better for an ecosystem-wide concept.
+
+
+[04-Apr-21 08:42 PM] Mylo#8306
+and it maybe that "community spending fund" can extend/grow after it is started.
+
+
+[15-Apr-21 12:39 PM] barv#0867
+Yeah. I guess that is right @Mylo . It can be nice to have a fund from which bounties can be paid to add interesting features. However, it's still a bit early in the game. Juicychain is yet to launch
+
+
+[07-Jul-21 04:37 AM] barv#0867
+https://twitter.com/bvanmaarseveen/status/1412736154110246915?s=20
+
+{Embed}
+Bart van Maarseveen (@bvanmaarseveen)
+https://twitter.com/bvanmaarseveen/status/1412736154110246915?s=20
+#Blockchains are poised to create the #internet of #value. Well, are they? If we don’t want #silos of value, but a true internet of value, blockchains need to be #interoperable. Read on our vision (@TheNewFork) and how we use @KomodoPlatform #Komodo  https://t.co/oUj7UGFsUc
+https://images-ext-2.discordapp.net/external/1wGVa6wxljwEKl2E5qgTS0-x2niyZxPUI5W15Fpgwk4/%3Fformat%3Djpg%26name%3D600x314/https/pbs.twimg.com/card_img/1412378380054503431/qYhRrAMD
+Twitter
+
+{Reactions}
+👍 (2) 
+
+[17-Sep-21 08:00 PM] Mylo#8306
+https://www.striketwosummit.com/
+
+{Embed}
+https://www.striketwosummit.com/
+StrikeTwo Summit
+https://images-ext-2.discordapp.net/external/5BLjK8wPCsHOAozFPr0eYdpaSpLCJhHhqRmRTR_sswk/%3Fformat%3D1500w/http/static1.squarespace.com/static/611a5ba92771306588401af0/t/611a5be1f10bb94d2b8e1e62/1629117410056/S2S_logo_standing_WHITE.png
+
+
+[17-Sep-21 08:00 PM] Mylo#8306
+Nov 2021
+
+
+[17-Sep-21 08:02 PM] Mylo#8306
+I am looking at the functional use of NFTs with the OFC in how to reward initial investors.
+
+Some ideas are access to conference for life of holding NFT, intros to speakers etc for biz dev etc.
+
+{Reactions}
+💯 
+
+[17-Sep-21 08:03 PM] Mylo#8306
+The strike2 summit is once per year, but once OFC is launched, looking at 1 per quarter.
+
+
+[17-Sep-21 08:03 PM] Mylo#8306
+Pre covid it was held in NL, but after looking to do it physically in different parts of the world.
+
+
+[27-Sep-21 04:31 PM] Mylo#8306
+https://twitter.com/iMyloMylo/status/1439995422647328768
+
+{Embed}
+mylo (@iMyloMylo)
+https://twitter.com/iMyloMylo/status/1439995422647328768
+What if 🤔 the means to produce #food was co-owned between the #farmers and the public through fractional ownership using #Blockchain - equipment & logistics, crop maintenance practices, additional labour based on yield. The possibilities are endless @StrikeTwoSummit @TheNewFork
+Twitter
+
+
+[27-Sep-21 04:31 PM] Mylo#8306
+https://twitter.com/iMyloMylo/status/1442603031007137793
+
+{Embed}
+mylo (@iMyloMylo)
+https://twitter.com/iMyloMylo/status/1442603031007137793
+@Cargill doesn't get it. #centralized data is not an advantage as it was in the 90s https://t.co/KK8bqCooKA #decentralized @TheNewFork https://t.co/TIQO54qAUN
+https://images-ext-2.discordapp.net/external/k7zFzQKlrYqDJl5PvaMtTue9FZUeVKKcbS5ckzwkvCA/%3Fformat%3Djpg%26name%3D600x314/https/pbs.twimg.com/card_img/1442434595396505602/05Dm1od7
+Twitter
+
+
+[28-Sep-21 11:32 PM] barv#0867
+https://youtu.be/NvGXj9HwiNs
+
+{Embed}
+The New Fork
+https://www.youtube.com/watch?v=NvGXj9HwiNs
+Open Food Chain (OFC) - Unstoppable Transparency - Revolutionise th...
+Interessted? Contact us via: investments@thenewfork.com 
+
+Open Food Chain is on a mission to revolutionise the food industryby bringing much needed transparency to all agrifood supply chains. 
+
+Although most actors display ethical behavior, the industry is still characterized by fraud and a lack of transparency.
+Consumers lack trust in the produ...
+https://images-ext-1.discordapp.net/external/IxSAR0EstVZ8EBvwS_3vOo2u_ugQVWlD2NpZ_q9Vyjo/https/i.ytimg.com/vi/NvGXj9HwiNs/maxresdefault.jpg
+
+{Reactions}
+👍 
+
+==============================================================
+Exported 26 message(s)
+==============================================================

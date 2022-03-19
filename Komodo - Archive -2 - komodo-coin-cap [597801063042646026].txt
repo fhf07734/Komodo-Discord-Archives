@@ -1,0 +1,5991 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / komodo-coin-cap
+==============================================================
+
+[08-Jul-19 08:32 AM] ca333#0333 (pinned)
+This is the dev channel for the ecosystem dashboard project. The github repo for the core API is hosted at https://github.com/KomodoPlatform/komodo-ecosysboard/ - @Slyris is the dev and implementing this.
+
+The (codename) "ecoboard" project is split into 2 subprojects:
+
+A) the backend layer (above github repo) is a (golang) service that fetches ecosystem project related infos/data from various publicly accessible APIs - this includes blockexplorers [kmdexplorer.io, vrsc.kmdexplorer.io,...], coin market APIs [coinmarketcap, coingecko,...] and other 3rd party APIs. Furthermore this system persists a specific set of data locally (last price, blockchain statistic numbers, etc.) and serves a publicly accessible API so that other 3rd party projects can utilize it. The backend  can also request realtime data from external APIs like current blockchain stats by forwarding a request to external endpoints. 
+
+B) the frontend layer is a mobile ready (responsive) website based on dashboard templates. This website interacts with the backend layer from A) - e.g. users can view data (get) or send specific requests (post) like blockexplorer queries.
+
+
+[08-Jul-19 08:32 AM] ca333#0333
+Pinned a message.
+
+
+[08-Jul-19 08:34 AM] ca333#0333 (pinned)
+@Slyris - these should be all coins we want to gather infos from: 
+https://github.com/KomodoPlatform/komodo/blob/master/src/assetchains.old
+
+
+[08-Jul-19 08:36 AM] Slyris#2880
+Thank you, I will finish setup golang server this evening, prepare the logger and finally began the router of the API in the backend.
+
+{Reactions}
+✅ 
+
+[08-Jul-19 08:45 AM] ca333#0333 (pinned)
+external APIs we fetch the data from:
+
+**blockexplorer data sources:** 
+`*.kmdexplorer.io` where `*` is replaced with the ticker symbol of the chain. e.g. https://vrsc.kmdexplorer.io/ or https://pirate.kmdexplorer.io/ and 
+`*.explorer.dexstats.info` resulting in https://k64.explorer.dexstats.info/ etc. - some chains aren't available on kmdexplorer.io but on the latter. 
+
+
+**market stats (prices,...):**
+https://www.coingecko.com/en/api
+https://www.coinmarketcap.com
+
+
+[08-Jul-19 08:46 AM] ca333#0333
+Pinned a message.
+
+
+[08-Jul-19 08:46 AM] ca333#0333
+Pinned a message.
+
+
+[08-Jul-19 11:00 AM] Slyris#2880
+@ca333 "Furthermore this system persists a specific set of data locally (last price, blockchain statistic numbers, etc.)"
+
+This means that we have to use a cache redis or a database ?
+
+
+[08-Jul-19 11:01 AM] ca333#0333
+yes - i think something like redis or mongo is enough for our purpose @Slyris
+
+
+[08-Jul-19 11:02 AM] Slyris#2880
+ok, coinmarket api is not free, do you have an api key ?
+
+
+[08-Jul-19 11:02 AM] Slyris#2880
+(since is not a personnal use)
+
+
+[08-Jul-19 11:02 AM] ca333#0333
+i see - in this case use only coingecko for now
+
+
+[08-Jul-19 11:02 AM] Slyris#2880
+ok
+
+
+[08-Jul-19 11:03 AM] Slyris#2880
+for the kmdexplorer and dexstats, do we have a documentation for those api ?
+
+
+[08-Jul-19 11:14 AM] ca333#0333
+they are both based on `insight` explorer and their API is pretty straight forward: https://gist.github.com/jackzampolin/da3201b89d23dd5fa3becb0185da1fb2 
+
+both API endpoits serve under `insight-api-komodo` in our case. 
+e.g. `http://kmd.explorer.dexstats.info/insight-api-komodo/addr/RSp8vhyL6hN3yqn5V1qje62pBgBE9fv3Eh`
+
+
+[08-Jul-19 11:18 AM] ca333#0333
+we will fetch a specific set of general blockchain infos of all chains into the persistence layer: current blockchain height, blockhash, and so on. 
+And more specific infos like the example api url from above are the user-specific requests (not for the persistence layer). So our ecosysboard backend will just forward this requests to the explorer APIs.
+
+
+[08-Jul-19 11:18 AM] Slyris#2880
+ok i was looking for something like a ping
+
+
+[08-Jul-19 11:18 AM] Slyris#2880
+Ok no problem !
+
+{Reactions}
+👍 
+
+[08-Jul-19 12:28 PM] Slyris#2880
+@ca333 I added you on the pull request, a basic http router and a ping request on the coingecko api for you to get an idea of ​​the architecture of the program.
+
+The coverage decrease, but this is not a problem, some part are just not testable since we use external apis
+
+{Reactions}
+👍🏼 
+
+[09-Jul-19 05:04 AM] Audo#5667
+great @Slyris & @ca333 !
+
+Here are few template options. We can use any other template too if these are not suitable.
+
+ - 5 templetes already paid & downloaded: https://drive.google.com/drive/folders/1dJ4I_TiXgM4I-SSeEjOXWlJBCIuXO9GP?usp=sharing
+ - a template Mylo had found earlier: https://coreui.io/demo/dark/#main.html
+
+{Embed}
+https://coreui.io/demo/dark/
+CoreUI Pro Bootstrap Admin Template
+CoreUI - Open Source Bootstrap Admin Template
+
+
+[09-Jul-19 08:52 AM] Slyris#2880
+Hi, the `coingecko` API is clearly according to the documentation no complete at all and only works with ethereum for most of the requests, so I started with the insight  apis of komodo, i will push my first request of `kmd dexstats explorer`
+
+For now I have no cache management, we will see how we want to manage our cache, on which elements in particular.
+
+@ca333
+
+{Reactions}
+👍 
+
+[09-Jul-19 09:09 AM] Slyris#2880
+@ca333  added you to the review
+
+{Reactions}
+✅ 
+
+[09-Jul-19 09:21 AM] Audo#5667
+with quick search I found also this: https://rapidapi.com/collection/coinmarketcap-api-alternatives
+
+that might cost somethign too
+
+How much do the paid API's cost? Like coinmarketcap API. If it's not anything too crazy we could consider paying for it.
+
+{Embed}
+https://rapidapi.com/collection/coinmarketcap-api-alternatives
+13 CoinMarketCap Alternative APIs (like: ICOWatchList) | RapidAPI
+Browse 13+ CoinMarketCap Alternative APIs available on RapidAPI.com. Top CoinMarketCap Alternative APIs include ICOWatchList, Cryptocurrency Real Time News, ICOs and more. Sign Up today for Free!
+
+
+[09-Jul-19 09:22 AM] Slyris#2880
+What about coincodex api ?
+
+
+[09-Jul-19 09:22 AM] Slyris#2880
+I dont know the price for the coinmarketcap api, but i can look
+
+
+[09-Jul-19 09:22 AM] Slyris#2880
+https://coinmarketcap.com/api/pricing/
+
+{Embed}
+https://coinmarketcap.com/api/pricing/
+Most Trusted Cryptocurrency Market Data API | CoinMarketCap
+Use CoinMarketCap's free crypto API to get the best, most accurate real-time, historical cryptocurrency and exchange trade data for Bitcoin, Ethereum and more
+https://images-ext-2.discordapp.net/external/jlRoR2IU-ws6K9dtgbpcGdjsSvdqV3sOFNb2JvlQBfQ/https/pro.coinmarketcap.com/public/media/img/logo-square.png
+
+
+[09-Jul-19 09:23 AM] Slyris#2880
+is komodo considered as a startup lol
+
+
+[09-Jul-19 09:24 AM] Audo#5667
+I think so, we are also non-profit & open source project
+
+
+[09-Jul-19 09:24 AM] Slyris#2880
+10K call credits /mo
+ is enough ?
+
+
+[09-Jul-19 09:24 AM] Audo#5667
+coincodex API... sure if you think it's good!
+
+
+[09-Jul-19 09:25 AM] Slyris#2880
+I think coincodex api is poor, but free. and for coinmarket cap we can be limited
+
+
+[09-Jul-19 09:25 AM] Audo#5667
+should be, yes. What does that cost? But if we achieve the same with coincodex then we can opt-in to use that
+
+
+[09-Jul-19 09:25 AM] Slyris#2880
+So maybe we should just try, and look if it's fit
+
+
+[09-Jul-19 09:25 AM] Audo#5667
+ok
+
+
+[09-Jul-19 09:25 AM] Slyris#2880
+Maybe the marketing can drop a mail to coinmarketcap and ask them if we are eligibile for free usage
+
+
+[09-Jul-19 09:25 AM] Slyris#2880
+So we are fixed
+
+
+[09-Jul-19 09:27 AM] Audo#5667
+ok, I'll do that
+
+
+[09-Jul-19 09:29 AM] Slyris#2880
+@ca333 I will chill one hour, i think if the review is done i will receive an email, so i will continue on the Dexstats explorer api
+
+{Reactions}
+👍 
+
+[09-Jul-19 10:08 AM] ca333#0333
+thanks - reviewed @Slyris
+
+
+[09-Jul-19 10:42 AM] Slyris#2880
+@ca333 pushed 2 new call to the dexstats api, added you to the review
+
+
+[09-Jul-19 10:42 AM] Slyris#2880
+I will take a shower, brb in 15-30 min
+
+
+[09-Jul-19 11:28 AM] Slyris#2880
+@ca333 apparently the ci refuse my unit tests with error: `connect: connection refused`, may be i have to setup something in the yaml to solve this problem but i dont understand '_'
+
+
+[09-Jul-19 11:28 AM] Slyris#2880
+unit tests pass on my computer
+
+
+[09-Jul-19 11:29 AM] Slyris#2880
+@ca333 If you can get the project, and tell me if the units tests pass for you it's cool
+
+
+[09-Jul-19 11:29 AM] Slyris#2880
+That way I would know if the problem comes from travis
+
+
+[09-Jul-19 12:21 PM] Slyris#2880
+i'm about switching to appveyor actually, i dont find the solution '_'
+
+
+[09-Jul-19 12:21 PM] Audo#5667
+Hey guys,
+
+The rebranded website also has few stat boxes. IBN is asking if we will have these data points ready for the launch (this week). If not, then they will be scoped out from the rebrand release.
+
+- Last Github Commit (would have to check the details, I think it's supposed to say something like "Last commit by ca333 made 39 minutes ago"
+- Total Github Commits (we would have to add commits from multiple repos together)
+- Most Commits Placed (who has made the last commits in some given period of time, like 30 days)
+- Atomic Swaps in last 24 hours
+- 24 Hour swap volume
+- Number of Liquid KMD pairs (KMD pairs above some arbitrary treshold trading volume value)
+
+> these data points are supposed to be on the site. the best way to do this is to provide us with an API endpoint that gives us all of this data at once in one call. could you work with someone on this on your end before end of week? otherwise we will need to descope it for the launch
+
+Just let me know if we can finish any of these, if not, no problem. IBN just needs to know if they should plan it in the first version or into a post rebrand version.
+
+
+[09-Jul-19 01:34 PM] ca333#0333
+Hi @Audo - the github stats can be fetched from the github API. We have not included this into the current backend, but can add this in the future.
+
+The atomic swap count is not tracked right now and i am not sure if its technically possible to track the global swap count. We will figure this out.
+
+
+[09-Jul-19 01:36 PM] ca333#0333
+We can check the orderbook of the main netid in order to show liquid pairs - however, there could be much more ("invisible") orders up.
+
+
+[09-Jul-19 02:02 PM] Slyris#2880
+@ca333 Unit tests are passing, the problem was relating to : https://stackoverflow.com/questions/37706297/travis-ci-failing-when-trying-to-test-golang-http-server
+
+{Embed}
+https://stackoverflow.com/questions/37706297/travis-ci-failing-when-trying-to-test-golang-http-server
+Travis CI failing when trying to test Golang HTTP Server
+I'm very new to travis and Go. I have a test for a https server and it runs fine with I run go test -v ./... on my local machine but it will fail most of the time on Travis due to a getsocketopt:
+https://images-ext-1.discordapp.net/external/dP07hBXxuorGcvXU609uJ_e6ZgPlIdBxqG8OjQQiAyY/%3Fv%3D73d79a89bded/https/cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon%402.png
+
+
+[09-Jul-19 02:03 PM] Slyris#2880
+so i had to add a wait after launching the server to synchronize
+
+{Reactions}
+👍 
+
+[09-Jul-19 02:03 PM] Slyris#2880
+(in the unit tests)
+
+
+[09-Jul-19 02:06 PM] Slyris#2880
+I changed the unit tests for the dexstats part, now I use a suite, I have a better control over the running order of the tests
+
+
+[09-Jul-19 02:07 PM] Slyris#2880
+There is some C code to generate a random port to in the addition
+
+
+[09-Jul-19 05:14 PM] ca333#0333
+great - yes, test flow/order can be as important as the actual test.
+
+
+[10-Jul-19 02:32 AM] Audo#5667
+Once you guys take a closer look at the templates we could see if we can also showcase our roadmap on the dashboard.
+
+I was looking at several dashboard templates yesterday and thinking about it. We could simply use 'cards' that have some heading, graphic, and a sentence description about the technology (such as  AtomicAPI), and then it has a link to a more detailed post about this specific thing.
+
+Steve has a subscription here: https://elements.envato.com/
+
+We can download anything from there for free
+
+{Embed}
+https://elements.envato.com/
+Download Stock Photos, Fonts & Templates with Envato Elements
+Browse through thousands of stock photos, fonts and web templates. With unlimited downloads of all of our items, your project will be perfect in no time.
+https://images-ext-2.discordapp.net/external/8g2QjTcwIXGMBCUBKanTU7n6D3ijRYfsI7wuwpOR4xE/http/elements-assets.envato.com/static/og-default.jpg
+
+
+[10-Jul-19 03:57 AM] Slyris#2880
+I love this one : https://coreui.io/demo/dark/#main.html
+
+{Embed}
+https://coreui.io/demo/dark/
+CoreUI Pro Bootstrap Admin Template
+CoreUI - Open Source Bootstrap Admin Template
+
+
+[10-Jul-19 06:39 AM] Audo#5667
+FYI here's another potential site for market APIs: https://coinpaprika.com/
+
+
+[10-Jul-19 08:56 AM] Slyris#2880
+@ca333 Added you to a short review
+
+
+[10-Jul-19 08:57 AM] Slyris#2880
+transactions by block and address from dexstat are done
+
+{Reactions}
+✅ 
+
+[10-Jul-19 08:58 AM] ca333#0333
+will review as soon as all checks complete
+
+
+[10-Jul-19 08:58 AM] Slyris#2880
+Ok, should i implement: https://gist.github.com/jackzampolin/da3201b89d23dd5fa3becb0185da1fb2#current-exchange-prices
+
+{Embed}
+https://gist.github.com/jackzampolin/da3201b89d23dd5fa3becb0185da1fb2
+Insight API Queries for Explorer
+Insight API Queries for Explorer. GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/mLGMYX5xnk-TgEDO4sLtk1E3GgVBs7601iXMWs8DvBk/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/7452680
+
+
+[10-Jul-19 08:58 AM] Slyris#2880
+?
+
+
+[10-Jul-19 08:58 AM] Slyris#2880
+"This endpoint is undocumented in the Insight API Docs"
+
+
+[10-Jul-19 09:06 AM] Slyris#2880
+all test passed @ca333  😄
+
+{Reactions}
+👍 
+
+[10-Jul-19 09:53 AM] Mylo#8306
+@Slyris what front end framework are you using?   yeah coreui is good.
+
+
+[10-Jul-19 09:53 AM] Slyris#2880
+i'm not using any frontend right now
+
+
+[10-Jul-19 09:54 AM] Slyris#2880
+i'm write the back-end actually, i can serve any frontend framework once is build (angular, vue, dartangular) etc...
+
+
+[10-Jul-19 09:54 AM] Mylo#8306
+understood.   ok.  thanks for clarification.
+
+
+[10-Jul-19 09:54 AM] ca333#0333
+prices endpoint is handy @Slyris
+
+
+[10-Jul-19 09:54 AM] Slyris#2880
+Yes but not documented ?
+
+
+[10-Jul-19 09:55 AM] Slyris#2880
+i mean i will implement it, but i have no idea of what is the behavior of this request
+
+
+[10-Jul-19 09:58 AM] Mylo#8306
+if useful:
+binance: https://api.binance.com/api/v3/ticker/price?symbol=KMDBTC
+hitbtc: https://api.hitbtc.com/api/2/public/ticker/ETHBTC
+bittrex: https://api.bittrex.com/api/v1.1/public/getticker?market=BTC-KMD
+
+
+[10-Jul-19 10:01 AM] Slyris#2880
+for the moment i will get the currency exchange price from the dexstat api, or you want me to get it from directly from binance,hitbtc,bittrex etc ?
+
+
+[10-Jul-19 10:14 AM] Slyris#2880
+https://gist.github.com/jackzampolin/da3201b89d23dd5fa3becb0185da1fb2#get-node-sync-staus 
+
+
+^
+
+typo, it's status alright ?
+
+{Embed}
+https://gist.github.com/jackzampolin/da3201b89d23dd5fa3becb0185da1fb2
+Insight API Queries for Explorer
+Insight API Queries for Explorer. GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-2.discordapp.net/external/mLGMYX5xnk-TgEDO4sLtk1E3GgVBs7601iXMWs8DvBk/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/7452680
+
+
+[10-Jul-19 10:24 AM] Slyris#2880
+I finished all the `get` requests from the `dexstats` API except one. Are post requests necessary for `ecosysboard` ?
+
+
+[10-Jul-19 10:27 AM] Mylo#8306
+stick to original spec, dexstat is best atm.
+
+
+[10-Jul-19 10:27 AM] Mylo#8306
+sorry for interference/confusion 😃
+
+
+[10-Jul-19 10:27 AM] Slyris#2880
+List of implemented get request with endpoint:
+
+```go
+r.GET("/api/v1/coingecko/ping", PingCoingecko)
+    r.GET("/api/v1/dexstats/:coin/addr/:addrstr", AddressDetailsDexstats)
+    r.GET("/api/v1/dexstats/:coin/tx/:txid", GetTransactionDetailsDexstats)
+    r.GET("/api/v1/dexstats/:coin/addrs/:address/utxo", UTXODetailsDexstats)
+    r.GET("/api/v1/dexstats/:coin/txsblock/:hash", TransactionByBlockDexstats)
+    r.GET("/api/v1/dexstats/:coin/txsaddress/:address", TransactionByAddressDexstats)
+    r.GET("/api/v1/dexstats/:coin/block/:hash", BlockDetailsDexstats)
+    r.GET("/api/v1/dexstats/:coin/block-index/:blockheight", BlockHashFromHeightDexstats)
+    r.GET("/api/v1/dexstats/:coin/status/:query", DiagnosticInfoFromNodeDexstats)
+    r.GET("/api/v1/dexstats/:coin/sync", NodeSyncStatusDexstats)
+    r.GET("/api/v1/dexstats/:coin/peer", NodePeerStatusDexstats)
+```
+
+{Reactions}
+👍 
+
+[10-Jul-19 10:32 AM] Slyris#2880
+coinpaprika seem's cool @Audo thank's
+
+{Reactions}
+👍 
+
+[10-Jul-19 11:37 AM] Audo#5667
+Cipi mentioned it today ;D
+
+
+[10-Jul-19 02:53 PM] ca333#0333
+`typo, it's status alright ?` - yes - typo
+`for the moment i will get the currency exchange price from the dexstat api, or you want me to get it from directly from binance,hitbtc,bittrex etc ?` - it would be very handy if we could fetch the prices from wherever they are available - dexstats, coingecko,... - but if the current solution is fully functional we can stick to one API (dexstats) for now and add others later. Would be also good to figure out if dexstats itself uses coingecko or other 3rd party APIs ( @Mylo can you check with CHMEX please?)
+`Are post requests necessary for ecosysboard ?` - yes, we actually wanted to add a search field to ecosysboard frontend like in https://www.kmdexplorer.io/ - users could post address, blockhash, txhash or height as input and `ecosysboard` checks if a matching record was found in insight and redirects the user to the corresponding url.
+
+{Reactions}
+👍 (2) 
+
+[10-Jul-19 09:15 PM] Slyris#2880
+Ok I will add the post request and the redirection today with dexstats once we have a fully dexstats functional ready ecosysboard backend, we can start playing with the front-end and add other APIs step by step
+
+
+[11-Jul-19 10:46 AM] Slyris#2880
+@ca333 Hello !
+
+
+[11-Jul-19 10:49 AM] Slyris#2880
+When you do a search on https://kmdexplorer.io is behind you make a request block, if it is not a block I test if it is a transaction, if it is not a transaction I test if it's an address? Or do you have some kind of parser that automatically detects it's an address, a block or a transaction, if so I guess this parsing is accessible somewhere?
+
+{Embed}
+https://kmdexplorer.io
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[11-Jul-19 03:18 PM] ca333#0333
+`you make a request block, if it is not a block I test if it is a transaction, if it is not a transaction I test if it's an address?` - lets only forward the request to the AP IF the user-input is pre-validated and filtered as best as we can to prevent explorer API spam:
+If its a decimal number <= current blockheight its a block.
+If its a 27 - 34 chars long base58 encoded string (prefix byte `60`dec / `3C`hex resulting in all KMD addresses starting with `R`) we know its an address (komodod has a `validateaddress`
+ call but you can also use any base58 lib to validate the userinput). And if its a 32 byte long HEX its likely a TX ID or blockhash - check for TX hash first since endusers are more likely going to look for TXs.
+
+
+[12-Jul-19 01:22 AM] Slyris#2880
+As the komodo is not the only currency to manage, the other addresses do not parse in the same way? I planned to make a register that associates a regex to a currency, so we would have the same function regardless of the currency
+
+
+[12-Jul-19 01:24 AM] Slyris#2880
+is all assets that's in : https://github.com/KomodoPlatform/komodo/blob/master/src/assetchains.old are Komodo address ?
+
+{Embed}
+https://github.com/KomodoPlatform/komodo/blob/master/src/assetchains.old
+KomodoPlatform/komodo
+Komodo. Contribute to KomodoPlatform/komodo development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[12-Jul-19 01:25 AM] Mylo#8306
+Yes all are kmd address in assetchains.old
+
+
+[12-Jul-19 01:25 AM] Slyris#2880
+Ah, great, i only need one regex
+
+
+[12-Jul-19 01:25 AM] Slyris#2880
+Cool
+
+
+[12-Jul-19 01:25 AM] Slyris#2880
+Thank's for the information
+
+
+[12-Jul-19 01:25 AM] Mylo#8306
+Prices from dexstats:
+
+Some I get from cmc some from cryptocompare and some from mm1 ( dead now)
+
+
+[12-Jul-19 01:25 AM] Slyris#2880
+So we assume that in the ecosysboard, we will only search Komodo related blockchain and currency ?
+
+
+[12-Jul-19 01:27 AM] ca333#0333
+yes @Slyris
+
+
+[12-Jul-19 01:27 AM] Slyris#2880
+Great, i'm writting some helpers now and i will push after
+
+{Reactions}
+👍🏼 
+
+[12-Jul-19 01:27 AM] Slyris#2880
+I think today we can fetch the price from coinpaprika and do some posts request
+
+{Reactions}
+👍🏼 
+
+[12-Jul-19 01:31 AM] Slyris#2880
+@ca333  are you agree with :
+
+```
+^[R][a-km-zA-HJ-NP-Z1-9]{27,34}$
+```
+
+For komodo address ?
+
+
+[12-Jul-19 01:34 AM] ca333#0333
+`^[R][a-km-zA-HJ-NP-Z1-9]{27,34}$`
+
+
+[12-Jul-19 01:35 AM] Slyris#2880
+I tested it on: https://regex101.com
+
+{Embed}
+https://regex101.com
+Regex101 - online regex editor and debugger
+Regex101 allows you to create, debug, test and have your expressions explained for PHP, PCRE, Python, Golang and JavaScript. The website also features a community where you can share useful expressions.
+
+
+[12-Jul-19 01:37 AM] ca333#0333
+yes - this regex looks "good" - however, for your info: if i remember correctly i had cases where the regex returned true BUT a base58 validateaddress() returned false. I personally always advice against regex checks for address validations - but in our case (since its just a explorer query) we can do it to prevent you from integrating 3rd party base58 library.
+
+
+[12-Jul-19 01:37 AM] Slyris#2880
+Ok, for the moment i stay with the regex
+
+
+[12-Jul-19 01:38 AM] Slyris#2880
+once we have a proof of concept that work, we will look for the details
+
+
+[12-Jul-19 01:44 AM] jl777c#5810
+addresses last 4 bytes are checksum, so even if valid chars very few that pass the regex are valid addresses
+
+
+[12-Jul-19 01:48 AM] Slyris#2880
+Yes but in practice, I use regex only to filter the type of input, then if someone searches for an incorrect address, it will just get an error.
+
+{Reactions}
+✅ 
+
+[12-Jul-19 01:49 AM] Slyris#2880
+Only to know if I potentially have an address, a block, a blockhash, a transaction
+
+
+[12-Jul-19 01:49 AM] ca333#0333
+yes for now thats fine - once we get into details we can optimize the API query "pre-filter"
+
+
+[12-Jul-19 01:50 AM] Slyris#2880
+added you to a short review @ca333
+
+{Reactions}
+✅ 
+
+[12-Jul-19 02:17 AM] Slyris#2880
+@ca333 Block hash and transaction are Md5 ?
+
+
+[12-Jul-19 02:20 AM] ca333#0333
+SHA256 @Slyris
+
+
+[12-Jul-19 02:20 AM] Slyris#2880
+you write 32 bytes long, it's more no ?
+
+
+[12-Jul-19 02:21 AM] ca333#0333
+sha256 generates a 256-bit (32-byte) hash
+
+{Reactions}
+❤ 
+
+[12-Jul-19 02:21 AM] Slyris#2880
+ah no because  32 separate hexadecimal numbers (or 32 bytes) each one representing 8 of the bits in the hash.
+
+
+[12-Jul-19 04:36 AM] Slyris#2880
+added you to review @ca333 search functionnality complete
+
+{Reactions}
+💯 
+
+[12-Jul-19 04:39 AM] Slyris#2880
+So you can search a transaction, an address, a block by his hash/height actually
+
+
+[12-Jul-19 04:40 AM] Slyris#2880
+The post request send back a json with the url to redirect in the explorer.
+
+like:
+
+```json
+{
+    "url_to_redirect": "http://kmd.explorer.dexstats.info/block/06d6747a49097830574cf8d33e399d8a8679e457493cd17390a80d0f916287bc"
+}
+```
+
+
+[12-Jul-19 09:32 AM] Slyris#2880
+Thank's for the review, looking federer-nadal wimbledon coming back later
+
+
+[12-Jul-19 09:32 AM] ca333#0333
+thanks @Slyris ttyl - good progress so far!
+
+
+[12-Jul-19 09:32 AM] Slyris#2880
+I try my best
+
+
+[12-Jul-19 09:32 AM] Slyris#2880
+If there is anything wrong let me know
+
+{Reactions}
+👍🏼 
+
+[12-Jul-19 11:58 AM] Slyris#2880
+ah yes we have tickers for the price
+
+
+[12-Jul-19 12:00 PM] Slyris#2880
+for example:
+
+https://api.coinpaprika.com/v1/tickers/kmd-komodo
+
+so we have to specify `kmd-komodo` instead of just `kmd`
+
+
+[12-Jul-19 12:01 PM] Slyris#2880
+so i will probably need a registry that associate
+
+```go
+{"kmd", "kmd-komodo"},
+{"btc", "btc-bitcoin"}
+```
+
+to make it work properly
+
+
+[12-Jul-19 12:04 PM] Slyris#2880
+AS final structure for price i suggest:
+
+```go
+type TickerInformation struct {
+    ID                string    `json:"id"`
+    Name              string    `json:"name"`
+    Symbol            string    `json:"symbol"`
+    Rank              int       `json:"rank"`
+    CirculatingSupply int       `json:"circulating_supply"`
+    TotalSupply       int       `json:"total_supply"`
+    MaxSupply         int       `json:"max_supply"`
+    BetaValue         float64   `json:"beta_value"`
+    LastUpdated       time.Time `json:"last_updated"`
+    Quotes            struct {
+        USD struct {
+            Price               float64   `json:"price"`
+            Volume24H           float64   `json:"volume_24h"`
+            Volume24HChange24H  float64   `json:"volume_24h_change_24h"`
+            MarketCap           int64     `json:"market_cap"`
+            MarketCapChange24H  float64   `json:"market_cap_change_24h"`
+            PercentChange1H     float64   `json:"percent_change_1h"`
+            PercentChange12H    float64   `json:"percent_change_12h"`
+            PercentChange24H    float64   `json:"percent_change_24h"`
+            PercentChange7D     float64   `json:"percent_change_7d"`
+            PercentChange30D    float64   `json:"percent_change_30d"`
+            PercentChange1Y     float64   `json:"percent_change_1y"`
+            AthPrice            int       `json:"ath_price"`
+            AthDate             time.Time `json:"ath_date"`
+            PercentFromPriceAth float64   `json:"percent_from_price_ath"`
+        } `json:"USD"`
+    } `json:"quotes"`
+}
+```
+
+{Reactions}
+👍🏼 
+
+[13-Jul-19 05:51 AM] Slyris#2880
+https://gist.github.com/Milerius/d692cb841cdacb09c611cf403fd37b40
+
+The first page json answer will look like this
+
+{Embed}
+https://gist.github.com/Milerius/d692cb841cdacb09c611cf403fd37b40
+json example welcome page
+json example welcome page. GitHub Gist: instantly share code, notes, and snippets.
+https://images-ext-1.discordapp.net/external/zLcyGYozrbjKY3UGH_9M5e2phOzgjnMLCfPiv_Pn16w/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21139416
+
+
+[13-Jul-19 06:45 AM] ca333#0333 (pinned)
+we had a call and are adding other essential blockchain status infos to the "landing page" - it will basically become a coinpaprika/coinmarketcap site/API for all KMD ecosys-coins with additional realtime blockchain status data.
+
+{Reactions}
+👍 
+
+[13-Jul-19 06:47 AM] ca333#0333
+you can envision it as our own komodopaprika or komodomarketcap site - and its open-source and publicly available so all our ecosys projects can reuse it
+
+
+[14-Jul-19 02:30 AM] Slyris#2880
+Hello there is the json when you ask full information about all coins:
+
+An json array that contains the following elements
+
+```json
+{
+    "ticker": {
+      "id": "kmd-komodo",
+      "name": "Komodo",
+      "symbol": "KMD",
+      "rank": 51,
+      "circulating_supply": 114991238,
+      "total_supply": 114991238,
+      "max_supply": 0,
+      "beta_value": 1.00941,
+      "last_updated": "2019-07-14T09:18:33Z",
+      "quotes": {
+        "USD": {
+          "price": 1.36997482,
+          "volume_24h": 7012766.7147299,
+          "volume_24h_change_24h": -17.41,
+          "market_cap": 157535100,
+          "market_cap_change_24h": -11.54,
+          "percent_change_1h": -0.71,
+          "percent_change_12h": -6.87,
+          "percent_change_24h": -11.55,
+          "percent_change_7d": -24.05,
+          "percent_change_30d": -17.29,
+          "percent_change_1y": -7.29,
+          "ath_price": 15.4149,
+          "ath_date": "2017-12-21T08:04:00Z",
+          "percent_from_price_ath": -91.11
+        }
+      }
+    },
+    "block_last_hash": "02f337b9c458e643be5642016ddb8bb9e3ca8443722b8811099ce3287aeecbc3",
+    "block_height": 1442247
+  }
+```
+
+
+[14-Jul-19 02:34 AM] Slyris#2880
+For example we can add more information, such as the last notarized height, just let me know
+
+
+[14-Jul-19 02:36 AM] Slyris#2880
+For example:
+
+```json
+{
+    "ticker": {
+      "id": "kmd-komodo",
+      "name": "Komodo",
+      "symbol": "KMD",
+      "rank": 51,
+      "circulating_supply": 114991349,
+      "total_supply": 114991349,
+      "max_supply": 0,
+      "beta_value": 1.00941,
+      "last_updated": "2019-07-14T09:35:04Z",
+      "quotes": {
+        "USD": {
+          "price": 1.37717245,
+          "volume_24h": 7103021.6156338,
+          "volume_24h_change_24h": -15.75,
+          "market_cap": 158362917,
+          "market_cap_change_24h": -10.74,
+          "percent_change_1h": -0.05,
+          "percent_change_12h": -6.2,
+          "percent_change_24h": -10.75,
+          "percent_change_7d": -23.15,
+          "percent_change_30d": -17.31,
+          "percent_change_1y": -7.26,
+          "ath_price": 15.4149,
+          "ath_date": "2017-12-21T08:04:00Z",
+          "percent_from_price_ath": -91.07
+        }
+      }
+    },
+    "block_last_hash": "0b11ddafaa18768c5d864420cc0842d2da736b40bffbaa6f1d4a16bb5101f819",
+    "status": {
+      "info": {
+        "version": 2001526,
+        "protocolversion": 170007,
+        "blocks": 1442263,
+        "timeoffset": 0,
+        "connections": 113,
+        "proxy": "",
+        "difficulty": 234593159.2161975,
+        "testnet": false,
+        "relayfee": 0.000001,
+        "errors": "",
+        "notarized": 1442250,
+        "network": "livenet"
+      }
+    }
+  }
+```
+
+
+[14-Jul-19 04:23 AM] ca333#0333
+In addition to the market infos and last blockhash lets also add:
+
+```
+"blocks": 1442348,
+"notarized": 1442330,
+"notarizedhash": "00000000bf1b83fd71b1dabe7d0c9e2d5401f69d9df492f42e1ab0ad52fdcbd9",
+"notarizedtxid": "4f7fd6a5905a93ac443dce7f4df932ce72a638afe45db8862d6774cecff8fb11",
+```
+
+When you pull these infos always ensure that the node we pull it from has `connections>2` (to ensure the node is "online" and knows about the current network stats) and `blocks==longestchain (to ensure the node is synced) - if this conditions are not met the node is likely still syncing or "offline" or so..
+
+
+[14-Jul-19 07:12 AM] Slyris#2880
+@ca333  is `longestchain` equivalent to  `blockChainHeight`
+
+for 
+
+```json
+{"status":"finished","blockChainHeight":1442534,"syncPercentage":100,"height":1442534,"error":null,"type":"bitcore node"}
+```
+
+
+[14-Jul-19 07:16 AM] Slyris#2880
+if sync percentage is equal to 100 we can assume that the node is synced ?
+
+
+[14-Jul-19 07:17 AM] Slyris#2880
+and if the status is finished ?
+
+
+[14-Jul-19 07:20 AM] Slyris#2880
+like `nodeIsSynced = (status == "finished") && (syncPercentage == "100")` ?
+
+
+[14-Jul-19 07:41 AM] Slyris#2880
+for the moment i handle it this way:
+
+```go
+currentCoin.NodeIsSynced = node.Status == "finished" && node.SyncPercentage == 100
+currentCoin.NodeIsOnline = currentCoin.BlockInfo.Info.Connections > 2
+if currentCoin.NodeIsSynced && currentCoin.NodeIsOnline {
+   currentCoin.NotarizedHash = CBlockHashFromHeightDexstats(key, fmt.Sprintf("%d", currentCoin.BlockInfo.Info.Notarized)).BlockHash
+}
+```
+
+
+[14-Jul-19 07:52 AM] ca333#0333
+i believe `currentCoin.NodeIsSynced = node.Status == "finished" && node.BlockChainHeight == node.Height` would be more appropriate since `node.SyncPercentage` likely is not precise enough.
+
+
+[14-Jul-19 07:55 AM] Slyris#2880
+Ok !
+
+
+[14-Jul-19 07:55 AM] Slyris#2880
+I fix that and push it 😃
+
+{Reactions}
+👍🏼 
+
+[14-Jul-19 07:59 AM] Slyris#2880
+pushed @ca333 i miss only `notarizedtxid` i dont know how to retrieve it, because when i try to retrieve the information i got an array of transaction like:
+
+```json
+"tx": [
+    "af9be29e0d19639234e956f5717a32c0d195af0dac643701bb2c0c29f86865bc",
+    "7799f5b660c8ffc54879200632dd83672bfc4865cb15052e4def22eff3dc6aa9",
+    ...
+  ]
+```
+
+
+[14-Jul-19 07:59 AM] Slyris#2880
+do you want all the transaction of the notarizedhash ?
+
+
+[14-Jul-19 07:59 AM] Slyris#2880
+as  notarizedtxid ?
+
+
+[14-Jul-19 08:41 AM] ca333#0333
+you can just return the array as notarizedtxid - we can then link each txid to a public bitcoin explorer (in the frontend)
+
+
+[14-Jul-19 09:06 AM] Slyris#2880
+@ca333 Ok thank's
+
+
+[14-Jul-19 09:07 AM] Slyris#2880
+i finish the final of wimbledon and then i will add the notarizedtxid
+
+{Reactions}
+👍🏼 
+
+[14-Jul-19 09:39 AM] ca333#0333
+Pinned a message.
+
+
+[14-Jul-19 11:29 AM] Slyris#2880
+```json
+ {
+    "ticker": {
+      "id": "kmd-komodo",
+      "name": "Komodo",
+      "symbol": "KMD",
+      "rank": 45,
+      "circulating_supply": 114993790,
+      "total_supply": 114993790,
+      "max_supply": 0,
+      "beta_value": 1.01673,
+      "last_updated": "2019-07-14T18:27:39Z",
+      "quotes": {
+        "USD": {
+          "price": 1.37541481,
+          "volume_24h": 8735022.1446888,
+          "volume_24h_change_24h": 14.59,
+          "market_cap": 158164161,
+          "market_cap_change_24h": -8.63,
+          "percent_change_1h": 0.45,
+          "percent_change_12h": -1.03,
+          "percent_change_24h": -8.64,
+          "percent_change_7d": -23.73,
+          "percent_change_30d": -11.88,
+          "percent_change_1y": -10.85,
+          "ath_price": 15.4149,
+          "ath_date": "2017-12-21T08:04:00Z",
+          "percent_from_price_ath": -90.98
+        }
+      }
+    },
+    "block_last_hash": "0b944f69a7c258cbbd38e632ee9eed7ed90b1fa5cadd7ab5a3b1c833c7f79756",
+    "status": {
+      "info": {
+        "version": 2001526,
+        "protocolversion": 170007,
+        "blocks": 1442793,
+        "timeoffset": 0,
+        "connections": 108,
+        "proxy": "",
+        "difficulty": 253422370.6178924,
+        "testnet": false,
+        "relayfee": 0.000001,
+        "errors": "",
+        "notarized": 1442780,
+        "network": "livenet"
+      }
+    },
+    "node_is_online": true,
+    "node_is_synced": true,
+    "notarizedhash": "000000000c9ae8b5217e7d494f5b7145985061817c22767acafdd811efb6d40b",
+    "notarizedtxid": [
+      "5bb4e0381d1ec0a492331fb52bac0d5655c45cb5980b3ddf8bcc0c70f8187ffa",
+      "b17f0e970849a41396d5881c274fb344c17c60821d6f04b039b3d3ad259d1fe3",
+      ...]
+}
+```
+
+
+[14-Jul-19 11:29 AM] Slyris#2880
+this is ok @ca333  ? 😄
+
+{Reactions}
+👍🏼 
+
+[14-Jul-19 11:32 AM] Slyris#2880
+(added you to the review)
+
+
+[14-Jul-19 01:08 PM] Slyris#2880
+for example: http://kmd.explorer.dexstats.info/insight-api-komodo/block/06aacc7710c32a86530036f9d912d41278bd9a9bf88e32339b537e67f82784cf
+
+
+[14-Jul-19 01:12 PM] Slyris#2880
+For datatypes json I use a generator that translates the json into golang structure, if I made mistakes I would correct them. But where can I find the specifics of types that are ambiguous. As the integer numbers should be floats, if the json sends me "3" I can not guess that it's actually a float
+
+
+[14-Jul-19 01:15 PM] Slyris#2880
+Reading over the documentation, I actually saw it was a float, I was surrounded by the generator. Thank's for the spot !
+
+{Reactions}
+👍🏼 
+
+[14-Jul-19 01:22 PM] Slyris#2880
+I'm merging it now @ca333
+
+{Reactions}
+✅ 
+
+[14-Jul-19 01:25 PM] Slyris#2880
+I am proud to announce that the call api of the homepage of our komodo ecosystem coinpaprika immitation is complete and merged. We now have all the information needed for fill the first page. The next step will be to deal with when we click on a particular currency what will be equivalent to retrieve the same information, but only for this currency.
+
+
+[14-Jul-19 01:27 PM] Slyris#2880
+Regarding the part that needs to be cached, I'm waiting to see the first performances we'll have at the query level. On my side it looks pretty fast for now.
+
+
+[14-Jul-19 01:29 PM] Slyris#2880
+We should also look in more detail golang packages that I chose to use. I am rather confident of their safety and robustness. But I would need the advice of someone probably safe.
+
+
+[14-Jul-19 01:32 PM] Slyris#2880
+I wish you all a good night, see you tomorrow.
+
+{Reactions}
+👍🏼 
+
+[15-Jul-19 11:22 AM] Slyris#2880
+Information about a specific coin pushed and under review !
+
+
+[17-Jul-19 07:32 AM] Slyris#2880
+@ca333 I'm home in 30 minute, let me know for the next steps I will work this evening
+
+
+[17-Jul-19 07:39 AM] Audo#5667
+I would like us us to do some short of "state of development" page / pages where we give an outlook about current and future development (short of a roadmap). @Mylo has been looking into this already with the template that everyone seemed to like.
+
+However, that template lacks some rich text editing tools. We should have a way to post long form text (like blogs) that is nice to read.
+
+
+[17-Jul-19 07:41 AM] Audo#5667
+part of that would be a list of Antara modules. We would have basic info about each module (description, name of developer, development status, link to documentation)
+
+
+[17-Jul-19 07:41 AM] ca333#0333
+Are we providing the content/text or does this get delivered from the projects?
+
+
+[17-Jul-19 07:42 AM] Audo#5667
+We would of course write the final content, I haven't had time to get into that though
+
+
+[17-Jul-19 07:42 AM] Mylo#8306 (pinned)
+https://coreui.io/demo/dark/#editors/markdown-editor.html it has rich editor.  I can look if srsly considering so soon.
+
+{Embed}
+https://coreui.io/demo/dark/
+CoreUI Pro Bootstrap Admin Template
+CoreUI - Open Source Bootstrap Admin Template
+
+
+[17-Jul-19 07:42 AM] ca333#0333
+Lets collect additional feature requests into a list so we can work on them after the base system is up and running.
+
+{Reactions}
+☝ (2) 
+
+[17-Jul-19 07:42 AM] Audo#5667
+sounds good
+
+
+[17-Jul-19 07:44 AM] ca333#0333
+We will already start with the front-end layer today but it wont take us long to implement it. Based on that we polish the visuals and get the first version online. This actually equals a early beta. From there we can extend the backend with this "dev status page" data. This feature for instance seems very easy to implement (basically just text parser with some formats).
+
+
+[17-Jul-19 07:46 AM] Audo#5667
+ok, and could we host it in ecosystem.komodoplatform.com?
+
+another question: do you guys want design ux/ui help from IBN?
+
+
+[17-Jul-19 07:46 AM] Audo#5667
+Steve will negotiate with them about the future in near future
+
+
+[17-Jul-19 07:47 AM] Mylo#8306
+Ok cool.  I’m free of front end stuff that sounds....happy to test/bugfix cos I’d rather look at autoscaling kmd on cloud systems tbh
+
+
+[17-Jul-19 07:48 AM] Mylo#8306
+Chat tomorrow.
+
+
+[17-Jul-19 07:58 AM] Slyris#2880
+Ok so I'm focusing the end of the documentation this evening and some code improvement.
+
+{Reactions}
+👍🏼 
+
+[17-Jul-19 09:23 AM] Slyris#2880
+@ca333 I pushed the last command documentation, and also fixed a bug from another call yesterday. Let me know in the review if there is anything wrong
+
+
+[17-Jul-19 09:23 AM] Slyris#2880
+I'm available now if you need me to do something else :p
+
+
+[17-Jul-19 09:25 AM] Slyris#2880
+I do not know your documentation writing process, so I just made a markdown page.
+
+{Reactions}
+👍🏼 
+
+[17-Jul-19 09:27 AM] ca333#0333
+i have a call right now and will be free in ~15 - 30 minutes - lets connect then @Slyris
+
+
+[17-Jul-19 09:28 AM] Slyris#2880
+ok great 😃
+
+
+[17-Jul-19 11:31 AM] Slyris#2880
+Running instructions added.
+
+{Reactions}
+👍🏼 
+
+[17-Jul-19 12:38 PM] Audo#5667
+hey guys, thanks for all the work! This project is progressing with a lightning speed it feels.
+
+I wanted to showcase more statistic on our rebranded site, but when we designed it we did not have those API endpoints ready for IBN. They are now going to make another iteration for the site and add more stuff / functionality.
+
+Can you guys give me a list of API calls / statistics that we would support in ~ 2 weeks from now? I will then scope those in to the website design/feature list
+
+{Reactions}
+👍🏼 
+
+[17-Jul-19 12:38 PM] Audo#5667
+just support from backend is enough
+
+{Reactions}
+✅ 
+
+[17-Jul-19 12:49 PM] ca333#0333 (pinned)
+@Audo - this is the backend documentation with all available API calls and example responses: https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/docs/api.md
+
+It is a small and straight forward API. Let me know if there are any questions.
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/docs/api.md
+KomodoPlatform/komodo-ecosysboard
+Contribute to KomodoPlatform/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[17-Jul-19 12:49 PM] Audo#5667
+perfect, thanks
+
+{Reactions}
+👍🏼 
+
+[17-Jul-19 02:10 PM] Slyris#2880
+It's on master branch now, I deleted my feature Dev branch as usual
+
+{Reactions}
+✅ 
+
+[18-Jul-19 10:12 AM] Slyris#2880
+fixed a typo in the documentation
+
+{Reactions}
+👍 
+
+[18-Jul-19 11:10 PM] Slyris#2880
+Available today, the whole day for any help
+
+
+[23-Jul-19 01:44 AM] Slyris#2880
+do we have any news about the front end @ca333  ?
+
+
+[23-Jul-19 03:15 AM] ca333#0333
+no - not yet @Slyris after the current optimization session we will likely do it on our own.
+
+
+[23-Jul-19 03:56 AM] Slyris#2880
+Yeah 😄
+
+{Reactions}
+😅 
+
+[24-Jul-19 05:43 AM] ca333#0333
+Pinned a message.
+
+
+[24-Jul-19 05:43 AM] ca333#0333
+Pinned a message.
+
+
+[24-Jul-19 05:45 AM] ca333#0333 (pinned)
+@everyone This is the "Antara Coin Cap" project channel - we built a prototype backend to create a "coinmarketcap" clone for Komodo ecosystem coins (smart chains). We are now looking for a web/frontend dev to build a realtime webapp based on a theme like https://coreui.io/demo/dark/#main.html - what we envision is a web-application similar to coinmarketcap with all relevant infos of a coin and in addition we also show a few blockchain infos (realtime stats) like current height, dPoW status, etc. ON the landing page list - and when someone clicks on a specific chain the detail-view is shown with all available infos. The API documentation and source code are pinned. If you are interested in this task or have questions please contact me or @Slyris through DM.
+
+{Embed}
+https://coreui.io/demo/dark/
+CoreUI Pro Bootstrap Admin Template
+CoreUI - Open Source Bootstrap Admin Template
+
+{Reactions}
+📈 (14) 💯 (14) 🍾 (9) 🚀 (14) 👌 (13) 🍆 (6) 👍 (19) 👀 (5) 🤘 (3) 🤣 KMD (14) 
+
+[24-Jul-19 05:46 AM] owerache#0341
+hey :- )
+
+
+[24-Jul-19 05:46 AM] mcastro030#5586
+👌
+
+{Reactions}
+💚 
+
+[24-Jul-19 05:46 AM] owerache#0341
+very good idea:- ) and good work ..
+
+{Reactions}
+💚 
+
+[24-Jul-19 05:47 AM] D3b0#9761
+Nice
+
+
+[24-Jul-19 05:47 AM] mk#2748
+for ease of adoption, please try to make the api work similarly to either cmc api or coingecko's
+
+{Reactions}
+👍 (3) 
+
+[24-Jul-19 05:47 AM] mk#2748
+this is a great idea, btw - great stuff!
+
+{Reactions}
+💚 
+
+[24-Jul-19 05:48 AM] owerache#0341
+it would be really great to make a twitter bot of the same type:
+https://twitter.com/whale_alert
+
+{Embed}
+https://twitter.com/whale_alert
+Whale Alert (@whale_alert)
+Live tracking of large crypto transactions from and to exchanges for #BTC, #ETH, #XRP, #USDt, #EOS, #BNB, #XLM, #NEO, #TRX, #XTZ, top 100 #ERC20. API available.
+Tweets
+7604
+Followers
+120004
+https://images-ext-2.discordapp.net/external/v8TJBS2KWvfMNt-jFYIl5sFkFGfA89uNbG8-ZLr53Kg/https/pbs.twimg.com/profile_images/1132579647374417921/9ifIGXEQ_normal.png
+Twitter
+
+
+[24-Jul-19 05:49 AM] ca333#0333
+Pinned a message.
+
+
+[24-Jul-19 05:55 AM] Slyris#2880
+Hello
+
+
+[24-Jul-19 06:03 AM] Slyris#2880
+@owerache you have an idea how are designed this kind of bot usually ?
+
+
+[24-Jul-19 06:09 AM] owerache#0341
+Yes, I did mine for #barterlly... If you have a json that I can curl all the time I can post you the information
+
+
+[24-Jul-19 06:09 AM] owerache#0341
+https://twitter.com/blocksroad
+
+{Embed}
+https://twitter.com/blocksroad
+blocksroad (@blocksroad)
+I post the public crypto offer crypto and news #barterlly #otc #becrypto #blockchain #bitcoin #LN Admin by @barterlly
+Tweets
+937
+Followers
+2225
+https://images-ext-2.discordapp.net/external/t3Ja0WBR1nmYZR_uXUp_7HDNlQtk8OFePSHR1Y-xaMY/https/pbs.twimg.com/profile_images/1048950549482283008/RsjsIDAq_normal.jpg
+Twitter
+
+
+[24-Jul-19 06:11 AM] Lordy#9388
+A json shouldn't be too hard to generate (but I've just started reading about crypto recently)
+
+
+[24-Jul-19 06:14 AM] owerache#0341
+yes very simple 😃
+
+
+[24-Jul-19 06:19 AM] Slyris#2880
+I mean the design of a whales bot
+
+
+[24-Jul-19 06:20 AM] Surfer007#0709
+https://twitter.com/XuanXuan007/status/1154018281172459520?s=20
+
+{Embed}
+XuanLeeeeee (@XuanXuan007)
+https://twitter.com/XuanXuan007/status/1154018281172459520?s=20
+@KomodoPlatform is looking for a web/frontend developer to build a real-time web application. If it is a job for you, then contact us at discord https://t.co/BHUlS1WEgR
+
+@0xca333 #Komodo $KMD
+https://images-ext-2.discordapp.net/external/eC1qrs4YDoWIBgSKon3GzZlUSvWzMT5ikvx7ryYENR4/https/pbs.twimg.com/media/EAPlgdBXUAIjyjW.jpg%3Alarge
+Twitter
+
+
+[24-Jul-19 06:23 AM] owerache#0341
+@Slyris https://whale-alert.io/
+
+{Embed}
+https://whale-alert.io/
+Whale Alert | Home
+Whale Alert. Live tracking of large crypto transactions from and to exchanges
+
+
+[24-Jul-19 06:25 AM] owerache#0341
+it seems to me that you have access to the blockchain data after that it's just setintervall: D which is connected either in RPC or via an API but it's obvious
+
+
+[24-Jul-19 06:26 AM] Slyris#2880
+We talk around 6pm I will explain you why it's can be little bit tricky
+
+
+[24-Jul-19 06:28 AM] owerache#0341
+if you want... but I really think there's a way to produce this via a KMD node and a small API
+
+
+[24-Jul-19 06:31 AM] Slyris#2880
+Yes but this is probably ot of scope for the moment
+
+
+[24-Jul-19 06:31 AM] Slyris#2880
+But if we can have some exchange volume from #🤝│dex-mobile I would love to add this feature
+
+
+[24-Jul-19 06:33 AM] owerache#0341
+Well the same, via API you could share all public offers in real time on discord/twitter and other network as well as daily volumes
+
+
+[24-Jul-19 06:35 AM] Slyris#2880
+Yes this I can do it totally
+
+
+[24-Jul-19 06:36 AM] Slyris#2880
+But I suspect whales alert to put a watcher on big wallet and periodically check for new transaction from them
+
+
+[24-Jul-19 06:36 AM] Slyris#2880
+(I don't like it personally, but if this is a needed feature why not)
+
+
+[24-Jul-19 08:19 AM] Deleted User#0000
+this is already really easy to do from a node and a few hours of work, funds tracking is a walk in the park
+
+
+[24-Jul-19 08:21 AM] Deleted User#0000
+(I already did this in production, but don't report the values, it was used to track the hacker's funds)
+
+
+[24-Jul-19 08:21 AM] Slyris#2880
+May be but do we really need this feature urgently ? To tracks whales !
+
+
+[24-Jul-19 08:21 AM] Slyris#2880
+?
+
+
+[24-Jul-19 08:21 AM] Slyris#2880
+Because to be honest is like a toy for me
+
+
+[24-Jul-19 08:21 AM] Deleted User#0000
+goind back to genesis and mapping an use of all addresses involved
+
+
+[24-Jul-19 08:22 AM] Deleted User#0000
+it s not just about whales
+
+
+[24-Jul-19 08:22 AM] Deleted User#0000
+but cointing the "real" value aside of tx
+
+
+[24-Jul-19 08:22 AM] Slyris#2880
+Ok why not then !
+
+
+[24-Jul-19 08:22 AM] Deleted User#0000
+obviously dummy transaction may fake it, but this is easily traceable
+
+
+[24-Jul-19 08:22 AM] Slyris#2880
+We will plan it for mid term support then
+
+
+[24-Jul-19 08:23 AM] Deleted User#0000
+there s a huge difference betweek reported values and fake volumes submitted via API
+
+
+[24-Jul-19 08:23 AM] Deleted User#0000
+blockchain never lies, if you know how to gather infos
+
+
+[24-Jul-19 08:23 AM] Slyris#2880
+I think that if I can have the volume from mm2 Dex it's can be cool
+
+
+[24-Jul-19 08:23 AM] Deleted User#0000
+you can do far more than that
+
+
+[24-Jul-19 08:24 AM] Deleted User#0000
+relying on specific tools you also can parse which coin gets the most volume for a specific pair
+
+
+[24-Jul-19 08:24 AM] Deleted User#0000
+and adapt the marketing strategy
+
+
+[24-Jul-19 08:24 AM] Slyris#2880
+Doesn't hesitate to open issues for feature request !
+
+
+[24-Jul-19 08:25 AM] Slyris#2880
+On the GitHub repository so I can follow everything
+
+
+[24-Jul-19 08:25 AM] Deleted User#0000
+I need to get used to the API before, hopefully in a few weeks, but this is really something easy to do once you got any node running
+
+
+[24-Jul-19 08:26 AM] Slyris#2880
+Ok great !
+
+
+[24-Jul-19 08:26 AM] Deleted User#0000
+back then I developped a tool to gather all NN infos to check and multiparse data to give live alarming of forks
+
+
+[24-Jul-19 08:27 AM] Deleted User#0000
+https://notarystats.com, now private
+
+
+[24-Jul-19 08:27 AM] Deleted User#0000
+there is also an android app that did this
+
+
+[24-Jul-19 08:27 AM] Deleted User#0000
+live alarming of hashrate spikes etc
+
+
+[24-Jul-19 08:27 AM] Slyris#2880
+I'm still new in the blockchain, that's why all the concept for me are not evident.
+
+
+[24-Jul-19 08:27 AM] Slyris#2880
+But I think once I understand everything become really easy.
+
+
+[24-Jul-19 08:27 AM] Deleted User#0000
+hint : calculate deltas between network hash
+
+
+[24-Jul-19 08:28 AM] Deleted User#0000
+based on an extended timeframe
+
+
+[24-Jul-19 08:28 AM] Deleted User#0000
+so you ll spot quasi instantly any attempr of attack
+
+
+[24-Jul-19 08:28 AM] Deleted User#0000
+and parsing the values may also be used to track "dwyattacks" attempts
+
+
+[24-Jul-19 08:28 AM] Slyris#2880
+Nice.
+
+
+[24-Jul-19 08:28 AM] Slyris#2880
+Pretty neat
+
+
+[24-Jul-19 08:28 AM] Deleted User#0000
+it s all about security and automation
+
+
+[24-Jul-19 08:29 AM] Slyris#2880
+I need to think about what we really want in this clone of coinmarketcap
+
+
+[24-Jul-19 08:29 AM] Slyris#2880
+And not over engineer to much too
+
+
+[24-Jul-19 08:29 AM] Deleted User#0000
+I managed to build standalone libs
+
+
+[24-Jul-19 08:29 AM] Slyris#2880
+For the moment I use coinpaprika API which do a great job for me.
+
+
+[24-Jul-19 08:30 AM] Deleted User#0000
+ready to go with a fresh server, installing, monitoring, fixing and reporting being done auto
+
+
+[24-Jul-19 08:30 AM] Slyris#2880
+This is really nice, it's public ?
+
+
+[24-Jul-19 08:31 AM] Deleted User#0000
+it was back then but not anymore
+
+
+[24-Jul-19 08:31 AM] Deleted User#0000
+noone was really interested, and now it s totally rebuilt to be fully stable and errorproof  in python, there is a learning curve
+
+
+[24-Jul-19 08:32 AM] Deleted User#0000
+I don t want to use js personally
+
+
+[24-Jul-19 08:32 AM] Slyris#2880
+I'm currently writing this application in Golang
+
+
+[24-Jul-19 08:32 AM] Slyris#2880
+For ease of use mainly.
+
+
+[24-Jul-19 08:32 AM] Deleted User#0000
+yep
+
+
+[24-Jul-19 08:32 AM] Slyris#2880
+But I'm originally from c/c++/c#/ASM/Nim/Haskell
+
+
+[24-Jul-19 08:32 AM] Deleted User#0000
+the important is not the code but interaction and logic
+
+
+[24-Jul-19 08:33 AM] Slyris#2880
+Well, I'm a big fan of TDD to be honest with you. I try do to the cleanest API possible
+
+
+[24-Jul-19 08:33 AM] Deleted User#0000
+distributed reports are really a good way to do and don t forget you got potentially 60+ NN that can act as a base for data gathering
+
+
+[24-Jul-19 08:33 AM] Slyris#2880
+Not exactly API agnostic at the moment for obvious reason
+
+
+[24-Jul-19 08:34 AM] Deleted User#0000
+as long as it is audited and validated, there is no harm, specifically if you don t use any external lib
+
+
+[24-Jul-19 08:34 AM] Slyris#2880
+I use some external library that already under review'
+
+
+[24-Jul-19 08:34 AM] Slyris#2880
+https://github.com/Milerius/komodo-ecosysboard
+
+{Embed}
+https://github.com/Milerius/komodo-ecosysboard
+Milerius/komodo-ecosysboard
+Contribute to Milerius/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/zLcyGYozrbjKY3UGH_9M5e2phOzgjnMLCfPiv_Pn16w/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21139416
+
+
+[24-Jul-19 08:34 AM] Deleted User#0000
+that s a problem to me, that s the reason I rewrote all
+
+
+[24-Jul-19 08:35 AM] Slyris#2880
+https://github.com/Milerius/komodo-ecosysboard/issues/17
+
+{Embed}
+https://github.com/Milerius/komodo-ecosysboard/issues/17
+[external package]: review fasthttp · Issue #17 · Milerius/komod...
+Hello I use fasthttp especially for its ease of use, low memory consumption and speed Repository: https://github.com/valyala/fasthttp Additional: https://github.com/fasthttp/router Benchmark: https...
+https://images-ext-1.discordapp.net/external/zLcyGYozrbjKY3UGH_9M5e2phOzgjnMLCfPiv_Pn16w/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21139416
+
+
+[24-Jul-19 08:35 AM] Deleted User#0000
+I want to know and control every single line of code
+
+
+[24-Jul-19 08:35 AM] Slyris#2880
+Well this is true but in a langage like Golang you won't do this.
+
+
+[24-Jul-19 08:35 AM] Slyris#2880
+Especially when you write webapp
+
+
+[24-Jul-19 08:35 AM] Slyris#2880
+If you need some speed and low memory consumption
+
+
+[24-Jul-19 08:36 AM] Deleted User#0000
+py is very very light
+
+
+[24-Jul-19 08:36 AM] Slyris#2880
+It's will take years to recode from scratch a package that have the quality of fasthttp
+
+
+[24-Jul-19 08:37 AM] Deleted User#0000
+yeah but don t forget that some parts are not intended to be ran on individual computers, users gathering data makes no sense, nodes do
+
+
+[24-Jul-19 08:37 AM] Deleted User#0000
+and nodes at least have a dedicated core and a little amount of ram
+
+
+[24-Jul-19 08:37 AM] Deleted User#0000
+core or thread, but it depens on what you want to achieve
+
+
+[24-Jul-19 08:38 AM] Slyris#2880
+Yeah I perfectly understand.
+
+
+[24-Jul-19 08:38 AM] Slyris#2880
+But I'm rewriting from scratch only when it's totally needed like writting a specific algorithm
+
+
+[24-Jul-19 08:38 AM] Deleted User#0000
+then auditing is key :)
+
+
+[24-Jul-19 08:38 AM] Slyris#2880
+That's why I opened the issue
+
+
+[24-Jul-19 08:38 AM] Slyris#2880
+For the security team
+
+
+[24-Jul-19 08:39 AM] Deleted User#0000
+yeah
+
+
+[24-Jul-19 08:39 AM] Slyris#2880
+With all my explanation
+
+
+[24-Jul-19 08:39 AM] Slyris#2880
+I carefully choose my dependencies
+
+
+[24-Jul-19 08:39 AM] Slyris#2880
+And I lock specific commit, they are not revertable or falsifiable.
+
+
+[24-Jul-19 08:39 AM] Deleted User#0000
+even py use some like requests or all, but ad long as it s a core one and not an external one it s safer
+
+
+[24-Jul-19 08:39 AM] Slyris#2880
+Advantage of Golang modules.
+
+
+[24-Jul-19 08:40 AM] Deleted User#0000
+I should really look at this
+
+
+[24-Jul-19 08:40 AM] Slyris#2880
+https://github.com/Milerius/komodo-ecosysboard/blob/master/go.sum
+
+{Embed}
+https://github.com/Milerius/komodo-ecosysboard/blob/master/go.sum
+Milerius/komodo-ecosysboard
+Contribute to Milerius/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/zLcyGYozrbjKY3UGH_9M5e2phOzgjnMLCfPiv_Pn16w/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21139416
+
+
+[24-Jul-19 08:40 AM] Deleted User#0000
+thanks, will look at that overnight
+
+
+[24-Jul-19 08:41 AM] Deleted User#0000
+if you re french maybe we can also discuss easily ^^
+
+
+[24-Jul-19 08:41 AM] Deleted User#0000
+my english is not perfect
+
+
+[24-Jul-19 08:41 AM] Slyris#2880
+I am.
+
+
+[24-Jul-19 08:41 AM] Slyris#2880
+#french  then.
+
+
+[24-Jul-19 08:42 AM] Deleted User#0000
+got a meeting in a few minutes but am avail like 16+ hours a day so we ll chat :)
+
+
+[24-Jul-19 08:43 AM] Slyris#2880
+Ok !
+
+
+[24-Jul-19 08:43 AM] Deleted User#0000
+@owerache is my apimaster, am more a sysguy
+
+
+[24-Jul-19 08:43 AM] Deleted User#0000
+he also speaks french btw
+
+
+[24-Jul-19 08:44 AM] Deleted User#0000
+but any idea or project enhancing KMD is good to participate
+
+
+[24-Jul-19 08:51 AM] owerache#0341
+Hi 😃
+
+
+[24-Jul-19 08:54 AM] Slyris#2880
+im on my computer now
+
+
+[24-Jul-19 08:54 AM] Slyris#2880
+time to work 😄
+
+
+[24-Jul-19 08:54 AM] Slyris#2880
+@bitdev are you still here ?
+
+
+[24-Jul-19 09:52 AM] bitdev#6297
+@Slyris 👍
+
+
+[24-Jul-19 10:27 AM] CHMEX#0686
+@Slyris 
+https://pirate.explorer.dexstats.info/api/supply
+Might be helpful to enrich it with totalsupply info.
+I can deploy it to all explorers.
+
+
+[24-Jul-19 10:29 AM] CHMEX#0686
+And there is extended info
+http://api1.barterdexapi.net/supply.php?coin=KMD&format=json
+With I think I can also make accessable via explorer
+
+
+[24-Jul-19 10:55 AM] Slyris#2880
+@CHMEX I'm using dextats explorer so it's should work
+
+
+[24-Jul-19 10:56 AM] Slyris#2880
+Can you open issue with this feature request so i let you know when i implement it
+
+
+[24-Jul-19 11:01 AM] CHMEX#0686
+Ok will do
+
+
+[24-Jul-19 11:23 AM] Slyris#2880
+https://github.com/Milerius/komodo-ecosysboard/issues @CHMEX
+
+{Embed}
+https://github.com/Milerius/komodo-ecosysboard/issues
+Milerius/komodo-ecosysboard
+Contribute to Milerius/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/zLcyGYozrbjKY3UGH_9M5e2phOzgjnMLCfPiv_Pn16w/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21139416
+
+
+[24-Jul-19 11:40 AM] Slyris#2880
+@ca333 Added you to a coin review for supply support
+
+@CHMEX Youre feature is implemented and under review.
+
+{Reactions}
+✅ 
+
+[24-Jul-19 11:41 AM] Slyris#2880
+https://github.com/Milerius/komodo-ecosysboard/pull/21
+
+{Embed}
+https://github.com/Milerius/komodo-ecosysboard/pull/21
+feat(supply): add supply support through dextats api by Milerius ...
+Add units tests
+Add Pirate blockchain support
+https://images-ext-1.discordapp.net/external/zLcyGYozrbjKY3UGH_9M5e2phOzgjnMLCfPiv_Pn16w/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/21139416
+
+
+[24-Jul-19 11:47 AM] Slyris#2880
+For the next features you want to see in the `komodo coinmarketcap` like thanks to open issues in the github repository with your ideas so that we can not forget them, it allows to have a discussion follow even if we can also talk about discord.
+
+
+[24-Jul-19 12:19 PM] Slyris#2880
+@CHMEX You're feature is done and in master branch
+
+
+[24-Jul-19 12:37 PM] Slyris#2880
+@Audo Hello
+
+
+[24-Jul-19 12:37 PM] Slyris#2880
+Do you have a link for downloading the core ui pro paid assets ?
+
+
+[24-Jul-19 12:37 PM] Slyris#2880
+So i can start putting it in the repository
+
+
+[24-Jul-19 12:57 PM] jacman#4756
+I’ve never heard of this project before? Is this an open source decentralized version of coinmarketcap?
+
+
+[24-Jul-19 01:06 PM] Slyris#2880
+Not exactly is an open source coinmarketcap of komodo ecosystem related chains, coins, currency, tokens
+
+
+[24-Jul-19 01:06 PM] Slyris#2880
+@jacman
+
+
+[24-Jul-19 01:07 PM] Slyris#2880
+The channel is open since today only, that's why.
+
+
+[24-Jul-19 02:51 PM] Audo#5667
+@Mylo , do you have the core UI assets? Can you forward them to @Slyris ?
+
+
+[24-Jul-19 02:52 PM] Audo#5667
+@jacman the vision of this project is to become a dashboard that showcases Komodo ecosystem.
+
+
+[24-Jul-19 10:51 PM] Mylo#8306
+i have a licensed version of the coreui stuff, cannot be made open source.   what assets are required specifically?
+
+
+[24-Jul-19 10:52 PM] Mylo#8306
+@Slyris
+
+
+[24-Jul-19 10:53 PM] Mylo#8306
+all the components are in the github repo, not sure what framework.   demo of f/oss version: https://coreui.io/demo/#main.html
+
+{Embed}
+https://coreui.io/demo/
+CoreUI Pro Bootstrap Admin Template
+CoreUI - Open Source Bootstrap Admin Template
+
+
+[24-Jul-19 10:54 PM] Mylo#8306
+html src:  https://github.com/coreui/coreui-free-bootstrap-admin-template/tree/master/src
+
+{Embed}
+https://github.com/coreui/coreui-free-bootstrap-admin-template/tree/master/src
+coreui/coreui-free-bootstrap-admin-template
+CoreUI is free bootstrap admin template. Contribute to coreui/coreui-free-bootstrap-admin-template development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/3rlaqxvIoN74q1tXdtihaIUIGuRXlqZ9oyXhNzmu0t0/%3Fs%3D400%26v%3D4/https/avatars1.githubusercontent.com/u/36859861
+
+
+[24-Jul-19 10:56 PM] Slyris#2880
+I don't know yet but you can push in private repository?
+
+
+[24-Jul-19 10:57 PM] Slyris#2880
+Let's test with the angular template
+
+
+[24-Jul-19 10:57 PM] Slyris#2880
+With the dark paid version
+
+
+[24-Jul-19 10:58 PM] Slyris#2880
+So you invite me in a private repository
+
+{Reactions}
+👍 
+
+[25-Jul-19 02:25 AM] owerache#0341
+Ahh
+
+
+[25-Jul-19 03:12 AM] Slyris#2880
+@ca333 My push doesn't appear in the #feed-github channel
+
+
+[25-Jul-19 03:16 AM] Slyris#2880
+can you configure https://github.com/apps/report-ci/installations/new please for KomodoPlatform
+
+
+[25-Jul-19 03:38 AM] ca333#0333
+will check it
+
+
+[25-Jul-19 05:19 AM] dukeleto#7326
+This looks like a cool project, and of course HUSH is interested to be part of it 👍
+
+{Reactions}
+💯 
+
+[25-Jul-19 05:54 AM] Slyris#2880
+@dukeleto Thank's ! Since i'm new i dont who is HUSH ^^'
+
+
+[25-Jul-19 05:58 AM] Slyris#2880
+I started implemented git stats services in the backend @Mylo https://github.com/KomodoPlatform/komodo-ecosysboard/pull/2
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/pull/2
+feat(git stats) by Milerius · Pull Request #2 · KomodoPlatform/k...
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[25-Jul-19 06:06 AM] dukeleto#7326
+@Slyris https://www.coingecko.com/en/coins/hush
+
+{Embed}
+https://www.coingecko.com/en/coins/hush
+Hush (HUSH) price, marketcap, chart, and fundamentals info | CoinGecko
+Get live charts for Hush (HUSH) price, volume, coin market cap, supply, exchanges, historical statistics and key fundamentals. Change chart range, track developer and social activities, and compare Hush against other cryptocurrencies.
+https://images-ext-1.discordapp.net/external/qE-ZVr6k-uxfDo_iP12iKfQDwrsDKiR2RhE8Yeyajpg/%3F1547034472/https/assets.coingecko.com/coins/images/701/large/hush.png
+
+
+[25-Jul-19 06:07 AM] Slyris#2880
+It's a coin from the komodo ecosystem ?
+
+
+[25-Jul-19 06:07 AM] dukeleto#7326
+respect for writing this in Go!
+
+
+[25-Jul-19 06:07 AM] Slyris#2880
+https://coinpaprika.com/coin/hush-hush/
+
+{Embed}
+https://coinpaprika.com/coin/hush-hush/
+Hush (HUSH) Price, Charts, Market Cap, Markets, Exchanges, HUSH to...
+Hush Price Chart | Market Capitalization | HUSH to USD Calculator | HUSH ROI Calculator | News | Description | Team | Related Events | Community | Similar coins to Hush HUSH
+https://images-ext-1.discordapp.net/external/L4rt85tbpI3R7EV1l4ccgSr-gXaEaeKOQag7rvJBa8o/https/static2.coinpaprika.com/coin/hush-hush/card.png
+
+
+[25-Jul-19 06:07 AM] dukeleto#7326
+@Slyris yes, it's a KMD "smart chain" and I am also a KMD developer
+
+
+[25-Jul-19 06:07 AM] Slyris#2880
+Ok i will add support for it thank's
+
+
+[25-Jul-19 06:07 AM] dukeleto#7326
+https://coinmarketcap.com/currencies/hush/
+
+{Embed}
+https://coinmarketcap.com/currencies/hush/
+Hush (HUSH) price, charts, market cap, and other metrics | CoinMar...
+Get Hush price, charts, and other cryptocurrency info
+https://images-ext-1.discordapp.net/external/nJcLhoqrBzcJOiV7PfMldSgwf84p5gyZe8yD_cn4RjI/https/s2.coinmarketcap.com/static/img/coins/200x200/1466.png
+
+
+[25-Jul-19 06:07 AM] Slyris#2880
+I'm using coinpaprika api
+
+
+[25-Jul-19 06:08 AM] Slyris#2880
+so i will use information from coinpaprika
+
+
+[25-Jul-19 06:08 AM] dukeleto#7326
+@Slyris groovy, i have used coingecko api before
+
+
+[25-Jul-19 06:08 AM] dukeleto#7326
+coinpaprika seems nice too
+
+
+[25-Jul-19 06:08 AM] Slyris#2880
+i had some problems with coingecko
+
+
+[25-Jul-19 06:08 AM] Slyris#2880
+with their new version
+
+
+[25-Jul-19 06:08 AM] Slyris#2880
+i switched to coinpaprika according to @ca333
+
+
+[25-Jul-19 06:08 AM] dukeleto#7326
+This is our main repo, which is a "smart chain" AND also a source code fork of KMD (like VRSC) : https://github.com/MyHush/hush3
+
+{Embed}
+https://github.com/MyHush/hush3
+MyHush/hush3
+HUSH fork of KMD. Contribute to MyHush/hush3 development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/4gOX1fKM3QTa9jA_3FPIPM25wLL4gEO1nxlUEoeFbQ0/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/26923909
+
+
+[25-Jul-19 06:08 AM] Slyris#2880
+Great, thank's a lot for this information i will add it in the repository
+
+
+[25-Jul-19 06:09 AM] dukeleto#7326
+all commits in that github org can be counted, the `MyHush` org
+
+
+[25-Jul-19 06:09 AM] dukeleto#7326
+if you can't count for an entire org, i can give you a list of repos
+
+
+[25-Jul-19 06:09 AM] Slyris#2880
+I support only list of public repository
+
+
+[25-Jul-19 06:09 AM] Slyris#2880
+for the moment
+
+
+[25-Jul-19 06:09 AM] Slyris#2880
+for the git stats pull request
+
+
+[25-Jul-19 06:09 AM] dukeleto#7326
+ok, no worries. How many repos is reasonable?
+
+
+[25-Jul-19 06:09 AM] dukeleto#7326
+most of our commits are in maybe 5 repos, but we have a few dozen
+
+
+[25-Jul-19 06:09 AM] Slyris#2880
+Unlimited
+
+
+[25-Jul-19 06:10 AM] dukeleto#7326
+ok, i can get you a list
+
+
+[25-Jul-19 06:10 AM] Slyris#2880
+It's will be stored in a cache anyway
+
+
+[25-Jul-19 06:10 AM] dukeleto#7326
+ok, groovy. It sounds like you know what you are doing, which is nice 😃
+
+
+[25-Jul-19 06:10 AM] Slyris#2880
+Neat
+
+
+[25-Jul-19 06:10 AM] Slyris#2880
+Can you open an issue @dukeleto  With all informations and list ?
+
+
+[25-Jul-19 06:11 AM] Slyris#2880
+github.com/KomodoPlatform/komodo-ecosysboard/
+
+
+[25-Jul-19 06:12 AM] Slyris#2880
+@ca333 Seem's issue are not enabled on the repo: `github.com/KomodoPlatform/komodo-ecosysboard/`
+
+
+[25-Jul-19 06:16 AM] ca333#0333
+enabled @Slyris
+
+
+[25-Jul-19 06:16 AM] Slyris#2880
+Thank's
+
+
+[25-Jul-19 06:16 AM] Slyris#2880
+Now that you talk to me about sideschains like `HUSH` I wonder if I'd be better off associating a repo list with an organization
+
+
+[25-Jul-19 06:17 AM] Slyris#2880
+Such has
+```json
+{
+[
+   "KomodoPlatform": ["repo1", "repo2"],
+   "Hush": ["repo1", "repo2"]
+]
+}
+```
+
+
+[25-Jul-19 06:19 AM] ca333#0333
+for most ecosystem projects the `KomodoPlatform` org will cover it. 
+For a few projects like VRSC and HUSH this is necessary - yes.
+
+
+[25-Jul-19 06:19 AM] Slyris#2880
+Because for the moment we have:
+
+```json
+"git_repos_list": [
+    "https://github.com/pbca26/komodo-omni-explorer.git",
+    "https://github.com/jl777/komodo.git",
+    "https://github.com/KomodoPlatform/atomicDEX-API.git",
+    "https://github.com/KomodoPlatform/BarterDEX.git",
+    "https://github.com/atomiclabs/hyperdex.git",
+    "https://github.com/jl777/chips3.git",
+    "https://github.com/jl777/chipsln.git",
+    "https://github.com/sg777/bet.git",
+    "https://github.com/jl777/coins.git",
+    "https://github.com/KomodoPlatform/Mastering_CryptoConditions.git",
+    "https://github.com/KomodoPlatform/dicoapp-e.git",
+    "https://github.com/KomodoPlatform/developer-docs.git",
+    "https://github.com/KomodoPlatform/Documentation.git",
+    "https://github.com/DeckerSU/komodo-explorers-install.git",
+    "https://github.com/DeckerSU/KomodoOcean.git",
+    "https://github.com/KomodoPlatform/marketmaker-cli.git",
+    "https://github.com/blackjok3rtt/ScaleTestV2.git",
+    "https://github.com/patchkez/scaletest_containers.git",
+    "https://github.com/smk762/txscl_vis.git",
+    "https://github.com/Meshbits/TxBlaster.git",
+    "https://github.com/webworker01/knomp.git",
+    "https://github.com/pbca26/agama-mobile.git",
+    "https://github.com/pbca26/agama-web.git",
+    "https://github.com/KomodoPlatform/EasyDEX-GUI.git",
+    "https://github.com/KomodoPlatform/Agama.git"
+  ]
+```
+
+
+[25-Jul-19 06:20 AM] Slyris#2880
+Which are not specified to an specific Organisation
+
+
+[25-Jul-19 06:20 AM] ca333#0333
+however, we can list project-specific git-status for such projects - BUT i want the sum of all commits and stats to be under the "KomodoPlatform" umbrella since its the "mothership".
+
+
+[25-Jul-19 06:21 AM] Slyris#2880
+ok great
+
+
+[25-Jul-19 06:21 AM] Slyris#2880
+is RedFox considered as a part of KomodoPlatform ?
+
+
+[25-Jul-19 06:21 AM] Slyris#2880
+for example
+
+
+[25-Jul-19 06:21 AM] ca333#0333
+its an ecosystem project ("Smart Chain") - yes
+
+
+[25-Jul-19 06:22 AM] Slyris#2880
+```json
+"coins": [
+    {
+      "coin": "kmd",
+      "coin_paprika_id": "kmd-komodo",
+     "mothership": "KomodoPlatform"
+    }
+```
+
+so i will change the structure to that for example
+
+
+[25-Jul-19 06:22 AM] Slyris#2880
+so "hush" will be associated to his platform
+
+
+[25-Jul-19 06:23 AM] ca333#0333
+this split wont be really necessary - so you dont have to restructure according to the above struct
+
+In fact KMD is the mothership of all ecosystem projects - even VRSC or HUSH
+
+
+[25-Jul-19 06:24 AM] Slyris#2880
+yes but when someone will click on the komodo page he wont see the github pages of HUSH
+
+
+[25-Jul-19 06:24 AM] Slyris#2880
+it's what i mean
+
+
+[25-Jul-19 06:24 AM] ca333#0333
+yes - we agree on this.
+
+
+[25-Jul-19 06:24 AM] Slyris#2880
+so We need to find a way of association
+
+
+[25-Jul-19 06:25 AM] Slyris#2880
+that fit to everyone
+
+
+[25-Jul-19 06:27 AM] ca333#0333
+so we are likely looking for :
+
+```
+"coins": [
+    {
+      "coin": "kmd",
+      "coin_paprika_id": "kmd-komodo",
+     "git": []
+    }
+```
+
+where `git` is an array of github repo URLs.
+
+
+[25-Jul-19 06:27 AM] Slyris#2880
+ok
+
+
+[25-Jul-19 06:27 AM] Slyris#2880
+some coins will have same repository alright ?
+
+
+[25-Jul-19 06:28 AM] Slyris#2880
+anyway i already handle this kind of configuration:
+
+```go
+else {
+        _ = glg.Infof("Repository %s already cloned", urlRepo)
+    }
+```
+
+
+[25-Jul-19 06:29 AM] ca333#0333
+for sake of non-redundancy we can flag ecosys projects that reuse the komodo repos and dont have an own git account so we dont have to repeat same config entry.
+
+
+[25-Jul-19 06:29 AM] ca333#0333
+it would also be interesting to see actually
+
+
+[25-Jul-19 06:30 AM] ca333#0333
+which projects have their own repos and codes, wallets, tools, etc. and which projects dont...
+
+
+[25-Jul-19 06:30 AM] dukeleto#7326
+@Slyris it would be smart of your code to know the difference between a pure smart chain and a source fork
+
+
+[25-Jul-19 06:30 AM] dukeleto#7326
+VRSC and HUSH are source forks, maybe you could consider PIRATE one, but mostly they use the main KMD repo. Pirate does have it's own github org, tho
+
+
+[25-Jul-19 06:33 AM] jl777c#5810
+missing my libnspv repo
+
+{Reactions}
+👆 (3) 
+
+[25-Jul-19 06:34 AM] ca333#0333
+yes - lets add `source_fork: bool isSourceFork`
+
+
+[25-Jul-19 06:35 AM] ca333#0333
+so VRSC and HUSH are `true` - rest should be false.
+
+
+[25-Jul-19 06:35 AM] dukeleto#7326
+@Slyris https://github.com/KomodoPlatform/komodo-ecosysboard/issues/3
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/issues/3
+Add HUSH · Issue #3 · KomodoPlatform/komodo-ecosysboard
+The entire Hush github org would be best: https://github.com/MyHush/ If that is not possible: https://github.com/MyHush/hush https://github.com/MyHush/hush3 https://github.com/MyHush/SilentDragon h...
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[25-Jul-19 06:36 AM] ca333#0333
+i use KMD codebase for my PIRATE nodes - so should be safe to set ARRR to `false`
+
+
+[25-Jul-19 06:38 AM] dukeleto#7326
+@ca333 is SAFE considered an Antara Smart Chain? :troll_compadre:
+
+{Reactions}
+😂 troll_king troll_lol 
+
+[25-Jul-19 06:50 AM] Slyris#2880
+such as: https://api.github.com/orgs/KomodoPlatform/repos ?
+
+
+[25-Jul-19 06:50 AM] Slyris#2880
+@ca333
+
+
+[25-Jul-19 07:00 AM] ca333#0333
+yes exactly @Slyris
+
+
+[25-Jul-19 07:00 AM] Slyris#2880
+Great i got it 😃
+
+
+[25-Jul-19 07:01 AM] Slyris#2880
+But what if fork collapse with Org @ca333  ?
+
+
+[25-Jul-19 07:01 AM] Slyris#2880
+Such has @jl777c  we prefer use his repo of komodo instead of the one from the org
+
+
+[25-Jul-19 07:02 AM] ca333#0333
+lets list both in this special case - jl777 repos are considered the dev-repos while on KP we host the official/production repos.
+
+
+[25-Jul-19 07:05 AM] Slyris#2880
+ok
+
+
+[25-Jul-19 07:05 AM] Slyris#2880
+so i will clone into Org/UserName repos then.
+
+
+[25-Jul-19 07:45 AM] Slyris#2880
+@ca333 GitHub Apps making server-to-server requests use the installation's minimum rate limit of 5,000 requests per hour. Organization installations with more than 20 users receive another 50 requests per hour for each user. Installations that have more than 20 repositories receive another 50 requests per hour for each repository. The maximum rate limit for an installation is 12,500 requests per hour.
+
+
+i Will fetch data only one time per hour ok ?
+
+{Reactions}
+✅ 
+
+[25-Jul-19 07:46 AM] Slyris#2880
+Becuase it's does lot of request
+
+
+[25-Jul-19 07:47 AM] ca333#0333
+once an hour is fine for now - but lets target `"real-time"` for the future
+
+
+[25-Jul-19 07:48 AM] Slyris#2880
+How can we target real time if github is limiting our request rates
+
+
+[25-Jul-19 07:48 AM] Slyris#2880
+i mean we will reach it so fast
+
+
+[25-Jul-19 07:49 AM] ca333#0333
+Integrating the github-stats fetcher into ecosys-board instead of using github API. 
+e.g. you can fetch any website low-level (curl, etc.) and parse it however you want - this means we could be fetching any github org page and parsing it in html to get all repositories recursively, etc.
+
+
+[25-Jul-19 07:50 AM] Slyris#2880
+Ah yeah we will do that later
+
+
+[25-Jul-19 07:50 AM] ca333#0333
+so as you can see: realtime is possible, not even hard to implement - even if we had to write our own github page parser
+
+
+[25-Jul-19 07:50 AM] Slyris#2880
+Ok it's not urgent for the moment i think
+
+
+[25-Jul-19 07:51 AM] ca333#0333
+but for now we can use all these 3rd party APIs for everything
+
+
+[25-Jul-19 07:51 AM] ca333#0333
+exactly - for now we just want to get the base system up and running.
+
+
+[25-Jul-19 07:51 AM] ca333#0333
+and from there we can keep optimizing such things
+
+
+[25-Jul-19 07:51 AM] Slyris#2880
+oki :^
+
+
+[25-Jul-19 11:56 AM] Slyris#2880
+@ca333 The review is big now sorry
+
+
+[25-Jul-19 11:56 AM] Slyris#2880
+was working since 3 hours on the pull feature '_' and api rate limit from github
+
+{Reactions}
+✅ 
+
+[25-Jul-19 12:57 PM] ca333#0333
+don't worry - will review shortly.
+
+
+[25-Jul-19 10:58 PM] Slyris#2880
+hello
+
+
+[25-Jul-19 10:58 PM] Slyris#2880
+are you here @ca333 I got few questions for the next steps
+
+
+[25-Jul-19 11:58 PM] ca333#0333
+next steps: we stop feature-additions and start with the frontend-layer. Do we have interested parties for the bounty task? i.e. have you already been contacted by potential webdevs?
+
+
+[26-Jul-19 12:08 AM] smkhound#7640
+I've installed it, updating server to 18.04 at the moment and aim to chip away at it over the weekend
+
+{Reactions}
+💯 
+
+[26-Jul-19 12:09 AM] smkhound#7640
+I wont run for bouty tho, still encourage other webdevs to have a crack
+
+
+[26-Jul-19 12:10 AM] smkhound#7640
+looking at django + core-ui
+
+
+[26-Jul-19 12:11 AM] ca333#0333
+@Slyris todays workpackage:
+
+a) get a responsive reactJS skeleton set up for the landing page view (smartchain table/list)
+b) integrate https://coreui.io/demo/#main.html and make sure the frontend is responsive
+
+Details we do want in a) are coinname, marketcap, coin supply (circulating), 24h volume, 24 price change, price per coin, dPoW status (green or red), current height, and last but not least the dPoW gap (time since last notarization)
+
+{Embed}
+https://coreui.io/demo/
+CoreUI Pro Bootstrap Admin Template
+CoreUI - Open Source Bootstrap Admin Template
+
+
+[26-Jul-19 12:12 AM] ca333#0333
+awesome @smkhound - feel free to run for the bounty tho - if the result is good and useable for production why not.
+
+
+[26-Jul-19 12:12 AM] smkhound#7640
+I'll let you know how it goes, always nice to attract some fresh blood too!
+
+
+[26-Jul-19 12:13 AM] smkhound#7640
+I've PR'd some deps to the readme
+
+{Reactions}
+👌 
+
+[26-Jul-19 12:44 AM] turinglabs#2390
+I'm in @ca333
+
+
+[26-Jul-19 12:46 AM] turinglabs#2390
+So we need to implement that template?
+
+
+[26-Jul-19 12:47 AM] turinglabs#2390
+There's a final web design made in Photoshop or something like that? Just to understand better how will should look like at the end
+
+
+[26-Jul-19 12:54 AM] ca333#0333
+@turinglabs you re planning to do it with react?
+
+
+[26-Jul-19 12:54 AM] turinglabs#2390
+It will be faster with vuejs, but if you prefer react I can do with it
+
+
+[26-Jul-19 12:56 AM] turinglabs#2390
+At the end the result will be the same I think
+
+
+[26-Jul-19 12:57 AM] ca333#0333
+vueJS is fine too @turinglabs
+
+
+[26-Jul-19 12:57 AM] ca333#0333
+this is basically the first step: https://discordapp.com/channels/412898016371015680/597801063042646026/604209147935981580
+
+
+[26-Jul-19 12:57 AM] turinglabs#2390
+Perfect!
+
+
+[26-Jul-19 12:57 AM] ca333#0333
+what i want is a list view landing page - similar to : https://coinmarketcap.com
+
+{Embed}
+https://coinmarketcap.com
+Cryptocurrency Market Capitalizations | CoinMarketCap
+Cryptocurrency market cap rankings, charts, and more
+https://images-ext-1.discordapp.net/external/lAdplApWkInLyRou_ZRB9R_3Sb1ljh0jRzCi2zehyxY/https/s2.coinmarketcap.com/static/cloud/img/splash_600x315_1.png
+
+
+[26-Jul-19 12:58 AM] ca333#0333
+we want to base it on https://coreui.io/demo/#main.html  (darkish and in allignment with our vizuals - like: https://komodoplatform.com)
+
+{Embed}
+https://coreui.io/demo/
+CoreUI Pro Bootstrap Admin Template
+CoreUI - Open Source Bootstrap Admin Template
+
+
+[26-Jul-19 12:58 AM] turinglabs#2390
+Ok
+
+
+[26-Jul-19 12:58 AM] ca333#0333
+once the dashboard view is done - let me have a look on it. i will provide you a github repo shortly.
+
+
+[26-Jul-19 12:58 AM] ca333#0333
+whats your git alias?
+
+
+[26-Jul-19 12:58 AM] turinglabs#2390
+turinglabsorg
+
+
+[26-Jul-19 12:59 AM] turinglabs#2390
+Same avatar
+
+
+[26-Jul-19 01:00 AM] ca333#0333
+https://github.com/KomodoPlatform/coincap/invitations
+
+
+[26-Jul-19 01:00 AM] ca333#0333
+happy coding!
+
+
+[26-Jul-19 01:00 AM] ca333#0333
+@Slyris plz ignore the request above - you re lucky. @turinglabs took over frontend dev.
+
+
+[26-Jul-19 01:01 AM] turinglabs#2390
+Thank you!
+
+
+[26-Jul-19 01:01 AM] ca333#0333
+@turinglabs the API and API doc are pinned in this channel
+
+
+[26-Jul-19 01:02 AM] turinglabs#2390
+Perfect, I will give updates during the day
+
+
+[26-Jul-19 01:02 AM] ca333#0333
+excellent - thanks!
+
+
+[26-Jul-19 01:58 AM] Slyris#2880
+@ca333 What do we do with the pull request github stats for now? It also contains fix devops
+
+
+[26-Jul-19 02:04 AM] Slyris#2880
+@smkhound Look the comments on your pull request, now we work on the repository on KomodoPlatform organization
+
+{Reactions}
+👍🏼 
+
+[26-Jul-19 02:06 AM] Slyris#2880
+The pull request also contains all the path import fixes that were on my other repository
+
+
+[26-Jul-19 02:07 AM] Slyris#2880
+As golang imports use the user's name I had to change `Milerius` for `KomodoPlatform`
+
+
+[26-Jul-19 02:07 AM] ca333#0333
+check the PR @Slyris - added comments on what needs to be changed.
+
+
+[26-Jul-19 02:08 AM] Slyris#2880
+I do it immediatly.
+
+{Reactions}
+👍 
+
+[26-Jul-19 02:14 AM] Slyris#2880
+@ca333 pushed.
+
+{Reactions}
+👍 
+
+[26-Jul-19 02:30 AM] Slyris#2880
+@turinglabs There will be an addition in the configuration to add the path to the frontend folder (to serve the index.html)
+
+
+[26-Jul-19 02:31 AM] Slyris#2880
+Nevertheless, there are solutions to overcome such as packer or appimage if we want a single binary
+
+
+[26-Jul-19 02:34 AM] Slyris#2880
+I forget to squash '_'
+
+
+[26-Jul-19 02:44 AM] turinglabs#2390
+@Slyris frontend and backend will be in the same server?
+
+
+[26-Jul-19 02:54 AM] Slyris#2880
+@turinglabs I think it's better
+
+
+[26-Jul-19 02:54 AM] Slyris#2880
+@turinglabs And how can i serve the files if we are not in the same server
+
+
+[26-Jul-19 02:55 AM] Slyris#2880
+https://github.com/tdewolff/go-vue-template it's looke like this
+
+{Embed}
+https://github.com/tdewolff/go-vue-template
+tdewolff/go-vue-template
+Go backend and Vue frontend template with social logins - tdewolff/go-vue-template
+https://images-ext-1.discordapp.net/external/jHaz198FDH99tC2Vdbe_5eaVo_CcebFDpQd_pvd_JFU/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/5563166
+
+
+[26-Jul-19 02:55 AM] Slyris#2880
+with vue
+
+
+[26-Jul-19 02:57 AM] Slyris#2880
+you build to a folder like "web/dist" and i serve this folder
+
+
+[26-Jul-19 02:57 AM] Slyris#2880
+For development mode you launch both app and the front end call the back-end layer
+
+
+[26-Jul-19 02:57 AM] Slyris#2880
+Everything is explained in the readme from this repository it's really simple !
+
+
+[26-Jul-19 03:02 AM] ca333#0333
+@Slyris it should be fully up to @turinglabs how to implement it. i.e. since the ecosys-board is a normal API he can just grab the data from there without having to use the go-vue-template
+
+
+[26-Jul-19 03:02 AM] ca333#0333
+i.e. the frontend is completely independent of the backend.
+
+
+[26-Jul-19 03:02 AM] Slyris#2880
+he dont have to use the template, it's just an example ^^'
+
+
+[26-Jul-19 03:03 AM] Slyris#2880
+Usually once the frontend is builded, i serve the folder and everything work, but if there is another solution i trust him
+
+
+[26-Jul-19 03:03 AM] ca333#0333
+`you build to a folder like "web/dist" and i serve this folder` - this sounded irritating. The backend is an API so he can grab the data from the endpoints on a specific host:port but not on a folder.
+
+
+[26-Jul-19 03:04 AM] Slyris#2880
+Okok !
+
+{Reactions}
+👍 
+
+[26-Jul-19 03:04 AM] Slyris#2880
+I trust him anyway it's not my part ^^'
+
+
+[26-Jul-19 03:04 AM] Slyris#2880
+So i revert the change of my commits wait
+
+
+[26-Jul-19 03:05 AM] turinglabs#2390
+@Slyris you are right
+
+
+[26-Jul-19 03:05 AM] turinglabs#2390
+vuejs create a build which have to be served statically
+
+
+[26-Jul-19 03:06 AM] Slyris#2880
+as you wish ^^'
+
+
+[26-Jul-19 03:07 AM] Slyris#2880
+i let the decision between you and @ca333
+
+
+[26-Jul-19 03:07 AM] Slyris#2880
+I will adapt my self to the solution
+
+
+[26-Jul-19 03:07 AM] ca333#0333
+you re misunderstanding this @turinglabs - the frontend has to be fully independent of the backend. The backend will NOT serve static data on a specific folder.
+
+
+[26-Jul-19 03:07 AM] ca333#0333
+Data is available through API endpoint - your frontend will fetch this data from the API endpoint.
+
+
+[26-Jul-19 03:08 AM] ca333#0333
+we will not create a combined app out of the backend/frontend. So this is also not necessarily on the same server.
+
+
+[26-Jul-19 03:08 AM] turinglabs#2390
+sure they're independent, but the files should be somewhere if they have to be accessible from an URL
+
+
+[26-Jul-19 03:08 AM] ca333#0333
+We re going to keep this split clean.
+
+
+[26-Jul-19 03:08 AM] turinglabs#2390
+sure sure, i know that
+
+
+[26-Jul-19 03:10 AM] ca333#0333
+yes thats clear - the frontend gets served to a specific endpoint. But the backend will not serve the data to a static dir like its been posted above.
+
+
+[26-Jul-19 03:11 AM] Slyris#2880
+Ok everything is clear for me now
+
+
+[26-Jul-19 03:11 AM] Slyris#2880
+It's even more simple.
+
+
+[26-Jul-19 03:12 AM] Slyris#2880
+@turinglabs Let me know if you have trouble for build back-end for your testing
+
+
+[26-Jul-19 03:15 AM] ca333#0333
+I will supervise the frontend creation @Slyris - you can review the backend a last time, test it, make sure everything works as expected and then we will move to the next project.  For a quality sign off please contact @TonyL once you feel the backend is ready and have him run a final sign off test - he will let me know the status. DM me when you re done with this task.
+
+
+[26-Jul-19 03:16 AM] Slyris#2880
+I updated the readme
+
+
+[26-Jul-19 03:16 AM] Slyris#2880
+if we can merge it
+
+
+[26-Jul-19 03:16 AM] Slyris#2880
+it's the last instructions
+
+
+[26-Jul-19 03:16 AM] ca333#0333
+CC: @TonyL @smkhound ^
+
+{Reactions}
+👍 
+
+[26-Jul-19 03:17 AM] Slyris#2880
+Once the last pr is merged, the backend is ready for me.
+
+
+[26-Jul-19 03:17 AM] ca333#0333
+has someone verified the build-steps are accurate/functional on a fresh ENV ?
+
+
+[26-Jul-19 03:17 AM] Slyris#2880
+Not a human but travis did it each time ahah 😄
+
+{Reactions}
+😅 
+
+[26-Jul-19 03:18 AM] ca333#0333
+@TonyL or @smkhound please test https://github.com/KomodoPlatform/komodo-ecosysboard
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard
+KomodoPlatform/komodo-ecosysboard
+Contribute to KomodoPlatform/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Reactions}
+👍🏼 
+
+[26-Jul-19 03:18 AM] ca333#0333
+bots are sometimes more realiable than humans 😂 @Slyris
+
+{Reactions}
+😅 
+
+[26-Jul-19 03:18 AM] Slyris#2880
+any news about coverage @ca333  ?
+
+
+[26-Jul-19 03:18 AM] Slyris#2880
+still pending to unknown status
+
+
+[26-Jul-19 03:19 AM] ca333#0333
+will check that shortly @Slyris  - you re an admin on the repo btw - are you able to look into it?
+
+
+[26-Jul-19 03:19 AM] Slyris#2880
+configure button are untouchable for me
+
+
+[26-Jul-19 03:19 AM] Slyris#2880
+on my screen
+
+
+[26-Jul-19 03:19 AM] Slyris#2880
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/604256580313284628/Capture_decran_2019-07-26_a_12.19.43.png
+
+
+[26-Jul-19 03:19 AM] Slyris#2880
+i cannot configure anything.
+
+
+[26-Jul-19 03:20 AM] Slyris#2880
+And the org doesn't appear here, so it's like the app is not well installed or smth like this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/604256773095817216/Capture_decran_2019-07-26_a_12.20.08.png
+
+
+[26-Jul-19 03:20 AM] Slyris#2880
+(i already sync my team list)
+
+
+[26-Jul-19 03:25 AM] TonyL#3577
+I'm not with laptop right now, could you please try to build and run on your side @smkhound ?
+
+
+[26-Jul-19 03:26 AM] smkhound#7640
+yep, just spun a fresh 18.04 instance
+
+
+[26-Jul-19 03:31 AM] smkhound#7640
+how simple do you aim the readme to be? Link to `go` install?  Specify clone path?
+
+
+[26-Jul-19 03:31 AM] smkhound#7640
+or assume user knows what they are doing? 😄
+
+
+[26-Jul-19 03:32 AM] ca333#0333
+it should be straight forward and no one should have to use google to get it up and running.
+
+{Reactions}
+👍🏼 
+
+[26-Jul-19 05:04 AM] smkhound#7640
+``` go build -o komodo-ecosysboard komodo-ecosysboard/ecosysboard/ecosysboard
+can't load package: package komodo-ecosysboard/ecosysboard/ecosysboard: cannot find package "komodo-ecosysboard/ecosysboard/ecosysboard" in any of:
+        /usr/local/go/src/komodo-ecosysboard/ecosysboard/ecosysboard (from $GOROOT)
+        /home/wilburwildcatrose/go/src/komodo-ecosysboard/ecosysboard/ecosysboard (from $GOPATH)```
+@Slyris ☝🏼 
+Seems there is (or I have) a path issue
+
+
+[26-Jul-19 05:05 AM] Slyris#2880
+Hmm
+
+
+[26-Jul-19 05:05 AM] smkhound#7640
+```go build -o komodo-ecosysboard ecosysboard/ecosysboard
+can't load package: package ecosysboard/ecosysboard: cannot find package "ecosysboard/ecosysboard" in any of:
+        /usr/local/go/src/ecosysboard/ecosysboard (from $GOROOT)
+        /home/wilburwildcatrose/go/src/ecosysboard/ecosysboard (from $GOPATH)```
+
+
+[26-Jul-19 05:06 AM] Slyris#2880
+go build -o komodo-ecosysboard ecosysboard/ecosysboard
+
+
+[26-Jul-19 05:06 AM] smkhound#7640
+```~/go/src/github.com/KomodoPlatform/komodo-ecosysboard$ GO111MODULE=on go build -o komodo-ecosysboard ecosysboard/ecosysboard.
+go: finding github.com/stretchr/testify v1.3.0
+go: finding github.com/google/go-cmp v0.3.0
+go: finding github.com/kpango/glg v1.4.6
+go: finding github.com/valyala/fasthttp v1.4.0
+go: finding github.com/fasthttp/router v0.4.1
+go: finding github.com/klauspost/compress v1.4.0
+go: finding github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a
+go: finding github.com/klauspost/cpuid v0.0.0-20180405133222-e7e905edc00e
+go: finding github.com/valyala/bytebufferpool v1.0.0
+go: finding github.com/savsgio/gotils v0.0.0-20190714152828-365999d0a274
+go: finding github.com/davecgh/go-spew v1.1.0
+go: finding github.com/pmezard/go-difflib v1.0.0
+go: finding github.com/stretchr/objx v0.1.0
+go: finding golang.org/x/net v0.0.0-20180911220305-26e67e76b6c3
+go: finding github.com/kpango/fastime v1.0.15
+can't load package: package ecosysboard/ecosysboard.: unknown import path "ecosysboard/ecosysboard.": cannot find module providing package ecosysboard/ecosysboard.```
+
+
+[26-Jul-19 05:06 AM] smkhound#7640
+tried a few variations and paths under $GOPATH to put it in
+
+
+[26-Jul-19 05:06 AM] Slyris#2880
+the point
+
+
+[26-Jul-19 05:06 AM] Slyris#2880
+at the end
+
+
+[26-Jul-19 05:06 AM] Slyris#2880
+it's my bad
+
+
+[26-Jul-19 05:06 AM] Slyris#2880
+there is no point
+
+
+[26-Jul-19 05:07 AM] Slyris#2880
+you copy paste from the readme
+
+
+[26-Jul-19 05:07 AM] Slyris#2880
+with the point
+
+
+[26-Jul-19 05:07 AM] smkhound#7640
+I think even without there is prob, lemme try again
+
+
+[26-Jul-19 05:07 AM] Slyris#2880
+if you build without go module, you need to do `go get "url"` first
+
+
+[26-Jul-19 05:07 AM] smkhound#7640
+where should repo be cloned? and use `go get -u` or `git clone` ?
+
+
+[26-Jul-19 05:08 AM] Slyris#2880
+if you clone it
+
+
+[26-Jul-19 05:08 AM] Slyris#2880
+from everywhere
+
+
+[26-Jul-19 05:08 AM] Slyris#2880
+Use GO111MODULE
+
+
+[26-Jul-19 05:10 AM] smkhound#7640
+```wilburwildcatrose@instance-2:~$ rm -rf go
+wilburwildcatrose@instance-2:~$ go get -u github.com/KomodoPlatform/komodo-ecosysboard/ecosysboard
+wilburwildcatrose@instance-2:~$ GO111MODULE=on go build -o komodo-ecosysboard ecosysboard/ecosysboard
+can't load package: package ecosysboard/ecosysboard: unknown import path "ecosysboard/ecosysboard": cannot find module providing package ecosysboard/ecosysboard```
+
+
+[26-Jul-19 05:10 AM] Slyris#2880
+let me know if it's work now @smkhound
+
+
+[26-Jul-19 05:10 AM] Slyris#2880
+There is a misunderstanding
+
+
+[26-Jul-19 05:11 AM] smkhound#7640
+not sure I'm missing something elemental
+
+
+[26-Jul-19 05:11 AM] Slyris#2880
+If you use go get
+
+
+[26-Jul-19 05:11 AM] Slyris#2880
+you dont use go mod
+
+
+[26-Jul-19 05:11 AM] Slyris#2880
+if you git clone
+
+
+[26-Jul-19 05:11 AM] Slyris#2880
+you use go mod inside the cloned repository
+
+
+[26-Jul-19 05:11 AM] Slyris#2880
+steps are:
+
+- git clone
+- cd in the directory
+- build
+
+
+[26-Jul-19 05:11 AM] smkhound#7640
+```go build -o komodo-ecosysboard ecosysboard/ecosysboard
+can't load package: package ecosysboard/ecosysboard: cannot find package "ecosysboard/ecosysboard" in any of:
+        /usr/local/go/src/ecosysboard/ecosysboard (from $GOROOT)
+        /home/wilburwildcatrose/go/src/ecosysboard/ecosysboard (from $GOPATH)```
+
+
+[26-Jul-19 05:11 AM] smkhound#7640
+after go get -u
+
+
+[26-Jul-19 05:12 AM] Slyris#2880
+go build -o komodo-ecosysboard ecosysboard/ecosysboard.go
+
+
+[26-Jul-19 05:12 AM] Slyris#2880
+i think
+
+
+[26-Jul-19 05:12 AM] smkhound#7640
+` go build -o komodo-ecosysboard ecosysboard/ecosysboard.go
+stat ecosysboard/ecosysboard.go: no such file or directory`
+
+
+[26-Jul-19 05:13 AM] Slyris#2880
+you are not in the directory
+
+
+[26-Jul-19 05:13 AM] Slyris#2880
+it's not possible
+
+
+[26-Jul-19 05:13 AM] Slyris#2880
+Let's do it again
+
+
+[26-Jul-19 05:13 AM] Slyris#2880
+git clone, then go in the directory
+
+
+[26-Jul-19 05:13 AM] Slyris#2880
+then: go build -o komodo-ecosysboard ecosysboard/ecosysboard.go
+
+
+[26-Jul-19 05:13 AM] smkhound#7640
+alternatie clone method -
+
+
+[26-Jul-19 05:14 AM] smkhound#7640
+```wilburwildcatrose@instance-2:~$ git clone https://github.com/KomodoPlatform/komodo-ecosysboard
+Cloning into 'komodo-ecosysboard'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 480 (delta 0), reused 3 (delta 0), pack-reused 475
+Receiving objects: 100% (480/480), 96.13 KiB | 3.56 MiB/s, done.
+Resolving deltas: 100% (292/292), done.
+wilburwildcatrose@instance-2:~$ cd komodo-ecosysboard
+wilburwildcatrose@instance-2:~/komodo-ecosysboard$ GO111MODULE=on go build -o komodo-ecosysboard ecosysboard/ecosysboard
+go: finding github.com/google/go-cmp v0.3.0
+go: finding github.com/fasthttp/router v0.4.1
+go: finding github.com/stretchr/testify v1.3.0
+go: finding github.com/kpango/glg v1.4.6
+go: finding github.com/valyala/fasthttp v1.4.0
+go: finding github.com/savsgio/gotils v0.0.0-20190714152828-365999d0a274
+go: finding github.com/klauspost/compress v1.4.0
+go: finding github.com/valyala/bytebufferpool v1.0.0
+go: finding github.com/klauspost/cpuid v0.0.0-20180405133222-e7e905edc00e
+go: finding github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a
+go: finding github.com/pmezard/go-difflib v1.0.0
+go: finding github.com/stretchr/objx v0.1.0
+go: finding github.com/davecgh/go-spew v1.1.0
+go: finding golang.org/x/net v0.0.0-20180911220305-26e67e76b6c3
+go: finding github.com/kpango/fastime v1.0.15
+can't load package: package ecosysboard/ecosysboard: unknown import path "ecosysboard/ecosysboard": cannot find module providing package ecosysboard/ecosysboard```
+
+
+[26-Jul-19 05:14 AM] Slyris#2880
+GO111MODULE=on go build -o komodo-ecosysboard ecosysboard/ecosysboard.go
+
+
+[26-Jul-19 05:14 AM] smkhound#7640
+```wilburwildcatrose@instance-2:~/komodo-ecosysboard$  go build -o komodo-ecosysboard ecosysboard/ecosysboardcan't load package: package ecosysboard/ecosysboard: unknown import path "ecosysboard/ecosysboard": cannot find module providing package ecosysboard/ecosysboard```
+
+
+[26-Jul-19 05:14 AM] Slyris#2880
+i forget the filename at the end, my bad
+
+
+[26-Jul-19 05:15 AM] Slyris#2880
+can you add '.go' at the end
+
+
+[26-Jul-19 05:15 AM] smkhound#7640
+```wilburwildcatrose@instance-2:~/komodo-ecosysboard$ GO111MODULE=on go build -o komodo-ecosysboard ecosysboard/ecosysboard.go
+go: downloading github.com/google/go-cmp v0.3.0
+go: downloading github.com/valyala/fasthttp v1.4.0
+go: downloading github.com/fasthttp/router v0.4.1
+go: downloading github.com/kpango/glg v1.4.6
+go: extracting github.com/fasthttp/router v0.4.1
+go: extracting github.com/google/go-cmp v0.3.0
+go: downloading github.com/valyala/bytebufferpool v1.0.0
+go: downloading github.com/savsgio/gotils v0.0.0-20190714152828-365999d0a274
+go: extracting github.com/savsgio/gotils v0.0.0-20190714152828-365999d0a274
+go: extracting github.com/valyala/fasthttp v1.4.0
+go: extracting github.com/valyala/bytebufferpool v1.0.0
+go: downloading github.com/klauspost/compress v1.4.0
+go: extracting github.com/klauspost/compress v1.4.0
+go: downloading github.com/klauspost/cpuid v0.0.0-20180405133222-e7e905edc00e
+go: extracting github.com/klauspost/cpuid v0.0.0-20180405133222-e7e905edc00e
+go: extracting github.com/kpango/glg v1.4.6
+go: downloading github.com/kpango/fastime v1.0.15
+go: extracting github.com/kpango/fastime v1.0.15```
+no error 😃
+
+
+[26-Jul-19 05:15 AM] Slyris#2880
+It's my bad
+
+
+[26-Jul-19 05:15 AM] Slyris#2880
+from the documentation
+
+
+[26-Jul-19 05:16 AM] Slyris#2880
+if you can suggest a pull request
+
+
+[26-Jul-19 05:16 AM] Slyris#2880
+it's great
+
+
+[26-Jul-19 05:16 AM] smkhound#7640
+will do. lemm run thru one more time from fresh instance.
+
+
+[26-Jul-19 05:17 AM] smkhound#7640
+also needed `sudo apt-get install build-essential` on an earlier attempt for gcc
+
+
+[26-Jul-19 05:19 AM] Slyris#2880
+possible yeah
+
+
+[26-Jul-19 05:19 AM] Slyris#2880
+but this is not related to me, golang is in the prerequisite
+
+
+[26-Jul-19 05:20 AM] Slyris#2880
+they have their own docs etc
+
+
+[26-Jul-19 05:37 AM] smkhound#7640
+confirmed working - https://github.com/KomodoPlatform/komodo-ecosysboard/pull/6
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/pull/6
+Update README.md by smk762 · Pull Request #6 · KomodoPlatform/ko...
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[26-Jul-19 05:38 AM] smkhound#7640
+asked me for a git username on ./tests for some reason, didnt do that yesterday, but no problem once given.
+
+
+[26-Jul-19 05:38 AM] ca333#0333
+@smkhound when/where did it ask you for git username?
+
+
+[26-Jul-19 05:39 AM] smkhound#7640
+```go test ./...
+go: downloading github.com/stretchr/testify v1.3.0
+go: extracting github.com/stretchr/testify v1.3.0
+go: downloading github.com/pmezard/go-difflib v1.0.0
+go: downloading github.com/davecgh/go-spew v1.1.0
+go: extracting github.com/pmezard/go-difflib v1.0.0
+go: extracting github.com/davecgh/go-spew v1.1.0
+?       github.com/KomodoPlatform/komodo-ecosysboard/ecosysboard        [no test files]
+ok      github.com/KomodoPlatform/komodo-ecosysboard/ecosysboard/config 0.025s
+ok      github.com/KomodoPlatform/komodo-ecosysboard/ecosysboard/http   33.712s
+ok      github.com/KomodoPlatform/komodo-ecosysboard/ecosysboard/log    0.012s
+Username for 'https://github.com': smk762
+Password for 'https://smk762@github.com': 
+ok      github.com/KomodoPlatform/komodo-ecosysboard/ecosysboard/services       491.723s
+ok      github.com/KomodoPlatform/komodo-ecosysboard/ecosysboard/utils  0.088s```
+
+
+[26-Jul-19 05:40 AM] ca333#0333
+@Slyris ^ when you re back please look into this
+
+
+[26-Jul-19 05:41 AM] Slyris#2880
+yeah
+
+
+[26-Jul-19 05:41 AM] TonyL#3577
+if it asked for gh creds some repo is private I wonder
+
+
+[26-Jul-19 05:41 AM] Slyris#2880
+That's realy strange
+
+
+[26-Jul-19 05:41 AM] Slyris#2880
+i never get this
+
+
+[26-Jul-19 05:41 AM] ca333#0333
+it shouldnt request auth data unless our backend uses it to create an oauth key pair automagically to be used for the request-limit.
+
+
+[26-Jul-19 05:42 AM] Slyris#2880
+He ask cred for cloning.
+
+
+[26-Jul-19 05:42 AM] Slyris#2880
+not for interacting with the github api
+
+
+[26-Jul-19 05:42 AM] Slyris#2880
+but it's strange
+
+
+[26-Jul-19 05:42 AM] ca333#0333
+But i doubt this was implemented already - cant remember such code
+
+
+[26-Jul-19 05:42 AM] ca333#0333
+ok
+
+
+[26-Jul-19 05:42 AM] Slyris#2880
+Travis never get this error
+
+
+[26-Jul-19 05:42 AM] ca333#0333
+the repo is public - so it shouldnt.
+
+
+[26-Jul-19 05:43 AM] Slyris#2880
+Probably a miss git configuration
+
+
+[26-Jul-19 05:43 AM] Slyris#2880
+for me
+
+
+[26-Jul-19 05:44 AM] Slyris#2880
+Hmm
+
+
+[26-Jul-19 05:45 AM] smkhound#7640
+yeah didnt happen on old repo 🤷🏼
+
+{Reactions}
+🍆 
+
+[26-Jul-19 05:45 AM] Slyris#2880
+There is a private field: https://api.github.com/orgs/KomodoPlatform/repos
+
+I could check it before cloning
+
+
+[26-Jul-19 05:45 AM] Slyris#2880
+If it"s an organisation
+
+
+[29-Jul-19 08:20 PM] smkhound#7640 (pinned)
+any frontend devs who want to tap into the api for dev, I've created an endpoint on the http://dragonhound.info/ domain
+you can access via the endpoints in https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/docs/api.md
+e.g. http://dragonhound.info/api/v1/tickers
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/docs/api.md
+KomodoPlatform/komodo-ecosysboard
+Contribute to KomodoPlatform/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[29-Jul-19 11:21 PM] TonyL#3577
+great, so now we have 2 endpoints 👍
+
+{Reactions}
+👍 (4) 
+
+[29-Jul-19 11:26 PM] ca333#0333
+Pinned a message.
+
+
+[30-Jul-19 04:04 AM] phm87#7395
+@Ondalf I will check if we can this into yiimp. I hope that we have everything needed in the API. Maybe few non standard changes would be required
+
+
+[31-Jul-19 03:32 PM] TonyL#3577
+My endpoint port changed from 8080 to 80, and CORS enabled now
+http://95.217.44.58/api/v1/tickers
+
+{Reactions}
+💯 (2) 
+
+[07-Aug-19 01:28 AM] Slyris#2880
+Other coins are added in the config, just pull the master branch
+
+{Reactions}
+🍾 
+
+[07-Aug-19 01:29 AM] Slyris#2880
+And redeploy on different endpoint.
+
+
+[07-Aug-19 01:33 AM] Slyris#2880
+Oh @TonyL  you make me think about cors a funny video
+
+
+[07-Aug-19 01:33 AM] Slyris#2880
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/608578566690701312/Of_cors_this_would_happen_https___t.co_tPjObgIBlC.mp4
+
+{Reactions}
+😃 (2) 
+
+[07-Aug-19 01:38 AM] turinglabs#2390
+@Slyris do you know when the other informations will be available? Like website, github, twitter etc and the datas for the chart?
+
+
+[07-Aug-19 01:40 AM] Slyris#2880
+@turinglabs I have no date in mind I will ask @ca333 during my next meeting and let you know !
+
+
+[07-Aug-19 01:40 AM] TonyL#3577
+@Slyris I think I'm updated because output of http://95.217.44.58/api/v1/tickers became bigger 😃
+
+
+[07-Aug-19 01:41 AM] turinglabs#2390
+i need just that data to complete the frontend, let me know!
+
+
+[07-Aug-19 01:42 AM] Slyris#2880
+Yeah ok @turinglabs  I will add something after my coffee, stay around I will ping ylu
+
+
+[07-Aug-19 01:42 AM] turinglabs#2390
+perfect @Slyris
+
+
+[07-Aug-19 01:44 AM] Slyris#2880
+https://api.coinpaprika.com/v1/coins/kmd-komodo
+
+
+[07-Aug-19 01:44 AM] Slyris#2880
+It's will do the job I thinking
+
+
+[07-Aug-19 01:44 AM] Slyris#2880
+@turinglabs
+
+
+[07-Aug-19 01:44 AM] Slyris#2880
+But for coins that are not registered in coinpaprika we need to think about a solution
+
+
+[07-Aug-19 01:46 AM] turinglabs#2390
+coingecko?
+
+
+[07-Aug-19 01:46 AM] turinglabs#2390
+should have everything via api too
+
+
+[07-Aug-19 01:47 AM] turinglabs#2390
+https://api.coingecko.com/api/v3/coins/komodo
+
+
+[07-Aug-19 01:51 AM] Slyris#2880
+Yeah but again there is coin that are not registered
+
+
+[07-Aug-19 01:51 AM] turinglabs#2390
+we should use both
+
+
+[07-Aug-19 01:51 AM] smkhound#7640
+nice 😃 Now I just need more coin icons - http://dragonhound.info/
+
+
+[07-Aug-19 01:53 AM] smkhound#7640
+coingecko is good, I've been using it for pricing data in mm2
+
+
+[07-Aug-19 01:53 AM] smkhound#7640
+wont have all ecosys coins tho, might need to submit some
+
+
+[07-Aug-19 01:54 AM] smkhound#7640
+can we get mm2 orderbooks data to derive ecosys coins value?
+
+
+[07-Aug-19 01:59 AM] Slyris#2880
+@turinglabs One  api coingecko or coinpaprika is suffisent we just need to choose
+
+
+[07-Aug-19 01:59 AM] Slyris#2880
+between 2 models
+
+
+[07-Aug-19 02:00 AM] turinglabs#2390
+i will fetch directly coingecko or you'll parse the data in any case?
+
+
+[07-Aug-19 02:00 AM] Slyris#2880
+i will parseit
+
+
+[07-Aug-19 02:00 AM] Slyris#2880
+and giveit to you
+
+
+[07-Aug-19 02:01 AM] turinglabs#2390
+perfect, so i just need the final structure
+
+
+[07-Aug-19 02:01 AM] Slyris#2880
+i choose coingecko 😃
+
+
+[07-Aug-19 02:01 AM] Slyris#2880
+yeah
+
+
+[07-Aug-19 02:01 AM] Slyris#2880
+im on it
+
+
+[07-Aug-19 02:01 AM] turinglabs#2390
+i used a lot, it's perfect
+
+
+[07-Aug-19 02:01 AM] turinglabs#2390
+see you later, leaving for a couple of hours
+
+
+[07-Aug-19 02:31 AM] Slyris#2880
+https://github.com/KomodoPlatform/komodo-ecosysboard/pull/8
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/pull/8
+feat(coingecko): add coingecko additional data (/coins/coins_id) b...
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Reactions}
+treasure 
+
+[07-Aug-19 02:31 AM] Slyris#2880
+you have now a field `json:"additional_data"` in the ticker, that contains the whole answer from coingecko, if you want me to filter instead of returning all this information let me know
+
+
+[07-Aug-19 02:31 AM] Slyris#2880
+@turinglabs  @ca333
+
+{Reactions}
+👍 (2) 
+
+[07-Aug-19 02:35 AM] Slyris#2880
+```json
+{
+  "additional_data": {
+    "links": {
+      "homepage": [
+        "https://komodoplatform.com/",
+        "",
+        ""
+      ],
+      "blockchain_site": [
+        "https://kmdexplorer.io/",
+        "https://kmd.explorer.supernet.org/",
+        "https://komodoblockexplorer.com/",
+        "",
+        ""
+      ],
+      "official_forum_url": [
+        "https://forum.komodoplatform.com/",
+        "https://komodoplatform.com/latest-news/",
+        ""
+      ],
+      "chat_url": [
+        "https://discord.gg/ZSrn5sJ",
+        "",
+        ""
+      ],
+      "announcement_url": [
+        "",
+        ""
+      ],
+      "twitter_screen_name": "KomodoPlatform",
+      "facebook_username": "KomodoPlatform",
+      "bitcointalk_thread_identifier": 1605144,
+      "telegram_channel_identifier": "",
+      "subreddit_url": "https://www.reddit.com/r/komodoplatform",
+      "repos_url": {
+        "github": [
+          "https://github.com/KomodoPlatform/KomodoPlatform",
+          "https://github.com/KomodoPlatform/BarterDEX",
+          "https://github.com/KomodoPlatform/Agama",
+          "https://github.com/KomodoPlatform/developer-docs",
+          "https://github.com/KomodoPlatform/komodotools",
+          "https://github.com/jl777/SuperNET/tree/jl777",
+          "https://github.com/jl777/coins/tree/jl777",
+          "https://github.com/KomodoPlatform/EasyDEX-GUI",
+          "https://github.com/jl777/komodo/tree/jl777",
+          "https://github.com/KomodoPlatform/komodo"
+        ],
+        "bitbucket": []
+      }
+    }
+  }
+}
+```
+
+
+[07-Aug-19 03:01 AM] Slyris#2880
+i removed the github service that i written because i was not satified i will rewrite it latter in a more efficient way @Mylo .
+
+
+[07-Aug-19 03:05 AM] Mylo#8306
+ok - thanks for notice @Slyris i will make sure my bash scripts are maintained.
+
+
+[07-Aug-19 03:06 AM] Slyris#2880
+I will probably use only github API to be honest and additional api such as gitlab/bitbucket if needed
+
+
+[07-Aug-19 03:06 AM] Slyris#2880
+but don't need to clone the repository
+
+
+[07-Aug-19 03:06 AM] Slyris#2880
+We can detect the platform, and then fetch and filter the informations
+
+{Reactions}
+👍 
+
+[07-Aug-19 03:45 AM] Mylo#8306
+as they say, courses for horses 😄
+
+
+[08-Aug-19 12:53 AM] Slyris#2880
+@turinglabs I'm just waiting for the review of the pr: https://github.com/KomodoPlatform/komodo-ecosysboard/pull/8
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/pull/8
+feat(coingecko): add coingecko additional data (/coins/coins_id) b...
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[08-Aug-19 12:53 AM] Slyris#2880
+Once is merged, you will have all information about website, social network and explorer
+
+
+[08-Aug-19 01:36 AM] Slyris#2880
+@smkhound we need to redeploy thank's to pull master branch !
+
+
+[08-Aug-19 01:36 AM] Slyris#2880
+@turinglabs it's merged and on master branch doc is updated too
+
+{Reactions}
+👍🏼 (2) 
+
+[08-Aug-19 01:40 AM] Slyris#2880
+Let me know if you need more fields.
+
+
+[08-Aug-19 01:43 AM] smkhound#7640
+I've updated, will check new api data fields this weekend and see how to integrate
+
+
+[08-Aug-19 01:07 PM] passcombo.com 🏴☠🍋#0622
+I hope you guys focus on top notch pro reviews of coins and good info that will help people see which coins are good projects, which are scams or money grabs, or urealistic and so on
+
+
+[08-Aug-19 01:08 PM] passcombo.com 🏴☠🍋#0622
+information is the value added and will attract people
+
+
+[08-Aug-19 01:10 PM] passcombo.com 🏴☠🍋#0622
+three perspective: technical (blockchain innovation and security) + realistic business + confirmed wise honest team = these measured should allow for easy navigation
+
+
+[08-Aug-19 01:11 PM] passcombo.com 🏴☠🍋#0622
+btw reserve coinnavi or cryptonavi names if you like, as this is not only about the cap, but actually navigating among coin informations
+
+
+[08-Aug-19 02:09 PM] Slyris#2880
+Someone can redeploy on endpoint @smkhound or @TonyL  ?
+
+
+[08-Aug-19 02:09 PM] Slyris#2880
+i just pushed master branch
+
+{Reactions}
+👌 
+
+[08-Aug-19 02:10 PM] Slyris#2880
+and ping @turinglabs With the endpoint
+
+
+[08-Aug-19 02:11 PM] TonyL#3577
+done (updated http://95.217.44.58/api/v1)
+
+
+[08-Aug-19 02:17 PM] Slyris#2880
+great, thank's
+
+
+[08-Aug-19 02:31 PM] Slyris#2880
+I pushed again in master branch !
+
+
+[08-Aug-19 02:31 PM] Slyris#2880
+(fix rate limit)
+
+
+[08-Aug-19 03:12 PM] TonyL#3577
+updated
+
+
+[09-Aug-19 01:04 AM] Slyris#2880
+Hello i got some weird: 
+
+```
+2019-08-09 10:03:38    [ERR]:    Http error: timeout & endpoint: http://supernet.explorer.dexstats.info/insight-api-komodo/status?q=getLastBlockHash
+2019-08-09 10:03:38    [ERR]:    Http error: timeout & endpoint: http://rfox.explorer.dexstats.info/insight-api-komodo/status?q=getLastBlockHash
+2019-08-09 10:03:38    [ERR]:    Http error: timeout & endpoint: http://zexo.explorer.dexstats.info/insight-api-komodo/status?q=getLastBlockHash
+```
+
+
+[09-Aug-19 01:04 AM] Slyris#2880
+any idea @ca333 or @TonyL  ?
+
+
+[09-Aug-19 01:05 AM] Slyris#2880
+seem's to be unreachable: https://axo.explorer.dexstats.info
+
+
+[09-Aug-19 01:07 AM] Oszy#5734
+it's not just axo, all of the asset explorers are down on dexstats now.
+
+
+[09-Aug-19 01:07 AM] Oszy#5734
+kmd,vrsc, and arrr seems to be alright
+
+
+[09-Aug-19 01:10 AM] Slyris#2880
+Thank's for the information. i will wait that everything is back to do more of my unit tests , my unit tests are compromised
+
+
+[09-Aug-19 02:38 AM] smkhound#7640
+@Slyris I noticed the same, but it appears to be up now
+
+
+[09-Aug-19 02:38 AM] Slyris#2880
+You sure ?
+
+
+[09-Aug-19 02:38 AM] smkhound#7640
+http://dragonhound.info/api/v1/tickers
+
+
+[09-Aug-19 02:38 AM] Slyris#2880
+Ah it's seem's i wil ltry it
+
+
+[09-Aug-19 02:39 AM] smkhound#7640
+only came back in the last 5-10 min
+
+
+[09-Aug-19 02:42 AM] Slyris#2880
+Ok ! great
+
+
+[09-Aug-19 02:52 AM] Slyris#2880
+@smkhound http://kmd.explorer.dexstats.info/api//supply
+
+
+[09-Aug-19 02:52 AM] Slyris#2880
+Do you have the same problem ?
+
+
+[09-Aug-19 02:52 AM] Slyris#2880
+seem's to timeout)
+
+
+[09-Aug-19 02:52 AM] smkhound#7640
+yeah noticed that when getting gateway error 405
+
+
+[09-Aug-19 02:53 AM] smkhound#7640
+the `coinsupply` RPC takes quite a while in CLI
+
+
+[09-Aug-19 02:54 AM] smkhound#7640
+probably one worth doing less often (every 12 hrs or so) and caching, not sure how @CHMEX serves it
+
+
+[09-Aug-19 02:55 AM] smkhound#7640
+https://developers.komodoplatform.com/basic-docs/smart-chains/smart-chain-api/blockchain.html#coinsupply
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/smart-chains/smart-chain-api/blockchain.html
+Blockchain | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[09-Aug-19 02:56 AM] Slyris#2880
+Thank's
+
+
+[09-Aug-19 02:56 AM] Slyris#2880
+so i think i just have to wait
+
+
+[09-Aug-19 02:56 AM] CHMEX#0686
+Looks like a lot of requests to dexstats at the moment
+
+
+[09-Aug-19 02:57 AM] CHMEX#0686
+I will check
+
+
+[09-Aug-19 02:57 AM] Slyris#2880
+Yes it's probably me
+
+
+[09-Aug-19 02:57 AM] Slyris#2880
+That is doing lot of unit tests
+
+
+[09-Aug-19 02:57 AM] Slyris#2880
+almost 500k
+
+
+[09-Aug-19 02:57 AM] CHMEX#0686
+Lol ok thats might break it indeed
+
+
+[09-Aug-19 02:57 AM] Slyris#2880
+It's seem's like: http://kmd.explorer.dexstats.info/insight-api-komodo//txs?address=RMbNsa4Nf3BAd16BQaAAmfzAgnuorUDrCr 
+
+a call like this one take lot of times
+
+
+[09-Aug-19 02:57 AM] Slyris#2880
+and end with a timeout for me
+
+
+[09-Aug-19 02:57 AM] Slyris#2880
+~20 sec
+
+
+[09-Aug-19 02:58 AM] CHMEX#0686
+Somehow you have // in the url.is that ok?
+
+
+[09-Aug-19 02:58 AM] Slyris#2880
+Yes it's ok
+
+
+[09-Aug-19 02:58 AM] CHMEX#0686
+Ok
+
+
+[09-Aug-19 02:58 AM] Slyris#2880
+Golang perfectly handle this np
+
+
+[09-Aug-19 02:58 AM] Slyris#2880
+In fact unit tests are doing around 20k call, but i run it like 30 times this morning
+
+
+[09-Aug-19 02:59 AM] Slyris#2880
+because i add some features @CHMEX
+
+
+[09-Aug-19 02:59 AM] Slyris#2880
+I'm sorry if i break smth
+
+
+[09-Aug-19 03:00 AM] CHMEX#0686
+It can handle 5m a day from what I have seen but will check maybe some peaks which cause issues
+
+
+[09-Aug-19 03:00 AM] Slyris#2880
+Ok let me know, i will push smth today
+
+
+[09-Aug-19 03:01 AM] Slyris#2880
+for example idk why this broke: http://kmd.explorer.dexstats.info/api//supply
+
+
+[09-Aug-19 03:01 AM] Slyris#2880
+I will eat my lunch , we speak latter
+
+
+[09-Aug-19 03:01 AM] CHMEX#0686
+( this goes to dexstats in the backend)
+Enjoy lunch
+
+
+[09-Aug-19 03:02 AM] Slyris#2880
+(so there is a problem with coinsupply from dexstats) ?
+
+
+[09-Aug-19 04:22 AM] CHMEX#0686
+should be ok again. If you don't hit it with 500k reqeusts per minute I think it should be stable. I will try to move it maybe to another server or add some caching. All explorers run on the same box ( but KMD and PIRATE as well as VRSC)  maybe it's time for some new hardware
+
+
+[09-Aug-19 04:41 AM] Slyris#2880
+@smkhound  @TonyL  Hello can we redeploy master branch ? lot of fix
+
+{Reactions}
+👍🏼 
+
+[09-Aug-19 04:44 AM] Slyris#2880
+@CHMEX Thank's yes everything is passing
+
+
+[09-Aug-19 04:46 AM] TonyL#3577
+updated @Slyris
+
+
+[09-Aug-19 04:46 AM] Slyris#2880
+thank's, cc @turinglabs
+
+{Reactions}
+👌 
+
+[09-Aug-19 04:47 AM] Slyris#2880
+If there is something wrong @TonyL  and i'm not here you can use this url: http://95.217.44.58/logs/
+
+
+[09-Aug-19 04:47 AM] Slyris#2880
+it"s contains all the log's that can help you
+
+
+[09-Aug-19 04:47 AM] Slyris#2880
+for the support
+
+
+[09-Aug-19 04:50 AM] TonyL#3577
+great, thank you for info
+
+
+[09-Aug-19 04:52 AM] Slyris#2880
+@turinglabs Normally now you have more cache, so let me know if you still have the same problem as yesterday
+
+
+[09-Aug-19 04:56 AM] Slyris#2880
+@TonyL I have a question
+
+
+[09-Aug-19 04:56 AM] TonyL#3577
+Go ahead 😃
+
+
+[09-Aug-19 04:57 AM] Slyris#2880
+can we redeploy master branch, but delete logs before i added something for not spamming log
+
+
+[09-Aug-19 04:57 AM] Slyris#2880
+so it's more readable
+
+
+[09-Aug-19 04:57 AM] Slyris#2880
+(just merged now)
+
+
+[09-Aug-19 04:58 AM] TonyL#3577
+should I `rm -rf logs` ?
+
+
+[09-Aug-19 04:58 AM] Slyris#2880
+y
+
+{Reactions}
+👌 
+
+[09-Aug-19 04:58 AM] Slyris#2880
+latter i will add some log's rotation
+
+
+[09-Aug-19 04:59 AM] TonyL#3577
+done
+
+
+[09-Aug-19 04:59 AM] Slyris#2880
+Great thank's
+
+
+[09-Aug-19 05:00 AM] Slyris#2880
+Yeah it's better
+
+
+[09-Aug-19 05:00 AM] Slyris#2880
+Do you think that you can do a pull request to the project on travis.yml so it's automatically deploy to this endpoint ?
+
+
+[09-Aug-19 05:00 AM] Slyris#2880
+@TonyL
+
+
+[09-Aug-19 05:02 AM] TonyL#3577
+Will do - some CD is needed  yep
+
+
+[09-Aug-19 05:03 AM] Slyris#2880
+Ok, May be we can think about heroku i hear it's really easy to deploy with heroku/travis
+
+
+[09-Aug-19 05:03 AM] Slyris#2880
+But i dont know yet
+
+
+[09-Aug-19 05:03 AM] Slyris#2880
+https://docs.travis-ci.com/user/deployment/heroku/
+
+
+[09-Aug-19 05:03 AM] TonyL#3577
+Me neither, need to research a little bit - my current endpoint is on just dedicated server
+
+
+[09-Aug-19 05:04 AM] Slyris#2880
+Yeah that's why i'm suggesting heroku
+
+
+[09-Aug-19 05:09 AM] smkhound#7640
+probably a backwards way to do it, but I coded some py last week to check repos and update / build if new for kmd / mm2 / nspv. was gonna maybe cron it, and intended to do same for my endpoint.
+
+
+[09-Aug-19 05:09 AM] Slyris#2880
+Hello smk
+
+{Reactions}
+👋🏼 
+
+[09-Aug-19 05:13 AM] TonyL#3577
+Oh, in general I think simple few lines script checking for updates from GH api should work lol
+
+
+[09-Aug-19 05:14 AM] smkhound#7640
+In here - https://github.com/smk762/DragonhoundTools/blob/master/qa/qalib.py
+builds from the Azure thing you setup for mm2 a while back.
+
+{Embed}
+https://github.com/smk762/DragonhoundTools/blob/master/qa/qalib.py
+smk762/DragonhoundTools
+Misc scripts for Komodo Operations (NN, CC, MM). Contribute to smk762/DragonhoundTools development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/6xcX3Z50JaMIMuZ9mAXOpQv_L8FfDr-TLGFP0GMRbbU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/35845239
+
+
+[09-Aug-19 05:14 AM] TonyL#3577
+don't like these cloud services much, for CI we setup now https://buildbot.net/ instead of Travis to fully control infra/software 😃
+
+{Embed}
+https://buildbot.net/
+Buildbot
+Buildbot - The Continuous Integration Framework
+
+{Reactions}
+🆒 
+
+[09-Aug-19 05:15 AM] smkhound#7640
+yeah Azure json was pretty spammy to parse 😄
+
+
+[09-Aug-19 05:17 AM] Slyris#2880
+It's exactly the same as jenkins
+
+
+[09-Aug-19 05:17 AM] Slyris#2880
+or am wrong
+
+
+[09-Aug-19 05:17 AM] Slyris#2880
+@TonyL  ?
+
+
+[09-Aug-19 05:18 AM] TonyL#3577
+It's Python CI framework, a lot of things possible to customize
+
+
+[09-Aug-19 05:18 AM] Slyris#2880
+Ok, just let me know what you prefer and we will adapt
+
+{Reactions}
+👍 
+
+[09-Aug-19 05:18 AM] Slyris#2880
+In fact, i would just like the continous delivery
+
+
+[09-Aug-19 05:18 AM] Slyris#2880
+I already did it with my open source mmorpg but it's was through Travis/Appveyor
+
+
+[09-Aug-19 05:19 AM] Slyris#2880
+and i was uploading to bintray in my case
+
+
+[09-Aug-19 05:51 AM] TonyL#3577
+Will arrange it during the weekend and let you know
+
+
+[10-Aug-19 12:33 AM] Slyris#2880
+Hello @TonyL  @smkhound Can we redeploy please ? i added chart and some other fixes
+
+{Reactions}
+👍🏼 ✅ 
+
+[10-Aug-19 03:06 AM] Slyris#2880
+cc @turinglabs
+
+
+[12-Aug-19 04:43 AM] TonyL#3577
+i've setup simple bash script - my endpoint will redeploy now on Komodoplatform/master updates
+
+{Reactions}
+👍 (2) 🔥 
+
+[13-Aug-19 10:32 AM] Audo#5667
+hey, could we rename this project to "Komodo Coin Cap"? 😃 I think that works better as we talk about "Komodo Ecosystem"
+
+{Reactions}
+👍 
+
+[13-Aug-19 10:33 AM] Slyris#2880
+The name on GitHub is Komodo ecosysboard
+
+{Reactions}
+👍 
+
+[14-Aug-19 03:26 AM] TonyL#3577
+It looks like portal setup on this https://coinmarketcap.com/currencies/dex DEX (some ETH token) instead of Komodo DEX coin (Komodo DEX not trading on any CEX)
+
+{Embed}
+https://coinmarketcap.com/currencies/dex
+DEX (DEX) price, charts, market cap, and other metrics | CoinMarketCap
+Get DEX price, charts, and other cryptocurrency info
+https://images-ext-2.discordapp.net/external/YncJNepBP5jmY-EqE6EuATwKJKALJ9DQZHBzsb4jrts/https/s2.coinmarketcap.com/static/img/coins/200x200/3515.png
+
+
+[16-Aug-19 01:41 AM] TonyL#3577
+My coincap api started to crash (stop?) in some time after start - will investigate shortly when will be with pc. Atm it’s down CC @Slyris
+
+
+[16-Aug-19 02:17 AM] Slyris#2880
+@TonyL probably to much logging
+
+
+[16-Aug-19 02:17 AM] Slyris#2880
+Maybe I'm wrong
+
+
+[16-Aug-19 02:17 AM] Slyris#2880
+Let me know with the logs file
+
+
+[16-Aug-19 02:40 AM] TonyL#3577
+https://transfer.sh/sw8i3/eco_logs.zip @Slyris
+
+
+[16-Aug-19 02:44 AM] Slyris#2880
+@TonyL can i ask when you launch the program to do smth like: ./programm 2> err_stdout.log 1> reg_stdout.log
+
+
+[16-Aug-19 02:45 AM] Slyris#2880
+Because when golang programm crash is probably on stdout
+
+
+[16-Aug-19 02:45 AM] TonyL#3577
+Sure
+
+
+[16-Aug-19 02:45 AM] Slyris#2880
+or stderr
+
+
+[16-Aug-19 02:45 AM] Slyris#2880
+(there is nothing in the log)
+
+
+[16-Aug-19 02:46 AM] TonyL#3577
+Yeah, no errors
+
+
+[16-Aug-19 02:48 AM] TonyL#3577
+Restarted with output redirect, lets see if it crash today
+
+
+[16-Aug-19 02:50 AM] TonyL#3577
+https://t.me/kmdQAnotifications there is health monitoring tg bot, he will start scream loud if it’s down 😁
+
+{Embed}
+https://t.me/kmdQAnotifications
+KMD QA Bot Notifications
+You can view and join @kmdQAnotifications right away.
+https://images-ext-2.discordapp.net/external/1GkCTMGxE_YTBkvPR9xPVpMLp7opdtUL1DVEcxs52jY/https/cdn4.telesco.pe/file/mhgsBGxU0EKhYuqH5BUVf0jFFCw0p9zHuPR0XkK--rIQ58qJeTPYpI9GY_afff0MKiqKE78JUz9wSy7A2QI8JmpTYI2dBeo917iFK8_oyjGccrn6RHfSu5-NU_KN49Dd4kQNwQnBVpPnx0H31xRu6IpOEMhLEiGYBxVHRsxokWNriPq19I_pQJzPTBLLzzLaxQQer2uiELxZ6X38fSEVUR5EOe8uik_3f8h4DpIkb4tcaQPT_wq18ZMGJCU-CV8c4eNHKdUlWZPbixNOGa3Zy2ycPNvBnLFeX6GOZ7MQO1RLELSItinqMcYUJ-Nbh8eK9q6Q4UnEbuezBPJ4yq-uhw.jpg
+
+
+[16-Aug-19 03:00 AM] Slyris#2880
+😄
+
+
+[16-Aug-19 03:16 AM] Slyris#2880
+@TonyL it's can be interesting to see htop at the launching and every X hours to see the memory consumption latter I will add a Golang package for monitoring properly coin cap service
+
+
+[16-Aug-19 03:18 AM] TonyL#3577
+yeah, keeping an eye manually now - can log too
+
+
+[16-Aug-19 03:19 AM] TonyL#3577
+but it's 0.0% (have 64Gb RAM) in my htop now so not paying attention 😃
+
+
+[16-Aug-19 03:20 AM] TonyL#3577
+even for telegram bot showing 0.1%
+
+
+[16-Aug-19 03:21 AM] Slyris#2880
+ok let's take a look latter
+
+
+[16-Aug-19 05:41 AM] Slyris#2880
+Api is down @TonyL
+
+
+[16-Aug-19 06:49 AM] TonyL#3577
+yep, this time logs more informative, will forward now
+
+
+[16-Aug-19 06:50 AM] TonyL#3577
+https://paste.ubuntu.com/p/FnMHzFsWvF/ in err_stdout
+
+
+[16-Aug-19 06:51 AM] TonyL#3577
+but no crash what strange
+
+
+[16-Aug-19 06:55 AM] TonyL#3577
+https://transfer.sh/1GqMW/reg_stdout.log and regular stdout
+
+
+[16-Aug-19 07:53 AM] Slyris#2880
+@TonyL that's strange because there is nothing about a crash
+
+
+[16-Aug-19 07:53 AM] Slyris#2880
+And I'm sure that if it's crashing Golang will say smth
+
+
+[16-Aug-19 08:16 AM] Slyris#2880
+ok i launch the programm manually on my computer will see in few hours if it's crashing meanwhile this time can you add something that relaunch automatically the programm if it's not running and that remove logs before launching it ? @TonyL
+
+
+[16-Aug-19 08:20 AM] TonyL#3577
+Sure, I’ll be fully online tomorrow and will make such watcher and try to find the reason of stops @Slyris
+
+
+[16-Aug-19 08:47 AM] Slyris#2880
+:p cool thank's
+
+
+[16-Aug-19 08:48 AM] Slyris#2880
+for the moment i have smth reasonable:
+64306  komodo-ecosy 4.8   03:50.86 49     1    86    191M-  0B     0B     64306 50417 sleeping *0[1]             0.00000 0.00000    501  326486    170     457        38         5895253+   302079+    4197554+   0        162532+   15.1
+
+
+[16-Aug-19 08:50 AM] Markus#5464
+is this project blockchain based?
+
+
+[16-Aug-19 08:54 AM] ca333#0333
+it is basically a coinmarketcap clone with additional blockchain related informations and metrics - we do use the native blockchain interface to fetch infos/data from. However, the coin-cap application itself is not executed "on" the blockchain.
+
+
+[16-Aug-19 08:55 AM] Markus#5464
+Alright, excited to see the results 👍
+
+{Reactions}
+❤ (3) 
+
+[16-Aug-19 10:26 AM] Slyris#2880
+@TonyL The  programm is running since 17h16 and still no crash
+
+
+[16-Aug-19 10:26 AM] Slyris#2880
+(on my machine)
+
+
+[16-Aug-19 11:23 AM] TonyL#3577
+So issue should be in my machine configuration it seems
+
+
+[17-Aug-19 03:56 AM] Slyris#2880
+@TonyL The programm turn the whole night for me without any problem
+
+
+[17-Aug-19 03:56 AM] Slyris#2880
+i just killed it 5 minute ago
+
+
+[17-Aug-19 02:00 PM] TonyL#3577
+yep, on my laptop working fine for a long time as well, so issue is somewhere in my server configuration
+
+
+[28-Aug-19 03:17 PM] JonnyBioICX#1730
+ne1 here
+
+{Reactions}
+👋🏽 (2) 
+
+[31-Aug-19 09:53 PM] Jota pk 17#6959
+hello
+
+
+[01-Sep-19 02:12 AM] Slyris#2880
+Hey @Jota pk 17
+
+
+[01-Sep-19 02:29 AM] phm87#7395
+Good morning ☕
+
+
+[01-Sep-19 05:48 AM] Jota pk 17#6959
+@Slyris how are you
+
+
+[01-Sep-19 05:48 AM] Slyris#2880
+I'm super fine thank's
+
+
+[01-Sep-19 05:49 AM] Slyris#2880
+and you ?
+
+
+[01-Sep-19 10:49 PM] Slyris#2880
+@CryptoMedication   yeah ?
+
+
+[04-Sep-19 09:56 AM] PHBA2061 | VietStaking Validator#2530
+is there anyone actively working on the front-end part ? This is my wip using VueJS + Tonyl's endpoint <http://35.159.51.208/coinCap> (I'm still learning things so my progress will be slow 😅 )
+
+
+[04-Sep-19 10:02 AM] PHBA2061 | VietStaking Validator#2530
+and about this api call <http://35.159.51.208/coinCap>, most coins use tickers, like /api/v1/kmd or /api/v1/dex  except for Pirate ,  /api/v1/pirate works but /api/v1/arrr doesn't
+
+
+[04-Sep-19 10:08 AM] Slyris#2880
+cc @turinglabs
+
+
+[04-Sep-19 10:09 AM] Slyris#2880
+/api/v1/arrr doesn't work because the good endpoint is pirate
+
+{Reactions}
+👌 
+
+[04-Sep-19 10:09 AM] Slyris#2880
+@PHBA2061 | VietStaking Validator
+
+
+[04-Sep-19 10:09 AM] Slyris#2880
+https://coinpaprika.com/coin/arrr-pirate/
+
+{Embed}
+https://coinpaprika.com/coin/arrr-pirate/
+Pirate (ARRR) Price, Charts, Market Cap, Markets, Exchanges, ARRR ...
+Pirate Price Chart | Market Capitalization | ARRR to USD Calculator | ARRR ROI Calculator | News | Description | Team | Related Events | Community | Similar coins to Pirate ARRR
+https://images-ext-1.discordapp.net/external/YkBgfpqPy-CsoNpLyINx-_DG114EGd70vTCgCEjy8aE/%3F10422629/https/static2.coinpaprika.com/coin/arrr-pirate/card.png
+
+
+[04-Sep-19 10:11 AM] phm87#7395
+I think it is the ac_name that is used and not the ticker (except for exceotion of kmd)
+
+
+[04-Sep-19 10:11 AM] Slyris#2880
+https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/esb_config.json#L296
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/esb_config.json
+KomodoPlatform/komodo-ecosysboard
+Contribute to KomodoPlatform/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[04-Sep-19 10:11 AM] Slyris#2880
+feel free to open a pull request
+
+
+[05-Sep-19 04:05 AM] Taner#0671
+hello
+
+{Reactions}
+🖖 (2) 
+
+[07-Sep-19 11:13 AM] Alright#0419
+@dukeleto @Slyris
+
+
+[07-Sep-19 11:14 AM] Slyris#2880
+@dukeleto .
+
+
+[07-Sep-19 11:14 AM] Slyris#2880
+ah yeah that's work now
+
+
+[07-Sep-19 11:14 AM] Slyris#2880
+@dukeleto Do you want the instructions for adding Hush into Komodo coincap ?
+
+
+[07-Sep-19 11:14 AM] Alright#0419
+may as well just pin them here
+
+
+[07-Sep-19 11:16 AM] Slyris#2880 (pinned)
+```
+https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/esb_config.json#L7
+
+In this file, just add an new entry with all your information.
+
+if youre coin is not present in coinpaprika or coingecko you can let it empty for coingecko_id and give the same name as the field coin for coinpaprika_id
+```
+
+
+[07-Sep-19 11:21 AM] Alright#0419
+Pinned a message.
+
+
+[08-Sep-19 12:32 PM] Regnar#6164
+Just scrolled through the `esb_config` file, looks like Coinpaprika is on their game
+
+
+[08-Sep-19 01:03 PM] Slyris#2880
+@Regnar What do you mean ?
+
+
+[08-Sep-19 01:05 PM] Regnar#6164
+a good thing, Coinpaprika has always been good for me when I try to add coins and info, so it's no surprise the `coin_paprika_id` field on that entire document is filled
+
+
+[08-Sep-19 01:05 PM] Slyris#2880
+Yeah i designed this configuration file !
+
+
+[08-Sep-19 01:05 PM] Slyris#2880
+So it's easier you parse when developing the application coincap
+
+
+[08-Sep-19 01:05 PM] Regnar#6164
+yea good idea
+
+
+[08-Sep-19 01:06 PM] Regnar#6164
+Is there anything specific we need someone to work on right now? I know some python
+
+
+[08-Sep-19 01:08 PM] Slyris#2880
+On this specific project you mean @Regnar  ?
+
+
+[08-Sep-19 01:08 PM] Regnar#6164
+yea
+
+
+[08-Sep-19 01:09 PM] Slyris#2880
+The project is written in golang (back-end)
+
+I will let you know once the test period will be over, what is our future plans
+
+
+[08-Sep-19 01:09 PM] Slyris#2880
+For the moment we still discusss about it !
+
+
+[08-Sep-19 01:09 PM] Regnar#6164
+okay sounds good, I can test APIs then 😛
+
+
+[08-Sep-19 01:09 PM] Slyris#2880
+Yeah, there is a docs folder inside the repository, feel free
+
+
+[08-Sep-19 01:11 PM] Regnar#6164
+cool thanks
+
+
+[12-Sep-19 07:53 AM] dukeleto#7326
+@Slyris i am on it
+
+
+[12-Sep-19 07:55 AM] Slyris#2880
+Great @dukeleto pinned message is for you
+
+
+[12-Sep-19 07:55 AM] dukeleto#7326
+what are the "rules" for `git` ?
+
+
+[12-Sep-19 07:55 AM] dukeleto#7326
+I see the file I need to add to
+
+
+[12-Sep-19 07:55 AM] dukeleto#7326
+I can add organizations or particular repos?
+
+
+[12-Sep-19 07:55 AM] Slyris#2880
+Full URL for specific repos or organisation name
+
+
+[12-Sep-19 07:55 AM] Slyris#2880
+And that's all
+
+
+[12-Sep-19 07:55 AM] dukeleto#7326
+i see it now
+
+
+[12-Sep-19 07:55 AM] dukeleto#7326
+`kmd` has a good example of all the optinos
+
+
+[12-Sep-19 07:55 AM] Slyris#2880
+Y
+
+
+[12-Sep-19 07:55 AM] dukeleto#7326
+groovy
+
+
+[12-Sep-19 07:55 AM] dukeleto#7326
+this is very nice
+
+
+[12-Sep-19 07:56 AM] dukeleto#7326
+Now I remember talking about it to y'all, when it only supported listing every repo
+
+
+[12-Sep-19 07:56 AM] dukeleto#7326
+supporting orgs is very nice!
+
+
+[12-Sep-19 08:05 AM] dukeleto#7326
+@Slyris https://github.com/MyHush/komodo-ecosysboard/pull/1
+
+{Embed}
+https://github.com/MyHush/komodo-ecosysboard/pull/1
+Add HUSH to esb_config by leto · Pull Request #1 · MyHush/komodo...
+https://images-ext-1.discordapp.net/external/4gOX1fKM3QTa9jA_3FPIPM25wLL4gEO1nxlUEoeFbQ0/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/26923909
+
+
+[12-Sep-19 08:08 AM] Slyris#2880
+Perfect
+
+
+[12-Sep-19 08:08 AM] Slyris#2880
+Can you open the pr on the main repo ?
+
+
+[25-Sep-19 01:13 PM] PHBA2061 | VietStaking Validator#2530
+hi, I notice that the API request /api/v1/tickers/kmd  returns additional_data.links.repos_url.github[0] which is <https://github.com/KomodoPlatform/KomodoPlatform>, it doesn't exist though, should be just <https://github.com/KomodoPlatform>
+
+
+[25-Sep-19 02:23 PM] Slyris#2880
+It's coingecko
+
+
+[25-Sep-19 02:23 PM] Slyris#2880
+@PHBA2061 | VietStaking Validator
+
+
+[25-Sep-19 02:23 PM] Slyris#2880
+additional_data.links are comming from coingecko
+
+
+[25-Sep-19 02:25 PM] Slyris#2880
+```go
+type CoinInfos struct {
+    Ticker                CoinpaprikaTickerData `json:"ticker"`
+    BlockLastHash         string                `json:"block_last_hash"`
+    BlockInfo             StatusInfo            `json:"status"`
+    NodeIsOnline          bool                  `json:"node_is_online"`
+    NodeIsSynced          bool                  `json:"node_is_synced"`
+    NotarizedHash         string                `json:"notarizedhash"`
+    NotarizedTransactions []string              `json:"notarizedtxid"`
+    Supply                float64               `json:"supply"`
+    CoingeckoData         *CoingeckoCoinData    `json:"additional_data"`
+    KomodoCoinID          string                `json:"komodo_coin_id"`
+}
+```
+
+
+[25-Sep-19 02:25 PM] Slyris#2880
+As you can see
+
+
+[25-Sep-19 02:25 PM] Slyris#2880
+We need to ask coingecko why it's the case @PHBA2061 | VietStaking Validator
+
+
+[25-Sep-19 02:25 PM] Slyris#2880
+https://www.coingecko.com/fr/pièces/komodo/developer#panel
+
+{Embed}
+https://www.coingecko.com/fr/pi%C3%A8ces/komodo/developer
+Graphique sur le développeur Komodo | CoinGecko
+Tendance de croissance pour le développeur Komodo : Stars (Étoiles), Forks (Fourches), Watchers (Observateurs) et Issues (Problèmes)
+https://images-ext-2.discordapp.net/external/gOW3z9xUs8bjv9cb2t79lAgS3DUg_-8c19HE62R8Wtc/%3F1563350261/https/assets.coingecko.com/coins/images/611/large/KMD_Mark_Color.png
+
+
+[25-Sep-19 02:26 PM] Slyris#2880
+@ca333 Hello ca, someone can contact coingecko to fix this problem ? or @TonyL
+
+{Reactions}
+👍 
+
+[25-Sep-19 02:34 PM] PHBA2061 | VietStaking Validator#2530
+it's not a very big issue for me though, I can just pick another github url
+
+
+[25-Sep-19 02:37 PM] PHBA2061 | VietStaking Validator#2530
+also some coins `max_supply` shows 0, like kmd, dex or rfox
+
+
+[25-Sep-19 02:55 PM] Slyris#2880
+@PHBA2061 | VietStaking Validator you use: http://35.159.51.208/coinCap ?
+
+
+[25-Sep-19 02:59 PM] Slyris#2880
+https://api.coinpaprika.com/v1/tickers/kmd-komodo
+
+
+@PHBA2061 | VietStaking Validator Take a look here please
+
+
+[25-Sep-19 03:00 PM] Slyris#2880
+max_supply is zero too
+
+
+[25-Sep-19 03:03 PM] Slyris#2880
+We are contacting coinpaprika, and coingecko to solve the problems
+
+
+[25-Sep-19 03:03 PM] Slyris#2880
+Thank's for the report
+
+{Reactions}
+👌 
+
+[25-Sep-19 03:03 PM] PHBA2061 | VietStaking Validator#2530
+I'm using Tonyl's endpoint http://95.217.44.58
+
+
+[25-Sep-19 03:04 PM] Slyris#2880
+Yeah, ok no problem
+
+
+[25-Sep-19 03:04 PM] Slyris#2880
+We are in contact with them, we will do the rest
+
+
+[25-Sep-19 03:04 PM] Slyris#2880
+will let you know once problems are solved
+
+
+[25-Sep-19 03:04 PM] PHBA2061 | VietStaking Validator#2530
+great, thank you !
+
+
+[25-Sep-19 03:18 PM] PHBA2061 | VietStaking Validator#2530
+still not finished yet, but I'm hosting what I'm able to build so far on <http://antara-coin-cap.herokuapp.com/coinCap> (it's http & not https, https connection won't work)
+
+
+[26-Sep-19 02:46 AM] TonyL#3577
+@PHBA2061 | VietStaking Validator btw you can track in realtime if my endpoint is down: https://t.me/kmdQAnotifications
+
+{Embed}
+https://t.me/kmdQAnotifications
+KMD QA Bot Notifications
+You can view and join @kmdQAnotifications right away.
+https://images-ext-2.discordapp.net/external/iRQNFaipDWn7TV0Kaz698sPr12JxEU4XVmhPSKl2l08/https/cdn4.telesco.pe/file/Z9Zd88gZJBNO9yfl2I3NwoY2PehfnJ4bXRMXpczAl6VMw1A7xkt0v3iVjah72aeWXzCtAX-xteU0lceXjJCJO2nTRV7XcuvOXDglyByIztPuHJ1O7ZvfeK9r_I1ymx37zbuha0NFt3XIfc9Auwm0FVh3R9TQtYsBMc61yK0Jkpb26gaqKe4s4lE09DOVJzyK9w6LHnShAWAsPVtZliH23aC_ptytvT_ClsgRpRjRz82g3HHIHPoFbEBo-ThQWZcjMQK54dFHiubNjOxZsTY54ureSioNZVImNnflhEDYNqMvZ93avS_JNYhNHNpOsX4AaTpV-DUEDsAKDiTGFQY_vg.jpg
+
+
+[26-Sep-19 02:47 AM] TonyL#3577
+to stick a wand at me if necessary 😂
+
+
+[26-Sep-19 02:58 AM] PHBA2061 | VietStaking Validator#2530
+I have my app calling your endpoint API every 60 secs so I'll know right away if it is down lol 😂
+
+{Reactions}
+🔥 (2) 
+
+[03-Oct-19 09:39 AM] PHBA2061 | VietStaking Validator#2530
+hi, I pushed some updates to my app: all asset chains are now added, charts are now zoomable (still not finished)
+http://antara-coin-cap.herokuapp.com/coinCap
+
+{Embed}
+http://antara-coin-cap.herokuapp.com/coinCap
+komodo-coin-cap - komodo-coin-cap
+Komodo & SC explorer
+
+{Reactions}
+👍 (4) shexy (4) 
+
+[12-Oct-19 09:19 AM] PHBA2061 | VietStaking Validator#2530
+this week update: blockchain related info tab added, loading animation added, responsiveness on small devices added
+ <http://antara-coin-cap.herokuapp.com/coinCap>
+
+
+[13-Oct-19 09:17 AM] dukeleto#7326
+@PHBA2061 | VietStaking Validator any reason Hush isn't listed? I think I added a PR a long time ago to support it
+
+
+[13-Oct-19 09:30 AM] PHBA2061 | VietStaking Validator#2530
+may be @Slyris can answer the question ? Hush isn't added to the back-end yet
+
+
+[13-Oct-19 10:50 AM] Slyris#2880
+@dukeleto Because you open the pr on your fork repository.
+
+
+[13-Oct-19 10:50 AM] Slyris#2880
+https://github.com/KomodoPlatform/komodo-ecosysboard/pulls
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/pulls
+KomodoPlatform/komodo-ecosysboard
+Contribute to KomodoPlatform/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[13-Oct-19 10:50 AM] Slyris#2880
+There is no pull request for you on the upstream repository, and i already ping you few week's ago to open the pull request
+
+
+[13-Oct-19 10:51 AM] Slyris#2880
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/632998881403076628/Capture_decran_2019-10-13_a_19.51.24.png
+
+
+[13-Oct-19 10:54 AM] dukeleto#7326
+@Slyris oops, that is dumb of me. maybe github changed some defaults, because i have never done that before
+
+
+[13-Oct-19 10:55 AM] Slyris#2880
+^^'
+
+
+[13-Oct-19 10:55 AM] Slyris#2880
+np
+
+
+[13-Oct-19 10:55 AM] Slyris#2880
+just open it, will immeditaly merged.
+
+
+[13-Oct-19 10:56 AM] dukeleto#7326
+@Slyris https://github.com/KomodoPlatform/komodo-ecosysboard/pull/14
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/pull/14
+HUSH by leto · Pull Request #14 · KomodoPlatform/komodo-ecosysboard
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[13-Oct-19 10:57 AM] Slyris#2880
+Merged @dukeleto .
+
+
+[13-Oct-19 10:57 AM] Slyris#2880
+Now you need to wait for deployment scripts to upgrade to the last commit
+
+
+[13-Oct-19 10:58 AM] Slyris#2880
+@TonyL Should confirm you that would not take more than ~10min
+
+
+[13-Oct-19 11:00 AM] dukeleto#7326
+@Slyris thanks, i am a patient man. I just didn't realize I sent my PR into the void 😅
+
+
+[13-Oct-19 11:00 AM] Slyris#2880
+That's why i telled you immeditaly the same day xD
+
+
+[13-Oct-19 11:00 AM] dukeleto#7326
+sorry I didn't see your message
+
+
+[13-Oct-19 11:00 AM] dukeleto#7326
+i left KMD discord for a few weeks
+
+
+[13-Oct-19 11:00 AM] dukeleto#7326
+so I didn't see
+
+
+[13-Oct-19 11:01 AM] dukeleto#7326
+but most likely, i just didn't see it. ETOOMANYCHANNELS 🙂
+
+
+[13-Oct-19 11:01 AM] dukeleto#7326
+glad to see this project moving forward
+
+
+[13-Oct-19 11:02 AM] dukeleto#7326
+let me know if y'all need anything else. for instance, it would be cool to render what % of Hush supply is shielded, stuff like that
+
+
+[13-Oct-19 11:02 AM] Slyris#2880
+Yes and there is 2 another project comming soon
+
+
+[13-Oct-19 11:02 AM] Slyris#2880
+gaming sdk and the makerbot
+
+
+[13-Oct-19 11:02 AM] Slyris#2880
+@dukeleto Is the shielded functionnality something special ?
+
+
+[13-Oct-19 11:03 AM] dukeleto#7326
+only some coins have zaddrs
+
+
+[13-Oct-19 11:03 AM] dukeleto#7326
+KMD does not, ARRR and HUSH do
+
+
+[13-Oct-19 11:03 AM] dukeleto#7326
+most Antara coins have zaddrs enabled
+
+
+[13-Oct-19 11:03 AM] dukeleto#7326
+a few have them disabled
+
+
+[13-Oct-19 11:04 AM] dukeleto#7326
+not sure what you mean by "special"
+
+
+[13-Oct-19 11:04 AM] Slyris#2880
+Hmm
+
+
+[13-Oct-19 11:04 AM] Slyris#2880
+Where we get this information about % shielded ?
+
+
+[13-Oct-19 11:04 AM] Slyris#2880
+Let's say for a specific coin.
+
+
+[13-Oct-19 11:04 AM] Slyris#2880
+dexstats api give us this information ?
+
+
+[13-Oct-19 11:05 AM] dukeleto#7326
+nope
+
+
+[13-Oct-19 11:05 AM] dukeleto#7326
+but it could
+
+
+[13-Oct-19 11:05 AM] dukeleto#7326
+insight explorers can give it to you, maybe
+
+
+[13-Oct-19 11:05 AM] dukeleto#7326
+hush has an api endpoint for it, i must look up what it is
+
+
+[13-Oct-19 11:06 AM] dukeleto#7326
+there is a `coinsupply` RPC
+
+
+[13-Oct-19 11:06 AM] Slyris#2880
+Yeah but adding specific cases for specific coins is not a good idea
+
+
+[13-Oct-19 11:06 AM] Slyris#2880
+if i can have it through an official RPC call yeah
+
+
+[13-Oct-19 11:06 AM] dukeleto#7326
+i get it
+
+
+[13-Oct-19 11:06 AM] dukeleto#7326
+i have my own idea to have a site that compares all zcash forks, and that is where this idea comes from
+
+
+[13-Oct-19 11:06 AM] dukeleto#7326
+i have written lots of code to generate this data for Hush, which is  99% done
+
+
+[13-Oct-19 11:07 AM] dukeleto#7326
+it's a lot of work and not something for antara, most likely
+
+
+[13-Oct-19 11:08 AM] Slyris#2880
+Yeah ok i will check wait
+
+
+[13-Oct-19 11:09 AM] Slyris#2880
+This information should appear to: https://dexstats.info/index.php
+
+{Embed}
+https://dexstats.info/index.php
+Dexstats Dashboard - BarterDEX and Komodo ECO System
+Key Data and statistics for BarterDEX, KMD and the Komodo Eco System.
+
+
+[13-Oct-19 11:37 AM] CHMEX#0686
+https://hush.explorer.dexstats.info/api/supply
+Already gives the supply and as far as I know the coincap script grabs it from there so it should work
+
+
+[13-Oct-19 11:38 AM] Slyris#2880
+yeah ok it's should work so.
+
+
+[13-Oct-19 11:38 AM] Slyris#2880
+Thank's @CHMEX
+
+
+[13-Oct-19 12:08 PM] TonyL#3577
+@Slyris After one of the last updates ecosysboard not starting on my  side with in stderr
+ ```2019-10-13 21:07:01    [FATAL]:    error loading configuration: invalid character ']' looking for beginning of value
+```
+
+
+[13-Oct-19 12:09 PM] Slyris#2880
+😮
+
+
+[13-Oct-19 12:09 PM] Slyris#2880
+Let me check
+
+
+[13-Oct-19 12:10 PM] TonyL#3577
+(update was 1 hour 11 mins ago)
+
+
+[13-Oct-19 12:10 PM] Slyris#2880
+https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/esb_config.json#L313
+
+{Embed}
+https://github.com/KomodoPlatform/komodo-ecosysboard/blob/master/esb_config.json
+KomodoPlatform/komodo-ecosysboard
+Contribute to KomodoPlatform/komodo-ecosysboard development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[13-Oct-19 12:10 PM] Slyris#2880
+@TonyL You think it's the coma ?
+
+
+[13-Oct-19 12:11 PM] TonyL#3577
+lemme try
+
+
+[13-Oct-19 12:12 PM] TonyL#3577
+yes, that was the problem
+
+
+[13-Oct-19 12:17 PM] Slyris#2880
+fixed
+
+
+[13-Oct-19 01:59 PM] dukeleto#7326
+sorry bout that
+
+
+[13-Oct-19 02:00 PM] dukeleto#7326
+@Slyris not sure if this is useful, but our insight explorer has an API endpoint that gives our current supply: https://explorer.myhush.org/api/supply
+
+
+[13-Oct-19 02:00 PM] dukeleto#7326
+Coingecko and coinpaprika/etc use that
+
+
+[13-Oct-19 02:17 PM] Slyris#2880
+https://hush.explorer.dexstats.info/api/supply
+
+
+[13-Oct-19 02:17 PM] Slyris#2880
+we use this one
+
+
+[13-Oct-19 03:13 PM] PHBA2061 | VietStaking Validator#2530
+Hush added <http://antara-coin-cap.herokuapp.com/coinCap>
+
+{Reactions}
+💯 (2) Hush 
+
+[14-Oct-19 11:11 AM] Slyris#2880
+@mrlynch Merged.
+
+
+[14-Oct-19 11:12 AM] mrlynch#5735
+thank you
+
+
+[16-Oct-19 08:00 AM] PHBA2061 | VietStaking Validator#2530
+I made a PR to add CHIPS <https://github.com/KomodoPlatform/komodo-ecosysboard/pull/16>
+
+
+[16-Oct-19 02:58 PM] Slyris#2880
+@PHBA2061 | VietStaking Validator there is a problem with your pr according to the ci I cannot check for the moment I will check tomorrow if I have time for it !
+
+
+[16-Oct-19 03:31 PM] PHBA2061 | VietStaking Validator#2530
+thank you, take your time, it's not urgent, I saw that message about "The build failed.." too, not sure why
+
+
+[30-Oct-19 02:43 PM] TS#6934
+Hey. Are there Russian speakers here?
+I was told to update the wallet to version 0 2 5. deleted, installed a new one, entered the saved SEED. It took 2 times to enter the password and 2 times to enter the PIN code. There are no test coins and transaction history inside. black screen. I don’t remember the name of the old wallet. It was required to give a name.
+
+
+[30-Oct-19 02:46 PM] Oszy#5734
+this is not the channel for this question, please keep it in #🤝│dex-mobile or #🤝│general-support also no need to post the question in 4 different rooms, thank you.
+
+
+[14-Dec-19 09:12 PM] Audo#5667
+What's the status of this project? 
+
+The original inspiration for this project was to make a coinmarket capitlization page that only lists coins that are traded on an atomic swap powered DEX. The page would also show DEX trading volumes and list all the DEXes. Very similar to coinmarketcap.com but only for atomic swaps.
+
+I guess we are almost there, right?
+
+We still have a domain http://atomicmarketcap.com/ – would we use this domain for this project? By listing the DEX markets the site would advertise all the DEXes that use atomic swaps (currently only AtomicDEX & HyperDEX), similarly how you can check all the CEX markets for Komodo from coinmarketcap.com
+
+Once we are off the beta and get liquidity we could use the site as an advertising campaign to make people aware about atomic swap trading and about how it is the future.
+
+cc: @hyperDEX
+
+
+[15-Dec-19 12:10 AM] phm87#7395
+@Audo do you know if the code of this project is opensource ?
+
+
+[15-Dec-19 12:13 AM] gcharang#6833
+I think this was it: <https://github.com/KomodoPlatform/komodo-ecosysboard>
+
+
+[15-Dec-19 12:15 AM] phm87#7395
+Crypto51.app does not retrieve NH prices and does not display 51% cost since weeks/months. Maybe there is demand for such a website
+
+
+[15-Dec-19 12:15 AM] phm87#7395
+Thank you @gcharang
+
+
+[15-Dec-19 01:13 AM] PHBA2061 | VietStaking Validator#2530
+my front-end codes are on github <https://github.com/NOCTLJRNE/Antara-coin-cap>
+also hosted on heroku <http://antara-coin-cap.herokuapp.com/coinCap>
+haven't made any update since months though
+
+
+[15-Dec-19 02:55 AM] Slyris#2880
+Hey, i'm the author of the backend if any helps is needed @Audo
+
+
+[15-Dec-19 02:58 AM] Slyris#2880
+also : https://github.com/KomodoPlatform/coincap/tree/development @Audo @PHBA2061 | VietStaking Validator .
+
+{Embed}
+https://github.com/KomodoPlatform/coincap/tree/development
+KomodoPlatform/coincap
+antara coincap frontend . Contribute to KomodoPlatform/coincap development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[15-Dec-19 03:01 AM] Slyris#2880
+cc @turinglabs ^
+
+
+[15-Dec-19 03:07 AM] Slyris#2880
+What I can say at the moment is that we are actually only listing the coin of the Komodo environment and -> that are traded on an atomic swap powered DEX.
+
+On the other hand we have no information concerning the historical data of atomicDEX, which is necessary to display the volume of swap for example (it was not present at the time of the development of this application) Maybe those data are available via API's today?
+
+
+[15-Dec-19 03:08 AM] Slyris#2880
+Currently the project is using: Dexstats for coins info related to Komodo
+
+Coingecko + Coinpaprika for coins that are active (fetching prices, ignoring for test-coins and innactive coins)
+
+
+[15-Dec-19 03:09 AM] Slyris#2880
+I see that on https://dexstats.info we can see the 24h volume for Swaps etc, but i don't know if the API is open-source to get those information.
+
+{Embed}
+https://dexstats.info
+Dexstats Dashboard - BarterDEX and Komodo ECO System
+Key Data and statistics for BarterDEX, KMD and the Komodo Eco System.
+
+
+[15-Dec-19 03:12 AM] Slyris#2880
+So we currently have a program that fetch information about currencies in the komodo universe. But we have no information concerning the decentralized exchange.
+
+Once those historical data will be available from some endpoint, we can integrate it into the current application
+
+
+[15-Dec-19 03:22 AM] Alright#0419
+I have scripts that can pull historical trade mm2 data from on chain @Slyris
+
+
+[15-Dec-19 03:22 AM] Slyris#2880
+We have the possibility to host it into an open endpoint ?
+
+
+[15-Dec-19 03:22 AM] Alright#0419
+working on incorporating a db into them, they take a long while to run
+
+
+[15-Dec-19 03:22 AM] Slyris#2880
+What we need will be something like an official api for mm2 historical data
+
+
+[15-Dec-19 03:22 AM] Alright#0419
+I'll run an oracle on LABS chain with LABS/KMD data at first
+
+
+[15-Dec-19 03:22 AM] Slyris#2880
+So everyone can use it
+
+
+[15-Dec-19 03:22 AM] Alright#0419
+then slowly add more as I optimize
+
+
+[15-Dec-19 03:23 AM] Alright#0419
+any pair requests?
+
+
+[15-Dec-19 03:23 AM] Slyris#2880
+RICK/MORTY CHIPS/KMD seem's popular, but ideally we want any pair that can be traded on atomicDEX
+
+
+[15-Dec-19 03:23 AM] Alright#0419
+👌
+
+
+[15-Dec-19 03:24 AM] Alright#0419
+will open source code once I have something stable
+
+
+[15-Dec-19 03:24 AM] Slyris#2880
+(I'm using Dexstats API, would be great to integrate those stuff into dexstats)
+
+
+[15-Dec-19 03:24 AM] gcharang#6833
+@Alright scripts in py ?
+
+
+[15-Dec-19 03:24 AM] Alright#0419
+yes, want what I have so far?
+
+
+[15-Dec-19 03:24 AM] Slyris#2880
+I know @smkhound and @TonyL Have some scripts too.
+
+
+[15-Dec-19 03:25 AM] Alright#0419
+is terribly slow, needs a db behind it so it can do it in real time
+
+
+[15-Dec-19 03:25 AM] Alright#0419
+grabbing all historical data for a KMD pair takes 40 minutes
+
+
+[15-Dec-19 03:26 AM] Slyris#2880
+But i think let me know if i'm wrong, but the goal is to be able to query through an rpc call those data directly from mm2 no ?
+
+
+[15-Dec-19 03:27 AM] Slyris#2880
+i think @jl777c tell me that was possible on mm1/barterDex
+
+
+[15-Dec-19 03:27 AM] Alright#0419
+you can get real time data from mm2 seed nodes, but I don't think you can get historical
+
+
+[15-Dec-19 03:27 AM] gcharang#6833
+> yes, want what I have so far?
+yes, please
+
+> is terribly slow, needs a db behind it so it can do it in real time
+sqlite should be enough correct?
+
+are you using nSPV ?
+
+
+[15-Dec-19 03:27 AM] Alright#0419
+and that limits who can run it, we can't add a tonne of seed nodes
+
+
+[15-Dec-19 03:27 AM] Slyris#2880
+How it's was working on mm1 just by curiosity ?
+
+
+[15-Dec-19 03:27 AM] Slyris#2880
+for historical data
+
+
+[15-Dec-19 03:27 AM] Alright#0419
+no SPV, using bitcore commands on local node
+
+{Reactions}
+👍 
+
+[15-Dec-19 03:27 AM] Alright#0419
+explorer can work if I'm whitelisted in rate limiter
+
+
+[15-Dec-19 03:28 AM] Alright#0419
+any mm1 node was able to see all trades on a given segid
+
+
+[15-Dec-19 03:28 AM] Alright#0419
+mm2 only seed nodes can see this
+
+
+[15-Dec-19 03:28 AM] Slyris#2880
+Ok ok !
+
+
+[15-Dec-19 03:28 AM] gcharang#6833
+"netid"
+
+
+[15-Dec-19 03:28 AM] Alright#0419
+yes^
+
+
+[15-Dec-19 03:29 AM] Slyris#2880
+Anyway, this is not the kind of data that I need to request all the time, but only a few times a day.
+
+
+[15-Dec-19 03:30 AM] Alright#0419
+my plan is to have two oracles on LABS at first. One that will show any part of the swap as it happens(shortly after really) and one that will show only completed trades
+
+
+[15-Dec-19 03:30 AM] Slyris#2880
+After that it is sure that if we want real time with the history of swaps on the last minutes, it will be more complicated
+
+
+[15-Dec-19 03:30 AM] gcharang#6833
+> explorer can work if I'm whitelisted in rate limiter
+maybe switch to use electrum servers?
+
+
+[15-Dec-19 03:32 AM] Alright#0419 (pinned)
+basic logic is... 
+
+on alice chain, get DEX fee txids
+iterate through these(or just do them shortly after they happen once db is incorporated)
+find alice->b_addr (alice chain)
+from there find b_addr->bob (alice chain)
+look at b_addr->bob tx, from here we know the script that b_addr->alice must be on bob chain
+search for corresponding tx on bob chain in Alice address
+
+{Reactions}
+👌 
+
+[15-Dec-19 03:33 AM] gcharang#6833
+Pinned a message.
+
+
+[15-Dec-19 03:50 AM] cipi#4502
+i would like to see mm2 providing this data, directly, in real time
+data should include: last_price, 24h volume and live orderbook (this is what most sites like cmc and coinpaprika will request)
+the seed nodes are already storing the data, but it would be best to have a special type of nodes, statnodes, where this data is sent (anonymized, without involved addresses) instead of the seed nodes (the seed nodes should only be used for orderbook propagation)
+
+
+[15-Dec-19 03:51 AM] Alright#0419
+no point in anonymizing, the data is on chain anyway
+
+
+[15-Dec-19 03:52 AM] Alright#0419
+would be better to tell people "hey, look at all this data. It's open for everyone to see. Keep that in mind"
+
+
+[15-Dec-19 03:53 AM] cipi#4502
+you are right, Alright 🙂 ... data is on chain, so no need for anonymizing
+
+
+[15-Dec-19 03:53 AM] Slyris#2880
+i would love a simple rpc call to access this data i agree with @cipi
+
+
+[15-Dec-19 03:54 AM] Slyris#2880
+I think it's a lot of work, so for the moment, we can use custom solution
+
+
+[15-Dec-19 03:54 AM] Slyris#2880
+also data to construct charts would be interesting too
+
+
+[15-Dec-19 03:55 AM] cipi#4502
+problem with analyzing the data from the seed nodes atm is that it only contains historical data, no orderbook
+would be nice, if this data could be retrieved from a single node
+
+
+[15-Dec-19 03:55 AM] Alright#0419
+if we wanted better privacy, HD wallets would throw a wrench in all of this
+
+
+[15-Dec-19 03:55 AM] Alright#0419
+more obfuscation than privacy though
+
+
+[15-Dec-19 03:59 AM] Alright#0419
+the idea that a private netid gives you privacy is flawed. If it uses same DEX fee address, it's easily tracked
+
+
+[15-Dec-19 04:00 AM] Alright#0419
+Aha dex fee could be paid to a 1of2 address with DEX address and random garbage address
+
+
+[15-Dec-19 04:01 AM] Alright#0419
+would still need a way for jl(or whoever is managing DEX address) to track them though
+
+
+[15-Dec-19 04:02 AM] cipi#4502
+i don't think it is worth thinking too much about additionally anonymizing the swaps... will be enough work to get the stats working 😉
+
+
+[15-Dec-19 04:04 AM] Alright#0419
+more of a shower thought than a suggestion 😛
+
+{Reactions}
+🚿 💭 
+
+[15-Dec-19 06:29 AM] Audo#5667
+@Alright , are we able to show how much trading happens on any specific wallet/GUI? Maybe there's no need for that though since the liquidity pool is shared. It would help to rank the DEXes at the very least, in terms of usage.
+
+
+[15-Dec-19 06:34 AM] gcharang#6833
+there is a gui fee address correct?
+may be it can be tracked for that data?
+
+
+[15-Dec-19 06:38 AM] Audo#5667
+right, I think so
+
+
+[15-Dec-19 06:48 AM] Alright#0419
+must be tracked from seed node if it's done at all
+
+
+[15-Dec-19 06:48 AM] Alright#0419
+not possible to determine based on the way I'm doing it
+
+
+[15-Dec-19 06:49 AM] Alright#0419
+Oh same concept of 1of2 could be used for DEX address to indicate which GUI it was made from could be used
+
+
+[15-Dec-19 06:50 AM] Alright#0419
+would need to be 2of3 in that case, 1 key provided by GUI dev, 2 owned by whoever is managing DEX address
+
+
+[15-Dec-19 06:51 AM] Alright#0419
+@ca333 have a nice idea for you there^
+
+
+[15-Dec-19 06:51 AM] Alright#0419
+not sure how GUI is tracked now, but if we want historical data to be available could do the above
+
+
+[15-Dec-19 07:23 AM] Alright#0419
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/655792016587751434/KMD_LABS_completed.json
+
+
+[15-Dec-19 07:23 AM] Alright#0419
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/655792018852806676/LABS_KMD_completed.json
+
+
+[15-Dec-19 07:23 AM] Alright#0419
+those are all completed trades between KMD and LABS if anyone is curious
+
+
+[15-Dec-19 09:47 AM] Alright#0419
+https://github.com/Alrighttt/atomicdex_volume/
+
+{Embed}
+https://github.com/Alrighttt/atomicdex_volume/
+Alrighttt/atomicdex_volume
+Extract atomicdex volume data from blockchain data - Alrighttt/atomicdex_volume
+https://images-ext-2.discordapp.net/external/-Cj6-CMDPEXUsmpPCG_WSOt1mbR_ph_wzx_DxXDK6o4/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/36680730
+
+
+[15-Dec-19 09:48 AM] Alright#0419
+the `example_output` branch in that repo has RICK/MORTY data
+
+
+[15-Dec-19 09:49 AM] Alright#0419
+2500 RICK/MORTY swaps
+2140 MORTY/RICK swaps
+
+
+[15-Dec-19 09:49 AM] Alright#0419
+that is the total of completed swaps between the two
+
+
+[15-Dec-19 09:59 AM] ca333#0333
+did you gen the stats based on blockchain/tx-data?
+
+
+[15-Dec-19 09:59 AM] ca333#0333
+whats the timeframe of the 2500/2140 swaps?
+
+
+[15-Dec-19 10:01 AM] Alright#0419
+should be all of them unless there is a bug
+
+
+[15-Dec-19 10:01 AM] Alright#0419
+all of them that exist on new RICK and MORTY chains at least
+
+
+[15-Dec-19 10:02 AM] Alright#0419
+doesn't include old chains, but I can do them if you want
+
+
+[15-Dec-19 10:02 AM] Alright#0419
+the logic for it is in pinned message here
+
+
+[15-Dec-19 10:17 AM] Alright#0419
+if anyone happens to have a list of known completed RICK/MORTY swaps, please give it to me. Can sanity check this script
+
+
+[15-Dec-19 10:59 AM] phm87#7395
+@Alright I'll have a look at your <https://github.com/Alrighttt/atomicdex_volume/> but do you check volume using dexfee address or checking if swaps occured ? How to know if it is an atomic swap of atomicdex or a swap of another tool (outside KMD stuff) ?
+
+
+[15-Dec-19 11:00 AM] phm87#7395
+Second question: Can I use and port your code to another language for one of my secret project (opensource) ?
+
+
+[15-Dec-19 11:23 AM] Alright#0419
+It will only find mm2 protocol swaps that use standard DEX address. It will not find any others.
+
+
+[15-Dec-19 11:23 AM] Alright#0419
+And yes, use it freely, was just meant to demonstrate the logic that can be used
+
+
+[15-Dec-19 11:44 AM] cipi#4502
+there is a field "gui" in the swap data of every swap: eg `"gui" : "nogui"` ... so that info can be used to determine which GUI was used for the swap... what i don't know is to which side the info applies: taker or maker...
+
+
+[15-Dec-19 11:46 AM] cipi#4502
+could be that it is different on taker and maker... i was maker... and the swap data contains
+```"type" : "Maker"
+"gui" : "nogui"```
+i guess the taker has
+```"type" : "Taker"
+"gui" : "whatever"```
+in the swap with the same uuid
+
+
+[15-Dec-19 11:59 AM] Alright#0419
+is the swap data something we can find after the fact?
+
+
+[15-Dec-19 12:00 PM] Alright#0419
+the issue I see is that not everyone can run a seed node(everyone *can*, but they need users to specify them as a seed node) meaning only a handful of people can get this data
+
+
+[15-Dec-19 12:00 PM] TonyL#3577
+Is what I get from seed DB parsing
+```
+RICK/MORTY 4582
+MORTY/RICK 5645
+```
+
+
+[15-Dec-19 12:00 PM] Alright#0419
+I guess for GUI tracking that is not as important, but I made those scripts to enable everyone to be able to get volume data
+
+
+[15-Dec-19 12:00 PM] Alright#0419
+is that completed swaps only @TonyL ?
+
+
+[15-Dec-19 12:00 PM] TonyL#3577
+It's succesfull + unsuccesful
+
+
+[15-Dec-19 12:01 PM] TonyL#3577
+let me count succesful only
+
+
+[15-Dec-19 12:01 PM] Alright#0419
+ty
+
+
+[15-Dec-19 12:02 PM] TonyL#3577
+```
+3649
+4206
+```
+
+
+[15-Dec-19 12:02 PM] Alright#0419
+🤔
+
+
+[15-Dec-19 12:02 PM] Alright#0419
+that is all of them for sure?
+
+
+[15-Dec-19 12:02 PM] TonyL#3577
+yes, no any timestamp filtering
+
+
+[15-Dec-19 12:03 PM] Alright#0419
+oh nope >.<
+
+
+[15-Dec-19 12:03 PM] Alright#0419
+ok, yep likely an issue with my script, could you dump txids of each step for me?
+
+
+[15-Dec-19 12:04 PM] Alright#0419
+for every swap 😅
+
+
+[15-Dec-19 12:04 PM] Alright#0419
+oh does that include old RICK/MORTY chains?
+
+
+[15-Dec-19 12:04 PM] TonyL#3577
+yeah, it parsing `all` RICK/MORTY swaps
+
+
+[15-Dec-19 12:05 PM] TonyL#3577
+I can use timestamp of genesis of new RICK/MORTY to filter by time also
+
+
+[15-Dec-19 12:05 PM] TonyL#3577
+lemme try
+
+
+[15-Dec-19 12:08 PM] TonyL#3577
+numbers lowered a little bit more 😅 
+```
+2989
+3616
+```
+
+
+[15-Dec-19 12:10 PM] Alright#0419
+could you dump all 5 txids of each swap for me please?
+
+
+[15-Dec-19 12:10 PM] Alright#0419
+two separate dumps if you can please, one RICK/MORTY, one MORTY/RICK
+
+
+[15-Dec-19 12:11 PM] TonyL#3577
+sure, let me check how to grab it
+
+
+[15-Dec-19 12:38 PM] TonyL#3577
+```wc -l rick_morty_txids.txt 
+8964 rick_morty_txids.txt
+wc -l morty_rick_txids.txt 
+10848 morty_rick_txids.txt
+```
+
+
+[15-Dec-19 12:38 PM] TonyL#3577
+will share files now
+
+
+[15-Dec-19 12:42 PM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/655872391083458570/rick_morty_txids.txt
+
+
+[15-Dec-19 12:42 PM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/655872415175540767/morty_rick_txids.txt
+
+
+[15-Dec-19 12:43 PM] TonyL#3577
+wrote only 3 txids for each swap (taker/maker payments and spent) without fee tx
+
+
+[15-Dec-19 01:29 PM] Alright#0419
+@TonyL is it not possible to get dex fee txid as well?
+
+
+[15-Dec-19 01:29 PM] Alright#0419
+that's mainly what I needed
+
+
+[15-Dec-19 01:29 PM] Alright#0419
+thank you, can try to work with this, but dex fee txids would be most useful
+
+
+[15-Dec-19 01:52 PM] TonyL#3577
+Sure, when wake up I can make two more dumps with fee txids only
+
+{Reactions}
+💩 
+
+[16-Dec-19 02:22 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/656078808188715027/rick_morty_fee.txt
+
+
+[16-Dec-19 02:23 AM] TonyL#3577
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/656078832100573194/morty_rick_fee.txt
+
+
+[16-Dec-19 02:23 AM] TonyL#3577
+@Alright
+
+
+[23-Dec-19 05:38 PM] Regnar#6164
+Hey it's been a while since I've checked out this channel. How's this coming along?
+
+
+[25-Jun-20 04:30 AM] Audo#5667
+at least currently a CMC type of view is planned inside the AtomicDEX app, but that is a post release feature.
+
+
+[25-Jun-20 04:31 AM] Audo#5667
+oh, that was an old question 😄 Anyway, update!
+
+{Reactions}
+😀 (2) 
+
+[25-Jun-20 04:34 AM] PHBA2061 | VietStaking Validator#2530
+https://discord.com/channels/412898016371015680/597801063042646026/632613354677993493
+
+
+[03-Aug-20 06:40 AM] Musten#6892
+Howdy, is there someone here from Komodo familiar with Agama wallet?
+
+
+[03-Aug-20 07:15 AM] Audo#5667
+yes @Musten , but it's development has been discontinued. You can reach our team with support related questions through the #🤝│general-support channel. We have been developing a new wallet & DEX product hybrid called #atomicdex
+
+
+[03-Aug-20 07:17 AM] gcharang#6833
+@Audo answered and solved in Dm
+
+{Reactions}
+👌 
+
+[04-Aug-20 10:25 PM] agnewpickens#7393
+@Musten I just installed VerusCoin replacement for Agama and used my KMD WIF key and it brought up all my coins.
+
+
+[04-Aug-20 10:27 PM] agnewpickens#7393
+I have already sent transactions in multiple coins, including KMD, back and forth between wallets and exchanges, it is much nicer than Agama.
+
+
+[05-Aug-20 02:05 AM] Cryptoon#3362
+👏🏻
+
+
+[13-Aug-20 10:45 AM] mobipoi#5774
+Will the coinmarket cap be included inside the Dex pro and will it have details of the asset such as in coingeko
+
+
+[13-Aug-20 11:05 AM] Slyris#2880
+@mobipoi you already have the portfolio page, we can probably add a market capitalisation column.
+
+
+[14-Aug-20 04:13 AM] mobipoi#5774
+Yes and info section
+
+
+[14-Aug-20 04:13 AM] mobipoi#5774
+Like what the coin is about,
+
+
+[15-Aug-20 06:46 AM] Mastermind#3333
+hello so i was using agama wallet aswell for my KMD but i havnt synced in a while coz been busy since its been replaced i wana ask if i can use already downloaded chaindata on veruscoin wallet or ocean wallet ? whats the best way to get into staking my coins again and accessing my chainzilla coins aswell
+
+
+[15-Aug-20 09:30 PM] Deleted User#0000
+@Mastermind use https://veruscoin.io/ as Agama is no more. You do not need to use native mode, just use lite mode and you should be able to claim your rewards.
+
+{Embed}
+https://veruscoin.io/
+Truth and Privacy for All | Community driven open source cryptocurr...
+Community driven open source CPU mineable cryptocurrency with 50/50 Proof-of-Work/Proof-of-Stake, zk-SNARK zero-knowledge proof privacy.
+
+
+[16-Aug-20 04:09 AM] Mastermind#3333
+I downloaded Veruscoin , i was using agama in native mode and i have backup of my wallet file how do a import it to verus lite mode ? or import WIF there is no easy example anywhere which tells how to do so in GUI
+
+
+[16-Aug-20 07:38 PM] polycryptoblog#1173
+@Mastermind https://wiki.veruscoin.io/#!how-to/how-to_restore_my_wallet.md
+
+
+[18-Aug-20 02:58 AM] Mastermind#3333
+yes thanks took a while but i finally got verus working and synced
+
+
+[18-Aug-20 02:59 AM] Mastermind#3333
+do  i need to do anything further to stake my coins ? or just like before move them once a month atleast ?
+
+
+[18-Aug-20 03:11 AM] Oszy#5734
+claim rewards at least once a month, it stops accumulating after 30 days
+
+
+[23-Aug-20 05:57 PM] CryptoSurfer#5372
+@Oszy I do it everyday 🤗
+
+
+[25-Aug-20 10:11 AM] Marx1001#5313
+@CryptoSurfer claiming every day is not the best strategy.
+
+
+[25-Aug-20 10:12 AM] CryptoSurfer#5372
+@Marx1001 why?
+
+
+[25-Aug-20 10:13 AM] Marx1001#5313
+@CryptoSurfer you lose about 30 hours every month. When you claim rewards you dont generate rewards for 1 hour.
+
+
+[25-Aug-20 10:15 AM] CryptoSurfer#5372
+@Marx1001 are u sure? When I claim, in a few minutes I go back into my wallet to hit claim again and it’s already started generating
+
+
+[25-Aug-20 10:16 AM] Marx1001#5313
+@CryptoSurfer im sure. It was talked about somewhere. Maybe on telegram.
+
+
+[25-Aug-20 10:36 AM] CHMEX#0686
+That is correct yes
+
+
+[25-Aug-20 10:36 AM] CHMEX#0686
+Better do once each 30 days
+
+
+[25-Aug-20 11:20 AM] CryptoSurfer#5372
+Where is the article or telegram that says that? @CHMEX @Marx1001  because I’ve done it minutes after claiming and it immediately started generating again .
+
+
+[25-Aug-20 11:21 AM] CHMEX#0686
+It doesnt you have to wait 60 minutes i will find the docs
+
+
+[25-Aug-20 11:22 AM] CHMEX#0686
+https://support.komodoplatform.com/support/solutions/articles/29000024428-komodo-5-active-user-reward-all-you-need-to-know
+
+{Embed}
+https://support.komodoplatform.com/support/solutions/articles/29000024428-komodo-5-active-user-reward-all-you-need-to-know
+Komodo 5% Active User Reward - All You Need to Know
+What is the 5% Active User Reward?  Any Komodo address holding an unspent transaction output (UTXO) of value greater than 10 KMD will begin earning a reward once the lock time is set about 1 hour after a transaction that creates the UTXO is mined...
+https://images-ext-1.discordapp.net/external/OtkD-SwYzuGHOLo55o19PJtkGcEg1OlXMwXQlRowHzM/%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3DAKIAS6FNSMY2WD6T3JNC%252F20200823%252Fus-east-1%252Fs3%252Faws4_request%26X-Amz-Date%3D20200823T083035Z%26X-Amz-Expires%3D604800%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Signature%3Dd7e5ba62ed7c794e1acff5e89b760cd931e15ee3d74111dc4a1d59f03b2d23e9/https/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29002687673/logo/W9JroNQCNGh0ObXMuSJ-jUMU9TVGBwN1JA.png
+
+
+[25-Aug-20 11:23 AM] CHMEX#0686
+Its described in the middle of the page @CryptoSurfer
+
+
+[25-Aug-20 11:25 AM] CryptoSurfer#5372
+@CHMEX I just read it, it says nothing about this regarding rewards being claimed in AtomicDex mobile.
+
+
+[25-Aug-20 11:25 AM] CHMEX#0686
+You need to have a minimum of 10 Komodo in your address as a single UTXO that is about 60 blocks (~60 minutes) old.
+
+
+[25-Aug-20 11:26 AM] CHMEX#0686
+Check that part
+
+
+[25-Aug-20 11:32 AM] CryptoSurfer#5372
+@CHMEX when u have that minimum at all times, u can redeem your rewards as many times as you please with no delay in the reward generation starting up again.
+
+
+[25-Aug-20 11:33 AM] CHMEX#0686
+No u have to wait 60mins in between
+
+
+[25-Aug-20 11:34 AM] CHMEX#0686
+Once u claim it does not acrue for 60mins
+
+
+[25-Aug-20 12:06 PM] CryptoSurfer#5372
+@CHMEX oh boy......I am  very sorry , I did this months ago and obviously got my sense of time completely wrong. It was not a couple minutes. I guess I have a horrible memory . Thank you for the info and setting me straight . Much appreciated 🙏👍
+
+{Reactions}
+👍 (2) 
+
+[25-Aug-20 12:06 PM] CryptoSurfer#5372
+I don’t know if I’m a dummy or extremely stubborn
+
+{Reactions}
+😜 
+
+[25-Aug-20 12:11 PM] Marx1001#5313
+@CryptoSurfer. No worries buddy. There are no mistakes, just happy accidents. 😄
+
+{Reactions}
+🙏 
+
+[29-Nov-20 05:15 PM] wamgta#5435
+Hello everyone, where is Komodo's mining address?
+
+
+[29-Nov-20 09:52 PM] gcharang#6833
+can you be more specific please? whose mining address for KMD?
+
+
+[11-Dec-20 09:55 AM] Regnar#6164
+Hey so I was reading back at this a bit, is this going to be a website? or is this "CMC type of view is planned inside the AtomicDEX app"? What's the real project here? API endpoints?
+
+
+[11-Dec-20 10:53 AM] cipi#4502
+@MadMaX built a very nice site that is showing all the coins tradeable in the AtomicDEX GUI with infos like volume accross different pairs and all available orderbooks for that coin
+not sure if i am allowed to share the link publicly...
+
+{Attachments}
+https://cdn.discordapp.com/attachments/597801063042646026/787029363970801734/unknown.png
+
+{Reactions}
+👀 shexy 
+
+[11-Dec-20 11:01 AM] Regnar#6164
+ah, I'll PM him
+
+
+[12-Dec-20 05:04 AM] arslanilyasovich#6358
+vf
+
+
+[13-Dec-20 12:20 AM] MCL-preneur#7736
+@MadMaX so what is the link please?
+
+
+[13-Dec-20 12:20 AM] MadMaX#0593
+https://dexplorer.io
+
+{Reactions}
+🔥 (9) 👏 (5) 
+
+[13-Dec-20 12:21 AM] MCL-preneur#7736
+👍👍👍
+
+
+[15-Dec-20 10:04 PM] grewalsatinder#9653
+that's a damn cool website @MadMaX 
+Great work! 👏 👍
+
+{Reactions}
+💯 (4) awthanks (3) 
+
+[04-Jan-21 04:34 AM] K.M#8111
+https://github.com/VerusCoin/Agama/releases/tag/v0.6.0.13-PBaaS-Cross-chain-Technology-Preview
+
+{Embed}
+https://github.com/VerusCoin/Agama/releases/tag/v0.6.0.13-PBaaS-Cross-chain-Technology-Preview
+Release PBaaS Cross-chain Technology Preview May 29 2019 · VerusCoi...
+Please note that this is a test release intended to use for testing and development with public blockchains as a service (PBaaS). Although this version does also work with Verus mainnet, it does no...
+https://images-ext-2.discordapp.net/external/ics999Prx3ZVXBmBBxXT-2M7Vz7hQRqCfv8JUX38JJs/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/38958958
+
+
+[04-Jan-21 04:34 AM] K.M#8111
+hello
+
+
+[04-Jan-21 04:34 AM] K.M#8111
+is this safe to use?
+
+
+[04-Jan-21 05:15 AM] gcharang#6833
+the software you linked is deprecated. replied to you in #🤝│general-support
+
+
+[14-Jan-21 07:07 PM] PrinceVince#9007
+How probable you guys think komodo will be a top 30 coin again in the near future?
+
+
+[14-Jan-21 07:31 PM] Jcharming#2693
+Komodo is already №1 @PrinceVince  recommend you go ask this question in #📈┃talk-trading
+
+
+[15-Jan-21 12:23 AM] Cryptoon#3362
+There is *a* probability, how big that one is, nobody knows 🙂
+
+
+[23-Jan-21 10:06 AM] jspook16#3059
+I think it depends from this point forward how much kmd coin utility there is. Currently a user does not need KMD to trade on adex so utility is limited to 0 conf, rewards, and maybe a few other things in the eco system
+
+
+[23-Jan-21 10:06 AM] jspook16#3059
+BUT I think we as a community can start changing that
+
+{Reactions}
+💯 👆 💚 
+
+[23-Jan-21 10:14 AM] jspook16#3059
+I was unaware 0 conf was not on mm2. And Ive been trying to put my head to increasing kmd utility. dPoW is a major utility but I dont think someone would need alot of KMD coins for that, or would they?
+
+
+[23-Jan-21 10:15 AM] jspook16#3059
+I think the demand for the coin is what really meant to say. We would need to increase the demand for the coin to move up the ranks
+
+
+[23-Jan-21 10:52 AM] jspook16#3059
+to me thats not alot of kmd to increase demand much.
+
+
+[23-Jan-21 10:53 AM] jspook16#3059
+perhaps when vrsc gets liq pools going, the code can be merged in kmd so that kmd can support pools (and where vrsc pools require VRSC, kmd pools would require KMD). But we would only be competing for the same market at that point
+
+
+[23-Jan-21 11:10 AM] jspook16#3059
+that is an interesting idea. If I understand it correctly, taking the dex fees to create KMD liquidity.
+
+
+[23-Jan-21 11:11 AM] jspook16#3059
+We can also push KMD to be the base on atomic dex. Make KMD the default base....
+
+
+[23-Jan-21 12:02 PM] CHMEX#0686
+yes it is
+
+{Reactions}
+👍 
+
+[28-Jan-21 11:38 PM] BennyBonnumber9#8301
+Is Kodomo doing airdrop ?
+
+
+[28-Jan-21 11:42 PM] Cryptoon#3362
+No
+
+
+[30-Jan-21 09:18 PM] Crabby Paddy#6239
+@BennyBonnumber9 do you mean the wsb?
+
+
+[30-Jan-21 09:19 PM] BennyBonnumber9#8301
+??
+
+
+[30-Jan-21 09:20 PM] Crabby Paddy#6239
+Komodo holders got airdropped a fun token, was just checking if that’s what you were asking about
+
+
+[30-Jan-21 09:20 PM] Crabby Paddy#6239
+But no, no direct kmd airdrop. If you help spread the word of Komodo to some communities I’d be more than happy to throw a few your way
+
+
+[30-Jan-21 09:20 PM] Crabby Paddy#6239
+:3040_suspepe:
+
+
+[01-Feb-21 08:43 PM] demo#5100
+how do i buy or obtain KMD?
+
+
+[01-Feb-21 09:16 PM] Slyris#2880
+Several solutions, you can buy on an exchange such as `Binance` or `AtomicDEX`.
+
+You can also mine Komodo.
+
+
+[02-Feb-21 12:02 AM] demo#5100
+Thanks, i tried binance but they were not selling it in usd, i managed to find it on Bittrex tho and got some sent over to my AtomicDex wallet, what type of equipment is needed for mining it?
+
+
+[02-Feb-21 05:39 AM] cipi#4502
+there is KMD/USDT on Binance, but you can always go USD -> BTC -> KMD if the exchange does USD at all
+
+
+[02-Feb-21 09:52 PM] BlackJesus#6161
+@demo equihash asics are needed to mine komodo. Or you can try and run a notary node during elections.
+
+
+[26-Feb-21 12:03 PM] Psurge#9082
+I run zmini for. Kmd.
+
+
+[28-May-21 05:45 AM] NicARRRlino | $ARRR#0226
+What is running a notary node?
+
+
+[28-May-21 05:49 AM] gcharang#6833
+https://komodoplatform.com/en/blog/delayed-proof-of-work/
+notary nodes are part of dpow
+
+{Embed}
+https://komodoplatform.com/en/blog/delayed-proof-of-work/
+51% Attack Security: Delayed Proof of Work (dPoW)
+This post will explain Komodo's innovative Delayed Proof of Work (dPoW) security mechanism and its corresponding Blockchain Security Service.
+https://images-ext-2.discordapp.net/external/y1G3i-bcIdHShfEtRw-4Y7xUCaBqPfNydnLH5Y1R898/https/komodoplatform.com/en/blog/content/images/2021/03/default_komodo_960x480-53.jpg
+
+
+[28-May-21 05:53 AM] NicARRRlino | $ARRR#0226
+Is that run is Komodo ocean?
+
+
+[28-May-21 06:02 AM] gcharang#6833
+no, notary nodes are elected each year and run cli and komodod
+
+
+[20-Oct-21 02:07 PM] Manolo#0160
+hola me pueden ayudar con una duda
+
+
+==============================================================
+Exported 1,178 message(s)
+==============================================================

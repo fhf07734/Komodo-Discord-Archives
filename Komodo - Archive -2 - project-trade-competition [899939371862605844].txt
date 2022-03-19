@@ -1,0 +1,2077 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / project-trade-competition
+==============================================================
+
+[19-Oct-21 01:38 AM] Audo#5667
+@Artakush @jspook16 here's the channel. Tag all names here who we should add to this channel.
+
+{Reactions}
+9756_AppJedi (2) 👍 
+
+[19-Oct-21 07:32 AM] jspook16#3059
+@Kelcie @sems @Nev @Jupiter&Mars @Franswa Andre @scott (notfromthefuture)
+
+
+[19-Oct-21 07:32 AM] jspook16#3059
+@༺α☬丂Ӧ¢ ༒ ༻
+
+
+[19-Oct-21 07:33 AM] jspook16#3059
+@cryptosammy
+
+
+[19-Oct-21 07:35 AM] Artakush#4285
+:market_up:
+
+
+[19-Oct-21 11:12 PM] Audo#5667
+Everyone added! Welcome @Kelcie @sems @Nev @Jupiter&Mars @Franswa Andre @scott (notfromthefuture) @༺α☬丂Ӧ¢ ༒ ༻ @cryptosammy
+
+{Reactions}
+market_up 
+
+[19-Oct-21 11:14 PM] Kelcie#1924
+Thank you!
+
+
+[19-Oct-21 11:45 PM] sems#7713
+Thanks a lot
+
+
+[20-Oct-21 12:44 AM] cryptosammy#3587
+thanks!
+
+
+[20-Oct-21 04:54 AM] Nev#5914
+Thanks
+
+
+[20-Oct-21 05:49 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+✌️
+
+
+[20-Oct-21 05:52 PM] jspook16#3059
+Here is the git hub where we were working the items to get added on atomicDEX desktop version.
+
+
+[20-Oct-21 05:52 PM] jspook16#3059
+https://github.com/jspook16/atomicDEX-Desktop
+
+{Embed}
+https://github.com/jspook16/atomicDEX-Desktop
+GitHub - jspook16/atomicDEX-Desktop: atomicDEX Desktop app - projec...
+atomicDEX Desktop app - project codename "Dextop". Contribute to jspook16/atomicDEX-Desktop development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/PTVUsvRwhnv8XRcglztXgotdM6T4xIN9Q2RTXcbRPVw/https/opengraph.githubassets.com/6c62b3d2dc788c4d30144037fcadb37f073d95435493749623f36a938762e726/jspook16/atomicDEX-Desktop
+
+
+[20-Oct-21 05:53 PM] jspook16#3059
+https://github.com/jspook16/coins
+
+{Embed}
+https://github.com/jspook16/coins
+GitHub - jspook16/coins: coin parameters and all files needed for G...
+coin parameters and all files needed for GUI support - GitHub - jspook16/coins: coin parameters and all files needed for GUI support
+https://images-ext-1.discordapp.net/external/6JXIj-428kqCaVwpFGOGFYx-Fj6ZQpG18dYtdF5-5Zs/https/opengraph.githubassets.com/b42dc871a624853df10c231d41322673181749d9aa2f77e761e7afd0de712271/jspook16/coins
+
+
+[20-Oct-21 05:53 PM] jspook16#3059
+Those two repositories is where the changes were being made before being submitted to the main branch.
+
+
+[20-Oct-21 05:54 PM] jspook16#3059
+First issue was changing the ticker from "DRAGONFAIRY" to "DGNF" since the ticker needed to be less than 4 characters I think
+
+
+[20-Oct-21 05:55 PM] jspook16#3059
+since we had to change the ticker....we then had to perform another atomic swap with the new ticker
+
+
+[20-Oct-21 05:55 PM] jspook16#3059
+and also had to change the electrum servers and explorers to match
+
+
+[20-Oct-21 05:56 PM] jspook16#3059
+@scott (notfromthefuture) has the explorer and electrum server info .... I tried to set up an electrum server on my end but Im not sure if I was succesful
+
+
+[20-Oct-21 05:56 PM] jspook16#3059
+we need at least two electrum servers, one explorer and the changes to github to submit to be added to atomicDEX
+
+
+[20-Oct-21 05:56 PM] jspook16#3059
+the coin logo is something simple that scott put together
+
+
+[20-Oct-21 05:57 PM] jspook16#3059
+If we want to change the logo or the ticker name now is the time
+
+
+[20-Oct-21 05:57 PM] jspook16#3059
+any thoughts?
+
+
+[20-Oct-21 05:59 PM] jspook16#3059
+actually i think i was pushing the changes directly back to the main atomicDEX branch for approval... I dont remember any more lol
+
+
+[20-Oct-21 07:19 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Did you clone atomicdex? Can you use Marmara fork as it has no geo block
+
+
+[20-Oct-21 07:20 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The main thing is that everything is repeatable. Do you have a copy of the coin parameters that you can share?
+
+
+[20-Oct-21 07:20 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+And the cli commands used to launch the coin dgnf
+
+
+[20-Oct-21 07:21 PM] jspook16#3059
+yeah let me get them from my local machine
+
+{Reactions}
+👍 
+
+[20-Oct-21 07:30 PM] jspook16#3059
+{
+                "coin": "DRAGONFAIRY",
+                "asset": "DRAGONFAIRY",
+                "fname": "DRAGONFAIRY",
+                "rpcport": 62842,
+                "txversion": 4,
+                "overwintered": 1,
+                "mm2": 1,
+                "required_confirmations": 3,
+                "requires_notarization": false,
+                "avg_blocktime": 1,
+                "protocol": {
+                        "type": "UTXO"
+                }
+        },
+
+
+[20-Oct-21 07:30 PM] jspook16#3059
+sorry got sidetracked
+
+
+[20-Oct-21 07:31 PM] jspook16#3059
+thats the coin details in the 'coins' file
+
+
+[20-Oct-21 07:31 PM] jspook16#3059
+Im not sure I forked.... I just copied it so i had a working copy of it on github (im not a coder by the way)
+
+
+[20-Oct-21 07:31 PM] jspook16#3059
+"DRAGONFAIRY" text is what needs to change to "DGNF"
+
+
+[20-Oct-21 07:32 PM] jspook16#3059
+icon
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/900572234257661972/dragonfairy.png
+
+
+[20-Oct-21 07:32 PM] jspook16#3059
+thats the icon
+
+
+[20-Oct-21 07:32 PM] jspook16#3059
+its a png file
+
+
+[20-Oct-21 07:33 PM] jspook16#3059
+Explorers file
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/900572376851431534/DRAGONFAIRY
+
+
+[20-Oct-21 07:33 PM] jspook16#3059
+electrums file
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/900572427506049054/DRAGONFAIRY
+
+
+[20-Oct-21 07:35 PM] jspook16#3059
+I will have to go back and look at the instructions to get an asset added to find out what other files I edited
+
+
+[20-Oct-21 07:40 PM] jspook16#3059
+this is the link I followed to do the atomic swap....unfortunately it was with "DRAGONFAIR" and not "DGNF"
+
+
+[20-Oct-21 07:40 PM] jspook16#3059
+https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/atomicdex-walkthrough.html#setting-up-the-coin-list
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/atomicdex-walkthrough.html
+DEX Walkthrough
+Now that you have MarketMaker 2.0 (MM2) installed you are ready for your first atomic swap!
+https://images-ext-2.discordapp.net/external/JRuH6_LDrjOGd6HbRckiIc9OBFcyJGE1c7DjCukFvtA/https/developers.komodoplatform.com/start-here-pics/Dev_Docs_Introduction_small.png
+
+
+[20-Oct-21 08:27 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Will the rpcport always stay the same?
+
+
+[20-Oct-21 08:28 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Ie: if another coin is created it uses that port
+
+
+[20-Oct-21 08:31 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987 (pinned)
+https://guides.spaceworks.co/Add-A-Coin-To-AtomicDEX.html
+
+{Embed}
+https://guides.spaceworks.co/Add-A-Coin-To-AtomicDEX.html
+Add A Coin To AtomicDEX
+This guide will teach you how to get a new coin added to AtomicDEX. ## Table of Contents - [Please Note](#please-note) - [Background Information](#background-information) - [Instructions](#instructions) ### Please Note AtomicDEX supports UTXO coins, Komodo Smartchains, and ERC-20/BEP-20/QRC-20 tokens. Coins with non-standard RPC would require ch...
+
+
+[20-Oct-21 08:47 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Do you know what hardware the electrum and explorer were run on?
+
+
+[20-Oct-21 08:49 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Ie: I currently have 2 digital ocean droplets running Ubuntu 18.04 and 20.something, these are good enough for a coin node, unsure if good enough for an electrum
+
+
+[20-Oct-21 08:49 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Or explorer
+
+
+[20-Oct-21 08:49 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+However in the instance of just setting up for a competition, maybe doesn't need to be top of line
+
+
+[20-Oct-21 08:52 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+On a side note, I don't see any videos on YouTube about how to create a kmd assetchain
+
+
+[20-Oct-21 08:52 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Or even how to add to Atomicdex
+
+
+[20-Oct-21 08:54 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Maybe if anyone has time for some video recording could double task and create a how to YouTube video
+
+
+[20-Oct-21 08:54 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Just a thought, for extra marketing
+
+
+[20-Oct-21 09:19 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987 (pinned)
+From 2018 https://medium.com/crowdbotics/want-to-build-your-own-asset-chain-and-token-its-easier-than-you-might-think-thanks-to-komodo-8dab55559a80
+
+{Embed}
+https://medium.com/crowdbotics/want-to-build-your-own-asset-chain-and-token-its-easier-than-you-might-think-thanks-to-komodo-8dab55559a80
+How to build your own blockchain using Komodo
+Want to build your own asset chain and token? It’s easier than you might think, thanks to Komodo.
+https://images-ext-1.discordapp.net/external/RJKLu-MdgnGDDxdN_j9T7HjHqzrcqYkKb8yZlgzJdkQ/https/miro.medium.com/freeze/max/1200/1%2AdOjDYbZeO_B0iSfjLew2jw.gif
+
+
+[20-Oct-21 09:42 PM] jspook16#3059
+We created the asset chain already
+
+
+[20-Oct-21 09:44 PM] jspook16#3059
+Droplets will work i think
+
+
+[20-Oct-21 09:44 PM] jspook16#3059
+I'll get more details tomorrow
+
+{Reactions}
+👍 
+
+[20-Oct-21 09:56 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Other questions I had are, 
+Can I run a node on the same droplet and same time as the electrum and explorer.
+Also can I run multiple nodes and multiple coins on the electrum and explorer
+
+
+[21-Oct-21 08:46 AM] Nev#5914
+As far as I am concerned "Fairies Wear Boots" Ozzy Osbourne, and they dance around with Gnomes, Dragon Fairies are something else completely, ha, ha. Is there any point in me creating a Dragon Fairy image? A colorful but mean Dragon Fairy? I like the idea so I probably will explore it anyway, thanks.
+
+
+[21-Oct-21 09:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+They already made a dragon fairy image. 
+
+```Icon file (Required)
+
+The icon file is required.
+
+Icon must be a .png format file.
+
+Dimentions of icon file is 82x82 pixels.
+
+Icon file name MUST be in small letters.
+
+``` what we do need is a few more icons And a few more trading competition coin concepts. Ie: FWB coin "fairies wear boots"
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/900783123514654781/dragonfairy.png
+
+
+[21-Oct-21 09:31 AM] Audo#5667
+I would like to talk about this project in our next hangout Thursday October 28th 4 PM UTC - would that time work?
+
+
+[21-Oct-21 09:33 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I'm not sure there is even a defined goal yet. Currently collecting all relevant information
+
+
+[21-Oct-21 09:34 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@jspook16 and @scott (notfromthefuture)  have done all the work so far
+
+
+[21-Oct-21 09:34 AM] Audo#5667
+ok - whenever you guys are ready I am curious to catch up and I think a hangout is a perfect place so anyone can join and listen/contribute 🙂
+
+{Reactions}
+💯 
+
+[21-Oct-21 10:13 AM] Nev#5914
+Icons of what? And what do you mean by icon? My idea of an icon might not be the same as yours, my idea of an icon is a small representation of something bigger, like the small fairy logo you posted, which is just copy shrink & paste, I am not sure that is what you mean.  I am already working on FWB but it's a real dragon fairy not a normal fairy called a dragon fairy,  we shall see, thanks.
+
+
+[21-Oct-21 10:18 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+In order to list a coin on atomicdex it needs an icon file. Names don't matter, images don't matter except to provide something. Icon file needs to be a specific size. But my vision is to spin up a few different coins and add them to dex. Am waiting to see if jspook is successful in getting dragon fairy listed, I'd like to replicate this.
+
+
+[21-Oct-21 10:22 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+My comments were geared towards if someone had a fun concept for a trading competition coin. Coin doesn't need to do or represent anything.
+
+
+[21-Oct-21 10:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Since jspook started with theme dragon fairy, in jest I was keeping with the theme by suggesting FWB coin.
+
+
+[21-Oct-21 10:31 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Could just as easily say, green dragon coin, red dragon coin, black dragon coin: GDC, RDC, BDC
+
+
+[21-Oct-21 10:31 AM] Nev#5914
+Yip got you with logo and sizes, really small hardly worth the effort you might think but those things that you say don't matter actually do, names are important, we name everything so we can build a map of our world to understand it, that is what neurologists tell me and I believe them from personal experience, and an example is try describing a trip on hallucinogenics and you don't even know what you have seen, very difficult to do. A trading competition coin, I actually thought of TT's, there is a world renowned motor cycle competition called the Isle of Man TT's look it up, it means Touring Trophy, I was thinking, Trading Trophy, Trading Tournament, Trading Transmission, Transaction Tournament.
+
+
+[21-Oct-21 10:35 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+To me it makes the most sense to have several trade competitions. Maybe we keep each one to a specific theme. Note: I am viewing these coins as disposable ( one use, though there is nothing preventing someone to keep it alive)
+
+
+[21-Oct-21 10:35 AM] Nev#5914
+PS. it might be tourist Trophy.
+
+
+[21-Oct-21 10:36 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+We could make trophy NFTs
+
+
+[21-Oct-21 10:38 AM] Nev#5914
+Yip, trophy NFT's is OK, and Trophy on it's own might be good.
+
+
+[21-Oct-21 10:41 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Can you provide context on what you mean by trophy on its own
+
+
+[21-Oct-21 10:47 AM] Nev#5914
+I was thinking about art competitions and came up with the idea of a Circle, Square & Triangle, they are the basic shapes of all drawing and image making, I was thinking they could be used at the time as the shape for a trophy. What I mean is Trophy being the main name and then it could be Trophy Red, Trophy Hex, Trophy Zap or Zap Trophy, Zed Trophy, Top Trophy, changing part of the name but keeping Trophy as a solid never changing thing.
+
+
+[21-Oct-21 10:47 AM] jspook16#3059
+I was thinking recycling the coin after the competition to reuse again. Otherwise you have to list on AtomicDEX Everytime and go through the motions
+
+
+[21-Oct-21 10:48 AM] jspook16#3059
+I'll lay out the detailed goal tonight that we originally had planned and we can use that as a starting point
+
+
+[21-Oct-21 10:51 AM] Nev#5914
+Cool, thanks.
+
+
+[21-Oct-21 10:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Yeah, no worries, it's your coin. I can't yet do what I want setup wise anyway.
+
+
+[21-Oct-21 11:01 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I can see some scenarios that would work and some that it wouldn't
+
+
+[21-Oct-21 11:03 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+In my vision of a trading competition I see  fresh setup everytime to ensure a fair environment. Ie: people hoarding coins from past competitions to give themselves an advantage in a future competition
+
+
+[21-Oct-21 11:05 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Luckily as per above article, kmd asset chains are easy to setup. The icon that needs to be created is small and can be literally anything, the hard part then is setting up the electrums and explorer and any finalizing of swap info for mm2
+
+
+[21-Oct-21 11:23 AM] jspook16#3059
+The other hard part i think is the distribution of the coin. We had planned to use a tip bot but we don't know how much work that is to create
+
+
+[21-Oct-21 03:08 PM] Artakush#4285
+who is we? 😮
+
+
+[21-Oct-21 03:33 PM] jspook16#3059
+Me and @scott (notfromthefuture)    
+We had planned to distribute with a tip bot to promote some hype for the event
+
+
+[21-Oct-21 05:10 PM] jspook16#3059
+So first item we can resolve is the asset chain name and ticker symbol. Originally we had "DragonFairy" for the name and "DGNF" for the ticker. If someone has other ideas now is the time to change this. Once we go forward it will be more work to change filenames to a new ticker
+
+
+[21-Oct-21 05:15 PM] jspook16#3059
+Second item we can resolve concurrently is the Icon. The one I posted earlier was something simple. We didnt want to spend too much time on it because we were limited on time. But now we have more people so if you guys think we can come up with something better now is the time for that as well.
+
+
+[21-Oct-21 05:24 PM] cryptosammy#3587
+yes
+
+
+[21-Oct-21 05:58 PM] jspook16#3059
+any input?
+
+
+[22-Oct-21 09:27 AM] sems#7713
+Discussion in hangout would be very nice.
+
+{Reactions}
+9756_AppJedi 
+
+[22-Oct-21 10:11 AM] Artakush#4285
+@jspook16  having quite a long day today. Let me come back through the weekend, but I love the effort, and as you mentioned, not to spend too much time on very simple things.
+
+
+[23-Oct-21 05:12 AM] scott (notfromthefuture)#4595
+Hey @jspook16 sorry I have been away. Any questions I can answer? Also, for those reading along, we had the intention with things like the name, logo, AC config, etc, to purposefully make a chain that would not gain value. For example it is 100% premined with no mining rewards. Some better ideas we had for things we left out to try to insure this would stay as a giveaway token and not gain any real value. Those things can of course all change
+
+
+[23-Oct-21 05:12 AM] scott (notfromthefuture)#4595
+block time is 0.5
+
+
+[23-Oct-21 05:13 AM] scott (notfromthefuture)#4595
+Hey @sems , please ping me  if you guys decide on a meeting and I will be there if I can
+
+{Reactions}
+👍 
+
+[23-Oct-21 05:17 AM] scott (notfromthefuture)#4595
+Yes that will more than sufficient. I usually try to stick with LTS (.04). As long as the VPS can run the daemon should be plenty for the rest. Just need decent RAM and you can always upgrade later if it got more traffic. The DragonFairy Daemon/PoS miner/SPV/explorer is runining on a basic VPS service
+
+
+[23-Oct-21 05:20 AM] scott (notfromthefuture)#4595 (pinned)
+here is explorer BTW http://dragonfairy.gives/
+
+{Embed}
+http://dragonfairy.gives/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and blocks.
+
+
+[23-Oct-21 05:42 AM] scott (notfromthefuture)#4595
+Not sure if it was mentioned, but the idea behind it all (and why the fairy, lol) was this. We would give away the coin to participants through tipbots, contests, games, whatever generates a little hype. We chose a name that was not coin specific so it can be used cross-asset-chains. The "fairys" are the contributors to the giveaway. They would place buy orders on adex for whatever price or amount they decided. A fairy drop. This way the participants that have received DragonFairy could go on adex and sell for whatever active orders there are. Exchange their received giveaway tokens for KMD with real value. Likewise, if they were feeling bold, they could place a high sell order and see if one of the fairy visits them.
+
+Overall the idea was to create a AC coin that acted as a giveaway token with no in inherit value to get people using adex. Its also an easy way for somebody to contribute to the giveaway as they can simply fill orders on adex for whatever price or amount without having to organize with anybody. Anonymous contribution drops.
+
+AC chain, explorer, SPV, was all easy and up and running with no issue. Where we ran into issue is lack of documentation on listing on adex. There really needs to be a clear standard published someplace. Next issue we ran into is the listing would be on the desktop adex only, where the majority of our target audience was mobile users, so we sort of stalled there.
+
+As an alternative, we were waiting for Tokel to mature a bit (this was pre release when we were working on this) to see if going with a TKL token would simplify the listing side of things. It would be great to promote both projects in the same promo. I understand a token listing in tokeldex is instantaneous, but I am dont believe this is on mobile yet? Correct me if I am wrong and  that will be a done deal.
+
+Other thing we were considering is going with a BSC/ETH token  as that instantly list it on metamask and as ERC20/BEP20 token can instantly be manually added to to adex, but the idea of going over there really doesn't interest me. This should all be simple enough in the Komodo ecosystem. It really sheds light on the larger picture. That bigger picture is that I truly believe that the Komodo ecosystem is superior in every way as a platform compared to the shit eth/bsc platforms. With that said, for a project as simple as dragonfairy, I need to be able to fill out a simple form online, have outputs auto generated, and adex needs to have some method of live updating new coins added to it on some daily or other regular basis. Simply I need to be able to fill out some forms, go through some steps, and it becomes available to use and trade instantaneously. A person who only discovered KMD today should be able to do it without contacting real humans, getting support, working days or months to listings, etc.
+
+In other words, on ETH, if you want to create a token like this you fill out a form, pay your fee, and it is instantly in the explorer, available to be added to wallets, and available on exchanges. Instant and dummy proof. In Komodo, it should be just as simple, with the additional step of setting up the first two nodes that can be as simple as running a generated script on a server. 
+
+Just as with ERC20, there needs to be some published and maintained standard for Komodo asset chains.
+
+So I am starting to wonder, maybe through the creation of this promotion, we can help create that method to improve the Komodo experience. Maybe I am dreaming too big and it is outside the scope of a marketing giveaway. All I know is it is apparent to me this is a major step in Komodo's evolution as a platform and this would be an ideal use case to create those processes from. I am happy to contribute a good portion of my time and energy to this if others are interested as well. IMHO it is vital to the future growth of Komodo, maybe even more so than some single marketing campaign.
+
+
+[23-Oct-21 05:58 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+You talked about integration into atomicdex. Once steps are followed to list on mm2, does it not automatically work with desktop? Or do you need to wait for an update of atomicdex for it to work. Ie: it doesn't appear in the gui until an official update
+
+
+[23-Oct-21 06:01 AM] scott (notfromthefuture)#4595
+Even now I am still not all that clear. As I understand it we submit the required pull request, and at some later point in a future update it may be added. Of course somebody manually reviews and contacts you to discuss. I know we submitted the required documents. @jspook16 was working on this portion so he would have a better idea. I think some things needed to be changed (maybe with teh SPV if rememebr correct) to fulfill the listing (no clear documentation to begin with), but I believe we stopped there as we realized it would not be included in the mobile app at that point which was important for what we were originnaly doing
+
+
+[23-Oct-21 06:03 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The other immediate question I had for you is what is the actual game mechanics you were going to use? Ie: if a competition how do you see it working?
+
+
+[23-Oct-21 06:05 AM] scott (notfromthefuture)#4595
+when we were originally doing this I think it may have had a slightly different twist to what is happening here now. It was less of a competition and more of a giveaway. We saw how much hype people doing "rains" with the tipbots was generating, so we thought of a way to turn simply giving away free coins into more of a adex learning experience as we are both very bullish on the future of atomicdex, as many of us are.
+
+
+[23-Oct-21 06:06 AM] scott (notfromthefuture)#4595
+So to answer your question more specifically, no mechanics. Just create a AC coin to act as a token that would not gain value where teh participants had to use adex to get the real value for that token they received in whatver giveaway
+
+
+[23-Oct-21 06:07 AM] scott (notfromthefuture)#4595
+We mostly would use tipbots to give away, but I had ideas to get people involved by having them submit art, memes, wording contests, whatever got people active. The idea was mostly to encourage participation, and simultaneously encourage the use of atomicdex and highlight the Komodo platform abilities
+
+
+[23-Oct-21 06:10 AM] cipi#4502
+ADEX Desktop fetches the coins file from https://github.com/KomodoPlatform/coins/blob/master/coins on every build, so coin needs to be there
+the rest is configured in the ADEX Desktop repo: https://github.com/KomodoPlatform/atomicDEX-Desktop/blob/dev/assets/config/0.5.2-coins.json
+
+
+[23-Oct-21 06:12 AM] cipi#4502
+after that is added, it need a rebuild... that can be done by everyone, no need to wait for official release
+just clone the repo, add the coin and let github make a build for you... that's it
+
+
+[23-Oct-21 06:20 AM] scott (notfromthefuture)#4595
+I very much appreciate your response @cipi . To be clear I very much support this project. I only say what I do above to as clearly and honestly explain my experience to this point. It is easy as somebody that works with the thing every day to say, all you need to do is this, this, and that. I am very much guilty of the same thing in the technical work I do IRL. It is so important that we remember that for something like this, where we try to encourage its adoption by all possible users, that their experience, whether correct or incorrect, can be more important than whatever the actual facts they are unaware of.
+
+I can still say that there is a steep learning curve leading up to the listing piece. I still standby that the process needs to be standardized and be much simpler (dummy proof in fact), if Komodo is to grow as a AC platform.
+
+
+[23-Oct-21 06:22 AM] scott (notfromthefuture)#4595
+With that said, I do have a question about your comment. So lets say a user already has the current official release of atomicdex running on their desktop. If I was to add the PR's to those two repos, and after they are approved and accepted, the new coin would still not show up in their version of adex until the next official release, is that correct? The user would have to download the cloned build to see the new coin until it is included in the next official release? Also, if somebody uses say dogedex, when would it appear in there? On their next official release?
+
+
+[23-Oct-21 06:23 AM] cipi#4502
+yes, correct, every new coin added to the above 2 files needs a rebuild of ADEX Desktop and as such an update on users side
+
+
+[23-Oct-21 06:24 AM] cipi#4502
+it's the same with all clones, DogeDEX and so on, new coin = new build = new release
+
+
+[23-Oct-21 06:25 AM] scott (notfromthefuture)#4595
+Out of curiosity, do you happen to know if there are any plans in the future to have some sort of live updating system? By that I mean, when coins are successfully added, all live versions will find that coin and will be available without having to download a new version? Some sort of repository the adex polls on some regular basis to discover new coins
+
+
+[23-Oct-21 06:29 AM] cipi#4502
+there is one thing that hinders that: the icon of the coin is compiled into the binary of ADEX Desktop, so that loading is faster... you would need to sacrifice this in order to accomplish it... some other settings are also part of the code and need a rebuild, like the charts... those could be for sure made in a different config file, but the idk about the icons... need to ask the actual devs of ADEX Desktop
+
+
+[23-Oct-21 06:31 AM] scott (notfromthefuture)#4595
+thats interesting, and makes sense. I would think even a "default" icon could be used until the next release if it meant an instant listing of the coin until then
+
+
+[23-Oct-21 06:31 AM] cipi#4502
+i guess making new releases is the better way... you can do a new one every day 🙂
+
+
+[23-Oct-21 06:31 AM] cipi#4502
+there is a way to load the icons afterwards, the custom token addition does it, for ERC20/BEP20/QRC20 tokens
+
+
+[23-Oct-21 06:32 AM] cipi#4502
+need to extend the "custom token" to a "custom coin" add feature 🙂
+
+
+[23-Oct-21 06:33 AM] cipi#4502
+but idk if it's really worth it... for me it's much easier to add a new coin by doing the PR on github
+
+
+[23-Oct-21 06:39 AM] scott (notfromthefuture)#4595
+I can agree with that, and learning that now does answer some questions so part of this is documentation of course, but the other part seems to be expectations. It would seem in the state of crypto today, one would expect to be able to fill out a form, not interact with any humans, and have  a new coin instantly available for trade on adex, as simply as it is to create a AC coin without permission. Instantly available with no human interaction
+
+{Reactions}
+👍 💯 
+
+[23-Oct-21 06:40 AM] scott (notfromthefuture)#4595
+Obviously adex is a much different beast than Komodo so it understandably is more involved for a listing. Unfortunately people becoime use to how tokens work, even though this is a superior service as an actual coin.
+
+
+[23-Oct-21 06:45 AM] cipi#4502
+https://github.com/KomodoPlatform/atomicDEX-Desktop/issues/1354 someone opened an issue about that
+
+
+[23-Oct-21 06:50 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@cipi if Marmaradex were to be cloned, for use as a competition dex. Then with every new competition coin added, would it need a new build? Ie: clone Marmaradex, add to the coins and icon files. Does it automatically work now? Is this what you mean?
+
+
+[23-Oct-21 06:53 AM] cipi#4502
+needs a new build yes, and the build is automatically triggered when you make a change to your repo
+in official repo there are several new builds every day: https://github.com/KomodoPlatform/atomicDEX-Desktop/actions all those action links contain builds for all 3 platforms (Linux, Windows, MacOS)
+
+{Reactions}
+👍 (2) 
+
+[23-Oct-21 06:56 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I see, so needs a new build is just re download the binary
+
+
+[23-Oct-21 06:56 AM] cipi#4502
+so it's not a big deal to make a new build for all platforms... but you need to take them from "actions" and make a real release, the things from "actions" are only accessible when you have a github account
+it's all just a bit of github magic
+
+
+[23-Oct-21 06:57 AM] Slyris#2880
+I don't think this issue make lot of sense tbh
+
+
+[23-Oct-21 06:57 AM] cipi#4502
+yes, redownload and restart
+
+{Reactions}
+👍 
+
+[23-Oct-21 06:57 AM] Slyris#2880
+Adding a custom smartchain should be possible if a user already have electrum etc...
+
+
+[23-Oct-21 06:59 AM] scott (notfromthefuture)#4595
+The trouble is less about the build, that is easy with github. The trouble is having users update their software. Also, lets say we create a giveaway coin, and somebody already has adex, they would need to download the second wallet to have the giveaway coin, which is a clone of adex, right next to their actual adex that does not show that coin. Its more on the users end that it becomes a bit jumbled having those expectations for them.
+
+
+[23-Oct-21 06:59 AM] scott (notfromthefuture)#4595
+Especially since our target audience is less than fully computer savvy
+
+
+[23-Oct-21 06:59 AM] cipi#4502
+why not replace the old ADEX with the new ADEX? no need to have 2 of them
+
+
+[23-Oct-21 07:00 AM] scott (notfromthefuture)#4595
+Oh I see, so they could just have a single unofficial version of adex?
+
+
+[23-Oct-21 07:01 AM] Slyris#2880
+I think what you want is the ability to easily add a custom smart chain, or are you talking about an official listing?
+
+
+[23-Oct-21 07:01 AM] cipi#4502
+yes, if it's a clone of the original one, it will have the same features + the coins you added
+and the wallet is the same, the directories where those are stored is the same
+
+
+[23-Oct-21 07:03 AM] scott (notfromthefuture)#4595
+If I understand teh question correctly, both. So a person creates an AC chain. That is easy enough and very well documented. The expectation would be that an AC chain would be able to be instantly listed and available in adex. Sounds like the best procedure is to setup a server with an explorer, node, electrum, etc, submit the PR's, then once those are approved, clone and rebuild and provide a copy of your custom unofficial adex release to potential users until the coin is included in an official release in the future
+
+
+[23-Oct-21 07:05 AM] scott (notfromthefuture)#4595
+Unfortunately this is sort of where we ended up orginnaly with this coin as we relized this is just the desktop procedure. I understand there is some more steps and costs to start to look at a mobil listing which is what we really needed for our case
+
+
+[23-Oct-21 07:05 AM] Slyris#2880
+Well Idk, that's sounds rly centralized
+
+
+[23-Oct-21 07:06 AM] cipi#4502
+yes, that is the "procedure" atm... for Desktop... Mobile is a totally different thing
+
+
+[23-Oct-21 07:09 AM] scott (notfromthefuture)#4595
+I 100 agree. That is sort of my point. I likely would have stopped at the point that I realized so much human interaction was required originally. I also dont like having to have users maintain versions, updates, and unofficial releases. I understand if that is the procedure for now, but my point is thats what needs to change for future adoption of AC chains being used like tokens are now on ETH/BSC. Its fair to have the extra step of setting up the first two nodes as it is an actual coin vs a token, but the rest is over complicated to attract average casual users. Especially since we are condensing the process here, the actual process includes much more learning and questions, where it needs to be a form a caveman could complete
+
+
+[23-Oct-21 07:10 AM] scott (notfromthefuture)#4595
+no offense to any cavemen in here
+
+
+[23-Oct-21 07:10 AM] Slyris#2880
+Also you have too accept that Smart Chain are real blockchain, meanwhile on ETH/BSC those are ERC20, so you also have the big advantage of having a standalone chain that require more works ofc but it's a trade-off at the end of the day 🙂
+
+
+[23-Oct-21 07:11 AM] cipi#4502
+the listing of new UTXO coins was intended for the developers of those coins... they should know exactly what all those parameters mean that are needed
+
+
+[23-Oct-21 07:11 AM] scott (notfromthefuture)#4595
+Oh I agree. The beuty of Komdoo is I think it is possible to bridge taht gap. To have the simplicity of creating and using a AC chain like a token, but the benefits of having an actual coin
+
+
+[23-Oct-21 07:11 AM] Slyris#2880
+Actually you are a quite late, because it's was possible with the antara composer in the past if I remember, am I correct @cipi ?
+
+
+[23-Oct-21 07:12 AM] cipi#4502
+yes, to create the chain, but not sure about the listing procedure... i have to admit that i never tried it 🙂
+
+
+[23-Oct-21 07:12 AM] Slyris#2880
+It's was like this <https://youtu.be/QBDK2_2MsrE> if I remember
+
+
+[23-Oct-21 07:13 AM] scott (notfromthefuture)#4595
+creating AC coin is simple and well documented. Permissionless and clear as would be expected. Its the steps after that as far as a adex listing we are discussing 🙂
+
+
+[23-Oct-21 07:14 AM] Slyris#2880
+But a coin listing is only 2 pull request, and click on button in the GUI that's not so harmfull, Can add a sync button to dl last coins file / last desktop cfg if required
+
+
+[23-Oct-21 07:15 AM] scott (notfromthefuture)#4595
+If the intention of adex is not meant for casual users that might otherwise use a ETH token, then I retract my comments. I do not see the possibility of Komodo to grow as a "token" type platform to compete with ETH/BSC if it doe snot include some sort of instant listing somewhere
+
+
+[23-Oct-21 07:17 AM] cipi#4502
+i meant UTXO coins, not the KMD ACs...
+for KMD ACs it is easier, since you don't need the parameters about address format and priv key and txfee, they are the same for all ACs
+
+
+[23-Oct-21 07:22 AM] scott (notfromthefuture)#4595
+As a knowledgeable user of the process that works with the thing, it does not sound to difficult to say, install teh required explorer, build the correct electrum servers, configure your node, complete some manual swaps, fill out the configurations, people can help with questions about requested fields, submit the two PR's, once approved, clone adex, build your binaries, contact any potential users of your coin, have them replace adex with your custom version, etc. The issue here is this is not a coherent or obvious process. What I just listed isnt even listed anywhere. It is not possible to do this without human interaction. I agree two PR's is not difficult, but the full process, when taken as a whole, will not attract average users. Average users will create a AC coin simply then become confused. Especially when with tokens on ETH/BSC you fiull out a couple line form, pay your few hundered dollars, and done.
+
+
+[23-Oct-21 07:23 AM] scott (notfromthefuture)#4595
+I only write all this not to argue, but rather to to provide real world feedback on why us, as avid Komodo supporters that have been here for 6+ years because we see the power of atomic swaps, didnt complete the process and are looking for alternatives, let alone some average user that may have stumbled onto Komodo and want to give it a try. Especially if they read that it is superior in every way to a token, but cant figure out how to get a listing without becoming highly involved with the community, when maybe they just needed some basic coin for some particular use, as we did for the giveaway. Through this process I see how Komodo and adex can be great and bridge that gap with even some basic changes to the process. If we can figure out atomic swaps, onboarding should be simple!!
+
+{Reactions}
+💯 (3) 
+
+[23-Oct-21 10:58 AM] jspook16#3059
+Yes this was initially meant to be a trading "event" to expose users to atomicdex with the intent of trading their DragonFairy for real coins that the community would put up (a more engaging method to distribute coins rather than, as an example, raining Pirate directly to users). Everyone participating would win in some form by receiving real coins. 
+I also agree that the listing process is not for the common person. Also, I think at some point desktop and mobile will need to find a way to "sync" up but i dont have all of the insight into the complexities of listing on mobile. Perhaps as a temporary medium, out of this process we can have a solid documentation process that covers all of the steps from creating a new smart chain to listing  it on atomicdex Desktop.
+
+
+[23-Oct-21 11:01 AM] jspook16#3059
+I see alot of other ideas being posted as well which is great but i think as a starting point we need to get a basic process going. I would suggest we start with a simple trading event, produce the documentation, and then study the outcome of a trading event. (Participation levels, bots, community reaction, etc) I think we can build as we go.
+
+{Reactions}
+💯 
+
+[23-Oct-21 11:04 AM] jspook16#3059
+I made the update on my end. I must have not documented that on my master previously but I know I captured it in the original submittal
+
+
+[23-Oct-21 11:06 AM] jspook16#3059
+@cipi I dont know who has privileges but can we pin this post?
+
+
+[23-Oct-21 11:27 AM] cipi#4502
+Pinned a message.
+
+
+[23-Oct-21 11:40 AM] jspook16#3059
+@cipi could we get this one pinned as well please
+
+
+[23-Oct-21 11:41 AM] jspook16#3059
+and this one....apologies for the multiple requests.... I just need to be able to find these again quickly
+
+
+[23-Oct-21 11:43 AM] cipi#4502
+Pinned a message.
+
+
+[23-Oct-21 11:43 AM] cipi#4502
+Pinned a message.
+
+
+[23-Oct-21 11:43 AM] cipi#4502
+np, done
+
+{Reactions}
+market_up 
+
+[23-Oct-21 03:25 PM] jspook16#3059
+If there is no additional input regarding the Coin Name (DragonFairy), Ticker (DGNF) or the Coin Icon I will try to move forward with the existing items.
+
+{Reactions}
+👍 (2) 
+
+[24-Oct-21 11:11 AM] sems#7713
+Sorry, I missed where the name came from. And I suggest improve icon/logo. Also Ticker seems difficult to memorize. I think we can think more about the name if this one has not a special meaning.
+
+
+[24-Oct-21 11:34 AM] sems#7713
+I think better to discuss on the hangout first, before moving forward.
+
+
+[24-Oct-21 11:52 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Personally I think you are putting too much thought into this for a coin that won't have value. For me the important thing is getting it listed so as steps can be verified.
+
+
+[24-Oct-21 11:53 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Can always make another and another and another and...
+
+
+[24-Oct-21 12:19 PM] Jupiter&Mars#3880
+What about DRAG or DRAF ticker?
+
+{Reactions}
+👍 
+
+[24-Oct-21 02:03 PM] jspook16#3059
+Prior to this I had been putting orders up on adex (KMD for Rick or morty) and telling people on Pirate Channel that the "Dragon Fairy" had put some orders up. No special meaning its just the first thing we had and folks on that channel already have a sense of what the Dragon Fairy is
+
+
+[24-Oct-21 02:04 PM] jspook16#3059
+Its going to be difficult for me to make it on a hangout but ifyou guys want to discuss thats fine.
+
+
+[24-Oct-21 02:04 PM] jspook16#3059
+Correct my intent was not to spend too much time on the easy stuff. We can always create another one if need be
+
+
+[24-Oct-21 05:32 PM] sems#7713
+That might be right. But also we're trying to attract people. Attractive icons and names will be helpful.
+
+
+[24-Oct-21 06:08 PM] scott (notfromthefuture)#4595
+along the way we had actually came up with some good ideas for things that we dropped to be sure this did not gain any value. The intent is to be a "token" that you do not want, and will immediately exchange for a coin with real value that the participants would want.  We dont want anybody holdng on to this coin. I know that is counter-intuitive. I think we would all be open to a better name, ticker, or icon if it made sense and remained non-chain-specific. We had discussed dust as a ticker (fairy dust). If you felt compelled to make a icon I would say go ahead,. 
+
+The one I originally made was simply a modified legacy komodo icon in the modern logo colors with some clipart fairy so something more unique would be great. Only thing I would suggest is if it could somehow have a connection to the Komodo platform through colors or some other meaning, but I suppose that is not important, just opinion. You are the expert with art. I am always impressed with your skill. The one we have now doesn't scale down to a small size very well, which will likely most be used in the small adex format, so something that scaled small would be an improvement
+
+
+[24-Oct-21 06:20 PM] sems#7713
+Sure. I've been thinking about the name and it sounds not bad actually. It feels like that; somehow connected with komodo dragon but this dragon is not komodo itself, just a fairy version of it for this tale (project). The name makes sense. Then we can move forward if you guys wish. And I work on logo by this time.
+
+
+[24-Oct-21 06:24 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Would you be interested in just making a few concept coin names with corresponding artwork? Or anybody?
+
+{Reactions}
+👍 
+
+[24-Oct-21 07:29 PM] jspook16#3059
+Ok we'll carry on with Dragon Fairy for the asset chain name (since we already launched it and got it running. I'll change the ticker name to DUST (easier to remember) and then if someone wants to update the logo/icon image feel free. Changing that wont impact the configuration, just need it by time of submission. @scott (notfromthefuture) Does changing the ticker name to DUST impact the explorer?
+
+{Reactions}
+👍 
+
+[24-Oct-21 07:32 PM] scott (notfromthefuture)#4595
+Oh sorry, I was only making a comment about how we have discussed other options. I dont mean to change it. Honestly I would leave as it is for now unless we make otehr changes. Yes, everything would need to be resubmitted. We would need to update SPV servers, update explorer, and resubmit the PR to adex, so not worth the change, IMHO. I kind of got here late so I am not sure what the direction of the project is here. If I understand correctly maybe a it will be more of a competition? I would say the best approach would be to make all decisions for the entire thing, then make all changes at once. We can even restart the chain then too.
+
+
+[24-Oct-21 07:34 PM] jspook16#3059
+Ok im good with leaving it as is then. Dragon Fairy as the asset chain name, DGNF as the ticker to minimize impact to the existing work that has been done. Either way, we need changes to the ticker because the ticker previously was DRAGONFAIRY and only after I submitted did we know that we had to reduce the character count
+
+
+[24-Oct-21 07:34 PM] scott (notfromthefuture)#4595
+I guess teh first question I have is this. We kind of explained what the original intent of what you and I were doing. What exactly is the intent of the project now? Is it the same or a different direction? I missed the earlier conversations
+
+
+[24-Oct-21 07:34 PM] jspook16#3059
+I still have one node running the chain
+
+
+[24-Oct-21 07:36 PM] jspook16#3059
+I think its the same. With the addition that we will document it thoroughly. Whats sort of still in question is whether we will recycle the DGNF coins or create a new chain for each subsequent event. However, if we get to that point that would be a win
+
+
+[24-Oct-21 07:37 PM] scott (notfromthefuture)#4595
+The asset chain is very simple to create, the trouble is the listing on adex, especially if we pay for a mobile listing. It does not seem effective to have to redo  the listing each time there is a new event.
+
+
+[24-Oct-21 07:39 PM] jspook16#3059
+I agree. Thats why i think recycling (or attempting) to would be a good approach. Also, I think we can try the first event with just the Desktop app....see how that goes.....see how many coins we cant recycle ....and see what else we can learn before committing to a mobile listing.
+
+{Reactions}
+👍 
+
+[24-Oct-21 07:39 PM] jspook16#3059
+Im also concerned about the tip bot and how that would happen
+
+
+[24-Oct-21 07:40 PM] scott (notfromthefuture)#4595
+I discussed with the original tipbot dev. There was a fee of around $500, which includes not only the creation but ongoing maintenance and integration.. He is out with covid at the moment, but it also seems I saw a different tipbot around?
+
+
+[24-Oct-21 07:41 PM] scott (notfromthefuture)#4595
+The main trouble with teh tipbot path is unless we pay for somebody to maintain it, somebody would need to dedicate time to it and that seems can be quite involved at times
+
+
+[24-Oct-21 07:42 PM] jspook16#3059
+Another reason to recycle the coins, so that we can continue to use the tip bot that we'll probably end up having to pay for
+
+
+[24-Oct-21 07:44 PM] jspook16#3059
+Ok what do you think about doing the first event with just atomicdex desktop...that way the only expenses are the tip bot and any costs for the chain nodes
+
+
+[24-Oct-21 07:46 PM] scott (notfromthefuture)#4595
+I personally use the desktop so I see no real issue. The main thing is as you mentioned before. Many of the participants are in countries that they dont have desktops. Many are cell only users. So immediately it unincludes some percentage of potential users. The other issue is if the promotion is meant to highlight adex, it leaves out a major feature.
+
+
+[24-Oct-21 07:47 PM] jspook16#3059
+yeah....do you know how much a mobile listing is?
+
+
+[24-Oct-21 07:47 PM] jspook16#3059
+I asked in atomicdex mobile
+
+
+[24-Oct-21 07:48 PM] scott (notfromthefuture)#4595
+I have no idea, hopefully they respond. For some reason I feel like I saw a ~$1k/year number somewhere,but maybe that was as a service
+
+
+[24-Oct-21 07:49 PM] jspook16#3059
+Ok we'll wait and see. I probably cant start on updates until the middle of the week.
+
+
+[24-Oct-21 07:51 PM] jspook16#3059
+Im thinking the first thing we need to do is update the electrum servers and the explorer..... I was running one of the electrum servers if I remember correctly. Do you have time for the other server and the explorer or do we need to find someone else (I know you have other endeavors now 🙂 )
+
+
+[24-Oct-21 07:51 PM] scott (notfromthefuture)#4595
+Oh, I recal where I saw it, I assume its less if we do teh listing ourselves: https://youtu.be/QBDK2_2MsrE?t=251 (link timestamped to a price list)
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=QBDK2_2MsrE&start=251
+How To Make A Blockchain With Komodo's Antara Composer
+Try the Antara Composer now!
+– https://composer.kmd.io
+
+For more details about using the Antara Composer, please see this blog post:
+– https://komodoplatform.com/how-to-make-a-blockchain/ 
+
+The Antara Framework is Komodo's toolbox for end-to-end blockchain development. From customizing and launching an independent, application-specific blockchai...
+https://images-ext-1.discordapp.net/external/uKY7KBUPykc6qE_Mx439KyzS5h3BqqtGZUqH9VVtthQ/https/i.ytimg.com/vi/QBDK2_2MsrE/maxresdefault.jpg
+
+
+[24-Oct-21 07:54 PM] scott (notfromthefuture)#4595
+It is a busy time for me right now. I can give you permission to the server as well. Thiose things are not much work though. The thing that is more work is doing it multiple times. So lets first make all final decisions, than we can do all updates at once and a final submission to the adex PR
+
+
+[24-Oct-21 07:55 PM] jspook16#3059
+Ok will do. I'll post a list of final decisions on here tomorrow. If we get enough consensus a couple of days afterwards, we'll consider those the final decisions.
+
+
+[24-Oct-21 07:55 PM] scott (notfromthefuture)#4595
+you may have seen above Sems was going to consider a new icon over the next few days as well.
+
+{Reactions}
+👍 
+
+[24-Oct-21 07:56 PM] jspook16#3059
+Yep I saw that. I think that can be worked concurrently with all of the other updates needed
+
+
+[24-Oct-21 07:57 PM] scott (notfromthefuture)#4595
+It will need to be finalized for the updates to the explrer and the PR submission, so better to finalkize everyting
+
+
+[24-Oct-21 07:57 PM] jspook16#3059
+Ah yeah i forgot about the explorer
+
+
+[24-Oct-21 07:58 PM] jspook16#3059
+Ok we'll make that one of the first items to get done. I guess after the final decisions are decided I can post a list in order of items to be completed
+
+
+[24-Oct-21 07:59 PM] scott (notfromthefuture)#4595
+So the things we need to decide on is:
+1) Chain parmaters (are they good as they are? 7777777 premined, PoS, 30 sec blocks, etc) 
+2) chain name
+3) ticker
+4) Icon
+
+
+[24-Oct-21 08:00 PM] scott (notfromthefuture)#4595
+Lastly I need to look through our past conversations. If I recall correctly, I though I remember you mention that a Komodo dev responded taht we needed to make a change with teh SPV? I think we were instructed to use electrumx, but then they wanted a different one, though I forget now. Does that sound familiar at all?
+
+
+[24-Oct-21 08:01 PM] jspook16#3059
+We had to enable websockets on the server
+
+
+[24-Oct-21 08:01 PM] scott (notfromthefuture)#4595
+Also, I know there was conflicting documentation on the icon size. Did we get a final info on what that needed to be? Would be helpful for Sems before he starts
+
+
+[24-Oct-21 08:01 PM] scott (notfromthefuture)#4595
+Oh, tahts right, I belive we already enabled that servce
+
+
+[24-Oct-21 08:01 PM] jspook16#3059
+it was a simple parameter change that we had already made
+
+
+[24-Oct-21 08:01 PM] jspook16#3059
+yep we both did it ....it was one of the last things we did
+
+
+[24-Oct-21 08:02 PM] jspook16#3059
+160 by 160 png file for icon
+
+
+[24-Oct-21 08:02 PM] scott (notfromthefuture)#4595
+@sems ☝️
+
+{Reactions}
+👍 
+
+[24-Oct-21 08:02 PM] jspook16#3059
+@cipi can you confirm the icon file needs to be a 160 by 160 PNG file?
+
+
+[24-Oct-21 08:02 PM] jspook16#3059
+JUST to be sure
+
+
+[24-Oct-21 08:04 PM] jspook16#3059
+I suppose one more thing we need to decide is whether we want to pursue a mobile listing for this first event or not
+
+
+[24-Oct-21 08:04 PM] scott (notfromthefuture)#4595
+Ina earlier conversation you mentioned:
+
+
+[24-Oct-21 08:04 PM] scott (notfromthefuture)#4595
+> The logo is supposed to be 82 x 82. The one we have is like 180 x 180
+
+
+[24-Oct-21 08:05 PM] scott (notfromthefuture)#4595
+So best we get clarification first
+
+
+[24-Oct-21 08:05 PM] jspook16#3059
+mmmm ok then i agree lets wait for cipi to reply on that.
+
+
+[24-Oct-21 08:06 PM] scott (notfromthefuture)#4595
+Well, we have to do teh desktop listing first, so lets just start there. Mobile listing would be a matter of getting enough people together to contribute, though if it is <$1k seems doable.
+
+
+[24-Oct-21 08:07 PM] cipi#4502
+i uploaded all icons in 128x128, like they are in https://github.com/spothq/cryptocurrency-icons/tree/master/128/icon
+Desktop scales it as needed anyway afaik
+
+
+[24-Oct-21 08:08 PM] scott (notfromthefuture)#4595
+Thanks @cipi . So @sems looks like 128x128
+
+
+[24-Oct-21 08:08 PM] sems#7713
+Ok thanks for clarification. I'll work on it
+
+{Reactions}
+🍺 (2) 
+
+[24-Oct-21 08:10 PM] jspook16#3059
+Ok so I would say ticker decision is made.
+
+
+[24-Oct-21 08:11 PM] jspook16#3059
+I personally would like to keep the chain parameters and chain name as they are now. For the ticker name i have no preference; "DGNF" was just something that we came up with on the fly after a day or so of brainstorming.
+
+
+[24-Oct-21 08:12 PM] scott (notfromthefuture)#4595
+I agree. Lets wait to hear what the other people in this channel have to say
+
+
+[24-Oct-21 08:13 PM] scott (notfromthefuture)#4595
+To all that are participating in this, please react to this message with a ✅  or ❌  on DGNF as the ticker, or suggest anything else you prefer. This ticker was just made on the fly so we are open to suggestions to get this step finalized
+
+{Reactions}
+✅ (3) ❌ (5) 
+
+[24-Oct-21 08:35 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+If you can change the ticker name, dust is the better suggestion
+
+{Reactions}
+👍 (3) 
+
+[26-Oct-21 05:07 AM] Nev#5914
+https://i.postimg.cc/cJkPbQR6/Dragon-Fairy-Dust-Drop-s.png
+
+{Embed}
+https://i.postimg.cc/cJkPbQR6/Dragon-Fairy-Dust-Drop-s.png
+https://images-ext-1.discordapp.net/external/i_O8sF5xXHfJhRJV0Cc6oaG_8Y0vtNO3bkrdJVpAJNc/https/i.postimg.cc/cJkPbQR6/Dragon-Fairy-Dust-Drop-s.png
+
+{Reactions}
+komodopog 
+
+[26-Oct-21 06:17 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Reddy <> Ready
+
+{Reactions}
+👌 👍 
+
+[26-Oct-21 06:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/902549752183418890/5rv7je.gif
+
+
+[26-Oct-21 06:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/902549839898877992/5rv8mm.gif
+
+
+[26-Oct-21 06:41 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/902552404053082192/tinker-bell-shake.gif
+
+
+[26-Oct-21 07:14 AM] Jupiter&Mars#3880
+https://tenor.com/view/tinkerbell-peter-pan-fairy-dust-pixie-dust-gif-16717535
+
+{Embed}
+https://tenor.com/view/tinkerbell-peter-pan-fairy-dust-pixie-dust-gif-16717535
+https://images-ext-2.discordapp.net/external/FwZ4pdyuNfu85j_29fZyN3yFrQ5_5MrzJVwxcjQbeeU/https/media.tenor.co/images/7553b4024e2215dd9c912ee971d23366/tenor.png
+
+
+[26-Oct-21 09:02 AM] jspook16#3059
+Didn't even think about the memes. This will be fun
+
+
+[26-Oct-21 09:03 AM] jspook16#3059
+Looks like DUST is probably the way to go
+
+
+[26-Oct-21 09:22 AM] Nev#5914
+Yup, it's also a Si-Fi channel or something on Pootube running Si-Fi short films, watched some they are quite good, alternative stuff.
+
+
+[26-Oct-21 09:25 AM] Nev#5914
+Ha, ha, just had a thought, Si-Fi is getting more like reality every day.
+
+
+[26-Oct-21 12:10 PM] Nev#5914
+Yip, spelling isn't my forte as can be seen, ha, ha.. Thanks.
+
+
+[26-Oct-21 06:06 PM] scott (notfromthefuture)#4595
+Yes, looks like that is the community consensus, so that we can consider resolved. Once we have logo from Sems we can rebuild everything and get that submittal together.
+
+
+[26-Oct-21 06:12 PM] scott (notfromthefuture)#4595
+Now I have another question, and thats governance. I paid for a year of hosting and the url, so we cam just leave like that for now, but in the future maybe we can consider having multiple people host the explorer, we can deal with that in one year. For now, its really just the coins. The idea is that this project is done in every way possible so that these coins do not get any value. In fact, we will explain the chain can be deactivated at any time so people should trade them ans they get them. 
+
+Previously, I just sent all of the coins to jspook for him to hold as he was going to be more involved in the giveaways. I have to hold on to around 12k for staking across the segs on a full POS chain, so at least one node is doing that. I prefer to not hold any. Does this community think the should be handled in some other way? I really dont think we need to go to multisig wallets and strict accounting, but we should have a plan now so there are no issues later
+
+
+[26-Oct-21 06:13 PM] scott (notfromthefuture)#4595
+I would say, have me keep what I need for staking, the rest goes to jspook, and he can disperse as he sees fit to others. It is a fully transparent chain (no z-addrs) for this reason so there is already a public ledger
+
+
+[26-Oct-21 06:15 PM] scott (notfromthefuture)#4595
+Our original idea was also to ask whoever contributed (the people that placed buy orders on adex for DUST, the fairys), if they would send back the DUST they bought to another address jspook would have in his wallet. This way we could keep track of how much was going out, coming back, being traded through adex, etc
+
+
+[26-Oct-21 08:17 PM] jspook16#3059
+I am running of couple of remote machines.... I can host the explorer as well. As for the coins... Im good either way but I would prefer splitting up the major sums with folks on here that will be actively distributing. So essentially... putting out a call to see if anyone else is interested in being a distributor of DUST
+
+
+[26-Oct-21 10:09 PM] sems#7713
+I have a dedicated mini pc which I use it for staking mcl. I can use it if it would help.
+
+
+[27-Oct-21 12:13 PM] scott (notfromthefuture)#4595
+for now a year is paid for for the server, so we can deal with that in a year. I agree with your @jspook16 . We'll just send the full amount to you, and then you can distribute chunks to whomever will be distributing.
+
+
+[29-Oct-21 09:04 PM] jspook16#3059
+Copy that
+
+
+[01-Nov-21 08:51 PM] jspook16#3059
+any update on the icon?
+
+
+[02-Nov-21 07:20 AM] sems#7713
+Sorry. Been busy with many other things. If this is the only thing you are waiting for the continue, you can use current one. I can finish it till friday.
+
+
+[04-Nov-21 11:30 AM] Kelcie#1924
+Oh man, sorry I have not been able to help. But this looks awesome so far everyone.
+
+
+[05-Nov-21 07:02 AM] sems#7713
+I have created icon but can not share any image here. Can somebody  give me permission, please. @Artakush
+
+
+[05-Nov-21 07:39 AM] Artakush#4285
+@Audo 👆
+
+
+[05-Nov-21 07:39 AM] Artakush#4285
+I do not have the power :/ 😅
+
+{Reactions}
+💪 
+
+[05-Nov-21 07:49 AM] sems#7713
+your power in hearts 😄
+
+{Reactions}
+check 
+
+[05-Nov-21 09:36 AM] Nev#5914
+Just a suggestion, I post images here https://postimages.org/ and then use the links provided. I am not a member of the image site so keep a record of links on my PC for future reference.
+
+{Embed}
+https://postimages.org/
+Postimages — free image hosting / image upload
+Provides free image upload and hosting integration for forums. Free picture hosting and photo sharing for websites and blogs.
+https://images-ext-1.discordapp.net/external/s_VzI6N4xY_GpR7vBjvnwHHAwFA1fxicVxqXIgQMRr0/https/postimgs.org/apple-touch-icon.png
+
+
+[05-Nov-21 09:53 AM] gcharang#6833
+please try to share now
+
+{Reactions}
+👍 (2) 
+
+[05-Nov-21 10:12 AM] sems#7713
+Here the icon design 128x128
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/906229487438536764/dragon-icon_4.png
+
+{Reactions}
+👍 (4) 
+
+[05-Nov-21 10:12 AM] sems#7713
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/906229497957847081/dragon-icon_1.png
+
+{Reactions}
+👍 (2) 
+
+[05-Nov-21 10:12 AM] sems#7713
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/906229500583481365/dragon-icon_2.png
+
+{Reactions}
+👍 (5) 
+
+[05-Nov-21 10:12 AM] sems#7713
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/906229503976669194/dragon-icon_3.png
+
+{Reactions}
+👍 (6) Tokel (3) 🐤 (3) 💯 (4) 👀 (4) 
+
+[05-Nov-21 10:12 AM] sems#7713
+done. thank you
+
+
+[05-Nov-21 10:16 AM] Nev#5914
+Yip, they are nice, cool, thanks.
+
+{Reactions}
+💎 
+
+[05-Nov-21 11:12 AM] cryptosammy#3587
+my god, sems, they look hot
+
+{Reactions}
+💎 
+
+[05-Nov-21 11:12 AM] cryptosammy#3587
+dips on pink
+
+
+[05-Nov-21 01:25 PM] jspook16#3059
+Very nice work 👍
+
+{Reactions}
+💎 
+
+[05-Nov-21 06:31 PM] jspook16#3059
+I vote pink icon
+
+
+[05-Nov-21 06:32 PM] jspook16#3059
+!kmdtip @sems 5
+
+{Reactions}
+💎 
+
+[06-Nov-21 12:08 AM] sems#7713
+I think pink one needs a little more contrast. I'll update it
+
+
+[06-Nov-21 12:06 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I'm reviewing all the notes from this channel. Is there a setup guide for the electrumx servers and setup guide for the explorer that is recommended?
+
+
+[06-Nov-21 12:19 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Electrum
+https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-api.html#electrum
+
+
+https://docs.komodoplatform.com/komodo/setup-electrumX-server.html#general-part
+
+https://github.com/spesmilo/electrumx
+
+
+explorer
+https://github.com/DeckerSU/komodo-explorers-install
+
+{Embed}
+https://github.com/spesmilo/electrumx
+GitHub - spesmilo/electrumx: Alternative implementation of spesmilo...
+Alternative implementation of spesmilo/electrum-server - GitHub - spesmilo/electrumx: Alternative implementation of spesmilo/electrum-server
+https://images-ext-2.discordapp.net/external/IOm9izAqXaVsvsF8KP1xVfrOUEfE2zeboWnNtX_DffE/https/opengraph.githubassets.com/be378931675b8c1ed19767e4ae5f07ecaf18e3f6ac6738b0ccd4782ff8d895e9/spesmilo/electrumx
+
+{Embed}
+https://github.com/DeckerSU/komodo-explorers-install
+GitHub - DeckerSU/komodo-explorers-install: Install script for KMD ...
+Install script for KMD and assets Insight explorer install - GitHub - DeckerSU/komodo-explorers-install: Install script for KMD and assets Insight explorer install
+https://images-ext-1.discordapp.net/external/p-KLrZh6aMnQK1S_zaosPi5qqVhZKfYkrCOz8SoGK3k/https/opengraph.githubassets.com/36133135753e10408a43ac3f71058b0b757a234ce448a0252a4fecc0921daec5/DeckerSU/komodo-explorers-install
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-api.html
+AtomicDEX API
+The AtomicDEX API now offers the num-rational crate feature. This is used to represent order volumes and prices.
+https://images-ext-2.discordapp.net/external/JRuH6_LDrjOGd6HbRckiIc9OBFcyJGE1c7DjCukFvtA/https/developers.komodoplatform.com/start-here-pics/Dev_Docs_Introduction_small.png
+
+{Embed}
+https://docs.komodoplatform.com/komodo/setup-electrumX-server.html
+Setup ElectrumX Server
+Here are the steps required to run electrumx for KMD. Replace the variables according to your setup. You need to setup minimum 2 electrum servers for same coin to ensure stable operation.
+https://images-ext-2.discordapp.net/external/JRuH6_LDrjOGd6HbRckiIc9OBFcyJGE1c7DjCukFvtA/https/developers.komodoplatform.com/start-here-pics/Dev_Docs_Introduction_small.png
+
+
+[06-Nov-21 12:20 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+docker install
+https://ikomodo.com/blockchain-dev-kit-electrum-dex-trading/
+
+{Embed}
+iKomodo Mylo
+https://ikomodo.com/blockchain-dev-kit-electrum-dex-trading/
+Blockchain Dev Kit v1, Electrumx & DEX in 1 hour - iKomodo P2P
+Dockerized blockchain dev kit for blockchain creation. Linking lite wallet infrastructure with electrumx & integration with p2p DEX trading
+https://images-ext-1.discordapp.net/external/pU-jWZ5asRJXcq3kbwdbEeDZK-EokU0W7DNqk0Hm0vg/https/ikomodo.com/wp-content/uploads/2020/08/helloworld-coin.png
+
+
+[06-Nov-21 12:20 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+scripts to launch an explorer for a single smart chain: 
+https://github.com/gcharang/komodo-install-explorer
+
+{Embed}
+https://github.com/gcharang/komodo-install-explorer
+GitHub - gcharang/komodo-install-explorer: Install a Komodo Smart C...
+Install a Komodo Smart Chain block explorer. Contribute to gcharang/komodo-install-explorer development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/JrlzGW5hnbxlKVjSHLpGcfhJqwZppNOIfQcbLQCUwd4/https/opengraph.githubassets.com/7454ef791350fe790d192db66ef4c6f4177eaa26c2dd11f1d33c315620c68e6f/gcharang/komodo-install-explorer
+
+
+[06-Nov-21 12:21 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@scott (notfromthefuture) did you use any of these or would you recommend any of these?
+
+
+[06-Nov-21 12:37 PM] scott (notfromthefuture)#4595
+Yes I believe so. I think most of these I have read, dont think I had anything else. There are some things not included in those that are required for atomicdex. One thing that comes to mind is websocket service needs to also be enabled.
+
+{Reactions}
+👍 
+
+[06-Nov-21 12:40 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+If you think of anything else please post
+
+{Reactions}
+🍺 
+
+[06-Nov-21 12:50 PM] scott (notfromthefuture)#4595
+One thing jspook and I had discussed was that once we are able to get a successful listing of a asset coin, to publish a medium article that discusses exactly how to do it with a clear checklist and step-by-step guide. Something that puts everything you need to know into one summarized article so anybody considering doing the same wil knwo what exactly is involved and how to accomplish it.
+
+
+[06-Nov-21 01:37 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+This comment goes hand in hand with my questions about the composer in #💬┃general . CLI based composer should be included with komodo install. Something to help navigate the many options for creating a chain. Sure creating a chain is easy but creating it correctly not so easy. Even Nutella had to run lots of tests to get it correct. If komodo expects to get to the 1000+ asset chains then free composer is a must. Also having a free and easy to use one-click install script for the explorer and same for the spv server would be amazing. And of course a one click script that performs the steps required for MM2 integrations.
+And to top it off, I want it to be voice activated so I don't have to type any keys. (That last pay is meant to be funny)
+
+{Reactions}
+💯 KMD (2) 
+
+[06-Nov-21 05:37 PM] scott (notfromthefuture)#4595
+The coin creation part seems pretty clear and is well documented, but I do agree with you, especially when you compare to the process of the competition where you fill out a form, pay a fee, and done. Seems the Komodo process could also be form based, which will ensure properly formatted submissions and a way to answer common questions along the way. I envision a two form system. One for the asset chain that at the end spits out a install script or the first two nodes (includes SPV, explorer, nodes, etc). Then a second form for adex once the chain is up that performs the required manual swap, and gathers all data for the listing
+
+
+[08-Nov-21 02:27 AM] sems#7713
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/907214687035338752/dragon-icon-p.png
+
+{Reactions}
+👍 (3) 
+
+[08-Nov-21 02:58 AM] Nev#5914
+Yip, that seems more and better defined than the last one presented before it, I liked it anyway but it now looks slightly better to me.👍
+
+{Reactions}
+👍 (2) 
+
+[10-Nov-21 03:23 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+```
+Choosing the AssetChain Parameters
+most info came from 
+https://docs.komodoplatform.com/basic-docs/antara/antara-setup/antara-customizations.html#ac-adaptivepow
+
+with supporting examples from
+https://blockchain-developer-docs.readthedocs.io/en/latest/komodo/example-asset-chains.html#
+
+Whereas it is very easy to launch a Komodo AssetChain, using the correct parameters requires some research. My research concept is to build a trading coin for a hypothetical trading competition on AtomicDex. I want this coin to be fast, I want a premine at near 100%, I don’t necessarily need it to contain a block reward after a certain point. I don’t need privacy, and I don’t need CustomConsensus Modules.
+
+So here are the parameters I’m looking at. 
+ac_name , ac_supply, ac_reward, ac_end, ac_blocktime, ac_adaptivepow, ac_public. Other parameters I won’t use, but might have a use for down the road so I’m listing them out of interest. ac_cc, ac_snapshot, ac_txpow.
+
+ac_name=CompetitionCoin -ac_supply=777777 -ac_reward=100000000 -ac_end=200 -ac_blocktime=20 -ac_adaptivepow=1 -ac_public=1 &
+```
+
+
+[10-Nov-21 03:23 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+wondering if anyone has any comments on these selected parameters
+
+
+[10-Nov-21 03:25 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+the coin is 20 sec, blockrewards end in about ~5 minutes after launch, great premine at nearly 100%
+
+
+[10-Nov-21 03:26 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I choose adaptivepow in case I screw up any mining, and I want to mine via cpu
+
+
+[11-Nov-21 03:43 AM] smkhound#7640
+looks ok, though generally ac_name is all caps and not quite so verbose. Best way to confirm  it works for you is to spin it up locally and play with it, then you can just delete everything before doing it for real.  See - https://developers.komodoplatform.com/basic-docs/smart-chains/smart-chain-tutorials/creating-a-smart-chain-on-a-single-node.html
+
+{Embed}
+https://developers.komodoplatform.com/basic-docs/smart-chains/smart-chain-tutorials/creating-a-smart-chain-on-a-single-node.html
+Creating a Smart Chain on a Single Node
+Under most circumstances, a developer should use two separate nodes to set up and create a Smart Chain.
+https://images-ext-2.discordapp.net/external/JRuH6_LDrjOGd6HbRckiIc9OBFcyJGE1c7DjCukFvtA/https/developers.komodoplatform.com/start-here-pics/Dev_Docs_Introduction_small.png
+
+
+[11-Nov-21 10:11 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Yeah, my first try launching between two nodes, it appeared to work but failed to mine the Genesis block. Both nodes could ping each other. One node is running Tokel, the other node was running an instance of rogue. So it is possible that is the issue. The second command I launched, the one with the mining instruc, gave an error? That said something about try mining with tnomp or something like that. Am not by my computer.
+
+
+[11-Nov-21 10:13 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Needless to say I'll try again with changing the chain name to all caps with less words
+
+
+[11-Nov-21 10:13 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+And try to get it to work via one node
+
+
+[11-Nov-21 10:14 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Maybe I don't need two nodes for my purposes?
+
+
+[11-Nov-21 10:16 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Note: the three holy trinity of komodo technical docs: developers.komodoplatform, blockchain-developer-docs, docs.komodoplatform.
+
+{Reactions}
+market_up (3) 
+
+[11-Nov-21 06:26 PM] jspook16#3059
+Im planning to have some time this weekend to move forward a bit with the pink logo
+
+{Reactions}
+👍 (2) 
+
+[14-Nov-21 10:08 AM] jspook16#3059
+Anyone know if the ac_name of an asset chain is also the ticker? documentation I have found seems to imply that but I see chains like TOKEL that have an ac name of "TOKEL" but a ticker of "TKL". If these can be different where is the distinction made?
+
+
+[14-Nov-21 12:33 PM] jspook16#3059
+Ok I have set up two DRAGONFAIRY nodes:
+./komodod -ac_name=DRAGONFAIRY -ac_staked=100 -ac_supply=7777777 -ac_blocktime=30 -ac_public=1 -ac_reward=1 -ac_end=1 -addnode=51.222.85.227
+
+
+[14-Nov-21 12:33 PM] jspook16#3059
+The second node is currently synching up.
+
+
+[14-Nov-21 12:36 PM] jspook16#3059
+I have also set up two electrum servers with the new ticker DUST. Status shows they are online (second one is waiting for second node to sync up)
+
+[/etc/electrumx_DUST.config]
+
+COIN = DRAGONFAIRY
+DB_DIRECTORY = /electrumdb/DUST
+DAEMON_URL = http://user4046949835:passe949d8de5603d53534f6a0c00b4ff199091a87c639d91a652e9510b5c8fb61a284@127.0.0.1:62842/
+SERVICES = tcp://:10001,rpc://:8001,ws://:9001
+EVENT_LOOP_POLICY = uvloop
+PEER_DISCOVERY = self
+INITIAL_CONCURRENT = 50
+COST_SOFT_LIMIT = 10000
+COST_HARD_LIMIT = 100000
+BANDWIDTH_UNIT_COST = 10000
+
+
+[14-Nov-21 12:41 PM] jspook16#3059
+Regarding the PR ... I have updated the coins/electrums directory.
+[added DUST file]
+
+
+[14-Nov-21 12:41 PM] jspook16#3059
+I've updated the coins/icons directory with the DUST.png file
+
+
+[14-Nov-21 12:42 PM] jspook16#3059
+I've updated the coins/explorers directory [added DUST file]
+
+
+[14-Nov-21 01:13 PM] jspook16#3059
+I didnt think id have time today but I have also completed the atomic swap between DUST and RICK
+
+
+[14-Nov-21 01:14 PM] jspook16#3059
+Swap Details
+
+
+[14-Nov-21 01:15 PM] jspook16#3059
+(0:00) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Started...
+14 21:07:25, taker_swap:934] Taker fee tx hash 350b3c83390feb04626e368f20975cd068362af00683c3663a4564e2cf9cae86
+14 21:07:27, taker_swap:985] Got maker payment b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48
+14 21:07:27, taker_swap:998] Before wait confirm
+14 21:07:27, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:07:31 -------
+| (0:09) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Maker payment wait confirm started...
+14 21:07:42, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:07:55 -------
+| (0:33) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Maker payment wait confirm started...
+14 21:07:57, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
+
+
+[14-Nov-21 01:15 PM] jspook16#3059
+14 21:08:12, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:08:20 -------
+| (0:57) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Maker payment wait confirm started...
+14 21:08:27, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
+14 21:08:42, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:08:44 -------
+| (1:21) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Maker payment wait confirm started...
+14 21:08:57, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:09:08 -------
+| (1:45) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Maker payment wait confirm started...
+14 21:09:12, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
+14 21:09:27, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
+
+
+[14-Nov-21 01:15 PM] jspook16#3059
++--- 14 21:09:32 -------
+| (2:09) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Maker payment wait confirm started...
+14 21:09:43, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:09:56 -------
+| (2:33) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Maker payment wait confirm started...
+14 21:09:58, coins:rpc_clients:150] INFO Waiting for tx b3cdc716e8af208007ba27654ec73ff639aa8babe3593bacca9c514e0fe19a48 confirmations, now 0, required 1, requires_notarization false
+14 21:10:13, taker_swap:1013] After wait confirm
+14 21:10:13, taker_swap:1082] Taker payment tx hash 761e338080dd4695a032abfcca6ffe4cd006a6e8480f929f2816602ebbe3f3c2
+14 21:10:13, coins:rpc_clients:150] INFO Waiting for tx 761e338080dd4695a032abfcca6ffe4cd006a6e8480f929f2816602ebbe3f3c2 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:10:13 -------
+| (2:50) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Taker payment sent...
+14 21:10:28, coins:rpc_clients:150] INFO Waiting for tx 761e338080dd4695a032abfcca6ffe4cd006a6e8480f929f2816602ebbe3f3c2 confirmations, now 0, required 1, requires_notarization false
+
+
+[14-Nov-21 01:15 PM] jspook16#3059
++--- 14 21:10:37 -------
+| (3:15) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Taker payment sent...
+14 21:10:43, coins:rpc_clients:150] INFO Waiting for tx 761e338080dd4695a032abfcca6ffe4cd006a6e8480f929f2816602ebbe3f3c2 confirmations, now 0, required 1, requires_notarization false
+14 21:10:58, coins:rpc_clients:150] INFO Waiting for tx 761e338080dd4695a032abfcca6ffe4cd006a6e8480f929f2816602ebbe3f3c2 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:11:01 -------
+| (3:39) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Taker payment sent...
+14 21:11:13, coins:rpc_clients:150] INFO Waiting for tx 761e338080dd4695a032abfcca6ffe4cd006a6e8480f929f2816602ebbe3f3c2 confirmations, now 0, required 1, requires_notarization false
++--- 14 21:11:25 -------
+| (4:03) [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Taker payment sent...
+14 21:11:38, taker_swap:1140] Taker payment spend tx 9c8a33790983d699ed15f907a95c760ebc3ff0b86e0b43d40176199a06ae9441
+14 21:11:38, taker_swap:1183] Maker payment spend tx d2130c4669f28350143ee1315463838c16a099de41f6910c8e0d15456801c645
+· 2021-11-14 21:11:38 +0000 [swap uuid=6aa9ceaa-d142-4d53-9e63-efa7f1cfee9b] Finished
+
+
+[14-Nov-21 01:16 PM] jspook16#3059
+For some reason it hasnt shown up on dexstats yet
+
+
+[14-Nov-21 01:20 PM] jspook16#3059
+@scott (notfromthefuture) do you think you could update the dragonfairy.gives explorer with the new ticker DUST when you get a chance? If you dont have time I can try and set one up on my end if you have something i can start with
+
+
+[14-Nov-21 01:25 PM] jspook16#3059
+Ok here it is.... snippet from dexstats with DUST swap
+
+
+[14-Nov-21 01:25 PM] jspook16#3059
+DUST swap
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/909554681259388938/unknown.png
+
+
+[14-Nov-21 01:30 PM] jspook16#3059
+I will leave everything up and running ...... I dont have time today to finish the PR .... it will take me a while to get it all organized and ready to submit. Also I need to wait until we have an explorer with the correct ticker, whether its a new one or if we can get help from Scott. But i think we have 95% of the pieces for the PR 🙂
+
+
+[15-Nov-21 10:18 PM] jspook16#3059
+looks like http://dragonfairy.gives/ is up and running. A big thank you to @scott (notfromthefuture) for the explorer and @sems for the logo. Thanks to everyone else for their input as well.  I will work the PR this coming up weekend to see if we can finally get DUST listed on atomicdex desktop.
+
+{Embed}
+http://dragonfairy.gives/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and blocks.
+
+{Reactions}
+🎉 👍 
+
+[15-Nov-21 11:36 PM] sems#7713
+That's a good new. Thanks for your effort also
+
+{Reactions}
+👍 
+
+[16-Nov-21 04:55 AM] Nev#5914
+All looks good, thanks for effort 👍
+
+
+[20-Nov-21 10:52 PM] jspook16#3059
+Got the PRs in. Fingers crossed.
+
+
+[20-Nov-21 10:52 PM] jspook16#3059
+https://github.com/KomodoPlatform/coins/pull/406
+
+{Embed}
+https://github.com/KomodoPlatform/coins/pull/406
+feat(coins): add DUST by jspook16 · Pull Request #406 · KomodoPlatf...
+PR to add DUST to (coins)
+https://images-ext-1.discordapp.net/external/wptetutQtAjF8oTxL7-Dbmma_t8aexJCEB0OG0r_ONE/https/opengraph.githubassets.com/8e6ee45488520008cae053bec1a066907041436c11add13f031e5f726b978162/KomodoPlatform/coins/pull/406
+
+
+[20-Nov-21 10:52 PM] jspook16#3059
+https://github.com/KomodoPlatform/atomicDEX-Desktop/pull/1441
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Desktop/pull/1441
+feat(atomicDex-Desktop): add DUST by jspook16 · Pull Request #1441 ...
+PR to add DUST to (atomicDex-Desktop)
+https://images-ext-2.discordapp.net/external/59RrrJpRF1AL73ch6fRf1CNPHIett1ZrCxUvdCQR79E/https/opengraph.githubassets.com/a0a13e22f75f8778a0908938d0b6006b2310aededa20dca69fca67db822ec0f0/KomodoPlatform/atomicDEX-Desktop/pull/1441
+
+
+[22-Nov-21 10:52 AM] jspook16#3059
+@sems do you have the hex color code for the icon? I will need to add that to the PR as well
+
+
+[22-Nov-21 11:06 AM] sems#7713
+light color: FA1979, dark color: 6A032F
+
+
+[22-Nov-21 11:06 AM] sems#7713
+@jspook16  👆
+
+
+[22-Nov-21 01:02 PM] jspook16#3059
+Thank you. Will try to update the PR tonight if possible
+
+
+[22-Nov-21 09:52 PM] jspook16#3059
+We're merged!! ... DUST coming to atomicDEX soon!! Thank you everyone!
+Next step is to figure out the distribution (tipbot?)
+
+{Reactions}
+9176_pepelove market_up (3) 
+
+[22-Nov-21 09:57 PM] sems#7713
+Good news! Thanks mate.
+
+
+[23-Nov-21 06:29 PM] scott (notfromthefuture)#4595
+@jspook16  and I completed some testing sending and swapping via a adex build, all is working great! Hopefully we can make this a great learning experience and gateway to atomic swaps for those that have never used it before. Cool to see it starting to come together. Lots of good information for putting together a guide soon for anybody wanting to create a new asset chain and list on adex too
+
+{Reactions}
+KMD (2) 
+
+[23-Nov-21 06:32 PM] scott (notfromthefuture)#4595
+Does anybody know somebody we can speak with about a discord tipbot? Our guy on the Pirate server is out with health issues fro a bit, but I see there are other ones floating around. Not sure if best path is to make our own or work with somebody already running one on KMD ecosystem servers
+
+
+[23-Nov-21 11:14 PM] jspook16#3059
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/912964261075103744/unknown.png
+
+{Reactions}
+👀 ✅ (2) 
+
+[24-Nov-21 07:14 AM] Artakush#4285
+I think @gcharang knows quite some about bots. Not sure, but worth trying asking 🙂
+
+
+[24-Nov-21 07:16 AM] gcharang#6833
+@Artakush most of the KMD ecosystem tipbots are made and maintained by @sclear
+
+
+[24-Nov-21 07:16 AM] Artakush#4285
+Awesome, thanks! Was not sure who maintained them. Do you think we can ask him for some help? 🙂
+
+
+[24-Nov-21 07:18 AM] gcharang#6833
+i'm sure he will help if asked. I think @SHossain  is familiar with him
+
+
+[24-Nov-21 07:20 AM] Artakush#4285
+Thanks for heads up! 😉
+
+
+[24-Nov-21 01:54 PM] scott (notfromthefuture)#4595
+Thanks @gcharang and @Artakush , I have spoken to sclear about the tipbot and he was willing to provide one for a modest fee. Unfortunately he is the one out with health issues. I haven't seen posts from him in a few months so I really hope he is OK.
+
+{Reactions}
+👍 
+
+[24-Nov-21 01:55 PM] scott (notfromthefuture)#4595
+As I understand, he ran the one called "tipbot", but I do see there is another bot around, I think callled "tip.cc". Maybe we can track down who runs that one
+
+
+[24-Nov-21 02:03 PM] scott (notfromthefuture)#4595
+@Tovar we are looking at setting up a tipbot to distribute a promotional asset chain coin we call DragonFairy. I would like to ask your experience in setting up `tip.cc`
+
+
+[24-Nov-21 02:10 PM] scott (notfromthefuture)#4595
+Oh, I think this is private channel. @Audo am I able to invite `Tovar#1111` to this channel or do you need to add her?
+
+
+[24-Nov-21 03:01 PM] jspook16#3059
+tip.cc is outside of the komodo ecosystem i think. 
+https://tip.cc/
+That one is about $1k usd for listing.
+
+{Embed}
+https://tip.cc/
+tip.cc - send cryptocurrencies on Discord & Telegram
+Multi-cryptocurrency tip bot for Discord and Telegram chats.
+https://images-ext-2.discordapp.net/external/_r8IqGDfeC1-myXEmhGErzQT-GZCFskHVCdaCXaLHds/https/tip.cc/img/cover.png
+
+
+[24-Nov-21 03:10 PM] scott (notfromthefuture)#4595
+It is the one being used on teh Pirate servers, Tovar (and others) set it up. Once she can join this channel she can tell us what was involvled and if we can use it with DUST
+
+
+[24-Nov-21 03:11 PM] jspook16#3059
+Ok cool
+
+
+[24-Nov-21 03:44 PM] cryptosammy#3587
+A tipbot wouldn't be very difficult to code. Especially with the bitgo library.
+
+
+[24-Nov-21 03:48 PM] cryptosammy#3587
+hosting the tipbot on a fairly secure server should be good enough, just simply dont allow private keys to be dumped and only allow local server shutdown possible. Store the private keys in a flatfile with encryption.
+
+
+[24-Nov-21 05:59 PM] sems#7713
+Need to pay tip.cc for setup.
+
+
+[24-Nov-21 06:00 PM] sems#7713
+Bago was working on a tipbot fir pirate server. And also tokel devs working on a tipbot
+
+{Reactions}
+❤️ 
+
+[24-Nov-21 06:01 PM] scott (notfromthefuture)#4595
+Yeah I assume there will be some charge, but it may be worth it to save teh working of building one, maintaining, and supporting issues. Would be great if we had our own with some template for other AC chains to use
+
+
+[24-Nov-21 06:03 PM] sems#7713
+Then let me ask to tovar. She has experience with tip.cc
+
+
+[24-Nov-21 06:03 PM] scott (notfromthefuture)#4595
+I pinged her above but this is a private channel so once she can be added she will come comment
+
+{Reactions}
+👍 (2) 
+
+[25-Nov-21 04:40 AM] Artakush#4285
+what is her handle? I will ask Audo to add her
+
+
+[25-Nov-21 04:56 AM] Audo#5667
+added
+
+{Reactions}
+9756_AppJedi (3) 🍻 
+
+[25-Nov-21 08:46 AM] sems#7713
+@Tovar when you have time.
+
+
+[25-Nov-21 08:57 AM] Tovar#1111
+you would need $1000 in BTC to list as long as it's on BSC it can easily be added.
+
+
+[25-Nov-21 08:58 AM] jspook16#3059
+It's a komodo smart chain not a bsc token. Does that still apply?
+
+
+[25-Nov-21 09:00 AM] Tovar#1111
+let me check, one sec
+
+
+[25-Nov-21 09:02 AM] Tovar#1111
+I think it could be possible but confirming and as soon as I hear back I will update you all!
+
+
+[25-Nov-21 09:14 AM] Tovar#1111
+``` we don't support komodo chain as of now, we could look into it but it would prolly cost too much for a single project to pay, would be >$5k
+
+in the past e.g. for avax we first found 5+ token projects interested in paid listing, $1k each and then we added the chain and the tokens
+
+that's how we usually add support for new chains```
+
+{Reactions}
+👀 panicdepression 
+
+[25-Nov-21 09:17 AM] jspook16#3059
+😦
+
+
+[25-Nov-21 09:50 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Do they support Bitcoin or zcash? Komodo is a fork afterall
+
+
+[25-Nov-21 10:01 AM] Tovar#1111
+what is the name of the token?
+
+
+[25-Nov-21 10:02 AM] Tovar#1111
+DragonFairy?
+
+
+[25-Nov-21 10:03 AM] Tovar#1111
+if tip.cc cannot I think it would be worth checking with Bago as I am currently in talks with him now about his current project if you guys are interested.
+
+
+[25-Nov-21 10:06 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Komodo asset chains are launched in the exact way that kmd is (with different parameters of course)
+
+
+[25-Nov-21 10:07 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Kmd and all asset chains are launched via komodod.
+
+
+[25-Nov-21 10:07 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Which might not be all that different from bitcoind
+
+
+[25-Nov-21 10:21 AM] sems#7713
+It's not a single project tho. There's tons of projects in the ecosystem
+
+{Reactions}
+✅ 
+
+[25-Nov-21 12:16 PM] Tovar#1111
+I agree, I am still clarifying and working on answering all those details and correcting them. As of now it's not a "no".
+
+{Reactions}
+check (3) 
+
+[25-Nov-21 01:57 PM] scott (notfromthefuture)#4595
+Is it not tip.cc thats being used for ARRR in the Pirate sever? If so, Pirate is still essentially an asset chain. Should actually be easier
+
+
+[25-Nov-21 01:59 PM] scott (notfromthefuture)#4595
+Either way, my question is does that $1k cover maintenance and support of the bot and any user transaction issues that arise? If so it may be worth funding between a group of us just for that reason. Though I am starting to think maybe just creating a AC bot the whole ecosystem could benefit from may be worth it for somebody interested in maintaining it. Thye could make a few bucks off the effort I would assume
+
+
+[25-Nov-21 03:11 PM] jspook16#3059
+Tip.cc is used for warr which is bsc
+
+{Reactions}
+✔️ (2) 
+
+[25-Nov-21 03:12 PM] scott (notfromthefuture)#4595
+Oh, that was my confusion, didnt realize it was for wARRR. So we dont currently have a ARRR bot while sclear is out, is that correct?
+
+
+[25-Nov-21 03:13 PM] jspook16#3059
+arrrtip bot i think still works. But if it did break, sclear would be the person needed to fix it
+
+
+[25-Nov-21 03:15 PM] scott (notfromthefuture)#4595
+ok, so that makes sense. He was charging $500 to setup teh same arrrtip bot, but for DUST which would include all the backend work and ongoing support. Basically he would setup and handle its operation so we would not need to do anything on our end.
+
+
+[25-Nov-21 03:35 PM] jspook16#3059
+Yeah i think that's the best option. Any word on if he is ok?
+
+
+[25-Nov-21 04:14 PM] Tovar#1111
+Try Bago who had practically built the same thing.
+
+
+[25-Nov-21 04:25 PM] cryptosammy#3587
+I suppose everyone is looking for a tipbot?
+
+
+[25-Nov-21 04:26 PM] cryptosammy#3587
+Write me the specs here, I'll see what I can code while I am uploading, building and rendering
+
+
+[25-Nov-21 05:59 PM] jspook16#3059
+Just need it to work like the arrrtip bot
+
+
+[25-Nov-21 08:06 PM] scott (notfromthefuture)#4595
+I have not spoken with him for maybe 6 months. I dont have any information other than he was out for health and no updates for a few months now, so idk
+
+
+[25-Nov-21 08:11 PM] sems#7713
+@Audo can we add @Bago here? For discussion about tipbot.
+
+
+[26-Nov-21 07:27 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@scott (notfromthefuture) question for you. What version of Ubuntu do you have the dust explorer setup on? I'm having an issue getting install to work.
+
+
+[26-Nov-21 12:24 PM] scott (notfromthefuture)#4595
+I always just run the latest LTS, so 20.04
+
+
+[26-Nov-21 12:26 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Did you use these instructions? https://github.com/gcharang/komodo-install-explorer
+
+{Embed}
+https://github.com/gcharang/komodo-install-explorer
+GitHub - gcharang/komodo-install-explorer: Install a Komodo Smart C...
+Install a Komodo Smart Chain block explorer. Contribute to gcharang/komodo-install-explorer development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/JrlzGW5hnbxlKVjSHLpGcfhJqwZppNOIfQcbLQCUwd4/https/opengraph.githubassets.com/7454ef791350fe790d192db66ef4c6f4177eaa26c2dd11f1d33c315620c68e6f/gcharang/komodo-install-explorer
+
+
+[26-Nov-21 12:29 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+This uses a script to setup. For whatever reason it wouldn't make the correct folders and setup didn't work. But I didn't start with this guide, started with decker, and also a binary install, so must have done something wrong. I'll try it on a fresh install see what happens.
+
+
+[26-Nov-21 12:29 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@scott (notfromthefuture)
+
+
+[26-Nov-21 12:48 PM] scott (notfromthefuture)#4595
+Yes, that is the same one I used @༺α☬丂Ӧ¢ ༒ ༻ . If it is not creating folders I would probably check that the chain was launched so the conf file is there for the script. Also make sure of case. Asset chain names should be all caps. The directory.sh is pretty straight forward so if the issue persists you could walk through it manually to see what may be causing the issue. Often with setup scripts like these I will use them as a guide to do the steps manually anyway so I can be sure of what exactly they are doing.
+
+
+[26-Nov-21 12:53 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+What do you use to open / read the .sh file?
+
+
+[26-Nov-21 12:55 PM] scott (notfromthefuture)#4595
+for a ide I use vsc (visual studio code)
+
+{Reactions}
+👍 
+
+[26-Nov-21 12:57 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Cool, thanks for the advices. It gives me something to try
+
+
+[30-Nov-21 07:30 PM] jspook16#3059
+@Audo  could you add @bago here. Need to ask him about a tip bot
+
+
+[01-Dec-21 11:33 PM] scott (notfromthefuture)#4595
+@jspook16  I just spoke with @Bago. He is working on a bot that seems functional but still beta. I asked him to come see if he has advice on how we might proceed or if he may be interested in providing for a fee. Sounds like the main issue is a sufficient server, which should be no issue. Probably not a good ise to run on the spv/explorer server, but it should be sufficent if we think that is a good idea.
+
+
+[01-Dec-21 11:33 PM] scott (notfromthefuture)#4595
+Once @Audo is able to add he wil come by and chat with us, unless anybody else in here cna invite users `Bago#7842`
+
+{Reactions}
+👍 
+
+[08-Dec-21 02:00 AM] Audo#5667
+added, welcome @Bago
+
+{Reactions}
+💎 (2) 
+
+[09-Dec-21 03:24 AM] Bago#7842
+Hello, thanks for add 🙂 got a couple more issues to solve.. but i can have a look soonish on how i can implement support for komodo and komodo smart chains.. i'll write an implementation that can be used on full nodes..
+support for additional coins mainly goes into "services"
+https://github.com/bobpepers/RUNES-Tip/tree/master/src/services
+and each coin will probably need some helpers that are specific for the coin in question
+https://github.com/bobpepers/RUNES-Tip/tree/master/src/helpers/pirate
+
+i can have a look at an svp implementation on later date if the code for the svp api is open source, but i wouldn't recommend running it on any light wallet..
+
+{Reactions}
+🙌 
+
+[09-Dec-21 06:38 PM] jspook16#3059
+I spoke to @scott (notfromthefuture) and i think we are onboard. You mentioned if we got other communities onboard we could perhaps share the cost amongst the communities. Is that still the case?
+
+
+[15-Dec-21 07:45 PM] jspook16#3059
+@Bago I know you are busy. Just touching base with you again
+
+
+[16-Dec-21 10:57 AM] Bago#7842
+oh right, totally forgot to answer this message.. i'm running a test version for pirate in some of the alternative servers for pirate like (ARRRmy/PirateClout) using these servers to test the tipbot on larger sample sizes and to receive feedback from people. people there are helping me to test and to bring issues to light if there are any. i need to think about how i'm going to integrate komodo (and smartchains) and if i'll be forking my own library for it or not. i'll try to keep you updated. still need to overhaul the telegram side of the bot.
+
+
+[16-Dec-21 11:01 AM] Bago#7842
+do you got a deadline?
+
+
+[23-Dec-21 02:32 PM] jspook16#3059
+No real deadline. Just want to get a few events done before arrrtomic swaps are fully implemented
+
+
+[30-Dec-21 04:11 PM] jspook16#3059
+Thanks to @Bago , the dragonfairy (DUST) tip bot is now active! 🙂 Next step is to create two flyers. A Supporter Flyer describing how different projects can support the movement. A Participant Flyer describing how users can trade DUST for real coins. Intent is to keep them simple, concise, but effective. I will start on these as soon as i can.
+
+{Reactions}
+🦎 (3) 
+
+[30-Dec-21 08:59 PM] jspook16#3059
+Any suggestions or input?
+
+
+[30-Dec-21 08:59 PM] jspook16#3059
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/926338684524052540/unknown.png
+
+{Reactions}
+💎 
+
+[31-Dec-21 06:30 AM] sems#7713
+It looks very nice. Thank you
+
+
+[15-Jan-22 09:59 AM] jspook16#3059
+decided to change the theme of the flyer to be more atomicdex focused.
+
+
+[15-Jan-22 09:59 AM] jspook16#3059
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/931970829137367060/unknown.png
+
+
+[15-Jan-22 09:59 AM] jspook16#3059
+Can you guys please provide some feedback or input
+
+
+[15-Jan-22 10:13 AM] jspook16#3059
+one mistake....no ARRR Support yet. Will remove that
+
+
+[15-Jan-22 10:19 AM] jspook16#3059
+here is the Support flyer
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/931975817599254548/unknown.png
+
+
+[15-Jan-22 12:40 PM] jspook16#3059
+Ok here are the latest two flyers..... open to all feedback
+
+
+[15-Jan-22 12:40 PM] jspook16#3059
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/932011470437384212/unknown.png
+
+
+[15-Jan-22 12:41 PM] jspook16#3059
+
+{Attachments}
+https://cdn.discordapp.com/attachments/899939371862605844/932011538930368522/unknown.png
+
+
+==============================================================
+Exported 402 message(s)
+==============================================================

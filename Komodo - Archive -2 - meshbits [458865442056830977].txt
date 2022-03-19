@@ -1,0 +1,5008 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -2 / meshbits
+==============================================================
+
+[19-Jun-18 10:28 PM] Audo#5667
+here you go @grewalsatinder
+
+
+[19-Jun-18 10:29 PM] grewalsatinder#9653
+Thanks @Audo 😃
+
+
+[19-Jun-18 10:31 PM] grewalsatinder#9653
+I'm doing some testing with `cjdns` and `yggdrasil`
+
+
+[19-Jun-18 10:32 PM] grewalsatinder#9653
+when something will be made in my test setup will need some volunteers to test this e2e encrypted mesh network over internet
+
+{Reactions}
+💯 (2) 
+
+[20-Jun-18 11:35 AM] dukeleto#7326
+👍
+
+
+[20-Jun-18 11:49 PM] Audo#5667
+Did you guys want to bridge this channel to another discord channel? Let me know and we will get it done. I need an inivation link to your discord.
+
+
+[21-Jun-18 12:00 AM] grewalsatinder#9653
+not yet. but thanks mate 😃
+
+
+[21-Jun-18 12:02 AM] grewalsatinder#9653
+yesterday following `cjdns` project's core dev `cjd`'s conversation found that finally `cjdns` project is moving towards a cryptocurrency friendly development. 🙂
+
+
+[21-Jun-18 12:02 AM] grewalsatinder#9653
+earlier that community was very much reluctant to cryptocurrencies.
+
+
+[21-Jun-18 12:03 AM] grewalsatinder#9653
+now core dev cjd thinks of making a VPN network out of his cjdns mesh network, and using bitcoin lightening network.
+
+
+[21-Jun-18 12:03 AM] grewalsatinder#9653
+will explore what they been up to, and see where I can help them.
+
+
+[21-Jun-18 12:03 AM] grewalsatinder#9653
+and see how I can utilise their tech with ours 😉
+
+
+[21-Jun-18 12:03 AM] grewalsatinder#9653
+@jl777c do we have any micropayments similar solutions on our todo/roadmap in komodo ecosystem ?
+
+
+[21-Jun-18 12:04 AM] grewalsatinder#9653
+I remember you said something, but don't remember now 🤔
+
+
+[21-Jun-18 12:07 AM] grewalsatinder#9653
+@Audo @ns408 is here too.
+
+
+[21-Jun-18 12:54 AM] jl777c#5810
+i was thinking just using LN for micropayments, via CHIPS
+
+{Reactions}
+💯 👌 
+
+[10-Oct-18 09:51 AM] FishyGuts#5085
+Hey guys, I just want to let you know I have had a KMD tipbot made for KMD discord.  
+If you have your own discord, it will work there for KMD and you are free to use it.   
+
+DM me for the link and I will get you setup with the creator.
+
+
+[19-Oct-18 09:36 PM] Nacho Figx#4221
+@grewalsatinder where can I find more info about meshbits?
+
+
+[19-Oct-18 09:38 PM] grewalsatinder#9653
+https://meshbits.github.io/
+
+{Embed}
+https://meshbits.github.io/
+Team Meshbits
+This document is to express who we are, our passion and commitment to the Komodo project.
+
+
+[13-Nov-18 02:08 PM] Audo#5667
+Hey Komodo Projects,
+
+Komodo team is looking to know better the projects which are building with Komodo. We ask you to fill out this form so that we get information about each project and the rapidly growing ecosystem.
+
+https://airtable.com/shrKBzMwUddQ4ggET
+
+{Embed}
+https://airtable.com/shrKBzMwUddQ4ggET
+Submit New Project - Airtable
+Fill out the "Submit New Project" form quickly and securely on Airtable.
+https://images-ext-2.discordapp.net/external/wOO2B2WaFrXKHRFn-C_52mTmmd6WpFp5YNlHI3X6hPA/https/static.airtable.com/images/oembed/airtable.png
+
+
+[14-Dec-18 05:04 PM] SHossain#0007
+```
+MESH transition at 128911 (128910, 1544830063) -> (128911, 1544832002)
+SET SAPLING ACTIVATION height.128971
+MESH sapling activation at 128971
+```
+
+
+[14-Dec-18 07:27 PM] grewalsatinder#9653
+🎉 👍
+
+
+[18-Feb-19 12:56 AM] CrisF#3405
+master
+
+
+[18-Feb-19 12:58 AM] grewalsatinder#9653
+slave
+
+
+[18-Feb-19 01:06 AM] CrisF#3405
+Oops, haha, sorry. 🤦
+
+
+[18-Feb-19 01:17 AM] grewalsatinder#9653
+😄
+
+
+[08-Aug-19 11:48 AM] marcotonyja#4802
+lads looking for a link to the latest verision of agama wallet please
+
+
+[09-Aug-19 01:22 AM] gcharang#6833
+@marcotonyja https://github.com/VerusCoin/Agama/releases/tag/v0.5.7-4
+
+{Embed}
+https://github.com/VerusCoin/Agama/releases/tag/v0.5.7-4
+VerusCoin/Agama
+The Verus Multi-Coin Desktop Wallet. Contribute to VerusCoin/Agama development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/ics999Prx3ZVXBmBBxXT-2M7Vz7hQRqCfv8JUX38JJs/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/38958958
+
+{Reactions}
+👍 
+
+[10-May-20 08:21 PM] grewalsatinder#9653
+@here Good to have #meshbits back out of archives to live projects list 🙂 
+Will be using this channel for Shurli app updates 🚀
+
+{Reactions}
+🔥 (6) 
+
+[10-May-20 09:19 PM] Loo✟z#2749
+oh cool, SUPERMESH!!!!
+
+
+[10-May-20 09:20 PM] Loo✟z#2749
+Lets bring back some memorys lol https://soundcloud.com/cryptoradio/unlocking-the-mysteries-of
+
+{Embed}
+CryptoRadio.Live
+https://soundcloud.com/cryptoradio/unlocking-the-mysteries-of
+Unlocking the Mysteries of SuperMesh
+SuperMesh Explained: Bringing a sound internet solution to people who do not have access to internet.
+The SuperMesh software is not intended to just replace Internet, but to be an extension to Interne
+https://images-ext-2.discordapp.net/external/DWyXK1zIOBg6fXWZ8NtB638gM-bzZvD8N8iOZ5lsg88/https/i1.sndcdn.com/artworks-000168096678-qt3oic-t500x500.jpg
+
+
+[10-May-20 09:36 PM] grewalsatinder#9653
+😄 golden memories @Loo✟z 🙏
+
+
+[10-May-20 09:48 PM] Loo✟z#2749
+sounded like you had a bumble bee in your microphone, I remember trying to fix that.
+
+
+[10-May-20 09:48 PM] Loo✟z#2749
+but I wasnt that good yet at audio editing
+
+{Reactions}
+🐝 😁 
+
+[11-May-20 03:36 AM] grewalsatinder#9653
+https://twitter.com/XuanXuan007/status/1259752100936003584?s=20
+
+{Embed}
+XuanLeeeeee (@XuanXuan007)
+https://twitter.com/XuanXuan007/status/1259752100936003584?s=20
+@satindergrewal @techloverhd @marmarachain @PirateChain @drcetiner go go go go Shurli it´s your birthday
+
+listen up, @50cent was a visionary even then, go Shurli it's your birthday
+
+https://t.co/PUPD2k6Lxd
+Twitter
+
+
+[11-May-20 03:37 AM] grewalsatinder#9653
+😅
+
+
+[12-May-20 07:48 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1260401435126009856?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1260401435126009856?s=20
+The same tech that allows subatomic swaps also allows sending secure public and private messaging. It is indeed very much possible to make slack type application using DEXP2P tech. Would ppl like pure slack type p2p team chat application? I think I know the answer. 🙂🤓 https:/...
+Twitter
+
+
+[25-May-20 07:29 AM] grewalsatinder#9653
+https://youtu.be/j6kZffNEZqE
+
+{Embed}
+satinder grewal
+https://www.youtube.com/watch?v=j6kZffNEZqE
+Shurli App update UI/UX, Trade History, Shurli daemon and more upda...
+Shurli now runs in background process like a daemon
+
+- Logs data in shurli.log file.
+- Has new config.json settings for DEX blockchain.
+- Starts DEX blockchain if not already running, using `komodod` from system path.
+- Stops DEX blockchain when Shurli stops.
+https://images-ext-1.discordapp.net/external/HpilvWzUYq9FOFc7OpTDOP4ETHtb-hQyj5yms6m1nfA/https/i.ytimg.com/vi/j6kZffNEZqE/hqdefault.jpg
+
+{Reactions}
+shexy (3) 👍 
+
+[25-May-20 07:31 AM] grewalsatinder#9653
+Shurli app's latest work in progress update 🙂
+
+
+[25-May-20 09:59 AM] grewalsatinder#9653
+You can now make Shurli bit easily using `make` commands 🙂 
+follow the updated ReadMe from repository, grewal branch
+https://github.com/Meshbits/Shurli/tree/grewal
+
+{Embed}
+https://github.com/Meshbits/Shurli/tree/grewal
+Meshbits/Shurli
+Shurli App. Contribute to Meshbits/Shurli development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+{Reactions}
+👍 
+
+[29-May-20 12:02 AM] grewalsatinder#9653
+Shurli (Subatomic Swaps) application weekly update - 29 May, 2020
+https://community.komodoplatform.com/post/5ed0b2fed317b62f737ccc3f
+
+{Embed}
+https://community.komodoplatform.com/post/5ed0b2fed317b62f737ccc3f
+Shurli (Subatomic Swaps) application weekly update - 29 May, 2020
+In last two weeks, there's been few updates to Shurli at UI/UX end and backend code.
+
+- The order list page is showing updated coin selection and order details info cards
+
+- Order place page...
+https://images-ext-2.discordapp.net/external/A_sLCqe4tToqJvn1g7fg7LPfeaCCxxRD48Kt4zXbxR0/https/static.t-cdn.net/5d46ccdc5f74e0434ccb1e74/portals/banner_7177.png
+
+{Reactions}
+👍 
+
+[29-May-20 12:03 AM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1266263707203428352?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1266263707203428352?s=20
+Shurli (Subatomic Swaps) application weekly update - 29 May, 2020
+https://t.co/WVG8kq0GzA
+Twitter
+
+
+[29-May-20 02:08 AM] Audo#5667
+thanks for the update!
+
+{Reactions}
+👍 
+
+[06-Jun-20 09:40 PM] grewalsatinder#9653
+Had got only about 8 submissions for interest in testing Shurli's first proof of concept.
+Invited 6 of those to the test group.
+
+
+[06-Jun-20 09:42 PM] grewalsatinder#9653
+please check keyabse.io chat, you'll find a new group in your chat list.
+
+
+[07-Jun-20 01:43 AM] grewalsatinder#9653
+> I'm super interested  in this.   Struggling to get through some stuff over the next 2~3 days.  How long will the testing be going on?
+> I filled in the application anyhow :abusedsmily:
+@CrisF  Thanks, invited you there in test group
+The current proof of concept application is using Golang and web stack for frontend.
+I'm currently in process of moving all the current functionality to Golang + Flutter based frontend.
+I believe it will take good amount of time, so I allocate myself about a month or extended 2 months of time, in which there'll be a lot of new library code and gRPC will be written to make Shurli app both work with new programming stack for Alice side of Desktop app as well as making it ready for the Bob side of web app that will be developed later to help the marketmakers.
+
+{Reactions}
+👍 
+
+[04-Jul-20 09:50 AM] grewalsatinder#9653
+@here we are just able to make a subatomic swap on Windows machine! 🎉 
+Thank you @Decker @SHossain @jl777c for all the help to make it happen 🙂
+
+
+[04-Jul-20 09:50 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/729016370544771123/Screen_Shot_2020-07-05_at_4.49.38_AM.png
+
+{Reactions}
+shexy (11) 💯 (9) KMD (15) 👍 (13) 👀 (5) CHIPS (4) veruscircleblue (4) piratechain (6) treasure (5) 🔥 (7) 🚀 (6) 
+
+[04-Jul-20 09:55 AM] Kaks | $ARRR Privacy Matters#6612
+looking forward to try on windows :dancing_penguin:
+
+
+[04-Jul-20 09:58 AM] Tom.T#6920
+Super good news!
+
+
+[04-Jul-20 09:59 AM] SHossain#0007
+@grewalsatinder thank you also for the Shurli GUI app for Subatomic 🙂
+
+
+[04-Jul-20 10:00 AM] grewalsatinder#9653
+I have the utmost pleasure to work with team/people like you 🙂 🙏
+
+{Reactions}
+charmander_dancing 
+
+[04-Jul-20 11:41 AM] allbits#5898
+Does shurli require to be running native chains of the coins being swapped?
+
+
+[04-Jul-20 11:51 AM] SHossain#0007
+yes
+
+
+[04-Jul-20 11:52 AM] SHossain#0007
+native wallet is a must
+
+
+[04-Jul-20 02:52 PM] Cryptosaurus | $ARRR#2742
+Very nice! Good job
+
+
+[10-Jul-20 04:28 AM] Cryptoon#3362
+!kmdtip @grewalsatinder 100.777
+
+
+[10-Jul-20 04:28 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+@Cryptoon (Cryptoon#3362)
+You tipped @grewalsatinder **100.777 KMD**
+
+
+[10-Jul-20 04:28 AM] Cryptoon#3362
+it's not much, but maybe it can help for tipping people supporting/testing 🙂
+
+
+[10-Jul-20 04:29 AM] Cryptoon#3362
+!arrrtip @grewalsatinder all
+
+
+[10-Jul-20 04:29 AM] ARRR TipBot#1743
+
+{Embed}
+TipBot
+:question: Are you sure that you want to tip with all your ARRR?
+*Accepted answers*: **yes/no**; *Auto-cancel in 30 seconds*.
+
+
+[10-Jul-20 04:29 AM] Cryptoon#3362
+yes
+
+
+[10-Jul-20 04:29 AM] ARRR TipBot#1743
+
+{Embed}
+TipBot
+@Cryptoon (Cryptoon#3362)
+You tipped @grewalsatinder **8.04859136 ARRR**
+
+
+[10-Jul-20 04:35 AM] grewalsatinder#9653
+thanks @Cryptoon 😃 🙏 
+I'll use these for testing app!
+
+{Reactions}
+🙏 
+
+[10-Jul-20 12:07 PM] SHossain#0007
+Windows `subatomic` swaps are almost there. 1 more bug to fix before we can swap smoothly. Did couple of swaps today.
+
+
+[10-Jul-20 12:07 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731225213358047392/Screenshot_from_2020-07-10_20-07-40.png
+
+{Reactions}
+🤓 (3) 🤞 (3) 9756_AppJedi (2) 
+
+[11-Jul-20 08:42 AM] grewalsatinder#9653
+@here I'm testing Windows Subatomic swaps with @SHossain right now
+
+{Reactions}
+👍 (6) 
+
+[11-Jul-20 08:42 AM] grewalsatinder#9653
+if anyone feels like joining the effort, please follow the ReadMe from https://github.com/Meshbits/Shurli/
+
+{Embed}
+https://github.com/Meshbits/Shurli/
+Meshbits/Shurli
+Shurli App. Contribute to Meshbits/Shurli development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[11-Jul-20 08:43 AM] grewalsatinder#9653
+I'm just waiting for Komodo to full sync on my Windows VM machine and will test a swap from Shurli UI 🙂
+
+
+[11-Jul-20 08:43 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731536254449221642/Screen_Shot_2020-07-12_at_3.43.46_AM.png
+
+
+[11-Jul-20 08:44 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731536453204443136/Screenshot_from_2020-07-11_16-25-57.png
+
+
+[11-Jul-20 08:45 AM] SHossain#0007
+Subatomic swaps on Windows working fine. Didn't encounter into any issues so far.
+
+{Reactions}
+👍 (5) 
+
+[11-Jul-20 09:01 AM] SHossain#0007
+btw, anyone interested testing, there are orders available for the following pairs
+```
+PIRATE <> KMD
+PIRATE <> MCL
+PIRATE <> zVRSC
+```
+zVRSC uses shielded address (zs...)
+
+{Reactions}
+👍 (2) 
+
+[11-Jul-20 09:02 AM] grewalsatinder#9653
+@B. Gültekin Çetiner 👆
+
+
+[11-Jul-20 09:11 AM] daemonfox#6136
+No shit?
+
+
+[11-Jul-20 09:11 AM] daemonfox#6136
+Ill dig on this later but thats awesome
+
+{Reactions}
+👍 
+
+[11-Jul-20 09:40 AM] Kaks | $ARRR Privacy Matters#6612
+I dont see the subatomic installation for windows, where i can find it?
+
+
+[11-Jul-20 09:55 AM] grewalsatinder#9653
+@Kaks | $ARRR Privacy Matters https://github.com/Meshbits/shurli#windows-build
+
+{Embed}
+https://github.com/Meshbits/shurli
+Meshbits/Shurli
+Shurli App. Contribute to Meshbits/Shurli development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[11-Jul-20 09:56 AM] grewalsatinder#9653
+have you done with the installation of `komodod` and `komodo-cli` for windows?
+
+
+[11-Jul-20 09:58 AM] Kaks | $ARRR Privacy Matters#6612
+i have these files, but how to install them?
+
+
+[11-Jul-20 09:59 AM] grewalsatinder#9653
+install which files?
+
+
+[11-Jul-20 09:59 AM] grewalsatinder#9653
+you specifically need the `komodod` and `komodo-cli` from https://github.com/jl777/komodo dev branch
+
+{Embed}
+https://github.com/jl777/komodo
+jl777/komodo
+Komodo. Contribute to jl777/komodo development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[11-Jul-20 09:59 AM] grewalsatinder#9653
+as these are the only builds which has the `DEX_stats` and other `DEX_*` APIs for DEXP2P
+
+
+[11-Jul-20 10:00 AM] grewalsatinder#9653
+basically, any existing GUI or komodo line wallet on official KomodoPlatform does not has DEXP2P yet
+
+
+[11-Jul-20 10:00 AM] grewalsatinder#9653
+so you have to compile your own from jl777 repo
+
+
+[11-Jul-20 10:02 AM] grewalsatinder#9653
+once you have the bins `komodod` `komodo-cli` set the system environment PATH to include the directory of these bins, so that Shurli can find them when required
+
+
+[11-Jul-20 10:02 AM] Kaks | $ARRR Privacy Matters#6612
+cross compile on windows?
+
+
+[11-Jul-20 10:02 AM] grewalsatinder#9653
+yep
+
+
+[11-Jul-20 10:02 AM] grewalsatinder#9653
+cross compile on Linux
+
+
+[11-Jul-20 10:02 AM] Kaks | $ARRR Privacy Matters#6612
+how to get that 😅
+
+
+[11-Jul-20 10:02 AM] grewalsatinder#9653
+Shurli you can compile on windows
+
+
+[11-Jul-20 10:02 AM] grewalsatinder#9653
+Komodo you have to cross compile on linux
+
+
+[11-Jul-20 10:03 AM] grewalsatinder#9653
+or you can use the debug bins we used in our testing
+
+
+[11-Jul-20 10:03 AM] grewalsatinder#9653 (pinned)
+from here: https://github.com/Meshbits/komodo/releases/tag/debug_release2
+
+{Embed}
+https://github.com/Meshbits/komodo/releases/tag/debug_release2
+Release Komodo and subatomic win debug binaries · Meshbits/komodo
+IMPORTANT NOTE: Please use only small amounts of funds in your wallet while testing subatomic swaps
+These windows binaries of Komodo, and Subatomic are builds we used while debugging windows versio...
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[11-Jul-20 10:04 AM] grewalsatinder#9653
+Pinned a message.
+
+
+[11-Jul-20 10:04 AM] Kaks | $ARRR Privacy Matters#6612
+downloaded, whats next step?
+
+
+[11-Jul-20 10:04 AM] grewalsatinder#9653
+set system path for these bins
+
+
+[11-Jul-20 10:05 AM] grewalsatinder#9653
+you have to search and figure that out yourself
+
+
+[11-Jul-20 10:09 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731557765813633214/Screen_Shot_2020-07-12_at_5.09.15_AM.png
+
+
+[11-Jul-20 10:09 AM] grewalsatinder#9653
+completed as swap on Windows VM
+
+
+[11-Jul-20 10:09 AM] grewalsatinder#9653
+it took 1+ minute
+
+
+[11-Jul-20 10:09 AM] grewalsatinder#9653
+aprox a double the time it usually takes on Linux/MacOS 🤔
+
+
+[11-Jul-20 10:13 AM] grewalsatinder#9653
+@SHossain do you see any activity for orderid 2049169312 ?
+
+
+[11-Jul-20 10:17 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731559713786822696/Screenshot_from_2020-07-11_18-16-52.png
+
+
+[11-Jul-20 10:18 AM] grewalsatinder#9653
+anyway I waited 5+ minutes and the swap did not go forward for me than channel communication etc
+
+
+[11-Jul-20 10:19 AM] grewalsatinder#9653
+now trying another swap
+
+
+[11-Jul-20 10:19 AM] SHossain#0007
+bob has komodo-cli in system path
+
+
+[11-Jul-20 10:19 AM] grewalsatinder#9653
+orderid 3014248000
+
+
+[11-Jul-20 10:20 AM] grewalsatinder#9653
+at logs this:
+```
+2020/07/12 05:19:10 main.go:560: [subatomic] CMD Bytes: 3014248000 iambob.0 (KMD/PIRATE) incomingchannel status.2
+2020/07/12 05:19:10 main.go:560: [subatomic] CMD Bytes: z_sendmany.( PIRATE) from.(zs1zqks0tergf6nk69evm6awte4xmhf2fd9epnv946vzlhfxztkls6a9lyfmuafda00krvkvj0xagp) -> ["{\"address\":\"zs1wq40g4wvrzc2eq9xw7wtstshgar68ash659eq20ellm5jeqsyfwe5qs3tex9l3mjnrj2yf34hw0\",\"amount\":1.00000000,\"memo\":\"3330313432343830303020\"}]"
+```
+
+
+[11-Jul-20 10:20 AM] grewalsatinder#9653
+already 3+ minutes in process
+
+
+[11-Jul-20 10:20 AM] SHossain#0007
+`3014248000` completed successfully
+
+
+[11-Jul-20 10:20 AM] grewalsatinder#9653
+windows is slow
+
+
+[11-Jul-20 10:20 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731560641084522686/Screen_Shot_2020-07-12_at_5.20.43_AM.png
+
+
+[11-Jul-20 10:20 AM] grewalsatinder#9653
+I see this
+
+
+[11-Jul-20 10:21 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731560711108427806/Screenshot_from_2020-07-11_18-20-51.png
+
+
+[11-Jul-20 10:21 AM] grewalsatinder#9653
+was it finished with funds exhanged?
+
+
+[11-Jul-20 10:21 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731560882252939374/Screen_Shot_2020-07-12_at_5.21.41_AM.png
+
+
+[11-Jul-20 10:21 AM] grewalsatinder#9653
+it's Windows VM, and busy with resources. Not sure if that's the problem 🤔
+
+
+[11-Jul-20 10:22 AM] SHossain#0007
+https://kmdexplorer.ru/tx/3e40434e0b2df36187fb5ac812bffb0ccf4cd59873376bfd96cb25d9c0793287
+
+
+[11-Jul-20 10:22 AM] SHossain#0007
+4GB RAM is way too low imo 😛
+
+
+[11-Jul-20 10:22 AM] SHossain#0007
+so, expect slow swaps
+
+
+[11-Jul-20 10:22 AM] grewalsatinder#9653
+I pressed back button and can notice balance of PIRATE is 1 less 😅
+
+
+[11-Jul-20 10:23 AM] grewalsatinder#9653
+but on swap screen it did not say anything about swap
+
+
+[11-Jul-20 10:23 AM] Kaks | $ARRR Privacy Matters#6612
+i installed the mingw software, but cant execute first command for installing the komodo
+
+
+[11-Jul-20 10:23 AM] grewalsatinder#9653
+okay, increasing RAM to 8 GB.
+will take an half to an hour with this start as I expect from windows stuff
+
+
+[11-Jul-20 10:24 AM] grewalsatinder#9653
+coz WinBlows
+
+
+[11-Jul-20 10:24 AM] Kaks | $ARRR Privacy Matters#6612
+`C:\WINDOWS\system32>sudo apt-get install build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python python-zmq zlib1g-dev wget libcurl4-gnutls-dev bsdmainutils automake curl cmake mingw-w64 libsodium-dev libevent-dev
+'sudo' is not recognized as an internal or external command,
+operable program or batch file.`
+
+
+[11-Jul-20 10:24 AM] SHossain#0007
+you need Ubuntu/Debian OS to cross-compile for windows
+
+
+[11-Jul-20 10:24 AM] Kaks | $ARRR Privacy Matters#6612
+any link?
+
+
+[11-Jul-20 10:25 AM] SHossain#0007
+the compiled binaries for windows are already here for testing **https://github.com/Meshbits/komodo/releases/tag/debug_release2**
+
+
+[11-Jul-20 10:26 AM] SHossain#0007
+if you want to follow this, you can't use Windows. those commands are for Ubuntu or Debian
+
+
+[11-Jul-20 10:26 AM] SHossain#0007
+https://github.com/jl777/komodo/tree/dev#windows
+
+
+[11-Jul-20 10:30 AM] Kaks | $ARRR Privacy Matters#6612
+i know those commands for linux, installed mingw to install those packages
+
+
+[11-Jul-20 10:30 AM] SHossain#0007
+> i know those commands for linux, installed mingw to install those packages
+@Kaks | $ARRR Privacy Matters https://discord.com/channels/412898016371015680/458865442056830977/731561497251151964
+
+
+[11-Jul-20 10:42 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731565984602914906/Screen_Shot_2020-07-12_at_5.41.57_AM.png
+
+
+[11-Jul-20 10:42 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731566016185761822/Screen_Shot_2020-07-12_at_5.41.37_AM.png
+
+
+[11-Jul-20 10:42 AM] grewalsatinder#9653
+windows komodod is now using all remaining memory
+
+
+[11-Jul-20 10:42 AM] grewalsatinder#9653
+I increased it from 4GB to 8GB
+
+
+[11-Jul-20 10:43 AM] grewalsatinder#9653
+started swap with orderid 1107128448
+
+
+[11-Jul-20 10:44 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731566659294462002/Screen_Shot_2020-07-12_at_5.44.38_AM.png
+
+
+[11-Jul-20 10:44 AM] grewalsatinder#9653
+I think it's completed at your end and nothing at my end?
+
+
+[11-Jul-20 10:45 AM] grewalsatinder#9653
+yea, opening dashboard to check balance from another tab shows 1 PIRATE less, so swap happened
+
+
+[11-Jul-20 10:46 AM] grewalsatinder#9653
+but KMD balance didn't change
+
+
+[11-Jul-20 10:46 AM] grewalsatinder#9653
+so something didn't go right?
+
+
+[11-Jul-20 10:49 AM] grewalsatinder#9653
+okay, KMD balance also showing update
+
+
+[11-Jul-20 10:49 AM] grewalsatinder#9653
+so it's just that subatomic isn't getting any update 🤔
+
+
+[11-Jul-20 10:50 AM] grewalsatinder#9653
+gonna try cli command for subatomic
+
+
+[11-Jul-20 10:56 AM] grewalsatinder#9653
+updated Shurli code to skip setting system environment path for starting SHURLI0
+
+
+[11-Jul-20 10:56 AM] grewalsatinder#9653
+gonna test that in a minute
+
+
+[11-Jul-20 10:56 AM] grewalsatinder#9653
+it will be at least reduce few steps on setting up on Linux/MacOS/Windows
+
+
+[11-Jul-20 10:59 AM] Kaks | $ARRR Privacy Matters#6612
+sorry guys am uncapable to run it😅
+
+
+[11-Jul-20 11:02 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731571201444544622/Screenshot_from_2020-07-11_19-02-28.png
+
+
+[11-Jul-20 11:02 AM] SHossain#0007
+`1107128448` completed successfully
+
+
+[11-Jul-20 11:07 AM] SHossain#0007
+> gonna try cli command for subatomic
+@grewalsatinder yes, testing on CLI first can iron out or reveal any bugs inside komodod.exe or inside subatomic.exe
+
+
+[11-Jul-20 11:15 AM] SHossain#0007
+compiling `subatomic.exe` could be bit hard. there will be auto build version in the future from Meshbits repo. maybe bundled with `Shurli` app directly
+
+
+[11-Jul-20 12:41 PM] grewalsatinder#9653
+@SHossain I have updated code to check and use `assets` directory for executing `komodod` and `subatomic`
+
+
+[11-Jul-20 12:41 PM] grewalsatinder#9653
+so the steps a bit easier than before
+
+
+[11-Jul-20 12:41 PM] grewalsatinder#9653
+For windows users, they just need to copy the `komodod` `komodo-cli` and `subatomic` to this `assets/` directory
+
+
+[11-Jul-20 12:41 PM] grewalsatinder#9653
+no need to setup any environment PATH variable
+
+
+[11-Jul-20 12:42 PM] grewalsatinder#9653
+this also applies to Linux and MacOS
+
+
+[11-Jul-20 12:42 PM] grewalsatinder#9653
+on Linux and MacOS the `komodo-cli` `komodod` and `subatomic` must be accessible through this `assets/` directory.
+
+
+[11-Jul-20 12:42 PM] grewalsatinder#9653
+either by symlink or just copied files there
+
+
+[11-Jul-20 12:45 PM] SHossain#0007
+nice.
+
+
+[11-Jul-20 12:45 PM] SHossain#0007
+how about if you include the bins inside there?
+
+
+[11-Jul-20 12:50 PM] grewalsatinder#9653
+I'd like to avoid including it within the repo
+
+
+[11-Jul-20 12:51 PM] grewalsatinder#9653
+it unnecessarily increases the repo size over time
+
+
+[11-Jul-20 12:51 PM] grewalsatinder#9653
+later will make a code to directly fetch these from github releases
+
+
+[11-Jul-20 12:51 PM] grewalsatinder#9653
+but I'll avoid including the bins like before within the files
+
+{Reactions}
+👍 
+
+[11-Jul-20 12:54 PM] grewalsatinder#9653
+also updated ReadMe with updated instructions
+
+
+[11-Jul-20 12:54 PM] grewalsatinder#9653
+no need to set subatomic_dir now
+
+
+[11-Jul-20 12:54 PM] grewalsatinder#9653
+just only the coin specific settings
+
+
+[11-Jul-20 12:55 PM] grewalsatinder#9653
+only these:
+```
+    "dex_pubkey": "03_YOUR_PUBKEY_FROM_DEX",
+    "dex_handle": "SET_YOUR_HANDLE_FOR_SUBATOMIC",
+    "dex_recvzaddr": "YOUR_PIRATE_PRIVATE_ADDRRESS",
+    "dex_recvtaddr": "YOUR_KMD_PUBLIC_ADDRRESS"
+```
+
+
+[11-Jul-20 01:20 PM] grewalsatinder#9653
+@SHossain found bug in Windows subatomic process while swapping PIRATE for KMD
+https://github.com/Meshbits/Shurli/issues/32
+
+{Embed}
+https://github.com/Meshbits/Shurli/issues/32
+windows subatomic process errors in process of swaps · Issue #32 · ...
+kls6a9lyfmuafda00krvkvj0xagp) -&gt; [&quot;{\&quot;address\&quot;:\&quot;zs1wq40g4wvrzc2eq9xw7wtstshgar68ash659eq20ellm5jeqsyfwe5qs3tex9l3mjnrj2yf34hw0\&quot;,\&quot;amo...
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[11-Jul-20 01:20 PM] grewalsatinder#9653
+will work on it
+
+
+[11-Jul-20 01:20 PM] grewalsatinder#9653
+I think it's just the UI display issue etc, but the swaps succeed in the backend
+
+
+[11-Jul-20 01:21 PM] grewalsatinder#9653
+could find it if I try debugging command `./shurli main` 😉
+
+
+[11-Jul-20 01:23 PM] SHossain#0007
+bob seems completing all swaps and not showing any issues
+
+
+[11-Jul-20 01:23 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/731606675852623924/Screenshot_from_2020-07-11_21-23-28.png
+
+
+[11-Jul-20 01:24 PM] grewalsatinder#9653
+yep, as I suspect it's not an issue with the `subatomic` but the Shurli's go code
+
+
+[11-Jul-20 01:33 PM] grewalsatinder#9653
+found bugs in new code... fixing those
+
+{Reactions}
+shexy 💯 (2) 
+
+[11-Jul-20 02:35 PM] grewalsatinder#9653
+pushed bug fixes for new code which executes subatomic bin from assets/ directory
+
+
+[11-Jul-20 02:36 PM] grewalsatinder#9653
+it introduced some new issues, which to my tests seems to be working
+
+
+[11-Jul-20 02:36 PM] grewalsatinder#9653
+just the one that I recorded in the github issue 32 need to be troubleshooted
+
+
+[11-Jul-20 02:37 PM] grewalsatinder#9653
+it is only happening when Selling PIRATE for other coin in GUI
+
+
+[11-Jul-20 02:37 PM] grewalsatinder#9653
+some log rendering/filtering issue
+
+
+[11-Jul-20 02:40 PM] grewalsatinder#9653
+will continue further tomorrow
+
+{Reactions}
+👍 
+
+[11-Jul-20 02:40 PM] grewalsatinder#9653
+_night_
+
+
+[11-Jul-20 02:40 PM] SHossain#0007
+good night
+
+
+[11-Jul-20 02:51 PM] grewalsatinder#9653
+tested 2 CLI swaps of selling PIRATE with KMD
+both successful in almost 30+ seconds
+
+
+[11-Jul-20 02:51 PM] grewalsatinder#9653
+that CLI output will help troubleshoot the log filtering issue
+
+
+[11-Jul-20 02:51 PM] grewalsatinder#9653
+will do that tomorrow
+
+
+[11-Jul-20 02:52 PM] grewalsatinder#9653
+I'm kinda in zombie mode... might hang around a bit and then sleep 😅
+
+
+[11-Jul-20 02:53 PM] grewalsatinder#9653
+It is just great that after so long subatomic on CLI just works without any issue
+
+{Reactions}
+👍 
+
+[11-Jul-20 02:53 PM] grewalsatinder#9653
+Thanks to @SHossain and @Decker for windows issues solutions 🙏 👍
+
+
+[13-Jul-20 09:53 AM] grewalsatinder#9653
+pushed fix for https://github.com/Meshbits/Shurli/issues/32
+
+{Embed}
+https://github.com/Meshbits/Shurli/issues/32
+windows subatomic process errors in process of swaps · Issue #32 · ...
+kls6a9lyfmuafda00krvkvj0xagp) -&gt; [&quot;{\&quot;address\&quot;:\&quot;zs1wq40g4wvrzc2eq9xw7wtstshgar68ash659eq20ellm5jeqsyfwe5qs3tex9l3mjnrj2yf34hw0\&quot;,\&quot;amo...
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+{Reactions}
+👍 
+
+[13-Jul-20 09:53 AM] grewalsatinder#9653
+testing right now on my Windows VM
+
+
+[13-Jul-20 10:06 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/732281824025247774/Screen_Shot_2020-07-14_at_5.06.23_AM.png
+
+
+[13-Jul-20 10:06 AM] grewalsatinder#9653
+windows PIRATE to KMD swap done successfully
+
+
+[13-Jul-20 10:20 AM] grewalsatinder#9653
+another bug fix pushed.
+@SHossain https://github.com/Meshbits/Shurli/issues/28#issuecomment-657686451
+
+{Embed}
+https://github.com/Meshbits/Shurli/issues/28
+Showing Fully Synced while blockchain needs syncing about 50k block...
+Displaying fully synced PIRATE while the daemon is still syncing about 50k more blocks. Shurli collects info from getblockchaininfo. Here is the output: { &quot;chain&quot;: &quot;main&...
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+{Reactions}
+👍 
+
+[13-Jul-20 11:22 AM] SHossain#0007
+Thanks. I'll test out as soon as i get some time 🙂
+
+{Reactions}
+👍 
+
+[15-Jul-20 05:37 AM] grewalsatinder#9653
+I have hit a blocker in my flutter/golang based native app development:
+https://github.com/flutter/flutter/issues/61372
+
+{Embed}
+https://github.com/flutter/flutter/issues/61372
+Where to put a function to trigger on exit/stop/close event of flut...
+I have a simple greeter gRPC example server code written in go and exported as C library that I&#39;m trying to run with a flutter app using go-flutter desktop engine via ffi and dart Isolates....
+https://images-ext-2.discordapp.net/external/RQym4RgPNijQBoX1yXfSUsFLXAnbRgUXO5WjNwbrwYg/https/repository-images.githubusercontent.com/31792824/fb7e5700-6ccc-11e9-83fe-f602e1e1a9f1
+
+
+[15-Jul-20 05:39 AM] grewalsatinder#9653
+this is somewhat a crucial step in making it work, and because I'm not developing a mobile app, and the specific needs of my application are to make a Desktop app instead of a mobile app, the alpha level of Desktop engine support from Flutter/Dart is causing a blocker in it's development as per my current plans.
+
+
+[15-Jul-20 05:40 AM] grewalsatinder#9653
+My idea was to use my existing code work that I have done in past years with golang, like using my golang kmdgo library and build the gRPC API which can be used with the desktop app and later for web based Bob's market maker app.
+
+
+[15-Jul-20 05:40 AM] grewalsatinder#9653
+all tests worked as expected and hurdles overcame, to make the gRPC run and managed as a background service by the Desktop app
+
+
+[15-Jul-20 05:41 AM] grewalsatinder#9653
+just that now I hit a problem, where if I close the application without shutting down the gRPC server service, the app keeps in some loop and never quits
+
+
+[15-Jul-20 05:41 AM] grewalsatinder#9653
+resulting end users to make it forcefully kill the application process to exit it. Not an ideal way, and a hassle for newbie users, and annoying.
+
+
+[15-Jul-20 05:43 AM] grewalsatinder#9653
+as an alternative also tested the borderless GLFW methods to make this desktop app using flutter/dart/golang/glfw, and it works as equally as that alpha level functionality, very less features to ship an app with this method.
+
+
+[15-Jul-20 05:44 AM] grewalsatinder#9653
+options for me are to either wait someone from the flutter team to help with the flutter issue, so that I can move forward with my development, or trying to think different approach if I can
+
+
+[15-Jul-20 05:45 AM] grewalsatinder#9653
+as per the labels assigned to my issue ticket submitted to flutter devs on github, it looks like it'll be at least priority level 4 for them to work on this issue, and probably be a part of their documentation and cookbook example when they have this issue solved.
+
+
+[15-Jul-20 05:45 AM] grewalsatinder#9653
+I have no idea how quick it will be solved from official team, so thinking of another approach, but it's time expensive.
+
+
+[15-Jul-20 05:47 AM] grewalsatinder#9653
+I have to build my kmddart library for Dart language just like I developed with go language kmdgo, which gives easy use common API query code for golang,
+and then port all my existing golang built first proof of concept code logic of Shurli completely to Dart language.
+
+
+[15-Jul-20 05:48 AM] grewalsatinder#9653
+As the code logic is there, it shouldn't take much time, but still may cost some time building and making all things ready in code library.
+
+
+[15-Jul-20 05:49 AM] grewalsatinder#9653
+while I hope that flutter team comes back with help and a possible solution for my blocker issue, I will try to see if I can at least make a initial kmddart Dart library which has only the required APIs which are required by subatomic Shurli application, and then move forward with the Shurli development using Flutter/Dart.
+
+
+[15-Jul-20 05:50 AM] grewalsatinder#9653
+It may take around 15+ days extra to just cover this dart part and complete port of golang code to Dart as per my current understanding and Dart code practice.
+may be even double, like 30+ days.
+
+
+[15-Jul-20 05:51 AM] grewalsatinder#9653
+but at least I'll have some path way to move forward with the development and unblock myself from the task on which I been stuck for at least last 5+ days.
+
+
+[15-Jul-20 05:51 AM] grewalsatinder#9653
+will try to keep everyone updated here now
+
+
+[15-Jul-20 05:52 AM] grewalsatinder#9653
+I was doing all these communication on keybase earlier, with the testers that I had invited, but it mostly me and @SHossain who been active there, and I not much activity from any testers there.
+
+
+[15-Jul-20 05:53 AM] grewalsatinder#9653
+felt like there is not much of interest in Shurli development, but may be it's because the intended audience missing there, which is mostly here on Discord.
+
+
+[15-Jul-20 05:53 AM] grewalsatinder#9653
+will keep posting dev updates here as I progress.
+
+
+[15-Jul-20 05:56 AM] grewalsatinder#9653
+oh it doesn't mean the existing proof of concept version 1 is affected in anyway,
+it is already working on windows/linux/mac
+just follow the readme https://github.com/Meshbits/shurli to install and test if anyone can
+
+{Embed}
+https://github.com/Meshbits/shurli
+Meshbits/Shurli
+Shurli App. Contribute to Meshbits/Shurli development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[15-Jul-20 12:56 PM] Cryptoon#3362
+Maybe recruit testers in pirate discord as well?
+
+
+[15-Jul-20 12:56 PM] Cryptoon#3362
+As they can also benefit a lot?
+
+
+[15-Jul-20 09:20 PM] grewalsatinder#9653
+I am no longer inviting anyone to keybase, and that testing will happen here if anyone will be willing to test.
+Already announced in pirate and @Loo✟z also helped boost the announcement.
+I will just continue on my v2 of PoC Shurli.
+Have asked enough times already.
+
+
+[15-Jul-20 10:22 PM] Mylo#8306
+bugger about the blocker.
+
+{Reactions}
+🤣 
+
+[15-Jul-20 11:18 PM] grewalsatinder#9653
+😅 thanks for cheering comment
+
+
+[19-Jul-20 07:30 AM] grewalsatinder#9653
+So, I waited for response from official flutter support channels on my reported issue:
+https://github.com/flutter/flutter/issues/61372
+https://github.com/go-flutter-desktop/go-flutter/issues/489
+
+{Embed}
+https://github.com/flutter/flutter/issues/61372
+Where to put a function to trigger on exit/stop/close event of flut...
+I have a simple greeter gRPC example server code written in go and exported as C library that I&#39;m trying to run with a flutter app using go-flutter desktop engine via ffi and dart Isolates....
+https://images-ext-2.discordapp.net/external/RQym4RgPNijQBoX1yXfSUsFLXAnbRgUXO5WjNwbrwYg/https/repository-images.githubusercontent.com/31792824/fb7e5700-6ccc-11e9-83fe-f602e1e1a9f1
+
+{Embed}
+https://github.com/go-flutter-desktop/go-flutter/issues/489
+Where to put a function to trigger on exit/stop/close event of appl...
+I&#39;m running a gRPC server via ffi and flutter Isolates, and when I close the application I keep getting the following waiting for isolates to check in. I can make a function to stop the ser...
+https://images-ext-2.discordapp.net/external/vaWnjqS8wfWKmnodjlkcUo2fJb9vl7iLnaYGn9EBpIw/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/47712234
+
+
+[19-Jul-20 07:33 AM] grewalsatinder#9653
+The solution proposed by official channels gives some answer, which is like a hint to me. It clearly explains that the requirements what I posted needs some enhancement in Dart to make a proper solution, and alternatively make own native platform code to solve what I want to achieve.
+I did tried some ideas with the provided hint, but couldn't crack it as of yet.
+
+
+[19-Jul-20 07:35 AM] grewalsatinder#9653
+but this issue is still open: https://github.com/flutter/flutter/issues/30735
+which I expect will close when the required code from Dart will provide at least the method or some call to catch the window close/exit event for Desktop Shells to use that to trigger other functions or methods.
+
+{Embed}
+https://github.com/flutter/flutter/issues/30735
+Add window/application lifecycle delegation for desktop shells · Is...
+Example use case: A document-based Flutter application should be able to prevent a window from being closed (e.g., with an alert) if the document corresponding to that window is unsaved. At the ver...
+https://images-ext-2.discordapp.net/external/RQym4RgPNijQBoX1yXfSUsFLXAnbRgUXO5WjNwbrwYg/https/repository-images.githubusercontent.com/31792824/fb7e5700-6ccc-11e9-83fe-f602e1e1a9f1
+
+
+[19-Jul-20 07:35 AM] grewalsatinder#9653
+I'll keep an eye on it
+
+
+[19-Jul-20 07:37 AM] grewalsatinder#9653
+I had a detailed discussion with @ns408 today with the problem that I'm facing and with the discussion came to conclusion that I should move ahead with the code advancement using alternative way where I don't have to spend too much time on coding the kmdgo/subatomic library from scratch in Dart.
+
+
+[19-Jul-20 07:38 AM] grewalsatinder#9653
+Since Flutter/Dart stack for Desktop shell is pretty much alpha stage, I'll make the Go language based command line tool which will start gRPC and manage the DEXP2P process, and use this with the Flutter based desktop application.
+
+
+[19-Jul-20 07:38 AM] grewalsatinder#9653
+That means the user will have to start 1 process via command line first, and then start the GUI desktop application.
+
+
+[19-Jul-20 07:40 AM] grewalsatinder#9653
+Since it's is alpha stage, and at the moment the official resources doesn't seem to provide solid solution from within their own framework, I can either wait for that to arrive, or find alternate solutions while advancing with the alternate idea we discussed.
+
+
+[19-Jul-20 07:40 AM] grewalsatinder#9653
+We can get back to merging the two parts together later, and just continue with them separate for now.
+
+
+[19-Jul-20 07:42 AM] grewalsatinder#9653
+It must still feel inconvenient on user experience part to end users who feel daunted on the name of "command line", but I guess it's OK since what I'm working with is pretty much alpha stage tech and very experimental.
+
+
+[19-Jul-20 07:42 AM] grewalsatinder#9653
+I also have further ideas making life a bit easier even using this two part of application processes, which I can work on later.
+
+
+[19-Jul-20 07:43 AM] grewalsatinder#9653
+but at least I have a bit of idea to overcome the blocker that I have been having and couldn't feel getting over with it until it's solved.
+
+
+[19-Jul-20 07:43 AM] grewalsatinder#9653
+will post further dev updates soon on Shurli.
+
+
+[19-Jul-20 05:13 PM] Mylo#8306
+Good workaround. Sane choices.
+So with command line start up, it is decoupled from gui.
+
+To make a command line file swapper/seller, would be much simpler??
+
+
+[19-Jul-20 05:14 PM] Mylo#8306
+The p2p file exchange I could use for sharing authenticity certs later in the year if possible to extend the cli capabilities
+
+
+[19-Jul-20 09:14 PM] grewalsatinder#9653
+Yes, command line sperate 2 services
+- gRPC server
+- SHURLI DEXP2P smart chain
+
+The logic of handling subatomic API calls will reside in gRPC server.
+And in same sense file swapper API calls be handled by gRPC server code too. You can make a gRPC client ether a CLI client or a GUI client application, it wouldn't be a much different.
+
+
+[19-Jul-20 09:16 PM] grewalsatinder#9653
+And since this gRPC server part would be separate, it can be easily setup in various ways to even installed and managed on other machine than than where client application is running.
+Example install gRPC server part on Raspberry Pi, or a spares laptop at home, or a cloud server, or a docker setup. Pretty flexible.
+
+
+[19-Jul-20 09:17 PM] grewalsatinder#9653
+Another advantage is the client GUI will get support to be able to run the app from almost all platforms from the very start
+
+
+[19-Jul-20 09:18 PM] grewalsatinder#9653
+Even Android and iOS can be supported this way
+
+
+[19-Jul-20 09:20 PM] grewalsatinder#9653
+And I have a way to make sure the mobile client still able to connect the server even if it is hosted at home behind NAT with dynamic public IP. At least I have the I have an idea to purely use blockchain to make this mobile and home server connection behind NAT which at some point I will try and verify. It doesn't need any centralized dyndns type dynamic DNS service etc.
+
+
+[19-Jul-20 09:22 PM] grewalsatinder#9653
+This makes it possible that my old SuperMESH project may come back to life. But all of that is pretty variable for now. A lot of initial tests and things to be done before I reach that far.
+
+
+[19-Jul-20 09:23 PM] grewalsatinder#9653
+gRPC server support certs, so I will make sure to make it possible to easily setup on certs for gRPC server that user will host on their own setup.
+
+
+[19-Jul-20 10:02 PM] Mylo#8306
+Thanks for detailed description.  Busy atm, p2p file stuff is not in scope for my part of project for next 11 weeks but scope might change and extend 🥳
+
+{Reactions}
+👍 
+
+[24-Jul-20 12:50 PM] grewalsatinder#9653
+Updated Makefile to fetch and bundle `komodod` `komodo-cli` and `subatomic` with PoC1 of Shurli.
+
+
+[24-Jul-20 12:51 PM] grewalsatinder#9653
+Also, working on to make a Github CI/CD process to make auto-builds of Shurli so the users can directly download the release bundle and just start by unzipping the file on all supported OSs.
+
+
+[24-Jul-20 01:28 PM] grewalsatinder#9653
+@here this CI job made the latest Shurli builds for all OS:
+https://github.com/Meshbits/Shurli/actions/runs/181640570
+
+`komodod` `komodo-cli` and `subatomic` are bundled within these builds, so no need to make/compile etc yourself.
+Just download the archive matching your platform, extract and make a `config.json` file as explained here: https://github.com/Meshbits/shurli#configure-configjson
+
+And then start Shurli as explained in further steps on ReadMe.
+
+{Reactions}
+👍 (2) 
+
+[24-Jul-20 01:28 PM] grewalsatinder#9653
+CC @SHossain
+
+
+[24-Jul-20 01:37 PM] FishyGuts#5085
+I REALLY want to do this and document the process.  I don't know if I have the skills.   Will try before I come back.
+
+
+[24-Jul-20 01:39 PM] grewalsatinder#9653
+I couldn't make this easier. It's just a single `shurli start` command to start and `shurli stop` command to stop.
+Even made the whole compilation, build process automated for lazy users.
+
+
+[24-Jul-20 01:45 PM] grewalsatinder#9653
+ah weird, I see that the builds are not available to download without Github login 🤔
+
+
+[24-Jul-20 01:45 PM] grewalsatinder#9653
+checking what's the issue
+
+
+[24-Jul-20 01:52 PM] FishyGuts#5085
+I just don't know a lot of this cmd stuff and have always been open about being this way (mostly by choice, since 95% of crypto target audience is the same way).
+When I have time to go over it I will.
+
+
+[24-Jul-20 01:54 PM] grewalsatinder#9653
+this build is a Proof of Concept. First Proof of Concept.
+This version is not for every day users, but for those who are willing to taste it from the dev stage.
+
+
+[24-Jul-20 01:54 PM] grewalsatinder#9653
+It's fine if you can not open `cmd` on your windows and execute the command `shurli.exe start`.
+
+
+[24-Jul-20 01:55 PM] grewalsatinder#9653
+hope your reach there some day 😅
+
+
+[24-Jul-20 03:07 PM] grewalsatinder#9653
+alright, sorted pushing releases via CI/CD auto builds too. Here's the release link for Shurli's PoC1:
+https://github.com/Meshbits/Shurli/releases
+
+{Embed}
+https://github.com/Meshbits/Shurli/releases
+Releases · Meshbits/Shurli
+Shurli App. Contribute to Meshbits/Shurli development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[24-Jul-20 03:07 PM] grewalsatinder#9653
+@here can download Shurli from releases now
+
+{Reactions}
+👀 (2) KMD (4) 🍻 (3) 🔥 (3) 🦎 (2) 
+
+[24-Jul-20 03:09 PM] Tav#8476
+!kmdtip @grewalsatinder 0.05
+
+
+[24-Jul-20 03:09 PM] KMD TipBot#0077
+
+{Embed}
+TipBot
+@Tav (Vanncoins#3044)
+You tipped @grewalsatinder **0.05 KMD**
+
+
+[24-Jul-20 03:09 PM] grewalsatinder#9653
+thanks @Tav 🙂
+
+{Reactions}
+🍻 
+
+[24-Jul-20 03:11 PM] grewalsatinder#9653
+tested the windows build from release without login to Github. able to start Shurli after making a config.json file. It worked in my tests as expected.
+
+
+[24-Jul-20 03:15 PM] grewalsatinder#9653 (pinned)
+the steps are:
+- Download the build from release
+- Extract the downloaded archive
+- make config.json as explained in ReadMe
+- open command line terminal or `cmd` on windows or `Power Shell` on windows
+- Navigate to the directory where you extracted the Shurli files
+- start it by executing `./shurli start`, which will perform some actions such as:
+  - start Shurli as a backend service.
+  - start's `SHURLI0` DEXP2P smart chain specifically created for this Shurli application.
+  - opens the browser address of Shurli's web interface automatically so that user doesn't has to do it manually. Port will be randomly selected for Shurli web app after identifying any available free port on machine.
+
+To stop:
+- Just navigate back to the directory where you extracted the shurli files and execute the command `./shurli stop`. It will stop both `SHURLI0` smart chain, and kill the backend `shurli` service.
+
+
+[24-Jul-20 03:16 PM] grewalsatinder#9653
+Pinned a message.
+
+
+[25-Jul-20 03:36 AM] Cryptoon#3362
+!kmdtip @grewalsatinder 5
+
+
+[25-Jul-20 03:36 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+@Cryptoon (Cryptoon#3362)
+You tipped @grewalsatinder **5 KMD**
+
+
+[25-Jul-20 07:37 AM] grewalsatinder#9653
+Thanks @Cryptoon
+
+
+[30-Jul-20 07:33 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/738404008062091264/Screen_Shot_2020-07-31_at_2.33.17_AM.png
+
+
+[30-Jul-20 07:34 AM] grewalsatinder#9653
+running go grpc server separate process
+
+
+[30-Jul-20 07:34 AM] grewalsatinder#9653
+made a test gRPC client using flutter's official desktop shell/engine to test if it connects with the gRPC server and responds
+
+
+[30-Jul-20 07:34 AM] grewalsatinder#9653
+it failed
+
+
+[30-Jul-20 07:35 AM] grewalsatinder#9653
+but using iOS/Android simulator the same works without issue. the same flutter client code connects with the network gRPC server and gets response fine
+
+
+[30-Jul-20 07:36 AM] grewalsatinder#9653
+flutter-go desktop engine just doesn't execute since it doesn't seem to have official gRPC plugin support, and I guess the same is the case with the flutter's official desktop shell/engines
+
+
+[30-Jul-20 07:37 AM] grewalsatinder#9653
+this is sad actually 😦
+
+
+[30-Jul-20 07:38 AM] grewalsatinder#9653
+I have to think again what to do next
+
+
+[30-Jul-20 07:39 AM] grewalsatinder#9653
+Flutter for desktop is so in early stages many of the required plugins and features are yet being worked on
+
+
+[30-Jul-20 07:39 AM] grewalsatinder#9653
+I think I picked Flutter for Desktop way too early 😐
+
+
+[30-Jul-20 07:41 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/738405973479260190/Screen_Shot_2020-07-31_at_2.41.30_AM.png
+
+
+[30-Jul-20 07:41 AM] grewalsatinder#9653
+same code working for iOS as expected
+
+
+[30-Jul-20 07:42 AM] grewalsatinder#9653
+so with the current setup, that means I can not build a desktop app based on flutter, but only iOS and Android app
+
+
+[30-Jul-20 07:42 AM] grewalsatinder#9653
+where I was targeting desktop app
+
+
+[30-Jul-20 07:45 AM] grewalsatinder#9653
+I can keep going forward and forget about desktop app till the support arrives for desktop shell properly, but then the setup will divide as:
+- Shurli-Server (Golang code) = which will run the Shurli gRPC server serving and managing the cryptocurrency wallets and the subatomic API calls etc.
+- Mobile Shurli Apps (iOS/Android - Flutter code) = These will only be client applications, directly communicating with the Shurli-Server. Requiring no heavy bundling of either wallets or subatomic swaps etc.
+
+
+[30-Jul-20 07:46 AM] grewalsatinder#9653
+Or I stop the effort using flutter and target the Desktop user base using old programming stack of Golang+HTML+Js+CSS+Bootstrap
+
+
+[30-Jul-20 07:46 AM] grewalsatinder#9653
+Which way I go now 😐 ?
+
+
+[30-Jul-20 07:46 AM] grewalsatinder#9653
+will think about it....
+
+
+[30-Jul-20 07:47 AM] grewalsatinder#9653
+any advise and suggestions are very welcome
+
+
+[30-Jul-20 07:47 AM] grewalsatinder#9653
+CC @Mylo @ca333 @SHossain @jl777c
+
+
+[30-Jul-20 07:51 AM] grewalsatinder#9653
+Shurli-Server will need to be setup by each user. I can make it happen with easy scripts etc too. Can use my old tricks from SuperMESH for making Shurli-Server kind of a seamless setup, and since it'll be all in golang it's like making a micro-service. I doubt I'll hit big blocking things this way... 🤔
+
+
+[30-Jul-20 07:54 AM] grewalsatinder#9653
+The challenge will arrive with the Flutter mobile app, where the user will have to connect to the server, and in case the server is behind NAT in home network, the passthrough has to be cleared. I have some ideas but I was thinking to get back to these after I had desktop apps done. but if I go this route, I'll first has to make sure this is sorted. 
+Or on second thought I can again put this task on lower priority and just think of letting each user setup their own Shurli-server on a cloud or public IP server/node which is directly accessible to mobile clients.
+
+
+[30-Jul-20 07:55 AM] grewalsatinder#9653
+This is the only part which on quick thought seems a bit challenge, considering the non-tech users will be unable to solve it without tech support. coz it involves a bit hands on with a user's router if Shurli-server has to be setup at home node behind NAT.
+
+
+[30-Jul-20 08:05 AM] grewalsatinder#9653
+okay, I also add the idea here I had in mind for possible solution:
+- To connect the mobile app needs the latest public IP from user's home network where Shurli-Server is sitting behind NAT. For such scenarios routers and other services such as DynamicDNS etc are used which keeps record of dynamic public IP linked to a DNS record, and this DynamicDNS setup is usually either setup on any home device like laptop/desktop etc or just directly in the router, keep pinging the dynamic dns and update the public IP.
+- So, instead of using a centralised service of using dynamic DNS I could just cut it by utilising the pubkey based record, like keeping the state update of the dynamic public IP of home network, and push and update of it's change with new IP as a transaction with OP_RETURN data including this IP info. Since user will be sending this transaction to self it's only a network fee expense, and on mobile, nSPV could be used to fetch this latest info and use the latest IP to send request to connect to.
+
+
+[30-Jul-20 08:06 AM] grewalsatinder#9653
+_still a raw idea/thought_
+
+
+[30-Jul-20 08:08 AM] grewalsatinder#9653
+- for the port, I could try using UPNP with the Shurli-Server and make it dynamically open the port on router, but in actually I have never tried this idea in code. so if I'll do it now, it'll be first time for me. just need to try, test and verify, and see if it succeeds. If works, I guess it might be solved too 🤔 has to try first....
+
+
+[30-Jul-20 11:36 PM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/738646237183475742/Screen_Shot_2020-07-31_at_6.36.20_PM.png
+
+
+[30-Jul-20 11:37 PM] grewalsatinder#9653
+tried flutter web again with different test case, failed
+tried flutter macos agai with different test case, failed
+tried hover/flutter-go with different test case, worked!
+
+
+[30-Jul-20 11:37 PM] grewalsatinder#9653
+😁 proceeding with hover/flutter-go Desktop shell based client desktop app
+
+{Reactions}
+shexy 
+
+[31-Jul-20 12:52 AM] Mylo#8306
+_you have a multi-dimensional array of problems and solutions, but only 1 key.  there is an ogre looking over your shoulder._
+
+
+[31-Jul-20 12:53 AM] Mylo#8306
+bleeding edge is tough.  i salute you
+
+
+[31-Jul-20 01:36 AM] grewalsatinder#9653
+Agree @Mylo 
+Sometimes it is stressful 😬
+But finding a solution or even a workaround gives the same level of excitement and fulfilment. 🙂
+Haven't heard if anyone tested the PoC1, but at least someone responding to my updates here is encouraging.
+Thanks to you and all others who supported me so far. 😇👍🙏
+
+
+[31-Jul-20 01:38 AM] Mylo#8306
+100k atomic swaps wouldn't have happened without you mate. if in doubt, zoom out. that's a pioneering achievement
+
+
+[31-Jul-20 01:40 AM] grewalsatinder#9653
+I forget to zoom out, and always feel underachieving... Thankful of you for reminding the good old days 😃
+
+
+[31-Jul-20 01:41 AM] Mylo#8306
+go is great for the portable executable, nspv under-rated.  this is all valuable development.  i'm v.interested in go for this portability, but risky to adopt for current project. sticking to what i know for v1
+
+{Reactions}
+👍 
+
+[31-Jul-20 01:43 AM] grewalsatinder#9653
+Agree, and good idea to stick with v1 with whatever language stack you are more proficient with. Proof of concept doesn't need to be perfect. Perfection is for later versions and only gradual. Glad to hear you will try Golang soon.
+
+
+[01-Aug-20 05:25 AM] grewalsatinder#9653
+thanks for KMD and ARRR Tips.
+I think it is first time I withdrawn KMD and PIRATE from tipbots.
+will be using all of that for testing and give some amount to testers who will be joining to test Shurli
+@everyone
+
+{Reactions}
+👍 (6) 2561_feelsevilman (3) 🙌 (4) 🦾 (3) 
+
+[01-Aug-20 05:25 AM] grewalsatinder#9653
+let me know if anyone testing Shurli and needing some KMD or PIRATE
+
+
+[01-Aug-20 05:26 AM] grewalsatinder#9653
+latest builds of Shurli been tested to work as expected on all OS
+
+{Reactions}
+🔥 (2) 
+
+[01-Aug-20 05:26 AM] grewalsatinder#9653 (pinned)
+just download those from here: https://github.com/Meshbits/Shurli/releases
+
+
+[01-Aug-20 05:27 AM] grewalsatinder#9653
+if I'm not around, someone else might be able to help
+
+
+[01-Aug-20 05:27 AM] grewalsatinder#9653
+so far @SHossain and @NutellaLicka has tested Shurli, so they are aware of the required setup steps
+
+
+[01-Aug-20 05:27 AM] Bico#7646
+@grewalsatinder... Is there an apk for android?
+
+
+[01-Aug-20 05:27 AM] grewalsatinder#9653
+there is no apk for the first proof of concept of Shurli
+
+
+[01-Aug-20 05:28 AM] grewalsatinder#9653
+it is only for Windows/Linux/MacOS
+
+
+[01-Aug-20 05:28 AM] Bico#7646
+Ok
+
+
+[01-Aug-20 05:58 AM] Tom.T#6920
+Cool！🙌
+
+
+[01-Aug-20 06:07 PM] NutellaLicka#4241
+Hit me up if you need help getting shurli to work on windows 🙂
+
+{Reactions}
+👍 (3) 
+
+[02-Aug-20 04:49 AM] grewalsatinder#9653
+There is one more thing people can help with Shurli and Subatomic swaps.
+With building a text content.
+Please ask questions regarding "Subatomic Swaps" on https://community.komodoplatform.com/ and I'll try my best to answer those there as I find time.
+
+{Reactions}
+👍 (4) 
+
+[02-Aug-20 04:50 AM] grewalsatinder#9653
+I find that if I'm answering questions, I give detailed answer and relevant for multiple FAQs
+
+
+[02-Aug-20 04:50 AM] grewalsatinder#9653
+These questions and answers may later help with website and helpdesk content as well.
+
+
+[02-Aug-20 04:50 AM] grewalsatinder#9653
+so feel free to ask any questions about Shurli, subatomic swaps on community portal. That will help as well.
+
+
+[02-Aug-20 04:51 AM] grewalsatinder#9653
+@everyone
+
+
+[02-Aug-20 05:35 AM] wbprxe150#4809
+Already his made
+
+
+[02-Aug-20 05:35 AM] wbprxe150#4809
+Freenet
+
+{Reactions}
+❓ (2) 
+
+[02-Aug-20 05:43 AM] CMaurice#1685
+yet another example of a single developer being better than a team (Clarke, Cohen, Swartz, jl...)
+
+
+[02-Aug-20 07:02 AM] CMaurice#1685
+that is, just for a scoped part of a project
+
+
+[02-Aug-20 07:27 AM] grewalsatinder#9653
+Pinned a message.
+
+
+[02-Aug-20 08:18 PM] papawib#5499
+any step by step guide to edit config.json ?
+
+
+[03-Aug-20 02:41 AM] NutellaLicka#4241
+@papawib what do you need help with? Editing the config is quite easy, just let me know what you are stuck on
+
+
+[03-Aug-20 02:49 AM] papawib#5499
+@NutellaLicka i get this sample
+
+
+[03-Aug-20 02:50 AM] papawib#5499
+{
+    "subatomic_exe": "./subatomic",
+    "subatomic_dir": "/Users/satinder/repositories/jl777/komodo/src",
+    "dex_nSPV": "1",
+    "dex_addnode": "67.207.76.33",
+    "dex_pubkey": "03_YOUR_PUBKEY_FROM_DEX",
+    "dex_handle": "SET_YOUR_HANDLE_FOR_SUBATOMIC",
+    "dex_recvzaddr": "YOUR_PIRATE_PRIVATE_ADDRRESS",
+    "dex_recvtaddr": "YOUR_KMD_PUBLIC_ADDRRESS"
+}
+
+
+[03-Aug-20 02:50 AM] papawib#5499
+and which one that I have to change ?
+
+
+[03-Aug-20 02:50 AM] papawib#5499
+only KMD and ARR address ?
+
+
+[03-Aug-20 02:50 AM] NutellaLicka#4241
+Yep, so first you need to have a KMD & Pirate address
+
+
+[03-Aug-20 02:52 AM] NutellaLicka#4241
+The KMD address, you want to run `./komodo-cli validateaddress YOURKMDADDRESS`
+It will populate the `pubkey` that starts with 03 that you need to put in there as your `dex_pubkey`
+Your dex_handle can be whatever you want to be known as in shurli trades.
+Your `dex_recvzaddr` is your pirate address
+your `dex_rectaddr` is your KMD address (Rxxxxxx)
+
+
+[03-Aug-20 02:52 AM] papawib#5499
+and how about pubkey_from_dex ?
+
+
+[03-Aug-20 02:53 AM] papawib#5499
+Ok thanks I'll try it
+
+
+[03-Aug-20 02:54 AM] NutellaLicka#4241
+No worries
+
+
+[03-Aug-20 06:51 PM] grewalsatinder#9653
+good old days 🤩 
+https://twitter.com/satindergrewal/status/899521659295588352?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/899521659295588352?s=20
+BarterDEX standalone app is ready for advanced users. #test #beta @SuperNETorg 
+https://t.co/N3yJG4G6fJ
+https://images-ext-2.discordapp.net/external/_VPn_-bqXyTdqXuFV0FbSdUnN-UXJE36ysGoDevdAH8/https/pbs.twimg.com/media/DHu-KgWVwAInp0z.jpg%3Alarge
+Twitter
+
+{Embed}
+https://twitter.com/satindergrewal/status/899521659295588352?s=20
+https://images-ext-1.discordapp.net/external/XdIgte5g8QNcrnX3rS-IY1KGOJFkZrKFWAI3jQLHs5g/https/pbs.twimg.com/media/DHu-KgRVoAAIykQ.jpg%3Alarge
+
+{Embed}
+https://twitter.com/satindergrewal/status/899521659295588352?s=20
+https://images-ext-2.discordapp.net/external/DNAslVk7-eoefYjIxB20bzc2UevPoTM9BZboNoGQt5o/https/pbs.twimg.com/media/DHu-KgnVYAE8LTB.jpg%3Alarge
+
+{Embed}
+https://twitter.com/satindergrewal/status/899521659295588352?s=20
+https://images-ext-1.discordapp.net/external/pg-hNwLERuYZOKnPV70dgsz5TeI8DzqotjcFEe6eGJE/https/pbs.twimg.com/media/DHu-KgQV0AA5IXW.jpg%3Alarge
+
+{Reactions}
+😸 (2) 
+
+[04-Aug-20 01:21 AM] CryptoMessiah#0917
+Just want to try the Atomicdex in android version..but it requires me .007 BTC to exchange.
+
+
+[04-Aug-20 01:22 AM] CryptoMessiah#0917
+It is a bug or what?
+
+
+[04-Aug-20 02:37 AM] Cryptoon#3362
+Depends on what you want to trade
+
+
+[04-Aug-20 02:38 AM] Cryptoon#3362
+I think for kmd/btc for example there is a minimum to account for transaction fees
+
+
+[04-Aug-20 03:20 AM] Mylo#8306
+@CryptoMessiah you can use RICK & MORTY coins if you want to try it.  there is a faucet available https://www.atomicexplorer.com/#/faucet/rick
+
+{Embed}
+https://www.atomicexplorer.com/
+Atomic Explorer
+Atomic Explorer
+
+
+[04-Aug-20 03:21 AM] Mylo#8306
+and one for MORTY on that site.  get some of those and trade for each other.
+
+for BTC, recently tx fee was high, so the minimum was raised, because if you're trying to trade 0.005 worth of something by tx fee of btc is 0.0015 x2, it is not worth doing
+
+
+[04-Aug-20 03:44 AM] Artist#0765
+yep @Mylo
+
+
+[04-Aug-20 06:22 PM] Mylo#8306
+@grewalsatinder meshbits has explorer and electrum?
+
+
+[04-Aug-20 07:03 PM] grewalsatinder#9653
+MESH blockchain explorer I think might be on dexstats.info
+
+{Reactions}
+👍 
+
+[04-Aug-20 07:04 PM] grewalsatinder#9653
+https://mesh.explorer.dexstats.info/
+
+{Embed}
+https://mesh.explorer.dexstats.info/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[04-Aug-20 07:08 PM] CryptoMessiah#0917
+Actually I had .002 BTC on atmicdex and I want to trade KMD or DGB..but it says the minimum transaction was .007 BTC.
+
+
+[04-Aug-20 07:09 PM] CryptoMessiah#0917
+But in other coins like kmd-dgb works perpectly
+
+
+[05-Aug-20 02:14 AM] Cryptoon#3362
+Its because of high btc transaction fees
+
+
+[05-Aug-20 02:14 AM] Cryptoon#3362
+Because atomic swaps are blockchain to blockchain you will need to do on chain transactions
+
+
+[05-Aug-20 02:15 AM] Cryptoon#3362
+Which are expensive for BTC nowadays
+
+
+[05-Aug-20 02:15 AM] Cryptoon#3362
+For kmd/dgb/doge/ whatever tx fees are very low, so for those pairs its not an issue
+
+
+[05-Aug-20 03:44 AM] Artist#0765
+What is MESH? @Mylo
+
+
+[16-Aug-20 04:53 PM] FishyGuts#5085
+@grewalsatinder Im about ready to test Shurli - Is v0.17 ready ?
+
+{Reactions}
+👍 
+
+[16-Aug-20 05:09 PM] FishyGuts#5085
+I got my config file set.  Clicked shurli.exe and nada
+
+
+[16-Aug-20 05:09 PM] FishyGuts#5085
+@NutellaLicka Have you tested this yet?  Where am I going wrong (windows).
+
+
+[16-Aug-20 06:10 PM] NutellaLicka#4241
+Hey mate, i open up CMD and run `./shurli start`
+
+
+[16-Aug-20 06:11 PM] NutellaLicka#4241
+From the shurli folder
+
+
+[16-Aug-20 08:25 PM] grewalsatinder#9653
+@FishyGuts glad to hear mate
+The exe needs to be executed from CMD.
+To start just do shurli.exe start
+To stop do shurli.exe stop
+
+
+[16-Aug-20 08:26 PM] NutellaLicka#4241
+Once you run `./shurli start` it should automatically open up your browser. You will want the wallets of the coins you want to trade with, open(running) and synced before you run shurli.
+
+
+[16-Aug-20 09:15 PM] FishyGuts#5085
+So when I click shurli.exe a window opens briefly then closes.
+
+
+[16-Aug-20 09:15 PM] FishyGuts#5085
+I have the shurli folder in a different drive other than my C drive.
+
+
+[16-Aug-20 09:16 PM] FishyGuts#5085
+I do have a kmd and pirate wallet running.
+
+
+[16-Aug-20 09:51 PM] Mylo#8306
+No clicking. Open cmd program to type in command like DOS
+
+{Reactions}
+👆 
+
+[16-Aug-20 10:57 PM] FishyGuts#5085
+yall give me way too much credit....  😄
+
+
+[16-Aug-20 11:00 PM] FishyGuts#5085
+I have it open but the commands dont seem to accomplish anything
+
+
+[16-Aug-20 11:00 PM] FishyGuts#5085
+go to my cmd prompt.  d:\
+
+
+[16-Aug-20 11:00 PM] FishyGuts#5085
+then `./shurli start` but nothing happens.
+
+
+[16-Aug-20 11:01 PM] FishyGuts#5085
+I extracted the shurli files to a folder in the d drive.
+
+
+[16-Aug-20 11:02 PM] FishyGuts#5085
+``panic: template: pattern matches no files: `templates/*`
+
+goroutine 1 [running]:
+text/template.Must(...)
+        /opt/hostedtoolcache/go/1.14.7/x64/src/text/template/helper.go:23
+main.init.0()
+        /home/runner/go/src/github.com/Meshbits/shurli/main.go:91 +0x146``
+
+
+[16-Aug-20 11:30 PM] grewalsatinder#9653
+you seem to have ONLY the exe extracted to d:\
+
+
+[16-Aug-20 11:30 PM] grewalsatinder#9653
+where are the rest of the files?
+
+
+[16-Aug-20 11:30 PM] grewalsatinder#9653
+😂
+
+
+[16-Aug-20 11:31 PM] grewalsatinder#9653
+@FishyGuts
+
+
+[16-Aug-20 11:33 PM] grewalsatinder#9653
+I'm having the feeling this is gonna be funny testing with you @FishyGuts 😅
+
+
+[16-Aug-20 11:33 PM] grewalsatinder#9653
+let's quickly get to the next problem
+
+
+[16-Aug-20 11:38 PM] grewalsatinder#9653
+https://thumbs.gfycat.com/UnrulyUnrealisticDuiker-small.gif
+
+{Embed}
+https://thumbs.gfycat.com/UnrulyUnrealisticDuiker-small.gif
+https://images-ext-1.discordapp.net/external/l-rHnGESXfEXKaP88ibwQVwJfl6lmK60soGMY1Zrthc/https/thumbs.gfycat.com/UnrulyUnrealisticDuiker-poster.jpg
+
+
+[17-Aug-20 07:13 AM] FishyGuts#5085
+Theyre all in D.
+
+
+[17-Aug-20 07:13 AM] FishyGuts#5085
+Same folder
+
+
+[17-Aug-20 07:36 AM] FishyGuts#5085
+Should I save them to C?
+
+
+[17-Aug-20 09:46 AM] grewalsatinder#9653
+extract all that in a folder
+
+
+[17-Aug-20 09:46 AM] grewalsatinder#9653
+and from that folder run the commands
+
+
+[17-Aug-20 09:46 AM] grewalsatinder#9653
+that error message you gave says it is unable to find templates directory where you executing the shurli.exe from
+
+
+[17-Aug-20 09:46 AM] grewalsatinder#9653
+so that means you don't the other required files there
+
+
+[17-Aug-20 12:47 PM] FishyGuts#5085
+``C:\Users\PLM INC>/shurli start
+panic: template: pattern matches no files: `templates/*`
+
+goroutine 1 [running]:
+text/template.Must(...)
+        /opt/hostedtoolcache/go/1.14.7/x64/src/text/template/helper.go:23
+main.init.0()
+        /home/runner/go/src/github.com/Meshbits/shurli/main.go:91 +0x146``
+
+
+[17-Aug-20 12:47 PM] FishyGuts#5085
+Now what?
+
+
+[17-Aug-20 09:36 PM] grewalsatinder#9653
+You still has not other required files
+
+
+[17-Aug-20 09:36 PM] grewalsatinder#9653
+Send a screenshot of your files
+
+
+[17-Aug-20 11:14 PM] FishyGuts#5085
+I type /Shurli start in my cmd.
+
+
+[17-Aug-20 11:15 PM] FishyGuts#5085
+Do the files need to be in the file above?   Users/PLMinc ?
+
+
+[17-Aug-20 11:54 PM] grewalsatinder#9653
+Extract all files to a folder from the archive you get from release
+
+
+[17-Aug-20 11:54 PM] grewalsatinder#9653
+Then run shurli as said with provided command
+
+
+[17-Aug-20 11:55 PM] grewalsatinder#9653
+It doesn't matter where the folder is to which you extract the files
+
+
+[17-Aug-20 11:59 PM] FishyGuts#5085
+Thats what I've done 😦
+
+
+[18-Aug-20 12:03 AM] FishyGuts#5085
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/745176012744294440/Shurli_Files.jpg
+
+
+[18-Aug-20 12:13 AM] Nabob | $ARRR#5004
+`shurli.exe start`
+
+
+[18-Aug-20 12:14 AM] FishyGuts#5085
+``C:\Users\PLM INC>shurli.exe start
+panic: template: pattern matches no files: `templates/*`
+
+goroutine 1 [running]:
+text/template.Must(...)
+        /opt/hostedtoolcache/go/1.14.7/x64/src/text/template/helper.go:23
+main.init.0()
+        /home/runner/go/src/github.com/Meshbits/shurli/main.go:91 +0x146
+``
+
+
+[18-Aug-20 12:35 AM] Nabob | $ARRR#5004
+type `dir`
+
+
+[18-Aug-20 12:35 AM] Nabob | $ARRR#5004
+are you running from shurli_win_v017 ?
+
+
+[18-Aug-20 12:36 AM] Nabob | $ARRR#5004
+sounds fishy :troll_lol:
+
+{Reactions}
+troll_king 
+
+[18-Aug-20 03:15 AM] NutellaLicka#4241
+@FishyGuts You need to run the command from the shurli directory as listed above. You're currently in the `PLM INC` folder in those pictures
+
+
+[18-Aug-20 03:45 AM] grewalsatinder#9653
+@FishyGuts search online how to use `cd` command.
+
+
+[18-Aug-20 03:46 AM] grewalsatinder#9653
+Then use that command to go to the directory where you see the files
+
+
+[18-Aug-20 03:46 AM] grewalsatinder#9653
+Your screenshot shows you are not executing the command from the directory where the files are
+
+
+[18-Aug-20 03:47 AM] grewalsatinder#9653
+Or click on the path where you see the directory path showing in the window explorer, and just type cmd there and press enter
+
+
+[18-Aug-20 03:48 AM] grewalsatinder#9653
+That should open cmd with that path
+
+
+[18-Aug-20 03:48 AM] grewalsatinder#9653
+If you still unsuccessful, just search online how to use cd command to go to that directory
+
+
+[18-Aug-20 03:49 AM] grewalsatinder#9653
+_We are dealing with a Windows user. _😅
+
+
+[18-Aug-20 03:49 AM] grewalsatinder#9653
+You are fun mate
+
+
+[18-Aug-20 03:50 AM] grewalsatinder#9653
+Even it gives a bit irritation, but still gives a bit of fun and giggles... 😂
+
+
+[18-Aug-20 03:51 AM] grewalsatinder#9653
+Also I really appreciate you helping 😃🙂 🙏
+
+
+[18-Aug-20 03:52 AM] grewalsatinder#9653
+I will try a click solution just for you once you tried and if couldn't get it what I explained.
+
+
+[18-Aug-20 04:20 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/745240677901795428/Screen_Recording_2020-08-18_at_11.17.41_PM.mov
+
+
+[18-Aug-20 04:20 AM] grewalsatinder#9653
+@FishyGuts see what you are doing different
+
+
+[18-Aug-20 04:21 AM] grewalsatinder#9653
+Also, I think you also need to make sure you have the correct changes in your `config.json` file
+
+
+[18-Aug-20 04:22 AM] grewalsatinder#9653
+you MUST have these settings filled in config.json file:
+```
+    "dex_pubkey": "03_YOUR_PUBKEY_FROM_DEX",
+    "dex_handle": "SET_YOUR_HANDLE_FOR_SUBATOMIC",
+    "dex_recvzaddr": "YOUR_PIRATE_PRIVATE_ADDRRESS",
+    "dex_recvtaddr": "YOUR_KMD_PUBLIC_ADDRRESS"
+```
+
+
+[18-Aug-20 04:25 AM] grewalsatinder#9653
+not just that, you also probably has to do commands such as `importprivkey`, `validateaddress`, `z_exportkey`, `z_importkey`, 
+start KMD using `komodod` with `-pubkey=`
+
+
+[18-Aug-20 04:25 AM] grewalsatinder#9653
+this is all CMD related at this point.
+
+
+[18-Aug-20 09:15 AM] FishyGuts#5085
+Shit.  Hehe.
+
+
+[18-Aug-20 09:17 AM] FishyGuts#5085
+I have some work to do.  Will get on it later today.  I really want to get this going in a noob friendly way or with noob friendly directions.
+
+
+[18-Aug-20 09:23 AM] grewalsatinder#9653
+As I see how you done so far, I think you'll have some efforts to do 🙂
+
+
+[18-Aug-20 09:23 AM] grewalsatinder#9653
+I trust you can do it with some help
+
+
+[20-Aug-20 04:02 AM] grewalsatinder#9653
+> i use a start script that contains the pubkey with QT wallet like komodod supports.
+> it works exactly same as native komodo daemon
+@SHossain thought I continue here since the next chat is more relevant to Shurli.
+That's what I'm trying to do now
+
+
+[20-Aug-20 04:02 AM] grewalsatinder#9653
+the idea is to start SHURLI0
+
+
+[20-Aug-20 04:02 AM] grewalsatinder#9653
+then generate a transparent and private address
+
+
+[20-Aug-20 04:02 AM] grewalsatinder#9653
+gather the public key
+
+
+[20-Aug-20 04:02 AM] grewalsatinder#9653
+and the private keys
+
+
+[20-Aug-20 04:02 AM] grewalsatinder#9653
+then show those in the SHURLI web UI in settings page
+
+
+[20-Aug-20 04:03 AM] grewalsatinder#9653
+and beside the supported wallet icons on Dashboard, show a button saying "Launch Wallet" or something like that
+
+
+[20-Aug-20 04:03 AM] grewalsatinder#9653
+and start the QT wallet using the pubkey obtained from SHURLI0
+
+
+[20-Aug-20 04:04 AM] grewalsatinder#9653
+once the wallet starts in GUI, ask the user to copy the private key and import in the QT wallet GUI
+
+
+[20-Aug-20 04:04 AM] grewalsatinder#9653
+I actually need to try that importprivkey part again and see if I try to import the privkey from cli does it still show the rescuing part UI part in QT GUI
+
+
+[20-Aug-20 04:05 AM] grewalsatinder#9653
+if it does, then can also execute the import private key command from the GUI as well, just completing the wallet setup as well
+
+
+[20-Aug-20 04:05 AM] grewalsatinder#9653
+I think that will help the newbie users a lot
+
+
+[20-Aug-20 04:05 AM] grewalsatinder#9653
+and right now testing this with existing PoC web GUI
+
+
+[20-Aug-20 04:05 AM] grewalsatinder#9653
+and adding this API call to my subatomic go package/library
+
+
+[20-Aug-20 04:05 AM] grewalsatinder#9653
+so it will be seamlessly usable in my Flutter code as well in gRPC API
+
+
+[20-Aug-20 04:06 AM] grewalsatinder#9653
+I can just bundle the OceanQT wallet along with other komodod and komodo-cli binaries with Shurli 😉
+
+
+[20-Aug-20 04:29 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/745967646578704434/Screen_Shot_2020-08-20_at_11.28.59_PM.png
+
+
+[20-Aug-20 04:29 AM] grewalsatinder#9653
+okay, confirmed. importing private key from cli or API command shows the rescanning info box on QT GUI
+
+
+[20-Aug-20 04:29 AM] grewalsatinder#9653
+can now handle of importing/dumping privkey etc in backend code
+
+
+[20-Aug-20 04:42 AM] grewalsatinder#9653
+_have to take a break and continue tomorrow. some offline priorities to handle._ 🙂 
+_excited to find a further solution. will be updating go code tomorrow_
+
+
+[20-Aug-20 04:43 AM] grewalsatinder#9653
+on the other updates, which I shared with users on keybase, I did small progress on Flutter and gRPC side of code too. I accept it's very slow progress, but something nonetheless.
+
+
+[20-Aug-20 04:44 AM] grewalsatinder#9653
+Able to call gRPC calls on Flutter on both Desktop and mobile Android App for subatomic gRPC setup
+
+
+[20-Aug-20 04:44 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/745971453026893875/Screen_Shot_2020-08-17_at_1.24.01_AM.png
+
+
+[20-Aug-20 04:44 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/745971453496918066/Screen_Shot_2020-08-17_at_12.59.41_AM.png
+
+
+[20-Aug-20 04:44 AM] grewalsatinder#9653
+so with the next application server/client based architecture setup mobile subatomic swaps could be possible too.
+
+
+[20-Aug-20 04:45 AM] grewalsatinder#9653
+It's just the Alice side client GUI
+
+
+[20-Aug-20 04:45 AM] grewalsatinder#9653
+the Bob side server GUI will be made once Alice side is done
+
+
+[20-Aug-20 04:46 AM] grewalsatinder#9653
+I used the GUI style idea from @Pwnz he shared sometime ago.
+
+{Reactions}
+🖖 
+
+[20-Aug-20 04:46 AM] grewalsatinder#9653
+I did not had any other GUI style idea, so just tried his style 😛
+
+
+[20-Aug-20 04:47 AM] Pwnz#4150
+We can work on it if u want
+
+
+[20-Aug-20 04:47 AM] Pwnz#4150
+Looks nice!
+
+
+[20-Aug-20 04:48 AM] grewalsatinder#9653
+I guess we can mate 🙂 
+let me get an update from @khatana if he made anything yet. If not much, may be can start something
+
+
+[20-Aug-20 04:55 AM] jorian#4555
+looks great grewal, if needed i'll be able to help test soon
+
+
+[20-Aug-20 04:56 AM] grewalsatinder#9653
+thanks @jorian 😁 👍
+
+
+[20-Aug-20 10:15 AM] Nabob | $ARRR#5004
+Nice visuals👌
+Great work Shurli star🤩
+
+
+[20-Aug-20 05:22 PM] grewalsatinder#9653
+Thanks @Nabob | $ARRR 😁
+
+
+[28-Aug-20 09:59 AM] Regnar#6164
+hey @grewalsatinder do you mind if I share those two mobile images in Telegram? They look good!
+
+
+[28-Aug-20 10:00 AM] grewalsatinder#9653
+okay 👍
+
+{Reactions}
+👍 
+
+[28-Aug-20 10:00 AM] grewalsatinder#9653
+one is desktop another is mobile
+
+
+[28-Aug-20 10:00 AM] Regnar#6164
+Right. thanks! do you have a short description to go with it?
+
+
+[28-Aug-20 10:01 AM] grewalsatinder#9653
+I think it's all covered in the chat comments. the same is okay
+
+
+[28-Aug-20 10:02 AM] Regnar#6164
+Also I'm getting a 404 from this <https://meshbits.github.io/>
+
+
+[28-Aug-20 10:03 AM] grewalsatinder#9653
+because that domain link is removed to github pages
+
+
+[28-Aug-20 10:04 AM] grewalsatinder#9653
+nothing to share at the moment for website. there is, but it's not ready to show
+
+{Reactions}
+👍 
+
+[31-Aug-20 09:12 AM] grewalsatinder#9653
+The August month was not much active in development. 
+**Flutter based Shurli app update :-**
+Some parts spent on trying to figure out how to solve a problem, and others how to correctly code the Flutter based code.
+The gRPC side of the Shurli-Server is taking shape, and able to talk to Flutter based app, and next challenge for me to get the 1 way and 2 way streaming of the data via gRPC between this Flutter based Shurli app.
+In traditional ways I used the web sockets libraries like sockets.io in node.js apps, and similar web sockets packages in existing proof of concept v1 Shurli application to get realtime updates of swaps status to show it's progress.
+
+**Golang based PoC v1 Shurli app update :-**
+I noticed that recently PIRATE received good amount of influx of users, and seeing the need of demand of some ways to exchange PIRATE with other cryptocurrencies in decentralised manner. And since I'm more efficient with web based apps development using Go language + HTML/Js/CSS code stack, I thought I upgrade the existing PoC v1 of Shurli to a bit further, so that it makes life of users a bit easier if they want to try it out and experience how subatomic swaps work.
+
+Only 2-3 people who have actually tested Shurli since April-May till now have shown the need of making the setup process a bit easier to use Shurli. So, I already made a bit of enhancements in Golang based PoC Shurli app. And there are further enhancements I'm pushing to a `dev` branch of Shurli where it will be possible for end users:
+- to generate the configuration file from the graphical interface
+- and starting a GUI wallet by clicking on a button right from within Shurli's user interface.
+
+And the code that I'm writing for this side of application should be usable in my gRPC code too which will be used by Shurli-Server for Flutter based Shurli application.
+
+{Reactions}
+👍 (4) 😋 
+
+[31-Aug-20 09:14 AM] grewalsatinder#9653
+**Written Contents for Subatomic Swaps :-**
+Other than that, I took a backup of existing collection of FAQs type knowledge-base replies from community.komodoplatform.com and put to our Shurli's Github Wiki, to keep that as a record or archive for later use purposes. Following are the links:
+https://github.com/Meshbits/Shurli/wiki/What-is-Subatomic-Swaps-and-how-it-fits-in-Atomic-Swaps-architecture
+https://github.com/Meshbits/Shurli/wiki/Why-subatomic-swaps-are-fast%3F-Differences-between-Atomic-Swaps-and-Subatomic-Swaps
+
+
+[31-Aug-20 09:17 AM] grewalsatinder#9653
+**JUMBLR based on Subatomic Swaps :-**
+@jl777c recently laid out specification for JUMBLR implementation which involves using PIRATE + Komodo + JUMBLR + Verus's DeFi tech. The detailed conversation can be accessed from this discord link:
+https://discordapp.com/channels/412898016371015680/676136067262447633/746966652721037342
+
+And a raw copy of the conversation and the specifications are also achieved on Shurli's Github Wiki here:
+https://github.com/Meshbits/Shurli/wiki/%5BRAW%5D:-Combine-JUMBLR,-subatomic,-ARRR-and-VRSC-liquidity-chains-into-a-KMD-VRSC-mixer
+
+
+[31-Aug-20 09:20 AM] grewalsatinder#9653
+**Next Shurli PoC v2 Update Soon :-**
+I'll provide an update on PoC v2 of Shurli soon. As soon as I'll have it capable of letting user start and manage the bare basic wallet management operations from the graphical interface, including Shurli setup specific operations. I'll not wait to make it perfect and let the brave testers test soonish enough I have it coded and tested in my work environment. 🙂
+
+{Reactions}
+💪 (8) 
+
+[31-Aug-20 09:21 AM] SHossain#0007
+nice writeup @grewalsatinder 🙂
+
+
+[31-Aug-20 09:21 AM] grewalsatinder#9653
+Thanks @SHossain 
+I thought it's been a while giving update on Shurli and it's development. So, felt like writing an update. It got extended as usual 😅
+
+{Reactions}
+💯 (3) 
+
+[31-Aug-20 01:53 PM] grewalsatinder#9653
+@everyone
+Shurli's coming soon website is up! It also has a link to show dev updates. I'll try to post all updates on this website too from now on.
+website link: https://shurli.io/
+
+{Reactions}
+🍴 (2) 👍 (5) 🤩 (2) ❤️ (4) 
+
+[31-Aug-20 02:00 PM] grewalsatinder#9653
+The template of this website and logo been ready for quite a while, few weeks actually. It's just nobody was there to help with the Github pages side and Jekyll template apply side. The designer (Khatana) gave the HTML files of it's designs, which had to be applied to the Jekyll website.
+I had this task assigned to @ns408 
+waited too long for his help, but I ultimately just did that today.
+I couldn't sleep thinking about such stuff....
+still a bit sleepless, tired, but sleepless...
+this is the repo for reference: https://github.com/Meshbits/shurli.github.io
+
+{Embed}
+https://github.com/Meshbits/shurli.github.io
+Meshbits/shurli.github.io
+Contribute to Meshbits/shurli.github.io development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[31-Aug-20 03:31 PM] hastrup#8742
+@grewalsatinder jl777 said something about subatomic swaps could use jumblr is that something you are thinking about?
+
+
+[31-Aug-20 03:32 PM] grewalsatinder#9653
+@hastrup the full specifications are linked here: https://discordapp.com/channels/412898016371015680/458865442056830977/750026568839069756
+
+
+[31-Aug-20 03:33 PM] grewalsatinder#9653
+my first target is to only make the swaps work initially, later can get to Jumblr part if the first is working properly
+
+{Reactions}
+👍 
+
+[01-Sep-20 10:42 AM] Llama#1330
+where can I learn about what meshbits is?
+
+
+[01-Sep-20 11:22 AM] grewalsatinder#9653
+It's just my company's registered name. Nothing else specific to read more about it.
+
+
+[01-Sep-20 11:25 AM] grewalsatinder#9653
+@Llama if this helps, from old notary node operator days
+
+https://github.com/Meshbits/meshbits.github.io/blob/master-branch-backup/index.md
+
+{Embed}
+https://github.com/Meshbits/meshbits.github.io/blob/master-branch-backup/index.md
+Meshbits/meshbits.github.io
+Code for http://meshbits.github.io/. Contribute to Meshbits/meshbits.github.io development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[06-Sep-20 08:01 AM] grewalsatinder#9653
+I'm battling tiny battles as a newbie to Golang/Flutter, and small wins make me happy 😅 :abusedsmily:
+
+
+[06-Sep-20 08:01 AM] grewalsatinder#9653
+just been able to make the shielded sappling address just by calling a function from a library file using go code 😛
+
+
+[06-Sep-20 08:02 AM] grewalsatinder#9653
+might be a very tiny and simple thing for experienced devs, but I had a trouble making it work :abusedsmily:
+
+
+[06-Sep-20 08:02 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/752181908913389658/Screen_Shot_2020-09-07_at_3.00.10_AM.png
+
+
+[06-Sep-20 08:02 AM] grewalsatinder#9653
+what I wished to do was to be able to generate both transparent and shielded addresses without first starting any blockchain to generate a address and then storing those to a config.json file
+
+
+[06-Sep-20 08:03 AM] grewalsatinder#9653
+recently learned and figured out how to generate the transparent address using a passphrase in Iguana Style wallet gen method, but wanted to get the sappling address as well from this exact same passphrase
+
+
+[06-Sep-20 08:04 AM] grewalsatinder#9653
+looking around I couldn't find anything which could be making exact this same thing, except the zcash paper wallet and the pirate paper wallet that @mrlynch made for PIRATE project
+
+
+[06-Sep-20 08:04 AM] grewalsatinder#9653
+his C++ code and library changes been great help
+
+
+[06-Sep-20 08:06 AM] grewalsatinder#9653
+then next task for me is to implementing this method to my kmdgo go package so I can use it like a normal Go method/function and generate the addresses like usual 🙂
+
+
+[06-Sep-20 08:07 AM] grewalsatinder#9653
+at this moment, the only bummer is that the static library generated from the Rust code which gives the Sapling address sizes about 14+Mb on MacOS (probably be lower in size on Linux, haven't checked).
+
+
+[06-Sep-20 08:07 AM] grewalsatinder#9653
+can get back to the size stuff later, right now I just need to make it work
+
+
+[06-Sep-20 08:16 AM] grewalsatinder#9653
+```
+➜  src git:(master) ✗ go build -o test test.go
+➜  src git:(master) ✗ ls -lh test
+-rwxr-xr-x  1 satinder  staff   5.8M  7 Sep 03:15 test
+➜  src git:(master) ✗ ./test 
+[
+  {
+    "num": 0,
+    "address": "zs1gym24l4hs8z5xvr9t0av3n20puckf6j6qq9029gfhntqrsulw9403uppkug32utmsa8txyqwckg",
+    "private_key": "secret-extended-key-main1qw2h7m9yqqqqpqzjs5eghh9khvm7ermeewk463850mw28tph096j3at92v2urqx03wmqw90k9lj299cmhtrlkn2w7rql025ykl8tmv9a8mmq2zv8e0tqxkzdn8eh9q7ta227dn33zst4llenu0tc9tkge75l9pwwaj59ncq8j786a5whm3a7d7stgds6ngu624ke5zl42gxg3vn5xpdn90dwux4j6jnqmk0544t8fgvuh7lewa9uua74lq66hfy39ptafkpqcnkqt0syap5p9",
+    "seed": {
+      "HDSeed": "739e26a7e1de64d5f5feca8f973250e00b8a6f19c1f74e7460a72748e088a1af",
+      "path": "m/32'/133'/0'"
+    }
+  }
+]
+```
+
+
+[06-Sep-20 08:16 AM] grewalsatinder#9653
+compiled the binary and it ends up smaller in size 🙂
+
+
+[06-Sep-20 10:36 AM] grewalsatinder#9653
+shared instructions on how to use the saplinglib for C and Go language developers 😎 :abusedsmily: 
+https://discordapp.com/channels/412898016371015680/463445317136809984/752217148537176195
+
+
+[06-Sep-20 06:42 PM] Mylo#8306
+Not requiring daemon to do stuff is a huge win
+
+{Reactions}
+💯 😎 
+
+[06-Sep-20 06:42 PM] Mylo#8306
+🎰
+
+
+[10-Sep-20 01:38 PM] grewalsatinder#9653
+I think I solved the basic trouble of setting up Shurli, thanks to the saplinglib which allows now creating shielded addresses without requiring any blockchain daemon running to create that.
+
+
+[10-Sep-20 01:40 PM] grewalsatinder#9653
+- shows start wallet button if wallet is offline. it will be linked to start a qt wallet with shurli wallet's pubkey
+- method of backup wallet json if wallet.json exists
+- generate shurli wallet using saplinglib and store it's data to wallet.json
+- condition added if importing addresses to DEXP2P chain, take the private keys from wallet.json instead of querying the DEXP2P chain. Other chains will get the private key from DEXP2P chain and import the private key from there.
+- check on startup if config.json exists or not. if doesn't it creates new one with a bip39 seed phrase, and saves this new wallet's info such as seed and private keys etc to wallet.json file
+- also includes few fixes for code warnings and errors
+
+
+[10-Sep-20 01:41 PM] grewalsatinder#9653
+that means a user will have not have to create `config.json`
+
+
+[10-Sep-20 01:41 PM] grewalsatinder#9653
+the startup of shurli will detect if there is one or not, and will automatically create one for user.
+
+
+[10-Sep-20 01:42 PM] grewalsatinder#9653
+and upon wallets start, shurli dashboard will show which wallets has the DEXP2P/Shurli wallet setup properly, and if there is a problem, just clicking on buttons on dashboard next to the coin name, will help fix the issue quick.
+
+
+[10-Sep-20 01:43 PM] grewalsatinder#9653
+so far it's all managed via GUI
+
+
+[10-Sep-20 01:43 PM] grewalsatinder#9653
+I was thinking of also starting the QT wallet UI with the `-pubkey=` but then I realised that the other wallets such as HUSH3, Verus, CHIPS etc won't be using the same komodo-qt wallet binary.
+
+
+[10-Sep-20 01:44 PM] grewalsatinder#9653
+so dropped that idea of using it, at least for now.
+
+
+[10-Sep-20 01:44 PM] grewalsatinder#9653
+the wallets has to be started by the user
+
+
+[10-Sep-20 01:44 PM] grewalsatinder#9653
+importing/export of addresses, across wallet to match the SHURLI's wallet setup is automated now via GUI
+
+
+[10-Sep-20 01:44 PM] grewalsatinder#9653
+unless there are some kind of edge cases or unthought conditions which I might have missed
+
+
+[10-Sep-20 01:45 PM] grewalsatinder#9653
+these updates are all in the `dev` branch right now
+
+
+[10-Sep-20 01:45 PM] grewalsatinder#9653
+anyone case try testing these by manually compiling the go code, with `go build` and starting `shurli` with start/stop command like usual
+
+
+[10-Sep-20 01:46 PM] grewalsatinder#9653
+I need to work on one important part which I know will cause CI/CD automation issues. That is saplinglib which provides functions/methods to create shielded addresses.
+
+
+[10-Sep-20 01:47 PM] grewalsatinder#9653
+on CI/CD system I'm only using a linux machine to build all 3 platform builds (windows, linux, mac)
+
+
+[10-Sep-20 01:47 PM] grewalsatinder#9653
+and the rust based sapling lib also need to make sure the relevant static library for respective platform is available there
+
+
+[10-Sep-20 01:48 PM] grewalsatinder#9653
+so will work on saplinglib cross-platform compilation fix next and fix the CI/CD system. and as soon as it's done, there'll be a build release available to download and try
+
+
+[10-Sep-20 01:48 PM] grewalsatinder#9653
+until then others who can compile themselves, can give a test to the code from dev branch
+
+
+[10-Sep-20 01:49 PM] grewalsatinder#9653
+https://github.com/Meshbits/Shurli/tree/dev
+
+
+[11-Sep-20 11:48 AM] grewalsatinder#9653
+stuck again 😄
+
+
+[11-Sep-20 11:48 AM] grewalsatinder#9653
+https://stackoverflow.com/questions/63852667/how-to-use-os-specific-path-in-cgo
+
+{Embed}
+https://stackoverflow.com/questions/63852667/how-to-use-os-specific-path-in-cgo
+How to use OS specific path in cgo?
+I wrote a golang code which calls a C library function. But in case I want to cross-compile it for other operating systems such as Linux/MacOS/Windows, how do I setup custom path to a library in #cgo
+https://images-ext-1.discordapp.net/external/VbfwnzN2MM794XNccNxDzrB1YeuPrxR53y11bwRfflY/%3Fv%3D73d79a89bded/https/cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon%402.png
+
+
+[12-Sep-20 09:37 PM] Mylo#8306
+You may be better to keep them all in same dir as a workaround and rename the files to libsapling-win libsapling-linux libsapling-osx, and not have to use -L ?
+
+{Reactions}
+👍 
+
+[13-Sep-20 02:54 PM] grewalsatinder#9653
+@Mylo thanks for some ideas, will give it a try
+
+{Reactions}
+👍 
+
+[13-Sep-20 07:34 PM] Mylo#8306
+yeah just make your -L issue something to come back to so you can keep momentum
+
+
+[13-Sep-20 08:07 PM] grewalsatinder#9653
+@Mylo your idea makes me think to build the go package out of saplinglib which it is not right now, and make 3 different go files and each with different function name representing win, linux, osx call. Will give that a try today. Any comment you ever give is big help mate. Thanks for being help this way or another 😊
+
+{Reactions}
+🤓 
+
+[13-Sep-20 08:08 PM] Mylo#8306
+cheers mate 😄 - i can help with workarounds more than elegance 😄
+
+
+[13-Sep-20 08:09 PM] grewalsatinder#9653
+M happy even with that help 😁😎
+
+
+[14-Sep-20 01:12 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/754977801039380501/Screen_Shot_2020-09-14_at_8.11.45_PM.png
+
+
+[14-Sep-20 01:12 AM] grewalsatinder#9653
+tried to use the lib on windows as stand alone and it gives errors 😦
+
+
+[14-Sep-20 01:13 AM] grewalsatinder#9653
+will give another tries
+
+
+[14-Sep-20 01:38 AM] grewalsatinder#9653
+```
+C:\Users\satinder\go\src\sap>go run main.go
+# command-line-arguments
+C:\Users\satinder\AppData\Local\Temp\go-build383992110\b001\_x002.o: In function `_cgo_6a170f398cb8_Cfunc_rust_generate_wallet':
+/tmp/go-build/cgo-gcc-prolog:69: undefined reference to `rust_generate_wallet'
+collect2.exe: error: ld returned 1 exit status
+
+C:\Users\satinder\go\src\sap>dir
+ Volume in drive C has no label.
+ Volume Serial Number is C287-5C0A
+
+ Directory of C:\Users\satinder\go\src\sap
+
+14/09/2020  20:18    <DIR>          .
+14/09/2020  20:18    <DIR>          ..
+14/09/2020  19:28        14,339,720 libsaplinglib.a
+14/09/2020  20:22               944 main.go
+07/09/2020  08:14               155 saplinglib.h
+12/09/2020  03:31        13,494,596 saplinglib.lib
+               4 File(s)     27,835,415 bytes
+               2 Dir(s)  73,004,777,472 bytes free
+
+C:\Users\satinder\go\src\sap>
+```
+
+
+[14-Sep-20 01:39 AM] grewalsatinder#9653
+a bit less now, will try fixing it
+
+
+[19-Sep-20 02:17 AM] grewalsatinder#9653
+I'm able to compile kmdgo on MacOS and Linux, but still unsuccessful on windows
+
+
+[19-Sep-20 02:17 AM] grewalsatinder#9653
+also, cross-compilation is no longer possible due to using the static binaries compiled from rust which is used to generate z sapling address
+
+
+[19-Sep-20 02:18 AM] grewalsatinder#9653
+using rust became headache in my kmdgo package
+
+
+[19-Sep-20 02:18 AM] grewalsatinder#9653
+https://pastebin.ubuntu.com/p/j6hhpsvG7y/
+
+
+[19-Sep-20 02:18 AM] grewalsatinder#9653
+these are the error logs of my test I done on windows trying to call rust compiled static library function in a C file
+
+
+[19-Sep-20 02:18 AM] grewalsatinder#9653
+even that I couldn't make it work
+
+
+[19-Sep-20 02:19 AM] grewalsatinder#9653
+there must be something I don't understand and I don't know who can help
+
+
+[19-Sep-20 02:19 AM] grewalsatinder#9653
+@Decker @artem.pikulin @artemciy_dice @ca333 
+https://github.com/satindergrewal/saplinglib
+
+{Embed}
+https://github.com/satindergrewal/saplinglib
+satindergrewal/saplinglib
+Tiny library for creating Zcash sapling addresses. Contribute to satindergrewal/saplinglib development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/71iBcuotcNOabCT-SIJNXqFke8SwwPrGxFH-18wojo8/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/12998093
+
+
+[19-Sep-20 02:20 AM] grewalsatinder#9653
+can you please help with this library?
+
+
+[19-Sep-20 02:20 AM] grewalsatinder#9653
+I'm unable to call the static library on windows in C
+
+
+[19-Sep-20 02:21 AM] grewalsatinder#9653
+used this command on Windows 10 CMD:
+```
+gcc src/C/main.c -I./src -L./ -lsaplinglib -o csapling
+```
+
+
+[19-Sep-20 02:21 AM] grewalsatinder#9653
+log is in the pastebin I linked above
+
+
+[19-Sep-20 05:21 AM] Decker#3767
+@grewalsatinder use following way to cross-compile for Windows:
+```
+git clone https://github.com/satindergrewal/saplinglib
+cd saplinglib
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
+rustup target add x86_64-pc-windows-gnu
+cargo build --target=x86_64-pc-windows-gnu --release
+x86_64-w64-mingw32-gcc ./src/C/main.c -I./src -L./target/x86_64-pc-windows-gnu/release -lsaplinglib -lws2_32 -luserenv -o main.exe
+```
+
+
+[19-Sep-20 11:49 AM] grewalsatinder#9653
+Thanks @Decker 
+Will give it a try 😃👍
+
+
+[20-Sep-20 06:06 AM] grewalsatinder#9653
+thanks @Decker 
+it compiled perfectly fine using your instructions with C 😃 
+I'll try next to use/compile it with golang
+
+
+[20-Sep-20 06:07 AM] grewalsatinder#9653
+🤞
+
+
+[20-Sep-20 08:13 PM] grewalsatinder#9653
+omg! THANK YOU @Decker You been BIG help mate!! 😃
+
+
+[20-Sep-20 08:13 PM] grewalsatinder#9653
+I'm able to cross compile windows exe of my test Go code using your method! 😃
+
+
+[20-Sep-20 08:13 PM] grewalsatinder#9653
+```shell
+➜  Go git:(master) ✗ env CGO_CFLAGS="-I$HOME/go/src/github.com/satindergrewal/saplinglib/src/" CGO_LDFLAGS="-L$HOME/go/src/github.com/satindergrewal/saplinglib/dist/win64 -lsaplinglib -lws2_32 -luserenv" CC="x86_64-w64-mingw32-gcc" CGO_ENABLED=1 GOOS=windows GOARCH=amd64 go build
+➜  Go git:(master) ✗ ls -lh
+total 17256
+-rwxr-xr-x  1 satinder  staff   8.4M 21 Sep 15:12 Go.exe
+-rw-r--r--  1 satinder  staff   1.1K 21 Sep 15:03 main.go
+```
+
+
+[20-Sep-20 08:14 PM] grewalsatinder#9653
+I also figured I can used environment variables for CGO so I don't have to hardcode the CFLAGS and LDFLAGS within inside the .go file.
+
+{Reactions}
+🎉 
+
+[20-Sep-20 08:14 PM] grewalsatinder#9653
+hitting an issue with the linux binary to cross compile now 😛
+
+
+[20-Sep-20 08:15 PM] grewalsatinder#9653
+checking on that issue
+
+
+[21-Sep-20 02:50 AM] grewalsatinder#9653
+hey @Decker,
+Can you please help with the Linux compile too?
+
+
+[21-Sep-20 02:50 AM] grewalsatinder#9653
+I couldn't compile the same on linux with this command:
+```gcc src/C/main.c -I./src -L./dist/linux -lsaplinglib  -o csapling```
+
+
+[21-Sep-20 02:51 AM] grewalsatinder#9653
+it gives long error log. log here: https://pastebin.ubuntu.com/p/jDz37PFp4z/
+
+
+[21-Sep-20 08:23 AM] Decker#3767
+```
+git clone https://github.com/satindergrewal/saplinglib
+cd saplinglib
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
+cargo build --target=x86_64-unknown-linux-gnu --release
+gcc ./src/C/main.c -I./src -L./target/x86_64-unknown-linux-gnu/release -lsaplinglib -lpthread -ldl -lm -o main
+```
+
+
+[21-Sep-20 01:44 PM] Tylor zkFS#8280
+Dayummm..
+Let's see the work
+
+
+[21-Sep-20 01:55 PM] grewalsatinder#9653
+Thanks a lot @Decker 😃👍
+
+
+[21-Sep-20 01:56 PM] grewalsatinder#9653
+@Tylor zkFS once the cross compile issues sorted with saplinglib and kmdgo, I will make a new Shurli PoC 2 release 🙂
+
+
+[21-Sep-20 02:46 PM] Tylor zkFS#8280
+What type of UI?? command line? I have not followed... this thread until very recently .. don't have time to scroll back
+
+
+[21-Sep-20 04:37 PM] grewalsatinder#9653 (pinned)
+@Tylor zkFS this type: https://www.youtube.com/watch?v=j6kZffNEZqE
+
+{Embed}
+satinder grewal
+https://www.youtube.com/watch?v=j6kZffNEZqE
+Shurli App update UI/UX, Trade History, Shurli daemon and more upda...
+Shurli now runs in background process like a daemon
+
+- Logs data in shurli.log file.
+- Has new config.json settings for DEX blockchain.
+- Starts DEX blockchain if not already running, using `komodod` from system path.
+- Stops DEX blockchain when Shurli stops.
+https://images-ext-1.discordapp.net/external/HpilvWzUYq9FOFc7OpTDOP4ETHtb-hQyj5yms6m1nfA/https/i.ytimg.com/vi/j6kZffNEZqE/hqdefault.jpg
+
+
+[21-Sep-20 04:37 PM] grewalsatinder#9653
+https://github.com/Meshbits/shurli
+
+{Embed}
+https://github.com/Meshbits/shurli
+Meshbits/Shurli
+Shurli App. Contribute to Meshbits/Shurli development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[21-Sep-20 04:44 PM] grewalsatinder#9653
+Thanks @Decker 
+It worked with compiling Go code too 😃
+
+
+[21-Sep-20 04:45 PM] grewalsatinder#9653
+@Decker you think it's possible to compile the same library for OSX from Linux ?
+
+
+[21-Sep-20 05:13 PM] grewalsatinder#9653
+I did tests of saplinglib on osx and the code on github was according to that compilation.
+But, when I was fetching these go packages on Linux I was getting error like the following because I had the CGO flags defined inside the .go file specific to OSX.
+
+```
+satinder@ubuntu:~/go/src/github.com$ go get -u github.com/satindergrewal/kmdgo
+# github.com/satindergrewal/saplinglib
+gcc: error: Security: No such file or directory
+gcc: error: unrecognized command line option ‘-framework’
+```
+
+
+[21-Sep-20 05:13 PM] grewalsatinder#9653
+so, I removed all/any CGO flags from inside the .go file and now specifying these CGO flags right before the `go get` makes it work perfectly fine! 😃
+
+
+[21-Sep-20 05:14 PM] grewalsatinder#9653
+learned good deal on CGO flags and environment variables in recent days/weeks. And I can't thank enough to @Decker for his help whenever I needed 🤩
+
+
+[21-Sep-20 05:15 PM] grewalsatinder#9653
+now I just `go get` like this based on specific platform and it works perfectly fine:
+```
+satinder@ubuntu:~/go/src/github.com$ env CGO_CFLAGS="-I$HOME/go/src/github.com/satindergrewal/saplinglib/src/" CGO_LDFLAGS="-L$HOME/go/src/github.com/satindergrewal/saplinglib/dist/linux -lsaplinglib -lpthread -ldl -lm" go get -u github.com/satindergrewal/kmdgo
+satinder@ubuntu:~/go/src/github.com$ ls -lh ~/go/pkg/linux_amd64/github.com/satindergrewal/kmdgo.a 
+-rw-r--r-- 1 satinder satinder 2.1M Sep 21 17:10 /home/satinder/go/pkg/linux_amd64/github.com/satindergrewal/kmdgo.a
+```
+
+
+[21-Sep-20 05:28 PM] grewalsatinder#9653
+on OSX:
+```
+➜  github.com env CGO_CFLAGS="-I$HOME/go/src/github.com/satindergrewal/saplinglib/src/" CGO_LDFLAGS="-L$HOME/go/src/github.com/satindergrewal/saplinglib/dist/darwin -lsaplinglib -framework Security" go get -u github.com/satindergrewal/kmdgo
+➜  github.com ls -lh ~/go/pkg/darwin_amd64/github.com/satindergrewal/      
+total 4368
+drwxr-xr-x  8 satinder  staff   256B  7 Sep 21:16 kmdgo
+-rw-r--r--  1 satinder  staff   2.1M 22 Sep 12:26 kmdgo.a
+-rw-r--r--  1 satinder  staff    51K 19 Sep 20:16 saplinglib.a
+➜  github.com ls -lh ~/go/pkg/darwin_amd64/github.com/satindergrewal/kmdgo/
+total 6904
+-rw-r--r--  1 satinder  staff   1.8M  7 Sep 21:22 btcec.a
+drwxr-xr-x  3 satinder  staff    96B  7 Sep 21:16 chaincfg
+-rw-r--r--  1 satinder  staff   112K  7 Sep 21:22 chaincfg.a
+drwxr-xr-x  4 satinder  staff   128B  7 Sep 21:16 kmdutil
+-rw-r--r--  1 satinder  staff   267K  7 Sep 21:22 kmdutil.a
+-rw-r--r--  1 satinder  staff   1.2M  7 Sep 21:22 wire.a
+```
+
+
+[22-Sep-20 02:58 AM] grewalsatinder#9653
+Github CI builds passed!
+https://github.com/Meshbits/Shurli/actions/runs/266672669
+
+
+[22-Sep-20 02:58 AM] grewalsatinder#9653
+making updates to CI release automation
+
+
+[22-Sep-20 03:19 AM] grewalsatinder#9653
+okay, I have a new problem now. specific to `komodod`
+
+
+[22-Sep-20 03:19 AM] grewalsatinder#9653
+the bundled `komodod` for linux is giving issues when I tested on Ubuntu 18.04
+
+
+[22-Sep-20 03:19 AM] grewalsatinder#9653
+```
+satinder@ubuntu:~/Downloads/shurli_linux/assets$ ldd komodod 
+./komodod: /lib/x86_64-linux-gnu/libm.so.6: version `GLIBC_2.29' not found (required by ./komodod)
+    linux-vdso.so.1 (0x00007fff70182000)
+    libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007fb1ca60d000)
+    libstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007fb1ca239000)
+    libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007fb1ca01a000)
+    libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007fb1c9e16000)
+    libanl.so.1 => /lib/x86_64-linux-gnu/libanl.so.1 (0x00007fb1c9c12000)
+    libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007fb1c9874000)
+    libgomp.so.1 => /usr/lib/x86_64-linux-gnu/libgomp.so.1 (0x00007fb1c9635000)
+    libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007fb1c941d000)
+    libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007fb1c902c000)
+    /lib64/ld-linux-x86-64.so.2 (0x00007fb1cbf1f000)
+```
+
+
+[22-Sep-20 03:20 AM] grewalsatinder#9653
+and online searching points mostly to the solutions to compiling glibc6 yourself for ubuntu 18.04, as it only gives as high as the version 2.27 😦
+
+
+[22-Sep-20 03:20 AM] grewalsatinder#9653
+```
+satinder@ubuntu:~/Downloads/shurli_linux/assets$ strings  /lib/x86_64-linux-gnu/libm.so.6 | grep GLIBC
+GLIBC_2.2.5
+GLIBC_2.4
+GLIBC_2.15
+GLIBC_2.18
+GLIBC_2.23
+GLIBC_2.24
+GLIBC_2.25
+GLIBC_2.26
+GLIBC_2.27
+GLIBC_PRIVATE
+```
+
+
+[22-Sep-20 03:21 AM] grewalsatinder#9653
+@SHossain do you also get the same issue on Ubuntu 18.04 ?
+
+
+[22-Sep-20 03:21 AM] grewalsatinder#9653
+the official builds of `komodod` doesn't provide DEXP2P, so I can not just take the official builds of `komodod` and bundle those with Shurli app to start DEXP2P chain.
+
+
+[22-Sep-20 03:22 AM] grewalsatinder#9653
+for that reason, I asked @ns408 last time to make automation of DEXP2P specific `komodod` builds on Meshbits' fork of `komodo`
+
+
+[22-Sep-20 03:26 AM] grewalsatinder#9653
+hmm... I think there are latest builds for linux which are good 🤔
+
+
+[22-Sep-20 03:27 AM] grewalsatinder#9653
+trying those out now 🙂
+
+
+[22-Sep-20 04:31 AM] grewalsatinder#9653
+okay, so that other builds doesn't even has the DEXP2P API which executes fine on linux
+
+
+[22-Sep-20 04:31 AM] grewalsatinder#9653
+```
+satinder@ubuntu:~/Downloads/shurli_linux/assets$ ./komodo-cli -ac_name=SHURLI0 DEX_stats
+error code: -32601
+error message:
+Method not found
+```
+
+
+[22-Sep-20 04:32 AM] grewalsatinder#9653
+the issue right now:
+- official Komodo builds doesn't have DEXP2P.
+- My Meshbits komodo fork has some builds of komodod which has DEXP2P, but it is having issues on Ubuntu 18.04. Need troubleshooting time
+
+
+[22-Sep-20 04:33 AM] grewalsatinder#9653
+@ca333 @TonyL Can you please let me know what is the status of DEXP2P feature availability from the official builds ?
+
+
+[22-Sep-20 04:33 AM] grewalsatinder#9653
+It would really help with the app development, if it's just available from the official resource.
+
+
+[22-Sep-20 05:05 AM] ca333#0333
+I believe it was/is already included in the CD - I checking it will let you know
+
+
+[22-Sep-20 05:07 AM] grewalsatinder#9653
+thanks mate, that'd be great help 🙂
+
+
+[22-Sep-20 05:23 AM] ca333#0333
+https://github.com/KomodoPlatform/komodo/releases/tag/cd_release_27bbc53_research - `research` branch build @grewalsatinder
+
+{Embed}
+https://github.com/KomodoPlatform/komodo/releases/tag/cd_release_27bbc53_research
+Release CD Release 27bbc53 research · KomodoPlatform/komodo
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Reactions}
+👍 🤩 
+
+[22-Sep-20 05:34 AM] grewalsatinder#9653
+excellent! thanks a lot @ca333 😃 👍
+
+{Reactions}
+👍 
+
+[22-Sep-20 05:43 AM] grewalsatinder#9653
+@ca333 just tested the binary on linux and getting strange output for API `DEX_stats` 🤔
+
+
+[22-Sep-20 05:43 AM] grewalsatinder#9653
+```
+satinder@ubuntu:~/Downloads/komodo$ ./komodo-cli -ac_name=SHURLI0 DEX_stats
+error: couldn't parse reply from server
+```
+
+
+[22-Sep-20 05:44 AM] grewalsatinder#9653
+```
+satinder@ubuntu:~/Downloads/komodo$ ./komodo-cli -ac_name=SHURLI0 DEX_stats
+{
+  "result": "success",
+  "publishable_pubkey": "01a9a539c5eef74acf2dfe3e9da639e1c50e3bb7d848d4d5d330e05046cbc50d69",
+  "secpkey": "03723105863e8d16aa5c1f5695ddc442c341d1b857bfbe3e60855d07d35d5288b3",
+  "recvaddr": " \u001b",
+  "recvZaddr": "zs10xnltfsp8z4ljm53he2qq96qsswj8s0sk3ypnkrgqs7zh8r7fhsxrrnq4p4rv8pwm5ppkzhhnm3",
+  "handle": "Anon372310",
+  "txpowbits": 4,
+  "vip": 5,
+  "cmdpriority": 7,
+  "progress": 0,
+  "perfstats": "RAM.0 00000000 R.0 S.0 A.0 dup.0 | L.0 A.0 coll.0 | lag (0.0000 0.0000 0.0000) err.0 pend.0 T/F 0/0 | 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0/sec"
+}
+satinder@ubuntu:~/Downloads/komodo$ ./komodo-cli -ac_name=SHURLI0 DEX_stats
+{
+  "result": "success",
+  "publishable_pubkey": "01a9a539c5eef74acf2dfe3e9da639e1c50e3bb7d848d4d5d330e05046cbc50d69",
+  "secpkey": "03723105863e8d16aa5c1f5695ddc442c341d1b857bfbe3e60855d07d35d5288b3",
+  "recvaddr": "@D",
+  "recvZaddr": "zs10xnltfsp8z4ljm53he2qq96qsswj8s0sk3ypnkrgqs7zh8r7fhsxrrnq4p4rv8pwm5ppkzhhnm3",
+  "handle": "Anon372310",
+  "txpowbits": 4,
+  "vip": 5,
+  "cmdpriority": 7,
+  "progress": 0,
+  "perfstats": "RAM.0 00000000 R.0 S.0 A.0 dup.0 | L.0 A.0 coll.0 | lag (0.0000 0.0000 0.0000) err.0 pend.0 T/F 0/0 | 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0/sec"
+}
+```
+
+
+[22-Sep-20 05:44 AM] grewalsatinder#9653
+```
+satinder@ubuntu:~/Downloads/komodo$ ./komodo-cli -ac_name=SHURLI0 DEX_stats
+error: couldn't parse reply from server
+satinder@ubuntu:~/Downloads/komodo$ ./komodo-cli -ac_name=SHURLI0 DEX_stats
+error: couldn't parse reply from server
+satinder@ubuntu:~/Downloads/komodo$ ./komodo-cli -ac_name=SHURLI0 DEX_stats
+{
+  "result": "success",
+  "publishable_pubkey": "01a9a539c5eef74acf2dfe3e9da639e1c50e3bb7d848d4d5d330e05046cbc50d69",
+  "secpkey": "03723105863e8d16aa5c1f5695ddc442c341d1b857bfbe3e60855d07d35d5288b3",
+  "recvaddr": " \u001b",
+  "recvZaddr": "zs10xnltfsp8z4ljm53he2qq96qsswj8s0sk3ypnkrgqs7zh8r7fhsxrrnq4p4rv8pwm5ppkzhhnm3",
+  "handle": "Anon372310",
+  "txpowbits": 4,
+  "vip": 5,
+  "cmdpriority": 7,
+  "progress": 0,
+  "perfstats": "RAM.0 00000000 R.0 S.0 A.0 dup.0 | L.0 A.0 coll.0 | lag (0.0000 0.0000 0.0000) err.0 pend.0 T/F 0/0 | 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0/sec"
+}
+```
+
+
+[22-Sep-20 05:44 AM] grewalsatinder#9653
+every time I execute the command it's different value for  `recvaddr` in JSON output
+
+
+[22-Sep-20 05:45 AM] grewalsatinder#9653
+this is the `komodod` command:
+```
+assets/komodod -ac_name=SHURLI0 -daemon -server -ac_supply=10 -dexp2p=2 -addnode=67.207.76.33 -pubkey=03723105863e8d16aa5c1f5695ddc442c341d1b857bfbe3e60855d07d35d5288b3 -handle=Anon372310 -recvZaddr=zs10xnltfsp8z4ljm53he2qq96qsswj8s0sk3ypnkrgqs7zh8r7fhsxrrnq4p4rv8pwm5ppkzhhnm3 -recvTaddr=RU3j9q4X978h3uctGVXqhGKc5VWRdUk6sa
+```
+
+
+[22-Sep-20 05:46 AM] grewalsatinder#9653
+`DEX_stats` should show the `recvTaddr` value as `RU3j9q4X978h3uctGVXqhGKc5VWRdUk6sa` as defined in the `komodod` command
+
+
+[22-Sep-20 05:46 AM] grewalsatinder#9653
+and as you can see sometimes executing the command `DEX_stats` just gives output which isn't parsable
+
+
+[22-Sep-20 05:50 AM] grewalsatinder#9653
+hmm... I did compile on ubuntu 16.04 from my forked meshbits repo and that too is giving same type of results 🤔
+
+
+[22-Sep-20 05:50 AM] grewalsatinder#9653
+```
+satinder@ubuntu:~/Downloads/komodo$ ./komodo-cli -ac_name=SHURLI0 DEX_stats
+{
+  "result": "success",
+  "publishable_pubkey": "01a9a539c5eef74acf2dfe3e9da639e1c50e3bb7d848d4d5d330e05046cbc50d69",
+  "secpkey": "03723105863e8d16aa5c1f5695ddc442c341d1b857bfbe3e60855d07d35d5288b3",
+  "recvaddr": "0\u0011",
+  "recvZaddr": "zs10xnltfsp8z4ljm53he2qq96qsswj8s0sk3ypnkrgqs7zh8r7fhsxrrnq4p4rv8pwm5ppkzhhnm3",
+  "handle": "Anon372310",
+  "txpowbits": 4,
+  "vip": 5,
+  "cmdpriority": 7,
+  "progress": 0,
+  "perfstats": "RAM.0 00000000 R.0 S.0 A.0 dup.0 | L.0 A.0 coll.0 | lag (0.0000 0.0000 0.0000) err.0 pend.0 T/F 0/0 | 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0/sec"
+}
+```
+
+
+[22-Sep-20 05:51 AM] grewalsatinder#9653
+I'll continue this troubleshooting tomorrow. getting too late now.
+thanks for help @ca333 
+if possible please take a look at the issue of `"recvaddr": "0\u0011",`
+CC @jl777c
+
+
+[22-Sep-20 09:40 AM] jl777c#5810
+maybe it needs to be changed to use lowercase? recvtaddr, but that would require a daemon change also
+
+
+[22-Sep-20 02:18 PM] grewalsatinder#9653
+@Alright @Decker is that any thing you can help me with please ? :)
+As James pointing out...
+
+
+[22-Sep-20 02:22 PM] grewalsatinder#9653
+CC @mrlynch
+
+
+[22-Sep-20 02:37 PM] Decker#3767
+@grewalsatinder DM me plz - what exactly should i do to get the same result `"0\u0011"` in `recvaddr`. Mean - which repo and branch should i use, with which args i should start a daemon and other things. Will try to sort it out and help.
+
+{Reactions}
+👍 
+
+[22-Sep-20 03:38 PM] grewalsatinder#9653
+sent details @Decker 🙂
+
+
+[22-Sep-20 05:18 PM] Tylor zkFS#8280
+Woah.....this channel is heating up....
+
+
+[22-Sep-20 05:25 PM] Tylor zkFS#8280
+Is this mobile capable? SPV electrumX / nSPV? DexP2P was running a node/daemon last I checked....
+
+
+[22-Sep-20 05:28 PM] Tylor zkFS#8280
+It seems you are using mobile capable front end ATM - could there be Shurli DEXP2P electrumx servers?? Trying to wrap my head around WASM and other ways
+
+
+[22-Sep-20 06:00 PM] grewalsatinder#9653
+@Tylor zkFS there is another version of Shurli in the works, which is Flutter based, and is Desktop and Mobile UI client targeted.
+I'm only using the initial PoC C code from James for subatomic swaps, and that only uses native full blockchain synced wallets. And so far only Komodo platform specific cryptocurrencies. It is indeed possible to expand it further to support SPV/nSPV/lite etc etc, and support almost any and all cryptocurrencies in the world as the subatomic swaps functionality allows. But someone has to code that capability in the C code. Or that same subatomic C code ported to another language and make it enhanced version. I have thoughts on making a Go language port of subatomic C code, but I'm already facing much challenges with just the existing one. Need to first make the existing things work, and then move on to the enhancements stuff.
+
+
+[22-Sep-20 06:02 PM] grewalsatinder#9653
+ElectrumX servers are different
+DEXP2P is TCP/IP communication medium which creates a p2p network of nodes. It is not specific to blockchain but can utilise blockchain tokens in it's use-cases.
+
+
+[22-Sep-20 06:16 PM] Tylor zkFS#8280
+So you are saying dexp2p can be written in go so that moble dexp2p tcp/ip can be utilized....just understanding  these different languages and future wasm capabilities...  I mean....unless the code can be reused easily- why start with PC users and not the wasm mobile code base? 
+I guess I'm saying, no need to build BarterDEX when in reality AtomicDEX mobile is where the money is....
+Just real curious about this project because of the many use cases in a  lite/wasm version
+
+
+[22-Sep-20 06:21 PM] Tylor zkFS#8280
+I honestly believe DEXP2P subatomic is the future internet everything.... and intranets
+
+
+[22-Sep-20 07:06 PM] grewalsatinder#9653
+> So you are saying dexp2p can be written in go
+nope. DEXP2P is ONLY coded in the `komodod` C/C++ source code.
+DEXP2P is NOT equals to Subatomic Swaps.
+Subatomic Swaps is NOT equals to DEXP2P.
+These are 2 different things.
+Subatomic Swaps uses DEXP2P tech from `komodod` which is ONLY available from `komodod`.
+That means if you want to use WASM based DEXP2P, compile `komodod` to WASM.
+Or at least take the DEXP2P feature code from `komodod` and code it in `libnspv` library which currently is being worked by Komodo developers to compile as WASM and be usable on web browsers.
+
+
+[22-Sep-20 07:07 PM] grewalsatinder#9653
+If you think it's easy enough for someone to port the DEXP2P code to libnspv, we do actually need such developers.
+Would love to see it ported to libnspv whoever does that.
+
+
+[22-Sep-20 08:58 PM] grewalsatinder#9653
+but I agree, having DEXP2P as WASM feature would be great!
+
+
+[22-Sep-20 09:54 PM] grewalsatinder#9653
+@Decker @ca333 @jl777c tested the komodo linux builds from this PR and it seems to work perfectly so far 🙂 👍
+
+
+[22-Sep-20 09:54 PM] grewalsatinder#9653
+https://github.com/KomodoPlatform/komodo/pull/387
+
+
+[22-Sep-20 09:56 PM] grewalsatinder#9653
+@ca333 I see it does not pass other CC specific checks. But can you please take a look and see if there can be build available from this Decker's PR in release? appreciate all help 🙂
+
+
+[22-Sep-20 10:43 PM] grewalsatinder#9653
+I took be binaries compiled from that PR and using it with Shurli's CI builds:
+https://github.com/Meshbits/komodo/releases/tag/research_release1
+
+
+[23-Sep-20 12:54 AM] grewalsatinder#9653
+@everyone Shurli v0.0.2 PoC2 is available to download from latest release builds. Can download it from here:
+https://github.com/Meshbits/Shurli/releases/tag/release_v0.24
+
+{Embed}
+https://github.com/Meshbits/Shurli/releases/tag/release_v0.24
+Release release_v0.24 · Meshbits/Shurli
+CD Release
+Github SHA: c4b8025
+Branch: master
+Build number: 24
+version: v0.24
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+{Reactions}
+👍 (5) 🚀 
+
+[23-Sep-20 12:57 AM] grewalsatinder#9653
+With this release, user don't has to make or setup `config.json`.
+Shurli will create a new set of `pubkey`, address, and a sapling private address using a BIP39 seed phrase, and save all it's details in `wallet.json` file just along side `config.json`.
+
+
+[23-Sep-20 12:59 AM] grewalsatinder#9653
+It will also make a handle a random Anonymous with combination of first 6 characters from `pubkey`. Example: 
+pubkey = 02a396e79957eb4aba2a11e760ecd9fc436490163817a61507d56ecfa994077fa9
+handle = Anon2a396e
+
+You can edit this handle from settings page in GUI.
+
+
+[23-Sep-20 01:01 AM] grewalsatinder#9653
+if any of the wallet doesn't have the address from config.json imported, you'll see the notification on Shurli's Dashboard as red buttons.
+
+
+[23-Sep-20 01:02 AM] grewalsatinder#9653
+Just click on that and hit "Fix it", to import the address to selected blockchain.
+
+
+[23-Sep-20 01:03 AM] grewalsatinder#9653
+Shurli does not manage any 3rd party wallets. So these has to be managed by the users themselves.
+
+
+[23-Sep-20 01:03 AM] grewalsatinder#9653
+Chose any wallet which allows you to synchronise full blockchain. Be it Verus-Desktop, or Ocean-QT, or just command line.
+
+
+[23-Sep-20 01:06 AM] grewalsatinder#9653
+This update does not make it noob friendly setup, but at least it decreases many/some steps requiring to generate the `config.json` file.
+These updates might be not too much of upgrade from first PoC of Shurli, but it is bit easier to setup than before.
+
+
+[23-Sep-20 01:06 AM] grewalsatinder#9653
+This update helped part of the Shurli-server side of golang code, which I'll start porting to gRPC code next.
+
+
+[23-Sep-20 01:07 AM] grewalsatinder#9653
+Feel free to test, and give feedback. 🙂
+
+
+[23-Sep-20 01:12 AM] Kayaba#5184
+@grewalsatinder Mind if I ask you a question about Shurli?
+
+
+[23-Sep-20 01:12 AM] grewalsatinder#9653
+okay
+
+
+[23-Sep-20 01:13 AM] Kayaba#5184
+How does the newfound possibility of atomic swaps for ARRR affect its future?
+
+
+[23-Sep-20 01:14 AM] Kayaba#5184
+*As long as ARRR uses a Jubjub key for spending and viewing; if I messed up, and there is a BLS key required to redeem shielded funds, then this may not be the case
+
+
+[23-Sep-20 01:14 AM] Kayaba#5184
+I looked at the Sapling docs to learn a Jubub key should at least exist for viewing, so that part is fully compatible.
+
+
+[23-Sep-20 01:16 AM] Kayaba#5184
+Will it pivot to features not possible with the classic atomic swap format, such as extra safeties for both parties (no must-remain-online/timelock concerns)? I also know partial/multiple swap management would be greatly beneficial, though at the same time, I'm not too sure how flexibile subatomic swaps are...
+
+
+[23-Sep-20 01:16 AM] Kayaba#5184
+"Single form multiple subatomic swaps" sounds like this though
+
+
+[23-Sep-20 01:18 AM] Kayaba#5184
+Again, could totally be misunderstanding ARRR's internals 😛 Don't have too much experience here.
+
+
+[23-Sep-20 01:19 AM] Kayaba#5184
+Bit of a long/involved question, sorry. Feel free to get back whenever 😉 Didn't realize this project existed until today (though I did know of subatomic swaps) and I'm very interested to see how it affects the space 😄
+
+
+[23-Sep-20 01:20 AM] Kayaba#5184
+Oh. Considering one of the goals is to provide a UI, going beyond a protocol implementation, moving to atomic swaps could be another path...
+
+
+[23-Sep-20 01:28 AM] grewalsatinder#9653
+subatomic swaps is not atomic swaps.
+Atomic Swaps are different than how Subtomic swaps works.
+Whenever PIRATE will be added to atomic swaps it will be tradable through AtomicDEX. I don't have any update on this part. AtomicDEX devs can answer this better in #dev-marketmaker 
+I don't know what is "Jubjub key" or "BLS key". I'm only aware of `z_exportkey` and viewing keys of zcash sapling address.
+Whatever you can do with the sapling address as usual in your PIRATE or any other wallets you can do. Subatomic swaps doesn't have any other influence on it's behaviour.
+
+> Will it pivot to features not possible with the classic atomic swap format, such as extra safeties for both parties (no must-remain-online/timelock concerns)? 
+With current proof of concepts version, that is the case. You have to be online to complete swaps. The next versions that I'm targeting to code using gRPC based Shurli-Server and client application using Flutter/Dart will allow making the orders and closing the client application.
+Multiple automated swaps is not in the current version. You can expect these in future versions for sure.
+
+
+[23-Sep-20 01:29 AM] Kayaba#5184
+Right, I know that. Your README says atomic swaps don't work with ARRR, which is why Shurli exists. I'm pretty sure they do.
+
+
+[23-Sep-20 01:29 AM] Kayaba#5184
+Alrighty then 🙂 I'll read over more of the sapling docs and try to figure out what the addresses map to
+
+{Reactions}
+👍 
+
+[23-Sep-20 01:51 AM] Kayaba#5184
+Just pulled up the Sapling specifications. There are two private keys in play, so you do have to modify the existing protocol to include twice as many signatures (or do further cryptography work). They also don't use EdDSA, yet RedDSA, which is quite similr with some differences. That said, these differences shouldn't have any effect on adaptor signatures, and they definitely don't on the DL-EQ proof (the two pieces of cryptography required).
+
+So yes, Sapling shielded funds should be atomic swappable. Just as a heads up 😉
+
+
+[23-Sep-20 01:53 AM] Kayaba#5184
+I'd appreciate if someone with a bit more experience with Sapling would confirm my statement, but it sounds like you may have to update your README 😛
+
+
+[23-Sep-20 01:53 AM] Kayaba#5184
+Eh. Maybe not until someone builds an impl for ARRR 😉
+
+
+[23-Sep-20 01:54 AM] grewalsatinder#9653
+yep, already know sapling shielded funds must be atomic swappable. @jl777c and @miketout has said this before who know much more on zcash stuff. 🙂
+
+
+[23-Sep-20 01:54 AM] Kayaba#5184
+Ah. The protocol I'm thinking of which enables this only came out a month or so ago
+
+
+[23-Sep-20 01:54 AM] grewalsatinder#9653
+which part of README you saying need update?
+
+
+[23-Sep-20 01:55 AM] Kayaba#5184
+Before that it was purely theoretically possible
+
+
+[23-Sep-20 01:55 AM] Kayaba#5184
+Oh. I misread it as saying it wasn't possible to atomic swap ARRR; not that there was yet a tool to do it. My bad, sorry
+
+
+[23-Sep-20 01:55 AM] grewalsatinder#9653
+😅 okay. np 👍
+
+
+[23-Sep-20 01:56 AM] grewalsatinder#9653
+this will clear some differences in atomic swaps and subatomic swaps:
+https://github.com/Meshbits/Shurli/wiki/Why-subatomic-swaps-are-fast%3F-Differences-between-Atomic-Swaps-and-Subatomic-Swaps
+
+
+[23-Sep-20 01:59 AM] Kayaba#5184
+Thanks 🙂 I do understand they're different (and the trade offs), yet I read the protocol briefly a few months ago so I definitely would benefit from a quality refresher
+
+{Reactions}
+👍 
+
+[23-Sep-20 11:23 AM] Tylor zkFS#8280
+I remember that there were a couple dependencies inside komodod - just do not remember the code portions or the way and how to get those parts written into wasm - seems like something that should be focused on
+
+
+[23-Sep-20 03:06 PM] Kaks | $ARRR Privacy Matters#6612
+does anyone tried on windows? i cant see the Pirate balance on the gui, tried to swap but getting connection error, looking on shurli.log it says 
+```2020/09/24 00:01:30 sago_lib.go:172: Code: -5
+2020/09/24 00:01:30 sago_lib.go:173: Message: Invalid from address, should be a taddr or zaddr.```
+
+
+[23-Sep-20 03:06 PM] Kaks | $ARRR Privacy Matters#6612
+@SHossain 👆
+
+
+[23-Sep-20 03:08 PM] Kaks | $ARRR Privacy Matters#6612
+on config.json 
+
+```{
+    "subatomic_exe": "./subatomic",
+    "subatomic_dir": "C:\Users\Kaks\satinder\kmdsub",
+    "dex_nSPV": "1",
+    "dex_addnode": "67.207.76.33",
+    "dex_pubkey": "****************** <my dex publickey>",
+    "dex_handle": "Anon28baf8",
+    "dex_recvzaddr": "zs1jwjvfwvjds8c8cuy78vusyf9zz4ky6ycywm3wstr2sl277yxnfx3pgu7nqndz0m9fzk0q6490jh",
+    "dex_recvtaddr": "RRmGnCPvuNkuJReAfHLGqE1Zy1J5aZzWoJ"
+}```
+
+
+[23-Sep-20 03:12 PM] grewalsatinder#9653
+For z address it only check that single specific address balance configured in the config file.
+Any other address balance won't show in balance, coz the way z_balance command works.
+
+
+[23-Sep-20 03:12 PM] grewalsatinder#9653
+Also subatomic only uses that single address balance so for now doesn't make sense to show other address balances of sapling addresses
+
+
+[23-Sep-20 03:14 PM] grewalsatinder#9653
+_brb_
+
+{Reactions}
+👍 
+
+[23-Sep-20 04:15 PM] +dreamTim#4288
+Connected to shurli with Win 10, Brave. Everything was fine, then I got 
+```This site can’t be reachedlocalhost refused to connect.
+Try:
+
+Checking the connection
+Checking the proxy and the firewall
+ERR_CONNECTION_REFUSED```
+
+
+[23-Sep-20 04:17 PM] +dreamTim#4288
+stopped it as CLI was still running, but its not starting again
+
+
+[23-Sep-20 04:30 PM] grewalsatinder#9653
+delete shurli.pid file where you started shurli from
+
+
+[23-Sep-20 04:30 PM] grewalsatinder#9653
+and then start shurli again
+
+
+[23-Sep-20 04:30 PM] grewalsatinder#9653
+should work
+
+
+[23-Sep-20 04:30 PM] grewalsatinder#9653
+there are little issues like this. I can't make it perfect for clicky clicky people
+
+
+[23-Sep-20 04:30 PM] grewalsatinder#9653
+it's best to use command line
+
+
+[23-Sep-20 04:31 PM] grewalsatinder#9653
+but if using shurli_start.cmd, then you have the manage deleting shurli.pid deletion after you close or stop command line window
+
+
+[24-Sep-20 02:10 AM] grewalsatinder#9653
+I think I found a bug in latest release of Shurli.
+
+
+[24-Sep-20 02:10 AM] grewalsatinder#9653
+```
+dex-cli DEX_orderbook 10 0 PIRATE KMD  | jq .asks
+
+    from Asks :-
+    buying = PIRATE
+    selling = KMD
+
+    from Bids :-
+    buying = KMD
+    selling = PIRATE
+
+2020/09/24 21:08:55 [subatomic] ./subatomic KMD "" 4289125056 .1
+2020/09/24 21:08:55 http: superfluous response.WriteHeader call from main.orderinit (main.go:497)
+➜  shurli_macos_v0.24
+```
+
+
+[24-Sep-20 02:10 AM] grewalsatinder#9653
+on initiating a trade, the shurli process exits
+
+
+[24-Sep-20 02:10 AM] grewalsatinder#9653
+looking into the issue
+
+
+[24-Sep-20 03:31 AM] grewalsatinder#9653
+pushed bug fix
+
+
+[24-Sep-20 03:32 AM] grewalsatinder#9653
+new release build coming...
+
+
+[24-Sep-20 03:36 AM] grewalsatinder#9653
+https://github.com/Meshbits/Shurli/releases/tag/release_v0.25
+
+{Embed}
+https://github.com/Meshbits/Shurli/releases/tag/release_v0.25
+Release release_v0.25 · Meshbits/Shurli
+This is experimental and unfinished software. Use at your own risk! No warranty for any kind of damage!
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software...
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+{Reactions}
+👍 
+
+[24-Sep-20 03:36 AM] grewalsatinder#9653
+Please use latest release to test
+
+
+[27-Sep-20 07:30 PM] grewalsatinder#9653
+sometimes I get best questions in direct messages, and sometimes it ended up with detailed answers there.
+
+
+[27-Sep-20 07:30 PM] grewalsatinder#9653
+So, here's a latest answer for a single question I answered in a direct message:
+
+> Q. what are your big plans for your app?
+
+
+[27-Sep-20 07:31 PM] grewalsatinder#9653
+A. for the start I just want to make Shurli work to make micro-transaction trades
+the first PoC made it work via Golang + HTML interface
+the second PoC is a little bit improvement on user experience part, as it also generates a shielded address based on seed phrase
+also without requiring to have any blockchain daemon running, just using the code functions.
+the better target is to move this user interface to Flutter based UI, for which I'm working with a designer who is in the process of making wireframe of the UI/UX
+once that is finalised I'll move my efforts on making the UI in Flutter based on these designs
+The basic target is to make a the these subatomic swaps automated for big amounts, which gets traded in small chunks and managed in case the trade fails for N reasons.
+the later target is to get jl777's new subatomic swaps based JUMBLR coded in Shurli
+and even farther target is to port the whole functionality of the C code based subatomic to Golang based subatomic, so that I can extend it further to add more or many types of cryptocurrencies
+Of course I acknowledge that subatomic swaps on the basis of trust are inferior to atomic swaps. So, I think as things will be better in future to make it possible to do atomic swaps with currencies like PIRATE I can also move my attention to applying atomic swaps features to Shurli
+the software architecture design is a little difference in Shurli
+For Flutter UI based Shurli development I divided it in 2 parts
+Shurli-Server
+Shurli-Client(s)
+
+
+[27-Sep-20 07:31 PM] grewalsatinder#9653
+Shurli-Server is golang based gRPC code, which interacts with subatomic API, and any/all cryptocurrencies on the machine to make trades etc. I'll probably extend it to manage these wallets as well so it will be multi-currency wallet manager too in future.
+Shurli-Client(s) coded in Flutter is planned to be a single code, which compiles for all supported platforms. Including Windows/Mac/Linux/iOS/Android, and even Web Browser!!
+So, until then my designer is busy making the UI/UX designs, I'm trying to work things out in Shurli-Server part
+making things improve and ready for the user action flow process via gRPC, so that the clients which connect to the shurli-server can do all required actions from the GUI
+my idea is to make it possible to host Shurli-Server anywhere user wants.
+Even on their home laptops/desktop or small servers at home.
+Or if they want to host it on cloud VPS/Server etc.
+and allow them to connect to Shurli-Server via Shurli-Client application from anywhere, any device possible, including mobiles.
+Having this architecture will allow the users/trades to turn off their client applications after putting in their trades
+and the trading server, the Shurli-Server can be left running 24/7
+so all things automation of trading etc can be planned for it.
+The expected troubles would be to manage the multi-currencies in automated ways. But I think it has to be taken as a challenge to manage.
+Some times there needs to be human interaction needed to sort things out with the full blockchain daemons etc. But I think many of these can be put to mange via graphical interface.
+where, things are not reliant 100% on automation, but a level of semi-automation.
+This is a lot and lots of work!
+And I'm using the tools many of which are still new to me, much like Flutter/Dart programming language, and to some extent Golang too, but I'm getting better with Golang as I'm coding things day to day.
+
+{Reactions}
+👍 (7) 
+
+[30-Sep-20 09:03 PM] Mylo#8306
+Pinned a message.
+
+
+[02-Oct-20 03:19 AM] grewalsatinder#9653
+@t_dan https://github.com/Meshbits/Shurli/releases/tag/release_v0.26
+
+{Embed}
+https://github.com/Meshbits/Shurli/releases/tag/release_v0.26
+Release release_v0.26 · Meshbits/Shurli
+This is experimental and unfinished software. Use at your own risk! No warranty for any kind of damage!
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software...
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+
+[02-Oct-20 03:19 AM] grewalsatinder#9653
+you can try/test new build now 🙂
+
+
+[02-Oct-20 07:41 AM] SHossain#0007
+started testing latest Shurli in macOS. syncing remaining blocks now...
+
+
+[02-Oct-20 07:42 AM] SHossain#0007
+will go with compiling from source directly
+
+
+[02-Oct-20 07:57 AM] SHossain#0007
+```
+go get -u github.com/Meshbits/shurli
+# github.com/satindergrewal/saplinglib
+go/src/github.com/satindergrewal/saplinglib/saplinglib.go:16:10: fatal error: 'saplinglib.h' file not found
+#include "saplinglib.h"
+         ^~~~~~~~~~~~~~
+1 error generated.
+```
+
+
+[02-Oct-20 07:58 AM] SHossain#0007
+guess using direct source is a no go for now. will try the released package
+
+
+[02-Oct-20 08:39 AM] grewalsatinder#9653
+@SHossain need some environment setup
+
+
+[02-Oct-20 08:39 AM] grewalsatinder#9653
+updated ReadMe, please check "Setting up environment variables"
+
+
+[02-Oct-20 08:40 AM] SHossain#0007
+i removed `go` dir completely and wanted to clone fresh
+
+
+[02-Oct-20 08:40 AM] SHossain#0007
+will check the readme now
+
+
+[02-Oct-20 08:45 AM] grewalsatinder#9653
+I pushed the readme update in dev branch, just FYI 😛
+
+
+[02-Oct-20 08:46 AM] SHossain#0007
+yep... went to #feed-github to find that out 😄
+
+
+[02-Oct-20 11:21 AM] SHossain#0007
+using the release version when i use `./shurli start` i get this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/761654009718898728/Screenshot_2020-10-02_at_19.20.02.png
+
+
+[02-Oct-20 11:22 AM] SHossain#0007
+and, from latest `dev` branch source i get error with `make` command. sent you the detailed console output from terminal @grewalsatinder
+
+
+[02-Oct-20 11:25 AM] SHossain#0007
+actually followed this page to start Shurli https://support.apple.com/en-gb/guide/mac-help/mh40616/mac
+
+
+[02-Oct-20 11:34 AM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/761657330130878504/Screenshot_2020-10-02_at_19.29.22.png
+
+
+[02-Oct-20 11:35 AM] SHossain#0007
+all privkeys imported to their respective chains and started with pubkey. but, not sure why those red buttons are displaying warning. also, i have 1 PIRATE in my wallet and the balance is not shown
+
+
+[02-Oct-20 11:35 AM] SHossain#0007
+i verified all info via CLI
+
+
+[02-Oct-20 11:35 AM] SHossain#0007
+will restart computer and try again
+
+
+[02-Oct-20 01:07 PM] SHossain#0007
+found the issue. `config.json` wasn't customized for my node.
+
+
+[02-Oct-20 01:18 PM] SHossain#0007
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/761683610730233917/Screenshot_2020-10-02_at_21.18.10.png
+
+
+[02-Oct-20 01:19 PM] SHossain#0007
+swap completed successfully
+
+
+[02-Oct-20 01:21 PM] SHossain#0007
+24 seconds for this one
+
+
+[02-Oct-20 01:21 PM] SHossain#0007
+reverse pair completed successfully in 27 seconds
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/761684337425907732/Screenshot_2020-10-02_at_21.21.08.png
+
+
+[02-Oct-20 01:26 PM] SHossain#0007
+on macOS Catalina users might need to follow this guide `https://support.apple.com/en-gb/guide/mac-help/mh40616/mac` to Open the app first with `Control + Click` then selecting `Open`. otherwise the OS might block the app from launching. Affected apps are `shurli` & `subatomic` in my test
+
+
+[02-Oct-20 01:27 PM] SHossain#0007
+Next test will be on Debian 10
+
+
+[02-Oct-20 02:54 PM] Kaks | $ARRR Privacy Matters#6612
+Do i have to change something on `wallet.json` file?
+
+
+[02-Oct-20 03:09 PM] SHossain#0007
+where did you get `wallet.json` file?
+
+
+[02-Oct-20 03:12 PM] SHossain#0007
+i don't see this file anywhere
+
+
+[02-Oct-20 03:33 PM] Kaks | $ARRR Privacy Matters#6612
+on Shurli folder
+
+
+[02-Oct-20 03:37 PM] Kaks | $ARRR Privacy Matters#6612
+https://ibb.co/drY7D8f
+
+{Embed}
+https://ibb.co/drY7D8f
+Capture
+Image Capture hosted in ImgBB
+https://images-ext-2.discordapp.net/external/ULEJv7KyxcR_JW40Ba1Dp4P_mNtVgxsOjeShrxdjy2g/https/i.ibb.co/9N5GWQp/Capture.png
+
+
+[02-Oct-20 03:57 PM] SHossain#0007
+not sure how you got it there as i don't see any file like that in the release zip https://github.com/Meshbits/Shurli/releases/download/release_v0.26/shurli_win_v0.26.zip
+
+
+[02-Oct-20 03:59 PM] SHossain#0007
+also i haven't tested Windows release yet
+
+
+[02-Oct-20 04:00 PM] SHossain#0007
+so far i know you only need to edit the `config.json` file
+
+
+[02-Oct-20 04:01 PM] Kaks | $ARRR Privacy Matters#6612
+am using 0.26
+
+
+[02-Oct-20 04:05 PM] SHossain#0007
+yep, that's the zip link i posted above and i didn't see any `wallet.json` file inside
+
+
+[02-Oct-20 04:09 PM] Kaks | $ARRR Privacy Matters#6612
+the wallet.json it create once i start the shurli
+
+
+[02-Oct-20 04:10 PM] SHossain#0007
+if it's automatically created, then i guess you shouldn't edit it
+
+
+[02-Oct-20 04:14 PM] SHossain#0007
+now i see in my mac that the file is also created there containing new address, pubkey, passphrase and wif
+
+
+[02-Oct-20 04:14 PM] SHossain#0007
+but, i don't use them
+
+
+[02-Oct-20 04:14 PM] SHossain#0007
+you can leave that file as it is
+
+{Reactions}
+👌 
+
+[02-Oct-20 04:58 PM] Kaks | $ARRR Privacy Matters#6612
+https://ibb.co/nRW4Wj7 :KMD:
+
+{Embed}
+https://ibb.co/nRW4Wj7
+swap
+Image swap hosted in ImgBB
+https://images-ext-2.discordapp.net/external/Te_OIensUfGuYjeO2WK4-G0zbylCXD6IrZwpq6wpQBA/https/i.ibb.co/qxZhZpN/swap.png
+
+
+[02-Oct-20 05:05 PM] Kaks | $ARRR Privacy Matters#6612
+https://ibb.co/8Nt3pSv
+
+{Embed}
+https://ibb.co/8Nt3pSv
+swap2
+Image swap2 hosted in ImgBB
+https://images-ext-1.discordapp.net/external/jgYxwUFt9YM68bf_zdLeqERZp57g45qIGQO-BL6g-AU/https/i.ibb.co/4K3yG5v/swap2.png
+
+
+[02-Oct-20 07:17 PM] grewalsatinder#9653
+If there is no existing config.json, Shurli creat config.json and wallet.json
+
+{Reactions}
+👍 
+
+[03-Oct-20 03:42 PM] Tylor zkFS#8280
+Can you refresh my memory  on how subatomic swaps relate to DEXP2P?? I thought something was similar or very close - I've totally forgotten
+
+
+[03-Oct-20 03:44 PM] SHossain#0007
+dexp2p relays the orderbook
+
+
+[03-Oct-20 03:44 PM] SHossain#0007
+holds them in RAM for 1 hour
+
+
+[03-Oct-20 03:45 PM] Tylor zkFS#8280
+Subatomic swaps use dexp2p to work? Is dependent?
+
+
+[03-Oct-20 03:46 PM] Tylor zkFS#8280
+So we could put a video up on the order book? For N amount of zFunds?
+
+
+[03-Oct-20 03:48 PM] Tylor zkFS#8280
+Or would this be better with NTFS and a pirate checkout/
+
+
+[03-Oct-20 03:50 PM] Tylor zkFS#8280
+Bet you are testing it right now
+
+
+[03-Oct-20 06:45 PM] Tylor zkFS#8280
+Just having a small glitch in my theory of everything revolving around only those 2 technologies- maybe need to add ipfs to my imagination somehow
+
+
+[03-Oct-20 06:48 PM] Tylor zkFS#8280
+And I thought subatomic swaps were at around 10 seconds
+
+
+[03-Oct-20 06:54 PM] Tylor zkFS#8280
+- oh, it was based on qty of coin amount of volume or something....several small swaps - but if .0001 zToken = $1,000,000 then does it go by USD? -- maybe I should move to #dev-subatomic
+
+
+[03-Oct-20 07:00 PM] grewalsatinder#9653
+DEXP2P is p2p layer
+Subatomic swaps is dapp built on that layer
+
+
+[03-Oct-20 07:00 PM] grewalsatinder#9653
+Shurli is GUI app using subatomic swaps dapp
+
+
+[03-Oct-20 07:01 PM] grewalsatinder#9653
+Nothing is measured in usd
+The smallest amount possible is whatever smallest amount user can send using native wallets
+
+
+[03-Oct-20 08:46 PM] Tylor zkFS#8280
+And the largest amount sent via subatomic? In 1 transaction?
+
+
+[03-Oct-20 09:48 PM] grewalsatinder#9653
+there is no limit on largest amount in subatomic's C code.
+So, I guess it could be whatever the largest amount a blockchain allows you to send.
+Such limits of largest amount will be enforced in the GUI side, to ensure trades don't go more value than what the 51% attack value amount needed to reverse transaction.
+
+
+[03-Oct-20 09:48 PM] grewalsatinder#9653
+Without such limits, it is dangerous to make big amount trades using subatomic swaps
+
+{Reactions}
+👍 
+
+[04-Oct-20 11:24 AM] Mark81#4505
+subatomic swaps confirmation is coming from transactions memorypool, right?  is there any precaution taken to see if transactions are being overwriten with higher transaction fee?
+
+
+[04-Oct-20 03:43 PM] grewalsatinder#9653
+It's same as command sendtoaddress
+
+
+[04-Oct-20 03:43 PM] grewalsatinder#9653
+For now only KMD ecosystem
+
+
+[04-Oct-20 03:44 PM] grewalsatinder#9653
+Does KMD allows transmitted transaction overwritten with fee?
+
+
+[04-Oct-20 03:44 PM] grewalsatinder#9653
+I don't think so, or correct me if it already does
+
+
+[04-Oct-20 06:55 PM] grewalsatinder#9653
+Yes subatomic swaps only check on mempool
+
+
+[04-Oct-20 07:02 PM] Mark81#4505
+miners choose what they will accept on coming block. they prefer transactions with higher fee. can same transaction be sended with different fee so that it will be choosen over one that was sended before and be validated before. i think at least with bitcoin this is issue when blocks are full.
+
+
+[04-Oct-20 07:05 PM] grewalsatinder#9653
+I don't remember what it's called on bitcoin but there is a way in bitcoin which makes it possible to update existing sent transaction's fee with a bit more so that it gets included in the blocks and get confirmation from miners. I suspect KMD doesn't has that type transaction, unless other who know better on this part can correct me. CC @Alright
+
+
+[04-Oct-20 07:06 PM] Mark81#4505
+higher fee tx of course to is sended to another address so that funds arent coming to original address.
+
+
+[04-Oct-20 07:08 PM] grewalsatinder#9653
+I agree that mempool transaction are not secure way of trading, it must be having confirmation to be treated secure.
+
+
+[04-Oct-20 07:09 PM] grewalsatinder#9653
+The current code of subatomic doesn't allow optional increase of confirmation, but when I will try to move it's logic to go I will add such flexibility to complete trades with confirmation.
+
+
+[04-Oct-20 07:10 PM] grewalsatinder#9653
+@jl777c m correct on confirmation part in existing code, right?
+
+
+[04-Oct-20 07:15 PM] Mark81#4505
+so it also works best with coins that tx fees are low since it fee is paid n times of split transactions. with bitcoin it wiuld be exoensive since fees are high. yeah logic could improve  that it is with more valuable coins even splitting it to several network confirmations to get more secure. there is channel opened between two parties? some like in lightning network?
+
+
+[04-Oct-20 07:20 PM] grewalsatinder#9653
+Agree, we can even think of utilizing channels CC if it will come to improving logic and putting higher trust with only notarized funds for fast and micro transaction based swaps. But then it is sort of limited to KMD ecosystem which supports channels CC. that's too far of target at this moment. Until then I think just confirmation flexibility will help.
+
+
+[04-Oct-20 07:30 PM] Mark81#4505
+you're doing there great work. keep it up man 😃,!
+
+{Reactions}
+💯 
+
+[04-Oct-20 07:54 PM] grewalsatinder#9653
+Thanks mate
+I hate getting stuck on stuff long
+Trying what I can 😁
+
+
+[04-Oct-20 10:00 PM] denio#8067
+> Agree, we can even think of utilizing channels CC if it will come to improving logic and putting higher trust with only notarized funds for fast and micro transaction based swaps. But then it is sort of limited to KMD ecosystem which supports channels CC. that's too far of target at this moment. Until then I think just confirmation flexibility will help.
+@grewalsatinder I think you should wait for the notarization on each chain. Trading in micro swaps is a good idea, but what prevents me from making 1000 accounts? (maybe some sort of x KMD insurance/account the user must deposit?) In my opinion only after the next notarization the swap is rly safe, or do i miss something here?
+
+
+[04-Oct-20 10:05 PM] grewalsatinder#9653
+You are risking the small amount doing trades the current way
+If it fails you stop doing further trades
+Remember the example of doing multiple small amount trades to complete big amount trade?
+
+
+[04-Oct-20 10:05 PM] grewalsatinder#9653
+If want to do big amount don't use subatomic
+
+
+[04-Oct-20 10:05 PM] grewalsatinder#9653
+Better use atomic swaps
+
+
+[04-Oct-20 10:06 PM] denio#8067
+well 1000 micro trades are a big amount at the end, or? Sure the user maybe just lost 1 coin of KMD/HUSH/ARRR, but the attacker have much gains
+
+
+[04-Oct-20 10:07 PM] denio#8067
+this is only a problem when the volume is higher, i aggree
+
+
+[04-Oct-20 10:07 PM] denio#8067
+but the problem is real in my opinion
+
+
+[04-Oct-20 10:08 PM] grewalsatinder#9653
+How? You doing 100 ARRR trade, each trade exchanging 1 ARRR, lose 1 ARRR and stop trading further. Bad trader gets 1 ARRR for free. You lost small amount. That  is the current logic
+
+
+[04-Oct-20 10:08 PM] denio#8067
+if i am doing 1000 Trades with 1 coin each, i have 1000
+
+
+[04-Oct-20 10:09 PM] denio#8067
+if i am doing that fast with 1000 accounts, what prevents me from that?
+
+
+[04-Oct-20 10:12 PM] grewalsatinder#9653
+You mean doing simultaneously trade of 1 ARRR for example with 1000 different traders? 😅
+Unnecessary load on machine.
+Not a good idea if want to do it this way with subatomic swaps.
+Better use atomicdex maybe
+Or just try doing small trades with single trader one after another, with automatic trading, which weill stop as soon as any single trade from multiple trades fails.
+
+
+[04-Oct-20 10:12 PM] grewalsatinder#9653
+You want quick trades, and huge amounts, I guess you can't have both
+
+
+[04-Oct-20 10:12 PM] denio#8067
+i am talking of the attacker view. I would not spin up 1000 accounts on one machine ofc
+
+
+[04-Oct-20 10:13 PM] denio#8067
+if your required conf is under the next dpow block, i think there is an attac vector
+
+
+[04-Oct-20 10:13 PM] grewalsatinder#9653
+There is also a trust list of pubkeys
+You would better start with that
+
+
+[04-Oct-20 10:14 PM] grewalsatinder#9653
+And try new trader's and over time will build trust
+
+
+[04-Oct-20 10:14 PM] grewalsatinder#9653
+Like ppl build over time doing trades with each other
+Like either meeting in person or over messaging chat based trading etc.
+
+
+[04-Oct-20 10:15 PM] grewalsatinder#9653
+Subatomic at it's current state is in no way a replacement to atomic swaps
+
+
+[04-Oct-20 10:15 PM] denio#8067
+thats a nice idea...something like "rate your trade"...i like it
+
+
+[04-Oct-20 10:15 PM] denio#8067
+> Subatomic at it's current state is in no way a replacement to atomic swaps
+@grewalsatinder i know, but if its the only option of a zaddr swap ppl will use it more is my guess
+
+
+[04-Oct-20 10:15 PM] denio#8067
+so the volume is higher
+
+
+[04-Oct-20 10:15 PM] denio#8067
+and non experience user are there
+
+
+[04-Oct-20 10:16 PM] grewalsatinder#9653
+True
+
+
+[04-Oct-20 10:17 PM] grewalsatinder#9653
+That is why there will be limits added on how much big amount a single trade can be, also with the levels of flexibility that a user want to add to the trades which doesn't put user to too much risk or adjust their risk taking as they wish.
+
+
+[04-Oct-20 10:19 PM] denio#8067
+I dont see the risk in a single trade. I see the risk in much single trades at the same time, from one attacker
+
+
+[04-Oct-20 10:20 PM] denio#8067
+But i see it will be address if the volume gets serious 🙂 👍
+
+
+[04-Oct-20 10:22 PM] grewalsatinder#9653
+I guess there should be some kind of friends vetting of pubkeys which others can try. So friends of friends vetting makes a kinda bubble of trust between them. I saw this kind of network in another p2p project called cjdns.
+Think of this idea and brainstorm if you like it, how you think it can be used using existing DEXP2P protocol.
+Food for thought.... 🤔
+
+{Reactions}
+😋 
+
+[05-Oct-20 06:17 AM] SHossain#0007
+my understanding is, there is risk of using higher fee and alice not paying. Shurli can limit the amount that can be swapped per alice. bob nodes are trusted and they will not be doing anything dodgy. only issue is the alice part. if Shurli limits new users to swap from 1-10 KMD equiv, that can reduce the loss factor for bob. (maybe i'm wrong)
+
+
+[05-Oct-20 06:18 AM] SHossain#0007
+what i meant to say is Shurli can put some checks and restrictions to save bob
+
+
+[05-Oct-20 06:19 AM] SHossain#0007
+also, while subatomic's primary goal was to make fast micro transactions and not use large amounts, that reduces the loss of funds or scam significantly
+
+
+[05-Oct-20 07:03 AM] denio#8067
+> I guess there should be some kind of friends vetting of pubkeys which others can try. So friends of friends vetting makes a kinda bubble of trust between them. I saw this kind of network in another p2p project called cjdns.
+> Think of this idea and brainstorm if you like it, how you think it can be used using existing DEXP2P protocol.
+> Food for thought.... 🤔
+@grewalsatinder i like the idea. Something like "allow trades only with trusted persons (maybe as setting for bob). This will have some entry barriers for new users, but i think it could be worth for the beginning.
+
+{Reactions}
+💯 
+
+[05-Oct-20 07:07 AM] denio#8067
+> my understanding is, there is risk of using higher fee and alice not paying. Shurli can limit the amount that can be swapped per alice. bob nodes are trusted and they will not be doing anything dodgy. only issue is the alice part. if Shurli limits new users to swap from 1-10 KMD equiv, that can reduce the loss factor for bob. (maybe i'm wrong)
+@SHossain The problem i see is, what prevents me from creating 1000 alice accounts and trade for 1000-10000kmd? I mean, most chains (except kmd itself) would cost me less to attack, then i have to pay via nicehash or fee. So in my opinion, shurli should prevent a user from making much bot accounts that trade small amounts and exclude this transaction (after receiving the swap funds) from mempool/blocks.
+
+
+[05-Oct-20 07:08 AM] denio#8067
+This could happen via the rating system @grewalsatinder mention, or with a amount in kmd that every user must hold in a sort of insurance. If they trick someone these insurance funds are lost for them.
+
+
+[05-Oct-20 07:09 AM] denio#8067
+I have no perfect solution tbh
+
+
+[05-Oct-20 07:09 AM] SHossain#0007
+`what prevents me from creating 1000 alice accounts and trade for 1000-10000kmd?`
+nothing prevents you from creating 1000 or N number of alice nodes. bob nodes can limit their losses by creating orders of max volume of 10 KMD. in this way you can't swap 1000 KMD in 1 swap. you need to perform 100 swaps
+
+
+[05-Oct-20 07:10 AM] denio#8067
+exactly
+
+
+[05-Oct-20 07:10 AM] denio#8067
+isnt it possible to make 100 swaps?
+
+
+[05-Oct-20 07:10 AM] denio#8067
+with 100 alice bots?
+
+
+[05-Oct-20 07:10 AM] denio#8067
+if there is only 1 bob you are right, but i guess they will be more
+
+
+[05-Oct-20 07:10 AM] SHossain#0007
+it is possible to make 100 swaps and beyond
+
+
+[05-Oct-20 07:11 AM] SHossain#0007
+there will be more bobs, yes
+
+
+[05-Oct-20 07:12 AM] SHossain#0007
+so far from my understanding, these restrictions and checks will be developed at a later stage. currently the GUI still being developed and at beta stage.
+if you have suggestions to make this better and implement these restrictions, you are more than welcome 🙂
+
+
+[05-Oct-20 07:13 AM] SHossain#0007
+(i'm not a security expert)
+
+
+[05-Oct-20 07:13 AM] denio#8067
+> so far from my understanding, these restrictions and checks will be developed at a later stage. currently the GUI still being developed and at beta stage.
+> if you have suggestions to make this better and implement these restrictions, you are more than welcome 🙂
+@SHossain Please dont see my comments as any sort of critic to shurly! I rly like the work @grewalsatinder is doing!
+
+{Reactions}
+👍 (2) 
+
+[05-Oct-20 07:14 AM] SHossain#0007
+we love constructive feedback and welcome any suggestion make things better
+
+{Reactions}
+💯 ✅ 
+
+[05-Oct-20 04:50 PM] grewalsatinder#9653
+@t_dan 👆
+
+
+[05-Oct-20 04:50 PM] grewalsatinder#9653
+@SHossain
+
+
+[05-Oct-20 04:52 PM] SHossain#0007
+thanks. i DM'd @t_dan
+
+{Reactions}
+👍 
+
+[06-Oct-20 02:59 AM] jl777c#5810
+a reputation system is needed as shurli scales up
+
+
+[06-Oct-20 03:00 AM] jl777c#5810
+and the general advice would be to not trade any large amounts with newbie traders
+
+
+[06-Oct-20 03:00 AM] jl777c#5810
+still someone can create an entirely fake set of pubkeys that are all trading among themselves, so really for best safety is to trade only with people that you have some reason to believe isnt a scammer
+
+
+[06-Oct-20 03:01 AM] jl777c#5810
+bobs are trusted for subatomic swaps
+
+
+[06-Oct-20 03:01 AM] jl777c#5810
+be careful what bob you trade with
+
+{Reactions}
+💯 👍 (2) ✅ (2) 👆 
+
+[06-Oct-20 05:14 AM] Tylor zkFS#8280
+Amount of trades made with different traders(pubkeys) could still be spoofed - best way?? Probably a website - mang... Ping time, Average Vol, Amount of trades with different traders. - Easier to set up an instant ban on a bad Bob? Is there instant evidence that the Bob is bad? - Reputation score going to 0 instantly.... Bob tracking within DEXP2P
+
+
+[06-Oct-20 06:57 AM] Tylor zkFS#8280
+Date of first trade would help
+
+
+[06-Oct-20 11:33 PM] grewalsatinder#9653
+spoofed? blockchain transactions IDs means they are permanent record on the blockchain. Either the pubkey did the trade or not.
+there is no such rating or scoring tech which is decentralised and peer-to-peer in dexp2p.
+subatomic dapp has the `authorised.json` file with the list of `handles` and `pubkey` associated with that handle.
+
+
+[06-Oct-20 11:33 PM] grewalsatinder#9653
+you trust these set of pubkeys
+
+
+[06-Oct-20 11:34 PM] grewalsatinder#9653
+and add your own set of pubkeys of traders/bobs you trust to it on your local machine, if you wish to.
+
+
+[06-Oct-20 11:34 PM] grewalsatinder#9653
+that's all it in current trust factor
+
+
+[07-Oct-20 07:26 AM] Tylor zkFS#8280
+Spoofed was the wrong term..... didn't know there was a list of "trusted" "authorized" built in. So the only way to see an offer in the orderbooks is with publeys of "authorized" .
+Makes sense---for now
+
+
+[07-Oct-20 07:33 AM] Tylor zkFS#8280
+Spoof = hoax or trick (someone) - and without an "authorized" list or history of a pubkey, it seems it would be easy. JS - now we just hope the person(s) creating this list does not make a mistake when vetting. You can store a lot of information in a decentralized way and I am sure you are aware of the many ways it could be done.
+
+
+[07-Oct-20 07:34 AM] Tylor zkFS#8280
+With minimal user input
+
+
+[07-Oct-20 06:52 PM] grewalsatinder#9653
+> Spoofed was the wrong term..... didn't know there was a list of "trusted" "authorized" built in. So the only way to see an offer in the orderbooks is with publeys of "authorized" .
+> Makes sense---for now
+no worries :)
+yes, there is a community/github maintained authorised list of handle/pubkey list.
+The orderbooks shows the authorised list with a checkbox next to it, like you see on twitter verified account handles, to highlight which orders/traders are trusted in that orderbook.
+
+
+[15-Oct-20 06:11 AM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458865442056830977/766287143705772052/Screen_Shot_2020-10-16_at_2.10.53_AM.png
+
+{Reactions}
+shexy (2) 👀 (2) 
+
+[15-Oct-20 06:12 AM] grewalsatinder#9653
+tested desktop app of Shurli, based on Lorca, a go language + chrome based solution.
+
+
+[15-Oct-20 06:12 AM] grewalsatinder#9653
+chrome must be installed on machine to make this desktop app work.
+
+
+[27-Oct-20 09:10 AM] Loo✟z#2749
+@denio you helping grewal with this ?
+
+
+[28-Oct-20 12:56 AM] denio#8067
+Sorry just saw it now. Ping me if i can help with something (like testing or whatever) 🙂 👍
+
+
+[08-Nov-20 06:44 AM] Tylor zkFS#8280
+# github.com/satindergrewal/saplinglib
+../../go/src/github.com/satindergrewal/saplinglib/saplinglib.go:16:10: fatal error: saplinglib.h: No such file or directory
+ #include "saplinglib.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+
+
+[08-Nov-20 06:46 AM] Tylor zkFS#8280
+export CGO_CFLAGS="-I$HOME/go/src/github.com/satindergrewal/saplinglib/src/"
+export CGO_LDFLAGS="-L$HOME/go/src/github.com/satindergrewal/saplinglib/dist/linux -lsaplinglib -lpthread -ldl -lm"
+
+
+[08-Nov-20 06:47 AM] Tylor zkFS#8280
+go get -u github.com/satindergrewal/saplinglib
+
+
+[17-Dec-20 04:21 AM] grewalsatinder#9653
+From Oct mid to Nov end, I did not do any dev work.
+There was something I was doing, and didn't get good success, and some family events left me bit depressed, so didn't felt like doing anything after that.
+That, means there hasn't been any update on Shurli's development from almost 2 months.
+
+After the AtomicDEX's move towards geo-blocking decision I thought about how I'd like to make changes to my approach on building Shurli. Even though the decentralised architecture of Shurli's design doesn't require any legal actions like imposing any geo-blocking or KYC etc. There is no single central part in Shurli's architecture as is as of current setup requirements.
+
+In recent months I have been trying to add Verus's DeFi APIs and support to `kmdgo` library which helps code Komodo ecosystem project with a bit of ease and ready to use library functions to interact with blockchain. Added good chunk of Verus' API to it already and and add further as I move forward. The idea was to upgrade the existing Proof of Concept Shurli which is coded in Golang + HTML, and make it use VerusID and use DeFi trading in Shurli.
+
+The alternative approach which could better my position creating a decentralised exchange software as a Meshbits Limited company, I thought of coding the backend so that it can be modular. That means, I mostly focus on creating the backend libraries, and code which allows me as well as others add different pieces of software like add-ons, or plug-ins. Much like people experience a CMS (WordPress, Joomla etc.) website these like. This way, I can focus on enhancing the core of the software, and make initial example add-on/plug-ins like Wallet(s), and make it easy to install and manage for end users.
+
+Of course all of this has to be, and will be built open source, and with no revenue general model at start. But, later once this framework, and core is ready, the add-ons/plug-ins can be possibly useful to create which can generate revenue.
+
+
+[17-Dec-20 04:22 AM] grewalsatinder#9653
+I don't have good thoughts on those later as of yet, but sure a modular extendable system can be extended to generate revenues.
+
+
+[17-Dec-20 04:22 AM] grewalsatinder#9653
+be it payment processor, explorers, etc. etc.
+
+
+[17-Dec-20 04:23 AM] grewalsatinder#9653
+If my focus moves to this new modular approach of Shurli-Core, that means I'll leave current Shurli which is built using Golang + HTML just as a Proof of Concept only.
+
+
+[17-Dec-20 04:24 AM] grewalsatinder#9653
+The Proof of Concept is actually good enough PoC to prove that DEXP2P based subatomic swaps works, and how these can be extended.
+
+
+[17-Dec-20 04:25 AM] grewalsatinder#9653
+Other developers can learn from its working idea and make better products of their own, and that is actually what we all need. More developers in ecosystem, and more projects utilising Komodo Platform tech.
+
+
+[17-Dec-20 04:27 AM] grewalsatinder#9653
+I'll however then focus on creating the Shurli-Core, the set of frameworks and libraries to facilitate the developers to create their applications using it, and my coding focus would be around Golang, C, Dart, Flutter (at least as of now, these are the languages I'm mainly using to build my code).
+
+
+[17-Dec-20 04:28 AM] grewalsatinder#9653
+My first and initial target to build an add-on would be a Wallet using this Shurli-Core framework, and then anything else. Like subatomic swaps based exchange etc.
+
+
+[17-Dec-20 04:29 AM] grewalsatinder#9653
+When I'll reach the point to add or make a DEX add-on, then I'll think about adding Verus DeFi to that DEX.
+
+
+[17-Dec-20 04:30 AM] grewalsatinder#9653
+But, as I think the framework and libraries which will be utilised to build Shurli-core, will have the VerusID support from the beginning.
+
+
+[17-Dec-20 04:30 AM] grewalsatinder#9653
+Been thinking to write this down for a week or so, and thought of just expressing whatever comes in mind here on chat.
+
+
+[17-Dec-20 04:32 AM] grewalsatinder#9653
+Other than this work, I helped a bit to CHIPS project, and currently trying to help with upgrading the lightning-c project to make it work with Tor Network, so that CHIPS's Pangea Poker game could be played over Tor right from user's home, with minimal setup efforts.
+
+
+[17-Dec-20 04:33 AM] grewalsatinder#9653
+Once this is solved, you can expect another add-on for Shurli-core to add to which will be accessible to end users upon Shurli's installation as I envision it.
+
+
+[17-Dec-20 04:34 AM] grewalsatinder#9653
+Whatever I'm doing to help around, will all add to what I want to make with Shurli, kind of a massive hub as I understand it.
+
+
+[17-Dec-20 04:35 AM] grewalsatinder#9653
+I actually did try to make something like that back in 2015, with a project named SuperMESH, but it was bit different, but you can get a little idea what I'm going towards with what I'm thinking.
+
+
+[17-Dec-20 04:36 AM] grewalsatinder#9653
+for reference: https://nxtforum.org/nxtservices-releases/spacemesh-org-and-supermesh-io-asset/
+
+
+[17-Dec-20 04:38 AM] grewalsatinder#9653
+Unfortunately I don't have enough funds to hire devs, and I don't have a for sure revenue modal to give any assurity if what I'm trying to build will give any kind of income to either me or anyone.
+
+
+[17-Dec-20 04:39 AM] grewalsatinder#9653
+That's actually been another reason for not feeling motivated to do anything for past month. Kind of feeling alone and burned with so much blockers which I couldn’t get past. It's not about giving up, it's just feeling getting tired, and then unmotivated.
+
+
+[17-Dec-20 04:41 AM] grewalsatinder#9653
+I can't stop trying, so I usually take a break, and then get back on to trying again, from some other end and get back to where I was stuck. It takes me time to get back on track after such situation.
+
+
+[17-Dec-20 04:43 AM] grewalsatinder#9653
+Will give next update when I'll have something more.
+Hope you have nice and happy festive days ahead. Wishing you all the best.
+- Satinder
+
+@everyone
+
+{Reactions}
+👍 (27) 👌 (11) ❤️ (20) KMD (9) dancing_penguin (6) 🤗 (3) 🚀 
+
+[17-Dec-20 05:43 AM] grewalsatinder#9653
+_ the link referring to is about the mesh network. Just to be clear, I'm not going to work on a meshnet project_
+
+
+[17-Dec-20 09:08 AM] ejuliano#8606
+wishing you all the best @grewalsatinder ... i believe in you!
+
+{Reactions}
+👍🏼 (2) 🙂 (2) 
+
+[17-Dec-20 09:37 AM] Komodefi#5638
+Thanks for all of your contributions to this community over the years, and remember that one of the most important things is to live a life free from the torment of regret. You could walk away from crypto tomorrow knowing that you did more to advance the cause of cryptocurrency than 99.9999% of the people in this crazy space.
+
+{Reactions}
+👍🏼 (2) 🙂 (2) 
+
+[17-Dec-20 12:27 PM] grewalsatinder#9653
+Thanks for some kind words @ejuliano @Komodefi 🙂
+
+
+[17-Dec-20 01:07 PM] Mylo#8306
+@grewalsatinder i would encourage an explorer to be built as a first project using existing skills/code - currently the whole ecosystem relies on insight which runs an older npm version.
+
+also, extending explorer functionality with CC calls would make for more use of the added kmd stuff.  also KV.
+with the 'best' explorer available in the ecosystem, there is no competition except insight.
+
+https://github.com/forbole/big-dipper is a block explorer for the cosmos ecosystem. there is another one, but it is used a lot less.  forbole (the company behind this one) is active in several cosmos projects and enjoys good relationship building through their offering.
+
+the commercialization of shurli currently seems challenging atm, i agree.
+
+
+[17-Dec-20 01:56 PM] grewalsatinder#9653
+@Mylo a month ago, I actually worked on creating a block explorer for Verus project. And most of it actually works.
+I used the code of https://zcha.in explorer and made some modifications to it, and it does synchronise blockchain with the database.
+I have this go code flexible enough to give command line parameters to the binary to connect to any smart-chain and have it synced as explorer to the database.
+But as of this moment, I only did the synchronisation code, of blockchain to RethinkDB.
+There was absolutely no help or documentation on zcha.in explorer's code files we had, but I added whatever comments describing each steps in the code.
+In the early days of Komodo, a dev with the handle "lustro" created https://zcha.in explorer and hosted https://kpx.io explorer for Komodo. Later he discontinued hosting that explorer and gave it's files to Komodo community members in faith it will be used to host Komodo's own explorer managed by the community members. In 5 years, nobody could do much about it, coz I guess skillset and time was requirment, and with absolutely no instructions,, help, or documentation it was kinda impossible to host that chain explorer.
+Now that I have read the code, understand it, made it's part work, I can provide code as open source public code.
+
+It is mostly/majorly derived from zcha.in's code base, and "lustro" never gave any licence files or any solid inidations on it's use with any license terms, I did try to contact via email with zcha.in explorer's company, but never recieved a reply back.
+
+So, I'll just open source the code I made (not the whole code of zcha.in explorer which we have as a copy in good faith, from it's original author). I don't really expect any copyright claims, but in any case it happens, the code open sourced which is my effort, will sure help the community extend it.
+
+
+[17-Dec-20 01:57 PM] grewalsatinder#9653
+I made it's blockchain to RethinkDB sync work in like 3-4 days, and tried so hard to make it work to show correct balance of Veruscoin, but failed to do that.
+
+
+[17-Dec-20 01:57 PM] grewalsatinder#9653
+It was that point when I felt disheartened, alone, and unmoviated to do anything else after that.
+
+
+[17-Dec-20 01:59 PM] grewalsatinder#9653
+I'll share it's file what I have worked so far on my github repo, and list the issue of showing wrong balance of Verus there.
+If you or anyone can help fix that issue, it is already usable for Verus and all Komodo assetchains.
+At least the synchronisation of blockchain to database.
+But, the API, and GUI will need to be built for it to host it as proper explorer.
+
+
+[17-Dec-20 01:59 PM] grewalsatinder#9653
+So, I have the fundamental basic blocks kind of ready for the primetime of Shurli, and as I'll work on Shurli's core, these will be used there and help make it a bit solid project gradually.
+
+
+[17-Dec-20 02:01 PM] grewalsatinder#9653
+But, I can't do it all fast and quick alone. I'd expect some help in development parts from community. I can't offer money, but I can offer solutions being built for the ecosystem, which can help raise value of the ecosystem.
+
+
+[17-Dec-20 03:27 PM] Loo✟z#2749
+You are never alone bro
+
+
+[17-Dec-20 03:28 PM] Loo✟z#2749
+message me and I will bring you inside the pirates R & D team so you guys can mutually benefit each other
+
+
+[17-Dec-20 03:28 PM] Loo✟z#2749
+they are mostly non crypto devs just starting out
+
+
+[17-Dec-20 03:30 PM] Loo✟z#2749
+I like the modular idea as well
+
+
+[17-Dec-20 03:31 PM] Loo✟z#2749
+If it also assists in cutting down development costs and work its sounds amazing
+
+
+[17-Dec-20 03:31 PM] Loo✟z#2749
+Pirate Dex Shurli Plugin.. works for me
+
+
+[17-Dec-20 03:59 PM] grewalsatinder#9653
+@Loo✟z I know community supports me mate. And I love being here, and one strong reason I managed to work with this community since early 2015 till now, and yet my mind and heart belongs here. Because people here are appreciative and support of skills and has kind of similar value set as mine.
+I learned so far that, if I'm alone, there are reasons for that, and probably mostly it's my way of working. I understand those shortcomingsa and trying to fix those.
+@ns408 is the one I work very closly on backend development stuff, and he's sometimes gives me advice on my work.
+From previous conversations with him, I understood that I need to explain and lay out my vision on what I'm trying to do, and put those in words, and tasks/milestones so it is clearly visible to other developers around. It will help the community understand what I'm trying to do, and how big a task it is for a single developer to do it, with limited to midium skillset in what I'm trying to do all things together.
+That is more like a project management tasks, which I haven't been mananging good in my previous attempts making projects, so I guess I should do that work a little bit, and get the writings and project management tasks done before I do coding and research further.
+
+Doing so, I hope it helps clear my vision and the scope of project that I'm moving forward with, and that can help understand what needs to be done to achive the final goal of project. It can also help clear instuctions and requirements for 3rd paty developers to take the tasks from those lists and contribute if they can. I hope this different approach helps me getting some developer help from other developers in ecosystem.
+
+I'd preferabbly like to be exposed to as minimal other discords and channels as possible, unless it is desperate situation and need of help from other developers. So, will keep in mind to your R&D group mate 🙂 @Loo✟z
+
+
+[17-Dec-20 04:00 PM] grewalsatinder#9653
+I should also clear, that you shouldn't expect a subatomic DEX soon if I'm busy with the Shurli-core. I'd still encourage you or PIRATE community start a project taking idea from what I made as proof of concept of Shurli.
+
+
+[17-Dec-20 06:38 PM] Tylor zkFS#8280
+My son is going to Stanford for CS next year....I guess we have to wait for the master to return....
+
+
+[17-Dec-20 06:39 PM] grewalsatinder#9653
+I don't get what you mean mate.
+
+
+[17-Dec-20 06:41 PM] Tylor zkFS#8280
+To finish the great subatomic system that we will use daily in the future
+
+
+[17-Dec-20 06:42 PM] Tylor zkFS#8280
+Oh...you just meant DEX part
+
+
+[17-Dec-20 06:45 PM] grewalsatinder#9653
+are you implying I can't do it? and your son can after he finishes his CS degree?
+
+
+[17-Dec-20 06:48 PM] Tylor zkFS#8280
+Of course not...I just missed your wording....Hopefully I can recruit him for this space...you would appreciate his ability to see things from the outside in....
+
+
+[17-Dec-20 06:49 PM] Tylor zkFS#8280
+This comment
+
+
+[17-Dec-20 07:06 PM] grewalsatinder#9653
+Definetly mate. Always welcome new developers in community. Would be more than happy to have him here and contributing to the project(s) wherever possible. 🙂
+
+
+[17-Dec-20 07:07 PM] grewalsatinder#9653
+yes, it'll be built once the Shurli-core is there to build a DEX addon/plugin.
+
+
+[17-Dec-20 07:08 PM] grewalsatinder#9653
+Since there is no timelime, I can not give any certainity, which means clearing on the expectations. Hence that comment.
+
+
+[17-Dec-20 07:26 PM] grewalsatinder#9653
+@Mylo @everyone here's the source code of Blockchain explorer that I attempted to make a month ago, and tested mostly with the VRSCTEST network. This code already has the bits which filters and sync the VerusID data to the RethinkDB.
+
+At the moment, the balance of VRSC blockchain doesn't show correct in VRSCTEST network, mostly because of needing to do some extra code conditions which are spcific to Verus's DeFi features. ** I need help fixing this issue, if anyone can offer that help please.***
+
+{Reactions}
+👍 (5) 💯 (4) 
+
+[17-Dec-20 07:26 PM] grewalsatinder#9653
+https://github.com/Meshbits/khoji
+
+{Embed}
+https://github.com/Meshbits/khoji
+Meshbits/khoji
+Blockchain Explorer for Komodo Platform and it's ecosystem smartchains - Meshbits/khoji
+https://images-ext-2.discordapp.net/external/oG1NSLO43GsOfVF2_OLOhN4Ytj7loW9-2SfeGfRCOD0/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/37174660
+
+{Reactions}
+👍 (7) 
+
+[18-Dec-20 11:55 AM] alkimi#1111
+@grewalsatinder#9653 
+Stuff like this and core libraries to work with are perfect. 
+I haven't had anything to show or discuss yet, but I'm completely immersed in subatomic swaps and I'll be continuing to work towards getting a dex working, so hopefully that will help you to focus on what you want to do without worrying about system design or assembly. 
+Your code is good stuff, it's been good times reading every line of shurli, it's almost like getting to know you lol
+
+{Reactions}
+👍🏼 (2) 😁 labs 
+
+[18-Dec-20 02:41 PM] grewalsatinder#9653
+Looking forward to your work too mate 🙂👍🏼
+
+{Reactions}
+rum (2) KMD 
+
+[19-Dec-20 07:44 PM] grewalsatinder#9653
+@alkimi Shurli's code will help you understand how I managed the PoC to do swaps via GUI. I think even as a raw concept it clears that how to handle subatomic swaps via GUI.
+
+
+[19-Dec-20 07:45 PM] grewalsatinder#9653
+If you are new to Golang and not getting hang of it yet, you can chose to code your version of subatomic swaps DEX in your favoruite language and I'll be happy to give any kind of guidance etc there where possible. 🙂
+
+
+[20-Dec-20 05:31 AM] alkimi#1111
+I'm actually enjoying it quite a bit, I like the way the router works, the general context is more intuitive than  angular
+
+{Reactions}
+👍🏼 
+
+[20-Dec-20 02:28 PM] grewalsatinder#9653
+Glad to hear mate 🙂👍🏼
+
+
+[20-Dec-20 06:09 PM] grewalsatinder#9653
+@t_dan got a bit of time to sit on coputer for few minutes. continuing from verus discord's:
+the main difference in the new approach is the backend architecture, and the software stack used to build the whole DEX and software solution.
+- current PoC is built using HTML + Golang.
+- All the code of Golang + HTML is coupled tightly together, and I wish to make a modular design framework.
+- I am myself OK level with HTML/CSS/JavaScript to make a PoC to very good levels, but I think production levels would need better langauge stack and more modern stack to build nice software. And I have seen with the software stack that I use for HTML/CSS/JavaScript/jQuery interface, is old and is not as flexible and rich enough as new frameworks are, like React.js etc. And I also wish to get away from JavaScript software stack (just my personal pereference and thoughts about software language choices and my own efficiency in those languages).
+- So my choice for making a software is something which is not web tech stack, and which is also compatible to build for all platform architectures. I done some pre-liminary tests and built some interface using Flutter/Dart langauge which does support Windows/macOS/Linux/iOS/Android/Web(via WASM). I lean more towards that.
+- That means the User interface would be built seperate and connecting to the backend of the Shurli-Core via API, could be RPC API, gRPC API. And when I thought of this architecture, I devided it in 3 parts:
+  1. Shurli-Core
+  2. Shurli-Server
+  3. Shurli-Client(s)
+
+
+[20-Dec-20 06:09 PM] grewalsatinder#9653
+I should explain a bit on my idea of Shurli's core. It is this:
+**1. Shurli's Core:** A framework, which allows using the go language libraries like `kmdgo` (KMD RPC API and utilities for managing handling smart chain actions), `saplinglib` (creating and managing of zcash sapling address) and any new go language libraries.
+
+
+[20-Dec-20 06:11 PM] grewalsatinder#9653
+**2. Shurli-Server:** The server which is built using Shurli's core framework, using Go language. It is a gRPC API service provider. Shurli server links directly with `komodod`, or other blockchain daemons directly. Also, connects with the `subatomic` binary/daemon. Receives request from _Shurli-Client(s)_ to perform actions like wallets actions (`sendtoaddress`, `listtransactions` etc.). Blockchain daemons like `komodod` and any other DEX specific binaries like `subatomic` are located along or on the same server where _Shurli-Server_ is installed, so that _Shurli-Server_ executes these wallet and DEX actions.
+
+
+[20-Dec-20 06:14 PM] grewalsatinder#9653
+**3. Shurli-Client(s):** The client that I worked on side by side already is a Flutter code based client, compilable to both Desktop (MacOS, Linux, Windows) and Mobile (iOS and Android), connects to a gRPC of _Shurli-Server_. _Shurli-Client_'s purpose would to be the graphical interface for end users, which sends request to the server, and let the server do it's operations. _Shurli-Client(s)_ can be closed/turned off/shutdown after sending some actions to _Shurli-Server_. For example sending a transaction request to server, or if a `subatomic` DEX module is built and installed on _Shurli-Server_, then setup a trade ask/bid via _gRPC API_ on _Shurli-Server_, and close the _Shurli-Client_ application. It means the end user doesn't has to always open the client app after placing trade.
+
+Benefit of –Shurli-Server_ is it can be installed on a Home server, a cloud server or VPS etc. The _Shurli-Server_ has to be installable and manageable by each user themselves, so it'll be made with semi-automation design thoughts, coz past experience tells blockchain managed on nodes can not be fully automated, or at least it needs extensive gradual enhancement in automation.
+
+Once this **Shurli framework**, server/client is coded, I can also chose to start coding a `subatomic` DEX module and a **Jumblr module** for Shurli based framework. And can proceed with legal stuff if I need to at that time, if really required.
+
+
+[20-Dec-20 06:14 PM] grewalsatinder#9653
+That's the idea and differences between Shurli core/framework and what I developed in PoC.
+
+
+[20-Dec-20 06:15 PM] grewalsatinder#9653
+_going away from computer. Will be back after a little while._
+
+
+[20-Dec-20 08:14 PM] grewalsatinder#9653
+Out of all of these 3 parts, I think of just focusing on the first part first (Shurli-Core) to start with, and then move to the next parts as they come to usable state to build next parts upon them.
+
+
+[20-Dec-20 08:14 PM] grewalsatinder#9653
+part of it is actually there, and I already used it in existing PoC code base of Shurli, the `kmdgo` and `saplinglib` libraries of Go.
+
+
+[20-Dec-20 08:16 PM] grewalsatinder#9653
+but these libraries so far are only supporing KMD and it's Assetchains. It needs a bit of work to extend it's extendability to other blockchains, starting with Bitcoin and types, like Lightning Network, and may be Ethereum. At least these are the major ones after Komodo, I think I should consider adding support from the very start.
+
+
+[20-Dec-20 08:16 PM] grewalsatinder#9653
+The libraries need a bit of modification to be able to add any other new types of blockchain support to these frameworks as well.
+
+
+[20-Dec-20 08:17 PM] grewalsatinder#9653
+So, I'll have to make that backend schematic changes to these libraries to smooth those things down, document those and then have them open to be extendable by 3rd party developers.
+
+
+[20-Dec-20 08:17 PM] grewalsatinder#9653
+If you get the gist of it what I'm talking about, it is a HUGE project on it's own, for a single developer.
+
+
+[20-Dec-20 08:18 PM] grewalsatinder#9653
+I am up for it, and putting my kind of lfe's savings on it, as I'm not asking for any funds from anyone to support it since it is not a revenue generating codebase that I'll work on. At least not in it's initial stages.
+
+
+[20-Dec-20 08:19 PM] grewalsatinder#9653
+The first and conservative target I think is to just be able to make a Shurli-Framework, which has a Wallet Plugin as it's first reference plugin code as as an example for 3rd party devs to refer to.
+
+
+[20-Dec-20 08:19 PM] grewalsatinder#9653
+And then anything else.
+
+
+[20-Dec-20 08:20 PM] grewalsatinder#9653
+I have parts of the ideas and codebase with me already which I'd like to add to Shurli's initial plugins/addons and those are:
+- Wallet
+- Explorer
+
+
+[20-Dec-20 08:21 PM] grewalsatinder#9653
+These 2 things as I understand are not that much of dev efforts as other types of softwares are, like DEX and DeFi type systems.
+
+
+[20-Dec-20 08:22 PM] grewalsatinder#9653
+The **Shurli-Server** I'd like to make it the way it can be installable on a Raspberry-Pi device or a Cloud VPS system, and able to install with easy installation. I actually had this type of code achived with my earlier project SuperMESH. 🙂 So, I have good ideas on what I want with it and how to better it.
+
+
+[20-Dec-20 08:22 PM] grewalsatinder#9653
+Hope this clears a bit of what I think about this project.
+
+
+[15-Jan-21 07:45 PM] ejuliano#8606
+this would be so amazing!
+
+{Reactions}
+🙂 
+
+[21-Jan-21 12:06 AM] grewalsatinder#9653
+thought I give a little update what I have been up to lately with my work and stuff
+
+I explored the idea of shurli-server and as the target is to make a base server which an be setup on Raspberry Pi or a cloud/VPS server, I'm taking the minimal system setup as requirement such as Raspberry Pi to move ahead with this work.
+
+So, the idea is to make a Shurli-Server which manages the Tor node, it's Tor-Service(s) for various daemons and local services. Exactly what I managed to do those in my earlier project "SuperMESH".
+
+P.S: I'll not focus as much wide system services as I did with SuperMESH initially, which was basically becomeing a router in a box kind of project (https://github.com/satindergrewal/SuperMesh/tree/alpha-0.0.3).
+
+I didn't had explored latest Onion address scheme, so I setup and managed to make small snippet of Go code which can also make a Onion version 3 address for separate services which can be setup in Shurli-Server. These services can be for example a blockchain daemon like komodo, chips, verus, bitcoin, lightning-network, mm2, dexp2p applications etc.
+Ability to create a onion v3 address is already added to my kmdgo code, which can generate a deterministic onion address using a seed phrase, like we can already get a deterministic public and private address. Thought it could be handy if I ever needed just in case.
+
+
+[21-Jan-21 12:06 AM] grewalsatinder#9653
+In recent AtomicDEX stress test event I helped CHIPS project a bit with video editing and learned the initial setup of Pangea Poker game. Learned what is working, what is lacking, what can be improved and what I can possibly solve. Basically at this moment, CHIPS Pangea Poker games setup is 2 player and needing to have a setup a public node(s) if a player wants to join the game. I looked a bit around and found that Lightning Network does support Tor connection, but when looked at the code of `c-lightning` code in CHIPS github repo, it was I guess about 2 years old code. Managed to merge updated code from upstream forks of `c-lightning` to CHIPS's fork of code after stumbling upon many errors and bug fixing those troubleshooting. It's all pure C language code. Loved making it work. 🙂
+
+I'm looking at some issues of `bet` daemon in CHIPS project which makes Pangea Poker game work, once it is solved, I'll see if I can help CHIPS project further with C code stuff.
+
+So, ultimately, once CHIPS current issues solved with updated code that I'm trying to solve, it'll be possible to make a fully decentralised setup of Pangea Poker via Shurli-Server setup. I have almost all things required in core setup of CHIPS/Pangea Poker tested to compile and documented on Raspberry Pi. It just need the issues that I'm working on be solved.
+
+On other part, I hadn't looked at how would I like to proceed with the go language based modular/plugins system. Looked at it today and as I understand it, in it's concepts it shouldn't be that hard to make. Feeling confident I can make it. 🙂
+
+
+[21-Jan-21 12:07 AM] grewalsatinder#9653
+I'll be bit offline/online in January, and will try to make things work as I get time on computer.
+
+
+[21-Jan-21 12:07 AM] grewalsatinder#9653
+There is no dedicated deadline. I'll try to be regularly focused on Shurli-Server from February start.
+
+
+[21-Jan-21 12:08 AM] grewalsatinder#9653
+Peace 🖖 
+Satinder
+
+{Reactions}
+👌 (10) 💯 (8) shexy (6) 🖖 (4) 
+
+[21-Jan-21 12:08 AM] grewalsatinder#9653
+@everyone
+
+{Reactions}
+👏 (4) 👀 (3) 
+
+[21-Jan-21 01:27 AM] ph03nix#3115
+arrr you becoming a simple C programmer
+
+{Reactions}
+abusedsmily KMD 
+
+[21-Jan-21 01:36 AM] ph03nix#3115
+i ask you that with the upmost respect
+#jl777c
+
+{Reactions}
+🙏 
+
+[21-Jan-21 02:42 AM] grewalsatinder#9653
+James indeed gave a little push to try making C programming based code work. So trying to understand and make existing simple C code work if there is any issue with it. It’s not that hard, and not that easy either. Just need consistency on troubleshooting and making new code. Simple C programmer means very experienced as I understand. Might take me long time to be simple  C programmer 👨‍💻 🤓😁
+
+{Reactions}
+🙌 (2) 👍 (2) 🤓 
+
+[21-Jan-21 03:19 AM] ph03nix#3115
+👍
+
+
+[03-Feb-21 07:53 PM] grewalsatinder#9653
+FYI, I deleted seed node server from DigitalOcean for SHURLI DEXP2P chain.
+since it's not getting used. If needed, I'll setup one quick on my OVH server.
+That means if anyone is testing DEXP2P or Subatomic Swaps using SHURLI, they may possibly not be connecting to the network.
+
+
+[04-Feb-21 10:44 PM] alkimi#1111
+Hmm okay I'll find out soon.  Isn't the idea for Bob and Alice to basically create their own chain just between the two of them? Or is the seed node involved in the routing? I noticed there's not a lot of documentation about the "special peer ID" mentioned in the requirements, which I assume refers to the -handle string.
+
+
+[04-Feb-21 10:51 PM] alkimi#1111
+I have two physical nodes here and enough equipment for a third so I can learn all parts. The two here are running kmd & pirate both with dexp2p turned on and I got the impression that it would still work the same and it wouldn't interfere with normal operations if pirate chain were used as the carrier
+
+
+[05-Feb-21 12:32 AM] grewalsatinder#9653
+> Isn't the idea for Bob and Alice to basically create their own chain just between the two of them?
+no
+
+
+[05-Feb-21 12:35 AM] grewalsatinder#9653
+> Or is the seed node involved in the routing?
+it is to initiate the decentralised network. Seed node is started for initiating, but is not needed when and if the network gets big enough that it can find others through previously known peers. Like people can have picked publicly known other peers even from explorers and add them as replacement to seed node for `-addnode` param for `komodod` command. In such cases seed node can go away, without issue. In case of SHURLI, the network wasn't used much, since it's been mostly been used for proof of concept application alone. Thought why pay near about $30 for a seed node every month on digitalocean and remove it. If I ever need it again for developing my application and for testing, will start a seed node again.
+
+
+[05-Feb-21 12:37 AM] grewalsatinder#9653
+> I noticed there's not a lot of documentation about the "special peer ID" mentioned in the requirements, which I assume refers to the -handle string.
+🤔 what "special peer ID"? unsure what you talking about.
+`-handle` is for subatomic swaps setup. It is like a username of the trader which shows in subatomic swaps order list.
+If you have read the documentation and any part of it is unclear, please point me which part and I'll try to clear it.
+
+
+[05-Feb-21 12:40 AM] grewalsatinder#9653
+even if you are meaning to use either kmd or pirate with dexp2p enabled later for production project, I hightly suggest you to just make your own independent dexp2p network and just use that.
+Even better, just don't use pirate or kmd for dexp2p. it is still experimental and sometimes you'll see odd behaviour while you are developing and testing things. like not receiving data packets in peer nodes where you should be expected some. just start with own dexp2p network.
+
+
+[05-Feb-21 08:40 AM] Loo✟z#2749
+yes no worries, Forge will be pulling dexp2p into the pirate code under what will be pirated instead of komodod
+
+
+[05-Feb-21 10:52 AM] alkimi#1111
+That's what I'm sayin', the exact term "special peer ID" is listed as one of the requirements at the beginning of the subatomic swaps tutorial in the komodo docs. But it is the only place that term appears anywhere in the docs, I'm pretty sure it was meant to refer to the -handle. 
+So if the chain must already exist to use it for dexp2p, that's one more aspect that is not quite "p2p" but it makes sense, that's one more question answered. I'll want to make sure that I know how to start a seed node, which is no problem, even tho I haven't done it yet, I do have an eidetic memory and I remember the tutorial on how to start a single-node chain, so no problem.  I'll also be wanting to see the "odd behavior" I can expect from the broadcasts on pirate or kmd, I tend to investigate the difficult things first so I'm not confounded by unexpected results when I attempt to do simple things, otherwise the tech becomes anthropomorphic and I don't fully *understand* it even when my code works as expected, and that's not what I'm after.
+
+
+[05-Feb-21 02:42 PM] alkimi#1111
+I see, that's why it's indicated to only use the jl777/komodo branch for dexp2p. This is a good point to get more familiar with the actual codebase(s)
+
+
+[16-Jun-21 04:54 AM] Tylor zkFS#8280
+I think the problems were mostly streaming larger files with packet losses and organization... some small buffer / organization script should fix that... as far as the messenger service, it should be fine @Loo✟z @alkimi 
+Setting up a 8 -16 node distribution service based on ping rate / health score is on my list but we are still waiting for other tech to come to fruition to test.. I think we are close
+
+{Reactions}
+dancing_penguin 
+
+[16-Jun-21 12:19 PM] alkimi#1111
+Yeah I should have had much more success than I did. I think I know what I did wrong. Can't wait to get back to experimenting again
+
+
+[24-Jun-21 11:08 AM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1408124775361179650?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1408124775361179650?s=20
+Thanks @KomodoPlatform team for giving bit of time to speak in today's Town Hall meeting. I had a pleasure to share what I'm working on these days. Talked about @PirateChain iOS wallet, quick @pangea_chips updates, some mentions of Tokel Platform, @marmarachain, @VerusCoin.🙂 https://t.co/75924h3ysR
+Twitter
+
+
+[03-Aug-21 04:58 PM] grewalsatinder#9653
+@pbca26 paid 7500 VRSC bounty for fixing balance issue in Khoji explorer's engine.
+https://insight.verus.io/tx/6f0e95925d716268de7a2bb43c667ceca4758ea2ff2c4555ea6760dd68a92b1b
+Thanks for your valueable help mate! 🙂 👍
+
+{Reactions}
+👍 
+
+[03-Aug-21 05:19 PM] grewalsatinder#9653
+Donated 7500 VRSC to "Verus Coin Foundation@". TXID: https://insight.verus.io/tx/6f0e95925d716268de7a2bb43c667ceca4758ea2ff2c4555ea6760dd68a92b1b
+
+{Reactions}
+👍 
+
+[04-Aug-21 05:00 AM] Mylo#8306
+God mode enabled 👍
+
+{Reactions}
+😅 
+
+[26-Aug-21 06:18 PM] Tylor zkFS#8280
+How hard would it be to subatomic swap ARRR for BLUR?
+
+
+[27-Aug-21 07:56 AM] grewalsatinder#9653
+Monero support has to be added to the subatomic C/C++ code itself first.
+
+
+[27-Aug-21 07:56 AM] grewalsatinder#9653
+shouldn't be too much I guess
+
+
+[27-Aug-21 08:29 AM] Cryptoon#3362
+wasnt Biz working on that?
+
+
+[27-Aug-21 08:29 AM] Cryptoon#3362
+or was that solely notary integration?
+
+
+[27-Aug-21 09:44 AM] Tylor zkFS#8280
+Dunno...I can ask him
+
+
+[27-Aug-21 06:43 PM] grewalsatinder#9653
+Only notarisation code, dpow
+
+
+[27-Aug-21 06:45 PM] grewalsatinder#9653
+I read subatomic C code while working on Shurli, and as I remember it it should be easy to add other coins support to it.
+
+
+[04-Dec-21 10:27 PM] grewalsatinder#9653
+https://twitter.com/piratewallet/status/1467379926655377410?s=20
+
+{Embed}
+Pirate Wallet (ARRR) (@piratewallet)
+https://twitter.com/piratewallet/status/1467379926655377410?s=20
+Privacy technology is living the golden age since zero knowledge proof tech gone into production thanks to the researchers & developers from @ElectricCoinCo & @ZcashFoundation communities. This whole project like @PirateChain wouldn't have been possible without their zk-SNARKs🙏 https://t.co/2QHttagN1Y
+https://images-ext-2.discordapp.net/external/QIOBTQK9soh-upOmzuIyMeOBj6Ztq_JC9guM1jfDoUE/https/pbs.twimg.com/tweet_video_thumb/FF0uQttUcAAD8vB.jpg
+Twitter
+
+{Reactions}
+👍 💪 (2) 
+
+[13-Jan-22 03:22 PM] Loo✟z#2749
+wheres my mesh network....
+
+
+[13-Jan-22 03:23 PM] Loo✟z#2749
+this is the year we make mesh, let me know if you want in
+
+
+[13-Jan-22 03:23 PM] Loo✟z#2749
+I have 5 of 10 guys so far, will take lots of research and thnking to get this mesh up
+
+
+[13-Jan-22 03:24 PM] Loo✟z#2749
+@grewalsatinder
+
+
+[13-Jan-22 03:25 PM] SHossain#0007
+we are still in 2020 "two"...come back next year :troll:
+
+
+==============================================================
+Exported 949 message(s)
+==============================================================
