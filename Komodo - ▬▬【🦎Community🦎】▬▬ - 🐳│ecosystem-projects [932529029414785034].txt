@@ -1,0 +1,626 @@
+==============================================================
+Guild: Komodo
+Channel: ▬▬【🦎Community🦎】▬▬ / 🐳│ecosystem-projects
+==============================================================
+
+[17-Jan-22 12:39 AM] PTYX#6840
+:peeposwag: first
+
+{Reactions}
+😁 (2) 
+
+[17-Jan-22 06:59 AM] Exile13#4458
+The worst..duh!
+
+
+[17-Jan-22 06:59 AM] Exile13#4458
+The HempCoin ($THC) was one of the first 30 cryptocurrencies founded in 2014. We are building a supply tracking platform for the Agricultural Industry spotlighting Hemp in its first iteration. Growers will be able to know what they are doing per day/week/harvest and have real time forecasting/analytics on a mobile device.
+
+We like to extend our hands in cooperation, as we bring many capabilities to the table. For instance accepting cryptocurrency payments in 75+ coins for 0% fees both online and instore, then trading those into an fiat currency globally (dollars, pounds, pesos, rubles, yen) at a .3% fee
+
+$THC has massive connections throughout the Hemp & Cannabis space, and would love to connect to dive deeper into our synergies.
+
+{Reactions}
+🌲 9176_pepelove ⭐ 
+
+[17-Jan-22 08:51 AM] Ginger Design#1182
+:Tokel: **The future of tokenization** :Tokel: 
+
+Tokel is a unique idea, an NFT and Token creation platform like no other. The core mission is to make it easy for everyone to launch and manage a token or NFT for any use.
+
+Tokel is building a decentralized token platform. Using :KMD:  Komodo Technologies as the core foundation, Tokel will be offering end-to-end token solutions for fixed supply and non-fungible tokens (NFT’s).
+
+You can buy, hold and trade Tokel ( $TKL ) on AtomicDEX 😎
+
+{Reactions}
+💪 💯 
+
+[18-Jan-22 11:03 AM] Kelcie#1924
+https://discord.gg/xUHzSVU7?event=931748213113913486
+
+
+[18-Jan-22 11:03 AM] Kelcie#1924
+Feel free to join us in one week for the next Tokel Talk!
+
+{Reactions}
+🙌 Tokel 🥳 
+
+[24-Jan-22 08:28 AM] pbca26#5430
+New update v0.3.1 for HW KMD Wallet Tool
+Both web and desktop
+https://github.com/pbca26/hw-kmd-wallet/releases/tag/v0.3.1
+
+Changes:
+- Add settings import/export/reset app data options
+- Add sidebar shrink/expand settings toggle
+- Add app lock option
+- Add dashboard sync in progress indicator
+- Add airdrop funds discovery toggle in add coin modal
+- Fix overscroll issue when modal is active
+- Fix settings explorer dropdown not working properly
+- Fix vendor image text overlay issue
+- Add back desktop download button
+- Keep login state after clicking on app close button on MacOS
+- Increase default desktop app window size
+
+Please use #🤝│general-support channel for any bug reports or issues. I'm going to use this channel for any future versions announcements from now on. Alternatively you can check Github for any new version https://github.com/pbca26/hw-kmd-wallet/releases.
+
+{Embed}
+https://github.com/pbca26/hw-kmd-wallet/releases/tag/v0.3.1
+Release HW KMD Wallet Electron App v0.3.1 · pbca26/hw-kmd-wallet
+This is experimental and unfinished software. Use at your own risk! No warranty for any kind of damage!
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software...
+https://images-ext-2.discordapp.net/external/MkbMLgdlgZOdeoME0OsCuXGj5Vt8eEpsvlMfB-lyD40/https/opengraph.githubassets.com/dec7462ccfeb012272c1464429a767b0806d0039054c4e6cd230b84f4b8a222c/pbca26/hw-kmd-wallet/releases/tag/v0.3.1
+
+{Reactions}
+🔥 (3) 
+
+[24-Jan-22 04:16 PM] PTYX#6840
+https://twitter.com/CyberKomodos/status/1485764526062641152
+
+{Embed}
+Cyber Komodos 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1485764526062641152
+1. Hello world! We're announcing the #CyberKomodo NFT Collection launching on @TokelPlatform. A collection to commemorate @KomodoPlatform and the great projects and teams that form part of the ecosystem.
+https://images-ext-2.discordapp.net/external/83fTn0f7wB7zVD4laTYg5gb0YV0QvAge-LWzPrGdAeE/https/pbs.twimg.com/media/FJ5-vYAXEAUxQwS.jpg%3Alarge
+Twitter
+
+{Reactions}
+market_up (4) check (4) KMD (5) Tokel (4) 
+
+[26-Jan-22 07:51 AM] PTYX#6840
+https://twitter.com/CyberKomodos/status/1486365696812630019
+
+{Embed}
+Cyber Komodos 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1486365696812630019
+🦎 #CyberKomodos went through multiple mutations after the Atomic Wars of 2016. They all have different talents and strengths. Each is unique but they are all part of a whole. @VerusCoin @PirateChain @KomodoPlatform @TokelPlatform @CoinCollectHQ @marmarachain @smartfiportal https://t.co/ohsnrj4emi
+https://images-ext-1.discordapp.net/external/qNYxBeA4GNqiHaLoiAMXx9AfcEHNlGHrJ3_AZVD2Q9o/https/pbs.twimg.com/tweet_video_thumb/FKChCLtXIAUXTTx.jpg
+Twitter
+
+{Reactions}
+🔥 
+
+[01-Feb-22 04:25 PM] NutellaLicka#4241
+I had a great discussion with @Crypto Rich recently about the Tokel Platform. He even created an NFT as we were talking! If you are in the community and wondering what Tokel is all about, it's a must watch.
+https://www.youtube.com/watch?v=ZFsDsfdCqzE
+
+{Embed}
+Crypto Rich BTC
+https://www.youtube.com/watch?v=ZFsDsfdCqzE
+THE BEST AND EASIEST NFT LAUNCHPAD! CREATE TOP NFTS THIS WAY! | ALT...
+THE BEST AND EASIEST NFT LAUNCHPAD! CREATE TOP NFTS THIS WAY! | ALTCOINS | CRYPTOCURRENCIES |
+
+NFTs are growing and growin with more and more artists getting involved. In this video, I take a look at Tokel; a fully decentralised platform that makes it easy, simple and affordable to create NFTs as well as regular tokens.
+GET $25 FREE WITH THIS VI...
+https://images-ext-1.discordapp.net/external/C6vUpdrum0gUC25Td1xpYMx1SbvC6XkC5jIoWTMbEE0/https/i.ytimg.com/vi/ZFsDsfdCqzE/maxresdefault.jpg
+
+{Reactions}
+👍 (5) 🔥 
+
+[06-Feb-22 09:50 AM] PTYX#6840
+Any interaction with this tweet will be considered to win 1 Cyber Komodo EGG. https://twitter.com/CyberKomodos/status/1490382223136202758
+
+{Embed}
+Cyber Komodos 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1490382223136202758
+🦎 Are you ready to hatch your #CyberKomodo EGG? Any interaction with this tweet will be considered to win 1 EGG. Retweet, like, tag a friend ❤️. Winner picked in 72 hours. Good Luck Komodos! 
+
+@KomodoPlatform @TokelPlatform @PirateChain @VerusCoin @Crypto_Collider @marmarachain https://t.co/7ASWjUP4a3
+https://images-ext-2.discordapp.net/external/5dvX7vHgBwBOeXl0h2DZWTYU_7_te3ta__mwk8twOcQ/https/pbs.twimg.com/tweet_video_thumb/FK7mqOhXIAAD8iP.jpg
+Twitter
+
+{Reactions}
+market_up (2) check 
+
+[11-Feb-22 05:39 PM] PTYX#6840
+We're Giving Away 2 More Cyber Komodo EGGs https://twitter.com/TokelPlatform/status/1492294893506605058?t=rOaf2FicAKY_wbSG-Gx3uw&s=19
+
+{Embed}
+Tokel (@TokelPlatform)
+https://twitter.com/TokelPlatform/status/1492294893506605058?t=rOaf2FicAKY_wbSG-Gx3uw&s=19
+To celebrate #ValentinesDay CyberKomodos are giving away 2 #CyberKomodo EGGs. 
+
+They are also celebrating  the addition of @LickaNutella as an advisor for the project. ❤️
+
+To qualify, you must: 
+1️⃣Follow @TokelPlatform 
+2️⃣ Follow @CyberKomodos 
+3️⃣ Tag a Friend in the comments https://t.co/s3sEF8HyIJ
+https://images-ext-1.discordapp.net/external/-Ub6iTeYkpw41e4-559BWZ_vFT--MaweBMxnWfwnkuU/https/pbs.twimg.com/tweet_video_thumb/FLWyTFsXoAQMJGL.jpg
+Twitter
+
+
+[13-Feb-22 02:13 AM] Kaks | $ARRR Privacy Matters#6612
+https://gleam.io/competitions/Iy6Au-pirate-chain-giveaway
+
+{Embed}
+https://gleam.io/competitions/Iy6Au-pirate-chain-giveaway
+Handmade Special Edition Pirate Chain Clock Giveaway
+We giving away a custom handmade Pirate Chain clock with the ARRR logo, sword and anchor to 1 lucky winner! The clock is beautifully made by Mins Design and the winner will be announced during our Monthly meeting on March 2nd!
+https://images-ext-1.discordapp.net/external/d3DfSfTmOQ3iIlGS7rjXmxSVPzkH1DAuJWBEW8fPI40/https/user-assets.out.sh/user-assets/1241682/lYIsGeGZJ6DRzBqS/pirate.jpg
+
+{Reactions}
+❤️ (2) 
+
+[14-Feb-22 01:26 PM] PTYX#6840
+https://twitter.com/CyberKomodos/status/1493290080953200641?t=9lj1GsDc3cMjLpp90KI4Yg&s=19
+
+{Embed}
+Cyber Komodos 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1493290080953200641?t=9lj1GsDc3cMjLpp90KI4Yg&s=19
+Are you ready for launch?  
+#CyberKomodos $KMD
+https://images-ext-2.discordapp.net/external/sJ6szBbke6IHEeSiW13qXtjDcME2FsAR1fcU65Hveug/https/pbs.twimg.com/media/FLk6b0aWQAENFS0.jpg%3Alarge
+Twitter
+
+{Reactions}
+💎 KMD 🧑‍🚀 
+
+[15-Feb-22 07:12 AM] PTYX#6840
+https://twitter.com/CyberKomodos/status/1493603929854197766
+
+{Embed}
+Cyber Komodos 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1493603929854197766
+Who is this? If you know, you're a @KomodoPlatform OG  🦄
+
+#CyberKomodos @AtomicDEX @PirateChain
+https://images-ext-2.discordapp.net/external/4ageM--D9-NUhtTcRYn48LXdO7BOd_BU2YtjMGgN7qs/https/pbs.twimg.com/media/FLpYg6IWQAAMLdB.jpg%3Alarge
+Twitter
+
+
+[15-Feb-22 07:21 AM] ComputerGenie#7004
+looks like a genie fanboy, must be @Alright
+
+{Reactions}
+komodopog (4) troll (2) 🤣 (3) 
+
+[20-Feb-22 07:15 AM] grewalsatinder#9653
+https://twitter.com/meshbits/status/1495415952821059587
+
+{Embed}
+Meshbits Ltd (@meshbits)
+https://twitter.com/meshbits/status/1495415952821059587
+Made first pre-release of Khoji explorer with little updates. Work is still on-going on it. Any issues found so far, and any feature requests etc are welcome 🙂
+https://t.co/YxYTFfV4mE
+Twitter
+
+{Reactions}
+😎 (2) 
+
+[20-Feb-22 07:21 AM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1495418160492969986
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1495418160492969986
+This @golang based blockchain explorer has been in the works for very long time already. Been slowly progressing on it over time. Graphical interface will be done as soon as I get the designs from designer.🙂
+@Todd_McLeod @bot_golang @msgtonaveen
+Twitter
+
+
+[20-Feb-22 08:58 AM] PTYX#6840
+https://twitter.com/CyberKomodos/status/1495393023504662530?t=n2cVDUH-849I8SMrm9jOLA&s=19
+
+{Embed}
+Cyber Komodos 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1495393023504662530?t=n2cVDUH-849I8SMrm9jOLA&s=19
+The #CyberKomodos Collection is finalized and all metadata and images are being uploaded to the @TokelPlatform blockchain and @ArweaveTeam storage. We are starting to work now on the rarity tool for Tokel NFTs.The Cyber Komodo EGG sale will be carried out on March 15 at 5pm UTC. https://t.co/gIWn3bLFEq
+https://images-ext-1.discordapp.net/external/ZhfBr41f0Ly8s1fHchBvBa8NibacHhue9VOl0YR80jg/https/pbs.twimg.com/media/FMCztdxWYAc_vv_.jpg
+Twitter
+
+
+[21-Feb-22 12:27 PM] NutellaLicka#4241
+https://twitter.com/LickaNutella/status/1495854670275039232
+
+{Embed}
+NutellaLicka (@LickaNutella)
+https://twitter.com/LickaNutella/status/1495854670275039232
+“Imagine waking up and your NFTs are gone. The first thought in your mind is that you've been hacked. Little do you know that the platform you created and held the NFT on has deleted your NFT from existence.
+
+Not your NFT keys, not your NFT.
+
+https://t.co/B4hcVpocJe“
+Twitter
+
+{Reactions}
+komodopog 
+
+[22-Feb-22 05:25 PM] PTYX#6840
+https://twitter.com/Arrrtax_Criptty/status/1496267659020845065?t=9ligx6HkmtCHV9E1pH3UuQ&s=19
+
+{Embed}
+Criptty (@Arrrtax_Criptty)
+https://twitter.com/Arrrtax_Criptty/status/1496267659020845065?t=9ligx6HkmtCHV9E1pH3UuQ&s=19
+“#NFTdrop #NFTGiveaways #NFT
+In collaboration with @CyberKomodos we're giving away 1 Cyber Komodo EGG and 10 Criptty #NFTs in @TokelPlatform
+To qualify, you must:
+1️⃣ Follow @CyberKomodos and @Arrrtax_Criptty
+2️⃣ Like and RT
+3️⃣ Comment $ARRR & $KMD & $TKL
+Winners picked in 72 hours! https://t.co/etme6PWju8“
+https://images-ext-2.discordapp.net/external/yrkfLPuQV4hr8n9qOj8exBXuVmzf8O4UX1Ih7WOhmy4/https/pbs.twimg.com/media/FMPNuceXsAQcm_j.png
+Twitter
+
+{Embed}
+https://twitter.com/Arrrtax_Criptty/status/1496267659020845065?t=9ligx6HkmtCHV9E1pH3UuQ&s=19
+https://images-ext-2.discordapp.net/external/dvmnVYHdrsU2a177qk1tXifpj6_BR3h4lQ3STMqpd2Y/https/pbs.twimg.com/media/FMPNvbGXoAkrPC8.png
+
+{Embed}
+https://twitter.com/Arrrtax_Criptty/status/1496267659020845065?t=9ligx6HkmtCHV9E1pH3UuQ&s=19
+https://images-ext-2.discordapp.net/external/hjgAno7oH6epLA7zOoNpLtijivcOg5PLNQL8qJMEluI/https/pbs.twimg.com/media/FMPNwn_XoAMWrNe.png
+
+
+[25-Feb-22 04:57 PM] Qu33n ☥ Vic70ria#3370
+https://twitter.com/RedPillProducts/status/1497369507282636802
+
+{Embed}
+Red Pill Products (@RedPillProducts)
+https://twitter.com/RedPillProducts/status/1497369507282636802
+#NFT Collab with @Arrrtax_Criptty GIVEAWAY!
+1 chick/1 dude win Limited Edition Criptty T-SHIRT
+
+DO👇
+•Like and RT
+•Follow @RedPillProducts & @Arrrtax_Criptty
+•BE AN EARLY ADOPTER:
+Criptty Discord server https://t.co/Gl817s519g
+•Winners picked on Monday
+https://t.co/Pza3Y8iAqC https://t.co/1WsKIovWq8
+https://images-ext-2.discordapp.net/external/HbZiRdPMdsx2-UFD6Z0kj8LzSsdaNI_ZN4X5TTFSjfs/https/pbs.twimg.com/tweet_video_thumb/FMe3IsNVcAMm8ir.jpg
+Twitter
+
+
+[25-Feb-22 04:57 PM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Please use #🤑┃tip-bot to talk to TipBot.
+
+
+[28-Feb-22 12:13 AM] hastrup#8742
+https://getumbrel.com/
+
+It looks like an old kmd dev Luke has a new project
+
+It could be nice if we could get atomicdex and market maker bot in there also
+
+{Embed}
+https://getumbrel.com/
+☂️ Umbrel — a personal server for everyone
+Run your personal server on a Raspberry Pi with a Bitcoin and Lightning node in your home, self-host open source apps like Nextcloud, Matrix, and PhotoPrism to break away from big tech, and take full control of your data. For free.
+https://images-ext-2.discordapp.net/external/i8qm8oQDYIFuAgK5iUlCKLx2km13C8KEVwec5-XpRrQ/https/static.getumbrel.com/open-graph.png
+
+{Reactions}
+👍 
+
+[28-Feb-22 12:27 AM] grewalsatinder#9653
+Umbrel is hardcore Bitcoin project. Give it a try if anyone wants to convince them.
+
+
+[28-Feb-22 01:09 AM] hastrup#8742
+@grewalsatinder it sounds like you talk with experience XD
+
+
+[28-Feb-22 01:26 AM] gcharang#6833
+@hastrup it looks like anyone can package an app to run on umbrel and submit a PR: https://github.com/getumbrel/umbrel/blob/master/apps/README.md
+but as grewal said, they may not accept it
+
+{Embed}
+https://github.com/getumbrel/umbrel/blob/master/apps/README.md
+umbrel/README.md at master · getumbrel/umbrel
+A beautiful personal server OS for Raspberry Pi or any Linux distro for running self-hosted apps - umbrel/README.md at master · getumbrel/umbrel
+https://images-ext-1.discordapp.net/external/ZR75oqIab9XeyK0bWJ02NP7_07jr44qXl0ajaQxX8Y4/https/opengraph.githubassets.com/0e53e2fc0a8a4a0560280c8f81b26b77f9b22d507f2dd2aa021a11b4d1dd7a6b/getumbrel/umbrel
+
+
+[28-Feb-22 01:28 AM] gcharang#6833
+and, webdex will be the "easiest" to package with it
+
+
+[28-Feb-22 01:38 AM] hastrup#8742
+How I webdex going? Would it make sense to make webdex an one click app?
+
+
+[28-Feb-22 01:40 AM] gcharang#6833
+webdex will be a website. can you explain what is a "one click app" ?
+
+
+[28-Feb-22 01:40 AM] gcharang#6833
+it should be out before Q3 afaik
+
+
+[28-Feb-22 01:42 AM] hastrup#8742
+Truenas scale, umbrel, unraid, homelab os, yunohost, all of them trys to give you an app store normally with docker where you click Once and you have an webapp.
+
+
+[28-Feb-22 01:44 AM] gcharang#6833
+ah, yes definitely. that is what I meant by `webdex will be the "easiest" to package with it`
+
+
+[28-Feb-22 01:44 AM] gcharang#6833
+these are the instructions: https://github.com/getumbrel/umbrel/blob/master/apps/README.md
+
+
+[28-Feb-22 01:45 AM] hastrup#8742
+But why pacage webdex when you can just use your browser. I'm sure I'm missing something please enlighten me :)
+
+
+[28-Feb-22 01:45 AM] gcharang#6833
+increased reach. existing users of umbrel will have easy access to it and may potentially install it
+
+
+[28-Feb-22 01:47 AM] hastrup#8742
+That's a good point free advertisement
+
+{Reactions}
+👍 
+
+[28-Feb-22 01:50 AM] hastrup#8742
+It's atomicdex in the browser
+
+
+[28-Feb-22 01:58 AM] grewalsatinder#9653
+haven't submitted any PR or request, but I keep an eye on projects around different ecosystems occasionally.
+I just sense they may not accept it.
+Luke is not the owner or leader of the project, but a co-creator of it who played huge role to the success of Umbrel.
+It has become a high profile project by now, because of it's quality.
+There is NO harm for making a PR to it on Github. Just do it and see how things go.
+whatever I think shouldn't be the reason to not give it a try.
+
+{Reactions}
+👆 
+
+[28-Feb-22 02:09 AM] grewalsatinder#9653
+webdex being an independent web based dex, can load it's app from a website URL to client's own computer browser when accessed. It is still decentralised DEX.
+but as previously seen DeFi DEXs can be unaccessible due to DNS level issues, of N number of reasons. Temporarily or Permanently.
+The best would be to host it on any of your local network computer and access it via browser within your own network.
+That way no such power in the world can ban or stop you from using an easy to access DEX app.
+And for that reason, Umbrel is **perfect** to such DEX app.
+It makes 100% sense to push for it's adoption with platforms such as Umbrel.
+
+{Reactions}
+👍 
+
+[28-Feb-22 02:12 AM] hastrup#8742
+Thank you for your explanation it makes more sense now.!
+
+
+[28-Feb-22 02:13 AM] grewalsatinder#9653
+no problem mate 👍
+
+
+[28-Feb-22 02:13 AM] hastrup#8742
+How much would it cost  in time and money to make that happen?
+
+
+[28-Feb-22 02:15 AM] grewalsatinder#9653
+wait for Webdex being available publicly, and its source code with advanced install instructions available for tech enthusiasts who don't wish to access and use it from provided Komodo's own URL.
+once you have it, you can easily create a Docker setup, and submit it to Umbrel.
+
+
+[28-Feb-22 02:15 AM] grewalsatinder#9653
+Umbrel is majorly using docker in it's backend architecture, and beautifully 🙂
+
+
+[28-Feb-22 02:17 AM] hastrup#8742
+Oh boy here I go again being excited :)
+
+Can't wait now :)
+
+{Reactions}
+👍 
+
+[28-Feb-22 02:19 AM] lpdz011#9233
+Webdex?
+
+
+[28-Feb-22 02:20 AM] gcharang#6833
+yes, atomicDEX that works in a web browser
+
+
+[28-Feb-22 02:23 AM] lpdz011#9233
+yeah i know what webdex is but i was just confused about Q3. was it postponed again? in my opinion it was postponed from Q4/21 to Q1/22. I'm hearing Q3 for the first time.
+
+
+[28-Feb-22 02:49 AM] gcharang#6833
+I said "before Q3 afaik" to "underpromise and overdeliver". though I don't know its current status
+
+
+[28-Feb-22 02:57 AM] lpdz011#9233
+@ca333 can you tell us more about current status please?
+
+
+[28-Feb-22 04:18 AM] gcharang#6833
+looks like webdex alpha release will be before Q2
+
+{Reactions}
+👍 (2) 
+
+[28-Feb-22 06:29 AM] ca333#0333
+yes around Q2 @lpdz011 - we are in internal alpha stage
+
+
+[28-Feb-22 07:02 AM] hastrup#8742
+@grewalsatinder is there a webdex repo that I can link to, maybe I know a guy that knows how to do it. And I thinking also getting it on other one click app stores
+
+
+[28-Feb-22 08:14 AM] gcharang#6833
+not available right now @hastrup .
+it should be available after initial public release
+
+
+[28-Feb-22 08:48 AM] hastrup#8742
+@gcharang thx :)
+
+
+[01-Mar-22 11:31 AM] pbca26#5430
+New update v0.3.2 for HW KMD Wallet Tool
+Both web and desktop
+https://github.com/pbca26/hw-kmd-wallet/releases/tag/v0.3.2
+
+Changes:
+- Explicitly display claimed KMD rewards in transaction history
+- Check if local data cache is up to date to prevent partial KMD rewards claiming
+- Minor bug fixes
+
+**Desktop app users:** this update is optional and is targeted towards KMD holders so if you're using asset chains you can skip it
+
+{Reactions}
+🎉 (3) 
+
+[05-Mar-22 06:56 AM] eduard#6056
+Wouldn't it be good for an even better use case for komodo holder if you share the fees what you get if you hold komodo?
+
+
+[05-Mar-22 06:58 AM] SHossain#0007
+@eduard please stop spamming same questions in multiple channels
+
+
+[05-Mar-22 06:58 AM] eduard#6056
+Ok
+
+
+[05-Mar-22 06:59 AM] eduard#6056
+i need an answer
+
+
+[05-Mar-22 07:10 AM] SHossain#0007
+here's your answer https://discord.com/channels/412898016371015680/429676282196787200/949682432825757727
+
+
+[05-Mar-22 07:11 AM] ComputerGenie#7004
+you **need** an answer to your opinion based question? 🤔 
+OK:
+
+{Attachments}
+https://cdn.discordapp.com/attachments/932529029414785034/949685526322114580/no.mp4
+
+{Reactions}
+😂 (2) 
+
+[08-Mar-22 08:40 AM] PTYX#6840
+Don't miss today's Tokel Talk. We're going to be giving away some Cyber Komodo NFTs https://twitter.com/TokelPlatform/status/1501150876811120641?t=cwTXmshvFlgzyLc9_Nb26g&s=19
+
+{Embed}
+Tokel (@TokelPlatform)
+https://twitter.com/TokelPlatform/status/1501150876811120641?t=cwTXmshvFlgzyLc9_Nb26g&s=19
+📡Tokel Talk is on today with the magnificent @CyberKomodos. 
+
+Find out how you can easily create an #NFT collection with no gas fees and join the token economy.
+
+📅 March 8 2022
+🕖 7pm UTC
+
+https://t.co/z4qlJ6hKcz
+https://t.co/h4Fd1MvRxW
+
+#NFTCommunity https://t.co/pUQ15C9G7V
+https://images-ext-1.discordapp.net/external/7rXCaxaSxOsT1WgdY635rZx8tqdLE4i3Mn1FX8JBdgs/https/pbs.twimg.com/tweet_video_thumb/FNUoxIsWUAE56li.jpg
+Twitter
+
+
+[09-Mar-22 03:57 PM] PTYX#6840
+Tutorials for the Cyber Komodo sale https://twitter.com/CyberKomodos/status/1501707185407070209?t=2bKCL8TlnL1GZ5e-2h2VFA&s=19
+
+{Embed}
+Cyber Komodos 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1501707185407070209?t=2bKCL8TlnL1GZ5e-2h2VFA&s=19
+The Cyber Komodo EGG sale will start on March 15th at 5 PM UTC. 
+There's a total supply of 777. Minting price is $77. 
+Please watch the tutorials on how to create your Tokel wallet and how to purchase the EGG NFT. 
+https://t.co/0WKH1bHtvJ 
+
+#CyberKomodos $KMD $TOKEL $ARRR https://t.co/BYc1LjH097
+https://images-ext-2.discordapp.net/external/p6RjebY0pcF6-vrLJr3f1ixF-GGIKjX7H-F5dyYquaw/https/pbs.twimg.com/media/FNciZnOXwAs9thd.jpg
+Twitter
+
+
+[10-Mar-22 10:47 AM] pbca26#5430
+New update v0.3.3 for HW KMD Wallet Tool
+Both web and desktop
+https://github.com/pbca26/hw-kmd-wallet/releases/tag/v0.3.3
+
+**Changes:**
+- Fix KMD rewards claiming "tiptime" error
+- Fix KMD rewards overdue badge bug
+- Fix remove coin bug
+
+{Reactions}
+👏 
+
+[10-Mar-22 10:55 AM] PTYX#6840
+Going live on Tokel Talk in 5 minutes to talk about Cyber Komodos NFTs https://twitter.com/TokelPlatform/status/1501830255614517252
+
+{Embed}
+Tokel (@TokelPlatform)
+https://twitter.com/TokelPlatform/status/1501830255614517252
+The @CyberKomodos NFT project is on today at Tokel Talk and will take us through their journey of developing an NFT collection. 🦎
+
+Join in and win NFTs and access tokens. 🎁
+
+📅 10 March
+🕖 7PM UTC
+
+#NFTCommunity
+
+https://t.co/h4Fd1MvRxW
+https://t.co/z4qlJ6hKcz https://t.co/GSMn0sSpqg
+https://images-ext-1.discordapp.net/external/nR5Wj4UzHnD5zMKkHNa5YUWSdmgCzjvMyfOrCNyQdKc/https/pbs.twimg.com/media/FNeSqHzXsAA0-BP.jpg
+Twitter
+
+{Reactions}
+🦎 (2) 
+
+[11-Mar-22 04:44 AM] PTYX#6840
+NFT giveaway to celebrate the release or the Pirate Mobile iOS wallet https://twitter.com/CyberKomodos/status/1502260277743599622?t=P7W1_IC-RNLeBoYcwvBdzQ&s=19
+
+{Embed}
+Cyber Komodos NFT 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1502260277743599622?t=P7W1_IC-RNLeBoYcwvBdzQ&s=19
+🎉 To celebrate the release of Pirate's Mobile iOS wallet and in collaboration with @CyberKomodos we're giving away 3 Cyber Komodo EGG NFTs
+To qualify, you must:
+1️⃣ Follow @PirateChain and @CyberKomodos
+2️⃣ Like or RT
+3️⃣ Comment $ARRR and tag a friend in the comments https://t.co/fxhNKxINwC
+https://images-ext-2.discordapp.net/external/Lw2Z6sMf6RtNIglLqp5rJzf2COjD4w4bDpb5kFWUsjo/https/pbs.twimg.com/media/FNkZSBfWYAQV_bu.jpg
+Twitter
+
+
+[14-Mar-22 05:42 PM] PTYX#6840
+In less than 24 hours the Cyber Komodo EGG Mint starts https://twitter.com/CyberKomodos/status/1503429284735684610
+
+{Embed}
+Cyber Komodos NFT 🦎 (@CyberKomodos)
+https://twitter.com/CyberKomodos/status/1503429284735684610
+🎉 In less than 24 hours our #CyberKomodos NFT EGG sale starts. The sale will last 7 days or until all 777 NFTs are minted. 
+
+🦾 Good luck to all you future Cyber Komodo NFT owners. 
+
+To participate in the EGG mint, use this link: https://t.co/xBgQCooJW7
+Twitter
+
+
+==============================================================
+Exported 69 message(s)
+==============================================================
