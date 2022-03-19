@@ -1,0 +1,4262 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / btch
+Topic: Explorer: https://btch.kmdexplorer.io/
+==============================================================
+
+[20-Jun-18 11:50 PM] Audo#5667
+Did you guys want to bridge this channel to another discord channel? Let me know and we will get it done. I need an inivation link to your discord.
+
+
+[21-Jun-18 07:47 AM] dukeleto#7326
+@Audo this will replace our #btch Slack channel, so I don't think we need a bridge
+
+
+[22-Jun-18 01:44 AM] Audo#5667
+ok thanks @dukeleto
+
+
+[22-Jun-18 12:13 PM] AkiraX#8269
+Great
+
+
+[04-Jul-18 10:02 PM] jeezy#3408
+Cool😎
+
+
+[08-Jul-18 06:05 AM] Mylo#8306
+@dukeleto has BTCH got a src repo?  i've only got this: https://github.com/bitcoinhush - want it for a submission to an exchange
+
+{Embed}
+https://github.com/bitcoinhush
+Bitcoin Hush
+https://images-ext-2.discordapp.net/external/Y_36CKNO64MTkttGSR2uIKYCHORimGqsPUOR7czpxnM/%3Fs%3D280%26v%3D4/https/avatars1.githubusercontent.com/u/35062192
+
+
+[08-Jul-18 10:55 AM] dukeleto#7326
+@Mylo it's a komodo asset chain, so it's source code is KMD itself
+
+
+[08-Jul-18 10:56 AM] dukeleto#7326
+https://github.com/bitcoinhush/bitcoinhush
+
+{Embed}
+https://github.com/bitcoinhush/bitcoinhush
+bitcoinhush/bitcoinhush
+bitcoinhush - Bitcoin Hush
+https://images-ext-2.discordapp.net/external/7nATe7K-lOBPphbldNIFiQWPsp5f--wALc1ciftAt3Q/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/35062192
+
+{Reactions}
+BTCH (4) 
+
+[08-Jul-18 04:32 PM] Mylo#8306
+yep understood.  zilla and coqui have a src repo but you never know what kind of tech you find at exchanges to understand komodo's tech stack 😃
+
+
+[08-Jul-18 04:32 PM] Mylo#8306
+thank you
+
+
+[08-Jul-18 04:33 PM] Mylo#8306
+that info will do.  has the instructions for aforementioned tech
+
+
+[12-Jul-18 12:24 PM] Nobby2044#8396
+Will duke return to btch or is this being given to other devs? Just want to know what’s happening.
+
+
+[13-Jul-18 10:24 AM] dukeleto#7326
+@Nobby2044 still here, and I would love to know, what would "other devs" do with BTCH ?
+
+
+[13-Jul-18 10:56 AM] jl777c#5810
+I would add crypto conditions 😃
+
+
+[13-Jul-18 11:40 AM] Nobby2044#8396
+@dukeleto  are you looking to grow the team? It would be a real shame to ignore btch. I am aware you are busy on other projects but is there not anyone you'd trust to continue this?
+
+
+[13-Jul-18 11:42 AM] dukeleto#7326
+@Nobby2044 i have not heard from any devs wanting to do anything. Patches are always welcome. Do you want to add crypto conditions to BTCH? That would be great 😃
+
+
+[13-Jul-18 11:46 AM] Nobby2044#8396
+I know an incredible dev involved on a project at the moment. I won't mention the project here or who he is but it wouldn't hurt talking to him in the near future. @dukeleto Just an idea but I'd be happy to talk to him myself to see if I can get you 2 to have a discord meeting.
+
+
+[13-Jul-18 11:47 AM] Nobby2044#8396
+Ps. it's not trunk
+
+{Reactions}
+💯 👌 
+
+[13-Jul-18 11:48 AM] dukeleto#7326
+lol
+
+
+[13-Jul-18 11:49 AM] dukeleto#7326
+@Nobby2044 i always welcome experienced devs or people that want to genuinely learn to get involved. There is way more to do than I can work on, I am maybe only 1/777th as productive as jl777 . Basically, find an itch, and scratch it. That is how I got involved in free software + open source over 20 years ago
+
+
+[13-Jul-18 11:51 AM] jl777c#5810
+actually crypto conditions is already in btch
+
+
+[13-Jul-18 11:51 AM] jl777c#5810
+since it is in the KMD codebase
+
+
+[13-Jul-18 11:52 AM] jl777c#5810
+what would be needed is a hardfork to enable ac_cc=1
+
+
+[13-Jul-18 12:45 PM] Nobby2044#8396
+What would be the pros and cons of doing this?
+
+
+[13-Jul-18 12:49 PM] jl777c#5810
+my point is that without any specific btch development, all the improvements to komodo codebase is inherited
+
+
+[13-Jul-18 02:21 PM] dukeleto#7326
+@Nobby2044 BTCH inherits most/all features of KMD, but some features are related to the creation of the AC, specifically, the arguments that control all the options for the new AC
+
+{Reactions}
+🚀 
+
+[13-Jul-18 02:23 PM] dukeleto#7326
+when James and I created BTCH, there was no mining of AC's, and when we created BTCH, there was no CryptoConditions, so the current live chain does not have those features. If we recreated BTCH again, with these options, we would need to hardfork or maybe do a snapshot and airdrop onto the new chain to get those features.
+
+{Reactions}
+🚀 
+
+[13-Jul-18 02:23 PM] jl777c#5810
+can just do a height activated change of ASSETCHAINS_CC = 1
+
+
+[13-Jul-18 02:24 PM] jl777c#5810
+the point is without any extra effort BTCH is always getting work done
+
+
+[13-Jul-18 02:24 PM] Labhras#2315
+what is BTCH ?
+
+
+[13-Jul-18 02:24 PM] Nobby2044#8396
+Yes, even for someone with far far less technical knowledge than you guys I can see that.
+
+
+[13-Jul-18 02:25 PM] Nobby2044#8396
+I just would love to get this project out there more.
+
+
+[13-Jul-18 02:26 PM] Nobby2044#8396
+Oh. My last comment was regarding btch is always getting work done bit
+
+
+[13-Jul-18 02:28 PM] Nobby2044#8396
+I hope this one day becomes a priority for you both in the future. A lot of time as gone into this and I believe there is a chance for huge growth. This is the time before the next crypto bull run.
+
+
+[13-Jul-18 02:29 PM] jl777c#5810
+maybe some from community can help market it
+
+
+[13-Jul-18 02:30 PM] jl777c#5810
+and to get out there
+
+
+[13-Jul-18 02:32 PM] Berg#2666
+I'd offer to lend a hand but I don't have any stake in BTCH 😉
+
+
+[13-Jul-18 02:33 PM] Nobby2044#8396
+Sounds like a great plan. But without something new. A new development in the btch world it won’t work. You’ll need some new feature or something otherwise you’ll get “oh that dead coin blah blah”
+
+
+[13-Jul-18 02:33 PM] Nobby2044#8396
+The whole project is promising. I’m trying to buy some on coinexchange but my damn order isn’t being filled. Maybe I’m being too tight
+
+
+[13-Jul-18 02:34 PM] Berg#2666
+BTCH had great potential, it just needed funding to provide liquidity and marketing when the drop happened... CoinExchange alone will keep the coin in the grave until it's listed elsewhere.
+
+
+[13-Jul-18 02:34 PM] Berg#2666
+Has*** great potential.
+
+
+[13-Jul-18 02:34 PM] jl777c#5810
+maybe it can be the first coin that actively uses CC
+
+{Reactions}
+BTCH (2) 
+
+[13-Jul-18 02:37 PM] Nobby2044#8396
+It needs to move forward with something yes. Then marketing, social media etc. New roadmap. At least a dev or 2 with some available time to work on it. That may not be as easy as it sounds.
+
+
+[13-Jul-18 02:37 PM] Nobby2044#8396
+Now is the key time. We know the bull will return.
+
+
+[13-Jul-18 02:38 PM] jl777c#5810
+you can coordinate all this! it sounds great idea
+
+
+[13-Jul-18 02:39 PM] Nobby2044#8396
+As I’ve mentioned I am not a developer so my skills are usually used elsewhere.
+
+
+[13-Jul-18 02:40 PM] jl777c#5810
+the management part of it
+
+
+[13-Jul-18 02:40 PM] Nobby2044#8396
+Very happy to discuss things another time in pm. This needs to be revived and moved to the next level.
+
+
+[14-Jul-18 04:28 AM] Hegelian#0018
+I'm excited by this messaging feature as the sapling upgrade will allow me to send z transactions with only 40mb ram. So I can send messages on my Samsung s9. That is very cool. Do you think its feasible to make a BTCH branded mobile wallet for android?
+
+
+[14-Jul-18 04:32 AM] jl777c#5810
+its possible, but a fair amount of work
+
+
+[14-Jul-18 06:43 PM] AkiraX#8269
+Airdrop with existing btch?
+
+
+[14-Jul-18 06:43 PM] AkiraX#8269
+I would love it
+
+
+[14-Jul-18 06:43 PM] AkiraX#8269
+I've got a ton
+
+
+[14-Jul-18 06:48 PM] AkiraX#8269
+@Hegelian there's already mobile btch.  It's a fork of agama mobile
+
+
+[14-Jul-18 06:48 PM] AkiraX#8269
+Just gotta build it
+
+
+[14-Jul-18 06:48 PM] AkiraX#8269
+I've been using agama mobile forever
+
+
+[14-Jul-18 06:49 PM] AkiraX#8269
+@Nobby2044 @dukeleto @jl777c  very happy to see these discussions.  I've been holding and accumulating
+
+
+[14-Jul-18 06:50 PM] AkiraX#8269
+I have 3x of what I had since airdrop
+
+
+[14-Jul-18 06:54 PM] AkiraX#8269
+@Nobby2044 how do you know the bull will return?
+
+
+[14-Jul-18 10:28 PM] Nobby2044#8396
+@AkiraX the bull run will 100% return. I’ve held bitcoin for many years and seen this pattern before. Yes we may go lower but btc will destroy the $19,600 ATH for sure. All the institutional money is flowing in most of which will surely have been otc. Whether btch pumps or not is a different story. All we need here is some new development, roadmap and some people who can spend some time on this project. I think btch could be massive and I’m (trying) to accumulate now (if my damn buy order is filled).
+
+
+[14-Jul-18 10:33 PM] Nobby2044#8396
+When this bull returns we will without doubt see well over a trillion dollar crypto market cap. I’d be disappointed if btch doesn’t join the run and have huge increases. But again, we need some development and good news.
+
+
+[15-Jul-18 07:23 AM] AkiraX#8269
+Chances are. You probably already loaded the boat at 1700 :)
+
+
+[15-Jul-18 07:54 AM] AkiraX#8269
+nothing wrong with coinexchange
+
+
+[15-Jul-18 07:54 AM] AkiraX#8269
+i find it pretty good
+
+
+[15-Jul-18 08:50 AM] Nobby2044#8396
+I am no way loaded up on btch at all. I have some but need more. I’m really interested. Need my orders filled.
+
+
+[15-Jul-18 08:52 AM] Nobby2044#8396
+Then I really think some planning needs to take place on where to take btch and finding people to help the devs. Seems more people are needed. I’m great on social media with projects and would love to help. I’m involved in a project now but can help in the near future
+
+
+[15-Jul-18 09:18 AM] AkiraX#8269
+awesome
+
+
+[15-Jul-18 09:18 AM] AkiraX#8269
+i totally agree
+
+
+[15-Jul-18 11:00 AM] jl777c#5810
+nothing stops BTCH from getting to where other bitcoin forks have, in fact it is the smallest blockchain among all the bitcoin forks
+
+
+[15-Jul-18 11:45 AM] Alright#0419
+most of them have worth while block rewards
+
+
+[15-Jul-18 11:45 AM] Alright#0419
+so it leads to speculation on the price
+
+
+[15-Jul-18 03:58 PM] AkiraX#8269
+What about incentive for minerw
+
+
+[15-Jul-18 03:59 PM] AkiraX#8269
+Are there any blocks left
+
+
+[15-Jul-18 11:42 PM] Chipmoon#7477
+the last bull market , every coin with btc on its name got pumped pretty good
+
+
+[17-Jul-18 04:13 AM] Nobby2044#8396
+@jl777c do I post here or in the hush/ btch section? @AkiraX
+
+
+[17-Jul-18 04:15 AM] jl777c#5810
+they shuld be cross connected. @Audo how to enable that?
+
+
+[17-Jul-18 04:17 AM] Audo#5667
+Does Hush Discord has a #btch channel too, and these should be cross connected?
+
+I can ask Noashh to do it
+
+
+[17-Jul-18 04:18 AM] jl777c#5810
+yes
+
+
+[17-Jul-18 04:28 AM] Nobby2044#8396
+👍🏻
+
+
+[17-Jul-18 04:28 AM] Nobby2044#8396
+Amazing.
+
+
+[17-Jul-18 04:28 AM] Nobby2044#8396
+Guess I posted in the wrong one earlier
+
+
+[17-Jul-18 06:06 PM] AkiraX#8269
+?
+
+
+[17-Jul-18 11:59 PM] Nobby2044#8396
+@AkiraX there is a hush channel with a btch bit too
+
+
+[20-Jul-18 12:47 PM] Nobby2044#8396
+CoinMarketCap Removes Volume Requirements for Cryptocurrency Exchange Listing
+
+https://www.ccn.com/coinmarketcap-removes-volume-requirements-for-cryptocurrency-exchange-listing/
+
+{Embed}
+https://www.ccn.com/coinmarketcap-removes-volume-requirements-for-cryptocurrency-exchange-listing/
+CoinMarketCap Removes Volume Requirements for Cryptocurrency Excha...
+Cryptocurrency data aggregation website CoinMarketCap has removed the minimum volume requirements for exchanges listed on its platform.
+https://images-ext-1.discordapp.net/external/gCRntrcFzPhqS-56IfDIjlgH_6sCjxPoAY4WvUndv9A/https/www.ccn.com/wp-content/uploads/2018/07/coinmarket-cap-bitcoin-cryptocurrency-exchange-ethereum.jpg
+
+
+[21-Jul-18 12:11 AM] CHMEX#0686
+applied lets see. I keep this channel updated.
+
+
+[21-Jul-18 01:13 AM] jl777c#5810
+the limit for coins I dont think has changed
+
+
+[21-Jul-18 01:16 AM] CHMEX#0686
+Yes in the article it mentions exchange volume however the limit is removed from the request form.... lets see...
+
+
+[21-Jul-18 01:17 AM] jl777c#5810
+million exchanges and coins!
+
+
+[21-Jul-18 10:37 PM] CHMEX#0686
+Hi,
+
+Unfortunately BitcoinHush does not meet our requirements for listing at this time. Please feel free to re-apply when this project has become more established.
+
+Sincerely,
+CoinMarketCap Support
+
+
+[22-Jul-18 08:00 AM] Alright#0419
+Might not be my place to suggest this, but has anyone considered relaunching BTCH with a worth while mining reward? Maybe airdrop to a new chain with initial supply of 2.1M and still have 21M max? Maybe make it a high % POS, so it doesn't detract from HUSH's or KMD's hashrate?
+
+
+[22-Jul-18 08:00 AM] Alright#0419
+Would be cool to see a POS chain in production once the tech is rock solid
+
+
+[22-Jul-18 12:46 PM] Nobby2044#8396
+@Alright sounds great but I think the main issue is having devs that have time to give to btch.
+
+
+[22-Jul-18 12:48 PM] Nobby2044#8396
+I see all the shit on coinmarketcap and they won’t list btch. The issue here is they see the 0 volume and lack of exchanges and not what btch is.
+
+
+[22-Jul-18 12:49 PM] Alright#0419
+I think lack of volume is partly due to it basically being a token as opposed to coin with mining rewards
+
+
+[22-Jul-18 12:50 PM] Nobby2044#8396
+Yes. True.
+
+
+[23-Jul-18 06:52 AM] Berg#2666
+I mean, I know KMD members are holding a ton of reserved BTCH, is there a dev fund that we can use to throw a 1 BTC listing fee towards getting on Crypto-Bridge or some medium exchange? I honestly believe that's the biggest thing BTCH is lacking behind marketing, nowhere to trade.
+
+
+[23-Jul-18 07:11 AM] jl777c#5810
+will be listed on digitalprice.io soon
+
+{Reactions}
+🌈 (2) 
+
+[23-Jul-18 11:12 AM] dukeleto#7326
+👍
+
+{Reactions}
+abusedsmily 
+
+[23-Jul-18 11:15 AM] dukeleto#7326
+@Alright mining AC's wasn't an option when BTCH was launched, we most likely would have made it mineable if that was an option at the time. Your ideas are interesting
+
+{Reactions}
+👌 
+
+[26-Jul-18 07:10 AM] jl777c#5810
+https://digitalprice.io/order?url=btch-btc
+
+{Reactions}
+🍿 (3) 
+
+[26-Jul-18 07:25 AM] Berg#2666
+@jl777c Are these trading pairs live, or has the exchange not officially launched?
+
+
+[26-Jul-18 07:28 AM] jl777c#5810
+its live, just need traders
+
+
+[26-Jul-18 07:31 AM] Berg#2666
+Awesome
+
+
+[26-Jul-18 07:31 AM] Berg#2666
+I also just applied to a few tracking apps to have BTCH listed
+
+
+[26-Jul-18 07:57 AM] dukeleto#7326
+awesome 👍
+
+
+[26-Jul-18 10:51 AM] Berg#2666
+I've applied once more to have BTCH added to the SonoX listing contest https://goo.gl/forms/LdaXcTvUydkmU8qE2
+
+{Embed}
+https://goo.gl/forms/LdaXcTvUydkmU8qE2
+SonoX Prelisting Vote Application
+Please list all details correctly.
+Ethereum Tokens are not supported in this vote.
+Please only list coins with their own Blockchain.
+
+You can follow the Development of Project SONO and SonoX via the following links:
+Project SONO: https://twitter.com/SonoProject
+SonoX: https:/...
+https://images-ext-1.discordapp.net/external/00xnlbC_DbNjULPHMIjzWisnY1S5mmZyDICUHWZI5nM/https/lh6.googleusercontent.com/ds_IqCT0fTV4n53QSH2NlDICnoEgcuy30iogMw-sgQyjES2saJ75GGeBWvQJlYCjEvs%3Dw1200-h630-p
+
+
+[01-Aug-18 12:09 PM] Nobby2044#8396
+Can we link this with the hush discord btch channel? Its a pain checking the Komodo group and the hush group. The hush btch channel seems busier. What do you guys say?
+
+
+[01-Aug-18 12:23 PM] Berg#2666
+I've attempted to get bot access to have the channels linked, haven't been followed up with
+
+
+[01-Aug-18 12:35 PM] xRobeSx#5136
+@carl or @Audo should be able to help I think
+
+
+[01-Aug-18 12:38 PM] Berg#2666
+Sorry for the misunderstanding, this is on our end, not KMD's 😃
+
+
+[01-Aug-18 12:38 PM] Berg#2666
+noashh has already reached out to me, but unfortunately I can't get him information he needs until given permissions.
+
+
+[01-Aug-18 01:28 PM] Nobby2044#8396
+Ok so we have 2 channels and it’s staying that way? Just so I know.
+
+
+[01-Aug-18 01:48 PM] Berg#2666
+Until sorted out, yes
+
+
+[10-Aug-18 01:43 AM] Francis#7833
+Where can we store btch now? Still just agama?
+
+
+[10-Aug-18 01:48 AM] CHMEX#0686
+Agama, Paperwallet
+
+
+[10-Aug-18 01:48 AM] Francis#7833
+The btch agama servers never connect for me
+
+
+[10-Aug-18 01:48 AM] Francis#7833
+0.2.41 beta
+
+
+[10-Aug-18 01:51 AM] CHMEX#0686
+I just did a trx on agama 0.2.41 beta with BTCH and it worked fine
+
+
+[10-Aug-18 05:43 AM] Berg#2666
+Yeah I just synced mine up fine 🤷 😃
+
+
+[10-Aug-18 06:07 AM] Berg#2666
+✋
+
+
+[10-Aug-18 06:07 AM] Berg#2666
+🙋
+
+
+[10-Aug-18 06:15 AM] Berg#2666
+This goes for anyone really, if you're selling BTCH I'll take it.
+
+
+[10-Aug-18 09:50 AM] Francis#7833
+The servers don't even connect for me
+
+
+[10-Aug-18 09:50 AM] Francis#7833
+Been this way for ages
+
+
+[10-Aug-18 09:53 AM] SHossain#0007
+use this ip `37.9.62.186` as seednode to connect
+
+
+[10-Aug-18 10:15 AM] Berg#2666 (pinned)
+Join the official Bitcoin Hush Discord channel here:
+https://discord.gg/QGPdzxH
+
+
+[10-Aug-18 11:18 AM] dukeleto#7326
+I am interested to hear from the community about what they think of this: BTCH does a hard-fork to a larger supply (to be determined) so that it can enable mining as well as cryptoconditions, and whatever else good stuff is available now in asset chains
+
+
+[10-Aug-18 11:20 AM] dukeleto#7326
+So, one theoretical scenario is BTCH forks to double it's supply (Satoshi's double vision) to 42M coins, and we make all the remaining 21M mineable via equihash. At the same time, we enable cryptoconditions so that BTCH can do all this cool smart contract stuff that James has been working on
+
+{Reactions}
+🍻 
+
+[10-Aug-18 11:21 AM] dukeleto#7326
+Doubling our supply does "dilute" current HODLers position, but if making BTCH minable + CC can more than double the price, it seems worth it. And since our price is so low right now, I could easily see this BTCH revival doing much more than a 2X.
+
+
+[10-Aug-18 11:22 AM] dukeleto#7326
+if BTCH had mining pools and all the culture/community that comes with mining, it probably would give us way better liquidity
+
+
+[10-Aug-18 11:22 AM] dukeleto#7326
+because miners will always want to sell, and traders will always want to speculate
+
+
+[10-Aug-18 11:23 AM] dukeleto#7326
+I am sure some people will not like the above ideas, but I think doing nothing is worse. It would be cool to mine BTCH on a z9
+
+
+[10-Aug-18 11:25 AM] Berg#2666
+BTCH needs a revival, and I am 100% on board for this first step being taken. We'll have to peddle it around the community for further ideas, but this seems like the best way to get the ball rolling.
+
+
+[10-Aug-18 11:30 AM] jl777c#5810
+I will support anything the community will want to do
+
+
+[10-Aug-18 11:39 AM] xRobeSx#5136
+I think a mineable BTCH is a great idea
+
+
+[10-Aug-18 11:42 AM] dukeleto#7326
+it seems that the downside risk is very small, and the upside is potentially very large
+
+
+[10-Aug-18 11:42 AM] dukeleto#7326
+so it seems we need to decide on specifics, like a new supply, and what the schedule for halving/etc will be
+
+
+[10-Aug-18 11:43 AM] dukeleto#7326
+the cryptoconditions part is easy, we just use `ac_cc=1` when creating the chain.
+
+
+[10-Aug-18 11:43 AM] jl777c#5810
+make it ac_cc=2
+
+
+[10-Aug-18 11:43 AM] dukeleto#7326
+i think the biggest decision is how to change our supply
+
+
+[10-Aug-18 11:43 AM] dukeleto#7326
+oh, i wasn't sure what that did actually
+
+
+[10-Aug-18 11:43 AM] jl777c#5810
+then it can be an oracle for cross chain usage
+
+
+[10-Aug-18 11:43 AM] dukeleto#7326
+sounds great
+
+
+[10-Aug-18 11:44 AM] jl777c#5810
+ie. if BTCH store BTC Headers (see what i did) all the other chains can use that to verify BTC transactions
+
+
+[10-Aug-18 11:44 AM] dukeleto#7326
+awesome
+
+
+[10-Aug-18 11:45 AM] dukeleto#7326
+Doubling our supply and making all the new supply mineable seems to be one of the simpler possibilities, i am not sure about how the mining schedule should work tho
+
+
+[10-Aug-18 11:46 AM] dukeleto#7326
+BTCH was before AC's had mining and i haven't looked at all the mining options currently available when creating an AC
+
+
+[10-Aug-18 01:44 PM] Francis#7833
+Nice just bought loads more btch today aswell
+
+
+[10-Aug-18 01:44 PM] Francis#7833
+But not fussed really
+
+
+[10-Aug-18 01:44 PM] Francis#7833
+Needs marketing an exchanges too
+
+
+[10-Aug-18 01:45 PM] Berg#2666
+I've been handed off the BTCH Twitter handle and plan on developing a marketing strategy to re-educate the public about Komodo upgrade inheritance and whatnot.
+
+
+[10-Aug-18 01:46 PM] Berg#2666
+Paired with the potential/planned developments I believe we'll gain some traction, but I agree that for the coin to gain traction it needs a half decent exchange to fall back on.
+
+
+[10-Aug-18 01:46 PM] Francis#7833
+I think btch has alot of potential
+
+
+[10-Aug-18 01:46 PM] Berg#2666
+A lottttt
+
+
+[10-Aug-18 01:46 PM] Francis#7833
+Kmd needs marketing too let alone btch
+
+
+[10-Aug-18 01:47 PM] Francis#7833
+Heavy that I bought 50k btch today tho 😂
+
+
+[10-Aug-18 01:47 PM] Berg#2666
+Want to sell me some?
+
+
+[10-Aug-18 01:47 PM] Francis#7833
+No lol
+
+
+[10-Aug-18 01:47 PM] Berg#2666
+How'd you even amass that much?
+
+
+[10-Aug-18 01:48 PM] Francis#7833
+Someone put a sell order of 50k on at $0.04
+
+
+[10-Aug-18 01:48 PM] Francis#7833
+So I bought it
+
+
+[10-Aug-18 01:48 PM] Berg#2666
+Damn
+
+
+[10-Aug-18 01:48 PM] Francis#7833
+I'm a "pro" crypto / forex trader and tech a educator
+
+
+[10-Aug-18 01:49 PM] Francis#7833
+Made $25k scalping xrp this week
+
+
+[10-Aug-18 01:49 PM] Berg#2666
+You want to 2x some of that BTCH investment? 😏
+
+
+[10-Aug-18 01:50 PM] Berg#2666
+I'll buy 10K off of you at $0.10 ea. 😉
+
+
+[10-Aug-18 01:50 PM] Francis#7833
+No ty
+
+
+[10-Aug-18 01:50 PM] Berg#2666
+💔
+
+
+[10-Aug-18 01:50 PM] Francis#7833
+Haha
+
+
+[10-Aug-18 01:50 PM] Berg#2666
+Any time I try to buy BTCH I get stone walled.
+
+
+[10-Aug-18 01:50 PM] Francis#7833
+I'm buying more
+
+
+[10-Aug-18 01:51 PM] Berg#2666
+You can always buy more with the $1,000 I give you....
+
+
+[10-Aug-18 01:51 PM] Berg#2666
+😉
+
+
+[10-Aug-18 01:51 PM] Francis#7833
+Usually I jsut eat up the sells tbh
+
+
+[10-Aug-18 01:51 PM] Berg#2666
+😙
+
+
+[10-Aug-18 01:51 PM] Francis#7833
+My course sells for £499
+
+
+[10-Aug-18 01:51 PM] Francis#7833
+Don't need ya g
+
+
+[10-Aug-18 01:52 PM] Berg#2666
+But to help a friend?
+
+
+[10-Aug-18 01:52 PM] Berg#2666
+Can't put a price on that.
+
+
+[10-Aug-18 01:52 PM] Francis#7833
+Truw
+
+
+[10-Aug-18 01:52 PM] Francis#7833
+Here's my bank details....
+
+
+[10-Aug-18 01:52 PM] Francis#7833
+😅
+
+
+[10-Aug-18 02:24 PM] Alright#0419
+I propose an initial supply of 2.1M, total supply stays 21M
+
+
+[10-Aug-18 02:25 PM] Alright#0419
+take a decimal place off of everyone's balance
+
+
+[10-Aug-18 06:12 PM] dukeleto#7326
+@Alright we can play all kinds of games like that, but makes the process more complex/edge cases/etc. With those numbers, you are allowing 90% to be mined, that is current HODLers being diluted to 10% of what they had
+
+
+[10-Aug-18 06:13 PM] dukeleto#7326
+and what about addresses with 1-9 satoshis?
+
+
+[10-Aug-18 06:13 PM] dukeleto#7326
+there are a hell of a lot of them, lol
+
+
+[10-Aug-18 06:13 PM] Alright#0419
+you won't attract many new miners if their mining efforts are dwarfed by the premine
+
+
+[10-Aug-18 06:14 PM] dukeleto#7326
+this is good feedback, i think we want to find a happy middle ground between people who currently hold BTCH and future miners
+
+
+[10-Aug-18 06:15 PM] dukeleto#7326
+@Alright if it's profitable as hell for them to mine BTCH on their z9's, does that really matter?
+
+
+[10-Aug-18 06:15 PM] dukeleto#7326
+a lot of BTCH is locked up in addresses from lost/deleted/gone BTC, there is actually a lot of BTCH that will never be used because of that
+
+
+[10-Aug-18 06:15 PM] dukeleto#7326
+there isn't some big pre-mine, there is none actually
+
+
+[10-Aug-18 06:16 PM] dukeleto#7326
+the currently supply of BTCH is, in theory, 21M, but taking into account all lost BTC, it is more like 15M most likely
+
+
+[10-Aug-18 06:16 PM] dukeleto#7326
+"accessible supply" or whatever
+
+
+[10-Aug-18 06:17 PM] Alright#0419
+if the purpose is to attract miners, I think you should make the current supply much less than the overall supply
+
+
+[10-Aug-18 06:17 PM] Alright#0419
+50% is a lot, just saying
+
+
+[10-Aug-18 06:18 PM] dukeleto#7326
+I wonder what current HODLers think of that
+
+
+[10-Aug-18 06:18 PM] Alright#0419
+You've heard from at least 1 😛
+
+
+[10-Aug-18 06:18 PM] dukeleto#7326
+if some BTCH HODLer knows they own 1% of BTCH supply and then we do this 90/10 as you suggest, they now own 0.1% of BTCH supply
+
+
+[10-Aug-18 06:18 PM] dukeleto#7326
+investors call that dilution and usually it scares them
+
+
+[10-Aug-18 06:19 PM] dukeleto#7326
+if you are purely a future miner, then that doesn't worry you
+
+
+[10-Aug-18 06:19 PM] Alright#0419
+I'm thinking as it as a miner
+
+
+[10-Aug-18 06:19 PM] Alright#0419
+"Will i actually want to mine this?"
+
+
+[10-Aug-18 06:19 PM] dukeleto#7326
+in theory, BTCH will easily fit into any znomp mining pool, there won't be technical issues to add it, like Verus
+
+
+[10-Aug-18 06:20 PM] Alright#0419
+yea, it's straight forward
+
+
+[10-Aug-18 06:20 PM] Alright#0419
+works like any other coin
+
+
+[10-Aug-18 06:21 PM] dukeleto#7326
+i think miners would always like more options
+
+
+[10-Aug-18 06:22 PM] dukeleto#7326
+and BTCH will be another option for z9's, and they can switch their miners to it if they want to specmine or when the price/difficulty is attractive to them
+
+
+[10-Aug-18 06:22 PM] Alright#0419
+make it POS? kind of appeases HODLers
+
+
+[10-Aug-18 06:23 PM] Alright#0419
+Another reason to make it POS is that it will likely detract from HUSH and KMD's hash rate
+
+
+[10-Aug-18 06:24 PM] dukeleto#7326
+i am not against it, it just sounds like a lot of work 😃
+
+
+[10-Aug-18 06:24 PM] dukeleto#7326
+and every new zcash fork that comes out, in theory, detracts from Hush/KMD hashrate. But we have asics flooding the market, so hashrates are increasing anyway
+
+
+[10-Aug-18 06:25 PM] dukeleto#7326
+mining BTCH will open a lot of doors, but long-term, what could bring a lot of inherent value to BTCH, is cryptoconditions
+
+
+[10-Aug-18 06:26 PM] dukeleto#7326
+if BTCH can do CC/smart contract stuff and talk to other KMD asset chains, well that is really freaking cool. That is unique to BTCH, Hush can't do that stuff (but maybe one day)
+
+
+[10-Aug-18 06:26 PM] Alright#0419
+the idea from jl is fucking cool
+
+
+[10-Aug-18 06:26 PM] Alright#0419
+if I understand it correctly at least
+
+
+[10-Aug-18 06:26 PM] dukeleto#7326
+which one? -ac_cc=2 ?
+
+
+[10-Aug-18 06:26 PM] Alright#0419
+essentially taking momom of BTC and storing it on BTCH
+
+
+[10-Aug-18 06:26 PM] Alright#0419
+so other assetchains can check BTCH to see if a transaction happened on BTC
+
+
+[10-Aug-18 06:27 PM] dukeleto#7326
+oh gosh that sounds nice
+
+
+[10-Aug-18 06:27 PM] dukeleto#7326
+i saw him say something like that but I didn't fully grasp it
+
+
+[10-Aug-18 06:27 PM] Alright#0419
+Yea me either 😂
+
+
+[10-Aug-18 06:27 PM] Alright#0419
+that's how I took it though
+
+
+[10-Aug-18 06:27 PM] Alright#0419
+🤷
+
+
+[10-Aug-18 06:28 PM] dukeleto#7326
+i really like it, it sounds like it gives BTCH a reason to live, a unique purpose that sets it aside. And it's a resource to other AC's, and we keep getting more
+
+
+[10-Aug-18 06:31 PM] dukeleto#7326
+if we changed supply to 147M, then current supply would be 1/7th of total, which leaves about 86% to be mined. Just a datapoint, i think bringing a few different options to the community and seeing how the feel is going to happen soon, maybe some kind of vote
+
+
+[10-Aug-18 06:32 PM] dukeleto#7326
+if we don't have to change the satoshi amounts of any address, that makes the whole process a lot easier
+
+
+[10-Aug-18 07:48 PM] polycryptoblog#1173
+There needs to be a more immediate "need" for the coin for it to get some traction.   I like the MoMoM btc headers idea but how long til there is a enough cross chain contracts that would utilize it .  Needs a renaming too.
+
+
+[11-Aug-18 01:05 AM] jl777c#5810
+it can be 100% PoS coin, but then no miners
+
+
+[11-Aug-18 01:05 AM] jl777c#5810
+BTCH is a decent name for a chain with BTC headers
+
+{Reactions}
+abusedsmily BTCH 
+
+[11-Aug-18 03:01 AM] Francis#7833
+Don't you think supply should be doubled at max? I have 200k btch an would be pretty annoyed that this would be reduced 10*
+
+
+[11-Aug-18 03:01 AM] Francis#7833
+I'm an investor not a miner
+
+
+[11-Aug-18 08:03 AM] dukeleto#7326
+@Francis that was my initial gut reaction as well, minimize dilution. Miners and current HODLers don't quite have the same incentives for how the supply change will work
+
+
+[11-Aug-18 08:05 AM] dukeleto#7326
+@Francis also, you have more than the BTCH dev fund, nicely done 😃
+
+
+[11-Aug-18 08:12 AM] Francis#7833
+From what you guys have been saying it does sound like a good idea and could be worth it in the long run. Just as you say I think minimise dilution. Atleast if the supply is doubled soon, the prices would remain cheap so purchasing more wouldn't be a crazy expense
+
+
+[11-Aug-18 08:12 AM] Francis#7833
+Also 😂😂😂 I'm just going to keep buying more tbh. I have faith
+
+
+[11-Aug-18 10:12 AM] dukeleto#7326
+@Francis that means a lot, thanks for believing in us
+
+
+[11-Aug-18 11:30 AM] Alright#0419
+@Francis if it were POS, you'd likely be the single largest staker, getting the majority of blocks
+
+
+[11-Aug-18 11:39 AM] Francis#7833
+True that but that's also kinda harsh on everyone else no? I really don't mind just as long as my holdings aren't diluted by more than half really
+
+
+[11-Aug-18 11:40 AM] Francis#7833
+@Alright
+
+
+[11-Aug-18 11:41 AM] Alright#0419
+it's only harsh to people that don't bother to stake
+
+
+[11-Aug-18 11:42 AM] Alright#0419
+if it's 100% POS, you'll statistically continue to hold the same % of the supply if you stake the coins you have
+
+
+[11-Aug-18 06:31 PM] AkiraX#8269
+Been holding the whole time.
+
+
+[11-Aug-18 06:32 PM] AkiraX#8269
+Been buying. But not lately as I've been accumulating kmd
+
+
+[11-Aug-18 06:32 PM] AkiraX#8269
+I don't think I will have enough for the chainzilla air drop though
+
+
+[11-Aug-18 08:53 PM] AkiraX#8269
+No money.  :)
+
+
+[12-Aug-18 09:42 AM] xRobeSx#5136
+I think @Alright is right I’m thinking we need a high % of PoW blocks to come, so that miners will be interested. And clearly James’s headers idea is brilliant as well. I think your idea of 147mil coins @dukeleto sounds nice. Or something around that range. Some good halving points count be used as well to keep the PoW alive for years to come, like BTC.
+
+
+[12-Aug-18 02:52 PM] jl777c#5810
+what about a 50% PoS and 50% PoW chain? that would allow the people will active stakes to maintain their percentage of total supply, while also allowing new miners to also achieve large positions
+
+{Reactions}
+🙏 👍 
+
+[12-Aug-18 02:53 PM] jl777c#5810
+the ultimate coin supply would be secondary with a 50/50 chain
+
+
+[12-Aug-18 02:53 PM] jl777c#5810
+can also be 60/40 or 40/60, etc
+
+
+[12-Aug-18 03:07 PM] xRobeSx#5136
+That sounds like the best option
+
+
+[12-Aug-18 10:50 PM] dukeleto#7326
+I am not sure exactly how we would do 50% PoS/PoW, but it sounds interesting. Verus has certainly done a lot of work in the area that could be built upon
+
+
+[12-Aug-18 10:51 PM] dukeleto#7326
+has any coin forked from 100% PoW to 50% PoS/PoW? It would be interesting to see how the went about it
+
+
+[13-Aug-18 01:41 AM] jl777c#5810
+-ac_staked=50 <- 50% PoS
+
+
+[13-Aug-18 01:41 AM] jl777c#5810
+-ac_staked=60 <- 60% PoS
+
+
+[13-Aug-18 01:41 AM] jl777c#5810
+pretty easy to set the PoS/PoW percentage
+
+
+[13-Aug-18 01:43 AM] jl777c#5810
+KMD has -ac_staked option before verus, which uses a totally difrerent method of balancing. we have tested 90%, 100%, 50%, 10% and a few other -ac_staked percentages and unless there is another attack vector found, we should be good at any percentage.
+
+
+[13-Aug-18 01:45 AM] jl777c#5810
+I think using the -ac_* options quite a large percentage of all the other coin emissions can be replicated,plus a lot of new ones
+
+
+[13-Aug-18 06:45 AM] xRobeSx#5136
+@dukeleto we're about to start a new PoS/PoW chain for testing in Chips #pos64test channel
+
+
+[13-Aug-18 07:30 AM] dukeleto#7326
+@xRobeSx thanks, i forgot about the -ac_stake options already in KMD
+
+{Reactions}
+👌 
+
+[15-Aug-18 10:24 AM] allbits#5898
+@xRobeSx
+
+
+[15-Aug-18 11:31 AM] xRobeSx#5136
+whats up @allbits ?
+
+
+[15-Aug-18 03:54 PM] allbits#5898
+Oops that was an accident somehow. Sorry
+
+
+[17-Aug-18 04:39 AM] paia#7713
+It would be great, to do something with BTCH. Even trying new things may brings unexpected (and hopefully positive) results.
+
+
+[17-Aug-18 04:53 AM] jl777c#5810
+yes, we have plans for BTCH hardfork to activate CC and enable mining, maybe 50/50 PoW/PoS
+
+
+[17-Aug-18 04:55 AM] CHMEX#0686
+equihash or verushash? As this is a devcoin it would be exciting to see another algorythm
+
+
+[17-Aug-18 04:56 AM] CHMEX#0686
+But not sure if it's possible as komodod would need to support two algos?
+
+
+[17-Aug-18 04:57 AM] jl777c#5810
+depends on when the hardfork, mike will be porting verushash into komodo assetchains later this year
+
+
+[17-Aug-18 04:58 AM] CHMEX#0686
+nice
+
+
+[18-Aug-18 02:12 AM] Bar_F1sh_Rel#0834
+Just an idea - but it would be nice to be able to build an "assetchain" -cli direct from the source (btch-cli).
+Using the command switches from the komodo-cli makes integration into existing add-ons (like wallets) an extra step most don't want to take.
+Same is true of the daemon - having to create a scrip or remember startup switches is tedious - it must be possible to add these to the build script - a Bounty opportunity?
+
+
+[18-Aug-18 04:02 AM] dukeleto#7326
+@Bar_F1sh_Rel cd src/; ./fiat/btch help
+
+
+[18-Aug-18 04:03 AM] dukeleto#7326
+all assetchains have a ./fiat/ac wrapper
+
+
+[18-Aug-18 04:41 AM] Bar_F1sh_Rel#0834
+@dukeleto - yeah - but that is still just a script call to komodo-cli with wildcards accepted.
+What is needed is a native btch-cli - as the wrapped script breaks calls in GUI's like swing.
+
+
+[18-Aug-18 06:51 AM] pbca26#5430
+i think verus already done something similar in verusd and verus-cli
+but it will only work on mac/linux and those are also just a few shell scripts
+
+
+[18-Aug-18 10:29 AM] dukeleto#7326
+@Bar_F1sh_Rel `as the wrapped script breaks calls in GUI's like swing` sounds like a bug in the GUI
+
+
+[18-Aug-18 10:29 AM] dukeleto#7326
+verus-cli is just a wrapper around komodo-cli
+
+
+[19-Aug-18 11:59 AM] jl777c#5810
+I came up with an MGW CC contract and plan to use BTCH to be the chain where the BTC token is issued. with the built in DEX for onchain assets against BTCH, it can create a good solution for speedy trading. it is a single chain atomic swap DEX
+the redeem will be a transfer of the BTC assets back to real BTC, which will rely on user specified notaries
+eventually can make it so the BTCH BTC token can be transferred to other CC enabled chains, but that would likely be next year
+
+{Reactions}
+🚀 (3) Komodo 
+
+[19-Aug-18 07:58 PM] grewalsatinder#9653
+cool!! 😃
+
+
+[20-Aug-18 04:44 AM] Berg#2666
+
+{Attachments}
+https://cdn.discordapp.com/attachments/459247435093639168/481065983058903040/image0.png
+
+
+[20-Aug-18 05:22 AM] Berg#2666
+Looks like the price is a bit off on their API somehow compared to Blockfolio, but a strep in the right direction regardless.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/459247435093639168/481075594650451969/unknown.png
+
+
+[20-Aug-18 05:39 AM] Berg#2666
+LiveCoin listed BTCH and that's where all the volume is, not sure how real or whatever.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/459247435093639168/481079725721124890/unknown.png
+
+
+[20-Aug-18 05:39 AM] Berg#2666
+I had applied for BTCH and HUSH way back, didn't think I ever got a response from them, or they were asking for money..
+
+
+[20-Aug-18 05:40 AM] Berg#2666
+Apparently LiveCoin BTCH is selling at $0.003 when CoinExchange is at $0.10....
+
+
+[20-Aug-18 05:44 AM] Berg#2666
+We're being thrown off by "BitHash" I believe, same ticker symbol, likely confused for duplicate BTCH's.. We must establish dominance.
+
+
+[20-Aug-18 02:51 PM] polycryptoblog#1173
+Multigateway is coming back !!!!!!!🚀🚀🌕
+
+
+[21-Aug-18 06:46 AM] jl777c#5810
+I added a -ac_ccactivate=height param to test branch of komodod. that means the community can decide when to activate the CC functionality. now all nodes would need to update, including exchanges, explorers, etc. as it is a dynamic hardforking
+
+{Reactions}
+👍 (8) 
+
+[29-Aug-18 12:17 PM] Berg#2666
+http://twitter.com/BTCHush/status/1034869268767301633
+
+{Embed}
+Bitcoin Hush (@BTCHush)
+http://twitter.com/BTCHush/status/1034869268767301633
+Hello $BTCH holders!
+
+We are currently strategizing an invigoration of BTCH and exploring options. These will include:
+
+- Marketing Strategy
+- Algorithm Adjustments
+- Coin Supply Adjustments
+- Attractive Mining 
+
+Please join us at https://t.co/uPz2oIxI3w to join the conver...
+Twitter
+
+
+[29-Aug-18 12:18 PM] Berg#2666
+Come join the conversation that's happening now on https://myhush.org/discord  and make your voice heard 😃
+
+
+[01-Sep-18 11:33 AM] carl#3101
+x
+
+
+[01-Sep-18 11:33 AM] Gateway#3763
+[dscrd-hush] <noashh> y
+
+
+[01-Sep-18 11:50 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Takoy_Nahal raise transaction fees. Some (semi-centralized) currencies work that way. IOTA and Waves are examples. Other way would probably be to burn unclaimed coins. How many of them have been claimed already? 10% of total supply? Set a time limit of 6 or 12 months and than burn unclaimed. From that point on you can probably continue with POW. Otherwise BTCH airdrop make no sense. Also, current name of coin is Bitcoin Hush. Bitcoin-Hush. Bitcoin. We all know what is maximum supply for BTC. ZEC (BTC's fork) and HUSH (ZEC's fork) remain with 21 mio. It's part of identity and it should be part of promotion and marketing.
+
+
+[01-Sep-18 12:14 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> I'm not a developer, maybe your idea is sound. But it's still fork Komodo, and KMD is already 100 million, but its value in the bear market is not low
+
+
+[01-Sep-18 12:24 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> I'm also not a developer. BTCH is not KMD fork, it is KMD asset chain. With total suppy of BTCH market capitalization would be 1-3 million, with circulating supply it is some 100k $. Tell BTC whales (centralized exchanges) you will burn their shitcoin and some will claim it and do something with it. That is a way to increase market volume and price and it no longer is shitcoin. And even if 25 or 50 % of BTCH would be claimed it will still leave significant room for POW. Also you should know that 5-6 million of already mined BTC is lost in space, so nobady will claim those forks.
+
+
+[01-Sep-18 11:55 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> @halo kitty rules Yes you are right< my mistake, asset chain. I think we will know about it soon
+
+
+[04-Sep-18 07:59 AM] Gateway#3763
+[dscrd-hush] <Berg> A huge thank you to @noashh for getting the BTCH bridge up and running. Komodo's Discord BTCH channel is now tethered to this one 😃
+
+
+[05-Sep-18 07:29 AM] Gateway#3763
+[dscrd-hush] <Berg> BitexBay rep just reached out to me.
+Offered a BTC pair listing at 0.15 BTC
+https://www.bitexbay.com/
+^ I usually don't go for this kind of stuff, but BitexBay is not a bad exchange, and that listing price is extremely attractive.
+As long as we can vet the legitimacy, which he gave me an official email to reach out to, I don't see why BTCH/HUSH wouldn't be interested. I believe our listing donations could cover a decent amount of a single pair.
+
+{Embed}
+https://www.bitexbay.com/
+BitexBay-Next cryptocurrency exchange BitexBay.com - invest worldw...
+BitexBay is the leading global bitcoin exchange. Secured with bank-level SSL encryption and cold storage. Distributed servers for high-speed bitcoin trading based on real-time data. BitexBay provides top level digital currency trading services for bitcoin, litecoin,ethereum,r...
+
+
+[05-Sep-18 09:40 AM] Gateway#3763
+[dscrd-hush] <daanoontjeh> What makes it a decent exchange? Volume? Support? Users? Coins?
+
+
+[05-Sep-18 10:00 AM] Gateway#3763
+[dscrd-hush] <Berg> Just doing a basic comparison between them and their listing price with others like Crypto-Bridge which costs 2 BTC
+
+
+[05-Sep-18 10:20 AM] Gateway#3763
+[dscrd-hush] <cryptopar> What about to get listed on safex?
+
+
+[05-Sep-18 11:25 AM] Gateway#3763
+[dscrd-hush] <Berg> I believe we came close on that vote, but didn't end up there..
+
+
+[05-Sep-18 11:25 AM] Gateway#3763
+[dscrd-hush] <Berg> I'm not a pay to vote kind of guy, personally.
+
+
+[08-Sep-18 09:11 AM] Gateway#3763
+[dscrd-hush] <Art0077> why you need exchange, hush already has good exchange cryptopia. To go for better exchange hush needs a lot more volume but now nobody is buying because this coin has nothing to offer - no value at all.
+
+
+[08-Sep-18 09:56 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> @Art007  and who on Cryptopia offers value?
+
+
+[08-Sep-18 04:53 PM] Gateway#3763
+[dscrd-hush] <Zatoichi> project left by the devs?
+
+
+[09-Sep-18 07:52 AM] Gateway#3763
+[dscrd-hush] <Berg> @Art0077 this is the BTCH discussion, and BTCH does need exchanges.
+
+
+[09-Sep-18 07:53 AM] Gateway#3763
+[dscrd-hush] <Berg> @Zatoichi Project is more alive than ever. It's a runtime fork of Komodo, meaning it inherits upgrades that the Komodo team makes to KMD, meaning it is also constantly being developed.
+
+
+[09-Sep-18 08:58 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> While speaking about exchanges and Cryptopia... What about Cryptopia? They look generous last months. They supported SUMO fork few months ago and enlisted forked coin for free (SUMO team was complaining about that). They will also support upcoming BTC/ZCL fork. Who knows, maybe they can offer you a nice discount or maybe list BTCH for free. Don't forget: at BTCH snapshot there was close to 200k HUSH on selling side of BTC/HUSH trading pair. Also the biggest whale at BTCH snapshot time had more than 700k HUSH on 1 address, if I remember right. That should be Cryptopia so anyway they are one of the biggest BTCH whales, if not no. 1 (of course, if they claim coins). So they could be interested...
+
+
+[09-Sep-18 09:05 AM] Gateway#3763
+[dscrd-hush] <jl777c> ok, sure. please convince crytopia to list for free and let us know when they agree to it
+
+
+[09-Sep-18 09:06 AM] Gateway#3763
+[dscrd-hush] <jl777c> you make it sound so easy, but I have a feeling it might be a bit difficult to achieve. I can offer a 10,000 BTCH bounty if you can convince crytopia to list for free.
+
+
+[09-Sep-18 09:25 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> According to my calculations, the listing  on Cryptopia costs 6.24 BTC
+
+
+[09-Sep-18 09:32 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Correct, that's a full price at current DOT levels. Who knows, I just made a suggestion. Asking is for free:) They know HUSH and may be listening to you.
+
+
+[09-Sep-18 09:52 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Done!
+https://cdn.discordapp.com/attachments/408420364956205058/488391134624874516/BTCH.jpg
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/488391134624874516/BTCH.jpg
+https://media.discordapp.net/attachments/408420364956205058/488391134624874516/BTCH.jpg
+
+
+[09-Sep-18 09:56 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Bravo. Just don't tell them if total supplay is going to be 42 million. That can make them change their mind😉
+
+
+[09-Sep-18 09:59 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> They may be interested in POS from which they will receive coins, because Cryptopia, unlike Bleutrade, does not practice distributing POS to its customers. I hope they do not read Discord)
+
+
+[09-Sep-18 10:00 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> They would be absolutely interested in POS. To distribute coins to themselves. That's why I'm not interested in POS.
+
+
+[09-Sep-18 10:01 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Are we interested in listing BTCH on the exchanges or not?)
+
+
+[09-Sep-18 10:09 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> And there goes blockchain stampedo of YES votes... Endless crowd...
+
+
+[09-Sep-18 10:10 AM] Gateway#3763
+[dscrd-hush] <jl777c> yes! see devs not needed for the most important works
+
+
+[09-Sep-18 10:18 AM] Gateway#3763
+[dscrd-hush] <Zatoichi> @Berg well, then why is there almost no publicly known activity with regard to btch? Any comprehensive roadmap?
+
+
+[09-Sep-18 10:20 AM] Gateway#3763
+[dscrd-hush] <Berg> We are in the very early stages of a revitalization.
+
+
+[09-Sep-18 10:20 AM] Gateway#3763
+[dscrd-hush] <Berg> There are a lot of moving parts in the works currently. Things will be cleared up and transparently communicated as we progress.
+
+
+[09-Sep-18 10:28 AM] Alright#0419
+is 42M with 50/50 POW/POS confirmed?
+
+
+[09-Sep-18 11:06 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Wrote a long letter to Bittrex about the HUSH / BTCH listing
+
+
+[09-Sep-18 11:07 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> I will write every week to Cryptopia and Bittrex until I get an answer
+
+
+[09-Sep-18 11:16 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> I've heard Binance also work that way. Maybe they 'll pay you for permission for BTCH being enlisted.
+
+
+[09-Sep-18 11:17 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> No problem I will write to Binance
+
+
+[09-Sep-18 11:20 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Maybe you should send tham this...
+https://cdn.discordapp.com/attachments/408420364956205058/488413349139447839/Uncle_Sam.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/488413349139447839/Uncle_Sam.png
+https://media.discordapp.net/attachments/408420364956205058/488413349139447839/Uncle_Sam.png
+
+
+[09-Sep-18 11:24 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Done!)  If they do not answer I'll attach this picture next time)
+
+
+[09-Sep-18 02:05 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Bittrex quickly answered me. They wrote that they should fill out the form and represent the team either as a developer or as an official representative)
+
+
+[09-Sep-18 11:41 PM] Gateway#3763
+[dscrd-hush] <jl777c> why not to become an official representative? I nominate you for the exchange outreach position!
+
+
+[10-Sep-18 12:16 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Ok, No problem. I'll write to them as an official representative of the BTCH community
+
+
+[10-Sep-18 12:26 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> I started filling out a form on their website. Do I specify myself in this section?)  "Please provide a Verified Account of team member registered on Bittrex. This team member must be either a core developer or a major shareholder (10% or more) of a company that backs the development of the coin. That member will need to submit identifying documents to get their account Verified through our automated system"
+
+
+[10-Sep-18 12:41 AM] Alright#0419
+you are now a core developer, Takoy_Nahal
+
+
+[10-Sep-18 12:41 AM] Alright#0419
+😂
+
+
+[10-Sep-18 12:42 AM] Alright#0419
+that's just a joke btw, I have no say in BTCH matters 😛
+
+
+[10-Sep-18 12:47 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> @Alright  Actually, I did not answer you)
+
+
+[10-Sep-18 12:54 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Sir, I bow to you...
+https://cdn.discordapp.com/attachments/408420364956205058/488618291175096320/napoleon.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/488618291175096320/napoleon.png
+https://media.discordapp.net/attachments/408420364956205058/488618291175096320/napoleon.png
+
+
+[10-Sep-18 01:16 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> We are not in the Middle Ages. And we should do it not for the sake of some ranks but for ourselves as investors)
+
+
+[10-Sep-18 01:50 AM] Gateway#3763
+[dscrd-hush] <daanoontjeh> @Berg maybe you can help here ? 😃
+
+
+[11-Sep-18 04:00 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> @daanoontjeh Apparently, none of the developers do not want to disclose their account on Bittrex)
+
+
+[11-Sep-18 10:12 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Yes, they would like to hide their BTCH balances.
+
+
+[12-Sep-18 06:30 AM] Gateway#3763
+[dscrd-hush] <Berg> @daanoontjeh I've already inquired about Bittrex a billion times
+
+
+[12-Sep-18 06:31 AM] Gateway#3763
+[dscrd-hush] <Berg> Not actually a billion, but I've been waiting until we have a new release to make the project more appealing for them to list.
+
+
+[12-Sep-18 07:31 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> If so let's take project more appealing. Even Bittrex is not necessarily for BTCH, it would be nice to be there. Now let's get back to talks about mining/coin supply. I will share some of my opinions. You don't have to agree with them, but your view would be wellcome, because it might help create directions.
+
+I'm a strong supporter of 21 million maximum supply. Just because a fact that number is a notable mark, a brand. The brand, widely recognized. As I stated once before it should be a part of promotion and marketing.
+
+
+[12-Sep-18 07:31 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> It would be great if you can burn unclaimed coins and leave burnt UTXOs for mining (are burnt UTXOs technically still UTXOs? They were once spent… No matter). There should be a chain split or something for it, where you make ˝old˝ chain invalid and from where on you can set new/old circulating supply. A fork, which you would do anyway, if you want to increase total supply. Of course you anounce burning, but you don't have to be too loud. Contact loyal exchanges, put it on ANN and do it. Community win, loyal exchanges win, coin win and yet nobody lose. You don't steal anything from anybody. It's a owner's justice not to claim his property. And it's owner's fault if he ruin his property due to bad management. 
+BTCH value is insignificant for BTC owners. BTC whales will not go through process of claiming for a few bucks. Out there are, how many?, 50, 70 or whatever BTC forks and for tham BTCH is yet another one they never heard before. It may be unpopular opinion but it's just a truth. At very best case it is whale's shitcoin to rid of and go away.
+
+
+[12-Sep-18 07:32 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> With burning unclaimed coins you achieve:
+1. Planty of space for mining, no matter it is POW, POS, masternodes…
+2. Data about realistic circulating supply. Once coin on CMC it would be very usefull information.
+3. Great starting point for all kinds of negotiations (!discounts! and much more) with exchanges.
+4. Possibility for another atractive forks, which stays under 21 million total supply (BTCH+HUSH, BTCH+other alts, maybe BTCH+BTC).
+
+Point 4 isn't as shitty as it sounds. There is a bear thrend out there with bottom in dec 2018/jan 2019. Then everything will be much easier, but yet slow recovery is awaited. No matter what you do now, prices of coins will keep falling. You don't have to hurry with HUSH-ng, messanger and those things. It not affect prices almost at all. But one day you will need BTC/fiat for bigger things. With all respect to team behind HUSH/BTCH, one day you will have to pay employees (part or full time), promotoins, marketing, development, bussiness trips etc. If not, your currencies will stay in shadows and/or die. So one day you will have to cash out developing funds. Sell those funds properly. Another hard fork with new coin (and a project behind) can help you. Right time for it would be 2020 +/- 1 year, but you should think about it today, if going in that direction.
+Well, now you can throw it up…
+
+
+[12-Sep-18 07:39 AM] Gateway#3763
+[dscrd-hush] <Berg> I am 100% on board with not increasing the supply if it's possible to avoid doing so. We'll have to see what duke and JL have to say about the coin burning possibility, or decimal movement or whatever can be accomplished. I do agree that 42MM supply would bring negative attention from purists that believe all BTC forks should have 21MM supply. We'll have to see what devs can do or what their opinions on it are.
+
+
+[12-Sep-18 11:58 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Ok, And what about Ethereum with 100 million supply, or Komodo 100 million, or pivx -56 million, and many many coins with not low price?)
+
+
+[12-Sep-18 01:28 PM] Gateway#3763
+[dscrd-hush] <jl777c> if anything coins with really large supplys end up overpriced as a lot of traders confuse a low price per coin as being a good price
+
+
+[12-Sep-18 01:28 PM] Gateway#3763
+[dscrd-hush] <jl777c> but ultimately it is the marketcap that is the only market "price" that should matter, and considering how irrational pricings have been, not really much validity
+
+
+[12-Sep-18 01:28 PM] Gateway#3763
+[dscrd-hush] <jl777c> remember when everybody knew bitconnect was a scam, but it was trading for over a billion marketcap?
+
+
+[12-Sep-18 01:29 PM] Gateway#3763
+[dscrd-hush] <jl777c> actual marketprice is not rational
+
+
+[12-Sep-18 01:52 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Good advertising and hype are good move the price of the coin, despite its quantity
+
+
+[12-Sep-18 02:01 PM] Gateway#3763
+[dscrd-hush] <jl777c> not so sure,I think when the price moves, people just call whatever happened as advertising and hype
+
+
+[12-Sep-18 02:02 PM] Gateway#3763
+[dscrd-hush] <jl777c> many coins have tried to advertise to gain marketcap and spent millions, but now are almost forgotten. think of all the ETH ICOs doing the prominent advertising, using funds raised to pump their price is probably what has made the price move
+
+
+[12-Sep-18 02:03 PM] Gateway#3763
+[dscrd-hush] <jl777c> what builds a coins price is a dedicated community and long term holders
+
+
+[12-Sep-18 02:04 PM] Gateway#3763
+[dscrd-hush] <jl777c> pump and dumps create a lot of people that lose money and become less likely to stay around, while the ones orchestraring the pump and dump are making big money andmoving to the next coin
+
+
+[12-Sep-18 02:55 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Until the crypto currency is included in everyday life in all countries, such manipulators will continue to organize pumps and dumps. But you are right, most of the famous projects did not do anything ordinary, and many went into oblivion, leaving themselves only a loud echo of the past. For me personally, the technical side of the project is important.
+Really behind this project there is a technology, the pursuit of such pacifiers as Bitconnect leads to collapse.
+However, if we return to the magic number of 21 million, if BTCH shows its special uniqueness and usefulness in the future development of the blockchain, I think 42 million will not be a problem for him to have a good price
+
+
+[13-Sep-18 12:05 AM] Gateway#3763
+[dscrd-hush] <jl777c> something like 16 million BTCH in BTC people's addresses, so realistically vast majority of that is inactive. However, to just take away their coins seems a bigger violation to me, than to increase the theoretical supply. If the current active supply is 6 million, then maybe we can cap at 36 million. basically to target the total active coins to be 21 million. If the dormant 16 million wakes up, that would mean that BTCH is worth enough to bother to do that, which seems a good thing
+
+
+[13-Sep-18 02:16 AM] 9oklp#8901
+I agree with jl777, confiscating inactive btch is really bad karma, the goal should be to create enough activity around btch that the slèeping coins wake up , imagine if Roger Ver or a similar sized whale heard of btch and got interested only to find his stash had been absorbed for miners.
+
+
+[13-Sep-18 04:44 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> In any case, to deprive the sleeping holders of BTCH would be unfair, can go negative in the twitter and other places. If there is an equilibrium solution where BTCH will be 36 million why not. The main thing is that there was a lot of interest for POW and POS miners and a big profit in the first stages
+
+
+[13-Sep-18 04:48 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> At Coinexchange there are 50k BTCH in selling book at that moment. I know one BTCH whale is also smuggling around. In august he dumped around 50k BTCH to as low as cca. 600 satoshis with 44k BTCH being ˝bought˝ at lowest point. I remember because I cought a pieces at sellout. He immediately moved those 44k into the sky-high in sell order and later moved it – it is 1 entity. So at BTCH's leading exchange there is 1 significant ˝trader˝ and there are probably less than 200k coins stored. Comparing to HUSH appereance on exchanges it could mean less than 1 million BTCH has already been claimed. Number of claimed coins really depends on HUSH whale with 700k coins at snapshot time - if he claimed, real circulating supply could be as high as 2 million. If devs have information about exact number of claimed coins, that information would be really useful for our orientation.
+
+
+[13-Sep-18 04:49 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Go ahead: trading volume is at its peaks few 100 USD/day and few 10 USD/day at average, while market capitalization is 1-2 million USD. I found that weird and if I would not know a coin's story/fundamentals/team/potential, I would not touch that coin in reality or even dreams. Average trader don't read whitepapers and these things so he would not buy BTCH. That all combines to very unattractive allaround market situation with BTCH. I think the largest part of that is because of ˝phantomic˝ BTCH, means the ones formally in existence but in fact not-in-existance. Those coins makes fear of once being claimed. If I'm sure they will not come into existence, I would immediately claim cheapest selling orders and increase amount of BTC on my buying orders. With potential of millions ˝new˝ coins coming to market at any time, I will for sure not do that. And for sure I'm not the only one. Without liquidating phantomic coins it will not get much better. That's why I suggest coin burning.
+
+
+[13-Sep-18 04:50 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> If burning would happen it would be weird or unusual, but it makes sense. And I'm conviced burning is not stealing. For example, if it would happen on 1st of february 2019 that would be 1 year since snapshot. More than enough time for claiming. If burning would not take place and one day BTCH would somehow be a sucess story, phantomic BTCH would become real BTCH and ruin the market. That would be a lamb for the lazy wolf and punishment for those creating the story. Would you really put hundreds or thousands of hours into a project and latter be nailed? And if speaking of Roger Ver, he would probably look behind and found burning was cruical and act of good and responsible management. If not is his problem - at current time he has as much chances as anybody. If burning will not occur he will probably never heard of BTCH. I don't think you would like to see this. If he would still like a coin's specs, he should gladly bought it. Burning could very likely be a difference maker between stories of success and disaster and I think it is by far best option available.
+
+
+[13-Sep-18 04:52 AM] Gateway#3763
+[dscrd-hush] <Zatoichi> Bad stuff happen to coins when greediness pushes devs to produce many coins. Insane greediness, greedy hopes and expectations, lack of work on the tech, this all leads to failures.
+
+
+[13-Sep-18 04:52 AM] Gateway#3763
+[dscrd-hush] <Zatoichi> Just an observation about the crypto world.
+
+
+[13-Sep-18 04:55 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> @halo kitty rules Your words are true, as you see JL777 is considering this option, maybe BTCH will go along the way of burning unclaimed coins
+
+
+[13-Sep-18 05:04 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Takoy_Nahal it's not a point it must be mine version for mine/supply adjustment. It should be the best version that is accepted. And I see a lot of +'s and few -'s with that option.
+
+
+[13-Sep-18 06:41 AM] Gateway#3763
+[dscrd-hush] <jl777c> BTCH cant be burned as it was a snapshot. if you have the original privkey, you can access the BTCH
+
+
+[13-Sep-18 06:42 AM] Gateway#3763
+[dscrd-hush] <jl777c> that means satoshi's keys will give him access to the 1 million (or so ) BTCH
+
+
+[13-Sep-18 07:09 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> If it is impossible to burn, then it makes no sense to argue and approve 42 million more, especially not so much, active investors will transfer their coins to a agama wallet and will be compensated with the POS mining
+
+
+[13-Sep-18 07:12 AM] jl777c#5810
+it was never proposed to have 42 million more, just a total of 42 million or 21 million more. but I think if that is reduced to 15 million more, it will get close to a 21 million active supply (barring all the BTC whales accessing the BTCH, but that only happens in the good scenarios so doesnt seem like any danger issue)
+
+
+[13-Sep-18 08:57 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> total 42 million
+
+
+[13-Sep-18 08:58 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> I was wrong in the text
+
+
+[14-Sep-18 03:36 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> There is no need to make a decision immediately. Rather than make a ˝whatever˝ decision make a good decision. Just increasing maximum supply seems like a poor choice. It only enables mining. Miners might be happy with increasing, but they would be mining even MyGrandmaCoin if existed. I still think for BTCH it would be extremely healthy to find a way for throwing phantomic coins out of game. Just increasing a total supply doesn't solve that. Let us know if the rest of you think throwing phantoms out would be healthy. If so we may together find a way. @jl777c do you have a data about amount of claimed coins? It would be useful for discussion.
+
+
+[14-Sep-18 06:21 AM] Gateway#3763
+[dscrd-hush] <jl777c> there is no way to know how many have claimed the coins, as there is no need to do any transactions
+
+
+[14-Sep-18 06:21 AM] Gateway#3763
+[dscrd-hush] <jl777c> we can only guess that most of the BTC whales have not
+
+
+[14-Sep-18 11:05 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> I was thinking Agama has some answers. Anyway, % of claimed coins is within few million. I've got an idea, crazy even for my standards. But today I don't have a time to write it properly, I 'll write it during weekend, you just shouldn't make a final decision until you hear it.
+
+
+[14-Sep-18 11:06 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> My bad: % of claimed is low, realistic circulating supply is within few million.
+
+
+[15-Sep-18 04:44 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Here it comes. Grab your pop corn and turn off the light. Non-english speaking, non-mathematician, non-developer is about to discover crypto's hot water and to write Idiot's whitepaper.
+Keywords: phantomic (coins), frenzy POS, just frenzy
+
+As no one opposed my opinion about phantomic (non-claimed) BTCH choking claimed BTCH, some might agree with me. I kept digging on. And as we all are philantropists, we would not like to see mr. Ver and mr. Nakamoto would stay without their BTCH. Please send a message with text  #helpRoger and donate for poor magnate, who lost millions of USD in 2018. You can also donate crypto:
+
+HUSH:  t1dfH2VCpsfKiDwygswbuotQ8pfsRJGJLiF
+BTC:  18TAjjh7CyD3ToSSfNhRiiPWAGJWmpwwwh
+BCH:  qqfg83ne3ahf8hdffz7ss4hyj2de2pul4ymzmu4vnr
+ETH:  0xb7d019b21663168165C8115F3Efd8f0EA08f41ca
+LTC:  LYm4mHrGnvTfYLYEbuSeui5wPibtEYLve6
+
+
+[15-Sep-18 04:44 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Snapshot's private key owners should be benefited with BTCH. OK. Claimed BTCH should take over. OK? Here is a way: you can switch around inbalance between ˝real˝ and ˝phantomic˝ BTCH with ˝frenzy˝ POS. POS could be as high as you want, billions and billions % per very small time period (second etc.). Literally unlimited. As BTCH doesn't have cold-staking options, balance within ˝sanctuary˝ would be credited with additional BTCH values, while the rest of them would not be credited. As term sanctuary (or sanctuaries) I mean storing place (or places) like Agama, exchanges, web wallets… whatever you choose as suitable place and enables you interventions.
+Case 1. Just for easier immagination I'll presume there would be 5 million BTCH claimed and in sanctuaries. 16 million BTCH would be unclaimed or not in sanctuaries at time of inbalance switch (I'll call it fork time). At this moment amount of claimed BTCH is much lower as I take into account indirect evidences, but it should at least slightly increase. For purposes of simplifying I will forget unmined coins for a moment. I repeat: stated numbers are just for our easier immagination and have low probability to be accurate at fork time. So, at fork time you change maximum supply to unlimited or very high, switch on frenzy POS and multiply sanctuaries' BTCH. You can choose any value you want. If you are happy with 20 million as new total claimed supply, choose 20 million. If you would like 500 million, choose 500 million and so on. With POS % and time you achieve any value you choose. For easier intervening you can set temporarily supply limit to targeted value, switch on POS and later change limits again.
+
+
+[15-Sep-18 04:45 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> When achieved choosen ratio, now you set new maximum supply (if not set before) and mining conditions. For example, 16 millions BTCH stayed out of sanctuaries and 64 million is new sum of claimed coins (total sum 80 million). That ratio is 1:4, which is simmilar with BTC's phantoms:non-phantoms ratio. Now you set maximum supply to any number (100, 500, 21.000… million) and reset mining algorithm to the one of your choice (POW, POS, hybrid…).
+What this mechanism doesn't match is 21 million total supply. What this mechanism match is it enables mr. Ver to claim his coins at any time with the same amount as proposed at BTCH-original creating time. Of course, mr. Ver has maybe already claimed his coins. Maybe he is the guy who dumped them at Coinexchange.
+
+
+[15-Sep-18 04:45 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Everything written above is too simple. Why would you make it simple if you can make it complicated? We still haven't reach 21 million total supply yet. This number is not necessarily to achieve, but it would be favorable as some agreed with me. So we 'll try to get there, but I can't promise we will actually come.
+Case 2. Let's take same numbers (ratios) as at start in upper case. Now we will not start in sanctuaries. First intervention would be to change limits downside. Divide  total supply with high enough divider. Let's say divider is 100.000 and now total supply is 210 BTCH. Now we shall move to sanctuary as in Case 1. Now there are 50 BTCH in sanctuaries and 160 BTCH outside. Next you remove maximum supply and turn on frenzy POS. Multiply BTCH in sanctuaries to choosen amount (ratio), turn off POS and set new maximum supply (why not 21 million?). With this model you can go in theory to really low circulating supply, which I personally am not fan of. New system shouldn't be mining festival, it only should repair BTCH shortcomings (again, that's just me). Paper sheet also enables new amount of BTCH as low as 1 BTCH or even 0.00000001 BTCH. But it would still leave mr. Ver option to claim his coins and that is most important.
+
+
+[15-Sep-18 04:45 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> But that's just a paper sheet. I'm not a programmer/developer and I don't know if decimating in step 1 is possible. I don't know if in reallity it's possible to divide low balances and especially as low as 0.00000001 original BTCH. That's why developers are into existence. Tell us. There is a crowd of like 5 people overall which are interested  in that topic. Maybe increasing block size can help? Maybe a key would be increasing block size for a time of dividing and then returning to old block size?
+
+Case 3. Case 3 is actually hybrid of Case 1 and Case 2. As Case 2 could be impossible to implement, Case 3 should take us to switch phantomic's inbalance and also achieve 21 million total supply. In first step of Case 3 we completely repeat Case 1. With favorable BTCH's ratio act of decimating should take place. It enables you to reset circulating supply to values below 21 million. Compared to Case 2 it should be easier to operate with Case 3. While it could be a problem to divide first and then multiply, in reverse order it could be slightly easier. That's the way rounding works.
+
+Well, you got a point. With multiplying-dividing of supplies you can reach a heaven. With POS of only a part of coins (which work like an airdrop) you could change ratios between phantomic and non-phantomic coins. Let me know why I'm wrong and we can together find a better solution.
+
+
+[15-Sep-18 12:34 PM] Gateway#3763
+[dscrd-hush] <paia> Please, read again, what jl777c wrote yesterday - there is NO WAY to know, how many coins have been "claimed". The word "claimed" does not apply for airdrops. You have your private key - you can access your coins already stored in blockchain. There is NO TRANSACTION for this action. So please again, stop talking about "burning unclaimed coins", because thats nonsense.
+
+
+[15-Sep-18 01:02 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Can they claimed their BTCH at 2028?
+
+
+[15-Sep-18 01:07 PM] Gateway#3763
+[dscrd-hush] <paia> if the blockchain is available, you can always access your BTCH with your HUSH/SUPERNET/DEX/BTC private key.
+
+
+[15-Sep-18 01:26 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> ok, as I thought BTCH can be picked up before the onset of Armageddon of Earth)
+
+
+[15-Sep-18 07:41 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Takoy_Nahal they can claim their BTCH as long as coin is still hanging around. But only in Case 1 they would get 1:1 AMOUNT (compared to their current amount) and in neither of cases they would get 1:1 RATIO compared to their today's ratio of total BTCH. Also, in theory numerous variations of transformations are possible, but maybe not all of them are technically feasible.
+
+
+[16-Sep-18 08:39 AM] jspook16#3059
+anyone know the ac parameters for btch?
+
+
+[16-Sep-18 08:50 AM] CHMEX#0686
+./komodod -ac_name=BTCH -ac_supply=20998641 -addnode=78.47.196.146 &
+
+
+[16-Sep-18 08:50 AM] CHMEX#0686
+@jspook16 ^
+
+
+[16-Sep-18 08:51 AM] jspook16#3059
+Thank you very much. Firing it up right now
+
+
+[16-Sep-18 06:38 PM] Gateway#3763
+[dscrd-hush] <JiveBuddha> The reality is that technically most BTCH coins are already burned. Most BTC wallets will have either lost their private keys, or will never have claimed BTCH even if the platform becomes popular because a lot of people using wallets for small transactions will likely not bother with claiming until much later in the future (at a point where they will either likely have forgotten their keys or have died of natural causes [natural death rate considered, such as accidents, disease, etc].
+
+
+[16-Sep-18 06:38 PM] Gateway#3763
+[dscrd-hush] <JiveBuddha> And any known burned BTC also factors into that math.
+
+
+[17-Sep-18 12:49 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Got another response from Bittrex, I tried to explain to them that the developers are anonymous personalities. Answer Bittrex - they must have a Bittrex account)
+
+
+[17-Sep-18 12:52 PM] Gateway#3763
+[dscrd-hush] <Berg> Not a developer, but core team 🤷
+
+
+[17-Sep-18 12:53 PM] Gateway#3763
+[dscrd-hush] <Berg> Username: alexpbergeron@gmail.com
+Status: Verified
+
+
+[17-Sep-18 12:53 PM] Gateway#3763
+[dscrd-hush] <Raja_MBZ> @Takoy_Nahal I think it'd make more sense if the messenger is ready first before asking Bittrex for listing. Once the messenger is ready and Bittrex uses it, they'll probably list hush.
+
+
+[17-Sep-18 12:53 PM] Gateway#3763
+[dscrd-hush] <Raja_MBZ> Plus I'm sorry that I'm  talking about hush here
+
+
+[17-Sep-18 12:54 PM] Gateway#3763
+[dscrd-hush] <Berg> ^ That is exactly why I haven't reached out to them in approximately two months, we had reached out beforehand but I figured proof of progress would give us a leg up.
+
+
+[17-Sep-18 12:54 PM] Gateway#3763
+[dscrd-hush] <Berg> BTCH is planned to be supported by NG as well.
+
+
+[17-Sep-18 12:55 PM] Gateway#3763
+[dscrd-hush] <Berg> But as far as BTCH getting on Bittrex, I'd say there's no realistic chance right now. Hush has somewhat of a shot with NG and dPoW
+
+
+[17-Sep-18 12:55 PM] Gateway#3763
+[dscrd-hush] <Raja_MBZ> The messenger is going to be something very special
+
+
+[17-Sep-18 12:55 PM] Gateway#3763
+[dscrd-hush] <Berg> Much more established
+
+
+[17-Sep-18 12:56 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> @Berg I do not want to get into your sphere of work, just decided as a member of the community to write to them) I think you know better than me when you need to do this)
+
+
+[17-Sep-18 12:56 PM] Gateway#3763
+[dscrd-hush] <Raja_MBZ> That's what I think too... Hush has a much better chance of getting listed once the messenger is ready
+
+
+[17-Sep-18 12:56 PM] Gateway#3763
+[dscrd-hush] <Berg> Oh, I was just giving you my Bittrex account info if they absolutely need it and want to move forward
+
+
+[17-Sep-18 12:58 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> If you think that it's too early for BTCH to be published on Bittrex, can it wait?
+
+
+[17-Sep-18 01:01 PM] Gateway#3763
+[dscrd-hush] <Raja_MBZ> IMO, let's first wait for completion of messenger and then get hush listed. After that, there'll be more understanding of the messenger and btch listing application would make more sense.
+
+
+[17-Sep-18 01:01 PM] Gateway#3763
+[dscrd-hush] <Raja_MBZ> Just my opinion though.
+
+
+[17-Sep-18 01:02 PM] Gateway#3763
+[dscrd-hush] <Berg> BTCH at least needs to revitalization done in my personal opinion. Once mining and algorithms are worked out and we have some traction back it'd be worth giving a shot. We wouldn't really want to be listed just to have an instant hardfork
+
+
+[17-Sep-18 01:02 PM] Gateway#3763
+[dscrd-hush] <Berg> Plus I don't think BTCH is an attractive project to an exchange of that magnitude yet, we'll build up to it as the ball gets rolling on the upcoming changes.
+
+
+[17-Sep-18 01:08 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Well, I agree that the best candidate is HUSH, probably really it is worth waiting for the release of the messenger to come to Bittrex and say: Guys see what a unique and interesting project I have, you must have to list me!)
+
+
+[17-Sep-18 01:09 PM] Gateway#3763
+[dscrd-hush] <Berg> Combined with dPoW I believe we honestly have a shot at it
+
+
+[17-Sep-18 01:11 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Good,  we must just wait
+
+
+[17-Sep-18 01:13 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> When I look at some coins that are traded on Bittrex, I think why are you so good that you were added here?)
+
+
+[17-Sep-18 01:13 PM] Gateway#3763
+[dscrd-hush] <Raja_MBZ> Bitbean 😂
+
+
+[17-Sep-18 01:13 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Zclassic)
+
+
+[17-Sep-18 01:14 PM] Gateway#3763
+[dscrd-hush] <jl777c> the type of capabilities BTCH will get: https://github.com/KomodoPlatform/Mastering_CryptoConditions
+
+{Embed}
+https://github.com/KomodoPlatform/Mastering_CryptoConditions
+KomodoPlatform/Mastering_CryptoConditions
+How to write utxo based CryptoConditions contracts for KMD chains - by jl777 - KomodoPlatform/Mastering_CryptoConditions
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[17-Sep-18 01:14 PM] Gateway#3763
+[dscrd-hush] <jl777c> it is actually a lot more than only smart contracts
+
+
+[17-Sep-18 01:23 PM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> As I understand it, BTCH will receive opportunities and updates from Komodo, what special role and distinctive feature will BTCH receive?
+
+
+[17-Sep-18 01:27 PM] Gateway#3763
+[dscrd-hush] <Raja_MBZ> Plus this won't be something created *only* for btch, it's for all KMD chains. Hush, OTOH, is going to have its very own messenger.
+
+
+[17-Sep-18 01:28 PM] Gateway#3763
+[dscrd-hush] <jl777c> yes, but having the capability and doing something with it are two different things. CC is a blank canvas for each coin to use to make its own from it
+
+
+[17-Sep-18 01:29 PM] Gateway#3763
+[dscrd-hush] <jl777c> try to see beyond
+
+
+[17-Sep-18 01:29 PM] Gateway#3763
+[dscrd-hush] <jl777c> to what is possible with CC that is actively used
+
+
+[18-Sep-18 01:42 AM] Gateway#3763
+[dscrd-hush] <Mylo(KomodoPioneers)> @Berg with your announcement in kmd discord re strategy for btch, please consider using the Komodo (&ecosystem) community news site in the future.  It is currently in testing for workflow etc.  if btch were to need a playground for marketing expansion and testing smart contracts, voting and other things kmd tech offers...
+Please see https://forum.komodoplatform.com/t/ikomodo-community-news-initial-discord-testers-sept-15-2018/169 and ask any questions
+
+{Embed}
+https://forum.komodoplatform.com/t/ikomodo-community-news-initial-discord-testers-sept-15-2018/169
+iKomodo Community News Initial Discord Testers (Sept 15 2018)
+site: https://beta.ikomodo.com/  When you sign up you are given "Author" role, so you can post.  This will change when it goes live so there's minimal moderation or something.  Need testers for community news site.  Everything will be erased and you don't actually sign up to ...
+https://images-ext-2.discordapp.net/external/7gL0gCesqazneIaNvNurDyrF314T-UMOfe5NezDiQd8/https/forum.komodoplatform.com/uploads/db3473/original/1X/c1c082a2707d519645a3af386eab17f9a55a1898.png
+
+
+[18-Sep-18 01:40 PM] Gateway#3763
+[dscrd-hush] <Berg> @Mylo(KomodoPioneers) Thanks for sharing!
+
+
+[20-Sep-18 04:33 AM] Gateway#3763
+[dscrd-hush] <MrMoyolo> where can I find info on how to retreive my btch?
+
+
+[20-Sep-18 04:33 AM] Gateway#3763
+[dscrd-hush] <MrMoyolo> And are there exchanges yet that list btch?
+
+
+[20-Sep-18 04:57 AM] Gateway#3763
+[dscrd-hush] <heguli97> coinexchange.io and digitalprice.io have listed BTCH
+
+
+[20-Sep-18 04:58 AM] Gateway#3763
+[dscrd-hush] <heguli97> BTCH can be claimed through agama wallet
+
+
+[20-Sep-18 08:28 AM] Gateway#3763
+[dscrd-hush] <MrMoyolo> thanks!
+
+
+[20-Sep-18 08:30 AM] Gateway#3763
+[dscrd-hush] <MrMoyolo> what are the plans for bitcoin hush? volume is 0 on both exchanges
+
+
+[20-Sep-18 08:50 AM] Gateway#3763
+[dscrd-hush] <heguli97> there are plans to increase supply and make it 50% PoS/50% PoW and possibly make it mineable with only CPU's using Verushash algorithm. the other big thing is CC(Crypto Conditions), basically smartcontracts.
+
+
+[20-Sep-18 08:51 AM] Gateway#3763
+[dscrd-hush] <heguli97> BTW we need a good summary of what is planned because i'm forgetting something 😃
+
+
+[21-Sep-18 10:37 AM] Gateway#3763
+[dscrd-hush] <paia> Verushash algo is no longer a CPU-only... You can mine it with nvidia cards now.
+
+
+[21-Sep-18 10:43 AM] Gateway#3763
+[dscrd-hush] <jl777c> at a higher power cost and equipment cost. so both are viable and depending on if you have fully paid hardware or not and your electricity cost, CPU or GPU will be better. neither totally dominates the other and I would say a slight edge to CPUs
+
+
+[21-Sep-18 11:14 AM] Gateway#3763
+[dscrd-hush] <paia> few hashrate examples:
+```
+AMD
+Ryzen 5 1600            288 MHs
+Ryzen 7 2700X           500 MHs
+TR 1950x                1020 MHs
+
+Intel
+i7-4770                 130 MHs
+i7-8700K                375 MHs
+2x Xeon E5-2697v2 48T    530 MHs
+2x Xeon E5-2680v4 56T    720 MHs
+
+nVidia
+GTX 1050ti              240 MHs
+GTX 1060 6GB         400 MHs
+GTX 1070                  550 MHs
+GTX 1070ti              730 MHs
+GTX 1080ti              1100 MHs
+```
+
+
+[23-Sep-18 08:08 PM] AkiraX#8269
+wait verus is hashable via gpu now?
+
+
+[24-Sep-18 01:27 AM] jl777c#5810
+yes, at CPU rates
+
+
+[24-Sep-18 06:30 AM] Gateway#3763
+[dscrd-hush] <JiveBuddha> Has anyone found any resources that explain crypto conditons, outside the ietf draft? Im assuming there's a lot of material to cover, but is there any broad coverage written anywhere? Having a tough time with Google.
+
+
+[24-Sep-18 06:31 AM] Gateway#3763
+[dscrd-hush] <JiveBuddha> If not ill go through the ietf draft this weekend i guess
+
+
+[24-Sep-18 06:31 AM] jl777c#5810
+most relevant is: https://github.com/KomodoPlatform/Mastering_CryptoConditions
+
+{Embed}
+https://github.com/KomodoPlatform/Mastering_CryptoConditions
+KomodoPlatform/Mastering_CryptoConditions
+How to write utxo based CryptoConditions contracts for KMD chains - by jl777 - KomodoPlatform/Mastering_CryptoConditions
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[27-Sep-18 04:22 PM] Gateway#3763
+[dscrd-hush] <badalf> 
+https://cdn.discordapp.com/attachments/408420364956205058/495012471753670666/Screenshot_20180928-072220.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/495012471753670666/Screenshot_20180928-072220.png
+https://media.discordapp.net/attachments/408420364956205058/495012471753670666/Screenshot_20180928-072220.png
+
+
+[27-Sep-18 04:23 PM] Gateway#3763
+[dscrd-hush] <badalf> Delisted from October 20... That didn't last long
+
+
+[27-Sep-18 04:26 PM] xRobeSx#5136
+really? Not that digitalprice has a lot of volume or anything, but I could've sworn @jl777c made some sort of deal with them to add all the AC's.
+
+
+[27-Sep-18 07:56 PM] Gateway#3763
+[dscrd-hush] <Berg> Can't say we'll be missing all 0 trade volume 😬
+
+
+[27-Sep-18 07:56 PM] Gateway#3763
+[dscrd-hush] <Berg> Hopefully our future endeavors prove more promising..
+
+
+[30-Sep-18 10:28 AM] jspook16#3059
+Noooo
+
+
+[01-Oct-18 10:00 AM] dukeleto#7326
+looks like bridge is broken, see #btch on Hush discord for updates
+
+
+[24-Oct-18 05:44 PM] Gateway#3763
+[dscrd-hush] <ectrader> Can I stake BTCH with agama wallet?
+
+
+[26-Oct-18 07:57 AM] Gateway#3763
+[dscrd-hush] <Berg> I'm very excited for BTCH to start seeing some algorithm changes 😊 This will be big!
+
+
+[27-Oct-18 12:19 PM] Gateway#3763
+[dscrd-hush] <JiveBuddha> Any news on upcoming crypto condition based apps on btch?
+
+
+[27-Oct-18 02:19 PM] Gateway#3763
+[dscrd-hush] <Alright> checkout #crypto-conditions and #cc_gui in KMD discord @JiveBuddha
+
+
+[27-Oct-18 02:20 PM] Gateway#3763
+[dscrd-hush] <Alright> so far there's a betting GUI, a TUI for gateways contract and a real time on chain chat dapp
+
+
+[27-Oct-18 02:20 PM] Gateway#3763
+[dscrd-hush] <Alright> might be a couple other things I'm forgetting about
+
+
+[30-Oct-18 06:18 PM] Gateway#3763
+[dscrd-hush] <geraldrbeats> bitcoin fork rally lets wait for that again lol
+
+
+[01-Nov-18 02:10 PM] Gateway#3763
+[dscrd-hush] <Cryptographic> last block 7 hours ago?
+
+
+[01-Nov-18 02:10 PM] Gateway#3763
+[dscrd-hush] <Cryptographic> https://explorer.btchush.org/
+
+{Embed}
+https://explorer.btchush.org/
+BTCH Block Explorer
+BTCH Block Explorer. View detailed information on all BTCH  transactions and blocks.
+
+
+[01-Nov-18 02:19 PM] Gateway#3763
+[dscrd-hush] <heguli97> Blocks are on demand in BTCH, when no one sends tx's no blocks are created
+
+
+[01-Nov-18 02:21 PM] Gateway#3763
+[dscrd-hush] <Cryptographic> ty
+
+
+[12-Nov-18 12:24 PM] Gateway#3763
+[dscrd-hush] <RemoteConTroll> When is btch mining upgrade coming?
+
+
+[13-Nov-18 02:08 PM] Audo#5667
+Hey Komodo Projects,
+
+Komodo team is looking to know better the projects which are building with Komodo. We ask you to fill out this form so that we get information about each project and the rapidly growing ecosystem.
+
+https://airtable.com/shrKBzMwUddQ4ggET
+
+{Embed}
+https://airtable.com/shrKBzMwUddQ4ggET
+Submit New Project - Airtable
+Fill out the "Submit New Project" form quickly and securely on Airtable.
+https://images-ext-2.discordapp.net/external/wOO2B2WaFrXKHRFn-C_52mTmmd6WpFp5YNlHI3X6hPA/https/static.airtable.com/images/oembed/airtable.png
+
+
+[19-Nov-18 11:20 AM] Gateway#3763
+[dscrd-hush] <Dochteur> So would it be a good idea to stockpile some available BTCH traded at coinxchange for future staking? Would it be announced at the BTCH main site, once available, or just via discord? What amount of it would make any sense to make reasonable passive income from it before it hits next bull market prices?
+
+
+[19-Nov-18 11:36 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Dochteur amount is relative term, but I would not recommend you more than few % of your portfolio. As future directions of coin are unclear I consider it as high risk investment. Possible high reward one, but also high risk. I am also buying, but it will be a long way before the final destination. The main argument why team has to do something with the coin? They are holding a big bag (150k coins of dev funds) which should be around 10% (+/- 5%) of realistic circulating supply. At one stage they will have to unload them, so it should motivate a team to do something with that bag.
+
+
+[04-Dec-18 12:24 PM] blubbi#0643
+Time to set sail Pirates. 
+We've built the new discord and we want to get all of us migrated over there. We have radio, and tip bots and will get a bridge to the one remaining Pirate channel in KMD discord once everyone sets sail.
+TODAY THE INVITE BOUNTY STARTS!!!!
+So get your ref link and lets annoy everyone on social media platforms from Instagram to Twitter, FB to Gab, Reddit to Steemit! 
+
+https://discord.gg/82jmwJ
+
+
+[06-Dec-18 01:01 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Takoy_Nahal , @Berg , were you recently in contact with Cryptopia about opening BTCH markets? What are Cryptopia's conditions? It's possible they don't know anything about BTCH progress. As there were dozens of forks that days it's also possible they forgot BTCH fork occured. I would imagine they don't follow the progress of unknown forks. People come and go, it's possible they have other people in charge now compared to january/february 2018. They might not know what a big player they are in BTCH sphere. On the other hand, bringing them into the game means massive staker when POS will be activated.
+
+
+[06-Dec-18 01:05 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Consider something within HUSH/BTCH team. It's not impossible they would open BTCH markets for free. But you can also bring another whale along. If we are playing a fair game I would contact them about BTCH progress. Now or when HUSH markets will be back online. But one must notice there is a risk they can stake only and not open BTCH markets. Do your risk management. As I can't predict coin's directions I can't be the one who is making a decisions. I can only make a suggestion or reminder.
+
+
+[06-Dec-18 08:07 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> I think this is more a question of Berg or Duke.
+
+
+[08-Dec-18 05:15 PM] Gateway#3763
+[dscrd-hush] <JiveBuddha> @halo kitty rules there are no external developers for btch, and no internal marketing. So there is no exchange ambition at the moment. However if external development started to yield significant results (maybe through crypto conditions) there would be incentive for marketing and btch would pick up. Time will tell. Not at the moment.
+
+
+[09-Dec-18 05:26 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> ⚰
+
+
+[09-Dec-18 05:26 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Just kidding.
+
+
+[09-Dec-18 05:27 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @JiveBuddha  Yes, we already get it at the moment there isn't much of anything in HUSH and BTCH. Devs must survive also in bear trend and must do something other beside work on these coins. But that shouldn't be the case for ever. Progress will follow but so will listing fees rise up. It's not an ideal time only for shopping, it's also an ideal time for widespearing to the new areas. And if speaking about Cryptopia, they have at least 500 complete shitcoins under their belt. I don't see a problem to go out with unfinished project as BTCH. Marketing and development are two different species of animals. Even if development is slow or on HODL, marketing can work undisturbed.
+
+
+[10-Dec-18 09:17 PM] Gateway#3763
+[dscrd-hush] <AkiraX> what happened to nobby?
+
+
+[12-Dec-18 06:49 AM] Gateway#3763
+[dscrd-hush] <Berg> 🤷🏻
+
+
+[14-Dec-18 04:56 PM] SHossain#0007
+```
+BTCH transition at 162575 (162574, 1544830106) -> (162575, 1544832004)
+SET SAPLING ACTIVATION height.162635
+BTCH sapling activation at 162635
+```
+
+
+[14-Dec-18 07:21 PM] AkiraX#8269
+Awesome
+
+
+[18-Dec-18 01:35 PM] Gateway#3763
+[dscrd-hush] <nobby> some say he has been sectioned
+
+
+[19-Dec-18 06:35 AM] Gateway#3763
+[dscrd-hush] <RunningMantheCoin> nobody shills btch like nobby
+
+
+[19-Dec-18 06:35 AM] Gateway#3763
+[dscrd-hush] <RunningMantheCoin> shillmasterflex
+
+
+[23-Dec-18 07:35 PM] Alright#0419
+BTCH > BTCP :trollface:
+
+
+[23-Dec-18 07:35 PM] Alright#0419
+now is your time to shine!
+
+
+[24-Dec-18 01:28 AM] AkiraX#8269
+Whatcha mean?
+
+
+[30-Dec-18 12:52 AM] Gateway#3763
+[dscrd-hush] <paia> I think, we have to wait for Verushash 2.0 to be available for KMD asset chains.
+
+
+[04-Jan-19 01:26 PM] Gateway#3763
+[dscrd-hush] <Scirockoe> how do access my btch on agama? Do I put in my HUSH private key?
+
+
+[04-Jan-19 01:32 PM] SHossain#0007
+what is that you are trying to do achieve?
+you can use Lite mode to login and access the funds if you have the private key of that address
+
+
+[04-Jan-19 01:34 PM] SHossain#0007
+if you have a backed up wallet.dat you need to use native mode and fully sync chain data before accessing funds
+
+
+[05-Jan-19 02:33 AM] Gateway#3763
+[dscrd-hush] <ectrader> maybe something for BTCH, check        https://twitter.com/BittrexExchange/status/1080536217765199873?s=09
+
+{Embed}
+Bittrex (@BittrexExchange)
+https://twitter.com/BittrexExchange/status/1080536217765199873?s=09
+Happy 2019! We're always evaluating new blockchain projects. What coins or tokens are your favorite? #Bittrex #Blockchain
+Retweets
+722
+Likes
+2634
+https://images-ext-1.discordapp.net/external/rSi00mdZ_k0PL5i7wz3a0ypOTNhOEFs46yrweJXGCtg/https/pbs.twimg.com/media/Dv7V9fZX4AAbbVO.jpg%3Alarge
+Twitter
+
+
+[11-Jan-19 05:21 AM] Gateway#3763
+[dscrd-hush] <shaider11> Block explorer down?
+
+
+[11-Jan-19 05:36 AM] CHMEX#0686
+Last block 1775 mins ago
+Just no new trx it seems
+
+
+[05-Feb-19 02:25 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 1st anniversary. Where is the party?
+
+
+[05-Feb-19 02:26 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 🎂
+
+
+[05-Feb-19 02:28 PM] Gateway#3763
+[dscrd-hush] <heguli97> 🌮  🎉
+
+
+[05-Feb-19 10:23 PM] Gateway#3763
+[dscrd-hush] <5indians> really ! 12 months went that quick. happy birth day.
+
+
+[06-Feb-19 08:52 AM] Gateway#3763
+[dscrd-hush] <Takoy_Nahal> Happy Birthday BTCH! We believe in you
+
+
+[14-Feb-19 01:24 AM] Gateway#3763
+[dscrd-hush] <paia> wow... time flies...
+
+
+[25-Feb-19 11:20 PM] Need4Speed#3484
+Any instructions on how to claim btch?
+
+
+[25-Feb-19 11:21 PM] Need4Speed#3484
+Checked in pinned messages section, only message with a link to HUSH channel
+
+
+[25-Feb-19 11:26 PM] heguli97#5781
+@Need4Speed Here are the instructions to claim BTCH, Looks like the formatting has got a bit messed up since i've last looked at it: https://bitcoinhush.github.io/airdrop/
+
+{Embed}
+https://bitcoinhush.github.io/airdrop/
+How to Collect the BTCH Airdrop
+Bitcoin Hush: BTCH, The Immaculate Merge Drop
+
+
+[25-Feb-19 11:28 PM] Gateway#3763
+[dscrd-hush] <Need4Speed📈> Thanks, will check and let you know
+
+
+[25-Feb-19 11:43 PM] Need4Speed#3484
+@heguli97 thank you, instructions on how to claim btch are available on the link shared by you
+
+
+[25-Feb-19 11:47 PM] heguli97#5781
+👍
+
+
+[17-Mar-19 02:37 PM] Gateway#3763
+[dscrd-hush] <Dochteur> is btchush.org down? Is there a new site for it?
+
+
+[17-Mar-19 02:53 PM] Gateway#3763
+[dscrd-hush] <heguli97> @Dochteur new site is https://bitcoinhush.github.io
+
+
+[17-Mar-19 02:54 PM] Gateway#3763
+[dscrd-hush] <heguli97> We no longer own btchush.org
+
+
+[07-Apr-19 07:38 PM] Gateway#3763
+[dscrd-hush] <brbillionaire> is it too late to claim my bitcoin hush from my hush wallet?
+
+
+[07-Apr-19 09:11 PM] CHMEX#0686
+No as long as you have your hush seed when the snapshot gappened you can access your BTCH
+
+
+[08-Apr-19 05:57 AM] Gateway#3763
+[dscrd-hush] <brbillionaire> ok. so no the priv keys?
+
+
+[08-Apr-19 05:59 AM] CHMEX#0686
+you can also use the priv key
+
+
+[22-Apr-19 10:06 AM] Gateway#3763
+[dscrd-hush] <david lin> @brbillionaire Airdrop end time?
+
+
+[22-Apr-19 10:51 AM] Gateway#3763
+[dscrd-hush] <ComputerGenie - ChickenPool> @david lin 12pm NOON UTC on Feb 1st 2018
+
+
+[22-Apr-19 10:53 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @ComputerGenie - ChickenPool Oh, we better be prepared.
+
+
+[22-Apr-19 10:54 AM] Gateway#3763
+[dscrd-hush] <ComputerGenie - ChickenPool> @halo kitty rules huh?
+
+
+[22-Apr-19 10:54 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> :carlos:
+
+
+[22-Apr-19 12:20 PM] Gateway#3763
+[dscrd-hush] <penguin> happy birthday
+
+
+[12-May-19 01:26 AM] Gateway#3763
+[dscrd-hush] <Muerta24> Hi
+
+
+[12-May-19 01:27 AM] Gateway#3763
+[dscrd-hush] <Muerta24> is it possible to claim today btch?
+
+
+[12-May-19 01:27 AM] Gateway#3763
+[dscrd-hush] <Muerta24> if i had own wallet
+
+
+[12-May-19 01:27 AM] Gateway#3763
+[dscrd-hush] <Muerta24> 0.68.2 gui wallet
+
+
+[12-May-19 01:59 AM] Gateway#3763
+[dscrd-hush] <aledel> @Muerta24 yes
+
+
+[12-May-19 02:03 AM] Gateway#3763
+[dscrd-hush] <Muerta24> great, how can i do it?
+
+
+[12-May-19 02:03 AM] Gateway#3763
+[dscrd-hush] <Muerta24> now i am trying to migrate to hushmate
+
+
+[12-May-19 03:52 AM] Gateway#3763
+[dscrd-hush] <heguli97> With the private keys https://bitcoinhush.github.io/airdrop/
+
+{Embed}
+https://bitcoinhush.github.io/airdrop/
+How to Collect the BTCH Airdrop
+Bitcoin Hush: BTCH, The Immaculate Merge Drop
+
+
+[12-May-19 03:53 AM] Gateway#3763
+[dscrd-hush] <heguli97> @Muerta24
+
+
+[25-May-19 11:31 PM] Deleted User#0000
+Hi here :).
+Barterlly is now open on BETA mode, and will provide tools for users and CoinOwners to perform OTC trades in a safe way.
+Any KMD assetchain dPowed will be listed, and supported, for free.
+Other coins not already listed can submit a listing application at : https://barterlly.typeform.com/to/iqpS1H
+During the BETA, Barterlly won't charge any fee other than the transaction ones. after the release we will charge 1% on top of every transaction.
+Our goal is to provide premium tools for coins listed on the platform. (Discord swapbot, twitter integration, public orders, wallet integration, API, custom templating, and many more).
+Feel free to join us on our Discord.
+https://discord.gg/RHc95zw
+The app link is located at : https://app.barterlly.io
+We are open to suggestions, and partnerships.
+
+See you soon !
+
+Barterlly's team
+
+{Embed}
+https://barterlly.typeform.com/to/iqpS1H
+Barterlly-Listing
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-1.discordapp.net/external/j4WRBwI9aqFsv-lpkCn64Fr0EvicWgWYGmO4DedtKOM/https/images.typeform.com/images/FYUps4mFKPYK
+
+{Reactions}
+shexy Komodo 👏 💯 
+
+[30-May-19 10:45 PM] Gateway#3763
+[dscrd-hush] <赖红光> Where is btch currently available?
+
+
+[30-May-19 10:51 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> on https://www.coinexchange.io/market/BTCH/BTC and a few DEXs
+
+{Embed}
+https://www.coinexchange.io/market/BTCH/BTC
+0.00001000 BTCH / BTC Market | Bitcoin Hush Exchange | CoinExchange.io
+Market: BTCH / BTC | Last Price: 0.00001000 BTC | Currency: Bitcoin Hush | Base Currency: Bitcoin | 
+    Join CoinExchange.io and start trading today!
+
+
+[02-Jun-19 09:26 AM] jspook16#3059
+Is btch not available on agama mobile?
+
+
+[02-Jun-19 09:49 AM] SHossain#0007
+it is available
+
+
+[02-Jun-19 01:19 PM] Gateway#3763
+[dscrd-hush] <Cryptographic> Sorry for what might be a dumb question.  How can BTCH have a 21M supply if it was airdropped 1:1 with multiple chains adding up to way more than 21M supply?
+
+
+[02-Jun-19 01:49 PM] Gateway#3763
+[dscrd-hush] <jl777c> snapshot of the chains at the time was not the ultimate coin supply. how do you calculate the existing supplies at the time of the airdrop as being "way more than" 21 mil?
+
+
+[02-Jun-19 01:56 PM] Gateway#3763
+[dscrd-hush] <aledel> He is calculating Max supply + Max supply :Surprised_Pikachu:
+
+
+[02-Jun-19 04:06 PM] Gateway#3763
+[dscrd-hush] <Cryptographic> my understanding from the website is BTCH has a max supply of 21M (same supply as BTC).  so the dropping 1:1 with BTC would create the full supply, no?  and then add in the other chains...
+
+
+[02-Jun-19 05:51 PM] Gateway#3763
+[dscrd-hush] <Berg> BTC does not have 21M coins circulating though...
+
+
+[02-Jun-19 05:51 PM] Gateway#3763
+[dscrd-hush] <Berg> You’re talking max supply, not circulating supply.
+
+
+[02-Jun-19 05:58 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Cryptographic You most likely missunderstanding terms ¨circulating supply¨ and ¨maximum supply¨. BTC and BTCH maximum supply is 21M. Only 21M of each will ever exist.. On the other hand circulating supply represent number of coins into existance at any given moment. At the moment BTC circulating supply is 17.7M and rising.
+
+
+[02-Jun-19 06:01 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> On feb. 1 2018, when snapshot happened (BTCH ¨appeared¨) there were 16.8M of BTC and 3.2M of HUSH into existence. Also 2 minor coins and some premine were taken into account, alltogether still combined for less than 21 M. Link might help you: https://github.com/bitcoinhush/bitcoinhush/blob/master/whitepaper/btch.pdf
+
+{Embed}
+https://github.com/bitcoinhush/bitcoinhush/blob/master/whitepaper/btch.pdf
+bitcoinhush/bitcoinhush
+Bitcoin Hush. Contribute to bitcoinhush/bitcoinhush development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/7nATe7K-lOBPphbldNIFiQWPsp5f--wALc1ciftAt3Q/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/35062192
+
+
+[02-Jun-19 06:37 PM] Gateway#3763
+[dscrd-hush] <Cryptographic> Thanks.
+
+
+[09-Jun-19 12:06 AM] Gateway#3763
+[dscrd-hush] <Chippiru> AirDrop 1:1 for DEX, SuperNet/Unity, HUSH, BTC. Ok. Let’s count.
+DEX 191M , Unity 777777 tokens, BTC 16,8M HUSH 3,2 M and Max supply BTCH 21M. Something doesn’t fit. 🤔
+https://cdn.discordapp.com/attachments/408420364956205058/587175706803568640/image0.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/587175706803568640/image0.png
+https://media.discordapp.net/attachments/408420364956205058/587175706803568640/image0.png
+
+
+[09-Jun-19 12:20 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Chippiru there is another DEX beside Coinmarketcap's DEX:
+
+
+[09-Jun-19 12:20 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> https://dexstats.info/richlist.php?asset=DEX
+
+{Embed}
+https://dexstats.info/richlist.php?asset=DEX
+Dexstats Dashboard - Richlist for DEX Assetchain
+Richlist for KMD and DEX Assetchains
+
+
+[09-Jun-19 12:22 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Also in order to stay below 21M, BTC whales balances were slightly cut off:
+
+
+[09-Jun-19 12:22 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> https://github.com/bitcoinhush/bitcoinhush/blob/master/airdrop/README.md
+
+{Embed}
+https://github.com/bitcoinhush/bitcoinhush/blob/master/airdrop/README.md
+bitcoinhush/bitcoinhush
+Bitcoin Hush. Contribute to bitcoinhush/bitcoinhush development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/7nATe7K-lOBPphbldNIFiQWPsp5f--wALc1ciftAt3Q/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/35062192
+
+
+[09-Jun-19 12:22 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> https://github.com/bitcoinhush/bitcoinhush/blob/master/airdrop/robin-hood.csv
+
+{Embed}
+https://github.com/bitcoinhush/bitcoinhush/blob/master/airdrop/robin-hood.csv
+bitcoinhush/bitcoinhush
+Bitcoin Hush. Contribute to bitcoinhush/bitcoinhush development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/7nATe7K-lOBPphbldNIFiQWPsp5f--wALc1ciftAt3Q/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/35062192
+
+
+[09-Jun-19 12:24 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> But you're right that fork details were poorely shared with public. That was due to lack of time and personel.
+
+
+[09-Jun-19 03:36 AM] Gateway#3763
+[dscrd-hush] <Chippiru> Ok. Up to 1M BTCH for DEX holders, 778k for UNITY, harder to calculate BTCH for BTC holders. What is the circulating supply for BTCH now?
+
+
+[09-Jun-19 03:58 AM] Gateway#3763
+[dscrd-hush] <jl777c> https://www.dexstats.info/explorers.php
+
+{Embed}
+https://www.dexstats.info/explorers.php
+Dexstats Dashboard - BarterDEX
+Explorer Links and Money Supply Data for KMD Ecosystem Coins
+
+
+[09-Jun-19 03:58 AM] Gateway#3763
+[dscrd-hush] <jl777c> a bit less that 21 million
+
+
+[09-Jun-19 01:06 PM] Gateway#3763
+[dscrd-hush] <Chippiru> Thanks
+
+
+[11-Jun-19 10:34 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> I've taken advantage of recent Agama breach for study of BTCH realistic supply and major ownership. Due to security breach huge movement of BTCH happened. On BTCH explorer I've took a look at every single june block so far.
+In my timezone first june block was 182097,while  last block analyized was 182554. Also I reviewed a destiny of BTCH balances, which directly originated from the richest HUSH balances. I'll post results in Word and pdf shape and also in plain text. But please note that Discord can slightly rearenge form and drop off some of characters.
+At fork time there were 38 addresses of 10000 or more HUSH (BTCH). They were looked under microscope. Owners of the biggest balances probably should take the most care of their funds. They should be a good indicator of happening at the rest of the ownership. It includes feb. 1 2018 balances with t-HUSH addresses, original BTCH addresses and status.
+Some findings are interesting, some pointless. The research has been primarly made for my own understanding of overall picture, but I can share the results. My intention was not to bash anyone or anything.
+
+
+[11-Jun-19 10:34 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/588058532520132634/part_1_block_analysis.docx
+
+
+[11-Jun-19 10:34 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/588058535208681621/part_1_block_analysis.pdf
+
+
+[11-Jun-19 10:34 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/588058536886665217/part_2_richlist_refreshed.docx
+
+
+[11-Jun-19 10:34 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/588058543941222410/part_2_richlist_refreshed.pdf
+
+
+[11-Jun-19 10:35 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> As I'm missing data about transfer of DEX and SUPERNET balances to BTCH chain, some conclusions are part of speculation. At some points I might be just interpreting things wrong.
+From block 182097 up to block 182160 value transfer was basically 0. Block 182161 happened 1.5 hour prior to ca333's announcement of Agama security breach (KMD official channel on Discord). In that block team moved 265k BTCH of SUPERNET holdings and movement has begun.
+From up of block 182161 until now, 1.5 million of BTCH were moved. Since blocks 182404 and 182405 were mined, there was only 1 transaction of 10000+ BTCH. That is 1 transaction in last 5 days. Right now movement is normal again, namely it is going back to basically 0. It is good time to draw the line.
+
+
+[11-Jun-19 10:35 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Including block 182161, there were  5 moves which included balances of 100000 or more coins. 4 of them are sure in control of KMD team, while for 5th transfer I can say it is just likely under KMD control.
+As said, block 182161 contains SUPERNET holdings, namely 265000 of coins.
+Block 182175 represent old MSHARK funds, it carried 100000 of coins. Block was recorded 2 hours after ca333's announcement.
+
+
+[11-Jun-19 10:35 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Block 182184 had 153000 BTCH inside. These coins originated from pre-airdrop (18th january 2018). We are talking about original address. It can only be premine, now called dev funds. Block was recorded 2.5 hours after ca333's announcement.
+Block 182190 happened 3.5 hours after announcement.  It included 361000 BTCH, which originated from SUPERNET and DEX. Add that with block time and my conclusion is: these funds are also in control of KMD team.
+So far there are already 879000 of BTCH within KMD command.
+At blocks 182251 and 182252 additional 28000 BTCH were transferred to 361000 bulk. KMD sum is already at 900000+ BTCH.
+
+
+[11-Jun-19 10:35 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Block 182383 was recorded much later (06.06.2019). There were 192000 BTCH within. According to atomicexplorer, this BTCH is coinsiquence of 180000 DEX and 12000 SUPERNET. In chaos funds were likely forgotten and claimed day later. It is very likely these funds are property of KMD people.
+So that leaves me with 0.9 M or 1.1M of BTCH whale addresses within KMD control. The second of the two is more likely. Of course, some other (smaller) balances are also of KMD people, but I haven't dug deeper.
+
+
+[11-Jun-19 10:35 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Interesingly, balances of 10000 or more BTCH and without proof or clear indication of KMD ownership were very scarce. There were only 13 of them so far:
+ block 182185 had 23300 coins (which happened just a single block after transfer of 153000 coins)
+182195 had 10600 of them,
+182245 had 20000,
+182261 had 13200,
+182299 had 22500,
+182331 had 11500,
+182340 had 15400,
+182365 had 12700,
+182391 had 28500,
+182399 had 15800,
+182404 had 19900,
+182405 had 15000 and
+182535 had 21300.
+
+
+[11-Jun-19 10:35 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> All 13 balances combined for 229700 BTCH. That means that balances of less than 10000 BTCH leave us with only roughly 150000 BTCH.
+
+
+
+Conclusion 1:
+I've underestimated the amount of BTCH under KMD ownership and the amount of claimed BTCH. KMD controls more than 1M of coins, while overall I can describe 1.5M of coins as active. However, there are probably another 0.5M of coins which were claimed earlier, especially in early 2018. So with term circulating supply I would describe 1.5M or 2M BTCH. Coins are heavily loaded on only a few addresses, addresses with middle-to-low amounts represent the minority of overall balance.
+
+
+[11-Jun-19 10:36 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Part2: 10000.00000000    t1JV2RD4yhJjJCBJbHEmG8DYnwgLrKwm1n8   R9tcVPY8KokGfYctoywG5vn5THcND6WCf6   active in 2018(#)
+    10000.8639524    t1QTk23ywPuvpKHFY8HsFpdTqeFVvUFwX8t   RFsL6ET62QwnneZqf33FnLh89rmSMNN3Jv   active in 2018(##)
+    10012.15571232    t1WVckkHrKasj23WFp9NTuid4HXegfGdLim   RMuCpvkzx5thVQpZLtYTsRrLo8vCZpi5cW    never claimed
+    10052.9775897    t1TF334MdzNDswg9X5mrPcpMzSdjtCKJooA   RJed7EpncsErR3TpcX2PaXbGxF1Q3PH6nK    never claimed
+    10285.888    t1bGBNu1iwwnzGaDy6h43dsLkmFYBedrE7L   RSfmT5UsaSoxjwYGdSE3baa3GrohUwSJRH    never claimed
+
+
+[11-Jun-19 10:37 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 10701.54208747    t1X7HmcrDsxwfatwBAFczLQz5kKnYT5GGw8   RNWsqoKNWTxe4GFUgznzJ8DNFw44JMzrx9    never claimed
+10839.95649812    t1TTRAJ5sDYyRKMcaSGQ9mCTa7y2NDRhMTb   RJs1EUZ1r3zPnivsy1a9iugrdaHt9pcaSS    never claimed
+11537.6616096    t1LW71CYLtfQwDuaJNUasT6FyNVRubeBJCH   RBuh5P1VXARuhGtbuDksQoVFt6hRSA69gw   active in 2018(##)
+11699.24759346    t1e7zfvqksDYT93KR6Bsyx48jWAU6NVwq4m   RVXak7JuViZRcQdicw3yumN21mjcFege64     never claimed
+11722.2914045    t1gvWMvfumW1hBXzw1joC72xcYdjFBWS3sU   RYL6S794Q12feuKEYUyC4kBu4Ezm9pAA3q   active in 2018(###)
+
+
+[11-Jun-19 10:37 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 11849.80827171    t1g6Y5PPiJPEke1G69CvcDnKju3gpeitBxF   RXW89ZrrvtFj7NaPfx6cBVZ2QexLZNybdf    never claimed
+12480.67637599    t1h4HEah8CopvNPUdXBkuHJ9poTKz2XTKWZ   RYTsJmAGqJqtqknw3vvuF1P7K4bVvxSH6z    never claimed
+12746.87102245    t1QtzMgj3VYjRmZWsAXq6HH8fSXEeouodp7   RGJaRsCC83kQEvqAhH16EzMwx8WAhTeTLY   active in june 2019
+12850.9794    t1c98qEKiSqdPo2AMxps8eg2CNSd9HnngZs   RTYiuQns5LeNGPUfVa38cPFUt3tfAWD2Q6   active in 2018(#)
+13135.41774078    t1cWAu4NfDP8EdwCYEHo1UWd1rhzdbyagmJ   RTukyEqoqt9D7JWqm2y1SDrJNKG9UuDkNa    never claimed
+
+
+[11-Jun-19 10:37 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 13160.7744    t1YR7DTnABpggHCNpdRzuYiUu197hStk5SD   RPphHeFJpKhekZh8ABAuWRiBWkPDEixSnG   active in 2018(#)
+15385.87673672    t1ao6zFVRDYW6cetJd5XNtGSzUVTSevf8Wp   RSCh4RxZr3X562Cc9phNqygGz6ixbWZraW   active in june 2019
+15736.91    t1dYusvgP7WmxX8fwFvxmYUMxtUVL1c3ruU   RUxVx79Xk1nvzVzEng8mWBbFQ5kqrMBwo6    never claimed
+15999.24620381    t1gGnQY4PTyx1FiENpdehgavvimWTL6Au9Y   RXgNUiXY6Uxyj5YgMNpheJADENmyFdGqoD    never claimed
+16244.57823327    t1TPEa7pxKx42bpAhV7SaaJn5eRfEMot6Na   RJnpeJJ6xT515BV11rcaY21NA2vkGrWMzd   active in 2018(####)
+16742.9898    t1QFvzbRQBq5Fft3iNEss7QdmB6r4VxpMX9   RFfX4mtYpL6E9FN1tz3s57s3gi7aPoets5   active in 2018(#)
+
+
+[11-Jun-19 10:37 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 17009.98    t1YGUngtc5XVLFCCfmqEAAcR2fXuJaDvx5v   RPg4rsMki2WJiZWyJaQA8KeKB9ApQDF7yp    never claimed
+20000.55004048    t1VJeeYBr3GV1LXRWgrgzPtp6EFZX8MpCTT   RLiEiiezfmVyotjpDbrzMc3Njrq2x5HZoW    never claimed
+21000.06763181    t1Kgt1zEricRr47tjmLJceEm7A922ZgmKdy   RB6U6Ai1M7SpXVD3J5UcbwzPfkHYP6JKMs   active in june 2019
+21178.1587534    t1K8JmZiqpxHK5GsSjAAn725Bk9EjQ3zmvH   RAXtqkBzTTJHYeBkFuLn4jJUFkWFEG1Xhu    never claimed
+
+
+[11-Jun-19 10:37 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 22604.0704622    t1S5S6gbiBT88iXujoZy6xeR62XEMVzQpK5   RHV2As4rox97BuE3LK96vMeNY8VsGRTmBj   active in june(#####)
+24600    t1aRSSDDedA9qHdDd19Tm7ucdgKZ3oBEPb1   RRq2WPgoFfAokzXvXtdm5cqvBvpZhmNmMe   active in 2018
+30348.89117747    t1e6HPF65FWxxpdgmnRr2o7iBkdL4C8zjYy   RVVsTRZDt1ywJ115KB22kpwUGEba21aJfj   active in june 2019
+34122.80443966    t1Z6HWkR6fvegWkXGskVtf34RAkEGw44oZv   RQVsavtFJRfez7qaQVftckHhgMVnpGmiYd   active in may 2019
+38715.98    t1M4BhLvMCBWDnAmcB5sz1UqZB4QCCguteo   RCTmmXPVpgXCFY5uhq3yyC4qgffi67uyXf    never claimed
+
+
+[11-Jun-19 10:38 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 42803.65788361    t1fRRFpcFynKSekizQwJkLEGjF2Y1d3cKa2   RWq1L15QcHLR883HwgUkHwW1kdoXWGsnGb    never claimed
+43520.55608576    t1J9DGXbPb2MCRtUdVxBz4ERY7vjQQLXnD7   R9YoLi4YDXNAuFnw2hMz1wepdXzvHrX7GK    never claimed
+46940.08959832    t1Q7g5PuobMtRTLwp5pXEvowGdhJbpx9GA7   RFXG9aNxDruPviG7cZhEtXAZ9Ja7e6Wj4x    never claimed
+66444.76248529    t1X8TYzSXrnFNEXB667xyxbBeZdZu3FYHhG   RNY3dAugVHGLhtVPcs8yvJQw5EqQw2VvXQ    never claimed
+79011.15554515    t1QAwax9sidmTLoe1oDHvRAgJ3nLTJzi9No   RFaXf8d2M8nRpAxKKxTvNsuaZPbyA9kYCQ    never claimed
+
+
+[11-Jun-19 10:38 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 81288.9399    t1g6d3YYhHU2DB5PQvqQX8m6ymmHj7DLmaL   RXWD7j1quy3BeShiTaaX6ULGHNZF2KoKCs   active in 2018
+117885.41    t1bK5SrcY1qDLgCxP4Yrb7oQs1B99ryqr1U   RSifX35geLEK9aGgbJ2b5We9WnQfnBoqb9    never claimed
+149997.15000001    t1MRFp9u6jUbGi5ZcHfiC45SAseKxrdSPa2   RCpqtLNFMycFBSsupQtC1nfTPFbUihJ2ir    never claimed
+745550    t1bEBr1LdBQtHun7B5L82R65FgpWyyWFx8L   RSdmvBomouuGP9RUc5J2NoJYCRnVqT3j5V   never claimed(######)
+
+
+[11-Jun-19 10:38 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> (#)… addresses shared by same entity. Transfered to same addresses, alltogether combined for 56000 and 31500 BTCH (sum 87500 BTCH).
+(##)… addresses shared by same entity. Transfered to same address. With other minor balances combined for 50000 BTCH. Active in august 2018. No. 1 candidate for massive Coinexchange selloff, which happened the same day as transaction occured (aug. 10 2018). It was biggest daily selloff/volume in BTCH history, both fiat or BTCH measured.
+(###)… send to Coinexchange and sold the same day. Now »owned« by Coinexchange or their users.
+
+
+[11-Jun-19 10:38 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> (####)… when BTCH market opened on Coinexchange, claimed funds ASAP. Very likely sent to Coinexchange and sold everything.
+(#####)… linked with KMD. Funds ended on R9JCEd6xnCxNUSpLrHEWvzPSh7CNXm7z75 . That account is BTCH whale, controlled by KMD.
+(######)… Cryptopia's balance.
+
+Interesingly:
+- almost none of the biggest HUSH whales has claimed his coins
+- only a very few of HUSH whales have sold their coins
+- not many of these balances could be described as active
+
+
+[11-Jun-19 10:38 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Conclusion:
+I've expected much higher % of these funds would be claimed. I can argue that the majority of BTCH out there is mainly of DEX and SUPERNET origin. I can barely name BTCH as HUSH's fork or airdrop.
+That could explain why HUSH community doesn't care about BTCH. It has never cared and I can't blame them for that. HUSH has been seen as a coin for private messanging, while BTCH is without a vision. Maybe HUSH and BTCH development/community should split apart.
+
+
+[11-Jun-19 11:12 AM] Gateway#3763
+[dscrd-hush] <ComputerGenie - ChickenPool> One could argue that other than "free money", many people never cared about BTCH (especially after the price dropped) 🤷🏽
+
+
+[11-Jun-19 11:12 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Yes.
+
+
+[12-Jun-19 01:37 PM] Gateway#3763
+[dscrd-hush] <Akira X> I care about btc
+
+
+[12-Jun-19 01:37 PM] Gateway#3763
+[dscrd-hush] <Akira X> Btch
+
+
+[12-Jun-19 01:39 PM] Gateway#3763
+[dscrd-hush] <Berg> :btch_logo:
+
+
+[12-Jun-19 07:47 PM] Gateway#3763
+[dscrd-hush] <AkiraX> unable to withdraw btch from coinexchange.io
+
+
+[12-Jun-19 08:01 PM] Gateway#3763
+[dscrd-hush] <AkiraX> if i think about it, its been in maintenance for atleast half a year
+
+
+[12-Jun-19 08:01 PM] Gateway#3763
+[dscrd-hush] <AkiraX> i just put in a support case
+
+
+[12-Jun-19 11:27 PM] AkiraX#8269
+@dukeleto @jl777c h, i opened up a support request with coinexchange.io,  the btch wallet is under maintenabnce and they stated its actually an issue with kmd wallet
+
+
+[12-Jun-19 11:27 PM] AkiraX#8269
+they asked me to alert kmd/btch devs
+
+
+[12-Jun-19 11:27 PM] AkiraX#8269
+please advise...
+
+
+[13-Jun-19 05:51 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @halo kitty rules I just saw all this, thanks for the really good analysis
+
+
+[13-Jun-19 05:52 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> I hope you'll find a value in it.
+
+
+[13-Jun-19 06:14 AM] Gateway#3763
+[dscrd-hush] <ComputerGenie - MineHush.com> `they stated its actually an issue with kmd wallet`
+read as
+`they can't operate a basic assetchain`
+
+
+[13-Jun-19 01:19 PM] Gateway#3763
+[dscrd-hush] <Extradition90> So my btch are still in life or finish the project?
+
+
+[13-Jun-19 02:00 PM] Gateway#3763
+[dscrd-hush] <Berg> Still in life 😃
+
+
+[13-Jun-19 02:03 PM] Gateway#3763
+[dscrd-hush] <Extradition90> ok nice lol
+
+
+[13-Jun-19 02:04 PM] Gateway#3763
+[dscrd-hush] <Extradition90> need recover it i think thez was on agama ^^
+
+
+[13-Jun-19 03:37 PM] Gateway#3763
+[dscrd-hush] <AkiraX> @ComputerGenie 👴🏼📢 neither can I.    But I just want what's mine
+
+
+[13-Jun-19 03:38 PM] Gateway#3763
+[dscrd-hush] <ComputerGenie - MineHush.com> @AkiraX do what?
+
+
+[13-Jun-19 03:38 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Get my funds off their exchange
+
+
+[13-Jun-19 03:38 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Their wallet in maintenance.
+
+
+[13-Jun-19 03:39 PM] Gateway#3763
+[dscrd-hush] <ComputerGenie - MineHush.com> fwiw, they couldn't keep CHIPS wallet up full-time and it's almost a pure BTC clone 🤷🏽
+
+
+[13-Jun-19 03:46 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Yes.  But I can't buy btch if I cant send it to my wallet
+
+
+[14-Jun-19 10:06 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Yep.  Just reviewed my email
+
+
+[14-Jun-19 10:06 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Maintenance on wallet for over a year
+
+
+[15-Jun-19 12:19 AM] Gateway#3763
+[dscrd-hush] <赖红光> So there is no place to buy or sell btch?
+
+
+[15-Jun-19 12:19 AM] Gateway#3763
+[dscrd-hush] <赖红光> What happen to barterdex?
+
+
+[15-Jun-19 12:36 AM] jl777c#5810
+replaced by atomicDEX, coming soon
+
+
+[15-Jun-19 02:13 PM] Gateway#3763
+[dscrd-hush] <Balex> Hi!
+
+
+[15-Jun-19 02:14 PM] Gateway#3763
+[dscrd-hush] <Balex> Where can I hold my BTCHs if I have only HUSHs private keys before the fork?
+
+
+[15-Jun-19 09:06 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Verus agama 0.5.7
+
+
+[15-Jun-19 09:06 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Veruscoin.io
+
+
+[15-Jun-19 09:06 PM] Gateway#3763
+[dscrd-hush] <AkiraX> @Balex
+
+
+[16-Jun-19 03:28 AM] Gateway#3763
+[dscrd-hush] <Balex> Thank You! Is it safe?
+
+
+[16-Jun-19 04:16 AM] Gateway#3763
+[dscrd-hush] <heguli97> Verus agama is safe at this time. but not Agama wallet
+
+
+[18-Jun-19 10:16 AM] Gateway#3763
+[dscrd-hush] <gouzz> hello, as agama is not available, what wallet can I use to recover my btch?
+
+
+[18-Jun-19 01:23 PM] Gateway#3763
+[dscrd-hush] <Berg> @gouzz please see the messages directly above yours
+
+
+[18-Jun-19 01:23 PM] Gateway#3763
+[dscrd-hush] <Berg> Verus Agama is your best bet 0.5.7
+
+
+[18-Jun-19 01:23 PM] Gateway#3763
+[dscrd-hush] <Berg> https://veruscoin.io
+
+{Embed}
+https://veruscoin.io
+VerusCoin
+Community driven open source CPU mineable cryptocurrency with 50/50 Proof-of-Work/Proof-of-Stake, zk-SNARK zero-knowledge proof privacy.
+https://images-ext-1.discordapp.net/external/-T2q9QVD2wrAe4DrWg0cstHjXFLMNYdBKj0HJPBdFAA/https/veruscoin.io/img/veruslogolarge.png
+
+
+[22-Jun-19 02:32 PM] Gateway#3763
+[dscrd-hush] <AkiraX> I got a message wallet is fixed for coinexchange
+
+
+[22-Jun-19 07:05 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @AkiraX I can confirm. Just sent small amount out. You can withdraw your coins.
+
+
+[24-Jun-19 07:37 AM] Ocean_A0#7152
+How is BTCH going?
+
+
+[26-Jun-19 10:10 AM] Gateway#3763
+[dscrd-hush] <Berg> BTCH officially has joined Blockfolio signal 😊
+
+{Reactions}
+shexy 
+
+[26-Jun-19 10:10 AM] Gateway#3763
+[dscrd-hush] <Berg> @dukeleto @gilardh we should figure out the web wallet url so we can post a signal update 😊
+
+
+[26-Jun-19 10:42 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @Berg nice work!
+
+
+[26-Jun-19 12:32 PM] Gateway#3763
+[dscrd-hush] <gilardh> @Berg I continue the development of the web wallet of BTCH.  I haven't finished.
+
+
+[26-Jun-19 12:32 PM] Gateway#3763
+[dscrd-hush] <gilardh> I'll let you know when it's ready.
+
+
+[26-Jun-19 12:33 PM] Gateway#3763
+[dscrd-hush] <gilardh> Thanks for your good work.
+
+
+[26-Jun-19 12:42 PM] Gateway#3763
+[dscrd-hush] <Berg> Thank you 😃
+
+
+[26-Jun-19 06:39 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Yep got my btch off exchange
+
+
+[06-Jul-19 06:25 PM] Gateway#3763
+[dscrd-hush] <ectrader> BTCH a very interesting coin, but still very unknown!
+
+
+[22-Jul-19 10:17 AM] Gateway#3763
+[dscrd-hush] <Berg> Something is going on here...
+https://cdn.discordapp.com/attachments/408420364956205058/602912190147723284/image0.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/602912190147723284/image0.png
+https://media.discordapp.net/attachments/408420364956205058/602912190147723284/image0.png
+
+
+[22-Jul-19 10:17 AM] Gateway#3763
+[dscrd-hush] <Berg> Bueller?
+
+
+[27-Jul-19 10:38 PM] Gateway#3763
+[dscrd-hush] <AkiraX> No.  It was 10 btch
+
+
+[28-Jul-19 03:19 AM] Gateway#3763
+[dscrd-hush] <Heno1974> wow
+
+
+[28-Jul-19 03:20 AM] Gateway#3763
+[dscrd-hush] <Heno1974> btch=hush?
+
+
+[30-Jul-19 02:54 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> https://privacyalternatives.com/ has one more coin available: Bitcoin Hush (BTCH). I've already sent my vote. Have you?
+
+{Embed}
+Privacy Alternatives
+https://privacyalternatives.com/
+Privacy Alternatives - The Directory of Privacy Tech
+Privacy Alternatives - The directory of privacy tech
+
+
+[30-Jul-19 03:11 PM] Gateway#3763
+[dscrd-hush] <heguli97> I have now 👍
+
+
+[30-Jul-19 03:24 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/605888409562775562/Uncle_Sam.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/605888409562775562/Uncle_Sam.png
+https://media.discordapp.net/attachments/408420364956205058/605888409562775562/Uncle_Sam.png
+
+
+[01-Aug-19 03:15 AM] Gateway#3763
+[dscrd-hush] <Hot Albo> What is the main use case for btch,  is it basically the same as HUSH I.e. private messages with anon value transfer? Does BTCH do anything unique?
+
+
+[01-Aug-19 03:15 AM] Gateway#3763
+[dscrd-hush] <Hot Albo> Also, is PoS still planned for BTCH?
+
+
+[01-Aug-19 10:31 PM] Gateway#3763
+[dscrd-hush] <AkiraX> POS still planned but it's on the back burner as Duke focuses on hush
+
+
+[02-Aug-19 03:20 PM] Gateway#3763
+[dscrd-hush] <Hot Albo> Ok, sounds like better to just buy HUSH, thanks!
+
+
+[04-Aug-19 11:40 AM] Gateway#3763
+[dscrd-hush] <allegiant> Is there any exchange where I can buy BTCH & transfer to wallet?
+
+
+[04-Aug-19 12:28 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @allegiant Yes, market is at https://www.coinexchange.io/market/BTCH/BTC and withdrawals are enabled.
+
+{Embed}
+https://www.coinexchange.io/market/BTCH/BTC
+0.00001090 BTCH / BTC Market | Bitcoin Hush Exchange | CoinExchange.io
+Market: BTCH / BTC | Last Price: 0.00001090 BTC | Currency: Bitcoin Hush | Base Currency: Bitcoin | 
+    Join CoinExchange.io and start trading today!
+
+
+[04-Aug-19 12:36 PM] Gateway#3763
+[dscrd-hush] <allegiant> I have few thousands of BTCH that airdroped 2 yrs ago. R those still valid? I have private keys
+
+
+[04-Aug-19 12:42 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Yes, they are valid. You can do watever you want with them. Buy, sell, send...
+
+
+[04-Aug-19 04:12 PM] Gateway#3763
+[dscrd-hush] <allegiant> @halo kitty rules thanks
+
+
+[13-Aug-19 01:26 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Can you believe there were 200000 blocks mined already? https://btch.explorer.dexstats.info/blocks  I don't know who has done that, but you can use it as a ˝proof˝ someone is using the coin.
+
+
+[13-Aug-19 02:45 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @jl777c In the past 2 weeks there were created thousands of new addresses, likely 10000+ of them and still counting. The pattern is the same, all addresses are almost empty (0.0001 BTCH inside). Is there any logic to that or is someone just doing experiments?
+
+
+[13-Aug-19 02:47 AM] Gateway#3763
+[dscrd-hush] <jl777c> its called mining
+
+
+[13-Aug-19 02:48 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> On 10000 new addresses?
+
+
+[13-Aug-19 02:55 AM] Gateway#3763
+[dscrd-hush] <jl777c> a new address for each block
+
+
+[13-Aug-19 02:55 AM] Gateway#3763
+[dscrd-hush] <jl777c> look at BTC
+
+
+[13-Aug-19 02:55 AM] Gateway#3763
+[dscrd-hush] <jl777c> each block gets a new address (usually) and gets the block reward plus txfees
+
+
+[13-Aug-19 02:55 AM] Gateway#3763
+[dscrd-hush] <jl777c> same as BTCH
+
+
+[13-Aug-19 02:57 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> It is not a very suitable way to collect the rewards 😄 . Anyway, usually the miners were collecting their fees on addresses with hundreds and thousand of coins inside. Maybe someone is mining just for fun...
+
+
+[13-Aug-19 05:14 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Darpa
+
+
+[30-Aug-19 09:25 AM] Gateway#3763
+[dscrd-hush] <AkiraX> !mining
+
+
+[31-Aug-19 01:43 PM] Gateway#3763
+[dscrd-hush] <Dochteur> So is BTCH actually mineable?
+
+
+[31-Aug-19 01:44 PM] SHossain#0007
+on-demand mining. block reward is 0.0001 BTCH
+
+
+[05-Sep-19 01:18 PM] DLT_Novice#2835
+Can anyone from these teams quickly add their coin to the newly to be released Heat Mobil wallet? SHould be easy and fast to add your coin to the wallet. https://github.com/Heat-Ledger-Ltd/heat-modules
+
+{Embed}
+https://github.com/Heat-Ledger-Ltd/heat-modules
+Heat-Ledger-Ltd/heat-modules
+Collection of low level crypto currency operations - Heat-Ledger-Ltd/heat-modules
+https://images-ext-2.discordapp.net/external/qnQ4_7kUfK_FVCgEg_jER-2s8jIdEwYskoKKtBbvXIQ/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21058733
+
+
+[09-Sep-19 09:01 AM] Gateway#3763
+[dscrd-hush] <Solistica> !mining
+
+
+[27-Sep-19 06:07 AM] Gateway#3763
+[dscrd-hush] <Berg> Let's try to get BTCH on AtomicDEX
+
+
+[27-Sep-19 06:08 AM] Gateway#3763
+[dscrd-hush] <Berg> Would be nice to see some liquidity added to the coin
+
+
+[27-Sep-19 06:08 AM] Gateway#3763
+[dscrd-hush] <Berg> They stated they'll be looking to add more coins once they do more stress testing
+
+
+[27-Sep-19 06:08 AM] Gateway#3763
+[dscrd-hush] <Berg> Hopefully KMD's own project makes the cut :btch_logo:
+
+
+[01-Oct-19 05:48 AM] Gateway#3763
+[dscrd-hush] <denio> https://www.coinexchange.io/news/post/85/
+
+
+[01-Oct-19 05:48 AM] Gateway#3763
+[dscrd-hush] <denio> get your BTCH out of Coinexchange
+
+
+[01-Oct-19 05:48 AM] Gateway#3763
+[dscrd-hush] <Berg> Working on an announcement for it 🙂
+
+
+[01-Oct-19 05:48 AM] Gateway#3763
+[dscrd-hush] <denio> ah ok sorry 😅
+
+
+[01-Oct-19 05:49 AM] Gateway#3763
+[dscrd-hush] <Berg> No, no worries at all! Good for people to know 🙂
+
+
+[01-Oct-19 05:49 AM] Gateway#3763
+[dscrd-hush] <Berg> I'll be posting alternative wallets and stuff shortly!
+
+
+[01-Oct-19 05:49 AM] Gateway#3763
+[dscrd-hush] <denio> nice
+
+
+[01-Oct-19 02:24 PM] Gateway#3763
+[dscrd-hush] <Berg> https://thetrunk.github.io
+
+
+[01-Oct-19 02:25 PM] Gateway#3763
+[dscrd-hush] <Berg> Oooop that doesn’t work
+
+
+[01-Oct-19 08:17 PM] Gateway#3763
+[dscrd-hush] <Berg> Can someone force a block on BTCH 🙂 funds aren't transferring
+
+
+[01-Oct-19 08:17 PM] Gateway#3763
+[dscrd-hush] <Berg> https://tenor.com/view/cat-sadface-please-gif-10136432
+
+{Embed}
+https://tenor.com/view/cat-sadface-please-gif-10136432
+https://images-ext-2.discordapp.net/external/Dsdu52IraIhBxpSh1-fGAFe7HPpvjydw1VS3ZNJLAvA/https/media.tenor.co/images/7d38f934f734cc8cadf233cf5570adda/tenor.png
+
+
+[04-Oct-19 11:01 AM] Gateway#3763
+[dscrd-hush] <heguli97> Maybe BTCH could apply to Folgory? https://twitter.com/Folgory1/status/1180000949206704128
+
+{Embed}
+Folgory (@Folgory1)
+https://twitter.com/Folgory1/status/1180000949206704128
+after learning that coinexchange colleagues close, we support the coin listed after a due diligence. Folgory can enter them for free. Tell us the coins #coinexchange 
+@CoinMarketCap @XinFin_Official @robotinarox_io @ILC_B_Project
+https://images-ext-1.discordapp.net/external/TzNIne9CclI2vSRmXaHPmsFk8W_MVxiIIEQ2FQTOZXw/https/pbs.twimg.com/media/EGA0m3oWsAAUr4P.png%3Alarge
+Twitter
+
+
+[04-Oct-19 12:33 PM] Gateway#3763
+[dscrd-hush] <Chippiru> Can I tranfer BTCH from coinexchange to silentdragon address?
+
+
+[04-Oct-19 12:46 PM] Gateway#3763
+[dscrd-hush] <heguli97> @Chippiru Yes, R addresses are crosschain so as long as you know the privatekey to that address then it's all good. That is what i did too. 🙂
+
+
+[04-Oct-19 12:47 PM] Gateway#3763
+[dscrd-hush] <heguli97> You can see all the coins that address owns with this handy website https://dexstats.info/assetviewer.php
+
+{Embed}
+https://dexstats.info/assetviewer.php
+Dexstats Dashboard - BarterDEX
+Check your Address Balances on KMD Assetchains
+
+
+[05-Oct-19 04:07 PM] Gateway#3763
+[dscrd-hush] <Chippiru> @heguli97 Thanks, I managed to transfer BTCH to wallet 🙏
+
+
+[12-Oct-19 10:22 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Trading on Coinexchange will finish soon. Are we able to extract and store all the trading info from the charts? Should we ask the exchange for that data? Because these informations include entire registered BTCH trading history. Alltogether we are speaking about few thousands of trades. It  would be a shame if these details would be lost. End of trading here doesn't mean the end of coin. I'll likely make a series of print-screens of BTCH/BTC charts, but I guess there must exist more precised technique...
+
+
+[14-Oct-19 06:31 PM] Gateway#3763
+[dscrd-hush] <dukeleto> storing data is good
+
+
+[14-Oct-19 06:31 PM] Gateway#3763
+[dscrd-hush] <dukeleto> we hope to be on a new exchange soon
+
+
+[21-Oct-19 01:45 PM] Gateway#3763
+[dscrd-hush] <Crypto99> Any estimates on btch price?
+
+
+[27-Oct-19 05:21 AM] Gateway#3763
+[dscrd-hush] <gilardh> @dukeleto Can you fork the 3 repo below on the github https://github.com/bitcoinhush ?
+
+https://github.com/gilardh/mybtchwallet
+https://github.com/gilardh/bitgo-utxo-lib
+https://github.com/gilardh/komodojs
+
+{Embed}
+https://github.com/bitcoinhush
+Bitcoin Hush
+Bitcoin Hush has 4 repositories available. Follow their code on GitHub.
+https://images-ext-2.discordapp.net/external/Y_36CKNO64MTkttGSR2uIKYCHORimGqsPUOR7czpxnM/%3Fs%3D280%26v%3D4/https/avatars1.githubusercontent.com/u/35062192
+
+{Embed}
+https://github.com/gilardh/mybtchwallet
+gilardh/mybtchwallet
+Bitcoin Hush BTCH Web Wallet. Contribute to gilardh/mybtchwallet development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/JoK5bfT6oSG7Kk38QsbopVcsp-6MG90bfDISHhPlHgo/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/39105646
+
+{Embed}
+https://github.com/gilardh/bitgo-utxo-lib
+gilardh/bitgo-utxo-lib
+UTXO coins functions implemented in pure JavaScript - gilardh/bitgo-utxo-lib
+https://images-ext-2.discordapp.net/external/JoK5bfT6oSG7Kk38QsbopVcsp-6MG90bfDISHhPlHgo/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/39105646
+
+{Embed}
+https://github.com/gilardh/komodojs
+gilardh/komodojs
+Contribute to gilardh/komodojs development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/JoK5bfT6oSG7Kk38QsbopVcsp-6MG90bfDISHhPlHgo/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/39105646
+
+
+[27-Oct-19 05:22 AM] Gateway#3763
+[dscrd-hush] <gilardh> This is to prepare the implementation of the webwallet bitcoin hush.
+
+
+[27-Oct-19 05:22 AM] Gateway#3763
+[dscrd-hush] <gilardh> I should still make some minor changes.
+
+
+[27-Oct-19 05:22 AM] Gateway#3763
+[dscrd-hush] <gilardh> Here are screenshots:
+
+
+[27-Oct-19 05:22 AM] Gateway#3763
+[dscrd-hush] <gilardh> 
+https://cdn.discordapp.com/attachments/408420364956205058/637989622323871745/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/637989622323871745/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/637989622323871745/unknown.png
+
+
+[27-Oct-19 05:23 AM] Gateway#3763
+[dscrd-hush] <gilardh> 
+https://cdn.discordapp.com/attachments/408420364956205058/637989659527348254/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/637989659527348254/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/637989659527348254/unknown.png
+
+
+[27-Oct-19 05:23 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh yes sir
+
+
+[27-Oct-19 05:26 AM] Gateway#3763
+[dscrd-hush] <gilardh> If anyone can send me 1 btch to this address it would be great: RSdgDXiDE1E3bnD13Pxsa6xR4oWxDrU6rr
+
+
+[27-Oct-19 05:30 AM] Gateway#3763
+[dscrd-hush] <gilardh> I lost my test wallet with 1 BTCH ... 😕
+
+
+[27-Oct-19 05:33 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh i would do it right now but my BTCH wallets are in weird places and I need some time to go access them
+
+
+[27-Oct-19 05:33 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh ask in #general , somebody probably has some to send you a test xtn
+
+
+[27-Oct-19 05:47 AM] Gateway#3763
+[dscrd-hush] <gilardh> @dukeleto I'm waiting to see if I have an answer here.  No emergency.  Could you give me access to accept PRs on the future official repo github mybtchwallet?
+
+
+[27-Oct-19 05:47 AM] Gateway#3763
+[dscrd-hush] <dukeleto> yes
+
+
+[27-Oct-19 05:48 AM] Gateway#3763
+[dscrd-hush] <gilardh> You can delete them when everything is in place if you wish.
+
+
+[27-Oct-19 05:48 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh no need, i just invited you
+
+
+[27-Oct-19 05:48 AM] Gateway#3763
+[dscrd-hush] <dukeleto> You are the one that is making this stuff work, you have earned commit rights 🙂
+
+
+[27-Oct-19 05:49 AM] Gateway#3763
+[dscrd-hush] <gilardh> You have fork btchwallet on myhush repo?
+
+
+[27-Oct-19 05:49 AM] Gateway#3763
+[dscrd-hush] <gilardh> I think is better on https://github.com/bitcoinhush ?
+
+{Embed}
+https://github.com/bitcoinhush
+Bitcoin Hush
+Bitcoin Hush has 4 repositories available. Follow their code on GitHub.
+https://images-ext-2.discordapp.net/external/Y_36CKNO64MTkttGSR2uIKYCHORimGqsPUOR7czpxnM/%3Fs%3D280%26v%3D4/https/avatars1.githubusercontent.com/u/35062192
+
+
+[27-Oct-19 05:51 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @gilardh Sent, you should expect it soon.
+
+
+[27-Oct-19 05:55 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> ... and delivered.
+
+
+[27-Oct-19 05:58 AM] Gateway#3763
+[dscrd-hush] <gilardh> @dukeleto Have you see my question above ?
+
+
+[27-Oct-19 06:02 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh darn, i forked them all into MyHush github org
+
+
+[27-Oct-19 06:03 AM] Gateway#3763
+[dscrd-hush] <dukeleto> fixing that now
+
+
+[27-Oct-19 06:04 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh ok, i invited you to the new forks
+
+
+[27-Oct-19 06:04 AM] Gateway#3763
+[dscrd-hush] <dukeleto> 😅
+
+
+[27-Oct-19 11:43 AM] Gateway#3763
+[dscrd-hush] <Heno1974> Hush = btch? 🤔
+
+
+[27-Oct-19 11:50 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Heno1974 No, BTCH is airdrop from early 2018, where HUSH was one of 4 different coins who participated. And at the moment BTCH is not mineable, if that is a second question 😉. Short info about BTCH: https://bitcoinhush.github.io/
+
+
+[27-Oct-19 12:03 PM] Gateway#3763
+[dscrd-hush] <Heno1974> @halo kitty rules  ?
+
+
+[27-Oct-19 12:03 PM] Gateway#3763
+[dscrd-hush] <Heno1974> 
+https://cdn.discordapp.com/attachments/408420364956205058/638090475047485460/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638090475047485460/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/638090475047485460/unknown.png
+
+
+[27-Oct-19 12:05 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> That is a part of instructions to recieve BTCH. They were valid on 1st of february 2018. 2018!!! If you held HUSH on 1st of february 2018, you can claim your BTCH.
+
+
+[27-Oct-19 12:06 PM] Gateway#3763
+[dscrd-hush] <Heno1974> @halo kitty rules   thanks
+
+
+[27-Oct-19 02:12 PM] Gateway#3763
+[dscrd-hush] <gilardh> @dukeleto  I don't have access to mybtchwallet settings at this address: https://github.com/bitcoinhush/mybtchwallet/settings
+
+Can you activate the 'GitHub Pages' mode by selecting 'master branch / docs folder' in the combo list ?
+https://cdn.discordapp.com/attachments/408420364956205058/638122981935153200/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638122981935153200/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/638122981935153200/unknown.png
+
+
+[27-Oct-19 02:14 PM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh done
+
+
+[27-Oct-19 02:24 PM] Gateway#3763
+[dscrd-hush] <gilardh> @dukeleto Intense day
+
+
+[27-Oct-19 02:24 PM] Gateway#3763
+[dscrd-hush] <gilardh> First online version of the webwallet btch **for testing at the moment** :
+https://bitcoinhush.github.io/mybtchwallet/
+
+There are still small corrections (graphics, links, text) to realize but for me it works.
+
+
+[27-Oct-19 02:44 PM] Gateway#3763
+[dscrd-hush] <gilardh> @dukeleto Can you update the link on this page : https://github.com/bitcoinhush/mybtchwallet  ?
+
+It would be necessary to replace :
+Bitcoin Hush BTCH Web Wallet https://XXXXX/
+with
+Bitcoin Hush BTCH Web Wallet https://bitcoinhush.github.io/mybtchwallet/
+
+{Embed}
+https://github.com/bitcoinhush/mybtchwallet
+bitcoinhush/mybtchwallet
+Bitcoin Hush BTCH Web Wallet. Contribute to bitcoinhush/mybtchwallet development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/7nATe7K-lOBPphbldNIFiQWPsp5f--wALc1ciftAt3Q/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/35062192
+
+
+[27-Oct-19 03:35 PM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh done
+
+
+[27-Oct-19 03:35 PM] Gateway#3763
+[dscrd-hush] <dukeleto> and wow, amazing work!
+
+
+[27-Oct-19 03:36 PM] Gateway#3763
+[dscrd-hush] <dukeleto> @Berg BTCH web wallet for testing ^^^
+
+
+[27-Oct-19 08:04 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @gilardh @dukeleto It has been working fine for me. I've been using PC, Windows 7. First off, there were number of transactions sent out of Coinexchange to first web wallet. Mostly single transactions were sent to single addresses, but it also works with multiple transactions. Addresses from the first wallet are here, you can check transactions:
+
+
+[27-Oct-19 08:04 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> RXSmBDacEjB4Xmtpwx1cd4xDWhDqnwT8md
+RAfACzDADwZAiqsyB3ZeoYwQ9iizYp3Mbd
+R9drqwu6SM4Rz9Upwc94ZM5aLPK2WLFGQ3
+RNvvTdsABL984tiQ2L1Ma6HJqxDCmLGXq1
+RVe6GvswZymipe3w5YNT29kJXTQLqYuj6o
+RABPWvC5VgzaLXEV9HiXuG8gY21ZQqYEwb
+RLrohdp4okoUvK1ojAPBsd5gt1sTLGyDkN
+
+
+[27-Oct-19 08:05 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> In second attempt another web wallet was created. From first wallet were sent single and multiple transactions to a few addresses. Addresses are here:
+
+
+[27-Oct-19 08:05 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> RDJFWR3pSAXRSXWbhXMcBC4T5aLEHivJTK
+RW3yHfzLNFFBPH1A7kxTmV9FGjfCvtghqu
+RCummfXv9V8VdfAU3ecDEEEo4JnQtWb1BC
+
+
+[27-Oct-19 08:10 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> In third attempt transactions were sent from both web wallets to external wallet (which dukeleto owns the keys of). I was able to empty the wallets without problems. However, when sending or receiving rounded amounts (1 BTCH for example), strange balances can be obtained. Wallet shows additional balance, namely it adds or subtract some BTCH on 15th or 16th decimal point.
+https://cdn.discordapp.com/attachments/408420364956205058/638212889630605332/15_16_decimals.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638212889630605332/15_16_decimals.png
+https://media.discordapp.net/attachments/408420364956205058/638212889630605332/15_16_decimals.png
+
+
+[27-Oct-19 08:13 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> If trying to use too high tax fee, the wallet denies you (something as ˝absurd fee˝). Beside that, all kinds of custom fees works, even transactions without fees are accepted without a problems. Examples:
+
+
+[27-Oct-19 08:13 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 981077d91019e7f2e2b995d4563bbd2e9dcb51b225b7af170f8120afa85cc532
+e5830f6bf8b8f43d481ff8cd5f144856c6ab71a95a6bf88ef499a587f28f9126
+
+
+[27-Oct-19 08:16 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @gilardh One thing would be very useful. Is it possible to add a function, where with a single click you can add an address' balance to a sending line? You know it is complicated to work with 8-digit numbers when calculating tax fees...
+
+
+[27-Oct-19 08:17 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Extract: so far i have not obtain any problems.
+
+
+[28-Oct-19 12:05 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @gilardh I would like to send you something sweet. Is RSdgDXiDE1E3bnD13Pxsa6xR4oWxDrU6rr still valid? If not, please post other address...
+
+
+[28-Oct-19 12:16 AM] Gateway#3763
+[dscrd-hush] <gilardh> @halo kitty rules Thank you for these tests.
+
+
+[28-Oct-19 12:17 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @gilardh np. You just tell me an address for a donation. You deserve something...
+
+
+[28-Oct-19 12:18 AM] Gateway#3763
+[dscrd-hush] <gilardh> I will have to reread your messages several times to understand what is happening with rounding and when the fees are too high. 😉
+
+
+[28-Oct-19 12:20 AM] Gateway#3763
+[dscrd-hush] <gilardh> I think I saw strange things like that in the wallet hush too.  A rounding problem on the screen.
+
+
+[28-Oct-19 12:20 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> The fees were too high with example, when I tried to send 0.28 BTCH + 0.02 fees. The system denied me.  sending 0.295 BTCH + 0.005 fees was Ok and went through.
+
+
+[28-Oct-19 12:21 AM] Gateway#3763
+[dscrd-hush] <gilardh> My address of test is RSdgDXiDE1E3bnD13Pxsa6xR4oWxDrU6rr
+
+
+[28-Oct-19 12:21 AM] Gateway#3763
+[dscrd-hush] <gilardh> I don't have another account.
+
+
+[28-Oct-19 12:25 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> This time don't lose the keys 😉 . 500 pieces on their way... 💸
+
+
+[28-Oct-19 12:31 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> ... delivered. Thank you so far. I guess one day jl777 will also start to spend development funds. Baby steps...
+
+
+[28-Oct-19 12:36 AM] Gateway#3763
+[dscrd-hush] <gilardh> @halo kitty rules The key has been now registered in several places.  Last time, the key was only copied to the Notepad application and windows restarted one night. 😒
+
+
+[28-Oct-19 12:39 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> OK, it was test amount only. Otherwise, I am always using only classic paper. btw, with this tests I've tried both. function ˝remember password˝ is working, but I would not suggest it to being used by anybody.
+
+
+[28-Oct-19 03:24 AM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh @halo kitty rules one thing to note is that there are only 8 decimal places. If some code is showing more, it's wrong and has bugs
+
+
+[28-Oct-19 03:25 AM] Gateway#3763
+[dscrd-hush] <dukeleto> all amounts should be rounded to 8 digit precision numbers for rendering
+
+
+[28-Oct-19 03:25 AM] Gateway#3763
+[dscrd-hush] <dukeleto> Javascript doesn't actually have numbers, everything is a string, so maybe it's doing dumb stuff
+
+
+[28-Oct-19 03:42 AM] Gateway#3763
+[dscrd-hush] <gilardh> @dukeleto @halo kitty rules From memory, it's a display bug. In a next transation everything becomes correct again. I will try to reproduce this bug in order to identify the line of code to correct.
+
+
+[28-Oct-19 03:44 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @gilardh @dukeleto Correct, with next non-rounded transaction everything goes back to 8-digits. But I think with double rounded transactions it remains in 15 or 16 decimals range. will check right away.
+
+
+[28-Oct-19 03:57 AM] Gateway#3763
+[dscrd-hush] <dukeleto> this sounds like a javascript rendering issue
+
+
+[28-Oct-19 04:24 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> It took some time, but I got it again. Is it possible the problem occurs when combining addresses within the same wallet and at the same time on the different pages? If not, it might be totally random. It is not the matter of rounded and non-rounded balances. I have tried numerous variations rounded-rounded, nonrounded-nonrounded etc., but it remained in 8-decimal range.
+https://cdn.discordapp.com/attachments/408420364956205058/638337347531964427/page_2.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638337347531964427/page_2.png
+https://media.discordapp.net/attachments/408420364956205058/638337347531964427/page_2.png
+
+
+[28-Oct-19 04:27 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> If you look at the screen-shot from 8 hours ago, you'll see the same. There were combined balances from two different pages. only print screen was taken on page 1, but just look and you will see the balances on address and total don't match.
+
+
+[28-Oct-19 04:45 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/638342672020537345/unconfirmed.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638342672020537345/unconfirmed.png
+https://media.discordapp.net/attachments/408420364956205058/638342672020537345/unconfirmed.png
+
+
+[28-Oct-19 04:46 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/638342730367631381/total_confirmed.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638342730367631381/total_confirmed.png
+https://media.discordapp.net/attachments/408420364956205058/638342730367631381/total_confirmed.png
+
+
+[28-Oct-19 04:48 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> New transaction has not solve a problem of 16 decimals.... It must be something other.
+
+
+[28-Oct-19 07:59 AM] Gateway#3763
+[dscrd-hush] <Berg> Very cool 🙂 Keep me posted once the web wallet is fully functional without bugs and I'll share it around 🙂
+
+
+[28-Oct-19 02:33 PM] Gateway#3763
+[dscrd-hush] <gilardh> I confirm JavaScript does not know how to add :
+https://cdn.discordapp.com/attachments/408420364956205058/638490445743128626/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638490445743128626/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/638490445743128626/unknown.png
+
+
+[28-Oct-19 02:33 PM] Gateway#3763
+[dscrd-hush] <gilardh> The amounts for each address are correct but not the total.
+
+
+[28-Oct-19 02:38 PM] Gateway#3763
+[dscrd-hush] <gilardh> The code can be optimized here:
+https://cdn.discordapp.com/attachments/408420364956205058/638491747890102272/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638491747890102272/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/638491747890102272/unknown.png
+
+
+[28-Oct-19 04:14 PM] Gateway#3763
+[dscrd-hush] <gilardh> To avoid installing an additional library, I multiply by 100000000 the amounts of each address to add them and at the end I divide the total by 100000000 :
+https://cdn.discordapp.com/attachments/408420364956205058/638516005068341267/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638516005068341267/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/638516005068341267/unknown.png
+
+
+[28-Oct-19 04:16 PM] Gateway#3763
+[dscrd-hush] <gilardh> Now the total is correct.
+https://cdn.discordapp.com/attachments/408420364956205058/638516417838448650/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638516417838448650/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/638516417838448650/unknown.png
+
+
+[28-Oct-19 04:18 PM] Gateway#3763
+[dscrd-hush] <gilardh> Thanks @halo kitty rules for identifying this bug that is present in many other webwallet.
+
+
+[28-Oct-19 04:19 PM] Gateway#3763
+[dscrd-hush] <gilardh> The correction is now online.
+
+
+[29-Oct-19 12:41 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @gilardh I am sorry to report, but it has not been solved. While trying to explore ˝absurd fee˝ problem, a series of small transactions was transferred between two addresses (within a same wallet). Code is still vulnerable...
+https://cdn.discordapp.com/attachments/408420364956205058/638643584521732097/back_again.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638643584521732097/back_again.png
+https://media.discordapp.net/attachments/408420364956205058/638643584521732097/back_again.png
+
+
+[29-Oct-19 12:43 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> But likely the web wallet is not the only application with that problem. Look at the BTCH explorer: https://btch.explorer.dexstats.info/address/R9NW7yeXEfd4Ao4C4ssdkDqgAhWKpDvCmC
+
+
+[29-Oct-19 12:48 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Explorer has a problems with series of transactions from the same address. 
+10 BTCH were received from the external wallet and 12 series of 0.1 BTCH were sent out (plus transaction fees). final balance is correct, but ˝total sent˝ and ˝total received˝ doesn't match at all. i've noticed that behavior before, but didn't pay much attention. Should we ask CHMEX for a advice?
+
+
+[29-Oct-19 12:52 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Good and absurd fee limit:
+https://cdn.discordapp.com/attachments/408420364956205058/638646280859418624/good.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638646280859418624/good.png
+https://media.discordapp.net/attachments/408420364956205058/638646280859418624/good.png
+
+
+[29-Oct-19 12:52 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/638646354905923606/not_good.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638646354905923606/not_good.png
+https://media.discordapp.net/attachments/408420364956205058/638646354905923606/not_good.png
+
+
+[29-Oct-19 12:54 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> I assume ˝absurd fee˝ is based on a % of sending amount. I'll check with higher and lower amounts...
+
+
+[29-Oct-19 01:08 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> In fact it is not... Around 6% fee being described as absurd is being a rule in 0.1 BTCH and lower. 1 BTCH and higher amouts have different rules, namely 10x lower limit is being described as absurd. There must be a kind of logarithmic formula behind, but maybe we shouldn't pay too much attention to that. I'm fine with reminder ˝absurd fee˝. It prevents users from mistakingly spending too much on validation.
+
+
+[29-Oct-19 02:36 AM] Gateway#3763
+[dscrd-hush] <gilardh> @halo kitty rules Did you completely reload the Internet page? The whole program runs in the browser, it must be updated by reloading the page. Maybe that's why you still have rounding problems.
+
+
+[29-Oct-19 02:38 AM] Gateway#3763
+[dscrd-hush] <gilardh> It would be useful to add a visible version number on the application. This would help to know if this is the last version.
+
+
+[29-Oct-19 02:45 AM] Gateway#3763
+[dscrd-hush] <gilardh> I do not think there is any transaction problem (series of transactions from the same address.). I was also surprised by this method of transfer but you do not send the exact sum. It's like giving a bank note and giving you change.
+
+
+[29-Oct-19 02:47 AM] Gateway#3763
+[dscrd-hush] <gilardh> I'm going to look at the absurd fee problem in the code. Wait before doing new tests on this part.
+
+
+[29-Oct-19 02:48 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Well, now I've closed the wallet completely and opened again. Firstly, it shoewd me balance with 8 decimals. After another series of transactions I've got again 15 or 16 digits...
+https://cdn.discordapp.com/attachments/408420364956205058/638675595206721546/refresh.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638675595206721546/refresh.png
+https://media.discordapp.net/attachments/408420364956205058/638675595206721546/refresh.png
+
+
+[29-Oct-19 02:51 AM] Gateway#3763
+[dscrd-hush] <gilardh> Arff, I need to verify that the github account files are updated. A version number would be very useful. I will look at all this. Thanks for the reports.
+
+
+[29-Oct-19 09:26 AM] Chipmoon#7477
+WTS 1151 BTCH give me your offer
+
+
+[29-Oct-19 09:45 AM] Chipmoon#7477
+this is dukeleto side project, he is going to make it GREAT. for more info about BTCH ask him
+
+
+[29-Oct-19 04:12 PM] Gateway#3763
+[dscrd-hush] <gilardh> I can't reproduce the decimal problem on my dev computer and i don't see the problem after deploy on github... I added a version number and fixed the absurd fee problem.
+https://cdn.discordapp.com/attachments/408420364956205058/638877740354764810/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638877740354764810/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/638877740354764810/unknown.png
+
+
+[29-Oct-19 05:21 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> I can confirm absurd fees are gone. All kinds of fees are accepted, until they are smaller or equal as sending amount. Higher as sending amount are denied.
+https://cdn.discordapp.com/attachments/408420364956205058/638895335288078338/fees_fixed.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638895335288078338/fees_fixed.png
+https://media.discordapp.net/attachments/408420364956205058/638895335288078338/fees_fixed.png
+
+
+[29-Oct-19 05:29 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Decimal problem at ˝total confirmed˝ is likely gone. After numerous random and non-random transactions is balance still in 8-decimals range. However, on a very rare cases problem can be seen at ˝total unconfirmed˝. I assume it happens when trying to send from the  address A to address B at least 2 transactions within a few seconds (before the first transaction is ˝confirmed˝). It at least happen when sending different amounts and different tax fees. We are speaking about very rare cases. When transactions are confirmed, is ˝total confirmed˝ in 8 decimals.
+
+
+[29-Oct-19 05:33 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/638898207946178561/unconfirmed123.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638898207946178561/unconfirmed123.png
+https://media.discordapp.net/attachments/408420364956205058/638898207946178561/unconfirmed123.png
+
+
+[29-Oct-19 05:34 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> 
+https://cdn.discordapp.com/attachments/408420364956205058/638898548112490497/unconfirmed456.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/638898548112490497/unconfirmed456.png
+https://media.discordapp.net/attachments/408420364956205058/638898548112490497/unconfirmed456.png
+
+
+[29-Oct-19 05:35 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> I doubt users will spot that effect...
+
+
+[31-Oct-19 12:28 AM] Gateway#3763
+[dscrd-hush] <AkiraX> where can we trade btch now?
+
+
+[31-Oct-19 12:55 AM] Gateway#3763
+[dscrd-hush] <Crypto99> I think nowhere atm
+
+
+[01-Nov-19 02:35 PM] Gateway#3763
+[dscrd-hush] <gilardh> @halo kitty rules Tests realized with a passphrase and a private key. But I don't have a 'wallet.dat' file to test. Can someone test with this option?
+
+
+[01-Nov-19 02:35 PM] Gateway#3763
+[dscrd-hush] <gilardh> I will open an issue on github for Decimal problem saw briefly at all unconfirmed to not forget it.
+
+
+[01-Nov-19 02:36 PM] Gateway#3763
+[dscrd-hush] <gilardh> All the work done on the BTCH webwallet will be useful for the next version of the HUSH webwallet.
+
+
+[01-Nov-19 08:41 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> If someone can point me to the file, I might take a look. If anyone else needs a testing amount of BTCH, just post your address here or DM me.
+
+
+[02-Nov-19 06:53 PM] Gateway#3763
+[dscrd-hush] <AkiraX> ive tested it and send all my btch to new address
+
+
+[02-Nov-19 06:53 PM] Gateway#3763
+[dscrd-hush] <AkiraX> working
+
+
+[02-Nov-19 10:45 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @AkiraX Isn't that risky? Wallet hasn't been finished yet. Right now I would think twice before sending all coins to UNFINISHED WEB wallet.
+
+
+[02-Nov-19 10:57 PM] Gateway#3763
+[dscrd-hush] <AkiraX> the address is from atomicdex key
+
+
+[02-Nov-19 10:57 PM] Gateway#3763
+[dscrd-hush] <AkiraX> not one from the webwallet
+
+
+[02-Nov-19 11:18 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> ??? But you've been using web wallet? Have you tested it in some other occasion?
+
+
+[03-Nov-19 11:30 AM] Gateway#3763
+[dscrd-hush] <AkiraX> I sent a few funds
+
+
+[03-Nov-19 11:30 AM] Gateway#3763
+[dscrd-hush] <AkiraX> That's about it
+
+
+[03-Nov-19 11:30 AM] Gateway#3763
+[dscrd-hush] <AkiraX> Don't use web wallets much
+
+
+[03-Nov-19 11:32 AM] Gateway#3763
+[dscrd-hush] <halo kitty rules> OK, a brief test. I get it.
+
+
+[03-Nov-19 11:54 AM] Gateway#3763
+[dscrd-hush] <gilardh> @AkiraX So it works well on your side as well. Good news.
+
+
+[03-Nov-19 11:54 AM] Gateway#3763
+[dscrd-hush] <gilardh> For me this version can be officially announced. What do you think ? @dukeleto
+
+
+[03-Nov-19 11:55 AM] Gateway#3763
+[dscrd-hush] <gilardh> There remains a small display correction to be made on the amounts UNCONFIRMED.
+I am now working on the graphical interface (CSS) that I would like to make a little more enjoyable to use and easier to customize.
+
+
+[03-Nov-19 12:01 PM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh i trust your judgement, this is your codebase
+
+
+[03-Nov-19 12:11 PM] Gateway#3763
+[dscrd-hush] <gilardh> @halo kitty rules Sorry but i don't understand what you say here :
+https://cdn.discordapp.com/attachments/408420364956205058/640644126190207006/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/408420364956205058/640644126190207006/unknown.png
+https://media.discordapp.net/attachments/408420364956205058/640644126190207006/unknown.png
+
+
+[03-Nov-19 12:14 PM] Gateway#3763
+[dscrd-hush] <gilardh> Would you like a button to empty an address to send an another address by deducting the fee?
+Example you have 20 BTCH on A to send to B.
+You clicked on a button that sent 19.9999 to B and set 0.0001 fee automatically?
+
+
+[03-Nov-19 12:18 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> But I basically don't know anything about programming. If it can be done easilly, I can give you 500 BTCH for that shortcut. But it is not a must-have, it is more like a premium 😄 .
+
+
+[03-Nov-19 12:19 PM] Gateway#3763
+[dscrd-hush] <gilardh> Sorry, I still do not understand. 😟
+
+
+[03-Nov-19 12:20 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Yes you do, what you wrote above is what I mean. but I am just not good at expresion in english 😄 .
+
+
+[03-Nov-19 12:23 PM] Gateway#3763
+[dscrd-hush] <gilardh> I don't speak English very well either. It's not my native language. So I understood correctly. I would look at that yes.
+
+
+[03-Nov-19 12:24 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> As said previously, if it can be done briefly, I can give you 500 BTCH. If not, leave it as it is.
+
+
+[03-Nov-19 12:25 PM] Gateway#3763
+[dscrd-hush] <Crypto99> I speak bad French
+
+
+[07-Nov-19 01:27 PM] Gateway#3763
+[dscrd-hush] <gilardh> @Berg @dukeleto I send a PR for update BTCH website. This version contains also a link for the new BTCH webwallet : https://github.com/bitcoinhush/bitcoinhush.github.io/pull/14
+
+{Embed}
+https://github.com/bitcoinhush/bitcoinhush.github.io/pull/14
+Update and add link for BTCH webwallet by gilardh · Pull Request ...
+Delete BartedDEX
+Update Reddit link
+Update bitcointalk link
+Update Discord link
+Add link to BTCH web wallet
+Update Wallet section
+Add Web Wallet in the roadmap
+Correction of roadma graphics
+https://images-ext-2.discordapp.net/external/7nATe7K-lOBPphbldNIFiQWPsp5f--wALc1ciftAt3Q/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/35062192
+
+
+[07-Nov-19 06:35 PM] Gateway#3763
+[dscrd-hush] <dukeleto> @gilardh merged!!!
+
+
+[07-Nov-19 06:35 PM] Gateway#3763
+[dscrd-hush] <dukeleto> !tip @gilardh 25 hush
+
+
+[07-Nov-19 06:36 PM] Gateway#3763
+[dscrd-hush] <tip.cc> :HUSH: @dukeleto sent @gilardh **25.00 HUSH** (≈ $2.37).
+
+
+[08-Nov-19 12:14 PM] Gateway#3763
+[dscrd-hush] <Berg> Awesome 🙂
+
+
+[08-Nov-19 12:15 PM] Gateway#3763
+[dscrd-hush] <Berg> https://bitcoinhush.github.io/mybtchwallet/
+
+
+[08-Nov-19 05:05 PM] Gateway#3763
+[dscrd-hush] <AkiraX> anyway prospect of tipbot for  btch?
+
+
+[09-Nov-19 04:32 PM] Gateway#3763
+[dscrd-hush] <Berg> It costs money to implement it, once the coin is a true living thing I don't see why we wouldn't explore the possibility
+
+
+[01-Jan-20 02:27 PM] c2k#4915
+is BTCH traded anywhere? i thought it would be on Altsbit with all the other Komodo ecosystem coins but i dont see it there
+
+
+[01-Jan-20 02:40 PM] Gateway#3763
+[dscrd-hush] <heguli97> BTCH was listed on coinexchange.io when it was open. I don't think it's on any active exchanges currently unfortunately. Regarding Altsbit, when Hush was listed there, formerly known as digitalprice, they asked money to do simple wallet updates to keep the coin online(should be free since that's the way they generate money with transactions/trades) and just the way they handled things generally with Hush made it so that we have no interest to get BTCH or HUSH on altsbit/digitalprice currently.
+
+
+[01-Jan-20 02:52 PM] c2k#4915
+ok ty
+
+
+[01-Jan-20 03:01 PM] Gateway#3763
+[dscrd-hush] <Privatoshi> @HUSH Bridge-Bot Are you trying to sell?
+
+
+[14-Jan-20 01:53 AM] barv#0867
+If you have $BTCH and you send it to your #coincollect $KMD address, it will show up in your mobile wallet. Pass the word.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/459247435093639168/666580700668887050/image0.png
+
+
+[01-Feb-20 12:03 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Anything going on with btch?
+
+
+[01-Feb-20 01:39 PM] Gateway#3763
+[dscrd-hush] <gilardh> Not to my knowledge.
+
+
+[04-Feb-20 12:26 PM] Gateway#3763
+[dscrd-hush] <pal> where can I get some BTCH OTC?
+
+
+[07-Feb-20 09:40 AM] dan.#2473
+i got some id part with
+
+
+[07-Feb-20 09:40 AM] dan.#2473
+I believe I have 700 or so
+
+
+[08-Feb-20 02:50 PM] Gateway#3763
+[dscrd-hush] <dukeleto> @pal how much BTCH at what rate for what coin?
+
+
+[23-Feb-20 04:54 PM] Gateway#3763
+[dscrd-hush] <AkiraX> @pal same question
+
+
+[28-Feb-20 12:23 PM] Gateway#3763
+[dscrd-hush] <Dochteur> @HUSH Bridge-Bot Is this SilentDragonLite wallet? Id also like to ask, if BTCH is planned to be introduced to lets say AtomixDex, as Id gladly put some BTC into it, if I manage to trade in some profit. (If I restrain from putting it whole to HUSH :-D)
+
+
+[28-Feb-20 08:57 PM] halo kitty rules#2280
+@barv  ⬆️   I think he would like to ask you.
+
+
+[29-Feb-20 01:25 AM] Gateway#3763
+[dscrd-hush] <Dochteur> @HUSH Bridge-Bot Sorry, I was referring to the previous post with the screen of a mobile wallet and information about BTCH and possibility to send it to coincollect KMD address, but I dont know how to quote whole posts in discord yet. 😄
+
+
+[04-Mar-20 08:42 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> 480 BTCH for sale/for trade
+
+
+[09-Mar-20 05:39 PM] Gateway#3763
+[dscrd-hush] <AkiraX> 1 hush for 480 btch
+
+
+[11-Mar-20 08:45 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX 
+1 hush for 480 btch
+
+
+[11-Mar-20 08:46 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> So you'll accept 1 Hush, and give me 480 BTCH?
+
+
+[11-Mar-20 09:07 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Other way around.
+
+
+[11-Mar-20 09:07 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Looks like we have a marker for btch
+
+
+[11-Mar-20 09:45 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX
+Where?
+
+
+[11-Mar-20 10:17 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Right herr
+
+
+[11-Mar-20 10:33 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> 1 Hush for 480 BTCH, lol
+ @AkiraX
+
+
+[12-Mar-20 11:39 AM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX 🖕🖕
+
+
+[14-Mar-20 06:33 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX ☝️☝️
+
+
+[14-Mar-20 07:25 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Hi
+
+
+[15-Mar-20 03:41 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX Hi
+
+
+[15-Mar-20 03:42 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> You buy BTCH or
+You sell BTCH?
+
+
+[15-Mar-20 03:42 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> One simple answer Shakira
+
+
+[15-Mar-20 04:01 PM] Gateway#3763
+[dscrd-hush] <ph03nix> https://tenor.com/view/how-bout-both-both-is-good-iwant-both-gif-12224132
+
+{Embed}
+https://tenor.com/view/how-bout-both-both-is-good-iwant-both-gif-12224132
+https://images-ext-1.discordapp.net/external/Uc5EePZ4LcT8meAhikHnIbsMbxfiHXlzwkjAzk-AyrA/https/media.tenor.co/images/73cf763be9302ce32680ff30892d5658/tenor.png
+
+
+[15-Mar-20 04:21 PM] Gateway#3763
+[dscrd-hush] <penguin> drghdrthsdhze4bz
+
+
+[15-Mar-20 04:30 PM] Gateway#3763
+[dscrd-hush] <AkiraX> I'm buying btch
+
+
+[15-Mar-20 06:07 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX
+For how much?
+
+
+[15-Mar-20 07:18 PM] Gateway#3763
+[dscrd-hush] <AkiraX> 1 hush.  I want 480
+
+
+[15-Mar-20 07:26 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX 
+U can go to hell, Shakira
+
+
+[15-Mar-20 07:27 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> I'll give you 10 HUSH for 5000 BTCH
+
+
+[15-Mar-20 08:33 PM] Gateway#3763
+[dscrd-hush] <AkiraX> I'll do the same for you
+
+
+[16-Mar-20 06:25 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX Social problems?
+
+
+[16-Mar-20 06:51 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Yep
+
+
+[17-Mar-20 10:09 AM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX take ur medicine
+
+
+[20-Mar-20 07:47 AM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX 125 HUSH FOR 480 BTCH
+
+
+[20-Mar-20 09:00 AM] Gateway#3763
+[dscrd-hush] <AkiraX> I don't have that many
+
+
+[20-Mar-20 09:04 AM] Gateway#3763
+[dscrd-hush] <AkiraX> !bal
+
+
+[20-Mar-20 09:05 AM] Gateway#3763
+[dscrd-hush] <AkiraX> 43.04 hush for 4304 btch?
+
+
+[20-Mar-20 11:35 AM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX 43.04 Hush for 240 BTCH
+
+
+[20-Mar-20 11:49 AM] Gateway#3763
+[dscrd-hush] <AkiraX> No deal.  Sorry
+
+
+[20-Mar-20 11:53 AM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @AkiraX AkiraX
+
+
+[20-Mar-20 11:53 AM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> 320 btch
+
+
+[20-Mar-20 12:35 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @PassiveBoy88 You're selling 480 BTCH, right? I can offer you 70 HUSH...
+
+
+[20-Mar-20 12:36 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @halo kitty rules 499 BTCH, throw me 75 😀
+
+
+[20-Mar-20 12:36 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> Oh, you've got more than 480? How much would you like to sell?
+
+
+[20-Mar-20 12:41 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @PassiveBoy88 Is 499 BTCH all you have or would you like to sell more?
+
+
+[20-Mar-20 12:46 PM] Gateway#3763
+[dscrd-hush] <PassiveBoy88> @halo kitty rules DM
+
+
+[20-Mar-20 11:58 PM] halo kitty rules#2280
+@Chipmoon @c2k @dan. You've all been trying to sell BTCH in the past. I am buying, but must say right away the price is being set very low ⬆️ . If you are interested, DM me and we might figure something out. For me the easiest way to pay you out would be HUSH tipbot...
+
+
+[21-Mar-20 12:38 AM] Chipmoon#7477
+can you pay in kmd? @halo kitty rules
+
+
+[21-Mar-20 03:13 AM] halo kitty rules#2280
+... deal made...
+
+
+[21-Mar-20 02:04 PM] Gateway#3763
+[dscrd-hush] <AkiraX> Nice
+
+
+[27-Mar-20 12:19 AM] Gateway#3763
+[dscrd-hush] <Cov-19_is_from_China> Don't sell to  @AkiraX
+
+
+[27-Mar-20 01:46 AM] Gateway#3763
+[dscrd-hush] <AkiraX> Lol
+
+
+[03-Apr-20 04:46 AM] Gateway#3763
+[dscrd-hush] <Acura> Anybody interested to buy btch ?
+
+
+[03-Apr-20 07:48 AM] Gateway#3763
+[dscrd-hush] <RunningMantheCoin> No chance
+
+
+[04-Apr-20 05:45 AM] Gateway#3763
+[dscrd-hush] <CryptoJesus> How can i view my btch after the walllet breach
+
+
+[04-Apr-20 01:28 PM] Gateway#3763
+[dscrd-hush] <gilardh> I think with the webwallet here : https://bitcoinhush.github.io/mybtchwallet/ @CryptoJesus
+
+
+[13-Apr-20 08:26 AM] Gateway#3763
+[dscrd-hush] <Berg> CoinCollect also supports BTCH 🙂
+
+
+[13-Apr-20 10:51 AM] Gateway#3763
+[dscrd-hush] <CryptoJesus> I think my coins got stolen because they appear to have moved from my wallet and i never touched them
+
+
+[13-Apr-20 11:45 AM] Gateway#3763
+[dscrd-hush] <Berg> On Agama?
+
+
+[13-Apr-20 11:45 AM] Gateway#3763
+[dscrd-hush] <Berg> I'm not sure if any BTCH was reported stolen, I would check your address on an explorer
+
+
+[13-Apr-20 12:49 PM] Gateway#3763
+[dscrd-hush] <CryptoJesus> I checked the address the coins moved. I either did something and forgot about it or they got stolen.
+
+
+[13-Apr-20 12:49 PM] Gateway#3763
+[dscrd-hush] <CryptoJesus> Yes agama
+
+
+[13-Apr-20 12:52 PM] Gateway#3763
+[dscrd-hush] <Berg> They could've been swept by the Komodo/Agama team as well
+
+
+[13-Apr-20 01:01 PM] Gateway#3763
+[dscrd-hush] <CryptoJesus> What do you mean? @Berg
+
+
+[13-Apr-20 01:05 PM] Gateway#3763
+[dscrd-hush] <Berg> They swept some addresses coins into Komodo held wallets for safe keeping, then there was a claim process... Not sure if BTCH was one of them or not
+
+
+[28-Apr-20 09:00 AM] Gateway#3763
+[dscrd-hush] <Cryptographic> is BTCH something that is going to be further developed?
+
+
+[01-May-20 07:44 PM] Gateway#3763
+[dscrd-hush] <Berg> There were future plans, but there isn't a dedicated BTCH team. The coin was planned to be repurposed, but hasn't yet come to fruition.
+
+
+[26-May-20 02:07 PM] Gateway#3763
+[dscrd-hush] <Dochteur> Id like to ask about going full ztoz - I have some BTCH in the same address I now hold Hush, once I transfer all my balances to z-addresses, am I right to assume, Id still be able to access BTCH in this R-address, if I have its WIF?
+
+
+[26-May-20 02:20 PM] Gateway#3763
+[dscrd-hush] <halo kitty rules> @Dochteur Yes, BTCH will stay on R-addr and you'll have an access with your WIF
+
+
+[14-Jun-20 08:28 PM] AkiraX#8269
+Still looking forwards to btch
+
+
+[02-Nov-20 12:41 AM] Acura#2748
+WTS BTCH
+
+
+[02-Nov-20 01:52 AM] cipi#4502
+have you tried AtomicDEX? 0.3.0 Desktop has it listed.
+
+
+[02-Nov-20 08:17 AM] Acura#2748
+yes
+
+
+[20-Dec-20 02:27 PM] Elmis#0347
+cant find BTCH listed on verus wallet
+
+
+[21-Dec-20 01:36 AM] Acura#2748
+You can Find BTCH on AtomicDex Wallet
+
+
+[23-Dec-20 01:57 PM] Elmis#0347
+When the Agama wallet was hacked, I received my btch in verus/agama wallet, but if it has now slipped away, how can I get my btch back again?
+
+
+[23-Dec-20 08:57 PM] gcharang#6833
+use https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.3.1-beta
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.3.1-beta
+Release AtomicDEX Desktop v0.3.1 beta · KomodoPlatform/atomicDEX-De...
+Features:
+
+Switched to new reworked core (mm2.1 in 7777 netid)
+QRC20 support (txs/swaps/custom tokens adding)
+Light theme
+Added refreshed faucet
+Added tQTUM, QCash
+Renamed XZC to FIRO (rebrand)
+
+En...
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+
+[14-Mar-21 12:01 PM] pRCy#1077
+is this project dead now
+
+
+[12-Apr-21 06:49 PM] Komodefi#5638
+BTCH is no longer maintained by the ecosystem and is kind of an orphaned coin. You can  get the wif/privkey for the address containing your coins and transfer them out if that is something you need to do.
+
+
+==============================================================
+Exported 903 message(s)
+==============================================================

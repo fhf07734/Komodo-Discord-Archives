@@ -1,0 +1,2038 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / community-structure-discussion
+==============================================================
+
+[23-Sep-20 09:37 AM] sakata#4279
+-
+**The Proposal**
+```ml
+This discussion taking place will be focusing on creating a better structure within our community. We will be looking at the kind of 'roles' that we can introduce into this community, as well as themes and conventions that could be used to create titles for these roles. Ultimately, the roles would be positions that offer individuals to have their voice heard and to push the organisation of the community to achieve greater goals.that can create opportunities for extra responsibilities, participation, and a functioning community of action.
+
+Content (naming conventions, themes) is required to be community-sourced as it will bear their name. This will benefit us, we will feel a deeper connection to the community; 'homely'. For this, I am also looking for your thoughts and what you can share, Survey 2 will be accustomed to this and will be shared after this discussion upon the community structure (Survey 1) becomes 'exhausted'.
+```
+**What I'd like you to do**
+```diff
++ Fill out this survey sometime during our discussion sprint over the next (X) days.
++ Bring ideas for 'naming' conventions for categories, channels, roles, and events that we all participate in as a community.
++ Join in the discussion with others and see what kinds of different themes we can come up with for the Komodo Community as a whole.
+```
+***With all of this in mind, let the discussion commence!***
+Survey 1: <https://komodograndscheme.paperform.co/>
+
+
+[23-Sep-20 10:35 AM] Churro#4832
+Let's get this party started 💯 😆 🔥 🔥
+
+{Reactions}
+🔥 (6) 🚀 (6) 
+
+[24-Sep-20 08:53 AM] Audo#5667
+@everyone another community discussion! This an important one 📯
+
+{Reactions}
+🐚 (5) KMD (7) 💯 (6) 👍 
+
+[24-Sep-20 08:55 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755099208637349998/758718185745940500/CommunityFunnel.png
+
+
+[24-Sep-20 09:00 AM] sakata#4279
+@here To kick things off, I think it would be a good idea to actually think about the possibility of a structure itself. I wonder if it is possible, and lucrative, to introduce a hierarchy into such a matured community as in Komodo’s - could there be something that can let us better ‘sync’ together? I'll leave this thought around for a while. Give the survey ago, sit around & lets have a chat!
+
+{Reactions}
+👍🏿 (3) 
+
+[24-Sep-20 11:28 AM] sakata#4279
+Need some influence? Check out this presentation we've used as a canvas for ideas!
+-> https://docs.google.com/presentation/d/1q-oN03xoZemQqHyXbpUxt5YbSaIP9wnBG3i26HmuU_8/edit?usp=sharing
+
+{Embed}
+https://docs.google.com/presentation/d/1q-oN03xoZemQqHyXbpUxt5YbSaIP9wnBG3i26HmuU_8/edit?usp=sharing
+KMD Community
+Community Structuring “Komodo isn’t just code; it’s a home - a place to belong” An outline for a potential hierarchy & structure for a community within Komodo
+https://images-ext-2.discordapp.net/external/ValxgPeEM07vQKRVRhM3vtQH6FOGO_j1G39xb3c2ZhE/https/lh5.googleusercontent.com/fUkks6ETk5OJVbiVflmPcMa4G27Bsa1wjFTqdOVBOM1mmgE8J9Qz19-irID389_QV2jjfyqJxw%3Dw1200-h630-p
+
+
+[25-Sep-20 01:44 AM] Audo#5667
+> This discussion taking place will be focusing on creating a better structure within our community.
+
+I want to expand on this a bit by explaining what our current structure looks like.
+
+-> member (level 1)
+-> community contributor (level 2)
+
+How does one become a community contributor? There are no instructions, information, or pathway to get involved.
+Who decides if someone becomes a community contributor? Me (pretty much)
+
+I want to remove myself from this role as I see I am a bottleneck. We need a structure where the community can self-organize itself. We are here to support that.
+
+The internal community doesn't have to be large. It can be a small group of people who want to contribute, get organized, and start community initiatives. 
+
+@here Anyone interested should join this discussion and sign-up to become a contributor. Here's your chance to be a **founding member** of our new community structure.
+
+{Reactions}
+👆🏻 (3) KMD (4) 🦸‍♂️ 🙌 
+
+[25-Sep-20 04:06 AM] passcombo.com 🏴☠🍋#0622
+if yo uwant sth to self organize you need to have incentive; if suc halready exist then there is no need for discussion - it will self organize
+
+
+[25-Sep-20 04:06 AM] passcombo.com 🏴☠🍋#0622
+if there is not - then you need to build it
+
+
+[25-Sep-20 04:07 AM] passcombo.com 🏴☠🍋#0622
+when you clearly have it then you may discuss how to build rules and structures, not before
+
+
+[25-Sep-20 04:08 AM] passcombo.com 🏴☠🍋#0622
+its not so easy - some people that are neede may have 0 incentive, others may have it; need to define groups, estimate if they have it an how to raise it if such group of people brings value
+
+
+[25-Sep-20 05:35 AM] ohweoh#0581
+Yes and no. Some incentive might be the fact that we can finally push the project to do the things we want it to do. Depends on the params that @Audo and Komodo allow.
+
+{Reactions}
+💯 (2) 
+
+[25-Sep-20 07:54 AM] Mylo#8306
+depends what type of community is the goal.  i think on page 4 of that prezo, "communitiy of traders"  & "community of devs" etc.
+
+atomic dex is v.cool.  but traders as a community, i don't think is a good target from experience of what traders are like.   community of swappers, sure.  but what do the swappers swap?
+
+community of devs, devs are a hard community to sell to.
+
+
+[25-Sep-20 08:09 AM] sakata#4279
+Hey @Mylo thank you for your input! :)
+
+So one thing to clarify with that is those topics serve merely as a theme. So this wouldn't be a separate community as such, but a subunit.
+
+We aren't planning on 'segregating' but are trying to introduce some form of grouping.
+
+In regard to the themes, these will be used as some form of common-ground between each subunit/group of our community.
+
+Higher ranks & roles within the 'trading' subunit will bare titles relating to topics within finance.
+
+The same goes for personal descriptors, accolades & potential terminology. Someone with serious traits might be tagged as a "Soros" - and the polar being tagged as a "printer".
+
+
+[25-Sep-20 08:10 AM] Mylo#8306
+noted.
+
+
+[25-Sep-20 08:10 AM] Mylo#8306
+good doc.
+
+{Reactions}
+👌 
+
+[25-Sep-20 08:11 AM] sakata#4279
+A good analogy is in the Harry Potter films, where Harry first arrives at Hogwarts he has a hat placed on his head which dictates what *group* he belongs at *Hogwarts* (don't quote me on the film as I'm really a fan)
+
+
+[25-Sep-20 08:11 AM] Mylo#8306
+yeah not a movie go-er myself 😄
+
+
+[25-Sep-20 08:12 AM] Mylo#8306
+beverley hills cop, you might get a conversation out of me
+
+
+[25-Sep-20 08:13 AM] Mylo#8306
+https://giphy.com/gifs/factum-NsEHi1o725u4j6S8kK
+
+{Embed}
+Factum
+https://giphy.com/gifs/factum-NsEHi1o725u4j6S8kK
+https://images-ext-1.discordapp.net/external/4KkgAQh5z_pwcvIGEfvOaFqsoUeJGI0PL9EZY_FNvLo/%3Fcid%3D73b8f7b1eb33e37d3010bbe75a6069d4e88f1eabf53d728d%26rid%3Dgiphy_s.gif/https/media3.giphy.com/media/NsEHi1o725u4j6S8kK/giphy_s.gif
+
+{Reactions}
+😄 (5) 
+
+[25-Sep-20 08:14 AM] sakata#4279
+On that point, we could have a film-based theme for a subunit. One could take the descriptor *Eddie* or *Dicaprio*, as well as *Scorsese* or *Tarantino*.
+
+**The community's voice must be heard!**
+
+
+[25-Sep-20 08:38 AM] sakata#4279
+So, @Mylo would you be for or against the idea of creating subunits *based upon a theme*?
+
+One idea is to introduce a "House" system as a naming/representation of a subunit (this is shown on slide 5). Some suggest its nice as it abstracts away any real characterisation and provides a single theme across all 'Houses' (environment is a good example). The different themes could then be introduced to each house, or across the community as a whole.
+
+I can agree that a single community incorporating a "traders" theme could be detrimental.
+
+
+[25-Sep-20 08:49 AM] Mylo#8306
+neither.  abstain.
+whatever structure is used, is moot if the kmd team is  passively supporting imo.  whatever the community goal is has to come from kmd team, and it needs to be championed by the team in unity.
+
+if it's this swapping competition mentioned in another channel, then what is the goal?  100k swaps in a week?  1,000,000 swaps in 10 weeks?  Then that needs to be championed by the team so the community can achieve the goal, to help the marketing team put out +ve experiences from atomic swaps.
+
+If that is the goal, then work out the structure.  but i would work on the structure in incremental steps.  there are 100 ppl here.  with a competition, maybe that number boosts to 3000.  and 50% will not come back after the first competition.  say 1x 100k swaps in a week, once per month.
+
+for 100 regulars, 3k tourists, and then 1000 loitering ppl.  with a monthly comp, see how it goes.
+
+as for community structure, i still  abstain 😄
+
+
+[25-Sep-20 09:04 AM] sakata#4279
+@Mylo thank you once again 😄 
+
+From this I am deriving that it could be a bad idea to implement some form of subunits/grouping, so you are against any form of structure or *hierarchy*? If this is the case, how would you feel about titles/roles, accolades & personal descriptors? 
+
+Hope I'm on the right track!
+
+
+[25-Sep-20 10:20 AM] Jcharming#2693
+I think it would be interesting to see different houses with channel structures beneath them.  
+So like a 'developer' set of channels 
+'commnuity'
+'enterprise/business/enterpeneur'
+
+The last one being for those that have ideas about projects they'd like to start
+
+{Reactions}
+🤔 
+
+[25-Sep-20 11:39 AM] sakata#4279
+@Jcharming Thank you!
+
+People having their own space is definitely something we need more of. What would you adjust with the current 'developer lounge'?
+
+
+[25-Sep-20 12:12 PM] Jcharming#2693
+I'm not entirely sure, off the cuff though I'd probably have them oragnized by language they are working in, or project style they are developing (modules, games, dex, proof of concept) and have a bounty board attached to them so junior devs can come in find projects they want to support and maybe get bounties on.  Or those that are just surfing them can look at projects based on languages they can already code in, or areas of interest like proof of concept or atomic swaps.
+
+{Reactions}
+🔥 
+
+[26-Sep-20 02:16 AM] Mylo#8306
+By project they are working on (experience & expertise), or ideas ppl belong to for open source community implementation (eg forum post with 20 comments, these ppl are making conversation), or by amount of sentiment ppl bring to discord with emoji reactions.
+
+These can be represented by badges, and are easy to recognise.
+
+
+[26-Sep-20 04:18 AM] sakata#4279
+@Jcharming Those are some strong ideas. Do you think that accolades, or special titles, would benefit those who have claimed or contributed the bounties? 
+
+Maybe we could have a bounty board added to one of the Komodo sites online.
+
+
+[26-Sep-20 04:20 AM] sakata#4279
+> By project they are working on (experience & expertise), or ideas ppl belong to for open source community implementation (eg forum post with 20 comments, these ppl are making conversation), or by amount of sentiment ppl bring to discord with emoji reactions.
+> 
+> These can be represented by badges, and are easy to recognise.
+@Mylo Precisely. How do you think we could implement some form of a system for the badges?
+
+Would a discord bot cut it, or by using tags/roles within discord? I feel like using the discord role system could create a messy layout, and that a discord bot would only show what people have earned when called upon.
+
+
+[26-Sep-20 06:45 AM] Mylo#8306
+add a discord role for those that want to be part of this system. e.g. "Komodo Community".  Easily recognizable.
+
+a bot, can then manage the titles & all other stuff you want.
+
+the bot can report dailly to a community ANN channel or something, with the activity of that day/week/etc.  e.g.  @user#1234 earned "badge1"
+
+
+[26-Sep-20 06:47 AM] Mylo#8306
+anyone that wants to find out who community content creators are can ping the bot !communitycontent, and the bot can respond to this query in dm, the ppl with this badge.
+
+
+[26-Sep-20 06:47 AM] Mylo#8306
+export a report for the monthly newsletter.
+
+
+[26-Sep-20 06:47 AM] Mylo#8306
+big project, keeping tabs of forum posts too etc.
+
+{Reactions}
+👍🏿 (2) 
+
+[26-Sep-20 07:45 AM] sakata#4279
+@Mylo This is brilliant, I can already imagine other metrics that we can use to levitate this idea. Your insight is appreciated  😄
+
+{Reactions}
+👌 
+
+[26-Sep-20 08:39 AM] Mylo#8306
+good luck 😄
+
+{Reactions}
+👍 
+
+[27-Sep-20 03:28 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Definitely need a badge for those that daily complain. Maybe call it the morale destroyer badge. And or a backseat driver badge. If any of these folks talked to their significant others like this, they'd be tossed out on their ass, but somehow it is acceptable to daily come to discord and use this community like a punching bag.
+
+{Reactions}
+🤣 (7) 💯 (2) 
+
+[27-Sep-20 08:18 AM] Speaky121#7940
+!arrrtip faucet
+
+
+[27-Sep-20 08:18 AM] ARRR TipBot#1743
+
+{Embed}
+TipBot
+:droplet: @Speaky121, you have been tipped **0.00420738 ARRR** from the faucet.
+
+
+[27-Sep-20 11:07 AM] phm87#7395
+!arrrtip faucet
+
+
+[27-Sep-20 11:07 AM] ARRR TipBot#1743
+
+{Embed}
+TipBot
+:droplet: @phm87, you have been tipped **0.00300955 ARRR** from the faucet.
+
+
+[28-Sep-20 01:38 AM] Artist#0765
+Nice one @Mylo
+
+
+[28-Sep-20 01:38 AM] Artist#0765
+Maybe a newpaper themed site for visitors important news not only about kmd but everything in crypo world
+
+
+[28-Sep-20 01:39 AM] Artist#0765
+Maybe that will attract people towards the portal or groups etc
+
+
+[28-Sep-20 01:39 AM] Artist#0765
+A good domain authority for quick seo and expanded outreach
+
+
+[28-Sep-20 03:22 AM] Audo#5667
+Getting an understanding about the underlying structure will help us to think of the other topics.
+
+Background info: during the internship program we brainstormed a solution where we use a bot to structure our discord channels. It would work just like the language channels work at the moment.
+
+-> newcomers see only few relevant channels
+-> they can join new channels (in groups) based on their interest
+
+With that in mind I would recommend we go with two level or three level structure. The key question(s) are how someone joins the next level. Overall, it would look something like this:
+
+
+[28-Sep-20 03:22 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755099208637349998/760083927519592499/Community_Structure_Two_Levels.png
+
+
+[28-Sep-20 03:22 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755099208637349998/760083942791053322/Community_Structure_Three_Levels.png
+
+
+[28-Sep-20 03:26 AM] Audo#5667
+At the moment I am leading towards the three level approach. Basically we would create a gated community.
+
+I would work just like a gated/wallet neighborhood: https://en.wikipedia.org/wiki/Gated_community
+
+Anyone can join, but they have to apply. If the resident causes trouble and doesn't respect the values of the gated community they will be kicked out. Outsiders can't see what's going on in the gated community, there's more privacy and security.
+
+To manage this gated community we setup a team of community elders – who have to 
+ a) enjoy the trust and respoect of the "residents"
+ b) maintain active status within our community
+ c) accept the responsibilities that come with the position
+
+{Embed}
+https://en.wikipedia.org/wiki/Gated_community
+Gated community
+In its modern form, a gated community (or walled community) is a form of residential community or housing estate containing strictly controlled entrances for pedestrians, bicycles, and automobiles, and often characterized by a closed perimeter of walls and fences. Similar wall...
+https://images-ext-2.discordapp.net/external/ZAujJ4W7eZBEAVMFX0MblQO5H1klAzBx2LH3kAZF8to/https/upload.wikimedia.org/wikipedia/commons/a/a0/Paradisevillagegatedcommunity.jpg
+
+
+[28-Sep-20 04:00 AM] hastrup#8742
+@Audo I like the 3 level approach
+
+{Reactions}
+👌 (2) 
+
+[28-Sep-20 04:35 AM] Crabby Paddy#6239
+Depends how much you are planning to "gatekeep" the community
+
+
+[28-Sep-20 04:36 AM] Crabby Paddy#6239
+Will newcomers see dev-oracles dev-marketmaker etc? will they see cc-channels?
+
+
+[28-Sep-20 04:36 AM] Crabby Paddy#6239
+Or are they limited to general and trading only?
+
+
+[28-Sep-20 04:36 AM] Crabby Paddy#6239
+If limited, it may stop a lot of newcomers fully exploring what komodo has to offer
+
+
+[28-Sep-20 04:36 AM] Crabby Paddy#6239
+and also may be only let into channels where theres constant fud or arguments and not where it matters (tech and development)
+
+
+[28-Sep-20 04:38 AM] Crabby Paddy#6239
+I understand the reasoning behind it, but personally cant see too much of a benefit from not keeping the discord open. If anything, have most channels open, but on the welcome page they can select their own roles
+ie "Click Tick to view Development channels" "Click Tick to view CC channels" to reduce clutter slightly while still being accessible
+
+{Reactions}
+💯 (2) 
+
+[28-Sep-20 04:49 AM] Audo#5667
+👆 exactly, that's the current plan!
+
+
+[28-Sep-20 04:50 AM] Audo#5667
+_ _
+> Survey 1: https://komodograndscheme.paperform.co/
+
+Filled the survey @sakata !
+
+{Reactions}
+👍 
+
+[28-Sep-20 05:00 AM] Crabby Paddy#6239
+Maybe make use of tipbot for good discussions or questions / answer too and encourage more active community through that
+
+{Reactions}
+✅ (2) 
+
+[28-Sep-20 07:51 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Tipbot or NFT prizes
+
+{Reactions}
+☝️ 
+
+[28-Sep-20 09:49 AM] Jack.#4200
+Visual Hierarchy though you'd all like this
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755099208637349998/760181474804367390/visual-hierarchy-graphic-design-principles.jpg
+
+{Reactions}
+🐳 (3) 
+
+[28-Sep-20 09:55 AM] Jack.#4200
+https://www.youtube.com/watch?v=CxWBTQ68WP0
+
+{Embed}
+QuintaBemolle
+https://www.youtube.com/watch?v=CxWBTQ68WP0
+Dead Poet Society : Captain, oh my captain
+Download "Captain, My Captain" on iTunes: http://bit.ly/YTVXZJ
+
+In the day after the death of Robin Williams, two young italian Songwriters aged 18, Martina & Joshua, have written this sweet song dedicated to human figure and professional of RobinWilliams...the song is named "...
+https://images-ext-2.discordapp.net/external/3I4G4vEArCjM3I-0h85ZW1fsk5ymRkg-Xkr6UBd9Cd8/https/i.ytimg.com/vi/CxWBTQ68WP0/sddefault.jpg
+
+
+[28-Sep-20 10:30 AM] sakata#4279
+@Audo Thank you for the submission! I really like the approach in terms of gatekeeping, it makes me visualise the Komodo community as a private estate; everyone who is part of the community is of value and should be protected from intruders.
+
+I think that 3 levels of hierarchy for contribution and other factors seems like the way to go; 2 seems too little and 5 now seems too much.
+
+Moving on from that, what does @everyone think of community roles - specific responsibilities being handed out on a permanent, or fixed term basis?
+
+Has anyone got some ideas that we can introduce, some areas that could be in need for specific tasks? 🍿
+
+
+[28-Sep-20 10:47 AM] barv#0867
+Filled the survey too @sakata 👍
+
+{Reactions}
+👌 (2) 
+
+[28-Sep-20 10:50 AM] Churro#4832
+Will fill it out tonight
+
+
+[28-Sep-20 10:51 AM] Churro#4832
+👍
+
+
+[28-Sep-20 01:26 PM] sakata#4279
+Thank you guys 🔥
+
+
+[28-Sep-20 02:00 PM] crumb | $ARRR Financial Privacy#2550
+*Komodo community as a private estate*
+
+this sounds like a terrible idea. just the opposite of open and decentralized as true open source movement. why the urge to build the walls? trolls?
+
+there are always people who do nothing else, but complain. that is no reason to keep people out of the loop of what is going on in Komodo development.
+
+one of the reasons i joined Komodo community way back, when BTCD was still a thing, was open discussions and the development openly as everyone could see what was going on.
+
+seeing the magic of tech being developed is one strong point that Komodo has. i truly doubt that focusing on marketing fluff is going to work, when the target audience for Komod tech is (and probably for a long time will be) developers.
+
+ok, the DEX is an exception, but that is just a small albeit important part.
+
+
+[28-Sep-20 02:01 PM] crumb | $ARRR Financial Privacy#2550
+so please, please, pretty please
+let's keep Komodo community as open and gate free as possible!
+
+{Reactions}
+☝️ (7) 
+
+[28-Sep-20 02:09 PM] sakata#4279
+@crumb | $ARRR Financial Privacy It was a euphemism, and probably a bad one at that.
+
+I was expressing the value of Komodo's inner community and how it should be protected - or even better how it should be seen from the outside, a newcomer should feel a desire to contribute and cross the boundary into the inside 🙂
+
+
+[28-Sep-20 02:14 PM] Crabby Paddy#6239
+Roles, colours and tips 🙏
+
+{Reactions}
+🍉 
+
+[28-Sep-20 02:14 PM] Crabby Paddy#6239
+No private or gatekeeped communities, except maybe 1 or 2 at most
+
+
+[28-Sep-20 02:14 PM] Crabby Paddy#6239
+But majority remaining open on a optional basis I think is best
+
+
+[28-Sep-20 02:18 PM] sakata#4279
+If there is no incentive, no reason to take part in something bigger, then there is no reason to stop being a 'lurker' - forcing the community to have discussions that benefit everyone where people wish to sit on the sidelines instead of actively taking part.
+
+"Proof of stake is decentralized" yet there is still an inner ring of staking pools and delegators, the only difference within a community is the will of good nature and the care for their peers IMO
+
+
+[28-Sep-20 02:21 PM] sakata#4279
+> But majority remaining open on a optional basis I think is best
+@Crabby Paddy I believe @Audo isn't talking about creating a divide, but more directed at creating a reason for people to stay - while also giving the people who put in their time the acknowledgement that they deserve!
+
+
+[28-Sep-20 03:22 PM] grewalsatinder#9653
+I don't like 2 or 3 layer gate keeping community, as I quickly gone through it now, unless I missed something in my understanding. If channels are available like subscription to view update in that channels, it should be fine. If the channels are available only after some climbing to levels and only after that those channels are visible or invite only, I oppose this idea.
+So mostly I agree with @crumb | $ARRR Financial Privacy
+
+
+[28-Sep-20 03:24 PM] grewalsatinder#9653
+You never know when a newcomer joins who might be genius and needed to expose exactly what KMD does. When a great mind expose to great ideas it flourish. I see no reason keeping developers walled or guarded from all incoming users.
+
+{Reactions}
+👍 (3) 👆 (3) 
+
+[28-Sep-20 03:24 PM] grewalsatinder#9653
+That is the main thing that kept me in slack when I joined back in the days. Otherwise I wouldn't have exposed to great trader's and developers ideas and thought about putting my professional life to KMD.
+
+
+[28-Sep-20 03:25 PM] grewalsatinder#9653
+Please leave the channels open to all who joins.
+
+
+[28-Sep-20 03:25 PM] grewalsatinder#9653
+That's basically the ethos of open source software community.
+
+
+[28-Sep-20 03:27 PM] grewalsatinder#9653
+I would agree if there needs to be such gated community for KMD partner program, co I have seen such levels with other open source projects. But not required for the community members.
+
+
+[28-Sep-20 03:27 PM] grewalsatinder#9653
+Partners even pay to be part of the exclusive help and interaction with the core devs, as it directly impact their business.
+
+
+[28-Sep-20 03:28 PM] grewalsatinder#9653
+@Audo
+
+
+[28-Sep-20 06:43 PM] dude#6062
+I agree to what @grewalsatinder mentions above. 💯
+
+
+[28-Sep-20 07:23 PM] Mylo#8306
+there is already a lot of structure:
+
+1. kmd senior team
+2. kmd team
+3. community
+
+the active community is 30-100 people at the moment, 100+ if including ARRR, VRSC.
+
+what is the plan when there are 1000 temporary users during an atomic dex marketing campaign (e.g. stress test).  they are going to be tempory, and maybe at best 5% stay (additional 50 ppl to community)
+
+too much over thinking.
+tip bot NFT is a good idea.  community atomic swap competition is a good idea.
+
+{Reactions}
+👍 (2) 
+
+[28-Sep-20 09:40 PM] orion3x#4145
+!arrrtip faucet
+
+
+[28-Sep-20 09:40 PM] ARRR TipBot#1743
+
+{Embed}
+TipBot
+:droplet: @orion3x, you have been tipped **0.0018972 ARRR** from the faucet.
+
+
+[28-Sep-20 11:25 PM] Artist#0765
+Thats good @Mylo how many nfts komodo has atm?
+
+{Reactions}
+0️⃣ 
+
+[28-Sep-20 11:30 PM] Mylo#8306
+none
+
+
+[28-Sep-20 11:30 PM] Mylo#8306
+here is a project created by @PHBA2061 | VietStaking Validator 
+https://github.com/NOCTLJRNE/Komodo-Pokemon
+
+
+[29-Sep-20 04:06 AM] Speaky121#7940
+!arrrtip faucet
+
+
+[29-Sep-20 04:06 AM] ARRR TipBot#1743
+
+{Embed}
+TipBot
+:droplet: @Speaky121, you have been tipped **0.0032834 ARRR** from the faucet.
+
+
+[29-Sep-20 05:18 AM] Artist#0765
+Oh well thats good someone is building one @Mylo can we chat?
+
+
+[29-Sep-20 05:19 AM] Audo#5667
+> one of the reasons i joined Komodo community way back, when BTCD was still a thing, was open discussions and the development openly as everyone could see what was going on.
+
+Discussions can and would remain open even if we had a "private community".
+
+> Please leave the channels open to all who joins.
+
+All existing channels would remain accessible.
+
+
+ I see many benefits for having a more private spaces that's behind a "registration":
+ - we are able to create an initiation to welcome new members to our community
+ - we will know each other better because everyone will get introduced
+ - promotes a safe & productive environment for deeper discussions
+ - to build a strong community we have to build personal relationships
+
+How can we encourage persona relationship building on huge public channels? We need smaller groups where people can talk. We need focused discussions around initiatives.
+
+I am sceptical that we can effectively get organized through large public channels.
+
+I see this proposal as a way to bridge the gab between the official team and the public community.
+
+
+[29-Sep-20 05:28 AM] Audo#5667
+one example: Komodo internship program.
+
+All the discussions have happened privately between our internship team. This allowed us to:
+
+ - get to know each other and build a strong bond
+ - get to the bottom of any topic and come up with solutions
+ - work together towards a common goal as a team
+
+Would this have happened if we tried to do it on a public setting? Would our interns been as willing to publicly state their opinions and thoughts if they knew _anyone_ could see them?
+
+@og interns I am curious to hear your thoughts on this. What kind of things would you like to brainstorm publicly vs. semi-privately between known people? or does this make no difference to you? Share your personal opinion if you can, I would appreciate it 🙂
+
+{Reactions}
+📈 (3) 
+
+[29-Sep-20 09:23 AM] ejuliano#8606
+> *Komodo community as a private estate*
+> 
+> this sounds like a terrible idea. just the opposite of open and decentralized as true open source movement. why the urge to build the walls? trolls?
+> 
+> there are always people who do nothing else, but complain. that is no reason to keep people out of the loop of what is going on in Komodo development.
+> 
+> one of the reasons i joined Komodo community way back, when BTCD was still a thing, was open discussions and the development openly as everyone could see what was going on.
+> 
+> seeing the magic of tech being developed is one strong point that Komodo has. i truly doubt that focusing on marketing fluff is going to work, when the target audience for Komod tech is (and probably for a long time will be) developers.
+> 
+> ok, the DEX is an exception, but that is just a small albeit important part.
+@crumb | $ARRR Financial Privacy 
+
+i was going to say similarly, but you've said it well enough...
+it's something important to understand about komodo...
+please do not centralize or make things exclusive...
+otherwise we will not be accessible...
+people can always make their own private chatrooms if they want?
+there needs to be a free flow of discussion through different channels
+
+
+[29-Sep-20 09:25 AM] ejuliano#8606
+:yassinkmodo: perhaps one important role could be redirecting queries into the appropriate channels...so not to clog up a channel with the inappropriate topics/questions
+
+
+[29-Sep-20 09:34 AM] ejuliano#8606
+> one example: Komodo internship program.
+> 
+> Would this have happened if we tried to do it on a public setting? Would our interns been as willing to publicly state their opinions and thoughts if they knew _anyone_ could see them?
+> 
+@Audo   this internship program structuring was about getting down to business, this was a marketing team built from community resources (interns) specifically for the purpose of "business" so it makes sense that it be a closed channel...
+developers probably have closed channels or meeting rooms or whatever...
+that's perfectly well and good for planning & executing tasks on the business end of things...
+and if community members decide to start a project together and want to create a locked channel for themselves, have at it, that's fine and good...
+
+the concern at least from my perspective is that the general community doesn't need to be walled off, 
+and, 
+the general community should have access to as much information or places to ask questions and receive answers as is relevant to the nature and offerings of komodo platform and its ecosystem asset chains
+
+
+[29-Sep-20 09:35 AM] ejuliano#8606
+@Mylo  points out the 3-tier structure that already exists, that feels like a good structure
+
+
+[29-Sep-20 09:36 AM] sakata#4279
+> *Komodo community as a private estate*
+How about if I swapped private out for *exclusive*, and *community* for *Komodo's contributors*, because that's what we currently have
+
+
+[29-Sep-20 09:37 AM] sakata#4279
+> @Mylo  points out the 3-tier structure that already exists, that feels like a good structure
+@ejuliano It feels more like a 3-grouped structure, 3 different backgrounds
+
+
+[29-Sep-20 09:37 AM] sakata#4279
+There is no tiers within *our* community
+
+
+[29-Sep-20 09:37 AM] sakata#4279
+(Can argue that with the community contributor side)
+
+
+[29-Sep-20 09:38 AM] ejuliano#8606
+ah i skipped a bunch... what @grewalsatinder  wrote still stands... make sure that structure isn't impeded with...otherwise it will make komodo suffer
+
+
+[29-Sep-20 09:39 AM] ejuliano#8606
+must understand, @sakata  our community is all of it...komodo platform, the developers included, we are all part of the same community
+
+
+[29-Sep-20 09:39 AM] ejuliano#8606
+it is one big komodo platform community
+
+
+[29-Sep-20 09:39 AM] Jcharming#2693
+> it is one big komodo platform community
+@ejuliano 
+I agree with this
+
+
+[29-Sep-20 09:39 AM] ejuliano#8606
+there is no komodo community separate from the developers or anyone else
+
+{Reactions}
+⭐ (3) 
+
+[29-Sep-20 09:40 AM] sakata#4279
+> must understand, @sakata  our community is all of it...komodo platform, the developers included, we are all part of the same community
+@ejuliano Of course. The Komodo team is part of the community. But there is no tier within the community, no one is above one another, this is an open source and community driven project.
+
+{Reactions}
+⭐ 
+
+[29-Sep-20 09:41 AM] ejuliano#8606
+in terms of specific community things like badges or starts or whatever, that's all good, i don't really mind or care about those, but that isn't what we're talking about, right?
+
+
+[29-Sep-20 09:42 AM] ejuliano#8606
+we are looking to install hierarchies within the community?
+
+
+[29-Sep-20 09:42 AM] Jcharming#2693
+> in terms of specific community things like badges or starts or whatever, that's all good, i don't really mind or care about those, but that isn't what we're talking about, right?
+@ejuliano 
+I'm getting the impression this is kind of an open conversation about all aspects without necessarily any specific conclusions.
+
+
+[29-Sep-20 09:43 AM] ejuliano#8606
+oh...i thought the conclusion is to develop a hierarchy structure for the community (apart from the developers and other business team aspects)
+
+
+[29-Sep-20 09:44 AM] sakata#4279
+> we are looking to install hierarchies within the community?
+@ejuliano Despite everyone's disfavour of the *exclusive* (or *private* as a synonym) structure there is **already** a massive wall between the public community and community contributors - the bad factor that everyone is arguing against is already in place.
+
+
+[29-Sep-20 09:44 AM] Jcharming#2693
+I'm sure @sakata  can clarify, however as I understand it's more of an 'exploration' of this idea and others.  Maybe that looks like 'what do we think about heirachies?' maybe that means 'what do we think about roles'  maybe that means 'what do we think about onboadring new members and the channel structure here in the discord'?
+
+
+[29-Sep-20 09:44 AM] Audo#5667
+it's not as much about hierarchy but about aknowledgement that someone has made a contribution and spend time for the benefit of Komodo. It's basically how we use the "community contributor" tag right now. We would just make the structure more official and remove the bottleneck (me).
+
+
+[29-Sep-20 09:45 AM] Audo#5667
+but I appreciate all the feedback! It's good to understand the concerns so we can address those and also ensure that whatever the end proposal is will address those issues.
+
+
+[29-Sep-20 09:47 AM] ejuliano#8606
+> @ejuliano Despite everyone's disfavour of the *exclusive* (or *private* as a synonym) structure there is **already** a massive wall between the public community and community contributors - the bad factor that everyone is arguing against is already in place.
+@sakata 
+- what is the wall... a locked channel for community contributors?
+or is there a different wall?
+- seems reasonable, as long as anybody who wants to contribute to the community can do so, in which case they can be added to the contributors channel
+
+
+[29-Sep-20 09:47 AM] Audo#5667
+> however as I understand it's more of an 'exploration' of this idea and others. 
+
+Indeed, good point. This is very raw brainstorming where we throw around ideas to stimulate discussion and get more insight from everyone. That seems to be happening now 🙂
+
+{Reactions}
+👍 
+
+[29-Sep-20 09:47 AM] ejuliano#8606
+what do people join komodo community for?  what does the user of the komodo community do with it?
+
+
+[29-Sep-20 09:49 AM] ejuliano#8606
+- seek support
+- troubleshoot issues
+- seek information about komodo or its products or possibilities
+- talk about komodo 
+- talk about random nonsense
+- talk about cryptocurrency other than komodo
+- talk to jl777
+- use komodo products, komodo platform, kmd or asset chains
+
+
+[29-Sep-20 09:50 AM] sakata#4279
+> @sakata 
+> - what is the wall... a locked channel for community contributors?
+> or is there a different wall?
+> - seems reasonable, as long as anybody who wants to contribute to the community can do so, in which case they can be added to the contributors channel
+@ejuliano Precisely, this proposal is no different, in terms of *privatisation*, than what we already have now. It is just adding some structure along with the implementation.
+
+
+[29-Sep-20 09:51 AM] Jcharming#2693
+> what do people join komodo community for?  what does the user of the komodo community do with it?
+@ejuliano 
+This is a great question and some great list items.  
+Are those items what you do when you're here, or are they the list of items you think other people come here for? OR both?
+
+
+[29-Sep-20 09:52 AM] Jcharming#2693
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755099208637349998/760544611185459200/unknown.png
+
+{Reactions}
+🔥 😆 
+
+[29-Sep-20 09:53 AM] ejuliano#8606
+> it's not as much about hierarchy but about aknowledgement that someone has made a contribution and spend time for the benefit of Komodo.
+@Audo  so along the lines of badges or colours for names or other recognitions?
+
+-beware of seeking acknowledgement -  it's a low-consciousness purpose for doing things
+
+
+[29-Sep-20 09:56 AM] ejuliano#8606
+@Jcharming  i'm talking about myself and other community users/members
+i don't have the skills much, but i'm ever grateful that i can visit all the different developer and product channels and read about what's going on; i try to keep up with as many channels as i can but there's only so much time in the days...
+
+{Reactions}
+🔥 
+
+[29-Sep-20 09:57 AM] Jcharming#2693
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755099208637349998/760545894025265182/unknown.png
+
+{Reactions}
+😅 
+
+[29-Sep-20 09:58 AM] ejuliano#8606
+> @ejuliano Precisely, this proposal is no different, in terms of *privatisation*, than what we already have now. It is just adding some structure along with the implementation.
+@sakata that's all fine and good ... can you help me understand what you mean?  adding what sort of structure in addition to the structure that already is in place now?
+
+
+[29-Sep-20 10:01 AM] Audo#5667
+> @Audo  so along the lines of badges or colours for names or other recognitions?
+
+Yeah, and those could share a private channel just like now.
+
+The main quesiton I have posed many times (including for the interns) is: "Who decideds who gets a badge?" 
+
+Solution today: centralized, chief community dictator Audo hands off badges and often doesn't notice many contributions
+
+Proposd solution: decentralized way where trusted community memembers (elders) hand off badges in agreement.
+
+So, I guess we could say I am proposing more structure to create more decentralization. I guess it's a bit counteintuitive, but to scale things up there has to be some structure. I don't see structure as a bad thing or as centralization necessarily.
+
+It's very fashinating topic
+
+
+[29-Sep-20 10:02 AM] ejuliano#8606
+@Audo  i understand better now... adding extra private channels for people is fine, as long as what people have access to now doesn't change by getting restricted
+
+{Reactions}
+💯 
+
+[29-Sep-20 10:03 AM] Churro#4832
+> - seek support
+> - troubleshoot issues
+> - seek information about komodo or its products or possibilities
+> - talk about komodo 
+> - talk about random nonsense
+> - talk about cryptocurrency other than komodo
+> - talk to jl777
+> - use komodo products, komodo platform, kmd or asset chains
+@ejuliano  I agree but coming from being an outsider perspective a few months ago, I saw that there is a heavy amount of disorganization within the discord community. These issues are focused on engagement and communication. (Too many channels, no clear on boarding path to get more evolved and earn badges for contribution, lack of incentives for community members to stay and contribute).
+
+
+[29-Sep-20 10:04 AM] sakata#4279
+On slide number 2 of https://docs.google.com/presentation/d/1q-oN03xoZemQqHyXbpUxt5YbSaIP9wnBG3i26HmuU_8/edit?usp=sharing, there is an (overcomplicated) example of some tiers. *Each tier is just a reference to a higher form of responsibility, decided upon time committed to Komodo and accomplishments within the community.* No one calls the shots or has any real authority. 
+
+We need this structure so we can be a community, not just 'do' community
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755099208637349998/760547566076690503/unknown.png
+
+
+[29-Sep-20 10:05 AM] Churro#4832
+@ejuliano How does someone in the general community become a community contributor? I don't think there is a way lol is there?
+
+
+[29-Sep-20 10:05 AM] sakata#4279
+Question 1 of https://komodograndscheme.paperform.co/ is based upon this and is the major component for all of this!
+
+
+[29-Sep-20 10:07 AM] ejuliano#8606
+> @ejuliano How does someone in the general community become a community contributor? I don't think there is a way lol is there?
+@Churro  komodo has always been open source... if you want to contribute, you can do whatever you want to contribute...write, code, get business, marketing...  the way is and has always been simple:  do something to contribute, and there you have a community contributor
+
+
+[29-Sep-20 10:08 AM] sakata#4279
+> @ejuliano How does someone in the general community become a community contributor? I don't think there is a way lol is there?
+This is why we need this discussion; structure.
+
+
+[29-Sep-20 10:08 AM] ejuliano#8606
+because/since all of the channels are open, anyone can go to any channel and offer contribution or seek ways to know in what ways their contributions are needed
+
+
+[29-Sep-20 10:09 AM] Churro#4832
+@ejuliano I meant to say, how do you receive the contributor tag? that you have right now
+
+
+[29-Sep-20 10:09 AM] ejuliano#8606
+getting a tag?  there are other contributors who can notice your contribution and give you a tag
+
+
+[29-Sep-20 10:15 AM] Mylo#8306
+try something.  do it and if it doesn't have the desired result.  can it.  try something else.
+
+
+[29-Sep-20 10:16 AM] Churro#4832
+@ejuliano I didn't even know that lol I'm sure there are tons of members in the general chat who are contributing and are not getting the recognition they deserve by receiving the "contributor" tag. This is not an efficient way or process. This is why we need to innovate the community
+
+
+[29-Sep-20 10:19 AM] Churro#4832
+We need to have an efficient easy onboarding process in order to keep our community growing
+
+{Reactions}
+👆 🔥 
+
+[29-Sep-20 10:23 AM] Churro#4832
+In order to do this, we need to create a community structure with 3 layers that would give members an opportunity to become leaders in this community
+
+{Reactions}
+👆 
+
+[29-Sep-20 10:24 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+maybe there is an idea board/list of positive thoughts that we create, like this idea is something that could help the ecosystem, but I have no idea or time to implement it. It would be a way to not waste your brainpower by your idea dissolving into the abyss. The user who has an idea on the board gets a contributor badge
+
+{Reactions}
+👆 
+
+[29-Sep-20 10:25 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+so when user comes on and says, we need more nft, the thought starts on the idea board
+
+
+[29-Sep-20 10:26 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+maybe other users can help advance that idea
+
+
+[29-Sep-20 10:26 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+maybe this is better for the forum that might be coming?
+
+
+[29-Sep-20 10:27 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+i get that kmd doesnt have the number of developers to implement everythinh
+
+
+[29-Sep-20 10:28 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+but we shouldnt waste a good idea
+
+
+[29-Sep-20 10:28 AM] Churro#4832
+> 
+> i get that kmd doesnt have the number of developers to implement everythinh
+> @༺α☬丂Ӧ¢ ༒ ༻ yupp that is why I believe we need to innovate our community. I think if we do, we will be able to attract new developers to join us
+
+
+[29-Sep-20 10:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+the community HAS to step up and start creating
+
+
+[29-Sep-20 10:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+case in point, we need a chain for tokens
+
+
+[29-Sep-20 10:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+not just rick morty
+
+
+[29-Sep-20 10:30 AM] Churro#4832
+I agree Joe lol also what would a chain for tokens do?
+
+
+[29-Sep-20 10:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+there have been several people come here who have said, my project is token based, I dont want a smart chain
+
+
+[29-Sep-20 10:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+we say, but we have these really nice smartchains that you can build
+
+
+[29-Sep-20 10:31 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+they say nah, too much effort and leave
+
+
+[29-Sep-20 10:33 AM] Churro#4832
+yupp, I can see that lol I think that the kmd devlopers are focused on the atomicdex at the moment but i hope after they release the pro version, they can go back to the table and fix these issues like you mentioned
+
+
+[29-Sep-20 10:33 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+i agree that dont have the resources
+
+
+[29-Sep-20 10:33 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+however
+
+
+[29-Sep-20 10:33 AM] Churro#4832
+that way not only KMD can be only known for Atomicdex but also Smartchains
+
+
+[29-Sep-20 10:34 AM] Churro#4832
+so all of our products can have same lvl in terms of strength
+
+
+[29-Sep-20 10:34 AM] Churro#4832
+and recognition
+
+
+[29-Sep-20 10:35 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+we claim to have built an ecosystem for easy launch of chains, ok so why do we need a dev for an easy launch?
+
+
+[29-Sep-20 10:39 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+also, are there not devs here who are not working on adex?
+
+
+[29-Sep-20 10:39 AM] Churro#4832
+> maybe there is an idea board/list of positive thoughts that we create, like this idea is something that could help the ecosystem, but I have no idea or time to implement it. It would be a way to not waste your brainpower by your idea dissolving into the abyss. The user who has an idea on the board gets a contributor badge
+@༺α☬丂Ӧ¢ ༒ ༻ Yea this would be a cool thing to do on the new forum. Post ideas with great layout so developers can complete it for some sort of bounty in KMD. Does this sound fun?
+
+
+[29-Sep-20 10:40 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+the learning path in the documents, If someone completes that, give them a badge, hopefully they can also help with questions and development
+
+{Reactions}
+👍 
+
+[29-Sep-20 10:41 AM] Churro#4832
+Yupp thats also a good idea
+
+
+[29-Sep-20 10:41 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+if our main bottleneck is not enough devs, then we create some
+
+
+[29-Sep-20 10:41 AM] lightspeed393#5403
+@༺α☬丂Ӧ¢ ༒ ༻ I'm playing around with tokens over on SPACE chain. I made a BCT talk post about it yesterday welcoming anyone who wants to do so. https://bitcointalk.org/index.php?topic=5273789.msg55279180#msg55279180
+
+{Reactions}
+💯 (2) 👍 
+
+[29-Sep-20 10:43 AM] Churro#4832
+I feel that though, before we release the forum, we need to enhance our KMD community structure. I think @sakata idea will really help structure our community that is efficient, organized and well, exciting!
+
+
+[29-Sep-20 10:44 AM] Churro#4832
+I believe we need this change in order for our community to continue growing
+
+{Reactions}
+👆 🔥 
+
+[29-Sep-20 10:45 AM] Churro#4832
+Chech out his survey
+
+
+[29-Sep-20 10:45 AM] Churro#4832
+https://komodograndscheme.paperform.co/
+
+
+[29-Sep-20 10:46 AM] Churro#4832
+and presentation.
+
+
+[29-Sep-20 10:46 AM] Churro#4832
+https://docs.google.com/presentation/d/1q-oN03xoZemQqHyXbpUxt5YbSaIP9wnBG3i26HmuU_8/edit?usp=sharing,
+
+{Embed}
+https://docs.google.com/presentation/d/1q-oN03xoZemQqHyXbpUxt5YbSaIP9wnBG3i26HmuU_8/edit?usp=sharing,
+KMD Community
+Community Structuring “Komodo isn’t just code; it’s a home - a place to belong” An outline for a potential hierarchy & structure for a community within Komodo
+https://images-ext-2.discordapp.net/external/ValxgPeEM07vQKRVRhM3vtQH6FOGO_j1G39xb3c2ZhE/https/lh5.googleusercontent.com/fUkks6ETk5OJVbiVflmPcMa4G27Bsa1wjFTqdOVBOM1mmgE8J9Qz19-irID389_QV2jjfyqJxw%3Dw1200-h630-p
+
+
+[29-Sep-20 10:48 AM] sakata#4279
+All contributors to the survey and this discussion get a "Community Renaissance" badge 😉
+
+
+[29-Sep-20 10:55 AM] Artist#0765
+A simple way to enhancing the community structure may be more interaction with developers and getting people to know who are the guys?most people to be honest dont even take a look at the mentions and tags including me,  those who look at them are mainly node operators or people who are associated with the ecosystem limited. as a user and an ex content writer I think interactions for the community to the ecosystem should be smart not hard , this goes for descriptions articles etc as well about the komodo ecosystem
+
+{Reactions}
+💯 (3) 
+
+[29-Sep-20 10:57 AM] Artist#0765
+More products that have a GUI and an interface attractin people and then eventually making them go deep into advance things focuss over youtube and these platforms
+
+
+[29-Sep-20 10:57 AM] Artist#0765
+Just venting not an expert not my job just a fan of kmd and its team
+
+{Reactions}
+🔥 (2) 
+
+[29-Sep-20 11:32 AM] sakata#4279
+@Artist This is the time and place to let it all out 😆 Apart from the obvious (AMAs), how else do you think we can cross that bridge between Komodo developer and community member?
+
+Could you offer any more detail on the impact this could have on the structure of our community 🙂
+
+
+[29-Sep-20 11:51 AM] Artist#0765
+Let me have dinner and yes why not if multiple brainstormings can help you guys land on a good products it would be an honor
+
+{Reactions}
+❤️ 
+
+[29-Sep-20 12:19 PM] Artist#0765
+Ok so if a developer creates something associated with the komodo ecosystem a subdomain or something like prpduct.kmdcommunity.com should be automatically developed for it what it does? Customize and highlight small and big projects making sure nothing is unseen or overseen how will people interact is via faq articles and on the home of the portal there can be sublink in a customized manner to much channels in discord often go unseen by most of the community a video maker can be hired specifically for making videos info about anything or innovation going inside the kmd ecosystem and can be paid through node operators contribution or however he/she can be incentivised, how it will impact the community is that people wont have to go on different channels or search everything can be categorized and weekly updates can be made on youtube and newspaper type blog the portal should be of a tumblr or reddit architecture and if possible users can signup throug discord dev id or anything easy for them. Rewards should be regular for people who get roles or anything of that order, trading and economic side of the komodo ecosystem should also be focussed as it brings a large number of members/users
+
+{Reactions}
+🔥 ❤️ 
+
+[29-Sep-20 12:19 PM] Artist#0765
+Will think more maybe most of these are common some can be peculiar too
+
+
+[29-Sep-20 12:26 PM] Artist#0765
+If I get the end goal as to why you want the community restructured maybe can vent more😂 right now just saw a channel named community structure opened discord after a long time
+
+{Reactions}
+9003_PepeAsh 
+
+[29-Sep-20 12:27 PM] Artist#0765
+One more thing there should be things on the community portal that should allow users to spend more time on the portal this might bring more members maybe crypto based html5 games
+
+
+[29-Sep-20 12:28 PM] Artist#0765
+Dev vs member challenges
+
+
+[29-Sep-20 02:45 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Maybe a decentralized Jedi approach. Each master has a padawan, (maybe temporary) type of thing. A padawan newbie is looked after and helped by a Jedi. Jedi are overseen by the council. A padawan has to complete training (komodo learning path) before taking the Jedi test to advance.
+
+{Reactions}
+👍 
+
+[29-Sep-20 02:46 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@Jedi Help me support Kenobe, you're my only...garrrrblllaaas
+
+
+[29-Sep-20 03:22 PM] Churro#4832
+That does sound cool
+
+
+[29-Sep-20 03:23 PM] Churro#4832
+but idk if people are willing to commit time to do tht
+
+
+[29-Sep-20 03:45 PM] WnyCrypto#8781
+I actually was thinking about something similar to what @༺α☬丂Ӧ¢ ༒ ༻. Komodo core community team members (jr ambassadors) ? People who are excited about the Komodo project. 
+
+Create an on-ramp for community members 
+
+Develop a program / meeting / learn Komodo jr ambassador program. Core member/s of the Komodo team create a learn Komodo crash course which includes/ history / tech / development / governance/ this could act as the bridge to community members that want to be more involved. 
+
+With the plan being that these jr ambassadors will be knowledgeable enough to represent the Komodo community and engage heavily on social media, crypto based podcast, and local crypto/blockchain meetups. 
+The vast number of crypto based podcasts are smaller in nature and if we had a team of knowledge community members / jr ambassadors that could create engagement on a mass scale for the smaller market pods. These podcasters love it when community members reach out to them. It shows Initiative. I believe a big crossover exists in other topics for pods that are indirectly related to crypto that can be taken advantage of , gaming, finance, freedom and privacy, anarchist/libertarian, just to name a few genres. A successful jr ambassador program could create an environment where somewhere everyday is doing a pod promoting Komodo. Regardless if it gets 10, 100, or a 1000 views. We could create an environment where we are not only promoting but also networking and building future relationships. 
+
+An “officially unofficial Komodo community” twitter handle could act as medium for community announcements and activities; with rewards in decimals of 333 and 777 (example winner 7.77, 77.7 .777)
+Meme competition 
+Bounty competition 
+community spotlights on members in the community/ devs / admins
+
+Monthly dev/team public zoom meetings to keep the core community updated.
+
+{Reactions}
+🙏 🤟 🔥 💯 
+
+[29-Sep-20 03:46 PM] WnyCrypto#8781
+I could draw up something more official than these scribblings if needed
+
+
+[29-Sep-20 03:50 PM] WnyCrypto#8781
+Content creators and tutorials would be big plus for the community.
+
+
+[29-Sep-20 04:02 PM] WnyCrypto#8781
+Like right now in another thread we are discussing the use of a mascot. Which would be an amazing opportunity for people to have a Komodo mascot competition. Could easily have something like selecting the top 5, have the community vote for winner. With a bounty/reward going to the winner. It would help drive engagement within the community.
+
+{Reactions}
+💯 
+
+[29-Sep-20 10:02 PM] Artist#0765
+Yh
+
+
+[29-Sep-20 10:02 PM] Artist#0765
+Thats good i thought html5 games as weĺl with competitions between community and team like devs node operators
+
+
+[29-Sep-20 10:02 PM] Artist#0765
+@Mylo
+
+
+[29-Sep-20 10:04 PM] Artist#0765
+Mascot can be komodo of komodo
+
+
+[29-Sep-20 10:07 PM] Artist#0765
+Like komodo dragon
+
+
+[29-Sep-20 10:07 PM] Artist#0765
+I would be happy be design it if there is a reward😂😂
+
+
+[29-Sep-20 10:10 PM] Artist#0765
+The problem is we all are brainstorming ideas and most of them are useable but developing a platform that can manage all of this and on the same time land users is a challenge
+
+{Reactions}
+🔥 
+
+[29-Sep-20 10:55 PM] Mylo#8306
+yeah i will support @Artist make stuff.  but i cannot support him alone.  I can provide some KMD funds per month.
+NFTs can be produced on RICK & MORTY.
+
+make a plan & make it happen.
+
+1.  someone make an NFT on RICK.
+2. someone make a link to NFT image on IPFS.
+
+Then we can begin "community NFT"
+
+50KMD bounty for (1) x 3 people
+50KMD bounty for (2) x 3 people
+250KMD bounty for python code to make (2) repeatable
+500KMD bounty for @Artist to write a blog about the success of (1) & (2) and how anyone can contribute an NFT into the community ecosystem.
+
+I don't have time to micro manage, so make it happen.
+
+
+[29-Sep-20 10:56 PM] Artist#0765
+Tagged you about the html5 game idea sir
+
+
+[29-Sep-20 10:56 PM] Mylo#8306
+1. Sync RICK blockchain
+2. Get RICK from faucet
+3. Create NFT
+
+
+[29-Sep-20 10:56 PM] Artist#0765
+What were your thoughts on that
+
+
+[29-Sep-20 10:57 PM] Mylo#8306
+don't have time atm sorry.
+
+
+[29-Sep-20 10:59 PM] Artist#0765
+There was a team that used to dev games on komodo they will do it if this a good idea and everyone lands on it
+
+
+[29-Sep-20 11:06 PM] Mylo#8306
+not interested in anything else. don't have the time for it sorry.  the bounties are there for other people to make stuff, if it cannot be done by Oct 5 12PM UTC, then bounties expire.
+
+
+[29-Sep-20 11:07 PM] Mylo#8306
+15th.  2 weeks + a day.
+
+
+[29-Sep-20 11:07 PM] Mylo#8306
+15th october 12pm utc
+
+
+[29-Sep-20 11:07 PM] Artist#0765
+The blog?
+
+
+[29-Sep-20 11:08 PM] Artist#0765
+Can you come ib I opened discord really hardly
+
+
+[29-Sep-20 11:17 PM] Artist#0765
+Not bout the bounty
+
+
+[29-Sep-20 11:21 PM] Mylo#8306
+> not interested in anything else. don't have the time for it sorry.  the bounties are there for other people to make stuff, if it cannot be done by Oct 15 12PM UTC, then bounties expire.
+
+
+[29-Sep-20 11:28 PM] Artist#0765
+Cool
+
+
+[29-Sep-20 11:34 PM] Mylo#8306
+if NFT bounty can be done, and community wants more NFTs, and @Artist  can produce graphics for NFT, then i will put 500KMD per month towards graphics for NFTs for 3 months in Nov/Dec/Jan towards @Artist making them.
+
+
+[29-Sep-20 11:34 PM] Mylo#8306
+On the RICK or MORTY chain.
+
+anything more than that i cannot do.
+
+
+[29-Sep-20 11:36 PM] Mylo#8306
+& i 🙏 i don't have to post bounties in discord again @Audo @Churro @sakata and have a forum to post and easily link to on the web to make community more accessible to those without discord.
+
+{Reactions}
+🔥 🍉 
+
+[29-Sep-20 11:38 PM] Artist#0765
+I cant do them cause i have sold my machine was just giving ideas to sakata saw you after a long time so thought should take your views on it. If my brainstorming can contribute something it would be no harm for me..
+
+{Reactions}
+❤️ 
+
+[29-Sep-20 11:39 PM] Artist#0765
+Just venting stuff cheers
+
+
+[29-Sep-20 11:40 PM] Artist#0765
+But if an opportunity comes up let me know for sure
+
+{Reactions}
+👍 
+
+[29-Sep-20 11:43 PM] Mylo#8306
+for those that don't know, @Artist contributed these articles https://ikomodo.com/author/ahmed-shah/
+
+{Embed}
+https://ikomodo.com/author/ahmed-shah/
+Ahmed Shah, Author at iKomodo P2P
+https://images-ext-1.discordapp.net/external/nPRnE20gB_APcb-ndEBMmOfBAytO-jujtRnEShQVVM4/%3Fs%3D500%26d%3Dmm%26r%3Dg/https/secure.gravatar.com/avatar/24cac0d290606938e33c68c071c915b0
+
+{Reactions}
+👍 (3) 
+
+[30-Sep-20 01:07 AM] Artist#0765
+I would be happy to work with you  from november or whenever convenient corona has really made everything haywire, anyways still positive and passionate whenever you get time lets have a chat @Mylo
+
+
+[30-Sep-20 01:07 AM] Artist#0765
+I wil brainstorm more about community structure
+
+
+[30-Sep-20 01:08 AM] Artist#0765
+I know @Audo is a creative one and the team will come up with an effective solution
+
+
+[30-Sep-20 01:11 AM] Mylo#8306
+> **if NFT bounty can be done, and community wants more NFTs**, and @Artist  can produce graphics for NFT, then i will put 500KMD per month towards graphics for NFTs for 3 months in Nov/Dec/Jan towards @Artist making them.
+
+without community being involved and wanting more there is no nov/dec/jan.
+
+
+[30-Sep-20 03:29 AM] Artist#0765
+No problems brother @Mylo at bad will be at bad but optimistic 😉
+
+
+[30-Sep-20 04:58 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+https://github.com/SpaceWorksCo/guides#tokens. This project is also using tokens. Was sent this link when I asked for more information.
+
+{Embed}
+https://github.com/SpaceWorksCo/guides
+SpaceWorksCo/guides
+Guides for Spacecoin. Contribute to SpaceWorksCo/guides development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/wrjm0zvLALAjOAYV_En5tIZmBL66mvBwtS0Q4ON_2tU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/56847286
+
+{Reactions}
+👍 
+
+[30-Sep-20 07:53 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+1. Sync RICK blockchain
+2. Get RICK from faucet
+3. Create NFT
+
+
+[30-Sep-20 07:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/advanced-series-3.html#complete-the-heir-module-flow-section-optional
+
+
+[30-Sep-20 07:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Instructions to sync rick plus faucet👆
+
+
+[30-Sep-20 07:58 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/beginner-series-part-4.html#create-a-non-fungible-token
+
+
+[30-Sep-20 07:59 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+NFT creation instructions
+
+{Reactions}
+👆 (4) 
+
+[30-Sep-20 08:03 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+```
+make a plan & make it happen.
+
+1.  someone make an NFT on RICK.
+2. someone make a link to NFT image on IPFS.
+
+Then we can begin "community NFT"
+
+50KMD bounty for (1) x 3 people
+50KMD bounty for (2) x 3 people
+250KMD bounty for python code to make (2) repeatable
+500KMD bounty for @Artist to write a blog about the success of (1) & (2) and how anyone can contribute an NFT into the community ecosystem.```
+
+{Reactions}
+💯 (4) 
+
+[30-Sep-20 08:05 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+https://ipfs.io
+
+{Embed}
+https://ipfs.io/
+IPFS Powers the Distributed Web
+The InterPlanetary File System is a peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open.
+
+
+[30-Sep-20 08:54 AM] MorganJekyll#8355
+When working with uniswap and Augur.net it seems so simple yet it’s still so clunky and loaded with fees. If KMD team can release a similar online portal that functions like atomic DEX pro without the clunk and fees of these other decentralized atomic trading contracts every KMD HODLers investment thesis will pay off. What do we need to do to push these things into alpha and have them stress tested before volume starts to pick up across the board for crypto in 2021?
+
+{Reactions}
+👍 
+
+[30-Sep-20 08:57 AM] MorganJekyll#8355
+How many full time developers does the KMD team have?
+
+
+[30-Sep-20 09:48 AM] WnyCrypto#8781
+Getting the AtomicDEX out of beta would be a huge catalyst for engagement and interest
+
+
+[30-Sep-20 10:23 AM] Artist#0765
+@Mylo is developing a platform named orderbook
+
+
+[30-Sep-20 10:24 AM] Artist#0765
+@MorganJekyll its in beta mode
+
+
+[30-Sep-20 10:29 AM] Artist#0765
+@༺α☬丂Ӧ¢ ༒ ༻ 😁😂 there goes my bounty xD
+
+
+[30-Sep-20 08:34 PM] Mylo#8306
+@Artist your main bounty is the writing about success bounty, exclusive to you.  find other people to make (1) & (2) happen, so you can write about it, so others can then know how to do it.   when others know how to do it, you will be busy with making graphics for NFTs.
+
+
+[30-Sep-20 08:36 PM] Mylo#8306
+that is the objective of my bounties.
+for people to make NFT is v.easy.  50+ people in this discord can do it.
+linking image to ipfs, requires a bit of extra work, but still 50+ people can do it
+making a script in python (but i'll accept any language tbh), maybe 10 ppl in discord can do.  but the 500kmd writing about success of (1) & (2) has nothing to do with script bounty.
+
+
+[30-Sep-20 08:42 PM] Mylo#8306
+> Getting the AtomicDEX out of beta would be a huge catalyst for engagement and interest
+
+That is the goal.
+This is also why there is _community organization push_ started imo.
+
+The next stress test is sometime in the next 90 days.  And there needs to be some way to keep these stress-test users within kmd ecosystem.
+
+{Reactions}
+💯 (2) 
+
+[30-Sep-20 08:50 PM] grewalsatinder#9653
+@Mylo I'd put $1000 NZD worth of  cryptocurrency to your rewards, with the condition there are videos of all what you are putting the bounty for with "Community NFT" task.
+
+
+[30-Sep-20 08:53 PM] Mylo#8306
+@grewalsatinder great idea - thanks for building it up even further.
+now, the rewards are there.  the expiration date is there. the continued bounty program is there. the bonus is there.
+
+
+[30-Sep-20 09:00 PM] Mylo#8306
+@MorganJekyll @Artist , this man @grewalsatinder is building shurli app.  in #meshbits channel - that is a v.sweet gui to subatomic swaps (over the counter small increment/stream of swaps).  it requires a full node to run because it deals with private crypto as well.  adding NFT to this app is also possible, but not the current goal of the developer (satinder).
+
+same with orderbook, https://orderbook.live - which is in a stalled beta phase (no dev because too busy & waiting for ADEX to be released) - to add NFT to it is not a hard thing to do.  i wrote about how to do it back in 2019 https://komodoplatform.com/tt2019-20-build-asset-exchange-token-dex-example/
+
+on that blog post, it links to these other types of applications you mention @MorganJekyll  that were developed as proof of concept in synthetics & derivatives etc.
+
+{Reactions}
+👍 🙏 😎 🤩 
+
+[30-Sep-20 09:27 PM] Artist#0765
+Thanks @Mylo
+
+
+[30-Sep-20 09:34 PM] Artist#0765
+But i wont be able to find such a person
+
+
+[30-Sep-20 09:38 PM] Artist#0765
+I would be happy to do videos articles and graphics can you dm @Mylo
+
+
+[30-Sep-20 09:45 PM] Mylo#8306
+well if it expires, can try in a month when there is a forum.  i only want to offer idea, offer bounty & not do any micro management. no dms. unforch it takes too much time and prefer public offerings now.  i cannot offer more than that atm.
+
+
+[30-Sep-20 10:01 PM] Artist#0765
+Okay mate
+
+
+[30-Sep-20 10:08 PM] Artist#0765
+Any other bounty for an individual @Mylo gotta buy a machine
+
+
+[30-Sep-20 10:11 PM] Mylo#8306
+get prices/model and msg me in #💬┃general  the options - if community comes through with ability to create work for you i'll send you money to get a machine in advance
+
+
+[30-Sep-20 10:12 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+What do you recommend in order to link an image to ipfs?
+
+
+[30-Sep-20 10:15 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Ipfs desktop, or orion?
+
+
+[30-Sep-20 10:16 PM] Artist#0765
+Prices/model of @Mylo
+
+
+[30-Sep-20 10:17 PM] Mylo#8306
+machine
+
+
+[30-Sep-20 10:17 PM] Mylo#8306
+never used ipfs.  looks like there is a go executable, and python scripts when i search, but i'm looking for different thing.
+
+
+[30-Sep-20 10:18 PM] Mylo#8306
+https://medium.com/python-pandemonium/getting-started-with-python-and-ipfs-94d14fdffd10
+
+{Embed}
+https://medium.com/python-pandemonium/getting-started-with-python-and-ipfs-94d14fdffd10
+Getting started with Python and IPFS
+In this post I am going to discuss how you can use decentralized IPFS in your Python apps for storing different kind of data.
+https://images-ext-1.discordapp.net/external/IFaBEHZ5TbecMXqEDkKaGSKpJiZeySkGnJW_xsPCMYI/https/miro.medium.com/max/638/1%2Aqql4dMoER-RBpwimmsHP6Q.jpeg
+
+{Reactions}
+👍 
+
+[30-Sep-20 10:18 PM] Artist#0765
+Well there is windows option only this time macs are too expensive and peculiar
+
+
+[30-Sep-20 10:19 PM] Mylo#8306
+don't need mac.  keep your equipment costs low like a lean start up
+
+
+[30-Sep-20 10:22 PM] Artist#0765
+Yep and except python script might be able to work on nfts
+
+
+[30-Sep-20 10:22 PM] Artist#0765
+If there is no hard programming involved
+
+
+[30-Sep-20 10:29 PM] Artist#0765
+Got some screenshots for options can I dm you? @Mylo
+
+
+[30-Sep-20 10:35 PM] Artist#0765
+https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/beginner-series-part-4.html#compare-the-tokens-on-one-node-against-the-other
+
+
+[30-Sep-20 10:35 PM] Artist#0765
+This is written by you?
+
+
+[30-Sep-20 10:36 PM] Mylo#8306
+email them dude, info@orderbook.live - i'll check them out later, have to wait for community to make tokens
+
+
+[30-Sep-20 10:37 PM] Artist#0765
+Okay sir
+
+
+[30-Sep-20 10:39 PM] Mylo#8306
+i co-wrote it with someone else.  the docker image to use now is better used from https://ikomodo.com/blockchain-dev-kit-electrum-dex-trading/  `docker run -i -t -v /home/${USER}/.zcash-params:/root/.zcash-params:ro --name bdk -p 127.0.0.1:8096:8096 coingateways/blockchain-starter-kit:5000f2a.3`  e.g. `coingateways/blockchain-starter-kit:5000f2a.3` which is at https://hub.docker.com/r/coingateways/blockchain-starter-kit/tags
+
+
+[30-Sep-20 10:44 PM] Artist#0765
+Wont get into it , i guess wont be able to do it so why give word the graphics and articles ready to do them.
+
+
+[30-Sep-20 10:45 PM] Artist#0765
+Emailed you make sure to read
+
+
+[30-Sep-20 10:47 PM] Artist#0765
+Also gave an idea about focussing on a youtube channel to restructre the community
+
+
+[30-Sep-20 11:02 PM] Mylo#8306
+ok.  me+youtube not compatible.  share it with @ejuliano he makes vids
+
+
+[30-Sep-20 11:05 PM] Artist#0765
+Cool what was the video thing grewal discussing about
+
+
+[30-Sep-20 11:14 PM] grewalsatinder#9653
+Same tasks that @Mylo layed out to make a how to video of that whole process, so others can follow and make their own nfts
+
+
+[30-Sep-20 11:15 PM] Artist#0765
+Well cool can be done
+
+
+[30-Sep-20 11:18 PM] Artist#0765
+I am good at that if someone writes the piece of code got an unused mic
+
+
+[01-Oct-20 05:11 PM] Artist#0765
+Hi @Mylo read email by any chance??
+
+
+[01-Oct-20 07:28 PM] Mylo#8306
+No. Sorry I am busy on a project.
+
+
+[01-Oct-20 07:28 PM] Mylo#8306
+New stuff is low priority atm.
+
+
+[01-Oct-20 10:31 PM] Artist#0765
+Cool can i help with it @Mylo
+
+
+[03-Oct-20 01:31 AM] Artist#0765
+Can I develop the nft? @Mylo what do you think about it? Any guidance
+
+
+[04-Oct-20 09:57 AM] Audo#5667
+would be good to first confirm the test chains support NFT tech (if that's a CC)
+
+
+[04-Oct-20 10:48 AM] Artist#0765
+Right
+
+
+[04-Oct-20 07:20 PM] Mylo#8306
+Anyone can.
+https://github.com/NOCTLJRNE/Komodo-Pokemon
+
+Was developed on MORTY.
+
+Both RICK & MORTY have CC enabled.
+
+{Embed}
+https://github.com/NOCTLJRNE/Komodo-Pokemon
+NOCTLJRNE/Komodo-Pokemon
+Komodo-Pokemon. Contribute to NOCTLJRNE/Komodo-Pokemon development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/4AUg13OsquIB92WnDXeQez58VwdcUyifaOvlfs1PomU/%3Fs%3D400%26v%3D4/https/avatars3.githubusercontent.com/u/13896688
+
+
+[04-Oct-20 11:39 PM] Artist#0765
+Did you checked mail? Can you mail links references to work on nft? @Mylo desperately need this proj
+
+
+[04-Oct-20 11:42 PM] Mylo#8306
+@Artist i don't have time sorry.  ask others in the community to help if you need help.  i will re-check after lunch.
+
+
+[04-Oct-20 11:57 PM] Artist#0765
+Ok mate
+
+
+[05-Oct-20 12:12 AM] Artist#0765
+Let me know when you check it @Mylo
+
+
+[05-Oct-20 12:50 AM] Audo#5667
+who build the pokemon NFT? I never heard about this
+
+
+[05-Oct-20 01:43 AM] PHBA2061 | VietStaking Validator#2530
+it was me
+
+{Reactions}
+👍 (2) 
+
+[05-Oct-20 08:11 AM] Churro#4832
+yea thts cool af
+
+
+[05-Oct-20 11:58 PM] Artist#0765
+I replied late to the mail didnt saw your first rep
+
+
+[07-Oct-20 12:51 AM] Artist#0765
+@Mylo there mate
+
+
+[07-Oct-20 02:12 AM] Mylo#8306
+@Artist got your latest email but have not read it.
+the bounties are for community involvement. if you can make the tokens and/or find others to do so, and get ipfs linked for some data or image, then there _might_ be a little bit of bounty. 
+
+but for ongoing community wanting designs of nft graphics, it needs people creating tokens.  currently, it does not look like that will happen.
+
+i might make nft generator service, but this is not for another 2 months.
+
+
+[07-Oct-20 02:14 AM] Artist#0765
+I thought about machine
+
+
+[07-Oct-20 02:16 AM] Artist#0765
+@Mylo check mail if there can be a possibility of machine or something
+
+
+[07-Oct-20 02:16 AM] Artist#0765
+I could work on stuff
+
+
+[07-Oct-20 02:18 AM] Artist#0765
+For you or community
+
+
+[07-Oct-20 03:18 AM] Artist#0765
+Just check mail @Mylo whnever conveneint
+
+
+[07-Oct-20 06:28 AM] Artist#0765
+Might be useful
+
+
+[07-Oct-20 08:13 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I tried to start the process by digging out of storage 2 old but I assumed working desktops. Both are experiencing video card issues. I ordered new cords and those didn't work. I tried to sync rick on my live linux Ubuntu laptop, but no luck it crashes. I've got instructions for getting rick synced, just haven't gotten working hardware yet. Not giving up yet but I'll admit, the whole ip ban in adex is demoralizing as hell
+
+
+[07-Oct-20 08:17 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Another method is to setup an amazon vps, however I am still reading up on the process. Since I've never done it or set up a ssh key it is more complicated than just using a desktop cpu
+
+
+[07-Oct-20 08:18 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Lol all this just to get access to rick cli.
+
+
+[07-Oct-20 08:19 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is there a method to access rick cli via AtomicDex or verus wallet?
+
+
+[07-Oct-20 09:43 AM] gcharang#6833
+> on my live linux Ubuntu laptop, but no luck it crashes
+these are the system requirements:
+```
+64-bit Processor
+Minimum 32GB HDD or SDD storage space
+Minimum 4GB of free RAM (8GB+ recommended)
+```
+do your systems meet them?
+
+digital ocean has excellent guides on setting up a new vps and ssh, ufw etc
+
+
+[07-Oct-20 09:43 AM] gcharang#6833
+@༺α☬丂Ӧ¢ ༒ ༻ ^
+
+
+[07-Oct-20 10:00 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Laptop is 3.8gb ram, however live linux loads everything into ram. And of course the software wasn't designed to be run this way. Verus wallet, and AtomicDex work great however as they use litemode.
+
+
+[07-Oct-20 10:01 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I was also unable to be successful changing the datadirectory for rick as I was hoping that would help install in live linux.
+
+
+[07-Oct-20 10:02 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Yes, I have read through the digital ocean guides.
+
+
+[07-Oct-20 10:04 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I am planning on trying to setup a vps. It's just am unfamiliar with the process so things that are easy for regular users is new to me and I want to know I am doing all the steps correctly.
+
+
+[07-Oct-20 10:06 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The Komodo docs are excellent in regards to setting up komodo things however.
+
+
+[07-Oct-20 10:12 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Downloading the zcash params works, but it really taxes the ram on livelinux. So I was just backing up the params from the hidden folder and then copy paste it back in on a reboot so as to have the ram fresh again. Basically absolutely the wrong way to run this software. It seemed to want to work though as when I go to sync rick I didn't immediately get an error, but it just freezes. Lol, I break stuff
+
+
+[07-Oct-20 10:18 AM] gcharang#6833
+> Komodo docs are excellent 
+thanks that was a lot of work with contributions from many people
+
+> I was also unable to be successful changing the datadirectory for rick
+were you trying to point the data directory to some exotic location, like a network device
+
+>  It's just am unfamiliar with the process so things that are easy for regular users is new to me and I want to know I am doing all the steps correctly
+my advice is to just go for it. a VPS isn't fragile. you bork it, just click a button to get fresh install. you could even use bash scripts to speed up the process if you are feeling adventurous 😄
+
+
+[07-Oct-20 10:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+./komodod -pubkey=$pubkey -ac_name=RICK -conf=/media/ubuntu/DEF8DBF5F8DBC9C3/parmbackup/.komodo -ac_supply=90000000000 -ac_reward=100000000 -ac_cc=3 -ac_staked=10 -addnode=95.217.44.58 -addnode=138.201.136.145 &
+
+
+[07-Oct-20 10:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+this is what i was using to start
+
+
+[07-Oct-20 10:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+datadir=/media/ubuntu/DEF8DBF5F8DBC9C3/parmbackup/.komodo
+
+
+[07-Oct-20 10:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+this is what I addded to rick,conf on line9
+
+
+[07-Oct-20 10:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I also dl the bootstrap from dexstats and put it in the folder I was pointing to
+
+
+[07-Oct-20 10:31 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+media is my hd, livelinx makes a virtual hd in ram, and then of course trying to sync rick crashes it
+
+{Reactions}
+👍 
+
+[07-Oct-20 10:32 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+and the blockchain is way to big to fit anyway
+
+
+[07-Oct-20 10:33 AM] gcharang#6833
+<https://docs.komodoplatform.com/basic-docs/smart-chains/smart-chain-setup/common-runtime-parameters.html#conf>
+```
+komodod -conf=/home/username/coinConfs/DEX.conf
+```
+you need to point to an actual file, not just the folder
+
+{Reactions}
+👍 
+
+[07-Oct-20 10:35 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+im going to try that right now
+
+
+[07-Oct-20 11:10 AM] Artist#0765
+You working on nft? @༺α☬丂Ӧ¢ ༒ ༻
+
+
+[07-Oct-20 11:12 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I'm trying @Artist .
+
+
+[07-Oct-20 11:14 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Livelinux keeps freezing my laptop, just tried again and no luck,  so I'm switching gears and going through the steps to do a digital ocean vps as we speak
+
+
+[07-Oct-20 11:14 AM] Artist#0765
+Thats good joe
+
+
+[07-Oct-20 11:15 AM] Artist#0765
+If you get it done I will write blogs and make a video for the community unemployed atn so the bounty for it might help
+
+
+[07-Oct-20 11:15 AM] Artist#0765
+I wish you best
+
+
+[07-Oct-20 11:16 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I've got the beginnings of a crude guide (my notes)started at the moment. I'll tag you as soon as I make some progress so you can do a write up
+
+
+[07-Oct-20 11:17 AM] Artist#0765
+Awesome lovd you
+
+
+[07-Oct-20 11:17 AM] Artist#0765
+Love*
+
+
+[07-Oct-20 11:17 AM] Artist#0765
+This could be even better
+
+
+[07-Oct-20 11:17 AM] Artist#0765
+Btw you running a node as well right?
+
+
+[07-Oct-20 11:18 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I'll need to run a rick node in order to use the cli
+
+
+[07-Oct-20 11:20 AM] Artist#0765
+Cool leave the mascot/logo for the nft that is on me as well and i was talking about notary node you won this year right?
+
+
+[07-Oct-20 11:22 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Im not a notary node, nor have I ever run one. I have only ever used lite mode, though I did build roguechain once.
+
+
+[07-Oct-20 11:22 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+https://developers.komodoplatform.com/basic-docs/antara/antara-tutorials/beginner-series-part-4.html#create-a-non-fungible-token
+
+
+[07-Oct-20 11:22 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+this is what i will be following
+
+
+[07-Oct-20 11:23 AM] Artist#0765
+Ooh cool I hope it goes good
+
+
+[07-Oct-20 11:23 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+but first is to get a working environment
+
+
+[07-Oct-20 11:24 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+im just an average person, trying to read my way through the docs
+
+
+[07-Oct-20 11:24 AM] Artist#0765
+If its done i will make it really simple for community so they could build nfts and maybe would make a video of the whole process as well
+
+
+[07-Oct-20 11:25 AM] Artist#0765
+Got a mic and stuff also know a bit of editing
+
+
+[07-Oct-20 11:25 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+if I had that video first, id probably be done. 😛
+
+
+[07-Oct-20 11:28 AM] Artist#0765
+Hahahah dont worry next time you will have that once I get rough notes and a working nft you will hear a beautiful voice explaining you
+
+
+[07-Oct-20 11:33 AM] Artist#0765
+Cause tbh I dont program well so someones gotta do a bit of rough work I am more ìnto content
+
+
+[07-Oct-20 10:37 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+good progress today, I got rick synced, made an address, tried to get faucet funds but faucet was out, got sent some rick, and I donated 1 rick back to the faucet. Tomorrow or next day will try messing with creating tokens.
+
+{Reactions}
+🚀 (3) 
+
+[07-Oct-20 11:16 PM] Artist#0765
+Lovely mate
+
+
+[09-Oct-20 03:44 AM] Artist#0765
+If something can be done about machine it would really help just like in your first mail we can wait till pbaass releases and other content generation work also joe is working on nft and I will work on its content as well as a video which grewal said about. Let.me k.now @Mylo I hope we get rid of the differences conditions are peculiar now
+
+
+[09-Oct-20 03:02 PM] sakata#4279
+Thank you @everyone!
+
+It came to a point during the discussion that the flow seemed to be better without my presence, and that all of your ideas were pouring out naturally
+
+Now that the conversation has become tired, I will wrap up upon a majority of what I can deduce from your thoughts & opinions!
+
+The proposal has some validity if it is implemented slowly, iteratively, with a strong focus on making sure that there is no real modification to the core of Komodo's community; the structure would not hold if there isn't any reason to do so - incentives are key. The aim is to avoid the blocking-off of newcomers from seeing content/ideas which could potentially bring them in as a dedicated member - while at the same time also providing private space for people to speak within the community but behind closed doors
+
+It was mentioned about grouping of people based upon certain characteristics (such as 'traders') and how that can introduce a toxic theme, while at the same time it would also be benficial to have a good definition of groups. This should be achievable, given that we can ascertain the right content to derive themes from; good language choice could also avoid certain issues (instead of traders: swappers)
+
+Communities that are objective, such as devs, may not benefit so much - this proposal might benefit general Komodo followers more; but devs themselves should be involved to some extent. Whichever route is chosen, the structure should be flexible & not defining
+
+There was concern about the amount of members we will retain following the Dex release after the influx of newcomers, having a structure in place would assist the newcomers staying due to the fact that they won't feel lost; having some organisation in place will make them feel more at home instead of being part of a 'space'
+
+
+[09-Oct-20 03:03 PM] sakata#4279
+Expression was evident for the favour of a house system. This is an easily implementable format which doesn't necessarily create vastly-distinguishable groups, but still implements a form of identity that would be hard to discriminate against. Ultimately, the final idea would only contain a maximum of 3 levels, and the idea of the Komodo team being another tier would be wrong - they would be among us not 'with' us
+
+Regarding this ordeal being overthought, the implementation is complex as the wager between what is achieved as well as abandoned is high with there being so many members that this would affect
+
+To note some of the other things that were mentioned:
+- NFTs / KMD Pokémon
+- Workplaces (separate channels for entrepreneurs, enterprise & business)
+- Community sentiment (badges & emojis)
+- Roles for contribution
+- Community management bot (daily reports, twitter/newsletter/forum-posts, ping for detail [knowledge & general info]
+- Bounties for KMD NFT ideas (IPFS)
+- Jedi structure
+- 'Newspaper' themed site
+- Search engine optimisation
+- 'Smart' community interaction, not 'hard'
+- Learning path badge
+- Domains & content-resources given to new ecosystem projects
+- Economic perspectives require more attention
+- Game funnels (dev vs members)
+- Newcomer initiation
+- Current community solution is centralised
+
+I am in talks frequently with Audo where we are discussing this proposal, and looking for the best way to kickstart all of these ideas. We are working towards getting the ball rolling by the end of Q4, lining the solutions up with releases and so forth. Just to emphasise, the movement is looking to keep the whole community included with the basis of these talks
+
+
+[09-Oct-20 03:03 PM] sakata#4279
+The other ideas mentioned only scrape the surface. I took the time to type a transcript of everything that has been mentioned, if you wish to take a peek:
+
+
+[09-Oct-20 03:03 PM] sakata#4279
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755099208637349998/764246786423783447/Komodo_Community_Structure_Transcript.txt
+
+
+[09-Oct-20 03:04 PM] sakata#4279
+Another survey will be posted within the general chat tomorrow, this one is easy & not mind-numbing. The purpose is to collect thoughts & interests for the themes that we can utilise for titles, roles, badges & so on
+
+Once again, thank you everyone - it has been a pleasure hearing all of your ideas!
+
+{Reactions}
+KMD (19) ✅ (9) ⭐ (5) 💯 (9) 🙏 (5) treasure (5) 
+
+==============================================================
+Exported 357 message(s)
+==============================================================

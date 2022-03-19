@@ -1,0 +1,1928 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / brand-architecture-discussion
+==============================================================
+
+[15-Sep-20 04:57 AM] Audo#5667 (pinned)
+@everyone **Open Discussion About Our Brand Architecture**
+
+_Let's continue the discussion we started on #atomicdefi-discussion._
+
+We went back to the drawing table during the past two weeks and made a review of the situation. The goal is to simplify our product-brand architecture so that we can do effective marketing. I would say this is the most crucial decision in 2020.
+
+We believe our proposal is solid, but of course, we might have overlooked something. We are looking for feedback about the overall structure and more naming ideas. 
+
+We can find the best decision when we come together as a community. I know there are many bright minds among us who have a lot of insight. We are eager to hear from everyone.
+
+Here is the part 1 update I shared a few days ago. 
+
+https://youtu.be/qjLa2zQGrLA
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=qjLa2zQGrLA
+Komodo Brand Architecture Review – Part I
+An ad-hoc video update for the Komodo community from the Komodo marketing team.
+
+Recorded on September 12, 2020
+https://images-ext-1.discordapp.net/external/95Kob3Nt0ONc697AWJpLYQLmiZwjCG2z78MKru9JoOc/https/i.ytimg.com/vi/qjLa2zQGrLA/sddefault.jpg
+
+{Reactions}
+KMD (6) AtomicDEX (4) 
+
+[15-Sep-20 04:58 AM] Audo#5667 (pinned)
+Just now, I recorded part 2, where I present the proposal.
+
+https://youtu.be/uKgsB3f5VPI
+
+Let's discuss!
+
+{Embed}
+Komodo Platform
+https://www.youtube.com/watch?v=uKgsB3f5VPI
+Komodo Brand Architecture Review – Part II
+An ad-hoc video update for the Komodo community from the Komodo marketing team.
+
+Recorded on September 15, 2020
+
+Watch part 1 here: https://youtu.be/qjLa2zQGrLA
+https://images-ext-1.discordapp.net/external/GS_yI2oawlqkvA6KkFWjWGtoOU1zOpmp9B0GFPXHjl0/https/i.ytimg.com/vi/uKgsB3f5VPI/sddefault.jpg
+
+{Reactions}
+KMD (4) AtomicDEX (4) 
+
+[15-Sep-20 05:55 AM] Arcodes#0356
+The way I see it, our main problem is that we have already to much products for new participants to overlook. So what we technically need is a starting point.
+
+I'd call it: The Komodo Crypto Gateway
+
+That way everybody who wants to start getting involved in crypto, intuitivly knows what app/program to download.
+
+Once there, they should have the option to put together the modules they want. Like in pinterest where you can select your interests to get the filtered results.  That way the initial gateway has the same composability like antara does. And new users get the chanch to get familiar working with modules.
+
+Modules within the gateway could be, the atomicdex for the trading crowd, the atomicdefi for the financing (investors and developers). And a toolkit module(Antara framework). We technically would also need a app store module, where developers can market their products and investors track the sales or metrics that sales are based on. A knowledge module, that provides acces to the websides of komodo that supply the participants with knowledge. A communication module (basically a chatroom). And a gaming module (culd be separated from the appstore once the appstore has a high number of games). 
+
+It would also be possible to build partnerships with other crypto participants e.g binance and provide the users of Komodo Gateway acess to their cex accounts combined with the ability to withdraw their coins from cexes to the atomic dex wallet.
+
+(Btw. The atomic dex should be called AtomicDexWallet because new user are getting told that they need a wallet to start in crypto, looking for a wallet they won't find atomic dex as an alternative right from the start but the atomic dex app pretty much is a wallet with an integrated exchange like shapshift was when I started in crypto)
+
+
+[15-Sep-20 06:12 AM] Audo#5667
+> I'd call it: The Komodo Crypto Gateway
+
+I like the name, a gateway to crypto. We are quite hesitant to rename AtomicDEX though. It already got a following and buzz. People are aware of the name.
+
+
+> (Btw. The atomic dex should be called AtomicDexWallet because new user are getting told that they need a wallet to start in crypto, looking for a wallet they won't find atomic dex as an alternative right from the start but the atomic dex app pretty much is a wallet with an integrated exchange like shapshift was when I started in crypto)
+
+This is a good point!
+
+
+[15-Sep-20 06:20 AM] richardt#2807
+I somewhat disagree. The problem is that we still have no products that are production ready and reliable enough for mass usage. The main focus right now should be to appeal to devs/testers to get some of the products to that stage.
+
+
+[15-Sep-20 06:21 AM] richardt#2807
+This requires lots of demos and presentations to get these people excited to work on these products. 
+
+Need to work the angle that there's great and promising tech, but we need help to get to the finish line. A little honesty and humility could go a long ways...
+
+
+[15-Sep-20 06:26 AM] Sebastian76#6161
+I believe, every product, has to have its own marketing because they are getting different from eachother, but with easy step over to other products of ours. Meaning, that if an user finished his/her wallet activity, to easily get over to eventually invest, speculate with the coins him or her owns. 
+Why?
+                 Because then the full focus can be given to them in terms of marketing, as well as the emphasis on different products is different every time. I mean, it is important to understand, DeFi needs a push, whereas other parts of the projects need less attention atm. Nonetheless, the focus on one product will generate hype and attraction for other investors, who can then see what more we have got beyond DeFi. This is only an example. This will also make the whole marketing strategy, more flexible and cheaper, thus competitive advantage can be gained. 
+                 Basic users tend to freak out if something is, or looks difficult, or its structure is complex, with a lot of stuff in them. You don't want to push a whole cake in their mouths, you need to feed them bit by bit.
+                 I do have some more remarks about the whole Komodo pack, but the time and space is very limited to put them in words in a chat.
+
+
+[15-Sep-20 06:31 AM] Mylo#8306
+Beyond blockchain
+
+Komodo is more than blockchain.
+It is solutions to:
+
+P2p trading
+Security for blockchain projects
+Wallet
+Education
+Tools
+
+
+[15-Sep-20 06:32 AM] Mylo#8306
+Sustainable security.
+Sustainable consensus.
+Sustainable privacy.
+Sustainable ...
+
+
+[15-Sep-20 06:34 AM] richardt#2807
+Just more words and tech jargon...
+
+
+[15-Sep-20 06:35 AM] richardt#2807
+How has that worked out so far?
+
+
+[15-Sep-20 06:41 AM] Mylo#8306
+Need pathways for adoption as suggested.
+
+I'm working on a big project, as long as the fundamentals are good for new ppl to explore or learn, it will be ok.
+
+
+[15-Sep-20 06:44 AM] Mylo#8306
+Explicit pathways.
+Ppl are busy, don't have time to stumble
+
+
+[15-Sep-20 06:48 AM] Mylo#8306
+If they are programmers, give them a wrapper lib.
+
+If they are DevOps, give them docker files.
+
+If they are c±± Devs, give them Antara tutorials.
+
+That is all the tech journeys really required for adoption.
+
+
+[15-Sep-20 06:50 AM] Mylo#8306
+How to add coin to atomicdex.
+How to make test swaps and where to PR for inclusion into coins json..
+
+
+[15-Sep-20 06:50 AM] Mylo#8306
+How to do an airdrop
+
+
+[15-Sep-20 06:51 AM] Mylo#8306
+All these recipes do not exist for new tech ppl
+
+
+[15-Sep-20 06:53 AM] Audo#5667
+> The main focus right now should be to appeal to devs/testers to get some of the products to that stage.
+> This requires lots of demos and presentations to get these people excited to work on these products. 
+
+@richardt Good points!
+
+> Need to work the angle that there's great and promising tech, but we need help to get to the finish line. A little honesty and humility could go a long ways...
+
+I hope this new product-brand hierarchy reflects that and paints an accurate description about the products we have to offer and where our focus is. It is a lot simpler from the current situation, and we would cut-down on tech terms and names we currently use.
+
+> I somewhat disagree. 
+
+I wasn't sure what you were referring to so  Ican't comment further.
+
+
+[15-Sep-20 06:58 AM] Audo#5667
+_ _
+> I believe, every product, has to have its own marketing because they are getting different from eachother
+
+@Sebastian76 yes that's how I see it. Each product-brand has a different audience that requires a different explanation. Or we have to have two product-brands for the same audience if the use case & technology stack is entirely different. Example:
+
+Komodo Custom Contracts – used to create consensus enforced contracts for UTXO blockchains
+Komodo Composed – used to launch purpose-built blockchains
+Komodo DeFi Engine – used to develop cross-protocol applications
+
+> Because then the full focus can be given to them in terms of marketing, as well as the emphasis on different products is different every time.
+
+👌
+
+
+[15-Sep-20 07:02 AM] Audo#5667
+> Ppl are busy, don't have time to stumble
+> If they are programmers, give them a wrapper lib.
+> That is all the tech journeys really required for adoption.
+
+@Mylo Agreed, and by simplifying our product-brand architecture and terminology we can create those explicit pathways and direct developers there. Right now we are lacking focus, and a lot of the technologies we have talked about aren't completely production-ready – and as a result there is no clear pathway to get started.
+
+We are thinking of listing explicit use cases on our footer, eg. "Launch a DEX"
+
+
+[15-Sep-20 07:04 AM] Audo#5667
+Pinned a message.
+
+
+[15-Sep-20 07:04 AM] Audo#5667
+Pinned a message.
+
+
+[15-Sep-20 07:31 AM] richardt#2807
+@Audo I meant I disagreed with the comment that the main problem is we have too many products and need to get them out to people. 
+It seems that building a userbase is somewhat beyond Komodo at this point since there are no production ready products yet. 
+Need to get back to the foundations and rebuild the team and community.
+
+{Reactions}
+👌 (2) 
+
+[15-Sep-20 07:32 AM] richardt#2807
+Starting with getting more devs to bring some of these products to final stages
+
+{Reactions}
+💯 (3) 
+
+[15-Sep-20 08:56 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+AtomicDexWallet, {The Komodo crypto Gateway}
+
+Name and Slogan. 
+
+@Arcodes  I like your ideas, very nice.
+
+I agree we need a starting point.
+
+{Reactions}
+👍 (3) 👊 (2) 
+
+[15-Sep-20 08:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Yes, the word wallet needs to be in the name
+
+
+[15-Sep-20 08:58 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The Komodo crypto Gateway is a great slogan to tag underneath. You immediately are given an idea of what the product is
+
+{Reactions}
+💯 (2) 
+
+[15-Sep-20 08:59 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I love the idea of modules
+
+
+[15-Sep-20 09:00 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+And maybe the modules then become the pathways that @Mylo  was talking about
+
+
+[15-Sep-20 09:01 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+At the same time for step 2 we definitely need working smartchain examples like @richardt  is suggesting
+
+
+[15-Sep-20 09:15 AM] Arcodes#0356
+> I like the name, a gateway to crypto. We are quite hesitant to rename AtomicDEX though. It already got a following and buzz. People are aware of the name.
+
+@Audo 
+
+Let me rephrase, there should be a Komodo Suite that is called a gateway. And contain the products like the dex and the composer, and an appstore.
+
+
+[15-Sep-20 09:24 AM] Arcodes#0356
+Imo we shouldn't target investors and developers as 2 single groups. Because them both need each other. We should tharget em as a group that needs each other
+
+
+[15-Sep-20 09:28 AM] Arcodes#0356
+Same goes for users actually they need the devs and investors to get the product and vice versa
+
+
+[15-Sep-20 10:22 AM] Audo#5667
+yeah, everything compliments each other at the end of the day. AtomicDEX users drive up the value of the DEX network, and that brings in devs, and then those devs develop more products, and those products bring new users in.
+
+
+[15-Sep-20 10:23 AM] Audo#5667
+if we do things right AtomicDEX should also bring a lot of new people into KMD
+
+
+[15-Sep-20 10:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+On AtomicDex pro, the header on the left that contains dashboard, wallet, dex, news, Dapps; is this not like the concept of a gateway? Seems all that is missing is  antara composer & easy access to the komodo documents(knowledge base). Dapps could easily be the app store.
+
+
+[15-Sep-20 10:46 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Let us not forget we are competing for people's attention. Having these types of attention grabbing things built in are necessary to build and keep excitement. Ie: things that give you a dopamine rush, troll chat boxes, air drops, crypto rewards, gaming, etc
+
+{Reactions}
+🤔 ☝️ (2) 
+
+[15-Sep-20 01:07 PM] Audo#5667
+I would vote for a troll chat box
+
+
+[15-Sep-20 01:27 PM] thebaselinetest#9675
+@Audo what happened to tipbots? I loved the 'make it rain' feature.
+
+
+[15-Sep-20 02:06 PM] Arcodes#0356
+> On AtomicDex pro, the header on the left that contains dashboard, wallet, dex, news, Dapps; is this not like the concept of a gateway? Seems all that is missing is  antara composer & easy access to the komodo documents(knowledge base). Dapps could easily be the app store.
+@༺α☬丂Ӧ¢ ༒ ༻ 
+
+Exactly, everything is already there, the  thing is how to communicate it.  Small things like calling dapps a dApp Store make it comparable to the google play store and apples app store, ofc. It creates the impresdion that this is playing in the same league as pepole would automatically associate dapp store withe the commen known ones. 
+
+And my proposal is kind of comunicate the goal of the roadmap. 
+
+Like: Welcome to Komodo, your gateway to crypto. Use the atomicDex and get your multicoin wallet and exchange account at once. But not only that. You also get accsess to a knowledge and an investment hub or the tools to build your own crypto projects and market them....whatever you're looking for in the crypto space. 
+...And if you don't find what you're looking for, drop a request in the chat box.
+
+Something like that and over the years and updates the user interface could shift in the software suite direction, bc some users only need the wallet everything else is to much for them. Girls for instance or old folks.  So if we want to be able to service such users, it is doable by simply adding the ability to switch the possiblities on and off. 
+Things will very likely evolve there anyway.
+
+Generally speaking, when It comes to communicating, I'd go for communicating the vision and complement it with the existing tools.
+
+
+[15-Sep-20 02:52 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+So then if we were to add a homepage that communicated the user pathways this would satisfy these requirements. The page would act as the gateway and direct the user towards their passions
+
+
+[15-Sep-20 02:56 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+For an antara user
+```Explicit pathways.
+
+If they are programmers, give them a wrapper lib.
+
+If they are DevOps, give them docker files.
+
+If they are c±± Devs, give them Antara tutorials.
+
+That is all the tech journeys really required for adoption.
+
+How to add coin to atomicdex.
+How to make test swaps and where to PR for inclusion into coins json..
+How to do an airdrop
+All these recipes do not exist for new tech ppl
+```
+
+
+[15-Sep-20 02:58 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I like the idea of letting people wrap their brand in the tech. Dash would be great community to make a dash skinned theme
+
+```We are thinking of listing explicit use cases on our footer, eg. "Launch a DEX" ```
+
+
+[15-Sep-20 03:02 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Now so far all we have been talking about is the platform. Kmd the coin hasn't been mentioned. I think it would be great to think of some of the more marketable value propositions kmd has to offer. Ie: something the average user/investor immediately understands as a value proposition. My vote would be to focus on the future coming use cases such as sidechains which will lock coins.
+
+
+[15-Sep-20 03:11 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+"AtomicCrypto Pro" 
+The Komodo crypto gateway. 
+
+⭐Featuring the AtomicDex Wallet. ⭐
+
+
+[15-Sep-20 03:19 PM] richardt#2807
+I don't think the naming necessarily has to be descriptive. It just complicates things. Just needs to be simple, somewhat catchy, and easy to remember. Think "Apple" or "Google".
+
+
+[15-Sep-20 03:20 PM] richardt#2807
+Again, going back to the idea of pushing a ready for mass usage product and something people like to use. It shouldn't need much explanation. If it does, then it's likely not good enough or intuitive enough.
+
+
+[15-Sep-20 04:09 PM] Tylor zkFS#8280
+Komodo DeFi Wallet- screw  Atomic, nobody knows the brand or what atomic even is....yes shape shift and other wallets use electrumX  wallets just like AtomicDEX... Komodo had a totally different system set up - it was my point in the conception in 2017 - why call them smart addresses? Its a DEV vs Consumer issue.....its a freaking wallet that can do multiple things including using Atomic DEX  trading ....hopefully it will be hooked up to a CEX and other new Defi technologies...
+Its a Defi Wallet created by Komodo - SCREW ATOMIC! It has NO Value to consumers nor branding....its just a technology ..... 
+~KISS~
+
+
+[15-Sep-20 04:11 PM] Tylor zkFS#8280
+Komodo Defi or DexDefi
+
+
+[15-Sep-20 04:12 PM] Tylor zkFS#8280
+Shorten the syllables
+
+
+[15-Sep-20 04:50 PM] Regnar#6164
+> what happened to tipbots? I loved the 'make it rain' feature.
+Make it rain tipbots directly to people's AtomicDEX addresses
+
+> I would vote for a troll chat box
+In my original "blueprint" I had trollbox as a dApp addon. So you could install it if you wanted. Could be a matrix server, or CC troll box, or just a link to a #trollbox channel here.
+
+
+[15-Sep-20 04:57 PM] richardt#2807
+@Tylor zkFS One could argue that it's also not just a wallet. And do we really want to add "Defi" to everything nowadays? Sounds pretty corny and unoriginal, I think.
+
+
+[15-Sep-20 04:59 PM] Tylor zkFS#8280
+As pointed out by others - wallets are the first thing you need in Crypto - this is a reflection my original opinion
+
+
+[15-Sep-20 05:00 PM] Tylor zkFS#8280
+They want Defi in a name somewhere
+
+
+[15-Sep-20 05:02 PM] Tylor zkFS#8280
+Komodo Wallet is a great start to branding - it features AtomicDEX and upcoming technologies
+
+
+[15-Sep-20 05:03 PM] Tylor zkFS#8280
+If you want a different brand name then start over
+
+
+[15-Sep-20 05:03 PM] PHBA2061 | VietStaking Validator#2530
+if the android codes of AtomicDEX are not open sources, and trading from hardware is not supported yet, then the AtomicDEX android app as a whole cannot be considered as a DEX or decentralized
+
+
+[15-Sep-20 05:03 PM] richardt#2807
+IMO I don't think the name is the problem. People just simply don't trust the app/product enough at this point to use it as their main crypto wallet
+
+
+[15-Sep-20 05:04 PM] Tylor zkFS#8280
+Conundrum
+
+
+[15-Sep-20 05:04 PM] richardt#2807
+Changing the name to have "wallet" in it doesnt really change anything
+
+
+[15-Sep-20 05:05 PM] Tylor zkFS#8280
+Newbs need wallets that can swap coin like shapeshift
+
+
+[15-Sep-20 05:06 PM] Tylor zkFS#8280
+Something I absolutely pushed for in June of 2017...maybe April
+
+
+[15-Sep-20 05:06 PM] Tylor zkFS#8280
+No liquid- no users - no product -
+
+
+[15-Sep-20 05:10 PM] Tylor zkFS#8280
+Call it whatever you want - Atomic P2P trading is a great technology, but not for grandma..... or for masses - my son asked me for BTC a couple weeks ago.....adex didn't have any makers
+
+
+[15-Sep-20 05:12 PM] Tylor zkFS#8280
+Its useless at this point - nobody cares about atomic p2p swaps- they want swaps now....right now
+
+
+[15-Sep-20 05:14 PM] Tylor zkFS#8280
+https://www.coindesk.com/crypto-com-binance-liquid-swap-defi
+
+{Embed}
+https://www.coindesk.com/crypto-com-binance-liquid-swap-defi
+Crypto.com Follows Binance With Launch of Liquid Swap DeFi Product ...
+Following the likes of Binance, Crypto.com's new Defi Swap product will provide a platform on which users can token swap and yield farm.
+https://images-ext-2.discordapp.net/external/wG_b4el8coYawo1niodCi4KkyN-0suq1IG51ZiVkbrQ/https/static.coindesk.com/wp-content/uploads/2020/05/Kris-Marszalek.jpg
+
+
+[15-Sep-20 08:12 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+If it is this hard for us to describe what komodo is then I can only imagine what someone who looks in sees. The AtomicDex pro is the main piece trying the platform together. It's modular nature makes it hard to describe. It's not just a dex or a wallet, or dapp store, or Dapps, or chatbox, forums, knowledge base, games, etc. The theme of a starting point/pathways for all this tech seems to be consistent. Maybe the name should represent a theme, something such as coming together, or multiuse, or unity.
+
+
+[15-Sep-20 08:17 PM] Crabby Paddy#6239
+The Crypto suite? 😂
+
+
+[15-Sep-20 08:17 PM] Crabby Paddy#6239
+Maybe if it allows other projects to connect their own dapps decs etc and it’s not a Komodo only suite
+
+
+[15-Sep-20 08:18 PM] Crabby Paddy#6239
+But obviously the default settings / tabs are all Komodo based
+
+
+[15-Sep-20 08:18 PM] Crabby Paddy#6239
+Then other projects can help shill by marketing “our dex / defi / dapp is now available for use on the crypto suite” or something like that
+
+
+[15-Sep-20 08:23 PM] Mylo#8306
+> Maybe if it allows other projects to connect their own dapps decs etc and it’s not a Komodo only suite
+
+it is a komodo only application until the devs decide to add external stuff.  likelihood is low imo
+
+
+[15-Sep-20 08:24 PM] Mylo#8306
+atomicdex api / mm2 allows anyone to build what they want.
+
+{Reactions}
+KMD (2) AtomicDEX (2) 
+
+[15-Sep-20 08:24 PM] ejuliano#8606
+> If it is this hard for us to describe what komodo is then I can only imagine what someone who looks in sees. The AtomicDex pro is the main piece trying the platform together. It's modular nature makes it hard to describe. 
+@༺α☬丂Ӧ¢ ༒ ༻ 
+
+like mentioned above, apple, google, tesla, they are names, and to describe what they do is not easy, they are complex..
+now to describe what komodo does, with tech that is innovative and out the box thinking for average people in the world who are oblivious to cryptos and wallets and all that, 
+or even to describe it in the crypto space, it allows users to behave in ways which are even out of the box for the current iteration of crypto & utility & behaviour
+...personally, i don't think a name needs DEFI in it, but if done right it also could be fine...  similarly, the brand name doesn't need wallet, the description can easily highlight that it functions as a wallet/storage as well...
+people will soon learn, these things do take time, and time is slow/tedious
+
+
+[15-Sep-20 08:25 PM] Mylo#8306
+when i'm less busy && when atomicdex is released, i will resume work on my web-tech based mm2 implementation and add torus (eth) wallet support because it looks pretty easy to add new wallet functionality
+
+
+[15-Sep-20 08:25 PM] Mylo#8306
+e.g. https://ikomodo.com/torus-oauth-dapp-authentication/
+
+
+[15-Sep-20 08:26 PM] ejuliano#8606
+keep plugging away @Mylo
+
+
+[15-Sep-20 08:28 PM] ejuliano#8606
+the long view is that in 20-30 years (and more?) there will be generation of young ones using these tools as children use tablets/phones today...?
+
+> atomicdex api / mm2 allows anyone to build what they want.
+
+
+[15-Sep-20 08:57 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Well they did say that AtomicDex was meant to be a reference client and that more were to come. If someone doesn't like the name or even wants to do a copy with a rebrand then why not. Call it the Dash Dex and reskin it for Dash , it only helps add liquidity.
+
+{Reactions}
+😂 👍 
+
+[15-Sep-20 09:01 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+If we are keeping it simple the brand is komodo platform and atomicDex pro is it's reference client to show off it's technology  and inspire more developers. App store is definitely motivation for developers. I'd buy a trade bot or other extra trade tools, I'm sure others would too, assuming was safe.
+
+
+[15-Sep-20 09:42 PM] Crabby Paddy#6239
+Can confirm I paid $150 for a 3 month sub to a telegram bot that would copy trade with options to a set user
+
+
+[15-Sep-20 11:13 PM] Audo#5667 (pinned)
+_Here are few takeaways I noted down from the conversaiton so far._
+
+**"Should we consider to rename AtomicDEX?"**
+ – With AtomicDEX we are referring to the end-user product
+ – Should we have the word "wallet" in the name?
+ – AtomicDEX is a reference product of Komodo Platform
+ – AtomicDEX name could be limiting to what the product could ultimately become
+ – AtomicDEX name has already some recognition among the industry (all the news) and strong recognition within the Komodo community
+ – The conclusion of our previous #atomicdefi-discussion was not to rename the product for above reasons.
+ – On our proposal we decided to keep it as an endorsed product-brand with the same name, so it has its own bucket (Komodo = products for devs, AtomicDEX = end-user product)
+
+**"How can we create stronger user journeys?"**
+ – Describing Komodo/AtomicDEX as a gateway to crypto – the user gets all he needs from a wallet to DEX.
+ – Idea to build a crypto knowledgebase and learning portal for the new users, and to ease the newcomer journey into crypto
+ – Each product-brand has a different audience that requires a different explanation. Splitting atomicdex to be on its own domain allows us to create a strong user journey.
+
+**"Do we need descriptive product-brand names"**?
+ – Long descriptive name (e.g. 'Komodo Custom Contracts') vs short, simple and catchy (e.g. one word like 'Komodo Composer')
+ – Should a developer facing product-brand be descriptive? If not, what ideas/options do we have?
+ – Could we use acronyms for these dev products? Komodo CC, Komodo DE
+
+
+[15-Sep-20 11:13 PM] Audo#5667 (pinned)
+_ _
+**"Should AtomicDEX become more than a reference product"**?
+ – We have to place our emphasis/focus on either the dev side or to the end-user side
+ – Komodo team has concluded we must place more emphasis on the dev side and create a developer community (especially for Komodo DeFi Engine)
+ – If we want to place more emphasis/resources into AtomicDEX then could we expand it with optional apps/dapps like troll box?
+
+**"What are our priorities?"**
+ – Developer adoption: showcase Komodo DeFi Engine and our reference product AtomicDEX to find developers/businesses who start building DeFi products on Komodo Platform.
+ – Tester adoption: appeal to devs/testers and rally our community behind us to polish AtomicDEX products
+ – Focus on end-users: create more user-facing features for AtomicDEX and put more resources into UX/UI
+ – Focus on community acitvities: create community market making tools that make it easy to become a market maker
+ – Other ideas?
+
+
+[15-Sep-20 11:16 PM] Audo#5667 (pinned)
+_ _
+**Komodo**
+
+Komodo is a vibrant, community-led, open-source blockchain project.
+
+**Komodo Products** _as listed on the presentation video_
+
+1. Komodo Platform – developer facing products
+`Develoers/Enterprise: Those who want to understand what Komodo has to offer and how to get started.`
+–> Komodo Custom Contracts – used to create consensus enforced contracts for UTXO blockchains
+–> Komodo Composed – used to launch purpose-built blockchains
+–> Komodo DeFi Engine – used to develop cross-protocol applications
+
+2. KMD – our community currency
+`KMD Community: Everyone who holds KMD. Tech enthusiasts who want to follow Komodo’s progress.`
+
+3. AtomicDEX – end-user facing product
+`Crypto Users: The wider crypto community who is looking for wallet and DEX solutions.`
+
+
+[15-Sep-20 11:16 PM] Audo#5667 (pinned)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755394426452574248/755673464962023434/unknown.png
+
+
+[15-Sep-20 11:16 PM] Audo#5667 (pinned)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755394426452574248/755673517189627964/unknown.png
+
+
+[16-Sep-20 12:59 AM] PHBA2061 | VietStaking Validator#2530
+If AtomicDEX is referenced as a DEX, then support for trading through hardware wallets is needed. Most DEX allow users to trade using HW wallets, w/o the need to use the app wallet, that's why they are called DEX.
+If AtomicDEX is referenced as a wallet, then security audits of the codes by 3rd parties are needed.
+
+
+[16-Sep-20 01:16 AM] gcharang#6833
+@PHBA2061 | VietStaking Validator please give me links to all the true dexes that allow trading through hardware wallets
+
+
+[16-Sep-20 01:17 AM] gcharang#6833
+also, hardware wallet support and being a DEX have no relation what so ever
+
+
+[16-Sep-20 01:36 AM] PHBA2061 | VietStaking Validator#2530
+yes it does, allow trading through HW wallet means the exchange doesn't have your funds in custody. w/o security audits of AtomicDEX, & if I'm not wrong AtomicDEX android app source codes are not open-sources, who can guarantee that AtomicDEX wallet is safe ? that's why support for HW wallets is needed.
+For instance BinanceDEX, KyberSwap, Shapeshift ... support trading through HW wallets, & any erc20 dex that has support for metamask basically supports HW wallets as well.
+
+
+[16-Sep-20 01:37 AM] gcharang#6833
+are you talking specifically about the android app or the whole mm2 and desktop stack?
+
+
+[16-Sep-20 01:38 AM] gcharang#6833
+the way you bring kyc-shapeshift here into this discussion baffles me
+
+
+[16-Sep-20 01:41 AM] gcharang#6833
+> AtomicDEX android app source codes are not open-sources
+the app is in beta and in development. if you don't want to use it, please wait till public release. then the code will be open source. there have been private audits done on the code and many public ones can be done once the app is open source
+
+
+[16-Sep-20 01:43 AM] gcharang#6833
+but, I reiterate that hardware wallet support is nice to have, but it isn't necessary for atomicDEX to be a true DEX
+
+
+[16-Sep-20 01:47 AM] gcharang#6833
+> KyberSwap allows you to sell any ERC-20 tokens you have in your wallet to buy other ERC-20 token
+Kyberswap works only on the ETH chain
+
+BinanceDEX - lol
+
+Shapeshift - is a CEX
+
+all of them support HW wallets because their architecture makes it easy. HW wallet support will come to atomicdex in the future. but, it is not a priority and it isn't necessary for it to be a true dex
+
+
+[16-Sep-20 01:48 AM] PHBA2061 | VietStaking Validator#2530
+Last time I used shapeshift was long time ago, didn't know they require kyc now, so I just include it.
+I was talking the AtomicDEX app as a whole, I agree that the underlying engine is a true DEX, but with a wallet adding on top of that, it personnally makes me a bit anxious. 
+> the app is in beta and in development. if you don't want to use it, please wait till public release. then the code will be open source. there have been private audits done on the code and many public ones can be done once the app is open source
+that's good to know, I'll be waiting for it.
+
+{Reactions}
+👍 
+
+[16-Sep-20 01:49 AM] PHBA2061 | VietStaking Validator#2530
+what's wrong with BinanceDEX ?
+
+
+[16-Sep-20 01:49 AM] gcharang#6833
+> allow trading through HW wallet means the exchange doesn't have your funds in custody
+HW wallets are not the only way to have non custodial wallets. all the typical crypto lite and native wallets are non custodial
+
+
+[16-Sep-20 01:50 AM] gcharang#6833
+> BinanceDEX
+is a proxy token dex. who holds the real coins?
+
+
+[16-Sep-20 01:52 AM] gcharang#6833
+> I was talking the AtomicDEX app as a whole, I agree that the underlying engine is a true DEX, but with a wallet adding on top of that, it personnally makes me a bit anxious. 
+this is understandable. this is the reason, the atomicdex mobile app isn't advertised to the wider public. the only reason the app is available in the app/play stores is for the testing -> feedback -> dev -> release -> testing cycle
+
+
+[16-Sep-20 02:01 AM] PHBA2061 | VietStaking Validator#2530
+yes I agree, I didn't mean HW is the only way to prove that your funds are not in custody. It's a nice to have if AtomicDEX could add support for existing wallets like Trust Wallet, just my opinion
+Proxy token dex, BEP-2 is a tradeoff, but a must have, Binance is in custody for sure, but it's auditable on chain, & it allow trading on their DEX with lower fee.
+
+
+[16-Sep-20 02:02 AM] Mylo#8306
+@Audo the "_we used our platform to build an **open source** end user  ********** product_" is good.
+not sure why _reference_ needs to be included in the sentence.
+
+
+[16-Sep-20 02:02 AM] Mylo#8306
+i would change the word enterprises to organizations.
+
+
+[16-Sep-20 02:03 AM] Mylo#8306
+blockchain use for public data and non-profits will increase
+
+
+[16-Sep-20 02:04 AM] Mylo#8306
+business enterprise adoption i do not foresee, they like ethereum, the enterprise tools don't exist in komodo for enterprise adoption.  docker/kubernetes/terraform tooling
+
+
+[16-Sep-20 02:05 AM] Audo#5667 (pinned)
+@Mylo this is the way I understand it, our strategy is either to
+
+a) focus on offering developer tools that allow others to build DEX and other DeFi products -> we highlights AtomicDEX as a _reference product_, which means that we say "we don't inted this to be a perfect product, it's more of a reference applications showcasing our technology. Our goal isn't to become the number 1 crypto wallet, but the most used platform for DEXes and DeFi products."
+
+b) focus on finding a product-market fit and developing an amazing end-user product with all the bells and whissles and amazing UX&UI. 
+
+I don't think we have the resources to do both, and that is why I am stressing that currently we are positioning AtomicDEX as a "reference product"
+
+
+[16-Sep-20 02:06 AM] Mylo#8306
+ah , clear for reference.  nice
+
+{Reactions}
+👌 
+
+[16-Sep-20 02:07 AM] Audo#5667
+if we go for b), then that's down the line at later point – and we would need more resources or a very dedicated community effort to build an open source product
+
+
+[16-Sep-20 02:08 AM] Mylo#8306
+enterprise vs organization
+
+
+[16-Sep-20 02:09 AM] Audo#5667
+Pinned a message.
+
+
+[16-Sep-20 02:09 AM] Audo#5667
+Pinned a message.
+
+
+[16-Sep-20 02:09 AM] Audo#5667
+Pinned a message.
+
+
+[16-Sep-20 02:10 AM] Audo#5667
+Pinned a message.
+
+
+[16-Sep-20 02:10 AM] Audo#5667
+Pinned a message.
+
+
+[16-Sep-20 02:10 AM] Audo#5667
+Pinned a message.
+
+{Reactions}
+👍 
+
+[16-Sep-20 02:41 AM] Arcodes#0356
+> But obviously the default settings / tabs are all Komodo based
+@Crabby Paddy 
+
+Would also would outline the interoperability capabilities of Komodo
+
+
+[16-Sep-20 03:07 AM] Arcodes#0356
+> _Here are few takeaways I noted down from the conversaiton so far._
+> 
+> **"Should we consider to rename AtomicDEX?"**
+
+
+Another option could be to release a srparate app and call that a wallet. Slight design changes no charts no otderbook. A lite version of the dex. And brand them both as "Atomic Dex by Komodo" and "Atomic Wallet by Komodo" basically establish a product line instead of a single product.
+
+
+[16-Sep-20 03:10 AM] Arcodes#0356
+I personally wouldn't put the label "DeFi" on anything that has no yield farming capabilities... it looks like a scam to the enduser
+
+
+[16-Sep-20 03:17 AM] Arcodes#0356
+> **"Do we need descriptive product-brand names"**?
+>  – Long descriptive name (e.g. 'Komodo Custom Contracts') vs short, simple and catchy (e.g. one word like 'Komodo Composer')
+>  – Should a developer facing product-brand be descriptive? If not, what ideas/options do we have?
+>  – Could we use acronyms for these dev products? Komodo CC, Komodo DE
+@Audo 
+
+A possibility would be to build product subgroups and name them  "by Komodo" just in the logo. This kind of gives everything a designer touch. And each prroduct line, the dev line, the enduser line, the investor line could have their own brands.
+
+
+[16-Sep-20 03:37 AM] Audo#5667
+We are thinking of including "by Komodo" for AtomicDEX brand. I had used the monolistic branding structure with the dev prodcuts underneath the Komodo P latform (komodoplatform.com). Let me share a a quick overview we made as we tried to understand how this direction would affect our website NAV structure.
+
+
+[16-Sep-20 03:38 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/755394426452574248/755739274208346183/unknown.png
+
+{Reactions}
+👍 (2) 
+
+[16-Sep-20 03:38 AM] Audo#5667
+☝️ komodoplatform.com NAV sturcture brainstorming from last week
+
+
+[16-Sep-20 03:39 AM] Crabby Paddy#6239
+Maybe a tab for what’s possible with Komodo and have a scrollable bar with a quick description
+
+
+[16-Sep-20 03:40 AM] Audo#5667
+Get Started (three clear call-to-actions for each audience bucket)
+ - Enterprise (one page with a CTA to reach out to us)
+ - Developer Documentation 
+ - KMD Community -> forwards to kmd.io
+
+
+[16-Sep-20 03:40 AM] Crabby Paddy#6239
+Nft, oracles, stablecoins etc
+
+
+[16-Sep-20 03:40 AM] Crabby Paddy#6239
+I find it hard to find / not there enough with what’s “possible” to build
+
+
+[16-Sep-20 03:40 AM] Crabby Paddy#6239
+Though I haven’t checked the site for a while it might’ve changed
+
+
+[16-Sep-20 03:40 AM] Crabby Paddy#6239
+😛
+
+
+[16-Sep-20 03:41 AM] Audo#5667
+> Maybe a tab for what’s possible with Komodo and have a scrollable bar with a quick description
+> Nft, oracles, stablecoins etc
+
+The idea was that the visitor hovers over the "solutions" and sees that info. For example:
+
+ - hover over "Komodo Custom Contracts" --> Komodo Oracle solution highlighted (as a reference module/implementation about what can be built)
+
+
+[16-Sep-20 03:42 AM] Audo#5667
+I think we had the same idea @Crabby Paddy !
+
+
+[16-Sep-20 03:42 AM] Audo#5667
+tried to visualize it on the above image, but it's note very clear
+
+
+[16-Sep-20 03:42 AM] Audo#5667
+it's just for brainstorming, not an actual wireframe yet
+
+
+[16-Sep-20 03:57 AM] Mylo#8306
+ok cool. enterprise refers to CTA to engage komodo team. understood.
+
+{Reactions}
+✅ 
+
+[16-Sep-20 05:01 AM] Audo#5667
+yeah, we need separate CTA for them. I am thinking a very high-level explanation about what we have to offer and then a way to reach out.
+
+
+[16-Sep-20 05:55 AM] Tylor zkFS#8280
+End user thinks "Its a wallet with some swapping options"  
+"SwapWallet" works for grandma - atomic reminds her of Hiroshima  - description can follow the brand - P2P Decentralized Exchange using Komodos Atomic Swap technology.
+Even if its not a "wallet" ....it still looks like one...
+And adding a CEX option isn't the end of the world ...
+Find me some DEVs and I'll build an end user product or several products including dexP2P to file/video sharing app.... content providers would love to be paid directly in zFUNDs..
+
+Creating snippets of code and  naming it with a brand  and expecting DEVs to come join the community is pretty far fetched....
+
+Don't brand it if you are not going to finish it....and don't brand code at the beginning  of a project - we all know things evolve and now you think you are stuck with the word atomic.... when in actuality not even .00001% of the world's population ever heard of it....
+
+Komodo P2P exchange technology is the DEV description 
+
+AtomicDEX - is a sample use case 
+
+Don't even try to create new brand names if you are not focused on end user products.
+
+Creating consumer products is my Forte.
+"Sticky Buddy Dub"
+
+Have a great day/night!!!
+
+{Reactions}
+🌛 🌞 
+
+[16-Sep-20 08:08 AM] richardt#2807
+Another suggestion I have that would be easy enough to do is to make a very open announcement about who is on which team and what are their roles. So many people have come and left over the years, no one can keep up anymore. This will help rebuild some confidence in the team/project, which is lacking quite a bit at the moment.
+
+{Reactions}
+👍 
+
+[16-Sep-20 08:10 AM] Audo#5667
+> Another suggestion I have that would be easy enough to do is to make a very open announcement about who is on which team and what are their roles. So many people have come and left over the years, no one can keep up anymore. This will help rebuild some confidence in the team/project, which is lacking quite a bit at the moment.
+@richardt for sure! I was thinking of launching some team member spotlight series. We will get to this, but not a top item on the priority list.
+
+In the meanwhile we are happy to answer any questions here on Discord 🙂
+
+
+[16-Sep-20 03:10 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@Tylor zkFS you have mentioned that you don't like the word or brand atomic, why? Can you provide a more detailed explanation please?
+@Audo  can you  please describe why you and the team feel Atomic is the strongest brand?
+
+
+[16-Sep-20 03:36 PM] Tylor zkFS#8280
+Human view the word in this way.....
+a·tom·ic
+Filter definitions by topic
+See definitions in:
+All
+Physics
+Chemistry
+adjective
+relating to an atom or atoms.
+"the atomic nucleus"
+CHEMISTRY
+(of a substance) consisting of uncombined atoms rather than molecules.
+"atomic hydrogen"
+of or forming a single irreducible unit or component in a larger system.
+"a society made up of atomic individuals pursuing private interests"
+
+
+[16-Sep-20 03:37 PM] Tylor zkFS#8280
+P2P DEX should be called Peer Exchange - plain English usually works well to avoid any brand confusion.....keep it simple stupid until the product is ready to release, all forks in the road and evolution Is complete...
+I have been designing a mop thingamajob for 3 years and still have no name....right now its a mop thingamajob...
+
+
+[16-Sep-20 07:08 PM] Tylor zkFS#8280
+Anyway..
+I bought a couple domains I haven't used...was going to have a dev create a trading bot for MM2....but the name s work in many use cases
+CryptoMise.com and CryptoMiser.com 
+Find me some DEVs if you want great end user products...
+
+{Reactions}
+👍 
+
+[16-Sep-20 10:44 PM] Audo#5667
+Hey @༺α☬丂Ӧ¢ ༒ ༻, thanks for asking! Here are my thoughts about the name AtomicDEX
+ 
+- you find us with "atomicdex" search, all results are about us
+- it has a strong recognition without the KMD community
+- it has somewhat good recognition within our industry
+- the name is mentioned in many articles we have appeared on
+- it does have a reference to atomic swaps & DEX, which doesn't hurt
+--> renaming would just create more work and bring us back to the square one.
+
+I am not completely against renaming it, but it also sounded like our community didn't want a rename. That combined with the reasons above makes the case for keeping it as AtoimcDEX a strong one. If we would rename it I feel the name should be something easily approachable, easy to pronounce, unique, and easy to remember (it's an end-user product).
+
+
+[16-Sep-20 10:48 PM] Audo#5667
+here's another example of why renaming hurts us –these type of threads and discussions are going on and popping up, some of which we might even be unaware of: https://bitcointalk.org/index.php?topic=5268930
+
+{Embed}
+https://bitcointalk.org/index.php?topic=5268930
+Atomic DEX discussion
+Atomic DEX discussion
+
+
+[16-Sep-20 11:11 PM] Mylo#8306
+for first release, why change name.
+can always make a better version 3 months later
+
+
+[16-Sep-20 11:11 PM] Mylo#8306
+"better"
+
+
+[16-Sep-20 11:13 PM] Oszy#5734
+not a single reply to the thread in a month. interesting
+
+
+[17-Sep-20 03:23 AM] Audo#5667 (pinned)
+@everyone quick poll!
+
+Do you think we are on the right track with the proposed brand architecture changes? 
+
+✅  – Yes, we are definitely on the right track
+
+🟡  – Maybe, but we should spend more time thinking about alternative options
+
+⛔ – No, the changes won't bring clarity or benefits
+_ _
+_ _
+
+{Reactions}
+✅ (27) 🟡 (6) ⛔ (2) 
+
+[17-Sep-20 03:25 AM] xxxencryptacion#3788
+While taking the CFA Examination, level 3 - the graders were looking for actionable words to give you full marks
+
+
+[17-Sep-20 03:25 AM] Mylo#8306
+what is proposed brand architecture in a short summary?
+so far so good atm.
+
+
+[17-Sep-20 03:26 AM] xxxencryptacion#3788
+KMD should stick to core product offering, INTER-OERABILITY, CC, DEX, Scalabilty, Security, Token Ecosystem = SHILL
+
+
+[17-Sep-20 03:26 AM] Audo#5667
+The pictures above are the short summary, and a bit longer 10 min summary is on the Part II of the video pinned here
+
+
+[17-Sep-20 03:26 AM] xxxencryptacion#3788
+No apologies to be made in public, ever!
+
+
+[17-Sep-20 03:26 AM] xxxencryptacion#3788
+IMHO
+
+
+[17-Sep-20 03:26 AM] Mylo#8306
+ok cool. pics are great.  just started listening to part II.  thanks @Audo
+
+{Reactions}
+👌 
+
+[17-Sep-20 03:27 AM] Audo#5667
+Pinned a message.
+
+
+[17-Sep-20 03:27 AM] xxxencryptacion#3788
+There is nearly not enough content out there regarding CryptoConditions) IMHO (language agnostic program to code tokens)
+
+
+[17-Sep-20 03:28 AM] xxxencryptacion#3788
+We are struggling ourselves and i consider myself a friend here 😄
+
+
+[17-Sep-20 03:30 AM] Audo#5667
+> While taking the CFA Examination, level 3 - the graders were looking for actionable words to give you full marks
+
+Hey @xxxencryptacion, what's CFA Examination?
+
+> KMD should stick to core product offering, INTER-OERABILITY, CC, DEX, Scalabilty, Security, Token Ecosystem = SHILL
+
+We went back to the drawing table and had long conversations with our dev team, and as the result we ended up with three developer facing product offerings outlined on the proposal. All directly branded under 'Komodo Platform' with the "master brand hierarchy" principle.
+
+
+[17-Sep-20 03:31 AM] xxxencryptacion#3788
+I am just making a point - that actionalble words are outermost important
+
+
+[17-Sep-20 03:31 AM] xxxencryptacion#3788
+That is how you manage a grand 😄 by promoting product and service
+
+
+[17-Sep-20 03:31 AM] xxxencryptacion#3788
+*brand
+
+
+[17-Sep-20 03:31 AM] Audo#5667
+> There is nearly not enough content out there regarding CryptoConditions) IMHO (language agnostic program to code tokens)
+> We are struggling ourselves and i consider myself a friend here 😄
+
+There's something coming called PyCC, that lets devs to code modules in Python language. It's indeed quite hard to develop new modules currently, and that has been the greatest bottleneck for Komodo Platform adoption.
+
+
+[17-Sep-20 03:32 AM] xxxencryptacion#3788
+> There's something coming called PyCC, that lets devs to code modules in Python language. It's indeed quite hard to develop new modules currently, and that has been the greatest bottleneck for Komodo Platform adoption.
+@Audo Thank you Sir!
+
+
+[17-Sep-20 03:32 AM] xxxencryptacion#3788
+Yes we at CRYPTOKEN Board need it badly 😄
+
+
+[17-Sep-20 03:32 AM] Audo#5667
+it's not ready yet, it's in testing, up and coming thing
+
+
+[17-Sep-20 03:33 AM] xxxencryptacion#3788
+Any sort of bespoke info / instructions - as of right now it looks a bit exotic
+
+
+[17-Sep-20 03:33 AM] Mylo#8306
+easier consensus coding definitely helps.  we are doing everything in python with the roadmap of creating PyCC stuff in the future.
+
+{Reactions}
+🦾 
+
+[17-Sep-20 03:33 AM] Oszy#5734
+> There's something coming called PyCC, that lets devs to code modules in Python language. It's indeed quite hard to develop new modules currently, and that has been the greatest bottleneck for Komodo Platform adoption.
+It's good to have these kind of dev tools, just have proper docs and PoC apps to showcase them, because right now we have a lot cool backend stuff and less to actually show off.
+
+{Reactions}
+👌 💯 
+
+[17-Sep-20 03:36 AM] xxxencryptacion#3788
+> easier consensus coding definitely helps.  we are doing everything in python with the roadmap of creating PyCC stuff in the future.
+@Mylo I do understand you guys are doing great work 😄
+
+
+[17-Sep-20 03:36 AM] xxxencryptacion#3788
+Bitcoin Cash community was suppose to roll out Mitra, to complement CashScript - they havenot and it might set them back 12 months
+
+
+[17-Sep-20 03:37 AM] xxxencryptacion#3788
+BCH ABC chain split, notwithstanding
+
+
+[17-Sep-20 03:38 AM] costa2439#3771
+https://www.binance.com/es/support/faq/04b2a5c9a8174096b3508f270404508c
+
+{Embed}
+https://www.binance.com/es/support/faq/04b2a5c9a8174096b3508f270404508c
+Binance
+https://images-ext-2.discordapp.net/external/YMuvisO374Jdr8plKe3Gf2iUQYsgIb9SzvzqavU-PZg/https/public.bnbstatic.com/images/common/ogImage.jpg
+
+
+[17-Sep-20 03:39 AM] costa2439#3771
+would something similar be possible on a smaller scale?
+
+
+[17-Sep-20 03:48 AM] Mylo#8306
+tbh i was looking forward to getting into c++ to know komodod codebase better, but if pyCC gives me time to do other stuff 👍
+
+{Reactions}
+⛱️ 👈 🤣 ✅ 
+
+[17-Sep-20 04:19 AM] sakata#4279
+> tbh i was looking forward to getting into c++ to know komodod codebase better, but if pyCC gives me time to do other stuff 👍
+We need Rust! Typescript would be great but not major 🤔
+
+
+[17-Sep-20 04:22 AM] Mylo#8306
+@sakata https://github.com/KomodoPlatform/komodo/issues/323#issuecomment-614894863
+
+{Reactions}
+🍉 (2) 💯 (2) 🙏 (2) 
+
+[17-Sep-20 04:22 AM] Mylo#8306
+read comment for rust glory
+
+
+[17-Sep-20 04:23 AM] Mylo#8306
+more info: https://ikomodo.com/portable-wasm-smart-contracts/
+
+
+[17-Sep-20 04:30 AM] Tylor zkFS#8280
+A.P.E - Atomic Peer Exchange .....just popped in my head - acronyms are good too is my only point
+
+
+[17-Sep-20 04:34 AM] Tylor zkFS#8280
+Data swaps for coin will be part of the future with subatomic swaps - APS - you get the point - Decentralized Data Storage is also a big part of the future.....
+
+
+[17-Sep-20 05:02 AM] PHBA2061 | VietStaking Validator#2530
+^ you can just store your data on cloud, like AWS, which offers high availability & durability
+
+{Reactions}
+🤔 
+
+[17-Sep-20 05:21 AM] gcharang#6833
+I think kmdkrazy was refering to trade of data for coin
+
+
+[17-Sep-20 01:02 PM] admnrqst#3932
+Just read all your comments and here is mine: 
+
+It's simple: centralize marketing and decision making. And drop the name "komodo". 
+
+The more ideas you allow to be considered the less chance for consensus. Everyone believes in his own idea which holds them back pushing other ideas forward. 
+
+Involve a single marketer and stand behind him/her.
+
+
+[17-Sep-20 01:23 PM] Tylor zkFS#8280
+Swap data and any other data you would want scrambled across a DEXP2P network  and you could rent out your partition ...and movies for coin and maybe some OnlyFans type things....all this can be done  when CEX liquid is plugged in ....the bottleneck in all DEX projects is LPs....I can't finish VaraPay until consistent swaps can be made....P2P LPs would jump in when the system is being used.....not until then will the p2p exchange be used by the masses..... 
+Liquid is the next step.. Binance APIs will solve the problem
+
+
+[17-Sep-20 01:27 PM] Tylor zkFS#8280
+All user data would get spread like Raid drives - only retrievable with the seed phrase
+
+
+[17-Sep-20 01:30 PM] 𝙊𝙞𝙣𝙠#3612
+As long as it's not a RAID0 config, that would be a mess...
+
+
+[17-Sep-20 01:43 PM] Tylor zkFS#8280
+You wouldn't be storing family pictures on the network...highly sensitive and or important data....would have 4 - 8 copies of each chunch
+
+
+[17-Sep-20 01:44 PM] Tylor zkFS#8280
+It would replace AWS
+
+
+[17-Sep-20 01:45 PM] Tylor zkFS#8280
+Websites and everything would pay with subatomic payments
+
+
+[17-Sep-20 01:48 PM] 33K#3466
+https://youtu.be/qp0HIF3SfI4
+
+{Embed}
+TED
+https://www.youtube.com/watch?v=qp0HIF3SfI4
+How great leaders inspire action | Simon Sinek
+Visit http://TED.com to get our entire library of TED Talks, transcripts, translations, personalized talk recommendations and more.
+
+ Simon Sinek presents a simple but powerful model for how leaders inspire action, starting with a golden circle and the question "Why?"  His exa...
+https://images-ext-1.discordapp.net/external/jRXIJwKADED4lJNVmQShGdBB3gCdB-L7JcRHZbmMG54/https/i.ytimg.com/vi/qp0HIF3SfI4/maxresdefault.jpg
+
+
+[17-Sep-20 01:54 PM] Tylor zkFS#8280
+https://m.alibaba.com/amp/product/1600075784189.html
+
+{Embed}
+https://m.alibaba.com/amp/product/1600075784189.html
+Source IoT edge computing gateway single board computer Intel N2940...
+IoT edge computing gateway single board computer Intel N2940 I3 5005U 7020U 4K fanless linux support TPM GPIO 4 RS232 4G LTE, You can get more details about  from mobile site on m.alibaba.com
+
+
+[17-Sep-20 01:54 PM] Tylor zkFS#8280
+Here's your "Dex in a box"
+
+
+[17-Sep-20 01:55 PM] Deleted User#0000
+@33K we have the why, we just need to execute.
+
+
+[17-Sep-20 01:56 PM] Deleted User#0000
+@PHBA2061 | VietStaking Validator i am unsure of how you can do trading from a HW wallet, unless you are trading against the house?
+
+
+[17-Sep-20 02:38 PM] shrk#2280
+Hi guys. Sorry have no time to read all posts here. I’m sure we need an official classic forum where we can chat and the main thing buy/sell and offer services for kmd. Place where user can have reputation and reviews. Current komodo portal and discord are not suitable for this.
+
+{Reactions}
+👍 (3) 
+
+[17-Sep-20 03:27 PM] PHBA2061 | VietStaking Validator#2530
+@Deleted User it's like how you sending out a tx from HW wallets, the said DEX has to support it though, you trading against a smart contract
+
+
+[17-Sep-20 10:32 PM] gcharang#6833
+@shrk a classic forum is in the works and will be online soon
+
+{Reactions}
+👍 
+
+[18-Sep-20 07:16 AM] Regnar#6164
+Sorry I haven't been able to really participate in here just yet. I'll have to read all of this first 😅
+
+
+[18-Sep-20 07:34 AM] Audo#5667
+I look forward to your ideas & feedback @Regnar !
+
+{Reactions}
+👍 
+
+[18-Sep-20 01:51 PM] xxxencryptacion#3788
+Please listen to the latest andre cronje
+
+
+[18-Sep-20 01:51 PM] xxxencryptacion#3788
+bankless podcast , a great glimpse into DeFi model #FoodForThought
+
+
+[18-Sep-20 01:52 PM] xxxencryptacion#3788
+ignore the two ethereum - ans asking the questions the are echo
+
+
+[18-Sep-20 03:25 PM] WnyCrypto#8781
+I think that a clear and concise history of the project, from its beginnings in bitcoin dark / supernet and even whatever was before that. I think members of the community would love to have a better understanding of the past. And transition such a page to a future road map. The better the community understands the projects past, present, and future roadmap. We could be better salesman for the project than simply hodlers. I’ve been involved in the crypto space since 2011, and Komodo is ideologically is  where I fit in the entire crypto space, examples being uses the security of btc with dpow (huge selling point), open to collaboration with other projects, and most importantly Open-sourced. But even as long as I’ve been involved in the space the complexity of the entire kmd platform can be a bit much and I’m not even sure I entirely grasp every aspect completely. So finding better orators within the community would be a giant plus if we had a better references and better understanding of the project as a whole, past, and future road map. Perhaps a interview going through the history of the platform could accompany such a resource page. I think we have people in the community just itching to contribute in any way we can.
+
+
+[18-Sep-20 03:25 PM] WnyCrypto#8781
+I think if more funds need to be allocated to complete the dex or speed the process along however that may be, organize a community fund or hold a money-bomb style online event where we interview people in the crypto-space, community members, and developers. Once the AtomicDEX is completed I’ll shouting about kmd and atomic swaps all day. But getting out of beta is huge.
+
+
+[18-Sep-20 08:02 PM] WnyCrypto#8781
+Also the peer to peer aspect of the dex needs to be emphasized! Especially once it is out of beta. This reminds me of my very first large scale peer to peer use-case via p2p file sharing sites in the early 2000s. For old timers like me the nostalgia of such a time that was pushing so many boundaries, not just technologically, but also culturally. I think that same opportunity resides here as the team push the technological boundaries for the AtomicDEX and the Komodo platform as a whole. With the tech and presentation, in comes the liquidity, in comes pushing the cultural boundaries via true peer to peer cross chain atomic swaps.
+
+
+[18-Sep-20 08:37 PM] WnyCrypto#8781
+Good resources on how to mine kmd would also fit into such marketing. Making it as easy as possible for new miners. Like I’ve been personally thinking of buying a z15 but I have no idea how, because I have never personally mined any crypto currency.  Having a tutorial and good resources for new miners could only help the project! The more open and welcoming the community is in every aspect the better. We need to be opening doors and helping others get involved by making things as simple to understand as possible.
+
+{Reactions}
+👍 
+
+[19-Sep-20 03:50 AM] hastrup#8742
+I think kmd should focus all there energy on one max two things that  generate revenue and be laser focused on that particular things. In my mind it should be adex. We need more income for devs and marketing.i don't think it's a good idea to to spit up our focus on explaining the million different things komodo can do. That can come later them there is income to pay for devs. In branding architecture for the public view there should only be revenue generated products and max two. Like adax and dpow everything else should be add later. (but what about my innovations) you don't innovative on a emty stomach. Keep it simple. we need revenue
+
+{Reactions}
+💯 (7) 👍 (4) 
+
+[19-Sep-20 05:41 AM] Tylor zkFS#8280
+Yeah.....👆
+
+
+[19-Sep-20 05:41 AM] Tylor zkFS#8280
+Komodo
+
+
+[19-Sep-20 07:59 AM] richardt#2807
+@hastrup Agreed. That's something I've said for a long awhile now. Komodo tries to be too many things when funding and dev resources are lacking. Many people have come and leave without really finishing anything. Adex is definitely the most promising out of all things atm.
+
+
+[19-Sep-20 08:01 AM] phm87#7395
+adex and dpow I think
+
+
+[19-Sep-20 08:02 AM] richardt#2807
+Imagine where the project would be if everyone had just been laser focused on Adex from the very beginning
+
+
+[19-Sep-20 08:04 AM] richardt#2807
+Dpow is ok. Won't be much demand/interest in that unless Komodo becomes more trusted and with significant market share
+
+
+[19-Sep-20 08:26 AM] hastrup#8742
+If adex succeed dpow will also get wide adoptions. But again when the budget is not limiteless like other projects seems to have. we need to go all in on the featur that we are have the best chance to give revenue
+
+
+[19-Sep-20 08:30 AM] hastrup#8742
+30k usd 24/h volume not bad at all
+
+
+[19-Sep-20 08:47 AM] Audo#5667
+Agreed, we cannot do everything and thus the AtomicDEX & its technology is a major focus 🎯
+
+{Reactions}
+AtomicDEX (2) rum 
+
+[19-Sep-20 08:52 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Then maybe we should make it a point that every single person on this forum use AtomicDex. And not just use, but put up orders and leave the computer on.
+
+{Reactions}
+👍 (4) 
+
+[19-Sep-20 08:54 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+It should be a goal that before the stress test, nearly every one has it installed and used it at least once.
+
+
+[19-Sep-20 08:55 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Then since the stress test will inevitably get eyes on us, we need a plan on what to do after the test in order to keep and build the users
+
+
+[19-Sep-20 09:09 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Once everyone has it installed, everyone get a friend to install. Hmmm, maybe this can get users a reward for friend sign up? Just thinking of carrots on sticks for AtomicDex user signup motivation
+
+
+[19-Sep-20 09:18 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Free NFT gift would be awesome. Everytime you open the AtomicDex, you have a free gift.🎁
+
+
+[19-Sep-20 09:20 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Just look at the chipsbot page. People using the faucet daily. AtomicDex dex linked to many faucets. You get free coinage everyday. If you open it once a day. Maybe some faucets only work when you leave adex on for 10 hrs
+
+{Reactions}
+👍 
+
+[19-Sep-20 09:21 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Want to build users👆
+
+
+[19-Sep-20 09:33 AM] WnyCrypto#8781
+We need the prices on the adex to be more competitive, so I agree liquidity is needed. also limit sells that move with market conditions would be a huge plus. A feature that would keep an order at a specific dex/cex %  that moves with market conditions. That’s a big reason I don’t flood the adex with my personal liquidity. I don’t have the time to keep manually adjusting the rates.
+
+
+[19-Sep-20 09:55 AM] polycryptoblog#1173
+Yes, that is needed for sure
+
+
+[19-Sep-20 10:12 AM] Audo#5667
+Community market making tools would be very cool, and we could rally everyone to support KMD pairs with liquidity.
+
+{Reactions}
+👍 (3) 🚀 (2) 
+
+[19-Sep-20 10:19 AM] Audo#5667
+_Information about how we plan to describe these dev products_ 👷 Work in progress ⚠️ 
+
+Komodo Composer
+```
+One-Liner: Komodo Composer enables anyone to launch an independent chain and coin instantly for free.
+
+Short Explanation: Komodo Composer enables anyone, devs and non-devs, to launch an independent chain instantly for free. Each chain comes with customizable features and its own coin. Our architecture provides built-in scalability, and users never have to pay gas fees.
+```
+
+Komodo Custom Contracts
+```
+One-Liner: Komodo Custom Contracts is a solution for adding smart contracts to chains created on Komodo Composer.
+
+Short Explanation: Komodo Custom Contracts is a set of Turing complete smart contracts that provides additional functionality for UTXO chains built on Komodo Composer. Each use only requires a single transaction fee, paid in your chain’s native coin — no gas fees required. 
+```
+
+Komodo DeFi Engine
+```
+One-Liner: Komodo DeFi Engine enables developers to build cross-chain and cross-protocol DeFi applications.
+
+Short Explanation: Komodo DeFi Engine enables developers to build cross-chain/ cross-protocol financial applications for Bitcoin, Ethereum, Komodo, and other blockchain platforms. AtomicDEX is the first set of applications built on top of the Komodo DeFi Engine.
+```
+
+{Reactions}
+👍 (7) 🚀 
+
+[20-Sep-20 03:01 AM] xxxencryptacion#3788
+> Community market making tools would be very cool, and we could rally everyone to support KMD pairs with liquidity.
+@Audo did you watch Andre Cronje podcast https://www.youtube.com/watch?v=tMhpWq2X5hY ?
+
+{Embed}
+Bankless
+https://www.youtube.com/watch?v=tMhpWq2X5hY
+YFI: Farming the Farmers | Andre Cronje
+🚀 SUBSCRIBE TO NEWSLETTER: http://bankless.substack.com/
+✊STARTING GUIDE BANKLESS: https://bit.ly/37Q17uI
+❤️JOIN PRIVATE DISCORD: https://bit.ly/2UVI10O
+🎙️SUBSCRIBE TO PODCAST: http://podcast.banklesshq.com/
+-----
+Episode: #25 - YFI: Farming the farmers with Andre Cronje 
+Augu...
+https://images-ext-2.discordapp.net/external/JEZnJQSBSChakGTD1gHfk7wVWCUXUfkLooqzob05otA/https/i.ytimg.com/vi/tMhpWq2X5hY/maxresdefault.jpg
+
+
+[20-Sep-20 03:02 AM] xxxencryptacion#3788
+he claims YFI tokens do not have monetary value, and farming will go away - as fees are eating at Curve business (not enough transactions and massive vulnerabilities), Yearn Finance is somewhat useful, UniSwap as well
+
+
+[20-Sep-20 03:03 AM] xxxencryptacion#3788
+UniSwap is a good tool , DeFi not as much IMHO
+
+
+[20-Sep-20 03:05 AM] xxxencryptacion#3788
+*and he is right! 😅
+
+
+[20-Sep-20 03:06 AM] Audo#5667
+I havne't seen that, I will check it out 👌
+
+{Reactions}
+KMD 
+
+[20-Sep-20 03:08 AM] xxxencryptacion#3788
+And you can ignore David Hoffman and Ryan Sean Adams , the interviewers - they are ETHEREUM echo people 😄
+
+
+[20-Sep-20 03:08 AM] xxxencryptacion#3788
+But Andre provided some great topics, discussion items to consider 😄
+
+
+[20-Sep-20 03:10 AM] Deleted User#0000
+What if we do a snapshot of the order book every hour and give out a community token, the closer to the midpoint of the pair the higher % you could get.
+
+{Reactions}
+🤔 
+
+[20-Sep-20 03:10 AM] Deleted User#0000
+Or KMD is given
+
+
+[20-Sep-20 03:11 AM] Deleted User#0000
+Only makers get it
+
+
+[20-Sep-20 03:11 AM] xxxencryptacion#3788
+KOMODO should only focus on their core strenghts, no need for incentives
+
+
+[20-Sep-20 03:11 AM] Deleted User#0000
+They have to boot strap the usage.
+
+
+[20-Sep-20 03:11 AM] Deleted User#0000
+Until critical mass
+
+
+[20-Sep-20 03:11 AM] xxxencryptacion#3788
+a third party can do that 😄
+
+
+[20-Sep-20 03:12 AM] xxxencryptacion#3788
+For token listing , and token ecosystem YES!
+
+
+[20-Sep-20 03:12 AM] Deleted User#0000
+Chicken and egg problem.
+
+
+[20-Sep-20 03:16 AM] xxxencryptacion#3788
+need time based, staking contracts to lock KMD into a LIQ pool - for a certain amount of time 1W 2W etc
+
+
+[20-Sep-20 03:16 AM] xxxencryptacion#3788
+Issue a KMD synthetic reward token against collateral, and you solved all of the world problems 😄
+
+{Reactions}
+⭐ 
+
+[20-Sep-20 03:22 AM] Crabby Paddy#6239
+Sounds similar to what I was thinking about. Lock kmd for kUSD @ 200-500% collateral, then use the extra active user rewards to pay the rewards and provide additional kmd liquidity in dex :abusedsmily:
+
+{Reactions}
+🦾 
+
+[20-Sep-20 03:22 AM] Crabby Paddy#6239
+I would provide liquidity to atomicdex but only if I end up gaining kmd and not other tokens
+
+
+[20-Sep-20 03:24 AM] xxxencryptacion#3788
+, yes but use a new synthetic token as grants to rewards thos staking correct! even as NFT people are addicted and will claim it LOL
+
+
+[20-Sep-20 03:24 AM] xxxencryptacion#3788
+the monetary policy of the KMD cryptocurrency should never be changed 😄
+
+
+[20-Sep-20 03:25 AM] xxxencryptacion#3788
+its perfect 😄
+
+
+[20-Sep-20 03:26 AM] xxxencryptacion#3788
+ethereum is in fee business, curve is a fee bussinss
+
+
+[20-Sep-20 03:27 AM] xxxencryptacion#3788
+komodo should be in a utility business 😄
+
+
+[20-Sep-20 03:29 AM] xxxencryptacion#3788
+> I would provide liquidity to atomicdex but only if I end up gaining kmd and not other tokens
+@Crabby Paddy No! you will get some other tokens
+
+
+[20-Sep-20 03:30 AM] xxxencryptacion#3788
+@Crabby Paddy that could be used for certain things, like free trading maybe 😉
+
+
+[20-Sep-20 03:30 AM] xxxencryptacion#3788
+and redeemable
+
+
+[20-Sep-20 03:31 AM] xxxencryptacion#3788
+that is what ShapeShift exchage does LOL - they even get people started with 1,000 native tokens every month for free trades
+
+
+[20-Sep-20 03:31 AM] Crabby Paddy#6239
+I mean hypothetically, if you lock up $100,000 worth of kmd for $20,000 kUSD
+
+
+[20-Sep-20 03:31 AM] Crabby Paddy#6239
+To stake for more kUSD (defi things)
+
+
+[20-Sep-20 03:31 AM] Crabby Paddy#6239
+The 100,000 should be generating $20,000 kmd a year
+
+
+[20-Sep-20 03:32 AM] xxxencryptacion#3788
+NO!
+
+
+[20-Sep-20 03:32 AM] Crabby Paddy#6239
+But the $20,000 kUSD if it was capped at 5% paid out in the stablecoin (how people like it)
+
+
+[20-Sep-20 03:32 AM] xxxencryptacion#3788
+not in komodo, but a new / another based komodo synthetic token
+
+
+[20-Sep-20 03:32 AM] Crabby Paddy#6239
+Then there’s additional revenue to kmd, as long as the balance is maintained 😮
+
+
+[20-Sep-20 03:33 AM] Crabby Paddy#6239
+Since it does not change the 5.1% active user reward, except the smart contract / kmd is claiming that and paying out 5% on a 1/5 value and keeping the 4/5 for use or selling or providing liquidity on dex
+
+
+[20-Sep-20 03:34 AM] xxxencryptacion#3788
+the active user reward currenlty is for 30 days I believe, to encourage new users and wallet downloads
+
+
+[20-Sep-20 03:34 AM] xxxencryptacion#3788
+a smart contract, can lock KMD sure, but any rewards must be PAID out as a new native token ...
+
+
+[20-Sep-20 03:35 AM] xxxencryptacion#3788
+otherwise you need to maintain bespoke treasury pools and l2, and I come from finance , that is even challenge for a big shoppes like BlackRock Asset Management
+
+
+[20-Sep-20 03:35 AM] xxxencryptacion#3788
+and they manage 11 trillion in AUM
+
+
+[20-Sep-20 03:40 AM] Crabby Paddy#6239
+Claimed every 30 days but resets and goes on until some time in the future (10 years or something I believe)
+
+In my scenario say kmd is $1
+If we do what factom is doing and lock in $100,000 / 100,000kmd to redeem $20,000 kUSD (5x collateral) 
+
+The person locking it can get a guaranteed 5% a year, paid in a stablecoin. Which if kmd maintains a stable value, would be 1000kmd/1000kUSD
+
+The contract holder / smart contract / team generates 5000kmd from the 100,000kmd locked up, so there’s an excess of 4000kmd after paying the interest. 
+
+The 4000kmd can be tokenised and sold off for USDT or kUSD or any stablecoin, which is then used to pay the person locking up tokens, and the sale of the kmd can be done on atomicdex, which would provide much more liquidity with Kmd-> other pairs and people running marketmakers
+
+
+[20-Sep-20 03:40 AM] Crabby Paddy#6239
+That’s how I see it anyway, I have 0 financial experience
+
+
+[20-Sep-20 03:40 AM] Crabby Paddy#6239
+So I could be 200% wrong :abusedsmily:
+
+
+[20-Sep-20 03:41 AM] Crabby Paddy#6239
+But id like to be able to do something with my kmd or have the ability to lock it up eventually :KMD:
+
+
+[20-Sep-20 03:43 AM] xxxencryptacion#3788
+everything you say is right, but you cannot issue a new monetary value against 'STAKING'
+
+
+[20-Sep-20 03:44 AM] xxxencryptacion#3788
+but a synethic token, its (1) too much work, and (2) corp mechanics are too complicated
+
+
+[20-Sep-20 03:45 AM] xxxencryptacion#3788
+You distribute it to large whales, initially (even insiders) and like Cronje says, to user wallets later
+
+
+[20-Sep-20 03:45 AM] xxxencryptacion#3788
+*weekly basis etc
+
+
+[20-Sep-20 03:46 AM] xxxencryptacion#3788
+but unlike the original KMD ICO, the new synthetic token is distibuted only to those that are locking their KMD to staking, period smart contracts 😄
+
+
+[20-Sep-20 03:48 AM] xxxencryptacion#3788
+IOHO 😄
+
+
+[20-Sep-20 03:50 AM] 𝙊𝙞𝙣𝙠#3612
+The 5% APR is an *Activity Reward*. If coins are locked into a contract, they're not active on the Komodo network, so I see no problem these funds not claiming any rewards on a monthly basis, unless the owner pulls them out of the contract every month and enters a new contract.
+
+
+[20-Sep-20 03:52 AM] xxxencryptacion#3788
+That is already been decided by the team tho 😭 you cant just make changes
+
+
+[20-Sep-20 03:52 AM] xxxencryptacion#3788
+Code is law
+
+
+[20-Sep-20 03:53 AM] 𝙊𝙞𝙣𝙠#3612
+The only way around it, is to create a contract that that allows the locked coins to be sent to its own address on set periods... You just need to code that into the contract: Code is Law...
+
+
+[20-Sep-20 03:56 AM] Crabby Paddy#6239
+1 month lock up periods then, so when people withdraw with interest it creates the reward from the tx :abusedsmily:
+
+{Reactions}
+👍 
+
+[20-Sep-20 03:58 AM] xxxencryptacion#3788
+It is better that a synthetic token (staking reward) is used to claim rewards like free trading
+
+
+[20-Sep-20 03:59 AM] xxxencryptacion#3788
+Cope the existing business es - shapeshift is doing it already on Eth, and you reward staking directly via time period smart contracts
+
+
+[20-Sep-20 03:59 AM] 𝙊𝙞𝙣𝙠#3612
+More desirable for speculators: yes. Better: that remains to be seen.
+
+
+[20-Sep-20 03:59 AM] xxxencryptacion#3788
+Plus speculation 😭💚📈💜🌟
+
+
+[20-Sep-20 03:59 AM] xxxencryptacion#3788
+Its 99.99% easier to execute ;)
+
+
+[20-Sep-20 04:00 AM] xxxencryptacion#3788
+I am building a token , it's harder than it looks 🥺🧐
+
+
+[20-Sep-20 04:01 AM] 𝙊𝙞𝙣𝙠#3612
+> reward staking directly via time period smart contracts
+That would defeat the purpose of these rewards: keep users involved in KMD, for which they are rewarded.
+This solution incentivezes parking your coins, forgetting about them and sending Komodo into oblivion...
+
+
+[20-Sep-20 04:02 AM] xxxencryptacion#3788
+You get rewards , that is the whole point
+
+
+[20-Sep-20 04:02 AM] Crabby Paddy#6239
+Imo if something similar was made
+
+
+[20-Sep-20 04:02 AM] Crabby Paddy#6239
+I’m sure the amount of active users
+
+
+[20-Sep-20 04:02 AM] Komodefi#5638
+all I see is file cabinets filling up with govt compliance paperwork. does eth get a free pass on aml or something?
+
+
+[20-Sep-20 04:02 AM] Crabby Paddy#6239
+And community would grow wildly
+
+
+[20-Sep-20 04:02 AM] Crabby Paddy#6239
+And make up for that
+
+
+[20-Sep-20 04:02 AM] 𝙊𝙞𝙣𝙠#3612
+The point is not getting rewards, the point is keeping users connected to Komodo
+
+
+[20-Sep-20 04:02 AM] xxxencryptacion#3788
+Easier said than done, you are delsign eith ETH and BTC maxipads
+
+
+[20-Sep-20 04:02 AM] Crabby Paddy#6239
+Make the most of the hype, get more community and exposure, which will long term lead to more users connected to Komodo
+
+
+[20-Sep-20 04:03 AM] 𝙊𝙞𝙣𝙠#3612
+In order to do that, these rewards have been invented.
+
+
+[20-Sep-20 04:03 AM] xxxencryptacion#3788
+They control the narrative - you need a new token - besides KMD to encourage users to jump to DEX
+
+
+[20-Sep-20 04:04 AM] Komodefi#5638
+20% rewards is a pyramid scheme
+
+
+[20-Sep-20 04:04 AM] xxxencryptacion#3788
+If I give you some free KMD tokens, right now you would lose your mind :D
+
+
+[20-Sep-20 04:04 AM] xxxencryptacion#3788
+Even as airdrop initially Stellar did that too !
+
+
+[20-Sep-20 04:06 AM] xxxencryptacion#3788
+That is what KMD 1 month reward is essentially
+
+
+[20-Sep-20 04:06 AM] Komodefi#5638
+eth wrapped token swappable 1:1 kmd on atomic dex has been discussed
+
+
+[20-Sep-20 04:07 AM] xxxencryptacion#3788
+No need to continue that into infinity
+
+
+[20-Sep-20 04:07 AM] Komodefi#5638
+5% ends in 8yrs or something
+
+{Reactions}
+🍴 
+
+[20-Sep-20 04:07 AM] xxxencryptacion#3788
+> eth wrapped token swappable 1:1 kmd on atomic dex has been discussed
+@Komodefi yes you need a BRIDGE TO UniSwap that is separate
+
+
+[20-Sep-20 04:08 AM] xxxencryptacion#3788
+Better to do it on Tron tho, the are much cheaper esp for small transactions
+
+
+[20-Sep-20 04:09 AM] xxxencryptacion#3788
+Both! 😅
+
+
+[20-Sep-20 04:09 AM] Komodefi#5638
+it's an open project. if you wanna try it... time is money.
+
+
+[20-Sep-20 04:10 AM] xxxencryptacion#3788
+We are doing cryptokenbaordapp rn 🎾📈💜🌟
+
+
+[20-Sep-20 04:10 AM] xxxencryptacion#3788
+But adding code developers - for diff strategies is a new competitive field - curve defi had that new UNI token
+
+
+[20-Sep-20 04:11 AM] xxxencryptacion#3788
+So people would code smart cotnacts and encourage more trading , more fees LOL
+
+
+[20-Sep-20 04:11 AM] xxxencryptacion#3788
+Greedy people Cronje is addicted now LOL
+
+
+[20-Sep-20 04:11 AM] Komodefi#5638
+does tron use solidity?
+
+
+[20-Sep-20 04:12 AM] xxxencryptacion#3788
+They are a carbon copy of Ethereum,  but broke up gas fees into 2 categories - 'energy' and 'bandwidth' instead of just gas GWEI
+
+
+[20-Sep-20 04:13 AM] Komodefi#5638
+oh i see. makes sense
+
+
+[20-Sep-20 04:13 AM] xxxencryptacion#3788
+And offer free transaction if you freeze some Trx in their wallet
+
+
+[20-Sep-20 04:14 AM] xxxencryptacion#3788
+JUST (tron) is the same thing as MAKER (ethereum)
+
+
+[20-Sep-20 04:14 AM] Komodefi#5638
+the dude is gonna use every syllable of his name, nice
+
+
+[20-Sep-20 04:15 AM] xxxencryptacion#3788
+Bahahha
+
+
+[20-Sep-20 04:15 AM] xxxencryptacion#3788
+😅🥺😭😭
+
+
+[20-Sep-20 04:17 AM] xxxencryptacion#3788
+But ...
+
+
+[20-Sep-20 04:17 AM] xxxencryptacion#3788
+Tron already has 5 billion in wrapped BTC,  via TRC20 soooo
+
+
+[20-Sep-20 04:17 AM] xxxencryptacion#3788
+There goes all the LIQ you would ever need :D
+
+
+[20-Sep-20 04:18 AM] Komodefi#5638
+raising awareness of the power of programmable money is great for crypto.
+
+
+[20-Sep-20 04:19 AM] xxxencryptacion#3788
+And already have PoS mining grids (private) so they already converted, eth is still old LOL
+
+
+[20-Sep-20 04:20 AM] xxxencryptacion#3788
+> raising awareness of the power of programmable money is great for crypto.
+@Komodefi you cant rush a blockchain
+
+
+[20-Sep-20 04:20 AM] xxxencryptacion#3788
+But KMD has a great chance , since it has built in token ecosystem and interoperability
+
+
+[20-Sep-20 04:21 AM] xxxencryptacion#3788
+Why is Polkadot 4 billion market cap
+
+
+[20-Sep-20 04:22 AM] xxxencryptacion#3788
+They did a 100:1 split something stady
+
+
+[20-Sep-20 04:22 AM] xxxencryptacion#3788
+Blockchain needs clients not VC money LOL
+
+
+[20-Sep-20 04:23 AM] xxxencryptacion#3788
+BSV has 5,000 internal projects but 0 outside clients LOL
+
+
+[20-Sep-20 04:23 AM] Komodefi#5638
+It's not really a winner take all game. competent devs are not easy to find
+
+
+[20-Sep-20 04:24 AM] Komodefi#5638
+I think a lot of guys are working across projects
+
+
+[20-Sep-20 04:25 AM] Komodefi#5638
+I've talked to a couple projects who said they hire out all of their blockchain dev work.
+
+
+[20-Sep-20 04:26 AM] xxxencryptacion#3788
+not Komodo - you guys are a close nit group
+
+
+[20-Sep-20 04:26 AM] xxxencryptacion#3788
+which is why it is going to work :0
+
+
+[20-Sep-20 04:26 AM] Komodefi#5638
+you have a few hundred million in eth go poof with a bad commit
+
+
+[20-Sep-20 04:27 AM] xxxencryptacion#3788
+All of Curve Finance trading strategies are vulnerable, Cronje says it himself
+
+
+[20-Sep-20 04:28 AM] xxxencryptacion#3788
+Once you build your businss model on fees, its gets out of hand quickly
+
+
+[20-Sep-20 04:28 AM] xxxencryptacion#3788
+That is why every token, needs to have utility, (and not governance that is fake news) LOL
+
+
+[20-Sep-20 04:31 AM] xxxencryptacion#3788
+And good price / yeild / apr / allocation Oracles, that is yearn finance advatage
+
+
+[23-Sep-20 05:13 AM] Audo#5667 (pinned)
+We have had this 'brand architecture' discussion for some time now, and it seems we are going in the right direction. Earlier, we made a quick pool, and these were the results:
+
+ - 26 voted that "Yes, we are definitely on the right track."
+ - 4 voted that "Maybe, but we should spend more time thinking about alternative options."
+ - 1 voted that "No, the changes won't bring clarity or benefits."
+
+We are pretty happy about this, and we also feel we are on the right track. We also synced up with our PR agency, and they also thought this is the right direction.
+
+Still, we are far from finished. We have to map out all the puzzle pieces and form a vision about the overall structure. 
+ – How do we effectively tell our story and explain what a developer can do on the Komodo Platform? 
+ – How can we explain our vision and mission to onboard new members into our community?
+ – How can we showcase our activity and put our community into the front page?
+
+We will open up the discussion again once we have actual content, such as wireframes, etc. to show.
+
+After we have everything mapped out and we are happy about it, the actual implementation can begin.
+
+_Check out the pinned messages for a summary of what has been said on this channel._
+
+{Reactions}
+KMD (8) 👍 (7) ca333 (4) 
+
+[23-Sep-20 05:13 AM] Audo#5667
+Pinned a message.
+
+
+==============================================================
+Exported 347 message(s)
+==============================================================

@@ -1,0 +1,1358 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / coqui
+Topic: A grassroots cryptocurrency originally launched in June 2017 as an educational tool, the goal of which was to help people and businesses in Puerto Rico learn how to use blockchain. Since it's creation Coqui Cash has evolved into much more capable of being used as a currency and as a public data registry. This channel is best suited to students and developers in Puerto Rico who want to learn about Blockchain and is seeking a partnership on a government level.
+==============================================================
+
+[20-Jun-18 11:48 PM] Audo#5667
+Did you guys want to bridge this channel to another discord channel? Let me know and we will get it done. I need an inivation link to your discord.
+
+
+[21-Jun-18 12:28 AM] jorian#4555
+@siu
+
+
+[21-Jun-18 06:34 AM] siu#3920
+still need to work on those things
+
+
+[30-Jun-18 10:43 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458771844946984960/462674467202793503/IMG-20180630-WA0001.jpg
+
+
+[30-Jun-18 10:43 AM] siu#3920
+You can pay pizza now with coqui cash at Rincon, PR
+
+{Reactions}
+👍 (5) 
+
+[30-Jun-18 10:43 AM] ComputerGenie#2331
+Shexy!
+
+
+[30-Jun-18 10:44 AM] ComputerGenie#2331
+When moon?
+
+
+[30-Jun-18 11:17 AM] siu#3920
+Hey guys! Join us in telegram! https://t.me/joinchat/IKi1HUe7jIHQAnBofK0Z-w
+
+{Embed}
+https://t.me/joinchat/IKi1HUe7jIHQAnBofK0Z-w
+Coqui Cash
+https://images-ext-1.discordapp.net/external/lwS4zJ1cmgnVUwch2Uw_rcq7CPgbevhb7Wp7ekp8aKk/https/cdn1.telesco.pe/file/vscsRLwF5453aj3ANi9KVVQESFMwCbPOBTIS9cYZYMkdl9Aobs-uEQuyxPf9_Oh_zBdwRREfokUTUawlgttz7hh1cOL1JfTqWfs6zt1g4TMI4pH2bu2ufYcLUCfmbquS6MsU-AsmVxL8qyVQp_K3zfIHxm-B4V20YDOhPXtyzI9qMM8U3jjS-iKsCFtoY7fYmyEZdpoRn7LXB0SMBqzYcr-0046l7MNkjjnPSS2J3gr03DhcSvaukey9yfED-4nXqmSoobiA7VlOrD-3BlCnB5vIQSdNWgM1NwVoB_RiGoqxKctrna65Yyz35ZJppKtxyhEmRXWtUjCiTtqTV4deeA.jpg
+
+
+[30-Jun-18 11:17 AM] siu#3920
+@ComputerGenie when you stop selling 😂 😂
+
+
+[30-Jun-18 11:21 AM] ComputerGenie#2331
+Yeah, that's not it, it took me 9 days to sell what I bought in 4 minutes 🙄
+
+
+[30-Jun-18 11:49 AM] siu#3920
+😂 😂
+
+
+[30-Jun-18 12:12 PM] PTYX#6840
+💪
+
+
+[01-Jul-18 07:03 AM] xRobeSx#5136
+@siu is that the first real life Coqui purchase?
+
+
+[01-Jul-18 07:21 AM] siu#3920
+First real life purchase was a lighter i bought
+
+
+[01-Jul-18 07:21 AM] siu#3920
+And after there where many purshases on a restaurant
+
+
+[01-Jul-18 07:22 AM] siu#3920
+But this is the first purshase of coqui registered in the receip
+
+{Reactions}
+😀 (2) 
+
+[01-Jul-18 07:24 AM] ComputerGenie#2331
+❤ ❤ ❤ it
+
+
+[01-Jul-18 07:25 AM] ComputerGenie#2331
+although I'm usually ass deep in tech and trading, noting in the space get me more excited then crypto being actually used a currency
+
+
+[01-Jul-18 08:03 AM] CHMEX#0686
+Just curious do they peg it to usd? I see 2.77 Coqui =17.53 usd? Did coqui just 'moon' as its refered to?
+
+
+[01-Jul-18 08:07 AM] ComputerGenie#2331
+An OTC purchase price doesn't effect the market price still being a pseudo of 20cents
+
+
+[01-Jul-18 08:07 AM] CHMEX#0686
+So almost free pizza nice
+
+
+[01-Jul-18 08:10 AM] ComputerGenie#2331
+But, it sure would be nice if there was an LP for COQUI that was buying at a pseudo of $6.33 :troll:
+
+
+[01-Jul-18 08:20 AM] CHMEX#0686
+Nothing stopps you from setting one up :doubletroll:
+
+
+[01-Jul-18 08:21 AM] ComputerGenie#2331
+_is a seller, not a $6+ buyer 😝_
+
+
+[02-Jul-18 10:17 PM] Deleted User#0000
+Had a discussion with my friend last night about an idea for a game. Its free to play and paid for by product placment, you can so silly things like use your ingame earned crypto to buy a voucher for pizza which allows you to order an actual real life pizza to be delivered. It would be super cool. Not sure how viable it is to create, but we are going to brainstorm it out before I head home.
+
+
+[03-Jul-18 05:08 AM] shrk#2280
+hi there! what was coqui price in barterdex test somewhere in january?
+
+
+[03-Jul-18 05:09 AM] ComputerGenie#2331
+who has time to remember back that far? 😖
+
+
+[03-Jul-18 05:11 AM] shrk#2280
+just found i got some from that test and trying to find kmd/coqui price. Is it possible that the price was 0.01 kmd?
+
+
+[03-Jul-18 05:11 AM] ComputerGenie#2331
+Count    Pair base / rel    basevol    relvol    avg price    high    low    last inv. price    lastprice    lasttimeUTC
+9    COQUI/KMD    2230.48894119    5.52009988    0.00247484    0.0109598    0.001054    94.788    0.0105499    2018-01-18T09:27:51Z
+
+
+[03-Jul-18 05:11 AM] ComputerGenie#2331
+best I can give ya
+
+
+[03-Jul-18 05:11 AM] ComputerGenie#2331
+https://dexstats.info/tradevolume.php
+
+
+[03-Jul-18 05:12 AM] shrk#2280
+great thanks!
+
+
+[03-Jul-18 05:15 AM] shrk#2280
+found this date https://dexstats.info/history/2018-01-22.php
+
+
+[03-Jul-18 05:16 AM] shrk#2280
+x10 🤑
+
+
+[03-Jul-18 05:16 AM] ComputerGenie#2331
+22nd about close as price on 18th
+
+
+[03-Jul-18 05:17 AM] ComputerGenie#2331
+it's an inverse 10x as KMD is ⬇ over 50% BTC
+
+
+[06-Jul-18 05:36 AM] siu#3920
+@Deleted User i actually thought about something similar
+
+
+[06-Jul-18 05:36 AM] siu#3920
+turns out that cock fights is a national sport in PR
+
+
+[06-Jul-18 05:37 AM] siu#3920
+we could do a cock fight game that is similar to tamagotchi with pokemon type of fights
+
+{Reactions}
+👍 
+
+[06-Jul-18 05:55 AM] siu#3920
+hey guys! remember to join COQUI telegram at t.me/coquicash
+
+
+[06-Jul-18 05:55 AM] siu#3920
+http://t.me/coquicash
+
+{Embed}
+http://t.me/coquicash
+Coqui Cash
+You can view and join @coquicash right away.
+https://images-ext-2.discordapp.net/external/djZ-PSKWz7qFVMHjySSbtzMN2Nju4VCtX77XR7N1clI/https/cdn1.telesco.pe/file/Vr5-jlwhAe-jQNXpKLL--JE-t8-EqMpcEcUULcLIuCYmy9n7If3vhN9sG4WGomlY9wnceS3jvUgnxHKnkTcqLXL9bPgb9UyxOMoR5ZSvjp2jRhs1g-cEApsU3sAst-Z6ngBBD8DMkkvUD5qnHCznzFq6-874KHUq9KpvSMLNih3901kSqVT9jyvbyJ_FJns3lxb8muH4T5x47UXkugAafhGJHe93eTIZIWBlGSF373TCQupMmH7hK3925pFcbUkOfO6TyOsejbGsfsPyfKplrUt3llgRgNvVoNXbce4VissN2wfNxexZUSv78hIyjxAqRXMDjTlxS6eZ_v4tgZLXFQ.jpg
+
+
+[06-Jul-18 06:05 AM] Deleted User#0000
+That would be a good idea too. My mate and I had a big discussion, his game idea is to say the least large in scope and would not be easy to make.
+
+
+[06-Jul-18 06:05 AM] Deleted User#0000
+I have no doubt it would be successful though if it could be made.
+
+
+[06-Jul-18 06:48 AM] siu#3920
+it would definitively help with adoption
+
+
+[07-Jul-18 01:24 AM] jl777c#5810
+do you want COQUI listed on a small central exchange?
+
+
+[07-Jul-18 06:05 AM] siu#3920
+@jl777c yes
+
+
+[08-Jul-18 07:13 AM] siu#3920
+Hi guys, we published our ANN https://bitcointalk.org/index.php?topic=4624910.msg41766552#msg41766552
+
+{Embed}
+https://bitcointalk.org/index.php?topic=4624910.msg41766552
+[ANN] [COQUI] [dPoW] COQUI CASH - Puerto Rico's community crytpcur...
+[ANN] [COQUI] [dPoW] COQUI CASH - Puerto Rico's community crytpcurrency
+
+{Reactions}
+👍🏿 (3) ❤ (2) 
+
+[08-Jul-18 07:13 AM] siu#3920
+Feel free to comment or ask any questions there.
+
+
+[08-Jul-18 07:43 AM] ComputerGenie#2331
+isn't the ANN generally *before* the chain hits 120k blocks? :trollface:
+
+{Reactions}
+😃 trollface (2) 
+
+[08-Jul-18 07:51 AM] PTYX#6840
+different approach CG
+
+
+[08-Jul-18 08:00 AM] siu#3920
+```  "longestchain": 120686```
+
+
+[08-Jul-18 08:00 AM] siu#3920
+almost there
+
+
+[08-Jul-18 09:26 AM] ComputerGenie#2331
+@PTYX I know, I was just teasing @siu 😛
+
+
+[08-Jul-18 09:30 AM] PTYX#6840
+yea me too
+
+
+[08-Jul-18 09:30 AM] PTYX#6840
+:trollface:
+
+{Reactions}
+👍🏿 
+
+[11-Jul-18 01:30 AM] Mylo#8306
+@siu look in #komodo-pioneers i posted some links to the unity assetstore (game dev) there might be a "fighting" style game template already where you'd only need to supply graphics for your animals.
+otherwise, there are html5 frameworks that might have samples of a fighting game that could be modded.
+check that channel - i'll keep an eye out as well for something that could fit your purpose, otherwise reddit gamedev and related subreddits might be able to source something to help
+
+
+[11-Jul-18 01:57 AM] siu#3920
+Great! Thanks!
+
+
+[13-Jul-18 10:33 AM] dukeleto#7326
+where is the Coqui explorer? http://coqui.explorer.supernet.org/ doesn't exist
+
+
+[13-Jul-18 10:34 AM] dukeleto#7326
+I found it in the ANN: https://explorer.coqui.cash/
+
+{Embed}
+https://explorer.coqui.cash/
+Komodo Explorer
+Komodo Insight. View detailed information on all komodo transactions and block. {{ $root.title + $root.titleDetail }}
+
+
+[13-Jul-18 02:27 PM] siu#3920
+https://www.elvocero.com/economia/constituyen-consejo-asesor-sobre-blockchain-en-puerto-rico/article_67c7de34-86cf-11e8-aa0c-87783a5b2338.html
+
+{Embed}
+https://www.elvocero.com/economia/constituyen-consejo-asesor-sobre-blockchain-en-puerto-rico/article_67c7de34-86cf-11e8-aa0c-87783a5b2338.html
+Constituyen Consejo Asesor sobre blockchain en Puerto Rico
+El recién constituido Consejo Asesor para el Desarrollo de Negocios basados en la tecnología blockchain celebró su primera reunión, para delinear el plan gubernamental que permitirá implementar estrategias para que
+https://images-ext-1.discordapp.net/external/hNQHGCPEm_qSWS74Fy2IS0iZrbglAy_j6Wgi2vbIq1k/%3Fresize%3D450%252C299/https/bloximages.newyork1.vip.townnews.com/elvocero.com/content/tncms/assets/v3/editorial/e/36/e36f6236-2b72-11e8-ab95-1f5dbef96bc6/5aafb0210f01d.image.jpg
+
+
+[16-Jul-18 03:34 AM] smkhound#7640
+@dukeleto - https://www.atomicexplorer.com/#/explorers the ones listed here seem to be working
+
+{Embed}
+https://www.atomicexplorer.com/
+Atomic Explorer
+Atomic Explorer
+
+
+[24-Jul-18 02:35 PM] siu#3920
+https://www.bbc.co.uk/programmes/p06flqjr
+
+{Embed}
+https://www.bbc.co.uk/programmes/p06flqjr
+Crypto Rico: Blockchain for a Broken Paradise, The Documentary Pod...
+Can a blockchain technology boom reboot the fate of hurricane ravaged Puerto Rico?
+https://images-ext-1.discordapp.net/external/uOilpJuEN_CEIfiBGc81FL5pYkwe00AiVWe-K6T9AXQ/https/ichef.bbci.co.uk/images/ic/1200x675/p06fl443.jpg
+
+{Reactions}
+👌🏽 (2) 😎 (2) 💯 (2) 
+
+[24-Jul-18 02:35 PM] siu#3920
+Coqui cash mentioned in a BBC podcast
+
+
+[26-Jul-18 07:28 AM] siu#3920
+We want to proudly announce Coqui addition to digitalprice.io
+
+
+[26-Jul-18 07:28 AM] siu#3920
+https://bitcointalk.org/index.php?topic=4624910.msg42914704#msg42914704
+
+{Embed}
+https://bitcointalk.org/index.php?topic=4624910.msg42914704
+[ANN] [COQUI] [dPoW] COQUI CASH - Puerto Rico's community crytpcur...
+[ANN] [COQUI] [dPoW] COQUI CASH - Puerto Rico's community crytpcurrency
+
+{Reactions}
+Komodo 🤘 
+
+[26-Jul-18 02:21 PM] siu#3920
+almost 500 COQUI sold on the first day 😂
+
+
+[26-Jul-18 02:21 PM] siu#3920
+second in volume in digitalprice 😂
+
+
+[28-Jul-18 08:56 PM] siu#3920
+https://youtu.be/x_6V3dSWvmQ
+
+{Embed}
+Noe 1000
+https://youtu.be/x_6V3dSWvmQ
+RESIDENTE...Hijos del Cañaveral...En Vivo..Performance
+Suscribete: https://bit.ly/2v3mJUN Desde que nacimos Nuestra mancha de plátano salió del mismo racimo Somos hermanos del mismo horizonte Todos nos criamos en...
+https://images-ext-1.discordapp.net/external/jcBuh9-aKmoyh3ZjviIkWL48UDbBkvD6uw2yq53F-9A/https/i.ytimg.com/vi/x_6V3dSWvmQ/maxresdefault.jpg
+
+
+[29-Jul-18 06:11 AM] ComputerGenie#2331
+https://image.ibb.co/g3ucjT/Capture.jpg 😭
+
+{Embed}
+https://image.ibb.co/g3ucjT/Capture.jpg
+https://images-ext-1.discordapp.net/external/6tuxlw7zwE4LS53B0VSDIkPi8fc5ta3ThJEJGEKhboI/https/image.ibb.co/g3ucjT/Capture.jpg
+
+
+[29-Jul-18 06:14 AM] CHMEX#0686
+Do you know if digitalprice is run by somebody involed at KMD?
+
+
+[29-Jul-18 06:15 AM] ComputerGenie#2331
+Short of being posted on the ANN, I never heard of it before
+
+
+[02-Aug-18 07:33 AM] siu#3920
+we want to announce our own stand alone web wallet
+
+
+[02-Aug-18 07:33 AM] siu#3920
+http://www.wallet.coqui.cash
+
+{Embed}
+http://www.wallet.coqui.cash
+Coqui Cash Web Wallet
+Coqui Cash Web Wallet
+
+{Reactions}
+shexy (2) 
+
+[27-Aug-18 07:52 AM] Seko#7408
+Which use-case has Coqui?
+
+
+[27-Aug-18 08:52 AM] siu#3920
+Coqui is a coin used in Puerto Rico
+
+
+[27-Aug-18 09:16 AM] xRobeSx#5136
+How big is crypto in general in Puerto Rico @siu ?
+
+
+[27-Aug-18 09:25 AM] siu#3920
+Not much actually. But there nany people interested and now with smart contracts it can get better adoption
+
+
+[27-Aug-18 09:31 AM] xRobeSx#5136
+yea I feel you, I was just curious how big crypto adoption in general was. Nice work with Coqui thus far 😃
+
+
+[04-Sep-18 11:49 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458771844946984960/486608672185909269/IMG_20180904_144529_921.jpg
+
+
+[04-Sep-18 11:49 AM] siu#3920
+We are going to be doing a komodo workshop next saturday!
+
+{Reactions}
+💯 
+
+[07-Sep-18 08:25 AM] siu#3920
+We are happy to announce that on block 200,000 COQUI Cash will do a fork to add Crypto Conditions Smart Contracts capability. This fork will add a fully functional Decentralized Token Exchange, capability to create you own token, a decentralized dice game, capability to create rewards programs and a decentralized faucet. 
+
+Please, if you are running a COQUI full node, update your node as soon as possible to evade a fork on your node. 
+
+The new COQUI Cash execution command looks like this: ./komodod -ac_name=COQUI -ac_supply=72000000 -ac_ccactivate=200000
+Questions or suggestions are welcomed,
+
+have a nice day everyone.
+
+{Reactions}
+👍 😎 
+
+[07-Sep-18 02:23 PM] Alright#0419
+@siu you need to do `-txindex=1 -spentindex=1` also
+
+
+[07-Sep-18 02:23 PM] Alright#0419
+excited though 😊
+
+
+[07-Sep-18 02:31 PM] siu#3920
+Oh. You dont need them if you use -ac_ccactivate :)
+
+
+[15-Sep-18 12:46 PM] siu#3920
+https://faucet.coqui.cash/
+
+{Embed}
+https://faucet.coqui.cash/
+Coqui Cash
+
+{Reactions}
+💯 👌 
+
+[15-Sep-18 12:47 PM] siu#3920
+The coqui Faucet is up and running!
+
+
+[16-Sep-18 10:55 AM] jorian#4555
+gratis! is this based on the crypto conditions faucet?
+
+
+[16-Sep-18 12:09 PM] siu#3920
+Nope
+
+
+[16-Sep-18 12:46 PM] siu#3920
+Less than 90 blocks to fork coqui
+
+
+[16-Sep-18 01:17 PM] Dyeles#8347
+Exitos desde Canada aunque soy Colombiano 😃
+
+
+[16-Sep-18 02:17 PM] siu#3920
+200k!!! https://explorer.coqui.cash/block/07153f73d4e048746b19143e00e5de47138e487ea8fbba1681fa31ce9c1c9732
+
+{Reactions}
+💯 (2) 🍾 (2) 
+
+[16-Sep-18 04:24 PM] siu#3920
+```./komodo-cli -ac_name=COQUI diceinfo d9ba7ecfaa12bb4b78dc866a81cec7d97b06c1a27840f8e768bb3555d6c5f912
+{
+  "result": "success",
+  "fundingtxid": "d9ba7ecfaa12bb4b78dc866a81cec7d97b06c1a27840f8e768bb3555d6c5f912",
+  "name": "PÍCALO",
+  "sbits": 22320366350091088,
+  "minbet": "1.00000000",
+  "maxbet": "1000.00000000",
+  "maxodds": 10,
+  "timeoutblocks": 100,
+  "funding": "19980.99990000"
+}
+```
+
+
+[16-Sep-18 04:24 PM] siu#3920
+First dice game on COQUI is live!
+
+
+[16-Sep-18 04:24 PM] siu#3920
+enjoy!
+
+
+[16-Sep-18 05:12 PM] Alright#0419
+nice 😄
+
+
+[17-Sep-18 05:36 PM] shrk#2280
+wts 1800 coqui for kmd. pm me please if interested
+
+
+[03-Oct-18 08:29 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458771844946984960/497067769452429332/20181003_111930.jpg
+
+{Reactions}
+👍 
+
+[03-Oct-18 08:35 AM] CHMEX#0686
+Looks good!
+
+
+[03-Oct-18 08:36 AM] CHMEX#0686
+Does the Pizza place still accept COQUI?
+
+
+[03-Oct-18 09:15 AM] namhoang28#4328
+@siu cool, I have bunch of coqui coin after testing app 😄
+
+
+[03-Oct-18 09:22 AM] siu#3920
+Yes, the pizza place still accepts
+
+
+[03-Oct-18 09:23 AM] SHossain#0007
+Do they deliver to Wales?
+
+
+[03-Oct-18 09:23 AM] siu#3920
+😂 😂 😂
+
+
+[03-Oct-18 09:23 AM] SHossain#0007
+We will be there for a week with @benohanlon . Not that he is not going to cook 😛
+
+
+[03-Oct-18 09:24 AM] siu#3920
+:trollface: :trollface:
+
+
+[03-Oct-18 09:24 AM] siu#3920
+We did some cooking back in barcelona last year
+
+
+[03-Oct-18 09:28 AM] SHossain#0007
+we did it in Austria as well. (mostly ca333)
+
+
+[10-Oct-18 09:50 AM] FishyGuts#5085
+Hey guys, I just want to let you know I have had a KMD tipbot made for KMD discord.  
+If you have your own discord, it will work there for KMD and you are free to use it.   
+
+DM me for the link and I will get you setup with the creator.
+
+
+[12-Oct-18 04:31 AM] siu#3920
+https://youtu.be/OSUxrSe5GbI
+
+{Embed}
+Bad Bunny
+https://youtu.be/OSUxrSe5GbI
+Bad Bunny feat. Drake - Mia ( Video Oficial )
+Bad Bunny feat. Drake - Mia Director: Fernando Lugo -Click para suscribirte: http://bit.ly/badbunnypr Follow Me / Sigueme en: Instagram: https://www.instagra...
+https://images-ext-2.discordapp.net/external/cbRV9HigCXnfvC-_IazXRfSw1PS_wrGLQZ21UjEKR0U/https/i.ytimg.com/vi/OSUxrSe5GbI/maxresdefault.jpg
+
+
+[19-Oct-18 05:44 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458771844946984960/502824283811348480/IMG-20181019-WA0014.jpg
+
+{Reactions}
+🚀 (2) 
+
+[28-Oct-18 11:35 AM] siu#3920
+Coqui is proud sponsor of https://hack-for-puerto-rico.devpost.com/
+
+{Embed}
+https://hack-for-puerto-rico.devpost.com/
+Hack for Puerto Rico
+The Hack for Puerto Rico is a 24-hour hackathon that will engage students, developers, designers, entrepreneurs and everyone willing to solve the challenges of modern Puerto Rico through technology.
+https://images-ext-1.discordapp.net/external/xQnswUDFwdfGtZDmsmgjVok5myiS5cb_64miXCpAzyQ/https/challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/704/852/datas/original.png
+
+
+[28-Oct-18 03:19 PM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458771844946984960/506230551355850752/20181028_181715.jpg
+
+{Reactions}
+🎊 
+
+[28-Oct-18 03:20 PM] siu#3920
+Here we are with the Hack for Puerto Rico blockchain prize winners! They received 5,000 COQUI
+
+
+[28-Oct-18 03:20 PM] SHossain#0007
+where is Komodo logo @siu ? :trollface:
+
+
+[28-Oct-18 03:20 PM] siu#3920
+Lol, they didnt add it ... only coqui :trollface:
+
+
+[28-Oct-18 03:21 PM] SHossain#0007
+i don't see Coqui logo either 😛
+
+
+[28-Oct-18 03:24 PM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458771844946984960/506231854186102794/20181028_182344.jpg
+
+
+[28-Oct-18 03:25 PM] SHossain#0007
+#coqui
+
+
+[28-Oct-18 03:25 PM] SHossain#0007
+💯
+
+
+[28-Oct-18 03:25 PM] SHossain#0007
+👏🏽
+
+
+[28-Oct-18 03:38 PM] siu#3920
+🚀 🚀 🚀 🚀
+
+
+[31-Oct-18 01:27 PM] siu#3920
+First oracle message in COQUI has been written celebrating the 10 year anniversary of Bitcoin: ```~/CoquiCash/src$ ./coqui-cli oraclessamples 94f1fccdc3a122f3a611144a4b243f2ebc3416f5e0bcd762a39f176f12d3719c eb5d34bc49a79d8502559855741b35da789eef5e00a684ad01d7dd5801930b14 1
+{
+  "result": "success",
+  "samples": [
+    [
+      "Hoy 31 de Octubre de 2018 se cumplen 10 años de la publicación del ensayo seminal sobre Bitcoin escrito por Satoshi Nakamoto. Estamos celebrando una década de cambio tecnológico sin precedentes. Felicida"
+    ]
+  ]
+}
+```
+
+
+[03-Nov-18 01:16 PM] siu#3920
+We want to announce a new business accepting COQUI, its name is Wanderlust Boutique. https://www.facebook.com/WanderlustBoutiqueRincon/
+
+{Embed}
+https://www.facebook.com/WanderlustBoutiqueRincon
+Wanderlust Boutique Rincon
+Wanderlust Boutique Rincon, Rincon, Puerto Rico. 219 likes · 10 talking about this · 14 were here. Boutique located in Rincón, Puerto Rico offering women's clothing, accessories, and home decor....
+https://images-ext-2.discordapp.net/external/ZZJCa32yyDpkuDR-CqGQazK6Vj-sXMhjC3o9axGs6yU/%3F_nc_cat%3D105%26_nc_ht%3Dscontent-atl3-1.xx%26oh%3Ddfe77028216b3b0a35398d98280d0472%26oe%3D5C7B4010/https/scontent-atl3-1.xx.fbcdn.net/v/t1.0-1/p200x200/35237382_250369395513516_7852881567935365120_n.jpg
+
+
+[09-Nov-18 02:42 AM] Deleted User#0000
+hi guys, is this coin minable?
+
+
+[09-Nov-18 09:24 AM] siu#3920
+it is, but reward is super low :/
+
+
+[13-Nov-18 02:08 PM] Audo#5667
+Hey Komodo Projects,
+
+Komodo team is looking to know better the projects which are building with Komodo. We ask you to fill out this form so that we get information about each project and the rapidly growing ecosystem.
+
+https://airtable.com/shrKBzMwUddQ4ggET
+
+{Embed}
+https://airtable.com/shrKBzMwUddQ4ggET
+Submit New Project - Airtable
+Fill out the "Submit New Project" form quickly and securely on Airtable.
+https://images-ext-2.discordapp.net/external/wOO2B2WaFrXKHRFn-C_52mTmmd6WpFp5YNlHI3X6hPA/https/static.airtable.com/images/oembed/airtable.png
+
+
+[14-Nov-18 04:11 AM] siu#3920
+CoquiCash is mentioned in Metro newspaper today! 🚀
+
+
+[14-Nov-18 04:11 AM] siu#3920
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458771844946984960/512238104506138624/20181114_075357.jpg
+https://cdn.discordapp.com/attachments/458771844946984960/512238105302925312/20181114_075353.jpg
+
+
+[24-Nov-18 08:52 PM] CrisF#3405
+Hi @siu , could you please tell me the params for Coqui?
+
+
+[24-Nov-18 09:13 PM] siu#3920
+komodod -pubkey=$pubkey -ac_name=COQUI -ac_supply=72000000 -ac_ccactivate=200000 -addnode=78.47.196.146 $1 &
+
+
+[24-Nov-18 09:13 PM] siu#3920
+There you gom
+
+
+[24-Nov-18 10:04 PM] CrisF#3405
+Thank you!
+
+
+[07-Dec-18 07:18 AM] lisadawn704#7637
+Hello
+
+
+[07-Dec-18 07:18 AM] lisadawn704#7637
+Please where can I Exchange coqui for bitcoin
+
+
+[07-Dec-18 07:18 AM] lisadawn704#7637
+?
+
+
+[07-Dec-18 07:19 AM] jl777c#5810
+https://digitalprice.io/order?url=coqui-btc
+
+
+[07-Dec-18 07:21 AM] lisadawn704#7637
+Okay thanks
+
+
+[07-Dec-18 07:24 AM] jl777c#5810
+very thin orderbook, but it is there. post an order, maybe it fills
+
+
+[07-Dec-18 07:32 AM] lisadawn704#7637
+The coin is temporarily suspended on the site since October 20
+
+
+[07-Dec-18 07:32 AM] lisadawn704#7637
+Any other place to trade ?
+
+
+[07-Dec-18 07:35 AM] jl777c#5810
+oh, not sure
+
+
+[07-Dec-18 12:57 PM] Acura#2748
+@lisadawn704 Try BarterDex/HyperDex or you waitin for Zaddex Exchange. They wrote that they will list every KMD Assetchain on there exchange.
+
+
+[08-Dec-18 07:50 AM] siu#3920
+coqui got delisted from digitalprice.
+
+
+[08-Dec-18 07:50 AM] siu#3920
+you can buy coqui with BarterDEX though
+
+
+[08-Dec-18 09:11 AM] siu#3920
+@lisadawn704
+
+
+[08-Dec-18 09:26 AM] lisadawn704#7637
+I want to sell
+
+
+[08-Dec-18 09:26 AM] lisadawn704#7637
+Not buy
+
+
+[08-Dec-18 09:31 AM] siu#3920
+oh
+
+
+[08-Dec-18 09:31 AM] siu#3920
+well, barterdex.
+
+
+[09-Dec-18 06:51 AM] lisadawn704#7637
+Please send link
+
+
+[09-Dec-18 06:52 AM] siu#3920
+i dont think that there is any volume now
+
+
+[09-Dec-18 06:53 AM] siu#3920
+you can use hyperdex https://github.com/atomiclabs/hyperdex/releases
+
+{Embed}
+https://github.com/atomiclabs/hyperdex/releases
+atomiclabs/hyperdex
+Grandma-Friendly Atomic Swaps. Contribute to atomiclabs/hyperdex development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/JaTLwRiiE1Y7IX4ciskCC6cfdH-GpYHGB91c-TmDteY/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/1520924
+
+
+[14-Dec-18 05:29 PM] SHossain#0007
+```
+COQUI transition at 240978 (240977, 1544831429) -> (240978, 1544832003)
+SET SAPLING ACTIVATION height.241038
+COQUI sapling activation at 241038
+```
+
+
+[16-Dec-18 12:46 PM] jl777c#5810
+please convert any COQUI in sprout zaddr ASAP, to taddr or sapling
+
+
+[17-Dec-18 05:18 AM] siu#3920
+👍
+
+
+[22-Dec-18 05:49 AM] lisadawn704#7637
+Hello
+
+
+[22-Dec-18 05:49 AM] lisadawn704#7637
+Please can you help me in trading of this coin?
+
+
+[22-Dec-18 06:25 AM] jorian#4555
+i think it only trades on hyperdex
+
+
+[22-Dec-18 06:26 AM] jorian#4555
+but i doubt there will be volume
+
+
+[02-Jan-19 10:14 AM] siu#3920
+i know. Working on it, should be up today or tomorrow
+
+
+[10-Feb-19 05:56 AM] siu#3920
+https://play.google.com/store/apps/details?id=app.coquicash
+
+{Embed}
+https://play.google.com/store/apps/details?id=app.coquicash
+Coqui Cash Mobile Wallet - Apps on Google Play
+https://images-ext-2.discordapp.net/external/rBar1ffDn6NCuI7748jhiIVF_V4leNX_ZXTLf7kpUfY/https/lh3.googleusercontent.com/RVBVKMddPzjAoW5m5wK7bf0UzSe5WifmsUTkLSVmDigRp_4n0AZYmoeFWcIA4lO0_Q
+
+
+[10-Feb-19 05:57 AM] siu#3920
+Thanks to the the collaboration of Pungo and Techloverhd.com we finally are able to publish our very own mobile wallet
+
+{Reactions}
+💯 (2) 😃 (2) 👍🏽 (2) shexy (2) 🐙 
+
+[10-Feb-19 11:59 PM] FishyGuts#5085
+So Bdex the only spot for now?   I wanna check out this Wanderlust Boutique! 😛
+
+
+[11-Feb-19 05:40 AM] siu#3920
+Yes, only bdex
+
+
+[11-Feb-19 05:40 AM] siu#3920
+on mm2 now, btw
+
+
+[11-Feb-19 09:10 PM] Deleted User#0000
+WTS 7.76 Coqui for any amount. Make an offer. ARRR preferred
+
+
+[15-Feb-19 07:01 PM] shrk#2280
+Hi! is the project still live and developing?
+
+
+[16-Feb-19 06:21 AM] siu#3920
+Yes, slowly but surely.
+
+
+[16-Feb-19 06:22 AM] siu#3920
+Looking to collaborate with other projects here in PR.
+
+
+[16-Feb-19 10:04 AM] shrk#2280
+okay, thanks for reply
+
+
+[27-Mar-19 08:01 AM] lisadawn704#7637
+Hello
+
+
+[27-Mar-19 08:01 AM] lisadawn704#7637
+Where can I sell coqui
+
+
+[28-Mar-19 01:24 AM] siu#3920
+@lisadawn704 barterdex
+
+
+[28-Mar-19 01:24 AM] siu#3920
+Price got a little crazy from a bug in the ticker though
+
+
+[29-Mar-19 02:08 PM] siu#3920
+We want to give a big thank you to @PTYX and #chainzilla for adding COQUI to Chameleon Mobile wallet!
+
+{Attachments}
+https://cdn.discordapp.com/attachments/458771844946984960/561295597055901697/Screenshot_20190329-165958_chameleonmobile.jpg
+
+{Reactions}
+🐔 👌 (3) 
+
+[29-Mar-19 02:09 PM] siu#3920
+Now you will be able to hold your coqui with style!
+
+
+[30-Mar-19 07:04 AM] Cryptosaurus | $ARRR#2742
+Prices indeed got a little crazy 😅
+
+
+[30-Mar-19 07:05 AM] Cryptosaurus | $ARRR#2742
+My agama mobile says 5500 dollar 😂
+
+
+[08-Apr-19 08:22 AM] Instel7#1416
+https://www.youtube.com/watch?v=Oa6qtsMzAIw
+
+{Embed}
+ChainZilla
+https://www.youtube.com/watch?v=Oa6qtsMzAIw
+Coqui Cash on Chameleon Pay
+A small demonstration for the Coqui community on how to use their token in Chameleon Pay v2.0
+https://images-ext-1.discordapp.net/external/z8rAeymHTXxePVRedXhK-P0DFrDj93wv_tfwBqR08k8/https/i.ytimg.com/vi/Oa6qtsMzAIw/hqdefault.jpg
+
+{Reactions}
+shexy 
+
+[25-May-19 11:33 PM] Deleted User#0000
+Hi here :).
+Barterlly is now open on BETA mode, and will provide tools for users and CoinOwners to perform OTC trades in a safe way.
+Any KMD assetchain dPowed will be listed, and supported, for free.
+Other coins not already listed can submit a listing application at : https://barterlly.typeform.com/to/iqpS1H
+During the BETA, Barterlly won't charge any fee other than the transaction ones. after the release we will charge 1% on top of every transaction.
+Our goal is to provide premium tools for coins listed on the platform. (Discord swapbot, twitter integration, public orders, wallet integration, API, custom templating, and many more).
+Feel free to join us on our Discord.
+https://discord.gg/RHc95zw
+The app link is located at : https://app.barterlly.io
+We are open to suggestions, and partnerships.
+
+See you soon !
+
+Barterlly's team
+
+{Embed}
+https://barterlly.typeform.com/to/iqpS1H
+Barterlly-Listing
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-1.discordapp.net/external/j4WRBwI9aqFsv-lpkCn64Fr0EvicWgWYGmO4DedtKOM/https/images.typeform.com/images/FYUps4mFKPYK
+
+{Reactions}
+👍 (3) 💯 (3) shexy (2) Komodo (3) 
+
+[18-Jun-19 05:40 AM] Acura#2748
+New Digital Price market: COQUI/KMD $COQUI
+
+
+[18-Jun-19 06:37 AM] siu#3920
+https://digitalprice.io/order?url=coqui-btc
+
+
+[18-Jun-19 06:37 AM] siu#3920
+Old coqui chain has been deprecated and a new chain has been created.
+
+
+[18-Jun-19 06:38 AM] siu#3920 (pinned)
+new coqui chain ./komodod -ac_name=COQUICASH -ac_supply=72000000 -ac_reward=7200000000 -ac_staked=50 -ac_halving=420000 -ac_cc=2 -ac_ccenable=227,235,236,241 -addnode=78.47.108.168 &
+
+
+[18-Jun-19 06:38 AM] siu#3920
+Pinned a message.
+
+
+[18-Jun-19 06:39 AM] siu#3920
+If you used native chain, only way to access it now is by command line. Agama native wont work.
+
+
+[18-Jun-19 06:39 AM] siu#3920
+Woth lite mode you can your Chameleon Pay preferably
+
+
+[18-Jun-19 06:40 AM] siu#3920
+Coqui will now be 50/50 POW/POS
+
+
+[16-Aug-19 02:38 PM] Oszy#5734
+what's up with this project?
+
+
+[21-Aug-19 10:29 AM] at#4177
+how to stake?
+
+
+[21-Aug-19 09:59 PM] CHMEX#0686
+komodo-cli -ac_name=COQUICASH setgenerate true 0
+
+
+[12-Oct-19 05:42 AM] rus#0782
+who knows the link to the wallet?
+
+
+[15-Oct-19 05:40 AM] siu#3920
+Its available in chameleon pay
+
+
+[15-Nov-19 08:11 PM] mun3Q#2371
+Hello everyone! Just wanted to let everyone know that there is a hackathon going on right now at UPR Mayaguez where a total of 10,000 coquis will be given out amongst the top three teams. We will be making a push as a community to grow this network locally and organically amongst students in Puerto Rico.
+
+Check out the devpost here. Will be posting more info as time goes on. Thank you. 
+
+https://crea-por-puerto-rico-makeathon.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover
+
+{Embed}
+https://crea-por-puerto-rico-makeathon.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover
+Crea por Puerto Rico Makeathon
+CREA SOLUCIONES INNOVADORAS EN 24 HORAS
+https://images-ext-2.discordapp.net/external/qh_5PjLvEfFijk0wT0Yar4Y4-OsxmABxyj15B_L-H5g/https/challengepost-s3-challengepost.netdna-ssl.com/photos/production/challenge_thumbnails/000/889/662/datas/original.png
+
+{Reactions}
+👍 (3) 
+
+[21-Nov-19 01:34 AM] siu#3920
+Great stuff coming along for COQUI in PR!
+
+
+[21-Nov-19 01:46 AM] Oszy#5734
+What what what? 😄
+
+
+[23-Nov-19 04:17 AM] Oszy#5734
+@siu  on https://coqui.cash/ still old  Agama is listed
+
+{Embed}
+https://coqui.cash/
+Coqui Cash - Forging a new path of open source community
+Coqui Cash is a community driven cryptocurrency that wants to expand the horizons of blockchain technology education in Puerto Rico.
+https://images-ext-2.discordapp.net/external/TT5XBKgVG2YC8KBVGwLzRCMGpdf1yiO0HqJOhpqdxAw/https/coqui.cash/wp-content/uploads/2018/02/Logo-A%404x.png
+
+
+[23-Nov-19 04:17 AM] Oszy#5734
+Also could add altsbit as exchange
+
+
+[09-Dec-19 01:09 PM] siu#3920
+Yes, will do. Sorry
+
+
+[28-Jan-20 02:28 PM] BoBot-LunaMaxi#8821
+2105 COQUI for sale if anyone is interested
+
+
+[28-Jan-20 02:31 PM] CHMEX#0686
+There is a market on altbits gives you about 0.12 KMD
+
+
+[28-Jan-20 02:32 PM] BoBot-LunaMaxi#8821
+total or .12 per coqui
+
+
+[28-Jan-20 02:32 PM] CHMEX#0686
+Total
+
+
+[28-Jan-20 02:32 PM] BoBot-LunaMaxi#8821
+damn lol
+
+
+[28-Jan-20 02:33 PM] CHMEX#0686
+Per - some people would retire hehe
+
+
+[28-Jan-20 02:41 PM] BoBot-LunaMaxi#8821
+lol
+
+
+[29-Jan-20 02:54 AM] cipi#4502
+simply post your offer in https://github.com/KomodoPlatform/atomicDEX-API and wait
+COQUI is supported: https://github.com/jl777/coins/blob/master/coins#L3067
+just like any other KMD AC
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-API
+KomodoPlatform/atomicDEX-API
+This is the official AtomicAPI (atomicDEX API) repository - KomodoPlatform/atomicDEX-API
+https://images-ext-2.discordapp.net/external/RDvx2WIoH0iRzE_70DuHLDOM6rqONFcnMd4HT0XBnOI/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/21276113
+
+{Embed}
+https://github.com/jl777/coins/blob/master/coins
+jl777/coins
+coin parameters and all files needed for GUI support - jl777/coins
+https://images-ext-1.discordapp.net/external/ZluS_vPUp--Ma1oFnNdhU0YaB0OEwzwGFNPA2N_uSAk/%3Fs%3D400%26v%3D4/https/avatars2.githubusercontent.com/u/5962559
+
+
+[11-Feb-20 08:22 AM] coolermaster#4963
+Altsbit was hacked and will be closing down many btc and alts stolen!
+
+
+[22-Apr-20 02:17 AM] coolermaster#4963
+I have atomicdex on android but i dont see coqui listed i have some in my agama wallet id like to move if possible?
+
+
+[22-Apr-20 02:20 AM] coolermaster#4963
+Would anyone want to swap coqui for kmd??? i forget how much if anyone interested ill check
+
+
+[22-Apr-20 06:46 AM] cipi#4502
+https://komodod.com/atomicdex/orderbook?pair=COQUI-KMD
+but no buy orders...
+
+
+[22-Apr-20 06:47 AM] CHMEX#0686
+COQUI=COQUICASH?
+
+
+[22-Apr-20 06:47 AM] CHMEX#0686
+or the old COQUI?
+
+
+[22-Apr-20 07:23 AM] cipi#4502
+yes COQUI=COQUICASH: https://github.com/KomodoPlatform/coins/blob/master/coins#L629
+
+
+[22-Apr-20 07:24 AM] cipi#4502
+the new COQUI
+
+
+[22-Apr-20 08:59 AM] coolermaster#4963
+Yes coqui cash........ is it possible to use atomic dex straight from agama wallet as coqui is not listed on android??
+
+
+[29-Apr-20 03:24 PM] phm87#7395
+using atomicdex-api, you can enable coquicash but I don't expect to see any orders. There was a faucet to get free coquicash
+
+
+[30-Apr-20 04:24 AM] Oszy#5734
+there's still one same as where rick and morty
+
+
+[30-Apr-20 04:24 AM] Oszy#5734
+i have a lot to sell if anybody wants some 😄
+
+
+[25-May-20 12:36 PM] coolermaster#4963
+is latest atomic dex api v1.0.1172 gonna try sell my 14000 coqui lol
+
+
+[14-Dec-20 01:36 AM] KMD TipBot#0077
+
+{Embed}
+TipBot Help
+`!kmdtip`
+Displays this message
+`!kmdtip info`
+Displays coin information
+`!kmdtip balance`
+Displays your balance
+`!kmdtip deposit`
+Displays your deposit address
+`!kmdtip withdraw <address> <amount|all>`
+Withdraws the entered amount to a KMD address of your choice, e.g.
+`!kmdtip withdraw GLM3n7yMFmYkas2AgHKqE6EMJW5VsUXtQn 5.20`
+*Note: Minimal amount to withdraw: 0.1 KMD. A withdrawal fee of 0.02 KMD will be automatically deducted from the amount.* *Additionally, 10% of deducted withdrawal fee will be donated to the bot author to help continual development.*
+`!kmdtip <@user> <amount|all> [private]`
+Tips the @ mentioned user with the desired amount, e.g.
+`!kmdtip @test123456#7890 1.00`
+`!kmdtip rain <amount|all> [<@role>]`
+Rains the desired amount onto all online users  (optionally, within specified role), e.g.
+`!kmdtip rain 10.00`, `!kmdtip rain 10.00 @Supporters`
+`!kmdtip soak <amount|all> [<@role>]`
+Soaks the desired amount onto all online and idle users (optionally, within specified role), e.g.
+`!kmdtip soak 5.00`, `!kmdtip soak 5.00 @Supporters`
+`!kmdtip flood <amount|all> [<@role>]`
+Floods the desired amount onto all users (*including offline users*) (optionally, within specified role), e.g.
+`!kmdtip flood 5.00`, `!kmdtip flood 5.00 @Supporters`
+`!kmdtip thunder <amount|all> [<@role>]`
+Tips a random lucky online user with the amount (optionally, within specified role), e.g.
+`!kmdtip thunder 5.00`, `!kmdtip thunder 5.00 @Supporters`
+`!kmdtip thunderstorm <numberOfUsers> <amount|all> [<@role>]`
+Tips a specified number (max: 50) random lucky online users with part of the amount (optionally, within specified role), e.g.
+`!kmdtip thunderstorm 10 5.00`, `!kmdtip thunderstorm 10 5.00 @Supporters`
+`!kmdtip hurricane <numberOfUsers> <amount|all> [<@role>]`
+Tips a specified number (max: 50) random lucky online and idle users with part of the amount (optionally, within specified role), e.g.
+`!kmdtip hurricane 10 5.00`, `!kmdtip hurricane 10 5.00 @Supporters`
+`!kmdtip faucet`
+Gets an amount from the faucet (applicable every 4 hours)
+`!kmdtip listtransactions <numberOfDays>`
+Generates an audit log of user's transactions for the last specified number of days
+`!kmdtip blockheight`
+Gets the current block height and block hash
+`!kmdtip peers`
+Generates an `addnode` list
+Sapphire TipBot by sclear#0274
+
+
+[14-Dec-20 01:37 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Please use #🤑┃tip-bot to talk to TipBot.
+
+
+[14-Dec-20 01:37 AM] KMD TipBot#0077
+
+{Embed}
+TipBot Help
+`!kmdtip`
+Displays this message
+`!kmdtip info`
+Displays coin information
+`!kmdtip balance`
+Displays your balance
+`!kmdtip deposit`
+Displays your deposit address
+`!kmdtip withdraw <address> <amount|all>`
+Withdraws the entered amount to a KMD address of your choice, e.g.
+`!kmdtip withdraw GLM3n7yMFmYkas2AgHKqE6EMJW5VsUXtQn 5.20`
+*Note: Minimal amount to withdraw: 0.1 KMD. A withdrawal fee of 0.02 KMD will be automatically deducted from the amount.* *Additionally, 10% of deducted withdrawal fee will be donated to the bot author to help continual development.*
+`!kmdtip <@user> <amount|all> [private]`
+Tips the @ mentioned user with the desired amount, e.g.
+`!kmdtip @test123456#7890 1.00`
+`!kmdtip rain <amount|all> [<@role>]`
+Rains the desired amount onto all online users  (optionally, within specified role), e.g.
+`!kmdtip rain 10.00`, `!kmdtip rain 10.00 @Supporters`
+`!kmdtip soak <amount|all> [<@role>]`
+Soaks the desired amount onto all online and idle users (optionally, within specified role), e.g.
+`!kmdtip soak 5.00`, `!kmdtip soak 5.00 @Supporters`
+`!kmdtip flood <amount|all> [<@role>]`
+Floods the desired amount onto all users (*including offline users*) (optionally, within specified role), e.g.
+`!kmdtip flood 5.00`, `!kmdtip flood 5.00 @Supporters`
+`!kmdtip thunder <amount|all> [<@role>]`
+Tips a random lucky online user with the amount (optionally, within specified role), e.g.
+`!kmdtip thunder 5.00`, `!kmdtip thunder 5.00 @Supporters`
+`!kmdtip thunderstorm <numberOfUsers> <amount|all> [<@role>]`
+Tips a specified number (max: 50) random lucky online users with part of the amount (optionally, within specified role), e.g.
+`!kmdtip thunderstorm 10 5.00`, `!kmdtip thunderstorm 10 5.00 @Supporters`
+`!kmdtip hurricane <numberOfUsers> <amount|all> [<@role>]`
+Tips a specified number (max: 50) random lucky online and idle users with part of the amount (optionally, within specified role), e.g.
+`!kmdtip hurricane 10 5.00`, `!kmdtip hurricane 10 5.00 @Supporters`
+`!kmdtip faucet`
+Gets an amount from the faucet (applicable every 4 hours)
+`!kmdtip listtransactions <numberOfDays>`
+Generates an audit log of user's transactions for the last specified number of days
+`!kmdtip blockheight`
+Gets the current block height and block hash
+`!kmdtip peers`
+Generates an `addnode` list
+Sapphire TipBot by sclear#0274
+
+
+[14-Dec-20 01:38 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Please use #🤑┃tip-bot to talk to TipBot.
+
+
+[14-Dec-20 01:39 AM] KMD TipBot#0077
+
+{Embed}
+TipBot Help
+`!kmdtip`
+Displays this message
+`!kmdtip info`
+Displays coin information
+`!kmdtip balance`
+Displays your balance
+`!kmdtip deposit`
+Displays your deposit address
+`!kmdtip withdraw <address> <amount|all>`
+Withdraws the entered amount to a KMD address of your choice, e.g.
+`!kmdtip withdraw GLM3n7yMFmYkas2AgHKqE6EMJW5VsUXtQn 5.20`
+*Note: Minimal amount to withdraw: 0.1 KMD. A withdrawal fee of 0.02 KMD will be automatically deducted from the amount.* *Additionally, 10% of deducted withdrawal fee will be donated to the bot author to help continual development.*
+`!kmdtip <@user> <amount|all> [private]`
+Tips the @ mentioned user with the desired amount, e.g.
+`!kmdtip @test123456#7890 1.00`
+`!kmdtip rain <amount|all> [<@role>]`
+Rains the desired amount onto all online users  (optionally, within specified role), e.g.
+`!kmdtip rain 10.00`, `!kmdtip rain 10.00 @Supporters`
+`!kmdtip soak <amount|all> [<@role>]`
+Soaks the desired amount onto all online and idle users (optionally, within specified role), e.g.
+`!kmdtip soak 5.00`, `!kmdtip soak 5.00 @Supporters`
+`!kmdtip flood <amount|all> [<@role>]`
+Floods the desired amount onto all users (*including offline users*) (optionally, within specified role), e.g.
+`!kmdtip flood 5.00`, `!kmdtip flood 5.00 @Supporters`
+`!kmdtip thunder <amount|all> [<@role>]`
+Tips a random lucky online user with the amount (optionally, within specified role), e.g.
+`!kmdtip thunder 5.00`, `!kmdtip thunder 5.00 @Supporters`
+`!kmdtip thunderstorm <numberOfUsers> <amount|all> [<@role>]`
+Tips a specified number (max: 50) random lucky online users with part of the amount (optionally, within specified role), e.g.
+`!kmdtip thunderstorm 10 5.00`, `!kmdtip thunderstorm 10 5.00 @Supporters`
+`!kmdtip hurricane <numberOfUsers> <amount|all> [<@role>]`
+Tips a specified number (max: 50) random lucky online and idle users with part of the amount (optionally, within specified role), e.g.
+`!kmdtip hurricane 10 5.00`, `!kmdtip hurricane 10 5.00 @Supporters`
+`!kmdtip faucet`
+Gets an amount from the faucet (applicable every 4 hours)
+`!kmdtip listtransactions <numberOfDays>`
+Generates an audit log of user's transactions for the last specified number of days
+`!kmdtip blockheight`
+Gets the current block height and block hash
+`!kmdtip peers`
+Generates an `addnode` list
+Sapphire TipBot by sclear#0274
+
+
+[14-Dec-20 01:40 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Please use #🤑┃tip-bot to talk to TipBot.
+
+
+[27-Dec-20 08:51 AM] TankMan#9285
+!kmdtip faucet
+
+
+[27-Dec-20 08:51 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+The faucet is not enabled.
+
+
+[10-Jan-21 08:46 PM] jspook16#3059
+what is coqui cash used for?
+
+
+[10-Jan-21 11:33 PM] ComputerGenie#7004
+wasting disk space and cpu cycles?
+
+
+[11-Jan-21 06:48 AM] Tylor zkFS#8280
+Its a Revolution!!
+
+
+[11-Jan-21 07:01 AM] ComputerGenie#7004
+_goggles the term for "the revolution is ded"_
+
+
+[01-Oct-21 05:07 AM] JuninhoBill#8112
+!kmdtip faucet
+
+
+[01-Oct-21 05:07 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Please use #🤑┃tip-bot to talk to TipBot.
+
+
+[01-Oct-21 11:57 AM] ComputerGenie#7004
+smfh
+
+
+[01-Oct-21 11:58 AM] ComputerGenie#7004
+this post is every reason why some folks are glad I'm not a mod with ban powers
+
+
+==============================================================
+Exported 236 message(s)
+==============================================================

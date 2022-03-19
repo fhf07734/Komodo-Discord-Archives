@@ -1,0 +1,1290 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / ⚛-campaign-discussion
+Topic: How can we work as a community to make the stress test a success?
+==============================================================
+
+[25-Nov-20 05:41 AM] Audo#5667 (pinned)
+@everyone On December 12 - 13, 2020, we will be running our AtomicDEX Stress Test Event. Users will be earning prizes for making atomic swaps on AtomicDEX. During the stress test days, we’ll have a livestream coverage of the event and we welcome other projects and people from our community and the crypto space to join.
+
+This channel is for general discussion about the stress test campaign.
+
+**How To Contribute**
+
+1) Tell us about your great idea (share it on this channel)
+2) Volunteer to help out with campaign logistics (DM @Audo)
+3) Join the livestream if you have experience about podcasting/interviews/radio (DM @Audo)
+4) Donate to a community bounty pool and become a community bounty council member (see the form link below)
+5) Request funding to do something to help out during this campaign. (see the form link below)
+
+Send A Donation: https://forms.gle/CVWrwhb3LVEBtbTq6
+Send A Request: https://forms.gle/rSevVBzS73XmeoN38
+
+View Donations: https://docs.google.com/spreadsheets/d/1XlVhFKiRONqv4V6L06X9kVvJ_6SO6wCR_GULmQ8Py-I/edit?usp=sharing
+View Requests: https://docs.google.com/spreadsheets/d/1gMwZuMaVgy3gjGaEhfq91erOLnTt2J4qKCGpIw9KkVY/edit?usp=sharing
+
+***
+
+We have a bounty budget already, but the bounty council allows anyone to join to the efforts and get involved by either donating or by signing-up to do something.
+
+
+[25-Nov-20 05:41 AM] Audo#5667 (pinned)
+_ _
+**Streaming Schedule Example**
+
+_You can help us brainstorm content for the stream or join yourself as a host!_
+
+DAY 1 – Saturday
+
+4 PM UTC (Broadcast begins)
+ - Program A (30 minutes)
+ - Break (30 minutes)
+
+5 PM UTC (Official start)
+ - Program B (30 minutes)
+ - Bounty Campaign 1
+
+6 PM UTC
+ - Situation Report 1
+ - Break
+
+7 PM UTC
+ - Program C
+ - Bounty Campaign 2
+
+etc. etc.
+
+DAY 2 – Sunday
+
+4 PM UTC (Broadcast begins)
+ - Program G (30 minutes)
+ - Break (30 minutes)
+
+etc. etc.
+
+
+[25-Nov-20 05:56 AM] Regnar#6164
+An idea to get more stress testors in (and it might be too late to logistically do this) would be to reach out to coin projects with decent sized communities and *temporarily* add their projects for a competition. Those coins with the highest swap counts vs KMD in a 24-48 hour period win a free permanent listing on AtomicDEX (Desktop and Mobile). Could have tiered prizes like 1st is both Desktop and Mobile, 2nd is free Mobile, 3rd is a donation to their community fund. etc. 
+
+Then you do some individual prizes based on highest trader profits, highest individual swap counts, maybe a prize for the trader most in the hole 😅
+
+This makes the incentive a free listing for a coin project, and then gets other teams and other community influencers to leverage their community to compete. As opposed to individual rewards which incentivize not sharing the competition information, ie. avoid expanding their competition and reducing an individual chances to win
+
+{Reactions}
+👍 (2) 
+
+[25-Nov-20 06:01 AM] Audo#5667
+yes, we will be reaching out to various communities this week
+
+
+[25-Nov-20 06:02 AM] Deleted User#0000
+Is there a counter where i can see the actually registered participant for stress test?
+
+
+[25-Nov-20 06:05 AM] Audo#5667
+I can check now and let you know
+
+
+[25-Nov-20 06:08 AM] Audo#5667
+419 have pre-registered so far
+
+{Reactions}
+👍 (5) KMD (2) 
+
+[25-Nov-20 06:28 AM] Deleted User#0000
+Thats very good...thank you :-) maybe you can give a daily update here?
+
+
+[25-Nov-20 06:34 AM] Audo#5667
+for sure
+
+
+[25-Nov-20 06:35 AM] Audo#5667
+We can also make separate landing pages with the pre-registration form that target specific communities
+
+{Reactions}
+👍 
+
+[25-Nov-20 06:35 AM] Audo#5667
+for the next 2 weeks the main goal is to grow that pre-registration list
+
+
+[25-Nov-20 06:53 AM] Audo#5667
+Clarification about the donations for the bounty pool: you can donate and still request to withdraw your donation later if you are not happy about how it is proposed to be used or if there are no good proposals.
+
+This is like a marketplace. Anyone can submit ideas and if someone likes them then they can get funded. That someone can also be the Komodo team.
+
+This channel is for discussion about those proposals.
+
+
+[25-Nov-20 07:15 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is the stress test open to everyone? Or just people not geo-blocked?
+
+
+[25-Nov-20 07:17 AM] lightspeed393#5403
+If you use a VPN and can trade who would know?
+
+
+[25-Nov-20 07:20 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Understood about the VPN. Im just trying to figure out if this campaign is open to anyone or not.
+
+
+[25-Nov-20 07:21 AM] lightspeed393#5403
+All that's required to register is a KMD address. If your address can trade, I don't see why anyone wouldn't be included.
+
+
+[25-Nov-20 07:21 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is the stress test done on the newest version of Adex?
+
+
+[25-Nov-20 07:24 AM] lightspeed393#5403
+Well I'm sure they'd want people to use the newest version for the sake of finding bugs and not finding old bugs that have already been fixed, but I don't see why that really matters
+
+
+[25-Nov-20 07:26 AM] lightspeed393#5403
+This whole geoblock thing is blown out of proportion. If you come to be a tester and its blocked in your region, use the version from marmara, or cli, or take 5 seconds to start a vpn. The registration form only asked for the KMD address you'll be trading on, doesn't ask you to verify your identity and check for country.
+
+{Reactions}
+👍 
+
+[25-Nov-20 07:29 AM] lightspeed393#5403
+https://github.com/marmarachain/atomicDEX-Desktop/releases/tag/0.3.1-alpha boom no geoblock
+
+{Embed}
+https://github.com/marmarachain/atomicDEX-Desktop/releases/tag/0.3.1-alpha
+Release AtomicDEX Pro v0.3.1 alpha · marmarachain/atomicDEX-Desktop
+Changed AtomicDex Pro v0.3.0 beta for non KYC purposes
+macOS build virustotal report
+osx-qt-5-15-0-release.dmg.zip sha256 checksum: 4d1c50f6ec2d545158b2a14180a1322f84314e3faa61591a761a5c682e6fa1df
+...
+https://images-ext-2.discordapp.net/external/YwSjrfKn_O7PAZiREuasjiv7LLVBgJ6p4byXP_Ljl4U/%3Fs%3D400%26v%3D4/https/avatars0.githubusercontent.com/u/44530858
+
+{Reactions}
+👍 (2) 
+
+[25-Nov-20 07:41 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+If the only change is removal of non-kyc, then why not package this specifically for a few different communities? Ie:  create a GitHub that says litecoin/atomicDEX-Desktop/releases/tag/0.3.1-alpha
+
+Or DGB/ or insert-your-coin/
+
+It will give the impression that there is a DEX specifically for their community
+
+
+[25-Nov-20 07:42 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Might convince more to test from that specific community.
+
+
+[25-Nov-20 07:45 AM] lightspeed393#5403
+Any community could fork and run their own *version* but to what benefit? Just submit the PR for your coin back to the main repo and you're included. Running your own fork means that communities team has to maintain it and constantly pull new changes from the upstream repo to stay up to date.
+
+
+[25-Nov-20 07:47 AM] lightspeed393#5403
+I could fork it, remove the one line that that compiles with geoblock, and make a release, but it would be the same as Marama's version. There's no benefit imo of other communities doing this as well. It's still all the same backend (atomicdex-api) using the same netid.
+
+
+[25-Nov-20 07:50 AM] lightspeed393#5403
+I get what you're saying about that community might get the impression they have their own dex, but just seems like more work and unecessary division to me.
+
+
+[25-Nov-20 07:51 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is not Marmarachain benefiting from a marketing perspective? Their name is being advertised. From an outside perspective, there is the Komodochain AtomicDex and the Marmarachain AtomicDex both get tested during the stress test. Prepare to answer questions about this multiple times. Big win for Marmarachain BTW.
+
+
+[25-Nov-20 07:53 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+It's almost similar to how lots of advertising energy went into agama, only to give it away to Verus and also help put Verus name out there for notice. Big win for Verus
+
+
+[25-Nov-20 07:56 AM] lightspeed393#5403
+I personally don't really think its a win for Marmara. It's not like it's been renamed, or rebranded to fit their marketing needs. It's literally the same app with the same backend network. Still benefits komodo as the liquity and orders are being placed on the main atomicdex network.
+
+
+[25-Nov-20 07:56 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+If I was you, I'd strongly consider forking AtomicDex and advertise Spacecoin AtomicDex.
+
+
+[25-Nov-20 07:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+It's all about perspective, something that seems lost on developers
+
+
+[25-Nov-20 07:57 AM] Meyse#0952
+I dont think Verus Desktop has anything to do with Agama
+
+
+[25-Nov-20 07:58 AM] lightspeed393#5403
+I get that. I'm just saying once someone downloads the *spacecoin* atomicdex version, they wouldn't even know which one they are using. Same thing. Just different link you download from.
+
+{Reactions}
+👍 
+
+[25-Nov-20 07:59 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+We are agreeing on that.
+
+
+[25-Nov-20 08:06 AM] lightspeed393#5403
+@༺α☬丂Ӧ¢ ༒ ༻ I completely get your points on marketing. I just think there's more to gain by spending time adding more coins to AtomicDEX and then approaching their communites and telling them it's available to trade, rather than spending time trying to get them to fork and run their own version. Both ways benefit the underlying network/orderbooks though, so to each their own.
+
+{Reactions}
+👍 (2) 
+
+[25-Nov-20 10:58 AM] Audo#5667
+
+{Attachments}
+https://cdn.discordapp.com/attachments/781107417152094208/781232347977613383/unknown.png
+
+
+[25-Nov-20 10:58 AM] Audo#5667
+Thank you @Regnar for the first donation!
+
+{Reactions}
+💯 (3) 🦾 
+
+[25-Nov-20 12:15 PM] rionnox#3470
+Idea for Atomic DEX: let's say for examples sake my ID is xxxxx1234 ; I thought it'd be good if people can send you coins (whether KMD, LTC etc) just using your ID whilst they use the Atomic DEX. Currently the sender needs to know your wallet address. I appreciate in most cases people won't want to possibly tell people their ID for security but amongst friends , family etc I feel it'd be useful. Thoughts?
+
+
+[25-Nov-20 12:35 PM] Deleted User#0000
+maybe atomicdex can support verus ID?
+
+
+[25-Nov-20 12:36 PM] Deleted User#0000
+jas@ would link to my address etc
+
+
+[25-Nov-20 01:08 PM] Gautier#6965
+What we will have to do for the stress test?
+
+
+[25-Nov-20 01:44 PM] Audo#5667
+Right now you can pre-register and make sure you won't miss it!
+
+
+[25-Nov-20 01:44 PM] Audo#5667
+https://mailchi.mp/komodoplatform/early-bird-registration
+
+
+[25-Nov-20 01:44 PM] Audo#5667
+and on this channel you can help brainstorm how we make this even a success
+
+
+[25-Nov-20 01:45 PM] Audo#5667
+Pinned a message.
+
+
+[25-Nov-20 01:46 PM] Audo#5667
+Pinned a message.
+
+
+[25-Nov-20 02:36 PM] Audo#5667
+Right now we're conducting outreach to communities in an effort to discover any crypto communities willing or interested in doing one of the following:
+
+- Secure a placement for themselves in one of the the community spots for during the AtomicDEX stress test.
+- Collaborate for a shared media placement opportunity with their community at anytime during the stress test and campaign leading up to it.
+
+
+The goal is to get as many people take part in the stress test as possible and to do some co-marketing stuff with the other communities.
+
+**If you would like to helpout you can reach out to your favourite community and let them know about the opportunity!**
+
+Use these links for reference:
+ - The stress test announcement https://komodoplatform.com/sign-up-for-the-december-2020-atomicdex-stress-test-event/
+ - The early registration form https://mailchi.mp/komodoplatform/early-bird-registration
+
+Although we're running our own outreach directly from marketing, the Komodo community here can get so much more done than than the 3 dedicated marketing team people we currently have with everything on our plates.
+
+All you have to do is bring back a connection which leads to securing a community placement for one of the spots or create a media collaboration opportunity with another influencer, project, or audience.
+
+
+[25-Nov-20 03:00 PM] Crabby Paddy#6239
+I think raven coin had some discussions in the past and they’re all “community” driven
+
+
+[25-Nov-20 03:00 PM] Crabby Paddy#6239
+Might be a good one
+
+{Reactions}
+👍 (2) 
+
+[25-Nov-20 04:14 PM] Churro#4832
+Wanchain has a great community and i think they would be down to collab with us
+
+
+[25-Nov-20 11:24 PM] Lennart#9331
+DigiByte.. huge community and very good for atomic swaps (fast 15s blocktime)
+
+
+[25-Nov-20 11:49 PM] Deleted User#0000
+who can get in touch with these communities?
+
+
+[26-Nov-20 02:38 AM] Lennart#9331
+I can get in touch with DigiByte or provide contact information. I would suggest to ask Rudy Bouwman from Digi foundation but what exactly to propose? Incentive for their community?
+
+
+[26-Nov-20 02:41 AM] jl777c#5810
+for DGB people it would seem a good incentive would be free DGB
+
+
+[26-Nov-20 02:41 AM] jl777c#5810
+this can be done by offering below market pricing for DGB on atomicDEX
+
+
+[26-Nov-20 02:42 AM] jl777c#5810
+but should be limited to addresses with relatively small amounts to prevent a whale from just grabbing. all the free DGB
+
+
+[26-Nov-20 02:42 AM] jl777c#5810
+for other communities, substitute "DGB" with their coin
+
+
+[26-Nov-20 02:53 AM] Lennart#9331
+that certainly sounds like a good idea to get lots of people in. limited to addresses means they would have to preregister like the stress test early bird registration?
+
+
+[26-Nov-20 02:54 AM] jl777c#5810
+not sure about the details. just the concept. it was asked what incentive to offer DGB peoples. answer: free DGB
+
+{Reactions}
+👍 (2) 
+
+[26-Nov-20 04:34 AM] Audo#5667
+Daily update: 518 pre-registerations
++100 from yesterday
+
+{Reactions}
+👍 (7) 
+
+[26-Nov-20 04:50 AM] Gautier#6965
+@Audo im register and it's my first time. what will i have to do for the stress test ?
+
+
+[26-Nov-20 05:45 AM] Audo#5667
+Download and setup AtomicDEX – after that just sit back and wait for the stress test weekend. We will send more info via email.
+
+
+[26-Nov-20 07:20 AM] Crypto Rich#6241
+@jl777c and @Audo I am connected to Skycoin. They have a large established community. I could ask them. ?
+
+
+[26-Nov-20 07:27 AM] lightspeed393#5403
+@Crypto Rich I'm looking at skycoin right now and it doesn't appear to be a BTC clone so I'm not sure it can be added easily.
+
+
+[26-Nov-20 07:42 AM] actionslacks#4072
+this is a great time to reach out to other communities. Especially in the us where the fud about kyc'ing personal wallets to withdraw is hitting the news. RVN, DGB, DOGE, and DASH are big communities.
+
+
+[26-Nov-20 11:51 AM] Audo#5667
+Wow, we have new donations! 🥳 
+
+Here's the total situation now:
+
+@Regnar 100 KMD
+@༺α☬丂Ӧ¢ ༒ ༻ 80 KMD
+@Deleted User 100 KMD
+@Deleted User 500 KMD
+
+I am amazed! Now I'll have to send some too
+
+
+[26-Nov-20 11:55 AM] Audo#5667
+I sent some from my personal wallet – now the total pot is 1080 KMD
+
+
+[26-Nov-20 11:55 AM] Audo#5667
+Now we need more ideas on what to do with the money
+
+
+[26-Nov-20 04:00 PM] Regnar#6164
+Damn Jas just shaming us 😅
+
+
+[26-Nov-20 04:34 PM] Deleted User#0000
+:troll_hardcore:
+
+
+[26-Nov-20 06:34 PM] Crabby Paddy#6239
+Donated again :AtomicDEX:  Will send some more over in a couple weeks time, gotta let that interest build up :treasure:
+
+
+[27-Nov-20 02:37 AM] 花果山#5224
+Can you add 4 simulated tokens in the stress test?
+
+
+[27-Nov-20 02:37 AM] 花果山#5224
+KBTC.KETH.KUSD.KKMD
+
+
+[27-Nov-20 02:39 AM] 花果山#5224
+KMD is one block per minute. If KMD produces one (KBTC), (KETH), (KUSD). The atomic swap can be resolved within 3 to 5 minutes, someone will play.
+
+
+[27-Nov-20 02:43 AM] 花果山#5224
+Develop a dual-chain model, deposit a BTC/ETH, lock it and generate a KBTC/KETH. Withdraw the coin and destroy it.
+
+
+[27-Nov-20 02:45 AM] 花果山#5224
+No one played atomic swaps, mainly because the swap time was too long and the miners' fees were too high.
+
+
+[27-Nov-20 02:56 AM] banksy35#0477
+Just thinking out aloud here.  What would be the benefits of Digibyte running there own version of AtomicDEX and building on it for their community? (DigibyteDEX)  I'm sure there would be plenty.  I actually lost a lot of DGB on poloniex.  
+The Digibyte creator and poloniex owner Justin Sun were having an argument and to save face Sun delisted Digibyte.   I was in hospital at the time, so did not know of the delisting, resulting in a massive loss of funds.  If Digibyte built on AtomicDEX they could add any 
+feature/promo they wanted and the Community would have there own DEX.  More to the point the Digibyte Community would have control over there own exchange.
+
+
+[27-Nov-20 04:20 AM] Mylo#8306
+They could brand it how they want, add value add services etc.
+
+{Reactions}
+👍 
+
+[27-Nov-20 07:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Besides Digibyte, what other coin communities do we want to reach out to?
+
+
+[27-Nov-20 07:31 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Probably Dash should be on the list
+
+
+[27-Nov-20 07:31 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Zec?
+
+
+[27-Nov-20 07:32 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Doge
+
+
+[27-Nov-20 08:21 AM] Audo#5667
+Do you guys have any contacts to Digibyte? I shoot an email to one address but got no response yet. I was thinking of just posting a theard about it to their forum next.
+
+
+[27-Nov-20 08:30 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Just looked at their Bitcointalk thread. It is mildly active. One of the last posts was from this guy. https://m.youtube.com/c/JosiahSpackmanDigiByte/videos?disable_polymer=true&itct=CBIQ8JMBGAEiEwjsyNrTkqPtAhWvxhYJHbsYAoc%3D
+
+{Embed}
+https://m.youtube.com/c/JosiahSpackmanDigiByte/videos?disable_polymer=true&itct=CBIQ8JMBGAEiEwjsyNrTkqPtAhWvxhYJHbsYAoc%3D
+Josiah Spackman - DigiByte
+https://images-ext-1.discordapp.net/external/8bhtVlRV0kX0-3M7ULd0a1lzoguIsSvaxMNH51AumDI/https/yt3.ggpht.com/ytc/AAUvwngleaiXj7f7FIYM5yuOoQ5by-tZ8PKCXSSgHu49%3Ds900-c-k-c0x00ffffff-no-rj
+
+
+[27-Nov-20 09:21 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Maybe a good protocol for customer acquisition would be have a user publicly post a screenshot of their AtomicDex order for a defined amount, then we use the AtomicDex as the mechanism to pay them out. Ie: Digibyte community is informed of the campaign on social media, users create a bid order via AtomicDex, then  post an image of the bid, then we fill the order and pay them out with the kmd that was raised. Would need to have predetermined an amount of value for each customer acquisition.
+
+
+[27-Nov-20 09:23 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is the goal to pay people for views of the campaign in an effort to spread awareness, or are we looking to pay for people that DL and use the app?
+
+
+[27-Nov-20 09:26 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Ie: community bounty funds pay out in one or more of these situations,
+1. Spreading awareness via social media
+2. User actively DL the Dex and install/ create address
+3. User posts a Bid
+
+
+[27-Nov-20 09:33 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I keep thinking about what would motivate a non-kmd community. Does offering a stranger a few bucks to load and install software truly motivate people?
+
+{Reactions}
+👍 (2) 
+
+[27-Nov-20 09:42 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Another approach that I mentioned a few days ago might be a better way to motivate other communities. Instead of just saying, hey I want to pay you for your time for this project that we made, frame it it differently by making it something for them. If they feel it is something for them and their community, naturally they would want to support it as it helps their position, just like we want to support adex cause it helps our position. So in this scenario, we offer a bounty for forking the AtomicDex to specifically target individual coin communities. It is still the same mm2 network id and probably the same name as well. But we get someone from their community to take ownership of it. Exactly like what Marmarachain is doing. Motivate by giving them a Dex, which is also our Dex.
+
+{Reactions}
+👍 (2) 
+
+[27-Nov-20 09:45 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Let them do the work of advertising for us
+
+
+[27-Nov-20 09:46 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Let them do the work of building liquidity for us, and them
+
+{Reactions}
+AtomicDEX (3) 
+
+[27-Nov-20 09:53 AM] actionslacks#4072
+is there an anonymous donation address? maybe put up an arrr address?
+
+
+[27-Nov-20 10:14 AM] ejuliano#8606
+@༺α☬丂Ӧ¢ ༒ ༻ I wonder if they would be incentivized even simply knowing that there is a dex with their favourite coin that would benefit from from liquidity that they provide. Even just that in itself might encourage them to support the dex providing liquidity because they want their coin to have liquidity on a true atomic swap dex
+
+{Reactions}
+👍 
+
+[27-Nov-20 10:22 AM] actionslacks#4072
+It's already built, they don't know about it ? I see swaps for all those pairs occasionally. I assumed some members were already using it. maybe we put up some cheap pairs of their respective currency, but tell them around when they are going on the order books sometime in the future and they'll be incentivized to get atomic dex going on their devices.
+
+
+[27-Nov-20 10:27 AM] actionslacks#4072
+setting a date and time for the event lets us make sure the support resources are available to get as many new people running as necessary.
+
+
+[27-Nov-20 10:28 AM] actionslacks#4072
+the higher the prize, the more people that will show up
+
+
+[27-Nov-20 11:58 AM] CHMEX#0686
+@Mylo if i remember right
+
+
+[27-Nov-20 02:22 PM] Deleted User#0000
+@Audo how looks the number of registrations?
+
+
+[27-Nov-20 02:33 PM] Audo#5667
+@Deleted User currently 559
+
+
+[27-Nov-20 02:34 PM] Audo#5667
+ty!
+
+
+[27-Nov-20 03:17 PM] banksy35#0477
+The founder of Digibyte is Jared Tate.  He is on Twitter a lot. https://twitter.com/jaredctate He could probably be contacted through twitter if you message him.
+
+{Embed}
+https://twitter.com/jaredctate
+Jared Tate ©️ (@jaredctate)
+#DigiByte @DigiByteCoin #Blockchain Founder | Author: Blockchain 2035: The Digital DNA of Internet 3.0 | Now on #Parler https://t.co/CBhhZx9FXl
+Tweets
+6528
+Followers
+29226
+https://images-ext-2.discordapp.net/external/OLndxg8U6HZMwROcWeSN_y-_C5WFhoc3j0Fz1w9KM_M/https/pbs.twimg.com/profile_images/1325257000662364160/eBh8sZj3_normal.jpg
+Twitter
+
+{Reactions}
+👌 
+
+[27-Nov-20 03:21 PM] banksy35#0477
+I like the term Community Exchange for marketing purposes CommunityDEX
+
+{Reactions}
+👍 
+
+[27-Nov-20 03:22 PM] sφldat#8733
+Feel free to share and invite your contacts 🎉 https://www.linkedin.com/events/12-13december2020atomicdexstres6737655806658936832
+
+{Embed}
+https://www.linkedin.com/events/12-13december2020atomicdexstres6737655806658936832
+12&13 December 2020 AtomicDEX Stress Test Event | LinkedIn
+Instructions for setting up an AtomicDEX KMD address for the upcoming stress test: https://youtu.be/4LhGFbLAKHk
+Early registration is now open for the December 2020 AtomicDEX Stress Test Event: 
+https://komodoplatform.com/sign-up-for-the-december-2020-atomicdex-stress-test-event
+https://images-ext-1.discordapp.net/external/RWcDfc0rZRIiBzHVGqlSjZdF5i6bWfoGWNmRtl17ewI/%3Fe%3D1606608000%26v%3Dbeta%26t%3D38vQaz11lDaNHCjthBNcwNXMHkzjJU0AZlI-erATzWQ/https/media-exp1.licdn.com/dms/image/C4D1EAQH-ky4WLnxVGQ/event-background-image-shrink_200_800/0
+
+{Reactions}
+💯 
+
+[27-Nov-20 03:36 PM] Crabby Paddy#6239
+I’ve found joining discord’s and messaging
+
+
+[27-Nov-20 03:36 PM] Crabby Paddy#6239
+Actually works very well. I’ve gotten in contact with team / founders generally within a day or 2
+
+{Reactions}
+🥳 
+
+[28-Nov-20 04:06 AM] Audo#5667
+oh cool! I now found the DigiByte Discord server too. I'll reach out.
+
+
+[28-Nov-20 04:06 AM] Audo#5667
+We already have interest from several communities 🙂
+
+{Reactions}
+🥳 3040_kingpeepo AtomicDEX (2) KMD (2) 
+
+[28-Nov-20 10:37 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Can you share the communities who have expressed interest?
+
+
+[28-Nov-20 01:07 PM] Audo#5667
+Sure, we can share it next week.
+
+{Reactions}
+👍 
+
+[28-Nov-20 01:33 PM] Lennart#9331
+you can tag Digibyte awsreness team on twitter, too. they are kind of marketing and awareness group for dgb
+
+
+[28-Nov-20 01:33 PM] Lennart#9331
+dgbat
+
+
+[29-Nov-20 01:24 AM] Audo#5667
+thanks for the hint, I believe I had sent them email too.
+
+
+[29-Nov-20 02:01 AM] Deleted User#0000
+you think we can get LTC/BCH etc?
+
+
+[29-Nov-20 07:54 AM] tolken#2655
+What should stress testers aim to achieve mainly? Just buy and sell as much as possible? As frequently as possible? Will this stress test be using the dexp2p (forgot the exact name) for network communication?
+
+
+[29-Nov-20 08:06 AM] lightspeed393#5403
+dexp2p is a feature within komodod, afaik that won't be apart of atomicDEX stress testing.
+
+
+[29-Nov-20 08:11 AM] lightspeed393#5403
+I'm curious about the aim of trades as well though @Audo. Like what do users have to do to be sucessful and attempt to win prizes? You told me it only requires RICK/MORTY, but is it based on number of trades, or size of trades? As users come here from other communities (hopefully) we should be prepared to tell them what exactly they'll need to do to be successful. Of course we're mostly looking for bugs/limitations of the network, but I'm assuming most will be focused on how they can be rewarded.
+
+
+[29-Nov-20 08:18 AM] tolken#2655
+@lightspeed393 I thought dexp2p was more or less a direct response to the inefficiencies discovered in the last stress test.
+
+
+[29-Nov-20 08:25 AM] lightspeed393#5403
+I'm not sure I could be wrong, but I don't think it's used. AtomicDEX devs have been implementing libp2p gossipsub protocol for orderbooks afaik.
+
+
+[29-Nov-20 08:33 AM] gcharang#6833
+dexp2p was supposed to be used by mm2, but it wasn't an exact fit afaik
+
+
+[29-Nov-20 08:34 AM] lightspeed393#5403
+probably something to do with most atomicdex users aren't running komodod so the orderbook wouldn't be very decentralized.
+
+
+[29-Nov-20 08:38 AM] tolken#2655
+@gcharang thanks, would love to hear more details on how this evolved and what type of efficiency/throughput the team projects is possible with the revised network code.
+
+
+[29-Nov-20 09:38 AM] gcharang#6833
+maybe it can be a blog post. @Delton  might be able to piece together the history and expectations by interviewing the devs. it can be part of the stress test post mortem report
+
+{Reactions}
+👍 
+
+[29-Nov-20 02:07 PM] tolken#2655
+😎 that would be interesting to hear.
+
+
+[29-Nov-20 02:10 PM] tolken#2655
+Anyone have any thoughts on my and lightspeeds question above re: what should we stress? Spam with trades as fast as we can? What makes a good tester?
+
+
+[29-Nov-20 05:54 PM] actionslacks#4072
+If anyone is active in the RVN community, the raven coin site's link to the atomic explorer doesn't resolve, and they're using the old logo/name.
+
+
+[29-Nov-20 05:54 PM] actionslacks#4072
+https://ravencoin.org/buy-ravencoin/
+
+{Embed}
+https://ravencoin.org/buy-ravencoin/
+Buy Ravencoin
+A peer-to-peer blockchain designed to handle the efficient creation and transfer of assets from one party to another. It’s an open-source project based on Bitcoin
+
+
+[30-Nov-20 03:51 AM] gcharang#6833
+all details coming soon via a blog post
+
+
+[30-Nov-20 04:19 AM] Audo#5667
+The stress test will happen mainly between Rick & Morty pair. We just need a large amount of users to trade simultaniously. We can also trade different volumes with the Rick & Morty trades. 
+
+Technically speaking a rick & morty swap is the same as KMD & MLC swap.
+
+{Reactions}
+🦾 👍 
+
+[30-Nov-20 07:08 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Would there be any benefit to create a third test coin for trading? Where are all of these rick and morty coins coming from? How will they be distributed? I can see a scenario where having a third coin provides more opportunities to trade simultaneously.
+
+
+[30-Nov-20 07:11 AM] lightspeed393#5403
+There is a faucet to provide the RICK and MORTY
+
+{Reactions}
+👍 (2) 
+
+[30-Nov-20 07:45 AM] Audo#5667
+yep, from the faucet
+
+
+[30-Nov-20 07:54 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Are there any thoughts on through-put of 2 coins trading back and forth vs 3 coins?
+
+
+[30-Nov-20 08:13 AM] Audo#5667
+we have locked to the two test coins. Adding a third one doesn't add anything from technical standpoint.
+
+
+[30-Nov-20 08:13 AM] Audo#5667
+we have already built a stress test dashboard that tracks rick & morty and records the statistics live throughout the stress test weekend
+
+{Reactions}
+👍 🦾 
+
+[30-Nov-20 11:06 AM] rionnox#3470
+I've sent https://komodoplatform.com/community-collaboration-opportunity-atomicdex-stress-test/ to Xinxi Wang who works closely with LTC
+
+{Embed}
+Audo
+https://komodoplatform.com/community-collaboration-opportunity-atomicdex-stress-test/
+Community Collaboration Opportunity - AtomicDEX Stress Test - Komodo
+Are you interested in seeing your favorite project participate in the AtomicDEX Stress Test, happening on December 12 - 13? If so, someone from your team or community can email us at marketing@komodoplatform.com or reach out to us on Komodo Discord. This blog post provides a general outline for our proposed collaboration opportunity. Which Proje...
+https://images-ext-1.discordapp.net/external/NGfrK14Nx874dTiqnjP-ENEqykqzpciL3R115ODn5ZE/https/komodoplatform.com/wp-content/uploads/2020/11/Komodo-Banner-Q4-2020-Roadmap-Light_Top-49.png
+
+{Reactions}
+KMD (4) AtomicDEX (2) 🦾 (2) 
+
+[30-Nov-20 11:29 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I guess the next logical question then is, how does the official kmd team feel community funds would best spent to help the stress test? @Audo
+
+{Reactions}
+3040_kingpeepo 
+
+[30-Nov-20 11:37 AM] ejuliano#8606
+is the faucet open already or when will that be available?
+
+
+[30-Nov-20 11:42 AM] CHMEX#0686
+https://www.atomicexplorer.com/#/faucet/rick
+https://www.atomicexplorer.com/#/faucet/morty
+
+
+[30-Nov-20 11:42 AM] CHMEX#0686
+open for months...
+
+
+[30-Nov-20 11:52 AM] Deleted User#0000
+with using the rick morty people that have the coins now could be selfish and trade it for the free coins
+
+
+[30-Nov-20 11:58 AM] tolken#2655
+@Deleted User what do you mean? Trade it for free coins? RIck/Marty are of course free, available now etc. Selfish in what way?
+
+
+[30-Nov-20 12:00 PM] rionnox#3470
+Rick and Morty are for testing purposes only @Jas 🙂
+
+
+[30-Nov-20 12:08 PM] Deleted User#0000
+we are trying to get other coin communities to help with this test, we need a test coin they can get to "buy" their coin community coin
+
+
+[30-Nov-20 12:08 PM] Deleted User#0000
+if the test coin is rick/morty people have it already and could just buy all of the community coins before the community people has a chance
+
+{Reactions}
+👆 
+
+[30-Nov-20 12:35 PM] ejuliano#8606
+are some people advantaged in the contests if they already have a large amount of rick/morty from using the faucets for the past year or so?
+
+
+[30-Nov-20 12:38 PM] ejuliano#8606
+it's ok if there are advantages, i'm not meaning it in that way
+regardless,  marketing should definitely make it known loud and clear, that rick & morty are the test coins needed, and that the faucets are open... i wonder how many registered testers and potential testers are not aware of this?
+
+
+[30-Nov-20 12:48 PM] lightspeed393#5403
+AtomicDEX-Desktop added the ability to claim RICK and MORTY from the faucet right from the app after the halloween testing. I'm guessing there will be a new release for this before the stress test starts.
+
+{Reactions}
+👍 
+
+[30-Nov-20 02:11 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+@Deleted User @ejuliano  I've been thinking the same thing, that's why I've been mildly pushing for a third coin. But I'm happy with whatever group decides.
+
+
+[30-Nov-20 02:13 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+But as far as I know, there is nothing stopping us from creating a third coin, need two nodes, setup an electrum server, and complete steps to get it listed on adex
+
+
+[30-Nov-20 02:13 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Probably an explorer too
+
+
+[30-Nov-20 02:25 PM] actionslacks#4072
+looks like we already got some dgb/ltc pairs.  https://www.dexstats.info/gui/index.php?base=LTC&rel=DGB
+
+
+[30-Nov-20 02:38 PM] actionslacks#4072
+tweeting out some bargain priced LTC or BCH pairs for compatible non kmd coins is probably pretty effective marketing. I'll try to get my hands on some.
+
+
+[30-Nov-20 02:47 PM] jurbel#5593
+So what next guys?I already joined for stress test
+
+
+[30-Nov-20 02:49 PM] jurbel#5593
+I remember I joined stress test few month ago all not perfect swap
+
+
+[30-Nov-20 02:49 PM] jurbel#5593
+What the main focus on next stress test?
+
+
+[30-Nov-20 04:15 PM] Jcharming#2693
+There are going to be guideline announcements for the actual event and how to participate - there are engagement activities TBA for incentivized swapping using test coins.
+
+
+[30-Nov-20 04:17 PM] Jcharming#2693
+We already have a solution in place for this, - good conversation though and good thinking 👍
+
+{Reactions}
+🙏 (2) 
+
+[30-Nov-20 04:22 PM] Jcharming#2693
+It won't matter if you're sitting on a pile or Rick and Morty or if you're picking it up during the engagement activities, everyone will get an opportunity to earn and win with the way we're setting it up. Stay tuned in, keep sharing the early registration form
+
+{Reactions}
+👍 (3) 
+
+[30-Nov-20 04:22 PM] Jcharming#2693
+https://mailchi.mp/komodoplatform/early-bird-registration
+
+
+[30-Nov-20 04:23 PM] Jcharming#2693
+stay tuned for more news.  Content surrounding the test is coming out every day on our blog and being shouted out through reddit, twitter, and and social media.
+
+
+[30-Nov-20 04:24 PM] Jcharming#2693
+Keep the conversation going here everyone!  Everything is shaping up to look like a nice event.  
+We'll be using these practices to build the next event and looking to schedule sometime in Q1, 2021
+
+
+[30-Nov-20 04:25 PM] Jcharming#2693
+Let us know with a direct ping or DM if you - or anyone - gets a direct hit from another community that is interested in being spotlit during our AtomicDEX Stress Test.
+
+{Reactions}
+👍 (2) 
+
+[30-Nov-20 04:26 PM] Deleted User#0000
+@Jcharming can you limit per pubkey?
+
+
+[30-Nov-20 04:34 PM] Jcharming#2693
+It's the manner in which the free coins will be distributed and earned which will create a useful and fair distribution opportunity.  Atm for being prepared, participants need to register and have their AtomicDEX KMD address on the list which they will be trading from. 
+https://mailchi.mp/komodoplatform/early-bird-registration
+
+For Marketing side, for this stress test, we're going to be trying out a few delivery systems for engagement and then looking at the data and taking into account community feedback on the days following.  We'll use this system to improve on event engagement techniques - and then modify future swap events as needed when we find better practices.
+
+{Reactions}
+🦾 (3) 
+
+[01-Dec-20 02:01 AM] Deleted User#0000
+How is the actual stand of pre regidtrations for stress test? Thank you
+
+{Reactions}
+🦾 
+
+[01-Dec-20 12:44 PM] Jcharming#2693
+@Deleted User
+
+
+[01-Dec-20 12:45 PM] Jcharming#2693
+Completed Registrations (Subscribes) for the stress test are still going up
+
+{Attachments}
+https://cdn.discordapp.com/attachments/781107417152094208/783433502292836422/unknown.png
+
+
+[01-Dec-20 12:47 PM] Jcharming#2693
+This does not include community specific reg lists ^ which will be added in to this total later.  Tracking these seperate - to be merged post community spotlight ANNC
+
+
+[01-Dec-20 01:34 PM] Deleted User#0000
+This looks good
+
+
+[01-Dec-20 01:34 PM] Deleted User#0000
+I hope we reached 1000 extern testers in the end
+
+
+[01-Dec-20 01:39 PM] sφldat#8733
+So far, more than 185 registrations here https://www.linkedin.com/events/12-13december2020atomicdexstres6737655806658936832
+
+{Embed}
+https://www.linkedin.com/events/12-13december2020atomicdexstres6737655806658936832
+12&13 December 2020 AtomicDEX Stress Test Free Event | LinkedIn
+Let’s build a stronger DEX together!
+Our ultimate goal is to build a cross-chain/cross-protocol DEX technology that supports secure and scalable trading (atomic swap) across every blockchain network in existence.
+Instructions for setting up an AtomicDEX KMD address for the upcoming stress test:
+"https://youtu.be/4LhGFbLAKHk"
+All the information ...
+https://images-ext-1.discordapp.net/external/zgcWmrBAO63r1x4Xyiey3hv0y4uq4hN59JGTBNth9-E/%3Fe%3D1606946400%26v%3Dbeta%26t%3DPuvRLPH9Vc8AvCFsQaArQ4Vyune0fR9bT0lwSSCCXqA/https/media-exp1.licdn.com/dms/image/C4D1EAQH-ky4WLnxVGQ/event-background-image-shrink_200_800/0
+
+{Reactions}
+⭐ (2) 
+
+[01-Dec-20 06:23 PM] Jcharming#2693
+I'm looking forward to it - if you want to do your part go ahead and share the early bird registration form on 5 different places -
+
+
+[01-Dec-20 06:33 PM] Jcharming#2693
+Hey @Stress Test Contributors
+
+We have 21 @Stress Test Contributor and I have a contest.  
+Tick the 🦉  below to let me know how many of you have the bandwidth here to participate in a contest activity to boost the AtomicDEX Stress Test.  
+Details tbd when I see a fist full of ticks below!
+
+{Reactions}
+🦉 (7) 👍 (2) 
+
+[01-Dec-20 06:36 PM] joe_land1#1088
+@Jcharming might want ot but bandwith requirements
+
+
+[01-Dec-20 06:42 PM] Jcharming#2693
+Contest will be about gathering new registrations for the AtomicDEX Stress Test Dec 12- -13
+Commitment looks like 5-10 minutes a day dependent on your skill and motivation - more if you feel inclined of course.
+
+
+[01-Dec-20 06:42 PM] joe_land1#1088
+oh
+
+
+[01-Dec-20 06:42 PM] Jcharming#2693
+Meme masters welcome
+
+
+[01-Dec-20 06:42 PM] joe_land1#1088
+i thought u meant like a pre test
+
+
+[01-Dec-20 06:43 PM] joe_land1#1088
+or something
+
+
+[01-Dec-20 06:43 PM] joe_land1#1088
+🤣
+
+
+[01-Dec-20 06:43 PM] joe_land1#1088
+me engrish good no
+
+
+[01-Dec-20 06:43 PM] lightspeed393#5403
+I'm happy to help however I can
+
+{Reactions}
+KMD (2) 🦉 
+
+[01-Dec-20 06:43 PM] Jcharming#2693
+Well that's just not been announced yet 😉
+
+
+[01-Dec-20 06:43 PM] joe_land1#1088
+👀
+
+
+[01-Dec-20 06:43 PM] Jcharming#2693
+https://tenor.com/view/eye-looking-around-staying-vigilant-gif-10055847
+
+{Embed}
+https://tenor.com/view/eye-looking-around-staying-vigilant-gif-10055847
+https://images-ext-1.discordapp.net/external/koOJ5oNfTHjq14lTrvKGqRFL-nJrXexJhVp3tGkpECk/https/media.tenor.co/images/668a113c4da0ffe1f9d61cb29604653b/tenor.png
+
+
+[01-Dec-20 06:45 PM] Jcharming#2693
+scritch the 🦉 @joe_land1   you know you want an excuse to fire your hawt meme's 
+https://discord.com/channels/412898016371015680/781107417152094208/783521255922991125
+
+
+[01-Dec-20 06:45 PM] joe_land1#1088
+i just shitpost
+
+
+[01-Dec-20 06:45 PM] joe_land1#1088
+dont wanna commit
+
+
+[01-Dec-20 06:45 PM] joe_land1#1088
+but might get a nice one
+
+
+[01-Dec-20 06:45 PM] Jcharming#2693
+classic shitpost 💚
+
+
+[01-Dec-20 06:45 PM] joe_land1#1088
+
+{Attachments}
+https://cdn.discordapp.com/attachments/781107417152094208/783524326049054720/rkkc3i7asr161.png
+
+{Reactions}
+😂 (3) 🙃 🤣 
+
+[01-Dec-20 07:00 PM] Jcharming#2693
+ty btw, getting lost in shitpostings
+
+
+[02-Dec-20 11:48 AM] Collider#6160
+Hey @Jcharming & crew just thought I'd let u know I'm working on migrating collider coins from cryptocollider.com over to a KMD chain atm and hopefully can have that done in time for the promotion, if u'd like to include them 🙂
+
+{Reactions}
+👍 (10) 
+
+[02-Dec-20 11:51 AM] daemonfox#6136
+☝️  there it is!
+
+{Reactions}
+KMD (8) 🦉 (5) 
+
+[02-Dec-20 12:53 PM] Jcharming#2693
+Would love to! Let's go ahead and open up a DM then set up a call time where share some info and potentially get you plugged into AtomicDEX Stress Test event on Dec. 12 - 13.
+
+
+[03-Dec-20 03:28 PM] Deleted User#0000
+@Jcharming @Audo we need to do some korean focused promo too
+
+
+[03-Dec-20 03:28 PM] Deleted User#0000
+seems like that is a big trading block, have we done some out reach to that community?
+
+
+[03-Dec-20 05:18 PM] Mylo#8306
+@goldenman  are you still around? AtomicDEX stress test is next week if you can drum up some Korean interest 💫
+
+
+[03-Dec-20 07:45 PM] Jcharming#2693
+Thanks for the heads up, we haven't made a translation of the reg form specific for Korean, that mostly has to do with us having a lot on our plates and not having a direct outlet for Korea translate material.  
+If you have an audience you can share this with let it be known and I"ll see what I can do about getting the landing page translated.
+
+
+[03-Dec-20 07:47 PM] Jcharming#2693
+btw @daemonfox 
+Collider signed up for the call to get signed on the community spotlight
+
+
+[03-Dec-20 07:47 PM] Jcharming#2693
+
+{Attachments}
+https://cdn.discordapp.com/attachments/781107417152094208/784264534856302648/unknown.png
+
+
+[03-Dec-20 07:50 PM] Jcharming#2693
+Btw @Stress Test Contributor
+
+{Attachments}
+https://cdn.discordapp.com/attachments/781107417152094208/784265255106641970/unknown.png
+
+
+[03-Dec-20 07:50 PM] Jcharming#2693
+another 100 since the 1st of december
+
+
+[03-Dec-20 07:53 PM] Jcharming#2693
+If you reacted to this message open a DM with me telling me in one sentence why you love AtomicDEX, Komodo, or @Audo  I'll be dropping you links and stating competition terms in the next 24 hours. 
+If you didn't react to that message now's your last chance @Stress Test Contributor  DM's are open
+
+{Reactions}
+✅ (2) 
+
+[03-Dec-20 07:53 PM] Jcharming#2693
+
+{Attachments}
+https://cdn.discordapp.com/attachments/781107417152094208/784266065781063720/unknown.png
+
+
+[03-Dec-20 07:53 PM] Jcharming#2693
+Expecting at least 5 of you : )
+
+
+[03-Dec-20 08:16 PM] Jcharming#2693
+Already feeling the Komodo❤️ - some of the best community here in all of crypto to survive since 2017 bear - who's next?
+
+
+[03-Dec-20 08:16 PM] Jcharming#2693
+
+{Attachments}
+https://cdn.discordapp.com/attachments/781107417152094208/784272013883473930/unknown.png
+
+{Reactions}
+🍻 (3) 
+
+[05-Dec-20 02:43 PM] Audo#5667
+We need level 2 server for higher quality audio. Who can help us boost the server? :)
+
+Need 11 more boosts!
+
+
+[05-Dec-20 02:44 PM] Audo#5667
+nvm, @Jcharming did it
+
+{Reactions}
+💫 (6) 
+
+[05-Dec-20 02:44 PM] Audo#5667
+👏
+
+
+[09-Dec-20 06:36 AM] Audo#5667
+Can you guys join the Voice-meeting channel for a second?
+
+
+[09-Dec-20 06:36 AM] Audo#5667
+I just want to test how the discord functionality works
+
+
+[09-Dec-20 06:36 AM] Audo#5667
+i.e. how the tiling works
+
+
+[09-Dec-20 04:08 PM] tolken#2655
+Did we get details on stress test yet (what we’re testing?)
+
+
+[09-Dec-20 06:47 PM] Jcharming#2693
+Soon (tm)
+
+{Reactions}
+shexy (2) 
+
+[10-Dec-20 03:13 AM] Audo#5667
+many details here and in the links: https://blog.komodoplatform.com/en/greatest-stress-test-all-time-atomicdex/
+
+{Embed}
+https://blog.komodoplatform.com/en/greatest-stress-test-all-time-atomicdex/
+The Greatest Stress Test of All Time For AtomicDEX
+RegistrationRegister for the event to maximize your prize earning opportunities. Event Overview$5,000+ in crypto is up for grabs. Prizes are guaranteed for everyone who makes atomic swaps during the AtomicDEX Stress Test on December 12 & 13! Competition Details  Collect all the coins by participating in all the
+https://images-ext-2.discordapp.net/external/ZH9joAhT0e8wwprjnepEiPx5Zm87-lBLgUfRu1qfDCw/https/blog.komodoplatform.com/en/content/images/2020/12/Komodo-Banner---Q4-2020-Roadmap---Light_Top--67-.png
+
+
+[11-Dec-20 03:50 AM] uak#6718
+So trading Rick & Morty is sufficient for all the opportunities?
+and is the is the channel to follow the event or there is better one?
+
+
+[11-Dec-20 03:51 AM] gcharang#6833
+there will be a new channel most probably, and will be announced soon
+
+
+[11-Dec-20 03:53 AM] gcharang#6833
+yes, the rick and morty pairs should be traded the most. but, the pairs of the other communities who are participlating wil have windows to trade for prizes. Go through the blog posts,  they have all the info
+
+
+[11-Dec-20 04:06 AM] uak#6718
+I was reading this, https://blog.komodoplatform.com/en/atomicdex-stress-test-contest-details/ I'm not sure if it had mention of other currencies
+
+{Embed}
+https://blog.komodoplatform.com/en/atomicdex-stress-test-contest-details/
+AtomicDEX Stress Test - Swap Contest Details
+Event Schedule Rules, Requirements, & EligibilityRegistered AtomicDEX Stress Test users will receive prizes in their AtomicDEX non-custodial wallets when their associated AtomicDEX KMD address meets the eligibility requirements for prize earning. Prizes will be sent automatically to your address for the prize being offered during that event.Regi...
+https://images-ext-1.discordapp.net/external/s3Guyg_JlPv4Gn5plSbNBuoR2wyBIgglISSAFJUPMcY/https/blog.komodoplatform.com/en/content/images/2020/12/Komodo-Banner---Q4-2020-Roadmap---Light_Top--71-.png
+
+
+[11-Dec-20 06:50 AM] uak#6718
+I've got 7.7 morty and 7.7 rick is it enough to participate in the stress test?
+
+
+[11-Dec-20 08:17 AM] gcharang#6833
+https://blog.komodoplatform.com/en/atomicdex-stress-test-event-schedule/
+
+{Embed}
+https://blog.komodoplatform.com/en/atomicdex-stress-test-event-schedule/
+AtomicDEX Stress Test - Event Schedule
+Swap Contest Details Event Registration Form Saturday, December 12th  Event 1 Why DEXs Matter - Komodo AtomicDEX SpotlightEvent 1 Calendar Reminder 7:30 AM UTC to 9:30 AM UTC December 12, 2020  Speakers  Komodo CTO - Kadan ‘ca333’ Stadelmann Komodo QA Lead - Tony Lysakov Komodo CMO - Audo
+https://images-ext-2.discordapp.net/external/dHqeWrKMmxpZ6VqAKxEzC-Jg8bR4s2nuUiotkvqAXlM/https/blog.komodoplatform.com/en/content/images/2020/12/Komodo-Banner---Q4-2020-Roadmap---Light_Top--69-.png
+
+
+[11-Dec-20 08:20 AM] uak#6718
+thanks
+
+
+[11-Dec-20 10:31 AM] tolken#2655
+Just to make sure my time calculation is correct, we’re about 13 hours until it starts correct?
+
+
+[11-Dec-20 11:59 AM] Audo#5667
+countdown here: https://stresstest.atomicdex.io/
+
+{Reactions}
+KMD 
+
+[11-Dec-20 11:59 AM] Audo#5667
+shows 11 h 30 min now
+
+
+[11-Dec-20 11:59 AM] Audo#5667
+so you were right!
+
+
+[11-Dec-20 12:23 PM] tolken#2655
+Hah, cool launch countdown ;D
+
+
+[11-Dec-20 03:49 PM] Jcharming#2693
+Didn't really get enough reacts to this message to run the competition. 
+
+So let's do this one - here's a calendar link for the first event to go share in chat channels. 
+@lightspeed393 @daemonfox @Loo✟z 
+drop this on twitter and then ping me back with your twitter links when you do https://www.addevent.com/event/XC5731631
+
+{Embed}
+https://www.addevent.com/event/XC5731631
+Why DEXs Matter - Komodo AtomicDEX Spotlight
+You’re reading this because you’re invited to Komodo’s AtomicDEX stress test. Prizes are guaranteed for everyone who takes part and registers their AtomicDEX KMD address. To maximize your profits and collect ALL the coins - you’ll want to participate in ALL the events streamed live http://atomicdex.io/stresstest.CHECKLIST✓ Download AtomicDEX her...
+https://images-ext-1.discordapp.net/external/5jNnj9c6rCR8ObqAfJydAW7NoHHYp_O57TmHoJ3STac/https/addevent.com/gfx/logofs.png
+
+
+[11-Dec-20 04:12 PM] ejuliano#8606
+here @Jcharming i did one too if that helps
+https://twitter.com/Komodo4all/status/1337548597093658624?s=20
+
+{Embed}
+Komodo Unofficial (@Komodo4all)
+https://twitter.com/Komodo4all/status/1337548597093658624?s=20
+First event in @AtomicDEX stress test weekend is starting in just over 7 hours:
+
+https://t.co/dCPVQI11mD
+Twitter
+
+{Reactions}
+🔥 
+
+[11-Dec-20 05:55 PM] Jcharming#2693
+
+{Attachments}
+https://cdn.discordapp.com/attachments/781107417152094208/787135586494185522/unknown.png
+
+{Reactions}
+2561_feelsevilman (3) KMD (3) AtomicDEX (3) 🔥 (4) 
+
+[11-Dec-20 05:55 PM] Jcharming#2693
+http://atomicdex.io/stresstest
+
+Why DEXs Matter - Komodo AtomicDEX Spotlight
+
+https://www.addevent.com/event/XC5731631
+
+{Embed}
+https://www.addevent.com/event/XC5731631
+Why DEXs Matter - Komodo AtomicDEX Spotlight
+You’re reading this because you’re invited to Komodo’s AtomicDEX stress test. Prizes are guaranteed for everyone who takes part and registers their AtomicDEX KMD address. To maximize your profits and collect ALL the coins - you’ll want to participate in ALL the events streamed live http://atomicdex.io/stresstest.CHECKLIST✓ Download AtomicDEX her...
+https://images-ext-1.discordapp.net/external/5jNnj9c6rCR8ObqAfJydAW7NoHHYp_O57TmHoJ3STac/https/addevent.com/gfx/logofs.png
+
+
+[13-Dec-20 02:59 PM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Please use #🤑┃tip-bot to talk to TipBot.
+
+
+[11-Jan-21 06:20 PM] MiguelTapisquen#0809
+#🤑┃tip-bot
+
+
+[07-Feb-21 11:12 AM] Cryptolord#2006
+#🤑┃tip-bot
+
+
+[20-Mar-21 10:13 AM] Heno1974#6038
+#🤑┃tip-bot
+
+
+==============================================================
+Exported 236 message(s)
+==============================================================
