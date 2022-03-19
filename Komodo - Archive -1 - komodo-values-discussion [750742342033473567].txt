@@ -1,0 +1,511 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / komodo-values-discussion
+Topic: Three day discussion sprint during which we discover Komodo values.
+==============================================================
+
+[18-Sep-20 08:11 AM] Churro#4832 (pinned)
+**Purpose of discussion** 😋 
+
+Hello @everyone @here! We’re back for another discussion hosted by Churro ( Komodo intern). 
+
+The purpose of this channel is to talk about **Komodo values**🔥 🔥🔥 . 
+
+We are here for 3 days to answer all questions and feedback. 
+
+
+**Why is this topic important?**🤔 
+
+We found that we are not communicating our community vision and purpose clearly. This has created an issue where we are unable to create a story surrounding Komodo’s community that everyone can get excited about. 
+
+We have decided to dive deep into Komodo’s logo and found that there is only a technical side story to Komodo **(See Komodo Logo below)**. We believe that there should also be a community story surrounding Komodo’s Logo.  
+
+If we can create a story that includes both our community and technology, we can create a story for our audiences who are new to Komodo and excite them to stay and contribute to our growing ecosystem. Please check out the side by side chart and graphics below for reference. 
+
+We have created this channel to ask for your ideas and feedback
+
+**Discussion Time**! 😄
+**What are your thoughts on this? **
+**What are our community values?**
+**How can we use our community values to create a story? **
+**How can we incorporate both tech and community stories into the Komodo logo? **
+
+{Reactions}
+💯 (2) 
+
+[18-Sep-20 08:11 AM] Churro#4832
+Pinned a message.
+
+
+[18-Sep-20 08:16 AM] Churro#4832 (pinned)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/750742342033473567/756533998322450502/iPhone_XR_XS_Max_11_2.png
+
+
+[18-Sep-20 08:16 AM] Churro#4832
+Pinned a message.
+
+
+[18-Sep-20 09:15 AM] Audo#5667
+@everyone, another community discussion just started :KMD:  💬 
+
+Help out @Churro to identify our community values. This is key info for us to discover so we can tell our story effectively.
+
+
+[18-Sep-20 09:15 AM] Churro#4832
+I'm very excited to hear what everyone has to say! 😄
+
+
+[18-Sep-20 09:45 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The original supernet vision was UNITY. It was a collaboration of blockchains against fiat
+
+{Reactions}
+💯 (4) 👆 (3) 
+
+[18-Sep-20 09:47 AM] max ar#7984
+I'm not new to Komodo but I've been away for some time. I'd like to go deeper into interoperability with other ecosystems i.e RSK
+
+{Reactions}
+⭐ (4) 
+
+[18-Sep-20 11:58 AM] sakata#4279
+I think we should have a Komodo signet to represent the community, instead of the brand logo! For me I guess our values are fair, equality & freedom. Since we started off from the early NXT days maybe something is held there for us. But thats just my opinion 🤔
+
+{Reactions}
+Antara 👀 
+
+[18-Sep-20 12:26 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Such as the unity ring? https://youtu.be/AXo_EBR45R0
+
+{Embed}
+rydnwest
+https://www.youtube.com/watch?v=AXo_EBR45R0
+Unity Stamp
+The Chappelle Show Rick James Episode
+https://images-ext-1.discordapp.net/external/dKm-X1LcxEvO4VDb_NSM8-kRgSV8CP1i71iIrdTW888/https/i.ytimg.com/vi/AXo_EBR45R0/sddefault.jpg
+
+{Reactions}
+😆 (2) 
+
+[18-Sep-20 01:08 PM] Churro#4832
+> 
+> The original supernet vision was UNITY. It was a collaboration of blockchains against fiat
+> @༺α☬丂Ӧ¢ ༒ ༻ I agree! Unity is a very important value because it shows that we all support each other and we have a common interests, goals and vision.
+
+
+[18-Sep-20 01:11 PM] Churro#4832
+> I'm not new to Komodo but I've been away for some time. I'd like to go deeper into interoperability with other ecosystems i.e RSK
+@max ar Interoperability is a very interesting concept. Do you think this concept is shown in the KMD products we offer to developers and businesses?
+
+
+[18-Sep-20 01:13 PM] Churro#4832
+@sakata Yea I agree man! It would be cool if KMD did have a signet and in what ways do you think these values (Fair, equality and freedom) are shown in our community? Just a thought
+
+
+[18-Sep-20 01:27 PM] sakata#4279
+Fair as in everyone is entitled to their own say, equal by the fact that everyone's voice matters & freedom as there is no constraints within Komodo; you can work or do whatever you wish. That's off the top of my head 😅
+
+
+[18-Sep-20 01:43 PM] Churro#4832
+@sakata those are great examples my friend. So far during my experiences being in the community, I see KMD community having these values.  Innovators - we are constantly developing and growing our ecosystem
+Friendly - we are welcoming and supportive 
+Engaging - we are always creating fun opportunities for everyone to get involved
+
+
+[18-Sep-20 01:44 PM] Churro#4832
+This is from my perspective lol
+
+
+[18-Sep-20 01:48 PM] sakata#4279
+Yea bro I love those too!
+
+
+[18-Sep-20 02:11 PM] Churro#4832
+Yea i think it all of these values kinda fits with what we are trying to do right now for the KMD community. We are innovating and restructuring KMD's community so that everyone has an easy access to support, creating engaging activities so that everyone is involved and if we accomplish these goals, then we will be able to create a friendly environment (warm and welcoming).
+
+
+[18-Sep-20 02:12 PM] Churro#4832
+Overall I think this branding will help us stand out lol
+
+
+[18-Sep-20 02:13 PM] Churro#4832
+I wonder how we can use this community story and tie it with the tech story and our KMD logo
+
+
+[18-Sep-20 02:54 PM] WnyCrypto#8781
+I think that a clear and concise history of the project, from its beginnings in bitcoin dark / supernet and even whatever was before that. I think members of the community would love to have a better understanding of the past. And transition such a page to a future road map. The better the community understands the projects past, present, and future roadmap. We could be better salesman for the project than simply hodlers. I’ve been involved in the crypto space since 2011, and Komodo is ideologically is  where I fit in the entire crypto space, examples being uses the security of btc with dpow (huge selling point), open to collaboration with other projects, and most importantly Open-sourced. But even as long as I’ve been involved in the space the complexity of the entire kmd platform can be a bit much and I’m not even sure I entirely grasp every aspect completely. So finding better orators within the community would be a giant plus if we had a better references and better understanding of the project as a whole, past, and future road map. Perhaps a interview going through the history of the platform could accompany such a resource page. I think we have people in the community just itching to contribute in any way we can.
+
+{Reactions}
+👍 (2) 
+
+[18-Sep-20 02:57 PM] Komodefi#5638
+Independence from legacy financial systems is a big one. Also being coin agnostic and trying to be as inclusive with all blockchain tech as possible
+
+
+[18-Sep-20 03:01 PM] WnyCrypto#8781
+I think if more funds need to be allocated to complete the dex or speed the process along however that may be, organize a community fund or hold a money-bomb style online event where we interview people in the crypto-space, community members, and developers. Once the AtomicDEX is completed I’ll shouting about kmd and atomic swaps all day. But getting out of beta is huge.
+
+
+[18-Sep-20 03:02 PM] WnyCrypto#8781
+community organized!
+
+
+[18-Sep-20 11:27 PM] Audo#5667
+> I think we should have a Komodo signet to represent the community, instead of the brand logo!
+
+Interesting proposal @sakata – do you have some example to show? How is it used? Do you know if other communities use something like that?
+
+Trying to wrap my head around what it is 🙂
+
+
+[18-Sep-20 11:29 PM] Audo#5667
+Good point @WnyCrypto 
+
+We have information here and there, and one community member is writing a histrory book as well. I talked with him that we would review his work later with better time – and then combine our resources to build an ultimate Komodo history book/article.
+
+
+[19-Sep-20 05:56 AM] sakata#4279
+@Audo So a signet is sort of an image that represents some group or agenda etc. They're most commonly found on rings, but also badges -like in the military- and what not. Don't quote me, I'm not a jeweller 😅
+
+A 'family crest' might be a better term for what I was thinking, something that works with a flag, badges, or anything that we want our [community] image to be shown
+
+{Reactions}
+👍 (2) 
+
+[19-Sep-20 07:01 AM] Audo#5667
+https://contentsparks.com/16896/free-download-big-list-of-core-value-words/
+
+{Embed}
+https://contentsparks.com/16896/free-download-big-list-of-core-value-words/
+Big List of Core Value Words - Free Download - Content Sparks
+Not sure what to call your business values? Check out our big list of core value words, and then download a pdf to kickstart your brainstorming.
+https://images-ext-2.discordapp.net/external/S5e2i2YKkGLaqZ8kqwMWkkkW6GCew5sw3Rk0_1xjwSI/https/contentsparks.com/wp-content/uploads/2015/03/wordle.png
+
+
+[19-Sep-20 11:19 AM] ejuliano#8606
+A value of Komodo is ACCESS:  can access support from the team, from community members... can access tools & solutions from Komodo... can access information about blockchains & cryptocurrency... can access other blockchains through interoperability... can access jl777
+remaining accessible should continue to be a value
+
+{Reactions}
+👍 (3) 🔥 (2) 
+
+[20-Sep-20 12:00 AM] Audo#5667
+Here's a list of words that I would consider to be close to our core values:
+
+Committed
+Humble
+Courage
+Determination
+Devotion
+Friendliness
+Freedom
+Independence
+Originality
+Passion
+Enthusiasm
+Originality
+Open-Mindedness
+
+{Reactions}
+🤔 (2) rum (2) 
+
+[20-Sep-20 08:14 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Rum:rum:
+
+{Reactions}
+😂 (2) 
+
+[20-Sep-20 09:01 AM] actionslacks#4072
+global domination
+
+{Reactions}
+🚀 (2) 
+
+[20-Sep-20 10:03 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Learn, Build, Share
+
+{Reactions}
+👍 (6) 👆 (3) 
+
+[20-Sep-20 08:16 PM] Mylo#8306
+innovative
+
+
+[20-Sep-20 08:16 PM] Mylo#8306
+pioneering
+
+{Reactions}
+💯 (3) 
+
+[20-Sep-20 09:24 PM] polycryptoblog#1173
+Stunning
+
+
+[20-Sep-20 09:24 PM] polycryptoblog#1173
+Brave
+
+
+[20-Sep-20 09:24 PM] polycryptoblog#1173
+:troll:
+
+{Reactions}
+🤣 
+
+[21-Sep-20 05:28 AM] Deleted User#0000
+Coingirl
+
+{Reactions}
+shexy 
+
+[21-Sep-20 05:35 AM] Mylo#8306
+Collaborative
+
+
+[21-Sep-20 10:40 AM] Churro#4832
+These characteristics are very interesting. It was cool hearing about how everyone describes the Komodo community. An important question is how can we include these values onto the komodo logo? I posted a graphics table that has the current KMD Logo with its current values, from seeing this, I observed that the KMD Logo doesn't include our community values. My suggestion is replacing "Komodo Technology" thats in the center of the logo with "Komodo Community". We are the center of komodo’s growing ecosystem.
+
+
+[21-Sep-20 10:40 AM] Churro#4832
+What do you guys think
+
+
+[21-Sep-20 10:58 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+What about a growing collection of coin symbols, in the shape of a tree, or in the shape of a constellation, or in the shape of an atom, or in the shape of...DNA,
+
+{Reactions}
+🤔 
+
+[21-Sep-20 10:59 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+As in, don't redesign kmd logo, but include it and others in a larger community logo
+
+{Reactions}
+👍 
+
+[21-Sep-20 11:15 AM] Churro#4832
+@༺α☬丂Ӧ¢ ༒ ༻ thats a really cool idea! It would be cool if we can create a community logo that represents our values.
+
+
+[21-Sep-20 11:17 AM] Churro#4832
+another blockchain community that im a part of is Wanchain (WAN), not sure if you guys heard of them but they have a cool community logo separate from the actual Wan logo. Their community logo is the mandalorian helmet from star wars and the wanchain community callls themselves wandalorians lol
+
+
+[21-Sep-20 11:19 AM] Churro#4832
+
+{Attachments}
+https://cdn.discordapp.com/attachments/750742342033473567/757667233345437726/Screen_Shot_2020-09-21_at_2.18.50_PM.png
+
+
+[21-Sep-20 11:21 AM] Churro#4832
+Maybe we can also create an official community twitter account
+
+
+[21-Sep-20 11:23 AM] Churro#4832
+@Audo
+
+
+[21-Sep-20 11:37 AM] Audo#5667
+Yes let's do it 🙂
+
+{Reactions}
+😄 (3) 
+
+[21-Sep-20 12:25 PM] bfresh#0001
+oh yea
+
+
+[21-Sep-20 12:25 PM] bfresh#0001
+a perfect mascot would be a komodo dragon
+
+
+[21-Sep-20 12:25 PM] bfresh#0001
+lool
+
+
+[21-Sep-20 01:08 PM] Churro#4832
+Lol that works @bfresh
+
+
+[21-Sep-20 01:10 PM] Churro#4832
+What would also be cool, is that what if we can have a competition and ask our community members to create a logo for our community and we can have weekly votes on twitter and the most votes will be the official KMD community logo
+
+{Reactions}
+💯 (2) 
+
+[21-Sep-20 01:11 PM] Churro#4832
+maybe slide in some KMD coins too lol
+
+
+[23-Sep-20 04:26 AM] xxxencryptacion#3788
+And great job naming the app 'atomicDeFi' great name!
+
+
+[23-Sep-20 04:28 AM] xxxencryptacion#3788
+Komodo is actually DeFi (actually) 😄 😅
+
+
+[23-Sep-20 04:29 AM] xxxencryptacion#3788
+YFI token isnt DeFi really
+
+{Reactions}
+KMD 
+
+[23-Sep-20 09:13 AM] Churro#4832
+@everyone @here Now that we have discussed what community values KMD has to offer, I've narrowed down the list of values that you guys posted on here. (This was generated by values that appeared the most in the channel ) 
+
+Innovative 
+Friendly 
+Collaborative  
+Independent 
+
+Before we move forward **Poll Time:**
+
+Click  👍  If you **agree** these values represent Komodo’s core community values 
+                                                                                                                                    
+Click  👎  If these value **doesn’t **represent Komodo’s core community values
+
+{Reactions}
+👍 (18) 
+
+[23-Sep-20 11:46 AM] ejuliano#8606
+Accessible > Friendly
+
+
+[23-Sep-20 12:14 PM] Churro#4832
+@ejuliano Isn't accessible similar to being friendly. Accessible = we are approachable, within reach, easy going, welcoming.  This sounds friendly, right?
+
+
+[23-Sep-20 12:24 PM] ejuliano#8606
+yes they are similar.... i get the sense that accessible is more accurate because it encompasses a broader/deeper meaning... from my point of view the community is not simply just friendly,  it's even more than that:  
+through komodo community many things can be accessed, including developers, support for tools/products, can even access to the master jl777 in his own channel... they are all accessible because they are so friendly & supportive, for example whenever i see people asking for support in one of the channels for wallet or atomicdex or whatnot, solutions/help from the team & community are so accessible and that includes how friendly they are
+
+{Reactions}
+👍 (3) 
+
+[24-Sep-20 04:28 AM] Audo#5667
+We could have both, that would give us a total of five. From my earlier list, I would also consider:
+
+Freedom: we all value freedom as a value, and also our platform was designed with that in mind. We work hard for blockchain technology because we believe it will advance our freedom and bring prosperity to our society.
+
+Passion and enthusiasm: I see we are all quite passionate, from team members to community enthusiasts. Without passion, we would give up. We are enthusiastic about what we create (AtomicDEX), and we all want to see it success and everyone is helping us to test the product and give feedback.
+
+Originality and open-mindedness: we are not afraid to craft our own path. We don't blindly copy what others are doing but think for ourselves. We are not afraid to be different and stand out.
+
+Determination and devotion:  We don't care where the rest of the industry is moving; we stay true to our cause & values. We do what we believe in. We don't give up when we hit obstacles, and things don't go as planned.
+
+We believe when there's a will there's a way.
+
+{Reactions}
+👍 (2) 
+
+[24-Sep-20 08:44 AM] Churro#4832
+@ejuliano this is an interesting point of view and I really liked how you were able to include a story behind our community being accessible. I think that as long we have a story to back our community values, this would really help attract newcomers to join our community.
+
+{Reactions}
+👍 
+
+[24-Sep-20 08:45 AM] ejuliano#8606
+@Audo  yes to "Freedom"
+
+{Reactions}
+👍 (2) 
+
+[24-Sep-20 08:49 AM] Churro#4832
+@Audo  I agree, I like the ideas you provided. Right now we have ton's of values right on our plate lol
+
+
+[24-Sep-20 08:49 AM] Churro#4832
+This question is for everyone, do you guys think we should shorten the values list or should we keep what we have now?
+
+
+[24-Sep-20 08:51 AM] Churro#4832
+I don't want to exclude any important values that has a story behind it
+
+
+[24-Sep-20 08:52 AM] ejuliano#8606
+find a healthy mean...i don't know what that number would be, but not too many, not too few... 4-5 seems good to me
+
+
+[24-Sep-20 08:59 AM] Churro#4832
+Yea 5 is good. The end goal is to use our community values and story to create a community logo. In the beginning, I was thinking about replacing some values on the KMD logo but @༺α☬丂Ӧ¢ ༒ ༻ brought up a great point by just creating a community logo so that we can have both a technology and community story.
+
+
+[24-Sep-20 09:00 AM] Churro#4832
+What do you guys think about this direction?
+
+
+[24-Sep-20 09:12 AM] Churro#4832
+Also what strategies do you guys have in mind regarding choosing our top 5 community values?
+
+
+[24-Sep-20 09:12 AM] Churro#4832
+Any ideas?
+
+
+[24-Sep-20 10:09 AM] Audo#5667
+> @༺α☬丂Ӧ¢ ༒ ༻ brought up a great point by just creating a community logo so that we can have both a technology and community story.
+
+this discussion is almost merging with #komodo-mascot-slogan-discussions  :D
+
+The mascot doesn't have to be a fluffy 3D character, but it could be a flat shilouette – like a logo/icon
+
+{Reactions}
+📈 
+
+[24-Sep-20 11:37 AM] Churro#4832
+@Audo  yea lol I'm not sure though if Arta wants to use a mascot as a community logo tho? I
+
+
+[24-Sep-20 11:38 AM] Churro#4832
+
+{Attachments}
+https://cdn.discordapp.com/attachments/750742342033473567/758759185650941982/Screen_Shot_2020-09-24_at_2.37.41_PM.png
+
+{Reactions}
+😅 (2) 
+
+[24-Sep-20 11:44 AM] Churro#4832
+Here's my plan = once we figure out our 5 core community values + stories, we can start creating a campaign on twitter to promote the idea of creating a community logo and twitter account (where all of our KMD community content will be) by doing a voting poll if people want to see this or not. Then from there, if people are interested, we can create a logo competition where people's  art work can be submitted and we can have rounds of voting on twitter and the winner will have their logo be the official community logo. How does this sound to everyone?
+
+{Reactions}
+👍 (5) 
+
+[25-Sep-20 09:26 AM] Churro#4832
+Helllo @everyone , just want to thank you guys for taking the time to contribute to this cool discussion. It was great hearing about everyone's point of view on Komodo's community values. Very interesting to see that we were able to discover that we do have a lot of values 😄. The time has come to close this discussion. Thank you!
+
+{Reactions}
+💯 (8) 🍻 
+
+[05-Oct-20 10:27 AM] Churro#4832
+Hey guys! @everyone just created a survey for our community values. I decided to create one so we can get everyones perspective outside of this discussion channel. Hope you guys can fill out the survey! it will only take less than 2 minutes. https://forms.gle/qiHCURTJzDGpWMwx8
+
+{Embed}
+https://forms.gle/qiHCURTJzDGpWMwx8
+Komodo Community Values Survey
+Hello everyone! We are trying to innovate our community and we need your help to determine what are our 5 core community values. Don't make multiple submissions please! Only one submission per person! :)
+https://images-ext-2.discordapp.net/external/TzMlm3wfORW0cSQG6xfUMGgr0usf6wXt8OIDP5ElRHk/https/lh4.googleusercontent.com/bryhr2oqaKC6AXdjZe_6zqxZ24KUBhjjJd2dTwfCRl2tSMcKuu9ypULjBZBeN-Wqrz45_NE%3Dw1200-h630-p
+
+
+[05-Oct-20 10:30 AM] Churro#4832
+Once I gather feedback from everyone. We will be able to move on to the next phase of creating our community twitter page.
+
+
+[05-Oct-20 10:32 AM] Churro#4832
+As for our logo for our community twitter page, we will use our KMD mascot to represent our community. We are currently brainstorming ideas on what our mascot should look like. Please join the #komodo-mascot-slogan-discussions if have any cool ideas or want to contribute!
+
+
+[05-Oct-20 10:40 AM] Churro#4832
+give me a 🥳  emoji if you think we are moving in the right direction
+
+{Reactions}
+🥳 (22) 👍 (12) 🍉 (7) tux_surf (2) 
+
+[05-Oct-20 10:32 PM] Churro#4832
+Guys we have 23 responses so far from the survey!!! I guess we are moving in the right direction after all 🙌 😄
+
+{Reactions}
+💯 (16) 
+
+==============================================================
+Exported 84 message(s)
+==============================================================

@@ -1,0 +1,352 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / newsletter-discussion
+==============================================================
+
+[04-Sep-20 12:46 PM] Delton#2644
+Hi, I am the Content Manager for Komodo. Beginning this month, I will be taking over Komodo’s newsletter.
+
+Today we released a newsletter summarizing Komodo’s top highlights from August. We are trying to make changes to improve our content and encourage active participation in the community. 
+
+You might have noticed that today’s newsletter edition features a new format from previous editions. We reduced the amount of content, added more visuals, and included a “Question of the Month” section.
+
+The newsletter is just one thing we are working to improve upon at Komodo. **We value your ideas and feedback!**
+
+The purpose of this channel is to get your thoughts on ways we can tailor the Komodo newsletter to the needs of our community. This #newsletter-discussion channel will be open through next Friday for us to discuss how we can improve the newsletter. A few possible things we can talk about:
+
+1. Newsletter name – We are looking to decide on a newsletter name that our community identities with.
+2. Newsletter structure – Order of things, the segments, use of visuals, etc.
+3. Newsletter content – What news do you want to hear more about?
+4. Newsletter frequency – Would you like to see more frequent or less frequent updates (weekly, monthly, quarterly, etc.)?
+
+Let’s get this conversation started!
+
+P.S. If you haven’t already done so, please make sure to subscribe to the newsletter here. https://komodoplatform.com/enthusiasts/#newsletter
+
+{Embed}
+admin
+https://komodoplatform.com/enthusiasts/
+Enthusiasts - Komodo
+
+{Reactions}
+👍 (5) KMD (3) 👌 (3) ✅ (3) 📈 (2) yassinkomodo 
+
+[04-Sep-20 01:04 PM] Delton#2644
+https://mailchi.mp/ccf3cca465c7/lets-talk-defi
+
+{Embed}
+https://mailchi.mp/ccf3cca465c7/lets-talk-defi
+Let's Talk DeFi
+In this edition, we will walk you through our DeFi vision and invite you to join our community discussion about DeFi. There is also information about our new marketing direction, new AtomicDEX releases, new community discussions.
+https://images-ext-1.discordapp.net/external/M9yU6doR34wQbNv3mophHV7yf_dIJbFkSWpgJFfW3o4/https/mcusercontent.com/eae7d500e24dcdb21b359fccf/images/02dea837-801f-42f1-93a5-89245aff965c.png
+
+{Reactions}
+👍 (6) KMD (4) AtomicDEX (2) 
+
+[05-Sep-20 09:02 PM] DeMarco#5676
+Ok just read your email. 
+
+Here’s some brain vomit from a 2017 to present enthusiast 
+
+Newsletter names:
+KMD Block Report(s)
+Around the Block News
+Antara Times
+KMDragonSpeak
+
+Who knows if these are any good but I could keep going....🤮
+
+I’m visual so I’d want graphics of how things work together. Simple analogy Alice Bob Grandma’s UI kind of stuff. 
+
+
+As far as content there’s so many little areas to focus on.
+
+“Struggling with multi sig/multi coin wallets. Here’s how Verus Community solved....”
+
+Privacy and security- Pirate chain. DPOW
+
+Gaming 
+RedFox/CHIPS
+
+Sovereign IDs/Currency Testnet
+
+Trading
+Highest volumes at CEX  each week. Info on fiat onboard/off boarding for various currencies/territories. 
+
+(Maybe a legal type Explanation of structure of community support as relates to KMD asset. Notary elections/rewards)
+
+New blockchain pairs over the month at AtomicDex/Defi
+
+Publish Liquidity goals for Atomic Dex pairs.
+
+Discussion about Defi as concept.
+
+When would you need your own blockchain? Business ideas for payment, rewards, tracing/tracking/delivery. 
+
+That’s all I got right now.
+
+{Reactions}
+KMD (5) 
+
+[06-Sep-20 05:38 AM] Audo#5667
+> Antara Times
+
+Love it 😄 ❤️
+
+
+[06-Sep-20 05:39 AM] Audo#5667
+_ _
+keep the ideas coming!
+
+For inspiration: in 2017 we had a weekly newsletter that was called "Five Bullet Friday" – you guys probably remember it.
+
+The idea was that every friday there are 5 short news in bullet points about what's going on. It was a great name because it had a reference to the structure/idea behind the newsletter.
+
+
+[06-Sep-20 05:40 AM] Audo#5667
+and it had a reference to "Friday" so that people would anticipate it
+
+
+[06-Sep-20 06:00 AM] ejuliano#8606
+unless there are interesting developments on a weekly basis, monthly newsletter could be a reasonable timing, to compile the relevant info that would be considered valuable by the audience
+
+
+[06-Sep-20 06:03 AM] ejuliano#8606
+@DeMarco 's ideas are right on
+...also perhaps a developer spotlight...not about the personal aspect of the developer, but perhaps a short blurb about what they're working on, what is the relevance for Komodo platform, and that sort of thing...to perhaps give us a little window into what is going on behind the scenes?  I'm not sure if that would be a good read, or if it would be at all interesting to the community
+
+{Reactions}
+KMD (3) 👏 (2) 
+
+[06-Sep-20 06:46 AM] Delton#2644
+@ejuliano Good idea! We could have a dev spotlight as a short paragraph in the newsletter or even a full article on the website.
+
+{Reactions}
+👍 (3) 
+
+[06-Sep-20 07:23 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Is the newsletter for a user audience or for a developer audience? The reoccurring theme around here is that komodo is being built for developers. If this is the case, the newsletter should be geared towards developers.
+
+
+[06-Sep-20 07:31 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Show off projects, show off code, give code examples to try, show off CC, encourage new developers and development, direct focus to projects and  areas that need help and improvement, mining help, installation help, etc
+
+
+[06-Sep-20 07:31 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Contests for working cc projects
+
+
+[06-Sep-20 07:32 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+Section for students, like a work book, lesson 1 compile kmd, lesson 2 setup a miner, etc etc etc
+
+{Reactions}
+👍 (2) 
+
+[06-Sep-20 08:01 AM] Delton#2644
+@༺α☬丂Ӧ¢ ༒ ༻ Previous newsletters, including this one, have focused mainly on the user audience. Perhaps we could have an additional newsletter specifically for devs? I totally agree we should put more effort into trying to onboard new devs.
+
+{Reactions}
+👏 (2) 💯 (3) ⭐ 
+
+[06-Sep-20 08:07 AM] DeMarco#5676
+I agree on the developer info, just watched Satinder talk about Shurli. Just the few interactions I’ve had with JL777 have been memorable. There is soo much potential in KMD infrastructure but...as an end user I’m like “wow that cool” but I have no idea how one builds applications to take advantage of a subatomic atmosphere in blockchain. I’m more like “uh...wen mewn?” But I absolutely love the tech and community!
+
+{Reactions}
+yassinheart (3) 💯 (2) 2561_feelsevilman 
+
+[06-Sep-20 08:11 AM] DeMarco#5676
+@ejuliano Good idea! We could have a dev spotlight as a short paragraph in the newsletter or even a full article on the website. 
+
+I really like this idea
+
+
+[06-Sep-20 08:32 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+https://archive.org/details/compute-gazette
+
+
+[06-Sep-20 08:32 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+I'm old enough to remember these. They had full pages of code in the back for you to type out or scan, and run
+
+{Reactions}
+👍 (2) KMD 
+
+[06-Sep-20 10:19 PM] Mylo#8306
+```
+ give code examples to try
+```
+👆 super important to get people hooked fast
+
+{Reactions}
+💯 (2) 
+
+[07-Sep-20 07:37 AM] sakata#4279
+In response to the newsletter name change:
+Maybe follow the current food trend going on with uniswap coins? Something to do with chocolate will always make me open an email...
+
+{Reactions}
+👍 (2) 🍴 
+
+[07-Sep-20 07:45 AM] Mylo#8306
+or cake.  why i called my work in 2019 cakeshop 😄
+
+{Reactions}
+👍 😆 3040_kingpeepo 
+
+[07-Sep-20 07:46 AM] Delton#2644
+Yes! Chocolate Cake > Sushi 😆
+
+{Reactions}
+charmander_dancing 
+
+[07-Sep-20 07:47 AM] Mylo#8306
+yeah not as catchy as hummus blends
+
+
+[09-Sep-20 09:35 AM] Audo#5667
+We received one idea that we like. We could do one very simple newsletter where we list the highlights of the month, and then link to an external resource for more information. 
+
+This approach would have many benefits
+ - each newsletter only got one link
+ - we can host the content on our domain
+ - the monthly updates are easier to share and find, too
+
+
+[09-Sep-20 09:35 AM] Audo#5667
+_ _
+**Do you guys have more ideas for a name for this monthly update?** We would like to come up with some clever name.
+
+
+[09-Sep-20 08:23 PM] gcharang#6833
+"the dragon talks"
+or - talks and + tales / + saga
+
+{Reactions}
+🤔 (2) KMD (2) 
+
+[10-Sep-20 03:08 AM] Mylo#8306
+saga is clever because it's a multi-stage process in transactional systems 🤓
+
+
+[10-Sep-20 04:44 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The Block-Times
+
+
+[10-Sep-20 04:58 AM] Deleted User#0000
+@gcharang Dtail 🙂
+
+{Reactions}
+😆 (2) 💯 (3) KMD 
+
+[10-Sep-20 07:35 AM] DeMarco#5676
+I like something with Block - 
+
+What’s new on the Block?
+
+‘Round the Block 
+
+Block by Block
+
+Or something that is uniquely KMD
+
+AtomicNews
+
+The Notarian
+
+Notary News
+
+KMD Cafe
+
+Komodo Eggs
+
+Komodo Pearls
+
+I never said I was good at this 😹
+
+{Reactions}
+KMD 
+
+[10-Sep-20 08:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The Basilisk Glance
+
+
+[10-Sep-20 08:57 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The Lacerta Links
+
+
+[10-Sep-20 08:59 AM] 𝙊𝙞𝙣𝙠#3612
+Liquid Lizard?
+
+
+[10-Sep-20 09:00 AM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+The lizard lounge
+
+
+[10-Sep-20 09:02 AM] 𝙊𝙞𝙣𝙠#3612
+*off-topic* Leisure Suit Larry in the Land of the Lounge Lizards...
+
+{Reactions}
+🤣 (3) 🕺 
+
+[10-Sep-20 09:15 AM] Mylo#8306
+Komodo Gateway
+
+{Reactions}
+KMD (2) 👍 (4) 
+
+[10-Sep-20 10:20 AM] Jcharming#2693
+@DeMarco 
+> The Notarian 
+> 
+I like this one it's clever.  To the unknowing user it sounds like a newsletter title that are 'notes about the project' to the KMD familiar it's obvious that there is a link to the notary nodes.
+
+Also like this one:  KMD Block Report(s)
+
+
+[10-Sep-20 10:21 AM] Jcharming#2693
+Blockstreet News for something with 'block' in it?
+
+
+[10-Sep-20 10:24 AM] Jcharming#2693
+> @༺α☬丂Ӧ¢ ༒ ༻ Previous newsletters, including this one, have focused mainly on the user audience. Perhaps we could have an additional newsletter specifically for devs? I totally agree we should put more effort into trying to onboard new devs.
+@Delton 
+
+This.  Especailly if shrinking the newsletter it'd be easier to produce two small one with target info at target audiences. Then a larger comprehensive one
+
+
+[10-Sep-20 12:14 PM] actionslacks#4072
+komodo mensis -general                  the unhandled exception -dev
+
+{Reactions}
+👍 
+
+[10-Sep-20 12:34 PM] actionslacks#4072
+komensis
+
+
+[11-Sep-20 05:09 AM] thebaselinetest#9675
+Daily 
+* Daily Discord Digest
+
+Weekly
+* Motivation Monday (vision)
+* Ministry of Memes on Monday 
+* Technical Talk on Tuesdays.
+* Way-back When Wednesdays (give sense of progress).
+* Three Bullet Thursdays.
+* Happy Hour Friday (voice in Discord, open mic... best question)
+
+Monthly
+* Town-hall or Town-square
+
+{Reactions}
+👍 (4) 
+
+[14-Sep-20 11:35 AM] Delton#2644
+Thank you to everyone who shared ideas and feedback on how we can better cater the Komodo newsletter to the interests of our community! We will now close the discussion on this channel. I'll be reviewing all of your comments and implementing them.
+
+{Reactions}
+👌 (6) 👍 (3) 
+
+==============================================================
+Exported 43 message(s)
+==============================================================

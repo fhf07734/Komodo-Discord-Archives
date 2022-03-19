@@ -1,0 +1,2637 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / soulja
+==============================================================
+
+[30-Jan-21 09:19 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1355747532534476800?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1355747532534476800?s=20
+@AmeroMoney yes 🙂
+A true open blockchain system is permission less. And that's what @KomodoPlatform Antara Smartchain technology offers. I just helped kickstart a fan #cryptocurrency community for @souljaboy pretty quick.
+Twitter
+
+{Reactions}
+3040_kingpeepo (3) 
+
+[30-Jan-21 09:20 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1355746849362071552?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1355746849362071552?s=20
+@ptyx11 @souljaboy @AtomicDEX yes mate, it took me about 10-15 minutes to decide on the chain params looking at dev docs. setting up cloud server another 10+ min. $kmd Smartchain setup maybe 15-20+ min. GitHub website + domain, like 1+ hour. rest of the community helped with explorer + wallet + DEX. 😎🤓🚀
+Twitter
+
+{Reactions}
+💯 (3) 
+
+[30-Jan-21 09:20 PM] grewalsatinder#9653
+replying to some tweet queries relevant to this community project
+
+
+[30-Jan-21 09:20 PM] grewalsatinder#9653
+@here
+
+
+[30-Jan-21 09:21 PM] Crabby Paddy#6239
+Hope he picks it up :3040_suspepe:
+
+
+[30-Jan-21 09:22 PM] grewalsatinder#9653
+more than souljaboy, hope that his fan cryptocurrency community picks it up 🙂
+
+{Reactions}
+👍 (2) 
+
+[30-Jan-21 09:28 PM] ejuliano#8606
+who wants to send me some SOULJA?
+
+
+[30-Jan-21 09:28 PM] ejuliano#8606
+i am getting new pc so i will start staking it eventually if possible
+
+
+[30-Jan-21 09:28 PM] Crabby Paddy#6239
+I would love some soulja too :3040_suspepe:
+
+
+[30-Jan-21 09:29 PM] grewalsatinder#9653
+@ejuliano I helped setting up chain params keeping in mind to spawn a community of SOULJA with some funds
+
+
+[30-Jan-21 09:29 PM] ejuliano#8606
+crabby deserves that soulja!
+
+
+[30-Jan-21 09:29 PM] Crabby Paddy#6239
+:3040_kingpeepo:
+
+
+[30-Jan-21 09:29 PM] grewalsatinder#9653 (pinned)
+so, there are funds of 100,000 SOULJA premined
+
+
+[30-Jan-21 09:29 PM] grewalsatinder#9653
+and 1% Founders Rewards which gets mined and goes to the founders address after 10080 blocks, approx in 7 Days
+
+
+[30-Jan-21 09:29 PM] grewalsatinder#9653
+so, there'll be continous supply of SOULJA funds
+
+
+[30-Jan-21 09:29 PM] grewalsatinder#9653
+what I want is some community members take care of it
+
+
+[30-Jan-21 09:30 PM] grewalsatinder#9653
+so that I can concerntate more on development than this kind of stuff
+
+
+[30-Jan-21 09:30 PM] grewalsatinder#9653
+can you all help who wants to help with this kind of stuff ?
+
+
+[30-Jan-21 09:30 PM] Crabby Paddy#6239
+I can help (just no dev stuff 😂)
+
+
+[30-Jan-21 09:30 PM] grewalsatinder#9653
+help spread the word and let people know what is possible using KMD tech and SOULJA fan community ?
+
+
+[30-Jan-21 09:30 PM] ejuliano#8606
+yes that's what i'm trying to do
+
+
+[30-Jan-21 09:31 PM] grewalsatinder#9653
+I guess then first task is to how this community wants to spread the 100,000 pre-mined SOULJA coins
+
+
+[30-Jan-21 09:31 PM] grewalsatinder#9653 (pinned)
+make some kind of plan which invites people to have KMD address, use and install AtomicDEX on Desktop/Mobile and we drop these SOULJA to them
+
+
+[30-Jan-21 09:31 PM] grewalsatinder#9653
+equally
+
+
+[30-Jan-21 09:31 PM] ejuliano#8606
+i think you're right, the first task is to get soulja boy / his community to care/want it... otherwise, it was a good awareness campaign for kmd tech
+
+
+[30-Jan-21 09:32 PM] grewalsatinder#9653
+If you remember how PIRATE donations happned, that kinda plan might also help
+
+
+[30-Jan-21 09:32 PM] Crabby Paddy#6239
+I can reach out to some Asian rapper community + a very large Asian WSB community
+
+
+[30-Jan-21 09:32 PM] Crabby Paddy#6239
+If I can get a bit of help in making the chain
+
+
+[30-Jan-21 09:32 PM] ejuliano#8606
+exactly that was one of my hopes
+
+
+[30-Jan-21 09:32 PM] Crabby Paddy#6239
+I presume it’s a few minutes work
+
+
+[30-Jan-21 09:32 PM] ejuliano#8606
+that increases AtomicDEX downloads
+
+
+[30-Jan-21 09:32 PM] ejuliano#8606
+that's the goal basically
+
+
+[30-Jan-21 09:32 PM] Crabby Paddy#6239
+I know the subtle Asian traits spin off has thousands of members who love this kind of stuff
+
+
+[30-Jan-21 09:32 PM] grewalsatinder#9653
+try what you can 🙂 👍
+
+
+[30-Jan-21 09:32 PM] Crabby Paddy#6239
+And would download wallet :3040_suspepe:
+
+
+[30-Jan-21 09:33 PM] grewalsatinder#9653
+exactly
+
+
+[30-Jan-21 09:33 PM] Crabby Paddy#6239
+Can I dm you chain parameters / basics and get the bare minimal made up?
+
+
+[30-Jan-21 09:33 PM] Crabby Paddy#6239
+I don’t know how to dev and I don’t have Linux 😩
+
+
+[30-Jan-21 09:33 PM] Crabby Paddy#6239
+Even installing Komodo-cli took me hours hehe
+
+
+[30-Jan-21 09:34 PM] grewalsatinder#9653
+yes you can, if I'll be not busy at other places, I'll repond, or respond when get back to those messages
+
+
+[30-Jan-21 09:36 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1355751657276010498?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1355751657276010498?s=20
+@Komodo4all @CryptoLova @0xca333 @KomodoPlatform @AtomicDEX @wsbmod @souljaboy here's the example of NFTs on Antara Smartchain tech:
+https://t.co/Gh8tTSVIe6
+Made by one of the @KomodoPlatform member
+https://images-ext-2.discordapp.net/external/AttqFujQgDwHOs2_Dk-phNAmzVs20hEZ6h-6bv-TGOg/%3Fformat%3Djpg%26name%3D144x144_2/https/pbs.twimg.com/card_img/1355751595217043458/3OnWsA3z
+Twitter
+
+
+[30-Jan-21 09:47 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1355754476452290565?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1355754476452290565?s=20
+@realcryptolive @KomodoPlatform @souljaboy no, to my knowledge many @KomodoPlatform community members tried contacting @souljaboy, and inviting him to $KMD community to help with his efforts, but so far there is no response from @souljaboy 
+https://t.co/6s6oENNYFe
+Twitter
+
+
+[30-Jan-21 10:01 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1355757937264738306?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1355757937264738306?s=20
+@NewJackHodler @KomodoPlatform @AtomicDEX It is capable of making smart applications. check https://t.co/WD3KoRva4W
+it is up to the community how they want to advance on its available capabilities.
+Twitter
+
+
+[30-Jan-21 10:20 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1355762368798621697?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1355762368798621697?s=20
+@NewJackHodler @Komodo4all @souljaboy @KomodoPlatform I agree with your analysis. I also wouldn't be much interested in HODLING $SOULJA myself.
+I helped to make it to showcase what @KomodoPlatform is capable of.
+Twitter
+
+
+[30-Jan-21 10:20 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1355762689830576133?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1355762689830576133?s=20
+@NewJackHodler @Komodo4all @souljaboy @KomodoPlatform But since it is 100% mineable, the mined tokens actually has value since mining costs money. Hope community make smart dApps using it, & it can actually make some pretty amazing applications for music industry, if one really wish to use it for right way. @KomodoPlatform can guide
+Twitter
+
+
+[30-Jan-21 11:28 PM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266126728724540/805338826212900884/Screen_Shot_2021-01-31_at_8.28.42_PM.png
+
+{Reactions}
+👍 (4) 
+
+[30-Jan-21 11:29 PM] grewalsatinder#9653
+guess he noticed a bit. at least he followed me on twitter 🤔
+
+
+[30-Jan-21 11:31 PM] lightspeed393#5403
+sweet!
+
+
+[30-Jan-21 11:47 PM] Crabby Paddy#6239
+:3040_kingpeepo: :3040_kingpeepo: :3040_kingpeepo:
+
+
+[31-Jan-21 12:19 AM] grewalsatinder#9653
+who manages this twitter handle?
+https://twitter.com/realcryptolive/status/1355713706852835328?s=20
+
+{Embed}
+The Crypto Live (@realcryptolive)
+https://twitter.com/realcryptolive/status/1355713706852835328?s=20
+Imagine FOMO when @souljaboy will tweet to his 5.25 millions followers about it's new @SouljaCoin build on the top of @KomodoPlatform and @AtomicDEX 😂😂😂 
+
+Release the Komodo Dragon 🦎
+$KMD $SOULJA $WSB
+https://images-ext-1.discordapp.net/external/ZWvohYjSmMQyfv-kEkd4Dzs6M8f5AkrnTVOKpMbmAnw/https/pbs.twimg.com/media/EtB2bkpXIAAkXyd.jpg%3Alarge
+Twitter
+
+
+[31-Jan-21 01:54 AM] grewalsatinder#9653
+Pinned a message.
+
+
+[31-Jan-21 01:55 AM] grewalsatinder#9653
+Pinned a message.
+
+
+[31-Jan-21 04:35 AM] Crabby Paddy#6239
+@grewalsatinder  
+If you have any spare soulja
+
+RDw6AdAjwVzxCp5Akc8MzKYxvmebTYPZ39
+
+More than happy to help out + shill and airdrop when I have time
+
+
+[31-Jan-21 05:04 AM] grewalsatinder#9653
+@Crabby Paddy sent
+https://explorer.souljacoin.cash/tx/b6b9cd96adb1a4454494b082a174a1eeba4d55b07b7d74d0e1d6cb296cb4997c
+
+
+[31-Jan-21 05:05 AM] Crabby Paddy#6239
+Soulja boy up in this hoeee:abusedsmily:
+
+
+[31-Jan-21 05:05 AM] Crabby Paddy#6239
+Thanks
+
+{Reactions}
+👍 
+
+[31-Jan-21 05:30 AM] umitkara48#6464
+can i receive soulja ? how
+RW1YSsu4vP8DhxyPvJo1Y7iMsPxZuqWahb
+
+
+[31-Jan-21 05:32 AM] ejuliano#8606
+you could tweet to souljaboy and get his attention about soulja... post the link to the tweet here.
+@Crabby Paddy has some to share 😉
+
+
+[31-Jan-21 05:35 AM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/01e6a6e37d97cc414a59eb2856c26dda708ae32165b3fb3df059f52a4be392a1
+
+
+[31-Jan-21 05:38 AM] grewalsatinder#9653
+no block in last 5+ minutes?
+
+
+[31-Jan-21 05:38 AM] grewalsatinder#9653
+chain stalled?
+
+
+[31-Jan-21 05:38 AM] grewalsatinder#9653
+aren't people staking it?
+
+
+[31-Jan-21 05:38 AM] grewalsatinder#9653
+it's 40% staking too
+
+
+[31-Jan-21 05:39 AM] grewalsatinder#9653
+try staking
+
+
+[31-Jan-21 06:11 AM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266126728724540/805440142726397982/unknown.png
+
+
+[31-Jan-21 06:13 AM] daemonfox#6136
+Ill make a giveaway
+
+{Reactions}
+👍 
+
+[31-Jan-21 06:14 AM] ejuliano#8606
+cool i will stake it within this week some time
+
+{Reactions}
+👍 
+
+[31-Jan-21 06:18 AM] grewalsatinder#9653
+I suggest someone manage a big giveaway of these coins if you guys really want a SOULJA community
+
+
+[31-Jan-21 06:18 AM] grewalsatinder#9653
+otherwise just have fun and enjoy
+
+
+[31-Jan-21 10:31 AM] Churro#4832
+This is dope
+
+
+[31-Jan-21 10:31 AM] Churro#4832
+will promote it right now
+
+{Reactions}
+🙌 
+
+[31-Jan-21 12:28 PM] Silviu25#1709
+Where can I find wallet?
+
+
+[31-Jan-21 12:34 PM] lightspeed393#5403 (pinned)
+https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.3.1.2-beta
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.3.1.2-beta
+Release AtomicDEX Desktop v0.3.1.2 beta · KomodoPlatform/atomicDEX-...
+add meme tokens WSB and SouljaCoin - WSB and SouljaCoin are fan projects and tokens without any value.
+Virustotal:
+windows installer
+macOS
+ubuntu-AppImage
+ubuntu
+windows
+https://images-ext-1.discordapp.net/external/22LglkYqJGgf5n05qZ_ycizyn0hhH24aNCqZC6jt6CI/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/21276113
+
+
+[31-Jan-21 01:58 PM] Silviu25#1709
+aaa.. I allready have that :)). i thought there is dedicated one. Staking is possible on dex?
+
+
+[31-Jan-21 02:17 PM] lightspeed393#5403
+no, staking needs a full node. I don't think there's a gui full node yet, but you can use command line if you want. https://souljacoin.cash
+
+{Embed}
+https://souljacoin.cash/
+Welcome to SouljaCoin
+souljacoin.cash
+
+
+[31-Jan-21 03:19 PM] CryptoprenuerUK#1845
+how to mine ?
+
+
+[31-Jan-21 03:20 PM] CryptoprenuerUK#1845
+cpu minable i guess ?
+
+
+[31-Jan-21 04:17 PM] Mylo#8306
+can i get some SOULJA to stake, looks like you need more stakers
+RMUj6kkZCgLXUXvVXey275nbY4SbP75Fmw
+
+
+[31-Jan-21 04:17 PM] Mylo#8306
+cheers
+
+{Reactions}
+🍻 
+
+[31-Jan-21 04:19 PM] grewalsatinder#9653
+gui full node is komdodo ocean. just replace the `komodod` with komodo ocean's binary in that command and it does full sync of the chain.
+
+
+[31-Jan-21 04:20 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/67a3c52647a09ca2f25d2dd04ca3b9edb1419b97b9e38aec5ec0fa63badaba3c
+
+
+[31-Jan-21 04:22 PM] Mylo#8306
+cheers dude
+
+
+[31-Jan-21 04:23 PM] grewalsatinder#9653
+np 🙂
+
+
+[31-Jan-21 04:23 PM] grewalsatinder#9653
+someone need to figure out the giveaway strategy of 100,000 SOULJA to community. I'll give these tokens away if there's a plan
+
+
+[31-Jan-21 04:23 PM] grewalsatinder#9653
+the more this community is delaying this, the less attention you get by time
+
+
+[31-Jan-21 04:24 PM] grewalsatinder#9653
+as I'm seeing the progress so far, SOULJA is only fun for the time being and it will fade away soon at this pace.
+
+
+[31-Jan-21 04:24 PM] grewalsatinder#9653
+so if it is of no interest, that's fine. leave it as is
+
+
+[31-Jan-21 04:24 PM] grewalsatinder#9653
+it was anyway a fun thing for weekend
+
+
+[31-Jan-21 04:25 PM] grewalsatinder#9653
+and to showcase what can be done in very very short span of time to kickstart a project
+
+
+[31-Jan-21 04:25 PM] grewalsatinder#9653
+was worth it
+
+
+[31-Jan-21 04:25 PM] grewalsatinder#9653
+also has about 15k SOULJA for giveaway https://explorer.souljacoin.cash/address/RVV1Tweut11iEi8pt22CxLP4Csysm5CBT2
+
+
+[31-Jan-21 04:26 PM] grewalsatinder#9653
+giving away these to anyone who's asking for SOULJA, in slots of 100 SOULJA
+
+
+[31-Jan-21 04:26 PM] grewalsatinder#9653
+these were mined in first 136 blocks before this chain's info went public
+
+{Reactions}
+👍 
+
+[31-Jan-21 04:42 PM] ejuliano#8606
+@grewalsatinder i'll take some SOULJA when you have a chance
+RDBv21C4xrNdRbSmwKYQqvjgNabQktcz2m
+
+
+[31-Jan-21 04:44 PM] ejuliano#8606
+also you're exactly correct what you say... and really it's up to souljaboy or his community or both... so perhaps the giveaway is the way to go.. and plus it might fulfill one of the goals for this type of awareness campaign:
+get people to download atomicdex
+
+{Reactions}
+💯 
+
+[31-Jan-21 04:46 PM] ejuliano#8606
+so... we will try to inform souljaboy fans that if they want soulja, they should download atomicdex... we can ask jcharming if he wants to coordinate similarly to how it was done during stress test, or, we can give away 100 soulja to the first 1000 people who give us their wallet address in here, or on twitter
+
+
+[31-Jan-21 04:47 PM] ejuliano#8606
+or i was thinking a faucet too
+
+
+[31-Jan-21 04:47 PM] ejuliano#8606
+that might be a good way to get it into their hands, especially if the faucet is accessible by click of button in gui like for rick/morty was
+
+
+[31-Jan-21 05:42 PM] grewalsatinder#9653
+@CHMEX do you have faucets on dexstats mate?
+
+
+[31-Jan-21 06:17 PM] Mylo#8306
+waiting for utxo maturity to stake, takes a v.long time....
+
+
+[31-Jan-21 06:17 PM] Mylo#8306
+on a slow chain 😄
+
+
+[31-Jan-21 06:25 PM] Mylo#8306
+https://twitter.com/souljaboy/status/1356029871118381060
+
+{Embed}
+Soulja Boy (Drako) (@souljaboy)
+https://twitter.com/souljaboy/status/1356029871118381060
+Here's What Soulja Boy Should Know Before Launching SouljaCoin - Decrypt https://t.co/LVdoHuiFDH
+https://images-ext-2.discordapp.net/external/nSccK0n9N1myDKasOnvUuaLn8tTww_mfmFvaZWn6meI/%3Fformat%3Djpg%26name%3D600x314/https/pbs.twimg.com/card_img/1356018463718973443/1jwrYU1v
+Twitter
+
+
+[31-Jan-21 06:26 PM] Mylo#8306
+interesting
+
+
+[31-Jan-21 06:27 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/0037085dd62d544e2fbb7bb73a25eed1f54adcb8f727d550adcc31ffd0e93153
+
+{Reactions}
+👍 
+
+[31-Jan-21 06:40 PM] grewalsatinder#9653
+how many confirmations are needed for maturity to be eligible for staking ?
+
+
+[31-Jan-21 06:45 PM] Mylo#8306
+100
+
+{Reactions}
+👌 
+
+[31-Jan-21 06:45 PM] Mylo#8306
+my utxos are mature.
+
+
+[31-Jan-21 06:45 PM] Mylo#8306
+at block 2581 😄
+
+
+[31-Jan-21 06:47 PM] Mylo#8306
+i spread them out over 64 segids, only 1 coin in each segid, see how well it goes with staking compared to the 256 coin stakes.
+
+
+[31-Jan-21 06:49 PM] ejuliano#8606
+is it possible to make an NFT that is a song?
+
+
+[31-Jan-21 06:49 PM] daemonfox#6136
+yes
+
+
+[31-Jan-21 06:49 PM] daemonfox#6136
+Thats the idea here
+
+
+[31-Jan-21 06:49 PM] ejuliano#8606
+exactly....just checking
+
+
+[31-Jan-21 06:49 PM] daemonfox#6136
+With SOUJA, tokens could be issued to fund new albums
+
+
+[31-Jan-21 06:49 PM] daemonfox#6136
+singles
+
+
+[31-Jan-21 06:49 PM] daemonfox#6136
+w/e
+
+
+[31-Jan-21 06:50 PM] daemonfox#6136
+those would be securities
+
+
+[31-Jan-21 06:50 PM] daemonfox#6136
+but as a biz, he would have no middle man
+
+
+[31-Jan-21 06:50 PM] ejuliano#8606
+could he use the NFT function to create a song and sell that?
+
+
+[31-Jan-21 06:50 PM] daemonfox#6136
+taking a cut
+
+
+[31-Jan-21 06:50 PM] daemonfox#6136
+all album funding is community
+
+
+[31-Jan-21 07:00 PM] Mylo#8306
+https://explorer.souljacoin.cash/block/0c663eed00abe9132dc57d87ceec732c3af6532acebe33d137ec58b5a0bb0076
+
+
+[31-Jan-21 07:00 PM] Mylo#8306
+staked with 1 coin!
+
+{Reactions}
+🎉 🚀 
+
+[31-Jan-21 07:23 PM] ejuliano#8606
+https://twitter.com/Komodo4all/status/1356080233057824770?s=20
+
+{Embed}
+Komodo Unofficial (@Komodo4all)
+https://twitter.com/Komodo4all/status/1356080233057824770?s=20
+@decryptmedia  this $SOULJA coin chain is an independent smart chain built from @KomodoPlatform  
+-plenty of cool features including POW & POS chain, as well as NFTs & any tokenization.  Already on @AtomicDEX GUI and swappable.
+Of course no vendor lock-in with Komodo Platform https://t.co/gmMtKZPORx
+Twitter
+
+
+[31-Jan-21 08:00 PM] xoso#1057
+when on uniswap exchange ?
+
+
+[31-Jan-21 08:03 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1356083744700948480?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1356083744700948480?s=20
+@Komodo4all @Robietheoracle @souljaboy @AtomicDEX I have 100,000 $SOULJA to give away. If people are really interested, make a plan on how you want it to be distributed or given away.
+I also have about 15,000 $SOULJA for give away that I mined in early blocks.
+Probably another 25,000 $SOULJA/week give aways from Founder Rewards
+Twitter
+
+
+[31-Jan-21 08:03 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1356083896526327812?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1356083896526327812?s=20
+@Komodo4all @Robietheoracle @souljaboy @AtomicDEX Either these are given away or are actually used for something else like marketing or whatever bounties. If this community is interested, get together, and make a plan what you want to do.
+Twitter
+
+
+[31-Jan-21 10:26 PM] CryptoprenuerUK#1845
+ill take a little solja please = RJ5mA5XkNP723XEwpzPdkgxHeKdiKhZadW
+
+
+[31-Jan-21 10:26 PM] CryptoprenuerUK#1845
+can anyone help how to mine it ?
+
+
+[31-Jan-21 10:41 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/9fdbf4b2660b8d33577aa52de965b9508f3d0520caa089fda6d04d9f1b32b97c
+
+
+[31-Jan-21 10:41 PM] CryptoprenuerUK#1845
+👍
+
+
+[31-Jan-21 10:41 PM] grewalsatinder#9653
+mining info is on https://souljacoin.cash/, and mining pools list too
+
+
+[31-Jan-21 10:42 PM] CryptoprenuerUK#1845
+im quite new to mining what miner is required ?
+
+
+[31-Jan-21 10:42 PM] CryptoprenuerUK#1845
+i dont see this info
+
+
+[31-Jan-21 10:43 PM] grewalsatinder#9653
+for that has to wait for others to reply. I don't know much on pool mining part
+
+
+[31-Jan-21 10:43 PM] CryptoprenuerUK#1845
+👍
+
+
+[01-Feb-21 03:08 AM] Deleted User#0000
+I'd like some $SOULJA if possible please
+RLs223mmQr5Gj2kr45H4n4aSweTCfsBjWy
+
+
+[01-Feb-21 03:11 AM] Muzo354510#0742
+Hello guys.. $SOULJA  RQt5dG3nKaRP4fQfDQkgPZEUm7eqHq8kf3
+
+
+[01-Feb-21 03:20 AM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/d419161e2c8a2ec2cbe734a318108504040e19a3a0abe1bcac87507a77ae322a
+
+
+[01-Feb-21 03:36 AM] Muzo354510#0742
+Thank you, how do we see this token in atomicdex?
+
+
+[01-Feb-21 03:37 AM] grewalsatinder#9653
+Pinned a message.
+
+
+[01-Feb-21 03:37 AM] grewalsatinder#9653
+check pinned AtomicDEX message
+
+
+[01-Feb-21 03:40 AM] Crabby Paddy#6239
+TRADING WSB for SOULJA :AtomicDEX:  on atomicdex only!
+
+
+[01-Feb-21 03:46 AM] Drobk#1344
+Hi could you please send me some $SOULJA for my boyyy
+
+
+[01-Feb-21 03:46 AM] Drobk#1344
+RXTkVuZ6SVuizxFvZPtsybh8QXVKyKwnhh
+
+
+[01-Feb-21 06:37 AM] Bytes_n_B#5294
+how do i add soulja in atomic dex ?
+
+
+[01-Feb-21 08:22 AM] Mylo#8306
+good to put apow on these types of chains in the future @grewalsatinder imo where hashrate will be unpredictable for mining.
+
+{Reactions}
+💯 👌 
+
+[01-Feb-21 08:22 AM] Mylo#8306
+https://docs.komodoplatform.com/basic-docs/antara/antara-setup/antara-customizations.html#ac-adaptivepow
+
+
+[01-Feb-21 08:30 AM] ejuliano#8606
+is it possible to add it after-the-fact?
+
+
+[01-Feb-21 08:31 AM] ejuliano#8606
+you need to be using atomicdex desktop; and you click the + button on the upper right side, find soulja there
+
+
+[01-Feb-21 08:34 AM] Bytes_n_B#5294
+i get add ethereum token ? do i need v3 beta ? i have the newest official version
+
+
+[01-Feb-21 08:35 AM] ejuliano#8606
+the plus button brings up enable assets...scroll the list and see soulja there
+
+
+[01-Feb-21 08:35 AM] ejuliano#8606
+or type it into the search bar that shows up
+
+
+[01-Feb-21 08:38 AM] Bytes_n_B#5294
+not working v.2.26.4 sorry
+
+
+[01-Feb-21 08:41 AM] ejuliano#8606
+you should be using the newest version 3.1.2 beta
+https://github.com/KomodoPlatform/atomicDEX-Desktop/releases
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Desktop/releases
+Releases · KomodoPlatform/atomicDEX-Desktop
+atomicDEX Desktop app - project codename "Dextop". Contribute to KomodoPlatform/atomicDEX-Desktop development by creating an account on GitHub.
+https://images-ext-1.discordapp.net/external/22LglkYqJGgf5n05qZ_ycizyn0hhH24aNCqZC6jt6CI/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/21276113
+
+
+[01-Feb-21 08:42 AM] Bytes_n_B#5294
+ok
+
+
+[01-Feb-21 08:54 AM] Nev#5914
+i'll take some SOULJA when you have a chance RMzmei45vBei4d4oQb5rpKZUD4Kxb9FYd2 Thanks.
+
+
+[01-Feb-21 08:55 AM] Katzzor#8039
+Hey there RMda57W8HNztaq2SB13mWr8Qo8Nkhb2c3P
+
+
+[01-Feb-21 08:55 AM] Mylo#8306
+no.  chain params that start with -ac_ cannot be changed after starting
+
+
+[01-Feb-21 09:15 AM] Bytes_n_B#5294
+RKBDEkngwp39gW3Ru2pbnpVAc6bVybUCvi 🙂
+
+
+[01-Feb-21 09:28 AM] DaiMond101#0740
+Can I get some of these SOULJAS, please  RFjUk7wxUj59eVuSpwYKdNZznPrXA8QRAj
+
+
+[01-Feb-21 09:45 AM] cryptos#3669
+RA4sz5FpKq7sypkb7scR3JTBHGbyZHLUiV
+
+
+[01-Feb-21 10:49 AM] CHMEX#0686
+@Nev @Katzzor @Bytes_n_B @DaiMond101 @cryptos @3na1 sent
+
+{Reactions}
+🤛 (2) 
+
+[01-Feb-21 10:50 AM] cryptos#3669
+Thanks
+
+
+[01-Feb-21 10:55 AM] Bytes_n_B#5294
+@CHMEX thx 🙂
+
+
+[01-Feb-21 11:06 AM] t0sma#0368
+Hey, this is my SOULJA address : RA41jTp5gKvc5gs3p6zmAFLB2S5gbPEUv5
+
+
+[01-Feb-21 11:23 AM] Churro#4832
+Soulija boi tell me
+
+
+[01-Feb-21 11:23 AM] Churro#4832
+em
+
+
+[01-Feb-21 11:23 AM] C_Retarded#6262
+can i get some $soulja?  thanks
+RQzvQSi5roGAkMqXtJ5Yytkj9QGK3rskeV
+
+
+[01-Feb-21 11:26 AM] rionnox#3470
+R9UnUcJJ1ZD21mZismkHk4b8Gh2YCe3fTD
+
+
+[01-Feb-21 11:26 AM] rionnox#3470
+Soulja me 😜
+
+
+[01-Feb-21 11:36 AM] dwminer1#4456
+Please some Soulja for me:) RX8TDrhYePANad5HRt8b7YzUT58hpF72pJ
+
+
+[01-Feb-21 11:36 AM] alexpylka#1426
+Hi, I would love this #soulja airdrop! How do we go about getting some?
+
+
+[01-Feb-21 11:39 AM] C_Retarded#6262
+download the latest adex then enable soulja wallet. post addy here @alexpylka
+
+{Reactions}
+👍 
+
+[01-Feb-21 11:54 AM] alexpylka#1426
+0xe0bbef6f06f1d0155fad1aabbcbda08616fbc385
+
+
+[01-Feb-21 11:57 AM] Nev#5914
+Who ever it was that sent me some SOULJA, thank you again.
+
+
+[01-Feb-21 12:00 PM] CHMEX#0686
+You are welcome
+
+{Reactions}
+👍 
+
+[01-Feb-21 12:06 PM] alexpylka#1426
+Which address from the Atomex wallet do we send?
+
+
+[01-Feb-21 12:08 PM] CHMEX#0686
+Soulja address not eth
+
+
+[01-Feb-21 12:26 PM] ejuliano#8606
+good work @Churro
+
+
+[01-Feb-21 01:45 PM] alexpylka#1426
+I can’t seem to find the soulja wallet 😂🤦🏽‍♂️
+
+
+[01-Feb-21 03:15 PM] daemonfox#6136
+in the left panel of aDEX, click Wallet and under the list of coins is a + sign. Click it and search or scroll to SOULJA and add it.
+
+{Reactions}
+👍 
+
+[01-Feb-21 03:16 PM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266126728724540/805939581567631410/unknown.png
+
+{Reactions}
+👍 
+
+[01-Feb-21 05:34 PM] 花果山#5224
+R9qBZ1rvyAQeU7Cxg6BkQojwRG93gy9ZRx
+
+
+[01-Feb-21 06:37 PM] 花果山#5224
+@umitkara48 https://dp.explorer.dexstats.info/tx/896056fe8c99043a0573de42ca0991d987d94c87e5dd17ac70fd0a33051f4d9e     Has been sent, welcome to use KMD Eco, Happy Atomic Exchange.
+
+
+[01-Feb-21 06:39 PM] 花果山#5224
+@Mylo https://dp.explorer.dexstats.info/tx/3e096f50ae1cd46ab22ec6791fe0cdc56e6371d52bf4a4ed5556e0fcaf11ea77     Has been sent, welcome to use KMD Eco, Happy Atomic Exchange.
+
+
+[01-Feb-21 06:41 PM] 花果山#5224
+@CryptoprenuerUK @Deleted User @Muzo354510 @Drobk @Nev @Katzzor @Bytes_n_B @DaiMond101 @cryptos @3na1 @t0sma @C_Retarded @rionnox @dwminer1 Has been sent, welcome to use KMD Eco, Happy Atomic Exchange.
+
+{Reactions}
+👍 
+
+[01-Feb-21 06:43 PM] cryptos#3669
+Thanks
+
+
+[01-Feb-21 06:43 PM] 花果山#5224
+https://dexstats.info/assetviewer.php
+
+{Embed}
+https://dexstats.info/assetviewer.php
+Dexstats Dashboard - BarterDEX
+Check your Address Balances on KMD Assetchains
+
+
+[01-Feb-21 06:44 PM] 花果山#5224
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266126728724540/805991897277005824/unknown.png
+
+
+[01-Feb-21 07:02 PM] C_Retarded#6262
+Thanks✌️
+but is it possible that i didnt receive any $soulja? i see 0 balance @花果山
+
+
+[01-Feb-21 07:12 PM] 花果山#5224
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266126728724540/805998964591689738/unknown.png
+
+
+[01-Feb-21 07:25 PM] 花果山#5224
+@C_Retarded soulja may not send them yet
+
+
+[01-Feb-21 07:27 PM] 花果山#5224
+DP mining POS
+
+
+[01-Feb-21 07:28 PM] C_Retarded#6262
+oh thanks! @花果山
+
+
+[01-Feb-21 08:13 PM] alexpylka#1426
+Legend thanks !
+
+
+[01-Feb-21 08:13 PM] alexpylka#1426
+0x44748E207E77fD03711064f372bD2cdD62b1d433
+
+
+[01-Feb-21 08:29 PM] alexpylka#1426
+My desktop doesn’t look like that
+
+
+[01-Feb-21 08:53 PM] alexpylka#1426
+I have atomic wallet and also atomex wallet
+
+
+[01-Feb-21 08:53 PM] alexpylka#1426
+I think I’m lost lol
+
+
+[01-Feb-21 09:12 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/9f2b37546008757a011c08d43d32b1c87642d828d7f5b5a04d548ceee488be09
+
+
+[01-Feb-21 09:50 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/016d7a64d755da3acf4cc0d9acc48c0017a615e88b3a19c62aaa9f3bd424dc7f
+
+
+[01-Feb-21 09:57 PM] 花果山#5224
+@alexpylka This is KMD ecology, not ETH wallet, please use the address of KMD wallet.
+
+
+[01-Feb-21 09:59 PM] gcharang#6833
+you need AtomicDEX https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.3.1.2-beta
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.3.1.2-beta
+Release AtomicDEX Desktop v0.3.1.2 beta · KomodoPlatform/atomicDEX-...
+add meme tokens WSB and SouljaCoin - WSB and SouljaCoin are fan projects and tokens without any value.
+Virustotal:
+windows installer
+macOS
+ubuntu-AppImage
+ubuntu
+windows
+https://images-ext-1.discordapp.net/external/22LglkYqJGgf5n05qZ_ycizyn0hhH24aNCqZC6jt6CI/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/21276113
+
+
+[01-Feb-21 10:00 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/b9b445c0da118bf5b873a8c110e88a820979c47a8526a55f0ca1bfe81d47c3bb
+
+
+[01-Feb-21 10:14 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/6d458880c02f97c57b70c91703ca8d7cf382b3dd7fc5b6e5790e16827bf27d14
+
+
+[01-Feb-21 10:14 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/d5981a7c4077fbf11076a0c0598c700e49f218383c843e151212257c03867dd9
+
+
+[01-Feb-21 10:18 PM] grewalsatinder#9653
+sent https://explorer.souljacoin.cash/tx/b9445d48426659f7f9132c40219fda004f0eba97ae2ffb63eec425af3ff850ea
+
+
+[01-Feb-21 10:19 PM] 花果山#5224
+@grewalsatinder Thank you
+
+
+[01-Feb-21 10:53 PM] C_Retarded#6262
+@grewalsatinder thanks
+
+
+[02-Feb-21 12:57 AM] lagmeister#2873
+RNxXn5TE6TpxNBzut9nGoYjheZQmhH3Jj7
+Thank you. 🙏
+
+
+[02-Feb-21 03:09 AM] 花果山#5224
+@lagmeister Has been sent, welcome to use KMD Eco, Happy Atomic Exchange.    https://dp.explorer.dexstats.info/tx/1aafe5e827ae39c0cad4f9024d79a127f622c0c03f010d814d686022c6ddd6ea
+
+
+[02-Feb-21 04:40 AM] lagmeister#2873
+Thank you.
+
+
+[02-Feb-21 07:59 PM] ejuliano#8606
+https://twitter.com/souljaboy/status/1356659050381860870?s=20
+
+{Embed}
+Soulja Boy (Drako) (@souljaboy)
+https://twitter.com/souljaboy/status/1356659050381860870?s=20
+🔥👀 whoa https://t.co/qrnUs6MqU8
+Likes
+221
+Twitter
+
+
+[02-Feb-21 08:00 PM] ejuliano#8606
+someone could make an NFT on the SOULJA chain?
+
+
+[02-Feb-21 09:30 PM] 花果山#5224
+@grewalsatinder   Does SOULJA support POS?
+
+
+[02-Feb-21 09:39 PM] grewalsatinder#9653
+Yes 40% blocks are staked
+
+
+[02-Feb-21 09:52 PM] 花果山#5224
+How many confirmations are required to participate in POS?
+
+
+[02-Feb-21 09:52 PM] 花果山#5224
+Still a few hours?@grewalsatinder
+
+
+[02-Feb-21 10:00 PM] Mylo#8306
+100 blocks
+
+
+[02-Feb-21 10:00 PM] Mylo#8306
+to maturity for staking
+
+
+[03-Feb-21 04:46 PM] grewalsatinder#9653
+@Crabby Paddy if you give me your SOULJA address, I'll transfer ALL SOULJA I have,
+
+
+[03-Feb-21 04:46 PM] grewalsatinder#9653
+then you can take care of donations etc
+
+
+[03-Feb-21 04:46 PM] grewalsatinder#9653
+as you wish
+
+
+[03-Feb-21 04:46 PM] Crabby Paddy#6239
+Sure give me a moment I think I sent it previously
+
+
+[03-Feb-21 04:47 PM] grewalsatinder#9653
+for me this project as a coin is failed.
+was good a little bit of attention moving towards KMD through it 👍
+
+{Reactions}
+👍 
+
+[03-Feb-21 04:47 PM] Crabby Paddy#6239
+RDw6AdAjwVzxCp5Akc8MzKYxvmebTYPZ39
+
+
+[03-Feb-21 04:48 PM] Crabby Paddy#6239
+Will anyone still be staking it for chain to move forward?
+
+
+[03-Feb-21 04:49 PM] grewalsatinder#9653
+@Crabby Paddy sent all mined coins:
+https://explorer.souljacoin.cash/tx/96c235075d049e7264a56203842093a2c36d2c9ae0a04af62ba7f79652fa1233
+
+
+[03-Feb-21 04:55 PM] grewalsatinder#9653
+@Crabby Paddy sent you rest of the premined 100,000 coins too:
+https://explorer.souljacoin.cash/tx/71b66b0b6fd4f7a52f3d7a3998c46f299288ad4d4435bcd167e1447a0bffd3e4
+
+
+[03-Feb-21 05:01 PM] grewalsatinder#9653
+I might still be reciving founder rewards in future, will keep those transfering to you if you want
+
+
+[03-Feb-21 05:01 PM] grewalsatinder#9653 (pinned)
+founders rewards will be coming to this address:
+https://explorer.souljacoin.cash/address/RSr5pG3SMVweUxoATEoBrKY9W7KPFAiSZb
+
+
+[03-Feb-21 05:01 PM] grewalsatinder#9653
+Pinned a message.
+
+
+[03-Feb-21 05:55 PM] Mylo#8306
+@Crabby Paddy i am staking on all 64 segids
+
+{Reactions}
+3040_kingpeepo 
+
+[03-Feb-21 07:07 PM] jvr#6773
+How do you get SOULJA coin? Just drop address here? RVj1Y4jP9hmii5DYshYDuE5fHmeDjNpdx6
+
+
+[03-Feb-21 07:07 PM] grewalsatinder#9653
+@Mylo can you plz share your staking commands with others
+
+
+[03-Feb-21 07:08 PM] grewalsatinder#9653
+When I tried I couldn’t stake a single block with single big utxo of 15k
+
+
+[03-Feb-21 07:08 PM] grewalsatinder#9653
+Then I gave up
+
+
+[03-Feb-21 07:09 PM] grewalsatinder#9653
+I will update the GitHub page with those instructions as well
+
+
+[03-Feb-21 07:14 PM] lightspeed393#5403
+try this: https://github.com/kmdlabs/pos64staker
+
+{Embed}
+https://github.com/kmdlabs/pos64staker
+KMDLabs/pos64staker
+Automated staker for PoS assetchains. Contribute to KMDLabs/pos64staker development by creating an account on GitHub.
+https://images-ext-2.discordapp.net/external/xMLdsaOJkB0rBgLHhEVd_N94_IrKzsqQqltmP2BYnyU/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/42953759
+
+
+[03-Feb-21 07:14 PM] lightspeed393#5403
+you definitely want to split your coins into all 64 segid addresses for best staking results
+
+
+[03-Feb-21 07:15 PM] lightspeed393#5403
+even more utxo's in 1 address is better than 1 big one
+
+{Reactions}
+👌 👍 
+
+[03-Feb-21 07:17 PM] grewalsatinder#9653
+thanks @lightspeed393 added that link to the github pages 👍
+
+{Reactions}
+👍 
+
+[03-Feb-21 07:22 PM] lightspeed393#5403
+The readme is pretty straight forward, but if anyone wants a more detailed guide, I made one for SPACE here: https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md
+
+
+[03-Feb-21 07:28 PM] grewalsatinder#9653
+cool, added that to the github pages link too 🙂
+
+{Reactions}
+👍 
+
+[03-Feb-21 08:15 PM] Mylo#8306
+getaddress.py creates list.json with 64 addresses.
+then run sendmany64.py and it will ask for chain "SOULJA" and show the balance, then select size of utxo and how many (x64 should be less than your balance to send)
+
+{Reactions}
+👍 
+
+[03-Feb-21 08:15 PM] Mylo#8306
+pos64staker
+
+
+[04-Feb-21 01:50 AM] Alright#0419
+pos64staker is no longer needed, the functionality is built into the daemon
+
+
+[04-Feb-21 01:50 AM] Alright#0419
+@lightspeed393
+
+
+[04-Feb-21 01:50 AM] Alright#0419
+guess I should note that in the readme of it 😫
+
+
+[04-Feb-21 04:18 AM] lightspeed393#5403
+how is it built into the daemon? a rpc to split the coins? I have a SPACE node running pos64staker, others staking without it, and the pos64staker still stakes far more
+
+
+[04-Feb-21 04:22 AM] Alright#0419
+the split is the only thing not built into the daemon
+
+
+[04-Feb-21 04:22 AM] Alright#0419
+the thing that manages utxo is now built into the daemon
+
+
+[04-Feb-21 04:26 AM] lightspeed393#5403
+isn't that the most important part, so that coins are distributed to all 64 segid's?
+
+
+[04-Feb-21 04:31 AM] Alright#0419
+if you split coins and do not manage the UTXOs properly, the wallet size grows massively and slows down basically everything
+
+
+[04-Feb-21 04:31 AM] Alright#0419
+what you have is fine, forget I mentioned it
+
+
+[04-Feb-21 04:33 AM] lightspeed393#5403
+no I appreciate the knowledge. Everything I've read in the dev docs still mentions using pos64staker though, which is why I ask. I just went straight to that. I agree the wallet grows large, I redo my staking setup every few weeks because of it.
+
+
+[04-Feb-21 04:34 AM] Alright#0419
+I need to dig up information on the new(relative) UTXO management system
+
+
+[04-Feb-21 04:34 AM] Alright#0419
+I cannot recall if it's active by default
+
+
+[04-Feb-21 04:35 AM] Alright#0419
+the basic idea is that the staking transaction at the end of the block, blackjok3r made this able to be paid into the coinbase amount via transaction fees
+
+
+[04-Feb-21 04:36 AM] Alright#0419
+so instead of staking and creating 2 new UTXOs, it can create just 1
+
+
+[04-Feb-21 04:36 AM] Alright#0419
+it will maintain a static number of overall UTXOs so the wallet does not bloat
+
+
+[04-Feb-21 04:36 AM] Alright#0419
+there is the `setstakingsplit` rpc command, play around with it and you will see what I mean
+
+{Reactions}
+👍 (2) 
+
+[04-Feb-21 04:36 AM] Alright#0419
+set it to 100 and stake a block
+set it to 0 and stake a block
+compare the blocks
+
+
+[04-Feb-21 04:38 AM] lightspeed393#5403
+Cool thank you for letting me know. I'll do some testing and see how it goes.
+
+
+[04-Feb-21 01:08 PM] daemonfox#6136
+When did that happen and yes pls!
+
+
+[04-Feb-21 01:09 PM] Alright#0419
+it was the last piece of code joker ever got into komodod
+
+
+[04-Feb-21 01:09 PM] daemonfox#6136
+oh the combine to same segid address
+
+
+[04-Feb-21 01:09 PM] Alright#0419
+`setstakingsplit`
+
+
+[04-Feb-21 01:09 PM] Alright#0419
+this thing
+
+
+[04-Feb-21 01:09 PM] daemonfox#6136
+yeah
+
+
+[04-Feb-21 01:09 PM] daemonfox#6136
+got it thx lol
+
+
+[04-Feb-21 01:10 PM] daemonfox#6136
+Think ppls biggest issue stll is no easy way to gen 64 addresses if not using Linux
+
+
+[04-Feb-21 01:10 PM] Alright#0419
+we patched some bug and as a happy coincidence were able to introduce that with little effort
+
+
+[04-Feb-21 01:10 PM] Alright#0419
+unless you are super serious about staking, just set it to make more utxos for about 2 weeks
+
+
+[04-Feb-21 01:11 PM] daemonfox#6136
+Thats what I do when lazy...
+
+
+[04-Feb-21 01:11 PM] Alright#0419
+then once you have about 1000 UTXOs or so and set it to setstakingsplit 100
+
+
+[04-Feb-21 01:11 PM] daemonfox#6136
+Let it solo until I had a ton of addresses with coins
+
+
+[04-Feb-21 01:11 PM] Alright#0419
+make sure not to run with `-pubkey` as well
+
+
+[04-Feb-21 01:12 PM] Alright#0419
+the only reason to truly truly optimize staking is if you intend to sell (or otherwise stop staking) your coins soon
+
+
+[04-Feb-21 01:13 PM] Alright#0419
+if you are long term holding, it averages out even for the worst of the worst UTXO management
+
+
+[04-Feb-21 01:14 PM] Alright#0419
+....or if you're starting a new chain
+
+
+[04-Feb-21 08:32 PM] Stock#2347
+RJxasGNxLbBbVqeTnCMETHY1C18W7C43mM
+
+
+[04-Feb-21 10:26 PM] jvr#6773
+RVj1Y4jP9hmii5DYshYDuE5fHmeDjNpdx6
+
+
+[05-Feb-21 03:11 AM] Crabby Paddy#6239
+Hey sorry! I’ll catch up on the airdrops
+
+
+[05-Feb-21 03:11 AM] Crabby Paddy#6239
+Had a busy busy work period this week :abusedsmily: just finished 15 hours of work
+
+{Reactions}
+👍 (3) 
+
+[05-Feb-21 06:25 AM] Crabby Paddy#6239
+sent @Stock  @jvr  🙂
+
+
+[05-Feb-21 06:58 AM] Buckaroo#8065
+RXvh8bWPg2fyzMEpGyeAmmGwqbPduZW49x
+
+
+[05-Feb-21 06:58 AM] Buckaroo#8065
+Thanks in advance!
+
+
+[05-Feb-21 03:34 PM] 花果山#5224
+@Buckaroo https://dp.explorer.dexstats.info/tx/d402defcebe6503343b4bc397f94b094b2ea4755c7e4eef28f899e60d6a07eac
+
+
+[05-Feb-21 06:56 PM] Crabby Paddy#6239
+What is dp?
+
+
+[05-Feb-21 06:56 PM] Crabby Paddy#6239
+https://explorer.souljacoin.cash/tx/03a8141902ef1c5580e1ee8bb6bd6705f377a7ad54aae6bd11ceb1d34c747d4c
+
+
+[05-Feb-21 10:13 PM] jvr#6773
+Requested for $SOULJA to be added to Blockfolio. Needs upvotes, and doing the same for $WSB over in that channel #wsb 
+
+https://feedback.blockfolio.com/coin-requests/p/soulja-souljacoin
+
+
+[05-Feb-21 10:15 PM] jvr#6773
+Any others in the Komodo ecosystem I should add?
+
+
+[06-Feb-21 03:10 AM] ejuliano#8606
+Marmara Chain MCL
+
+
+[06-Feb-21 01:55 PM] jvr#6773
+Done! I’ll post it on their discord too.
+
+https://blockfolio.canny.io/coin-requests/p/mcl-marmara-credit-loops
+
+
+[07-Feb-21 04:16 AM] 𝙊𝙞𝙣𝙠#3612
+If anybody can supply me the soulja chain parameters and electrum servers, I can create and post a Verus Desktop import file, for those that would like to add SOULJA to Verus Desktop.
+Or any other enthusiast can create it himself by using https://github.com/VerusCoin/Verus-Coin-Importer
+(importing the `SOULJA-import.txt` does __NOT__ support private addresses on a native chain at this time)
+
+
+[07-Feb-21 04:17 AM] grewalsatinder#9653
+https://souljacoin.cash has params
+
+{Reactions}
+👍 
+
+[07-Feb-21 04:18 AM] 𝙊𝙞𝙣𝙠#3612
+I'll check the Komodo coin repo to see if I can unearth the electrum params, so I can enable lite mode wallet support as well.
+
+
+[07-Feb-21 04:20 AM] grewalsatinder#9653
+found those:
+https://github.com/KomodoPlatform/coins/blob/master/electrums/SOULJA
+
+
+[07-Feb-21 04:23 AM] 𝙊𝙞𝙣𝙠#3612
+That was what I was about to look at.. 🤣
+Thank you
+
+{Reactions}
+👍 
+
+[07-Feb-21 04:52 AM] 𝙊𝙞𝙣𝙠#3612 (pinned)
+To import the coin definition in an existing Verus Desktop installation:
+- `+ Add Coin`
+- do not select a coin: pres `ALT` 3 times or type `ADDFROMFILE` (in capitals!!!) in the coin selection box
+- click `Choose File`
+- browse and select `SOULJA_import.txt`
+- choose native or lite mode as desired.
+
+📌 Private addresses will not (yet) be active in Verus Desktop native mode, although the import file is prepared for it.
+📌 If you *deactivate* the chain, you will need to import `SOULJA_import.txt` again to activate. Wallet restart **will** remember the chain.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266126728724540/807956951798382592/SOULJA_import.txt
+
+
+[07-Feb-21 05:48 AM] grewalsatinder#9653
+Pinned a message.
+
+{Reactions}
+👍 
+
+[07-Feb-21 05:49 AM] grewalsatinder#9653
+thanks mate 🙂 👍
+
+{Reactions}
+👍 
+
+[07-Feb-21 07:24 AM] tier#1154
+Is SOULJA the coin released by the American star named Soulja Boy? ? ? Is it officially launched now? ? ? Can it be mined now? ? ?
+
+
+[07-Feb-21 07:25 AM] tier#1154
+？？？？？？？？？？？？？
+
+
+[07-Feb-21 08:29 AM] ejuliano#8606
+SOULJA is not endorsed by soulja boy, but it is currently the only soulja coin that can be mined and traded, it can also be staked since it is its consensus uses staking & mining; it has officially been released and can be accessed using atomicdex desktop version.  As of now it is memecoin, until Souljaboy says otherwise.
+
+{Reactions}
+💯 
+
+[07-Feb-21 09:14 AM] srcn#5043
+Soulja faucet ?
+
+
+[07-Feb-21 01:51 PM] grewalsatinder#9653
+https://tenor.com/view/robert-downey-jr-face-palm-iron-man-rdj-why-gif-10994785
+
+{Embed}
+https://tenor.com/view/robert-downey-jr-face-palm-iron-man-rdj-why-gif-10994785
+https://images-ext-1.discordapp.net/external/Y4DYtSJL5tPaJaX1B6mihH8q1Dc1dtApW82rEDyGczw/https/media.tenor.co/images/ce2083a40cc8653b65f98d30f6fa2f76/tenor.png
+
+
+[07-Feb-21 01:51 PM] grewalsatinder#9653 (pinned)
+I think I did wrong calculations on founder reward number
+
+
+[07-Feb-21 01:52 PM] grewalsatinder#9653
+It was supposed to be 1% not 100% 🙈🤦‍♂️🤦‍♀️🤦
+
+
+[07-Feb-21 01:53 PM] grewalsatinder#9653
+1% after every 10080 blocks
+
+
+[07-Feb-21 01:54 PM] grewalsatinder#9653
+I was expecting this: 25804.8
+
+
+[07-Feb-21 01:55 PM] grewalsatinder#9653
+(10080 * 256) * 0.01 = 25804.8
+
+
+[07-Feb-21 01:56 PM] grewalsatinder#9653
+But it’s (10080 * 256) = 2,580,480
+
+
+[07-Feb-21 01:58 PM] grewalsatinder#9653
+with this rate, the total supply would be doubled, approx of 400,000,000 when all mined
+
+
+[07-Feb-21 01:59 PM] grewalsatinder#9653
+And founders reward will be getting 50% of all total supply
+
+
+[07-Feb-21 01:59 PM] grewalsatinder#9653
+Good that it is not a serious project yet
+
+
+[07-Feb-21 01:59 PM] grewalsatinder#9653
+decide what you want
+
+
+[07-Feb-21 02:00 PM] grewalsatinder#9653
+Can better just stop mining staking and start a new network if you like 😣🤔
+
+
+[07-Feb-21 02:02 PM] grewalsatinder#9653
+Burning also a good option
+
+
+[07-Feb-21 02:06 PM] jvr#6773
+How would the burning work? Burning from the founders reward?
+
+
+[07-Feb-21 02:06 PM] grewalsatinder#9653
+Just send the funds to burning address
+
+
+[07-Feb-21 02:07 PM] grewalsatinder#9653
+https://explorer.souljacoin.cash/address/RSr5pG3SMVweUxoATEoBrKY9W7KPFAiSZb
+
+
+[07-Feb-21 02:11 PM] jvr#6773
+that seems like the easiest solution to implement unless these funds be used for giveaways, competitions, and bounty etc.
+
+
+[07-Feb-21 02:15 PM] grewalsatinder#9653
+nobody came with community building spirit, so for that reason I mentioned earlier it is failed project as a coin for me. Sure these coins could be used for community building or marketing or whatever if these had market value. so far not. Would be happy to burn them. I think as original plan, can keep 1% and burn rest. And community can still decide what to do with those 1%. Can burn or giveaway.
+
+
+[07-Feb-21 02:46 PM] tier#1154
+@grewalsatinder According to you, did SOULJA fail? . . Does mining make no sense now?
+
+
+[07-Feb-21 03:05 PM] jvr#6773
+I think if it was a success from day 1 it would be great but it's not always the case, in fact pretty rare, sometimes it takes time and continuous effort. It might never become anything but I wouldn't call it a failure just yet.
+
+
+[07-Feb-21 03:07 PM] tier#1154
+@jvr Developers should post a solution announcement
+
+
+[07-Feb-21 03:35 PM] grewalsatinder#9653
+A community what makes a cryptocurrency alive. It is missing with soulja, so it is failure to me.
+
+
+[07-Feb-21 03:35 PM] grewalsatinder#9653
+Could be too early to say according to others.
+
+
+[07-Feb-21 03:36 PM] jvr#6773
+True, sometimes it just takes a while to build a community
+
+
+[07-Feb-21 03:37 PM] grewalsatinder#9653
+Agree, but as time is passing by and there is near to no activity with it, not sure how to measure its chances of success.
+
+
+[08-Feb-21 12:32 PM] tier#1154
+？？？
+
+
+[08-Feb-21 01:55 PM] jvr#6773
+I think it's still worth mining, it has some useful liquidity in AtomicDex
+
+
+[08-Feb-21 02:23 PM] lightspeed393#5403
+every coin is useful for liquidity on atomicdex if people actually place orders
+
+{Reactions}
+👍 
+
+[08-Feb-21 02:34 PM] jvr#6773
+exactly, and if there's buy orders that means there is some demand
+
+{Reactions}
+👍 
+
+[08-Feb-21 05:06 PM] tier#1154
+Many garbage items on the market now
+
+
+[08-Feb-21 09:41 PM] tier#1154
+When will mining officially start
+
+
+[08-Feb-21 11:43 PM] grewalsatinder#9653
+？？？
+
+
+[08-Feb-21 11:44 PM] grewalsatinder#9653
+https://souljacoin.cash
+
+
+[08-Feb-21 11:44 PM] grewalsatinder#9653
+it has mining info
+
+
+[08-Feb-21 11:44 PM] grewalsatinder#9653
+I guess people are mining and staking
+
+
+[08-Feb-21 11:44 PM] grewalsatinder#9653
+what is official thing you talk about ?
+
+
+[09-Feb-21 12:59 AM] tier#1154
+@grewalsatinder Is this coin issued by Soulja Boy?
+
+
+[09-Feb-21 01:01 AM] grewalsatinder#9653
+no, it's not issued by Soulja Boy.
+
+
+[09-Feb-21 01:02 AM] tier#1154
+Ok
+
+
+[11-Feb-21 12:46 PM] tier#1154
+It is useless to study these every day,,, the current mainstream currency market is so good. . . You should think about how to increase the popularity of your project and make it popular. . . If the bull market is coming, you are not sure about it, then there is no better chance
+
+
+[11-Feb-21 01:46 PM] grewalsatinder#9653
+Good, you do something
+
+
+[11-Feb-21 08:23 PM] ph03nix#3115
+https://twitter.com/cryptocharles__/status/1360063361023549442
+
+{Embed}
+CryptoCharles (@CryptoCharles__)
+https://twitter.com/cryptocharles__/status/1360063361023549442
+ladies and gentleman, we got him
+Retweets
+245
+Likes
+1786
+https://images-ext-2.discordapp.net/external/fGlk2huISVs6maGBT1WE7n6cWiLqKYuucRjB7K7NVFo/https/pbs.twimg.com/media/Et_qPm5UUAMeZL7.jpg%3Alarge
+Twitter
+
+{Reactions}
+abusedsmily (2) 👻 (2) 
+
+[11-Feb-21 08:29 PM] てすとコイン#6241
+pos difficult 😫
+
+
+[12-Feb-21 10:40 PM] jvr#6773
+@grewalsatinder Do you know who is running the @SouljaCoin account on Twitter?
+
+
+[12-Feb-21 10:44 PM] grewalsatinder#9653
+Nope, don’t know
+
+
+[12-Feb-21 10:44 PM] jvr#6773
+Gonna try to get their attention, they are pretty active it seems
+
+
+[12-Feb-21 10:45 PM] jvr#6773
+What are your thoughts on getting this coin added to some exchanges?
+
+
+[12-Feb-21 10:46 PM] grewalsatinder#9653
+Plz don’t ask me. M very less interested in it.
+
+
+[12-Feb-21 10:47 PM] grewalsatinder#9653
+Also, I don’t own this project’s management. Public does.
+
+
+[12-Feb-21 10:47 PM] grewalsatinder#9653
+I only started it for public.
+
+
+[12-Feb-21 10:48 PM] grewalsatinder#9653
+Do what makes sense to you all as a community, and without involving me in it.
+
+
+[12-Feb-21 11:03 PM] jvr#6773
+ok thanks 👍
+
+
+[13-Feb-21 07:24 AM] lightspeed393#5403
+if you don't want to be involved why did you start it 😜
+
+
+[13-Feb-21 07:26 AM] grewalsatinder#9653
+In thoughts it will get some actual attention from Soulja and others that how quick one can start a project using Komodo tech. That worked a lil bit. It showcased its momentarily purpose I tried to showcase.
+
+{Reactions}
+👍 (3) 
+
+[14-Feb-21 02:41 AM] tier#1154
+This coin should also focus on marketing and getting on bigger exchanges. Investors want to see the price go up and not sink all the time. A coin is more than just developing better code. Its also about letting people know about how good the coin is and allowing them different ways to buy it from larger exchanges.
+
+
+[14-Feb-21 03:25 AM] grewalsatinder#9653
+if there is a will there'll be a way.
+make a team, and lead forward.
+don't expect me as a developer to help you with marketing stuff.
+
+{Reactions}
+👆 
+
+[14-Feb-21 06:23 AM] lightspeed393#5403
+he writes the same message word for word on multiple discords
+
+{Reactions}
+🤣 (2) 
+
+[14-Feb-21 06:34 AM] 𝙊𝙞𝙣𝙠#3612
+It's like shouting at your computer to hurry up with that rendering you're waiting for... Absolutely futile...
+
+{Reactions}
+☝️ 
+
+[14-Feb-21 07:05 AM] ejuliano#8606
+there are no investors... it's a for-fun coin that can be worked on by anyone who wants to...
+soulja boy now has a bastard child blockchain
+
+{Reactions}
+🤣 (4) 😫 (2) 🦴 
+
+[14-Feb-21 06:17 PM] tier#1154
+The development of very rubbish new projects,,, the exchanges are not available. . . Don't release new coins if you don't have the ability
+
+
+[14-Feb-21 06:30 PM] grewalsatinder#9653
+I will do it again if I have the chance to show capabilities of kmd and it has any smaller chance of getting noticed by more people.
+
+
+[14-Feb-21 06:31 PM] grewalsatinder#9653
+Take your stupid arguments somewhere else.
+
+
+[14-Feb-21 06:34 PM] grewalsatinder#9653
+As said before:
+
+if there is a will there'll be a way.
+make a team, and lead forward.
+don't expect me as a developer to help you with marketing stuff.
+
+
+[14-Feb-21 08:02 PM] 花果山#5224
+The developer took out all the coins. It should be promoted by those who have taken the coins.
+
+{Reactions}
+💩 
+
+[14-Feb-21 09:18 PM] CHMEX#0686
+It was a proof of concept better read up before making silly accusations clearly you dont have the ability to do your research.
+
+{Reactions}
+💩 
+
+[15-Feb-21 04:07 PM] Crabby Paddy#6239
+🤦‍♂️ it took like a few hours to make
+
+
+[15-Feb-21 04:07 PM] Crabby Paddy#6239
+And we got a reply from someone with 5m followers
+
+
+[15-Feb-21 04:07 PM] Crabby Paddy#6239
+That’s free marketing
+
+
+[15-Feb-21 04:08 PM] Crabby Paddy#6239
+How can you complain on that :abusedsmily:
+
+
+[15-Feb-21 04:27 PM] phm87#7395
+I'm thinking about adding support for SOULJA and WSB on my pool, SOULJA difficulty is already pretty high
+
+
+[15-Feb-21 06:30 PM] cipi#4502
+that would be really helpful... WSB is missing miners, the chain is basically stalled
+
+
+[15-Feb-21 06:30 PM] phm87#7395
+I can add a CPU thread on WSB
+
+
+[15-Feb-21 06:35 PM] cipi#4502
+thanks, looks like you just mined a block: https://wsb.explorer.dexstats.info/block/00017b0ffe150dd680a6e97c78a01b15ffdc7166ca26f9dcc134e99c0623c5f5
+
+
+[15-Feb-21 06:37 PM] phm87#7395
+yes, my CPU had difficulties to mine SOULJA but WSB is fine to CPU mine
+It is nearly 4 AM and I need to adapt the coin.conf build stratum open port add images so I'll do it tomorrow
+
+{Reactions}
+👍 (2) 
+
+[15-Feb-21 06:48 PM] grewalsatinder#9653
+Pinned a message.
+
+
+[16-Feb-21 11:11 PM] tier#1154
+https://twitter.com/souljaboy/status/1361377948721238017
+
+{Embed}
+Soulja Boy (Drako) (@souljaboy)
+https://twitter.com/souljaboy/status/1361377948721238017
+Damn I guess SouljaCoin not coming soon then... well SouljaGame still coming 😩 my dreams be getting shattered lol https://t.co/oSqewqmooc
+Likes
+339
+Twitter
+
+
+[16-Feb-21 11:12 PM] tier#1154
+https://twitter.com/PrestonPysh/status/1361377021234970628
+
+{Embed}
+Preston Pysh (@PrestonPysh)
+https://twitter.com/PrestonPysh/status/1361377021234970628
+@souljaboy I wouldn't do that.  The new SEC chairman understands this stuff better than anyone else.  It'll be viewed as a security and you're a high-profile individual.
+Likes
+692
+Twitter
+
+
+[16-Feb-21 11:13 PM] tier#1154
+Soulja Boy seems to know
+
+
+[16-Feb-21 11:15 PM] tier#1154
+https://twitter.com/souljaboy/status/1361374830382047233
+
+{Embed}
+Soulja Boy (Drako) (@souljaboy)
+https://twitter.com/souljaboy/status/1361374830382047233
+SouljaCoin coming soon 🪙
+Retweets
+315
+Likes
+2677
+Twitter
+
+
+[17-Feb-21 12:41 AM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1361958763297533953?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1361958763297533953?s=20
+@PrestonPysh @souljaboy Depends on how the issuance & distribution of the cryptocurrency is done. If 100% mining blockchains like $BTC $LTC $DOGE $ETH etc are treated as security, then sure https://t.co/wBWGkZsidM is a security too. But I think your conclusion is wrong. None of them are security.
+Twitter
+
+
+[17-Feb-21 01:25 AM] tier#1154
+@grewalsatinder This technology is very good and very safe, but why is no one optimistic about it?
+https://bitcointalk.org/index.php?topic=5309004.0
+
+{Embed}
+https://bitcointalk.org/index.php?topic=5309004.0
+[ANN][CHTA][ANDROID/CPU/ASIC]Cheetahcoin - Dogecoin on Bitcoin's SH...
+[ANN][CHTA][ANDROID/CPU/ASIC]Cheetahcoin - Dogecoin on Bitcoin's SHA256
+
+
+[17-Feb-21 02:05 AM] grewalsatinder#9653 (pinned)
+For reference read this: https://discord.com/channels/412898016371015680/805266126728724540/808092706161033267
+I kept 1% SOULJA in Founders rewards and sent all the rest to the burn address.
+https://explorer.souljacoin.cash/address/RD6GgnrMpPaTSMn8vai6yiGA7mN4QGPVMY
+
+
+[17-Feb-21 02:05 AM] grewalsatinder#9653
+Will be keep sending 99% of the Founders rewards to burn address if I am around for SOULJA
+
+
+[17-Feb-21 02:06 AM] grewalsatinder#9653
+Pinned a message.
+
+
+[17-Feb-21 02:35 AM] phm87#7395
+Can you give me some good nodes to use in addnode of SOULJA.conf ? I'm synced but one or 2 blocks behind longuest chain so I can't use getblocktemplate. Thank you
+
+
+[17-Feb-21 02:46 AM] grewalsatinder#9653
+```
+51.222.150.53
+94.130.38.173
+159.69.201.122
+144.76.148.154
+95.217.44.58
+51.83.186.192
+84.38.189.208
+88.99.206.68
+```
+@phm87 these are showing in my getpeersinfo output
+
+
+[17-Feb-21 02:55 AM] phm87#7395
+Thank you. It is synced ok but at each block found on network, I need to wait several seconds while getblocktemplate does not work. It looks like block with holding but I think that more addnode should solve the problem
+
+
+[17-Feb-21 02:57 AM] phm87#7395
+Mmmhhhh I will wait few hours, maybe it needs to stabilize
+
+
+[17-Feb-21 02:58 AM] grewalsatinder#9653
+@phm87 I also updated the website with more addnodes
+
+
+[17-Feb-21 02:58 AM] grewalsatinder#9653
+I am shutting down my main seed node that I started this with.
+
+
+[17-Feb-21 02:59 AM] grewalsatinder#9653
+all those addnodes added to the website was from the getpeerinfo from that seed node
+
+
+[17-Feb-21 03:02 AM] phm87#7395
+Thank you
+
+{Reactions}
+👍 
+
+[17-Feb-21 03:53 AM] cipi#4502
+Have a look in the debug.log while this happens... i suspect this happens when `AcceptBlock block from future error` followed by `ERROR: ProcessNewBlock: ActivateBestChain failed`
+so getblocktemplate will only work when enough time has passed and the block from future is not from future any more
+
+
+[17-Feb-21 03:55 AM] phm87#7395
+Yes, I saw such logs when I looked I think, what can I do to solve the pb ? Check my clock ?
+
+
+[17-Feb-21 03:56 AM] cipi#4502
+problem is the clock from the person who mined the block, not your own... if that is the case, you can't do anything about it, other than stress the people to fix their clock
+
+
+[17-Feb-21 03:58 AM] cipi#4502
+there was a change in code a while ago https://github.com/KomodoPlatform/komodo/commit/6056b180f883226b4a2f9cb64bfe6ab6acace01d but i guess it does not address this specific error, but not sure, maybe it helps
+
+
+[17-Feb-21 04:04 AM] cipi#4502
+btw, i was hoping for a more radical solution like denying all blocks from future right away and not accept them, not now and not in the future (like it is now), but someone told me that wouldn't be possible because of some time warp attack vector that i didn't understand 🙂
+
+
+[17-Feb-21 04:06 AM] phm87#7395
+Ok, thank you
+
+
+[17-Feb-21 05:56 AM] cipi#4502
+lol: https://twitter.com/Jenova_xep/status/1362005463508918272
+
+{Embed}
+Jenova3d (@Jenova_xep)
+https://twitter.com/Jenova_xep/status/1362005463508918272
+Some users ask why they got many orphan blocks. 
+
+"Generated but not accepted".
+
+It's important for everyone to synchronize the computer's clock.
+
+If your device's clock is not perfectly accurate, your generated blocks will have a wrong timestamp and so be rejected.
+
+So orphan
+https://images-ext-1.discordapp.net/external/qf1jfapIN41eI2_lMz5NmYfQCtmlXfCad4itoFTIEU8/https/pbs.twimg.com/media/EubQchFWYAAL1Rw.png%3Alarge
+Twitter
+
+
+[17-Feb-21 05:58 AM] cipi#4502
+so looks like it's possible to reject those blocks right away
+
+
+[17-Feb-21 06:36 AM] 𝙊𝙞𝙣𝙠#3612
+iirc there is 'some' deviation of the computer clock ~~possible~~  allowed. Don't know the limits on that.
+
+
+[17-Feb-21 06:37 AM] CHMEX#0686
+Alright also mentioned you need to accept those to prevent some sort of attavk
+
+
+[17-Feb-21 06:44 AM] cipi#4502
+not convinced about that
+
+
+[17-Feb-21 06:56 AM] 𝙊𝙞𝙣𝙠#3612
+Neither am I: setting your computers clock forward would prevent most miners to find a block if accepted. It would open up the chain to an attack with relatively little hashpower needed.
+
+
+[17-Feb-21 07:03 AM] tier#1154
+https://twitter.com/ptyx11/status/1361381307444588547/photo/1
+
+{Embed}
+PTYX (@ptyx11)
+https://twitter.com/ptyx11/status/1361381307444588547/photo/1
+@jasongeo2 @souljaboy It's at 0.04 cents on @AtomicDEX
+https://images-ext-2.discordapp.net/external/tVAvqQWFeHhkJ3kvRgCF_vkiuGHrADC1pZZg-N5MbUw/https/pbs.twimg.com/media/EuSZE78WYAIZewd.png%3Alarge
+Twitter
+
+
+[17-Feb-21 07:03 AM] tier#1154
+good
+
+{Reactions}
+👍 
+
+[17-Feb-21 07:11 AM] cipi#4502
+https://github.com/KomodoPlatform/komodo/blob/master/src/chainparams.cpp#L116
+looks like it is 7 minutes, which is totally crazy if you ask me...
+
+
+[17-Feb-21 07:18 AM] 𝙊𝙞𝙣𝙠#3612
+That is quite a big margin, indeed. I expect every online connected computer to stay within 60 seconds of the official time myself (which is already a pretty big time deviation)
+
+{Reactions}
+💯 
+
+[17-Feb-21 07:20 AM] cipi#4502
+i have the same opinion... if you setup ntpd on your node, there is absolutely no way the clock will deviate more than one second
+
+{Reactions}
+☝️ (2) 💯 
+
+[17-Feb-21 07:21 AM] 𝙊𝙞𝙣𝙠#3612
+Even on my 650ms latency connection, I never go past a second.
+
+
+[17-Feb-21 07:22 AM] cipi#4502
+afaik ntpd takes the latency into account when syncing the clock
+
+
+[17-Feb-21 07:23 AM] 𝙊𝙞𝙣𝙠#3612
+yes, it does... typically my deviation is smaller than 0.01 second
+
+
+[17-Feb-21 07:41 AM] phm87#7395
+Stratum does not like the 500 errors when calling getblocktemplate. I finally found a block with my gpus. If I enable mining on Soulja, many miners will complain due tu interrupted connections ...
+
+
+[17-Feb-21 07:43 AM] phm87#7395
+Sad that mining is not smooth on a smartchain that may have some exposure. I don't want to trick my clock so I will load a hidden coin on the same stratum
+
+
+[17-Feb-21 07:43 AM] phm87#7395
+It could hide the problem
+
+
+[17-Feb-21 07:46 AM] cipi#4502
+i am experimenting with a patched komodod... changed the setting to be max 20 seconds
+the logs are now full of
+```
+2021-02-17 15:41:09 ProcessMessages(headers, 1489 bytes) FAILED peer=6
+2021-02-17 15:41:09 ERROR: ContextualCheckBlockHeader: block timestamp too far in the future
+2021-02-17 15:41:09 AcceptBlockHeader ContextualCheckBlockHeader failed
+2021-02-17 15:41:09 AcceptBlock AcceptBlockHeader error
+2021-02-17 15:41:09 ERROR: ProcessNewBlock: AcceptBlock FAILED
+```
+seems most of the miners on SOULJA have a wrong clock
+will start to also ban those peers... i assume `peer=6` is the correct one to ban in the above output
+
+
+[17-Feb-21 07:48 AM] phm87#7395
+Thank you for your experimentations and analysis
+
+
+[17-Feb-21 07:53 AM] cipi#4502
+hmmm, looks like banning those peers is most effective
+
+
+[17-Feb-21 07:56 AM] cipi#4502
+btw, could be a good idea to `addnode explorer.souljacoin.cash`
+my own IP is `152.89.104.58` and the clock is correct 😉
+
+{Reactions}
+👍 
+
+[17-Feb-21 08:01 AM] CHMEX#0686
+Chances are you start mining a fork if u block too many no?
+
+
+[17-Feb-21 08:02 AM] CHMEX#0686
+Specially on non dpow chains
+
+
+[17-Feb-21 08:03 AM] cipi#4502
+yes, thought the same... you are right... and not sure about the banning either... just because the block was coming for the peer x does not necessarily mean that peer actually mined the block, could just be relaying it... right?
+
+
+[17-Feb-21 08:03 AM] CHMEX#0686
+Yes correct
+
+
+[17-Feb-21 08:04 AM] CHMEX#0686
+You would need to identify the miner and ddos it 🤣
+
+
+[17-Feb-21 08:04 AM] CHMEX#0686
+Becuase the block can be relayed via another node...
+
+
+[17-Feb-21 08:09 AM] phm87#7395
+In 2018, another whole coin network had to ban one IP urgently + add checkpoint
+
+
+[17-Feb-21 08:10 AM] cipi#4502
+there is no way to identify the miners... no one i know of...
+
+
+[17-Feb-21 08:10 AM] phm87#7395
+Best would be consensus change to fix it for all
+
+
+[17-Feb-21 08:10 AM] cipi#4502
+yes
+
+
+[17-Feb-21 08:11 AM] phm87#7395
+There is a way: in yiimp, I see blockheight of each peer. When a block is found, one will be higher than other. I can add a if and link with blocknotify maybe
+
+
+[17-Feb-21 08:11 AM] cipi#4502
+i guess we can expect that from serious miners... that they run ntpd and keep their clock in sync... not 7 minutes apart, max couple of seconds
+
+
+[17-Feb-21 08:13 AM] CHMEX#0686
+One of the bigger kmd pool has its clock 2 minutes behind on all coins it mines
+
+
+[17-Feb-21 08:14 AM] phm87#7395
+We should check the 2 public pools also per block found
+
+
+[17-Feb-21 08:15 AM] cipi#4502
+if those blocks would be rejected by all other peers, these miners would certainly fix their shit... if they don't find any blocks, they will fix it... but only then
+
+
+[17-Feb-21 08:25 AM] phm87#7395
+About my story of 2018, the coin developers maintained a (secret) excel sheet with all pools, IP, Addresses of pools and so on to be able to track problems on network. I think that KMD Team also have such excel sheet (and webworker01's website and smk's one)
+
+
+[17-Feb-21 08:31 AM] cipi#4502
+i will try to identify them by hand... something like `komodo-cli -ac_name=SOULJA getpeerinfo | grep -E "(\"addr\"|synced_headers)"`... btw, which value is best to look after, synced_headers or synced_blocks? i guess headers are simply synced faster than blocks
+
+
+[17-Feb-21 08:41 AM] phm87#7395
+Thank you. A possible attack is to send headers but delay blocks, I forgot the name
+
+
+[17-Feb-21 08:45 AM] phm87#7395
+I'll sent you a printscreen in DM @cipi  sorry, maybe useful
+
+
+[17-Feb-21 08:48 AM] phm87#7395
+I'll check again later when the problem occurs and I'll send you another printscreen in DM (if it helps). A getpeerinfo is called when I refresh this page
+
+
+[17-Feb-21 11:52 AM] cipi#4502
+btw, `getpeerinfo` shows `"timeoffset": 0` for the peers there... banning those with timeoffset != 0 could help
+
+
+[20-Feb-21 01:00 PM] phm87#7395
+🎉 UniMining.net is adding support for mining SOULJA 🎉
+
+Stratum URL:
+```equihash.eu1.unimining.net```
+Stratum Port:
+```2152```
+Password:
+```c=SOULJA```
+Username:
+```Your KMD/SOULJA address, example: RYTWfHVK5p8jeXye4rxcPB3W8Y9T5AV2U6```
+Example of connection string with ccminer:
+```ccminer-x64 -a equihash -o stratum+tcp://equihash.eu1.unimining.net:2152 -u RYTWfHVK5p8jeXye4rxcPB3W8Y9T5AV2U6 -p c=SOULJA```
+Due to the issues of SOULJA network discussed here above, connection between miner and stratum was interrupted very often. To mitigate this issue, another coin is loaded on the stratum so when SOULJA can't be mined (500 HTTP error returned by getblocktemplate during few minutes), shares are sent towards the other coin. Conversion from the other coin to SOULJA is automated. I hope that the network issue (miner with bad clock allowed) will be solved soon.
+
+{Reactions}
+👍 (2) 
+
+[20-Feb-21 02:03 PM] ComputerGenie#7004
+chickenpool seems to have never experienced such a problem while mining over 10500 blocks
+
+
+[20-Feb-21 02:06 PM] ComputerGenie#7004
+> will start to also ban those peers... i assume peer=6 is the correct one to ban in the above output
+Not sure that banning peers with the longer chain because you don't like how the stock komodo daemon works is the proper course of action
+
+
+[20-Feb-21 02:09 PM] ComputerGenie#7004
+```sh
+$ echo "G: $(wget -qSO- --max-redirect=0 www.google.com 2>&1 | grep Date: | cut -d' ' -f5-8)" && echo "L: $(date -u| cut -d' ' -f2-5)"
+G: 20 Feb 2021 22:09:04
+L: 20 Feb 2021 10:10:02
+```
+perfectly legal by the rules of the daemon
+
+
+[20-Feb-21 02:09 PM] phm87#7395
+cipi also observed the problem, I didn't banned any peer yet, stratum switch solution
+
+
+[20-Feb-21 02:10 PM] phm87#7395
+```G: 20 Feb 2021 22:10:16
+L: Feb 20 22:10:16 UTC```
+(I think I have ntp on this machine)
+
+
+[20-Feb-21 02:11 PM] ComputerGenie#7004
+the only "problem" is the output in debug log
+the daemon recognizes the block as valid and will add it when no longer "future"
+
+
+[20-Feb-21 02:11 PM] phm87#7395
+getblocktemplate returns 500 HTTP error while the problem occurs, maybe I will try with your time
+
+
+[20-Feb-21 02:15 PM] ComputerGenie#7004
+in any rage from 2 mins slow to 59 seconds fast, the only getblocktemplate errors I've gotten since decker fixed the if is in the 1st 1/10th of a second after producing a block (while the block is still being checked and neither valid or invalid)
+
+
+[20-Feb-21 07:01 PM] tier#1154
+https://miningpoolstats.stream/souljacoin
+
+{Embed}
+https://miningpoolstats.stream/souljacoin
+SouljaCoin (SOULJA) Equihash | Mining Pools
+List of known SouljaCoin pools (SOULJA) Equihash PoW algorithm. Live hashrate distribution, pool fees & minimum payment comparison. Mining Pools & Block Explorer
+
+{Reactions}
+💯 (3) 👍 (2) 😋 (2) 😎 (2) 
+
+[20-Feb-21 07:14 PM] tier#1154
+A website in China also sent a message to promote souljacoin
+http://www.wgwl.cc
+
+{Embed}
+http://www.wgwl.cc/
+新币挖矿教程 -  挖个未来 -  www.wgwl.cc
+专业发布全球有价值的好虚拟币信息 ,挖个未来
+
+
+[20-Feb-21 07:44 PM] tier#1154
+Should go to the Bitcoin forum to post a souljacoin post
+
+
+[20-Feb-21 07:57 PM] lightspeed393#5403
+go for it
+
+
+[20-Feb-21 08:00 PM] grewalsatinder#9653
+make sure to include this screw up on SOULJA if anyone posts it on bitcointalk forum:
+https://discord.com/channels/412898016371015680/805266126728724540/808092618763534347
+
+
+[20-Feb-21 08:00 PM] grewalsatinder#9653
+the calculations for doing 1% founders rewards is wrong. It is actually 100% 🤦‍♂️
+
+
+[20-Feb-21 08:01 PM] grewalsatinder#9653
+That is why I burnt 99% from founders rewards recently, and kept 1%
+
+
+[20-Feb-21 08:01 PM] grewalsatinder#9653
+those are reserved in case marketing or other community things required.
+
+
+[20-Feb-21 08:01 PM] grewalsatinder#9653
+but acknoledge this screw up where you post about SOULJA
+
+
+[20-Feb-21 08:01 PM] grewalsatinder#9653
+it is a trust issue
+
+
+[20-Feb-21 08:02 PM] grewalsatinder#9653
+and people can indeed argue they can not trust in the creator "me" as if he'll for sure burn the future founders rewards or not
+
+
+[20-Feb-21 08:02 PM] grewalsatinder#9653
+people don't know me, so I would totally understand that argument as legit, and it is indeed a concerning point.
+
+
+[20-Feb-21 08:02 PM] grewalsatinder#9653
+Another reason, I felt not so motivated about SOULJA due to this screw up
+
+
+[20-Feb-21 08:03 PM] tier#1154
+Since it is wrong, it is fine to publish an announcement
+
+
+[20-Feb-21 08:04 PM] tier#1154
+Just explain it clearly
+
+
+[20-Feb-21 08:04 PM] grewalsatinder#9653
+I'm posting the screen shots of my warnings and screw ups on website now
+
+
+[20-Feb-21 08:05 PM] lightspeed393#5403
+with txid of the burn tx, it shouldn't be too much of a worry
+
+{Reactions}
+👌 (3) 
+
+[20-Feb-21 08:07 PM] tier#1154
+ok
+
+
+[20-Feb-21 08:22 PM] grewalsatinder#9653
+https://souljacoin.cash/#notice
+added to notice section
+
+{Reactions}
+👍 (2) 
+
+[20-Feb-21 08:50 PM] 花果山#5224
+If you upgrade now, is it too difficult to solve this problem?
+
+
+[20-Feb-21 08:52 PM] 花果山#5224
+It is not good to leave this hidden danger, take a snapshot and rebuild one?
+
+
+[20-Feb-21 08:54 PM] grewalsatinder#9653
+that's a good idea too 👍
+
+
+[20-Feb-21 08:55 PM] 花果山#5224
+You can also let the KMD address of the soul boy be the founder. If he is willing to download KMD mobile wallet.
+
+
+[20-Feb-21 08:56 PM] 花果山#5224
+Let him be the founder, maybe he will be very proud.
+
+
+[20-Feb-21 08:56 PM] grewalsatinder#9653
+I don't know if it's possible but may be worth exploring if the value of founders percentage `-ac_perc=100000000` can be changed inside the `komodod` code itself 🤔 , and if that will treat it then as 1% instead of 100%
+
+
+[20-Feb-21 08:58 PM] 花果山#5224
+The code is the law, and if there is a problem, it must be dealt with.
+
+
+[20-Feb-21 09:35 PM] tier#1154
+good
+
+
+[28-Feb-21 11:43 PM] 花果山#5224
+https://t.co/NqzhKJ139o?amp=1
+
+{Embed}
+https://t.co/NqzhKJ139o?amp=1
+Join the SOULJA WORLD Discord Server!
+Soulja Boy's Official Discord Server! Join now to connect and stay updated with SODMG |  www.sodmg.shop | 20,268 members
+https://images-ext-1.discordapp.net/external/yYmlVR2qYKc6qMsnPhvB5OYc-PctexewmwdZWvSs0OE/%3Fsize%3D512/https/cdn.discordapp.com/splashes/505221208070160388/53a8cd0717d6085440b15f2732db01e5.jpg
+
+
+[03-Mar-21 03:28 PM] Biz#0842
+soulja chain is secured by proof-of-twerk?
+
+{Reactions}
+troll (3) 
+
+[03-Mar-21 08:28 PM] Mylo#8306
+hybrid PoS/PoW
+
+
+[08-Mar-21 03:52 PM] whitebuffs#1011
+Anyone mining Souljacoin with Hive OS?
+
+
+[14-Mar-21 03:15 PM] phm87#7395
+@grewalsatinder can you add unimining.net in the list of mining pools on <https://souljacoin.cash/> ?
+
+
+[14-Mar-21 03:17 PM] phm87#7395
+Thank you
+
+
+[14-Mar-21 03:42 PM] lightspeed393#5403
+and SOULJA's on a new exchange: https://www.cexz.ca/trading/souljabtc
+
+{Embed}
+https://www.cexz.ca/trading/souljabtc
+CexZ
+CexZ - crypto-currency trading platform
+
+{Reactions}
+🍻 (3) 
+
+[14-Mar-21 04:12 PM] lightspeed393#5403
+might be able to captitalize on the souljaboy fans now that there's a CEX
+
+
+[14-Mar-21 05:04 PM] ComputerGenie#7004
+and <http://chickenpool.com/>
+
+
+[14-Mar-21 05:11 PM] ComputerGenie#7004
+<https://github.com/satindergrewal/souljacoin.cash/pull/1>
+
+
+[14-Mar-21 07:17 PM] grewalsatinder#9653
+@phm87 @ComputerGenie thanks for PR changes. Merged
+
+{Reactions}
+👍 (3) 
+
+[18-Mar-21 12:14 PM] Seko#7408
+What is the feedback from Soulja personally? There was contact at the beginning on Twitter, what is the current situation?
+
+
+[18-Mar-21 03:14 PM] grewalsatinder#9653
+He never reacted to this chain
+
+
+[19-Mar-21 06:25 AM] Seko#7408
+We should donate 1 million SOULJA to him. 😉
+
+
+[19-Mar-21 06:27 AM] Seko#7408
+I have no interest in SOULJA, not in the artists and not in the coin. 
+
+He had suggested to want to have control and did not understand. The only thing he understands is money.
+
+
+[19-Mar-21 06:32 AM] Seko#7408
+Thanks CC, I respect you. That's why I save myself a discussion.
+
+
+[10-Apr-21 09:38 AM] tier#1154
+When is the listing exchange
+
+
+[10-Apr-21 09:40 AM] CHMEX#0686
+its already on atomicdex
+
+
+[10-Apr-21 09:40 AM] CHMEX#0686
+and there is a uniswap pool <--- sorry that was for WSB
+
+
+[10-Apr-21 09:41 AM] tier#1154
+Please give me a url
+
+
+[10-Apr-21 09:45 AM] CHMEX#0686
+https://atomicdex.io/
+
+
+[10-Apr-21 11:27 AM] lightspeed393#5403
+also on https://cexz.ca
+
+{Embed}
+https://cexz.ca/
+CexZ
+CexZ - crypto-currency trading platform
+
+
+[13-Apr-21 04:49 AM] tier#1154
+Why can't soulja be searched on KMD's latest mobile wallet
+
+
+[13-Apr-21 04:50 AM] tier#1154
+?????????????
+
+
+[18-Apr-21 01:35 AM] Dyngbjööni#2196
+Is soulja coin really legit?
+
+
+[18-Apr-21 01:46 AM] Dyngbjööni#2196
+i bought at 23 holders lol
+
+
+[18-Apr-21 07:08 AM] lightspeed393#5403
+what do you consider legit? it's a real blockchain with real coins being transacted
+
+
+[18-Apr-21 07:18 AM] Dyngbjööni#2196
+yes but is it backed by the man himself
+
+
+[18-Apr-21 07:19 AM] ComputerGenie#7004
+there are many men that back it
+
+
+[18-Apr-21 07:20 AM] lightspeed393#5403
+no, he was made aware, but he's not actively involved.
+
+
+[18-Apr-21 07:27 AM] Dyngbjööni#2196
+lol im sure bout that
+
+
+[18-Apr-21 07:27 AM] Dyngbjööni#2196
+thank you!
+
+{Reactions}
+👍 
+
+[22-Apr-21 01:53 PM] d4v#1141
+🎉 Just a new SOULJA Explorer 🎉 
+**https://soulja.kmdtools.xyz**
+
+{Reactions}
+👍 (3) KMD (2) 
+
+[28-Apr-21 02:47 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+otc for Soulja where?
+
+
+[28-Apr-21 04:14 PM] ComputerGenie#7004
+you buying or selling?
+
+
+[28-Apr-21 04:23 PM] Buddz1993  HYPEBEARS FAN 🐻❄#5380
+selling
+
+{Reactions}
+☹️ (2) 
+
+[26-May-21 03:18 PM] ZaferGraph (Don't DM)#5482
+remove this trash in komodo chains https://twitter.com/souljaboy/status/1397633168769880066
+
+{Embed}
+Soulja Boy (Big Draco) (@souljaboy)
+https://twitter.com/souljaboy/status/1397633168769880066
+Found an interesting project @safermars - looks moon worthy. 👍 🌝 
+
+$SFM Presale is now live on @dxsale 🚀
+
+They raising 240k, if they raise it after your tweet - will get you 24k 
+
+https://t.co/yGDFY4rJzz
+Retweets
+130
+Likes
+686
+Twitter
+
+
+[26-May-21 03:20 PM] ZaferGraph (Don't DM)#5482
+stupid enough to directly copy+paste the message he received without changing @grewalsatinder
+
+
+[26-May-21 03:23 PM] ZaferGraph (Don't DM)#5482
+cheap dumass
+
+
+[26-May-21 07:46 PM] grewalsatinder#9653
+You think I centrality control any of the cryptocurrency in Komodo ecosystem??? How  you expect me to remove anything while I don’t have anything to do with either the code or the decentralised network nodes on any cryptocurrency project in the ecosystem? Do you understand how any ecosystem project works or how decentralised peer to peer cryptocurrency work in general?? Give me step-by-step guide do do what you expect me to do.
+
+{Reactions}
+👆 
+
+[26-May-21 10:11 PM] ComputerGenie#7004
+As long as 1 person on the planet continues to run a daemon, no chain (in the ecosystem or not) can be "removed"
+
+
+[26-May-21 10:13 PM] ComputerGenie#7004
+example:
+there are still people mining and trading <https://github.com/acoin-project/acoin>
+
+
+[08-Oct-21 01:02 AM] Tokelication#8241
+Pls give me soulja coin
+
+
+[08-Oct-21 01:04 AM] Tokelication#8241
+Soulja is dead?
+
+
+[08-Oct-21 01:25 AM] CHMEX#0686
+Mine it 😀
+
+
+[12-Oct-21 10:28 PM] ComputerGenie#7004
+🐔 pool will see some downtime in the next 12-14 hours
+This downtime includes some system updates and the addition of TOKEL to the available coins
+
+{Reactions}
+😋 (3) 👍 
+
+[02-Dec-21 11:33 AM] ComputerGenie#7004
+Believing the utility of this coin has run its course,🐔 will be removing this coin in the next 12-36 hours.
+Final payments will be made at such time.
+
+{Reactions}
+👍 ✅ 💯 
+
+[03-Dec-21 10:15 AM] ComputerGenie#7004
+If any payments were missed for `RR9x15wDFvr6gpa32kNbXP7ZkNDvTCZDiN`, let me know and I will double check manually.
+
+
+==============================================================
+Exported 532 message(s)
+==============================================================

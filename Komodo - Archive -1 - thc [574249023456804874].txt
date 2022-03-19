@@ -1,0 +1,1741 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / thc
+==============================================================
+
+[04-May-19 08:02 AM] Audo#5667
+@Exile13 requested a channel for the migration. Here it is.
+
+
+[04-May-19 08:02 AM] Exile13#4458
+@Audo thank you!
+
+
+[12-May-19 09:32 AM] Exile13#4458
+Is this public? @Audo
+
+
+[12-May-19 09:47 AM] SHossain#0007
+this is a private channel
+
+
+[13-May-19 12:10 AM] Audo#5667
+did you want a public channel @Exile13 ?
+
+
+[13-May-19 04:05 AM] Exile13#4458
+Please :)
+
+
+[14-May-19 08:10 AM] Audo#5667
+alright @Exile13 ! This is a public channel now under the ecosystem category
+
+
+[14-May-19 08:16 AM] Exile13#4458
+Thank you thank you
+
+
+[14-May-19 08:46 AM] Dark Dolphin#2039
+👌
+
+
+[15-May-19 03:07 AM] CrisF#3405
+Hi @Exile13 👋
+
+
+[15-May-19 03:08 AM] CrisF#3405
+Look forward this new channel. Looks like a great project!
+
+
+[15-May-19 07:00 AM] Exile13#4458
+Thank you! @CrisF
+
+
+[21-May-19 11:23 PM] Mixic 🐬#3188
+https://www.reddit.com/r/thehempcoin/comments/brl787/blockchain_in_cannabis_use_case_1_hempcoin/?utm_medium=android_app&utm_source=share
+
+{Embed}
+https://www.reddit.com/r/thehempcoin/comments/brl787/blockchain_in_cannabis_use_case_1_hempcoin/?utm_medium=android_app&utm_source=share
+r/thehempcoin - Blockchain In Cannabis Use Case #1: HempCoin
+0 votes and 0 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/JR5f3h51NXqb05BS-N-PV4UMQNyw2hxm71pC2YOJ38k/%3Fauto%3Dwebp%26s%3Dda5b7fb86966330a64168f2e31b74d9b7c0f9cf7/https/external-preview.redd.it/qLbM7u1RCiBfch0bt5wkgLzx_f2RVdJWcSS6LEpiZQI.jpg
+
+
+[21-May-19 11:32 PM] Dark Dolphin#2039
+I still have no clue on what to expect and how the swap really works. No wallets on bittrex, no trading on cryptobridge. I must say I am getting nervous about the lack of information. Is there room for a technical article that explains the swap for masternode holders?
+
+
+[25-May-19 11:35 PM] Deleted User#0000
+Hi here :).
+Barterlly is now open on BETA mode, and will provide tools for users and CoinOwners to perform OTC trades in a safe way.
+Any KMD assetchain dPowed will be listed, and supported, for free.
+Other coins not already listed can submit a listing application at : https://barterlly.typeform.com/to/iqpS1H
+During the BETA, Barterlly won't charge any fee other than the transaction ones. after the release we will charge 1% on top of every transaction.
+Our goal is to provide premium tools for coins listed on the platform. (Discord swapbot, twitter integration, public orders, wallet integration, API, custom templating, and many more).
+Feel free to join us on our Discord.
+https://discord.gg/RHc95zw
+The app link is located at : https://app.barterlly.io
+We are open to suggestions, and partnerships.
+
+See you soon !
+
+Barterlly's team
+
+{Embed}
+https://barterlly.typeform.com/to/iqpS1H
+Barterlly-Listing
+Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.
+https://images-ext-1.discordapp.net/external/j4WRBwI9aqFsv-lpkCn64Fr0EvicWgWYGmO4DedtKOM/https/images.typeform.com/images/FYUps4mFKPYK
+
+{Reactions}
+Komodo 👍 💯 shexy 
+
+[27-May-19 12:35 PM] Dark Dolphin#2039
+And now delisting even on bittrex 😱
+
+
+[27-May-19 10:47 PM] Dark Dolphin#2039
+Let's just hope the migration goes smoothly and no more unwanted surprises are coming. ✌
+
+
+[01-Jun-19 08:59 AM] 18#4551
+Whatsup members of THC ... one of these days the hempcoin will be a KMD asset chain !!!
+
+{Reactions}
+💯 Komodo 
+
+[01-Jun-19 01:38 PM] Dark Dolphin#2039
+Soon it will be 1000x THC, when the exchanges and all the good news are coming in.
+
+
+[01-Jun-19 03:11 PM] Garrett Abbott#2244
+I have 9700 THC coins. Everything is delisting. What should I do?
+
+
+[03-Jun-19 09:21 PM] jacman#4756
+I tried importprivkey with Komodo-CLI using my THC private key but I get “invalid private key encoding”. Did I miss a step to encode my private key differently before importing it? How would I do that?
+
+
+[03-Jun-19 09:41 PM] jacman#4756
+Maybe I should be using Agama. I’ll try that.
+
+
+[04-Jun-19 06:15 PM] jacman#4756
+Agama worked well. I read the swap will be automatic so private keys will continue to work on the new upgraded chain.
+
+{Reactions}
+👍 
+
+[04-Jun-19 06:17 PM] Exile13#4458
+@Dark Dolphin there will be documentation on the migration process for the community posted in all our channels
+
+
+[06-Jun-19 03:58 AM] Dark Dolphin#2039
+That is good news. Many thanks!!
+
+{Reactions}
+👍 
+
+[06-Jun-19 07:31 PM] Mixic 🐬#3188
+https://www.reddit.com/r/komodoplatform/comments/bxpb5h/hempcoin_moves_only_forward/?utm_medium=android_app&utm_source=share
+
+{Embed}
+https://www.reddit.com/r/komodoplatform/comments/bxpb5h/hempcoin_moves_only_forward/?utm_medium=android_app&utm_source=share
+r/komodoplatform - HempCoin moves only forward!...
+0 votes and 0 comments so far on Reddit
+
+{Reactions}
+🔨 
+
+[13-Jun-19 06:47 PM] Exile13#4458
+HempCoin $THC is working on a new BIG Exchange. We will announce ASAP
+
+Bittrex will give 30 days to remove coins. We are also working on requirements for a Bittrex relist
+
+THC has a lot coming up including the New Technology #Komodo THC migration for HempTRAC
+
+#BTC #LTC #TRON #DOPE #KMD
+
+{Reactions}
+🌿 (2) 🚀 (2) shexy (2) 
+
+[17-Jun-19 11:16 PM] Jonathan#3687
+May I have an invite like if you have one?
+
+
+[17-Jun-19 11:17 PM] Jonathan#3687
+To your Discord I mean
+
+
+[17-Jun-19 11:18 PM] gcharang#6833
+https://hempcoin.org/contact-hempcoin.html
+
+{Embed}
+https://hempcoin.org/contact-hempcoin.html
+Contact HempCoin (THC)
+Contact the HempCoin.
+
+
+[17-Jun-19 11:43 PM] Jonathan#3687
+Many thanks! @gcharang
+
+
+[20-Jun-19 10:50 AM] Exile13#4458 (pinned)
+https://discord.gg/kAhpdAQ
+
+
+[20-Jun-19 10:50 AM] Exile13#4458
+Pinned a message.
+
+
+[20-Jun-19 10:51 AM] Exile13#4458 (pinned)
+https://twitter.com/awallace1337/status/1141744066167599106
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1141744066167599106
+MOVE ALL THC TO YOUR https://t.co/iLxoM8hojh QT Wallet! Migration is coming! Date TBA soon! 
+@TheHempCoin #hempcoin $THC
+Discord - https://t.co/yyz4QsuTTP
+Telegram - https://t.co/rrzviBrKku https://t.co/taKC0Yaqtj
+https://images-ext-2.discordapp.net/external/_tKfZebbWuGysvDl1cePKrIN1limdn17JuuoiYfZ8dM/https/pbs.twimg.com/tweet_video_thumb/D9hKLHxVAAAvJ8C.jpg
+Twitter
+
+
+[20-Jun-19 10:51 AM] Exile13#4458
+Pinned a message.
+
+
+[20-Jun-19 10:52 AM] Exile13#4458
+Beaxy invites you to join the Discord and encourage the THC community to show their support for The HempCoin in the #listings-suggestions channel! Should anyone want to sign up to Beaxy exchange here’s a referral: https://www.beaxy.com/registration?code=C249NBS11V
+
+{Embed}
+https://www.beaxy.com/registration?code=C249NBS11V
+Beaxy Cryptocurrency Exchange
+Beaxy Exchange defines the new generation of cryptocurrency and digital asset exchanges by delivering a best-in-class platform to our users.
+https://images-ext-2.discordapp.net/external/fmGL8dDxloGtXMc-2-ey2gzc45oLZA2qbt5Q5IO-1_0/https/beaxy.com/dist/images/beaxy.png
+
+
+[20-Jun-19 12:55 PM] Exile13#4458
+https://blockfolio.com/coin/THC/signal/mQfId5q5Kz
+
+{Embed}
+https://blockfolio.com/coin/THC/signal/mQfId5q5Kz
+HempCoin (THC) on Blockfolio Signal
+⭐️⭐️ Attention ⭐️⭐️
+
+The HempCoin $THC is closer to the new Komodo THC chain.
+
+All THC coins needs removed from ANY exchange including Coinomi to a QT wallet. Coins in a QT wallet will be in the Snapshot for the new technology chain.
+
+When exchange wallets are...
+https://images-ext-2.discordapp.net/external/K90sb9Vv-_oWnw0EABvViyiC0zZAyMeLD52BZRxMmqc/https/blockfolio.com/static/media/shareSignal.53857cf3.jpg
+
+
+[02-Jul-19 10:36 AM] Exile13#4458
+OK!! 😃 To start this migration is would be BEST if all your THC was in ONE address, the migration will include dumping your private keys from a THC address in the "debug console" in your Hempcoin.org QT wallet.
+
+
+[02-Jul-19 03:36 PM] TexMiners#3303
+Sounds easy enough.  @Exile13 , make sure you communicate about potential scammers trying to help people.  Dumping private keys is a risky operation, and it's easy to get scammed.  I work on another coin project, and we had a community member get scammed out of a ton of coin, because they allowed someone to "help" them, over TeamView.
+
+
+[02-Jul-19 03:37 PM] TexMiners#3303
+The scammer got the coins, then dumped them, causing the price to take a massive dive.
+
+
+[02-Jul-19 03:52 PM] Exile13#4458
+best option is to do it yourself, there may be a visual guide created
+
+
+[02-Jul-19 07:41 PM] TexMiners#3303
+@Exile13 , yes but you'll have people asking for help, then scammers will PM them, offering help.
+
+
+[02-Jul-19 07:42 PM] Exile13#4458
+Thank you
+
+
+[03-Jul-19 11:08 AM] Exile13#4458
+https://tinyurl.com/y4rdk6ns
+
+{Embed}
+Exile13
+https://tinyurl.com/y4rdk6ns
+Exile13 on Twitter
+“"About our Twitter listing contest, it will begin on Monday the 8th of July at 4pm UTC! We will send you the tweet your community will have to retweet and all the instructions on Monday :) Thank you again for your participation!"
+https://t.co/mk0eT1do62
+@TheHempCoin 
+$THC”
+https://images-ext-2.discordapp.net/external/gRFFs7HoZigCWoxQVAawQ1LE96pTO4Z36mADRnEaCtw/https/pbs.twimg.com/profile_images/1142825672294858756/eMXiaFrP_400x400.jpg
+
+
+[06-Jul-19 01:58 PM] Exile13#4458
+If you have coins on exchanges PULL THEM OFF. To your wallet from Hempcoin.org.
+
+
+[06-Jul-19 01:58 PM] Exile13#4458
+or coinomi!
+
+
+[08-Jul-19 01:03 PM] Exile13#4458
+https://twitter.com/awallace1337/status/1148321088050323456
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1148321088050323456
+@CryptoBridge will support
+@TheHempCoin 's migration to Komodo. CONFIRMED.
+#hempcoin $THC $KMD
+Twitter
+
+
+[10-Jul-19 07:10 PM] Rockwolfe#9848
+Anything happening with THC yet?
+
+
+[11-Jul-19 02:11 PM] Exile13#4458
+migration date announced in 24 hrs
+
+
+[11-Jul-19 02:12 PM] Exile13#4458
+`The delay of the snapshot has been waiting on P2PB2B to fix THEIR wallet mistake issue. We are moving forward with the snapshot (within a few days) and will announce the date and time within 24 hours. 
+
+Crypto Bridge recently let us know they will host this migration. If you want to send coins to them they will issue the new coins. 
+
+All other coins from Coinomi and other wallets must be in a QT or Crypto-Bridge exchange. 
+
+We are announcing that we have Bitker lined up as a new exchange as well as others as soon as they set up the new Komodo updated chain. 
+
+Once the migration happens we have many new platforms to announce.`
+
+{Reactions}
+😊 
+
+[12-Jul-19 01:44 PM] Exile13#4458
+https://twitter.com/awallace1337/status/1149781430446067712
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1149781430446067712
+$THC will snapshot SUN 12:00PM EST(+4UTC)
+Can send coins to @CryptoBridge & they will migrate $THC, or send your coins to the QT wallet at https://t.co/iLxoM8hojh
+https://t.co/sRQsZsVg0H for All Help
+Thank you Komodo $KMD for Updating our Blockchain! https://t.co/AU2tnVtaGA
+https://images-ext-2.discordapp.net/external/hp2-zmCv8RuH5eCE8WtnTzGMDyAuk3QWcANxpCKL3Yo/https/pbs.twimg.com/tweet_video_thumb/D_TYHSQU0AA7J0u.jpg
+Twitter
+
+{Reactions}
+👍 (2) 
+
+[12-Jul-19 02:53 PM] Tylor zkFS#8280
+Can I get a bong hit? I need to go to sleep...
+
+{Reactions}
+abusedsmily 
+
+[14-Jul-19 12:46 AM] Exile13#4458
+@Alright i bout to crash but @otherego said he's compiling TTHC, i sent him an invite here
+
+
+[14-Jul-19 12:47 AM] otherego#4422
+heelo boys and girls
+
+
+[14-Jul-19 01:11 AM] otherego#4422
+i'm testing new wallet
+
+
+[14-Jul-19 01:11 AM] otherego#4422
+seems working good
+
+
+[14-Jul-19 01:41 AM] otherego#4422
+pls allow me to attach screenshots
+
+
+[14-Jul-19 01:48 AM] CHMEX#0686
+Use imgur.com
+
+
+[14-Jul-19 02:21 AM] phm87#7395
+@otherego I paste images in private msg or on another discord srv then I copy and paste here the link to the img. It works well
+
+
+[14-Jul-19 02:21 AM] phm87#7395
+https://cdn.discordapp.com/attachments/525009685699362828/589069205735997440/unknown.png
+
+{Embed}
+https://cdn.discordapp.com/attachments/525009685699362828/589069205735997440/unknown.png
+https://media.discordapp.net/attachments/525009685699362828/589069205735997440/unknown.png
+
+{Reactions}
+😅 (2) 👌 (2) 💯 (2) 
+
+[14-Jul-19 02:22 AM] phm87#7395
+Here is a funny example
+
+
+[14-Jul-19 02:22 AM] phm87#7395
+Have a nice day
+
+
+[14-Jul-19 02:23 AM] otherego#4422
+got it working.
+
+
+[14-Jul-19 09:10 AM] Exile13#4458
+pass options? idk what you mean
+
+
+[14-Jul-19 09:18 AM] Exile13#4458
+its not an assetchain yet
+
+
+[14-Jul-19 09:18 AM] Exile13#4458
+so it wont technicaly work with KMD
+
+
+[14-Jul-19 09:18 AM] Exile13#4458
+thats why its on the beta branch i bleive
+
+
+[14-Jul-19 09:40 AM] otherego#4422
+ok i understand how to pass options to it
+
+
+[14-Jul-19 09:41 AM] otherego#4422
+komodo-cli -ac_name=TTHC stop
+
+
+[14-Jul-19 09:41 AM] otherego#4422
+komodo-cli -ac_name=TTHC getinfo
+
+
+[14-Jul-19 09:41 AM] otherego#4422
+for example
+
+
+[14-Jul-19 09:41 AM] otherego#4422
+i should be able to import privkey as well
+
+
+[14-Jul-19 09:56 AM] Exile13#4458
+@otherego `tail -f ~/.komodo/TTHC/debug.log` in `komodo/src`
+
+
+[14-Jul-19 09:56 AM] Exile13#4458
+to see the progress
+
+
+[14-Jul-19 09:56 AM] otherego#4422
+yes i did that
+
+
+[14-Jul-19 09:56 AM] otherego#4422
+now alsokomodo-cli getinfo works
+
+
+[14-Jul-19 09:57 AM] Exile13#4458
+ok
+
+
+[14-Jul-19 09:57 AM] Exile13#4458
+good
+
+
+[14-Jul-19 09:57 AM] otherego#4422
+"version": 2001526,
+  "protocolversion": 170007,
+  "KMDversion": "0.4.0a",
+  "synced": true,
+  "notarized": 0,
+  "prevMoMheight": 0,
+  "notarizedhash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "notarizedtxid": "0000000000000000000000000000000000000000000000000000000000000000",
+  "notarizedtxid_height": "mempool",
+  "KMDnotarized_height": 0,
+  "notarized_confirms": 0,
+  "walletversion": 60000,
+  "balance": 0.00000000,
+  "blocks": 1196,
+  "longestchain": 1196,
+  "timeoffset": 0,
+  "tiptime": 1563122727,
+  "connections": 2,
+  "proxy": "",
+  "difficulty": 807.3844265909919,
+  "testnet": false,
+  "keypoololdest": 1563091564,
+  "keypoolsize": 101,
+  "paytxfee": 0.00000000,
+  "relayfee": 0.00000100,
+  "errors": "",
+  "CCid": 2,
+  "name": "TTHC",
+  "sapling": 1,
+  "p2pport": 19746,
+  "rpcport": 19747,
+  "magic": 1328039246,
+  "premine": 251239381,
+  "eras": 7,
+  "reward": "360000000,300000000,240000000,180000000,150000000,90000000,0",
+  "halving": "0,0,0,0,0,0,0",
+  "decay": "0,0,0,0,0,0,0",
+  "endsubsidy": "500001,1000001,1500001,2000001,2500001,4500001,0",
+  "notarypay": "0,0,0,0,0,0,0",
+  "commission": 233333333,
+  "staked": 100
+
+
+[14-Jul-19 09:57 AM] otherego#4422
+root@ubuntu-32gb-nbg1-1:~/komodo/src# komodo-cli -ac_name=TTHC getwalletinfo
+{
+  "walletversion": 60000,
+  "balance": 0.00000000,
+  "unconfirmed_balance": 0.00000000,
+  "immature_balance": 0.00000000,
+  "txcount": 0,
+  "keypoololdest": 1563091564,
+  "keypoolsize": 101,
+  "paytxfee": 0.00000000,
+  "seedfp": "486543058f6bb9dcc34b61ae16ed956fd2511ff6708ea96829053d1f8ab722d6"
+}
+
+
+[14-Jul-19 11:28 AM] Exile13#4458
+@Bryan_Beus hello! 😃
+
+{Reactions}
+👋 
+
+[14-Jul-19 11:29 AM] Bryan_Beus#6442
+Hi
+
+
+[14-Jul-19 01:24 PM] Exile13#4458
+@cipi hello! are you available?
+
+
+[14-Jul-19 02:19 PM] david714#5091
+@otherego make a video
+
+
+[14-Jul-19 02:19 PM] otherego#4422
+on what
+
+
+[14-Jul-19 02:19 PM] david714#5091
+How to DL komodo wallet and migrate coins, PLEASE!
+
+
+[14-Jul-19 02:20 PM] otherego#4422
+well i'm gona put something together tomorrow morning
+
+
+[14-Jul-19 02:21 PM] david714#5091
+Thanks, brotha!
+
+
+[14-Jul-19 02:21 PM] otherego#4422
+setup not very difficult
+
+
+[14-Jul-19 02:21 PM] otherego#4422
+are you running linux dude?
+
+
+[14-Jul-19 02:21 PM] david714#5091
+No
+
+
+[14-Jul-19 02:21 PM] david714#5091
+I have windows 10 OS
+
+
+[14-Jul-19 02:22 PM] otherego#4422
+i just tried on linux and everything went smooth
+
+
+[14-Jul-19 02:22 PM] david714#5091
+What is linux?
+
+
+[14-Jul-19 02:22 PM] otherego#4422
+https://docs.komodoplatform.com/basic-docs/installations/basic-instructions.html#installing-basic-komodo-software
+
+{Embed}
+https://docs.komodoplatform.com/basic-docs/installations/basic-instructions.html
+Basic Instructions | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[14-Jul-19 02:22 PM] otherego#4422
+you can follow instructions
+
+
+[14-Jul-19 02:22 PM] otherego#4422
+on komodo site
+
+
+[14-Jul-19 02:23 PM] david714#5091
+Ok i’ll attempt with these instructions
+
+
+[14-Jul-19 02:23 PM] otherego#4422
+https://docs.komodoplatform.com/komodo/installation.html#installing-komodo-on-windows-64-bit-systems
+
+{Embed}
+https://docs.komodoplatform.com/komodo/installation.html
+Building Komodo from source | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[14-Jul-19 02:23 PM] otherego#4422
+those are for windows
+
+
+[14-Jul-19 02:23 PM] otherego#4422
+after compiling
+
+
+[14-Jul-19 02:24 PM] otherego#4422
+you can follow those instructions thanks to @Exile13
+
+
+[14-Jul-19 02:24 PM] otherego#4422
+Gather THC addresses for migration from your QT wallet
+
+- Unlock your QT wallet
+
+- Open debug console
+
+- ./hempcoin-cli dumpprivkey <address>
+
+Build Komodo from source https://docs.komodoplatform.com/komodo/installation.html
+
+Start THC daemon 
+./komodod -ac_name=THC -ac_supply=251253103 -ac_reward=360000000,300000000,240000000,180000000,150000000,90000000,0 -ac_staked=100 -ac_eras=7 -ac_end=500001,1000001,1500001,2000001,2500001,4500001,0 -ac_perc=233333333 -ac_cc=2 -ac_ccenable=229,236,240 -ac_script=2ea22c8020987fad30df055db6fd922c3a57e55d76601229ed3da3b31340112e773df3d0d28103120c008203000401ccb8 -ac_founders=150 -ac_cbmaturity=1 -ac_sapling=1 -addnode=195.201.20.230 -addnode=195.201.137.5 -earlytxid=7e4a76259e99c9379551389e9f757fc5f46c33ae922a8644dc2b187af2a6adc1
+
+If you're importing more than 1 THC WIF you should do  
+./komodo-cli -ac_name=THC importprivkey <THC WIF> "" false 0 212
+for all them but..
+
+The very last one
+./komodo-cli -ac_name=THC importprivkey <THC WIF> "" true 0 212
+for the last one. True/false is telling the daemon whether or not to rescan, so if you use true for all of them it may take a very long time.
+
+{Embed}
+https://docs.komodoplatform.com/komodo/installation.html
+Building Komodo from source | Komodo Documentation
+Documentation for developers building on Komodo
+
+
+[14-Jul-19 03:00 PM] david714#5091
+i'm so lost  >.<
+
+
+[14-Jul-19 04:32 PM] gymb#8820
+Downloading files into ZcashParams folder (sprout-proving.key
+sprout-verifying.key
+sapling-spend.params
+sapling-output.params
+sprout-groth16.params) do  I just copy and  paste  into  folder
+
+
+[14-Jul-19 04:34 PM] gymb#8820
+or are  DL  and moved to folder  when I click on files get a 404 error
+
+
+[14-Jul-19 04:41 PM] Exile13#4458
+`Build Komodo from source https://docs.komodoplatform.com/komodo/installation.html
+with the exception (git checkout beta) instead of (git checkout dev)`
+
+
+[14-Jul-19 04:42 PM] Exile13#4458 (pinned)
+```Gather THC addresses for migration from your QT wallet
+
+- Unlock your QT wallet
+
+- Open debug console
+
+- dumpprivkey <address>
+
+- Build Komodo from source https://docs.komodoplatform.com/komodo/installation.html with the exception (git checkout beta) instead of (git checkout dev)
+
+- Start THC daemon 
+./komodod -ac_name=THC -ac_supply=251253103 -ac_reward=360000000,300000000,240000000,180000000,150000000,90000000,0 -ac_staked=100 -ac_eras=7 -ac_end=500001,1000001,1500001,2000001,2500001,4500001,0 -ac_perc=233333333 -ac_cc=2 -ac_ccenable=229,236,240 -ac_script=2ea22c8020987fad30df055db6fd922c3a57e55d76601229ed3da3b31340112e773df3d0d28103120c008203000401ccb8 -ac_founders=150 -ac_cbmaturity=1 -ac_sapling=1 -addnode=195.201.20.230 -addnode=195.201.137.5 -earlytxid=7e4a76259e99c9379551389e9f757fc5f46c33ae922a8644dc2b187af2a6adc1
+
+- If you're importing more than 1 THC WIF you should do  
+./komodo-cli -ac_name=THC importprivkey <THC WIF> "" false 0 212
+for all them but..
+
+- The very last one
+./komodo-cli -ac_name=THC importprivkey <THC WIF> "" true 0 212
+for the last one. True/false is telling the daemon whether or not to rescan, so if you use true for all of them it may take a very long time.```
+
+
+[14-Jul-19 04:42 PM] Exile13#4458
+Pinned a message.
+
+
+[14-Jul-19 04:48 PM] gymb#8820
+but in your pinned messages  or what you just posted does it refer to my question
+
+
+[14-Jul-19 06:00 PM] Exile13#4458
+`2019-07-15 00:59:11 UpdateTip: new best=01a7be7ebc18299b80a77bdfed21a8b9e1a6feb4185e292c19e12af7023dc1b7  height=777  log2_work=22.840669  log2_stake=-inf  tx=2047  date=2019-07-15 00:59:52 progress=1.000000  cache=0.3MiB(617tx)
+`
+@jl777c
+
+
+[14-Jul-19 06:01 PM] Exile13#4458
+@gymb tbh im not that familiar with WIN apps regarding crypto, i would suggest the #🤝│general-support channel
+
+
+[15-Jul-19 06:10 PM] Rockwolfe#9848
+just triple checking
+
+
+[15-Jul-19 06:10 PM] Rockwolfe#9848
+my THC funds in my QT masternode wallet are good right?
+
+
+[15-Jul-19 06:10 PM] Rockwolfe#9848
+no need for me to move them for the swap?
+
+
+[15-Jul-19 10:26 PM] Exile13#4458
+@Rockwolfe the qt wallet is no longer active for tx, only for creating your private keys
+
+
+[15-Jul-19 10:27 PM] Exile13#4458
+Your funds were frozen at the time if the swap, waiting for you on the new chain.
+
+
+[16-Jul-19 05:15 AM] Daniël#9812
+where is info about the swaps?
+
+
+[16-Jul-19 05:31 AM] Daniël#9812
+i read the info now i have a question, how do i move the masternode coins back to my wallet on the main chain?
+
+
+[16-Jul-19 09:20 AM] Exile13#4458
+no movement will have on the OLD PIVX chain will have any effect on the NEW KMD chain now
+
+
+[16-Jul-19 09:21 AM] Exile13#4458
+the old QT walllet is only good to create your private keys with
+
+
+[16-Jul-19 09:22 AM] Exile13#4458
+you need to grab all your addresses and get their private keys
+
+
+[16-Jul-19 09:22 AM] Exile13#4458
+there is a walkthough pinned in our support channel
+
+
+[17-Jul-19 11:58 PM] Dark Dolphin#2039
+With all these instructions I failed to understand why team has chosen for komodo platform. This swap is way too difficult. Any chance of making it more simple?
+
+{Reactions}
+🤦🏽 (3) 
+
+[18-Jul-19 12:26 AM] Exile13#4458
+@Dark Dolphin I can help you load thc on linux if you want in our support chat
+
+
+[18-Jul-19 08:22 AM] Dark Dolphin#2039
+Will there be windows wallets?
+
+
+[18-Jul-19 10:43 AM] Exile13#4458
+We're working on this option
+
+
+[18-Jul-19 10:43 AM] Exile13#4458
+@Dark Dolphin
+
+
+[21-Jul-19 10:11 AM] Dark Dolphin#2039
+That would be excellent. I cant imagine all the thc holders are willing to run a node  on linux.
+
+
+[21-Jul-19 11:22 AM] Exile13#4458
+many are
+
+
+[21-Jul-19 02:16 PM] Exile13#4458
+@Deleted User not yet
+
+
+[21-Jul-19 04:20 PM] ! zpool.ca | crackers#9719
+Is THC still pos?
+
+{Reactions}
+👍 
+
+[21-Jul-19 05:03 PM] ComputerGenie#7004
+100%
+
+
+[21-Jul-19 05:04 PM] ComputerGenie#7004
+`ac_staked=100`
+
+
+[21-Jul-19 05:37 PM] Exile13#4458
+@Deleted User really?
+
+
+[21-Jul-19 05:37 PM] Exile13#4458
+Thc is or verus
+
+
+[21-Jul-19 05:39 PM] Exile13#4458
+Ok
+
+
+[21-Jul-19 05:43 PM] Exile13#4458
+Do you work with utrum  @Deleted User
+
+
+[21-Jul-19 05:43 PM] Exile13#4458
+Who can be contacted for potential listing
+
+
+[21-Jul-19 05:44 PM] Exile13#4458
+Ok
+
+
+[21-Jul-19 05:44 PM] Exile13#4458
+```THC github repo = github.com/jl777/komodo
+
+Migration steps = https://drive.google.com/open?id=1MXN5e0eKqGIgQjoVro60sa4z0uXe2QOwWjnyg9akWFY
+
+NEW THC logos = https://drive.google.com/open?id=1clUuIT2J_4o5w5SJl_NQL0FkBaOnYiuA```
+
+
+[21-Jul-19 05:45 PM] Exile13#4458
+And who for verus?
+
+
+[21-Jul-19 05:47 PM] Exile13#4458
+Ty
+
+
+[21-Jul-19 05:49 PM] Exile13#4458
+Lmk if you need anything  @Deleted User
+
+
+[21-Jul-19 05:50 PM] Exile13#4458
+In general
+
+
+[23-Jul-19 09:04 PM] My City / UberSmith#5703
+I get an error when trying to create rewards lock.
+Can't find rewards inputs funding 0.00000000 locked 0.00000000 vs deposit 100000.00000000
+
+getinfo shows the proper balance of more than the 100k
+
+
+[26-Jul-19 01:25 PM] Exile13#4458
+https://twitter.com/awallace1337/status/1154753959128489984
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1154753959128489984
+$THC is now LIVE on @graviex_net ! 
+#THC/#BTC - https://t.co/i4Big92xm2
+#THC/#ETH - https://t.co/QkBYCXcr0L
+#THC/#GIO - https://t.co/sOm44e8cNQ
+@TheHempCoin #thehempcoin #cryptocurrency #hempfarming #cbd
+https://images-ext-2.discordapp.net/external/AQ1LPsHH1eXNLNsnbxOI9UZsygMlk5D33HImxlYS-7A/https/pbs.twimg.com/media/EAaCmnOUYAAJ8at.png%3Alarge
+Twitter
+
+
+[26-Jul-19 01:25 PM] Exile13#4458
+https://twitter.com/awallace1337/status/1154406266258644993
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1154406266258644993
+$THC is now LIVE on @CryptoBridge! Deposits and Withdraws ARE NOW AVAILABLE! Users MUST generate a new deposit address.
+@TheHempCoin #hempcoin #cryptocurrency #hempfarming #hemp #cbd #cryptobridge
+https://images-ext-1.discordapp.net/external/Bl5Yrcnk5x_doSdPDjBaXyirxmn77m5HTSetewDppME/https/pbs.twimg.com/media/EAVGX83VUAIhvdm.png%3Alarge
+Twitter
+
+
+[26-Jul-19 01:25 PM] Exile13#4458
+
+{Attachments}
+https://cdn.discordapp.com/attachments/574249023456804874/604409066936074288/THC_ANNOUNCEMENT_11.png
+
+
+[26-Jul-19 01:26 PM] Exile13#4458
+Discord - https://discord.gg/kAhpdAQ
+
+
+[28-Jul-19 09:29 AM] Exile13#4458
+
+{Attachments}
+https://cdn.discordapp.com/attachments/574249023456804874/605074415868444750/tradesetoshiAnnouncement.png
+
+
+[28-Jul-19 09:29 AM] Exile13#4458
+https://twitter.com/TradeSatoshi/status/1155357563401019392?s=09
+
+{Embed}
+Trade Satoshi (@TradeSatoshi)
+https://twitter.com/TradeSatoshi/status/1155357563401019392?s=09
+The HempCoin $THC Listed on Tradesatoshi Cryptocurrency Exchange
+You can now trade $THC on $BTC $DOGE $USDT and $ETH base markets
+More information here:
+https://t.co/TT9esmzgkM
+https://images-ext-1.discordapp.net/external/qku26ppbETbbWFBQZENP9ao6mqeGve2yr3qmnjMU3go/https/pbs.twimg.com/media/EAinO0TVAAA6mBG.jpg%3Alarge
+Twitter
+
+
+[31-Jul-19 12:52 AM] Exile13#4458
+THC Community can Vote for THC to be listed on Binance Dex here.
+https://community.binance.org/topic/1050/proposal-for-listing-the-hempcoin-on-binance-dex
+
+{Embed}
+https://community.binance.org/topic/1050/proposal-for-listing-the-hempcoin-on-binance-dex
+Proposal for Listing The HempCoin on Binance DEX
+Project Name The HempCoin Link to your asset page on Binance Chain N/A Your name and position Adam Wallace, Project Manager A one-sentence pitch about your Project Agricultural Supply Chain Management Secured by Cryptography. What are you planning to achi...
+https://images-ext-1.discordapp.net/external/hi1hw_SN7ElMUN262iTol5OD172KhOcwRpjHG5ouhjc/http/community.binance.org/assets/uploads/category/category-7.png
+
+
+[04-Aug-19 04:54 PM] Exile13#4458
+https://twitter.com/awallace1337/status/1158146796905910272
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1158146796905910272
+Thank you @BoaExchange
+for listing @TheHempCoin!
+
+#THC/#BTC - https://t.co/vzQH3OkTZs
+#THC/#ETH - https://t.co/a3iybmwRp9
+https://images-ext-1.discordapp.net/external/XR5hfzxrVrOzQgg4zDm_8Nt_miv07Ft2yIT_SGQvXv0/https/pbs.twimg.com/media/EBKQXzTVUAEsuhy.jpg%3Alarge
+Twitter
+
+
+[06-Aug-19 04:13 AM] Exile13#4458
+https://twitter.com/awallace1337/status/1158664555054039041?s=09
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1158664555054039041?s=09
+$THC will be listed on Bitker (https://t.co/vQmWTRf9UH) on August 28th, 2019!
+More info on their exchange here (https://t.co/gympBME7Os).
+Thank you!!
+@TheHempCoin @TheHempCoinCN #hempcoin #hempfarming #cannabis #cryptocurrency #cbd
+Twitter
+
+
+[06-Aug-19 08:03 AM] Exile13#4458
+$THC intends on listing with $KMD's AtomicDEX (Atomicdex.io), the fee is $1500USD. Please help our efforts towards building a decentralized ecosystem!
+
+
+[06-Aug-19 08:03 AM] Exile13#4458
+Donation Addresses:
+BTC - 1DSKzbwEwqE6tZxz7shikzKoodubHEWofo
+THC - 
+RVEixbZGejRdcTf8LYp7KurFvEYRtrn9Es
+
+
+[06-Aug-19 08:04 AM] Exile13#4458
+@Deleted User did you just post here? its gone
+
+
+[06-Aug-19 08:37 AM] Exile13#4458
+Lol just saw that.....I'm mobile and have many notifications my fault
+
+{Reactions}
+👍 
+
+[17-Aug-19 02:49 PM] My City / UberSmith#5703
+Still waiting on an answer on what to do about this.
+
+I get an error when trying to create rewards lock.
+Can't find rewards inputs funding 0.00000000 locked 0.00000000 vs deposit 100000.00000000
+
+getinfo shows the proper balance of more than the 100k
+
+
+[22-Aug-19 06:31 AM] Vic Tor#0810
+https://twitter.com/EXCC_Team/status/1164528640731897856?s=20
+
+{Embed}
+ExchangeCoin (@EXCC_Team)
+https://twitter.com/EXCC_Team/status/1164528640731897856?s=20
+We are glad to see $THC with us. They are first customers who benefit from the triple listing for the low price. https://t.co/1Ui53uyTJo - ☑️ | https://t.co/3nijmfLSIo - ☑️ | https://t.co/4CL4q8PAdX - ⏳
+
+$EXCC delivers again. Ask for triple listing today! https:/...
+Twitter
+
+
+[22-Aug-19 09:36 AM] Exile13#4458
+https://twitter.com/awallace1337/status/1164576723872018433?s=09
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1164576723872018433?s=09
+@TheHempCoin @TheHempCoinCN  is now listed on https://t.co/8CbFheCS5e! 
+#hempcoin #hempfarming #cannabis #cryptocurrency #cbd
+https://images-ext-2.discordapp.net/external/B0sq9irUeIC9aPJLG9RJaCe2_B9wRJPuigfoo1dgYwo/https/pbs.twimg.com/media/ECloWupUwAAfGy5.jpg%3Alarge
+Twitter
+
+{Reactions}
+🚀 
+
+[25-Aug-19 09:17 AM] Exile13#4458
+https://twitter.com/awallace1337/status/1165659103168843776?s=09
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1165659103168843776?s=09
+Here is the new QT wallet for $THC!
+
+https://t.co/KRyaCCNb8Y
+
+@TheHempCoin
+#hempcoin #cryptocurrency #hempfarming #cannabis #cbd
+Twitter
+
+
+[28-Aug-19 11:23 AM] Exile13#4458 (pinned)
+```The HempCoin ($THC) OFFICIAL LINKS
+
+Website - http://www.hempcoin.org/
+Whitepaper - https://hempcoin.org/thc-whitepaper.html
+CoinMarketCap - https://coinmarketcap.com/currencies/hempcoin/
+Utrum - https://utrum.io/cryptos/HempCoin/THC
+CoinMarketCal - http://bit.ly/thc_calendar
+Coinlib - https://coinlib.io/coin/THC/The+Hempcoin
+CoinGecko - https://www.coingecko.com/en/coins/hempcoin-thc
+CoinPaprika - https://coinpaprika.com/coin/thc-hempcoin/
+Github - https://github.com/jl777/komodo
+Logos - https://drive.google.com/open?id=1clUuIT2J_4o5w5SJl_NQL0FkBaOnYiuA
+
+Accept THC:
+CryptoCurrencyCheckout - https://cryptocurrencycheckout.com/coin/hempcoin
+
+Host/Stake THC:
+XClouder - https://xclouder.co/
+
+Trade THC:
+XChange.me:
+Various Coins - https://xchange.me/
+Bitker:
+#THC/#BTC - https://www.bitker.com/#/bbTrades/thc_btc
+CryptoBridge: 
+#THC/#BTC - https://wallet.crypto-bridge.org/market/BRIDGE.THC_BRIDGE.BTC
+Graviex: 
+#THC/#BTC - https://graviex.net/markets/thcbtc
+#THC/#ETH - https://graviex.net/markets/thceth
+#THC/#GIO - https://graviex.net/markets/thcgio
+TradeSatoshi: 
+#THC/#BTC - https://tradesatoshi.com/Exchange/?market=THC_BTC
+#THC/#USDT - https://tradesatoshi.com/Exchange/?market=THC_USDT
+#THC/#ETH - https://tradesatoshi.com/Exchange/?market=THC_ETH
+BOA Exchange: 
+#THC/#BTC - https://www.boaexchange.com/market/THC_BTC
+#THC/#ETH - https://www.boaexchange.com/market/THC_ETH
+
+Social Media:
+Twitter - https://twitter.com/TheHempCoin
+Medium - https://medium.com/the-center-branch
+Steem - https://steemit.com/@thehempcoin
+Reddit - https://www.reddit.com/r/The_HempCoin/
+Discord - https://discord.gg/kAhpdAQ
+Telegram - https://t.me/HempCoinOfficial
+Facebook - https://www.facebook.com/officialhempcoin
+BitcoinTalk - https://bitcointalk.org/index.php?topic=506320.0
+
+Tools:
+Explorer - https://thc.explorer.dexstats.info/
+Guides: 
+WIN - https://tinyurl.com/y266px6c
+WIN Notes - https://tinyurl.com/y4ac97rk
+MAC - https://tinyurl.com/yy39v8cp
+LINUX - https://tinyurl.com/y2s8el6a
+```
+
+
+[28-Aug-19 11:31 AM] Exile13#4458
+Pinned a message.
+
+
+[28-Aug-19 11:57 AM] Exile13#4458
+https://twitter.com/awallace1337/status/1166786396880687104
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1166786396880687104
+$THC on @Bitker1 is Live! 
+#THC/#BTC - https://t.co/5HErSwKuDs
+@TheHempCoin @TheHempCoinCN #hempcoin #cbd #cryptocurrency #cannabis #hemp #hempfarming
+Discord - https://t.co/sRQsZsVg0H
+Twitter
+
+
+[06-Sep-19 10:44 AM] ꧁꧂ↂↂ꧁꧂#4914
+https://twitter.com/EXCC_Team/status/1169980178174566400
+
+{Embed}
+ExchangeCoin (@EXCC_Team)
+https://twitter.com/EXCC_Team/status/1169980178174566400
+Job is done. $THC and $KMD  got a triple listing on https://t.co/4CL4q8PAdX, https://t.co/46Ssbp6G5i and https://t.co/1Ui53uyTJo. Delivered by #ExchangeCoin $EXCC
+https://images-ext-2.discordapp.net/external/1h0Rayuop11t2vXv9XEOJHL9SdCUESOGuy_P-bg7iWY/https/pbs.twimg.com/media/EDyaxMMX4AAXEG9.png%3Alarge
+Twitter
+
+
+[08-Sep-19 08:03 PM] Exile13#4458
+https://twitter.com/awallace1337/status/1170894878928035841?s=09
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1170894878928035841?s=09
+$THC is now live on https://t.co/LeqMLkrIV1!
+@TheHempCoin @TheHempCoinCN #hempcoin #hempfarming #cannabis #cryptocurrency #cbd
+https://images-ext-1.discordapp.net/external/LNKj2nLiaN99eqD4Ndj0WAiOvrxAwiOu13XElEfQAqc/https/pbs.twimg.com/media/ED_ar3PU8AA8qBo.jpg%3Alarge
+Twitter
+
+
+[18-Sep-19 07:48 AM] Instel7#1416
+https://twitter.com/Chainzillaio/status/1174334013680619520
+
+{Embed}
+ChainZilla.io (@Chainzillaio)
+https://twitter.com/Chainzillaio/status/1174334013680619520
+@TheHempCoin is now supported on #ChameleonPay V4
+
+Get Chameleon Pay:
+Android: https://t.co/rcIXEWg1K3
+iOS: https://t.co/cFpUjpCNDx
+
+Are you interested in listing your project on our wallet or launching your own white-label app? Reach to us today!
+
+#blockchain #bitcoin $TH...
+https://images-ext-1.discordapp.net/external/FBBqt_cqRHHVB4Clm3k87iBB1BnlAQU85gniAx3gBEw/https/pbs.twimg.com/ext_tw_video_thumb/1174333909154312198/pu/img/OyGEpPgtN8sdFHJ2.jpg
+Twitter
+
+
+[06-Aug-20 10:03 AM] Exile13#4458
+New Wallet for WINDOWS is LIVE!!
+THC-KMDocean is available now
+https://hempcoin.org/migration-thc.html
+http://HempCoin.org/THC_KMDocean.zip
+
+{Embed}
+https://hempcoin.org/migration-thc.html
+Migration-Wallets (THC)
+A snapshot of THC’s blockchain occurred at 12PM EST (+4UTC) Sunday July 14th, 2019 block 554496.
+You can monitor what block we are on by going to https://thc.explorer.dexstats.info/
+
+{Reactions}
+👍 🎊 
+
+[06-Aug-20 06:06 PM] Exile13#4458
+https://twitter.com/BittrexGlobal/status/1291515027346817027?s=19
+@here
+
+{Embed}
+Bittrex Global (@BittrexGlobal)
+https://twitter.com/BittrexGlobal/status/1291515027346817027?s=19
+Far out! The HempCoin $THC wallet is now open and the $THC | $BTC market will begin trading shortly on https://t.co/NQfVSN7yob For more information visit: https://t.co/TleDFY4jZQ @TheHempCoin
+
+ #Ticker #BGListings https://t.co/rjA4tQnHku
+https://images-ext-2.discordapp.net/external/u2zSSWOLoJMNKBkIOjEG5U00qHHgUS7JTco4P4PN96M/https/pbs.twimg.com/media/EexiIp4WoAIOqkN.jpg
+Twitter
+
+
+[06-Aug-20 06:07 PM] Exile13#4458
+@Dark Dolphin windows staking wallet live now
+Hempcoin.org
+
+
+[10-Aug-20 01:04 PM] Exile13#4458
+https://cointelegraph.com/news/crypto-og-hempcoin-relisted-by-bittrex-after-year-in-the-wilderness
+
+{Embed}
+https://cointelegraph.com/news/crypto-og-hempcoin-relisted-by-bittrex-after-year-in-the-wilderness
+Crypto OG HempCoin Relisted by Bittrex After Year in the Wilderness
+HempCoin Founder and CEO, Tim Renzetti, tells Cointelegraph about the token’s journey so far and plans for the future
+https://images-ext-1.discordapp.net/external/VzuxKb_A-waYyov7-vfLtmhgN_peRYZj3R5fh4OK_sE/https/s3.cointelegraph.com/storage/uploads/view/64976e74c8b363657a98c1ef46dc9794.jpg
+
+
+[13-Aug-20 03:28 PM] Exile13#4458
+Wallet and Migration directions: https://hempcoin.org/
+Windows wallet: http://hempcoin.org/THC_KMDocean.zip
+Extract, then Run First and only the first time fetch-params, then start_thc.bat to open the wallet, NO NOT use the qt.exe file to open the wallet.
+
+THC and KMD Bootstrap: https://bit.ly/THCbootstrap
+THC instead of KMD in the command, to download the THC chain.
+Files then go in your THC folder that is inside the Komodo folder.
+
+Mobile Wallet:
+Android - https://bit.ly/2GBWDvJ
+iOS - https://apple.co/2UA9p1n
+
+{Embed}
+https://hempcoin.org/
+The HempCoin (THC)
+HempCoin was one of the first 30 cryptocurrencies developed in 2014. It is a highly focused digital currency based on Bitcoin with improved payments and security features. HempCoin aims at delivering global liquidity to the Agricultural and Farming sectors, as well as a simple...
+
+{Embed}
+https://bit.ly/THCbootstrap
+How to Resync your Komodo blockchain from scratch (Windows, Linux &...
+If you have issues loading Agama in Native mode, or your Ocean QT wallet is stuck Syncing headers for a long time, you might need to resync from scratch. This involves deleting your local chain data, and then downloading it again.  It may take a ...
+https://images-ext-1.discordapp.net/external/2edqHgCSZzL8NsESketZsMPvUWzUVZ8B5o-nexxIVdo/https/s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/29002687673/logo/W9JroNQCNGh0ObXMuSJ-jUMU9TVGBwN1JA.png
+
+{Embed}
+https://bit.ly/2GBWDvJ
+Chameleon Pay - Apps on Google Play
+Bitcoin, Ethereum, Komodo, Dash, Qtum, and much more. Receive, send, and spend your cryptocurrencies or digital cash.
+
+Chameleon Pay is a Universal wallet, supports the following digital cryptocurrencies:
+
+• Bitcoin
+• Bitcoin Cash
+• Dash
+• Ethereum
+• ZCash
+• ZILLA
+• Litecoin
+•...
+https://images-ext-2.discordapp.net/external/dh4TtnEQhIo7BIMdQQ1Vz2y0SvjeKBZmpj2o8N0F7E0/https/lh3.googleusercontent.com/lMljKHmdArcsTPse5uRyR9q9B-U67lmnuoBC7w9zVKslHD3A54yKrrpt94ySuYfICNM
+
+{Embed}
+https://apple.co/2UA9p1n
+‎Chameleon Pay
+‎Bitcoin, Ethereum, Komodo, Dash, Qtum, and much more. Receive, send, and spend your cryptocurrencies or digital cash.
+
+Chameleon Pay is a Universal wallet, supports the following digital cryptocurrencies:
+
+• Bitcoin
+• Dash
+• Ethereum
+• ZILLA
+• Litecoin
+• Komodo
+• GRS
+• Tether...
+https://images-ext-1.discordapp.net/external/hK_RVoQghnGTaT3VkIpmxgtUZtXwscHpCPQVmfQRitI/https/is2-ssl.mzstatic.com/image/thumb/Purple123/v4/ef/12/47/ef124728-a2f2-2de3-3a34-730cb5287cf6/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-85-220.png/1200x630wa.png
+
+
+[14-Aug-20 12:25 AM] Exile13#4458
+Trade THC:
+BITTREX: 
+Exchange - https://global.bittrex.com/Exchange/?market=BTC_THC
+Bittrex Global Telegram: @BittrexGlobalEnglish
+Xult:
+https://xult.com/trade
+XChange.me:
+Various Coins - https://xchange.me/
+Graviex: 
+#thc/#BTC - https://graviex.net/markets/thcbtc
+#thc/#ETH - https://graviex.net/markets/thceth
+#thc/#GIO - https://graviex.net/markets/thcgio
+BOA Exchange: 
+#thc/#BTC - https://www.boaexchange.com/market/THC_BTC
+#thc/#ETH - https://www.boaexchange.com/market/THC_ETH
+Accept THC:
+CryptoCurrencyCheckout - https://cryptocurrencycheckout.com/coin/hempcoin
+
+Host/Stake THC:
+XClouder - https://xclouder.co/
+
+Exchange Cryptocurrency
+Anonymously:
+https://xchange.me/
+
+{Embed}
+https://xult.com/trade
+Crypto Exchange | Bitcoin Exchange | Xult.com
+Xult cryptocurrency exchange - Modern and innovative exchange that offers Bitcoin and Altcoin exchanges. First exchange you can talk with thanks to Google Assistant solution.
+https://images-ext-1.discordapp.net/external/BbHIR4kOkFOY5F9FupXA8-yfvoji2XWg2SaFdO13j7E/https/excc.co/wp-content/themes/wi/images/home_bg_01.jpg
+
+{Embed}
+https://xchange.me/
+Xchange.me - exchange crypto anonymously
+Anonymous cryptocurrency exchanger, no KYC/AML, accountless.
+
+{Embed}
+https://graviex.net/markets/thcbtc
+Graviex | Bitcoin Exchange | BTC | Cryptocurrency Exchange | ETH
+Graviex cryptocurrency exchange - We operate bitcoin exchange and altcoin crypto exchange
+https://images-ext-1.discordapp.net/external/jB2SYsbuqv6UMjwyY8aona_Ib23zgYqt67UBFZPfHKQ/https/graviex.net/graviex-100.png
+
+{Embed}
+https://graviex.net/markets/thceth
+Graviex | Bitcoin Exchange | BTC | Cryptocurrency Exchange | ETH
+Graviex cryptocurrency exchange - We operate bitcoin exchange and altcoin crypto exchange
+https://images-ext-1.discordapp.net/external/jB2SYsbuqv6UMjwyY8aona_Ib23zgYqt67UBFZPfHKQ/https/graviex.net/graviex-100.png
+
+
+[29-Aug-20 07:25 AM] Exile13#4458
+🌟 $THC UPDATE 🌟
+
+🌐 $THC is Now Listed on Komodo's AtomicDEX PRO!!
+github.com/KomodoPlatform/atomicDEX-Pro/releases
+
+👉 Introduction to Komodo's AtomicDEX
+tinyurl.com/y282f6wo
+
+👋 For info please join our channels: 
+Discord - discord.gg/kAhpdAQ
+Telegram - t.me/HempCoinOfficial 
+
+🎋 The HempCoin (THC): hempcoin.org/
+
+🔥 Thank you for your attention 🔥
+
+
+[21-Jan-21 01:47 AM] EtherReal Trader#6482
+I need help to set up the wallet please. 
+Got my priv key from old wallet, then for the KMD Ocean wallet, I try to run "START_THC.bat" but when the Komodo-qt window pops up, it disappears after a second or two. The last thing it says in the window is "Loading sapling parameters", then the window disappears.
+Thought it was my antivirus or firewall blocking it but disabling those did not help
+
+
+[26-Jan-21 01:27 PM] Tylor zkFS#8280
+smoke a bowl and pray
+
+
+[31-Jan-21 12:30 AM] alkimi#1111
+this is how I pray
+
+
+[02-Feb-21 03:49 PM] TimC#3334
+I tried to click on the Invite link to join the THC discord but it say 'The user is banned from this guild.) Can you check to see if I'm banned. I'm not sure why if I was  since I've only helped
+
+
+[02-Feb-21 10:16 PM] gcharang#6833
+@Exile13 ^
+
+
+[03-Feb-21 09:00 AM] Exile13#4458
+Np
+
+
+[03-Feb-21 09:01 AM] Exile13#4458
+@CHMEX is thc on the dex up?
+
+
+[03-Feb-21 09:02 AM] Exile13#4458
+@TimC access granted, ban said no reason provided
+
+
+[03-Feb-21 09:06 AM] TimC#3334
+thanks
+
+
+[03-Feb-21 10:10 AM] CHMEX#0686
+@Exile13 sould be fine let me try a swap
+
+
+[03-Feb-21 10:26 AM] CHMEX#0686
+
+{Attachments}
+https://cdn.discordapp.com/attachments/574249023456804874/806591549705289728/unknown.png
+
+
+[03-Feb-21 10:27 AM] CHMEX#0686
+@Exile13 yes it works with the newest atomicdex version
+
+
+[03-Feb-21 06:09 PM] Exile13#4458
+@CHMEX ok thank you
+
+
+[03-Feb-21 06:09 PM] Exile13#4458
+Can you send me the ips used for the electrumx
+
+
+[03-Feb-21 06:09 PM] Exile13#4458
+I can't find the pr
+
+
+[03-Feb-21 06:39 PM] BlackMarket#6984
+@CHMEX I'm having issue launching THC cli wallet. I have done the re index but it won't sync.
+
+
+[03-Feb-21 06:41 PM] BlackMarket#6984
+2021-02-04 02:27:51 net thread start
+2021-02-04 02:27:51 dnsseed thread start
+2021-02-04 02:27:51 addcon thread start
+2021-02-04 02:27:51 opencon thread start
+2021-02-04 02:27:51 msghand thread start
+2021-02-04 02:27:51 init message: Done loading
+2021-02-04 02:27:55 connect() to 66.70.180.46:36789 failed after select(): Connection refused (111)
+2021-02-04 02:28:02 Loading addresses from DNS seeds (could take a while)
+2021-02-04 02:28:03 29 addresses found from DNS seeds
+2021-02-04 02:28:03 dnsseed thread exit
+2021-02-04 02:28:39 socket recv error Connection reset by peer (104)
+2021-02-04 02:28:40 connect() to 5.9.142.219:36789 failed after select(): Connection refused (111)
+2021-02-04 02:28:53 Adding fixed seed nodes.
+2021-02-04 02:29:08 connect() to 159.69.11.56:36789 failed after select(): Connection refused (111)
+2021-02-04 02:29:33 connect() to 95.213.238.98:36789 failed after select(): Connection refused (111)
+2021-02-04 02:30:01 connect() to 159.65.134.48:36789 failed after select(): Connection refused (111)
+2021-02-04 02:30:20 connect() to 139.99.121.200:36789 failed after select(): Connection refused (111)
+2021-02-04 02:30:54 Misbehaving: 88.99.212.81:36789 (0 -> 1)
+2021-02-04 02:30:54 ProcessMessages(reject, 43 bytes) FAILED peer=3
+2021-02-04 02:31:35 connect() to 88.99.251.101:36789 failed after select(): Connection refused (111)
+2021-02-04 02:31:37 KomodoMiner started
+2021-02-04 02:34:04 connect() to 139.99.121.200:36789 failed after select(): Connection refused (111)
+
+
+[03-Feb-21 06:41 PM] BlackMarket#6984
+@CHMEX this is my debug log
+
+
+[03-Feb-21 06:43 PM] BlackMarket#6984
+Wallet itself also says "no nodes, break"
+
+
+[03-Feb-21 10:28 PM] CHMEX#0686
+@Exile13 1.eu.thc.electrum.dexstats.info:10020
+2.eu.thc.electrum.dexstats.info:10020
+
+
+[03-Feb-21 10:31 PM] CHMEX#0686
+@BlackMarket after starting the node 
+komodo-cli -ac_name=THC addnode "thc.explorer.dexstats.info" "add"
+
+
+[04-Feb-21 06:25 AM] BlackMarket#6984
+Ok I will try that
+
+
+[04-Feb-21 10:39 AM] BlackMarket#6984
+@CHMEX yeah still nothing I think my CLI wallet is broken. Tried updating komodo itself as well, no luck
+
+
+[04-Feb-21 10:39 AM] BlackMarket#6984
+At this point I will just have to import my priv keys into a different wallet
+
+{Reactions}
+👍 (2) 
+
+[11-Apr-21 04:48 PM] Exile13#4458
+"🌟 $THC UPDATE 🌟
+
+👉 The Hempcoin $THC is ready to turn it up a notch! 
+
+Watch what happens next!
+
+Announcement coming...
+
+⭐⭐ 4/20/2021 ⭐⭐
+
+👋 For info please join our channels:
+Discord - discord...."
+
+via @blockfolio
+
+#THC $THC
+https://blockfolio.com/coin/THC/signal/WevPToCD1R
+@here
+
+{Embed}
+https://blockfolio.com/coin/THC/signal/WevPToCD1R
+HempCoin (THC) on Blockfolio Signal
+🌟 $THC UPDATE 🌟
+
+👉 The Hempcoin $THC is ready to turn it up a notch! 
+
+Watch what happens next!
+
+Announcement coming...
+
+⭐⭐ 4/20/2021 ⭐⭐
+
+👋 For info please join our channels:
+Discord - discord.gg/kAhpdAQ
+Telegram - t.me/HempCoinOfficial
+
+🎋 The HempCoin (THC): hempcoin.org/
+
+🔥 Thank you for your attention 🔥
+https://images-ext-2.discordapp.net/external/K90sb9Vv-_oWnw0EABvViyiC0zZAyMeLD52BZRxMmqc/https/blockfolio.com/static/media/shareSignal.53857cf3.jpg
+
+
+[27-Apr-21 03:35 PM] Exile13#4458
+The HempCoin ($THC) Announces Phil Lerner as Chief Technical Officer. Phil has developed an accomplished career driving the strategy, vision and execution of cybersecurity architecture, digital transformation & enterprise technology across the private & public sectors.
+@here
+
+{Reactions}
+🎉 (2) 
+
+[04-May-21 03:42 PM] mordechay#5300
+i followed the instructions for migrating the old coins from the old pivx wallet to the new komodo. i did the command of importprivatkey privatekeyaddress "" true 0 212 - it scanned for  ocins and added 0 coins, just gave me an address at the end . cna someone help me please
+
+
+[06-May-21 08:08 AM] Malti#3948
+@mordechay I think it's best to ask in HempCoin discord
+
+
+[06-May-21 08:14 AM] RandiMcRandom#3232
+Where’s the discord at for this
+
+
+[06-May-21 08:27 AM] gcharang#6833
+https://discord.gg/Tkjq7ceweU
+
+
+[30-May-21 08:28 AM] Exile13#4458
+Thank you
+
+
+[03-Jun-21 01:18 PM] Exile13#4458
+https://twitter.com/awallace1337/status/1400546886310715393?s=19
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1400546886310715393?s=19
+$THC Townhall Fridays
+3pm EST 
+https://t.co/hBVMXGh7bu
+@TheHempCoin 
+#THC #discord #AMA
+https://images-ext-1.discordapp.net/external/aCSTOJg9MmuXdaWL9In6Z3yVTxXMJlQ8WAHN9JH4Nac/https/pbs.twimg.com/media/E2-9-IYVkAESKX-.jpg%3Alarge
+Twitter
+
+
+[10-Jun-21 09:12 AM] Exile13#4458
+For the Update needed by June 14th 2021, for $THC if you are using command line rebuild the daemon, KMD dPoW is switching from BTC to LTC and theres a couple other upgrades, but this is a yearly process with the KMD notary Node Election
+How to build Linux THC CLI Daemon
+https://docs.google.com/document/d/1MXN5e0eKqGIgQjoVro60sa4z0uXe2QOwWjnyg9akWFY/edit?usp=sharing
+notes on Komodo (KMD) Update
+https://komodoplatform.com/en/blog/komodo-medusa-update/
+
+Further updates to be expected for the THCKomodo Ocean Wallet
+
+{Embed}
+https://docs.google.com/document/d/1MXN5e0eKqGIgQjoVro60sa4z0uXe2QOwWjnyg9akWFY/edit?usp=sharing
+LINUX - THC Migration and Smart Chain Launch
+Gather THC addresses for migration from your HempCoin QT wallet by first Opening your HempCoin QT walletthis does NOT have to be synched fully. Select File on the Menubar. Select Receiving Addresses. Copy Each Address that you want to migrate. Go Unlock your QT wallet by Selecting Settings...
+https://images-ext-1.discordapp.net/external/eS1xCtnxqeR_f7eDsvAXgMbJAo5QSQFTpcJawzPCz-Q/https/lh3.googleusercontent.com/5uLqBxaMEU5CO0VtSBlXjH-CB0pSDztS_UjNexHJUWps-BJBY8FBJL0eqeHKNxHnTQY2QoqmMMEDug%3Dw1200-h630-p
+
+{Embed}
+https://komodoplatform.com/en/blog/komodo-medusa-update/
+Mandatory Komodo Daemon Update Before June 14, 2021
+This is a message from the Komodo Platform team regarding an upcoming mandatory update to the Komodo daemon.
+The Komodo development team has already activated changes to the Komodo code base. The changes are mandatory for the entire network before June 14th, 2021.
+https://images-ext-1.discordapp.net/external/woHqKxXNKBTPkMSrs3p9VCWHEJw4tgnPXd7P5CrtHfg/https/komodoplatform.com/en/blog/content/images/2021/05/Komodo-Daemon-Update.png
+
+
+[01-Jul-21 07:41 AM] Exile13#4458
+$THC UPDATE
+
+Stereo Vision Entertainment, Inc. (OTC:SVSN) announces its majority-owned subsidiary the Nevada ESG Benefit company Eco Allies Inc.("EA") signed a Memorandum of Understanding with the creator of one of the first blockchains and cryptocurrencies, The Hempcoin ($THC) to develop & build a blockchain carbon offset credits trading exchange.
+
+Press Release Here : https://www.otcmarkets.com/stock/SVSN/news/Eco-Allies-Signs-MOU-with-Cryptocurrency-Hempcoin-THC-for-Developing-a-Blockchain-Carbon-and-Methane-Credits-Trading-Exc?id=309874
+
+{Reactions}
+AtomicDEX 
+
+[02-Jul-21 08:30 AM] Exile13#4458
+https://www.youtube.com/watch?v=JC9hrqOxqss
+
+{Embed}
+The HempCoin ($THC) Official YouTube
+https://www.youtube.com/watch?v=JC9hrqOxqss
+BlockChain Financial: AutoCash
+Blockchain Financial is a set of web based services for individuals and companies that want to make things happen with the Cryptocurrencies Ecosystem.
+
+For those that don't know anything about cryptocurrencies, we offer tools that will let them receive, send and operate with an assortment of coins.
+For those that are already riding the wave, we ...
+https://images-ext-1.discordapp.net/external/hdDvoEHR4WRCTd4b1BP23ZYEfJKH736XBa2BpL0DgxI/https/i.ytimg.com/vi/JC9hrqOxqss/maxresdefault.jpg
+
+{Reactions}
+AtomicDEX 
+
+[07-Jul-21 12:23 AM] Exile13#4458
+Exchanges to Trade $THC:
+BITTREX: https://global.bittrex.com/Exchange/?market=BTC_THC
+Bittrex Global Telegram: https://t.me/BittrexGlobalEnglish
+BlockChain Financial: https://blockchainfinancial.com/exchange
+AtomicDEX: https://atomicdex.io/
+Xult: https://xult.com/trade
+XChange.me Various Coins: https://xchange.me/
+Graviex: #thc/#BTC - https://graviex.net/markets/thcbtc
+#thc/#ETH - https://graviex.net/markets/thceth
+#thc/#GIO - https://graviex.net/markets/thcgio
+BOA Exchange: #thc/#BTC - https://www.boaexchange.com/market/THC_BTC
+#thc/#ETH - https://www.boaexchange.com/market/THC_ETH
+
+Accept $THC:
+CryptoCurrencyCheckout - https://cryptocurrencycheckout.com/coin/hempcoin
+BlockChain Financial - https://blockchainfinancial.com/crypto_autocash/ (fiat/crypto)
+
+Social Media:
+$THC Forum - http://forum.hempcoin.org/
+Twitter - https://twitter.com/TheHempCoin
+Medium - https://medium.com/the-center-branch
+LinkedIn - https://www.linkedin.com/company/73070653
+YouTube - https://www.youtube.com/channel/UCjTA7UZqgRo5TEfjRHTNVwg
+Reddit - https://www.reddit.com/r/The_HempCoin/
+Discord - https://discord.gg/kAhpdAQ
+Telegram - https://t.me/HempCoinOfficial
+Facebook - https://www.facebook.com/officialhempcoin
+BitcoinTalk - https://bitcointalk.org/index.php?topic=506320.0
+
+Tools:
+Explorer - https://thc.explorer.dexstats.info/
+
+Guides:
+WIN - https://forum.hempcoin.org/discussion/9/thc-windows-walkthrough#latest
+WIN Notes - https://forum.hempcoin.org/discussion/10/thc-windows-migration-notes#latest
+MAC - https://forum.hempcoin.org/discussion/8/thc-mac-walkthrough#latest
+LINUX - https://forum.hempcoin.org/discussion/6/thc-linux-walkthrough#latest
+
+{Embed}
+https://t.me/BittrexGlobalEnglish
+Bittrex Global Community
+Official Community. Bittrex Global Website: global.bittrex.com. Beware of scams. Never provide your private keys/phrases to anyone.  This channel DOES NOT PROVIDE SUPPORT.
+https://images-ext-2.discordapp.net/external/OPrx2DABwhPKsYq-kVK_XNofH-bs5hFBLbVLocA02tU/https/cdn4.telesco.pe/file/F3iLWoZ3ck46ZpZj-hzuUKoXCSdCmyKxX_i3YBxBY1ETJ_OFstXkgsKvq8i3DYiHZzCGW_UkBHxMJD4KZrdEgVcZd2xYHqMnmrftvLIJ4GH0wpikCc1RuSTrLkMxd5Ij6oPHOnrJB-xIIG00qA4fMxF75dRTfT33MLQow509OOIUtsT6xertRq2HsXSp49VsEO8AGnLO_G6C63sS30fnvvm2NgZftUNNMMcQyhQ8tp4m9gjQF3D6G6qO7jX5swbd_H0PmI4-v3C4ABbSZjpwNU7Y-B6iXO_NI91jCgjCT-kvLxOr8SyHaBy6xcuNAInmhMP-FlXcawxRjE2DTQVxKw.jpg
+
+{Embed}
+https://blockchainfinancial.com/exchange
+User to user Exchange Market
+Cryptocurrency based services for personal and enterprise businesses.
+https://images-ext-1.discordapp.net/external/MFid9xFF_FVOwGYkCVmn_YpvA0PgKN42TAWoAmrH8OI/https/blockchainfinancial.com/mediaserver/2018/08/admin-15170652-default_image.jpg
+
+{Embed}
+https://xult.com/trade
+Crypto Exchange | Bitcoin Exchange | Xult.com
+Xult cryptocurrency exchange - Modern and innovative exchange that offers Bitcoin and Altcoin exchanges. First exchange you can talk with thanks to Google Assistant solution.
+
+
+[09-Sep-21 09:59 AM] Exile13#4458
+"🧭 $THC UPDATE 🧭
+
+👉 The HempCoin ($THC) 2021-2022 Roadmap Has Been Updated! Roadmap Here:
+https://hempcoin.org/roadmap/
+
+🧭 Forum Post Here: https://forum.hempcoin.org/discussion/17/thc-roadmap-upd..."
+
+via @ftx_app
+
+#THC $THC
+https://blockfolio.com/coin/THC/signal/14jfoIaS8Fr
+
+{Embed}
+admin
+https://hempcoin.org/roadmap/
+RoadMap
+
+{Embed}
+https://blockfolio.com/coin/THC/signal/14jfoIaS8Fr
+The HempCoin (THC) on Blockfolio Signal
+🧭 $THC UPDATE 🧭
+
+👉 The HempCoin ($THC) 2021-2022 Roadmap Has Been Updated! Roadmap Here:
+https://hempcoin.org/roadmap/
+
+🧭 Forum Post Here: https://forum.hempcoin.org/discussion/17/thc-roadmap-update-september-2021#latest
+
+👋 To join the Community please see our channels:
+🐦 Twitter - twitter.com/thehempcoin
+💥 Discord - discord.gg/kAhpdAQ
+📬 Telegra...
+https://images-ext-1.discordapp.net/external/R1hHPlUeUsytmSYA_vW_B8llJYJMB0ntmkOJE_DE3kw/https/blockfolio.com/static/media/shareSignal.2855ebc8.png
+
+{Embed}
+https://forum.hempcoin.org/discussion/17/thc-roadmap-upd...%22
+$THC Roadmap Update September 2021
+https://ibb.co/xhkLMtB Thanks to the hard work of The HempCoin team the 2021-2022 Roadmap is now updated for the community.
+https://images-ext-2.discordapp.net/external/aa1Kr4bRb-GTy9rldPgwfMguey35PhKGoEHTg5M-AWM/https/forum.hempcoin.org/uploads/345820a8901699e0c05b2c1004cd23b6.png
+
+{Reactions}
+🍾 
+
+[29-Sep-21 02:14 PM] Exile13#4458
+https://dexplorer.io/
+
+{Embed}
+https://dexplorer.io/
+AtomicDex Explorer | Dexplorer
+atomicdex orderbooks, daily volume, market pairs & trade history & stats
+
+
+[15-Oct-21 03:45 PM] Exile13#4458
+$THC will be attending the Celebrity Health & Wellness Expo on November 6th, 2021 in Tulsa, OK.
+
+{Reactions}
+9756_AppJedi 
+
+[22-Oct-21 11:39 AM] Exile13#4458
+https://twitter.com/awallace1337/status/1451618808448249856?t=SXMLzhPtDN76httMadhH-w&s=19
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1451618808448249856?t=SXMLzhPtDN76httMadhH-w&s=19
+@TheHempCoin 
+https://t.co/zI8sKuF7BO
+
+#hemp #hempfarmers $THC #THC #thehempcoin
+https://images-ext-2.discordapp.net/external/JGGuZrJQP42S8aE3tqP1qmk3AZAe7q8AqBdVrCZOTjM/https/pbs.twimg.com/media/FCUvnGVVIAQpLfO.jpg%3Alarge
+Twitter
+
+
+[29-Oct-21 12:14 PM] Exile13#4458
+$THC will be attending & presenting at the Celebrity Health & Wellness Expo in Tulsa, OK next Friday-Saturday
+Tickets here: https://www.eventbrite.com/e/llu-celebrity-health-wellness-expo-tickets-165700409385?aff=ebdssbdestsearch
+
+{Embed}
+https://www.eventbrite.com/e/llu-celebrity-health-wellness-expo-tickets-165700409385?aff=ebdssbdestsearch
+LLU Celebrity Health & Wellness Expo
+Fun for the entire family! Live Entertainment!
+https://images-ext-2.discordapp.net/external/zcODFV7gIBI22B1C7iU-OVSLBJCeVjb3EISkey1Pxjk/%3Fw%3D1000%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C600%252C720%252C360%26s%3Ddf8ce3965971840cd77573c7f4b08756/https/img.evbuc.com/https%253A%252F%252Fcdn.evbuc.com%252Fimages%252F143294145%252F536968360977%252F1%252Foriginal.20210802-054536
+
+
+[05-Nov-21 11:52 AM] Exile13#4458
+https://twitter.com/awallace1337/status/1456695711991533570?t=56g6bWADn0SzU7mx-Na3FA&s=19
+
+{Embed}
+Exile13 (@awallace1337)
+https://twitter.com/awallace1337/status/1456695711991533570?t=56g6bWADn0SzU7mx-Na3FA&s=19
+@TheHempCoin
+https://t.co/8xKRzf4vAR
+https://images-ext-2.discordapp.net/external/-d5EF4t4Po8rSmTaEbdHEzZZJbaMz5h249y8l0jI6TY/https/pbs.twimg.com/media/FDc5BySXEAIQ_GX.jpg%3Alarge
+Twitter
+
+
+[25-Nov-21 09:57 AM] Exile13#4458
+The HempCoin ($THC) now on Blockster
+https://blockster.com/thc
+
+{Embed}
+https://blockster.com/thc
+thc
+BlockChain Solution for the Global Agriculture Trade utilizing HempTRAC for data, HempPAY for payments, and HempDEX for hemp exchange.
+https://images-ext-1.discordapp.net/external/f0ZTzZtpwEwxmJi_RP2Syh-wSpHHqgHg0indPMj1040/https/static.blockster.com/upload/photos/2021/11/9b54f579-4f3d-439f-ba4e-02dd63ec98f9.png
+
+
+[07-Jan-22 10:47 AM] Exile13#4458
+
+{Attachments}
+https://cdn.discordapp.com/attachments/574249023456804874/929083837085003866/fridaytownhall-2.png
+
+
+[07-Jan-22 10:47 AM] Exile13#4458
+https://discord.gg/dtksHt8FDV
+
+
+[13-Jan-22 08:43 AM] Exile13#4458
+https://tenor.com/view/zoey-clarke-1x01-zoeysplaylist-gingerneighbor-mind-blown-gif-23701180
+
+{Embed}
+https://tenor.com/view/zoey-clarke-1x01-zoeysplaylist-gingerneighbor-mind-blown-gif-23701180
+https://images-ext-1.discordapp.net/external/bFV3OJHuNnqYqHD5OXWippjZqoDwwgI-EjDHFP0JzEo/https/media.tenor.co/images/a79ce8440101bf61c6a48f3bab5fe164/tenor.png
+
+
+==============================================================
+Exported 222 message(s)
+==============================================================

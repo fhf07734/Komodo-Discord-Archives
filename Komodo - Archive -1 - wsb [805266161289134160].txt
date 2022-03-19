@@ -1,0 +1,5245 @@
+==============================================================
+Guild: Komodo
+Channel: Archive -1 / wsb
+Topic: https://wsbcoin.cash
+==============================================================
+
+[30-Jan-21 06:42 PM] lightspeed393#5403
+Fresh new WSB channel😃
+
+{Reactions}
+2561_feelsevilman (2) 
+
+[30-Jan-21 06:43 PM] daemonfox#6136
+YAY
+
+
+[30-Jan-21 06:44 PM] lightspeed393#5403
+return: 9d6e6a6b0692454d1c4462a6cdfde502d03e16ef0034c34810932250f89ef1ee
+
+
+[30-Jan-21 06:44 PM] daemonfox#6136
+https://twitter.com/WSBToken/status/1355700158634323969
+
+{Embed}
+Wall Street Bets Token (@WSBToken)
+https://twitter.com/WSBToken/status/1355700158634323969
+@daemonfox69 @wsbmod @KomodoPlatform Bro we got the real $WSB for #wallstreetbets and its on #TRON!
+Twitter
+
+
+[30-Jan-21 06:44 PM] daemonfox#6136
+thx
+
+
+[30-Jan-21 06:44 PM] lightspeed393#5403
+I kept a few coins for testing on this node
+
+
+[30-Jan-21 06:44 PM] lightspeed393#5403
+tell them a coin is superior to a token
+
+
+[30-Jan-21 06:47 PM] lightspeed393#5403
+https://twitter.com/lightspeed393/status/1355709066694299653
+
+{Embed}
+lightspeed393 (@lightspeed393)
+https://twitter.com/lightspeed393/status/1355709066694299653
+@WSBToken @daemonfox69 @wsbmod @KomodoPlatform we are running a full blockchain with its own token platform. We already created test tokens for $GME $AMC $NOKIA and $BB. In addition it has privacy transactions and other smart contracts.
+Twitter
+
+
+[30-Jan-21 06:58 PM] daemonfox#6136
+Hmmm... why doesn't the token call have the name or ticker of the token in the output?
+
+
+[30-Jan-21 07:01 PM] daemonfox#6136 (pinned)
+```./komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105```
+
+
+[30-Jan-21 07:01 PM] daemonfox#6136
+Pinned a message.
+
+
+[30-Jan-21 07:01 PM] daemonfox#6136
+https://lightspeed393.github.io/wallstreetbetscoin/
+
+{Embed}
+https://lightspeed393.github.io/wallstreetbetscoin/
+Welcome to WallStreetBets Coin (WSB)
+WSB coin
+
+
+[30-Jan-21 07:02 PM] daemonfox#6136
+Pinned a message.
+
+
+[30-Jan-21 07:03 PM] daemonfox#6136
+```komodo-cli.exe -ac_name=WSB tokenlist
+[
+  "bcdfe0767ec8eac0dd1e581c76c372e4785b9f43f8ca1a001b2f42d3277d7315",
+  "3c5c13fdff0da9c0577aca4fb9d711190bc51fcb2be580227dc515ee5015d92c",
+  "478d84b0e56e57053eb42bb85e9db63db604c34ad2b94466e1a3eeb28800da6e",
+  "0bfdf7e4f8dee2c0f46bfa0c0b54078f07950c4172113d2cd7db1be60ea45ad2"```
+
+
+[30-Jan-21 07:06 PM] daemonfox#6136
+```komodo-cli.exe -ac_name=WSB tokeninfo "bcdfe0767ec8eac0dd1e581c76c372e4785b9f43f8ca1a001b2f42d3277d7315"
+{
+  "result": "success",
+  "tokenid": "bcdfe0767ec8eac0dd1e581c76c372e4785b9f43f8ca1a001b2f42d3277d7315",
+  "owner": "03fdd31ae38117366392c88c1f45788ad8a9922f26dc4d49e1715c19981e69bf41",
+  "name": "tAMC",
+  "supply": 287280000,
+  "description": "AMC testing token"
+}```
+
+
+[30-Jan-21 07:07 PM] daemonfox#6136
+```komodo-cli.exe -ac_name=WSB tokeninfo "3c5c13fdff0da9c0577aca4fb9d711190bc51fcb2be580227dc515ee5015d92c"
+{
+  "result": "success",
+  "tokenid": "3c5c13fdff0da9c0577aca4fb9d711190bc51fcb2be580227dc515ee5015d92c",
+  "owner": "03fdd31ae38117366392c88c1f45788ad8a9922f26dc4d49e1715c19981e69bf41",
+  "name": "tBB",
+  "supply": 562020000,
+  "description": "BlackBerry testing token"
+}```
+
+
+[30-Jan-21 07:08 PM] daemonfox#6136
+```komodo-cli.exe -ac_name=WSB tokeninfo "478d84b0e56e57053eb42bb85e9db63db604c34ad2b94466e1a3eeb28800da6e"
+{
+  "result": "success",
+  "tokenid": "478d84b0e56e57053eb42bb85e9db63db604c34ad2b94466e1a3eeb28800da6e",
+  "owner": "03fdd31ae38117366392c88c1f45788ad8a9922f26dc4d49e1715c19981e69bf41",
+  "name": "tBB",
+  "supply": 5650000000,
+  "description": "Nokia testing token"
+}```
+
+
+[30-Jan-21 07:08 PM] daemonfox#6136
+```komodo-cli.exe -ac_name=WSB tokeninfo "0bfdf7e4f8dee2c0f46bfa0c0b54078f07950c4172113d2cd7db1be60ea45ad2"
+{
+  "result": "success",
+  "tokenid": "0bfdf7e4f8dee2c0f46bfa0c0b54078f07950c4172113d2cd7db1be60ea45ad2",
+  "owner": "03fdd31ae38117366392c88c1f45788ad8a9922f26dc4d49e1715c19981e69bf41",
+  "name": "tGME",
+  "supply": 69750000,
+  "description": "GME testing token"
+}```
+
+
+[30-Jan-21 07:10 PM] lightspeed393#5403
+what do you mean exactly?
+
+
+[30-Jan-21 07:10 PM] daemonfox#6136
+In the list orders
+
+
+[30-Jan-21 07:11 PM] daemonfox#6136
+```komodo-cli.exe -ac_name=WSB tokenorders 0bfdf7e4f8dee2c0f46bfa0c0b54078f07950c4172113d2cd7db1be60ea45ad2
+[
+  {
+    "funcid": "s",
+    "txid": "ccfbaae12d5f9863cafdce4daa2a1482f2ed28c1ab294bc2fc93a4ccc50fdaf1",
+    "vout": 0,
+    "amount": "3000000",
+    "askamount": "3000000",
+    "origaddress": "RXZnZeY79BFP4TvuovrBNZYhoMpkoDwX5Z",
+    "origtokenaddress": "RCfKo2Z1Mk3q81z66eLKfdKeBfSDbv4mcU",
+    "tokenid": "0bfdf7e4f8dee2c0f46bfa0c0b54078f07950c4172113d2cd7db1be60ea45ad2",
+    "totalrequired": "9000000.00000000",
+    "price": "3.00000000"
+  }
+]```
+
+
+[30-Jan-21 07:11 PM] daemonfox#6136
+means ppl who arent already versed have to figure out to call tokeninfo to ensure they pick the right toeknid
+
+
+[30-Jan-21 07:12 PM] daemonfox#6136
+Hence why I pasted the above for all 4
+
+
+[30-Jan-21 07:21 PM] lightspeed393#5403
+yea I gotcha
+
+
+[30-Jan-21 07:25 PM] daemonfox#6136
+Looks like you left tBB in the NOK command
+
+
+[30-Jan-21 07:25 PM] daemonfox#6136
+Both are named tBB
+
+
+[30-Jan-21 07:25 PM] lightspeed393#5403
+yup definitely messed that up
+
+
+[30-Jan-21 07:26 PM] lightspeed393#5403
+that's why the list goes by txid and not name, because multiple tokens can have the same name
+
+
+[30-Jan-21 07:41 PM] carl#3101
+Is there a wsb twitter already? That Tron wsb token has one
+
+
+[30-Jan-21 07:49 PM] lightspeed393#5403
+no but someone should make one
+
+
+[30-Jan-21 07:49 PM] ejuliano#8606
+do you want one?
+
+
+[30-Jan-21 07:49 PM] ejuliano#8606
+ok
+
+
+[30-Jan-21 07:49 PM] ejuliano#8606
+put the graphics here
+
+
+[30-Jan-21 07:49 PM] ejuliano#8606
+i will make an email from google and from protonmail
+
+
+[30-Jan-21 07:49 PM] ejuliano#8606
+and a twitter
+
+
+[30-Jan-21 07:49 PM] lightspeed393#5403
+try to get something with WSB coin or blockchain
+
+
+[30-Jan-21 07:49 PM] ejuliano#8606
+unless you have other suggestions for where to get email
+
+
+[30-Jan-21 07:49 PM] lightspeed393#5403
+protonmail is always good
+
+
+[30-Jan-21 08:17 PM] lightspeed393#5403
+you can delete this, I changed the name and it broke the link
+
+
+[30-Jan-21 08:17 PM] lightspeed393#5403 (pinned)
+https://lightspeed393.github.io/WallStreetBetsCoin/
+
+{Embed}
+https://lightspeed393.github.io/WallStreetBetsCoin/
+WallStreetBets Coin (WSB)
+The WallStreetBets Coin webpage.
+
+
+[30-Jan-21 08:18 PM] daemonfox#6136
+Pinned a message.
+
+
+[30-Jan-21 08:20 PM] lightspeed393#5403
+If someone has the logo, I can add it to the page
+
+
+[30-Jan-21 08:21 PM] ejuliano#8606
+yes post the graphics here
+
+
+[30-Jan-21 08:21 PM] ejuliano#8606
+i made the gmail protonmail and twitter pages
+
+
+[30-Jan-21 08:22 PM] ejuliano#8606
+need a profile pic
+
+
+[30-Jan-21 08:24 PM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/805292306324389919/E_221_pU_400x400.png
+
+
+[30-Jan-21 08:24 PM] daemonfox#6136
+Is their twitter icon
+
+
+[30-Jan-21 08:24 PM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/805292465858674698/unknown.png
+
+
+[30-Jan-21 08:24 PM] daemonfox#6136
+and what aDEX used
+
+
+[30-Jan-21 08:26 PM] lightspeed393#5403
+thanks @daemonfox
+
+
+[30-Jan-21 08:48 PM] lightspeed393#5403
+WSB gets moved to the bottom of discord and no one cares anymore hah
+
+
+[30-Jan-21 08:49 PM] ejuliano#8606
+lol
+
+
+[30-Jan-21 08:55 PM] Komodefi#5638
+I'm going into reddit with some links. how many competing wsb coins are there so far?
+
+
+[30-Jan-21 08:56 PM] lightspeed393#5403
+I only know about the tron WSB token
+
+
+[30-Jan-21 08:59 PM] Komodefi#5638
+nice job dude. so you probably made the first wsb blockchain.
+
+
+[30-Jan-21 09:00 PM] ejuliano#8606
+https://twitter.com/CoinWsb
+
+{Embed}
+https://twitter.com/CoinWsb
+WSB Coin (@CoinWsb)
+WSB independent blockchain spawned from Komodo Platform
+https://images-ext-1.discordapp.net/external/iRltDcEKzfqeU6q_Yo9voiEV6RP2qwqeHSiSZoHz7pM/https/pbs.twimg.com/profile_images/1355739144182505473/FsD7EBLK_normal.png
+Twitter
+
+
+[30-Jan-21 09:00 PM] ejuliano#8606
+there
+
+
+[30-Jan-21 09:00 PM] lightspeed393#5403
+nice! I'll add to the webpage
+
+
+[30-Jan-21 09:03 PM] grewalsatinder#9653
+wsb.fun is available
+
+
+[30-Jan-21 09:03 PM] grewalsatinder#9653
+want it?
+
+
+[30-Jan-21 09:04 PM] grewalsatinder#9653
+wsbcoin is better
+
+
+[30-Jan-21 09:04 PM] Komodefi#5638
+so it's been airdropped? can people claim in adex app?
+
+
+[30-Jan-21 09:04 PM] grewalsatinder#9653
+I can get that if you like
+
+
+[30-Jan-21 09:06 PM] lightspeed393#5403
+I'm cool with whatever @grewalsatinder but if people want it to be serious wsbcoin might be better than wsb.fun
+
+
+[30-Jan-21 09:06 PM] lightspeed393#5403
+yes, a new atomicdex was released today that includes it
+
+
+[30-Jan-21 09:06 PM] grewalsatinder#9653
+@lightspeed393 bought this domain instead
+
+
+[30-Jan-21 09:06 PM] grewalsatinder#9653
+it was only $5+
+
+
+[30-Jan-21 09:06 PM] grewalsatinder#9653
+wsbcoin.cash
+
+
+[30-Jan-21 09:06 PM] grewalsatinder#9653
+I can setup your DNS server IPs if you like and manage it all as you wish
+
+
+[30-Jan-21 09:08 PM] Komodefi#5638
+you may have just almost single handedly executed the most genius marketing move in recent kmd history.
+
+
+[30-Jan-21 09:10 PM] grewalsatinder#9653
+@Komodefi me? if so, thanks.
+but it wasn't indeed me alone.
+some other tech members of community made it happen,
+and of course the rest of the community who are as enthusiasts of blockchan and komodo tech as I am of it 🙂
+
+
+[30-Jan-21 09:11 PM] Komodefi#5638
+whats ratio for the airdrop?
+
+
+[30-Jan-21 09:12 PM] ejuliano#8606
+100:1
+
+
+[30-Jan-21 09:12 PM] Komodefi#5638
+when was the snapshot?
+
+
+[30-Jan-21 09:12 PM] ejuliano#8606
+@CHMEX originated it
+
+
+[30-Jan-21 09:14 PM] lightspeed393#5403
+yes, block # of the snapshot would be a good thing to add to the Komodo Airdrop section on the site
+
+
+[30-Jan-21 09:15 PM] lightspeed393#5403
+whatever is easiest for you. You can just point it to the github if you'd like and I can add a cname
+
+
+[30-Jan-21 09:21 PM] grewalsatinder#9653
+@lightspeed393 is it possible for you to setup cloudflaire DNS for it?
+
+
+[30-Jan-21 09:21 PM] Komodefi#5638
+you guys care if I post about it on reddit?
+
+
+[30-Jan-21 09:21 PM] grewalsatinder#9653
+I'll point my DNS to cloudflaire DNS names
+
+
+[30-Jan-21 09:21 PM] grewalsatinder#9653
+you manage it's domain/subdomain as you wish
+
+
+[30-Jan-21 09:21 PM] grewalsatinder#9653
+@Komodefi plz wait till all the domains setup is complete
+
+
+[30-Jan-21 09:21 PM] Komodefi#5638
+got it
+
+
+[30-Jan-21 09:21 PM] grewalsatinder#9653
+and github pages website is linked to the domain
+
+
+[30-Jan-21 09:25 PM] ejuliano#8606
+https://twitter.com/CoinWsb/status/1355748985382830081?s=20
+
+{Embed}
+WSB Coin (@CoinWsb)
+https://twitter.com/CoinWsb/status/1355748985382830081?s=20
+@wsbmod @WSBChairman @wallstreetbets @wallstmemes  @WSBgod @cryptosdrama @russian_market  
+WSB Coin is an independent chain spawned using @KomodoPlatform technology:
+https://images-ext-1.discordapp.net/external/UN9uWFhVKN4wP0oR1dxANhFYMWrXKo0uD_QcnSLxkLU/https/pbs.twimg.com/media/EtCWSVWXMAUH0ZG.jpg%3Alarge
+Twitter
+
+{Embed}
+https://twitter.com/CoinWsb/status/1355748985382830081?s=20
+https://images-ext-1.discordapp.net/external/WoWejzEBxgIOSZRrQZjT6Klj6C53tSVlFS_StDP3HJ4/https/pbs.twimg.com/media/EtCWUdlW4AAHHzh.jpg%3Alarge
+
+
+[30-Jan-21 09:53 PM] grewalsatinder#9653
+https://twitter.com/satindergrewal/status/1355755977073545216?s=20
+
+{Embed}
+Satinder Grewal (@satindergrewal)
+https://twitter.com/satindergrewal/status/1355755977073545216?s=20
+Yes, and for stock companies to issue their stocks on blockchain tech, with @KomodoPlatform they have smart tools such as Oracles, Prices, Gateways, Pegs, to set these up for their own independent blockchains, all permission-less, managed by cryptography and mathematics! https://t.co/1MNd29dSzj
+Twitter
+
+
+[30-Jan-21 10:08 PM] lightspeed393#5403
+https://wsbcoin.cash/
+
+{Embed}
+https://wsbcoin.cash/
+WallStreetBets Coin (WSB)
+The WallStreetBets Coin webpage.
+
+
+[30-Jan-21 10:08 PM] lightspeed393#5403
+@ejuliano you can update the twitter to this url
+
+
+[30-Jan-21 10:08 PM] lightspeed393#5403
+@Komodefi you can share on reddit now if you'd like
+
+
+[30-Jan-21 10:09 PM] lightspeed393#5403
+thank you @grewalsatinder for the domain name
+
+
+[30-Jan-21 10:13 PM] ejuliano#8606
+site can't be reached @lightspeed393
+
+
+[30-Jan-21 10:14 PM] lightspeed393#5403
+oh okay hold off a bit then for DNS to propagate. It's working for me, so shouldn't take too long to bounce around the world
+
+
+[30-Jan-21 10:14 PM] ejuliano#8606
+someone have doge can make the atomic swap for the wsb?
+
+
+[30-Jan-21 10:15 PM] ejuliano#8606
+i'm going to get some sleep
+
+
+[30-Jan-21 10:24 PM] grewalsatinder#9653
+no problem mate. glad it's sorted. and it's easy to remember name 🙂
+
+
+[30-Jan-21 10:24 PM] grewalsatinder#9653
+nice idea 😉
+
+
+[30-Jan-21 11:17 PM] Crabby Paddy#6239
+Any plans how to handle this
+
+
+[30-Jan-21 11:17 PM] Crabby Paddy#6239
+If somehow
+
+
+[30-Jan-21 11:17 PM] Crabby Paddy#6239
+Wsb mods take notice and want to partake?
+
+
+[30-Jan-21 11:17 PM] Crabby Paddy#6239
+Any treasury fund for them or spare tokens around?
+
+
+[30-Jan-21 11:17 PM] Crabby Paddy#6239
+I’m gonna airdrop around 50% of my tokens out to multiple communities soon
+
+
+[30-Jan-21 11:18 PM] Crabby Paddy#6239
+At worst, we get a few extra atomicdex downloads :3040_kingpeepo:
+
+
+[30-Jan-21 11:19 PM] Crabby Paddy#6239
+*****
+4chan/biz threads on this coin would do wonders
+
+{Reactions}
+2561_feelsevilman 
+
+[30-Jan-21 11:23 PM] lightspeed393#5403
+I think chmex has more premine funds but I'm not sure.
+
+
+[30-Jan-21 11:24 PM] Crabby Paddy#6239
+https://boards.4channel.org/biz/thread/27223798
+
+{Embed}
+https://boards.4channel.org/biz/thread/27223798
+/biz/ - WSB COIN - Business & Finance - 4chan
+WSB COIN - "/biz/ - Business & Finance" is 4chan's imageboard for the discussion of business and finance, and cryptocurrencies such as Bitcoin and Dogecoin.
+
+
+[30-Jan-21 11:24 PM] Crabby Paddy#6239
+Make your own threads and piggyback
+
+
+[30-Jan-21 11:24 PM] Crabby Paddy#6239
+:3040_kingpeepo:
+
+
+[31-Jan-21 12:03 AM] Crabby Paddy#6239
+Can we get a few airdropped to
+
+RUE8jFUDgqZJrUHpvP97fghDNatqmNJ7UN
+
+RD6TayBUqEoBWchog9g1XtQiQeSJwxhr9u
+
+RW1vHAMRqJ19Vm1Rn6qeFtBGzbJHzSHabM
+
+RL2ouMSeMN9xiRiExLyZn9eizuVxD9kLEk
+
+RHFtWbJ98EhZzQg24cKJNrAdHc1n57KZpf
+
+RUE8jFUDgqZJrUHpvP97fghDNatqmNJ7UN
+
+RJs7kQBBQsdSu7dvFohCdojn45fTZKXUXS
+
+RWEAEEBpRzKhCXzwGDR47TE5rkgR9zZyyG
+
+Mine are all locked up on my ledger :abusedsmily:
+
+
+[31-Jan-21 12:04 AM] Crabby Paddy#6239
+Or if possible I’ll download atomicdex now and send my address
+
+
+[31-Jan-21 06:08 AM] ejuliano#8606
+so... this wsb coin is 90 billion premine with 1 wsb block reward?  i wonder if we memed too hard?
+
+{Reactions}
+😮 
+
+[31-Jan-21 06:08 AM] daemonfox#6136
+it was airdropped
+
+
+[31-Jan-21 06:08 AM] ejuliano#8606
+it was a euphoric meme frenzy
+
+
+[31-Jan-21 06:08 AM] daemonfox#6136
+so...
+
+
+[31-Jan-21 06:11 AM] ejuliano#8606
+yes it's great... just for the feeling of opening up atomicdex 0.4 and seeing that you got tens of thousands of wsb coins.  It's already making a difference from the buzz it generated
+
+
+[31-Jan-21 06:12 AM] ejuliano#8606
+and it's not even monday yet
+
+
+[31-Jan-21 06:20 AM] grewalsatinder#9653
+90 billion? that's huge sum of supply 😅
+
+
+[31-Jan-21 07:11 AM] CHMEX#0686
+Yes its enough to airdrop other coins and / or burn it
+
+
+[31-Jan-21 08:20 AM] Monkins#5278
+I setup a pool using miningcore keep getting "job not found" oh well
+
+
+[31-Jan-21 08:32 AM] lightspeed393#5403
+use knomp, it will work
+
+
+[31-Jan-21 09:35 AM] ejuliano#8606
+https://twitter.com/CoinWsb/status/1355931437569028112?s=20
+
+{Embed}
+WSB Coin (@CoinWsb)
+https://twitter.com/CoinWsb/status/1355931437569028112?s=20
+Listen to @0xca333 describe it:  anyone can use @KomodoPlatform to build
+100% trustless decentralized & permissionless https://t.co/UGKwHiXtBH
+https://images-ext-1.discordapp.net/external/R_2Se3WI1dIONu0Qf1W6U59_JxdGPw4N4O1X4ovn-lM/https/pbs.twimg.com/ext_tw_video_thumb/1355929694215016449/pu/img/xG-mvbDtjWNj8-nO.jpg
+Twitter
+
+
+[31-Jan-21 09:37 AM] lightspeed393#5403 (pinned)
+@carl could you please add https://wsbcoin.cash to the channel description please?
+
+{Embed}
+https://wsbcoin.cash/
+WallStreetBets Coin (WSB)
+The WallStreetBets Coin webpage.
+
+{Reactions}
+👍 (2) 
+
+[31-Jan-21 11:24 AM] Cryptoon#3362
+Pinned a message.
+
+
+[31-Jan-21 03:58 PM] Crabby Paddy#6239
+Now if someone devs something for fun on this like a dice game or coin toss gambling
+
+
+[31-Jan-21 03:58 PM] Crabby Paddy#6239
+:3040_suspepe:
+
+
+[31-Jan-21 04:48 PM] ejuliano#8606
+i was thinking some NFT's?
+
+
+[31-Jan-21 04:48 PM] ejuliano#8606
+i have no dev skill
+
+
+[31-Jan-21 05:23 PM] carl#3101
+Is there a way to airdrop to members of r/wallstreetbets? That would be awesome
+
+
+[31-Jan-21 05:40 PM] ejuliano#8606
+that's my biggest hope
+
+
+[31-Jan-21 05:41 PM] ejuliano#8606
+it would be the best awareness for komodo and atomicdex especially
+
+
+[31-Jan-21 05:41 PM] ejuliano#8606
+plus they could take it on as a community thing, that would be ideal
+
+
+[31-Jan-21 08:00 PM] xoso#1057
+when on uniswap exchange?
+
+
+[31-Jan-21 09:01 PM] NaN#6925
+God damn I fell for it. Started mining straight away thought I was going to get one coin at least well played
+
+
+[31-Jan-21 09:11 PM] NaN#6925
+How did you get on coinmarketcap?
+
+
+[31-Jan-21 09:17 PM] NaN#6925
+Anyway if anybody has some spare coins, I'd like some to brag to my friends
+
+
+[31-Jan-21 09:17 PM] NaN#6925
+RNvBvKqpQJ45wMojfMFqpjNBeNg6oqM7nF
+
+
+[31-Jan-21 09:41 PM] ejuliano#8606
+@NaN you came to the right place
+
+
+[31-Jan-21 09:43 PM] ejuliano#8606
+Sent you some WSB to your address
+
+
+[31-Jan-21 09:43 PM] ejuliano#8606
+tell your friends, they can come get some too
+
+
+[31-Jan-21 09:44 PM] ejuliano#8606
+in fact, if you're active in the wallstreetbets community, tell them to come get some WSB coin and I will send you some more
+
+
+[31-Jan-21 09:48 PM] NaN#6925
+Aight thx mate I'll tell my friends, and no not active on reddit, just came from my friends who rave on about crypto all day and wanted to check a bit, they told me about enjin and stuff. What do you think about the crypto domains. Any speculations
+
+
+[31-Jan-21 09:56 PM] ejuliano#8606
+stick around komodo community for continued fun & gains
+
+
+[31-Jan-21 10:17 PM] NaN#6925
+Will do, tried to post a screenshot of me mining 10000 wsb to reddit but it won't let me, not enough karma
+
+
+[31-Jan-21 10:33 PM] daemonfox#6136
+@here anyone see this?
+
+
+[31-Jan-21 10:33 PM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/805687178909974568/unknown.png
+
+
+[31-Jan-21 10:35 PM] daemonfox#6136
+Bought for 22 sats each
+
+
+[31-Jan-21 11:23 PM] lightspeed393#5403
+is that another WSB or this one?
+
+
+[31-Jan-21 11:24 PM] daemonfox#6136
+This one
+
+
+[31-Jan-21 11:24 PM] daemonfox#6136
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/805700156208840704/unknown.png
+
+
+[01-Feb-21 12:19 AM] Crabby Paddy#6239
+Share it on reddit guys
+
+
+[01-Feb-21 12:19 AM] Crabby Paddy#6239
+or bitcointalk
+
+
+[01-Feb-21 12:20 AM] Crabby Paddy#6239
+twitter - free airdrop + bonus for screenshot of atomicdex
+
+
+[01-Feb-21 12:20 AM] Crabby Paddy#6239
+Ive given to around 60 addresses so far, which presumably means 60 new people have downloaded atomicdex
+
+
+[01-Feb-21 12:20 AM] Crabby Paddy#6239
+:abusedsmily:  If anyone is running low, more than happy to send a few over
+
+
+[01-Feb-21 12:20 AM] Crabby Paddy#6239
+so long as theyre used for airdrops
+
+
+[01-Feb-21 12:26 AM] cipi#4502
+seems the chain is stuck: https://wsb.explorer.dexstats.info
+the electrums are on the same height
+
+{Reactions}
+5684_Peepo_Goteem 
+
+[01-Feb-21 12:35 AM] umitkara48#6464
+are we waiting for mobile wallet update for wsb?
+
+
+[01-Feb-21 12:40 AM] cipi#4502
+added to my personal mining pool... will try to unstuck... guess some very special specialists have thrown nicehash at the chain or something
+
+
+[01-Feb-21 12:42 AM] cipi#4502
+ok, works again... 2 new blocks after 7 hours of nothing...
+
+
+[01-Feb-21 12:43 AM] cipi#4502
+but wasn't me, not fast enough... thanks to whoever did it 🙂
+
+
+[01-Feb-21 12:44 AM] cipi#4502
+now i got a block... will leave it mining though for a while
+
+
+[01-Feb-21 01:15 AM] Alright#0419
+what site is this?
+
+
+[01-Feb-21 01:15 AM] daemonfox#6136
+Its not...
+
+
+[01-Feb-21 01:16 AM] Alright#0419
+what is the screenshot of?
+
+
+[01-Feb-21 01:16 AM] daemonfox#6136
+aDEX
+
+
+[01-Feb-21 01:17 AM] Alright#0419
+what?
+
+
+[01-Feb-21 01:17 AM] daemonfox#6136
+fixed
+
+
+[01-Feb-21 02:05 AM] Xaceo#5623
+Hello. How can i add wsb token to atomic dex wallet? Can't see it there .
+
+
+[01-Feb-21 02:21 AM] gcharang#6833
+you need to use the latest version available here: https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.3.1.2-beta
+
+{Embed}
+https://github.com/KomodoPlatform/atomicDEX-Desktop/releases/tag/0.3.1.2-beta
+Release AtomicDEX Desktop v0.3.1.2 beta · KomodoPlatform/atomicDEX-...
+add meme tokens WSB and SouljaCoin - WSB and SouljaCoin are fan projects and tokens without any value.
+Virustotal:
+windows installer
+macOS
+ubuntu-AppImage
+ubuntu
+windows
+https://images-ext-1.discordapp.net/external/22LglkYqJGgf5n05qZ_ycizyn0hhH24aNCqZC6jt6CI/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/21276113
+
+
+[01-Feb-21 02:23 AM] Xaceo#5623
+Is it working only on desktop wallet? I have the mobile one.
+
+
+[01-Feb-21 02:25 AM] gcharang#6833
+yes, added to only desktop for now
+
+
+[01-Feb-21 02:25 AM] Xaceo#5623
+Thank you
+
+
+[01-Feb-21 03:00 AM] umitkara48#6464
+when mobile ?
+
+
+[01-Feb-21 03:53 AM] Drobk#1344
+are we still doing WSB airdrop ?
+
+
+[01-Feb-21 03:53 AM] Drobk#1344
+RXTkVuZ6SVuizxFvZPtsybh8QXVKyKwnhh
+
+
+[01-Feb-21 03:53 AM] ejuliano#8606
+technically it is a coin not a token, but you can make tokens using wsb chain
+
+
+[01-Feb-21 03:59 AM] ejuliano#8606
+sent, check your address
+
+
+[01-Feb-21 04:00 AM] Drobk#1344
+got it legend
+
+
+[01-Feb-21 04:00 AM] ejuliano#8606
+good spread the word
+
+{Reactions}
+KMD (2) 👍 (2) 
+
+[01-Feb-21 07:19 AM] Monkins#5278
+RNSTzgzDL5yg4vv42gnwUTdwAxxhMfD9t6 any coins going 🙂 I've spread the word to a few communities
+
+
+[01-Feb-21 08:32 AM] ejuliano#8606
+do you want them for yourself or to distribute to them?
+
+
+[01-Feb-21 08:52 AM] Monkins#5278
+I can distrubute to this community:  we have a pool being made: https://www.youtube.com/channel/UCe-HvJnTz6qUkxrYvJXofFA  https://discord.gg/VVpGs27W
+
+{Embed}
+https://www.youtube.com/channel/UCe-HvJnTz6qUkxrYvJXofFA
+Crypto Cartography
+Join our Crypto Research Community: https://discord.gg/dEbktgxZbH
+Mapping Crypto Research Calls and Valuations
+
+To support my channel, you can donate ETH, DAI, sUSD, or any Ethereum-based assets to:  mrcartographer.eth or 0x066D4d13c5Bc10E14e30E862471772Aa7D23B4f1
+
+While I love you, cryptocurrency investing / trading is risky. Please be careful ...
+https://images-ext-2.discordapp.net/external/WFZ-TPXRmPt2GTUOzOT82ooVJQnN41YEQRomVhIxRho/https/yt3.ggpht.com/ytc/AAUvwnim4ep0S9ef6a8iRvfRvz6KHkor3BtLsv6g_qbR%3Ds900-c-k-c0x00ffffff-no-rj
+
+
+[01-Feb-21 08:53 AM] Monkins#5278
+They are very much into ETH... But educating them on Atomixdex etc
+
+
+[01-Feb-21 09:34 AM] ejuliano#8606
+@CHMEX
+
+
+[01-Feb-21 09:34 AM] ejuliano#8606
+please send @Monkins enough for him to share as above
+
+{Reactions}
+👍 
+
+[01-Feb-21 10:22 AM] CHMEX#0686
+@Monkins sent
+
+{Reactions}
+👍 
+
+[01-Feb-21 11:24 AM] C_Retarded#6262
+can i get some WSB pls? thanks
+
+
+[01-Feb-21 11:24 AM] C_Retarded#6262
+RQzvQSi5roGAkMqXtJ5Yytkj9QGK3rskeV
+
+
+[01-Feb-21 11:29 AM] CHMEX#0686
+@ejuliano https://www.atomicexplorer.com/#/faucet/wsb
+faucet is online
+Thank you @pbca26
+
+{Embed}
+https://www.atomicexplorer.com/
+Atomic Explorer
+Atomic Explorer
+
+{Reactions}
+👍 (2) 
+
+[01-Feb-21 11:44 AM] CHMEX#0686
+@lightspeed393 acn you add a link to the website? https://www.atomicexplorer.com/#/faucet/wsb
+
+
+[01-Feb-21 11:47 AM] daemonfox#6136
+Is there a token explorer up yet
+
+
+[01-Feb-21 12:01 PM] pbca26#5430
+only a very limited one http://www.atomicexplorer.com:10026/#/tokens
+@daemonfox
+
+
+[01-Feb-21 12:04 PM] CHMEX#0686
+@NutellaLicka ^ intressting
+
+{Reactions}
+👍 
+
+[01-Feb-21 12:44 PM] daemonfox#6136
+The thing we are missing that these other pretend token chains are doing is ease of access to token creation, monitoring and exchange via a webportal, or dAPP in aDEX in our case
+
+
+[01-Feb-21 12:51 PM] ejuliano#8606
+https://twitter.com/CoinWsb/status/1356344009690591232?s=20
+
+{Embed}
+WSB Coin (@CoinWsb)
+https://twitter.com/CoinWsb/status/1356344009690591232?s=20
+@WSBChairman ...and thus a faucet for WSB coin emerges:
+
+https://t.co/PiHVz1kptl
+https://images-ext-1.discordapp.net/external/cE9-1iXVOH7zj0iMHhktZlt6kYHXEuhZkxcSHRFdnVA/https/pbs.twimg.com/media/EtKzo7pXMAkePVD.jpg%3Alarge
+Twitter
+
+
+[01-Feb-21 12:53 PM] grewalsatinder#9653
+It is possible to have a uniswap listing. But it means a centralised bridge at the moment
+
+
+[01-Feb-21 12:54 PM] grewalsatinder#9653
+Someone has to make ERC20 of same supply, have that erc20 listed on AtomicDEX, make it 1:1 tradable to WSB coin, make a pool on Uniswap exchange and that’s how it listed there
+
+
+[01-Feb-21 12:56 PM] grewalsatinder#9653
+But the potential risk is to the party who 
+- makes this ERC20 token 
+- a person/market maker who sells these ERC20 tokes for smart chain tokens at 1:1 price on AtomicDEX
+
+
+[01-Feb-21 12:56 PM] grewalsatinder#9653
+could possibly be dragged to legal issues
+
+
+[01-Feb-21 12:57 PM] grewalsatinder#9653
+If someone want to do it, I can keep explaining and guiding what little I know and can help
+
+
+[01-Feb-21 01:02 PM] ejuliano#8606
+haha we can put it onto Verus as part of a multi-reserve currency with doge and vrsc and let it find some interest that way
+
+
+[01-Feb-21 01:02 PM] ejuliano#8606
+that is far from now though
+
+
+[01-Feb-21 01:19 PM] NutellaLicka#4241
+@pbca26 who runs that website?
+
+
+[01-Feb-21 01:25 PM] pbca26#5430
+i do @NutellaLicka 
+dimxy is working on on tokens cc support for browsers
+so it's only some months away form having a poc web app
+now suppose cc enabled on kmd main chain you'd be able to buy/sell tokens directly for kmd
+
+
+[01-Feb-21 01:31 PM] NutellaLicka#4241
+It is funny you mention this. I can now publicly disclose a project that I have been working on in the background for a little awhile now, Tokel. Tokel intends to fill this KMD ecosystem capability gap. We will be using existing KMD technologies to offer a Token Platform within the Komodo ecosystem. We are developing an application that will focus on token creation/management and trading (fixed supply and Non-fungible tokens). This will include an in-built tokenDEX and token NFT marketplace. We have the technical support of JL and are being assisted by dimxy in the CC development/testing area at the moment. We have also acquired enough funding to keep the project moving along steadily.
+
+If you'd like to learn more, please head over to our discord https://discord.gg/DZvuAR6QzX
+
+{Reactions}
+💯 (5) 👍 (5) KMD (6) labs (5) 
+
+[01-Feb-21 01:33 PM] NutellaLicka#4241
+@pbca26 I would love it if you would assist us with our token explorer development. We were currently looking at an insight upgrade to incorporate tokens, but it looks as though you may have already done this.
+
+All of our development efforts will be open sourced and available for other KMD ecosystem projects to use.
+
+
+[01-Feb-21 01:46 PM] pbca26#5430
+i was actually going to work on insight token support this month
+after helping marmara team i have good grasp of insight internals
+there's also a token wallet app that you probably saw under kp github profile (courtesy of ca333 and naezith)
+it's native only for now but works pretty well and has full tokens rpc support including onchain trading
+
+{Reactions}
+👍 (2) 
+
+[01-Feb-21 01:48 PM] pbca26#5430
+i'm about to add final touches before making a test build
+
+
+[01-Feb-21 01:51 PM] NutellaLicka#4241
+I'd love to keep discussing this, should we do it in the dev channel or in the Tokel discord?
+
+
+[01-Feb-21 10:13 PM] umitkara48#6464
+price ?
+
+
+[01-Feb-21 10:17 PM] Komodefi#5638
+its free
+
+
+[01-Feb-21 10:18 PM] umitkara48#6464
+future ?
+
+
+[02-Feb-21 05:39 AM] ejuliano#8606
+none
+
+
+[02-Feb-21 05:40 AM] ejuliano#8606
+just kidding
+
+
+[02-Feb-21 05:40 AM] ejuliano#8606
+the future is probably limited
+
+
+[02-Feb-21 05:40 AM] ejuliano#8606
+"play" crypto for children
+
+
+[02-Feb-21 05:41 AM] ejuliano#8606
+so... it will be useful
+
+
+[02-Feb-21 05:41 AM] ejuliano#8606
+https://twitter.com/CoinWsb/status/1356597274466484225?s=20
+
+{Embed}
+WSB Coin (@CoinWsb)
+https://twitter.com/CoinWsb/status/1356597274466484225?s=20
+Use this faucet to receive some $WSB memecoin that will never be worth 1:1 with $DOGE
+
+But you could still give it to your grandkids to play with
+
+...if anyone's still even mining it by then
+
+https://t.co/PiHVz1kptl
+https://images-ext-2.discordapp.net/external/xRJiXuzUwzXueZcBqnbN2-b3O4YffsbO6e-ecM86lF8/https/pbs.twimg.com/media/EtOZ_e8XcAE-_rV.jpg%3Alarge
+Twitter
+
+{Reactions}
+🚀 (2) 
+
+[02-Feb-21 08:54 AM] Monkins#5278
+https://drive.google.com/file/d/1j2pb-_dSPnxeDtSmVDmjvf6sZqPd5nto/view?usp=sharing
+
+{Embed}
+https://drive.google.com/file/d/1j2pb-_dSPnxeDtSmVDmjvf6sZqPd5nto/view?usp=sharing
+wsb.JPG
+https://images-ext-2.discordapp.net/external/L12fKfPYCcz-6gOWfLCLva8Fnb5mBPNofASxwk1Gwks/https/lh4.googleusercontent.com/g7dcHnhOMHVt-Bz3DYWOYofzraqU2xmJ_o91F-k4ltOKr89Swq6VeEE5e0_sFRQ%3Dw1200-h630-p
+
+
+[02-Feb-21 08:55 AM] Monkins#5278
+WSB in the Verus wallet lol
+
+{Reactions}
+👍 
+
+[02-Feb-21 12:11 PM] lightspeed393#5403
+done sorry for the delay
+
+{Reactions}
+👍 
+
+[02-Feb-21 05:41 PM] Crabby Paddy#6239
+Lots of interest in reddit airdrop so far 🥲
+
+
+[02-Feb-21 05:41 PM] Crabby Paddy#6239
+Best thing is the only way anyone is able to claim them is to download atomicdex
+
+{Reactions}
+💯 
+
+[02-Feb-21 07:49 PM] ejuliano#8606
+that's the primary idea/purpose
+
+
+[02-Feb-21 07:49 PM] ejuliano#8606
+glad to know there is actually some interest
+
+
+[02-Feb-21 07:49 PM] ejuliano#8606
+@Crabby Paddy
+
+
+[02-Feb-21 07:50 PM] ejuliano#8606
+can you give a bit more details - report back?
+
+
+[02-Feb-21 07:50 PM] ejuliano#8606
+did you see the faucet too?
+
+
+[02-Feb-21 07:50 PM] ejuliano#8606
+and share with them?
+
+
+[02-Feb-21 07:50 PM] Crabby Paddy#6239
+No haven’t seen faucet. A few people can’t see coins in adex even though they show on the explorer
+
+
+[02-Feb-21 07:50 PM] Crabby Paddy#6239
+I presume due to the chain stalling before
+
+
+[02-Feb-21 07:50 PM] ejuliano#8606
+https://www.atomicexplorer.com/#/faucet/wsb
+
+{Embed}
+https://www.atomicexplorer.com/
+Atomic Explorer
+Atomic Explorer
+
+
+[02-Feb-21 07:50 PM] Crabby Paddy#6239
+Someone’s been handing out dp coins as well to everyone, not sure if that’s digital price or something else
+
+
+[02-Feb-21 07:51 PM] Crabby Paddy#6239
+Not a bad idea though piggybacking. I can imagine a future where posting your kmd address up means getting airdropped multiple tokens
+
+
+[02-Feb-21 07:51 PM] Crabby Paddy#6239
+:3040_suspepe:
+
+
+[02-Feb-21 07:51 PM] ejuliano#8606
+tell them to access the faucet
+
+
+[02-Feb-21 07:52 PM] Crabby Paddy#6239
+We need some games tbh
+
+
+[02-Feb-21 07:52 PM] Crabby Paddy#6239
+Simple dice gamble game
+
+
+[02-Feb-21 07:52 PM] Crabby Paddy#6239
+Or coin toss
+
+
+[02-Feb-21 07:52 PM] Crabby Paddy#6239
+To give some usage of the token
+
+
+[02-Feb-21 07:52 PM] Crabby Paddy#6239
+Where people want to faucet or trade it
+
+
+[02-Feb-21 07:53 PM] Crabby Paddy#6239
+I would totally play roulette cc
+
+
+[02-Feb-21 07:53 PM] Crabby Paddy#6239
+:shexy:
+
+
+[02-Feb-21 07:54 PM] Crabby Paddy#6239
+White label casino :shexy:
+
+
+[02-Feb-21 07:54 PM] ejuliano#8606
+did you check the dice cc channel?
+
+
+[02-Feb-21 07:54 PM] Crabby Paddy#6239
+Not for a while, but I’m not too good with installing Komodo daemon and using cli
+
+
+[02-Feb-21 07:54 PM] Crabby Paddy#6239
+Waiting for a nice GUI 💩
+
+
+[02-Feb-21 07:54 PM] Crabby Paddy#6239
+It took me around 20 hours to set up rogue cc
+
+
+[02-Feb-21 07:55 PM] Crabby Paddy#6239
+And ended up dying in level 1 and gave up LMAO
+
+
+[02-Feb-21 07:55 PM] ejuliano#8606
+that's better than i can do at this point
+
+
+[02-Feb-21 08:40 PM] Mylo#8306
+@Artist dabbles with games dev, i worked with him a little bit for proof of concept stuff but i don't have time to do much.  have a chat about making something small for KMD ecosystem.   i had a construct.net implementation for giving out tokens/coins.  very easy to make a centralized web based game with payments of coins out to the player
+
+{Reactions}
+💯 
+
+[02-Feb-21 08:41 PM] Crabby Paddy#6239
+Would be pretty cool to have a white label casino, like Antara but for creation of a gambling blockchain, with parameters for dealer fees, games etc 😂
+
+
+[02-Feb-21 08:45 PM] Mylo#8306
+need smaller goals.
+
+
+[02-Feb-21 08:55 PM] Artist#0765
+Someone mentioned me
+
+
+[02-Feb-21 08:55 PM] Artist#0765
+😂
+
+
+[03-Feb-21 02:43 AM] ZaferGraph (Don't DM)#5482
+Binance victim here, pls hug me
+
+
+[03-Feb-21 03:18 AM] ejuliano#8606
+are you asking for wsb coin?  post your address here and ye shall receive
+
+
+[03-Feb-21 03:38 AM] Crabby Paddy#6239
+Not sure why but
+
+
+[03-Feb-21 03:38 AM] Crabby Paddy#6239
+seems people cant see their coins
+
+
+[03-Feb-21 03:38 AM] Crabby Paddy#6239
+ive had around 10 people on adex say its on explorer
+
+
+[03-Feb-21 03:38 AM] Crabby Paddy#6239
+but shows 0 balance on the dex
+
+
+[03-Feb-21 03:38 AM] Crabby Paddy#6239
+even after hours
+
+
+[03-Feb-21 04:00 AM] CHMEX#0686
+@cipi ^ are the electrums fine?
+
+
+[03-Feb-21 04:06 AM] cipi#4502
+the electrums are on the same height as the explorer
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/806495926998925312/unknown.png
+
+{Reactions}
+👍 
+
+[03-Feb-21 04:29 AM] cipi#4502
+@Crabby Paddy can you check such a tx? does it have > 0 confirmations?
+
+
+[03-Feb-21 04:30 AM] Crabby Paddy#6239
+They have tx, it happened most of yesterday. I checked fully confirmed, but they couldn't see it in the dex. I had a couple people say the same thing, so it wasn't a once off
+
+
+[03-Feb-21 04:45 AM] Crabby Paddy#6239
+Ok so turns out
+
+
+[03-Feb-21 04:45 AM] Crabby Paddy#6239
+3 of them
+
+
+[03-Feb-21 04:45 AM] Crabby Paddy#6239
+https://imgur.com/a/cAYVKX5
+
+{Embed}
+https://imgur.com/a/cAYVKX5
+https://images-ext-1.discordapp.net/external/NszIJOkGt0gHE34MVR0maqWP-22zQgSDEde3yfLRiuY/https/i.imgur.com/6rARpanh.jpg
+
+
+[03-Feb-21 04:45 AM] Crabby Paddy#6239
+Downloaded atomicwallet
+
+
+[03-Feb-21 04:45 AM] Crabby Paddy#6239
+:abusedsmily:
+
+
+[03-Feb-21 04:45 AM] Crabby Paddy#6239
+I dont know how people keep getting them confused
+
+
+[03-Feb-21 04:45 AM] Crabby Paddy#6239
+especially with a big bolded text saying "download atomicdex now"
+
+
+[03-Feb-21 04:45 AM] Crabby Paddy#6239
+sigh
+
+
+[03-Feb-21 04:48 AM] cipi#4502
+i observed this too... problem is also that Atomic Wallet doesn't have a good reputation... i hope they disappear one day 😉
+
+{Reactions}
+abusedsmily 
+
+[03-Feb-21 04:48 AM] Crabby Paddy#6239
+Especially our telegram chat, when someone asks for wallet, somehow someone always shills atomic wallet rather than atomicdex
+
+
+[03-Feb-21 01:34 PM] NaN#6925
+So I can start a coin with two NICs and a switch, thx peeps, I'ma start an ICO straight away :troll_thuglife:
+
+
+[03-Feb-21 01:55 PM] godmonkey#6443
+so could maybe someone give me a few pointers
+
+
+[03-Feb-21 01:56 PM] godmonkey#6443
+i haven't mined in ages and the software has changed quite a bit from my doge mining days
+
+
+[03-Feb-21 01:56 PM] godmonkey#6443
+i wanted to mine WSB coin
+
+
+[03-Feb-21 01:56 PM] godmonkey#6443
+due to memetastic value
+
+
+[03-Feb-21 01:56 PM] godmonkey#6443
+i downloaded awesome miner
+
+
+[03-Feb-21 02:41 PM] daemonfox#6136
+need an ASIC
+
+
+[03-Feb-21 03:24 PM] ejuliano#8606
+do you have some wsb yet?
+if you post your receive address i will send you some
+
+
+[03-Feb-21 05:26 PM] DarkStalker0012#3792
+how to get WSB?
+
+
+[03-Feb-21 06:39 PM] ejuliano#8606
+post your address here @DarkStalker0012
+
+
+[03-Feb-21 06:53 PM] ejuliano#8606
+there is also a faucet
+
+
+[04-Feb-21 05:01 PM] ejuliano#8606
+sent
+
+
+[04-Feb-21 05:01 PM] ejuliano#8606
+enjoy
+
+
+[04-Feb-21 06:10 PM] 花果山#5224
+@ZaferGraph (Don't DM) https://dp.explorer.dexstats.info/tx/b7e8756af9c3a0b8dfd3b2bf9eb8ac69e21149a1cfe84bcff5505b3635972a6e
+
+
+[04-Feb-21 08:03 PM] 花果山#5224
+@ZaferGraph (Don't DM)
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/807099004877275156/unknown.png
+
+
+[04-Feb-21 10:22 PM] jvr#6773
+@ejuliano I got some in the airdrop but would be grateful to get some more. How can I find the faucet? RVj1Y4jP9hmii5DYshYDuE5fHmeDjNpdx6
+
+
+[04-Feb-21 10:24 PM] CHMEX#0686
+https://www.atomicexplorer.com/#/faucet/wsb
+
+
+[04-Feb-21 10:30 PM] jvr#6773
+nice, thank you
+
+
+[05-Feb-21 01:38 AM] MRZT#6198
+hello, anyone here?
+
+
+[05-Feb-21 01:39 AM] MRZT#6198
+i have read about this wsb and mining is there anyone who can help me with setting the miner etc? iam kinda new to this
+
+
+[05-Feb-21 01:44 AM] MRZT#6198
+if so just send me a message...thx
+
+
+[05-Feb-21 02:36 AM] 花果山#5224
+@jvr https://dp.explorer.dexstats.info/tx/27c91203003e74c9789772bf2ed9fafd39ae8865e7abba3300f1ff63e4e8488b
+
+
+[05-Feb-21 02:41 AM] jvr#6773
+DP! thank you, this is a new one for me i haven't seen it before. I'll have to do some research on it.
+
+
+[05-Feb-21 02:42 AM] jvr#6773
+They have a couple mining pools listed on the website http://wsbcoin.cash
+Have you done any mining before or is this your first time?
+
+{Embed}
+http://wsbcoin.cash/
+WallStreetBets Coin (WSB)
+The WallStreetBets Coin site.
+
+
+[05-Feb-21 02:50 AM] ph03nix#3115
+:troll_lol:
+
+
+[05-Feb-21 03:05 AM] ejuliano#8606
+just be aware that this is a memecoin for fun it has no monetary value  currently... i'm telling you just in case you are unaware
+
+
+[05-Feb-21 03:07 AM] jvr#6773
+yes, thanks for the heads up! It's also how $DOGE started so we'll see in the long run maybe it'll turn into something someday and maybe never
+
+
+[05-Feb-21 03:08 AM] ejuliano#8606
+yes... so if you want to offset that chance, you could take a look at verus coin, you can even mine it with cpu
+
+
+[05-Feb-21 03:12 AM] jvr#6773
+Interesting yeah I saw Verus mentioned earlier today, I'll have to look into it. Thanks.
+
+{Reactions}
+👍 
+
+[05-Feb-21 04:34 AM] 花果山#5224
+https://www.reddit.com/r/SatoshiStreetBets/comments/ld2y2z/wallstreetbets_wsb_coin_is_real_heres_how_to_get/
+
+{Embed}
+https://www.reddit.com/r/SatoshiStreetBets/comments/ld2y2z/wallstreetbets_wsb_coin_is_real_heres_how_to_get/
+r/SatoshiStreetBets - WallStreetBets (WSB) coin is real! Here's how...
+5 votes and 12 comments so far on Reddit
+https://images-ext-2.discordapp.net/external/dzGL-Cie4ODM_2YRbXB4edBZyqO_Cdqg6wHHK7xLnlA/%3Fauto%3Dwebp%26s%3D17a15a2a0861f93f597a1c798394f0087b70d3f0/https/external-preview.redd.it/ehupqy7WdAvlmVL4vtLRjBLLd5SddqQM1SsfO0AwPao.jpg
+
+{Reactions}
+👍 (2) 
+
+[05-Feb-21 07:02 AM] lightspeed393#5403
+actually there's only one listed on the site. If there's others feel free to share with me and I'll add them to the site.
+
+
+[05-Feb-21 07:07 AM] jvr#6773
+my bad i was thinking of http://souljacoin.cash that also has http://mining.daemoncoins.com/ listed
+
+{Embed}
+http://souljacoin.cash/
+Welcome to SouljaCoin
+The SouljaCoin community webpage.
+
+{Reactions}
+👍 
+
+[05-Feb-21 10:14 PM] jvr#6773
+Requested for $WSB to be added to Blockfolio. Needs upvotes, and doing the same for $SOULJA over in that channel #soulja 
+
+ https://blockfolio.canny.io/coin-requests/p/wsb-wallstreetbets
+
+
+[05-Feb-21 10:15 PM] jvr#6773
+Any others in the Komodo ecosystem I should add?
+
+
+[05-Feb-21 11:51 PM] CHMEX#0686
+I created a erc20 token with the 90b supply and added it to uniswap:
+https://app.uniswap.org/#/swap?inputCurrency=0x6e4926ed5b823cc28ce6e9e202a1896790bae560
+same amount of airdropped tokens are in the Pool with liquidity.
+Next step would be to compare fees between uniswap and atomicdex
+
+{Reactions}
+👍 (2) 
+
+[06-Feb-21 12:05 AM] grewalsatinder#9653
+@ca333 plz do your magic mate,
+We need wsb erc20 on AtomicDEX
+
+
+[06-Feb-21 12:05 AM] grewalsatinder#9653
+I think since it is not on coinpaprika, it has to be added via source code pr
+
+
+[06-Feb-21 12:05 AM] grewalsatinder#9653
+@CHMEX that’s great start
+
+
+[06-Feb-21 12:07 AM] grewalsatinder#9653
+Once ERC20 is on AtomicDEX a 1:1 swap can be put on AtomicDEX which can allow goin in and out of ERC20, and able to trade it on uniswp via pool there
+
+
+[06-Feb-21 12:07 AM] grewalsatinder#9653
+So it will be supported cross blockchain platforms and multiple DEXes
+
+
+[06-Feb-21 12:07 AM] grewalsatinder#9653
+free DEX listings is awesome
+
+
+[06-Feb-21 12:08 AM] CHMEX#0686
+Each person can add it manualy
+
+
+[06-Feb-21 12:08 AM] CHMEX#0686
+There is a video someplace
+
+
+[06-Feb-21 12:08 AM] grewalsatinder#9653
+But as understanding that ERC20 has to be on coinpaprika
+
+
+[06-Feb-21 12:08 AM] grewalsatinder#9653
+For charts etc
+
+
+[06-Feb-21 12:08 AM] Slyris#2880
+Out of curiosity how much time you spend on such stuff @CHMEX @grewalsatinder ?
+
+
+[06-Feb-21 12:09 AM] grewalsatinder#9653
+I don’t know about wsb, but on Soulja I spent like at most 2 hours total
+
+
+[06-Feb-21 12:09 AM] CHMEX#0686
+Ah I see
+
+
+[06-Feb-21 12:10 AM] Slyris#2880
+I see - interesting ty for the infos
+
+{Reactions}
+👍 
+
+[06-Feb-21 12:10 AM] CHMEX#0686
+Wsb 2 hours... eth wsb stuff 2 hours 1.5 fighting bots not to rip me off
+
+{Reactions}
+😅 😎 👍 
+
+[06-Feb-21 12:11 AM] Slyris#2880
+If any ecosystem dev are looking for interesting stuff to add within the AtomicDEX ecosystem i have lot of idea
+
+
+[06-Feb-21 02:10 AM] CHMEX#0686
+Get a Hummingbot integration
+The liquidity multiplier will draw lots of attention
+
+
+[06-Feb-21 02:12 AM] CHMEX#0686
+With that people dont need to write their own connectors between cex and adex. Or maybe such a thing is already in works idk
+
+
+[06-Feb-21 02:13 AM] CHMEX#0686
+@cipi ^ fyi feedback welcome
+
+
+[06-Feb-21 03:36 AM] cipi#4502
+i run my own bot on adex and several CEXes, but i don't let it withdraw automatically, i do that manually
+problem are the withdraw fees on the CEXes and the time it takes for the funds to be credited to your account there... the bot updates the prices every 30s on a CEX and if i would let it also send eg KMD to Binance in the same run, the funds would not be there in 30s, so i would need to take the in-transit KMD into account too the next time it runs
+most of the time when the BTC/ETH/USDT on Binance are empty i don't even send those coins there but some other coins that i then convert to one of these manually, eg LTC or whatever coin has a "surplus" on ADEX
+
+
+[06-Feb-21 04:47 AM] ejuliano#8606
+wow that's incredible!  so is it available and visible right now on uniswap?  or not yet?
+
+
+[06-Feb-21 04:48 AM] ejuliano#8606
+someone who uses uniswap please take some screenshots with wsb in it and post them here?
+
+
+[06-Feb-21 04:49 AM] ejuliano#8606
+i will ask in talk trading once i know it's ready on uniswap
+
+
+[06-Feb-21 04:51 AM] ejuliano#8606
+maybe some will get added to verus defi when liquidity pools are available on mainnet ??
+
+
+[06-Feb-21 04:56 AM] Crabby Paddy#6239
+Wait so how can I swap my WSB kmd to WSB erc
+
+
+[06-Feb-21 04:56 AM] Crabby Paddy#6239
+👀
+
+
+[06-Feb-21 05:49 AM] CHMEX#0686
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/807608966955794442/unknown.png
+
+
+[06-Feb-21 05:50 AM] CHMEX#0686
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/807609053425303552/unknown.png
+
+
+[06-Feb-21 05:50 AM] CHMEX#0686
+working on that but fees are so high it will cost a fortune ( already cost a lot to get here)
+
+
+[06-Feb-21 08:08 AM] NaN#6925
+If I make a ceelo WSB gambling game, will I get in trouble with the tax man?
+
+
+[06-Feb-21 08:11 AM] Alright#0419
+short answer is yes; long answer, depends where you live and who you offer services to
+
+
+[06-Feb-21 08:12 AM] NaN#6925
+And if I don't make any money with it? Like 0 goes to house?
+
+
+[06-Feb-21 08:13 AM] Alright#0419
+there is no definitive answer, if you're serious get serious legal advice
+
+
+[06-Feb-21 08:14 AM] Alright#0419
+I think generally(NOT LEGAL ADVICE) providing code publicly that would allow others to host and offer services is not much of an issue
+
+
+[06-Feb-21 08:14 AM] Alright#0419
+but being the entity to host and provide services _is_
+
+
+[06-Feb-21 08:15 AM] NaN#6925
+Thx
+
+
+[07-Feb-21 04:59 AM] 𝙊𝙞𝙣𝙠#3612
+To import the coin definition in an existing Verus Desktop installation:
+- `+ Add Coin`
+- do not select a coin: pres `ALT` 3 times or type `ADDFROMFILE` (in capitals!!!) in the coin selection box
+- click `Choose File`
+- browse and select `WSB_import.txt`
+- choose native or lite mode as desired.
+
+📌 Private addresses will not (yet) be active in Verus Desktop native mode, although the import file is prepared for it.
+📌 If you *deactivate* the chain, you will need to import `WSB_import.txt` again to activate. Wallet restart **will** remember the chain.
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/807958817131593728/WSB_import.txt
+
+
+[07-Feb-21 05:49 AM] grewalsatinder#9653
+thanks 🙂 👍
+
+{Reactions}
+👍 
+
+[07-Feb-21 05:56 AM] CHMEX#0686
+Ehh new picture you have
+
+{Reactions}
+abusedsmily 😁 
+
+[09-Feb-21 03:42 AM] Crabby Paddy#6239
+https://dereferer.me/?ohD_o54nWWjxA2v5KNwR8LOdGqxgxL6w5A379g75k5bEpbxbRKmbv8w7npLq_gvl5VWyvjxK9x4JrEw92dPzO0lyZvlnrA-ENp6rebyDjg_-Z0_400L4jz2Pn9pm36p30O_Z3DzyRjoxgEzZn9B8vgLVNmywb5ePB09q3bzNx57vPO5qW9xAynz4jEm29-zPyDb-5BeyRPkeNly
+
+
+[09-Feb-21 03:42 AM] Crabby Paddy#6239
+Anyone wanna take over
+
+
+[09-Feb-21 03:42 AM] Crabby Paddy#6239
+Almost 200 comments :abusedsmily:
+
+
+[09-Feb-21 03:42 AM] Crabby Paddy#6239
+I’m on once in a while but been hella busy m
+
+
+[09-Feb-21 03:42 AM] Crabby Paddy#6239
+Missed a few days
+
+
+[09-Feb-21 05:32 AM] ejuliano#8606
+is there a way to aggregate addresses into a list and airdrop to that list?  something like what happened for prizes of dex stress test
+
+
+[09-Feb-21 06:13 AM] CHMEX#0686
+@webworker01 ^ saw you posted a script the other day
+
+
+[09-Feb-21 06:18 AM] webworker01#3884 (pinned)
+```#!/bin/bash
+komodoexec="komodo-cli -ac_name=WSB"
+sendamount=777
+airdrop=(
+  'RAyTyWjG16XN3vEgfLo3gcce8NSMEkXFdA'
+  'RQoPyaVfaE4xAwMQS7v7w4M7KBERLPgEZQ'
+  'RKFksmz3ZitzyqcadjuoDr2iZzDGNe8Zic'
+  'RY7YfWuwtYN6AJfwNC9CGvP7nx38n62sop'
+  'RDDxUhBDD4ACXFwK58T5eT4rFdF9SueJ1p'
+  'RYS9WtPF57b7V4Y376pH4Ntni4rDzJ5Vzf'
+  'RF6cNdybXovb7xnkgj8HU4GdjJoRnCm9Mu'
+)
+txstring="${komodoexec} sendmany \"\" '{"
+comma=""
+lastaddress=${airdrop[-1]}
+comma=", "
+for address in "${airdrop[@]}"; do
+  if [[ ${address} == ${lastaddress} ]]; then
+    comma=""
+  fi
+  txstring="${txstring}\"${address}\":'${sendamount}'${comma}"
+done
+
+txstring="${txstring}}'"
+
+echo ${txstring}
+```
+
+
+[09-Feb-21 06:18 AM] webworker01#3884
+think you can do something like 200 addresses in one tx?
+
+
+[09-Feb-21 06:45 AM] gcharang#6833
+Pinned a message.
+
+
+[09-Feb-21 05:18 PM] 花果山#5224
+@Crabby Paddy I can take over
+
+
+[09-Feb-21 05:19 PM] 花果山#5224
+How much WBS is airdropped to an address
+
+
+[09-Feb-21 05:54 PM] Crabby Paddy#6239
+1000 🙂
+
+
+[10-Feb-21 01:13 AM] 花果山#5224
+@Crabby Paddy R9qBZ1rvyAQeU7Cxg6BkQojwRG93gy9ZRx
+
+
+[10-Feb-21 01:15 AM] 花果山#5224
+If you are willing to let me take over, as long as someone replies to the wallet address. I will airdrop the coins I received.
+
+
+[12-Feb-21 12:40 AM] Deleted User#0000
+here i have to write adress for airdrop?
+
+
+[12-Feb-21 12:40 AM] Deleted User#0000
+hi guys 🙂
+
+
+[12-Feb-21 02:20 AM] 花果山#5224
+yes
+
+{Reactions}
+👍 
+
+[12-Feb-21 04:54 AM] Deleted User#0000
+WSBCogcpZoffJpuY9rEEubViDtAcH6NGSi8g2fFRp6gJAqhQPVjbVeM7mRERDErdYzZPMvmqiWf6xiNpjLs2oiQqJqvC3LejraN  ☝️
+
+
+[12-Feb-21 06:55 AM] lightspeed393#5403
+that looks like an address for another WSB coin. This WSB addresses start with `R` or `zs` for private addresses.
+
+
+[12-Feb-21 09:04 AM] Deleted User#0000
+wallet generated for me
+
+
+[12-Feb-21 09:09 AM] lightspeed393#5403
+what wallet?
+
+
+[12-Feb-21 09:10 AM] Deleted User#0000
+wallstreetbetswallet.exe
+
+
+[12-Feb-21 09:14 AM] ph03nix#3115
+sounds scary
+
+{Reactions}
+☝️ (2) 
+
+[12-Feb-21 09:34 AM] lightspeed393#5403
+that is unrelated to this project afaik
+
+
+[12-Feb-21 09:34 AM] lightspeed393#5403
+Our wallets are listed on here: https://wsbcoin.cash
+
+{Embed}
+https://wsbcoin.cash/
+WallStreetBets Coin (WSB)
+The WallStreetBets Coin site.
+
+
+[12-Feb-21 09:39 AM] Deleted User#0000
+https://github.com/cryptodeveloperbro/WallStreetBetsCoin/releases/tag/2.0
+
+{Embed}
+https://github.com/cryptodeveloperbro/WallStreetBetsCoin/releases/tag/2.0
+Release 2.0 · cryptodeveloperbro/WallStreetBetsCoin
+Retail Investors Commit
+https://images-ext-1.discordapp.net/external/2EvluVi9wToYQtNsL_ix_3Lkz1X8-M-kLg0hIJ2EpFY/%3Fs%3D400%26v%3D4/https/avatars.githubusercontent.com/u/34922579
+
+
+[12-Feb-21 09:39 AM] Deleted User#0000
+i downloaded it from here
+
+
+[12-Feb-21 09:43 AM] lightspeed393#5403
+that's unrelated to this WSB coin.
+
+
+[12-Feb-21 09:45 AM] Deleted User#0000
+what im mining i got to wallet
+
+
+[12-Feb-21 09:48 AM] Deleted User#0000
+i dont know then what the hell
+
+
+[12-Feb-21 09:51 AM] Deleted User#0000
+ahhh
+
+
+[12-Feb-21 09:51 AM] Deleted User#0000
+man
+
+
+[12-Feb-21 09:52 AM] Deleted User#0000
+that one what i have is WallStreetBetsCoin
+
+
+[12-Feb-21 09:52 AM] Deleted User#0000
+wsbc
+
+
+[12-Feb-21 09:52 AM] Deleted User#0000
+holy crap, same name? 😄
+
+
+[12-Feb-21 09:55 AM] lightspeed393#5403
+yea same name, many were rushing to make a coin during all of the WSB hype
+
+
+[12-Feb-21 10:56 AM] Deleted User#0000
+ok, im in wrong place, thaks guys, bye
+
+{Reactions}
+🤣 
+
+[12-Feb-21 11:16 AM] lightspeed393#5403
+download atomicDEX and i can send you some of our WSB if you share an address
+
+
+[12-Feb-21 07:20 PM] 花果山#5224
+WBS can't produce blocks normally.
+
+
+[13-Feb-21 04:02 AM] cipi#4502
+someone should mine the chain... i mined 2 blocks, but i don't really want to do it 😉
+
+
+[13-Feb-21 04:10 AM] CHMEX#0686
+I have 30 cores running on it get like one each 6 hours till the diff drops
+
+
+[13-Feb-21 04:12 AM] cipi#4502
+diff is now at 85568... what would be a normal diff for a cpu-only mined chain?
+
+
+[13-Feb-21 04:55 AM] CHMEX#0686
+under 80 would be good
+
+
+[13-Feb-21 05:53 AM] 花果山#5224
+The block reward is only 1 WBS, which is too small, so no one wants to dig.
+
+
+[13-Feb-21 09:28 AM] lightspeed393#5403
+diff is falling: "difficulty": 35950.46461407966,
+
+{Reactions}
+👍 (3) 
+
+[13-Feb-21 11:08 AM] lightspeed393#5403
+"difficulty": 17995.18736074539,
+
+{Reactions}
+👍 (2) 🥳 (2) 
+
+[13-Feb-21 11:32 AM] lightspeed393#5403
+@CHMEX I got a message from @jvr and he was telling me how he joined the discord for the other WSBC, the one that zoldi posted an address for above, and suggested possibly doing a merger. Supposedly they're having some mining/wallet issues and a possible 51% attack going on. I'm not sure all of the details, but maybe they'd be willing to join this chain if some of the premine could be used to credit the holders of that chain. Just thinking out loud, I'm still not sure how serious everyone wants to get with this project, but figured I'd share it here.
+
+
+[13-Feb-21 11:49 AM] Komodefi#5638
+@lightspeed393 is their chain compatible with adex?
+
+
+[13-Feb-21 11:50 AM] lightspeed393#5403
+not sure. it's a fork of turtlecoin
+
+
+[13-Feb-21 12:00 PM] CHMEX#0686
+Yes that sounds like a good idea we can distribute premine to their address if they want to join
+
+
+[13-Feb-21 12:01 PM] CHMEX#0686
+Started as a proof of concept but happy it still generating interest
+
+
+[13-Feb-21 12:07 PM] lightspeed393#5403
+sounds good. @jvr feel free to share with their dev if you want
+
+
+[13-Feb-21 12:07 PM] lightspeed393#5403
+or if you'd like to @CHMEX this is their discord: https://discord.com/invite/S4qFHwfhHt
+
+
+[13-Feb-21 01:34 PM] lightspeed393#5403
+I mined and kept decreasing my hash to bring the diff down as much as I could. I've hit a bit of a wall at 7k though. Turning off my miner, maybe it's enough for your server to cpu mine more than 1 every 6 hours chmex.
+
+
+[13-Feb-21 02:07 PM] lightspeed393#5403
+I just made a post over in the other discord proposing some sort of merger
+
+
+[13-Feb-21 02:20 PM] lightspeed393#5403
+I hear there are about 12 million WSBC, so there's definitely enough premine for some sort of swap
+
+
+[13-Feb-21 02:35 PM] jvr#6773
+Can the chain parameters be adjusted at this point or is it too late? Like block reward, algorithm, etc.
+
+
+[13-Feb-21 02:37 PM] lightspeed393#5403
+not without creating a new chain, but that's honestly not super hard. It would require taking a snapshot of the current chain, creating the new one, and then airdropping the coins, similar to how @CHMEX did originally to KMD addresses.
+
+
+[13-Feb-21 02:51 PM] lightspeed393#5403
+I've never done it myself, but it would be a cool thing to have documented. Just as WSB helped show how easy it is to create a chain with KMD, it would be nice to have an example to show how other coins could snapshot their existing chain and then create a smartchain and airdrop onto it.
+
+{Reactions}
+💯 (3) 
+
+[13-Feb-21 02:57 PM] Komodefi#5638
+It would be even more next level if the a pair could be set up on the orderbooks to bring users to atomic dex.
+
+
+[13-Feb-21 02:59 PM] lightspeed393#5403
+I checked further into that WSBC and turtlecoin is a fork of cryptonote/monero which is not included on atomicdex, so I don't think ti would work.
+
+
+[13-Feb-21 03:01 PM] Komodefi#5638
+I see, well there are probably more than a few coin projects out there that we can assimilate into the kmd borg by leveraging the tech and the dex.
+
+
+[13-Feb-21 03:57 PM] jvr#6773
+I think we should pitch it as letting them take over KMD SmartChain or creating a new SmartChain and airdropping both coins with general consensus about the configuration of the new chain. That way they don't feel like they're just abandoning all their hard work. More like scheduled upgrade.
+
+
+[13-Feb-21 08:44 PM] lightspeed393#5403
+https://i.imgur.com/tWW6stG.png
+
+{Embed}
+https://imgur.com/tWW6stG
+https://images-ext-2.discordapp.net/external/UgBHEYY4C9n_NTRXeBL9KlwdB3hSqAWowZl2UEt7jlM/https/i.imgur.com/tWW6stG.png
+
+
+[13-Feb-21 09:36 PM] jvr#6773
+big oof
+
+
+[13-Feb-21 09:36 PM] jvr#6773
+What does that mean, disperse wallets?
+
+
+[13-Feb-21 10:01 PM] lightspeed393#5403
+he was talking about stopping that chain because of errors and restarting and distributing funds out to everyone's wallet
+
+
+[13-Feb-21 10:01 PM] lightspeed393#5403
+basically doing a snapshot to a new chain like we were talking about
+
+
+[14-Feb-21 01:22 AM] jvr#6773
+weird, don't know what his hesitation would be, seems like a no brainer to migrate to a KMD smartchain
+
+
+[15-Feb-21 03:15 AM] 花果山#5224
+https://www.reddit.com/r/CryptoAirdrop/comments/l99ei6/free_airdrop_wsb_community_coin/           Still apply for airdrop
+
+{Embed}
+https://www.reddit.com/r/CryptoAirdrop/comments/l99ei6/free_airdrop_wsb_community_coin/
+r/CryptoAirdrop - FREE AIRDROP - WSB COMMUNITY COIN
+15 votes and 204 comments so far on Reddit
+https://images-ext-1.discordapp.net/external/a6hucDRGTUq8gdfU8Yq8TGkRALwcuQTioj4jJ_Q52pE/%3Fauto%3Dwebp%26s%3D4f0fbb1582c9229217e87297affbc802c58028b3/https/external-preview.redd.it/RXhCJ8NpfYEiqjCzgENml4sKEca_7ocMYj4wGnCYqKQ.jpg
+
+
+[15-Feb-21 02:09 PM] phm87#7395
+WSB is on coinmarketcap but one sentence is wrong, the asset exists, it is real:
+<https://coinmarketcap.com/fr/currencies/wallstreetbets/>
+```Please note that this is a JOKE- NO SUCH ASSET exists. All UR MeMes R belong to us and Charmander-marth!!!!!111. We seek alpha and master beta.
+If you see similarly-named projects, please perform the requisite due diligence and do not ape into anything associated with this page.```
+
+
+[15-Feb-21 02:18 PM] lightspeed393#5403
+not only 1 but 2 exist
+
+
+[15-Feb-21 02:19 PM] lightspeed393#5403
+and a token
+
+
+[15-Feb-21 02:29 PM] phm87#7395
+I saw other ones but with other names, I didn't know that 2 exist with same name, there is a votation ongoing about doing it on Ethereum or Binance chain
+
+
+[20-Feb-21 12:49 PM] phm87#7395
+🎉 UniMining.net is adding support for mining WSB 🎉
+
+Stratum URL:
+```equihash.eu1.unimining.net```
+Stratum Port:
+```2151```
+Password:
+```c=WSB```
+Username:
+```Your KMD/WSB address, example: RYTWfHVK5p8jeXye4rxcPB3W8Y9T5AV2U6```
+Example of connection string with ccminer:
+```ccminer-x64 -a equihash -o stratum+tcp://equihash.eu1.unimining.net:2151 -u RYTWfHVK5p8jeXye4rxcPB3W8Y9T5AV2U6 -p c=WSB```
+WSB can be mined with CPU, GPU and ASIC but please do not use ASIC to mine WSB, CPU and old GPU are sufficient.
+
+{Reactions}
+👍 (6) 
+
+[22-Feb-21 08:36 PM] RANPENG#9219
+How am I supposed to dig up WSB?
+
+
+[22-Feb-21 09:06 PM] RANPENG#9219
+I read your old chat. You were talking about WSBC,. Are you interested in this, too?
+
+
+[23-Feb-21 03:47 AM] phm87#7395
+https://wsbcoin.cash @RANPENG
+
+{Embed}
+https://wsbcoin.cash/
+WallStreetBets Coin (WSB)
+A cryptocurrency coin made for the WallStreetBets community.
+
+
+[23-Feb-21 03:47 AM] phm87#7395
+Or see pinned messages in this channel
+
+
+[23-Feb-21 01:41 PM] HobbyMiner#0905
+ddsssssssssss=---098o9jminmiiiniln';8ltyup[
+
+{Reactions}
+😼 (2) 
+
+[23-Feb-21 04:05 PM] Shadowalker(5G-CASH)#6698
+I want to sell 1 WSB any candidate?
+
+
+[23-Feb-21 04:11 PM] phm87#7395
+I can offer some RICK or MORTY. I have some COMMOD but it is more expensive 🙂
+
+
+[23-Feb-21 04:14 PM] Shadowalker(5G-CASH)#6698
+I need DOGE
+
+
+[23-Feb-21 05:21 PM] Shadowalker(5G-CASH)#6698
+is there any problem with WSB chain?
+
+
+[23-Feb-21 05:39 PM] lightspeed393#5403
+I don't think so, why?
+
+
+[23-Feb-21 05:46 PM] cipi#4502
+https://wsb.explorer.dexstats.info
+
+
+[23-Feb-21 05:56 PM] Tylor zkFS#8280
+"balance": 12000000120.13631189,
+
+
+[23-Feb-21 05:56 PM] Tylor zkFS#8280
+i must be on a fork
+
+
+[23-Feb-21 05:58 PM] Tylor zkFS#8280
+komodod.exe -ac_name=WSB -ac_cc=3 -ac_supply=90000000000 -ac_reward=1000000000 -addnode=94.130.38.173 -addnode=178.63.47.105
+
+
+[23-Feb-21 05:58 PM] Tylor zkFS#8280
+is this still correct?
+
+
+[23-Feb-21 06:03 PM] lightspeed393#5403
+yea that's it
+
+
+[23-Feb-21 06:10 PM] Shadowalker(5G-CASH)#6698
+why exchange is maintenance?
+
+
+[23-Feb-21 06:10 PM] lightspeed393#5403
+what exchange?
+
+
+[23-Feb-21 06:11 PM] Shadowalker(5G-CASH)#6698
+didnt you know WSB is live on SatoExchange
+
+
+[23-Feb-21 06:11 PM] Shadowalker(5G-CASH)#6698
+trading at more than $300
+
+
+[23-Feb-21 06:12 PM] Shadowalker(5G-CASH)#6698
+https://www.satoexchange.com/market/WSB/USDT
+
+{Embed}
+https://www.satoexchange.com/market/WSB/USDT
+WSB/USDT Market | SatoExchange Trading
+Trade WallStreetBets against USDT (WSB/USDT) with SatoExchange. WSB/USDT price: 397.00900000
+https://images-ext-2.discordapp.net/external/h1IFcIFuCPNSfqhTxVLpz_--L4pqjfL6A68LbSP5d6M/https/www.satoexchange.com/images/post_thumbs/wsb-banner.jpg
+
+
+[23-Feb-21 06:13 PM] Shadowalker(5G-CASH)#6698
+but deposits are disable
+
+
+[23-Feb-21 06:14 PM] lightspeed393#5403
+is that this WSB?
+
+
+[23-Feb-21 06:14 PM] Shadowalker(5G-CASH)#6698
+yes
+
+
+[23-Feb-21 06:15 PM] lightspeed393#5403
+I only ask because there are a few different WSB coins/tokens and I haven't seen anyone here mention an exchange besides atomIcDEX
+
+
+[23-Feb-21 06:16 PM] Shadowalker(5G-CASH)#6698
+WSB is different than WSBC
+
+
+[23-Feb-21 06:16 PM] lightspeed393#5403
+yea I know. But I've seen a WSB token as well
+
+
+[23-Feb-21 06:17 PM] Shadowalker(5G-CASH)#6698
+there are only 2 Wallstreetbets as far as I know
+
+
+[23-Feb-21 06:17 PM] Shadowalker(5G-CASH)#6698
+can you show me the token
+
+
+[23-Feb-21 06:17 PM] lightspeed393#5403
+https://twitter.com/WSBToken
+
+{Embed}
+https://twitter.com/WSBToken
+WallStreetBets Token (@WSBToken)
+Taking it all back 🚀💎🙌
+r/WallstreetbetsToken, http://discord.gg/wbWRBucCqj
+Tweets
+5
+Followers
+15
+https://images-ext-1.discordapp.net/external/rcDeAh0ZagwzfT_0mEkj9Cro-gz5ZXY2eovdr3IQhjA/https/pbs.twimg.com/profile_images/1357163233044357120/QuZq6YBH_normal.jpg
+Twitter
+
+
+[23-Feb-21 06:18 PM] Shadowalker(5G-CASH)#6698
+https://etherscan.io/token/0x9d0a4859aa6a2909e7421b09f701f677f27f1ab4
+
+{Embed}
+https://etherscan.io/token/0x9d0a4859aa6a2909e7421b09f701f677f27f1ab4
+Wallstreetbets (WSB) Token Tracker | Etherscan
+Wallstreetbets (WSB) Token Tracker on Etherscan shows the price of the Token $0.0000, total supply 69,420, number of holders 92 and updated information of the token. The token tracker page also shows the analytics and historical data.
+
+
+[23-Feb-21 06:18 PM] Shadowalker(5G-CASH)#6698
+OMG
+
+
+[23-Feb-21 06:18 PM] lightspeed393#5403
+I just scrolled up and found it, but i remember from day 1. Not many followers on the account though
+
+
+[23-Feb-21 06:19 PM] Shadowalker(5G-CASH)#6698
+so there are 3 projects with the same name
+
+
+[23-Feb-21 06:19 PM] Shadowalker(5G-CASH)#6698
+2 with the same ticker, one a currency and the other a token
+
+
+[23-Feb-21 06:20 PM] Shadowalker(5G-CASH)#6698
+a lot of people are going to lose a lot of money if they mistakenly send coins from one chain to the other
+
+
+[23-Feb-21 06:21 PM] Shadowalker(5G-CASH)#6698
+⏰
+
+
+[23-Feb-21 06:23 PM] cipi#4502
+https://coinmarketcap.com/currencies/wallstreetbets/ his is the CMC site linked on https://www.satoexchange.com/market/WSB/USDT and sato says ` The WSD is a meme currency, trade for the good fun of it!`
+
+
+[23-Feb-21 06:25 PM] Shadowalker(5G-CASH)#6698
+i wouldnt mine trading if deposits are accepted
+
+
+[23-Feb-21 06:30 PM] cipi#4502
+sure but our chain is https://wsb.explorer.dexstats.info and not an ERC20 token, so it will not work
+
+
+[23-Feb-21 06:30 PM] Shadowalker(5G-CASH)#6698
+i know
+
+
+[23-Feb-21 06:31 PM] Shadowalker(5G-CASH)#6698
+but I have yours
+
+
+[23-Feb-21 06:33 PM] Shadowalker(5G-CASH)#6698
+did u know about this
+
+
+[23-Feb-21 06:33 PM] Shadowalker(5G-CASH)#6698
+https://miningpoolstats.stream/wallstreetbetscoin#
+
+{Embed}
+https://miningpoolstats.stream/wallstreetbetscoin
+WallStreetBets Coin (WSB) Equihash | Mining Pools
+List of known WallStreetBets Coin pools (WSB) Equihash PoW algorithm. Live hashrate distribution, pool fees & minimum payment comparison. Mining Pools & Block Explorer
+
+
+[23-Feb-21 06:37 PM] Tylor zkFS#8280
+This site is powered by ComputerGenie with an original front-end by NutellaLicka, but don't blame NutellaLicka for the ugly colors, ComputerGenie did that on his own!
+
+
+[23-Feb-21 06:37 PM] Tylor zkFS#8280
+http://chickenpool.com/getting_started
+
+
+[23-Feb-21 06:40 PM] Shadowalker(5G-CASH)#6698
+yeah purple color sucks in that tone
+
+
+[23-Feb-21 06:40 PM] Tylor zkFS#8280
+"balance": 6000000060.13631189,
+
+
+[23-Feb-21 06:41 PM] Tylor zkFS#8280
+i must be on the wrong fork -- deleted my WSB folder and restarted
+
+
+[23-Feb-21 06:42 PM] lightspeed393#5403
+probably unless you have 60 million KMD 👀
+
+
+[23-Feb-21 06:43 PM] Tylor zkFS#8280
+cant get on the correct fork -
+
+
+[23-Feb-21 06:46 PM] Shadowalker(5G-CASH)#6698
+let me open my wallet
+
+
+[23-Feb-21 06:47 PM] Shadowalker(5G-CASH)#6698
+i cant post pics here
+
+
+[23-Feb-21 06:47 PM] Shadowalker(5G-CASH)#6698
+but it's synced
+
+
+[23-Feb-21 06:49 PM] Shadowalker(5G-CASH)#6698
+2021-02-24 02:47:31 UpdateTip: new best=000008b4bf9fc8f7f76a02e0f1f9d1729409e90e915e0cca6c80851e72080c5f  height=21138  log2_work=36.641219  log2_stake=-inf  tx=110861  date=2021-02-24 02:48:21 progress=1.000000  cache=0.0MiB(65tx)
+2021-02-24 02:48:17 UpdateTip: new best=00000d07269c0291937dc394b1e687319fcaf58c6834659ccf2c4edcb341281f  height=21139  log2_work=36.641229  log2_stake=-inf  tx=110862  date=2021-02-24 02:48:29 progress=1.000000  cache=0.0MiB(66tx)
+2021-02-24 02:48:20 UpdateTip: new best=00000364d856548250b70f2a61a87183c39bdfae2c6f3b7eeb29b07162969b83  height=21140  log2_work=36.64124  log2_stake=-inf  tx=110864  date=2021-02-24 02:49:15 progress=1.000000  cache=0.0MiB(67tx)
+2021-02-24 02:48:23 UpdateTip: new best=0000100f28f443932590b667f2b758b6daabc1d3b0592f7fe68d3f123d24318d  height=21141  log2_work=36.641251  log2_stake=-inf  tx=110865  date=2021-02-24 02:49:17 progress=1.000000  cache=0.0MiB(68tx)
+
+
+[23-Feb-21 06:50 PM] Shadowalker(5G-CASH)#6698
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+[23-Feb-21 06:50 PM] Shadowalker(5G-CASH)#6698
+21:49:53
+￼
+getchaintips
+
+
+21:49:53
+￼
+[
+  {
+    "height": 21141,
+    "hash": "0000100f28f443932590b667f2b758b6daabc1d3b0592f7fe68d3f123d24318d",
+    "branchlen": 0,
+    "status": "active"
+  }
+]
+
+
+[23-Feb-21 07:33 PM] Tylor zkFS#8280
+komodod.exe -ac_name=WSB -ac_cc=3 -ac_supply=90000000000 -ac_reward=1000000000 -addnode=94.130.38.173 -addnode=178.63.47.105
+
+
+[23-Feb-21 07:33 PM] Tylor zkFS#8280
+did I misspell something
+
+
+[23-Feb-21 07:34 PM] Tylor zkFS#8280
+same result on another PC
+
+
+[23-Feb-21 07:35 PM] Tylor zkFS#8280
+is ac_cc=3 supposed to be in another location in the line?
+
+
+[23-Feb-21 07:35 PM] Tylor zkFS#8280
+the line is wrong some how
+
+
+[23-Feb-21 07:40 PM] Shadowalker(5G-CASH)#6698
+this is what I use
+
+
+[23-Feb-21 07:40 PM] Shadowalker(5G-CASH)#6698
+komodo-qt-win -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=147.135.105.85 -addnode=94.130.38.173 -addnode=178.63.47.105
+pause
+
+
+[23-Feb-21 07:43 PM] grewalsatinder#9653
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/813979468314050610/Screen_Shot_2021-02-24_at_4.43.34_PM.png
+
+
+[23-Feb-21 07:44 PM] grewalsatinder#9653
+😅
+
+
+[23-Feb-21 07:44 PM] Shadowalker(5G-CASH)#6698
+yeah i read it, I was looking for Discord or Telegram link and that showed up
+
+
+[23-Feb-21 07:44 PM] Shadowalker(5G-CASH)#6698
+lol
+
+
+[23-Feb-21 07:45 PM] Shadowalker(5G-CASH)#6698
+but color is insignificant if the pool works good
+
+{Reactions}
+💯 
+
+[23-Feb-21 07:49 PM] grewalsatinder#9653
+yep
+
+
+[23-Feb-21 09:01 PM] Tylor zkFS#8280
+im connection to a forked chain every time --- anyone have a good peer list
+
+
+[23-Feb-21 09:04 PM] lightspeed393#5403
+```
+167.172.39.135
+116.203.56.98
+88.99.212.81
+116.203.56.98
+```
+
+
+[23-Feb-21 09:05 PM] lightspeed393#5403
+just a few more in addition to the others. Lots of my peers aren't on the standard 52042 p2p port. Those are though.
+
+
+[23-Feb-21 09:22 PM] Tylor zkFS#8280
+thanks
+
+{Reactions}
+👍 
+
+[24-Feb-21 12:51 AM] Prophesy#8896
+can i get some WSB pls? thanks
+RQ93eKpBP5H9yKcanf487srt7CoPqqLerc
+
+
+[24-Feb-21 01:20 AM] Shadowalker(5G-CASH)#6698
+some might not use standard port bcs they wont let others to connect to them directly
+
+
+[24-Feb-21 05:08 AM] 花果山#5224
+@Prophesy  https://wsb.explorer.dexstats.info/tx/077a53a20202ed5ffa79b0feda39c03e189c7667f84d2c771f1fcbe6ba9f75b0
+
+
+[24-Feb-21 05:08 AM] 花果山#5224
+https://dp.explorer.dexstats.info/tx/b7f187267087b7b27a08740a26bf57059560d995664e66418250445153183f9a
+
+
+[25-Feb-21 12:46 AM] pisistrat#2895
+Hello everyone)))It's wallet offline on https://satoexchange.com/market/WSB/USDT why?
+
+{Embed}
+https://satoexchange.com/market/WSB/USDT
+WSB/USDT Market | SatoExchange Trading
+Trade WallStreetBets against USDT (WSB/USDT) with SatoExchange. WSB/USDT price: 392.99600000
+https://images-ext-2.discordapp.net/external/5J7mW4onI4JjRkNM5XN4mx65JYIU-c-CJ3TuRFkloQQ/https/satoexchange.com/images/post_thumbs/wsb-banner.jpg
+
+
+[25-Feb-21 01:28 AM] 花果山#5224
+@pisistrat  Not the same coin
+
+
+[25-Feb-21 02:14 AM] pisistrat#2895
+))))))) in 2021 it's crazy lot of coins with same name its very sad i just go for trading and holding mining will be dead with many scam and useless  with same name coin!!!!
+
+
+[25-Feb-21 07:39 AM] lightspeed393#5403
+when the wallets next online, look at the address. If it doesn't start with an R, its a different coin
+
+
+[26-Feb-21 10:02 PM] lightspeed393#5403
+~50 ksol/s on my pool the past day or so. Someone seems interested in wsb
+
+{Reactions}
+2561_feelsevilman 
+
+[27-Feb-21 04:20 PM] lightspeed393#5403
+@fatboigomez we are the ones that joined your discord asking you to merge when you had issues, but you never heard back from you
+
+{Reactions}
+troll_lol 
+
+[27-Feb-21 04:49 PM] fatboigomez#6849
+We rebuilt on Monero base and got off Turtle code.  😉
+
+
+[27-Feb-21 04:49 PM] fatboigomez#6849
+We are moving forward now
+
+
+[28-Feb-21 10:48 AM] treyhard#3553
+hello! what miner should I use for WSB? I have AMD GPU, is lolminer ok?
+
+
+[28-Feb-21 11:58 AM] ComputerGenie#7004
+any equihash miner that supports both AMD and 200,9*
+
+*sometimes labled as "zcash"
+
+
+[01-Mar-21 06:27 AM] webworker01#3884
+https://decentralizewsb.com/
+
+{Reactions}
+💯 
+
+[01-Mar-21 06:39 AM] ejuliano#8606
+@Crabby Paddy 👆 they need the power of komodo 
+.... either the preexisiting wsb coin, or, something else they want to custom create themselves
+
+
+[01-Mar-21 06:53 AM] Komodefi#5638
+kind of speaks to the multitude of wsb coins. if we are trying to support a movement we should do so on a united front. and preferably not on the rent seeking piece of spaghetti code known as eth.
+
+
+[01-Mar-21 08:01 AM] grewalsatinder#9653
+make a coin on bsc's chain then 😅
+
+
+[01-Mar-21 08:01 AM] grewalsatinder#9653
+BEP-20
+
+
+[01-Mar-21 08:02 AM] grewalsatinder#9653
+I guess it must be already possible to transfer it there ? 🤔
+
+
+[01-Mar-21 08:10 AM] ejuliano#8606
+well i don't know why anyone who is half educated in this space would not choose komodo for exactly what they (wsb) want to do
+
+
+[01-Mar-21 08:11 AM] ejuliano#8606
+then bridge over to verus to use the AMMs and other bridges
+
+{Reactions}
+👍 
+
+[01-Mar-21 08:11 AM] 𝙊𝙞𝙣𝙠#3612
+ehm.... not going to throw out another ecosystem project now... 🤣
+
+
+[01-Mar-21 08:11 AM] 𝙊𝙞𝙣𝙠#3612
+You already did... OK
+
+
+[01-Mar-21 08:12 AM] ejuliano#8606
+hahha oink is everywhere... must be the cape!
+
+
+[04-Mar-21 01:49 PM] dp-unique#7315
+Anyone seen lightspeed around lately lol
+
+
+[04-Mar-21 01:55 PM] lightspeed393#5403
+right here. i'm around everyday. Do you need something?
+
+
+[04-Mar-21 01:59 PM] dp-unique#7315
+Haha. Just had a question. I saw you mentioned knomp as the best option to use, pool is up and configured, but when I send my miner I get incorrect size of solution. Wasn't sure if you might have a tip on that?
+
+
+[04-Mar-21 01:59 PM] lightspeed393#5403
+what miner are you using?
+
+
+[04-Mar-21 01:59 PM] dp-unique#7315
+Miniz
+
+
+[04-Mar-21 02:05 PM] dp-unique#7315
+Might have just had algo wrong, maybe.
+
+
+[04-Mar-21 02:05 PM] lightspeed393#5403
+like a z9 mini asic? or a software miner?
+
+
+[04-Mar-21 02:05 PM] dp-unique#7315
+software miner running on Nvidia 2080
+
+
+[04-Mar-21 02:06 PM] lightspeed393#5403
+yea most likely the wrong algo. make sure it's equihash 200,9. sometimes referred to as just zcash equihash.
+
+
+[04-Mar-21 02:06 PM] lightspeed393#5403
+a lot of software miners have moved on from 200,9 to other variants because of asic's on 200,9
+
+
+[04-Mar-21 02:06 PM] dp-unique#7315
+ah, yeah. MiniZ is picking up 210,9
+
+
+[04-Mar-21 02:08 PM] lightspeed393#5403
+yea that' s it then. I know this version of ewbf miner works: https://bitcointalk.org/index.php?topic=1707546.0
+
+{Embed}
+https://bitcointalk.org/index.php?topic=1707546.0
+EWBF's CUDA Zcash miner
+EWBF's CUDA Zcash miner
+
+
+[04-Mar-21 02:08 PM] dp-unique#7315
+Thanks. MiniZ and EWBF both removed 200,9 cause of asic. That makes sense.
+
+{Reactions}
+👍 
+
+[04-Mar-21 02:25 PM] dp-unique#7315
+You do the coin yourself?
+
+
+[04-Mar-21 02:38 PM] lightspeed393#5403
+nope @CHMEX is responsible for that
+
+
+[07-Mar-21 01:12 AM] dp-unique#7315
+@lightspeed393 Gotcha. Are you just maintaining the site, github and social presence for it then?
+
+
+[07-Mar-21 09:10 AM] lightspeed393#5403
+I've just done the site. There is no official github page. And @ejuliano has the twitter account
+
+
+[07-Mar-21 09:16 AM] ejuliano#8606
+yes... twitter account has been quiet
+
+
+[07-Mar-21 09:29 AM] lightspeed393#5403
+There's a good amount of hash on my pool fighting over the 1 WSB block rewards. Seems there's some decent interest
+
+
+[07-Mar-21 09:30 AM] lightspeed393#5403
+Strange since it's usually very quiet in here
+
+
+[07-Mar-21 09:34 AM] lightspeed393#5403
+It might be a bit more economical though for some of those miners to buy WSB from existing holders than mining  🤷‍♂️ just my thoughts but idk
+
+
+[07-Mar-21 05:10 PM] ComputerGenie#7004
+no one fights over anything in chickenpool 😢 
+:troll:
+
+
+[13-Mar-21 02:24 PM] lightspeed393#5403
+WSB has a new exchange: https://www.cexz.ca/trading/wsbbtc
+
+{Embed}
+https://www.cexz.ca/trading/wsbbtc
+CexZ
+CexZ - crypto-currency trading platform
+
+
+[13-Mar-21 02:36 PM] cipi#4502
+https://miningpoolstats.stream/wallstreetbetscoin
+any idea how the page can be updated?
+
+{Embed}
+https://miningpoolstats.stream/wallstreetbetscoin
+WallStreetBets Coin (WSB) Equihash | Mining Pools
+List of known WallStreetBets Coin pools (WSB) Equihash PoW algorithm. Live hashrate distribution, pool fees & minimum payment comparison. Mining Pools & Block Explorer
+
+
+[13-Mar-21 02:44 PM] ComputerGenie#7004
+put pool url and message in the appropriate boxes and when he gets around to reading it he'll change it
+
+
+[13-Mar-21 02:46 PM] cipi#4502
+i meant the exchange, not the pool list
+there is still satoexchange listed and that's some erc20 token
+
+
+[13-Mar-21 02:46 PM] ComputerGenie#7004
+if you mean for the exchange, there's an email button down at the bottom
+
+
+[13-Mar-21 02:47 PM] ComputerGenie#7004
+> ...and when he gets around to reading it he'll change it
+still applies
+
+
+[13-Mar-21 02:50 PM] cipi#4502
+sent
+
+
+[14-Mar-21 09:04 AM] umitkara48#6464
+@lightspeed393  is that kmd wsb
+
+
+[14-Mar-21 09:31 AM] lightspeed393#5403
+yes it is
+
+
+[14-Mar-21 10:19 AM] umitkara48#6464
+thanks any news wsb added atomicwallet for mobile
+
+
+[14-Mar-21 10:57 AM] lightspeed393#5403
+I'm not sure about that
+
+
+[14-Mar-21 11:23 AM] cipi#4502
+https://miningpoolstats.stream/wallstreetbetscoin
+exchange link is fixed
+
+{Embed}
+https://miningpoolstats.stream/wallstreetbetscoin
+WallStreetBets Coin (WSB) Equihash | Mining Pools
+List of known WallStreetBets Coin pools (WSB) Equihash PoW algorithm. Live hashrate distribution, pool fees & minimum payment comparison. Mining Pools & Block Explorer
+
+{Reactions}
+👍 
+
+[14-Mar-21 11:42 AM] lightspeed393#5403
+@ejuliano next time you're on, could you tweet about the exchange please
+
+{Reactions}
+👍 
+
+[14-Mar-21 02:48 PM] Sdunbar#5064
+KMD WSB is listed on an exchange other than AtomicDex?
+
+
+[14-Mar-21 02:56 PM] lightspeed393#5403
+yes CexZ.ca
+
+
+[14-Mar-21 02:57 PM] Sdunbar#5064
+That's pretty cool
+
+
+[14-Mar-21 02:58 PM] Sdunbar#5064
+Canadian exchange?
+
+{Reactions}
+👍 (2) 
+
+[14-Mar-21 03:49 PM] ejuliano#8606
+what's the overall status update?
+WSB is on CexZ.ca exchange, are there any other things that are new and/or improved?
+
+
+[14-Mar-21 03:50 PM] lightspeed393#5403
+that's all I have for now
+
+
+[14-Mar-21 03:50 PM] ejuliano#8606
+that's pretty cool... how did this happen?
+
+
+[14-Mar-21 03:52 PM] lightspeed393#5403
+I think @! zpool.ca | crackers just showing support for the Komodo community but I'm not exactly sure. He added SPACE and SOULJA as well 🙂
+
+
+[14-Mar-21 03:52 PM] ejuliano#8606
+nice
+
+
+[14-Mar-21 03:52 PM] ejuliano#8606
+https://www.cexz.ca/
+
+{Embed}
+https://www.cexz.ca/
+CexZ
+CexZ - crypto-currency trading platform
+
+
+[14-Mar-21 03:53 PM] ejuliano#8606
+this one?
+
+
+[14-Mar-21 03:53 PM] lightspeed393#5403
+yup!
+
+
+[14-Mar-21 03:53 PM] lightspeed393#5403
+https://www.cexz.ca/trading/wsbbtc
+
+{Embed}
+https://www.cexz.ca/trading/wsbbtc
+CexZ
+CexZ - crypto-currency trading platform
+
+
+[14-Mar-21 03:54 PM] ejuliano#8606
+awesome
+
+
+[14-Mar-21 03:54 PM] ejuliano#8606
+i see it
+
+
+[14-Mar-21 03:54 PM] ejuliano#8606
+i can tweet that link
+
+
+[14-Mar-21 03:54 PM] ejuliano#8606
+yes?
+
+
+[14-Mar-21 03:54 PM] lightspeed393#5403
+go for it!
+
+
+[14-Mar-21 03:54 PM] ejuliano#8606
+what's the liquidity /volume?
+
+
+[14-Mar-21 03:54 PM] ejuliano#8606
+where are the coins coming from?
+
+
+[14-Mar-21 03:55 PM] lightspeed393#5403
+not much liquidity/volume yet. Only 2 trades it seems
+
+
+[14-Mar-21 03:55 PM] phm87#7395
+cexz.ca opened few weeks ago, it is still in beta I think
+
+
+[14-Mar-21 03:55 PM] lightspeed393#5403
+users placing orders?
+
+
+[14-Mar-21 03:56 PM] ejuliano#8606
+how many are circulating, i think only half were distributed?
+
+
+[14-Mar-21 03:57 PM] lightspeed393#5403
+not really sure, @CHMEX would know better as he has the premine that hasn't been distributed
+
+
+[14-Mar-21 03:57 PM] lightspeed393#5403
+all KMD holders were airdropped coins though
+
+
+[14-Mar-21 03:58 PM] ejuliano#8606
+yes
+
+
+[14-Mar-21 03:59 PM] ejuliano#8606
+and how is the support - technically - for the chain, is it being mined? 1 WSB per minute?
+
+
+[14-Mar-21 03:59 PM] lightspeed393#5403
+there's been a decent amount of hash on my pool for a week or more now
+
+
+[14-Mar-21 04:00 PM] lightspeed393#5403
+155 KSol/s. and yes there is 1 WSB per minute
+
+
+[14-Mar-21 04:00 PM] ejuliano#8606
+we can put these into a Verus fractional currency/liquidity pool
+
+
+[14-Mar-21 04:00 PM] ejuliano#8606
+i mean if there are a huge number....
+
+
+[14-Mar-21 04:00 PM] ejuliano#8606
+just as a thought, putting it out there
+
+
+[14-Mar-21 04:00 PM] ejuliano#8606
+or... there are other options to do with them
+
+
+[14-Mar-21 04:01 PM] ejuliano#8606
+i'm glad there's still activity
+
+
+[14-Mar-21 04:01 PM] lightspeed393#5403
+there hasn't been much chat going on in here, so I've been wondering who keeps mining, but cool to see
+
+
+[14-Mar-21 04:01 PM] lightspeed393#5403
+6 miners on my pool, so there's definitely a few interested
+
+
+[14-Mar-21 04:01 PM] ejuliano#8606
+yes this is part of my appreciation of the komodo community
+
+
+[14-Mar-21 04:02 PM] ! zpool.ca | crackers#9719
+does your pool payout every minute?
+
+
+[14-Mar-21 04:02 PM] ejuliano#8606
+and i wonder if any of those miners are from outside the community and just came for the WSB
+
+
+[14-Mar-21 04:02 PM] ejuliano#8606
+do you mean the Verus pool?
+
+
+[14-Mar-21 04:03 PM] lightspeed393#5403
+it's set at 1.5 minutes currently
+
+
+[14-Mar-21 04:03 PM] ! zpool.ca | crackers#9719
+WSB
+
+
+[14-Mar-21 04:03 PM] ! zpool.ca | crackers#9719
+ahh
+
+
+[14-Mar-21 04:03 PM] ! zpool.ca | crackers#9719
+k
+
+
+[14-Mar-21 04:08 PM] phm87#7395
+No, I think that they are talking about payment schedule of the Mining pool of WSB of lightspeed
+
+{Reactions}
+😅 
+
+[14-Mar-21 04:15 PM] ejuliano#8606
+https://twitter.com/CoinWsb/status/1371238485034733571?s=20
+
+{Embed}
+WSB Coin (@CoinWsb)
+https://twitter.com/CoinWsb/status/1371238485034733571?s=20
+Hey guess what everyone --
+
+In addition to the DEX option @AtomicDEX ,
+
+$WSB Coin has also been added over here at this CEX :
+
+https://t.co/D5R0IBtorw
+
+@KomodoPlatform community is so great!
+
+@wsbmod 
+@WSBChairman 
+@wallstreetbets 
+
+🚨🚨📉📈🚨🚨
+Twitter
+
+
+[15-Mar-21 12:20 AM] umitkara48#6464
+@! zpool.ca | crackers  any kyc for withdraw
+
+
+[19-Mar-21 06:49 AM] dp-unique#7315
+@lightspeed393 we are mining with about 15-20 ksol/s for now
+
+{Reactions}
+👍 (2) 
+
+[20-Mar-21 08:10 AM] Heno1974#6038
+👍
+
+
+[27-Mar-21 03:15 PM] JoshTickles#4160
+Hey folks, anyone got a working link for a 200_9 capable miner? Been hunting for a little while now. Cheers
+
+
+[27-Mar-21 03:17 PM] ComputerGenie#7004
+the best GPUs for equihash are NVIDIA and imo the best miner for them is <https://bitcointalk.org/index.php?topic=1707546.0>
+
+
+[27-Mar-21 03:17 PM] JoshTickles#4160
+Yeah, links down for that though.
+
+
+[27-Mar-21 03:22 PM] ComputerGenie#7004
+linux version
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/825495043405512754/zminer.tar.gz
+
+
+[27-Mar-21 03:22 PM] JoshTickles#4160
+Any chance you've also got the windows version?
+
+
+[27-Mar-21 03:26 PM] ComputerGenie#7004
+win
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/825495919809396746/0.3.4b.zip
+
+
+[27-Mar-21 03:27 PM] ComputerGenie#7004
+_has all kinds of old shit LOL_
+
+
+[27-Mar-21 03:27 PM] JoshTickles#4160
+Amazing, thanks heaps for that mate. I'll add it to my collection on miners on my NAS 😄
+
+
+[27-Mar-21 03:27 PM] JoshTickles#4160
+Going to give spaceworks pool a go.
+
+
+[27-Mar-21 03:46 PM] JoshTickles#4160
+FYI - It got picked up here, so you might get a influx of new miners. 
+https://www.youtube.com/watch?v=6qG6tV5FYZE
+
+{Embed}
+Son of a Tech
+https://www.youtube.com/watch?v=6qG6tV5FYZE
+WTF is WSB Coin?!
+WTF is WallStreetBets Coin
+https://wsbcoin.cash/
+
+The first 1000 people to use the link will get a free trial of Skillshare Premium Membership: https://skl.sh/sonofatech03214
+
+Affiliate Links
+PIA: https://www.PrivateInternetAccess.com/SonOfaTech
+BlockFi: https://blockfi.com/SonOfATech
+Amazon: https://amzn.to/3bmHH2V
+HiveOS: https://hiveos.farm?r...
+https://images-ext-2.discordapp.net/external/CEcjQl4Wo5jgcRbhouustA_fseOBm7gTjho1qsLxtU8/https/i.ytimg.com/vi/6qG6tV5FYZE/maxresdefault.jpg
+
+
+[27-Mar-21 04:00 PM] Komodefi#5638
+he points out at 4:54 that atomic dex is geo blocked. maybe someone could plug dogedex in the comments as a workaround.
+
+{Reactions}
+👌 
+
+[27-Mar-21 04:19 PM] lightspeed393#5403
+95k subscribers, that's pretty sweet!
+
+
+[27-Mar-21 04:20 PM] lightspeed393#5403
+I made a comment saying I'll give away 30 WSB to people who respond with an address to get people started with it. Maybe get some atomicDEX downloads out of it
+
+
+[27-Mar-21 04:28 PM] Marco_3legs🐘#9955
+hey fellow apes I just watched the video and got here, what do you think is the best mining pool and miner? 🔷 🙌
+
+
+[27-Mar-21 04:31 PM] Marco_3legs🐘#9955
+btw i still have to get my wallet so if you have a referral link i'll be happy to use it!
+
+
+[27-Mar-21 04:32 PM] lightspeed393#5403
+I would use the miner that ComputerGenie shared a few messages above.
+
+
+[27-Mar-21 04:33 PM] JoshTickles#4160
+Dex is good, that's what i chose to use
+
+
+[27-Mar-21 04:35 PM] JoshTickles#4160
+and yes, the miner above is perfect for nvidia, reminds me of the good ol ZEC days.
+
+
+[27-Mar-21 04:35 PM] Marco_3legs🐘#9955
+okay thanks! The miner is already configured to mine wsb or do I have to change something in the code?
+
+
+[27-Mar-21 04:36 PM] JoshTickles#4160
+You need to build your own .bat file
+
+
+[27-Mar-21 04:36 PM] phm87#7395
+I am using ccminer to mine equihash on nvidia, not the best one but I am used to it and I read some of its source
+
+
+[27-Mar-21 04:37 PM] phm87#7395
+Spread the hashrate on different mining pools, 3 are listed on the official website
+
+{Reactions}
+☝️ 👌 
+
+[27-Mar-21 04:38 PM] Marco_3legs🐘#9955
+Shoot, that's gonna be a problem then, cause i'm not familiar too with coding and I have no idea of how to do that
+
+
+[27-Mar-21 04:39 PM] Marco_3legs🐘#9955
+is there any pre-configured miner?
+
+
+[27-Mar-21 04:39 PM] lightspeed393#5403
+I think my comment about giving away free WSB was deleted. I guess Son of Tech doesn't want people getting free WSB 😄 🤷‍♂️
+
+
+[27-Mar-21 04:40 PM] JoshTickles#4160
+RJmh7rNQdTFsGsmM9NAkDphXmtTes5F7dJ < you can always send some here! 😄
+
+
+[27-Mar-21 04:41 PM] lightspeed393#5403
+2e68ce3cc3267b5e185e001e81feb647e4004c9e111ded9b2be501bd1d5f08d7
+
+{Reactions}
+❣️ 
+
+[27-Mar-21 04:46 PM] phm87#7395
+Miner equihash for nvidia:
+<https://github.com/tpruvot/ccminer/releases/download/2.3.1-tpruvot/ccminer-2.3.1-cuda10.7z>
+<https://github.com/tpruvot/ccminer/releases>
+WSB mining pools list:
+<https://wsbcoin.cash>
+
+
+[27-Mar-21 04:52 PM] Marco_3legs🐘#9955
+thank you! so i should be able to mine wsb with this right?
+
+
+[27-Mar-21 04:53 PM] JoshTickles#4160
+I can show you a bat file example if you need
+
+
+[27-Mar-21 04:53 PM] Marco_3legs🐘#9955
+oh yeah that would help a lot
+
+
+[27-Mar-21 04:53 PM] Marco_3legs🐘#9955
+thanks josh
+
+
+[27-Mar-21 04:54 PM] JoshTickles#4160
+```miner.exe --server stratum.spaceworks.co --user RJmh7rNQdTFsGsmM9NAkDphXmtTes5F7dJ --pass x --port 5393
+```
+Change the bits you need if you want another pool and your wallet etc.
+
+
+[27-Mar-21 04:54 PM] JoshTickles#4160
+Put it in a notepad, save as miner.bat, and then save in same folder as the miner (if you downloaded the one attach in discord by computergenie)
+
+
+[27-Mar-21 04:55 PM] phm87#7395
+with ccminer, the parameters are a little bit different, do not forget to change the address by yours:
+```ccminer-x64 -a equihash -o stratum+tcp://eu1.equihash.unimining.net:2151 -u RYTWfHVK5p8jeXye4rxcPB3W8Y9T5AV2U6 -p c=WSB --cpu-priority=3
+pause```
+
+{Reactions}
+👌 
+
+[27-Mar-21 04:58 PM] Marco_3legs🐘#9955
+thank you so much! You guys are amazing
+
+
+[27-Mar-21 04:58 PM] phm87#7395
+Usually, I create one .bat file for each pool/crypto. Other miners are better than ccminer. To mine equihash and be profitable, we should use ASICs. Maybe it is more profitable to mine something profitable with GPU and buy WSB : GPU can't compete against ASICs on equihash (but for the fun, we can mine with what we want)
+
+
+[27-Mar-21 04:58 PM] Marco_3legs🐘#9955
+oh okay got it
+
+
+[27-Mar-21 04:59 PM] JoshTickles#4160
+all hashrate helps though.
+
+
+[27-Mar-21 04:59 PM] phm87#7395
+after few minutes, you should be able to see your miner's address on the website
+
+
+[27-Mar-21 05:00 PM] Marco_3legs🐘#9955
+and with a 3070 what level of difficulty do you think i should choose? I went on spaceworks and there's several
+
+
+[27-Mar-21 05:01 PM] phm87#7395
+my pool unimining have a starting diff allowing GPU to mine, I don't know about spaceworks, maybe @lightspeed393  knows (lightspeed is the operator of spaceworks pool I think)
+
+
+[27-Mar-21 05:02 PM] phm87#7395
+but GPU should use the lowest difficulty on equihash, if you don't see any "Accepted" or "Yay" in green after few minutes, the starting diff is too high
+
+
+[27-Mar-21 05:03 PM] JoshTickles#4160
+0.5
+
+
+[27-Mar-21 05:05 PM] lightspeed393#5403
+yea just use the lowest port for gpu mining
+
+
+[27-Mar-21 05:05 PM] lightspeed393#5403
+so 5393
+
+
+[27-Mar-21 05:07 PM] JoshTickles#4160
+would be the same as my bat file above
+
+
+[27-Mar-21 05:13 PM] Marco_3legs🐘#9955
+thanks!
+
+
+[29-Mar-21 02:07 PM] dp-unique#7315
+@lightspeed393 I work with sonofatech. What was the comment that got removed?
+
+
+[29-Mar-21 02:08 PM] lightspeed393#5403
+I'm not sure what you're talking about
+
+
+[29-Mar-21 02:08 PM] dp-unique#7315
+Ah, the 30 WSB one. I just found it in the channel.
+
+
+[29-Mar-21 02:08 PM] dp-unique#7315
+You said he deleted the comment offering to give out 30 WSB to the addresses.
+
+
+[29-Mar-21 02:09 PM] lightspeed393#5403
+ah yes, it was removed and I posted a new one
+
+
+[29-Mar-21 02:09 PM] dp-unique#7315
+Gotcha.
+
+{Reactions}
+👍 
+
+[29-Mar-21 02:09 PM] lightspeed393#5403
+I wasn't sure if he maybe thought it was spam, so I directed the next one to him 🙂
+
+
+[29-Mar-21 02:12 PM] dp-unique#7315
+Gotcha. Yeah, he's had a real issue with those WhatsApp and Text X trader for free blah blah blah.
+
+
+[29-Mar-21 02:12 PM] dp-unique#7315
+To the point where youtube flagged the channel for false views. So he is being a bit strong on the comments at the moment lol.
+
+{Reactions}
+👍 
+
+[02-Apr-21 10:06 AM] Deleted User#0000
+I take it RCQRLvipS1WjB56p767PGprFDsHadAr281  😋
+
+
+[02-Apr-21 10:12 AM] lightspeed393#5403
+e0a3f044403766e7dbd42760d25a961d9d30f71cf510d9fc525ce8f4e4867cdd
+
+
+[02-Apr-21 10:18 AM] Deleted User#0000
+Thank you 😋
+
+
+[03-Apr-21 10:56 AM] SnooPickles#6002
+RTeWpKgzKCWbwZTRDJPARjie4J6cr8nUh8
+
+
+[03-Apr-21 11:57 AM] lightspeed393#5403
+5137b49570112dbc9663da835d3059a6732ed5d034ac70353f117f0f65eb54d5
+
+
+[03-Apr-21 11:58 AM] SnooPickles#6002
+I have no idea what happens with all these numbers 🙈
+
+
+[03-Apr-21 11:59 AM] lightspeed393#5403
+it's a transaction id. you could use it to view the transaction on an explorer
+
+
+[03-Apr-21 11:59 AM] lightspeed393#5403
+basically just verification that I sent you coins
+
+
+[03-Apr-21 12:00 PM] SnooPickles#6002
+Wsb coins ? 😄
+
+
+[03-Apr-21 12:00 PM] lightspeed393#5403
+yes
+
+
+[03-Apr-21 12:00 PM] SnooPickles#6002
+Thx 😄
+
+{Reactions}
+👍 
+
+[03-Apr-21 12:01 PM] SnooPickles#6002
+Whoa that was alot coins 😮
+
+
+[03-Apr-21 12:01 PM] SnooPickles#6002
+Of*
+
+
+[03-Apr-21 12:21 PM] phm87#7395
+<https://wsb.explorer.dexstats.info/tx/5137b49570112dbc9663da835d3059a6732ed5d034ac70353f117f0f65eb54d5> as example
+
+
+[04-Apr-21 04:33 AM] Heno1974#6038
+Hello
+possible komodoocean wallet wsb?
+
+
+[04-Apr-21 04:39 AM] ComputerGenie#7004
+create a shortcut to komodoocean
+edit the shortcut
+name it `WSB wallet`
+and add
+` -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000`
+to the target
+
+
+[04-Apr-21 04:44 AM] Heno1974#6038
+error
+
+
+[04-Apr-21 04:44 AM] Heno1974#6038
+key=value
+
+
+[04-Apr-21 04:54 AM] Heno1974#6038
+block2833 synic no
+
+
+[04-Apr-21 05:06 AM] Heno1974#6038
+new wersion good
+
+
+[04-Apr-21 05:07 AM] Heno1974#6038
+thanks
+
+
+[04-Apr-21 05:43 AM] Heno1974#6038
+pubkey?
+
+
+[04-Apr-21 10:23 AM] Heno1974#6038
+wsb node?
+
+
+[04-Apr-21 10:24 AM] lightspeed393#5403
+`-ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105`
+
+
+[04-Apr-21 10:29 AM] Heno1974#6038
+89.251.45.238 ?
+
+
+[04-Apr-21 10:30 AM] lightspeed393#5403
+what about it?
+
+
+[04-Apr-21 10:31 AM] Heno1974#6038
+can my IP be?
+
+
+[04-Apr-21 10:34 AM] lightspeed393#5403
+you don't want to use your own ip when doing addnodes. you need to connect to others nodes
+
+
+[04-Apr-21 10:35 AM] Heno1974#6038
+can walet miner wsb?
+
+
+[04-Apr-21 10:36 AM] lightspeed393#5403
+yes, the instructions are on the site. Either add gen and genproclimit to the start script or use the setgenerate command once it's running
+
+
+[04-Apr-21 10:37 AM] Heno1974#6038
+https://miningpoolstats.stream/wallstreetbetscoin
+where is there no pool there wallet miner?
+
+{Embed}
+https://miningpoolstats.stream/wallstreetbetscoin
+WallStreetBets Coin (WSB) Equihash | Mining Pools
+List of known WallStreetBets Coin pools (WSB) Equihash PoW algorithm. Live hashrate distribution, pool fees & minimum payment comparison. Mining Pools & Block Explorer
+
+
+[04-Apr-21 10:37 AM] lightspeed393#5403
+for pool mining, just download any equihash 200.9 miner
+
+
+[04-Apr-21 10:38 AM] Heno1974#6038
+what is the gen and genproclimit for the start script?
+I'm a beginner
+
+
+[04-Apr-21 10:39 AM] lightspeed393#5403
+here's the example from the site. Same starting params as above but with gen and genproclimit added:
+`ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105 -gen -genproclimit=4`
+
+
+[04-Apr-21 10:40 AM] lightspeed393#5403
+gen tells it to mine. genproclimit tells it how many cpu threads to use
+
+
+[04-Apr-21 10:40 AM] Heno1974#6038
+i7 -5500U processor
+
+
+[04-Apr-21 10:44 AM] Heno1974#6038
+wsb staking?
+
+
+[04-Apr-21 10:45 AM] lightspeed393#5403
+there is no staking
+
+
+[04-Apr-21 10:53 AM] Heno1974#6038
+no block 😦
+
+
+[04-Apr-21 11:08 AM] Heno1974#6038
+wsb exchange?
+
+
+[04-Apr-21 12:22 PM] phm87#7395
+AtomicDEX or cexz.ca
+
+
+[06-Apr-21 06:47 AM] zigzag#4638
+hey guys how do i know if its working? D:
+
+
+[06-Apr-21 07:30 AM] lightspeed393#5403
+More info is needed. What are you trying to get working?
+
+
+[06-Apr-21 07:32 AM] zigzag#4638
+so i ran komodod -ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000 -addnode=94.130.38.173 -addnode=178.63.47.105 -gen -genproclimit=4 
+
+how do i know everything is working fine?
+
+
+[06-Apr-21 07:33 AM] zigzag#4638
+and can i mine wsb with my gpu also?
+
+
+[06-Apr-21 07:33 AM] lightspeed393#5403
+go to the console and run `getgenerate`
+
+
+[06-Apr-21 07:33 AM] lightspeed393#5403
+it should show true for mining and the 4 threads
+
+
+[06-Apr-21 07:33 AM] zigzag#4638
+in the same cmd window?
+
+
+[06-Apr-21 07:34 AM] lightspeed393#5403
+sorry I assumed qt wallet. no you can open another terminal and do `komodo-cli -ac_name=WSB getgenerate`
+
+
+[06-Apr-21 07:34 AM] lightspeed393#5403
+and you can mine with gpu if you want, just download a equihash miner and join a pool.
+
+
+[06-Apr-21 07:34 AM] zigzag#4638
+oh okay
+
+
+[06-Apr-21 07:35 AM] zigzag#4638
+thanks brother
+
+
+[06-Apr-21 07:35 AM] zigzag#4638
+"staking": false,
+  "generate": true,
+  "numthreads": 4
+
+{Reactions}
+👍 
+
+[06-Apr-21 07:35 AM] lightspeed393#5403
+no problem dude
+
+
+[06-Apr-21 07:35 AM] zigzag#4638
+awesome man
+
+
+[06-Apr-21 07:36 AM] zigzag#4638
+could you recommend me any miner?
+
+
+[06-Apr-21 07:36 AM] zigzag#4638
+if you dont mind please 😄
+
+
+[06-Apr-21 07:40 AM] lightspeed393#5403
+ewbf and nheqminer both work, but any equihash 200,9 miner will do. just be sure its 200,9 because a lot of equihash miners moved to other variants after asics came about.
+
+
+[06-Apr-21 07:40 AM] lightspeed393#5403
+genie shared ewbf downloads above: https://discord.com/channels/412898016371015680/805266161289134160/825493664641843211
+
+
+[06-Apr-21 07:40 AM] lightspeed393#5403
+the links on the thread are now down
+
+
+[06-Apr-21 07:41 AM] zigzag#4638
+damn d;
+
+
+[06-Apr-21 07:42 AM] lightspeed393#5403
+he shared downloads right below that link
+
+
+[06-Apr-21 07:42 AM] zigzag#4638
+ah okay yeah i saw it the one saying win
+
+
+[06-Apr-21 07:42 AM] zigzag#4638
+thanks dude
+
+{Reactions}
+👍 
+
+[06-Apr-21 07:43 AM] zigzag#4638
+av trigger should i be worried?
+
+
+[06-Apr-21 07:44 AM] lightspeed393#5403
+most miners trigger av warnings so I wouldn't be worried. But there's always a bit of trust involved with downloading/installing anything
+
+
+[06-Apr-21 07:45 AM] zigzag#4638
+well fingers crossed lmao thanks again dude
+
+
+[06-Apr-21 09:17 AM] Heno1974#6038
+Is the WSB dead?
+No block for 6 hours
+
+
+[06-Apr-21 09:29 AM] lightspeed393#5403
+someone just needs to mine a block
+
+
+[06-Apr-21 09:16 PM] zigzag#4638
+fell asleep noticed the program shut it self down
+
+
+[16-Apr-21 03:06 PM] lightspeed393#5403
+Traffic to wsbcoin.cash has really been going up the past few days. Maybe we should try being a bit more active with the twitter. The WSB folks are tweeting about doge like crazy.
+
+{Reactions}
+😅 
+
+[16-Apr-21 06:05 PM] grewalsatinder#9653
+JUST DO EEEEEET 🤣
+
+
+[16-Apr-21 09:02 PM] ejuliano#8606
+what sort of content would you like to see in the tweets?  i'm not sure what to pitch
+
+
+[17-Apr-21 02:42 AM] Crabby Paddy#6239
+WSB exchange release
+
+
+[17-Apr-21 02:42 AM] Crabby Paddy#6239
+:komodopog:
+
+
+[17-Apr-21 09:42 AM] lightspeed393#5403
+I'm not sure exactly. One idea is just replying to WSB community members tweets about crypto with a tweet mentioning WSB. It would be cool to have it from the official twitter, but I didn't mean just you and more all of us.
+
+
+[17-Apr-21 09:47 AM] ejuliano#8606
+ok i understand 👍
+and if anyone ever has ideas for tweets, has a tweet link to respond to post them here
+
+{Reactions}
+👍 
+
+[17-Apr-21 05:58 PM] Dovrefall#8693
+I’m curious, I’ve never heard of nor can’t I find anything about the cexz.ca exchange...? Is it fairly new? I’m always cautious with platforms I don’t know! And what wallets can be connected to it?
+
+
+[17-Apr-21 06:12 PM] ComputerGenie#7004
+it's run by the same guy that's owned and operated <https://zpool.ca/> for years
+
+
+[19-Apr-21 09:10 AM] ejuliano#8606
+https://twitter.com/CoinWsb/status/1384177561027039241?s=20
+
+{Embed}
+WSB Coin (@CoinWsb)
+https://twitter.com/CoinWsb/status/1384177561027039241?s=20
+$WSB coin is a great way to learn about @KomodoPlatform @AtomicDEX and the advanced work going on in the community
+
+Good luck to all the NN election candidates!
+
+and congratulations to the autoelection winners 🎉🍾
+
+Only a few more days remaining to VOTE
+
+https://t.co/49shKHfiGX
+https://images-ext-2.discordapp.net/external/iU_4jWrsTOKTpe8Rl-ppG7kBpAgEkM_eTdigdMydHuA/%3Fformat%3Djpg%26name%3D600x314/https/pbs.twimg.com/card_img/1382353758747648002/FMefQd1z
+Twitter
+
+
+[19-Apr-21 09:11 AM] ejuliano#8606
+better with emojis 🥳
+
+
+[19-Apr-21 04:00 PM] ! zpool.ca | crackers#9719
+bumped above $1T market cap, nice work 👍
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/833839573872279552/unknown.png
+
+{Reactions}
+komodopog 
+
+[19-Apr-21 04:48 PM] martinoyo#2482
+Will the stock be listet at other exchanges?
+
+
+[19-Apr-21 04:53 PM] martinoyo#2482
+WSB contract on etherscan say wsb coin is worth 0? Can someone explain that?
+
+
+[19-Apr-21 04:58 PM] phm87#7395
+WSB on this #wsb channel is a PoW equihash smartchain, you are looking at another token, an ERC20, these projects are unrelated
+
+
+[19-Apr-21 04:59 PM] phm87#7395
+there is another PoW coin (not equihash, cryptonote maybe?), all 3 are unrelated to each other
+
+
+[19-Apr-21 05:02 PM] ComputerGenie#7004
+I'm fairly certain he knows what chain he has listed on his own site
+
+
+[19-Apr-21 05:03 PM] ComputerGenie#7004
+🤦🏽‍♂️
+
+
+[19-Apr-21 05:04 PM] ComputerGenie#7004
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/833855606988341350/unknown.png
+
+
+[19-Apr-21 05:05 PM] phm87#7395
+it is the smartchain of #wsb then, not the erc20
+
+
+[19-Apr-21 05:06 PM] phm87#7395
+but I want to avoid confusion between all projects with same name
+
+{Reactions}
+👍 
+
+[19-Apr-21 05:07 PM] lightspeed393#5403
+1 trillion $ marketcap 😁 I told you guys the site traffic was on the rise
+
+{Reactions}
+🤣 
+
+[19-Apr-21 05:08 PM] ComputerGenie#7004
+then maybe stop confusing yourself?
+
+
+[19-Apr-21 05:08 PM] ComputerGenie#7004
+🤷🏽‍♂️
+
+
+[19-Apr-21 05:08 PM] martinoyo#2482
+So many coins. With the wsb name
+
+
+[19-Apr-21 05:08 PM] martinoyo#2482
+Is this a bot?
+
+
+[19-Apr-21 05:08 PM] lightspeed393#5403
+well the erc-20 one you mentioned would be a token
+
+
+[19-Apr-21 05:08 PM] lightspeed393#5403
+there's 2 WSB coins and a token
+
+
+[19-Apr-21 05:09 PM] lightspeed393#5403
+I have no idea what's going on with the cryptonote version
+
+
+[19-Apr-21 05:09 PM] lightspeed393#5403
+and that ticker goes by WSBC
+
+
+[19-Apr-21 05:09 PM] ComputerGenie#7004
+no, I'm not a bot
+I'm just allergic to certain kinds of comments
+
+
+[19-Apr-21 05:11 PM] martinoyo#2482
+Wsbcoin.cash lists this discord channel as their community
+
+
+[19-Apr-21 05:11 PM] ComputerGenie#7004
+yes
+
+
+[19-Apr-21 05:12 PM] lightspeed393#5403
+yes, this is the channel
+
+
+[19-Apr-21 05:12 PM] martinoyo#2482
+And you have token and coin?
+
+
+[19-Apr-21 05:12 PM] martinoyo#2482
+Cexz is token?
+
+
+[19-Apr-21 05:12 PM] lightspeed393#5403
+no CexZ is this coin
+
+
+[19-Apr-21 05:12 PM] martinoyo#2482
+Why in pair?
+
+
+[19-Apr-21 05:13 PM] lightspeed393#5403
+CexZ is also listed on the site as an exchange
+
+
+[19-Apr-21 05:13 PM] martinoyo#2482
+What is the contract for the coin on cexz?
+
+
+[19-Apr-21 05:13 PM] lightspeed393#5403
+what do you mean contract?
+
+
+[19-Apr-21 05:13 PM] martinoyo#2482
+...
+
+
+[19-Apr-21 05:13 PM] lightspeed393#5403
+...
+
+
+[19-Apr-21 05:13 PM] ComputerGenie#7004
+coins don't have contracts
+
+
+[19-Apr-21 05:14 PM] ComputerGenie#7004
+they have full chains
+
+
+[19-Apr-21 05:14 PM] lightspeed393#5403
+erc-20 tokens have contracts, which this is not. This is a full independent blockchain
+
+
+[19-Apr-21 05:15 PM] lightspeed393#5403
+CexZ just runs the blockchain
+
+
+[19-Apr-21 05:15 PM] lightspeed393#5403
+all of the details are on the site. https://wsbcoin.cash
+
+{Embed}
+https://wsbcoin.cash/
+WallStreetBets Coin (WSB)
+A cryptocurrency coin made for the WallStreetBets community.
+
+
+[19-Apr-21 05:22 PM] martinoyo#2482
+Are there any charts for it? And is it gonna be listed on other exchanges? Do you think any of the wsb coin projects are going to get any aproval with the r/wsb comunity?
+
+
+[19-Apr-21 05:23 PM] lightspeed393#5403
+the only chart is the chart on cexz.ca. There's no plans for it to be listed anywhere else, but this is a community effort so if you have any in mind you'd like to try, feel free.
+
+
+[19-Apr-21 05:24 PM] lightspeed393#5403
+same thing with r/wsb. We've reached out in the past to a few of the wsb folks on twitter, but that's about it. Feel free to share with them.
+
+
+[19-Apr-21 05:25 PM] martinoyo#2482
+The wsb community on reddit strongly belives all wsb coins is a joke and a scam.
+
+
+[19-Apr-21 05:25 PM] lightspeed393#5403
+Well it's definitely not a scam. And not really a joke either. It was mostly started the demonstrate the potential of KMD tech, but anything's possible with it.
+
+
+[19-Apr-21 05:26 PM] martinoyo#2482
+I see the potential
+
+
+[19-Apr-21 05:27 PM] lightspeed393#5403
+I also have some premine funds from chmex still, that I'm happy to give out for tasks. tweets, a post of /r/wsb, etc. basically if you want to contribute you can be rewarded
+
+
+[19-Apr-21 05:27 PM] martinoyo#2482
+I am here because you have the original ticker, and if it takes of it must be this. And it can be boughy on cexz easy.
+
+
+[19-Apr-21 05:27 PM] martinoyo#2482
+Im in
+
+{Reactions}
+👍 
+
+[19-Apr-21 05:28 PM] martinoyo#2482
+Let me ask something more
+
+
+[19-Apr-21 05:28 PM] martinoyo#2482
+The total supply forever is 90b?
+
+
+[19-Apr-21 05:29 PM] lightspeed393#5403
+no, 90b was the premine. and there's 1 wsb blocks for mining
+
+
+[19-Apr-21 05:31 PM] martinoyo#2482
+So blocks can be mined forever?
+
+
+[19-Apr-21 05:33 PM] lightspeed393#5403
+yes
+
+
+[19-Apr-21 05:34 PM] martinoyo#2482
+What does that mean for the price of the coin?
+
+
+[19-Apr-21 05:35 PM] lightspeed393#5403
+I'll make no guesses on the economics of such thing. Typically I'd say a coin with unlimited supply makes no sense economically, but look at DOGE.. so your guess is as good as mine
+
+
+[19-Apr-21 05:36 PM] martinoyo#2482
+I see, that answers my question
+
+
+[19-Apr-21 05:36 PM] lightspeed393#5403
+but with 90 billion premine, I don't think 1 coin per block matters too much in the grand scheme.
+
+
+[19-Apr-21 05:36 PM] martinoyo#2482
+Can it be done with doge it can be done with wsb, and because
+
+
+[19-Apr-21 05:37 PM] ! zpool.ca | crackers#9719
+Can see pools here: https://miningpoolstats.stream/wallstreetbetscoin
+
+{Embed}
+https://miningpoolstats.stream/wallstreetbetscoin
+WallStreetBets Coin (WSB) Equihash | Mining Pools
+List of known WallStreetBets Coin pools (WSB) Equihash PoW algorithm. Live hashrate distribution, pool fees & minimum payment comparison. Mining Pools & Block Explorer
+
+{Reactions}
+👍 
+
+[19-Apr-21 05:43 PM] lightspeed393#5403
+you'd have to ask @CHMEX his thoughts on that
+
+
+[19-Apr-21 05:45 PM] martinoyo#2482
+I will not, i sendt him a friend request. Im new on discord.
+
+
+[19-Apr-21 05:46 PM] lightspeed393#5403
+well welcome. How did you hear about this WSB
+
+
+[19-Apr-21 05:47 PM] martinoyo#2482
+Im not sure, i was looking at all the wsb projects for days and was somewhat confused.
+
+
+[19-Apr-21 05:48 PM] martinoyo#2482
+Maybe i googled wsb coin
+
+{Reactions}
+👍 (2) 
+
+[19-Apr-21 06:15 PM] ejuliano#8606
+inflationary money is useful - and it helps to balance out because if there is only deflationary money then things will eventually get bloody in the streets - debtors vs savers;
+deflationary money as the base value layer and then anything else can be in abundance; that's what i'm thinking so far
+
+
+[19-Apr-21 06:17 PM] ejuliano#8606
+welcome @martinoyo 
+have you used AtomicDEX yet?
+
+
+[19-Apr-21 06:18 PM] martinoyo#2482
+Im in at cexz
+
+
+[19-Apr-21 06:19 PM] Speed420#3170
+anyone got a link for amd miner for WallStreetBets
+
+
+[19-Apr-21 06:20 PM] Speed420#3170
+cant seem to find a working one
+
+
+[19-Apr-21 06:21 PM] lightspeed393#5403
+https://discord.com/channels/412898016371015680/805266161289134160/825495043389128726
+
+
+[19-Apr-21 06:24 PM] Speed420#3170
+thanks but it does not open
+
+
+[19-Apr-21 06:29 PM] lightspeed393#5403
+@martinoyo coins for you reddit post
+5a75714ef16e36094ad6b9bd2ff14c03252327c9b8c8a1f11e3176013d8b4c94
+
+
+[19-Apr-21 06:29 PM] lightspeed393#5403
+maybe @ComputerGenie can share them again or google for any equihash 200,9 miner
+
+
+[19-Apr-21 06:48 PM] Speed420#3170
+all links seem to be dead from what i found in google
+
+
+[19-Apr-21 06:51 PM] lightspeed393#5403
+use the link, I shared above. I just tested and both linux and windows still work
+
+
+[19-Apr-21 06:51 PM] lightspeed393#5403
+or scroll up a bit, you'll see them
+
+
+[19-Apr-21 06:55 PM] ejuliano#8606
+do you have a wallet address on AtomicDEX?  it is the noncustodial wallet/DEX from komodo
+
+
+[19-Apr-21 07:07 PM] ComputerGenie#7004
+I don't think ewbf works for amd
+
+
+[19-Apr-21 07:07 PM] Speed420#3170
+used the link above i made a bat file when i run it. it does not open
+
+
+[19-Apr-21 07:07 PM] lightspeed393#5403
+whoops my bad
+
+
+[19-Apr-21 07:08 PM] Speed420#3170
+so no working amd miner
+
+
+[19-Apr-21 07:09 PM] lightspeed393#5403
+there is one somewhere, I'll look into it
+
+
+[19-Apr-21 07:09 PM] ComputerGenie#7004
+there are some amd miners, but I don't know what they are 
+I've only used nv since it worked better on equihash than amd
+
+
+[19-Apr-21 07:12 PM] lightspeed393#5403
+https://github.com/Optiminer/OptiminerZcash
+
+
+[19-Apr-21 07:12 PM] lightspeed393#5403
+https://bitcointalk.org/index.php?topic=1670733.0
+
+{Embed}
+https://bitcointalk.org/index.php?topic=1670733.0
+Claymore's ZCash/BTG AMD GPU Miner v12.6 (Windows/Linux)
+Claymore's ZCash/BTG AMD GPU Miner v12.6 (Windows/Linux)
+
+
+[19-Apr-21 07:13 PM] Speed420#3170
+links dead and folders empty tried them already
+
+
+[19-Apr-21 07:16 PM] lightspeed393#5403
+sorry just grabbed them from pirate pool
+
+
+[19-Apr-21 07:16 PM] lightspeed393#5403
+maybe someone has them around? that's all i got
+
+
+[19-Apr-21 07:16 PM] Speed420#3170
+thanks for the help guys. i will keep digging
+
+
+[19-Apr-21 11:00 PM] ComputerGenie#7004
+by spring of 2019, ASICs were cheaper than GPUs and ~16x more efficient so support for 200,9 was dropped out of almost all of the GPU miners
+I'll look some more in the am, but I haven't found anything reliable yet for AMD
+
+
+[20-Apr-21 01:20 AM] Spika#3007
+Hello,
+
+are we still doing WSB airdrop ?
+RSvm44uQovU1U8PwALgSiqfLW6Rr7LWnYV
+
+
+[20-Apr-21 02:19 AM] Spika#3007
+I have succeed to mine on spaceworks.com
+
+{Reactions}
+👍 
+
+[20-Apr-21 02:20 AM] Spika#3007
+But impossible on chickenpool.com or unimining.net. I have used ccminer so far any advices please?
+
+
+[20-Apr-21 04:13 AM] ComputerGenie#7004
+> But impossible on chickenpool.com
+what's the error you get?
+
+
+[20-Apr-21 04:22 AM] martinoyo#2482
+Ok forget about it
+
+
+[20-Apr-21 04:23 AM] ComputerGenie#7004
+chances are there's no volume because of the insanity of the human mind where people only use large sites because they are large sites and "no one uses that because no one uses that"
+if you want there to be tons of liquidity then go be the one to give it tons of liquidity
+
+
+[20-Apr-21 04:23 AM] martinoyo#2482
+👍
+
+{Reactions}
+👍 
+
+[20-Apr-21 06:57 AM] lightspeed393#5403
+61cba001601c54945789de2e39c4a5d241b074e7a2bae4fe52cef7789d11dad2
+
+
+[20-Apr-21 07:33 AM] martinoyo#2482
+I did some ads, 3 of them. I sendt you one screenshot
+
+
+[20-Apr-21 07:57 AM] Spika#3007
+Thank you
+
+
+[20-Apr-21 07:59 AM] lightspeed393#5403
+can you share links, so people from here can see them and go check it out
+
+
+[20-Apr-21 08:59 AM] martinoyo#2482
+https://www.linkpicture.com/view.php?img=LPic607efa1e13dec1965313938
+
+
+[20-Apr-21 09:10 AM] lightspeed393#5403
+2ff91be5cdd5e6e37cc52e265272841a7bea4cc13228dee44cbafd6796882ee6
+in the future links to the actual post would be preferred. Then others can go to it and comment more themselves if they want. Or share it.
+
+{Reactions}
+🍴 
+
+[20-Apr-21 05:25 PM] 花果山#5224
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/834223397130862663/unknown.png
+
+
+[20-Apr-21 05:31 PM] ComputerGenie#7004
+when no one creates blocks, transactions aren't put in blocks
+
+
+[20-Apr-21 05:33 PM] 花果山#5224
+There have been 11 hours without a block
+
+
+[20-Apr-21 05:34 PM] 花果山#5224
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/834225453736656936/unknown.png
+
+
+[20-Apr-21 05:35 PM] ComputerGenie#7004
+mine more and make more blocks
+
+
+[21-Apr-21 04:10 AM] martinoyo#2482
+For those who are new here, so that means no transactions are verified?
+
+
+[21-Apr-21 04:19 AM] martinoyo#2482
+Guys, what do you think about this. I am member in alot of facebookgroups regarding crypto and ico's. There are thousands of new hungry holders looking for airdrops and adventures. Eighter get them here for free drop, or to our own WSBcoin facebook page? Teach them to mine or something? Get automated mine?
+
+
+[21-Apr-21 05:20 AM] phm87#7395
+Yes, but be careful about facebook terms and conditions with cryptocurrencies ...
+
+
+[21-Apr-21 05:21 AM] phm87#7395
+@𝓓𝓻 𝓚𝓾𝓼𝓱 |🦄| Komodian can you add wsb as smartchain in your app ? Button mine with cpu or gpu makes sense for wsb
+
+
+[21-Apr-21 05:37 AM] ComputerGenie#7004
+not sure what you mean by "verified", but when no blocks are created then no new transactions have confirmations
+
+{Reactions}
+👍 
+
+[21-Apr-21 06:53 AM] martinoyo#2482
+So how should it work? "Like WSBcoin page on FB and post your wsb wallet adress and get how many free coins?
+
+
+[21-Apr-21 06:58 AM] martinoyo#2482
+Is the wsb/btc pair on cexz.ca the same as on atomicdex? Are major pairs adopted by other exchanges and are in sync, tell me how that works?
+
+
+[21-Apr-21 07:16 AM] phm87#7395
+These pairs are not in sync about price because of low volumes and low liquidity
+
+
+[21-Apr-21 07:16 AM] phm87#7395
+The story is that nobody buy wsb then few days ago, a guy bought 400$ worth of wsb.
+
+
+[21-Apr-21 07:31 AM] Dr Oz#3822
+Is mining currently active? I don't see any tx on the block explorers
+
+
+[21-Apr-21 07:48 AM] lightspeed393#5403
+there doesn't seem to be anyone mining on any of the pools https://miningpoolstats.stream/wallstreetbetscoin
+
+{Embed}
+https://miningpoolstats.stream/wallstreetbetscoin
+WallStreetBets Coin (WSB) Equihash | Mining Pools
+List of known WallStreetBets Coin pools (WSB) Equihash PoW algorithm. Live hashrate distribution, pool fees & minimum payment comparison. Mining Pools & Block Explorer
+
+
+[21-Apr-21 08:01 AM] lightspeed393#5403
+The issue is that someone yesterday started mining and raised the diff from the normal 200-500k range to 12 million and then just stopped mining. someone needs to mine with a lot of hash and lower it back down
+
+
+[21-Apr-21 08:23 AM] phm87#7395
+I thought it had adaptivePoW, doesn't it ?
+
+
+[21-Apr-21 08:29 AM] lightspeed393#5403
+nope: `-ac_name=WSB -ac_supply=90000000000 -ac_cc=3 -ac_reward=100000000`
+
+
+[21-Apr-21 09:07 AM] ComputerGenie#7004
+on the plus side it's only 3% of the diff of KMD
+
+
+[21-Apr-21 09:15 AM] 𝓓𝓻 𝓚𝓾𝓼𝓱 |🦄| Komodian#3853
+so yes it is completely doable, currently I try to have a rendering with the commands of kmd but then I think of supplementing it with all the assets chain, it is only a port to modify if the commands of the blockchain are the same, there is nothing to prevent that 😉
+For the moment the app is made in node but I think to redo the API in RUST when I would have real skills in RUST
+So thank you for warning me that I can have fun with WSB for mining in CPU or GPU
+If I get elected I could spend a lot of time making little tools like this 😇
+
+{Reactions}
+👍 
+
+[21-Apr-21 09:36 AM] martinoyo#2482
+I see, i got for 150 at cexz. The chart say total vol is 300 dollsrs or something and nothing to no movement. I find it somewhat wierd.
+
+
+[21-Apr-21 09:38 AM] phm87#7395
+you should synchronize a full node and launch few CPU threads mining on it, you'll get some easily. There is also a faucet on atomicexplorer.com please feel free to use it
+
+
+[21-Apr-21 09:42 AM] lightspeed393#5403
+no one is trading. No one really has traded much at all except the one person who bought the other day
+
+
+[21-Apr-21 09:43 AM] lightspeed393#5403
+According to this, WSB community is about to launch a token on BSC and are telling everyone that any other coin/token named WSB is a scam... 
+https://www.crowdfundinsider.com/2021/04/174382-wallstreetbets-to-launch-token-wsb-on-bscstarter/
+
+{Embed}
+https://www.crowdfundinsider.com/2021/04/174382-wallstreetbets-to-launch-token-wsb-on-bscstarter/
+WallStreetBets to Launch Token $WSB on BSCstarter
+WallStreetBets, a subreddit for investing, gained notoriety during the GameStop (NYSE:GME) share frenzy. Following all of the hoopla, one of the founders of the forum, as well as a moderator, launched 'WSB DApp,' according to a release. Today, WallStreetBets says it has selected BSCstarter to
+https://images-ext-2.discordapp.net/external/IFKHS2biprfZePA1ptWZj-BTx6rEAHEZLYWUbXfaqtw/https/www.crowdfundinsider.com/wp-content/uploads/2021/04/WallStreetBets.png
+
+{Reactions}
+🤔 (2) 
+
+[21-Apr-21 10:17 AM] martinoyo#2482
+I see, so the faucet creates the need for miners. What is the steps for mining you say?
+
+
+[21-Apr-21 10:17 AM] lightspeed393#5403
+any transaction creates the need for miners
+
+
+[21-Apr-21 10:17 AM] lightspeed393#5403
+without miners, blocks don't happen
+
+
+[21-Apr-21 10:18 AM] lightspeed393#5403
+without blocks, transactions don't confirm
+
+
+[21-Apr-21 10:18 AM] lightspeed393#5403
+mining can be done with CPU/GPU/or asic machines
+
+
+[21-Apr-21 10:18 AM] lightspeed393#5403
+CPU/GPU can be done on any computer.
+
+{Reactions}
+👍 (2) 
+
+[21-Apr-21 10:21 AM] 𝓓𝓻 𝓚𝓾𝓼𝓱 |🦄| Komodian#3853
+There is no bootstrap I sync
+```
+...
+   "blocks": 1647,
+   "longestchain": 83744,
+...
+```
+
+
+[21-Apr-21 11:12 AM] 𝓓𝓻 𝓚𝓾𝓼𝓱 |🦄| Komodian#3853
+its ok for me 
+
+```
+└──╼ $kmd -ac_name=WSB getmininginfo
+{
+  "blocks": 83744,
+  "currentblocksize": 1000,
+  "currentblocktx": 0,
+  "difficulty": 13023511.81728298,
+  "errors": "",
+  "genproclimit": 2,
+  "localsolps": 9.369880683650436,
+  "networksolps": 1795566,
+  "networkhashps": 1795566,
+  "pooledtx": 0,
+  "testnet": false,
+  "chain": "main",
+  "staking": false,
+  "generate": true,
+  "numthreads": 2
+}
+```
+
+
+[21-Apr-21 11:28 AM] lightspeed393#5403
+what do you mean?
+
+
+[21-Apr-21 11:30 AM] lightspeed393#5403
+did you get any blocks? diff is still at 13023511.81728298
+
+
+[21-Apr-21 11:33 AM] phm87#7395
+Sorry maybe I was confused, I thought that wsb and/or soulja had adaptivePoW but I checked and they don't have aPoW ... so yeah risk is high that chain is stuck until one asic ou GPU miner decide to push the chain ...
+
+
+[21-Apr-21 12:40 PM] 𝓓𝓻 𝓚𝓾𝓼𝓱 |🦄| Komodian#3853
+how can I push the chain to him?
+
+
+[21-Apr-21 12:42 PM] phm87#7395
+With gpus or asics at this diff high ...
+
+
+[21-Apr-21 12:43 PM] 𝓓𝓻 𝓚𝓾𝓼𝓱 |🦄| Komodian#3853
+ok doknc I could do nothing with my little machine 🤷
+
+
+[21-Apr-21 12:44 PM] phm87#7395
+Few weeks ago, I mined wsb with cpu ... but biggest miners arrived
+
+{Reactions}
+👍 
+
+[21-Apr-21 04:01 PM] lightspeed393#5403
+I guess the recent increase in WSB traffic has to do with that article I shared above.
+
+
+[21-Apr-21 04:01 PM] lightspeed393#5403
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/834564503031119902/wsb_google_search.png
+
+
+[21-Apr-21 04:21 PM] martinoyo#2482
+Yeah, there is alot of wsb projects going on now
+
+
+[21-Apr-21 04:23 PM] martinoyo#2482
+I see in the wsb chart on cexz.ca, a buy order of 1.8m wsb. Why isn't it reflected in the 24h vol?
+
+
+[21-Apr-21 04:23 PM] lightspeed393#5403
+because it's hasn't been traded. it's just on the orderbook
+
+
+[21-Apr-21 04:24 PM] martinoyo#2482
+Because there is no miners?
+
+
+[21-Apr-21 04:25 PM] lightspeed393#5403
+no because no one has sold to it
+
+
+[21-Apr-21 04:25 PM] lightspeed393#5403
+it's just an open order
+
+
+[21-Apr-21 04:25 PM] lightspeed393#5403
+24h volume is traded orders
+
+
+[21-Apr-21 04:25 PM] martinoyo#2482
+What do you mean by sold to it?
+
+
+[21-Apr-21 04:27 PM] lightspeed393#5403
+That order for 1,824,985 WSB at 0.00000001 is a buy order. Someone placed it, signifying that they will buy that much at that price. If you wanted to sell 100 coins, you could sell to it.
+
+
+[21-Apr-21 04:27 PM] lightspeed393#5403
+just as the orders above that in red are sell orders. People with WSB saying I'll sell x for y
+
+
+[21-Apr-21 04:28 PM] martinoyo#2482
+I see
+
+
+[21-Apr-21 04:28 PM] martinoyo#2482
+So why doesn't the exchange have pairs to sell?
+
+
+[21-Apr-21 04:29 PM] lightspeed393#5403
+that is the page/market for the WSB/BTC pair
+
+
+[21-Apr-21 04:29 PM] lightspeed393#5403
+for buying and selling
+
+
+[21-Apr-21 04:30 PM] lightspeed393#5403
+https://www.cexz.ca/trading/wsbbtc
+
+
+[21-Apr-21 04:31 PM] martinoyo#2482
+Yes i get it now, i am learing as i go
+
+
+[21-Apr-21 04:32 PM] martinoyo#2482
+The crypto world is enormous
+
+
+[21-Apr-21 04:39 PM] martinoyo#2482
+How to see total volume hold of wsb, are there no tracking?
+
+
+[21-Apr-21 08:58 PM] lightspeed393#5403
+I'm not quite sure what you mean. Total volume of trading?
+
+
+[22-Apr-21 01:46 AM] d4v#1141
+Hi team, New WSB Explorer has been setup. 
+**https://wsb.kmdtools.xyz/**
+
+{Reactions}
+👍 (3) 
+
+[22-Apr-21 01:46 AM] d4v#1141
+But it seems to stuck at block 83744. Also the same on some mining pool
+
+
+[22-Apr-21 01:49 AM] phm87#7395
+Chain is stalled due to big miners that left. One miner should burn money to unstuck chain and lower the diff
+
+
+[22-Apr-21 01:51 AM] phm87#7395
+But explorer works fine imo.
+Can you open a PR on <https://github.com/lightspeed393/WallStreetBetsCoin> then ping lightspeed ? Then it will be on official website :-)
+Thank you for the new explorer !
+
+
+[22-Apr-21 02:03 AM] d4v#1141
+Good idea. I just push a new PR with the new explorer I have deployed @lightspeed393 Hope it will be very usefull
+
+
+[22-Apr-21 03:26 AM] martinoyo#2482
+Yes thats what i am asking
+
+
+[22-Apr-21 05:47 AM] ComputerGenie#7004
+> One miner should burn money
+mining at whatever the diff is isn't "burning money"
+especially when you count the diff drop they get and the many super low diff blocks that will come with dropping the wall
+
+
+[22-Apr-21 06:20 AM] lightspeed393#5403
+thanks for the explorer. your PR is merged.
+
+
+[22-Apr-21 06:23 AM] lightspeed393#5403
+each exchange trades how much has been traded on their platform. you can see on CexZ the orders on the left side that have been bought/sold.
+
+
+[22-Apr-21 06:34 AM] d4v#1141
+Thanks for the PR @lightspeed393 . I take this opportunity to inform that i am candidate for this NN elections 😉 If you appreciate my work, may I ask your contribution. I will be glad to receive some vote2021 from WSB also.
+
+
+[22-Apr-21 06:35 AM] lightspeed393#5403
+I'm running for a NN as well 😉
+
+
+[22-Apr-21 06:35 AM] ComputerGenie#7004
+
+{Attachments}
+https://cdn.discordapp.com/attachments/805266161289134160/834784458551853077/ComputerGenie_2021.png
+
+
+[22-Apr-21 06:35 AM] lightspeed393#5403
+So if anyone here appreciates my contributions to WSB, please consider voting for me
+
+{Reactions}
+😉 
+
+[22-Apr-21 02:28 PM] martinoyo#2482
+I might vote. But my mind needs to be made clear.
+
+
+[22-Apr-21 02:30 PM] martinoyo#2482
+What is the % devide of the pre mined coins?
+
+
+[22-Apr-21 02:32 PM] lightspeed393#5403
+WSB was airdropped to all komodo holders at a rate of 100:1. So if an address had 10 KMD they got 1000 WSB. There are still premine coins left over though for other things but @CHMEX would have more details on that
+
+
+[22-Apr-21 03:45 PM] martinoyo#2482
+Would be nice to know of the number is high or low.
+
+
+[22-Apr-21 03:45 PM] martinoyo#2482
+Somebody needs to mine, people are starting to buy and use the faucet.
+
+
+[22-Apr-21 03:50 PM] lightspeed393#5403
+I mined for a few hours today, 1 block got mined and the diff barely changed.
+
+
+[22-Apr-21 03:51 PM] lightspeed393#5403
+something like 77 billion remain after the airdrop to KMD
+
+
+[22-Apr-21 03:57 PM] martinoyo#2482
+Wow, thats little to much. Are those going in the faucet, how long is that gonna run? I have made more ads.
+
+
+[22-Apr-21 03:58 PM] martinoyo#2482
+You mean on the chart?
+
+{Reactions}
+❓ 
+
+[22-Apr-21 04:05 PM] martinoyo#2482
+What diff? If nobody mines the pair isnt bought or sold? Thats what you are saying..
+
+
+[22-Apr-21 04:07 PM] lightspeed393#5403
+no the mining difficulty for the network. diff as in how hard it is to find a block. Trading on CexZ is offchain and doesn't require blocks being found. Only for receiving and withdrawing coins from your wallet.
+
+
+[22-Apr-21 04:08 PM] martinoyo#2482
+I see, so the cexz has its own deposits of wsb already
+
+
+[22-Apr-21 04:08 PM] lightspeed393#5403
+each user has their own deposits
+
+
+[22-Apr-21 04:09 PM] lightspeed393#5403
+then the exchange holds the coins. and gives you a balance to trade with. the trading itself is offchain.
+
+
+[22-Apr-21 04:09 PM] martinoyo#2482
+I see
+
+
+[22-Apr-21 04:10 PM] martinoyo#2482
+Maybe i can mine in the weekend. What does it mean that mining is difficult?
+
+
+[22-Apr-21 04:10 PM] lightspeed393#5403
+blocks aren't being found. which means transactions aren't being confirmed.
+
+
+[22-Apr-21 04:10 PM] martinoyo#2482
+So basicly it is many blocks and it takes more time?
+
+
+[22-Apr-21 04:12 PM] lightspeed393#5403
+no, few blocks. the difficulty is hard, so it requires lots of power to mine a block.
+
+
+[22-Apr-21 04:16 PM] martinoyo#2482
+What makes it hard? Few blocks sounds like it would be easier. Is that some kind of system to force people to mine all the time?
+
+
+[22-Apr-21 04:20 PM] lightspeed393#5403
+the mining difficulty algorithm made it hard because of a large miner using lots of power
+
+
+[22-Apr-21 04:22 PM] martinoyo#2482
+I see. You tell me how to mine tomorrow.
+
+
+[23-Apr-21 08:08 AM] martinoyo#2482
+Hey, where to receive from the other faucets on atomic explorer?  Couldn't find any wallets  for them..
+
+
+[23-Apr-21 08:12 AM] lightspeed393#5403
+use atomicdex, it has all the coins available
+
+
+[23-Apr-21 08:13 AM] lightspeed393#5403
+and RICK and MORTY are just test coins
+
+
+[23-Apr-21 08:17 AM] martinoyo#2482
+I couldn't add rick and morty on the atomicdex, but i entered a kmd adress from cexz and that worked..
+
+
+[23-Apr-21 08:19 AM] lightspeed393#5403
+cexz doesn't have RICK and MORTY so those coins are now lost
+
+
+[23-Apr-21 08:19 AM] lightspeed393#5403
+RICK and MORTY can definitely be added on atomicDEX
+
+
+[23-Apr-21 08:19 AM] lightspeed393#5403
+if you face an error, please report it
+
+
+[23-Apr-21 08:22 AM] martinoyo#2482
+Okey 😄 now it worked on atomicdex
+
+
+[23-Apr-21 08:23 AM] martinoyo#2482
+What about coqui and prlpay?
+
+
+[23-Apr-21 08:49 AM] cipi#4502
+COQUI is there, in AtomicDEX Desktop
+
+
+[23-Apr-21 01:20 PM] martinoyo#2482
+I don't get the point with non custodial exchange? Only use as i see is to host independent chains? And why have no synced pairs? Can the exchange be custodial and non custodial at the same time?
+
+
+[23-Apr-21 01:44 PM] lightspeed393#5403
+a CEX (centralized exchange) such as CexZ.ca is custodial, they hold your coins for you. This has downfalls, which have plagued crypto for years. The exchange could get hacked, then your coins are gone. The exchange owners could be malicious and steal your coins, etc. etc. 
+
+a DEX (decentralized exchange) such as atomicDEX is non custodial, you hold your own coins. They are safely in your own wallet until you make a swap. 
+
+AtomicDEX has unlimited pairs. you can swap WSB to any other coin that is on the DEX. Most centralized exchanges like CexZ only have one or a few markets, for example WSB only has WSB/BTC pair. And no, exchanges can't be custodial and non custodial at the same time.
+
+
+[23-Apr-21 02:07 PM] martinoyo#2482
+I don't see the point of having unsynced pairs, then its just a swap with charts. If there can't be both cust and uncust whats the point? Most exchanges offers wallets aswell anyway..
+
+
+[23-Apr-21 02:10 PM] lightspeed393#5403
+i'm not sure what you mean by unsynced pairs or cust and uncust. The DEX orderbooks work just the same as CEX orderbooks, but just not limited to one pair.
+
+
+[23-Apr-21 02:11 PM] lightspeed393#5403
+Centralized exchanges offer deposit addresses to **their wallet** but it's not a traditional wallet for you to use. As I said above, you don't control the coins, they do. So essentially they own the coins and give you an IOU, like a bank.
+
+
+[23-Apr-21 02:13 PM] lightspeed393#5403
+here's all the WSB pairs on atomicdex: https://dexplorer.io/coin/WSB
+
+{Embed}
+https://dexplorer.io/coin/WSB
+WSB Atomicdex overview | Dexplorer
+WSB atomicdex daily volume, market pairs & trade history & stats
+
+
+[23-Apr-21 02:13 PM] lightspeed393#5403
+just like the CEX, but instead of just WSB/BTC there's WSB/many coins
+
+
+[23-Apr-21 04:11 PM] martinoyo#2482
+What i mean by in sync is for example, isnt the btc/usdt pair on binance app the same signal as the btc/usdt pair on houbi and the other major exchanges?
+
+
+[23-Apr-21 04:12 PM] ComputerGenie#7004
+there's no direct link from one exchange's price to that of another other than the actions of traders
+the exchanges themselves don't manipulate the price based on some other exchange
+
+{Reactions}
+☝️ 
+
+[23-Apr-21 04:18 PM] lightspeed393#5403
+it's a free market, each exchange reflects the price of the people trading on it
+
+
+[23-Apr-21 04:20 PM] lightspeed393#5403
+there are traders who will buy on one exchange and sell on another exchange in scenarios when the prices differ. that's part of the reason they stay close to the same price. but they're by no means *synced* with eachother
+
+
+[23-Apr-21 04:21 PM] lightspeed393#5403
+the same thing is true with traditional markets, not just crypto exchanges/trading.
+
+
+[23-Apr-21 04:21 PM] lightspeed393#5403
+you should do some basic googling/research into trading and how exchanges and orderbooks work
+
+
+[23-Apr-21 04:45 PM] martinoyo#2482
+So how does the exchange fill the missing volume of buyers to match the price if it falls on one oaeticular exchange?
+
+
+[23-Apr-21 04:50 PM] lightspeed393#5403
+they do not match the price of other exchanges. The exchange is a tool to let buyer and sellers trade. simply that. the exchange itself does no buying or selling
+
+
+[23-Apr-21 04:50 PM] lightspeed393#5403
+I'm starting to feel like we're talking in circles around this topic
+
+
+[23-Apr-21 04:57 PM] martinoyo#2482
+It is hard to belive that all pairs i have looked at on coinbase, huobi global and binance app is similar and you tell me it is by chance?
+
+
+[23-Apr-21 05:33 PM] lightspeed393#5403
+https://discord.com/channels/412898016371015680/805266161289134160/835294019872620544
+
+
+[23-Apr-21 05:35 PM] lightspeed393#5403
+just look at the prices: https://coinmarketcap.com/currencies/bitcoin/markets/
+
+
+[23-Apr-21 05:35 PM] lightspeed393#5403
+not one of them is the exact same
+
+
+[24-Apr-21 03:16 AM] martinoyo#2482
+That proves my point? How can the price be almost the same over 100 exchanges with no correlation? That is statisticly impossible....
+
+
+[24-Apr-21 03:18 AM] martinoyo#2482
+For it to make sense by logic it has to be like this: the blockchain allows only blocks that match the price signal to be mined and keeps track of the price. The exchange fasilitates the transaction and holds the money, if the ask price is wrong the block is not created... how can there be any other way?
+
+
+[24-Apr-21 03:23 AM] ComputerGenie#7004
+> That proves my point? How can the price be almost the same over 100 exchanges with no correlation? 
+correlation is not causation
+if price on exchangeY is $1 and I can sell on exchangeX for $2 then I'll pull my order on exchangeY back to $2
+the exchange has no control over how I set my pricepoint, the overall market does
+
+
+[24-Apr-21 03:29 AM] martinoyo#2482
+It is impossible to belive that the price of bitcoin differs with maximum 1% over 100 exchanges in real time.
+
+
+[24-Apr-21 03:42 AM] ComputerGenie#7004
+then you underestimate the power of financial value to consumers
+
+
+[24-Apr-21 03:43 AM] ComputerGenie#7004
+buyers aren't going to pay measurably more than the next shop down the raod
+sellers aren't going to accept measurably less than the next shop down the road
+
+
+[24-Apr-21 03:45 AM] ComputerGenie#7004
+this isn't comparing McD's to Le Grand Louis
+
+
+[24-Apr-21 03:45 AM] ComputerGenie#7004
+a big mac is a big mac is a big mac
+
+
+[24-Apr-21 03:46 AM] martinoyo#2482
+It is totally impossible that people are that insync, i don't despute that the trend controlls the market, but there has to be some kind of signal governence.
+
+
+[24-Apr-21 03:46 AM] martinoyo#2482
+Or signal sharing
+
+
+[24-Apr-21 03:46 AM] martinoyo#2482
+Maybe we missunderstand each other
+
+
+[24-Apr-21 03:47 AM] martinoyo#2482
+Maybe the buy and sell orders together is what is the governance
+
+
+[24-Apr-21 03:47 AM] martinoyo#2482
+And the exchanges rely that
+
+
+[24-Apr-21 03:48 AM] ComputerGenie#7004
+a) many people on both sides use automated trading
+b) the only "signal" is literally looking at a and b and seeing the difference and adjusting
+c) big money players make the bigger moves and "joe average" moves with them either by choice or force (that's just how markets flow 99% of the time)
+
+
+[24-Apr-21 03:53 AM] martinoyo#2482
+If that is the case there will be no more exchanges coming, because that would mean all the coins are worth 0 again on your new exchange. And how is that gonna go about when the blocks say different..
+
+
+[24-Apr-21 03:55 AM] ComputerGenie#7004
+exchanges get their revenue from listing fees and skimming tx fees
+they care 0 about the actual trading or market prices
+
+
+[24-Apr-21 03:55 AM] martinoyo#2482
+So they follow signals
+
+
+[24-Apr-21 03:56 AM] ComputerGenie#7004
+no, literally the opposite of what I said
+
+
+[24-Apr-21 03:56 AM] ComputerGenie#7004
+they follow nothing
+they hardline prices and tell chains "fek off if you don't want to pay"
+
+
+[24-Apr-21 03:56 AM] martinoyo#2482
+Doesn't compute
+
+
+[24-Apr-21 03:57 AM] martinoyo#2482
+If it was like this it woulf all fall
+
+
+[24-Apr-21 03:57 AM] ComputerGenie#7004
+you can have the next BTC, have value that eclipse BTC and if you don't pay binance how ever much millions $, you aren't getting on there
+
+
+[24-Apr-21 03:58 AM] martinoyo#2482
+Thats because the structure matters not the inflated value
+
+
+[24-Apr-21 03:58 AM] ComputerGenie#7004
+and coinbase literally bragged to investors about how much income they make overcharging users for tx fees
+
+
+[24-Apr-21 03:59 AM] ComputerGenie#7004
+they don't care about structure, just the income
+
+
+[24-Apr-21 03:59 AM] martinoyo#2482
+Yeah i know, alot of exchanges charges alot. And they keep their wallets full.
+
+
+[24-Apr-21 04:00 AM] ComputerGenie#7004
+99.9% of exchanges don't even have someone on board that can go to terminal and type `coinx-cli help`
+
+
+[24-Apr-21 04:00 AM] martinoyo#2482
+I mean, the serious exchanges doesn't take on coins that doesn't have a propper percentage allocation of the coins. The concept and quality of the chain is what matters for the customer and the pro exchanges.
+
+
+[24-Apr-21 04:01 AM] martinoyo#2482
+I have very good experience with all the major exhanges. They replied promplty on all my requests.
+
+
+[24-Apr-21 04:02 AM] ComputerGenie#7004
+you can have the most perfect chain ever imagined, have a market cap of $2Quadrillion  USD, and still aren't getting it on the big exchanges unless you pay them their ginormous entry fee
+
+
+[24-Apr-21 04:04 AM] ComputerGenie#7004
+don't confuse customer support with tech support 😉
+
+{Reactions}
+😅 
+
+[24-Apr-21 04:06 AM] martinoyo#2482
+I understand that very well, but it is not that simple. And i am glad for that. When the owners own more than 50% of the coins and refuse to sell and give it to the market or the exchanges, they don't deserve the spot.
+
+
+[24-Apr-21 04:07 AM] ComputerGenie#7004
+> When the owners own more than 50% of the coins and refuse to sell and give it to the market or the exchanges, they don't deserve the spot.
+how about when there are no owners, there is no premine, and the coin exists open?
+#ARRR
+
+
+[24-Apr-21 04:08 AM] ComputerGenie#7004
+Exchanges are actually the barrier to entry
+
+
+[24-Apr-21 04:34 AM] ComputerGenie#7004
+also, not sure what any of this conversation has to do with #wsb 😕
+
+
+[24-Apr-21 04:38 AM] martinoyo#2482
+Yeah but that is the part of the game, the exchange is not gonna develop the system of your coin for you. If it got to a hold there is many reasons for it. Like you said its the community who dictades the liquidity, and when there is no mining, no faucets or live trading uportuneties, it holts. In the wsb case, what needs to be done in my oppinion is to remove all other pairs that doesn't belonge to komodo on cexz, and get a way to connect live trading pairs, then when your coins has volume, others would want to list it..
+
+
+[24-Apr-21 05:29 AM] Horneybearman#0736
+well you might want to research more of the coins on Coinbase then because ones like Chainlink are 90% owned by whales
+
+
+[24-Apr-21 06:02 AM] martinoyo#2482
+Only a few percentages of coins is in that situation, it doesn't have to be a problem, offcource there will be banks and other centralized entities that manage their own coins. We have to trust some of the employers and systems. Not all of them are bad actors.
+
+
+[24-Apr-21 08:00 AM] lightspeed393#5403
+did you even read the link I shared to you above about people trading between exchanges
+
+
+[24-Apr-21 08:02 AM] lightspeed393#5403
+it's simple, if BTC is 50000 on coinbase, and BTC is 52000 on Binance, then people will buy on coinbase until it reaches binance price because it's cheaper. Trust me the exchanges prices, aren't in sync, and surely not in sync from the blockchain. The blockchain or coin network and the prices on exchanges have nothing in common. in the early days of crypto, there were much larger price spreads between exchanges because there weren't as many traders arbing between each other.
+
+
+[24-Apr-21 08:03 AM] lightspeed393#5403
+In short: traders set the price on each exchange, there is no *syncing*. We've gone over this a lot now. and as @ComputerGenie said, #wsb channel isn't really the place to have this discussion, it's for WSB coin related things. Try #📈┃talk-trading and everyone will tell you the same thing. Please google and do some research on the topic. It's how markets work and have been working for many years
+
+
+[27-Apr-21 11:45 AM] MMuscio#6773
+hi!
+
+
+[27-Apr-21 11:45 AM] MMuscio#6773
+can someone guide me a bit into mining WSB?
+
+
+[27-Apr-21 11:46 AM] MMuscio#6773
+im not new to mining i just can't seem to find a pool and i dont know which sftware i need to use
+
+
+[27-Apr-21 11:46 AM] lightspeed393#5403
+hi there, WSB is an equihash coin and can be mined with GPU or ASIC's.
+
+
+[27-Apr-21 11:46 AM] lightspeed393#5403
+there are 3 pools listed on the site to choose from
+
+
+[27-Apr-21 11:46 AM] lightspeed393#5403
+https://wsbcoin.cash
+
+
+[27-Apr-21 11:46 AM] lightspeed393#5403
+actually 4 now I think zpool added it as well
+
+
+[27-Apr-21 11:51 AM] lightspeed393#5403
+software wise for GPU miners, there's a few cuda miners such as EWBF. I don't know of any amd ones
+
+
+[27-Apr-21 12:43 PM] MMuscio#6773
+thanks
+
+{Reactions}
+👍 
+
+[28-Apr-21 02:05 AM] Jupiter&Mars#3880
+Is this a typo, or is premine = 90,000,000,000 WSB?
+
+
+[28-Apr-21 02:52 AM] ComputerGenie#7004
+1,000,000,001
+<https://wsb.explorer.dexstats.info/block/08cf57c447b0d576032ebeff3f3127d07283afbe053888e0d62760f5613e9cc9>
+
+
+[28-Apr-21 05:03 AM] CHMEX#0686
+The premine is currect and subject to burn of 70bn 
+Each block from 1 to 90 or so has 1bn blockreward whuch can be considered premine
+
+{Reactions}
+🤔 
+
+[28-Apr-21 08:01 AM] ejuliano#8606
+what if there is a wsb foundation...
+of the 70bn to burn, keep 777 million for the wsb foundation or whatever group wants to take it forward; burn the rest 69+billion; and see what happens
+
+
+[28-Apr-21 08:01 AM] ejuliano#8606
+WSB bonfire
+
+
+[28-Apr-21 08:02 AM] ejuliano#8606
+get some traction on atomicDEX
+
+
+[28-Apr-21 08:03 AM] ejuliano#8606
+maybe you keep 7.77 billion, whatever
+
+
+[28-Apr-21 08:04 AM] ejuliano#8606
+it just might be time to drop the load
+
+
+[28-Apr-21 08:04 AM] ejuliano#8606
+any thoughts around this?
+
+
+[28-Apr-21 08:08 AM] CHMEX#0686
+The foundation has 77bn left i was thinking of using it to onboard another coin. Meaning airdrop to DOGE or another one...
+Then burn the rest. Problem is once it burned it burned 😎 no way to return
+
+
+[28-Apr-21 09:55 AM] ejuliano#8606
+yes onboard more communities!
+
+
+[28-Apr-21 09:56 AM] ejuliano#8606
+that's an even better option
+
+
+[28-Apr-21 09:57 AM] ejuliano#8606
+is there a way to do it: if you hold your doge on atomicdex/dogedex then your address will be airdropped with wsb accordingly
+
+
+[28-Apr-21 10:08 AM] CHMEX#0686
+yes that is possible
+
+
+[28-Apr-21 10:08 AM] CHMEX#0686
+need to sync a DOGE node and export the addresses with balances
+
+
+[28-Apr-21 10:38 AM] ejuliano#8606
+huge
+
+
+[28-Apr-21 10:56 AM] lightspeed393#5403
+👍
+
+
+[28-Apr-21 11:57 AM] Cryptoon#3362
+Is that the same wsb I was airdropped for kmd as well?
+
+
+[28-Apr-21 11:58 AM] lightspeed393#5403
+this WSB is the airdropped WSB you received based on KMD balance
+
+
+[28-Apr-21 12:23 PM] Cryptoon#3362
+So
+
+
+[28-Apr-21 12:23 PM] Cryptoon#3362
+I am rich man?
+
+
+[28-Apr-21 12:24 PM] Cryptoon#3362
+:Illshowyoumycharts:
+
+
+[28-Apr-21 01:26 PM] ejuliano#8606
+😹👾🤠
+
+
+[28-Apr-21 06:32 PM] ! zpool.ca | crackers#9719
+🚀
+
+
+[29-Apr-21 01:40 AM] martinoyo#2482
+Hi guys, I made WSBcoin page on facebook, we got over 100 page likes so far with a few days of adds. Will you send me some coins for my hard work, so i can hodl, lightspeed?
+
+
+[29-Apr-21 01:42 AM] martinoyo#2482
+How is the coin allocation going? We want to see a list of percentages of where the coins are located.
+
+
+[29-Apr-21 02:56 AM] CHMEX#0686
+https://dexstats.info/richlist.php?asset=WSB
+
+{Embed}
+https://dexstats.info/richlist.php?asset=WSB
+Dexstats Dashboard - Richlist for WSB Assetchain
+Richlist for KMD and WSB Assetchains
+
+
+[29-Apr-21 03:29 AM] martinoyo#2482
+Who owns the wallet with 85%?
+
+
+[29-Apr-21 03:43 AM] CHMEX#0686
+Foundation = myself atm
+
+
+[29-Apr-21 04:29 AM] martinoyo#2482
+I see.. do you have the rick and morty coins too? You know.. few wants to buy it when owners own more than 50% or something..
+
+
+[29-Apr-21 04:54 AM] CHMEX#0686
+Yes they eill be burned in time
+
+
+[29-Apr-21 04:54 AM] CHMEX#0686
+Rick and morty are testcoins and the dev team have the key to those
+
+
+[29-Apr-21 08:05 AM] lightspeed393#5403
+as I've said before, please link to it for all to see
+
+
+[29-Apr-21 12:07 PM] lightspeed393#5403
+Someone is mining WSB on spaceworks pool with the incorrect address `0xEC3711D7a522432Adf50041d39Aa797af26b182b`. If you'd like to get the coins you're mining, you need to use a WSB address.
+
+
+[29-Apr-21 12:37 PM] ComputerGenie#7004
+:shexy:
+
+
+[29-Apr-21 12:38 PM] ComputerGenie#7004
+it's kinda sad, really, how much ETH has ruined people into thinking everything is a token
+
+{Reactions}
+☝️ 
+
+[29-Apr-21 12:40 PM] Cryptoon#3362
+Consider them burned
+
+
+[29-Apr-21 12:43 PM] lightspeed393#5403
+consider them mine 😁  unless the miner notices and reaches out, then I'd be happy to return them
+
+
+[29-Apr-21 12:44 PM] lightspeed393#5403
+I agree. And tokens don't have mining, so I'd think being a miner they'd know the difference
+
+
+[29-Apr-21 12:59 PM] ComputerGenie#7004
+literally what I do after 2 days and no contact back
+
+
+[29-Apr-21 01:49 PM] martinoyo#2482
+https://facebook.com/WSBcoin
+
+{Embed}
+https://facebook.com/WSBcoin
+Log into Facebook
+Log into Facebook to start sharing and connecting with your friends, family, and people you know.
+
+
+[29-Apr-21 02:01 PM] lightspeed393#5403
+nice work, keep it up. I'm going to add it to the site
+
+
+[29-Apr-21 02:01 PM] lightspeed393#5403
+same address?
+
+
+[29-Apr-21 02:13 PM] martinoyo#2482
+Alright, yes same adress.
+
+
+[29-Apr-21 02:18 PM] lightspeed393#5403
+96a4e02f00dd0d3adf29a4b6ffd45338be721b7515083641c0497d2a65613593
+
+
+[29-Apr-21 02:31 PM] lightspeed393#5403
+I added the facebook group, miningpoolstats.stream, and KomodoOcean as a wallet option to the site. https://wsbcoin.cash
+
+{Embed}
+https://wsbcoin.cash/
+WallStreetBets Coin (WSB)
+A cryptocurrency coin made for the WallStreetBets community.
+
+
+[29-Apr-21 06:23 PM] ejuliano#8606
+https://twitter.com/CoinWsb/status/1387940494441844741?s=20
+
+{Embed}
+WSB Coin (@CoinWsb)
+https://twitter.com/CoinWsb/status/1387940494441844741?s=20
+Thanks to a community member $WSB is now on Facebook.  See the website for the link:
+We've also updated the wallets and mining links. Komodo Ocean QT now supports WSB Coin.
+
+If you want to earn some $WSB join the discord chat in @KomodoPlatform 
+
+https://t.co/fAfZmyfzvt
+Twitter
+
+
+[30-Apr-21 03:52 PM] mahsum#8881
+RTghfnsSdrquShB95pyKuxPgqPaMLe5GNs
+
+
+[01-May-21 04:11 AM] SnooPickles#6002
+Sooo, where dont earn WSB in this discord chat?
+
+
+[01-May-21 04:11 AM] SnooPickles#6002
+Do i*
+
+
+[02-May-21 04:52 AM] 花果山#5224
+https://www.atomicexplorer.com/#/faucet/wsb
+
+{Embed}
+https://www.atomicexplorer.com/
+Atomic Explorer
+Atomic Explorer
+
+
+[02-May-21 05:17 AM] 花果山#5224
+@mahsum https://wsb.explorer.dexstats.info/tx/144c1bcd1d8d45853d61e075f188c21e12457e6892c30808ad4e264e9c073896
+
+
+[02-May-21 05:21 AM] ComputerGenie#7004
+wsb needs a tipbot
+
+{Reactions}
+komodopog (5) 
+
+[02-May-21 04:02 PM] 花果山#5224
+stand by
+
+{Reactions}
+👀 
+
+[02-May-21 04:06 PM] lightspeed393#5403
+I'm happy to reward people with WSB for doing things that benefit the community. For instance @martinoyo made some posts on reddit and made a facebook group.
+
+
+[04-May-21 04:19 AM] SnooPickles#6002
+Wsb has no real value does it ?
+
+
+[04-May-21 04:20 AM] ComputerGenie#7004
+like any other coin, it has whatever value 2 people wanting to use it decide it has
+
+{Reactions}
+yassinkmodo 
+
+[04-May-21 05:42 PM] lightspeed393#5403
+https://twitter.com/_cexz_/status/1389714369911693318
+
+{Embed}
+CexZ (@_cexz_)
+https://twitter.com/_cexz_/status/1389714369911693318
+We've added $KMD @KomodoPlatform  markets for $WSB @CoinWsb $SPACE @SpacecoinSPACE and $SOULJA @souljaboy https://t.co/UWUzyos6IL #cexz #exchange #bitcoin #komodo #komodoplatform #altcoin
+Twitter
+
+
+[04-May-21 05:42 PM] lightspeed393#5403
+https://www.cexz.ca/trading/wsbkmd
+
+{Embed}
+https://www.cexz.ca/trading/wsbkmd
+CexZ
+CexZ - crypto-currency trading platform
+
+
+[04-May-21 08:20 PM] Frostmourne#6446
+how to earn WSB coin 🙂
+
+
+[04-May-21 08:25 PM] lightspeed393#5403
+https://discord.com/channels/412898016371015680/805266161289134160/838552058251444254
+
+
+[04-May-21 08:26 PM] Frostmourne#6446
+👍
+
+
+[05-May-21 01:53 PM] prashant#5658
+!kmdtip faucet
+
+
+[05-May-21 01:53 PM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Please use #🤑┃tip-bot to talk to TipBot.
+
+
+[27-Jul-21 08:06 AM] Beggar#1601
+#🤑┃tip-bot
+
+
+[27-Jul-21 08:10 AM] Beggar#1601
+no, but you can earn here https://www.atomicexplorer.com/#/faucet/wsb
+
+{Embed}
+https://www.atomicexplorer.com/
+Atomic Explorer
+Atomic Explorer
+
+
+[27-Jul-21 08:10 AM] Beggar#1601
+!kmdtip faucet
+
+
+[27-Jul-21 08:10 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+Please use #🤑┃tip-bot to talk to TipBot.
+
+
+[02-Dec-21 11:34 AM] ComputerGenie#7004
+Believing the utility of this coin has run its course,🐔 will be removing this coin in the next 12-36 hours.
+Final payments will be made at such time.
+
+{Reactions}
+👌 (2) 👍 (2) 
+
+==============================================================
+Exported 1,093 message(s)
+==============================================================
