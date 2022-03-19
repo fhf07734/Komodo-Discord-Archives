@@ -1,0 +1,1119 @@
+==============================================================
+Guild: Komodo
+Channel: AMA Archive / antara-ama-july2019
+Topic: Post your question about Komodo Antara Framework to this channel.
+==============================================================
+
+[26-Jun-19 11:26 AM] moneystacks#7758
+@everyone We'll be holding an AMA on Discord about the Antara Framework and Komodo's upcoming rebrand. This is a great time to get your questions in. The AMA will go live on the 2nd of July 5 PM UTC. 
+
+Before you ask your questions, make sure to read our announcement blog post about the Antara Framework: https://komodoplatform.com/komodo-is-introducing-antara-an-end-to-end-smart-chain-development-framework/
+
+And also make sure to visit the Evolution Website:  https://evolve.komodoplatform.com/
+
+We are asking our community to post their questions in this channel, and we'll choose the most popular ones based on how many ⬆  each question receives. We will also answer questions live, if time permits.
+
+{Reactions}
+👍 (7) 😎 (6) 😃 (5) Komodo (6) 
+
+[26-Jun-19 12:14 PM] ༺α☬丂Ӧ¢ ༒ ༻#5987
+What does Antara mean? Why was it chosen, how does it relate to the Komodo theme? Etc
+
+{Reactions}
+🙂 (2) 🔼 (4) 
+
+[26-Jun-19 12:42 PM] Malti#3948
+Is the Evolution more rebrand focused than push marketing?
+
+{Reactions}
+🔼 (3) ⬆ 
+
+[26-Jun-19 01:10 PM] Cryptoon#3362
+What is the general timeline of marketing efforts following the rebrand. When will the campaign be fully finished?
+
+{Reactions}
+🔼 (14) 
+
+[26-Jun-19 01:15 PM] Zee 🎮👉🤑#6672
+How does the KMD token fit into the Antara ecosystem other than using Komodo's dpow?
+
+{Reactions}
+🔼 (20) ⬆ (7) 
+
+[26-Jun-19 01:43 PM] Chipmoon#7477
+are there any potential customers already lined up to use Antara framework?
+
+{Reactions}
+🔼 (17) ⬆ (5) 
+
+[28-Jun-19 08:39 AM] osyed#0739
+What is the benefit of Antera to KMD holders? The blog post says that Antara chains are independent of the Komodo chain and KMD coin. So how is this related to Komodo ?
+
+
+[28-Jun-19 08:47 AM] jl777c#5810
+https://medium.com/@jameslee777/tokenomics-are-for-tokens-not-for-coins-3f262d0aa4b3
+
+{Embed}
+https://medium.com/@jameslee777/tokenomics-are-for-tokens-not-for-coins-3f262d0aa4b3
+Tokenomics are for tokens, not for coins! - jl777 - Medium
+I see a lot of questions about if KMD doesnt charge any KMD for usage of its platform “why should anybody hodl KMD”. Implicit in the…
+
+
+[28-Jun-19 10:04 AM] Zee 🎮👉🤑#6672
+@jl777c would you mind being a little bit more transparent with your response rather than just providing a link? Based on your article I can assume you are under the premise that it is KMD's inherent interoperability that gives it value within the ecosystem. This ultimately creates a "spider web" effect of value as the ecosystem grows larger?
+
+{Reactions}
+⬆ (2) 
+
+[28-Jun-19 10:28 AM] Audo#5667
+Yes, we will for sure provide an answer to your question @Zee 🎮👉🤑 . It's a great question.
+
+
+[28-Jun-19 11:18 AM] Zee 🎮👉🤑#6672
+okay thank you so much @Audo. Sorry 😅
+
+
+[28-Jun-19 12:36 PM] yorklab#7270
+How KMD fits into the scheme of things is the number one question I get. It would be good to give a thorough explanation with specifics and even examples if possible.
+
+{Reactions}
+🔼 (3) 
+
+[28-Jun-19 01:48 PM] yorklab#7270
+Antara will be hosted on AWS, can you explain the relationship of Antara and Chain Lizard; perhaps Chain Lizard is how to launch Antara?
+
+{Reactions}
+🔼 (2) 
+
+[29-Jun-19 10:35 PM] Deleted User#0000
+I think we can solve the Oracle problem only if big companies that already have trust participate. How will Komodo solve the Oracle problem?
+
+{Reactions}
+🔼 
+
+[01-Jul-19 05:35 AM] moneystacks#7758
+@everyone friendly reminder that our AMA will go live tomorrow, 5PM UTC. Drop your questions in this channel regarding the Antara Framework and Komodo's upcoming rebrand.
+
+
+[01-Jul-19 05:37 AM] Malti#3948
+are all the 'komodo' products going to have a rebrand? (I'm talking new improved UI Agama, mm2.0 in a new design, etc etc?)
+
+{Reactions}
+🔼 (4) 
+
+[01-Jul-19 05:38 AM] ZaferGraph (Don't DM)#5482
+@moneystacks when web redesign?
+
+{Reactions}
+🔼 (3) 
+
+[01-Jul-19 05:51 AM] Dookie Blossom III#2624
+Any airdrops planned?
+
+
+[01-Jul-19 05:54 AM] Dookie Blossom III#2624
+Will spv scaling solution contribute to a pirate chain mobile wallet?
+
+{Reactions}
+⬆ (3) 
+
+[01-Jul-19 05:56 AM] Dookie Blossom III#2624
+Is agama mobile safe?
+
+
+[01-Jul-19 06:13 AM] stimhack#7088
+How is komodo being rebranded?
+
+
+[01-Jul-19 06:17 AM] Audo#5667
+Few other notes and clarifications about information that we have already shared.
+
+ - The much waited rebrand is going live on July 15th together with the Antara Framework launch.
+ - Antara is a framework used to develop customizeable and purpose-built Smart Chains
+ - 'Chain Lizard' was an codename for the blockchain generator app. The branded name is "Antara Composer" (Antara Smart Chain Composer)
+ - Antara Composer app is used to launch new Smart Chains on AWS infastructure within a minute (new product)
+ - AtomicDEX is a multi-coin wallet with atomic swap support. It is currently in closed beta & heavy testing. (new product)
+
+P.S. Remember to upvote ⬆ questions that you think should get an answer. We haven't received tons of questions yet but incase we do those upvotes will help us pick the most requested ones.
+
+Here's a list of rebrand related articles we have recently published. They will help anyone get up to speed about Komodo.
+
+```
+https://komodoplatform.com/the-promise-challenges-and-evolution-of-the-blockchain-industry/
+https://komodoplatform.com/18-ways-to-customize-blockchain/
+https://komodoplatform.com/limitations-of-smart-contract-platforms/
+https://komodoplatform.com/komodo-is-introducing-antara-an-end-to-end-smart-chain-development-framework/
+https://komodoplatform.com/permissionless-innovation/
+https://komodoplatform.com/sovereign-and-independent-blockchains-on-komodo/
+https://komodoplatform.com/no-blockchain-is-an-island-interoperability-in-the-antara-framework/
+```
+
+Please ask more questions 😃
+
+
+[01-Jul-19 06:25 AM] Pascal6500#1126
+Is there any visual changes in terms of logo, cashtag, or company name?
+
+{Reactions}
+⬆ (4) 
+
+[01-Jul-19 06:39 AM] Lennart#9331
+I would love to read some real world examples of what the different modules could be used for. So we can imagine what is possible with the new Antara framework. I think it is important for people to understand so they can spread the word.
+
+{Reactions}
+👍 (7) 🔼 (10) 
+
+[01-Jul-19 06:40 AM] jacman#4756
+I’m interested in hardware wallet support for atomic swaps.
+
+{Reactions}
+🔼 (7) 
+
+[01-Jul-19 06:48 AM] Aquila#3547
+Could you compare and contrast Smart Chains with Sidechains in the style of, for example, Horizen
+
+{Reactions}
+🔼 (7) 
+
+[01-Jul-19 07:10 AM] Malti#3948
+!kmdtip rain 10.0
+
+{Reactions}
+🙌 (3) 
+
+[01-Jul-19 07:10 AM] KMD TipBot#0077
+@Typhooni @新币交流QQ群：424495679 @saltyminer @bountyXhunter @Bit CG @dragon @walkerisduder @faneatiku @CMaurice @johnyk @az @Fair Weather Trader @wildpot @D2D privacyalternatives.com @WeakHeart @NoWorries @olaszlo @William_LeBeau (4,4) @sgt-pot-smoker @Deltazulu @boroghor @Aerodynamic @molody(Pungoio) @LoPhatMelk | CEO of $ARRR @show @makiavelic @Mesholator @yidakee @OrionDeimos @Jammer @nax @Smokey @Tomai @Shudabdik @Magnum Wallet @zawy @Multtari @ronyi @Chubbles @Xenoflex @cryptobytes @JLRG @QuMike @Mörökölli (Boogeyman) @VoskCoin @Freefall @shane @legenda @Stickyrice @Angelina @Lennart @The Crow @modereck @Delfrod @TwilightPunkster K64 @akibebi @degencoinflipper @NERDiT - www.vidulum.app @naezith @j4ys0n @DanielSimplyVC @rudi @munhenhos @IamTraderWoohoo @svcrypto @0xShroomTek @Muxa84 @Mr.B @d3ullist @TegoCryptoman @JeffVader @BitExcellence @bitstardev @Adina @PUMPnJUMP @Van_alek6 @nasbats @Mr.Fisherguz @ChristelShepperd @LordTricky @Keppie @Txid @scubapanda @GlorymanRTS @Carma @Cad @SadykovT @Syroeht @Artakush @Growdigi
+
+
+[01-Jul-19 07:10 AM] KMD TipBot#0077
+@alexander @Chazmainian Devil @UnclePeter @Pack @MasterGlenn @Locutus @c2k @Xcell @Sergiobit82 @jl777c @loewe1631 @1111 @ShingoMurata @Oszy @ollsanek @Cya @jenkie @Gilagathor @devpro @jahrastar_ivxx @Clem' @CryptoTony @codemanX @Decker @Arwinkim @That_Guy8 @Seiman @OOKAHH @Kiruel @And1 @Ian @TheHaricover @Darki @Xi @shatterbb @CryptoNinjaa @Out of Gravity @blubbi @isaacfufu @imjoe28 @Deleted User @raetsch @ImKitteh @tomtomdrum @808 @dimxy @DrDunn @tropis @Joe @Deleted User @TVDM @Charrasse @2fast2hurius @Cryptoon @Ebus @Milo @김경호 @hastrup @Katelady @artem.pikulin @alexdemari @MedaR |  GetZEN & PipeFlare @wang @Bianca_NL @ChiaPudding @Johnny B. @mrflibble @iazid @jackielove4u @Babsoft @*PopS* @mdfkbtc @rocket @yorklab @🚀📈edsky📉🤯 @Dave123 @osoese @Master Den @TeXvA @smdmitry @unquale @Andy @QLee @Blackbeard @_rgod @Moody @D3b0 @CrisF @barv @Cy_Baer
+
+
+[01-Jul-19 07:10 AM] KMD TipBot#0077
+@KOSIUS @elfendor @trublade @CombatWombat @Draeth | $ARRR/$NLIFE/BPSAA @BoBot-LunaMaxi @appie008 @Greer @SHossain @lelonex @Johnny Gonzo @Zach @DLT_Novice @Jonathan @cryptodude @tese @ZZZ @・unlucky @autark @camthegeek @Link @DenJohn @spoodach @bswilmington @🛡bstr156 @TheGemologist @mehdi ben jemaa @george4 @Tboxtra @santiki @Pwnz @Mattrob987 @robot2trade @Pascal6500 @Branden @ZaferGraph (Don't DM) @Bast @Pat ✨ @miles @nik @DG @Crypto Ali @FallingKnife @SMS @Fury @Vlad @elizapetrovska @Evitor @mapl3sn0w @n3rfed @dm3371 @김일용 @gilardh @JMLsig @sharkfinbite @p1nke @jjimmyss @aditzu @Oberst @Mr.Brunes @sidhujag @Hashem @Van @squirrelman @Rada @B.B. @josephnicholas GMT+8 @Vattalus @DELANOID @Lodde @Mr.Anto @Mutte @FUDmeBaby @eye @KomaSteve @Mixic 🐬 @Donis0007 @beavis @Scara @Steelrat @ginoangelo @lord king @dcn @Jonathan @sgp @gdo369 @Valhalla @duka511 @Damelon @Franck Guillaud
+
+
+[01-Jul-19 07:10 AM] KMD TipBot#0077
+@Irbayhan @Monsieur ... @jonatascastro @Timmeeyyy @akiii @shreedx @Drmarcy @IxCaiusxI @edminbit @Morgan @Giraffe @David Lee @jdamm30 @CSPDemon @Kuilef (Ilya) @GET_ANDRYHA @Xuan @wsh_virgine @✅ locutus @leecrypto @KaizySozy @prakharam @CryptoprenuerUK @ajay @Railrain @Lidware @blockzilla | Blockdaemon @jlillyfl @Art.F @Igor Barinov @David714 @Ignacio @730N @Feyd-Rautha @gordownage @gustown @maurojose @zdraste16 @JimD @Ignes @kibo @anons123 @Tom.T @deadstep @pommik @Sagittarius @CeeSharp @PatrickH @gnodnuy @drip @Andy. @Marcowow @gkae @danssolutions @sparrow
+
+
+[01-Jul-19 07:10 AM] KMD TipBot#0077
+
+{Embed}
+TipBot
+@Malti (Malti#3948)
+You rained **9.9999984 KMD** onto 328 online user(s)
+**(0.0304878 KMD)** each
+
+
+[01-Jul-19 07:11 AM] SHossain#0007
+thanks @Malti . i'm rich now 🍻
+
+{Reactions}
+👆🏽 (5) troll_lol (4) abusedsmily (5) 
+
+[01-Jul-19 07:11 AM] Malti#3948
+ask some Antara questions people 😉
+
+
+[01-Jul-19 07:12 AM] Malti#3948
+wanted to make some AMA advertisement :abusedsmily:
+
+
+[01-Jul-19 07:23 AM] n64#1985
+1. how does ANTARA affect ecosystem projects such as GAMECREDITS? 2. Is there a way forward for ecosystem projects such as GAMECREDITS to be tied closer together to GAME (possibilities including a token swap GAME—> KMD, GAME—>assetchain, etc)?
+
+{Reactions}
+🔼 (2) 
+
+[01-Jul-19 07:40 AM] Freeman99#0852
+Why do we feel that a rebrand is needed ?
+
+
+[01-Jul-19 07:42 AM] Pumtchak#0362
+Does Etherium tokens can switch to Antara smart chain ? If so, how ?
+
+{Reactions}
+🔼 (13) 
+
+[01-Jul-19 07:51 AM] DeMarco#5676
+How is Antara (if at all) related to asset chains Eg. REVs, SN, DEX etc
+
+{Reactions}
+🔼 (8) 
+
+[01-Jul-19 08:14 AM] Audo#5667
+Reminder: @jl777c & @ca333 are participating in the AMA. Feel free to also ask very hard technical questions!
+
+{Reactions}
+Komodo (4) 
+
+[01-Jul-19 08:16 AM] jspook16#3059
+Will Antara provide a simple solution to migrate other coins to kmd ecosystem? If so, which coins will be supported and will there be a cost?
+
+{Reactions}
+🔼 (13) 
+
+[01-Jul-19 08:22 AM] jspook16#3059
+I understand Antara to be the composition of multiple smart contracts. Will the launch of Antara provide visual examples (videos, pictures) of how smart contracts can be used in the real world. It would be nice to visualize smart contracts rather than just text documentation.
+
+
+[01-Jul-19 08:25 AM] jspook16#3059
+Will Antara Composer provide options for kmd notarization at creation time? Will the fee be collected at that time and if so for what timeframe ( year, two years etc)
+
+
+[01-Jul-19 08:30 AM] jspook16#3059
+Does the Komodo team plan to provide liquidity for the atomicdex app for the initial launch?
+
+
+[01-Jul-19 08:33 AM] yorklab#7270
+How does the recent hack affect Antara's ability to provide white lable products like the Multi-Asset wallets?
+
+
+[01-Jul-19 08:36 AM] jspook16#3059
+Will the rebrand provide a single point of access to all of the KMD ecosystem information? (Supernet investments,payouts infrastructure, charts, flow diagrams,who controls what, team member composition and roles, etc .. one place where someone can read/understand about the entire kmd ecosystem)
+
+{Reactions}
+🔼 (6) 
+
+[01-Jul-19 08:44 AM] Chipmoon#7477
+will questions vote with triangle be answered? or only question with ⬆ be answered? 😄
+
+{Reactions}
+⬆ 🔼 
+
+[01-Jul-19 08:46 AM] jspook16#3059
+For a simple user, once an asset chain is created, is the user expected to provide the hardware processing power to run the chain or is there an option to use AWS for the new chain in Antara?
+
+{Reactions}
+⬆ (7) 
+
+[01-Jul-19 08:49 AM] actionslacks#4072
+whats is the status of crypto conditions development? when antara launches will cc's be ready to go with documentation, example applications, walkthroughs, etc? bringing some erc 20 projects over to antara would be a massive get, are there any in the works?
+
+{Reactions}
+🔼 (3) 
+
+[01-Jul-19 08:50 AM] dan.#2473
+is this initiative being led by the KMD team, or is this still being outsourced?
+
+
+[01-Jul-19 08:50 AM] jspook16#3059
+With the launch of Antara do you expect chain spamming? Is there a plan of action or do you not expect any impact to normal operation if spamming occurs?
+
+{Reactions}
+⬆ (2) 
+
+[01-Jul-19 08:52 AM] jspook16#3059
+This may not be the place to ask this but was nSPV secretly in the works? First time I heard about it was when mentioned here in official channel. What does nSPV do for crypto?
+
+
+[01-Jul-19 08:55 AM] Audo#5667
+@dan. can you specify which iniative you are referring to?
+
+
+[01-Jul-19 08:57 AM] dan.#2473
+this was the name of the agency mentioned before: https://www.ideasbynature.com/
+
+{Embed}
+admin
+https://www.ideasbynature.com/
+Ideas By Nature | A Blockchain Agency | Branding, Design, & Develo...
+Ideas By Nature is the world’s leading agency focused solely on the design and development of blockchain products. Located in the heart of Denver, CO.
+https://images-ext-2.discordapp.net/external/FP1bwrXqG0ZyR8-f1eXvtJMXxAWrKizaNAvnWkjXv9E/https/www.ideasbynature.com/wp-content/uploads/2018/11/ibn-featured.jpg
+
+
+[01-Jul-19 08:58 AM] jspook16#3059
+With all of this capability (Antara, Composer, nSPV, atomicdex, rebrand) being released, what is in the works for future capability that can be shared with the public? What are the next planned steps in growing the KMD ecosystem?
+
+{Reactions}
+🔼 (8) 
+
+[01-Jul-19 08:58 AM] dan.#2473
+@Audo i am referring to this rebranding initiative
+
+
+[01-Jul-19 08:59 AM] Audo#5667
+ok, thank you
+
+
+[01-Jul-19 09:03 AM] jspook16#3059
+More of a request than an inquiry. Can @jl777c  give us a history overview of the birth of Komodo? Initially during ico I saw this as a privacy coin but it has grown into a full blown ecosystem. It would be nice to give AMA participants an overview of how this all started (BTCD era or even before that)
+
+{Reactions}
+treasure (2) 🔼 (2) 
+
+[01-Jul-19 09:05 AM] dan.#2473
+following up to @jspook16 when is the jl777 netflix documentary coming out?
+
+{Reactions}
+🔥 (9) 
+
+[01-Jul-19 09:09 AM] jspook16#3059
+It's been a while since the rebrand was initiated. Can a list be provided of what all the rebrand actually entails? I'm sure it wasn't just a website refresh.
+
+{Reactions}
+🔼 (8) 
+
+[01-Jul-19 09:11 AM] dan.#2473
+I had heard there is a new logo. Is the new logo the black and white version of the current logo? or a completely different logo (obviously this will be answered on the 15th, but looking for hints today ;))
+
+{Reactions}
+🔼 (4) 
+
+[01-Jul-19 09:14 AM] ComputerGenie#7004
+https://discordapp.com/channels/412898016371015680/593494871365386250/595241589018722345
+
+
+[01-Jul-19 09:18 AM] dan.#2473
+Does Antara refer to any of these meanings? https://en.wikipedia.org/wiki/Antara
+
+{Embed}
+https://en.wikipedia.org/wiki/Antara
+Antara
+Antara may refer to:
+
+Antara (music)
+Antara (musical instrument)
+Antara (news agency), Indonesian news agency
+Antara (Peru), a mountain in Peru
+Antara Polanco, upscale shopping mall in Polanco, Mexico City
+Antara Gange, a mountain in Karnataka, India
+Opel Antara, a sport util...
+
+
+[01-Jul-19 12:26 PM] PHBA2061 | VietStaking Validator#2530
+is the Antara framework based on Komodo's Custom Consensus/Crypto Conditions (CC) ? If I understand correctly then the Antara framework is the ready-to-use/industry version of Komodo's CC ?
+
+{Reactions}
+🔼 (9) 
+
+[01-Jul-19 12:31 PM] Mische#6695
+How much does it cost to start a chain using antara ?
+Is there some kind of demo-version to try it and play around with it?
+
+
+[01-Jul-19 01:03 PM] richardt#2807
+How close is the relationship between KMD and AWS?  Are both parties working closely together to accomplish this launch?
+
+{Reactions}
+⬆ (6) 
+
+[01-Jul-19 01:39 PM] Tylor zkFS#8280
+Woah... K Coin
+
+
+[01-Jul-19 01:41 PM] Tylor zkFS#8280
+Just the letter K
+
+
+[01-Jul-19 02:14 PM] twittler#0062
+how does the ecosystem generate volume or sees possibilities to drain in volume from existing exchanges.  and will it be accessible to us. citizens  in regards of being securities or not? is there some strategic consensus in sight to align with political decisions to make it easy for payment providers to build a fiat ramp into kmd dex and ecosystems? and how will that align then with privacy concerns.
+
+{Reactions}
+⬆ (6) 
+
+[01-Jul-19 02:18 PM] polycryptoblog#1173
+@dan. https://en.m.wiktionary.org/wiki/अन्तर
+
+{Embed}
+https://en.m.wiktionary.org/wiki/%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%B0
+%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%B0
+
+
+[01-Jul-19 02:18 PM] twittler#0062
+can the 1m tps target be reached any time soon or does it have to? can it outpace lighning network at some point which has about 17.5m tps theoretically  atm? think it was like 500tps per node and 35k nodes no?
+
+{Reactions}
+⬆ (3) 
+
+[01-Jul-19 02:19 PM] dan.#2473
+@polycryptoblog  `a secret, hidden thing` ?
+
+
+[01-Jul-19 02:19 PM] SHossain#0007
+can also be described as ❤
+
+
+[01-Jul-19 02:19 PM] SHossain#0007
+`heart`
+
+
+[01-Jul-19 02:20 PM] dan.#2473
+interesting. definitely original, and i like it much more than CC. especially antara composer. antara composer doesnt sound as daunting as CC tbh
+
+
+[01-Jul-19 02:20 PM] SHossain#0007
+`soul, heart, supreme soul`
+
+
+[01-Jul-19 02:20 PM] SHossain#0007
+that's how i see it
+
+
+[01-Jul-19 02:21 PM] polycryptoblog#1173
+Also defined what’s inside ,  parody of Intel
+
+
+[01-Jul-19 02:25 PM] dan.#2473
+is `dpowed` getting renamed? something like `chainlinked` (im kidding lol)
+
+
+[01-Jul-19 02:46 PM] twittler#0062
+and will there be a possibility to collect rewards directly from  coldwallets without having to trust a 3rd party processor
+
+
+[01-Jul-19 03:51 PM] JeffKaufman#2468
+How does this work?
+
+
+[01-Jul-19 03:54 PM] polycryptoblog#1173
+Ask a question and the team will answer it
+
+
+[01-Jul-19 11:32 PM] acidbird#7266
+Hi all. How is the hiring of new devs going, did you find necessary ppl and they became part of the team already? If not, how many applications received, do you see interest in those two vacancies from the relevant developers looking for jobs? Share some insights please. Thank you.
+
+{Reactions}
+🔼 (3) 
+
+[02-Jul-19 07:34 AM] Deleted User#0000
+What is the role of the government in the Komodo ecosystem?
+
+{Reactions}
+🔼 (4) 
+
+[02-Jul-19 09:00 AM] Madman#0440
+when do start ama ?
+
+
+[02-Jul-19 09:02 AM] Madman#0440
+when would we take answers ?
+
+
+[02-Jul-19 09:08 AM] Malti#3948
+5pm UTC so in about an hour @Madman
+
+
+[02-Jul-19 09:44 AM] Audo#5667
+15 min 😮
+
+
+[02-Jul-19 09:52 AM] BlackJesus#6161
+Hmmm
+
+
+[02-Jul-19 10:02 AM] KoReAnKiD#1961
+What kind of ama is this
+
+
+[02-Jul-19 10:03 AM] n64#1985
+it’s an ASK ME ANYTHING, says nothing about answers sir 🤣
+
+{Reactions}
+🙊 (4) troll_thuglife (3) 
+
+[02-Jul-19 10:04 AM] KoReAnKiD#1961
+AMA with 5 ppl. Goodbye
+
+{Reactions}
+😀 (3) troll_thuglife 
+
+[02-Jul-19 10:05 AM] Mylo#8306
+2 mins
+
+
+[02-Jul-19 10:06 AM] moneystacks#7758 (pinned)
+@everyone, thank you for your questions and participation in our AMA about the Antara Framework and Komodo's upcoming rebrand. We have collected all questions, answered them individually and summarized them in a Google Docs. 
+
+You can read it here:
+https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit?usp=sharing
+
+If you have any other questions drop it here, our team will answer them live for the next 30 minutes.
+
+{Embed}
+https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit?usp=sharing
+Antara & Rebrand AMA
+Antara Framework & Rebrand AMA July 2nd, 2019    Komodo is an open, modular multi-chain platform with blockchain development roots going back to 2014. Since Komodo is a fork of Zcash, it started its journey as a privacy-oriented project, but has since expanded far beyond that...
+https://images-ext-2.discordapp.net/external/Q89uX_VLrUJVe-9erSqMwKXwWp-FujvjuN-oF0B4iQc/https/lh4.googleusercontent.com/iLjAzOkHOsUsBfM2vVkD6YatDfEN1QV5nYIyxus20qfcca_Hv_TPbtTQQSpxcUTxm0lEFw%3Dw1200-h630-p
+
+{Reactions}
+👍 (3) 
+
+[02-Jul-19 10:06 AM] Daniel CP#2020
+@KoReAnKiD the whole team is here 😄  If you have questions, now is the time to ask!
+
+
+[02-Jul-19 10:07 AM] gone for some time#3337
+When moon ?
+
+{Reactions}
+troll_compadre 
+
+[02-Jul-19 10:07 AM] TonyL#3577
+Tuesday
+
+{Reactions}
+👌 
+
+[02-Jul-19 10:07 AM] KoReAnKiD#1961
+Lol
+
+
+[02-Jul-19 10:07 AM] Daniel CP#2020
+Ask Elon
+
+
+[02-Jul-19 10:07 AM] Zagor#9032
+saturn by friday
+
+{Reactions}
+😃 (2) 
+
+[02-Jul-19 10:08 AM] phm87#7395
+When doom ? I'd like to buy some cheap kmd
+
+
+[02-Jul-19 10:08 AM] LocoMB#8593
+collected Questions?
+
+
+[02-Jul-19 10:08 AM] D3b0#9761
+never
+
+
+[02-Jul-19 10:08 AM] SHossain#0007
+Moon on Tuesday at 7:77pm
+
+{Reactions}
+Komodo (4) 
+
+[02-Jul-19 10:08 AM] phm87#7395
+Thank you
+
+
+[02-Jul-19 10:08 AM] Mylo#8306
+Pinned a message.
+
+
+[02-Jul-19 10:08 AM] susmech#0540
+Are there established companies showing interest in Komodo platform? If so, which ones and in which sectors
+
+{Reactions}
+😃 (2) 👌 ⬆ 
+
+[02-Jul-19 10:09 AM] n64#1985
+wen mewn?
+
+
+[02-Jul-19 10:09 AM] RNI#2666
+so on july 15th (with antara) the full rebrand will be completed?
+
+
+[02-Jul-19 10:10 AM] susmech#0540
+How is the future of Komodo looking like in terms of growth, business plan and strategy?
+
+
+[02-Jul-19 10:10 AM] n64#1985
+I am the dev for gamecredits, and I’m interested in offering GAME holders an option to migrate to an antara smart chain. Where can I get more information on ANTARA so I can evaluate the effort needed to migrate?
+
+
+[02-Jul-19 10:10 AM] phm87#7395
+I found no roadmap. Is there one roadmap ?
+
+
+[02-Jul-19 10:11 AM] phm87#7395
+(I am also interested in past roadmap: nxt, basilik, ...)
+
+
+[02-Jul-19 10:11 AM] susmech#0540
+What are the weakness of Komodo platform and what are the komodo as an organization?
+
+
+[02-Jul-19 10:11 AM] Audo#5667
+@susmech  We will revel our plans on the rebrand
+
+{Reactions}
+👍 (4) 
+
+[02-Jul-19 10:11 AM] Mylo#8306
+Yes there are a few strategic opportunities with established companies.   Cannot name names, this is is how the business side of things works unfortunately.
+
+{Reactions}
+👍 (5) 
+
+[02-Jul-19 10:12 AM] Daniel CP#2020
+@susmech  Komodo has come a long way in terms of strategy and business development. As others have noted, we can't disclose much right now because of NDAs but things are moving in the right direction for sure
+
+{Reactions}
+👍 (4) 
+
+[02-Jul-19 10:13 AM] n2okpride#1967
+@n64 Please DM me and we can coordinate a call to discuss.
+
+
+[02-Jul-19 10:13 AM] susmech#0540
+I can understand about NDA.
+
+
+[02-Jul-19 10:14 AM] Audo#5667
+@susmech "How is the future of Komodo looking like in terms of growth, business plan and strategy?"
+
+That'sa big question. I believe this answer also answers your question
+https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit#heading=h.nipunyh3g5cu
+
+{Embed}
+https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit
+Antara & Rebrand AMA
+Antara Framework & Rebrand AMA July 2nd, 2019    Komodo is an open, modular multi-chain platform with blockchain development roots going back to 2014. Since Komodo is a fork of Zcash, it started its journey as a privacy-oriented project, but has since expanded far beyond that...
+https://images-ext-2.discordapp.net/external/Q89uX_VLrUJVe-9erSqMwKXwWp-FujvjuN-oF0B4iQc/https/lh4.googleusercontent.com/iLjAzOkHOsUsBfM2vVkD6YatDfEN1QV5nYIyxus20qfcca_Hv_TPbtTQQSpxcUTxm0lEFw%3Dw1200-h630-p
+
+{Reactions}
+👍 🇮🇩 
+
+[02-Jul-19 10:15 AM] susmech#0540
+Is there a plan to have a business consultancy team within Komodo platform
+
+
+[02-Jul-19 10:15 AM] Daniel CP#2020
+As for weaknesses, that's a great question. I'd say our biggest weakness is extreme decentralization! Which might sound crazy. But we have a globally distributed team, with people on 4 different continents, so it's tough to coordinate meeting times and stay in step with each other
+
+
+[02-Jul-19 10:15 AM] Daniel CP#2020
+We end up communicating through chat most of the time
+
+
+[02-Jul-19 10:16 AM] TS#7923
+@susmech We are an open ecosystem and we are building out a partner network of solution providers and consultancies.
+
+
+[02-Jul-19 10:17 AM] susmech#0540
+I am asking about a weakness that is a risk for company. Like SWOT analysis
+
+
+[02-Jul-19 10:17 AM] Mylo#8306
+Roadmap:  yes there are details to be revealed at & after rebrand.
+Past roadmaps: Komodo did not exist during NXT, sure a lot of the technology was planned in those days, which culminated in komodo platform v1.   Basilik mode is a tech question to ask in a dev channel.  I'm not familiar with it.
+
+{Reactions}
+😍 
+
+[02-Jul-19 10:18 AM] Audo#5667
+our technology offerings are very wide and that creates few challagnes for us, 1) our tech is little harder to understand, 2) we will have to rely on partners to build industry specific solutions (thus the partner network).
+
+I think of it like this: Komodo is building a 'horizontal' platform and others have to come and build 'vertical' platforms that reach the end customers/use cases.
+
+{Reactions}
+👍 (5) 
+
+[02-Jul-19 10:18 AM] phm87#7395
+Me neither but I saw it when reading iguana code
+
+
+[02-Jul-19 10:19 AM] susmech#0540
+What is one message that you would like community members to spread about Komodo?
+
+{Reactions}
+👍 (4) 
+
+[02-Jul-19 10:19 AM] Mylo#8306
+@susmech re: partner network:
+```
+if you look at hashicorps partner model, it's why i used for inspiration
+https://www.hashicorp.com/ecosystem/become-a-partner
+```
+
+
+[02-Jul-19 10:20 AM] Zee 🎮👉🤑#6672
+great AMA guys! answered some really important questions about Antara and the future of Komodo. I am super excited to see the Atomic DEX in action with all of these sidechain coins built on Antara.
+
+
+[02-Jul-19 10:20 AM] susmech#0540
+Thanks for responses!
+
+
+[02-Jul-19 10:20 AM] TS#7923
+@Zee 🎮👉🤑 the first one is going to happen sooner than you probably think 😉
+
+{Reactions}
+😃 👌 💪 Komodo (3) 
+
+[02-Jul-19 10:21 AM] acidbird#7266
+My question is still unanswered and the part about KMD token is not very clear, it seems that it exists only as some kind of brand and had no real utility..
+
+
+[02-Jul-19 10:21 AM] cyberwasp32#3471
+what is the use case for KMD token/coin
+
+
+[02-Jul-19 10:22 AM] Daniel CP#2020
+@acidbird   KMD pays for dPOW security and scaling in the KMD ecosystem
+
+
+[02-Jul-19 10:22 AM] Zee 🎮👉🤑#6672
+@acidbird open the doc. they answered that question pretty extensively in part 2 of the AMA
+
+
+[02-Jul-19 10:22 AM] Daniel CP#2020
+Holders get 5% active user rewards
+
+
+[02-Jul-19 10:22 AM] BlackJesus#6161
+@acidbird kmd is used to do notarizations you must pay kmd to be dPOW secured
+
+
+[02-Jul-19 10:23 AM] Audo#5667
+Here was the answer about the role of KMD for those who didn't see it yet: https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit#heading=h.wle56i9acsoi
+
+{Embed}
+https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit
+Antara & Rebrand AMA
+Antara Framework & Rebrand AMA July 2nd, 2019    Komodo is an open, modular multi-chain platform with blockchain development roots going back to 2014. Since Komodo is a fork of Zcash, it started its journey as a privacy-oriented project, but has since expanded far beyond that...
+https://images-ext-2.discordapp.net/external/Q89uX_VLrUJVe-9erSqMwKXwWp-FujvjuN-oF0B4iQc/https/lh4.googleusercontent.com/iLjAzOkHOsUsBfM2vVkD6YatDfEN1QV5nYIyxus20qfcca_Hv_TPbtTQQSpxcUTxm0lEFw%3Dw1200-h630-p
+
+
+[02-Jul-19 10:23 AM] Daniel CP#2020
+A few other reasons to hold KMD:
+
+-- you get to participate in the annual Notary Node election, which allows KMD holders to vote for and choose 32 new operators
+
+-- KMD is the primary trading pair for every other listed asset on the upcoming DEX
+
+
+[02-Jul-19 10:23 AM] tcy#8221
+What role does instadbx play in the rebranding
+
+
+[02-Jul-19 10:24 AM] cyberwasp32#3471
+thx will review
+
+
+[02-Jul-19 10:24 AM] RNI#2666
+will the DEX be released with antara on july 15th?
+
+
+[02-Jul-19 10:26 AM] NA57Y#3803
+Whats the Best wallet for claiming my kmd?
+
+
+[02-Jul-19 10:26 AM] acidbird#7266
+Well, everything mentioned above about the KMD was with us before the rebranding as well, i don’t see new ways to bring value to KMD token. What about my initial question, about hiring process which was posted 9:32 am?
+
+
+[02-Jul-19 10:26 AM] TS#7923
+@RNI I think there is a chance you'll hear about it eariler. This doesn't mean "release" but we will expand the closed beta shortly.
+
+{Reactions}
+👍 
+
+[02-Jul-19 10:27 AM] bobtessier#9260
+Amazon partnership ?
+
+{Reactions}
+👌 (2) 
+
+[02-Jul-19 10:27 AM] susmech#0540
+How is Komodo as a company sustained during crypto winter, whats long term sustainability strategy
+
+
+[02-Jul-19 10:27 AM] Audo#5667
+@tcy "What role does instadbx play in the rebranding"
+
+InstantDEX is now AtomicDEX ... we haven't realeased all the details yet they are still coming. This is our thirdgeneration DEX, much more stable and usable than the previous versions. The new DEX product is part of the rebrand.
+
+
+[02-Jul-19 10:28 AM] acidbird#7266
+@bobtessier nope, usage of their infrastructure, you can check the ama for that.
+
+
+[02-Jul-19 10:28 AM] susmech#0540
+How would Komodo describe current state of blockchain
+
+
+[02-Jul-19 10:28 AM] Mylo#8306
+KMD has always been a currency within the ecosystem, for ecosystem services.   These services have and are being built out continually.  Currently dPoW, liquidity between assets in the dexfee market.   In the future, the antara modules will be able to utilize kmd for the sidechains that will be created for some features.   At the moment half a dozen building block modules have been built. 
+With the ability to add sidechains with purpose built functionality on top of these building blocks (like a token system, gateways to 3rd party chains so they can get tech upgrades by tokenizing onto a kmd sidechain....& any future building blocks). 
+There are currently 255 slots for building blocks.   When we need more building blocks, we can add more slots when that time comes.
+
+{Reactions}
+👍 
+
+[02-Jul-19 10:28 AM] Daniel CP#2020
+@acidbird  The scaling features are a new use case for KMD that came with Antara
+
+
+[02-Jul-19 10:29 AM] Daniel CP#2020
+Also, @acidbird , what you said  is not true. Komodo is an advanced technology partner of AWS
+
+
+[02-Jul-19 10:29 AM] TS#7923
+@susmech Komodo's financial position is stable. The company was even hiring when BTC was 3k (that's when I joined, hah!). We were maybe the only project expanding during the bear market!
+
+{Reactions}
+👍 (3) 
+
+[02-Jul-19 10:30 AM] TS#7923
+We've always been very careful wih our spending (no lambos), and use the funds to develop groundbreaking tech.
+
+{Reactions}
+💯 (7) 👌 (4) Komodo (4) 
+
+[02-Jul-19 10:30 AM] Daniel CP#2020
+https://aws.amazon.com/partners/find/partnerdetails/?n=Komodo%20Platform&id=0010L00001sCXagQAG
+
+{Embed}
+https://aws.amazon.com/partners/find/partnerdetails/?n=Komodo%20Platform&id=0010L00001sCXagQAG
+APN Partner Profile
+https://images-ext-2.discordapp.net/external/fTZorzdv1LKtWddB-YGcAVpLXGwirmkLptUsDwJ0MqM/https/a0.awsstatic.com/main/images/logos/aws_logo_smile_179x109.png
+
+
+[02-Jul-19 10:30 AM] Mylo#8306
+@NA57Y i use verus'  wallet.
+
+
+[02-Jul-19 10:31 AM] NA57Y#3803
+Thank you! @Mylo
+
+{Reactions}
+👌 
+
+[02-Jul-19 10:31 AM] acidbird#7266
+@Daniel CP alright, does AWS mention this anywhere we can check this status? What ot really means? How many advanced technology partners they have atm?
+
+
+[02-Jul-19 10:31 AM] RNI#2666
+when new kmd agama wallet?
+
+
+[02-Jul-19 10:32 AM] acidbird#7266
+@Daniel CP APN Partner descriptions and reported qualifications are provided by the APN Partner and are not verified by AWS
+
+
+[02-Jul-19 10:33 AM] Daniel CP#2020
+@acidbird I'm sorry but that's not accurate
+
+
+[02-Jul-19 10:33 AM] Daniel CP#2020
+Please check the link above
+
+
+[02-Jul-19 10:33 AM] Daniel CP#2020
+Yes, AWS has many Advanced Technology Partners but Komodo is one of the few crypto projects that have reached this milestone
+
+{Reactions}
+💯 Komodo (7) 
+
+[02-Jul-19 10:34 AM] Audo#5667
+@susmech "How would Komodo describe current state of blockchain"
+
+Good question, we wrote an entire blog post about it some time ago: https://komodoplatform.com/the-promise-challenges-and-evolution-of-the-blockchain-industry/
+
+As a summary, I think most projects are "technology followers" who take what the industry currently perceives as the best technology. They cut and pase an incrementally better solution together as their solution rather than look at the fundamentals and come up with new innovations that could revolutionize the industry.
+
+{Embed}
+https://komodoplatform.com/the-promise-challenges-and-evolution-of-the-blockchain-industry/
+The Promise, Challenges, and Evolution of The Blockchain Industry ...
+For years, technology visionaries have proclaimed that blockchain will bring change to the world through increased decentralization, transparency, and efficiency. These ideas brought many passionate people into the industry. However, as the community continued to grow the und...
+https://images-ext-1.discordapp.net/external/5s5SrfNNgY_v4jaSZgZslkvxNkQyZyIiWBp23QRGgFo/https/komodoplatform.com/wp-content/uploads/2019/03/Evolution-Campaign-Banner-1024x512.png
+
+
+[02-Jul-19 10:34 AM] acidbird#7266
+@Daniel CP what is not accurate?
+
+
+[02-Jul-19 10:35 AM] Daniel CP#2020
+https://aws.amazon.com/partners/technology/journey/
+
+{Embed}
+https://aws.amazon.com/partners/technology/journey/
+APN Technology Partner Journey
+Join the AWS Partner Network
+https://images-ext-2.discordapp.net/external/fTZorzdv1LKtWddB-YGcAVpLXGwirmkLptUsDwJ0MqM/https/a0.awsstatic.com/main/images/logos/aws_logo_smile_179x109.png
+
+
+[02-Jul-19 10:35 AM] Mylo#8306
+@acidbird aws has hundreds of tech partners in different industries.
+the aws partner network is tiered, and at different levels the partners work together to form new industry solutions.
+blockchain tech is a new industry, and komodo is an innovator - so that's where we want to be, creating new industry solutions.
+
+
+[02-Jul-19 10:36 AM] acidbird#7266
+My initial question: Hi all. How is the hiring of new devs going, did you find necessary ppl and they became part of the team already? If not, how many applications received, do you see interest in those two vacancies from the relevant developers looking for jobs? Share some insights please. Thank you.
+
+
+[02-Jul-19 10:37 AM] acidbird#7266
+@Mylo ok, thx, let’s wait and see 😊
+
+
+[02-Jul-19 10:38 AM] dan.#2473
+how many years of operating funds does kmd have left ?
+
+
+[02-Jul-19 10:42 AM] Pepe#1333
+When will the iOS app of Agama be available in the App Store ?
+
+
+[02-Jul-19 10:43 AM] Mylo#8306
+@acidbird hiring process is HR related.   i'm not in HR, however this is how i've seen komodo work with new hires:
+ - we will always be ready to collaborate with talented devs with enthusiasm, drive & an exceptional history.   we cannot turn back great devs.   some devs and other techs have approached, and then find their own niche - sometimes it's in kmd, sometimes it's in a related project.  there are dozens of related projects with finite timelines.   and then these devs/techs move onto some other project.   then they drop in & out to fill some technology requirement.
+ - when an advert is posted, there is a need to fill a gap for a longer term & hone the skills of the new hire to specific tech or specific new tech usually.   there is a focus on not creating technical debt.  technical debt is not a sustainable way to run a project like kmd, from a HR perspective.
+
+
+[02-Jul-19 10:44 AM] yorklab#7270
+Are devs paid in KMD or BTC?
+
+
+[02-Jul-19 10:44 AM] n2okpride#1967
+@yorklab Devs are paid in their choice of KMD, BTC, or a split.
+
+
+[02-Jul-19 10:46 AM] vogelfreund88#4534
+Have komodo a relation  or contact with blockcollider?
+
+
+[02-Jul-19 10:46 AM] Tav#8476
+Will nSPV be used with the new atomicDEX?
+
+
+[02-Jul-19 10:47 AM] TS#7923
+@vogelfreund88 No
+
+
+[02-Jul-19 10:47 AM] Mylo#8306
+@Tav the role of nSPV is to scale to millions of users.   at release, atomic dex cannot use nSPV because it hasn't been implemented yet.
+
+
+[02-Jul-19 10:47 AM] vogelfreund88#4534
+Is it an option?
+
+
+[02-Jul-19 10:48 AM] Mylo#8306
+Yes it is aimed to be implemented, of course.   Komodo's goal is to create technological solutions for mass adoption.
+
+
+[02-Jul-19 10:48 AM] TS#7923
+@vogelfreund88 We haven't discussed this internally, but will take a look
+
+
+[02-Jul-19 10:49 AM] Audo#5667
+Guys, we are wrapping up the AMA. Last chance for final questions 😃
+
+
+[02-Jul-19 10:50 AM] CS_#7849
+@Audo when Dex on Android?  When New Marketing Strategy?
+
+
+[02-Jul-19 10:50 AM] acidbird#7266
+Any fortune 500 companies or big names are testing antara or interested in it already?
+
+
+[02-Jul-19 10:50 AM] RNI#2666
+how will july 15th look like? i mean where will we see the new logo first? 😃
+
+
+[02-Jul-19 10:50 AM] vogelfreund88#4534
+Any airdrops for kmd holder, in the future?
+
+
+[02-Jul-19 10:51 AM] TS#7923
+@CS_ We will open the AtomicDEX beta to a wider audience soon. Very soon 😃 Everything else, you'll need to wait until the 15 July.
+
+
+[02-Jul-19 10:51 AM] Audo#5667
+You will have to wait for our DEX announcement for more info about that.
+
+We are about to roll out the rebrand and we have a strategy thought out.
+
+
+[02-Jul-19 10:51 AM] n2okpride#1967
+@acidbird We cannot disclose such information as we have strict NDAs in place.
+
+
+[02-Jul-19 10:51 AM] CS_#7849
+Any new partnerships?
+
+
+[02-Jul-19 10:51 AM] acidbird#7266
+@n2okpride i am not asking for names
+
+{Reactions}
+👌 (4) 
+
+[02-Jul-19 10:51 AM] yorklab#7270
+Will zero confirmation swaps be implemented?
+
+
+[02-Jul-19 10:56 AM] TS#7923
+@acidbird Yes, there is interest from very big companies. We can't disclose more at this point.
+
+{Reactions}
+👌 (28) 😃 (16) 😏 (12) 🚀 (13) 🌕 (9) 🤔 (10) 💦 (4) treasure (10) Komodo (18) troll_thuglife (10) 
+
+[02-Jul-19 10:57 AM] Blackbeard#9921
+😱
+
+
+[02-Jul-19 10:57 AM] Cryptoon#3362
+my body :shexy:
+
+{Reactions}
+💯 (2) 
+
+[02-Jul-19 10:58 AM] acidbird#7266
+@TS thank you, that is the answer i was looking for 😊 will keep fingers crossed!
+
+{Reactions}
+🤞 (7) 
+
+[02-Jul-19 10:58 AM] Audo#5667
+@yorklab I don't have the info about that. MM2 changed some things in general. We can provide a better answer after the DEX release.
+
+
+[02-Jul-19 10:58 AM] PHBA2061 | VietStaking Validator#2530
+``there is interest from very big companies`` 
+That's intriguing ...
+
+
+[02-Jul-19 10:59 AM] phm87#7395
+Do you have a plan to enhance communication/marketing ? SEO, SMO, enhance and promote doc, ... I mean both for tech and non tech ppl.
+
+
+[02-Jul-19 11:00 AM] Mylo#8306
+Yes.
+
+
+[02-Jul-19 11:00 AM] moneystacks#7758
+@everyone Thank you very much for your participation. We hope that we were able to answer your questions as much as possible. If you have any further questions, please ask them in #💬┃general 
+
+Until the next AMA!
+
+{Reactions}
+👍 (19) 🖖 (8) 🎰 (4) 🍀 (2) Komodo (11) 
+
+[02-Jul-19 11:00 AM] TS#7923
+@phm87 Yes, I think SEO in particular (but the other aspects as well) should improve a lot with the rebrand
+
+
+[03-Jul-19 12:32 PM] Audo#5667
+Antara AMA recap can be found from here: https://komodoplatform.com/antara-framework-rebrand-ama/
+
+Full list of questions & answers are here: https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit#
+
+{Embed}
+https://komodoplatform.com/antara-framework-rebrand-ama/
+Antara Framework & Rebrand AMA | Komodo
+Recently we introduced ‘Antara Framework’ through our evolution campaign as well as announced that the full rebrand would launch on July 15th together with the Antara Framework. On Tuesday we hosted an AMA about it and answered a lot of questions our community had.  Here...
+https://images-ext-1.discordapp.net/external/5745e-NV1NcviY6G3lBuz2Lav5W6T9wzTuLsYh3cndI/https/komodoplatform.com/wp-content/uploads/2019/07/Antara-and-Rebrand-AMA.png
+
+{Embed}
+https://docs.google.com/document/d/1czz6tPXqASrzbFTiWO6dQwmU5Jhe0x-5e2r1W-06SOg/edit
+Antara & Rebrand AMA
+Antara Framework & Rebrand AMA July 2nd, 2019    Komodo is an open, modular multi-chain platform with blockchain development roots going back to 2014. Since Komodo is a fork of Zcash, it started its journey as a privacy-oriented project, but has since expanded far beyond that...
+https://images-ext-2.discordapp.net/external/Q89uX_VLrUJVe-9erSqMwKXwWp-FujvjuN-oF0B4iQc/https/lh4.googleusercontent.com/iLjAzOkHOsUsBfM2vVkD6YatDfEN1QV5nYIyxus20qfcca_Hv_TPbtTQQSpxcUTxm0lEFw%3Dw1200-h630-p
+
+{Reactions}
+👍 (4) 
+
+==============================================================
+Exported 206 message(s)
+==============================================================
